@@ -1,0 +1,73 @@
+<!-- Google Analytics 4 - CRIBA -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NFQTYQ0HXH"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-NFQTYQ0HXH', {
+  page_path: window.location.pathname,
+  anonymize_ip: true
+});
+
+// Rastrear clics en enlaces de afiliado
+document.addEventListener('click', function(e) {
+  const link = e.target.closest('a');
+  if (!link) return;
+
+  const href = link.getAttribute('href') || '';
+  const texto = (link.textContent || '').trim().substring(0, 50);
+
+  // Detecta enlaces de afiliado por patrones comunes
+  const esAfiliado =
+    href.includes('tag=') ||
+    href.includes('affiliate') ||
+    href.includes('afiliado') ||
+    href.includes('aff=') ||
+    href.includes('af=') ||
+    href.includes('amazon.com') ||
+    href.includes('mercadolivre.com') ||
+    href.includes('shopee.com') ||
+    href.includes('kabum.com') ||
+    href.includes('pichau.com') ||
+    href.includes('terabyteshop.com') ||
+    href.includes('magazineluiza.com') ||
+    href.includes('aliexpress.com') ||
+    link.classList.contains('aff') ||
+    link.classList.contains('btn-aff');
+
+  if (esAfiliado) {
+    gtag('event', 'click_afiliado', {
+      event_category: 'afiliado',
+      event_label: texto,
+      link_url: href,
+      transport_type: 'beacon'
+    });
+  }
+});
+
+// Rastrear scroll al 75% de la página (usuario interesado)
+let scrollSent = false;
+window.addEventListener('scroll', function() {
+  if (scrollSent) return;
+  const scrolled = (window.scrollY + window.innerHeight) / document.body.scrollHeight;
+  if (scrolled >= 0.75) {
+    scrollSent = true;
+    gtag('event', 'scroll_profundo', {
+      event_category: 'engagement',
+      percent: 75
+    });
+  }
+}, {passive: true});
+
+// Rastrear filtros de categorías (análisis, chollos, etc.)
+document.addEventListener('DOMContentLoaded', function() {
+  document.querySelectorAll('[data-filter], .chip, [data-goto]').forEach(el => {
+    el.addEventListener('click', function() {
+      gtag('event', 'filtro_categoria', {
+        event_category: 'navegacion',
+        filter_name: this.dataset.filter || this.dataset.goto || this.textContent.trim().substring(0,30)
+      });
+    });
+  });
+});
+</script>
