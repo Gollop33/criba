@@ -1,85 +1,42 @@
 {
-  "tiendas": {
-    "KaBuM!": {
-      "programa": "KaBuM! Parceiro",
-      "url_registro": "https://www.kabum.com.br/hotsite/parceiro",
-      "tag_param": "tag",
-      "tag_valor": "TU-TAG-KABUM",
-      "url_base": "https://www.kabum.com.br",
-      "pix_descuento": 0.15,
-      "color": "#FF6500",
-      "activo": true
-    },
-    "Pichau": {
-      "programa": "Pichau Afiliados",
-      "url_registro": "https://www.pichau.com.br/afiliados",
-      "tag_param": "af",
-      "tag_valor": "TU-TAG-PICHAU",
-      "url_base": "https://www.pichau.com.br",
-      "pix_descuento": 0.10,
-      "color": "#00A651",
-      "activo": true
-    },
-    "Terabyte": {
-      "programa": "Terabyteshop Afiliados",
-      "url_registro": "https://www.terabyteshop.com.br/afiliados",
-      "tag_param": "aff",
-      "tag_valor": "TU-TAG-TERABYTE",
-      "url_base": "https://www.terabyteshop.com.br",
-      "pix_descuento": 0.12,
-      "color": "#1B3A5C",
-      "activo": true
-    },
-    "Amazon": {
-      "programa": "Amazon Associados",
-      "url_registro": "https://associados.amazon.com.br",
-      "tag_param": "tag",
-      "tag_valor": "TU-TAG-AMAZON-20",
-      "url_base": "https://www.amazon.com.br",
-      "pix_descuento": 0.00,
-      "color": "#FF9900",
-      "activo": true
-    },
-    "Mercado Livre": {
-      "programa": "Mercado Livre Publicidade",
-      "url_registro": "https://publicidade.mercadolivre.com.br",
-      "tag_param": null,
-      "tag_valor": null,
-      "url_base": "https://www.mercadolivre.com.br",
-      "pix_descuento": 0.05,
-      "color": "#FFE600",
-      "activo": true
-    },
-    "Shopee": {
-      "programa": "Shopee Afiliados",
-      "url_registro": "https://affiliate.shopee.com.br",
-      "tag_param": null,
-      "tag_valor": null,
-      "url_base": "https://shopee.com.br",
-      "pix_descuento": 0.00,
-      "color": "#EE4D2D",
-      "activo": true
-    },
-    "Magalu": {
-      "programa": "Magazine Luiza Parceiro",
-      "url_registro": "https://www.magazinevoce.com.br",
-      "tag_param": null,
-      "tag_valor": null,
-      "url_base": "https://www.magazineluiza.com.br",
-      "pix_descuento": 0.00,
-      "color": "#0086FF",
-      "activo": true
-    },
-    "AliExpress": {
-      "programa": "AliExpress Portals",
-      "url_registro": "https://portals.aliexpress.com",
-      "tag_param": "aff_id",
-      "tag_valor": "TU-TAG-ALI",
-      "url_base": "https://pt.aliexpress.com",
-      "pix_descuento": 0.00,
-      "color": "#E43225",
-      "activo": true
-    }
+  "amazon": {
+    "tag": "PON_AQUI_TU_TAG",
+    "nombre": "Amazon Associados Brasil",
+    "param": "tag"
   },
-  "instrucciones": "COMO CONFIGURAR: 1) Registrate en cada programa (url_registro). 2) Copia tu tag/ID de afiliado. 3) Pega en tag_valor. 4) Los enlaces se generan automaticamente."
+  "mercadolivre": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "Mercado Livre Afiliados",
+    "param": "mattool"
+  },
+  "shopee": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "Shopee Afiliados Brasil",
+    "param": "aff_id"
+  },
+  "kabum": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "KaBuM! Parceiro",
+    "param": "tag"
+  },
+  "pichau": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "Pichau Afiliados",
+    "param": "af"
+  },
+  "terabyte": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "TerabyteShop Afiliados",
+    "param": "aff"
+  },
+  "magalu": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "Magazine Luiza Parceiro",
+    "param": "tag"
+  },
+  "aliexpress": {
+    "id": "PON_AQUI_TU_ID",
+    "nombre": "AliExpress Portals",
+    "param": "aff_id"
+  }
 }

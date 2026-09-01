@@ -402,10 +402,13 @@ def ejecutar():
         parceladas = [o for o in ofertas_puntuadas if o.get("total_parcelado")]
         mejor_parc = min(parceladas, key=lambda o: o["total_parcelado"]) if parceladas else None
 
+        # Priorizar cualquier imagen real disponible entre las ofertas del producto
+        imagen_valida = next((o["imagen"] for o in ofertas_puntuadas if o.get("imagen")), None) or next((o["imagen"] for o in ofertas if o.get("imagen")), None)
+
         salida["productos"].append({
             "nombre": mejor_vista["nombre"],
             "categoria": cfg.get("categoria", ""),
-            "imagen": mejor_vista.get("imagen"),
+            "imagen": imagen_valida,
             "precio_ref": cfg.get("precio_ref"),
             "score": mejor_vista["score"],
             "descuento_pct": mejor_vista["descuento_pct"],
