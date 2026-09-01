@@ -1,8 +1,9 @@
 {
   "amazon": {
-    "tag": "PON_AQUI_TU_TAG",
+    "tag": "criba20-20",
     "nombre": "Amazon Associados Brasil",
-    "param": "tag"
+    "param": "tag",
+    "url_base": "https://www.amazon.com.br"
   },
   "mercadolivre": {
     "id": "PON_AQUI_TU_ID",

@@ -9,7 +9,7 @@ gtag('config', 'G-NFQTYQ0HXH', {
   anonymize_ip: true
 });
 
-// Rastrear clics en enlaces de afiliado
+// Rastrear clics en enlaces de afiliado con captura de ASIN
 document.addEventListener('click', function(e) {
   const link = e.target.closest('a');
   if (!link) return;
@@ -36,12 +36,23 @@ document.addEventListener('click', function(e) {
     link.classList.contains('btn-aff');
 
   if (esAfiliado) {
-    gtag('event', 'click_afiliado', {
+    const eventData = {
       event_category: 'afiliado',
       event_label: texto,
       link_url: href,
       transport_type: 'beacon'
-    });
+    };
+
+    // Si es enlace de Amazon, extraer el ASIN
+    if (href.includes('amazon.com')) {
+      const asinMatch = href.match(/(?:\/dp\/|\/gp\/product\/)([A-Z0-9]{10})/i);
+      if (asinMatch && asinMatch[1]) {
+        eventData.asin = asinMatch[1].toUpperCase();
+        eventData.plataforma = 'Amazon';
+      }
+    }
+
+    gtag('event', 'click_afiliado', eventData);
   }
 });
 

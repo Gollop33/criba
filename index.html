@@ -443,12 +443,22 @@ document.addEventListener('click', function(e) {
     link.classList.contains('btn-aff');
 
   if (esAfiliado) {
-    gtag('event', 'click_afiliado', {
+    const eventData = {
       event_category: 'afiliado',
       event_label: texto,
       link_url: href,
       transport_type: 'beacon'
-    });
+    };
+
+    if (href.includes('amazon.com')) {
+      const asinMatch = href.match(/(?:\/dp\/|\/gp\/product\/)([A-Z0-9]{10})/i);
+      if (asinMatch && asinMatch[1]) {
+        eventData.asin = asinMatch[1].toUpperCase();
+        eventData.plataforma = 'Amazon';
+      }
+    }
+
+    gtag('event', 'click_afiliado', eventData);
   }
 });
 
@@ -948,10 +958,10 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="#">Aviso de afiliación</a><a href="#">Privacidad</a><a href="#">Cookies</a><a href="#">Contacto</a>
       </div>
     </div>
-    <p class="ft-disc"><strong style="color:#F3EFE4">Aviso de afiliación:</strong> CRIBA participa en programas de afiliación de Amazon, PcComponentes y otras tiendas. Si compras mediante nuestros enlaces podemos recibir una comisión, sin recargo alguno para ti. Ninguna marca conoce las puntuaciones antes de su publicación ni paga por aparecer. Precios orientativos verificados por última vez el 26 de agosto de 2026.</p>
+    <p class="ft-disc"><strong style="color:#F3EFE4">Aviso de afiliación:</strong> Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20. CRIBA participa en programas de afiliados (Amazon, KaBuM!, Terabyte, Pichau, Mercado Livre, Shopee, Magalu, AliExpress). Si compras mediante nuestros enlaces podemos recibir una comisión, sin recargo alguno para ti.</p>
     <div class="ft-bottom">
       <span>© 2026 CRIBA · Hecho con café y multímetros</span>
-      <span>Precios verificados: hoy, 09:41</span>
+      <span>Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20. · Precios verificados: hoy</span>
     </div>
   </div>
 </footer>

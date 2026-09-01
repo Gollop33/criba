@@ -84,12 +84,22 @@ document.addEventListener('click', function(e) {
     link.classList.contains('btn-aff');
 
   if (esAfiliado) {
-    gtag('event', 'click_afiliado', {
+    const eventData = {
       event_category: 'afiliado',
       event_label: texto,
       link_url: href,
       transport_type: 'beacon'
-    });
+    };
+
+    if (href.includes('amazon.com')) {
+      const asinMatch = href.match(/(?:\/dp\/|\/gp\/product\/)([A-Z0-9]{10})/i);
+      if (asinMatch && asinMatch[1]) {
+        eventData.asin = asinMatch[1].toUpperCase();
+        eventData.plataforma = 'Amazon';
+      }
+    }
+
+    gtag('event', 'click_afiliado', eventData);
   }
 });
 
@@ -234,7 +244,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
     <div class="ft-bottom">
-      <span>© 2026 CRIBA · Todos los derechos reservados</span>
+      <span>© 2026 CRIBA · Todos los derechos reservados · Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20.</span>
       <span id="ultimaAct">Actualizado: hoy</span>
     </div>
   </div>

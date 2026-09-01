@@ -13,6 +13,18 @@
   },
   {
     "nombre": "Teclado Mecanico Redragon Kumara K552 RGB",
+    "tienda": "Amazon",
+    "categoria": "Teclados",
+    "precio_base": 184.90,
+    "precio_original": 249.90,
+    "cuotas": 6,
+    "cuota_valor": 30.82,
+    "url": "https://www.amazon.com.br/dp/B07D38J36T?tag=criba20-20",
+    "imagen": "img/redragon-kumara.jpg",
+    "ean": "6950376778567"
+  },
+  {
+    "nombre": "Teclado Mecanico Redragon Kumara K552 RGB",
     "tienda": "Terabyte",
     "categoria": "Teclados",
     "precio_base": 189.90,
@@ -44,6 +56,18 @@
     "cuotas": 10,
     "cuota_valor": 18.99,
     "url": "https://www.kabum.com.br/produto/387263/headset-hyperx-cloud-stinger-2?tag=TU-TAG-KABUM",
+    "imagen": "img/hyperx-stinger-2.jpg",
+    "ean": null
+  },
+  {
+    "nombre": "Headset HyperX Cloud Stinger 2",
+    "tienda": "Amazon",
+    "categoria": "Audio",
+    "precio_base": 194.90,
+    "precio_original": 299.90,
+    "cuotas": 6,
+    "cuota_valor": 32.48,
+    "url": "https://www.amazon.com.br/dp/B0B6PYC4M7?tag=criba20-20",
     "imagen": "img/hyperx-stinger-2.jpg",
     "ean": null
   },
@@ -103,7 +127,7 @@
     "precio_original": 269.90,
     "cuotas": 6,
     "cuota_valor": 33.32,
-    "url": "https://www.amazon.com.br/dp/B07CMS5Q6P?tag=TU-TAG-AMAZON-20",
+    "url": "https://www.amazon.com.br/dp/B07CMS5Q6P?tag=criba20-20",
     "imagen": "img/logitech-g305.jpg",
     "ean": null
   },
@@ -157,6 +181,18 @@
   },
   {
     "nombre": "Fone QCY T13 ANC Bluetooth",
+    "tienda": "Amazon",
+    "categoria": "Audio",
+    "precio_base": 65.90,
+    "precio_original": 99.90,
+    "cuotas": 2,
+    "cuota_valor": 32.95,
+    "url": "https://www.amazon.com.br/dp/B098K4V31B?tag=criba20-20",
+    "imagen": "img/qcy-t13.jpg",
+    "ean": null
+  },
+  {
+    "nombre": "Fone QCY T13 ANC Bluetooth",
     "tienda": "Magalu",
     "categoria": "Audio",
     "precio_base": 69.90,
@@ -175,7 +211,7 @@
     "precio_original": 349.00,
     "cuotas": 6,
     "cuota_valor": 36.50,
-    "url": "https://www.amazon.com.br/dp/B09B8RFLL9?tag=TU-TAG-AMAZON-20",
+    "url": "https://www.amazon.com.br/dp/B09B8RFLL9?tag=criba20-20",
     "imagen": "img/echo-dot-5.jpg",
     "ean": null
   },

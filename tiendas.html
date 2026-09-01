@@ -118,12 +118,22 @@ document.addEventListener('click', function(e) {
     link.classList.contains('btn-aff');
 
   if (esAfiliado) {
-    gtag('event', 'click_afiliado', {
+    const eventData = {
       event_category: 'afiliado',
       event_label: texto,
       link_url: href,
       transport_type: 'beacon'
-    });
+    };
+
+    if (href.includes('amazon.com')) {
+      const asinMatch = href.match(/(?:\/dp\/|\/gp\/product\/)([A-Z0-9]{10})/i);
+      if (asinMatch && asinMatch[1]) {
+        eventData.asin = asinMatch[1].toUpperCase();
+        eventData.plataforma = 'Amazon';
+      }
+    }
+
+    gtag('event', 'click_afiliado', eventData);
   }
 });
 
@@ -247,14 +257,14 @@ document.addEventListener('DOMContentLoaded', function() {
       <!-- AMAZON BR -->
       <article class="store-card">
         <div class="store-header" style="background:#FFF8EB">
-          <h3 style="color:#D87A00">Amazon Brasil</h3>
+          <h3 style="color:#D87A00"><a href="https://afiliados.amazon.com.br" target="_blank" rel="noopener" style="color:#D87A00;text-decoration:none">Amazon Brasil</a></h3>
           <span class="store-badge" style="background:#FFF;color:#D87A00">Amazon Prime</span>
         </div>
         <div class="store-body">
-          <p class="store-desc">Envíos rápidos gratis con Prime, dispositivos Echo Alexa, periféricos internacionales y garantía de devolución.</p>
+          <p class="store-desc">Envíos rápidos gratis con Prime, dispositivos Echo Alexa, periféricos internacionales y garantía de devolución. Programa: <a href="https://afiliados.amazon.com.br" target="_blank" rel="noopener" style="color:var(--orange)">Amazon Associados</a>.</p>
           <div class="store-footer">
-            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
-            <a href="https://www.amazon.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+            <span class="tag-indicator">✓ Tag criba20-20</span>
+            <a href="https://www.amazon.com.br?tag=criba20-20" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
           </div>
         </div>
       </article>
@@ -394,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
     <div class="ft-bottom">
-      <span>© 2026 CRIBA · Red de Afiliados Multi-Tienda</span>
+      <span>© 2026 CRIBA · Red de Afiliados Multi-Tienda · Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20.</span>
       <span>8 Plataformas Conectadas</span>
     </div>
   </div>
