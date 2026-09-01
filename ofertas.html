@@ -265,7 +265,7 @@ function renderCard(p){
   <article class="pcard radar pop" data-cat="${p.categoria}">
     ${p.bajo ? '<span class="bajada">⬇ ¡MÍNIMO HISTÓRICO!</span>' : ''}
     <div class="ph">
-      <img src="${p.imagen || 'https://picsum.photos/seed/' + encodeURIComponent(p.nombre) + '/640/440'}" alt="${p.nombre}">
+      <img src="${p.imagen || 'img/fallback.png'}" alt="${p.nombre}" onerror="this.onerror=null;this.src='img/fallback.png';">
       <span class="tag tg-cobalt">${p.categoria}</span>
       ${desc ? `<span class="pct-radar">−${Math.round(desc)}%</span>` : ''}
     </div>
