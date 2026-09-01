@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chollos y Ofertas en Vivo — CRIBA Radar</title>
+<meta name="description" content="Catálogo completo de ofertas verificadas en Brasil. Compara precios à vista (Pix + cupón) y parcelado sem juros en KaBuM!, Terabyte, Pichau, Amazon y más.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.sort-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 24px;
+  background: var(--paper2);
+  border: var(--line);
+  padding: 14px 20px;
+}
+.sort-select {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  padding: 8px 14px;
+  border: 2px solid var(--ink);
+  background: #fff;
+  color: var(--ink);
+  cursor: pointer;
+}
+.stats-badge {
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--green);
+}
+.search-input {
+  font-family: var(--mono);
+  font-size: 13px;
+  padding: 8px 14px;
+  border: 2px solid var(--ink);
+  background: #fff;
+  min-width: 240px;
+}
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="tk-track">
+    <span><i>◆</i> RADAR DE CHOLLOS MULTI-TIENDA ACTIVO</span>
+    <span><i>◆</i> COMPARANDO KABUM! · TERABYTE · PICHAU · AMAZON · SHOPEE · MAGALU</span>
+    <span><i>◆</i> PRECIOS À VISTA PIX + PARCELADO SEM JUROS EN VIVO</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="wrap hd">
+    <a class="logo" href="index.html">CRIBA<b>.</b><small>laboratorio de compras</small></a>
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="ofertas.html" style="color:var(--orange)">Chollos en Vivo</a>
+      <a href="tiendas.html">Tiendas</a>
+      <a href="index.html#metodo">Método</a>
+    </nav>
+    <a class="btn sm" href="#radarGrid">Ver Lista <span class="arr">↓</span></a>
+  </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" style="padding-bottom:30px">
+  <div class="wrap">
+    <span class="kicker">Catálogo Completo</span>
+    <h1>Radar de Precios <br><span class="scr">TODAS LAS OFERTAS</span></h1>
+    <p class="lead">Solo ofertas que superan nuestro filtro de autenticidad: descuento real mínimo de 15%, ahorro superior a R$ 20 y cupones acumulables.</p>
+  </div>
+</section>
+
+<!-- SECCION OFERTAS -->
+<section class="section white" style="padding-top:20px">
+  <div class="wrap">
+    <!-- FILTROS DE CATEGORIA -->
+    <div class="filters" role="tablist" aria-label="Filtrar por categoría">
+      <button class="chip active" data-filter="todo">Todos los Chollos</button>
+      <button class="chip" data-filter="Teclados">Teclados</button>
+      <button class="chip" data-filter="Audio">Audio</button>
+      <button class="chip" data-filter="Monitores">Monitores</button>
+      <button class="chip" data-filter="Mouse">Mouse</button>
+      <button class="chip" data-filter="Mobiliario">Cadeiras & Soportes</button>
+      <button class="chip" data-filter="Storage">SSDs & Storage</button>
+      <button class="chip" data-filter="Componentes">Hardware</button>
+      <button class="chip" data-filter="Smart Home">Alexa & Smart Home</button>
+    </div>
+
+    <!-- BARRA DE BUSQUEDA Y ORDEN -->
+    <div class="sort-bar">
+      <div style="display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+        <input type="text" id="buscador" class="search-input" placeholder="🔍 Buscar producto...">
+        <span class="stats-badge" id="statsTotal">Cargando chollos...</span>
+      </div>
+      <div style="display:flex;gap:10px;align-items:center">
+        <label for="ordenar" class="mono" style="font-size:11px;font-weight:700">ORDENAR:</label>
+        <select id="ordenar" class="sort-select">
+          <option value="score">Mayor Puntuación (Mejor Chollo)</option>
+          <option value="descuento">Mayor % de Descuento</option>
+          <option value="ahorro">Mayor Ahorro (R$)</option>
+          <option value="precio_asc">Precio Más Bajo</option>
+          <option value="precio_desc">Precio Más Alto</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- GRID DE PRODUCTOS -->
+    <div class="grid" id="radarGrid">
+      <p class="mono" style="opacity:.6">⏳ Conectando con el radar de precios...</p>
+    </div>
+  </div>
+</section>
+
+<!-- DISCLOSURE -->
+<section class="disclosure">
+  <div class="wrap disc-grid">
+    <div class="disc-seal">Aviso<br>Afiliados<br>Oficial</div>
+    <div>
+      <h2>Precios actualizados automáticamente</h2>
+      <p>Los precios mostrados son rastreados mediante scripts automatizados y cruzados con cupones vigentes. Los enlaces dirigen a las tiendas oficiales con etiquetas de afiliado certificadas.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <a class="logo" href="index.html">CRIBA<b>.</b></a>
+        <p style="margin-top:14px;font-size:.92rem;max-width:32ch">Radar multi-tienda de hardware y tecnología en Brasil.</p>
+      </div>
+      <div>
+        <h4>Tiendas Afiliadas</h4>
+        <a href="tiendas.html">KaBuM!</a>
+        <a href="tiendas.html">TerabyteShop</a>
+        <a href="tiendas.html">Pichau</a>
+        <a href="tiendas.html">Amazon Brasil</a>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <a href="index.html">Inicio</a>
+        <a href="ofertas.html">Todas las Ofertas</a>
+        <a href="tiendas.html">Directorio de Tiendas</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#">Aviso de Afiliación</a>
+        <a href="#">Privacidad</a>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <span>© 2026 CRIBA · Todos los derechos reservados</span>
+      <span id="ultimaAct">Actualizado: hoy</span>
+    </div>
+  </div>
+</footer>
+
+<div id="toast" role="status" aria-live="polite"></div>
+
+<script>
+const fmtBRL = n => (n ?? 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
+let PRODUCTOS_DATA = [];
+let FILTRO_ACTUAL = 'todo';
+let BUSQUEDA_ACTUAL = '';
+let ORDEN_ACTUAL = 'score';
+
+function haceCuanto(iso){
+  if(!iso) return 'reciente';
+  const min = Math.max(1, Math.round((Date.now() - new Date(iso)) / 60000));
+  return min < 60 ? `hace ${min} min` : `hace ${Math.round(min/60)} h`;
+}
+
+function renderCard(p){
+  const v = p.vista, pc = p.parcelado;
+  const desc = p.descuento_pct || (v.base > v.precio ? Math.round((1 - v.precio / v.base) * 100) : 0);
+  const ahorro = p.ahorro || (p.precio_ref ? (p.precio_ref - v.precio) : 0);
+  
+  return `
+  <article class="pcard radar pop" data-cat="${p.categoria}">
+    ${p.bajo ? '<span class="bajada">⬇ ¡MÍNIMO HISTÓRICO!</span>' : ''}
+    <div class="ph">
+      <img src="${p.imagen || 'https://picsum.photos/seed/' + encodeURIComponent(p.nombre) + '/640/440'}" alt="${p.nombre}">
+      <span class="tag tg-cobalt">${p.categoria}</span>
+      ${desc ? `<span class="pct-radar">−${Math.round(desc)}%</span>` : ''}
+    </div>
+    <div class="bd">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:6px">
+        <span class="tag tg-green" style="font-size:9px">SCORE: ${Math.round(p.score || 70)} PTS</span>
+        ${ahorro > 0 ? `<span class="mono" style="font-size:11px;color:var(--green);font-weight:700">Ahorras R$ ${fmtBRL(ahorro)}</span>` : ''}
+      </div>
+      <h3 style="font-size:1.05rem;line-height:1.2;min-height:2.4em">${p.nombre}</h3>
+      
+      <div class="dual">
+        <div class="avista">
+          <small>À VISTA ${v.pix ? 'NO PIX ' : ''}${v.cupon ? '+ CUPÓN' : ''}</small>
+          <b>R$ ${fmtBRL(v.precio)}</b>
+          ${v.cupon ? `<span class="cupon-chip">🏷 ${v.cupon}</span>` : ''}
+          <span class="de">${v.original ? `De R$ ${fmtBRL(v.original)} · ` : ''}${v.tienda}</span>
+        </div>
+        ${pc ? `<div class="parc">
+          <small>OU PARCELADO SEM JUROS</small>
+          <b>${pc.cuotas}x R$ ${fmtBRL(pc.cuota)}</b>
+          <span class="de">Total R$ ${fmtBRL(pc.total)} · ${pc.tienda}</span>
+        </div>` : '<div class="parc"><small>PARCELADO</small><b>Consulte loja</b></div>'}
+      </div>
+      
+      <div class="cmp">
+        <div style="font-family:var(--mono);font-size:10px;font-weight:700;color:var(--ink2);margin-bottom:4px;text-transform:uppercase">
+          Comparativa de tiendas:
+        </div>
+        ${(p.comparativo || [v]).map((c, i) => `
+          <div class="cmp-row ${i === 0 ? 'win' : ''}">
+            <span>${c.tienda}</span>
+            <span>
+              <b>R$ ${fmtBRL(c.vista)}</b>
+              ${c.cuotas > 1 ? `<i>· ${c.cuotas}x R$ ${fmtBRL(c.parcelado / c.cuotas)}</i>` : ''}
+            </span>
+          </div>
+        `).join('')}
+      </div>
+      
+      <div class="ft">
+        <a class="btn sm aff" href="${v.url}" target="_blank" rel="nofollow sponsored">
+          Pillar en ${v.tienda} <span class="arr">↗</span>
+        </a>
+        <span class="upd">⏱ ${haceCuanto(p.actualizado)}</span>
+      </div>
+    </div>
+  </article>`;
+}
+
+function filtrarYOrdenar(){
+  let items = [...PRODUCTOS_DATA];
+  
+  // Filtro categoria
+  if(FILTRO_ACTUAL !== 'todo'){
+    items = items.filter(p => p.categoria.toLowerCase() === FILTRO_ACTUAL.toLowerCase());
+  }
+  
+  // Filtro busqueda
+  if(BUSQUEDA_ACTUAL.trim()){
+    const q = BUSQUEDA_ACTUAL.toLowerCase();
+    items = items.filter(p => p.nombre.toLowerCase().includes(q) || p.categoria.toLowerCase().includes(q));
+  }
+  
+  // Ordenamiento
+  if(ORDEN_ACTUAL === 'score'){
+    items.sort((a,b) => (b.score || 0) - (a.score || 0));
+  } else if(ORDEN_ACTUAL === 'descuento'){
+    items.sort((a,b) => (b.descuento_pct || 0) - (a.descuento_pct || 0));
+  } else if(ORDEN_ACTUAL === 'ahorro'){
+    items.sort((a,b) => (b.ahorro || 0) - (a.ahorro || 0));
+  } else if(ORDEN_ACTUAL === 'precio_asc'){
+    items.sort((a,b) => a.vista.precio - b.vista.precio);
+  } else if(ORDEN_ACTUAL === 'precio_desc'){
+    items.sort((a,b) => b.vista.precio - a.vista.precio);
+  }
+  
+  // Render
+  const grid = document.getElementById('radarGrid');
+  if(!items.length){
+    grid.innerHTML = '<p class="mono" style="padding:40px 0">No se encontraron chollos que coincidan con los filtros seleccionados.</p>';
+  } else {
+    grid.innerHTML = items.map(renderCard).join('');
+  }
+  
+  document.getElementById('statsTotal').textContent = `${items.length} chollos activos`;
+}
+
+// Eventos de filtros
+document.querySelectorAll('.chip').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.chip').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    FILTRO_ACTUAL = btn.dataset.filter;
+    filtrarYOrdenar();
+  });
+});
+
+// Eventos de busqueda y orden
+document.getElementById('buscador').addEventListener('input', e => {
+  BUSQUEDA_ACTUAL = e.target.value;
+  filtrarYOrdenar();
+});
+
+document.getElementById('ordenar').addEventListener('change', e => {
+  ORDEN_ACTUAL = e.target.value;
+  filtrarYOrdenar();
+});
+
+// Cargar datos
+fetch('productos.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    PRODUCTOS_DATA = (data.productos || []).map(p => ({
+      ...p,
+      actualizado: data.actualizado
+    }));
+    document.getElementById('ultimaAct').textContent = `Verificado: ${haceCuanto(data.actualizado)}`;
+    filtrarYOrdenar();
+  })
+  .catch(err => {
+    document.getElementById('radarGrid').innerHTML = '<p class="mono">⚠ Ejecuta python bot_precios.py para generar las ofertas en productos.json</p>';
+  });
+</script>
+</body>
+</html>

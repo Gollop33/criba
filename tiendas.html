@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiendas y Programas de Afiliados — CRIBA</title>
+<meta name="description" content="Comparamos precios y ofertas verificadas en las principales tiendas de tecnología y gaming de Brasil.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+.store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+.store-card {
+  background: #fff;
+  border: var(--line);
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  transition: transform .2s, box-shadow .2s;
+  overflow: hidden;
+}
+.store-card:hover {
+  transform: translate(-3px, -3px);
+  box-shadow: 9px 9px 0 var(--ink);
+}
+.store-header {
+  padding: 20px 24px;
+  border-bottom: var(--line);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.store-header h3 {
+  font-family: var(--disp);
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.store-body {
+  padding: 24px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.store-badge {
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border: 2px solid var(--ink);
+  width: fit-content;
+}
+.badge-pix {
+  background: #E7F3EA;
+  color: var(--green);
+}
+.store-desc {
+  font-size: 0.92rem;
+  color: var(--ink2);
+}
+.store-footer {
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 2px dashed #D8D2BF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tag-indicator {
+  font-family: var(--mono);
+  font-size: 10px;
+  color: var(--green);
+  font-weight: 700;
+}
+</style>
+</head>
+<body>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="tk-track">
+    <span><i>◆</i> RED DE TIENDAS VIGILADAS EN BRASIL</span>
+    <span><i>◆</i> KABUM! · PICHAU · TERABYTE · AMAZON · MERCADO LIVRE · SHOPEE · MAGALU · ALIEXPRESS</span>
+    <span><i>◆</i> PRECIOS EN TIEMPO REAL · DESCUENTOS PIX · CUPONES VERIFICADOS</span>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header id="header">
+  <div class="wrap hd">
+    <a class="logo" href="index.html">CRIBA<b>.</b><small>laboratorio de compras</small></a>
+    <nav aria-label="Principal">
+      <a href="index.html">Inicio</a>
+      <a href="ofertas.html">Chollos en Vivo</a>
+      <a href="tiendas.html" style="color:var(--orange)">Tiendas</a>
+      <a href="index.html#metodo">Método</a>
+    </nav>
+    <a class="btn sm" href="ofertas.html">Ver Radar <span class="arr">→</span></a>
+  </div>
+</header>
+
+<!-- HERO SECCION -->
+<section class="hero">
+  <div class="wrap">
+    <span class="kicker">Ecosistema de Afiliados</span>
+    <h1>Tiendas Monitoreadas <br><span class="scr">8 PLATAFORMAS</span></h1>
+    <p class="lead">Nuestro radar rastrea catálogos, detecta rebajas simultáneas en múltiples comercios y aplica tus etiquetas de referido para monetizar cada clic y compra.</p>
+  </div>
+</section>
+
+<!-- GRID DE TIENDAS -->
+<section class="section white">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">01/</span>
+      <h2>Plataformas Integradas</h2>
+      <span class="rule"></span>
+      <span class="kicker">Rastreo automatizado</span>
+    </div>
+
+    <div class="store-grid">
+      <!-- KABUM -->
+      <article class="store-card">
+        <div class="store-header" style="background:#FFF3EB">
+          <h3 style="color:#FF6500">KaBuM!</h3>
+          <span class="store-badge badge-pix">15% OFF Pix</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Líder en hardware, periféricos gaming y componentes de PC en Brasil. Descuentos agresivos al pagar con Pix.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://www.kabum.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- PICHAU -->
+      <article class="store-card">
+        <div class="store-header" style="background:#EBF7EE">
+          <h3 style="color:#00A651">Pichau</h3>
+          <span class="store-badge badge-pix">10% OFF Pix</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Especialistas en ensamble de PC Gamer, sillas, periféricos y fuentes de alimentación con excelentes precios de entrada.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://www.pichau.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- TERABYTE -->
+      <article class="store-card">
+        <div class="store-header" style="background:#EAF0F6">
+          <h3 style="color:#1B3A5C">TerabyteShop</h3>
+          <span class="store-badge badge-pix">12% OFF Pix</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Tienda de referencia en memorias RAM, monitores 144Hz/240Hz, gabinetes y placas de video con stock actualizado.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://www.terabyteshop.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- AMAZON BR -->
+      <article class="store-card">
+        <div class="store-header" style="background:#FFF8EB">
+          <h3 style="color:#D87A00">Amazon Brasil</h3>
+          <span class="store-badge" style="background:#FFF;color:#D87A00">Amazon Prime</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Envíos rápidos gratis con Prime, dispositivos Echo Alexa, periféricos internacionales y garantía de devolución.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://www.amazon.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- MERCADO LIVRE -->
+      <article class="store-card">
+        <div class="store-header" style="background:#FFFDEB">
+          <h3 style="color:#A18C00">Mercado Livre</h3>
+          <span class="store-badge badge-pix">5% OFF Pix</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">El marketplace más grande de América Latina. Envíos Full en 24h y miles de tiendas oficiales verificadas.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://www.mercadolivre.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- SHOPEE -->
+      <article class="store-card">
+        <div class="store-header" style="background:#FDEEEC">
+          <h3 style="color:#EE4D2D">Shopee</h3>
+          <span class="store-badge" style="background:#FFF;color:#EE4D2D">Cupones Flash</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Ideal para periféricos económicos, teclados mecánicos 60%, auriculares TWS QCY y accesorios con cupones de envío gratis.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://shopee.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- MAGALU -->
+      <article class="store-card">
+        <div class="store-header" style="background:#EBF5FF">
+          <h3 style="color:#0086FF">Magazine Luiza</h3>
+          <span class="store-badge" style="background:#FFF;color:#0086FF">Retiro en Tienda</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Grandes ofertas en electrónica, Smart TVs, electrodomésticos y conveniencia de retiro inmediato en sucursales físicas.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://www.magazineluiza.com.br" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+
+      <!-- ALIEXPRESS -->
+      <article class="store-card">
+        <div class="store-header" style="background:#FDEBEB">
+          <h3 style="color:#E43225">AliExpress</h3>
+          <span class="store-badge" style="background:#FFF;color:#E43225">Remessa Conforme</span>
+        </div>
+        <div class="store-body">
+          <p class="store-desc">Importaciones directas con impuestos ya calculados. Ideal para switches, keycaps custom y electrónica especializada.</p>
+          <div class="store-footer">
+            <span class="tag-indicator">✓ Tag Afiliado Activo</span>
+            <a href="https://pt.aliexpress.com" target="_blank" rel="nofollow sponsored" class="btn sm aff">Ir a tienda <span class="arr">↗</span></a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- GUIA CONFIGURACION TAGS -->
+<section class="section">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="num">02/</span>
+      <h2>Cómo Configurar tus Tags de Afiliado</h2>
+      <span class="rule"></span>
+      <span class="kicker">Monetización Centralizada</span>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <span class="n">01</span>
+        <div>
+          <h3>Abre config_afiliados.json</h3>
+          <p>En la raíz de la carpeta <code>criba/config_afiliados.json</code> tienes la lista de los 8 programas de afiliados.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="n">02</span>
+        <div>
+          <h3>Coloca tu Tag / ID</h3>
+          <p>Reemplaza valores como <code>TU-TAG-KABUM</code> o <code>TU-TAG-TERABYTE</code> por tu código personal que te dan las plataformas al registrarte.</p>
+        </div>
+      </div>
+      <div class="step">
+        <span class="n">03</span>
+        <div>
+          <h3>El Bot Inyecta los Enlaces Automáticamente</h3>
+          <p>Cada vez que corre <code>bot_precios.py</code>, genera las tarjetas con tus links de afiliado listos para comisionar compras.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- DISCLOSURE -->
+<section class="disclosure">
+  <div class="wrap disc-grid">
+    <div class="disc-seal">Aviso<br>Legal<br>Afiliados</div>
+    <div>
+      <h2>Transparencia total con los enlaces</h2>
+      <p>CRIBA participa en programas de afiliados (KaBuM!, Terabyte, Pichau, Amazon, Shopee, Mercado Livre, Magalu, AliExpress). Al comprar a través de nuestros enlaces recibimos una comisión <b>sin coste extra para ti</b>.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="wrap">
+    <div class="ft-grid">
+      <div>
+        <a class="logo" href="index.html">CRIBA<b>.</b></a>
+        <p style="margin-top:14px;font-size:.92rem;max-width:32ch">Radar de ofertas y comparador independiente con seguimiento en vivo.</p>
+      </div>
+      <div>
+        <h4>Navegación</h4>
+        <a href="index.html">Inicio</a>
+        <a href="ofertas.html">Chollos en Vivo</a>
+        <a href="tiendas.html">Tiendas Afiliadas</a>
+      </div>
+      <div>
+        <h4>Recursos</h4>
+        <a href="index.html#metodo">Nuestro Método</a>
+        <a href="index.html#boletin">Boletín de Ofertas</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#">Aviso de Afiliación</a>
+        <a href="#">Privacidad</a>
+      </div>
+    </div>
+    <div class="ft-bottom">
+      <span>© 2026 CRIBA · Red de Afiliados Multi-Tienda</span>
+      <span>8 Plataformas Conectadas</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

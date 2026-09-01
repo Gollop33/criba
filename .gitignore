@@ -1,0 +1,15 @@
+# Base de datos y estado
+precios.db
+estado_alertas.json
+
+# No subir credenciales hardcodeadas a repos públicos
+# (usa GitHub Secrets en su lugar: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+Thumbs.db
+.DS_Store
