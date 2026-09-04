@@ -8,6 +8,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Instrument+Sans:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
 <link rel="stylesheet" href="css/style.css">
 <style>
 .sort-bar {
@@ -319,6 +321,13 @@ function renderCard(p){
         `).join('')}
       </div>
       
+      <div style="font-family:var(--mono);font-size:10px;font-weight:700;color:var(--ink2);margin-top:16px;margin-bottom:2px;text-transform:uppercase">
+        📈 Histórico de precios:
+      </div>
+      <div class="chart-container" style="position: relative; height:240px; width:100%; margin-top: 6px; margin-bottom: 12px;">
+        <canvas id="priceChart-${p.id}"></canvas>
+      </div>
+
       <div class="ft">
         <a class="btn sm aff" href="${v.url}" target="_blank" rel="nofollow sponsored">
           Pillar en ${v.tienda} <span class="arr">↗</span>
@@ -327,6 +336,129 @@ function renderCard(p){
       </div>
     </div>
   </article>`;
+}
+
+const STORE_COLORS = {
+  'KaBuM!': '#FF6500',
+  'Pichau': '#00A651',
+  'Terabyte': '#1B3A5C',
+  'Amazon': '#D87A00',
+  'Mercado Livre': '#E5A800',
+  'Shopee': '#EE4D2D',
+  'Magalu': '#0086FF',
+  'AliExpress': '#E43225'
+};
+
+window.priceCharts = window.priceCharts || {};
+
+function renderPriceChart(productId, historicoData) {
+  if (!historicoData || !window.Chart) return;
+  const canvas = document.getElementById('priceChart-' + productId);
+  if (!canvas) return;
+
+  if (window.priceCharts[productId]) {
+    try { window.priceCharts[productId].destroy(); } catch(e) {}
+  }
+
+  // Encontrar el mínimo global para destacarlo
+  let minGlobal = Infinity;
+  Object.values(historicoData).forEach(pts => {
+    (pts || []).forEach(pt => {
+      if (typeof pt.precio === 'number' && pt.precio < minGlobal) {
+        minGlobal = pt.precio;
+      }
+    });
+  });
+
+  const datasets = Object.keys(historicoData).map((tienda, idx) => {
+    const puntos = historicoData[tienda] || [];
+    const color = STORE_COLORS[tienda] || ['#14724A', '#2A4FD0', '#FF4D12', '#F2B705'][idx % 4];
+
+    const pointRadius = puntos.map(pt => (pt.precio === minGlobal) ? 6.5 : 2.5);
+    const pointHoverRadius = puntos.map(pt => (pt.precio === minGlobal) ? 8.5 : 4.5);
+    const pointBg = puntos.map(pt => (pt.precio === minGlobal) ? '#14724A' : color);
+    const pointBorder = puntos.map(pt => (pt.precio === minGlobal) ? '#FFFFFF' : color);
+    const pointBorderW = puntos.map(pt => (pt.precio === minGlobal) ? 2.5 : 1);
+
+    return {
+      label: tienda,
+      data: puntos.map(pt => ({ x: pt.fecha, y: pt.precio })),
+      borderColor: color,
+      backgroundColor: color + '15',
+      borderWidth: 2,
+      tension: 0.25,
+      pointRadius: pointRadius,
+      pointHoverRadius: pointHoverRadius,
+      pointBackgroundColor: pointBg,
+      pointBorderColor: pointBorder,
+      pointBorderWidth: pointBorderW
+    };
+  });
+
+  const ctx = canvas.getContext('2d');
+  window.priceCharts[productId] = new Chart(ctx, {
+    type: 'line',
+    data: { datasets },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: {
+          display: true,
+          position: 'top',
+          labels: {
+            font: { family: "'Space Mono', monospace", size: 10 },
+            boxWidth: 10,
+            usePointStyle: true
+          }
+        },
+        tooltip: {
+          backgroundColor: '#17150F',
+          titleFont: { family: "'Archivo Black', sans-serif", size: 11 },
+          bodyFont: { family: "'Space Mono', monospace", size: 11 },
+          padding: 8,
+          callbacks: {
+            label: function(ctx) {
+              const val = ctx.parsed.y;
+              const isMin = val === minGlobal;
+              return `${ctx.dataset.label}: R$ ${Number(val).toLocaleString('pt-BR', {minimumFractionDigits: 2})}${isMin ? ' 🏆 ¡MÍNIMO!' : ''}`;
+            }
+          }
+        }
+      },
+      scales: {
+        x: {
+          grid: { display: false },
+          ticks: {
+            font: { family: "'Space Mono', monospace", size: 9 },
+            color: '#666',
+            callback: function(val) {
+              const raw = this.getLabelForValue ? this.getLabelForValue(val) : val;
+              if (typeof raw === 'string' && raw.includes('-')) {
+                const p = raw.split('-');
+                if (p.length === 3) {
+                  const m = ['ene','feb','mar','abr','may','jun','jul','ago','sep','oct','nov','dic'];
+                  return `${p[2]} ${m[parseInt(p[1],10)-1]||''}`;
+                }
+              }
+              return raw;
+            }
+          }
+        },
+        y: {
+          grid: { color: 'rgba(0,0,0,0.06)' },
+          ticks: {
+            font: { family: "'Space Mono', monospace", size: 9 },
+            color: '#666',
+            callback: function(val) {
+              return 'R$ ' + Number(val).toLocaleString('pt-BR', {minimumFractionDigits: 2});
+            }
+          }
+        }
+      }
+    }
+  });
 }
 
 function filtrarYOrdenar(){
@@ -362,6 +494,11 @@ function filtrarYOrdenar(){
     grid.innerHTML = '<p class="mono" style="padding:40px 0">No se encontraron chollos que coincidan con los filtros seleccionados.</p>';
   } else {
     grid.innerHTML = items.map(renderCard).join('');
+    items.forEach(p => {
+      if (p.historico && Object.keys(p.historico).length) {
+        renderPriceChart(p.id, p.historico);
+      }
+    });
   }
   
   document.getElementById('statsTotal').textContent = `${items.length} chollos activos`;

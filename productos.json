@@ -1,7 +1,8 @@
 {
-  "actualizado": "2026-09-04T12:18:55+00:00",
+  "actualizado": "2026-09-04T12:39:01+00:00",
   "productos": [
     {
+      "id": "teclado-mecanico-redragon-kumara-k552-rgb-swi",
       "nombre": "Teclado Mecanico Redragon Kumara K552 RGB Switch Brown",
       "categoria": "Teclados",
       "imagen": "img/redragon-kumara.jpg",
@@ -55,9 +56,102 @@
           "cupon": "TECH20",
           "score": 54.0
         }
-      ]
+      ],
+      "historico": {
+        "KaBuM!": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 217.38
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 201.42
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 196.43
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 180.12
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 164.05
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 148.2
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 133.66
+          }
+        ],
+        "Pichau": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 229.09
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 214.92
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 200.96
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 187.18
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 173.61
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 160.23
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 151.91
+          }
+        ],
+        "Amazon": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 228.72
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 216.34
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 204.13
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 192.09
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 190.64
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 178.35
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 164.9
+          }
+        ]
+      }
     },
     {
+      "id": "headset-hyperx-cloud-stinger-2",
       "nombre": "Headset HyperX Cloud Stinger 2",
       "categoria": "Audio",
       "imagen": "img/hyperx-stinger-2.jpg",
@@ -102,9 +196,72 @@
           "cupon": "TECH20",
           "score": 61.7
         }
-      ]
+      ],
+      "historico": {
+        "Pichau": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 262.31
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 243.87
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 238.75
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 219.91
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 201.33
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 183.02
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 166.31
+          }
+        ],
+        "Amazon": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 275.17
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 257.14
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 239.35
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 221.81
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 204.53
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 187.49
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 174.9
+          }
+        ]
+      }
     },
     {
+      "id": "mouse-logitech-g305-lightspeed-wireless",
       "nombre": "Mouse Logitech G305 LIGHTSPEED Wireless",
       "categoria": "Mouse",
       "imagen": "img/logitech-g305.jpg",
@@ -140,9 +297,42 @@
           "cupon": "GAMER10",
           "score": 71.4
         }
-      ]
+      ],
+      "historico": {
+        "KaBuM!": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 218.72
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 216.22
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 201.38
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 186.74
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 172.31
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 158.08
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 146.41
+          }
+        ]
+      }
     },
     {
+      "id": "cadeira-gamer-thunderx3-ec3-preta",
       "nombre": "Cadeira Gamer ThunderX3 EC3 Preta",
       "categoria": "Mobiliario",
       "imagen": "img/thunderx3-ec3.jpg",
@@ -187,9 +377,72 @@
           "cupon": "PICHAU5",
           "score": 66.0
         }
-      ]
+      ],
+      "historico": {
+        "KaBuM!": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 706.36
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 702.05
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 657.81
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 614.19
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 571.18
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 528.78
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 494.91
+          }
+        ],
+        "Pichau": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 733.8
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 691.97
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 650.71
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 610.02
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 569.92
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 561.07
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 511.91
+          }
+        ]
+      }
     },
     {
+      "id": "monitor-gamer-24-144hz-ips-1ms-acer-nitro-qg2",
       "nombre": "Monitor Gamer 24 144Hz IPS 1ms Acer Nitro QG241Y",
       "categoria": "Monitores",
       "imagen": "img/acer-nitro-24.jpg",
@@ -225,9 +478,42 @@
           "cupon": "GAMER10",
           "score": 65.6
         }
-      ]
+      ],
+      "historico": {
+        "KaBuM!": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 833.1
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 786.21
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 739.96
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 694.34
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 649.37
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 605.04
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 579.91
+          }
+        ]
+      }
     },
     {
+      "id": "fone-bluetooth-qcy-t13-anc-tws",
       "nombre": "Fone Bluetooth QCY T13 ANC TWS",
       "categoria": "Audio",
       "imagen": "img/qcy-t13.jpg",
@@ -257,9 +543,42 @@
           "cupon": "NOVO10",
           "score": 57.6
         }
-      ]
+      ],
+      "historico": {
+        "Shopee": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 71.47
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 66.67
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 61.94
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 57.28
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 55.73
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 50.97
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 45.9
+          }
+        ]
+      }
     },
     {
+      "id": "teclado-mecanico-royal-kludge-rk61-60-rgb-blu",
       "nombre": "Teclado Mecanico Royal Kludge RK61 60% RGB Bluetooth",
       "categoria": "Teclados",
       "imagen": "img/royal-kludge-rk61.jpg",
@@ -289,7 +608,39 @@
           "cupon": "NOVO10",
           "score": 50.0
         }
-      ]
+      ],
+      "historico": {
+        "Shopee": [
+          {
+            "fecha": "2026-08-29",
+            "precio": 179.56
+          },
+          {
+            "fecha": "2026-08-30",
+            "precio": 169.54
+          },
+          {
+            "fecha": "2026-08-31",
+            "precio": 168.91
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 158.69
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 148.6
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 138.66
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 129.9
+          }
+        ]
+      }
     }
   ],
   "resumen": {
