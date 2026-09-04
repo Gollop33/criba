@@ -405,6 +405,40 @@ def ejecutar():
         # Priorizar cualquier imagen real disponible entre las ofertas del producto
         imagen_valida = next((o["imagen"] for o in ofertas_puntuadas if o.get("imagen")), None) or next((o["imagen"] for o in ofertas if o.get("imagen")), None)
 
+        # Construir lista comparativa
+        comp_items = [{
+            "tienda": o["tienda"], "vista": o["precio_vista"],
+            "parcelado": o.get("total_parcelado"), "cuotas": o.get("cuotas", 0),
+            "url": o["url"], "cupon": o.get("cupon"), "score": o["score"],
+        } for o in ofertas_puntuadas]
+
+        # Si un producto tiene "url_ml" no vacío, agregar "Mercado Livre" como tienda extra en el comparativo
+        for m in manuales:
+            clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or any(o.get("ean") == m["ean"] for o in ofertas))
+            nombre_coincide = m.get("nombre") and normalizar(cfg["busqueda"]) in normalizar(m["nombre"])
+            if (clave_coincide or nombre_coincide) and m.get("url_ml") and m["url_ml"].strip():
+                ml_url = m["url_ml"].strip()
+                ml_precio = m.get("precio_ml") or m.get("precio_base") or cfg.get("precio_ref", 0)
+                ml_precio = round(float(ml_precio), 2)
+                ml_existente = next((c for c in comp_items if c["tienda"] == "Mercado Livre"), None)
+                if ml_existente:
+                    ml_existente["url"] = ml_url
+                    if m.get("precio_ml"):
+                        ml_existente["vista"] = ml_precio
+                else:
+                    comp_items.append({
+                        "tienda": "Mercado Livre",
+                        "vista": ml_precio,
+                        "parcelado": ml_precio,
+                        "cuotas": 10,
+                        "url": ml_url,
+                        "cupon": None,
+                        "score": 60.0,
+                    })
+                break
+
+        comp_items.sort(key=lambda x: x["vista"])
+
         salida["productos"].append({
             "nombre": mejor_vista["nombre"],
             "categoria": cfg.get("categoria", ""),
@@ -431,11 +465,7 @@ def ejecutar():
                 "tienda": mejor_parc["tienda"],
                 "url": mejor_parc["url"],
             },
-            "comparativo": sorted([{
-                "tienda": o["tienda"], "vista": o["precio_vista"],
-                "parcelado": o.get("total_parcelado"), "cuotas": o.get("cuotas", 0),
-                "url": o["url"], "cupon": o.get("cupon"), "score": o["score"],
-            } for o in ofertas_puntuadas], key=lambda x: x["vista"]),
+            "comparativo": comp_items,
         })
 
     con.close()

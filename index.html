@@ -430,15 +430,17 @@ document.addEventListener('click', function(e) {
     href.includes('affiliate') ||
     href.includes('afiliado') ||
     href.includes('aff=') ||
-    href.includes('af=') ||
     href.includes('amazon.com') ||
-    href.includes('mercadolivre.com') ||
+    href.includes('mercadolivre') ||
+    href.includes('mercadolivre.com.br') ||
+    href.includes('mercadolibre') ||
     href.includes('shopee.com') ||
     href.includes('kabum.com') ||
     href.includes('pichau.com') ||
     href.includes('terabyteshop.com') ||
     href.includes('magazineluiza.com') ||
     href.includes('aliexpress.com') ||
+    texto.toLowerCase().includes('mercado livre') ||
     link.classList.contains('aff') ||
     link.classList.contains('btn-aff');
 
@@ -456,6 +458,8 @@ document.addEventListener('click', function(e) {
         eventData.asin = asinMatch[1].toUpperCase();
         eventData.plataforma = 'Amazon';
       }
+    } else if (href.includes('mercadolivre') || href.includes('mercadolibre') || texto.toLowerCase().includes('mercado livre')) {
+      eventData.plataforma = 'Mercado Livre';
     }
 
     gtag('event', 'click_afiliado', eventData);
@@ -958,10 +962,10 @@ document.addEventListener('DOMContentLoaded', function() {
         <a href="#">Aviso de afiliación</a><a href="#">Privacidad</a><a href="#">Cookies</a><a href="#">Contacto</a>
       </div>
     </div>
-    <p class="ft-disc"><strong style="color:#F3EFE4">Aviso de afiliación:</strong> Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20. CRIBA participa en programas de afiliados (Amazon, KaBuM!, Terabyte, Pichau, Mercado Livre, Shopee, Magalu, AliExpress). Si compras mediante nuestros enlaces podemos recibir una comisión, sin recargo alguno para ti.</p>
+    <p class="ft-disc"><strong style="color:#F3EFE4">Aviso de afiliación:</strong> Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20. Como participante do programa de afiliados do Mercado Livre, recebo comissões por compras qualificadas realizadas pela minha audiência. CRIBA participa en programas de afiliados (Amazon, Mercado Livre, KaBuM!, Terabyte, Pichau, Shopee, Magalu, AliExpress). Si compras mediante nuestros enlaces podemos recibir una comisión, sin recargo alguno para ti.</p>
     <div class="ft-bottom">
       <span>© 2026 CRIBA · Hecho con café y multímetros</span>
-      <span>Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20. · Precios verificados: hoy</span>
+      <span>Amazon ID: criba20-20 · Mercado Livre: ja20250119201346 · Precios verificados: hoy</span>
     </div>
   </div>
 </footer>
@@ -1158,7 +1162,7 @@ function radarCard(p){
         </div>` : '<div class="parc"><small>SIN PARCELADO</small><b>—</b></div>'}
       </div>
       <div class="cmp">
-        ${p.comparativo.slice(0,4).map((c,i)=>`
+        ${p.comparativo.slice(0,6).map((c,i)=>`
           <div class="cmp-row ${i===0?'win':''}">
             <span>${c.tienda}</span>
             <span><b>R$ ${fmtBRL(c.vista)}</b>${c.cuotas>1?`<i>· ${c.cuotas}x R$ ${fmtBRL(c.parcelado/c.cuotas)}</i>`:''}</span>

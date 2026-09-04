@@ -71,15 +71,17 @@ document.addEventListener('click', function(e) {
     href.includes('affiliate') ||
     href.includes('afiliado') ||
     href.includes('aff=') ||
-    href.includes('af=') ||
     href.includes('amazon.com') ||
-    href.includes('mercadolivre.com') ||
+    href.includes('mercadolivre') ||
+    href.includes('mercadolivre.com.br') ||
+    href.includes('mercadolibre') ||
     href.includes('shopee.com') ||
     href.includes('kabum.com') ||
     href.includes('pichau.com') ||
     href.includes('terabyteshop.com') ||
     href.includes('magazineluiza.com') ||
     href.includes('aliexpress.com') ||
+    texto.toLowerCase().includes('mercado livre') ||
     link.classList.contains('aff') ||
     link.classList.contains('btn-aff');
 
@@ -97,6 +99,8 @@ document.addEventListener('click', function(e) {
         eventData.asin = asinMatch[1].toUpperCase();
         eventData.plataforma = 'Amazon';
       }
+    } else if (href.includes('mercadolivre') || href.includes('mercadolibre') || texto.toLowerCase().includes('mercado livre')) {
+      eventData.plataforma = 'Mercado Livre';
     }
 
     gtag('event', 'click_afiliado', eventData);
@@ -244,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
       </div>
     </div>
     <div class="ft-bottom">
-      <span>© 2026 CRIBA · Todos los derechos reservados · Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20.</span>
+      <span>© 2026 CRIBA · Todos los derechos reservados · Como Associado da Amazon, eu recebo comissões por compras qualificadas. Sua ID de Associado é criba20-20. Como participante do programa de afiliados do Mercado Livre, recebo comissões por compras qualificadas realizadas pela minha audiência.</span>
       <span id="ultimaAct">Actualizado: hoy</span>
     </div>
   </div>
