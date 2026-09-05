@@ -406,6 +406,15 @@ footer .logo{color:var(--paper2)}
 .cmp-row.win{background:#E7F3EA;font-weight:700}
 .cmp-row.win span::before{content:"✓ ";color:var(--green)}
 .upd{font-family:var(--mono);font-size:10px;opacity:.55;letter-spacing:.04em}
+/* ============ SECCION CUPONES (index.html) ============ */
+.cupons-mini-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(290px,1fr));gap:18px;margin-top:28px}
+.mini-coupon{background:#fff;border:var(--line);box-shadow:var(--shadow);padding:18px 20px;display:flex;flex-direction:column;gap:10px;transition:transform .18s,box-shadow .18s;position:relative}
+.mini-coupon:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}
+.mini-coupon-store{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--ink2)}
+.mini-coupon-title{font-weight:700;font-size:.95rem;line-height:1.25}
+.mini-coupon-code{font-family:var(--mono);font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;background:var(--paper);border:2px dashed var(--ink);padding:8px 12px;text-align:center}
+.mini-coupon-cta{display:inline-flex;align-items:center;justify-content:space-between;gap:8px;margin-top:4px}
+.mini-coupon-badge{font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;background:var(--orange);color:var(--paper2);border:2px solid var(--ink);padding:3px 9px}
 </style>
 
 <!-- Google Analytics 4 - CRIBA -->
@@ -517,6 +526,7 @@ document.addEventListener('DOMContentLoaded', function() {
       <a href="#comparativa">Comparativa</a>
       <a href="#analisis">Análisis</a>
       <a href="ofertas.html" style="color:var(--orange)">🔥 Chollos en Vivo</a>
+      <a href="cupones.html">🎟️ Cupons</a>
       <a href="tiendas.html">Tiendas</a>
       <a href="#radar">Radar</a>
       <a href="#metodo">Método</a>
@@ -920,6 +930,22 @@ document.addEventListener('DOMContentLoaded', function() {
     <div>
       <h2>Transparencia total con los enlaces</h2>
       <p>Algunos enlaces de esta web son de afiliado: si compras a través de ellos, la tienda nos da una pequeña comisión <b>sin coste extra para ti</b>. Las marcas nunca ven las notas antes de publicarlas, ni pagan por aparecer. Lo que sí pagamos nosotros: cada producto probado, de nuestro bolsillo.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CUPONES DESTACADOS ============ -->
+<section class="section" id="cupones" style="background:var(--paper2);border-top:var(--line);border-bottom:var(--line)">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="kicker">Atualizado automático</span>
+      <h2>Cupons em Alta</h2>
+      <span class="rule"></span>
+      <a href="cupones.html" class="btn sm" style="margin-left:auto">Ver todos <span class="arr">→</span></a>
+    </div>
+    <p style="font-size:.9rem;color:var(--ink2);max-width:58ch;margin-bottom:8px">Scraped automaticamente de <b>Pelando.com.br</b> — só os ativos neste momento.</p>
+    <div class="cupons-mini-grid" id="cuponsMiniGrid">
+      <p class="mono" style="opacity:.5">Carregando cupons...</p>
     </div>
   </div>
 </section>
@@ -1332,6 +1358,50 @@ function cargarRadar(){
 }
 cargarRadar();
 setInterval(cargarRadar, 5 * 60 * 1000);
+
+// ============ CUPONES MINI (index.html) ============
+function cargarCuponsMini() {
+  const grid = document.getElementById('cuponsMiniGrid');
+  if (!grid) return;
+  fetch('cupones.json?t=' + Date.now())
+    .then(r => { if (!r.ok) throw 0; return r.json(); })
+    .then(data => {
+      const lista = Array.isArray(data) ? data : (data.cupones || []);
+      const hoy = new Date().toISOString().slice(0, 10);
+      const vigentes = lista.filter(c => {
+        if (c.hasta && c.hasta !== '9999-12-31') return c.hasta >= hoy;
+        if (c.vigente === false) return false;
+        return true;
+      });
+      // Mostrar los primeros 3 con codigo definido, o los primeros 3 en general
+      const conCodigo = vigentes.filter(c => c.codigo && c.codigo.trim().length > 2);
+      const top3 = (conCodigo.length >= 3 ? conCodigo : vigentes).slice(0, 3);
+
+      if (!top3.length) {
+        grid.innerHTML = '<p class="mono" style="opacity:.5">Sem cupons ativos agora.</p>';
+        return;
+      }
+      grid.innerHTML = top3.map(c => {
+        const temCodigo = c.codigo && c.codigo.trim().length > 2;
+        const urlFinal = c.url || c.url_afiliado || '#';
+        return `
+<div class="mini-coupon">
+  ${c.desconto ? `<span class="mini-coupon-badge">${c.desconto}</span>` : ''}
+  <div class="mini-coupon-store">${c.tienda}</div>
+  <div class="mini-coupon-title">${c.titulo}</div>
+  ${temCodigo ? `<div class="mini-coupon-code">${c.codigo}</div>` : '<div class="mini-coupon-code" style="font-family:var(--body);font-size:.82rem;letter-spacing:0;font-weight:400;font-style:italic">Desconto automático</div>'}
+  <div class="mini-coupon-cta">
+    ${temCodigo ? `<button onclick="navigator.clipboard.writeText('${c.codigo}').then(()=>{this.textContent='✓ Copiado!';setTimeout(()=>this.textContent='Copiar código',2000)})" style="font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;border:2px solid var(--ink);background:var(--ink);color:var(--paper2);padding:7px 12px;cursor:pointer;letter-spacing:.08em">Copiar código</button>` : '<span></span>'}
+    <a href="${urlFinal}" target="_blank" rel="noopener sponsored" style="font-family:var(--mono);font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.09em;color:var(--orange)">Ver oferta →</a>
+  </div>
+</div>`;
+      }).join('');
+    })
+    .catch(() => {
+      if (grid) grid.innerHTML = '';
+    });
+}
+cargarCuponsMini();
 </script>
 </body>
 </html>
