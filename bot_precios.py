@@ -98,17 +98,41 @@ def normalizar(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9 ]", "", s.lower())
 
+LOGS_DIR = BASE / "logs"
+LOGS_DIR.mkdir(exist_ok=True)
+LOG_EJECUCION = LOGS_DIR / "ejecucion.log"
+
+def registrar_fallo(tienda, error_msg, query=""):
+    """Registra fallos de scraping en logs/ejecucion.log con fecha y hora."""
+    try:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        detalle = f" (query: '{query}')" if query else ""
+        with open(LOG_EJECUCION, "a", encoding="utf-8") as f:
+            f.write(f"[{timestamp}] [FALLO] {tienda}{detalle}: {error_msg}\n")
+    except Exception as e:
+        print(f"  [Log Error] No se pudo escribir en log: {e}")
+
 # ================= BUSCADORES =================
 
 def buscar_mercadolivre(q):
-    """API oficial de Mercado Livre Brasil: gratis, sin clave."""
-    try:
-        r = requests.get("https://api.mercadolibre.com/sites/MLB/search",
-                         params={"q": q, "limit": 8, "sort": "price_asc"},
-                         headers=UA, timeout=20)
-        r.raise_for_status()
-    except Exception as e:
-        print(f"  [ML] error: {e}"); return []
+    """API oficial de Mercado Livre Brasil con reintentos."""
+    max_intentos = 3  # 1 intento inicial + 2 reintentos
+    r = None
+    for intento in range(1, max_intentos + 1):
+        try:
+            r = requests.get("https://api.mercadolibre.com/sites/MLB/search",
+                             params={"q": q, "limit": 8, "sort": "price_asc"},
+                             headers=UA, timeout=20)
+            r.raise_for_status()
+            break
+        except Exception as e:
+            if intento < max_intentos:
+                print(f"  [ML] Intento {intento} falló ({e}). Reintentando en 10s... ({intento}/2)")
+                time.sleep(10)
+            else:
+                print(f"  [ML] Error tras 2 reintentos: {e}")
+                registrar_fallo("Mercado Livre", str(e), q)
+                return []
 
     out = []
     for it in r.json().get("results", []):
@@ -152,15 +176,26 @@ def buscar_mercadolivre(q):
     return out
 
 def buscar_shopee(q):
-    """API no oficial de Shopee Brasil."""
-    try:
-        r = requests.get("https://shopee.com.br/api/v4/search/search_items",
-            params={"by": "relevancy", "keyword": q, "limit": 5, "newest": 0,
-                    "order": "desc", "page_type": "search"},
-            headers={**UA, "Referer": "https://shopee.com.br/"}, timeout=20)
-        data = r.json()
-    except Exception as e:
-        print(f"  [Shopee] error: {e}"); return []
+    """API no oficial de Shopee Brasil con reintentos."""
+    max_intentos = 3  # 1 intento inicial + 2 reintentos
+    data = None
+    for intento in range(1, max_intentos + 1):
+        try:
+            r = requests.get("https://shopee.com.br/api/v4/search/search_items",
+                params={"by": "relevancy", "keyword": q, "limit": 5, "newest": 0,
+                        "order": "desc", "page_type": "search"},
+                headers={**UA, "Referer": "https://shopee.com.br/"}, timeout=20)
+            r.raise_for_status()
+            data = r.json()
+            break
+        except Exception as e:
+            if intento < max_intentos:
+                print(f"  [Shopee] Intento {intento} falló ({e}). Reintentando en 10s... ({intento}/2)")
+                time.sleep(10)
+            else:
+                print(f"  [Shopee] Error tras 2 reintentos: {e}")
+                registrar_fallo("Shopee", str(e), q)
+                return []
 
     out = []
     for it in data.get("items", []):
