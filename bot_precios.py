@@ -12,6 +12,12 @@ from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
 
+try:
+    from bs4 import BeautifulSoup
+    BS4_OK = True
+except ImportError:
+    BS4_OK = False
+
 # Fix Windows console encoding
 if sys.stdout.encoding != 'utf-8':
     sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
@@ -21,6 +27,16 @@ BASE   = Path(__file__).parent
 DB     = BASE / "precios.db"
 SALIDA = BASE / "productos.json"
 UA     = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"}
+
+# ─── Programa de Afiliados de Mercado Livre ───────────────────────────────────
+ML_AFILIADO_ID = "ja20250119201346"
+UA_FULL = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
+    "Accept-Encoding": "gzip, deflate, br",
+}
+
 
 # ================= CONFIGURACION =================
 
@@ -112,7 +128,141 @@ def registrar_fallo(tienda, error_msg, query=""):
     except Exception as e:
         print(f"  [Log Error] No se pudo escribir en log: {e}")
 
+def registrar_log_ml(msg):
+    """Registra un evento del scraping de ML en ejecucion.log."""
+    try:
+        timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+        with open(LOG_EJECUCION, "a", encoding="utf-8") as f:
+            f.write(f"[{timestamp}] [ML] {msg}\n")
+    except Exception:
+        pass
+
+# ──────────────────────────────────────────────────────────────────────────────
+# LINKS DE AFILIADO MERCADO LIVRE
+# ──────────────────────────────────────────────────────────────────────────────
+
+def construir_link_afiliado_ml(url_original):
+    """
+    Añade el tag de afiliado a cualquier URL de Mercado Livre.
+    Formato oficial del programa: url#D[A:ID_AFILIADO]
+    """
+    if not url_original:
+        return url_original
+    url = url_original.split("#")[0].rstrip("?&")  # limpiar fragment anterior
+    return f"{url}#D[A:{ML_AFILIADO_ID}]"
+
+
+def buscar_ml_scraping(nombre):
+    """
+    Busca un producto en Mercado Livre automáticamente.
+    Retorna {'url': str, 'precio_ml': float|None} o None.
+
+    Estrategia (3 capas):
+      1. API oficial de ML  (funciona en GitHub Actions; bloqueada por IP local)
+      2. Scraping HTML del buscador de ML con BeautifulSoup
+      3. Fallback: URL de búsqueda con tag de afiliado (sin precio exacto)
+    """
+    slug = re.sub(r"[^a-z0-9]+", "-", normalizar(nombre)).strip("-")
+
+    # ── Capa 1: API oficial de ML ──────────────────────────────────────────
+    try:
+        r = requests.get(
+            "https://api.mercadolibre.com/sites/MLB/search",
+            params={"q": nombre, "limit": 3, "sort": "relevance"},
+            headers=UA, timeout=12,
+        )
+        if r.status_code == 200:
+            for it in r.json().get("results", []):
+                if it.get("price", 0) > 0 and it.get("permalink"):
+                    return {
+                        "url": construir_link_afiliado_ml(it["permalink"]),
+                        "precio_ml": float(it["price"]),
+                    }
+    except Exception:
+        pass
+
+    # ── Capa 2: Scraping HTML ──────────────────────────────────────────────
+    if BS4_OK:
+        try:
+            r = requests.get(
+                f"https://lista.mercadolivre.com.br/{slug}",
+                headers=UA_FULL, timeout=15, allow_redirects=True,
+            )
+            if r.status_code == 200 and "account-verification" not in r.url:
+                soup = BeautifulSoup(r.text, "html.parser")
+                for item in soup.select("li.ui-search-layout__item"):
+                    a = item.select_one("a.ui-search-link, a[href*='mercadolivre.com.br']")
+                    frac = item.select_one("span.andes-money-amount__fraction")
+                    if a and a.get("href") and "mercadolivre.com.br" in a["href"]:
+                        precio = None
+                        if frac:
+                            try:
+                                precio = float(frac.get_text().replace(".", "").replace(",", "."))
+                            except ValueError:
+                                pass
+                        url_limpia = a["href"].split("?")[0].split("#")[0]
+                        return {
+                            "url": construir_link_afiliado_ml(url_limpia),
+                            "precio_ml": precio,
+                        }
+        except Exception:
+            pass
+
+    # ── Capa 3: Fallback — URL de búsqueda con tag afiliado ───────────────
+    url_busqueda = f"https://lista.mercadolivre.com.br/{slug}"
+    return {"url": construir_link_afiliado_ml(url_busqueda), "precio_ml": None}
+
+
+def enriquecer_manuales_con_ml(manuales):
+    """
+    Itera los productos de manual.json y rellena url_ml + precio_ml
+    automáticamente, sin intervención manual.
+
+    Reglas:
+      - Si url_ml ya tiene una URL de ML: solo aplica tag de afiliado.
+      - Si url_ml está vacío: busca en ML (con caché por nombre normalizado).
+      - Espera 3 s entre búsquedas para respetar rate limits.
+    """
+    ya_buscados = {}  # nombre_norm -> resultado de buscar_ml_scraping
+
+    for prod in manuales:
+        nombre = prod.get("nombre", "")
+        url_ml_actual = (prod.get("url_ml") or "").strip()
+
+        # Caso A: ya tiene URL de ML → asegurar tag de afiliado
+        if url_ml_actual and "mercadolivre.com.br" in url_ml_actual:
+            prod["url_ml"] = construir_link_afiliado_ml(url_ml_actual)
+            continue
+
+        if not nombre:
+            continue
+
+        # Caso B: buscar en ML con caché por nombre
+        clave = normalizar(nombre)
+        if clave not in ya_buscados:
+            print(f"  [ML Afiliados] Buscando: {nombre[:55]}")
+            ya_buscados[clave] = buscar_ml_scraping(nombre)
+            time.sleep(3)  # rate limit
+
+        resultado = ya_buscados[clave]
+        if resultado:
+            prod["url_ml"] = resultado["url"]
+            if resultado["precio_ml"] is not None:
+                prod["precio_ml"] = resultado["precio_ml"]
+                registrar_log_ml(f"Encontrado: {nombre[:50]} -> {resultado['url'][:65]} @ R${resultado['precio_ml']}")
+                print(f"    ✓ R$ {resultado['precio_ml']:.2f} | {resultado['url'][:60]}")
+            else:
+                prod["precio_ml"] = prod.get("precio_base")
+                registrar_log_ml(f"Fallback URL: {nombre[:50]} -> {resultado['url'][:65]}")
+                print(f"    ↩ Fallback URL (sin precio exacto)")
+        else:
+            registrar_log_ml(f"No encontrado: {nombre[:50]}")
+            print(f"    ✗ No encontrado en ML")
+
+    return manuales
+
 # ================= BUSCADORES =================
+
 
 def buscar_mercadolivre(q):
     """API oficial de Mercado Livre Brasil con reintentos."""
@@ -402,6 +552,11 @@ def ejecutar():
     print(f"  {len(PRODUCTOS)} productos | {len(cupones)} cupones activos")
     print("=" * 55)
 
+    # ── PASO 0: Enriquecer manual.json con links de afiliado ML ──────────
+    print("\n[ML Afiliados] Buscando links automaticamente...")
+    manuales = enriquecer_manuales_con_ml(manuales)
+    print(f"[ML Afiliados] Listo. {sum(1 for m in manuales if m.get('url_ml'))} links ML generados.\n")
+
     for cfg in PRODUCTOS:
         salida["resumen"]["total_buscados"] += 1
         print(f"\n>> {cfg['busqueda']}")
@@ -510,7 +665,8 @@ def ejecutar():
             clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or any(o.get("ean") == m["ean"] for o in ofertas))
             nombre_coincide = m.get("nombre") and normalizar(cfg["busqueda"]) in normalizar(m["nombre"])
             if (clave_coincide or nombre_coincide) and m.get("url_ml") and m["url_ml"].strip():
-                ml_url = m["url_ml"].strip()
+                # Garantizar siempre el tag de afiliado en el link
+                ml_url = construir_link_afiliado_ml(m["url_ml"].strip())
                 ml_precio = m.get("precio_ml") or m.get("precio_base") or cfg.get("precio_ref", 0)
                 ml_precio = round(float(ml_precio), 2)
                 ml_existente = next((c for c in comp_items if c["tienda"] == "Mercado Livre"), None)
@@ -529,6 +685,7 @@ def ejecutar():
                         "score": 60.0,
                     })
                 break
+
 
         comp_items.sort(key=lambda x: x["vista"])
 
