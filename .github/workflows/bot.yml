@@ -1,0 +1,43 @@
+name: radar-precios
+
+on:
+  schedule:
+    - cron: '0 */2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  bot:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Log ejecucion
+        run: echo "Ejecutando bot CRIBA en $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: dependencias
+        run: pip install requests
+
+      - name: buscar precios
+        run: python bot_precios.py
+
+      - name: enviar alertas telegram
+        continue-on-error: true
+        run: python alertas_telegram.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: publicar
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add productos.json cupones.json
+          git diff --quiet && git diff --staged --quiet || git commit -m "precios $(date -u +%H:%M)"
+          git push
