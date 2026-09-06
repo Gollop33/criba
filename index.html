@@ -112,8 +112,30 @@ nav a:hover::after{width:100%}
 
 /* tarjeta ganador */
 .winner{background:#fff;border:var(--line);box-shadow:8px 8px 0 var(--ink);position:relative}
-.winner .imgbox{position:relative;overflow:hidden;border-bottom:var(--line)}
-.winner .imgbox img{width:100%;height:300px;object-fit:cover;animation:kenburns 18s ease-in-out infinite alternate}
+.winner .imgbox{position:relative;overflow:hidden;border-bottom:var(--line);background:#fff}
+.winner .imgbox img{
+  width:100%;height:300px;
+  object-fit:contain;        /* muestra el producto completo sin recortar */
+  padding:18px;              /* respiro visual */
+  background:#fff;
+  animation:kenburns 18s ease-in-out infinite alternate;
+}
+/* Cards de producto en el radar (generadas por JS) */
+.prod-img-wrap{
+  background:#fff;
+  border-bottom:var(--line);
+  display:flex;align-items:center;justify-content:center;
+  height:200px;overflow:hidden;
+  border-radius:0;
+}
+.prod-img-wrap img{
+  width:100%;height:100%;
+  object-fit:contain;        /* sin recortar */
+  padding:12px;
+  background:#fff;
+  transition:transform .3s ease;
+}
+.prod-img-wrap img:hover{transform:scale(1.05)}
 @keyframes kenburns{from{transform:scale(1) translate(0,0)}to{transform:scale(1.12) translate(-2%,2%)}}
 .stamp{
   position:absolute;top:16px;right:-6px;transform:rotate(6deg);
@@ -1170,7 +1192,7 @@ function radarCard(p){
   <article class="pcard radar pop">
     ${p.bajo ? '<span class="bajada">⬇ ¡BAJÓ DE PRECIO!</span>' : ''}
     <div class="ph">
-      <img src="${p.imagen || 'img/placeholder.png'}" alt="${p.nombre}" onerror="this.onerror=null;this.src='img/placeholder.png';">
+      <div class="prod-img-wrap"><img src="${p.imagen || 'img/placeholder.png'}" alt="${p.nombre}" onerror="this.onerror=null;this.src='img/placeholder.png';" loading="lazy"></div>
       <span class="tag tg-cobalt">${p.categoria}</span>
       ${desc ? `<span class="pct-radar">−${desc}%</span>` : ''}
     </div>
