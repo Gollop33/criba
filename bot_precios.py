@@ -108,7 +108,30 @@ def cupones_vigentes():
     f = BASE / "cupones.json"
     if not f.exists(): return []
     hoy = datetime.now().date().isoformat()
-    return [c for c in json.loads(f.read_text(encoding="utf-8")) if c.get("hasta", "9999-12-31") >= hoy]
+    data = json.loads(f.read_text(encoding="utf-8"))
+
+    # Normalizar a lista plana independientemente de la estructura del JSON
+    if isinstance(data, list):
+        # Estructura antigua: lista directa de cupones
+        lista = data
+    elif isinstance(data, dict):
+        if "cupones" in data and isinstance(data["cupones"], list):
+            # Estructura de cupones_pelando.py: {"actualizado":..., "cupones":[...]}
+            lista = data["cupones"]
+        else:
+            # Estructura agrupada por tienda: {"Amazon":[...], "Mercado Livre":[...]}
+            lista = []
+            for tienda, cupones in data.items():
+                if isinstance(cupones, list):
+                    for c in cupones:
+                        if isinstance(c, dict):
+                            if "tienda" not in c:
+                                c["tienda"] = tienda
+                            lista.append(c)
+    else:
+        return []
+
+    return [c for c in lista if isinstance(c, dict) and c.get("hasta", "9999-12-31") >= hoy]
 
 def normalizar(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
