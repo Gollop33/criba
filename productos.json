@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-05T15:06:26+00:00",
+  "actualizado": "2026-09-06T03:55:05+00:00",
   "productos": [
     {
       "id": "teclado-mecanico-redragon-kumara-k552-rgb-swi",
@@ -55,97 +55,136 @@
           "url": "https://www.amazon.com.br/dp/B07D38J36T?tag=criba20-20",
           "cupon": "TECH20",
           "score": 54.0
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 174.9,
+          "parcelado": 174.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumara-k552-rgb-switch-brown#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "KaBuM!": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 217.38
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 201.42
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 196.43
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 180.12
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 164.05
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 148.2
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 133.66
           }
         ],
         "Pichau": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 229.09
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 214.92
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 200.96
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 187.18
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 173.61
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 160.23
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 151.91
           }
         ],
         "Amazon": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 228.72
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 216.34
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 204.13
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 192.09
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 190.64
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 178.35
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 164.9
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 233.07
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 221.84
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 210.75
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 199.81
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 189.03
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 188.71
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 174.9
           }
         ]
       }
@@ -195,67 +234,106 @@
           "url": "https://www.amazon.com.br/dp/B0B6PYC4M7?tag=criba20-20",
           "cupon": "TECH20",
           "score": 61.7
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 194.9,
+          "parcelado": 194.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "Pichau": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 262.31
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 243.87
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 238.75
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 219.91
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 201.33
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 183.02
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 166.31
           }
         ],
         "Amazon": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 275.17
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 257.14
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 239.35
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 221.81
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 204.53
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 187.49
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 174.9
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 267.16
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 266.84
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 251.41
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 236.19
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 221.18
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 206.37
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 194.9
           }
         ]
       }
@@ -296,37 +374,76 @@
           "url": "https://www.kabum.com.br/produto/mouse-logitech-g305?tag=TU-TAG-KABUM",
           "cupon": "GAMER10",
           "score": 71.4
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 189.9,
+          "parcelado": 189.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/mouse-logitech-g305-lightspeed-wireless#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "KaBuM!": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 218.72
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 216.22
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 201.38
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 186.74
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 172.31
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 158.08
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 146.41
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 234.98
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 225.64
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 216.43
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 207.34
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 209.84
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 200.57
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 189.9
           }
         ]
       }
@@ -376,67 +493,106 @@
           "url": "https://www.pichau.com.br/cadeira-thunderx3-ec3?af=TU-TAG-PICHAU",
           "cupon": "PICHAU5",
           "score": 66.0
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 599.9,
+          "parcelado": 599.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-ec3-preta#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "KaBuM!": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 706.36
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 702.05
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 657.81
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 614.19
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 571.18
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 528.78
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 494.91
           }
         ],
         "Pichau": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 733.8
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 691.97
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 650.71
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 610.02
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 569.92
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 561.07
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 511.91
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 749.97
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 719.16
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 688.75
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 658.74
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 665.52
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 634.91
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 599.9
           }
         ]
       }
@@ -477,37 +633,76 @@
           "url": "https://www.kabum.com.br/produto/monitor-acer-nitro-24?tag=TU-TAG-KABUM",
           "cupon": "GAMER10",
           "score": 65.6
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 699.9,
+          "parcelado": 699.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/monitor-gamer-24-144hz-ips-1ms-acer-nitro-qg241y#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "KaBuM!": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 833.1
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 786.21
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 739.96
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 694.34
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 649.37
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 605.04
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 579.91
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 836.38
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 805.16
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 819.15
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 787.34
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 755.92
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 724.91
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 699.9
           }
         ]
       }
@@ -542,37 +737,76 @@
           "url": "https://shopee.com.br/product/123/456?aff_id=TU-TAG-SHOPEE",
           "cupon": "NOVO10",
           "score": 57.6
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 55.9,
+          "parcelado": 55.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/fone-bluetooth-qcy-t13-anc-tws#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "Shopee": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 71.47
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 66.67
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 61.94
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 57.28
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 55.73
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 50.97
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 45.9
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 75.75
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 72.1
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 68.49
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 64.94
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 61.43
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 57.97
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 55.9
           }
         ]
       }
@@ -607,37 +841,76 @@
           "url": "https://shopee.com.br/product/789/012?aff_id=TU-TAG-SHOPEE",
           "cupon": "NOVO10",
           "score": 50.0
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 139.9,
+          "parcelado": 139.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/teclado-mecanico-royal-kludge-rk61-60-rgb-bluetooth#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
         }
       ],
       "historico": {
         "Shopee": [
           {
-            "fecha": "2026-08-30",
+            "fecha": "2026-08-31",
             "precio": 179.56
           },
           {
-            "fecha": "2026-08-31",
+            "fecha": "2026-09-01",
             "precio": 169.54
           },
           {
-            "fecha": "2026-09-01",
+            "fecha": "2026-09-02",
             "precio": 168.91
           },
           {
-            "fecha": "2026-09-02",
+            "fecha": "2026-09-03",
             "precio": 158.69
           },
           {
-            "fecha": "2026-09-03",
+            "fecha": "2026-09-04",
             "precio": 148.6
           },
           {
-            "fecha": "2026-09-04",
+            "fecha": "2026-09-05",
             "precio": 138.66
           },
           {
-            "fecha": "2026-09-05",
+            "fecha": "2026-09-06",
             "precio": 129.9
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-08-31",
+            "precio": 186.45
+          },
+          {
+            "fecha": "2026-09-01",
+            "precio": 177.46
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 168.59
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 159.84
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 151.21
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 150.95
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 139.9
           }
         ]
       }
