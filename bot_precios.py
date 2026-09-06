@@ -105,34 +105,30 @@ def ofertas_manuales():
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else []
 
 def cupones_vigentes():
-    f = BASE / "cupones.json"
-    if not f.exists(): return []
-    hoy = datetime.now().date().isoformat()
-    data = json.loads(f.read_text(encoding="utf-8"))
-
-    # Normalizar a lista plana independientemente de la estructura del JSON
-    if isinstance(data, list):
-        # Estructura antigua: lista directa de cupones
-        lista = data
-    elif isinstance(data, dict):
-        if "cupones" in data and isinstance(data["cupones"], list):
-            # Estructura de cupones_pelando.py: {"actualizado":..., "cupones":[...]}
-            lista = data["cupones"]
-        else:
-            # Estructura agrupada por tienda: {"Amazon":[...], "Mercado Livre":[...]}
-            lista = []
-            for tienda, cupones in data.items():
-                if isinstance(cupones, list):
-                    for c in cupones:
-                        if isinstance(c, dict):
-                            if "tienda" not in c:
-                                c["tienda"] = tienda
-                            lista.append(c)
-    else:
+    hoy = datetime.now().strftime("%Y-%m-%d")
+    f = Path("cupones.json")
+    if not f.exists():
         return []
+    data = json.loads(f.read_text(encoding="utf-8"))
+    vigentes = []
 
-    return [c for c in lista if isinstance(c, dict) and c.get("hasta", "9999-12-31") >= hoy]
+    def es_vigente(c):
+        return isinstance(c, dict) and c.get("hasta", "9999-12-31") >= hoy
 
+    if isinstance(data, list):
+        vigentes = [c for c in data if es_vigente(c)]
+    elif isinstance(data, dict):
+        if isinstance(data.get("cupones"), list):
+            vigentes = [c for c in data["cupones"] if es_vigente(c)]
+        else:
+            for tienda, lista in data.items():
+                if isinstance(lista, list):
+                    for c in lista:
+                        if es_vigente(c):
+                            if "loja" not in c:
+                                c["loja"] = tienda
+                            vigentes.append(c)
+    return vigentes
 def normalizar(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9 ]", "", s.lower())
