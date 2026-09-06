@@ -111,3 +111,99 @@
 [2026-09-06 04:13:15] [FALLO] Shopee (query: 'lampada inteligente wifi rgb'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=lampada+inteligente+wifi+rgb&limit=5&newest=0&order=desc&page_type=search
 [2026-09-06 04:13:36] [FALLO] Mercado Livre (query: 'tomada inteligente wifi'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=tomada+inteligente+wifi&limit=8&sort=price_asc
 [2026-09-06 04:13:56] [FALLO] Shopee (query: 'tomada inteligente wifi'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=tomada+inteligente+wifi&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:32:47] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-09-06 08:32:52] [PELANDO]   Falha ao acessar Amazon
+[2026-09-06 08:32:54] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-09-06 08:32:58] [PELANDO]   Falha ao acessar KaBuM!
+[2026-09-06 08:33:00] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-09-06 08:33:04] [PELANDO]   Falha ao acessar Mercado Livre
+[2026-09-06 08:33:06] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-09-06 08:33:10] [PELANDO]   Falha ao acessar Shopee
+[2026-09-06 08:33:12] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-09-06 08:33:16] [PELANDO]   Falha ao acessar Magazine Luiza
+[2026-09-06 08:33:18] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-09-06 08:33:23] [PELANDO]   Falha ao acessar AliExpress
+[2026-09-06 08:33:25] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-09-06 08:33:29] [PELANDO]   Falha ao acessar Pichau
+[2026-09-06 08:33:31] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-09-06 08:33:35] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-09-06 08:33:37] [PELANDO] Completado: 0 Pelando + 5 manuales = 5 total
+[2026-09-06 08:33:41] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB Switch B -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-06 08:33:45] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-06 08:33:45] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-06 08:33:48] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-06 08:33:52] [ML] Fallback URL: Headset Gamer HyperX Cloud Stinger 2 Core -> https://lista.mercadolivre.com.br/headset-gamer-hyperx-cloud-stin
+[2026-09-06 08:33:55] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-06 08:33:55] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-06 08:33:55] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-06 08:33:58] [ML] Fallback URL: Mouse Gamer Logitech G305 LIGHTSPEED Sem Fio -> https://lista.mercadolivre.com.br/mouse-gamer-logitech-g305-light
+[2026-09-06 08:34:02] [ML] Fallback URL: Mouse Logitech G305 LIGHTSPEED Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-lightspeed-
+[2026-09-06 08:34:05] [ML] Fallback URL: Mouse Logitech G305 Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-wireless#D[
+[2026-09-06 08:34:09] [ML] Fallback URL: SSD NVMe Kingston NV2 1TB PCIe 4.0 -> https://lista.mercadolivre.com.br/ssd-nvme-kingston-nv2-1tb-pcie-
+[2026-09-06 08:34:12] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe M.2 -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme-m2#D[
+[2026-09-06 08:34:16] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme#D[A:j
+[2026-09-06 08:34:19] [ML] Fallback URL: Fone Bluetooth QCY T13 ANC TWS -> https://lista.mercadolivre.com.br/fone-bluetooth-qcy-t13-anc-tws#
+[2026-09-06 08:34:23] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-06 08:34:23] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-06 08:34:26] [ML] Fallback URL: Echo Dot 5a Geracao Alexa Smart Speaker -> https://lista.mercadolivre.com.br/echo-dot-5a-geracao-alexa-smart
+[2026-09-06 08:34:30] [ML] Fallback URL: Echo Dot 5 Geracao com Alexa -> https://lista.mercadolivre.com.br/echo-dot-5-geracao-com-alexa#D[
+[2026-09-06 08:34:33] [ML] Fallback URL: Teclado Mecanico Royal Kludge RK61 60% RGB Bluetoo -> https://lista.mercadolivre.com.br/teclado-mecanico-royal-kludge-r
+[2026-09-06 08:34:37] [ML] Fallback URL: Royal Kludge RK61 Teclado 60% Mecanico RGB -> https://lista.mercadolivre.com.br/royal-kludge-rk61-teclado-60-me
+[2026-09-06 08:34:40] [ML] Fallback URL: Monitor Gamer 24 144Hz IPS 1ms Acer Nitro QG241Y -> https://lista.mercadolivre.com.br/monitor-gamer-24-144hz-ips-1ms-
+[2026-09-06 08:34:44] [ML] Fallback URL: Monitor 24 144Hz IPS Acer Nitro QG241Y -> https://lista.mercadolivre.com.br/monitor-24-144hz-ips-acer-nitro
+[2026-09-06 08:34:47] [ML] Fallback URL: Cadeira Gamer ThunderX3 EC3 Preta -> https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-ec3-pre
+[2026-09-06 08:34:51] [ML] Fallback URL: Cadeira Gamer ThunderX3 EC3 -> https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-ec3#D[A
+[2026-09-06 08:34:54] [ML] Fallback URL: Memoria RAM Kingston Fury Beast 16GB DDR4 3200MHz -> https://lista.mercadolivre.com.br/memoria-ram-kingston-fury-beast
+[2026-09-06 08:34:58] [ML] Fallback URL: Memoria Kingston Fury Beast 16GB DDR4 3200 -> https://lista.mercadolivre.com.br/memoria-kingston-fury-beast-16g
+[2026-09-06 08:35:01] [ML] Fallback URL: Fonte Corsair CV650 650W 80 Plus Bronze -> https://lista.mercadolivre.com.br/fonte-corsair-cv650-650w-80-plu
+[2026-09-06 08:35:05] [ML] Fallback URL: Fonte Corsair CV650 650W 80Plus Bronze -> https://lista.mercadolivre.com.br/fonte-corsair-cv650-650w-80plus
+[2026-09-06 08:35:25] [FALLO] Mercado Livre (query: 'teclado mecanico redragon kumara'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=teclado+mecanico+redragon+kumara&limit=8&sort=price_asc
+[2026-09-06 08:35:46] [FALLO] Shopee (query: 'teclado mecanico redragon kumara'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=teclado+mecanico+redragon+kumara&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:36:07] [FALLO] Mercado Livre (query: 'teclado mecanico hyperx alloy origins'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=teclado+mecanico+hyperx+alloy+origins&limit=8&sort=price_asc
+[2026-09-06 08:36:29] [FALLO] Shopee (query: 'teclado mecanico hyperx alloy origins'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=teclado+mecanico+hyperx+alloy+origins&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:36:49] [FALLO] Mercado Livre (query: 'teclado mecanico logitech g pro'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=teclado+mecanico+logitech+g+pro&limit=8&sort=price_asc
+[2026-09-06 08:37:12] [FALLO] Shopee (query: 'teclado mecanico logitech g pro'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=teclado+mecanico+logitech+g+pro&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:37:32] [FALLO] Mercado Livre (query: 'teclado mecanico royal kludge rk61'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=teclado+mecanico+royal+kludge+rk61&limit=8&sort=price_asc
+[2026-09-06 08:37:53] [FALLO] Shopee (query: 'teclado mecanico royal kludge rk61'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=teclado+mecanico+royal+kludge+rk61&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:38:15] [FALLO] Mercado Livre (query: 'mouse logitech g305 lightspeed'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=mouse+logitech+g305+lightspeed&limit=8&sort=price_asc
+[2026-09-06 08:38:36] [FALLO] Shopee (query: 'mouse logitech g305 lightspeed'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=mouse+logitech+g305+lightspeed&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:38:58] [FALLO] Mercado Livre (query: 'mouse razer deathadder v3'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=mouse+razer+deathadder+v3&limit=8&sort=price_asc
+[2026-09-06 08:39:20] [FALLO] Shopee (query: 'mouse razer deathadder v3'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=mouse+razer+deathadder+v3&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:39:41] [FALLO] Mercado Livre (query: 'mouse redragon cobra'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=mouse+redragon+cobra&limit=8&sort=price_asc
+[2026-09-06 08:40:03] [FALLO] Shopee (query: 'mouse redragon cobra'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=mouse+redragon+cobra&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:40:24] [FALLO] Mercado Livre (query: 'mousepad gamer grande 70x30'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=mousepad+gamer+grande+70x30&limit=8&sort=price_asc
+[2026-09-06 08:40:46] [FALLO] Shopee (query: 'mousepad gamer grande 70x30'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=mousepad+gamer+grande+70x30&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:41:06] [FALLO] Mercado Livre (query: 'headset hyperx cloud stinger 2'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=headset+hyperx+cloud+stinger+2&limit=8&sort=price_asc
+[2026-09-06 08:41:26] [FALLO] Shopee (query: 'headset hyperx cloud stinger 2'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=headset+hyperx+cloud+stinger+2&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:41:48] [FALLO] Mercado Livre (query: 'fone bluetooth edifier w820nb'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=fone+bluetooth+edifier+w820nb&limit=8&sort=price_asc
+[2026-09-06 08:42:11] [FALLO] Shopee (query: 'fone bluetooth edifier w820nb'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=fone+bluetooth+edifier+w820nb&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:42:31] [FALLO] Mercado Livre (query: 'fone bluetooth qcy t13'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=fone+bluetooth+qcy+t13&limit=8&sort=price_asc
+[2026-09-06 08:42:54] [FALLO] Shopee (query: 'fone bluetooth qcy t13'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=fone+bluetooth+qcy+t13&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:43:15] [FALLO] Mercado Livre (query: 'fone jbl tune 520bt'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=fone+jbl+tune+520bt&limit=8&sort=price_asc
+[2026-09-06 08:43:38] [FALLO] Shopee (query: 'fone jbl tune 520bt'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=fone+jbl+tune+520bt&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:43:59] [FALLO] Mercado Livre (query: 'caixa de som jbl flip 6'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=caixa+de+som+jbl+flip+6&limit=8&sort=price_asc
+[2026-09-06 08:44:19] [FALLO] Shopee (query: 'caixa de som jbl flip 6'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=caixa+de+som+jbl+flip+6&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:44:39] [FALLO] Mercado Livre (query: 'monitor gamer 24 144hz ips'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=monitor+gamer+24+144hz+ips&limit=8&sort=price_asc
+[2026-09-06 08:45:01] [FALLO] Shopee (query: 'monitor gamer 24 144hz ips'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=monitor+gamer+24+144hz+ips&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:45:22] [FALLO] Mercado Livre (query: 'monitor lg 24 ips full hd'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=monitor+lg+24+ips+full+hd&limit=8&sort=price_asc
+[2026-09-06 08:45:45] [FALLO] Shopee (query: 'monitor lg 24 ips full hd'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=monitor+lg+24+ips+full+hd&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:46:06] [FALLO] Mercado Livre (query: 'monitor samsung 27 curvo'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=monitor+samsung+27+curvo&limit=8&sort=price_asc
+[2026-09-06 08:46:26] [FALLO] Shopee (query: 'monitor samsung 27 curvo'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=monitor+samsung+27+curvo&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:46:47] [FALLO] Mercado Livre (query: 'ssd nvme 1tb kingston nv2'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=ssd+nvme+1tb+kingston+nv2&limit=8&sort=price_asc
+[2026-09-06 08:47:08] [FALLO] Shopee (query: 'ssd nvme 1tb kingston nv2'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=ssd+nvme+1tb+kingston+nv2&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:47:28] [FALLO] Mercado Livre (query: 'ssd nvme 500gb wd black sn770'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=ssd+nvme+500gb+wd+black+sn770&limit=8&sort=price_asc
+[2026-09-06 08:47:49] [FALLO] Shopee (query: 'ssd nvme 500gb wd black sn770'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=ssd+nvme+500gb+wd+black+sn770&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:48:09] [FALLO] Mercado Livre (query: 'memoria ram 16gb ddr4 3200mhz'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=memoria+ram+16gb+ddr4+3200mhz&limit=8&sort=price_asc
+[2026-09-06 08:48:29] [FALLO] Shopee (query: 'memoria ram 16gb ddr4 3200mhz'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=memoria+ram+16gb+ddr4+3200mhz&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:48:50] [FALLO] Mercado Livre (query: 'fonte 650w 80 plus bronze'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=fonte+650w+80+plus+bronze&limit=8&sort=price_asc
+[2026-09-06 08:49:10] [FALLO] Shopee (query: 'fonte 650w 80 plus bronze'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=fonte+650w+80+plus+bronze&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:49:31] [FALLO] Mercado Livre (query: 'cadeira gamer thunderx3'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=cadeira+gamer+thunderx3&limit=8&sort=price_asc
+[2026-09-06 08:49:51] [FALLO] Shopee (query: 'cadeira gamer thunderx3'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=cadeira+gamer+thunderx3&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:50:13] [FALLO] Mercado Livre (query: 'suporte monitor articulado'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=suporte+monitor+articulado&limit=8&sort=price_asc
+[2026-09-06 08:50:33] [FALLO] Shopee (query: 'suporte monitor articulado'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=suporte+monitor+articulado&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:50:53] [FALLO] Mercado Livre (query: 'alexa echo dot 5 geracao'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=alexa+echo+dot+5+geracao&limit=8&sort=price_asc
+[2026-09-06 08:51:14] [FALLO] Shopee (query: 'alexa echo dot 5 geracao'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=alexa+echo+dot+5+geracao&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:51:34] [FALLO] Mercado Livre (query: 'lampada inteligente wifi rgb'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=lampada+inteligente+wifi+rgb&limit=8&sort=price_asc
+[2026-09-06 08:51:55] [FALLO] Shopee (query: 'lampada inteligente wifi rgb'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=lampada+inteligente+wifi+rgb&limit=5&newest=0&order=desc&page_type=search
+[2026-09-06 08:52:15] [FALLO] Mercado Livre (query: 'tomada inteligente wifi'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=tomada+inteligente+wifi&limit=8&sort=price_asc
+[2026-09-06 08:52:35] [FALLO] Shopee (query: 'tomada inteligente wifi'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=tomada+inteligente+wifi&limit=5&newest=0&order=desc&page_type=search
