@@ -13,25 +13,42 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Log ejecucion
-        run: echo "Ejecutando bot CRIBA en $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        run: echo "=== CRIBA Bot === $(date -u '+%Y-%m-%d %H:%M:%S UTC') ==="
 
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
 
       - name: dependencias
-        run: pip install requests beautifulsoup4
+        run: pip install requests beautifulsoup4 Pillow
 
       - name: actualizar cupones pelando
-        run: python cupones_pelando.py
         continue-on-error: true
+        run: python cupones_pelando.py
 
       - name: buscar precios
         run: python bot_precios.py
 
-      - name: enviar alertas telegram
+      - name: pipeline imagenes
+        continue-on-error: true
+        run: python descargar_imagenes.py
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+
+      - name: enviar ofertas whatsapp
+        continue-on-error: true
+        run: python enviar_whatsapp.py
+        env:
+          GREEN_API_ID: ${{ secrets.GREEN_API_ID }}
+          GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
+          WHATSAPP_CHAT_ID: ${{ secrets.WHATSAPP_CHAT_ID }}
+
+      - name: alertas telegram
         continue-on-error: true
         run: python alertas_telegram.py
         env:
@@ -42,8 +59,7 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add productos.json cupones.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "update $(date -u +%H:%M)"
+          git pull --rebase origin main || true
+          git add productos.json cupones.json img/ logs/ faltantes_imagenes.json || true
+          git diff --quiet && git diff --staged --quiet || git commit -m "auto: precios+cupons+imgs $(date -u +%H:%M)"
           git push
-
-# test workflow write

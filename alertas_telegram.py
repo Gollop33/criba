@@ -2,174 +2,137 @@
 # -*- coding: utf-8 -*-
 """
 CRIBA · Alertas de Telegram
-Lee productos.json, compara con el estado anterior,
-y avisa por Telegram cuando un precio baja.
+============================
+Selecciona las mejores ofertas del día y las envía formateadas al canal/chat.
 
-Configuración:
-  1. Busca @BotFather en Telegram → /newbot → copia el TOKEN
-  2. Busca @userinfobot en Telegram → /start → copia tu CHAT ID
-  3. Pega ambos abajo, o usa variables de entorno (recomendado para GitHub Actions)
+Anti-spam:
+  - Máximo 5 mensajes por ejecución
+  - No repetir mismo producto en 24h
+  - Solo envía si hay descuento >= 20% o precio bajo vs historial
+
+Configuración: variables de entorno TELEGRAM_BOT_TOKEN y TELEGRAM_CHAT_ID
 
 Uso: python alertas_telegram.py
 """
-import json, sys, io, os
+import json, sys, io, os, time
 import requests
 from pathlib import Path
 from datetime import datetime
 
 # Fix Windows console encoding
-if sys.stdout.encoding != 'utf-8':
-    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
-    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
+if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding="utf-8", errors="replace")
 
-# ══════════ CONFIGURACIÓN ══════════
-# Usa variables de entorno (GitHub Actions) o pega tus valores directamente
+BASE = Path(__file__).parent
+
+# ─── Configuración ────────────────────────────────────────────────────────────
 TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8761354869:AAGAa4nQDb_FgqU32OEWBYjF5hlMNCVybE0")
 TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID",   "1277930676")
 
-BASE             = Path(__file__).parent
-PRODUCTOS_JSON   = BASE / "productos.json"
-ESTADO_ANTERIOR  = BASE / "estado_alertas.json"
-# ═══════════════════════════════════
+PRODUCTOS_JSON  = BASE / "productos.json"
+ESTADO_ANTERIOR = BASE / "estado_alertas.json"   # compatibilidad legacy
 
-def enviar_telegram(mensaje):
-    """Envía un mensaje formateado en HTML a tu chat."""
+
+# ─── Envío Telegram ───────────────────────────────────────────────────────────
+
+def enviar_telegram(mensaje, parse_mode="HTML"):
+    """Envía mensaje al chat de Telegram. Retorna True si OK."""
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     try:
         r = requests.post(url, json={
-            "chat_id": TELEGRAM_CHAT_ID,
-            "text": mensaje,
-            "parse_mode": "HTML",
-            "disable_web_page_preview": True
+            "chat_id":                  TELEGRAM_CHAT_ID,
+            "text":                     mensaje,
+            "parse_mode":               parse_mode,
+            "disable_web_page_preview": True,
         }, timeout=15)
         r.raise_for_status()
         return True
     except Exception as e:
-        print(f"Error enviando Telegram: {e}")
+        print(f"  [Telegram] Error: {e}")
         return False
 
-def cargar_estado_previo():
-    """Lee el último estado conocido de precios."""
-    if ESTADO_ANTERIOR.exists():
-        try:
-            return json.loads(ESTADO_ANTERIOR.read_text(encoding="utf-8"))
-        except Exception:
-            return {}
-    return {}
 
-def guardar_estado(estado):
-    ESTADO_ANTERIOR.write_text(
-        json.dumps(estado, ensure_ascii=False, indent=2),
-        encoding="utf-8"
-    )
+# ─── Guardar estado legacy ───────────────────────────────────────────────────
 
-def fmt(n):
-    """Formatea número como moneda brasileña."""
-    return f"{n:,.2f}".replace(",", "X").replace(".", ",").replace("X", ".")
+def _guardar_estado_previo(productos):
+    """Mantiene compatibilidad con el estado anterior de precios."""
+    estado = {p["nombre"]: p.get("vista", {}).get("precio", 0) for p in productos}
+    ESTADO_ANTERIOR.write_text(json.dumps(estado, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+# ─── Main ────────────────────────────────────────────────────────────────────
 
 def main():
-    # Validar token configurado
-    if "PEGA_TU" in TELEGRAM_BOT_TOKEN or "PEGA_TU" in TELEGRAM_CHAT_ID:
-        print("=" * 50)
-        print("CONFIGURA TU BOT DE TELEGRAM:")
-        print("1. Abre Telegram y busca @BotFather")
-        print("2. Envia /newbot y sigue las instrucciones")
-        print("3. Copia el token y pegalo en este archivo")
-        print("4. Busca @userinfobot, envia /start")
-        print("5. Copia tu chat ID y pegalo en este archivo")
-        print("=" * 50)
+    from modulo_ofertas import (
+        elegir_mejores_ofertas,
+        formatear_mensaje,
+        cargar_enviados,
+        guardar_enviados,
+        marcar_enviado,
+    )
+
+    print("=" * 55)
+    print("  CRIBA · Alertas Telegram")
+    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 55)
+
+    # Validar token
+    if not TELEGRAM_BOT_TOKEN or "PEGA_TU" in TELEGRAM_BOT_TOKEN:
+        print("  [Telegram] Token no configurado — saltando")
         return
 
-    # Leer productos.json
+    # Leer productos
+    if not PRODUCTOS_JSON.exists():
+        print("  productos.json no encontrado — ejecuta bot_precios.py primero")
+        return
+
     try:
-        data = json.loads(PRODUCTOS_JSON.read_text(encoding="utf-8"))
-        productos = data["productos"]
-        actualizado = data.get("actualizado", "")
-    except FileNotFoundError:
-        print("No se encontro productos.json — ejecuta primero: python bot_precios.py")
-        return
+        data      = json.loads(PRODUCTOS_JSON.read_text(encoding="utf-8"))
+        productos = data.get("productos", [])
     except Exception as e:
-        print(f"Error leyendo productos.json: {e}")
+        print(f"  Error leyendo productos.json: {e}")
         return
 
-    estado_previo = cargar_estado_previo()
-    estado_nuevo = {}
-    alertas = []
+    # Seleccionar mejores ofertas (con anti-spam automático)
+    ofertas = elegir_mejores_ofertas(productos, canal="telegram")
 
-    for p in productos:
-        nombre = p["nombre"]
-        precio_actual = p["vista"]["precio"]
-        tienda = p["vista"]["tienda"]
-        url = p["vista"]["url"]
-        cupon = p["vista"].get("cupon")
-        tiene_pix = p["vista"].get("pix", False)
-        parcelado = p.get("parcelado")
+    if not ofertas:
+        print("  Sin ofertas que cumplan los criterios — no se envía nada")
+        _guardar_estado_previo(productos)
+        return
 
-        estado_nuevo[nombre] = precio_actual
+    print(f"  Ofertas seleccionadas: {len(ofertas)}")
 
-        # Comparar con estado anterior
-        if nombre in estado_previo:
-            precio_previo = estado_previo[nombre]
-            if precio_actual < precio_previo - 0.01:  # bajó
-                ahorro = precio_previo - precio_actual
-                pct = round((ahorro / precio_previo) * 100, 1)
+    enviados    = cargar_enviados()
+    enviados_ok = 0
 
-                msg = (
-                    f"<b>BAJADA DE PRECIO</b>\n\n"
-                    f"<b>{nombre}</b>\n"
-                    f"<b>R$ {fmt(precio_actual)}</b> a vista"
-                )
-                if tiene_pix:
-                    msg += " (Pix)"
-                if cupon:
-                    msg += f"\nCupon: <code>{cupon}</code>"
-                msg += f"\n<s>R$ {fmt(precio_previo)}</s> → ahorro R$ {fmt(ahorro)} ({pct}%)"
-                if parcelado:
-                    msg += f"\nOu {parcelado['cuotas']}x R$ {fmt(parcelado['cuota'])} sem juros"
-                msg += f"\n\n{tienda}\n{url}"
+    for oferta in ofertas:
+        p   = oferta["producto"]
+        pid = p.get("id") or p.get("nombre", "")[:40]
+        msg = formatear_mensaje(oferta, modo="html")  # Telegram: HTML
 
-                alertas.append(msg)
+        print(f"\n  Enviando: {p.get('nombre','?')[:50]}")
+        print(f"  Score: {oferta['score']} | {oferta['motivo']}")
 
-            elif precio_actual > precio_previo + 0.01:  # subió
-                print(f"  [info] {nombre}: subio de R$ {fmt(precio_previo)} a R$ {fmt(precio_actual)}")
-
+        ok = enviar_telegram(msg)
+        if ok:
+            marcar_enviado(pid, enviados, canal="telegram")
+            enviados_ok += 1
+            print("  Enviado a Telegram")
         else:
-            # Producto nuevo — aviso informativo
-            msg = (
-                f"<b>NUEVO PRODUCTO EN RADAR</b>\n\n"
-                f"<b>{nombre}</b>\n"
-                f"<b>R$ {fmt(precio_actual)}</b> a vista"
-            )
-            if tiene_pix:
-                msg += " (Pix)"
-            if cupon:
-                msg += f"\nCupon: <code>{cupon}</code>"
-            if parcelado:
-                msg += f"\nOu {parcelado['cuotas']}x R$ {fmt(parcelado['cuota'])} sem juros"
-            msg += f"\n\n{tienda}\n{url}"
-            alertas.append(msg)
+            print("  Fallo en envio Telegram")
 
-    # Enviar alertas
-    if alertas:
-        separador = "\n\n" + "─" * 20 + "\n\n"
-        mensaje_completo = separador.join(alertas)
-        # Telegram limita a 4096 chars por mensaje
-        if len(mensaje_completo) > 4000:
-            # Enviar una por una si es muy largo
-            ok = 0
-            for a in alertas:
-                if enviar_telegram(a):
-                    ok += 1
-            print(f"{ok}/{len(alertas)} alertas enviadas por Telegram")
-        else:
-            ok = enviar_telegram(mensaje_completo)
-            print(f"{'OK' if ok else 'ERROR'} — {len(alertas)} alertas enviadas")
-    else:
-        print("Sin bajadas de precio en esta ejecucion")
+        time.sleep(2)  # Anti-flood
 
-    # Guardar estado para la próxima comparación
-    guardar_estado(estado_nuevo)
-    print(f"Estado guardado: {len(estado_nuevo)} productos rastreados")
+    guardar_enviados(enviados)
+    _guardar_estado_previo(productos)
+
+    print()
+    print("=" * 55)
+    print(f"  Enviados: {enviados_ok}/{len(ofertas)}")
+    print("=" * 55)
+
 
 if __name__ == "__main__":
     main()
