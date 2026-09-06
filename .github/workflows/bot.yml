@@ -45,3 +45,5 @@ jobs:
           git add productos.json cupones.json
           git diff --quiet && git diff --staged --quiet || git commit -m "update $(date -u +%H:%M)"
           git push
+
+# test workflow write
