@@ -22,7 +22,11 @@ jobs:
           python-version: "3.12"
 
       - name: dependencias
-        run: pip install requests
+        run: pip install requests beautifulsoup4
+
+      - name: actualizar cupones pelando
+        run: python cupones_pelando.py
+        continue-on-error: true
 
       - name: buscar precios
         run: python bot_precios.py
@@ -39,5 +43,5 @@ jobs:
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
           git add productos.json cupones.json
-          git diff --quiet && git diff --staged --quiet || git commit -m "precios $(date -u +%H:%M)"
+          git diff --quiet && git diff --staged --quiet || git commit -m "update $(date -u +%H:%M)"
           git push
