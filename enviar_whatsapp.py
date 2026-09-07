@@ -124,12 +124,14 @@ def main():
     enviados = cargar_enviados()
     enviados_ok = 0
 
-    for oferta in ofertas:
+    for idx, oferta in enumerate(ofertas, 1):
         p   = oferta["producto"]
         pid = p.get("id") or p.get("nombre", "")[:40]
-        msg = formatear_mensaje(oferta, modo="texto")  # WhatsApp: texto plano
+        # 1 de cada 3 envíos incluye invitación al grupo
+        incluir_grupo = (idx % 3 == 0)
+        msg = formatear_mensaje(oferta, modo="texto", incluir_grupo=incluir_grupo)
 
-        print(f"\n  Enviando: {p.get('nombre','?')[:50]}")
+        print(f"\n  Enviando ({idx}/{len(ofertas)}): {p.get('nombre','?')[:50]}")
         print(f"  Score: {oferta['score']} | {oferta['motivo']}")
 
         ok = enviar_whatsapp(msg)

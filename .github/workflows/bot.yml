@@ -33,12 +33,12 @@ jobs:
       - name: buscar precios
         run: python bot_precios.py
 
-      - name: pipeline imagenes
-        continue-on-error: true
-        run: python descargar_imagenes.py
-        env:
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      # - name: pipeline imagenes (desactivado: usamos URLs externas originales directas)
+      #   continue-on-error: true
+      #   run: python descargar_imagenes.py
+      #   env:
+      #     TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+      #     TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       - name: enviar ofertas whatsapp
         continue-on-error: true

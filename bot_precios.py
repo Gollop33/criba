@@ -669,8 +669,17 @@ def ejecutar():
         parceladas = [o for o in ofertas_puntuadas if o.get("total_parcelado")]
         mejor_parc = min(parceladas, key=lambda o: o["total_parcelado"]) if parceladas else None
 
-        # Priorizar cualquier imagen real disponible entre las ofertas del producto
-        imagen_valida = next((o["imagen"] for o in ofertas_puntuadas if o.get("imagen")), None) or next((o["imagen"] for o in ofertas if o.get("imagen")), None)
+        # Guardar siempre la URL externa original en el campo "imagen" (priorizar CDN externo sobre local)
+        def _es_url_externa(u):
+            return bool(u and isinstance(u, str) and (u.startswith("http://") or u.startswith("https://")))
+
+        imagen_valida = (
+            next((o["imagen"] for o in ofertas_puntuadas if _es_url_externa(o.get("imagen"))), None)
+            or next((o["imagen"] for o in ofertas if _es_url_externa(o.get("imagen"))), None)
+            or next((o["imagen"] for o in ofertas_puntuadas if o.get("imagen")), None)
+            or next((o["imagen"] for o in ofertas if o.get("imagen")), None)
+            or "img/placeholder.png"
+        )
 
         # Construir lista comparativa
         comp_items = [{

@@ -319,13 +319,26 @@ def fmt_brl(n):
         return str(n)
 
 
-def formatear_mensaje(oferta, modo="texto"):
+def _link_grupo_whatsapp():
+    """Lee el link del grupo desde config_afiliados.json."""
+    cfg_file = BASE / "config_afiliados.json"
+    if cfg_file.exists():
+        try:
+            cfg = json.loads(cfg_file.read_text(encoding="utf-8"))
+            return cfg.get("whatsapp_grupo", "https://chat.whatsapp.com/TU_LINK")
+        except Exception:
+            pass
+    return "https://chat.whatsapp.com/TU_LINK"
+
+
+def formatear_mensaje(oferta, modo="texto", incluir_grupo=False):
     """
     Genera el mensaje exacto según especificación:
     🔥 [nombre del producto]
     ✅ R$ [menor precio]
     🎟️ Cupom: [código si existe]
     👉 [link de afiliado con tag]
+    📲 Mais ofertas em tempo real: [link del grupo] (opcional: 1 de cada 3 envíos)
 
     modo='texto' -> WhatsApp / texto plano
     modo='html'  -> Telegram con etiquetas HTML
@@ -336,6 +349,7 @@ def formatear_mensaje(oferta, modo="texto"):
     precio = vista.get("precio", 0)
     cupon  = oferta.get("cupon")
     link   = oferta.get("link", "")
+    link_grupo = _link_grupo_whatsapp()
 
     if modo == "html":
         lineas = [
@@ -345,6 +359,8 @@ def formatear_mensaje(oferta, modo="texto"):
         if cupon:
             lineas.append(f"🎟️ Cupom: <code>{cupon}</code>")
         lineas.append(f"👉 {link}")
+        if incluir_grupo:
+            lineas.append(f"📲 <b>Mais ofertas em tempo real:</b> {link_grupo}")
     else:
         lineas = [
             f"🔥 {nombre}",
@@ -353,6 +369,8 @@ def formatear_mensaje(oferta, modo="texto"):
         if cupon:
             lineas.append(f"🎟️ Cupom: {cupon}")
         lineas.append(f"👉 {link}")
+        if incluir_grupo:
+            lineas.append(f"📲 Mais ofertas em tempo real: {link_grupo}")
 
     return "\n".join(lineas)
 

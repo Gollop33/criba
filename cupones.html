@@ -136,9 +136,105 @@ footer{background:var(--ink);color:var(--paper2);padding:48px 0 28px;border-top:
   transition:transform .3s ease;
 }
 .prod-img-wrap img:hover{transform:scale(1.05)}
+
+/* ============ FUNIL WHATSAPP ============ */
+.wa-banner{
+  background:#25D366;
+  color:#fff;
+  border-bottom:2px solid var(--ink);
+  font-family:var(--body);
+  font-size:13.5px;
+  position:relative;
+  z-index:99;
+}
+.wa-banner-inner{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 0;
+  flex-wrap:wrap;
+}
+.wa-banner-text{display:flex;align-items:center;gap:8px;color:#fff}
+.wa-banner-text b{font-weight:700;color:#fff}
+.wa-banner-btn{
+  background:#128C7E;
+  color:#fff;
+  text-decoration:none;
+  font-family:var(--mono);
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  padding:6px 14px;
+  border:2px solid var(--ink);
+  box-shadow:2px 2px 0 var(--ink);
+  display:inline-flex;
+  align-items:center;
+  gap:6px;
+  letter-spacing:.05em;
+  transition:transform .15s ease, box-shadow .15s ease;
+}
+.wa-banner-btn:hover{
+  transform:translate(-1px,-1px);
+  box-shadow:3px 3px 0 var(--ink);
+  background:#075E54;
+  color:#fff;
+}
+.wa-float{
+  position:fixed;
+  bottom:24px;
+  right:24px;
+  z-index:9999;
+  background:#25D366;
+  color:#fff;
+  border:2px solid var(--ink);
+  box-shadow:4px 4px 0 var(--ink);
+  padding:12px 18px;
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  text-decoration:none;
+  font-family:var(--mono);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.04em;
+  text-transform:uppercase;
+  border-radius:40px;
+  animation:wa-pulse 2.2s infinite;
+  transition:transform .2s ease;
+}
+.wa-float:hover{
+  transform:scale(1.05);
+  background:#20ba5a;
+  color:#fff;
+}
+.wa-float .wa-icon{font-size:18px}
+@keyframes wa-pulse{
+  0%{box-shadow:0 0 0 0 rgba(37,211,102,.7), 4px 4px 0 var(--ink)}
+  70%{box-shadow:0 0 0 14px rgba(37,211,102,0), 4px 4px 0 var(--ink)}
+  100%{box-shadow:0 0 0 0 rgba(37,211,102,0), 4px 4px 0 var(--ink)}
+}
+@media(max-width:768px){
+  .wa-banner-inner{flex-direction:column;text-align:center;gap:8px}
+  .wa-float-text{display:none}
+  .wa-float{padding:12px 14px;border-radius:50%}
+}
 </style>
 </head>
 <body>
+
+<!-- WHATSAPP BANNER TOP -->
+<div class="wa-banner">
+  <div class="wrap wa-banner-inner">
+    <div class="wa-banner-text">
+      <span>📲</span>
+      <span><b>Entre no grupo CRIBA Ofertas no WhatsApp</b> — Cupons e descontos em tempo real!</span>
+    </div>
+    <a href="https://chat.whatsapp.com/TU_LINK" target="_blank" rel="noopener sponsored" class="wa-banner-btn" data-wa-link>
+      Entrar no Grupo VIP <span class="arr">→</span>
+    </a>
+  </div>
+</div>
 
 <header id="header">
   <div class="wrap hd">
@@ -386,6 +482,23 @@ document.querySelectorAll('.filter-btn').forEach(btn => {
 document.getElementById('ftFecha').textContent = `©${new Date().getFullYear()} CRIBA`;
 cargarCupones();
 setInterval(cargarCupones, 10 * 60 * 1000); // refresh cada 10 min
+
+// ============ SINCRONIZAR LINK WHATSAPP ============
+fetch('config_afiliados.json?t=' + Date.now())
+  .then(r => { if(!r.ok) throw 0; return r.json(); })
+  .then(cfg => {
+    if (cfg && cfg.whatsapp_grupo && !cfg.whatsapp_grupo.includes('TU_LINK')) {
+      document.querySelectorAll('a[data-wa-link]').forEach(el => el.href = cfg.whatsapp_grupo);
+    }
+  })
+  .catch(() => {});
 </script>
+
+<!-- BOTÓN FLOTANTE WHATSAPP -->
+<a href="https://chat.whatsapp.com/TU_LINK" target="_blank" rel="noopener sponsored" class="wa-float" data-wa-link title="Entre no grupo de ofertas no WhatsApp">
+  <span class="wa-icon">📲</span>
+  <span class="wa-float-text">Grupo VIP WhatsApp</span>
+</a>
 </body>
 </html>
+
