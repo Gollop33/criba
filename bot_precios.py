@@ -51,6 +51,35 @@ PIX_POR_TIENDA = {
     "AliExpress":    0.00,
 }
 
+def cargar_tiendas_que_pagan():
+    f = BASE / "config_afiliados.json"
+    if f.exists():
+        try:
+            cfg = json.loads(f.read_text(encoding="utf-8"))
+            tiendas = cfg.get("tiendas_que_pagan")
+            if isinstance(tiendas, list) and tiendas:
+                return [t.lower().replace(" ", "").replace("!", "").replace("_", "") for t in tiendas]
+        except Exception:
+            pass
+    return ["amazon", "mercadolivre"]
+
+TIENDAS_QUE_PAGAN = cargar_tiendas_que_pagan()
+
+def normalizar_tienda(nombre):
+    if not nombre:
+        return ""
+    n = unicodedata.normalize("NFKD", str(nombre)).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]", "", n)
+
+def tienda_permitida(nombre_tienda):
+    """Retorna True si la tienda está en la lista de tiendas que pagan comisión."""
+    n = normalizar_tienda(nombre_tienda)
+    for t in TIENDAS_QUE_PAGAN:
+        t_norm = normalizar_tienda(t)
+        if t_norm in n or n in t_norm:
+            return True
+    return False
+
 # ══════════════════════════════════════════════════
 # PRODUCTOS REALES PARA VIGILAR
 # Agrega los que quieras. El bot busca en Mercado Livre
@@ -116,17 +145,19 @@ def cupones_vigentes():
         return isinstance(c, dict) and c.get("hasta", "9999-12-31") >= hoy
 
     if isinstance(data, list):
-        vigentes = [c for c in data if es_vigente(c)]
+        vigentes = [c for c in data if es_vigente(c) and tienda_permitida(c.get("tienda") or c.get("loja"))]
     elif isinstance(data, dict):
         if isinstance(data.get("cupones"), list):
-            vigentes = [c for c in data["cupones"] if es_vigente(c)]
+            vigentes = [c for c in data["cupones"] if es_vigente(c) and tienda_permitida(c.get("tienda") or c.get("loja"))]
         else:
             for tienda, lista in data.items():
-                if isinstance(lista, list):
+                if tienda_permitida(tienda) and isinstance(lista, list):
                     for c in lista:
                         if es_vigente(c):
                             if "loja" not in c:
                                 c["loja"] = tienda
+                            if "tienda" not in c:
+                                c["tienda"] = tienda
                             vigentes.append(c)
     return vigentes
 def normalizar(s):
@@ -600,10 +631,16 @@ def ejecutar():
         print(f"\n>> {cfg['busqueda']}")
         print(f"   precio ref: R$ {cfg.get('precio_ref', '?')} | categoria: {cfg.get('categoria', '?')}")
 
-        ofertas = buscar_mercadolivre(cfg["busqueda"]) + buscar_shopee(cfg["busqueda"])
+        ofertas = []
+        if tienda_permitida("mercadolivre"):
+            ofertas += buscar_mercadolivre(cfg["busqueda"])
+        if tienda_permitida("shopee"):
+            ofertas += buscar_shopee(cfg["busqueda"])
 
-        # Agregar ofertas manuales que coincidan
+        # Agregar ofertas manuales que coincidan (SOLO si la tienda paga comisión)
         for m in manuales:
+            if not tienda_permitida(m.get("tienda")):
+                continue
             clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or
                              any(o.get("ean") == m["ean"] for o in ofertas))
             nombre_coincide = coincide_producto(cfg["busqueda"], m.get("nombre"))
@@ -621,6 +658,9 @@ def ejecutar():
                     "ventas": m.get("ventas", 0),
                     "condicion": "new",
                 })
+
+        # Filtrar estrictamente cualquier oferta residual cuya tienda no esté permitida
+        ofertas = [o for o in ofertas if tienda_permitida(o.get("tienda"))]
 
         # Calcular precios con Pix + cupones
         ofertas = [calcular(o, cupones) for o in ofertas if o.get("precio_base") and o["precio_base"] > 0]
@@ -700,39 +740,45 @@ def ejecutar():
             or "img/placeholder.png"
         )
 
-        # Construir lista comparativa
+        # Construir lista comparativa (SOLO con tiendas que pagan comision)
         comp_items = [{
             "tienda": o["tienda"], "vista": o["precio_vista"],
             "parcelado": o.get("total_parcelado"), "cuotas": o.get("cuotas", 0),
             "url": o["url"], "cupon": o.get("cupon"), "score": o["score"],
-        } for o in ofertas_puntuadas]
+        } for o in ofertas_puntuadas if tienda_permitida(o["tienda"])]
 
-        # Si un producto tiene "url_ml" no vacío, agregar "Mercado Livre" como tienda extra en el comparativo
-        for m in manuales:
-            clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or any(o.get("ean") == m["ean"] for o in ofertas))
-            nombre_coincide = coincide_producto(cfg["busqueda"], m.get("nombre"))
-            if (clave_coincide or nombre_coincide) and m.get("url_ml") and m["url_ml"].strip():
-                # Garantizar siempre el tag de afiliado en el link
-                ml_url = construir_link_afiliado_ml(m["url_ml"].strip())
-                ml_precio = m.get("precio_ml") or m.get("precio_base") or cfg.get("precio_ref", 0)
-                ml_precio = round(float(ml_precio), 2)
-                ml_existente = next((c for c in comp_items if c["tienda"] == "Mercado Livre"), None)
-                if ml_existente:
-                    ml_existente["url"] = ml_url
-                    if m.get("precio_ml"):
-                        ml_existente["vista"] = ml_precio
-                else:
-                    comp_items.append({
-                        "tienda": "Mercado Livre",
-                        "vista": ml_precio,
-                        "parcelado": ml_precio,
-                        "cuotas": 10,
-                        "url": ml_url,
-                        "cupon": None,
-                        "score": 60.0,
-                    })
-                break
+        # Si un producto tiene "url_ml" no vacío y Mercado Livre está permitida, agregarla al comparativo
+        if tienda_permitida("mercadolivre"):
+            for m in manuales:
+                clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or any(o.get("ean") == m["ean"] for o in ofertas))
+                nombre_coincide = coincide_producto(cfg["busqueda"], m.get("nombre"))
+                if (clave_coincide or nombre_coincide) and m.get("url_ml") and m["url_ml"].strip():
+                    # Garantizar siempre el tag de afiliado en el link
+                    ml_url = construir_link_afiliado_ml(m["url_ml"].strip())
+                    ml_precio = m.get("precio_ml") or m.get("precio_base") or cfg.get("precio_ref", 0)
+                    ml_precio = round(float(ml_precio), 2)
+                    ml_existente = next((c for c in comp_items if c["tienda"] == "Mercado Livre"), None)
+                    if ml_existente:
+                        ml_existente["url"] = ml_url
+                        if m.get("precio_ml"):
+                            ml_existente["vista"] = ml_precio
+                    else:
+                        comp_items.append({
+                            "tienda": "Mercado Livre",
+                            "vista": ml_precio,
+                            "parcelado": ml_precio,
+                            "cuotas": 10,
+                            "url": ml_url,
+                            "cupon": None,
+                            "score": 60.0,
+                        })
+                    break
 
+        # Filtrar de forma estricta comp_items
+        comp_items = [c for c in comp_items if tienda_permitida(c.get("tienda"))]
+        if not comp_items:
+            salida["resumen"]["descartados"] += 1
+            continue
 
         comp_items.sort(key=lambda x: x["vista"])
 
@@ -746,32 +792,58 @@ def ejecutar():
         # Generar histórico para las gráficas
         historico_data = obtener_historico_producto(con, p_id, comp_items, cfg.get("precio_ref"))
 
+        # La mejor oferta 'vista' es el primer elemento del comparativo ordenado
+        mejor_item = comp_items[0]
+        # Buscar el objeto oferta original para extraer detalles adicionales
+        orig_vista = next((o for o in ofertas_puntuadas if o["tienda"] == mejor_item["tienda"]), None)
+
+        # Mejor parcelado entre tiendas permitidas
+        parceladas_comp = [c for c in comp_items if c.get("parcelado")]
+        mejor_parc_item = min(parceladas_comp, key=lambda c: c["parcelado"]) if parceladas_comp else None
+
+        vista_precio = mejor_item["vista"]
+        vista_tienda = mejor_item["tienda"]
+        vista_cupon = mejor_item.get("cupon")
+        vista_url = mejor_item["url"]
+        vista_base = (orig_vista.get("precio_base") if orig_vista else None) or vista_precio
+        vista_orig = (orig_vista.get("precio_original") if orig_vista else None) or cfg.get("precio_ref") or vista_base
+        vista_pix = bool(orig_vista.get("pix_pct", 0) > 0) if orig_vista else False
+
+        # Descuento y ahorro calculados contra precio_ref o base
+        ref_val = cfg.get("precio_ref") or vista_orig or vista_base
+        if ref_val and ref_val > vista_precio:
+            desc_calc = round(((ref_val - vista_precio) / ref_val) * 100, 1)
+            ahorro_calc = round(ref_val - vista_precio, 2)
+        else:
+            desc_calc = orig_vista.get("descuento_pct", 0) if orig_vista else 0
+            ahorro_calc = orig_vista.get("ahorro", 0) if orig_vista else 0
+
         salida["productos"].append({
             "id": p_id,
-            "nombre": mejor_vista["nombre"],
+            "nombre": titular["nombre"],
             "categoria": cfg.get("categoria", ""),
             "imagen": imagen_valida,
             "precio_ref": cfg.get("precio_ref"),
-            "score": mejor_vista["score"],
-            "descuento_pct": mejor_vista["descuento_pct"],
-            "ahorro": mejor_vista["ahorro"],
-            "bajo": bool(previo) and mejor_vista["precio_vista"] < previo - 0.01,
+            "score": mejor_item.get("score", 60.0),
+            "descuento_pct": desc_calc,
+            "ahorro": ahorro_calc,
+            "bajo": bool(previo) and vista_precio < previo - 0.01,
             "minimo_historico": previo,
             "vista": {
-                "precio": mejor_vista["precio_vista"],
-                "tienda": mejor_vista["tienda"],
-                "cupon": mejor_vista.get("cupon"),
-                "pix": mejor_vista["pix_pct"] > 0,
-                "base": mejor_vista["precio_base"],
-                "original": mejor_vista.get("precio_original"),
-                "url": mejor_vista["url"],
+                "precio": vista_precio,
+                "tienda": vista_tienda,
+                "cupon": vista_cupon,
+                "pix": vista_pix,
+                "base": vista_base,
+                "original": vista_orig,
+                "url": vista_url,
             },
-            "parcelado": None if not mejor_parc else {
-                "total": mejor_parc["total_parcelado"],
-                "cuotas": mejor_parc["cuotas"],
-                "cuota": round(mejor_parc["total_parcelado"] / mejor_parc["cuotas"], 2),
-                "tienda": mejor_parc["tienda"],
-                "url": mejor_parc["url"],
+            "parcelado": None if not mejor_parc_item else {
+                "total": mejor_parc_item["parcelado"],
+                "cuotas": mejor_parc_item.get("cuotas") or 1,
+                "cuota": round(mejor_parc_item["parcelado"] / (mejor_parc_item.get("cuotas") or 1), 2),
+                "tienda": mejor_parc_item["tienda"],
+                "url": mejor_parc_item["url"],
             },
             "comparativo": comp_items,
             "historico": historico_data,

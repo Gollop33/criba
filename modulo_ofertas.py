@@ -39,6 +39,36 @@ HORAS_ANTI_SPAM    = 24    # No repetir mismo producto en N horas
 AMAZON_TAG         = "criba20-20"
 ML_ID              = "ja20250119201346"
 
+# ─── Regla de Oro: solo tiendas que pagan comisión ────────────────────────────
+def _cargar_tiendas_que_pagan():
+    f = BASE / "config_afiliados.json"
+    if f.exists():
+        try:
+            cfg = json.loads(f.read_text(encoding="utf-8"))
+            tiendas = cfg.get("tiendas_que_pagan")
+            if isinstance(tiendas, list) and tiendas:
+                return [t.lower().replace(" ", "").replace("!", "").replace("_", "") for t in tiendas]
+        except Exception:
+            pass
+    return ["amazon", "mercadolivre"]
+
+TIENDAS_QUE_PAGAN = _cargar_tiendas_que_pagan()
+
+def _normalizar_tienda(nombre):
+    if not nombre:
+        return ""
+    n = re.sub(r"[^a-z0-9]", "", str(nombre).lower())
+    return n
+
+def _tienda_permitida(nombre_tienda):
+    """True si la tienda está en la lista de tiendas que pagan comisión."""
+    n = _normalizar_tienda(nombre_tienda)
+    for t in TIENDAS_QUE_PAGAN:
+        t_norm = _normalizar_tienda(t)
+        if t_norm in n or n in t_norm:
+            return True
+    return False
+
 
 # ─── Historial de enviados ─────────────────────────────────────────────────────
 
@@ -287,6 +317,10 @@ def elegir_mejores_ofertas(productos, max_ofertas=MAX_POR_EJECUCION, canal=None)
         pid = p.get("id") or p.get("nombre", "")[:40]
         vista = p.get("vista", {})
         if not vista.get("precio") or not vista.get("url"):
+            continue
+
+        # Regla de Oro: solo enviar si la tienda principal paga comisión
+        if not _tienda_permitida(vista.get("tienda", "")):
             continue
 
         if ya_enviado(pid, enviados, canal=canal):

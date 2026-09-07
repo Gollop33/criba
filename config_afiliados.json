@@ -40,5 +40,9 @@
     "nombre": "AliExpress Portals",
     "param": "aff_id"
   },
-  "whatsapp_grupo": "https://chat.whatsapp.com/TU_LINK"
+  "whatsapp_grupo": "https://chat.whatsapp.com/TU_LINK",
+  "tiendas_que_pagan": [
+    "amazon",
+    "mercadolivre"
+  ]
 }

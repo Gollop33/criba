@@ -319,6 +319,14 @@ footer{background:var(--ink);color:var(--paper2);padding:48px 0 28px;border-top:
 let TODOS = [];
 let tiendaActiva = 'Todas';
 
+// ============ REGLA DE ORO ============
+let TIENDAS_OK = ['amazon','mercadolivre'];
+function normTienda(s){ return (s||'').toLowerCase().replace(/[^a-z0-9]/g,''); }
+function tiendaOk(nombre){
+  const n=normTienda(nombre);
+  return TIENDAS_OK.some(t=>normTienda(t)===n||n.includes(normTienda(t))||normTienda(t).includes(n));
+}
+
 // ============ UTILIDADES ============
 function haceCuanto(iso) {
   const d = new Date(iso), now = new Date();
@@ -458,8 +466,10 @@ function cargarCupones() {
       // Filtrar solo vigentes (sin expirar o con hasta > hoy)
       const hoy = new Date().toISOString().slice(0, 10);
       TODOS = lista.filter(c => {
-        if (c.hasta && c.hasta !== '9999-12-31') return c.hasta >= hoy;
+        if (c.hasta && c.hasta !== '9999-12-31') if (c.hasta < hoy) return false;
         if (c.vigente === false) return false;
+        // Regla de Oro: solo cupones de tiendas que pagan comisión
+        if (!tiendaOk(c.tienda || c.loja || '')) return false;
         return true;
       });
 
@@ -483,12 +493,16 @@ document.getElementById('ftFecha').textContent = `©${new Date().getFullYear()} 
 cargarCupones();
 setInterval(cargarCupones, 10 * 60 * 1000); // refresh cada 10 min
 
-// ============ SINCRONIZAR LINK WHATSAPP ============
+// ============ SINCRONIZAR CONFIG (Regla de Oro) ============
 fetch('config_afiliados.json?t=' + Date.now())
   .then(r => { if(!r.ok) throw 0; return r.json(); })
   .then(cfg => {
     if (cfg && cfg.whatsapp_grupo && !cfg.whatsapp_grupo.includes('TU_LINK')) {
       document.querySelectorAll('a[data-wa-link]').forEach(el => el.href = cfg.whatsapp_grupo);
+    }
+    if (Array.isArray(cfg.tiendas_que_pagan) && cfg.tiendas_que_pagan.length) {
+      TIENDAS_OK = cfg.tiendas_que_pagan;
+      cargarCupones(); // recargar con filtro actualizado
     }
   })
   .catch(() => {});

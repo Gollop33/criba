@@ -127,7 +127,7 @@ footer p{max-width:700px;margin:6px auto}
 
 <section class="hero">
   <h1>Os melhores preços da tech,<br><span>monitorados 24/7 por um robô</span></h1>
-  <p>Comparamos Amazon, Mercado Livre, KaBuM!, Terabyte e mais — a cada 2 horas. Você só vê oferta de verdade, com cupom e link direto.</p>
+  <p>Comparamos Amazon, Mercado Livre e mais — a cada 2 horas. Você só vê oferta de verdade, com cupom e link direto.</p>
   <div class="stats">
     <div class="stat"><b data-count id="st-prod">0</b><span>produtos monitorados</span></div>
     <div class="stat"><b data-count id="st-lojas">6</b><span>lojas comparadas</span></div>
@@ -177,26 +177,43 @@ function catDe(p){
 }
 const BRL=v=>(v==null||isNaN(v))?'—':Number(v).toLocaleString('pt-BR',{style:'currency',currency:'BRL'});
 
+/* ====== REGLA DE ORO: solo tiendas que pagan comisión ====== */
+let TIENDAS_OK = ['amazon','mercadolivre'];
+function normTienda(s){ return (s||'').toLowerCase().replace(/[^a-z0-9]/g,''); }
+function tiendaOk(nombre){
+  const n=normTienda(nombre);
+  return TIENDAS_OK.some(t=>normTienda(t)===n||n.includes(normTienda(t))||normTienda(t).includes(n));
+}
+
 /* ====== EXTRACCIÓN FLEXIBLE DE DATOS REALES ====== */
 function precioDe(p){ if(p.vista&&p.vista.precio!=null)return p.vista.precio; if(p.precio!=null)return p.precio;
   if(Array.isArray(p.historico)&&p.historico.length){const h=p.historico[p.historico.length-1];return h.precio??h.preco??null;} return null; }
 function baseDe(p){ if(Array.isArray(p.historico)&&p.historico.length>1){const xs=p.historico.map(h=>h.precio??h.preco).filter(x=>x!=null);
   if(xs.length)return xs.reduce((a,b)=>a+b,0)/xs.length;} return null; }
 function linksDe(p){ const out=[];
-  if(p.urls&&typeof p.urls==='object')for(const[t,u]of Object.entries(p.urls))if(u)out.push({t,u});
-  if(Array.isArray(p.comparativo))for(const c of p.comparativo)if(c&&c.url)out.push({t:c.tienda||c.loja||'Loja',u:c.url});
+  if(p.urls&&typeof p.urls==='object')for(const[t,u]of Object.entries(p.urls))if(u&&tiendaOk(t))out.push({t,u});
+  if(Array.isArray(p.comparativo))for(const c of p.comparativo)if(c&&c.url&&tiendaOk(c.tienda||c.loja))out.push({t:c.tienda||c.loja||'Loja',u:c.url});
   if(p.url_ml)out.push({t:'Mercado Livre',u:p.url_ml}); if(p.url_amazon)out.push({t:'Amazon',u:p.url_amazon});
-  if(p.vista&&p.vista.url&&!out.some(x=>x.u===p.vista.url))out.push({t:p.vista.tienda||'Oferta',u:p.vista.url});
+  if(p.vista&&p.vista.url&&tiendaOk(p.vista.tienda)&&!out.some(x=>x.u===p.vista.url))out.push({t:p.vista.tienda||'Oferta',u:p.vista.url});
   return out; }
 
 let PROD=[], CUP=[], WA='#';
 async function init(){
-  try{const c=await(await fetch('config_afiliados.json')).json(); if(c.whatsapp_grupo&&!c.whatsapp_grupo.includes('TU_LINK'))WA=c.whatsapp_grupo;}catch(e){}
+  try{
+    const c=await(await fetch('config_afiliados.json')).json();
+    if(c.whatsapp_grupo&&!c.whatsapp_grupo.includes('TU_LINK'))WA=c.whatsapp_grupo;
+    if(Array.isArray(c.tiendas_que_pagan)&&c.tiendas_que_pagan.length)TIENDAS_OK=c.tiendas_que_pagan;
+  }catch(e){}
   document.querySelectorAll('[data-wa]').forEach(a=>a.href=WA);
   try{const d=await(await fetch('productos.json')).json(); PROD=Array.isArray(d)?d:(d.productos||[]);}catch(e){PROD=[];}
+  // Filtrar productos sem loja monetizada
+  PROD=PROD.filter(p=>{ const v=p.vista; return v&&v.tienda&&tiendaOk(v.tienda); });
   try{const d=await(await fetch('cupones.json')).json();
-      if(Array.isArray(d))CUP=d; else if(Array.isArray(d.cupones))CUP=d.cupones;
-      else for(const[k,v]of Object.entries(d))if(Array.isArray(v))v.forEach(c=>{c.loja=c.loja||k;CUP.push(c);});}catch(e){}
+      let raw=[];
+      if(Array.isArray(d))raw=d; else if(Array.isArray(d.cupones))raw=d.cupones;
+      else for(const[k,v]of Object.entries(d))if(Array.isArray(v))v.forEach(c=>{c.loja=c.loja||k;raw.push(c);});
+      CUP=raw.filter(c=>tiendaOk(c.loja||c.tienda||c.store||''));
+  }catch(e){}
   renderFiltros(); renderGrid(); renderCups(); animStats();
 }
 function renderFiltros(){
@@ -236,7 +253,7 @@ function renderCups(){
     <div class="cup-top"><b>${c.loja||c.store||'Loja'}</b><span class="cup-off">${c.desconto||c.descuento||'CUPOM'}</span></div>
     <p>${c.titulo||c.title||''}</p>
     <div class="cup-foot"><code>${c.codigo||c.code||'sem código'}</code>
-    <button onclick="copiar(this,'${(c.codigo||c.code||'').replace(/'/g,"")}')">Copiar</button></div></div>`).join('');
+    <button onclick="copiar(this,'${(c.codigo||c.code||'').replace(/'/g,"")}')">&nbsp;Copiar&nbsp;</button></div></div>`).join('');
   observar();
 }
 function copiar(btn,txt){ if(!txt)return; navigator.clipboard.writeText(txt).then(()=>{btn.textContent='✅ Copiado!';setTimeout(()=>btn.textContent='Copiar',1600);}); }
@@ -245,8 +262,17 @@ function observar(){
   document.querySelectorAll('.card:not(.in),.cup:not(.in)').forEach(el=>io.observe(el));
 }
 function animStats(){
+  // Descuento máximo do dia
+  let maxDesc=0;
+  PROD.forEach(p=>{const d=p.descuento_pct||0; if(d>maxDesc)maxDesc=d;});
+  const elLojas=document.getElementById('st-lojas');
+  if(elLojas){
+    elLojas.textContent=maxDesc>0?`-${Math.round(maxDesc)}%`:'—';
+    const span=elLojas.nextElementSibling;
+    if(span)span.textContent='desconto máx hoje';
+  }
   const t=[['st-prod',PROD.length],['st-cup',CUP.length]];
-  t.forEach(([id,v])=>{const el=document.getElementById(id);let n=0;const step=Math.max(1,Math.round(v/40));
+  t.forEach(([id,v])=>{const el=document.getElementById(id);if(!el)return;let n=0;const step=Math.max(1,Math.round(v/40));
     const iv=setInterval(()=>{n+=step;if(n>=v){n=v;clearInterval(iv);}el.textContent=n;},30);});
 }
 addEventListener('scroll',()=>{document.getElementById('hdr').classList.toggle('small',scrollY>60);

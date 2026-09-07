@@ -373,6 +373,14 @@ document.addEventListener('DOMContentLoaded', function() {
 <script>
 const fmtBRL = n => (n ?? 0).toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2});
 
+/* ====== REGLA DE ORO: solo tiendas que pagan comisión ====== */
+let TIENDAS_OK = ['amazon','mercadolivre'];
+function normTienda(s){ return (s||'').toLowerCase().replace(/[^a-z0-9]/g,''); }
+function tiendaOk(nombre){
+  const n=normTienda(nombre);
+  return TIENDAS_OK.some(t=>normTienda(t)===n||n.includes(normTienda(t))||normTienda(t).includes(n));
+}
+
 let PRODUCTOS_DATA = [];
 let FILTRO_ACTUAL = 'todo';
 let BUSQUEDA_ACTUAL = '';
@@ -439,7 +447,7 @@ function renderCard(p){
         <div style="font-family:var(--mono);font-size:10px;font-weight:700;color:var(--ink2);margin-bottom:4px;text-transform:uppercase">
           Comparativa de tiendas:
         </div>
-        ${(p.comparativo || [v]).map((c, i) => `
+        ${(p.comparativo || [v]).filter(c => tiendaOk(c.tienda)).map((c, i) => `
           <div class="cmp-row ${i === 0 ? 'win' : ''}">
             <span>${c.tienda}</span>
             <span>
@@ -654,30 +662,33 @@ document.getElementById('ordenar').addEventListener('change', e => {
   filtrarYOrdenar();
 });
 
-// Cargar datos
-fetch('productos.json?t=' + Date.now())
-  .then(r => r.json())
-  .then(data => {
-    PRODUCTOS_DATA = (data.productos || []).map(p => ({
-      ...p,
-      actualizado: data.actualizado
-    }));
-    document.getElementById('ultimaAct').textContent = `Verificado: ${haceCuanto(data.actualizado)}`;
-    filtrarYOrdenar();
-  })
-  .catch(err => {
-    document.getElementById('radarGrid').innerHTML = '<p class="mono">⚠ Ejecuta python bot_precios.py para generar las ofertas en productos.json</p>';
-  });
-
-// ============ SINCRONIZAR LINK WHATSAPP ============
+// ============ CARGAR CONFIG PRIMERO (Regla de Oro) ============
 fetch('config_afiliados.json?t=' + Date.now())
   .then(r => { if(!r.ok) throw 0; return r.json(); })
   .then(cfg => {
     if (cfg && cfg.whatsapp_grupo && !cfg.whatsapp_grupo.includes('TU_LINK')) {
       document.querySelectorAll('a[data-wa-link]').forEach(el => el.href = cfg.whatsapp_grupo);
     }
+    if (Array.isArray(cfg.tiendas_que_pagan) && cfg.tiendas_que_pagan.length) {
+      TIENDAS_OK = cfg.tiendas_que_pagan;
+    }
   })
-  .catch(() => {});
+  .catch(() => {})
+  .finally(() => {
+    // Cargar datos después de tener config
+    fetch('productos.json?t=' + Date.now())
+      .then(r => r.json())
+      .then(data => {
+        PRODUCTOS_DATA = (data.productos || [])
+          .filter(p => p.vista && tiendaOk(p.vista.tienda))
+          .map(p => ({ ...p, actualizado: data.actualizado }));
+        document.getElementById('ultimaAct').textContent = `Verificado: ${haceCuanto(data.actualizado)}`;
+        filtrarYOrdenar();
+      })
+      .catch(err => {
+        document.getElementById('radarGrid').innerHTML = '<p class="mono">⚠ Ejecuta python bot_precios.py para generar las ofertas en productos.json</p>';
+      });
+  });
 </script>
 
 <!-- BOTÓN FLOTANTE WHATSAPP -->
