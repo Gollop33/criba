@@ -104,14 +104,44 @@ def main():
         print("  [WhatsApp] Instancia no autorizada — saltando envíos")
         return
 
-    # Leer productos
+    # Leer productos del radar
     prod_f = BASE / "productos.json"
-    if not prod_f.exists():
-        print("  productos.json no encontrado")
-        return
+    productos = []
+    if prod_f.exists():
+        try:
+            data = json.loads(prod_f.read_text(encoding="utf-8"))
+            productos = data.get("productos", [])
+        except Exception:
+            pass
 
-    data      = json.loads(prod_f.read_text(encoding="utf-8"))
-    productos = data.get("productos", [])
+    # Leer también achados.json (ofertas frescas de los agentes ML y Amazon)
+    achados_f = BASE / "achados.json"
+    if achados_f.exists():
+        try:
+            data_ach = json.loads(achados_f.read_text(encoding="utf-8"))
+            achados_raw = data_ach.get("achados", [])
+            for a in achados_raw:
+                productos.append({
+                    "id": a.get("id"),
+                    "nombre": a.get("nombre"),
+                    "descuento_pct": a.get("desc_pct"),
+                    "score": float(a.get("desc_pct") or 0),
+                    "vista": {
+                        "precio": a.get("precio"),
+                        "tienda": a.get("loja"),
+                        "url": a.get("url"),
+                    },
+                    "historico": [
+                        {"precio": a.get("precio_anterior", a.get("precio"))},
+                        {"precio": a.get("precio")}
+                    ]
+                })
+        except Exception:
+            pass
+
+    if not productos:
+        print("  productos.json ni achados.json contienen ofertas")
+        return
 
     # Elegir mejores ofertas
     ofertas = elegir_mejores_ofertas(productos, canal="whatsapp")

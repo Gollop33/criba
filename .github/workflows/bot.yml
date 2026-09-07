@@ -2,7 +2,7 @@ name: radar-precios
 
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '0 11-23 * * *'
   workflow_dispatch:
 
 permissions:
@@ -30,9 +30,17 @@ jobs:
         continue-on-error: true
         run: python cupones_pelando.py
 
-      - name: cosechar achados do dia
+      - name: cosechar mercado livre (agente_ml)
         continue-on-error: true
-        run: python descobrir_ofertas.py
+        run: python agente_ml.py
+
+      - name: cosechar amazon brasil (agente_amazon)
+        continue-on-error: true
+        run: python agente_amazon.py
+
+      - name: unir achados do dia (unir_achados)
+        continue-on-error: true
+        run: python unir_achados.py
 
       - name: buscar precios
         run: python bot_precios.py
