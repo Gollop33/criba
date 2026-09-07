@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#EDF2F7"/>
+    </linearGradient>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="rgba(23, 21, 15, 0.04)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <!-- Fondo estructurado -->
+  <rect width="400" height="300" rx="16" fill="url(#bgGrad)"/>
+  <rect width="400" height="300" rx="16" fill="url(#grid)"/>
+  <rect x="2" y="2" width="396" height="296" rx="14" fill="none" stroke="#E2E8F0" stroke-width="2"/>
+
+  <!-- Logo CRIBA watermark sutil -->
+  <g transform="translate(24, 24)">
+    <text x="0" y="16" font-family="'Archivo Black', -apple-system, sans-serif" font-size="16" font-weight="900" fill="#17150F" letter-spacing="-0.5px">CRIBA<tspan fill="#FF4D12">.</tspan></text>
+    <text x="0" y="28" font-family="'Space Mono', monospace" font-size="7.5" font-weight="700" fill="#64748B" letter-spacing="1.5px">RADAR DE PREÇOS</text>
+  </g>
+
+  <!-- Badge Verificado -->
+  <g transform="translate(290, 20)">
+    <rect width="86" height="22" rx="11" fill="#FFFFFF" stroke="#17150F" stroke-width="1.5"/>
+    <circle cx="12" cy="11" r="4" fill="#14724A"/>
+    <text x="22" y="14.5" font-family="'Space Mono', monospace" font-size="8" font-weight="700" fill="#17150F">ORIGINAL</text>
+  </g>
+
+  <!-- ICONO SILUETA DE LA CATEGORÍA -->
+  <g id="illustration">
+    <!-- Mouse silueta -->
+        <path d="M150,110 C150,75 170,60 200,60 C230,60 250,75 250,110 L250,180 C250,215 230,235 200,235 C170,235 150,215 150,180 Z" fill="#FFFFFF" stroke="#17150F" stroke-width="3" />
+        <line x1="200" y1="60" x2="200" y2="125" stroke="#17150F" stroke-width="2.5" />
+        <!-- Scroll wheel -->
+        <rect x="194" y="80" width="12" height="26" rx="6" fill="#FF4D12" stroke="#17150F" stroke-width="2" />
+        <!-- Boton lateral -->
+        <path d="M148,135 L144,142 L144,162 L148,168 Z" fill="#17150F" />
+  </g>
+
+  <!-- ETIQUETA CATEGORÍA INFERIOR -->
+  <g transform="translate(0, 260)">
+    <rect x="110" y="0" width="180" height="24" rx="12" fill="#17150F" />
+    <text x="200" y="15" font-family="'Space Mono', monospace" font-size="9" font-weight="700" fill="#FFFFFF" text-anchor="middle" letter-spacing="1.5px">MOUSE GAMER</text>
+  </g>
+</svg>

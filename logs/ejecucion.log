@@ -879,3 +879,73 @@
 [2026-09-07 15:58:28] [FALLO] Shopee (query: 'lampada inteligente wifi rgb'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=lampada+inteligente+wifi+rgb&limit=5&newest=0&order=desc&page_type=search
 [2026-09-07 15:58:48] [FALLO] Mercado Livre (query: 'tomada inteligente wifi'): 403 Client Error: Forbidden for url: https://api.mercadolibre.com/sites/MLB/search?q=tomada+inteligente+wifi&limit=8&sort=price_asc
 [2026-09-07 15:59:09] [FALLO] Shopee (query: 'tomada inteligente wifi'): 403 Client Error: Forbidden for url: https://shopee.com.br/api/v4/search/search_items?by=relevancy&keyword=tomada+inteligente+wifi&limit=5&newest=0&order=desc&page_type=search
+[2026-09-07 16:13:31] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB Switch B -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:13:34] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:13:34] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:13:38] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:13:42] [ML] Fallback URL: Headset Gamer HyperX Cloud Stinger 2 Core -> https://lista.mercadolivre.com.br/headset-gamer-hyperx-cloud-stin
+[2026-09-07 16:13:46] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:13:46] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:13:46] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:13:50] [ML] Fallback URL: Mouse Gamer Logitech G305 LIGHTSPEED Sem Fio -> https://lista.mercadolivre.com.br/mouse-gamer-logitech-g305-light
+[2026-09-07 16:13:53] [ML] Fallback URL: Mouse Logitech G305 LIGHTSPEED Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-lightspeed-
+[2026-09-07 16:13:57] [ML] Fallback URL: Mouse Logitech G305 Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-wireless#D[
+[2026-09-07 16:14:01] [ML] Fallback URL: SSD NVMe Kingston NV2 1TB PCIe 4.0 -> https://lista.mercadolivre.com.br/ssd-nvme-kingston-nv2-1tb-pcie-
+[2026-09-07 16:14:04] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe M.2 -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme-m2#D[
+[2026-09-07 16:14:08] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme#D[A:j
+[2026-09-07 16:14:12] [ML] Fallback URL: Fone Bluetooth QCY T13 ANC TWS -> https://lista.mercadolivre.com.br/fone-bluetooth-qcy-t13-anc-tws#
+[2026-09-07 16:14:15] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-07 16:14:15] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-07 16:14:19] [ML] Fallback URL: Echo Dot 5a Geracao Alexa Smart Speaker -> https://lista.mercadolivre.com.br/echo-dot-5a-geracao-alexa-smart
+[2026-09-07 16:14:23] [ML] Fallback URL: Echo Dot 5 Geracao com Alexa -> https://lista.mercadolivre.com.br/echo-dot-5-geracao-com-alexa#D[
+[2026-09-07 16:14:27] [ML] Fallback URL: Teclado Mecanico Royal Kludge RK61 60% RGB Bluetoo -> https://lista.mercadolivre.com.br/teclado-mecanico-royal-kludge-r
+[2026-09-07 16:14:30] [ML] Fallback URL: Royal Kludge RK61 Teclado 60% Mecanico RGB -> https://lista.mercadolivre.com.br/royal-kludge-rk61-teclado-60-me
+[2026-09-07 16:14:34] [ML] Fallback URL: Monitor Gamer 24 144Hz IPS 1ms Acer Nitro QG241Y -> https://lista.mercadolivre.com.br/monitor-gamer-24-144hz-ips-1ms-
+[2026-09-07 16:14:38] [ML] Fallback URL: Monitor 24 144Hz IPS Acer Nitro QG241Y -> https://lista.mercadolivre.com.br/monitor-24-144hz-ips-acer-nitro
+[2026-09-07 16:14:41] [ML] Fallback URL: Cadeira Gamer ThunderX3 EC3 Preta -> https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-ec3-pre
+[2026-09-07 16:14:45] [ML] Fallback URL: Cadeira Gamer ThunderX3 EC3 -> https://lista.mercadolivre.com.br/cadeira-gamer-thunderx3-ec3#D[A
+[2026-09-07 16:14:49] [ML] Fallback URL: Memoria RAM Kingston Fury Beast 16GB DDR4 3200MHz -> https://lista.mercadolivre.com.br/memoria-ram-kingston-fury-beast
+[2026-09-07 16:14:53] [ML] Fallback URL: Memoria Kingston Fury Beast 16GB DDR4 3200 -> https://lista.mercadolivre.com.br/memoria-kingston-fury-beast-16g
+[2026-09-07 16:14:57] [ML] Fallback URL: Fonte Corsair CV650 650W 80 Plus Bronze -> https://lista.mercadolivre.com.br/fonte-corsair-cv650-650w-80-plu
+[2026-09-07 16:15:00] [ML] Fallback URL: Fonte Corsair CV650 650W 80Plus Bronze -> https://lista.mercadolivre.com.br/fonte-corsair-cv650-650w-80plus
+[2026-09-07 16:15:42] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB Switch B -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:15:46] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:15:46] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:15:50] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:15:54] [ML] Fallback URL: Headset Gamer HyperX Cloud Stinger 2 Core -> https://lista.mercadolivre.com.br/headset-gamer-hyperx-cloud-stin
+[2026-09-07 16:15:57] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:15:57] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:15:57] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:16:01] [ML] Fallback URL: Mouse Gamer Logitech G305 LIGHTSPEED Sem Fio -> https://lista.mercadolivre.com.br/mouse-gamer-logitech-g305-light
+[2026-09-07 16:16:05] [ML] Fallback URL: Mouse Logitech G305 LIGHTSPEED Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-lightspeed-
+[2026-09-07 16:16:09] [ML] Fallback URL: Mouse Logitech G305 Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-wireless#D[
+[2026-09-07 16:16:13] [ML] Fallback URL: SSD NVMe Kingston NV2 1TB PCIe 4.0 -> https://lista.mercadolivre.com.br/ssd-nvme-kingston-nv2-1tb-pcie-
+[2026-09-07 16:16:17] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe M.2 -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme-m2#D[
+[2026-09-07 16:16:20] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme#D[A:j
+[2026-09-07 16:16:24] [ML] Fallback URL: Fone Bluetooth QCY T13 ANC TWS -> https://lista.mercadolivre.com.br/fone-bluetooth-qcy-t13-anc-tws#
+[2026-09-07 16:16:28] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-07 16:16:28] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-07 16:16:32] [ML] Fallback URL: Echo Dot 5a Geracao Alexa Smart Speaker -> https://lista.mercadolivre.com.br/echo-dot-5a-geracao-alexa-smart
+[2026-09-07 16:16:57] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB Switch B -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:17:01] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:17:01] [ML] Fallback URL: Teclado Mecanico Redragon Kumara K552 RGB -> https://lista.mercadolivre.com.br/teclado-mecanico-redragon-kumar
+[2026-09-07 16:17:06] [ML] Encontrado: Teclado Mecanico Redragon Kumara K552 -> https://www.mercadolivre.com.br/teclado-mecanico-gamer-redragon-k @ R$599.0
+[2026-09-07 16:17:10] [ML] Fallback URL: Headset Gamer HyperX Cloud Stinger 2 Core -> https://lista.mercadolivre.com.br/headset-gamer-hyperx-cloud-stin
+[2026-09-07 16:17:14] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:17:14] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:17:14] [ML] Fallback URL: Headset HyperX Cloud Stinger 2 -> https://lista.mercadolivre.com.br/headset-hyperx-cloud-stinger-2#
+[2026-09-07 16:17:17] [ML] Fallback URL: Mouse Gamer Logitech G305 LIGHTSPEED Sem Fio -> https://lista.mercadolivre.com.br/mouse-gamer-logitech-g305-light
+[2026-09-07 16:17:21] [ML] Fallback URL: Mouse Logitech G305 LIGHTSPEED Wireless -> https://lista.mercadolivre.com.br/mouse-logitech-g305-lightspeed-
+[2026-09-07 16:17:26] [ML] Encontrado: Mouse Logitech G305 Wireless -> https://www.mercadolivre.com.br/mouse-gamer-sem-fio-logitech-g305 @ R$257.0
+[2026-09-07 16:17:30] [ML] Fallback URL: SSD NVMe Kingston NV2 1TB PCIe 4.0 -> https://lista.mercadolivre.com.br/ssd-nvme-kingston-nv2-1tb-pcie-
+[2026-09-07 16:17:33] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe M.2 -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme-m2#D[
+[2026-09-07 16:17:37] [ML] Fallback URL: SSD Kingston NV2 1TB NVMe -> https://lista.mercadolivre.com.br/ssd-kingston-nv2-1tb-nvme#D[A:j
+[2026-09-07 16:17:41] [ML] Fallback URL: Fone Bluetooth QCY T13 ANC TWS -> https://lista.mercadolivre.com.br/fone-bluetooth-qcy-t13-anc-tws#
+[2026-09-07 16:17:45] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-07 16:17:45] [ML] Fallback URL: Fone QCY T13 ANC Bluetooth -> https://lista.mercadolivre.com.br/fone-qcy-t13-anc-bluetooth#D[A:
+[2026-09-07 16:17:48] [ML] Fallback URL: Echo Dot 5a Geracao Alexa Smart Speaker -> https://lista.mercadolivre.com.br/echo-dot-5a-geracao-alexa-smart
+[2026-09-07 16:17:52] [ML] Fallback URL: Echo Dot 5 Geracao com Alexa -> https://lista.mercadolivre.com.br/echo-dot-5-geracao-com-alexa#D[
+[2026-09-07 16:17:56] [ML] Fallback URL: Teclado Mecanico Royal Kludge RK61 60% RGB Bluetoo -> https://lista.mercadolivre.com.br/teclado-mecanico-royal-kludge-r
+[2026-09-07 16:17:59] [ML] Fallback URL: Royal Kludge RK61 Teclado 60% Mecanico RGB -> https://lista.mercadolivre.com.br/royal-kludge-rk61-teclado-60-me
+[2026-09-07 16:18:03] [ML] Fallback URL: Monitor Gamer 24 144Hz IPS 1ms Acer Nitro QG241Y -> https://lista.mercadolivre.com.br/monitor-gamer-24-144hz-ips-1ms-
+[2026-09-07 16:18:07] [ML] Fallback URL: Monitor 24 144Hz IPS Acer Nitro QG241Y -> https://lista.mercadolivre.com.br/monitor-24-144hz-ips-acer-nitro

@@ -295,9 +295,12 @@ def buscar_mercadolivre(q):
             r.raise_for_status()
             break
         except Exception as e:
+            if isinstance(e, requests.HTTPError) and getattr(e, "response", None) is not None and e.response.status_code == 403:
+                print("  [ML] 403 IP bloqueada localmente (usando datos de tiendas y manual.json)")
+                return []
             if intento < max_intentos:
-                print(f"  [ML] Intento {intento} falló ({e}). Reintentando en 10s... ({intento}/2)")
-                time.sleep(10)
+                print(f"  [ML] Intento {intento} falló ({e}). Reintentando en 2s... ({intento}/2)")
+                time.sleep(2)
             else:
                 print(f"  [ML] Error tras 2 reintentos: {e}")
                 registrar_fallo("Mercado Livre", str(e), q)
@@ -358,9 +361,12 @@ def buscar_shopee(q):
             data = r.json()
             break
         except Exception as e:
+            if isinstance(e, requests.HTTPError) and getattr(e, "response", None) is not None and e.response.status_code == 403:
+                print("  [Shopee] 403 IP bloqueada localmente (usando datos de tiendas y manual.json)")
+                return []
             if intento < max_intentos:
-                print(f"  [Shopee] Intento {intento} falló ({e}). Reintentando en 10s... ({intento}/2)")
-                time.sleep(10)
+                print(f"  [Shopee] Intento {intento} falló ({e}). Reintentando en 2s... ({intento}/2)")
+                time.sleep(2)
             else:
                 print(f"  [Shopee] Error tras 2 reintentos: {e}")
                 registrar_fallo("Shopee", str(e), q)
@@ -518,6 +524,19 @@ def slug_id(nombre):
     s = re.sub(r"[^a-z0-9]+", "-", s).strip("-")
     return s[:45] if s else "producto"
 
+def coincide_producto(busqueda, nombre):
+    """Verifica si el nombre de una oferta manual coincide con la búsqueda."""
+    if not nombre:
+        return False
+    b_norm = normalizar(busqueda)
+    n_norm = normalizar(nombre)
+    if b_norm in n_norm or n_norm in b_norm:
+        return True
+    palabras = [p for p in b_norm.split() if len(p) >= 3 and p not in ("para", "com", "sem", "plus", "geracao", "ger")]
+    if palabras and sum(1 for p in palabras if p in n_norm) >= max(2, len(palabras) - 1):
+        return True
+    return False
+
 def obtener_historico_producto(con, p_id, comp_items, precio_ref):
     historico = {}
     hoy = datetime.now(timezone.utc).date()
@@ -587,7 +606,7 @@ def ejecutar():
         for m in manuales:
             clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or
                              any(o.get("ean") == m["ean"] for o in ofertas))
-            nombre_coincide = m.get("nombre") and normalizar(cfg["busqueda"]) in normalizar(m["nombre"])
+            nombre_coincide = coincide_producto(cfg["busqueda"], m.get("nombre"))
             if clave_coincide or nombre_coincide:
                 ofertas.append({
                     "tienda": m["tienda"],
@@ -691,7 +710,7 @@ def ejecutar():
         # Si un producto tiene "url_ml" no vacío, agregar "Mercado Livre" como tienda extra en el comparativo
         for m in manuales:
             clave_coincide = m.get("ean") and (cfg.get("ean") == m["ean"] or any(o.get("ean") == m["ean"] for o in ofertas))
-            nombre_coincide = m.get("nombre") and normalizar(cfg["busqueda"]) in normalizar(m["nombre"])
+            nombre_coincide = coincide_producto(cfg["busqueda"], m.get("nombre"))
             if (clave_coincide or nombre_coincide) and m.get("url_ml") and m["url_ml"].strip():
                 # Garantizar siempre el tag de afiliado en el link
                 ml_url = construir_link_afiliado_ml(m["url_ml"].strip())

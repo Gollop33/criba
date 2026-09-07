@@ -384,16 +384,33 @@ function haceCuanto(iso){
   return min < 60 ? `hace ${min} min` : `hace ${Math.round(min/60)} h`;
 }
 
+function getCategoriaFallback(cat, nombre) {
+  const c = (cat || '').toLowerCase();
+  const n = (nombre || '').toLowerCase();
+  if (c.includes('teclado') || n.includes('teclado')) return 'img/teclados.svg';
+  if (c.includes('mouse') || n.includes('mouse')) return 'img/mouses.svg';
+  if (c.includes('headset') || n.includes('headset')) return 'img/headsets.svg';
+  if (c.includes('audio') || c.includes('fone') || n.includes('fone')) return 'img/audio.svg';
+  if (c.includes('monitor') || n.includes('monitor')) return 'img/monitores.svg';
+  if (c.includes('storage') || n.includes('ssd') || n.includes('nvme')) return 'img/storage.svg';
+  if (c.includes('componente') || n.includes('ram') || n.includes('fonte')) return 'img/componentes.svg';
+  if (c.includes('mobiliario') || c.includes('cadeira')) return 'img/mobiliario.svg';
+  if (c.includes('smart') || n.includes('alexa') || n.includes('echo')) return 'img/smarthome.svg';
+  return 'img/general.svg';
+}
+
 function renderCard(p){
   const v = p.vista, pc = p.parcelado;
   const desc = p.descuento_pct || (v.base > v.precio ? Math.round((1 - v.precio / v.base) * 100) : 0);
   const ahorro = p.ahorro || (p.precio_ref ? (p.precio_ref - v.precio) : 0);
+  const fallbackSvg = getCategoriaFallback(p.categoria, p.nombre);
+  const safeName = (p.nombre || '').replace(/'/g, "\\'");
   
   return `
   <article class="pcard radar pop" data-cat="${p.categoria}">
     ${p.bajo ? '<span class="bajada">⬇ ¡MÍNIMO HISTÓRICO!</span>' : ''}
     <div class="ph">
-      <div class="prod-img-wrap"><img src="${p.imagen || 'img/placeholder.png'}" alt="${p.nombre}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='img/placeholder.png';"></div>
+      <div class="prod-img-wrap"><img src="${p.imagen || fallbackSvg}" alt="${p.nombre}" loading="lazy" referrerpolicy="no-referrer" onerror="this.onerror=null;this.src='${fallbackSvg}';"></div>
       <span class="tag tg-cobalt">${p.categoria}</span>
       ${desc ? `<span class="pct-radar">−${Math.round(desc)}%</span>` : ''}
     </div>
