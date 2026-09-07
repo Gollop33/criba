@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-07T19:18:30+00:00",
+  "actualizado": "2026-09-07T19:45:02+00:00",
   "productos": [
     {
       "id": "headset-gamer-hyperx-cloud-stinger-2-core",
@@ -7,11 +7,11 @@
       "categoria": "Audio",
       "imagen": "img/hyperx-stinger-2.jpg",
       "precio_ref": 300,
-      "score": 105,
+      "score": 80,
       "descuento_pct": 51.2,
       "ahorro": 153.59,
-      "bajo": true,
-      "minimo_historico": 166.31,
+      "bajo": false,
+      "minimo_historico": null,
       "vista": {
         "precio": 146.41,
         "tienda": "KaBuM!",
@@ -36,7 +36,7 @@
           "cuotas": 10,
           "url": "https://www.kabum.com.br/produto/387263/headset-hyperx-cloud-stinger-2?tag=TU-TAG-KABUM",
           "cupon": "GAMER10",
-          "score": 105
+          "score": 80
         },
         {
           "tienda": "Pichau",
@@ -199,7 +199,7 @@
       "descuento_pct": 46.5,
       "ahorro": 116.34,
       "bajo": false,
-      "minimo_historico": 133.66,
+      "minimo_historico": null,
       "vista": {
         "precio": 133.66,
         "tienda": "KaBuM!",
@@ -257,12 +257,28 @@
       "historico": {
         "KaBuM!": [
           {
+            "fecha": "2026-09-01",
+            "precio": 217.38
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 201.42
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 196.43
+          },
+          {
             "fecha": "2026-09-04",
-            "precio": 133.66
+            "precio": 180.12
           },
           {
             "fecha": "2026-09-05",
-            "precio": 133.66
+            "precio": 164.05
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 148.2
           },
           {
             "fecha": "2026-09-07",
@@ -271,12 +287,28 @@
         ],
         "Pichau": [
           {
+            "fecha": "2026-09-01",
+            "precio": 229.09
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 214.92
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 200.96
+          },
+          {
             "fecha": "2026-09-04",
-            "precio": 151.91
+            "precio": 187.18
           },
           {
             "fecha": "2026-09-05",
-            "precio": 151.91
+            "precio": 173.61
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 160.23
           },
           {
             "fecha": "2026-09-07",
@@ -285,12 +317,28 @@
         ],
         "Amazon": [
           {
+            "fecha": "2026-09-01",
+            "precio": 228.72
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 216.34
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 204.13
+          },
+          {
             "fecha": "2026-09-04",
-            "precio": 164.9
+            "precio": 192.09
           },
           {
             "fecha": "2026-09-05",
-            "precio": 164.9
+            "precio": 190.64
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 178.35
           },
           {
             "fecha": "2026-09-07",
@@ -488,7 +536,7 @@
       "descuento_pct": 41.4,
       "ahorro": 103.59,
       "bajo": false,
-      "minimo_historico": 146.41,
+      "minimo_historico": null,
       "vista": {
         "precio": 146.41,
         "tienda": "KaBuM!",
@@ -747,7 +795,7 @@
       "descuento_pct": 38.1,
       "ahorro": 305.09,
       "bajo": false,
-      "minimo_historico": 494.91,
+      "minimo_historico": null,
       "vista": {
         "precio": 494.91,
         "tienda": "KaBuM!",
@@ -1045,7 +1093,7 @@
       "descuento_pct": 35.6,
       "ahorro": 320.09,
       "bajo": false,
-      "minimo_historico": 579.91,
+      "minimo_historico": null,
       "vista": {
         "precio": 579.91,
         "tienda": "KaBuM!",
@@ -1085,12 +1133,28 @@
       "historico": {
         "KaBuM!": [
           {
+            "fecha": "2026-09-01",
+            "precio": 833.1
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 786.21
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 739.96
+          },
+          {
             "fecha": "2026-09-04",
-            "precio": 579.91
+            "precio": 694.34
           },
           {
             "fecha": "2026-09-05",
-            "precio": 579.91
+            "precio": 649.37
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 605.04
           },
           {
             "fecha": "2026-09-07",
@@ -1240,133 +1304,6 @@
       }
     },
     {
-      "id": "teclado-mecanico-royal-kludge-rk61-60-rgb-blu",
-      "nombre": "Royal Kludge RK61 Teclado 60% Mecanico RGB",
-      "categoria": "Teclados",
-      "imagen": "img/royal-kludge-rk61.jpg",
-      "precio_ref": 200,
-      "score": 61.9,
-      "descuento_pct": 36.9,
-      "ahorro": 80.1,
-      "bajo": true,
-      "minimo_historico": 129.9,
-      "vista": {
-        "precio": 119.9,
-        "tienda": "AliExpress",
-        "cupon": null,
-        "pix": false,
-        "base": 119.9,
-        "original": 189.9,
-        "url": "https://pt.aliexpress.com/item/12345.html?aff_id=TU-TAG-ALI"
-      },
-      "parcelado": null,
-      "comparativo": [
-        {
-          "tienda": "AliExpress",
-          "vista": 119.9,
-          "parcelado": null,
-          "cuotas": 0,
-          "url": "https://pt.aliexpress.com/item/12345.html?aff_id=TU-TAG-ALI",
-          "cupon": null,
-          "score": 61.9
-        },
-        {
-          "tienda": "Shopee",
-          "vista": 129.9,
-          "parcelado": null,
-          "cuotas": 0,
-          "url": "https://shopee.com.br/product/789/012?aff_id=TU-TAG-SHOPEE",
-          "cupon": "NOVO10",
-          "score": 50.0
-        },
-        {
-          "tienda": "Mercado Livre",
-          "vista": 139.9,
-          "parcelado": 139.9,
-          "cuotas": 10,
-          "url": "https://lista.mercadolivre.com.br/teclado-mecanico-royal-kludge-rk61-60-rgb-bluetooth#D[A:ja20250119201346]",
-          "cupon": null,
-          "score": 60.0
-        }
-      ],
-      "historico": {
-        "AliExpress": [
-          {
-            "fecha": "2026-09-01",
-            "precio": 175.66
-          },
-          {
-            "fecha": "2026-09-02",
-            "precio": 174.04
-          },
-          {
-            "fecha": "2026-09-03",
-            "precio": 162.51
-          },
-          {
-            "fecha": "2026-09-04",
-            "precio": 151.14
-          },
-          {
-            "fecha": "2026-09-05",
-            "precio": 139.93
-          },
-          {
-            "fecha": "2026-09-06",
-            "precio": 128.87
-          },
-          {
-            "fecha": "2026-09-07",
-            "precio": 119.9
-          }
-        ],
-        "Shopee": [
-          {
-            "fecha": "2026-09-04",
-            "precio": 129.9
-          },
-          {
-            "fecha": "2026-09-05",
-            "precio": 129.9
-          },
-          {
-            "fecha": "2026-09-07",
-            "precio": 129.9
-          }
-        ],
-        "Mercado Livre": [
-          {
-            "fecha": "2026-09-01",
-            "precio": 186.45
-          },
-          {
-            "fecha": "2026-09-02",
-            "precio": 177.46
-          },
-          {
-            "fecha": "2026-09-03",
-            "precio": 168.59
-          },
-          {
-            "fecha": "2026-09-04",
-            "precio": 159.84
-          },
-          {
-            "fecha": "2026-09-05",
-            "precio": 151.21
-          },
-          {
-            "fecha": "2026-09-06",
-            "precio": 150.95
-          },
-          {
-            "fecha": "2026-09-07",
-            "precio": 139.9
-          }
-        ]
-      }
-    },
-    {
       "id": "fone-bluetooth-qcy-t13-anc-tws",
       "nombre": "Fone Bluetooth QCY T13 ANC TWS",
       "categoria": "Audio",
@@ -1376,7 +1313,7 @@
       "descuento_pct": 42.6,
       "ahorro": 34.1,
       "bajo": false,
-      "minimo_historico": 45.9,
+      "minimo_historico": null,
       "vista": {
         "precio": 45.9,
         "tienda": "Shopee",
@@ -1425,12 +1362,28 @@
       "historico": {
         "Shopee": [
           {
+            "fecha": "2026-09-01",
+            "precio": 71.47
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 66.67
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 61.94
+          },
+          {
             "fecha": "2026-09-04",
-            "precio": 45.9
+            "precio": 57.28
           },
           {
             "fecha": "2026-09-05",
-            "precio": 45.9
+            "precio": 55.73
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 50.97
           },
           {
             "fecha": "2026-09-07",
@@ -1495,6 +1448,110 @@
           {
             "fecha": "2026-09-07",
             "precio": 55.9
+          }
+        ]
+      }
+    },
+    {
+      "id": "teclado-mecanico-royal-kludge-rk61-60-rgb-blu",
+      "nombre": "Teclado Mecanico Royal Kludge RK61 60% RGB Bluetooth",
+      "categoria": "Teclados",
+      "imagen": "img/royal-kludge-rk61.jpg",
+      "precio_ref": 200,
+      "score": 50.0,
+      "descuento_pct": 35.0,
+      "ahorro": 70.1,
+      "bajo": false,
+      "minimo_historico": null,
+      "vista": {
+        "precio": 129.9,
+        "tienda": "Shopee",
+        "cupon": "NOVO10",
+        "pix": false,
+        "base": 139.9,
+        "original": 199.9,
+        "url": "https://shopee.com.br/product/789/012?aff_id=TU-TAG-SHOPEE"
+      },
+      "parcelado": null,
+      "comparativo": [
+        {
+          "tienda": "Shopee",
+          "vista": 129.9,
+          "parcelado": null,
+          "cuotas": 0,
+          "url": "https://shopee.com.br/product/789/012?aff_id=TU-TAG-SHOPEE",
+          "cupon": "NOVO10",
+          "score": 50.0
+        },
+        {
+          "tienda": "Mercado Livre",
+          "vista": 139.9,
+          "parcelado": 139.9,
+          "cuotas": 10,
+          "url": "https://lista.mercadolivre.com.br/teclado-mecanico-royal-kludge-rk61-60-rgb-bluetooth#D[A:ja20250119201346]",
+          "cupon": null,
+          "score": 60.0
+        }
+      ],
+      "historico": {
+        "Shopee": [
+          {
+            "fecha": "2026-09-01",
+            "precio": 179.56
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 169.54
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 168.91
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 158.69
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 148.6
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 138.66
+          },
+          {
+            "fecha": "2026-09-07",
+            "precio": 129.9
+          }
+        ],
+        "Mercado Livre": [
+          {
+            "fecha": "2026-09-01",
+            "precio": 186.45
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 177.46
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 168.59
+          },
+          {
+            "fecha": "2026-09-04",
+            "precio": 159.84
+          },
+          {
+            "fecha": "2026-09-05",
+            "precio": 151.21
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 150.95
+          },
+          {
+            "fecha": "2026-09-07",
+            "precio": 139.9
           }
         ]
       }
