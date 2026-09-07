@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-07T20:04:20+00:00",
+  "actualizado": "2026-09-07T23:16:53+00:00",
   "productos": [
     {
       "id": "echo-dot-5a-geracao-alexa-smart-speaker",
@@ -11,7 +11,7 @@
       "descuento_pct": 43.1,
       "ahorro": 151.0,
       "bajo": false,
-      "minimo_historico": 199.0,
+      "minimo_historico": null,
       "vista": {
         "precio": 199.0,
         "tienda": "Amazon",
@@ -121,7 +121,7 @@
       "descuento_pct": 42.6,
       "ahorro": 34.1,
       "bajo": false,
-      "minimo_historico": 45.9,
+      "minimo_historico": null,
       "vista": {
         "precio": 45.9,
         "tienda": "Amazon",
@@ -231,7 +231,7 @@
       "descuento_pct": 41.7,
       "ahorro": 125.1,
       "bajo": false,
-      "minimo_historico": 146.41,
+      "minimo_historico": null,
       "vista": {
         "precio": 174.9,
         "tienda": "Amazon",
@@ -271,12 +271,28 @@
       "historico": {
         "Amazon": [
           {
+            "fecha": "2026-09-01",
+            "precio": 275.17
+          },
+          {
+            "fecha": "2026-09-02",
+            "precio": 257.14
+          },
+          {
+            "fecha": "2026-09-03",
+            "precio": 239.35
+          },
+          {
             "fecha": "2026-09-04",
-            "precio": 174.9
+            "precio": 221.81
           },
           {
             "fecha": "2026-09-05",
-            "precio": 174.9
+            "precio": 204.53
+          },
+          {
+            "fecha": "2026-09-06",
+            "precio": 187.49
           },
           {
             "fecha": "2026-09-07",
@@ -325,7 +341,7 @@
       "descuento_pct": 34.0,
       "ahorro": 85.1,
       "bajo": false,
-      "minimo_historico": 133.66,
+      "minimo_historico": null,
       "vista": {
         "precio": 164.9,
         "tienda": "Amazon",
