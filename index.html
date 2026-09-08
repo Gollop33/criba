@@ -207,14 +207,21 @@ function precioDe(p){ if(p.vista&&p.vista.precio!=null)return p.vista.precio; if
   if(Array.isArray(p.historico)&&p.historico.length){const h=p.historico[p.historico.length-1];return h.precio??h.preco??null;} return null; }
 function baseDe(p){ if(Array.isArray(p.historico)&&p.historico.length>1){const xs=p.historico.map(h=>h.precio??h.preco).filter(x=>x!=null);
   if(xs.length)return xs.reduce((a,b)=>a+b,0)/xs.length;} return null; }
+function cortaDe(u){
+  if(!u) return u;
+  for(const [cod, info] of Object.entries(LINKS)){
+    if(info && info.url === u) return 'go/' + cod + '/';
+  }
+  return u;
+}
 function linksDe(p){ const out=[];
-  if(p.urls&&typeof p.urls==='object')for(const[t,u]of Object.entries(p.urls))if(u&&tiendaOk(t))out.push({t,u});
-  if(Array.isArray(p.comparativo))for(const c of p.comparativo)if(c&&c.url&&tiendaOk(c.tienda||c.loja))out.push({t:c.tienda||c.loja||'Loja',u:c.url});
-  if(p.url_ml)out.push({t:'Mercado Livre',u:p.url_ml}); if(p.url_amazon)out.push({t:'Amazon',u:p.url_amazon});
-  if(p.vista&&p.vista.url&&tiendaOk(p.vista.tienda)&&!out.some(x=>x.u===p.vista.url))out.push({t:p.vista.tienda||'Oferta',u:p.vista.url});
+  if(p.urls&&typeof p.urls==='object')for(const[t,u]of Object.entries(p.urls))if(u&&tiendaOk(t))out.push({t,u:cortaDe(u)});
+  if(Array.isArray(p.comparativo))for(const c of p.comparativo)if(c&&c.url&&tiendaOk(c.tienda||c.loja))out.push({t:c.tienda||c.loja||'Loja',u:cortaDe(c.url)});
+  if(p.url_ml)out.push({t:'Mercado Livre',u:cortaDe(p.url_ml)}); if(p.url_amazon)out.push({t:'Amazon',u:cortaDe(p.url_amazon)});
+  if(p.vista&&p.vista.url&&tiendaOk(p.vista.tienda)&&!out.some(x=>x.u===cortaDe(p.vista.url)))out.push({t:p.vista.tienda||'Oferta',u:cortaDe(p.vista.url)});
   return out; }
 
-let PROD=[], ACHADOS=[], CUP=[], WA='#';
+let PROD=[], ACHADOS=[], CUP=[], LINKS={}, WA='#';
 async function init(){
   // Fecha en vivo (pt-BR) en el Hero
   try{
@@ -232,6 +239,11 @@ async function init(){
     if(Array.isArray(c.tiendas_que_pagan)&&c.tiendas_que_pagan.length)TIENDAS_OK=c.tiendas_que_pagan;
   }catch(e){}
   document.querySelectorAll('[data-wa]').forEach(a=>a.href=WA);
+
+  // Cargar links.json (mapa de enlaces cortos)
+  try{
+    LINKS=await(await fetch('links.json')).json();
+  }catch(e){LINKS={};}
 
   // Cargar achados.json (Cosecha fresca)
   try{
@@ -282,7 +294,7 @@ function renderAchados(){
       <div class="body"><h3>${a.nombre||'Oferta Relâmpago'}</h3>
         <div class="prices"><span class="now">${BRL(a.precio)}</span>${a.precio_anterior?`<span class="was">${BRL(a.precio_anterior)}</span>`:''}</div>
         <div class="store">Loja: <b>${a.loja}</b> · <span>${a.fuente||'Achado'}</span></div>
-        <div class="links"><a class="btn" target="_blank" rel="nofollow noopener" href="${a.url}">Ver achado 🔥</a></div>
+        <div class="links"><a class="btn" target="_blank" rel="nofollow noopener" href="${a.url_corta||a.url}">Ver achado 🔥</a></div>
       </div></article>`;
   }).join('');
   observar();

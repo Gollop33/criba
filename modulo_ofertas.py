@@ -183,31 +183,50 @@ def _obtener_cupon_producto(producto, cupones):
 
 # ─── Link de afiliado ──────────────────────────────────────────────────────────
 
+def _cargar_pix_por_loja():
+    f = BASE / "config_afiliados.json"
+    if f.exists():
+        try:
+            cfg = json.loads(f.read_text(encoding="utf-8"))
+            return cfg.get("pix_por_loja", {})
+        except Exception:
+            pass
+    return {"mercadolivre": 5, "amazon": 5}
+
+PIX_POR_LOJA = _cargar_pix_por_loja()
+
 def _link_afiliado(producto):
-    """Construye el link de afiliado correcto según la tienda."""
+    """Construye el link de afiliado correcto según la tienda y usa acortador si es posible."""
     vista = producto.get("vista", {})
     url   = vista.get("url", "") or ""
     tienda = vista.get("tienda", "").lower()
+    nombre = producto.get("nombre", "Produto")
 
+    url_larga = url
     # Priorizar url_ml si existe
     url_ml = producto.get("url_ml", "").strip()
     if url_ml:
         sep = "&" if "?" in url_ml else "#"
-        return f"{url_ml}{sep}D[A:{ML_ID}]"
-
-    if "amazon" in tienda or "amazon" in url:
+        url_larga = f"{url_ml}{sep}D[A:{ML_ID}]"
+    elif "amazon" in tienda or "amazon" in url:
         sep = "&" if "?" in url else "?"
         if "tag=" not in url:
-            return f"{url}{sep}tag={AMAZON_TAG}"
-        return url
-
-    if "mercadolivre" in tienda or "mercadolivre" in url or "mercadolibre" in url:
+            url_larga = f"{url}{sep}tag={AMAZON_TAG}"
+        else:
+            url_larga = url
+    elif "mercadolivre" in tienda or "mercadolivre" in url or "mercadolibre" in url:
         sep = "&" if "?" in url else "#"
         if "D[A:" not in url:
-            return f"{url}{sep}D[A:{ML_ID}]"
-        return url
+            url_larga = f"{url}{sep}D[A:{ML_ID}]"
+        else:
+            url_larga = url
 
-    return url
+    # Acortar URL si es posible
+    try:
+        from acortador import obtener_url_corta
+        return obtener_url_corta(url_larga, loja=vista.get("tienda", "Loja"), producto=nombre)
+    except Exception:
+        return url_larga
 
 
 # ─── Extraer historial de precios de forma segura ─────────────────────────────
@@ -367,23 +386,34 @@ def _link_grupo_whatsapp():
 
 def formatear_mensaje(oferta, modo="texto", incluir_grupo=False):
     """
-    Genera el mensaje exacto según especificación:
-    🔥 [nombre del producto]
-    ✅ R$ [menor precio]
-    🎟️ Cupom: [código si existe]
-    👉 [link de afiliado con tag]
-    📲 Mais ofertas em tempo real: [link del grupo] (opcional: 1 de cada 3 envíos)
-
-    modo='texto' -> WhatsApp / texto plano
-    modo='html'  -> Telegram con etiquetas HTML
+    Genera el mensaje exacto según especificación Ninja Ofertas:
+    🔥 [nombre]
+    ✅ R$ [precio]
+    🎟️ Cupom: [código]        (solo si existe)
+    💠 Pix: mais [X]% OFF      (solo si config tiene la tienda)
+    👉 [url corta]
+    📲 Mais ofertas em tempo real: [link del grupo] (opcional)
     """
     p      = oferta["producto"]
     nombre = p.get("nombre", "Produto")
     vista  = p.get("vista", {})
     precio = vista.get("precio", 0)
+    tienda = vista.get("tienda", "")
     cupon  = oferta.get("cupon")
     link   = oferta.get("link", "")
     link_grupo = _link_grupo_whatsapp()
+
+    # Verificar descuento Pix configurado para la tienda
+    pix_dict = _cargar_pix_por_loja()
+    t_norm = _normalizar_tienda(tienda)
+    pix_pct = None
+    for k, v in pix_dict.items():
+        if _normalizar_tienda(k) in t_norm or t_norm in _normalizar_tienda(k):
+            try:
+                pix_pct = int(v)
+                break
+            except Exception:
+                pass
 
     if modo == "html":
         lineas = [
@@ -392,6 +422,8 @@ def formatear_mensaje(oferta, modo="texto", incluir_grupo=False):
         ]
         if cupon:
             lineas.append(f"🎟️ Cupom: <code>{cupon}</code>")
+        if pix_pct and pix_pct > 0:
+            lineas.append(f"💠 Pix: mais <b>{pix_pct}% OFF</b>")
         lineas.append(f"👉 {link}")
         if incluir_grupo:
             lineas.append(f"📲 <b>Mais ofertas em tempo real:</b> {link_grupo}")
@@ -402,6 +434,8 @@ def formatear_mensaje(oferta, modo="texto", incluir_grupo=False):
         ]
         if cupon:
             lineas.append(f"🎟️ Cupom: {cupon}")
+        if pix_pct and pix_pct > 0:
+            lineas.append(f"💠 Pix: mais {pix_pct}% OFF")
         lineas.append(f"👉 {link}")
         if incluir_grupo:
             lineas.append(f"📲 Mais ofertas em tempo real: {link_grupo}")

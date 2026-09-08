@@ -44,5 +44,10 @@
   "tiendas_que_pagan": [
     "amazon",
     "mercadolivre"
-  ]
+  ],
+  "dominio_curto": "https://gollop33.github.io/criba",
+  "pix_por_loja": {
+    "mercadolivre": 5,
+    "amazon": 5
+  }
 }

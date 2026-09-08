@@ -60,6 +60,41 @@ def enviar_whatsapp(mensaje, chat_id=None):
         return False
 
 
+def enviar_whatsapp_archivo(ruta_archivo, caption="", chat_id=None):
+    """
+    Envía una imagen local a WhatsApp con caption via Green API sendFileByUpload.
+    Retorna True si OK.
+    """
+    iid   = GREEN_API_ID.strip()
+    token = GREEN_API_TOKEN.strip()
+    cid   = (chat_id or WHATSAPP_CHAT_ID).strip()
+
+    if not iid or not token or not cid:
+        print("  [WhatsApp] Secrets no configurados — saltando")
+        return False
+
+    p = Path(ruta_archivo)
+    if not p.exists():
+        print(f"  [WhatsApp] Archivo no existe: {ruta_archivo}")
+        return False
+
+    url = f"https://api.green-api.com/waInstance{iid}/sendFileByUpload/{token}"
+    payload = {"chatId": cid, "caption": caption}
+
+    try:
+        with open(p, "rb") as f:
+            files = [("file", (p.name, f, "image/jpeg"))]
+            r = requests.post(url, data=payload, files=files, timeout=30)
+            if r.status_code == 200 and r.json().get("idMessage"):
+                return True
+            else:
+                print(f"  [WhatsApp Archivo] Error {r.status_code}: {r.text[:150]}")
+                return False
+    except Exception as e:
+        print(f"  [WhatsApp Archivo] Excepcion: {e}")
+        return False
+
+
 def verificar_green_api():
     """Verifica que la instancia de Green API esté activa."""
     iid   = GREEN_API_ID.strip()
@@ -154,6 +189,12 @@ def main():
     enviados = cargar_enviados()
     enviados_ok = 0
 
+    # Importar generador de imagen con badges ninja
+    try:
+        from editar_imagen import procesar_imagen_ninja
+    except ImportError:
+        procesar_imagen_ninja = None
+
     for idx, oferta in enumerate(ofertas, 1):
         p   = oferta["producto"]
         pid = p.get("id") or p.get("nombre", "")[:40]
@@ -164,7 +205,35 @@ def main():
         print(f"\n  Enviando ({idx}/{len(ofertas)}): {p.get('nombre','?')[:50]}")
         print(f"  Score: {oferta['score']} | {oferta['motivo']}")
 
-        ok = enviar_whatsapp(msg)
+        img_url = p.get("imagen") or p.get("imagem")
+        img_procesada = None
+
+        # Intentar procesar imagen con badges ninja si hay URL disponible
+        if img_url and procesar_imagen_ninja:
+            cupon_codigo = oferta.get("cupon", {}).get("codigo") if isinstance(oferta.get("cupon"), dict) else None
+            pix_pct = oferta.get("pix_pct", 0)
+            desc_pct = oferta.get("desc_pct", 0)
+            try:
+                img_procesada = procesar_imagen_ninja(
+                    url_o_path=img_url,
+                    nombre_salida=f"envio_{pid[:20]}",
+                    cupon=cupon_codigo,
+                    pix_pct=pix_pct,
+                    desc_pct=desc_pct
+                )
+            except Exception as e:
+                print(f"  [Badges] Error procesando imagen: {e}")
+
+        ok = False
+        if img_procesada and Path(img_procesada).exists():
+            print(f"  [Badges] Enviando imagen con badges ninja...")
+            ok = enviar_whatsapp_archivo(img_procesada, caption=msg)
+            if not ok:
+                print(f"  [Fallback] Falló envío con imagen, intentando mensaje de texto...")
+                ok = enviar_whatsapp(msg)
+        else:
+            ok = enviar_whatsapp(msg)
+
         if ok:
             marcar_enviado(pid, enviados, canal="whatsapp")
             enviados_ok += 1
