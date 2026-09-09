@@ -43,8 +43,12 @@ AMAZON_TARGETS = [
     ("Teclados Gamer", "https://www.amazon.com.br/gp/bestsellers/computers/16364755011"),
     ("Informática", "https://www.amazon.com.br/gp/bestsellers/computers"),
     ("Eletrônicos & Áudio", "https://www.amazon.com.br/gp/bestsellers/electronics"),
-    ("Cozinha", "https://www.amazon.com.br/gp/bestsellers/kitchen"),
+    ("Smartphones & Acessórios", "https://www.amazon.com.br/gp/bestsellers/electronics/16209062011"),
+    ("Cozinha & Air Fryer", "https://www.amazon.com.br/gp/bestsellers/kitchen"),
     ("Casa Inteligente & Lar", "https://www.amazon.com.br/gp/bestsellers/home"),
+    ("Beleza & Cuidados", "https://www.amazon.com.br/gp/bestsellers/beauty"),
+    ("Suplementos & Saúde", "https://www.amazon.com.br/gp/bestsellers/hpc"),
+    ("Games & Consoles", "https://www.amazon.com.br/gp/bestsellers/videogames"),
 ]
 
 def log(msg):

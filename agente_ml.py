@@ -40,17 +40,33 @@ UA = {
 }
 
 CATEGORIAS_BUSQUEDA = [
-    ("Monitores", "monitor"),
-    ("SSDs", "ssd"),
-    ("Memoria RAM", "memoria ram"),
+    # Smartphones & Gadgets
+    ("Smartphones Samsung", "smartphone samsung"),
+    ("iPhone", "iphone"),
+    ("Smart TV", "smart tv"),
+    ("Notebooks", "notebook"),
+    ("Caixa de Som Bluetooth", "caixa de som bluetooth"),
+    ("Ar Condicionado", "ar condicionado inverter"),
+    
+    # Casa & Eletro
+    ("Air Fryer", "air fryer fritadeira"),
+    ("Aspiradores Verticais", "aspirador vertical robo"),
+    ("Echo Dot Alexa", "echo dot alexa"),
+    
+    # Saúde & Beleza
+    ("Perfumes Masculinos", "perfume masculino"),
+    ("Creatina", "creatina"),
+    ("Whey Protein", "whey protein"),
+    
+    # Setup Gamer & Informática
+    ("Cadeiras Gamer", "cadeira gamer"),
+    ("Monitores Gamer", "monitor gamer"),
+    ("SSDs NVMe", "ssd nvme"),
     ("Placas de Video", "placa de video"),
+    ("Memoria RAM", "memoria ram"),
     ("Teclados Gamer", "teclado gamer"),
     ("Mouses Gamer", "mouse gamer"),
-    ("Headsets", "headset gamer"),
-    ("Notebooks", "notebook"),
-    ("Echo Dot", "echo dot alexa"),
-    ("Fritadeiras", "fritadeira air fryer"),
-    ("Aspiradores", "aspirador robo"),
+    ("Headsets Gamer", "headset gamer"),
 ]
 
 def log(msg):

@@ -1106,3 +1106,38 @@
 [2026-09-08 23:49:38] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
 [2026-09-08 23:49:38] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas obtenidas
 [2026-09-08 23:49:38] [AGENTE-AMAZON] Guardados 29 achados en achados_amazon.json
+[2026-09-09 10:35:57] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-09-09 10:35:57] [PELANDO]   51 cupons encontrados en Amazon
+[2026-09-09 10:35:59] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-09-09 10:36:04] [PELANDO]   Falha ao acessar KaBuM!
+[2026-09-09 10:36:06] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-09-09 10:36:06] [PELANDO]   56 cupons encontrados en Mercado Livre
+[2026-09-09 10:36:08] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-09-09 10:36:08] [PELANDO]   38 cupons encontrados en Shopee
+[2026-09-09 10:36:10] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-09-09 10:36:11] [PELANDO]   21 cupons encontrados en Magazine Luiza
+[2026-09-09 12:06:31] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-09-09 12:07:33] [AGENTE-ML] Scraping ML: 999 ofertas obtenidas
+[2026-09-09 12:07:33] [AGENTE-ML] Guardados 40 achados en achados_ml.json
+[2026-09-09 12:57:16] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-09-09 12:57:45] [AGENTE-AMAZON] Amazon direct: 210 ofertas cosechadas
+[2026-09-09 12:57:45] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-09-09 12:57:46] [AGENTE-AMAZON] Amazon Pelando: 57 ofertas obtenidas
+[2026-09-09 12:57:46] [AGENTE-AMAZON] Guardados 40 achados en achados_amazon.json
+[2026-09-09 13:03:07] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-09-09 13:03:08] [PELANDO]   53 cupons encontrados en Amazon
+[2026-09-09 13:03:10] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-09-09 13:03:14] [PELANDO]   Falha ao acessar KaBuM!
+[2026-09-09 13:03:16] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-09-09 13:03:17] [PELANDO]   50 cupons encontrados en Mercado Livre
+[2026-09-09 13:03:19] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-09-09 13:03:19] [PELANDO]   34 cupons encontrados en Shopee
+[2026-09-09 13:03:21] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-09-09 13:03:22] [PELANDO]   24 cupons encontrados en Magazine Luiza
+[2026-09-09 13:03:24] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-09-09 13:03:24] [PELANDO]   8 cupons encontrados en AliExpress
+[2026-09-09 13:03:26] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-09-09 13:03:31] [PELANDO]   Falha ao acessar Pichau
+[2026-09-09 13:03:33] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-09-09 13:03:38] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-09-09 13:03:40] [PELANDO] Completado: 160 Pelando + 5 manuales = 165 total

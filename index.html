@@ -141,10 +141,21 @@ footer p{max-width:700px;margin:6px auto}
   </div>
 </section>
 
-<!-- SECCIÓN 1: ACHADOS DO DIA (COSECHA AUTOMÁTICA) -->
+<!-- SECCIÓN 1: ÚLTIMOS ACHADINHOS PUBLICADOS (FEED VIVO) -->
 <div class="sec-title-wrap" id="achados-sec">
-  <h2>⚡ ACHADOS DO DIA</h2>
-  <span class="sub-t">Ofertas quentes e relâmpago garimpadas hoje</span>
+  <div>
+    <h2>🔥 Últimos achadinhos publicados</h2>
+    <span class="sub-t" id="hora-atualizacao">⚡ Atualizado às --:-- · Feed monitorado 24/7</span>
+  </div>
+</div>
+<div class="filters" id="filters-achados">
+  <button class="chip-f on" onclick="filtrarAchados('todos', this)">🔥 Todos</button>
+  <button class="chip-f" onclick="filtrarAchados('mercadolivre', this)">💛 Mercado Livre</button>
+  <button class="chip-f" onclick="filtrarAchados('amazon', this)">📦 Amazon</button>
+  <button class="chip-f" onclick="filtrarAchados('cupons', this)">🏷️ Cupons</button>
+  <button class="chip-f" onclick="filtrarAchados('celulares', this)">📱 Celulares</button>
+  <button class="chip-f" onclick="filtrarAchados('tech', this)">💻 Tech & Gamer</button>
+  <button class="chip-f" onclick="filtrarAchados('casa', this)">🏠 Casa & Eletro</button>
 </div>
 <div class="grid" id="grid-achados"></div>
 
@@ -250,6 +261,24 @@ async function init(){
     const d=await(await fetch('achados.json')).json();
     const raw=Array.isArray(d)?d:(d.achados||[]);
     ACHADOS=raw.filter(a=>tiendaOk(a.loja));
+
+    // Ordenar por frescura (encontrado_em / revalidado_em descendente)
+    ACHADOS.sort((a,b)=>{
+      const fa = a.encontrado_em || a.revalidado_em || a.criado_em || '';
+      const fb = b.encontrado_em || b.revalidado_em || b.criado_em || '';
+      return fb.localeCompare(fa);
+    });
+
+    // Mostrar hora de actualización visible
+    const horaEl = document.getElementById('hora-atualizacao');
+    if(horaEl && d.actualizado){
+      try {
+        const dt = new Date(d.actualizado);
+        const hh = String(dt.getHours()).padStart(2, '0');
+        const mm = String(dt.getMinutes()).padStart(2, '0');
+        horaEl.textContent = `⚡ Atualizado às ${hh}:${mm} (Brasília) · Feed monitorado 24/7`;
+      } catch(e) {}
+    }
   }catch(e){ACHADOS=[];}
 
   // Cargar productos.json (Radar de precios)
@@ -274,26 +303,54 @@ function horasRestantes(expiraIso){
   return hrs;
 }
 
+let FILTRO_ACHADOS = 'todos';
+function filtrarAchados(tipo, btn){
+  FILTRO_ACHADOS = tipo;
+  if(btn){
+    document.querySelectorAll('#filters-achados .chip-f').forEach(b=>b.classList.remove('on'));
+    btn.classList.add('on');
+  }
+  renderAchados();
+}
+
 function renderAchados(){
   const g=document.getElementById('grid-achados');
   if(!g) return;
-  if(!ACHADOS.length){
-    g.innerHTML='<div class="empty">⚡ O caça-ofertas está minerando achados agora — volte em instantes.</div>';
+
+  let filtrados = ACHADOS;
+  if(FILTRO_ACHADOS === 'mercadolivre'){
+    filtrados = ACHADOS.filter(a => (a.loja||'').toLowerCase().includes('mercado'));
+  } else if(FILTRO_ACHADOS === 'amazon'){
+    filtrados = ACHADOS.filter(a => (a.loja||'').toLowerCase().includes('amazon'));
+  } else if(FILTRO_ACHADOS === 'celulares'){
+    filtrados = ACHADOS.filter(a => /(smartphone|celular|galaxy|iphone|xiaomi|motorola)/i.test(a.nombre||''));
+  } else if(FILTRO_ACHADOS === 'tech'){
+    filtrados = ACHADOS.filter(a => /(monitor|teclado|mouse|headset|ssd|ram|notebook|gamer|placa)/i.test(a.nombre||''));
+  } else if(FILTRO_ACHADOS === 'casa'){
+    filtrados = ACHADOS.filter(a => /(air fryer|fritadeira|aspirador|alexa|echo|ar condicionado|panela)/i.test(a.nombre||''));
+  } else if(FILTRO_ACHADOS === 'cupons'){
+    filtrados = ACHADOS.filter(a => a.cupon || a.cupom);
+  }
+
+  if(!filtrados.length){
+    g.innerHTML='<div class="empty">⚡ O caça-ofertas está garimpando mais achados para essa categoria — volte em instantes.</div>';
     return;
   }
-  g.innerHTML=ACHADOS.map((a,i)=>{
+
+  g.innerHTML=filtrados.map((a,i)=>{
     const c=catDe(a), desc=Math.round(a.desc_pct||0);
     const hrs=horasRestantes(a.expira_em);
     const badgeExp=hrs?`<span class="badge-expira">⏳ expira em ${hrs}h</span>`:'';
+    const tagNovo = (i < 6)?`<span class="badge-novo" style="position:absolute;top:10px;right:10px;background:#ff5c1c;color:#fff;font-size:0.7rem;font-weight:700;padding:4px 8px;border-radius:6px">NOVO AGORA</span>`:'';
     return `<article class="card" style="transition-delay:${(i%4)*60}ms">
       <div class="thumb"><img src="${a.imagen||window.FB[c]||window.FB.geral}" loading="lazy" referrerpolicy="no-referrer"
         onerror="this.onerror=null;this.src=window.FB['${c}']||window.FB.geral">
-        ${desc>=5?`<span class="badge">-${desc}%</span>`:''}${badgeExp}
+        ${desc>=5?`<span class="badge">-${desc}%</span>`:''}${tagNovo||badgeExp}
         <span class="chip">${a.loja}</span>
       </div>
       <div class="body"><h3>${a.nombre||'Oferta Relâmpago'}</h3>
         <div class="prices"><span class="now">${BRL(a.precio)}</span>${a.precio_anterior?`<span class="was">${BRL(a.precio_anterior)}</span>`:''}</div>
-        <div class="store">Loja: <b>${a.loja}</b> · <span>${a.fuente||'Achado'}</span></div>
+        <div class="store">Loja: <b>${a.loja}</b> · <span>${a.cupon?('🎟️ '+a.cupon):'💠 Pix 5% OFF'}</span></div>
         <div class="links"><a class="btn" target="_blank" rel="nofollow noopener" href="${a.url_corta||a.url}">Ver achado 🔥</a></div>
       </div></article>`;
   }).join('');

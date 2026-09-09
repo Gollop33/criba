@@ -83,26 +83,28 @@ def main():
             if "amazon.com.br" not in u or f"tag={AMAZON_TAG}" not in u:
                 continue
         elif "Mercado Livre" in loja:
-            if "mercadolivre.com.br" not in u or ML_TAG not in u:
+            if "meli.la" not in u and ("mercadolivre.com.br" not in u or ML_TAG not in u):
                 continue
         else:
-            # Descartar cualquier otra tienda
+            # Descartar cualquier otra tienda no aprobada
             continue
 
         # 4. Deduplicar por nombre normalizado
         clave = normalizar(it.get("nombre", ""))[:32]
         if clave and clave not in vistos:
             vistos.add(clave)
+            it["revalidado_em"] = ahora_iso
             validos.append(it)
 
-    # Ordenar por mayor porcentaje de descuento
-    validos.sort(key=lambda x: float(x.get("desc_pct") or 0), reverse=True)
+    # Ordenar por combinación de frescura y descuento (rotación viva)
+    validos.sort(key=lambda x: (x.get("encontrado_em", "") or x.get("revalidado_em", ""), float(x.get("desc_pct") or 0)), reverse=True)
 
     # Tomar hasta 80 ofertas de alta calidad
     seleccionados = validos[:80]
 
     resultado = {
         "actualizado": ahora_iso,
+        "revalidado_em": ahora_iso,
         "total_achados": len(seleccionados),
         "achados": seleccionados
     }
