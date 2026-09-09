@@ -49,5 +49,8 @@
   "pix_por_loja": {
     "mercadolivre": 5,
     "amazon": 5
-  }
+  },
+  "dealee_api_key": "${DEALEE_API_KEY}",
+  "dealee_api_url": "https://api.dealee.app/offers",
+  "agente_autonomo_activo": true
 }

@@ -43,6 +43,14 @@ jobs:
         continue-on-error: true
         run: python unir_achados.py
 
+      - name: agente autonomo de ofertas api (agente_autonomo)
+        continue-on-error: true
+        run: python agente_autonomo.py
+        env:
+          DEALEE_API_KEY: ${{ secrets.DEALEE_API_KEY }}
+          DEALEE_API_URL: ${{ secrets.DEALEE_API_URL }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
       - name: enriquecer ofertas ml con meli.la (gerador_melila)
         continue-on-error: true
         run: |
