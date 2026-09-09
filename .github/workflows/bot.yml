@@ -82,6 +82,6 @@ jobs:
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
           git pull --rebase origin main || true
-          git add productos.json cupones.json achados.json fila_posts.json links.json melila_cache.json go/ img/ logs/ faltantes_imagenes.json || true
+          git add productos.json cupones.json achados.json achados_especificos.json fila_posts.json links.json melila_cache.json go/ img/ logs/ faltantes_imagenes.json || true
           git diff --quiet && git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
           git push

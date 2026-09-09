@@ -1,8 +1,39 @@
 {
-  "actualizado": "2026-09-09T15:59:05+00:00",
+  "actualizado": "2026-09-09T16:17:45+00:00",
   "revalidado_em": "2026-09-09T15:59:05+00:00",
-  "total_achados": 80,
+  "total_achados": 81,
   "achados": [
+    {
+      "id": "MLB12345678",
+      "nombre": "Mercado Libre",
+      "precio": 477.0,
+      "precio_anterior": null,
+      "desc_pct": 0,
+      "loja": "Mercado Livre",
+      "cupom": "MELIMAISPOSDD",
+      "condicoes": [
+        "Pix 5% OFF",
+        "Meli+"
+      ],
+      "imagen": null,
+      "url": "https://www.mercadolivre.com.br/monitor-lg-ultragear-24-144hz-1ms-ips/p/MLB12345678#D[A:ja20250119201346]",
+      "url_corta": "https://gollop33.github.io/criba/go/7es4hx/",
+      "criado_em": "2026-09-09T16:17:45+00:00",
+      "encontrado_em": "2026-09-09T16:17:45+00:00",
+      "revalidado_em": "2026-09-09T16:17:45+00:00",
+      "analise_ia": {
+        "qualidade": "BOA",
+        "desconto_estimado": 0.0,
+        "cupom_detectado": "MELIMAISPOSDD",
+        "condicoes": [
+          "Pix 5% OFF",
+          "Meli+"
+        ],
+        "motivo": "Excelente oportunidade (0.0% OFF) com cupom MELIMAISPOSDD",
+        "destaque": "Achado selecionado por curadoria"
+      },
+      "origem": "curadoria_agente_ia"
+    },
     {
       "id": "amz-compre-2-e-ganhe-50-de-desconto-em-1",
       "nombre": "Compre 2 e ganhe 50% de desconto em 1",

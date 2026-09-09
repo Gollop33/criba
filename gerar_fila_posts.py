@@ -208,20 +208,30 @@ def armar_fila_rotativa():
         except Exception:
             pass
 
+    items_esp = []
+    file_esp = BASE / "achados_especificos.json"
+    if file_esp.exists():
+        try:
+            d = json.loads(file_esp.read_text(encoding="utf-8"))
+            items_esp = d.get("achados", []) if isinstance(d, dict) else d
+        except Exception:
+            pass
+
     cupones = cargar_cupones_reales()
     bloqueados_48h = cargar_enviados_recientes(48)
     ahora_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     print(f"  • Achados totales disponibles: {len(items_achados)}")
     print(f"  • Ofertas ML: {len(items_ml)} | Ofertas Amazon: {len(items_amz)}")
+    print(f"  • Ofertas curadas con IA (específicas): {len(items_esp)}")
     print(f"  • Cupones activos cargados: {len(cupones)}")
     print(f"  • Productos en enfriamiento (48h): {len(bloqueados_48h)}")
 
-    # Unificar y filtrar por 48h
+    # Unificar y filtrar por 48h (ofertas específicas tienen prioridad absoluta)
     todos_candidatos = []
     vistos_slug = set()
 
-    for item in (items_achados + items_ml + items_amz):
+    for item in (items_esp + items_achados + items_ml + items_amz):
         pid = item.get("id") or item.get("nombre", "")[:40]
         slug = normalizar(item.get("nombre", ""))[:32]
         
@@ -261,6 +271,29 @@ def armar_fila_rotativa():
     posts_cupones = generar_posts_cupones(cupones)
 
     fila_final = []
+    
+    # 0. PRIORIDAD ABSOLUTA: Ofertas curadas con IA / específicas ingresadas por el usuario
+    for esp in items_esp:
+        pid = esp.get("id") or esp.get("nombre", "")[:40]
+        if pid not in bloqueados_48h:
+            fila_final.append({
+                "id_post": pid,
+                "tipo": "producto",
+                "loja": esp.get("loja", "Mercado Livre"),
+                "categoria": esp.get("categoria_canal") or clasificar_categoria(esp.get("nombre", "")),
+                "titulo": esp.get("nombre"),
+                "precio": esp.get("precio"),
+                "precio_anterior": esp.get("precio_anterior"),
+                "desc_pct": esp.get("desc_pct"),
+                "cupom": esp.get("cupom") or esp.get("cupon"),
+                "pix": "mais 5% OFF" if "Mercado" in esp.get("loja", "") else "à vista",
+                "imagen": esp.get("imagen"),
+                "url": esp.get("url_corta") or esp.get("meli_la") or esp.get("url"),
+                "criado_em": ahora_iso,
+                "prioridade": 10,
+                "destaque": esp.get("analise_ia", {}).get("destaque", "🔥 Oportunidade Selecionada")
+            })
+
     idx_ml = 0
     idx_amz = 0
     idx_cupom = 0
