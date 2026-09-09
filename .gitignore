@@ -13,3 +13,11 @@ __pycache__/
 # OS
 Thumbs.db
 .DS_Store
+
+# Archivos de cookies y credenciales
+*.cookie
+*.cookies
+.ml_cookie
+cookie*.json
+cookies*.json
+*token*.json

@@ -203,21 +203,26 @@ def _link_afiliado(producto):
     nombre = producto.get("nombre", "Produto")
 
     url_larga = url
-    # Priorizar url_ml si existe
-    url_ml = producto.get("url_ml", "").strip()
-    if url_ml:
-        sep = "&" if "?" in url_ml else "#"
-        url_larga = f"{url_ml}{sep}D[A:{ML_ID}]"
+    # Priorizar meli.la si existe o puede resolverse
+    meli_directo = producto.get("meli_la") or vista.get("meli_la")
+    if meli_directo:
+        url_larga = meli_directo
+    elif "mercadolivre" in tienda or "mercadolivre" in url or "mercadolibre" in url:
+        try:
+            from gerador_melila import obtener_link_afiliado_ml
+            pid = producto.get("id") or url
+            link_ml, _ = obtener_link_afiliado_ml(url, item_id=pid, etiqueta=ML_ID, usar_playwright=False)
+            url_larga = link_ml
+        except Exception:
+            sep = "&" if "?" in url else "#"
+            if "D[A:" not in url:
+                url_larga = f"{url}{sep}D[A:{ML_ID}]"
+            else:
+                url_larga = url
     elif "amazon" in tienda or "amazon" in url:
         sep = "&" if "?" in url else "?"
         if "tag=" not in url:
             url_larga = f"{url}{sep}tag={AMAZON_TAG}"
-        else:
-            url_larga = url
-    elif "mercadolivre" in tienda or "mercadolivre" in url or "mercadolibre" in url:
-        sep = "&" if "?" in url else "#"
-        if "D[A:" not in url:
-            url_larga = f"{url}{sep}D[A:{ML_ID}]"
         else:
             url_larga = url
 
