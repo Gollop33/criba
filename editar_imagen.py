@@ -78,8 +78,6 @@ def procesar_imagen_ninja(url_imagen, codigo_archivo, cupon=None, pix_pct=None, 
     if not PIL_DISPONIBLE:
         print("  [Editor Imagen] PIL/Pillow no está disponible.")
         return None
-    Retorna la ruta absoluta del archivo generado o None si falla.
-    """
     if not url_imagen:
         return None
 
