@@ -1141,3 +1141,23 @@
 [2026-09-09 13:03:33] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
 [2026-09-09 13:03:38] [PELANDO]   Falha ao acessar Terabyte Shop
 [2026-09-09 13:03:40] [PELANDO] Completado: 160 Pelando + 5 manuales = 165 total
+[2026-09-11 10:11:23] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-09-11 10:11:23] [PELANDO]   51 cupons encontrados en Amazon
+[2026-09-11 10:11:25] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-09-11 10:11:30] [PELANDO]   Falha ao acessar KaBuM!
+[2026-09-11 10:11:32] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-09-11 10:11:32] [PELANDO]   51 cupons encontrados en Mercado Livre
+[2026-09-11 10:11:34] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-09-11 10:11:35] [PELANDO]   27 cupons encontrados en Shopee
+[2026-09-11 10:11:37] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-09-11 10:11:37] [PELANDO]   23 cupons encontrados en Magazine Luiza
+[2026-09-11 10:11:39] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-09-11 10:11:39] [PELANDO]   8 cupons encontrados en AliExpress
+[2026-09-11 10:11:41] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-09-11 10:11:46] [PELANDO]   Falha ao acessar Pichau
+[2026-09-11 10:11:48] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-09-11 10:11:53] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-09-11 10:11:55] [PELANDO] Completado: 147 Pelando + 5 manuales = 152 total
+[2026-09-11 10:12:03] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-09-11 10:13:05] [AGENTE-ML] Scraping ML: 1074 ofertas obtenidas
+[2026-09-11 10:13:05] [AGENTE-ML] Guardados 40 achados en achados_ml.json

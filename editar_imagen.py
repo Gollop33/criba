@@ -15,7 +15,12 @@ Uso: python editar_imagen.py
 import io, re, sys, os
 from pathlib import Path
 import requests
-from PIL import Image, ImageDraw, ImageFont
+
+try:
+    from PIL import Image, ImageDraw, ImageFont
+    PIL_DISPONIBLE = True
+except ImportError:
+    PIL_DISPONIBLE = False
 
 # UTF-8 fix for Windows console
 if sys.stdout.encoding and sys.stdout.encoding.lower() != 'utf-8':
@@ -54,7 +59,7 @@ def obtener_fuente(size=24, bold=True):
 
 def descargar_imagen(url):
     """Descarga la imagen desde URL con reintentos y retorna objeto PIL.Image."""
-    if not url:
+    if not url or not PIL_DISPONIBLE:
         return None
     try:
         r = requests.get(url, headers=UA, timeout=12)
@@ -68,6 +73,11 @@ def descargar_imagen(url):
 def procesar_imagen_ninja(url_imagen, codigo_archivo, cupon=None, pix_pct=None, desc_pct=None):
     """
     Descarga la imagen original, aplica los badges estilo Ninja y la guarda en img/envios/<codigo>.jpg.
+    Retorna Path de la imagen guardada o None si falla.
+    """
+    if not PIL_DISPONIBLE:
+        print("  [Editor Imagen] PIL/Pillow no está disponible.")
+        return None
     Retorna la ruta absoluta del archivo generado o None si falla.
     """
     if not url_imagen:

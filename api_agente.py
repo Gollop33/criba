@@ -24,8 +24,22 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 import requests
-from bs4 import BeautifulSoup
-from flask import Flask, request, jsonify, render_template_string
+
+try:
+    from bs4 import BeautifulSoup
+    BS4_DISPONIBLE = True
+except ImportError:
+    BS4_DISPONIBLE = False
+
+try:
+    from flask import Flask, request, jsonify, render_template_string
+    FLASK_DISPONIBLE = True
+except ImportError:
+    FLASK_DISPONIBLE = False
+    Flask = None
+    request = None
+    jsonify = None
+    render_template_string = None
 
 # UTF-8 console fix
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
@@ -43,7 +57,7 @@ ACHADOS_JSON = BASE / "achados.json"
 ML_TAG = "ja20250119201346"
 AMAZON_TAG = "criba20-20"
 
-app = Flask(__name__)
+app = Flask(__name__) if FLASK_DISPONIBLE else None
 
 # ─── 1. Extracción de Datos de Producto (Scraping Mercado Livre & Amazon) ──────
 
@@ -579,6 +593,9 @@ def adicionar_oferta():
 
 
 if __name__ == "__main__":
+    if not FLASK_DISPONIBLE:
+        print("[ERRO] Flask não está instalado. Instale com: pip install flask")
+        sys.exit(1)
     puerto = int(os.environ.get("PORT", 5000))
     print("=" * 60)
     print(f"  CRIBA · AGENTE INTELIGENTE GEMINI (api_agente.py)")

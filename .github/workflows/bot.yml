@@ -25,7 +25,7 @@ jobs:
           python-version: "3.12"
 
       - name: dependencias
-        run: pip install requests beautifulsoup4 Pillow playwright
+        run: pip install -r requirements.txt
 
       - name: actualizar cupones pelando
         continue-on-error: true
@@ -76,6 +76,7 @@ jobs:
           WHATSAPP_CHAT_ID: ${{ secrets.WHATSAPP_CHAT_ID }}
 
       - name: buscar precios
+        continue-on-error: true
         run: python bot_precios.py
 
       - name: alertas telegram
@@ -85,11 +86,16 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
-      - name: publicar
+      - name: commit y push resultados
         run: |
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
-          git pull --rebase origin main || true
-          git add productos.json cupones.json achados.json achados_especificos.json fila_posts.json links.json melila_cache.json go/ img/ logs/ faltantes_imagenes.json || true
-          git diff --quiet && git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
-          git push
+          # Stage ALL generated/modified data files first (before pull)
+          git add -A -- '*.json' go/ img/ logs/ || true
+          # Now pull with autostash to handle any remote changes
+          git pull --rebase --autostash origin main || git pull origin main || true
+          # Final add in case pull created merge artifacts
+          git add -A -- '*.json' go/ img/ logs/ || true
+          # Commit only if there are staged changes
+          git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
+          git push || git push --force-with-lease
