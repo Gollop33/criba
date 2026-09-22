@@ -2436,3 +2436,28 @@
 [2026-09-21 23:39:07] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
 [2026-09-21 23:39:07] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas obtenidas
 [2026-09-21 23:39:07] [AGENTE-AMAZON] Guardados 30 achados en achados_amazon.json
+[2026-09-22 01:52:20] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-09-22 01:52:25] [PELANDO]   Falha ao acessar Amazon
+[2026-09-22 01:52:27] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-09-22 01:52:31] [PELANDO]   Falha ao acessar KaBuM!
+[2026-09-22 01:52:33] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-09-22 01:52:37] [PELANDO]   Falha ao acessar Mercado Livre
+[2026-09-22 01:52:39] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-09-22 01:52:43] [PELANDO]   Falha ao acessar Shopee
+[2026-09-22 01:52:45] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-09-22 01:52:50] [PELANDO]   Falha ao acessar Magazine Luiza
+[2026-09-22 01:52:52] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-09-22 01:52:56] [PELANDO]   Falha ao acessar AliExpress
+[2026-09-22 01:52:58] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-09-22 01:53:02] [PELANDO]   Falha ao acessar Pichau
+[2026-09-22 01:53:04] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-09-22 01:53:08] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-09-22 01:53:10] [PELANDO] Completado: 0 Pelando + 5 manuales = 5 total
+[2026-09-22 01:53:10] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-09-22 01:54:07] [AGENTE-ML] Scraping ML: 1099 ofertas obtenidas
+[2026-09-22 01:54:07] [AGENTE-ML] Guardados 40 achados en achados_ml.json
+[2026-09-22 01:54:07] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-09-22 01:54:29] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas
+[2026-09-22 01:54:29] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-09-22 01:54:29] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas obtenidas
+[2026-09-22 01:54:29] [AGENTE-AMAZON] Guardados 0 achados en achados_amazon.json
