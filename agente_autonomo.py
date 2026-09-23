@@ -67,7 +67,8 @@ def cargar_config():
     if not CONFIG_FILE.exists():
         return {
             "tiendas_que_pagan": ["amazon", "mercadolivre"],
-            "dominio_curto": "https://gollop33.github.io/criba",
+            "dominio_curto": "https://achadinhosnozap.com.br",
+            "dominio_principal": "https://achadinhosnozap.com.br",
             "dealee_api_url": "https://api.dealee.app/offers",
             "agente_autonomo_activo": True
         }
@@ -80,7 +81,7 @@ CONFIG = cargar_config()
 TIENDAS_PERMITIDAS = [t.lower() for t in CONFIG.get("tiendas_que_pagan", ["amazon", "mercadolivre"])]
 ML_TAG = "ja20250119201346"
 AMAZON_TAG = "criba20-20"
-DOMINIO_CURTO = CONFIG.get("dominio_curto", "https://gollop33.github.io/criba").rstrip("/")
+DOMINIO_CURTO = CONFIG.get("dominio_curto", "https://achadinhosnozap.com.br").rstrip("/")
 
 DEALEE_API_KEY = os.environ.get("DEALEE_API_KEY", "").strip() or CONFIG.get("dealee_api_key", "")
 DEALEE_API_URL = os.environ.get("DEALEE_API_URL", "").strip() or CONFIG.get("dealee_api_url", "https://api.dealee.app/offers")

@@ -388,7 +388,7 @@ button:hover{filter:brightness(1.1)}
 </head>
 <body>
   <h1>CRIBA <b>IA</b> · Agente Curador de Ofertas</h1>
-  <p class="sub">Viu uma oferta quente em outro canal? Cole aqui para o Agente analisar com Gemini e adicionar à fila de publicação com sua comissão.</p>
+  <p class="sub">Viu uma oferta quente em outro canal? Cole aqui para o Agente analisar com Gemini e adicionar à fila de publicação com sua comissão. · <a href="https://achadinhosnozap.com.br" target="_blank" style="color:#ffb800;text-decoration:underline">achadinhosnozap.com.br</a></p>
 
   <div class="box">
     <label>Link do Produto (Mercado Livre ou Amazon)</label>

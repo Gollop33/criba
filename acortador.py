@@ -39,7 +39,7 @@ def cargar_config():
     return {}
 
 CONFIG = cargar_config()
-DOMINIO_CURTO = CONFIG.get("dominio_curto", "https://gollop33.github.io/criba").rstrip("/")
+DOMINIO_CURTO = CONFIG.get("dominio_curto", "https://achadinhosnozap.com.br").rstrip("/")
 
 def cargar_links_existentes():
     if LINKS_JSON.exists():
@@ -268,5 +268,8 @@ if __name__ == "__main__":
     print("  CRIBA · ACORTADOR PROPIO CON TRACKING")
     print(f"  Dominio base: {DOMINIO_CURTO}/go/<codigo>/")
     print("=" * 60)
-    total = acortar_catalogo()
+    total = acortar_catalogo(ACHADOS_JSON)
+    esp_json = BASE / "achados_especificos.json"
+    if esp_json.exists():
+        acortar_catalogo(esp_json)
     print(f"[OK] Finalizado con éxito.")
