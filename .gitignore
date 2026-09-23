@@ -21,3 +21,7 @@ Thumbs.db
 cookie*.json
 cookies*.json
 *token*.json
+.env
+.env.*
+!.env.example
+

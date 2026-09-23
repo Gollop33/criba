@@ -39,9 +39,9 @@ CONTROL_CANAL_JSON = LOG_DIR / "control_canal.json"
 CONFIG_FILE = BASE / "config_afiliados.json"
 
 # Green API Secrets
-GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip() or "710722744667"
-GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip() or "0ae4818707f04c159062b2e590dc3784425f554cbca84c0cae"
-WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip() or "120363413395651443@g.us"
+GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip()
+GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
+WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()
 
 def cargar_control_canal():
     if not CONTROL_CANAL_JSON.exists():
@@ -107,7 +107,13 @@ def main():
         print(f"  [Límite diario] Alcanzado cupo seguro para evitar bloqueos ({envios_hoy}/{max_dia}).")
         return
 
-    # 3. Cargar fila
+    # 3. Validar credenciales de Green API
+    if not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
+        print("  ❌ ERROR: Credenciales de Green API no configuradas en variables de entorno.")
+        print("     Verifica GREEN_API_ID, GREEN_API_TOKEN y WHATSAPP_CHAT_ID en GitHub Secrets o en tu archivo .env.")
+        return
+
+    # 4. Cargar fila
     if not FILA_JSON.exists():
         print("  [Fila] fila_posts.json no existe. Ejecuta gerar_fila_posts.py primero.")
         return
@@ -202,10 +208,6 @@ def main():
             print("  Enviando mensaje de texto...")
             ok = enviar_whatsapp(mensaje)
 
-    # 7. Si no hay credenciales Green API configuradas en local, simular éxito para pruebas
-    if not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
-        print("  [Simulación] Secrets de WhatsApp no presentes localmente; marcando OK en dev.")
-        ok = True
 
     if ok:
         marcar_enviado(pid, enviados, canal="whatsapp")

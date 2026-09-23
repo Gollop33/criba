@@ -21,9 +21,9 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 
 BASE = Path(__file__).parent
 
-GREEN_API_ID    = os.environ.get("GREEN_API_ID", "").strip() or "710722744667"
-GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip() or "0ae4818707f04c159062b2e590dc3784425f554cbca84c0cae"
-WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip() or "120363413395651443@g.us"
+GREEN_API_ID    = os.environ.get("GREEN_API_ID", "").strip()
+GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
+WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()
 # Formato chatId Green API:
 #   Grupo:    "120363XXXXXXXXXX@g.us"
 #   Contacto: "5491199999999@c.us"

@@ -15,16 +15,27 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     except Exception:
         pass
 
-GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip() or "710722744667"
-GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip() or "0ae4818707f04c159062b2e590dc3784425f554cbca84c0cae"
-WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip() or "120363413395651443@g.us"
+GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip()
+GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
+WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()
 
 def test_envio():
     print("=" * 60)
     print("  TEST GREEN API - ACHADINHOS NO ZAP")
-    print(f"  Instance ID: {GREEN_API_ID}")
-    print(f"  Chat ID:     {WHATSAPP_CHAT_ID}")
+    print(f"  Instance ID: {GREEN_API_ID or '[NO CONFIGURADO]'}")
+    print(f"  Chat ID:     {WHATSAPP_CHAT_ID or '[NO CONFIGURADO]'}")
     print("=" * 60)
+
+    if not GREEN_API_ID or not GREEN_API_TOKEN or not WHATSAPP_CHAT_ID:
+        print("  ❌ ERROR: Faltan variables de entorno requeridas:")
+        if not GREEN_API_ID:
+            print("     - GREEN_API_ID no está configurado.")
+        if not GREEN_API_TOKEN:
+            print("     - GREEN_API_TOKEN no está configurado.")
+        if not WHATSAPP_CHAT_ID:
+            print("     - WHATSAPP_CHAT_ID no está configurado.")
+        print("  Configura estas variables en tu entorno o en GitHub Secrets.")
+        return False
 
     url_estado = f"https://api.green-api.com/waInstance{GREEN_API_ID}/getStateInstance/{GREEN_API_TOKEN}"
     try:
