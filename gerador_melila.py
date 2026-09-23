@@ -349,25 +349,36 @@ def obtener_link_afiliado_ml(url_producto, item_id=None, etiqueta=None, usar_pla
         if expira > ahora_iso and item_cache.get("meli_la"):
             return item_cache["meli_la"], True
 
-    # 3. Plan B: Playwright (si hay cookie y está habilitado)
+    # 3. Método por API interna directa (sin Playwright) o fallback
     cookie_str = obtener_cookie_portal()
     if usar_playwright and cookie_str and url_producto:
+        # 3a. Intentar primero con melila_api (rápido, sin navegador, sin Chromium)
+        melila_resuelto = None
         try:
-            melila_resuelto = extraer_melila_con_playwright(url_producto, cookie_str, etiqueta)
-            if melila_resuelto:
-                # Guardar en caché
-                ahora = datetime.now(timezone.utc)
-                cache[clave_cache] = {
-                    "item_id": id_prod,
-                    "etiqueta": etiqueta,
-                    "meli_la": melila_resuelto,
-                    "creado_em": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"),
-                    "expira_em": (ahora + timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
-                }
-                guardar_cache(cache)
-                return melila_resuelto, True
+            from melila_api import generar_melila
+            melila_resuelto = generar_melila(url_producto, cookie_str=cookie_str, tag=etiqueta)
         except Exception as e:
-            print(f"[meli.la] Error en resolución Playwright: {e}")
+            print(f"[meli.la] Error llamando a melila_api: {e}")
+
+        # 3b. Fallback a Playwright headless si la API falló
+        if not melila_resuelto:
+            try:
+                melila_resuelto = extraer_melila_con_playwright(url_producto, cookie_str, etiqueta)
+            except Exception as e:
+                print(f"[meli.la] Error en resolución Playwright: {e}")
+
+        if melila_resuelto:
+            # Guardar en caché
+            ahora = datetime.now(timezone.utc)
+            cache[clave_cache] = {
+                "item_id": id_prod,
+                "etiqueta": etiqueta,
+                "meli_la": melila_resuelto,
+                "creado_em": ahora.strftime("%Y-%m-%dT%H:%M:%SZ"),
+                "expira_em": (ahora + timedelta(days=30)).strftime("%Y-%m-%dT%H:%M:%SZ")
+            }
+            guardar_cache(cache)
+            return melila_resuelto, True
 
     # 4. Fallback garantizado a URL larga con tag
     return fallback_url, False
