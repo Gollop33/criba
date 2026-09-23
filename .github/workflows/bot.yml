@@ -53,9 +53,7 @@ jobs:
 
       - name: enriquecer ofertas ml con meli.la (gerador_melila)
         continue-on-error: true
-        run: |
-          playwright install chromium || true
-          python gerador_melila.py --lote
+        run: python gerador_melila.py --lote
         env:
           ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
 

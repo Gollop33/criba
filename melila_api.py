@@ -1,43 +1,29 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-CRIBA · Generador meli.la por API interna (sin Playwright) — melila_api.py
-==========================================================================
+CRIBA · Generador meli.la por API interna directa (sin Playwright) — melila_api.py
+=================================================================================
 REEMPLAZO del metodo Playwright de gerador_melila.py.
 
-DESCUBRIMIENTO (reverse-engineered por la comunidad, verificado en vivo):
-El boton "Compartilhar" de Mercado Livre NO hace magia: solo llama 2 URLs
-internas con tu sesion (cookie). Podemos llamarlas directo, sin abrir navegador.
-
+Llama directamente a los endpoints de la API de afiliados de Mercado Livre:
   1. GET  https://www.mercadolivre.com.br/affiliate-program/api/v2/stripe/user/tags
      -> devuelve tus etiquetas: {"tags": [{"tag": "...", "in_use": true, ...}]}
-
   2. POST https://www.mercadolivre.com.br/affiliate-program/api/v2/stripe/user/links
      body: {"url": "<url del producto>", "tag": "<tu etiqueta en uso>"}
      -> devuelve {"short_url": "https://meli.la/xxxx", ...}
 
-VENTAJAS vs Playwright:
-  - Sin instalar Chromium (las corridas son mas rapidas y baratas)
-  - Sin botones que buscar (no se rompe si ML cambia la pagina)
-  - Sin limite de 15 por corrida (son simples llamadas HTTP)
-  - Misma cookie de siempre: ML_PORTAL_COOKIE
-
-REQUISITO: ML_PORTAL_COOKIE valida (igual que antes). Si la cookie vencio,
-  la API responde 401 y hay que renovarla desde tu navegador.
-
-INTEGRACION con gerador_melila.py:
-  En obtener_link_afiliado_ml(), reemplaza la llamada a
-  extraer_melila_con_playwright(...) por:
-      from melila_api import generar_melila
-      melila_resuelto = generar_melila(url_producto, cookie_str)
-
-PRUEBA RAPIDA:
-  ML_PORTAL_COOKIE="tu_cookie" python melila_api.py --test "https://www.mercadolivre.com.br/.../p/MLB123..."
+CARACTERÍSTICAS ROBUSTAS:
+  - Rate limiting inteligente (mínimo 1.0s entre peticiones para no saturar)
+  - Caché persistente en 'cache_melila.json' (válido por 7 días)
+  - Manejo de excepciones con fallback automático y seguro
+  - Cero dependencias de navegador o Chromium
 """
 
 import json
 import os
 import sys
+import time
+from pathlib import Path
 
 try:
     import requests
@@ -45,9 +31,12 @@ except ImportError:
     print("Falta 'requests'. Instala con: pip install requests")
     sys.exit(1)
 
-BASE = "https://www.mercadolivre.com.br"
-TAGS_URL = BASE + "/affiliate-program/api/v2/stripe/user/tags"
-LINKS_URL = BASE + "/affiliate-program/api/v2/stripe/user/links"
+BASE_DIR = Path(__file__).parent
+CACHE_FILE = BASE_DIR / "cache_melila.json"
+
+BASE_URL = "https://www.mercadolivre.com.br"
+TAGS_URL = BASE_URL + "/affiliate-program/api/v2/stripe/user/tags"
+LINKS_URL = BASE_URL + "/affiliate-program/api/v2/stripe/user/links"
 
 HEADERS = {
     "User-Agent": (
@@ -57,9 +46,40 @@ HEADERS = {
     ),
     "Accept": "application/json, text/plain, */*",
     "Content-Type": "application/json",
-    "Origin": BASE,
-    "Referer": BASE + "/",
+    "Origin": BASE_URL,
+    "Referer": BASE_URL + "/",
 }
+
+_ultima_llamada = 0.0
+MIN_INTERVALO_SEG = 1.0  # Mínimo 1 segundo entre llamadas
+
+
+def _aplicar_rate_limit():
+    """Garantiza al menos MIN_INTERVALO_SEG segundos entre peticiones consecutivas."""
+    global _ultima_llamada
+    ahora = time.time()
+    espera = MIN_INTERVALO_SEG - (ahora - _ultima_llamada)
+    if espera > 0:
+        time.sleep(espera)
+    _ultima_llamada = time.time()
+
+
+def _leer_cache():
+    """Lee cache_melila.json si existe."""
+    if CACHE_FILE.exists():
+        try:
+            return json.loads(CACHE_FILE.read_text(encoding="utf-8"))
+        except Exception:
+            pass
+    return {}
+
+
+def _escribir_cache(cache_data):
+    """Guarda cache_melila.json de forma segura."""
+    try:
+        CACHE_FILE.write_text(json.dumps(cache_data, indent=2, ensure_ascii=False), encoding="utf-8")
+    except Exception as e:
+        print(f"[meli.la/api] Error guardando caché: {e}")
 
 
 def _cargar_cookies(cookie_str):
@@ -94,66 +114,93 @@ def _sesion(cookie_str):
 
 
 def obtener_tag_en_uso(cookie_str):
-    """Pregunta a ML cual es tu etiqueta de afiliado activa."""
-    s = _sesion(cookie_str)
-    r = s.get(TAGS_URL, timeout=20)
-    if r.status_code == 401:
-        print("[meli.la/api] Cookie vencida o invalida (401 en /tags).")
+    """Pregunta a ML cuál es tu etiqueta de afiliado activa."""
+    if not cookie_str:
         return None
-    r.raise_for_status()
-    tags = r.json().get("tags", [])
-    for t in tags:
-        if t.get("in_use"):
-            return t.get("tag")
-    return tags[0].get("tag") if tags else None
+    try:
+        _aplicar_rate_limit()
+        s = _sesion(cookie_str)
+        r = s.get(TAGS_URL, timeout=20)
+        if r.status_code == 401:
+            print("[meli.la/api] Cookie vencida o inválida (401 en /tags).")
+            return None
+        r.raise_for_status()
+        tags = r.json().get("tags", [])
+        for t in tags:
+            if t.get("in_use"):
+                return t.get("tag")
+        return tags[0].get("tag") if tags else None
+    except Exception as e:
+        print(f"[meli.la/api] Error obteniendo etiqueta: {e}")
+        return None
 
 
 def generar_melila(url_producto, cookie_str=None, tag=None):
     """
-    Genera el link corto meli.la para un producto.
-    Retorna "https://meli.la/xxxx" o None si fallo.
+    Genera el link corto meli.la para un producto con:
+      - Verificación previa de caché (7 días)
+      - Rate limiting automático
+      - Manejo robusto de errores con retorno seguro (None para fallback)
     """
+    if not url_producto:
+        return None
+
+    # 1. Verificar caché persistente primero
+    cache = _leer_cache()
+    if url_producto in cache:
+        entrada = cache[url_producto]
+        # Válido por 7 días (7 * 86400 segundos)
+        if time.time() - entrada.get("timestamp", 0) < 7 * 86400:
+            short_cached = entrada.get("short_url")
+            if short_cached:
+                return short_cached
+
+    # 2. Verificar cookie de sesión
     cookie_str = cookie_str or os.environ.get("ML_PORTAL_COOKIE", "").strip()
     if not cookie_str:
-        print("[meli.la/api] Sin ML_PORTAL_COOKIE, no se puede generar.")
-        return None
-
-    s = _sesion(cookie_str)
-
-    if not tag:
-        tag = obtener_tag_en_uso(cookie_str)
-    if not tag:
-        print("[meli.la/api] No se pudo obtener tu etiqueta de afiliado.")
         return None
 
     try:
+        if not tag:
+            tag = obtener_tag_en_uso(cookie_str)
+        if not tag:
+            print("[meli.la/api] No se pudo obtener la etiqueta de afiliado.")
+            return None
+
+        _aplicar_rate_limit()
+        s = _sesion(cookie_str)
         r = s.post(LINKS_URL, json={"url": url_producto, "tag": tag}, timeout=20)
-    except Exception as e:
-        print(f"[meli.la/api] Error de red: {e}")
-        return None
 
-    if r.status_code == 401:
-        print("[meli.la/api] Cookie vencida o invalida (401 en /links).")
-        return None
-    try:
+        if r.status_code == 401:
+            print("[meli.la/api] Cookie vencida o inválida (401 en /links).")
+            return None
         r.raise_for_status()
-    except Exception as e:
-        print(f"[meli.la/api] HTTP {r.status_code}: {e}")
-        return None
 
-    short_url = r.json().get("short_url")
-    if short_url:
-        print(f"[meli.la/api] OK -> {short_url}")
-    else:
-        print(f"[meli.la/api] Sin short_url en respuesta: {r.text[:200]}")
-    return short_url
+        short_url = r.json().get("short_url")
+        if short_url:
+            print(f"[meli.la/api] OK -> {short_url}")
+            # Guardar en caché
+            cache[url_producto] = {
+                "short_url": short_url,
+                "timestamp": time.time(),
+                "tag": tag
+            }
+            _escribir_cache(cache)
+            return short_url
+        else:
+            print(f"[meli.la/api] Sin short_url en respuesta: {r.text[:200]}")
+            return None
+    except Exception as e:
+        print(f"[meli.la/api] Error inesperado en generar_melila: {e}")
+        return None
 
 
 def generar_lote(urls, cookie_str=None):
     """Genera meli.la para una lista de URLs. Retorna dict {url: short_url}."""
     cookie_str = cookie_str or os.environ.get("ML_PORTAL_COOKIE", "").strip()
     tag = obtener_tag_en_uso(cookie_str) if cookie_str else None
-    print(f"[meli.la/api] Etiqueta en uso: {tag}")
+    if tag:
+        print(f"[meli.la/api] Etiqueta activa en uso: {tag}")
     resultados = {}
     for u in urls:
         short = generar_melila(u, cookie_str, tag=tag)
@@ -166,6 +213,6 @@ if __name__ == "__main__":
         url = sys.argv[2]
         print(f"Probando con: {url}")
         resultado = generar_melila(url)
-        print("RESULTADO:", resultado if resultado else "FALLO (revisa la cookie)")
+        print("RESULTADO:", resultado if resultado else "FALLO (revisa la cookie ML_PORTAL_COOKIE)")
     else:
         print("Uso: ML_PORTAL_COOKIE=\"...\" python melila_api.py --test \"<url producto>\"")
