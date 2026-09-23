@@ -21,6 +21,20 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 
 BASE = Path(__file__).parent
 
+# Cargar variables locales desde .env si existe (desarrollo local)
+_env_file = BASE / ".env"
+if _env_file.exists():
+    try:
+        for line in _env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                k, v = k.strip(), v.strip().strip("'\"")
+                if k and k not in os.environ:
+                    os.environ[k] = v
+    except Exception:
+        pass
+
 GREEN_API_ID    = os.environ.get("GREEN_API_ID", "").strip()
 GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
 WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()
@@ -41,7 +55,7 @@ def enviar_whatsapp(mensaje, chat_id=None):
     cid   = (chat_id or WHATSAPP_CHAT_ID).strip()
 
     if not iid or not token or not cid:
-        print("  [WhatsApp] Secrets no configurados — saltando")
+        print("  ❌ [WhatsApp] ERROR: Faltan credenciales (GREEN_API_ID, GREEN_API_TOKEN o WHATSAPP_CHAT_ID). Envío cancelado.")
         return False
 
     url = f"https://api.green-api.com/waInstance{iid}/sendMessage/{token}"
@@ -69,7 +83,7 @@ def enviar_whatsapp_archivo(ruta_archivo, caption="", chat_id=None):
     cid   = (chat_id or WHATSAPP_CHAT_ID).strip()
 
     if not iid or not token or not cid:
-        print("  [WhatsApp] Secrets no configurados — saltando")
+        print("  ❌ [WhatsApp Archivo] ERROR: Faltan credenciales (GREEN_API_ID, GREEN_API_TOKEN o WHATSAPP_CHAT_ID). Envío cancelado.")
         return False
 
     p = Path(ruta_archivo)
@@ -129,8 +143,8 @@ def main():
 
     # Verificar configuración
     if not GREEN_API_ID or not GREEN_API_TOKEN or not WHATSAPP_CHAT_ID:
-        print("  [WhatsApp] Variables GREEN_API_ID / GREEN_API_TOKEN / WHATSAPP_CHAT_ID no configuradas")
-        print("  Agrega los secrets en GitHub: Settings → Secrets → Actions")
+        print("  ❌ [WhatsApp] ERROR: Variables de entorno no configuradas (GREEN_API_ID, GREEN_API_TOKEN, WHATSAPP_CHAT_ID).")
+        print("     Configúralas en tu archivo .env local o en GitHub Secrets (Settings → Secrets → Actions). Envío cancelado.")
         return
 
     # Verificar instancia activa

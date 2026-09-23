@@ -38,6 +38,20 @@ ENVIADOS_JSON = LOG_DIR / "enviados.json"
 CONTROL_CANAL_JSON = LOG_DIR / "control_canal.json"
 CONFIG_FILE = BASE / "config_afiliados.json"
 
+# Cargar variables locales desde .env si existe (desarrollo local)
+_env_file = BASE / ".env"
+if _env_file.exists():
+    try:
+        for line in _env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                k, v = k.strip(), v.strip().strip("'\"")
+                if k and k not in os.environ:
+                    os.environ[k] = v
+    except Exception:
+        pass
+
 # Green API Secrets
 GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip()
 GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()

@@ -15,6 +15,22 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     except Exception:
         pass
 
+from pathlib import Path
+
+BASE = Path(__file__).parent
+_env_file = BASE / ".env"
+if _env_file.exists():
+    try:
+        for line in _env_file.read_text(encoding="utf-8").splitlines():
+            line = line.strip()
+            if line and not line.startswith("#") and "=" in line:
+                k, v = line.split("=", 1)
+                k, v = k.strip(), v.strip().strip("'\"")
+                if k and k not in os.environ:
+                    os.environ[k] = v
+    except Exception:
+        pass
+
 GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip()
 GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
 WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()

@@ -25,3 +25,7 @@ cookies*.json
 .env.*
 !.env.example
 
+# Temporales de envíos y scraping
+img/envios/
+logs/*dump*.html
+
