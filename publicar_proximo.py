@@ -39,9 +39,9 @@ CONTROL_CANAL_JSON = LOG_DIR / "control_canal.json"
 CONFIG_FILE = BASE / "config_afiliados.json"
 
 # Green API Secrets
-GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip()
-GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
-WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()
+GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip() or "710722744667"
+GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip() or "0ae4818707f04c159062b2e590dc3784425f554cbca84c0cae"
+WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip() or "120363413395651443@g.us"
 
 def cargar_control_canal():
     if not CONTROL_CANAL_JSON.exists():
@@ -85,13 +85,14 @@ def horario_permitido_brt():
     return 8 <= brt_hour < 22
 
 def main():
+    es_test = "--test" in sys.argv
     print("=" * 60)
-    print("  CRIBA · PUBLICADOR DE CANAL VIVO (publicar_proximo.py)")
+    print("  CRIBA · PUBLICADOR DE CANAL VIVO (publicar_proximo.py)" + (" [MODO TEST]" if es_test else ""))
     print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("=" * 60)
 
     # 1. Verificar horario Brasília
-    if not horario_permitido_brt():
+    if not es_test and not horario_permitido_brt():
         print("  [Horario] Fuera de ventana de publicación Brasília (8h a 22h BRT). Saltando.")
         return
 
@@ -102,7 +103,7 @@ def main():
     envios_hoy = control.get("envios_hoy", 0)
 
     print(f"  • Calentamiento: Día {dias} | Envíos hoy: {envios_hoy}/{max_dia}")
-    if envios_hoy >= max_dia:
+    if not es_test and envios_hoy >= max_dia:
         print(f"  [Límite diario] Alcanzado cupo seguro para evitar bloqueos ({envios_hoy}/{max_dia}).")
         return
 
@@ -182,8 +183,8 @@ def main():
         if img_url and procesar_imagen_ninja:
             try:
                 img_badge = procesar_imagen_ninja(
-                    url_o_path=img_url,
-                    nombre_salida=f"post_{pid[:20]}",
+                    url_imagen=img_url,
+                    codigo_archivo=f"post_{pid[:20]}",
                     cupon=cupom,
                     pix_pct=5,
                     desc_pct=post_a_enviar.get("desc_pct", 0)
