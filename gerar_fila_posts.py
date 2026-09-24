@@ -170,26 +170,35 @@ KEYWORDS_TECH = [
     "gift card", "cartao presente", "cartão presente", "steam", "roblox", "play store", "game pass",
     # Smartphones & Smart Tech
     "smartphone", "celular", "iphone", "galaxy", "xiaomi", "redmi", "poco", "motorola",
-    "smartwatch", "tablet", "ipad", "kindle", "alexa", "echo pop", "echo dot", "fire tv stick", "chromecast", "roku"
+    "tablet", "ipad", "kindle", "alexa", "echo pop", "echo dot", "fire tv stick", "chromecast", "roku",
+    # Perfumes & Fragrâncias Importadas e Nacionais
+    "perfume", "fragrancia", "fragrância", "colonia", "colônia", "eau de parfum", "eau de toilette",
+    "lattafa", "asaf", "natura", "boticario", "boticário", "malbec", "zaad", "sauvage", "one million", "versace", "ferrari black", "silver scent", "invictus",
+    # Relógios & Smartwatches
+    "relogio", "relógio", "smartwatch", "smart watch", "casio", "g-shock", "invicta", "technos", "curren", "poedagar", "naviforce", "skmei", "mormaii"
 ]
 
 EXCLUIR_NO_TECH = [
-    "panela", "toalha", "motosserra", "perfume", "fragrancia", "whey", "creatina", "suplemento",
+    "panela", "toalha", "motosserra", "whey", "creatina", "suplemento",
     "aspirador", "fritadeira", "air fryer", "ar condicionado", "ventilador", "armario", "armário",
     "mochila", "casinha", "cachorro", "pet", "colchao", "travesseiro", "tenis", "tênis", "camisa",
-    "vestido", "bermuda", "relogio analogico", "bijuteria", "shampoo", "condicionador", "hidratante"
+    "vestido", "bermuda", "bijuteria", "shampoo", "condicionador", "hidratante"
 ]
 
 def es_producto_tecnologia(nombre):
-    """Filtra estrictamente productos del nicho Tech, Hardware, Setup, Games y Gift Cards."""
+    """Filtra estrictamente productos del nicho Tech, Hardware, Setup, Perfumes y Relojes."""
     n = (nombre or "").lower()
     if any(e in n for e in EXCLUIR_NO_TECH):
         return False
     return any(k in n for k in KEYWORDS_TECH)
 
 def clasificar_categoria(nombre):
-    """Categoriza un producto dentro del ecosistema Tech."""
+    """Categoriza un producto dentro del ecosistema Tech + Perfumes + Relojes."""
     n = (nombre or "").lower()
+    if any(k in n for k in ["perfume", "fragrancia", "fragrância", "colonia", "colônia", "parfum", "toilette", "malbec", "zaad"]):
+        return "Perfumes & Fragrâncias"
+    if any(k in n for k in ["relogio", "relógio", "smartwatch", "casio", "g-shock", "invicta", "technos"]):
+        return "Relógios & Smartwatches"
     if any(k in n for k in ["monitor", "ultrawide", "144hz", "165hz", "180hz", "240hz"]):
         return "Monitores & Displays"
     if any(k in n for k in ["ssd", "nvme", "m.2", "ram", "memoria", "memória", "placa de video", "placa de vídeo", "rtx", "gtx", "radeon", "placa mae", "placa-mãe", "cooler", "fonte"]):

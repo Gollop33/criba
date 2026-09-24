@@ -257,14 +257,14 @@ async function init(){
   }catch(e){}
   document.querySelectorAll('[data-wa]').forEach(a=>a.href=WA);
 
-  // Cargar links.json (mapa de enlaces cortos)
+  // Cargar links.json (mapa de enlaces cortos con bust-cache)
   try{
-    LINKS=await(await fetch('links.json')).json();
+    LINKS=await(await fetch('links.json?_t=' + Date.now())).json();
   }catch(e){LINKS={};}
 
-  // Cargar achados.json (Cosecha fresca)
+  // Cargar achados.json (Cosecha fresca de todas las tiendas y categorías)
   try{
-    const d=await(await fetch('achados.json')).json();
+    const d=await(await fetch('achados.json?_t=' + Date.now())).json();
     const raw=Array.isArray(d)?d:(d.achados||[]);
     ACHADOS=raw.filter(a=>tiendaOk(a.loja));
 
@@ -287,12 +287,12 @@ async function init(){
     }
   }catch(e){ACHADOS=[];}
 
-  // Cargar productos.json (Radar de precios)
-  try{const d=await(await fetch('productos.json')).json(); PROD=Array.isArray(d)?d:(d.productos||[]);}catch(e){PROD=[];}
+  // Cargar productos.json (Radar de precios de todas las categorías)
+  try{const d=await(await fetch('productos.json?_t=' + Date.now())).json(); PROD=Array.isArray(d)?d:(d.productos||[]);}catch(e){PROD=[];}
   PROD=PROD.filter(p=>{ const v=p.vista; return v&&v.tienda&&tiendaOk(v.tienda); });
 
   // Cargar cupones.json
-  try{const d=await(await fetch('cupones.json')).json();
+  try{const d=await(await fetch('cupones.json?_t=' + Date.now())).json();
       let raw=[];
       if(Array.isArray(d))raw=d; else if(Array.isArray(d.cupones))raw=d.cupones;
       else for(const[k,v]of Object.entries(d))if(Array.isArray(v))v.forEach(c=>{c.loja=c.loja||k;raw.push(c);});
@@ -444,6 +444,8 @@ addEventListener('scroll',()=>{document.getElementById('hdr').classList.toggle('
   document.getElementById('top').style.display=scrollY>600?'grid':'none';});
 document.getElementById('top').onclick=()=>scrollTo({top:0,behavior:'smooth'});
 init();
+// Auto-actualización en vivo del catálogo completo cada 1 minuto (60 segundos)
+setInterval(init, 60000);
 </script>
 </body>
 </html>
