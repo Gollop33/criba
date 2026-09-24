@@ -1,45 +1,157 @@
 {
-  "actualizado": "2026-09-24T01:59:55+00:00",
-  "total": 4,
+  "actualizado": "2026-09-24T10:57:00+00:00",
+  "total": 11,
   "fuentes": [
-    "Manual",
-    "Pelando",
-    "ML Oficial"
+    "ML Oficial Afiliados Telegram",
+    "Amazon",
+    "Shopee",
+    "KaBuM!"
   ],
   "cupones": [
     {
       "tienda": "Mercado Livre",
-      "titulo": "Cupom Mercado Livre - 10% off Acima de R$149 limitado à R$200 em Selecionados",
-      "codigo": "SUPERDESCONTOS",
+      "titulo": "10% OFF em Tecnologia",
+      "codigo": "APROVEITAHJ",
       "desconto": "10% OFF",
       "compra_minima": "R$ 149",
       "limite": "R$ 200",
       "vencimento": "2026-09-24",
       "hasta": "2026-09-24",
       "estado": "ativo",
-      "categoria": "Cupons Oficiais",
-      "fonte": "ML Oficial",
+      "categoria": "Tecnologia",
+      "fonte": "ML Oficial Afiliados Telegram",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-09-24T01:59:55+00:00"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "tienda": "KaBuM!",
-      "codigo": "GAMER10",
-      "valor": 15,
-      "hasta": "2026-09-30"
+      "tienda": "Mercado Livre",
+      "titulo": "15% OFF em Beleza e Cuidados",
+      "codigo": "PROMOPRABELEZA",
+      "desconto": "15% OFF",
+      "compra_minima": "R$ 79",
+      "limite": "R$ 50",
+      "vencimento": "2026-09-24",
+      "hasta": "2026-09-24",
+      "estado": "ativo",
+      "categoria": "Beleza",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "30% OFF em Produtos Elegíveis",
+      "codigo": "FOIBARATO",
+      "desconto": "30% OFF",
+      "compra_minima": "R$ 1",
+      "limite": "R$ 500",
+      "vencimento": "2026-10-25",
+      "hasta": "2026-10-25",
+      "estado": "ativo",
+      "categoria": "Geral",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "30% OFF em Selecionados",
+      "codigo": "MLVANTAGEM",
+      "desconto": "30% OFF",
+      "compra_minima": "R$ 1",
+      "limite": "R$ 500",
+      "vencimento": "2026-10-13",
+      "hasta": "2026-10-13",
+      "estado": "ativo",
+      "categoria": "Geral",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "30% OFF no Carrinho",
+      "codigo": "CARRINHOCHEIOJA",
+      "desconto": "30% OFF",
+      "compra_minima": "R$ 1",
+      "limite": "R$ 500",
+      "vencimento": "2026-10-14",
+      "hasta": "2026-10-14",
+      "estado": "ativo",
+      "categoria": "Geral",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "30% OFF Precinho Bom",
+      "codigo": "PRECINHOBOM",
+      "desconto": "30% OFF",
+      "compra_minima": "R$ 1",
+      "limite": "R$ 500",
+      "vencimento": "2026-10-11",
+      "hasta": "2026-10-11",
+      "estado": "ativo",
+      "categoria": "Geral",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "25% OFF Saiu Barato",
+      "codigo": "SAIUBARATO",
+      "desconto": "25% OFF",
+      "compra_minima": "R$ 1",
+      "limite": "R$ 500",
+      "vencimento": "2026-10-25",
+      "hasta": "2026-10-25",
+      "estado": "ativo",
+      "categoria": "Geral",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "25% OFF Precinho Ponto",
+      "codigo": "PRECINHOPONTO",
+      "desconto": "25% OFF",
+      "compra_minima": "R$ 1",
+      "limite": "R$ 500",
+      "vencimento": "2026-10-25",
+      "hasta": "2026-10-25",
+      "estado": "ativo",
+      "categoria": "Geral",
+      "fonte": "ML Oficial Afiliados Telegram",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
       "tienda": "Amazon",
+      "titulo": "Cupons de Tecnologia e Informática",
       "codigo": "TECH20",
+      "desconto": "20% OFF",
       "valor": 20,
-      "hasta": "2026-10-01"
+      "hasta": "2026-10-01",
+      "vigente": true
+    },
+    {
+      "tienda": "KaBuM!",
+      "titulo": "Desconto Gamer",
+      "codigo": "GAMER10",
+      "valor": 15,
+      "hasta": "2026-09-30",
+      "vigente": true
     },
     {
       "tienda": "Shopee",
+      "titulo": "Cupons Novos Usuários",
       "codigo": "NOVO10",
       "valor": 10,
-      "hasta": "2026-09-30"
+      "hasta": "2026-09-30",
+      "vigente": true
     }
   ]
 }
