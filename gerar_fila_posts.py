@@ -154,26 +154,55 @@ def cargar_cupones_reales():
     except Exception:
         return []
 
+KEYWORDS_TECH = [
+    # Monitores y Displays
+    "monitor", "ultrawide", "ips", "144hz", "165hz", "180hz", "240hz", "75hz", "curvo", "fhd", "qhd", "4k", "oled", "gamer",
+    # Hardware & Componentes
+    "pc", "computador", "notebook", "laptop", "macbook", "ryzen", "intel", "core i3", "core i5", "core i7", "core i9",
+    "ssd", "nvme", "m.2", "sata", "memoria", "memória", "ram", "ddr4", "ddr5",
+    "placa de video", "placa de vídeo", "rtx", "gtx", "geforce", "radeon", "rx ", "gpu",
+    "placa mae", "placa-mãe", "placa mãe", "gabinete", "cooler", "water cooler", "fonte atx",
+    # Periféricos & Setup Gamer
+    "teclado", "mouse", "headset", "fone de ouvido", "headphone", "microfone", "webcam",
+    "mousepad", "cadeira gamer", "mesa gamer", "hub usb", "suporte monitor",
+    # Games, Consolas & Gift Cards
+    "playstation", "ps5", "ps4", "xbox", "nintendo", "switch", "dualsense", "joy-con", "controle sem fio",
+    "gift card", "cartao presente", "cartão presente", "steam", "roblox", "play store", "game pass",
+    # Smartphones & Smart Tech
+    "smartphone", "celular", "iphone", "galaxy", "xiaomi", "redmi", "poco", "motorola",
+    "smartwatch", "tablet", "ipad", "kindle", "alexa", "echo pop", "echo dot", "fire tv stick", "chromecast", "roku"
+]
+
+EXCLUIR_NO_TECH = [
+    "panela", "toalha", "motosserra", "perfume", "fragrancia", "whey", "creatina", "suplemento",
+    "aspirador", "fritadeira", "air fryer", "ar condicionado", "ventilador", "armario", "armário",
+    "mochila", "casinha", "cachorro", "pet", "colchao", "travesseiro", "tenis", "tênis", "camisa",
+    "vestido", "bermuda", "relogio analogico", "bijuteria", "shampoo", "condicionador", "hidratante"
+]
+
+def es_producto_tecnologia(nombre):
+    """Filtra estrictamente productos del nicho Tech, Hardware, Setup, Games y Gift Cards."""
+    n = (nombre or "").lower()
+    if any(e in n for e in EXCLUIR_NO_TECH):
+        return False
+    return any(k in n for k in KEYWORDS_TECH)
+
 def clasificar_categoria(nombre):
-    """Categoriza un producto según su título."""
-    n = nombre.lower()
-    if any(k in n for k in ["smartphone", "celular", "galaxy", "iphone", "xiaomi", "motorola"]):
-        return "Celulares & Smartphones"
-    if any(k in n for k in ["tv", "televisao", "smart tv", "roku"]):
-        return "Smart TV & Vídeo"
-    if any(k in n for k in ["notebook", "laptop", "macbook", "computador"]):
-        return "Notebooks & PC"
-    if any(k in n for k in ["creatina", "whey", "suplemento", "proteina", "termogenico"]):
-        return "Suplementos & Fitness"
-    if any(k in n for k in ["air fryer", "fritadeira", "panela", "cafeteira", "liquidificador"]):
-        return "Cozinha & Eletro"
-    if any(k in n for k in ["aspirador", "ar condicionado", "ventilador", "alexa", "echo"]):
-        return "Casa & Climatização"
-    if any(k in n for k in ["perfume", "fragrancia", "hidratante", "cabelo"]):
-        return "Beleza & Cuidados"
-    if any(k in n for k in ["monitor", "teclado", "mouse", "headset", "ssd", "ram", "placa de video", "cadeira gamer"]):
-        return "Tech & Setup Gamer"
-    return "Achados Gerais"
+    """Categoriza un producto dentro del ecosistema Tech."""
+    n = (nombre or "").lower()
+    if any(k in n for k in ["monitor", "ultrawide", "144hz", "165hz", "180hz", "240hz"]):
+        return "Monitores & Displays"
+    if any(k in n for k in ["ssd", "nvme", "m.2", "ram", "memoria", "memória", "placa de video", "placa de vídeo", "rtx", "gtx", "radeon", "placa mae", "placa-mãe", "cooler", "fonte"]):
+        return "Hardware & Componentes"
+    if any(k in n for k in ["notebook", "laptop", "macbook", "pc gamer", "computador"]):
+        return "Notebooks & PCs"
+    if any(k in n for k in ["teclado", "mouse", "headset", "mousepad", "microfone", "webcam", "cadeira gamer"]):
+        return "Periféricos & Setup Gamer"
+    if any(k in n for k in ["playstation", "ps5", "xbox", "nintendo", "switch", "gift card", "steam", "roblox", "controle"]):
+        return "Games & Gift Cards"
+    if any(k in n for k in ["smartphone", "celular", "iphone", "galaxy", "xiaomi", "redmi"]):
+        return "Smartphones & Celulares"
+    return "Gadgets & Smart Tech"
 
 def generar_posts_cupones(cupones_reales):
     """Crea posts de cupones estilo canal profesional con enlaces monetizados de activación."""
@@ -331,7 +360,12 @@ def armar_fila_rotativa():
         else:
             continue
 
-        cat = clasificar_categoria(item.get("nombre", ""))
+        # FILTRO DE NICHO: 100% TECNOLOGÍA, HARDWARE, SETUP, GAMES & GIFT CARDS
+        nombre_prod = item.get("nombre", "")
+        if not es_producto_tecnologia(nombre_prod):
+            continue
+
+        cat = clasificar_categoria(nombre_prod)
         item["categoria_canal"] = cat
         todos_candidatos.append(item)
 
@@ -351,6 +385,8 @@ def armar_fila_rotativa():
     
     # 0. PRIORIDAD ABSOLUTA: Ofertas curadas con IA / específicas ingresadas por el usuario
     for esp in items_esp:
+        if not es_producto_tecnologia(esp.get("nombre", "")):
+            continue
         pid = esp.get("id") or esp.get("nombre", "")[:40]
         if pid not in bloqueados_48h:
             fila_final.append({
