@@ -383,16 +383,8 @@ def armar_fila_rotativa():
     for step in range(total_deseado):
         item_elegido = None
 
-        # Patrón rotativo:
-        # Step % 5 == 0 -> Cupón (si hay)
-        # Step % 5 in (1, 3) -> Mercado Livre
-        # Step % 5 in (2, 4) -> Amazon
-        mod = step % 5
-
-        if mod == 0 and posts_cupones and idx_cupom < len(posts_cupones):
-            item_elegido = posts_cupones[idx_cupom]
-            idx_cupom += 1
-        elif (mod in (1, 3) and idx_ml < len(cola_ml)) or (idx_amz >= len(cola_amz) and idx_ml < len(cola_ml)):
+        # Rotación 50/50: alternar entre Mercado Livre y Amazon (100% productos con foto)
+        if (step % 2 == 0 and idx_ml < len(cola_ml)) or (idx_amz >= len(cola_amz) and idx_ml < len(cola_ml)):
             # Tomar de ML cuidando repetición de categoría consecutiva
             candidato = cola_ml[idx_ml]
             idx_ml += 1

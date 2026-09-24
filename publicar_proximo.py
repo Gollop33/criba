@@ -150,6 +150,9 @@ def main():
     # 5. Encontrar próximo post no enviado
     post_a_enviar = None
     for p in posts:
+        # Solo productos reales (cero mensajes de listas de cupones con links a login)
+        if p.get("tipo") == "cupons_loja":
+            continue
         pid = p.get("id_post") or p.get("titulo", "")[:40]
         if not ya_enviado(pid, enviados, canal="whatsapp"):
             post_a_enviar = p
