@@ -40,6 +40,71 @@ ML_ID = "ja20250119201346"
 ML_TAG = "ja20250119201346"
 AMAZON_TAG = "criba20-20"
 
+
+def elegir_link_afiliado(item):
+    """Elige el mejor link de afiliado DIRECTO para el producto.
+    
+    Prioridad para ML: meli_la > url (con tag) > NUNCA url_corta (/go/)
+    Prioridad para Amazon: url (con tag=criba20-20)
+    """
+    loja = item.get("loja", "")
+    meli_la = item.get("meli_la", "")
+    url = item.get("url", "")
+    
+    if "Mercado Livre" in loja or "mercadolivre" in loja.lower():
+        # 1. meli.la es la prioridad máxima
+        if meli_la and "meli.la" in meli_la:
+            return meli_la
+        # 2. URL directa con tag de afiliado
+        if url and ML_TAG in url:
+            return url
+        # 3. URL directa sin tag → agregar tag
+        if url and "mercadolivre.com.br" in url:
+            sep = "#" if "#" not in url else "&"
+            return f"{url}{sep}D[A:{ML_TAG}]"
+        return url
+    elif "Amazon" in loja:
+        # URL directa con tag
+        if url and f"tag={AMAZON_TAG}" in url:
+            return url
+        if url and "amazon.com.br" in url:
+            sep = "&" if "?" in url else "?"
+            return f"{url}{sep}tag={AMAZON_TAG}"
+        return url
+    return url
+
+
+def buscar_cupon_para_producto(item, cupones):
+    """Cruza un producto con cupones vigentes por tienda y compra mínima."""
+    loja = item.get("loja", "").lower()
+    precio = float(item.get("precio") or 0)
+    hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    
+    for c in cupones:
+        tienda_c = (c.get("tienda") or "").lower()
+        # Matchear tienda
+        if "mercado" in loja and "mercado" not in tienda_c:
+            continue
+        if "amazon" in loja and "amazon" not in tienda_c:
+            continue
+        # Verificar vigencia
+        hasta = c.get("hasta") or c.get("vencimento") or "9999-12-31"
+        if hasta < hoy:
+            continue
+        # Verificar compra mínima
+        minimo_str = c.get("compra_minima") or ""
+        if minimo_str:
+            try:
+                minimo = float(re.sub(r"[^\d.,]", "", minimo_str.replace(",", ".")))
+                if precio > 0 and precio < minimo:
+                    continue
+            except (ValueError, TypeError):
+                pass
+        codigo = c.get("codigo")
+        if codigo:
+            return codigo
+    return None
+
 def normalizar(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9 ]", "", s.lower()).strip()
@@ -297,10 +362,10 @@ def armar_fila_rotativa():
                 "precio": esp.get("precio"),
                 "precio_anterior": esp.get("precio_anterior"),
                 "desc_pct": esp.get("desc_pct"),
-                "cupom": esp.get("cupom") or esp.get("cupon"),
+                "cupom": esp.get("cupom") or esp.get("cupon") or buscar_cupon_para_producto(esp, cupones),
                 "pix": "mais 5% OFF" if "Mercado" in esp.get("loja", "") else "à vista",
                 "imagen": esp.get("imagen"),
-                "url": esp.get("url_corta") or esp.get("meli_la") or esp.get("url"),
+                "url": elegir_link_afiliado(esp),
                 "criado_em": ahora_iso,
                 "prioridade": 10,
                 "destaque": esp.get("analise_ia", {}).get("destaque", "🔥 Oportunidade Selecionada")
@@ -340,10 +405,10 @@ def armar_fila_rotativa():
                 "precio": candidato.get("precio"),
                 "precio_anterior": candidato.get("precio_anterior"),
                 "desc_pct": candidato.get("desc_pct"),
-                "cupom": candidato.get("cupon") or candidato.get("cupom"),
+                "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
                 "pix": "mais 5% OFF",
                 "imagen": candidato.get("imagen"),
-                "url": candidato.get("url_corta") or candidato.get("meli_la") or candidato.get("url"),
+                "url": elegir_link_afiliado(candidato),
                 "criado_em": ahora_iso,
                 "prioridade": 5
             }
@@ -360,10 +425,10 @@ def armar_fila_rotativa():
                     "precio": candidato.get("precio"),
                     "precio_anterior": candidato.get("precio_anterior"),
                     "desc_pct": candidato.get("desc_pct"),
-                    "cupom": candidato.get("cupon") or candidato.get("cupom"),
+                    "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
                     "pix": "mais 5% OFF",
                     "imagen": candidato.get("imagen"),
-                    "url": candidato.get("url_corta") or candidato.get("url"),
+                    "url": elegir_link_afiliado(candidato),
                     "criado_em": ahora_iso,
                     "prioridade": 5
                 }
@@ -391,10 +456,10 @@ def armar_fila_rotativa():
             "precio": c.get("precio"),
             "precio_anterior": c.get("precio_anterior"),
             "desc_pct": c.get("desc_pct"),
-            "cupom": c.get("cupon") or c.get("cupom"),
+            "cupom": c.get("cupon") or c.get("cupom") or buscar_cupon_para_producto(c, cupones),
             "pix": "mais 5% OFF",
             "imagen": c.get("imagen"),
-            "url": c.get("url_corta") or c.get("meli_la") or c.get("url"),
+            "url": elegir_link_afiliado(c),
             "criado_em": ahora_iso,
             "prioridade": 3
         })

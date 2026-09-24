@@ -121,8 +121,8 @@ def main():
         print(f"  [Límite diario] Alcanzado cupo seguro para evitar bloqueos ({envios_hoy}/{max_dia}).")
         return
 
-    # 3. Validar credenciales de Green API
-    if not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
+    # 3. Validar credenciales de Green API (skip en modo test)
+    if not es_test and not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
         print("  ❌ ERROR: Credenciales de Green API no configuradas en variables de entorno.")
         print("     Verifica GREEN_API_ID, GREEN_API_TOKEN y WHATSAPP_CHAT_ID en GitHub Secrets o en tu archivo .env.")
         return
@@ -167,61 +167,86 @@ def main():
     print(f"\n  🎯 Post seleccionado: [{tipo.upper()}] {titulo[:50]}")
     print(f"     Loja: {loja} | Link: {url}")
 
-    # 6. Formatear mensaje según tipo
+    # 6. Resolver link corto meli.la si es Mercado Libre
+    link_final = url
+    if "mercado" in loja.lower():
+        cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
+        if cookie_portal:
+            try:
+                from melila_api import generar_melila
+                print("  [meli.la] Generando enlace corto oficial con tu cookie...")
+                short_ml = generar_melila(url, cookie_str=cookie_portal, tag="ja20250119201346")
+                if short_ml:
+                    link_final = short_ml
+                    print(f"  [meli.la] Enlace corto generado: {short_ml}")
+            except Exception as e:
+                print(f"  [meli.la] Error al generar link corto: {e}")
+
     from enviar_whatsapp import enviar_whatsapp, enviar_whatsapp_archivo
-    try:
-        from editar_imagen import procesar_imagen_ninja
-    except ImportError:
-        procesar_imagen_ninja = None
+    import requests as req
 
     ok = False
     if tipo == "cupons_loja":
-        mensaje = post_a_enviar.get("mensagem") or f"🔥 Cupons {loja}\n👉 {url}"
+        mensaje = post_a_enviar.get("mensagem") or f"🔥 Cupons {loja}\n👉 {link_final}"
         print(f"  Enviando post de cupones a WhatsApp...")
-        ok = enviar_whatsapp(mensaje)
+        if es_test:
+            print(f"\n--- PREVIEW POST ---\n{mensaje}\n--- FIN PREVIEW ---\n")
+            ok = True
+        else:
+            ok = enviar_whatsapp(mensaje)
     else:
-        # Formato producto ninja
-        from modulo_ofertas import fmt_brl
-        precio = post_a_enviar.get("precio", 0)
-        cupom = post_a_enviar.get("cupom")
-        pix = post_a_enviar.get("pix")
+        # ── Formato Ninja / Samuel: foto + precio limpio + cupón real + meli.la ──
+        precio_raw = post_a_enviar.get("precio", 0)
+        cupom = post_a_enviar.get("cupom") or ""
 
-        lineas = [
-            f"🔥 {titulo}",
-            f"✅ R$ {fmt_brl(precio)}" if precio else "✅ Em oferta especial",
-        ]
+        try:
+            precio_int = int(float(precio_raw))
+            precio_limpo = str(precio_int)
+        except (ValueError, TypeError):
+            precio_limpo = str(precio_raw)
+
+        lineas = [f"🔥 {titulo}"]
+        lineas.append("")
+        if precio_int:
+            lineas.append(f"💵 R$ {precio_limpo}")
         if cupom:
             lineas.append(f"🎟️ Cupom: {cupom}")
-        if pix:
-            lineas.append(f"💠 Pix: {pix}")
-        lineas.append(f"👉 {url}")
+        lineas.append("")
+        lineas.append(link_final)
+        lineas.append("")
+        lineas.append("anúncio")
+
         mensaje = "\n".join(lineas)
 
-        img_url = post_a_enviar.get("imagen")
-        img_badge = None
+        print(f"\n--- PREVIEW POST ---")
+        print(mensaje)
+        print(f"--- FIN PREVIEW ---\n")
 
-        if img_url and procesar_imagen_ninja:
-            try:
-                img_badge = procesar_imagen_ninja(
-                    url_imagen=img_url,
-                    codigo_archivo=f"post_{pid[:20]}",
-                    cupon=cupom,
-                    pix_pct=5,
-                    desc_pct=post_a_enviar.get("desc_pct", 0)
-                )
-            except Exception as e:
-                print(f"  [Badges] No se pudo generar imagen con badges: {e}")
-
-        if img_badge and Path(img_badge).exists():
-            print("  Enviando post con imagen badged...")
-            ok = enviar_whatsapp_archivo(img_badge, caption=mensaje)
-            if not ok:
-                print("  Fallback a mensaje de texto...")
-                ok = enviar_whatsapp(mensaje)
+        if es_test:
+            ok = True
         else:
-            print("  Enviando mensaje de texto...")
-            ok = enviar_whatsapp(mensaje)
+            # Intentar enviar con la foto del producto (estilo Ninja Ofertas)
+            img_url = post_a_enviar.get("imagen")
+            img_enviada = False
 
+            if img_url:
+                try:
+                    img_dir = BASE / "img" / "envios"
+                    img_dir.mkdir(parents=True, exist_ok=True)
+                    img_path = img_dir / f"post_{pid[:15]}.jpg"
+                    
+                    r_img = req.get(img_url, timeout=15)
+                    if r_img.status_code == 200 and len(r_img.content) > 3000:
+                        img_path.write_bytes(r_img.content)
+                        print("  [WhatsApp] Enviando foto grande del producto con mensaje...")
+                        ok = enviar_whatsapp_archivo(img_path, caption=mensaje)
+                        img_enviada = ok
+                except Exception as e:
+                    print(f"  [WhatsApp] No se pudo enviar foto: {e}")
+
+            if not img_enviada:
+                print("  [WhatsApp] Enviando mensaje de texto directo...")
+                ok = enviar_whatsapp(mensaje)
 
     if ok:
         marcar_enviado(pid, enviados, canal="whatsapp")

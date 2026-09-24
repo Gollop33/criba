@@ -309,6 +309,21 @@ function horasRestantes(expiraIso){
   return hrs;
 }
 
+function linkAfiliado(item){
+  // ML: meli_la > url con tag > url directa (NUNCA url_corta/go/)
+  const loja=(item.loja||'').toLowerCase();
+  if(loja.includes('mercado')){
+    if(item.meli_la && item.meli_la.includes('meli.la/')) return item.meli_la;
+    if(item.url && (item.url.includes('#D[A:') || item.url.includes('mercadolivre.com.br'))) return item.url;
+  }
+  // Amazon: url directa con tag
+  if(loja.includes('amazon')){
+    if(item.url && item.url.includes('tag=')) return item.url;
+  }
+  // Otros: url_corta como fallback
+  return item.url_corta||item.url||'#';
+}
+
 let FILTRO_ACHADOS = 'todos';
 function filtrarAchados(tipo, btn){
   FILTRO_ACHADOS = tipo;
@@ -357,7 +372,7 @@ function renderAchados(){
       <div class="body"><h3>${a.nombre||'Oferta Relâmpago'}</h3>
         <div class="prices"><span class="now">${BRL(a.precio)}</span>${a.precio_anterior?`<span class="was">${BRL(a.precio_anterior)}</span>`:''}</div>
         <div class="store">Loja: <b>${a.loja}</b> · <span>${a.cupon?('🎟️ '+a.cupon):'💠 Pix 5% OFF'}</span></div>
-        <div class="links"><a class="btn" target="_blank" rel="nofollow noopener" href="${a.url_corta||a.url}">Ver achado 🔥</a></div>
+        <div class="links"><a class="btn" target="_blank" rel="nofollow noopener" href="${linkAfiliado(a)}">Ver achado 🔥</a></div>
       </div></article>`;
   }).join('');
   observar();
