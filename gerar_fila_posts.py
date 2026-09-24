@@ -121,8 +121,18 @@ def generar_posts_cupones(cupones_reales):
         t = "mercadolivre" if "mercado" in c.get("tienda", "").lower() else "amazon"
         por_tienda.setdefault(t, []).append(c)
 
-    # 1. Posts de Cupones Mercado Livre en lotes de 3-4
+    # 1. Posts de Cupones Mercado Livre en lotes de 3-4 (Priorizando ML Oficial y urgencia)
     cupons_ml = por_tienda.get("mercadolivre", [])
+    hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    
+    # Prioridad: 1) fuente "ML Oficial", 2) vencimiento hoy
+    cupons_ml.sort(
+        key=lambda c: (
+            0 if "oficial" in (c.get("fonte") or "").lower() else 1,
+            0 if (c.get("hasta") or c.get("vencimento")) == hoy_str else 1
+        )
+    )
+
     link_ativacao_ml = f"https://www.mercadolivre.com.br/cupons#D[A:{ML_ID}]"
     for chunk_idx in range(0, min(16, len(cupons_ml)), 4):
         grupo = cupons_ml[chunk_idx:chunk_idx+4]
@@ -133,7 +143,9 @@ def generar_posts_cupones(cupones_reales):
             cod = c.get("codigo") or "NO CARRINHO"
             desc = c.get("desconto") or f"R$ {c.get('valor', 15)} OFF"
             titulo = c.get("titulo", "Desconto ativo")[:45]
-            lineas.append(f"🎟️ {desc}: {cod} ({titulo})")
+            vence = c.get("hasta") or c.get("vencimento")
+            urgencia = " ⏰ Vence HOJE!" if vence == hoy_str else ""
+            lineas.append(f"🎟️ {desc}: {cod} ({titulo}){urgencia}")
         lineas.append(f"\n⭐️ Ative por aqui para aplicar no carrinho:\n👉 {link_ativacao_ml}")
         
         posts_cupones.append({

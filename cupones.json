@@ -1,28 +1,33 @@
 {
-  "actualizado": "2026-09-24T00:39:03+00:00",
-  "total": 5,
+  "actualizado": "2026-09-24T01:59:55+00:00",
+  "total": 4,
   "fuentes": [
     "Manual",
-    "Pelando"
+    "Pelando",
+    "ML Oficial"
   ],
   "cupones": [
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "Cupom Mercado Livre - 10% off Acima de R$149 limitado à R$200 em Selecionados",
+      "codigo": "SUPERDESCONTOS",
+      "desconto": "10% OFF",
+      "compra_minima": "R$ 149",
+      "limite": "R$ 200",
+      "vencimento": "2026-09-24",
+      "hasta": "2026-09-24",
+      "estado": "ativo",
+      "categoria": "Cupons Oficiais",
+      "fonte": "ML Oficial",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "capturado_em": "2026-09-24T01:59:55+00:00"
+    },
     {
       "tienda": "KaBuM!",
       "codigo": "GAMER10",
       "valor": 15,
       "hasta": "2026-09-30"
-    },
-    {
-      "tienda": "Pichau",
-      "codigo": "PICHAU5",
-      "valor": 10,
-      "hasta": "2026-09-15"
-    },
-    {
-      "tienda": "Mercado Livre",
-      "codigo": "ELETRO50",
-      "valor": 50,
-      "hasta": "2026-09-01"
     },
     {
       "tienda": "Amazon",
