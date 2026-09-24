@@ -86,11 +86,11 @@ def guardar_control_canal(data):
 
 def limite_diario_calentamiento(dias_activo):
     if dias_activo <= 1:
-        return 12
+        return 20
     elif dias_activo == 2:
-        return 24
+        return 40
     else:
-        return 50
+        return 120  # Soporta cadencia de 7-8 minutos durante todo el día pico (14h * ~8 = ~112)
 
 def horario_permitido_brt():
     """Verifica si la hora actual en Brasília (UTC-3) está entre 8 y 22h."""
@@ -127,30 +127,28 @@ def main():
         print("     Verifica GREEN_API_ID, GREEN_API_TOKEN y WHATSAPP_CHAT_ID en GitHub Secrets o en tu archivo .env.")
         return
 
-    # 4. Cargar fila
+def publicar_un_post(es_test=False):
+    """Selecciona y publica exactamente 1 post no enviado. Retorna (ok, pid, tienda)."""
     if not FILA_JSON.exists():
-        print("  [Fila] fila_posts.json no existe. Ejecuta gerar_fila_posts.py primero.")
-        return
+        print("  [Fila] fila_posts.json no existe.")
+        return False, None, None
 
     try:
         fila_data = json.loads(FILA_JSON.read_text(encoding="utf-8"))
         posts = fila_data.get("fila", [])
     except Exception as e:
         print(f"  [Fila] Error leyendo fila_posts.json: {e}")
-        return
+        return False, None, None
 
     if not posts:
         print("  [Fila] No hay posts en la fila.")
-        return
+        return False, None, None
 
-    # 4. Cargar enviados
     from modulo_ofertas import cargar_enviados, marcar_enviado, ya_enviado
     enviados = cargar_enviados()
 
-    # 5. Encontrar próximo post no enviado
     post_a_enviar = None
     for p in posts:
-        # Solo productos reales (cero mensajes de listas de cupones con links a login)
         if p.get("tipo") == "cupons_loja":
             continue
         pid = p.get("id_post") or p.get("titulo", "")[:40]
@@ -159,107 +157,140 @@ def main():
             break
 
     if not post_a_enviar:
-        print("  [Fila] Todos los posts de la fila ya fueron enviados en las últimas 24h.")
-        return
+        print("  [Fila] Todos los posts ya fueron enviados en las últimas 24h.")
+        return False, None, None
 
     tipo = post_a_enviar.get("tipo", "producto")
     pid = post_a_enviar.get("id_post")
     loja = post_a_enviar.get("loja", "Loja")
     titulo = post_a_enviar.get("titulo", "")
     url = post_a_enviar.get("url", "")
-    print(f"\n  🎯 Post seleccionado: [{tipo.upper()}] {titulo[:50]}")
-    print(f"     Loja: {loja} | Link: {url}")
+    print(f"\n  🎯 Post seleccionado: [{loja.upper()}] {titulo[:55]}")
+    print(f"     Link base: {url}")
 
-    # 6. Resolver link corto meli.la si es Mercado Libre
+    # Resolver link corto meli.la si es Mercado Libre
     link_final = url
     if "mercado" in loja.lower():
         cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
         if cookie_portal:
             try:
                 from melila_api import generar_melila
-                print("  [meli.la] Generando enlace corto oficial con tu cookie...")
                 short_ml = generar_melila(url, cookie_str=cookie_portal, tag="ja20250119201346")
                 if short_ml:
                     link_final = short_ml
-                    print(f"  [meli.la] Enlace corto generado: {short_ml}")
+                    print(f"  [meli.la] Enlace corto oficial: {short_ml}")
             except Exception as e:
                 print(f"  [meli.la] Error al generar link corto: {e}")
 
     from enviar_whatsapp import enviar_whatsapp, enviar_whatsapp_archivo
     import requests as req
 
-    ok = False
-    if tipo == "cupons_loja":
-        mensaje = post_a_enviar.get("mensagem") or f"🔥 Cupons {loja}\n👉 {link_final}"
-        print(f"  Enviando post de cupones a WhatsApp...")
-        if es_test:
-            print(f"\n--- PREVIEW POST ---\n{mensaje}\n--- FIN PREVIEW ---\n")
-            ok = True
-        else:
-            ok = enviar_whatsapp(mensaje)
-    else:
-        # ── Formato Ninja / Samuel: foto + precio limpio + cupón real + meli.la ──
-        precio_raw = post_a_enviar.get("precio", 0)
-        cupom = post_a_enviar.get("cupom") or ""
+    # Formatear precio y cupón
+    precio_raw = post_a_enviar.get("precio", 0)
+    cupom = post_a_enviar.get("cupom") or ""
+    try:
+        precio_int = int(float(precio_raw))
+        precio_limpo = str(precio_int)
+    except (ValueError, TypeError):
+        precio_limpo = str(precio_raw)
 
+    lineas = [f"🔥 {titulo}"]
+    lineas.append("")
+    if precio_int:
+        lineas.append(f"💵 R$ {precio_limpo}")
+    if cupom:
+        lineas.append(f"🎟️ Cupom: {cupom}")
+    lineas.append("")
+    lineas.append(link_final)
+    lineas.append("")
+    lineas.append("anúncio")
+
+    mensaje = "\n".join(lineas)
+
+    print(f"\n--- PREVIEW POST ({loja}) ---")
+    print(mensaje)
+    print(f"--- FIN PREVIEW ---\n")
+
+    if es_test:
+        return True, pid, loja
+
+    img_url = post_a_enviar.get("imagen")
+    img_enviada = False
+
+    if img_url:
         try:
-            precio_int = int(float(precio_raw))
-            precio_limpo = str(precio_int)
-        except (ValueError, TypeError):
-            precio_limpo = str(precio_raw)
+            img_dir = BASE / "img" / "envios"
+            img_dir.mkdir(parents=True, exist_ok=True)
+            img_path = img_dir / f"post_{pid[:15]}.jpg"
+            r_img = req.get(img_url, timeout=15)
+            if r_img.status_code == 200 and len(r_img.content) > 3000:
+                img_path.write_bytes(r_img.content)
+                print("  [WhatsApp] Enviando foto grande del producto con mensaje...")
+                img_enviada = enviar_whatsapp_archivo(img_path, caption=mensaje)
+        except Exception as e:
+            print(f"  [WhatsApp] Error enviando imagen: {e}")
 
-        lineas = [f"🔥 {titulo}"]
-        lineas.append("")
-        if precio_int:
-            lineas.append(f"💵 R$ {precio_limpo}")
-        if cupom:
-            lineas.append(f"🎟️ Cupom: {cupom}")
-        lineas.append("")
-        lineas.append(link_final)
-        lineas.append("")
-        lineas.append("anúncio")
-
-        mensaje = "\n".join(lineas)
-
-        print(f"\n--- PREVIEW POST ---")
-        print(mensaje)
-        print(f"--- FIN PREVIEW ---\n")
-
-        if es_test:
-            ok = True
-        else:
-            # Intentar enviar con la foto del producto (estilo Ninja Ofertas)
-            img_url = post_a_enviar.get("imagen")
-            img_enviada = False
-
-            if img_url:
-                try:
-                    img_dir = BASE / "img" / "envios"
-                    img_dir.mkdir(parents=True, exist_ok=True)
-                    img_path = img_dir / f"post_{pid[:15]}.jpg"
-                    
-                    r_img = req.get(img_url, timeout=15)
-                    if r_img.status_code == 200 and len(r_img.content) > 3000:
-                        img_path.write_bytes(r_img.content)
-                        print("  [WhatsApp] Enviando foto grande del producto con mensaje...")
-                        ok = enviar_whatsapp_archivo(img_path, caption=mensaje)
-                        img_enviada = ok
-                except Exception as e:
-                    print(f"  [WhatsApp] No se pudo enviar foto: {e}")
-
-            if not img_enviada:
-                print("  [WhatsApp] Enviando mensaje de texto directo...")
-                ok = enviar_whatsapp(mensaje)
+    if not img_enviada:
+        print("  [WhatsApp] Enviando mensaje de texto directo...")
+        ok = enviar_whatsapp(mensaje)
+    else:
+        ok = img_enviada
 
     if ok:
         marcar_enviado(pid, enviados, canal="whatsapp")
         from modulo_ofertas import guardar_enviados
         guardar_enviados(enviados)
-        control["envios_hoy"] = envios_hoy + 1
+        return True, pid, loja
+    return False, pid, loja
+
+def main():
+    es_test = "--test" in sys.argv
+    solo_uno = "--single" in sys.argv
+
+    print("=" * 60)
+    print("  CRIBA · PUBLICADOR DE CANAL VIVO (publicar_proximo.py)")
+    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("=" * 60)
+
+    # 1. Verificar horario Brasília
+    if not es_test and not horario_permitido_brt():
+        print("  [Horario] Fuera de ventana Brasília (8h a 22h BRT). Saltando.")
+        return
+
+    # 2. Control de calentamiento y límite diario
+    control = cargar_control_canal()
+    dias = control.get("dias_activo", 3)
+    max_dia = limite_diario_calentamiento(dias)
+    envios_hoy = control.get("envios_hoy", 0)
+
+    print(f"  • Calentamiento: Día {dias} | Envíos hoy: {envios_hoy}/{max_dia}")
+    if not es_test and envios_hoy >= max_dia:
+        print(f"  [Límite diario] Alcanzado cupo seguro para evitar bloqueos ({envios_hoy}/{max_dia}).")
+        return
+
+    # 3. Validar credenciales Green API
+    if not es_test and not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
+        print("  ❌ ERROR: Credenciales de Green API no configuradas.")
+        return
+
+    # 4. Publicar Post 1
+    ok1, pid1, loja1 = publicar_un_post(es_test=es_test)
+    if ok1 and not es_test:
+        control["envios_hoy"] += 1
         guardar_control_canal(control)
-        print(f"  ✅ Post '{pid}' publicado con éxito!")
-    else:
-        print("  ❌ Falló el envío del post.")
+        print(f"  ✅ Post 1 [{loja1}] publicado con éxito!")
+
+    # 5. Si no es prueba ni single, esperar 7.5 minutos (450s) y publicar Post 2 (de la otra tienda)
+    if not es_test and not solo_uno and ok1 and control["envios_hoy"] < max_dia:
+        espera_seg = 450  # 7 minutos y medio exactos
+        print(f"\n  ⏱️ [Cadencia 7-8 min] Pausa de {espera_seg}s (~7.5 min) antes de la siguiente tienda...")
+        time.sleep(espera_seg)
+
+        ok2, pid2, loja2 = publicar_un_post(es_test=False)
+        if ok2:
+            control["envios_hoy"] += 1
+            guardar_control_canal(control)
+            print(f"  ✅ Post 2 [{loja2}] publicado con éxito!")
 
     print("=" * 60)
 
