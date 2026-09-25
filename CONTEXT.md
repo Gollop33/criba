@@ -23,17 +23,35 @@
 
 ## 2. Credenciales y Secrets
 
+> 🔴 **ESTE REPO ES PÚBLICO. NUNCA escribas valores reales en este archivo.**
+> Los valores reales viven en `.env` (local, ignorado por git) y en
+> **GitHub Secrets** (Settings → Secrets and variables → Actions).
+> Aquí solo van los NOMBRES de las variables.
+>
+> *Historial:* hasta el 2026-09-25 este archivo y `.env.example` contenían el
+> `GREEN_API_TOKEN` real en texto plano y estuvieron expuestos públicamente.
+> Se redactaron, pero **el token sigue en el historial de git**, así que hubo
+> que rotarlo en Green API.
+
 ### Variables de Entorno (GitHub Secrets + `.env` local)
-| Variable | Valor | Uso |
-|---|---|---|
-| `GREEN_API_ID` | `710722744667` | ID de instancia Green API |
-| `GREEN_API_TOKEN` | `672209385b104b06a04fc568b20d75426f1e3ad757ac461183` | Token de autenticación Green API |
-| `WHATSAPP_CHAT_ID` | `120363413395651443@g.us` | ID del grupo WhatsApp "🔥Achadinhos no Zap" |
-| `ML_PORTAL_COOKIE` | *(cookie larga de sesión ML)* | Cookie de sesión del portal de afiliados Mercado Livre. Se vence y hay que renovarla periódicamente |
-| `TELEGRAM_BOT_TOKEN` | *(en GitHub Secrets)* | Bot de Telegram para alertas internas |
-| `TELEGRAM_CHAT_ID` | *(en GitHub Secrets)* | Chat de Telegram para alertas |
-| `DEALEE_API_KEY` | *(en GitHub Secrets)* | API de ofertas Dealee |
-| `GEMINI_API_KEY` | *(en GitHub Secrets)* | API de Google Gemini para curación IA |
+| Variable | Uso |
+|---|---|
+| `GREEN_API_ID` | ID de instancia Green API |
+| `GREEN_API_TOKEN` | Token de autenticación Green API (⚠️ rotado el 2026-09-25) |
+| `WHATSAPP_CHAT_ID` | ID del grupo WhatsApp "🔥Achadinhos no Zap" |
+| `ML_PORTAL_COOKIE` | Cookie de sesión del portal de afiliados Mercado Livre. Se vence y hay que renovarla periódicamente |
+| `TELEGRAM_BOT_TOKEN` | Bot de Telegram para alertas internas |
+| `TELEGRAM_CHAT_ID` | Chat de Telegram para alertas |
+| `DEALEE_API_KEY` | API de ofertas Dealee |
+| `DEALEE_API_URL` | Endpoint de la API Dealee |
+| `GEMINI_API_KEY` | API de Google Gemini para curación IA |
+| `MIN_GAP_MIN` | Separación mínima entre posts en minutos (por defecto 6) |
+
+### Cómo comprobar que no se te escapa un secreto antes de commitear
+```bash
+python verificar_criba.py          # incluye chequeo de credenciales
+git grep -n -E '(_TOKEN|_KEY|COOKIE|SECRET)=.{8,}' -- . ':!.env.example'
+```
 
 ### Tags de Afiliado
 | Plataforma | Tag | Formato del link |
@@ -582,6 +600,6 @@ python melila_api.py --test "https://www.mercadolivre.com.br/..."
 
 - **Dueño:** Jose Gregorio Alcala
 - **Nick ML:** `JA20250119201346`
-- **Grupo WhatsApp:** "🔥Achadinhos no Zap" (`120363413395651443@g.us`)
+- **Grupo WhatsApp:** "🔥Achadinhos no Zap" (el ID real está en el secret `WHATSAPP_CHAT_ID`)
 - **Sitio web:** `achadinhosnozap.com.br`
 - **GitHub:** `Gollop33/criba`

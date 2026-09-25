@@ -198,21 +198,38 @@ def check_cookie_ml():
     if not cookie:
         print(f"{WARN}sin cookie; se usará la URL con tag como respaldo")
         return
+    # Se comprueba con GET /user/tags, que es el PRIMER paso real de
+    # melila_api.generar_melila(). Usar POST /user/links aquí daba 403 incluso
+    # con una cookie perfectamente válida (falso negativo).
     try:
         import requests
-        r = requests.post(
-            "https://www.mercadolivre.com.br/affiliate-program/api/v2/stripe/user/links",
+        r = requests.get(
+            "https://www.mercadolivre.com.br/affiliate-program/api/v2/stripe/user/tags",
             headers={
                 "Cookie": cookie,
+                "Accept": "application/json, text/plain, */*",
                 "Content-Type": "application/json",
-                "User-Agent": "Mozilla/5.0",
-                "Accept": "application/json",
+                "Origin": "https://www.mercadolivre.com.br",
+                "Referer": "https://www.mercadolivre.com.br/",
+                "User-Agent": (
+                    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                    "AppleWebKit/537.36 (KHTML, like Gecko) "
+                    "Chrome/128.0.0.0 Safari/537.36"
+                ),
             },
-            json={"url": "https://www.mercadolivre.com.br/"},
-            timeout=20,
+            timeout=25,
         )
-        if r.status_code in (200, 201):
-            print(f"{OK}cookie VÁLIDA (HTTP {r.status_code})")
+        if r.status_code == 200:
+            try:
+                tags = r.json().get("tags", [])
+            except Exception:
+                tags = []
+            activa = next((t.get("tag") for t in tags if t.get("in_use")), None)
+            if activa:
+                print(f"{OK}cookie VÁLIDA · etiqueta en uso: {activa}")
+            else:
+                print(f"{WARN}cookie válida pero no hay etiqueta 'in_use'")
+                print(f"       etiquetas: {[t.get('tag') for t in tags]}")
         elif r.status_code in (401, 403):
             print(f"{BAD}cookie VENCIDA o sin permiso (HTTP {r.status_code}) → renovar")
             problemas.append("cookie ML vencida")
