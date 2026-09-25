@@ -337,20 +337,60 @@ Eliminada. De paso, el archivo quedó con una sola ruta de ejecución.
 `resolver_link_afiliado()` **aborta el post** si el link contiene `/go/`
 (no monetiza). Antes se podía publicar un link sin comisión sin que nada avisara.
 
-### G. Riesgo abierto — conflicto de merge en `fila_posts.json`
-Durante esta sesión se encontró el repo **a mitad de un merge** con
-`fila_posts.json` en conflicto (`UU`, marcadores `<<<<<<< HEAD` dentro del JSON),
-probablemente por un `git pull` de VS Code o la terminal. Se abortó el merge y se
-recuperó el estado limpio.
+### G. ✅ RESUELTO — `fila_posts.json` fuera de git
+Se encontró el repo a mitad de un merge con `fila_posts.json` en conflicto
+(`UU`). Y en la nube, el `git pull --rebase --autostash` lo dejó con **39 bloques
+de marcadores**.
 
-**Prevención:** `fila_posts.json` es un archivo **generado**; si vuelve a haber
-conflicto, la resolución correcta es regenerarlo (`python gerar_fila_posts.py`),
-nunca editar los marcadores a mano.
+**Causa de raíz:** `fila_posts.json` se **regenera entero** en cada run
+(`gerar_fila_posts.py`), así que el autostash choca en casi todas las líneas.
 
-### H. Riesgo abierto — `img/envios/` crece sin límite en git
-El workflow commitea `img/ envios/` en cada ejecución. Con publicaciones cada
-8 min son ~110 imágenes/día. El repo crecerá indefinidamente. Pendiente de
-decidir: mover las imágenes a un CDN o ignorarlas en git.
+**Arreglo:** está en `.gitignore` y se sacó del índice
+(`git rm --cached fila_posts.json`). Lo lee `publicar_proximo.py` en el **mismo
+run** que lo genera, así que no necesita persistir. Si alguna vez lo ves
+corrupto, `python gerar_fila_posts.py` lo regenera.
+
+### H. `img/envios/` — NO está en git (dato corregido)
+`img/envios/` está en `.gitignore` (línea 29), así que las fotos enviadas **no**
+se commitean y el repo no crece por ahí. No hay nada que arreglar.
+
+### I. ✅ RESUELTO — Carrera entre publicar y sincronizar → posts DUPLICADOS
+**Observado el 2026-09-25:** dos ejecuciones disparadas con 9 s de diferencia
+publicaron **el mismo producto** (Monitor LG UltraGear) a las 12:11:35 y
+12:12:00.
+
+**Causa:** `actions/checkout` ocurre al **principio** del run, pero el estado
+(`logs/enviados.json`) solo se pushea al **final**. Si el run B arranca antes de
+que el run A haga push, B lee un historial viejo, la guardia `MIN_GAP_MIN` no ve
+el envío reciente y republica.
+
+**Arreglo:** step nuevo **"sincronizar estado remoto (antes de publicar)"**
+(`git pull --ff-only origin main`) justo antes de `gerar_fila_posts.py` y
+`publicar_proximo.py`. En ese punto el árbol está limpio. `concurrency` sigue
+serializando las ejecuciones.
+
+### J. ✅ RESUELTO — `git pull --rebase --autostash` corrompía los JSON
+El commit `a94cb56` de la nube llegó con `logs/enviados.json` y
+`fila_posts.json` llenos de:
+
+```
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
+```
+
+**Por qué era grave:** `cargar_enviados()` no puede parsear eso, devuelve `{}` y
+el bot cree que **nunca envió nada** → republica el catálogo entero.
+
+**Arreglos (tres capas):**
+1. **`fila_posts.json` fuera de git** (ver G) — elimina la causa de raíz.
+2. **`reparar_estado.py`** — corre tras el pull y antes del commit. Une
+   `logs/enviados.json` (log append-only: conserva el ts más reciente por
+   producto y fusiona canales) y restaura el resto desde `origin/main`. El step
+   de commit **falla a propósito** si queda algún JSON con marcadores.
+3. **Fail-safe en `publicar_proximo.py`** — `cargar_enviados_estricto()`: si el
+   log existe pero no parsea, **aborta con exit 2** en vez de tratarlo como
+   vacío. Probado: con el log corrupto sale código 2 y no publica nada.
 
 ---
 
@@ -366,6 +406,8 @@ criba/
 ├── CONTEXT.md                   # ← ESTE ARCHIVO
 ├── CRON_EXTERNO_SETUP.md        # Guía del cron externo (cron-job.org)
 ├── verificar_criba.py           # Chequeo de salud del pipeline
+├── monitor_workflow.py          # Monitor de ejecuciones de GitHub Actions
+├── reparar_estado.py            # Repara JSON con marcadores de conflicto
 │
 ├── # === SCRAPERS / AGENTES ===
 ├── agente_ml.py                 # Scraper Mercado Livre
@@ -387,7 +429,7 @@ criba/
 ├── editar_imagen.py             # Editor de imágenes con badges
 │
 ├── # === PUBLICACIÓN ===
-├── publicar_proximo.py          # Publica a WhatsApp (2 posts/ejecución)
+├── publicar_proximo.py          # Publica a WhatsApp (1 post/ejecución)
 ├── enviar_whatsapp.py           # API de Green API (texto + archivos)
 ├── alertas_telegram.py          # Alertas a Telegram
 ├── transformar_campana.py       # Transforma campañas bit.ly → meli.la
@@ -409,7 +451,7 @@ criba/
 ├── achados_ml.json              # Ofertas ML raw
 ├── achados_amazon.json          # Ofertas Amazon raw
 ├── achados_especificos.json     # Ofertas curadas IA
-├── fila_posts.json              # Cola de posts WhatsApp
+├── fila_posts.json              # Cola de posts WhatsApp (NO versionado: .gitignore)
 ├── productos.json               # Productos monitoreados
 ├── links.json                   # Links acortados
 ├── cache_melila.json / melila_cache.json  # Cache meli.la

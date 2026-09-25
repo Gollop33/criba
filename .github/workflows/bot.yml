@@ -59,6 +59,18 @@ jobs:
       - name: dependencias
         run: pip install -r requirements.txt
 
+      # ── Sincronizar estado ANTES de decidir si se publica ─────────────────
+      # CRÍTICO: el checkout ocurre al inicio del run, pero el run anterior
+      # puede haber publicado y pusheado DESPUÉS de ese checkout. Sin este pull,
+      # `logs/enviados.json` llega viejo, la guardia MIN_GAP_MIN no ve el envío
+      # reciente y se publica el MISMO producto dos veces (pasó el 2026-09-25).
+      # Aquí el árbol todavía está limpio, así que un --ff-only basta.
+      - name: sincronizar estado remoto (antes de publicar)
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git pull --ff-only origin main || echo "aviso: no se pudo fast-forward, se sigue con el estado del checkout"
+
       # ── Pipeline PESADO: solo en modo full (schedule) ──────────────────────
       - name: actualizar cupones pelando
         if: github.event.inputs.modo != 'publicar'
@@ -131,12 +143,29 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
       # ── Commit y push ─────────────────────────────────────────────────────
+      #
+      # El `git pull --rebase --autostash` puede dejar marcadores de conflicto
+      # dentro de un JSON. Si eso se commitea, `logs/enviados.json` deja de
+      # parsear y el bot republica TODO el catálogo. Por eso:
+      #   1) pull
+      #   2) reparar_estado.py  -> une enviados.json / restaura el resto
+      #   3) validar que ningún .json quedó con marcadores ANTES de commitear
       - name: commit y push resultados
         run: |
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
           git add -A -- '*.json' go/ img/ logs/ || true
           git pull --rebase --autostash origin main || git pull origin main || true
+
+          echo "── reparando estado si hay conflictos ──"
+          python reparar_estado.py || true
+
+          echo "── validando que ningun JSON este corrupto ──"
+          python reparar_estado.py --check || {
+            echo "ERROR: quedan JSON con marcadores de conflicto; NO se commitea.";
+            exit 1;
+          }
+
           git add -A -- '*.json' go/ img/ logs/ || true
           git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
           git push || git push --force-with-lease

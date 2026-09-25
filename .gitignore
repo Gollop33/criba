@@ -2,6 +2,12 @@
 precios.db
 estado_alertas.json
 
+# Generados que NO deben versionarse.
+# fila_posts.json se regenera entero en cada run (gerar_fila_posts.py), asi que
+# versionarlo solo producia conflictos de merge en cada ejecucion solapada.
+# Lo lee publicar_proximo.py en el MISMO run que lo genera.
+fila_posts.json
+
 # No subir credenciales hardcodeadas a repos públicos
 # (usa GitHub Secrets en su lugar: TELEGRAM_BOT_TOKEN, TELEGRAM_CHAT_ID)
 

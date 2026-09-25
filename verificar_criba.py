@@ -80,14 +80,26 @@ def check_regla_de_oro():
     d = _load("fila_posts.json", {})
     fila = d.get("fila", [])
     malos = []
+    con_melila = con_tag_ml = con_tag_amz = 0
     for p in fila:
         url = p.get("url") or ""
         loja = (p.get("loja") or "").lower()
+        # La Regla de Oro acepta DOS formas validas en ML:
+        #   1) meli.la/XXXX              2) url con tag #D[A:ja20250119201346]
+        # En Amazon: url con ?tag=criba20-20
+        es_ml = "mercado" in loja
+        es_amz = "amazon" in loja
         if "/go/" in url:
             malos.append((p.get("titulo", "")[:40], "link /go/ NO monetiza"))
-        elif "mercado" in loja and "meli.la" not in url:
-            malos.append((p.get("titulo", "")[:40], "ML sin meli.la"))
-        elif "amazon" in loja and "tag=criba20-20" not in url:
+        elif es_ml and "meli.la" in url:
+            con_melila += 1
+        elif es_ml and ("#D[A:" in url or "ja20250119201346" in url):
+            con_tag_ml += 1
+        elif es_ml:
+            malos.append((p.get("titulo", "")[:40], "ML sin meli.la ni tag"))
+        elif es_amz and "tag=criba20-20" in url:
+            con_tag_amz += 1
+        elif es_amz:
             malos.append((p.get("titulo", "")[:40], "Amazon sin tag"))
     if malos:
         print(f"{BAD}{len(malos)} posts con link problemático:")
@@ -95,6 +107,12 @@ def check_regla_de_oro():
             print(f"       - {t} → {m}")
         problemas.append(f"{len(malos)} links sin monetizar")
     else:
+        print(f"{OK}todos los links monetizan ({len(fila)} posts)")
+        print(f"       ML con meli.la: {con_melila} | ML con tag #D[A:]: {con_tag_ml} "
+              f"| Amazon con tag: {con_tag_amz}")
+        if con_melila == 0 and con_tag_ml > 0:
+            print(f"{WARN}ningun ML usa meli.la: cookie vencida, se usa el respaldo "
+                  f"con tag (monetiza igual, pero se pierde el link corto)")
         print(f"{OK}todos los links monetizan ({len(fila)} posts)")
 
 

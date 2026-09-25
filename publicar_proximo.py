@@ -146,6 +146,29 @@ def ultimo_envio_utc(enviados):
     return ultimo
 
 
+# ─── Carga del historial (fail-safe) ──────────────────────────────────────────
+
+def cargar_enviados_estricto():
+    """
+    Carga logs/enviados.json SIN tragarse los errores.
+
+    `modulo_ofertas.cargar_enviados()` devuelve {} si el JSON está corrupto, y eso
+    haría que el bot creyera que nunca envió nada y **republicara todo el
+    catálogo**. Si el archivo existe pero no parsea, abortamos.
+    """
+    if not ENVIADOS_JSON.exists():
+        return {}
+    try:
+        # utf-8-sig: tolera el BOM que meten algunas herramientas de Windows
+        d = json.loads(ENVIADOS_JSON.read_text(encoding="utf-8-sig"))
+        return d if isinstance(d, dict) else {}
+    except Exception as e:
+        print(f"  ❌ [ABORTA] logs/enviados.json existe pero no es JSON válido: {e}")
+        print("     Publicar ahora trataría el historial como vacío y republicaría")
+        print("     todo el catálogo. Arréglalo con:  python reparar_estado.py")
+        sys.exit(2)
+
+
 # ─── Publicación ──────────────────────────────────────────────────────────────
 
 def resolver_link_afiliado(url, loja, cookie_portal):
@@ -203,8 +226,8 @@ def publicar_un_post(es_test=False):
         print("  [Fila] No hay posts en la fila.")
         return False, None, None
 
-    from modulo_ofertas import cargar_enviados, marcar_enviado, guardar_enviados, ya_enviado
-    enviados = cargar_enviados()
+    from modulo_ofertas import marcar_enviado, guardar_enviados, ya_enviado
+    enviados = cargar_enviados_estricto()
 
     post_a_enviar = None
     for p in posts:
@@ -331,8 +354,7 @@ def main():
 
     # 4. Guardia de cadencia: no publicar si el último envío fue hace < MIN_GAP_MIN
     if not es_test:
-        from modulo_ofertas import cargar_enviados
-        ultimo = ultimo_envio_utc(cargar_enviados())
+        ultimo = ultimo_envio_utc(cargar_enviados_estricto())
         if ultimo is not None:
             delta_min = (datetime.now(timezone.utc) - ultimo).total_seconds() / 60.0
             if delta_min < MIN_GAP_MIN:
