@@ -3,22 +3,33 @@
 """
 CRIBA · Publicador de Próximo Post (publicar_proximo.py)
 =========================================================
-Modo Canal Vivo:
-- Lee 'fila_posts.json'.
-- Lee 'logs/enviados.json' y 'logs/control_canal.json'.
-- Respeta reglas de calentamiento de canal (Day 1: 10/día, Day 2: 20/día, Day 3+: 50/día).
-- Respeta ventana horaria Brasília (8h a 22h BRT).
-- Elige el próximo post no enviado según rotación.
-- Si es post de cupones, envía mensaje de cupones.
-- Si es post de producto, intenta generar imagen con badges ninja y envía con Green API.
-- Actualiza estado en 'logs/enviados.json'.
+Publica EXACTAMENTE 1 post por ejecución.
+
+¿Por qué 1 y no 2 con sleep?
+---------------------------
+La cadencia de 7-8 min la aporta un cron EXTERNO (cron-job.org) que llama a la
+API `workflow_dispatch` de GitHub cada 7-8 min. El `schedule` nativo de GitHub
+NO sirve para esto: está medido que se estrangula y entrega una ejecución cada
+~3 horas (mediana 174 min en las últimas 60 corridas), no cada 15 min.
+
+Por eso el publicador NO duerme: si durmiera 7.5 min dentro del job, cada
+ejecución ocuparía el runner 10 min y la cadencia dependería otra vez del cron.
+
+Salvaguardas implementadas
+--------------------------
+- MIN_GAP_MIN: si el último envío real fue hace menos de N minutos, no publica.
+  Protege contra disparos duplicados/reintentos del cron externo y contra
+  ejecuciones solapadas.
+- Ventana horaria Brasília 8h-22h.
+- Límite diario de calentamiento del canal.
+- Solo productos con foto (nunca posts genéricos de cupones).
+- Regla de Oro: se aborta cualquier post cuyo link sea un redirect /go/.
 """
 
 import json
 import os
 import sys
 import io
-import time
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 
@@ -36,7 +47,13 @@ LOG_DIR = BASE / "logs"
 LOG_DIR.mkdir(exist_ok=True)
 ENVIADOS_JSON = LOG_DIR / "enviados.json"
 CONTROL_CANAL_JSON = LOG_DIR / "control_canal.json"
-CONFIG_FILE = BASE / "config_afiliados.json"
+
+# Tag de afiliado Mercado Livre (Regla de Oro)
+ML_TAG = "ja20250119201346"
+
+# Cadencia mínima entre envíos (minutos). El cron externo dispara cada 7-8 min;
+# si por reintento/solape llega antes, este guardia evita duplicar.
+MIN_GAP_MIN = float(os.environ.get("MIN_GAP_MIN", "6"))
 
 # Cargar variables locales desde .env si existe (desarrollo local)
 _env_file = BASE / ".env"
@@ -57,75 +74,117 @@ GREEN_API_ID = os.environ.get("GREEN_API_ID", "").strip()
 GREEN_API_TOKEN = os.environ.get("GREEN_API_TOKEN", "").strip()
 WHATSAPP_CHAT_ID = os.environ.get("WHATSAPP_CHAT_ID", "").strip()
 
+
+# ─── Control de calentamiento del canal ───────────────────────────────────────
+
 def cargar_control_canal():
+    hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     if not CONTROL_CANAL_JSON.exists():
-        ahora_iso = datetime.now(timezone.utc).isoformat()
         return {
-            "fecha_inicio": ahora_iso,
-            "dias_activo": 3,  # Modo activo normal o calentamiento
+            "fecha_inicio": datetime.now(timezone.utc).isoformat(),
+            "dias_activo": 3,
             "envios_hoy": 0,
-            "fecha_hoy": datetime.now(timezone.utc).strftime("%Y-%m-%d")
+            "fecha_hoy": hoy,
         }
     try:
         data = json.loads(CONTROL_CANAL_JSON.read_text(encoding="utf-8"))
-        hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
         if data.get("fecha_hoy") != hoy:
             data["fecha_hoy"] = hoy
             data["envios_hoy"] = 0
-            # Incrementar días activo si cambia de día
             data["dias_activo"] = data.get("dias_activo", 1) + 1
         return data
     except Exception:
-        return {"dias_activo": 3, "envios_hoy": 0, "fecha_hoy": datetime.now(timezone.utc).strftime("%Y-%m-%d")}
+        return {"dias_activo": 3, "envios_hoy": 0, "fecha_hoy": hoy}
+
 
 def guardar_control_canal(data):
     try:
-        CONTROL_CANAL_JSON.write_text(json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8")
+        CONTROL_CANAL_JSON.write_text(
+            json.dumps(data, ensure_ascii=False, indent=2), encoding="utf-8"
+        )
     except Exception:
         pass
+
 
 def limite_diario_calentamiento(dias_activo):
     if dias_activo <= 1:
         return 20
-    elif dias_activo == 2:
+    if dias_activo == 2:
         return 40
-    else:
-        return 120  # Soporta cadencia de 7-8 minutos durante todo el día pico (14h * ~8 = ~112)
+    return 120  # 14 h de ventana * ~8 posts/h ≈ 112
+
 
 def horario_permitido_brt():
-    """Verifica si la hora actual en Brasília (UTC-3) está entre 8 y 22h."""
-    now_utc = datetime.now(timezone.utc)
-    brt_hour = (now_utc.hour - 3) % 24
+    """True si la hora actual en Brasília (UTC-3) está entre 8 y 22h."""
+    brt_hour = (datetime.now(timezone.utc).hour - 3) % 24
     return 8 <= brt_hour < 22
 
-def main():
-    es_test = "--test" in sys.argv
-    print("=" * 60)
-    print("  CRIBA · PUBLICADOR DE CANAL VIVO (publicar_proximo.py)" + (" [MODO TEST]" if es_test else ""))
-    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
-    print("=" * 60)
 
-    # 1. Verificar horario Brasília
-    if not es_test and not horario_permitido_brt():
-        print("  [Horario] Fuera de ventana de publicación Brasília (8h a 22h BRT). Saltando.")
-        return
+# ─── Guardia de cadencia ──────────────────────────────────────────────────────
 
-    # 2. Control de calentamiento
-    control = cargar_control_canal()
-    dias = control.get("dias_activo", 3)
-    max_dia = limite_diario_calentamiento(dias)
-    envios_hoy = control.get("envios_hoy", 0)
+def ultimo_envio_utc(enviados):
+    """Devuelve el datetime (UTC) del envío más reciente registrado, o None."""
+    ultimo = None
+    for entry in enviados.values():
+        if not isinstance(entry, dict):
+            continue
+        canales = entry.get("canales")
+        if isinstance(canales, dict) and canales.get("whatsapp"):
+            ts_str = canales["whatsapp"]
+        else:
+            ts_str = entry.get("ts", "")
+        if not ts_str:
+            continue
+        try:
+            ts = datetime.fromisoformat(ts_str)
+        except Exception:
+            continue
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        if ultimo is None or ts > ultimo:
+            ultimo = ts
+    return ultimo
 
-    print(f"  • Calentamiento: Día {dias} | Envíos hoy: {envios_hoy}/{max_dia}")
-    if not es_test and envios_hoy >= max_dia:
-        print(f"  [Límite diario] Alcanzado cupo seguro para evitar bloqueos ({envios_hoy}/{max_dia}).")
-        return
 
-    # 3. Validar credenciales de Green API (skip en modo test)
-    if not es_test and not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
-        print("  ❌ ERROR: Credenciales de Green API no configuradas en variables de entorno.")
-        print("     Verifica GREEN_API_ID, GREEN_API_TOKEN y WHATSAPP_CHAT_ID en GitHub Secrets o en tu archivo .env.")
-        return
+# ─── Publicación ──────────────────────────────────────────────────────────────
+
+def resolver_link_afiliado(url, loja, cookie_portal):
+    """
+    Aplica la Regla de Oro. Nunca devuelve un link /go/ (no monetiza).
+    Prioridad ML: meli.la existente > generar meli.la > url con tag #D[A:...]
+    """
+    if not url:
+        return ""
+    url_l = url.lower()
+
+    if "/go/" in url_l:
+        return None  # señal de aborto
+
+    if "meli.la" in url_l:
+        print("  [meli.la] La URL ya es un enlace corto oficial. No se re-acorta.")
+        return url
+
+    if "mercado" not in loja.lower():
+        return url
+
+    if cookie_portal:
+        try:
+            from melila_api import generar_melila
+            short_ml = generar_melila(url, cookie_str=cookie_portal, tag=ML_TAG)
+            if short_ml:
+                print(f"  [meli.la] Enlace corto oficial generado: {short_ml}")
+                return short_ml
+            print("  [meli.la] No se pudo generar (cookie vencida?). Usando URL con tag.")
+        except Exception as e:
+            print(f"  [meli.la] Error al generar link corto: {e}")
+    else:
+        print("  [meli.la] ML_PORTAL_COOKIE ausente. Usando URL con tag.")
+
+    if ML_TAG not in url:
+        sep = "" if "#" in url else "#"
+        return f"{url}{sep}D[A:{ML_TAG}]"
+    return url
+
 
 def publicar_un_post(es_test=False):
     """Selecciona y publica exactamente 1 post no enviado. Retorna (ok, pid, tienda)."""
@@ -144,58 +203,50 @@ def publicar_un_post(es_test=False):
         print("  [Fila] No hay posts en la fila.")
         return False, None, None
 
-    from modulo_ofertas import cargar_enviados, marcar_enviado, ya_enviado
+    from modulo_ofertas import cargar_enviados, marcar_enviado, guardar_enviados, ya_enviado
     enviados = cargar_enviados()
 
     post_a_enviar = None
     for p in posts:
         if p.get("tipo") == "cupons_loja":
-            continue
+            continue  # solo productos con foto
         pid = p.get("id_post") or p.get("titulo", "")[:40]
         if not ya_enviado(pid, enviados, canal="whatsapp"):
             post_a_enviar = p
             break
 
     if not post_a_enviar:
-        print("  [Fila] Todos los posts ya fueron enviados en las últimas 24h.")
+        print("  [Fila] Todos los posts ya fueron enviados en la ventana anti-repetición.")
         return False, None, None
 
-    tipo = post_a_enviar.get("tipo", "producto")
-    pid = post_a_enviar.get("id_post")
+    pid = post_a_enviar.get("id_post") or post_a_enviar.get("titulo", "")[:40]
     loja = post_a_enviar.get("loja", "Loja")
     titulo = post_a_enviar.get("titulo", "")
     url = post_a_enviar.get("url", "")
     print(f"\n  🎯 Post seleccionado: [{loja.upper()}] {titulo[:55]}")
     print(f"     Link base: {url}")
 
-    # Resolver link corto meli.la si es Mercado Libre
-    link_final = url
-    if "mercado" in loja.lower():
-        cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
-        if cookie_portal:
-            try:
-                from melila_api import generar_melila
-                short_ml = generar_melila(url, cookie_str=cookie_portal, tag="ja20250119201346")
-                if short_ml:
-                    link_final = short_ml
-                    print(f"  [meli.la] Enlace corto oficial: {short_ml}")
-            except Exception as e:
-                print(f"  [meli.la] Error al generar link corto: {e}")
-
-    from enviar_whatsapp import enviar_whatsapp, enviar_whatsapp_archivo
-    import requests as req
+    # Regla de Oro
+    cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
+    link_final = resolver_link_afiliado(url, loja, cookie_portal)
+    if link_final is None:
+        print("  ❌ [Regla de Oro] El link es un redirect /go/ que NO monetiza. Post abortado.")
+        return False, pid, loja
+    if not link_final:
+        print("  ❌ [Regla de Oro] Post sin link de afiliado. Abortado.")
+        return False, pid, loja
 
     # Formatear precio y cupón
     precio_raw = post_a_enviar.get("precio", 0)
     cupom = post_a_enviar.get("cupom") or ""
+    precio_int = 0
     try:
         precio_int = int(float(precio_raw))
         precio_limpo = str(precio_int)
     except (ValueError, TypeError):
         precio_limpo = str(precio_raw)
 
-    lineas = [f"🔥 {titulo}"]
-    lineas.append("")
+    lineas = [f"🔥 {titulo}", ""]
     if precio_int:
         lineas.append(f"💵 R$ {precio_limpo}")
     if cupom:
@@ -204,15 +255,18 @@ def publicar_un_post(es_test=False):
     lineas.append(link_final)
     lineas.append("")
     lineas.append("anúncio")
-
     mensaje = "\n".join(lineas)
 
-    print(f"\n--- PREVIEW POST ({loja}) ---")
+    print("\n--- PREVIEW POST ---")
     print(mensaje)
-    print(f"--- FIN PREVIEW ---\n")
+    print("--- FIN PREVIEW ---\n")
 
     if es_test:
         return True, pid, loja
+
+    # Enviar con foto si es posible
+    import requests as req
+    from enviar_whatsapp import enviar_whatsapp, enviar_whatsapp_archivo
 
     img_url = post_a_enviar.get("imagen")
     img_enviada = False
@@ -222,39 +276,41 @@ def publicar_un_post(es_test=False):
             img_dir = BASE / "img" / "envios"
             img_dir.mkdir(parents=True, exist_ok=True)
             img_path = img_dir / f"post_{pid[:15]}.jpg"
-            r_img = req.get(img_url, timeout=15)
+            r_img = req.get(img_url, timeout=20)
             if r_img.status_code == 200 and len(r_img.content) > 3000:
                 img_path.write_bytes(r_img.content)
-                print("  [WhatsApp] Enviando foto grande del producto con mensaje...")
+                print("  [WhatsApp] Enviando foto del producto con caption...")
                 img_enviada = enviar_whatsapp_archivo(img_path, caption=mensaje)
+            else:
+                print(f"  [WhatsApp] Imagen no válida (HTTP {r_img.status_code}, {len(r_img.content)} bytes).")
         except Exception as e:
             print(f"  [WhatsApp] Error enviando imagen: {e}")
 
-    if not img_enviada:
+    if img_enviada:
+        ok = img_enviada
+    else:
         print("  [WhatsApp] Enviando mensaje de texto directo...")
         ok = enviar_whatsapp(mensaje)
-    else:
-        ok = img_enviada
 
     if ok:
         marcar_enviado(pid, enviados, canal="whatsapp")
-        from modulo_ofertas import guardar_enviados
         guardar_enviados(enviados)
         return True, pid, loja
     return False, pid, loja
 
+
 def main():
     es_test = "--test" in sys.argv
-    solo_uno = "--single" in sys.argv
 
     print("=" * 60)
-    print("  CRIBA · PUBLICADOR DE CANAL VIVO (publicar_proximo.py)")
-    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+    print("  CRIBA · PUBLICADOR (1 post por ejecución)" + (" [MODO TEST]" if es_test else ""))
+    print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')} local | "
+          f"{datetime.now(timezone.utc).strftime('%H:%M:%S')} UTC")
     print("=" * 60)
 
-    # 1. Verificar horario Brasília
+    # 1. Ventana horaria Brasília (8h-22h)
     if not es_test and not horario_permitido_brt():
-        print("  [Horario] Fuera de ventana Brasília (8h a 22h BRT). Saltando.")
+        print("  [Horario] Fuera de ventana Brasília (8h-22h BRT). Saltando.")
         return
 
     # 2. Control de calentamiento y límite diario
@@ -262,37 +318,41 @@ def main():
     dias = control.get("dias_activo", 3)
     max_dia = limite_diario_calentamiento(dias)
     envios_hoy = control.get("envios_hoy", 0)
-
     print(f"  • Calentamiento: Día {dias} | Envíos hoy: {envios_hoy}/{max_dia}")
+
     if not es_test and envios_hoy >= max_dia:
-        print(f"  [Límite diario] Alcanzado cupo seguro para evitar bloqueos ({envios_hoy}/{max_dia}).")
+        print(f"  [Límite diario] Cupo alcanzado ({envios_hoy}/{max_dia}). Saltando.")
         return
 
-    # 3. Validar credenciales Green API
+    # 3. Credenciales Green API
     if not es_test and not (GREEN_API_ID and GREEN_API_TOKEN and WHATSAPP_CHAT_ID):
         print("  ❌ ERROR: Credenciales de Green API no configuradas.")
         return
 
-    # 4. Publicar Post 1
-    ok1, pid1, loja1 = publicar_un_post(es_test=es_test)
-    if ok1 and not es_test:
-        control["envios_hoy"] += 1
+    # 4. Guardia de cadencia: no publicar si el último envío fue hace < MIN_GAP_MIN
+    if not es_test:
+        from modulo_ofertas import cargar_enviados
+        ultimo = ultimo_envio_utc(cargar_enviados())
+        if ultimo is not None:
+            delta_min = (datetime.now(timezone.utc) - ultimo).total_seconds() / 60.0
+            if delta_min < MIN_GAP_MIN:
+                print(f"  [Cadencia] Último envío hace {delta_min:.1f} min "
+                      f"(< {MIN_GAP_MIN:.0f} min). Saltando para no duplicar.")
+                return
+            print(f"  [Cadencia] Último envío hace {delta_min:.1f} min. OK para publicar.")
+
+    # 5. Publicar el siguiente post
+    ok, pid, loja = publicar_un_post(es_test=es_test)
+
+    if ok and not es_test:
+        control["envios_hoy"] = envios_hoy + 1
         guardar_control_canal(control)
-        print(f"  ✅ Post 1 [{loja1}] publicado con éxito!")
-
-    # 5. Si no es prueba ni single, esperar 7.5 minutos (450s) y publicar Post 2 (de la otra tienda)
-    if not es_test and not solo_uno and ok1 and control["envios_hoy"] < max_dia:
-        espera_seg = 450  # 7 minutos y medio exactos
-        print(f"\n  ⏱️ [Cadencia 7-8 min] Pausa de {espera_seg}s (~7.5 min) antes de la siguiente tienda...")
-        time.sleep(espera_seg)
-
-        ok2, pid2, loja2 = publicar_un_post(es_test=False)
-        if ok2:
-            control["envios_hoy"] += 1
-            guardar_control_canal(control)
-            print(f"  ✅ Post 2 [{loja2}] publicado con éxito!")
+        print(f"  ✅ Publicado [{loja}] {pid} | hoy: {control['envios_hoy']}/{max_dia}")
+    elif not ok:
+        print("  ⚠️ No se publicó ningún post en esta ejecución.")
 
     print("=" * 60)
+
 
 if __name__ == "__main__":
     main()

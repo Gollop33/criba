@@ -68,7 +68,10 @@
 ## 4. Arquitectura y Flujo de Datos
 
 ```
-GitHub Actions (cada 15 min, 11:00-23:59 UTC)
+CRON EXTERNO (cron-job.org, cada 8 min) ──► workflow_dispatch modo=publicar
+│                                            (solo fila + 1 post, ~1 min)
+│
+GitHub Actions `schedule` (~cada 2-4 h, ver §9) ──► modo=full
 │
 ├─ 1. cupones_pelando.py      → Scrape cupones de Pelando.com.br
 ├─ 2. agente_ml.py             → Scrape ofertas Mercado Livre → achados_ml.json
@@ -77,12 +80,15 @@ GitHub Actions (cada 15 min, 11:00-23:59 UTC)
 ├─ 5. agente_autonomo.py       → IA curada → achados_especificos.json (usa Gemini + Dealee)
 ├─ 6. gerador_melila.py --lote → Genera meli.la para todos los ML → cache_melila.json
 ├─ 7. acortador.py             → Acorta links → links.json + go/
-├─ 8. gerar_fila_posts.py      → Genera cola de posts → fila_posts.json
-├─ 9. publicar_proximo.py      → Publica 2 posts a WhatsApp (7.5 min entre ellos)
+├─ 8. gerar_fila_posts.py      → Genera cola de posts → fila_posts.json   [SIEMPRE]
+├─ 9. publicar_proximo.py      → Publica 1 post a WhatsApp                 [SIEMPRE]
 ├─10. bot_precios.py           → Monitorea precios → precios.db + productos.json
 ├─11. alertas_telegram.py      → Alerta caídas/subidas → Telegram
 └─12. git commit + push        → Actualiza repo → Triggerea GitHub Pages deploy
 ```
+
+> Los pasos **1-7 y 10-11** solo corren en `modo=full`. Los pasos **8, 9 y 12**
+> corren siempre, así que el cron externo publica sin scrapear.
 
 ### Archivos JSON Principales
 | Archivo | Qué contiene |
@@ -147,11 +153,16 @@ El filtro está en `gerar_fila_posts.py`:
 
 ## 7. Módulos Python — Referencia Rápida
 
-### `publicar_proximo.py` (299 líneas)
-- **Función principal:** `main()` → publica 2 posts con 7.5min de pausa entre ellos
-- **`publicar_un_post()`** → selecciona 1 post no enviado, genera meli.la, descarga foto, envía por WhatsApp
-- Skipea posts tipo `cupons_loja` (solo envía productos con foto)
-- Lee `fila_posts.json`, escribe `logs/enviados.json` y `logs/control_canal.json`
+### `publicar_proximo.py` (~330 líneas)
+- **Publica exactamente 1 post por ejecución.** Sin `sleep` (ver §15.3).
+- **`main()`** → valida ventana BRT, límite diario, credenciales y **guardia de
+  cadencia** (`MIN_GAP_MIN`, 6 min por defecto), luego publica 1 post.
+- **`resolver_link_afiliado(url, loja, cookie)`** → aplica la Regla de Oro.
+  Devuelve `None` si el link es `/go/` (aborta el post). No re-acorta si ya es
+  `meli.la`. Si ML no tiene link corto, cae a `#D[A:ja20250119201346]`.
+- **`ultimo_envio_utc(enviados)`** → base de la guardia anti-duplicado.
+- Skipea posts tipo `cupons_loja` (solo envía productos con foto).
+- Lee `fila_posts.json`, escribe `logs/enviados.json` y `logs/control_canal.json`.
 
 ### `gerar_fila_posts.py` (521 líneas)
 - **Función principal:** `armar_fila_rotativa()` → genera `fila_posts.json`
@@ -215,12 +226,58 @@ El filtro está en `gerar_fila_posts.py`:
 
 ## 9. GitHub Actions Workflow (`bot.yml`)
 
+### 🔴 HALLAZGO CRÍTICO: el `schedule` de GitHub NO sirve para la cadencia
+
+Medido sobre las últimas 60 ejecuciones reales (vía API de GitHub):
+
+| Métrica | Valor |
+|---|---|
+| Gap **mediano** entre ejecuciones | **174 min (~3 h)** |
+| Gap mínimo observado | 56 min |
+| Gaps > 60 min | **58 de 59** |
+| Cron declarado | `*/15` (15 min) |
+
+**GitHub estrangula los `schedule` de alta frecuencia.** El cron nunca dispara a
+15 min: entrega una ejecución cada 2-4 horas. Ésta es la causa raíz de que el bot
+publicara cada ~4 h en vez de cada 7-8 min. No era culpa de `time.sleep`, ni de
+`control_canal.json`, ni del push.
+
+**Solución implementada:** la cadencia la aporta un **cron externo**
+(cron-job.org) que llama a la API `workflow_dispatch` cada 8 min.
+Configuración paso a paso en **`CRON_EXTERNO_SETUP.md`**.
+
+### Dos modos de ejecución
+
+| Disparador | `modo` | Qué ejecuta |
+|---|---|---|
+| Cron externo (cron-job.org) cada 8 min | `publicar` | fila + **1 post** + commit (~1 min) |
+| `schedule` de GitHub (~cada 3 h) | `full` | pipeline completo: scrape ML + Amazon + IA + fila + 1 post + precios + alertas |
+
+Publicar y scrapear están **separados a propósito**: scrapear ML/Amazon cada
+8 minutos haría que bloqueen la IP del runner.
+
 ```yaml
-cron: '*/15 11-23 * * *'  # Cada 15 min, 11:00 a 23:59 UTC (~8:00 a 20:59 BRT)
+cron: '*/15 0,11-23 * * *'   # respaldo: ~8:00-21:45 Brasília
 ```
 
-### ⚠️ ADVERTENCIA: `continue-on-error: true`
-Todos los steps tienen `continue-on-error: true`, lo que significa que **los fallos son SILENCIOSOS**. Si un step falla, el workflow sigue como si nada. Esto dificulta el debugging.
+### Salvaguardas del publicador
+
+| Regla | Valor | Dónde |
+|---|---|---|
+| Separación mínima entre posts | 6 min | `MIN_GAP_MIN` (`bot.yml` / env) |
+| Ejecuciones solapadas | bloqueadas | `concurrency: criba-bot-${{ github.ref }}` |
+| Ventana de publicación | 8:00-22:00 BRT | `horario_permitido_brt()` |
+| Límite diario (día 3+) | 120 posts | `limite_diario_calentamiento()` |
+| Timeout del job | 40 min | `timeout-minutes` |
+
+El guardia de 6 min es la red de seguridad: si cron-job.org reintenta o GitHub
+encola dos ejecuciones seguidas, la segunda **no publica**. Sin él, un reintento
+duplicaría el post en el grupo.
+
+### ⚠️ `continue-on-error: true`
+Los steps de scraping siguen con `continue-on-error: true`, así que **sus fallos
+son SILENCIOSOS**. Usa `python verificar_criba.py` para saber si el pipeline está
+sano de verdad.
 
 ### Step final — Git Push
 ```yaml
@@ -235,27 +292,65 @@ Esto commitea todos los JSON actualizados, images, y logs al repo, lo que trigge
 
 ## 10. 🐛 Bugs Conocidos y Problemas Pendientes
 
-### A. Bot envía cada ~4 horas en vez de cada 7-8 minutos
-**Síntoma:** El grupo recibe posts muy espaciados (~4h) en vez de cada 7-8 min.
-**Causas posibles:**
-1. `publicar_proximo.py` tiene `time.sleep(450)` (7.5 min) que junto con el workflow de 15 min = solo 2 posts por ejecución. Eso es correcto, pero quizás los workflows fallan silenciosamente (por `continue-on-error: true`)
-2. `logs/control_canal.json` puede no estar persistiendo correctamente el `envios_hoy` entre ejecuciones
-3. La cookie `ML_PORTAL_COOKIE` vence y `melila_api.py` retorna `None`, causando que se saltee el post
-4. El git push puede fallar por conflictos de merge, haciendo que `fila_posts.json` y `logs/` no se actualicen
+### A. ✅ RESUELTO — Bot enviaba cada ~4 horas en vez de cada 7-8 minutos
+**Causa raíz (medida, no supuesta):** el `schedule` de GitHub entrega ejecuciones
+cada **~3 h** (mediana 174 min), no cada 15 min. Las 4 hipótesis que había aquí
+antes eran incorrectas.
 
-**Para investigar:** Revisar los logs de GitHub Actions en `https://github.com/Gollop33/criba/actions/workflows/bot.yml`
+**Arreglo aplicado:**
+1. `publicar_proximo.py` publica **1 post por ejecución** (se eliminó el
+   `time.sleep(450)`; dormir dentro del job ataba la cadencia al cron otra vez).
+2. Cron externo (cron-job.org) dispara `workflow_dispatch` cada 8 min →
+   ver `CRON_EXTERNO_SETUP.md`.
+3. Guardia `MIN_GAP_MIN=6` para no duplicar si hay reintentos.
+4. `concurrency` en `bot.yml` para que no se solapen dos ejecuciones.
 
-### B. Website estancado — Solo muestra monitores viejos
-**Síntoma:** `achadinhosnozap.com.br` muestra los mismos monitores desde hace días.
-**Causas posibles:**
-1. `achados.json` no se actualiza en el repo (el git push falla)
-2. GitHub Pages CDN cachea el JSON viejo (mitigado con `?_t=Date.now()`)
-3. Los scrapers `agente_ml.py` / `agente_amazon.py` fallan silenciosamente
+**Verificación:** `python verificar_criba.py` muestra la cadencia real medida.
 
-### C. Cookie ML_PORTAL_COOKIE se vence
-- La cookie de sesión de Mercado Livre se vence periódicamente
-- Cuando vence: `melila_api.py` retorna `None`, los posts se envían sin link corto o no se envían
-- **Para renovar:** Loguear en `mercadolivre.com.br/affiliate-program`, abrir DevTools → Application → Cookies, copiar TODA la cookie string, actualizar en `.env` local Y en GitHub Secrets
+### B. Website estancado — Solo mostraba monitores viejos
+**Causa:** el `schedule` estrangulado hacía que `achados.json` se refrescara cada
+~3 h (y a veces mucho más). **Mitigado:** el cron externo también ejecuta
+`gerar_fila_posts.py` cada 8 min, y el `schedule` mantiene el `full` para
+refrescar `achados.json`. El `?_t=Date.now()` sigue evitando la caché del CDN.
+
+### C. Cookie ML_PORTAL_COOKIE vencida
+- La cookie de sesión de Mercado Livre se vence periódicamente.
+- **Estado actual: VENCIDA** (comprobado: HTTP 403 en
+  `/affiliate-program/api/v2/stripe/user/links`).
+- **Ya no es fatal:** la fila lleva los `meli.la` desde la caché
+  (`melila_cache.json`, válida 7 días). Si la caché no tiene el link,
+  `resolver_link_afiliado()` cae a la prioridad 2 de la Regla de Oro:
+  `mercadolivre.com.br/...#D[A:ja20250119201346]`, que **sí monetiza**.
+- **Para renovar:** loguear en `mercadolivre.com.br/affiliate-program`, DevTools →
+  Application → Cookies, copiar TODA la cookie string, actualizar en `.env` local
+  **Y** en GitHub Secrets (`ML_PORTAL_COOKIE`).
+
+### D. ✅ RESUELTO — `melila_api` se llamaba sobre URLs que ya eran `meli.la`
+Generaba un `400 Bad Request` en cada post y gastaba una llamada a la API por
+gusto. `resolver_link_afiliado()` ahora detecta `meli.la` y no re-acorta.
+
+### E. ✅ RESUELTO — `publicar_proximo.py` tenía dos `main()`
+La definición de la línea ~101 era código muerto (Python usaba la segunda).
+Eliminada. De paso, el archivo quedó con una sola ruta de ejecución.
+
+### F. Regla de Oro — red de seguridad nueva
+`resolver_link_afiliado()` **aborta el post** si el link contiene `/go/`
+(no monetiza). Antes se podía publicar un link sin comisión sin que nada avisara.
+
+### G. Riesgo abierto — conflicto de merge en `fila_posts.json`
+Durante esta sesión se encontró el repo **a mitad de un merge** con
+`fila_posts.json` en conflicto (`UU`, marcadores `<<<<<<< HEAD` dentro del JSON),
+probablemente por un `git pull` de VS Code o la terminal. Se abortó el merge y se
+recuperó el estado limpio.
+
+**Prevención:** `fila_posts.json` es un archivo **generado**; si vuelve a haber
+conflicto, la resolución correcta es regenerarlo (`python gerar_fila_posts.py`),
+nunca editar los marcadores a mano.
+
+### H. Riesgo abierto — `img/envios/` crece sin límite en git
+El workflow commitea `img/ envios/` en cada ejecución. Con publicaciones cada
+8 min son ~110 imágenes/día. El repo crecerá indefinidamente. Pendiente de
+decidir: mover las imágenes a un CDN o ignorarlas en git.
 
 ---
 
@@ -269,6 +364,8 @@ criba/
 ├── .gitignore
 ├── CNAME                        # Custom domain GitHub Pages
 ├── CONTEXT.md                   # ← ESTE ARCHIVO
+├── CRON_EXTERNO_SETUP.md        # Guía del cron externo (cron-job.org)
+├── verificar_criba.py           # Chequeo de salud del pipeline
 │
 ├── # === SCRAPERS / AGENTES ===
 ├── agente_ml.py                 # Scraper Mercado Livre
@@ -393,15 +490,25 @@ python agente_amazon.py
 # 4. Generar cola de posts
 python gerar_fila_posts.py
 
-# 5. Probar publicación (modo test, no envía realmente)
+# 5. Probar publicación SIN enviar (preview del post exacto)
 python publicar_proximo.py --test
 
-# 6. Probar publicación real (1 solo post)
-python publicar_proximo.py --single
+# 6. Publicar de verdad (1 post, es el modo normal)
+python publicar_proximo.py
 
-# 7. Probar meli.la
+# 7. Comprobar la salud de TODO el pipeline (empieza por aquí si algo falla)
+python verificar_criba.py
+
+# 8. Probar meli.la
 python melila_api.py --test "https://www.mercadolivre.com.br/..."
 ```
+
+> `--single` ya no hace falta: el publicador siempre envía **1 post por
+> ejecución**. La cadencia de 7-8 min la da el cron externo, no un `sleep`.
+
+> **Si `verificar_criba.py` dice "cookie ML vencida"**: no es fatal, el bot
+> sigue publicando con la prioridad 2 de la Regla de Oro. Renueva la cookie
+> cuando puedas.
 
 ---
 
@@ -409,12 +516,23 @@ python melila_api.py --test "https://www.mercadolivre.com.br/..."
 
 1. **50/50 ML/Amazon en WhatsApp** — Alternancia estricta entre tiendas
 2. **No posts genéricos de cupones** — Solo productos con foto (el usuario eliminó los posts tipo `cupons_loja` porque eran spam)
-3. **Sleep de 7.5 min en publicar_proximo.py** — Para lograr cadencia de 7-8 min entre posts
+3. **1 post por ejecución, sin `sleep`** — La cadencia de 7-8 min la da el cron
+   externo (cron-job.org → `workflow_dispatch`). Dormir dentro del job ataba la
+   cadencia al `schedule` de GitHub, que se estrangula a ~3 h. **Éste fue el bug
+   de fondo.**
 4. **Filtro de nicho SOLO en WhatsApp** — El website muestra TODO
-5. **Anti-repetición 48h** — Un producto no se publica dos veces en 48 horas
+5. **Anti-repetición 48h** — `gerar_fila_posts.py` excluye de la fila lo enviado
+   en 48 h. Además `modulo_ofertas.ya_enviado()` aplica un segundo filtro de 24 h
+   (`HORAS_ANTI_SPAM`) en el momento de publicar.
 6. **Calentamiento progresivo** — Día 1: 20 posts, Día 2: 40, Día 3+: 120 (para no bloquear el grupo)
 7. **Cache meli.la 7 días** — Para no llamar la API por cada link repetido
-8. **`continue-on-error: true` en todos los steps** — Decisión del usuario para que el workflow no se detenga por un step fallido
+8. **`continue-on-error: true` en los steps de scraping** — Decisión del usuario
+   para que el workflow no se detenga por un step fallido. Ojo: hace que los
+   fallos sean silenciosos.
+9. **Publicar y scrapear separados** — El cron externo solo publica; el
+   `schedule` scrapea. Scrapear ML/Amazon cada 8 min haría que bloqueen la IP.
+10. **Regla de Oro ejecutable** — `resolver_link_afiliado()` aborta el post si el
+    link contiene `/go/`. La regla ya no depende de que alguien se acuerde.
 
 ---
 

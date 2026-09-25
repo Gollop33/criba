@@ -1,20 +1,52 @@
 name: radar-precios
 
+# ─────────────────────────────────────────────────────────────────────────────
+# CADENCIA: el `schedule` de GitHub NO sirve para publicar cada 7-8 min.
+# Medido sobre las últimas 60 ejecuciones: gap mediano 174 min, mínimo 56 min,
+# 58 de 59 gaps > 60 min (GitHub estrangula los crons de alta frecuencia).
+#
+# Por eso hay DOS disparadores:
+#   1) workflow_dispatch modo=publicar  -> cron EXTERNO (cron-job.org) cada 7-8 min.
+#      Solo genera la fila y publica 1 post. Rápido (~1 min), no scrapea.
+#   2) schedule                          -> pipeline COMPLETO (scrape + build).
+#      GitHub lo entrega cuando quiere (~cada 2-3 h): mantiene fresco el catálogo.
+#
+# Publicar y scrapear están separados a propósito: scrapear ML/Amazon cada
+# 7.5 min haría que nos bloqueen la IP.
+# ─────────────────────────────────────────────────────────────────────────────
 on:
   schedule:
-    # Cada 15 minutos en horario pico Brasil (11:00 a 23:45 UTC = ~8:00 a 20:45 Brasília)
-    - cron: '*/15 11-23 * * *'
+    # Respaldo: 11:00-23:45 UTC + 00:xx = ~8:00-21:45 Brasília
+    - cron: '*/15 0,11-23 * * *'
   workflow_dispatch:
+    inputs:
+      modo:
+        description: 'publicar = solo 1 post (cron externo) | full = pipeline completo'
+        required: false
+        default: 'publicar'
+        type: choice
+        options:
+          - publicar
+          - full
 
 permissions:
   contents: write
 
+# Evita que dos ejecuciones (cron externo + schedule) se pisen al hacer push.
+concurrency:
+  group: criba-bot-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   bot:
     runs-on: ubuntu-latest
+    timeout-minutes: 40
+
     steps:
-      - name: Log ejecucion
-        run: echo "=== CRIBA Bot === $(date -u '+%Y-%m-%d %H:%M:%S UTC') ==="
+      - name: Modo de ejecución
+        run: |
+          echo "=== CRIBA Bot === $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "modo=${{ github.event.inputs.modo || 'full' }} evento=${{ github.event_name }}"
 
       - uses: actions/checkout@v4
         with:
@@ -27,23 +59,29 @@ jobs:
       - name: dependencias
         run: pip install -r requirements.txt
 
+      # ── Pipeline PESADO: solo en modo full (schedule) ──────────────────────
       - name: actualizar cupones pelando
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python cupones_pelando.py
 
       - name: cosechar mercado livre (agente_ml)
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python agente_ml.py
 
       - name: cosechar amazon brasil (agente_amazon)
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python agente_amazon.py
 
       - name: unir achados do dia (unir_achados)
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python unir_achados.py
 
       - name: agente autonomo de ofertas api (agente_autonomo)
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python agente_autonomo.py
         env:
@@ -52,20 +90,23 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
 
       - name: enriquecer ofertas ml con meli.la (gerador_melila)
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python gerador_melila.py --lote
         env:
           ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
 
       - name: acortar enlaces con tracking (acortador)
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python acortador.py
 
+      # ── Pipeline LIGERO: siempre (también en modo publicar) ───────────────
       - name: generar fila rotativa de posts (gerar_fila_posts)
         continue-on-error: true
         run: python gerar_fila_posts.py
 
-      - name: publicar proximo post modo canal (publicar_proximo)
+      - name: publicar 1 post (publicar_proximo)
         continue-on-error: true
         run: python publicar_proximo.py
         env:
@@ -73,28 +114,29 @@ jobs:
           GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
           WHATSAPP_CHAT_ID: ${{ secrets.WHATSAPP_CHAT_ID }}
           ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
+          MIN_GAP_MIN: "6"
 
+      # ── Post-proceso: solo en modo full ───────────────────────────────────
       - name: buscar precios
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python bot_precios.py
 
       - name: alertas telegram
+        if: github.event.inputs.modo != 'publicar'
         continue-on-error: true
         run: python alertas_telegram.py
         env:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
 
+      # ── Commit y push ─────────────────────────────────────────────────────
       - name: commit y push resultados
         run: |
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
-          # Stage ALL generated/modified data files first (before pull)
           git add -A -- '*.json' go/ img/ logs/ || true
-          # Now pull with autostash to handle any remote changes
           git pull --rebase --autostash origin main || git pull origin main || true
-          # Final add in case pull created merge artifacts
           git add -A -- '*.json' go/ img/ logs/ || true
-          # Commit only if there are staged changes
           git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
           git push || git push --force-with-lease
