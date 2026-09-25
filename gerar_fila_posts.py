@@ -19,6 +19,7 @@ Uso: python gerar_fila_posts.py
 """
 
 import json
+import os
 import re
 import random
 import unicodedata
@@ -110,23 +111,40 @@ def normalizar(s):
     return re.sub(r"[^a-z0-9 ]", "", s.lower()).strip()
 
 def cargar_enviados_recientes(horas=48):
-    """Retorna conjunto de IDs de productos enviados en las últimas N horas."""
+    """
+    Retorna el conjunto de IDs enviados en las últimas N horas.
+
+    OJO: los `ts` de logs/enviados.json son UTC *naive* (los escribe
+    datetime.utcnow().isoformat()). Compararlos contra un `limite` con timezone
+    lanzaba TypeError, y el `except` metía el producto en `bloqueados` SIEMPRE,
+    sin importar su antigüedad. Resultado: la ventana de enfriamiento no se
+    aplicaba nunca y el catálogo se agotaba (la fila cayó de 29 a 11 posts).
+    """
     if not ENVIADOS_JSON.exists():
         return set()
     try:
-        data = json.loads(ENVIADOS_JSON.read_text(encoding="utf-8"))
+        data = json.loads(ENVIADOS_JSON.read_text(encoding="utf-8-sig"))
         ahora = datetime.now(timezone.utc)
         limite = ahora - timedelta(hours=horas)
         bloqueados = set()
+        con_error = 0
         for pid, val in data.items():
             ts_str = val.get("ts", "") if isinstance(val, dict) else str(val)
-            if ts_str:
-                try:
-                    ts = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
-                    if ts > limite:
-                        bloqueados.add(pid)
-                except Exception:
+            if not ts_str:
+                continue
+            try:
+                ts = datetime.fromisoformat(ts_str.replace("Z", "+00:00"))
+                if ts.tzinfo is None:            # <-- el arreglo
+                    ts = ts.replace(tzinfo=timezone.utc)
+                if ts > limite:
                     bloqueados.add(pid)
+            except Exception:
+                # Si no se puede leer la fecha, bloquear es lo prudente
+                # (mejor no repetir que repetir), pero que no sea silencioso.
+                con_error += 1
+                bloqueados.add(pid)
+        if con_error:
+            print(f"  [aviso] {con_error} entradas de enviados.json con fecha ilegible")
         return bloqueados
     except Exception:
         return set()
@@ -344,7 +362,11 @@ def armar_fila_rotativa():
             pass
 
     cupones = cargar_cupones_reales()
-    bloqueados_48h = cargar_enviados_recientes(48)
+    # Ventana de enfriamiento anti-repetición (horas). Configurable porque es
+    # el factor que MÁS limita cuántos posts/día se pueden publicar: con 48 h el
+    # catálogo se agota enseguida, con 24 h se duplica el material disponible.
+    horas_enfriamiento = int(os.environ.get("HORAS_ENFRIAMIENTO", "48"))
+    bloqueados_48h = cargar_enviados_recientes(horas_enfriamiento)
     ahora_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     print(f"  • Achados totales disponibles: {len(items_achados)}")

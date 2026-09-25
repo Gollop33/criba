@@ -124,6 +124,10 @@ jobs:
       - name: generar fila rotativa de posts (gerar_fila_posts)
         continue-on-error: true
         run: python gerar_fila_posts.py
+        env:
+          # 24h en vez de 48h: con 48 la fila bajaba a 11 posts y el bucle se
+          # quedaba sin material en ~1h. Con 24 sube a 15. Medido.
+          HORAS_ENFRIAMIENTO: "24"
 
       # ── Publicación ───────────────────────────────────────────────────────
       # El `schedule` entra en BUCLE: publica cada 7.5 min hasta ~4.5 h, así la
@@ -139,8 +143,14 @@ jobs:
           WHATSAPP_CHAT_ID: ${{ secrets.WHATSAPP_CHAT_ID }}
           ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
           MIN_GAP_MIN: "6"
-          INTERVALO_SEG: "450"
+          # Intervalos ALEATORIOS de 1 a 10 min (media 5.5 -> ~11 posts/hora).
+          # Un patrón fijo es lo que detectan los anti-spam; la irregularidad
+          # imita a una persona. El bucle baja MIN_GAP_MIN a 0.5 para que los
+          # intervalos cortos no se bloqueen.
+          INTERVALO_MIN_SEG: "60"
+          INTERVALO_MAX_SEG: "600"
           DURACION_MAX_SEG: "16200"
+          MAX_ENVIOS_DIA: "150"
 
       - name: publicar 1 post (dispatch)
         if: github.event.inputs.modo == 'publicar'

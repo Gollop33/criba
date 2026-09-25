@@ -107,11 +107,22 @@ def guardar_control_canal(data):
 
 
 def limite_diario_calentamiento(dias_activo):
+    """
+    Tope de posts/día. Con intervalos aleatorios de 1-10 min (media 5.5) una
+    ventana de 14 h daría ~150 posts, así que el tope es lo que realmente
+    limita. Se puede subir con la variable de entorno MAX_ENVIOS_DIA.
+    """
+    override = os.environ.get("MAX_ENVIOS_DIA", "").strip()
+    if override:
+        try:
+            return int(override)
+        except ValueError:
+            pass
     if dias_activo <= 1:
         return 20
     if dias_activo == 2:
         return 40
-    return 120  # 14 h de ventana * ~8 posts/h ≈ 112
+    return 120  # día 3+: tope de seguridad del canal
 
 
 def horario_permitido_brt():
