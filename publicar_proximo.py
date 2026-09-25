@@ -229,17 +229,51 @@ def publicar_un_post(es_test=False):
     from modulo_ofertas import marcar_enviado, guardar_enviados, ya_enviado
     enviados = cargar_enviados_estricto()
 
-    post_a_enviar = None
+    # Candidatos: no enviados, sin posts genéricos de cupón
+    candidatos = []
     for p in posts:
         if p.get("tipo") == "cupons_loja":
-            continue  # solo productos con foto
-        pid = p.get("id_post") or p.get("titulo", "")[:40]
-        if not ya_enviado(pid, enviados, canal="whatsapp"):
-            post_a_enviar = p
+            continue
+        pid_c = p.get("id_post") or p.get("titulo", "")[:40]
+        if not ya_enviado(pid_c, enviados, canal="whatsapp"):
+            candidatos.append(p)
+        if len(candidatos) >= 6:
             break
 
-    if not post_a_enviar:
+    if not candidatos:
         print("  [Fila] Todos los posts ya fueron enviados en la ventana anti-repetición.")
+        return False, None, None
+
+    # Regla de Oro + agente de calidad: se elige el primer candidato cuyo link
+    # monetice Y funcione de verdad. Si un link está roto se pasa al siguiente
+    # en vez de publicar algo que no lleva a ninguna parte.
+    cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
+    post_a_enviar = None
+    link_final = None
+    for cand in candidatos:
+        tit_c = cand.get("titulo", "")
+        lf = resolver_link_afiliado(cand.get("url", ""), cand.get("loja", ""), cookie_portal)
+        if lf is None:
+            print(f"  ⏭️  [Regla de Oro] /go/ no monetiza: {tit_c[:45]}")
+            continue
+        if not lf:
+            print(f"  ⏭️  Sin link de afiliado: {tit_c[:45]}")
+            continue
+        try:
+            from agente_calidad import verificar_link
+            ok_link, det_link = verificar_link(lf)
+        except Exception as e:
+            ok_link, det_link = None, f"agente no disponible: {e}"
+        if ok_link is False:
+            print(f"  ⏭️  [Agente] link ROTO ({det_link}): {tit_c[:45]}")
+            continue
+        post_a_enviar, link_final = cand, lf
+        if ok_link:
+            print(f"  [Agente] link verificado: {det_link}")
+        break
+
+    if not post_a_enviar:
+        print("  ❌ Ningún candidato tiene un link válido. No se publica nada esta pasada.")
         return False, None, None
 
     pid = post_a_enviar.get("id_post") or post_a_enviar.get("titulo", "")[:40]
@@ -248,16 +282,6 @@ def publicar_un_post(es_test=False):
     url = post_a_enviar.get("url", "")
     print(f"\n  🎯 Post seleccionado: [{loja.upper()}] {titulo[:55]}")
     print(f"     Link base: {url}")
-
-    # Regla de Oro
-    cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
-    link_final = resolver_link_afiliado(url, loja, cookie_portal)
-    if link_final is None:
-        print("  ❌ [Regla de Oro] El link es un redirect /go/ que NO monetiza. Post abortado.")
-        return False, pid, loja
-    if not link_final:
-        print("  ❌ [Regla de Oro] Post sin link de afiliado. Abortado.")
-        return False, pid, loja
 
     # Formatear precio y cupón
     precio_raw = post_a_enviar.get("precio", 0)
