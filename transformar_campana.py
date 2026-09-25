@@ -30,7 +30,7 @@ TXT_CAMPANA = BASE / "campana_hoy.txt"
 ENV_FILE = BASE / ".env"
 
 if ENV_FILE.exists():
-    for line in ENV_FILE.read_text(encoding="utf-8").splitlines():
+    for line in ENV_FILE.read_text(encoding="utf-8-sig").splitlines():
         if "=" in line and not line.startswith("#"):
             k, v = line.split("=", 1)
             os.environ[k.strip()] = v.strip()

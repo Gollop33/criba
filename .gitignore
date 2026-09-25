@@ -1,5 +1,7 @@
 # Base de datos y estado
-precios.db
+# precios.db SÍ se versiona a propósito: es el historial de precios que usa el
+# validador de descuentos. Antes estaba ignorado, así que en cada run de Actions
+# se reiniciaba y la regla "-15% vs histórico" nunca se disparaba.
 estado_alertas.json
 
 # Generados que NO deben versionarse.

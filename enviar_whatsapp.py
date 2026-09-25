@@ -25,7 +25,7 @@ BASE = Path(__file__).parent
 _env_file = BASE / ".env"
 if _env_file.exists():
     try:
-        for line in _env_file.read_text(encoding="utf-8").splitlines():
+        for line in _env_file.read_text(encoding="utf-8-sig").splitlines():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)

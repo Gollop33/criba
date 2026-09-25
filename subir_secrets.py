@@ -102,9 +102,13 @@ def main():
     env = cargar_env()
     subidas = 0
 
-    # Solo tocamos lo que tenemos en .env. NO subimos GREEN_API_TOKEN porque
-    # esta filtrado en el historial publico y hay que ROTARLO primero.
-    plan = [("ML_PORTAL_COOKIE", "ML_PORTAL_COOKIE")]
+    # Solo tocamos lo que tenemos en .env.
+    plan = [
+        ("ML_PORTAL_COOKIE", "ML_PORTAL_COOKIE"),
+        ("GREEN_API_TOKEN", "GREEN_API_TOKEN"),
+        ("GREEN_API_ID", "GREEN_API_ID"),
+        ("WHATSAPP_CHAT_ID", "WHATSAPP_CHAT_ID"),
+    ]
 
     print("\n=== subiendo ===")
     for nombre_secret, clave_env in plan:

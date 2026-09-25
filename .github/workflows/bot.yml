@@ -5,19 +5,26 @@ name: radar-precios
 # Medido sobre las últimas 60 ejecuciones: gap mediano 174 min, mínimo 56 min,
 # 58 de 59 gaps > 60 min (GitHub estrangula los crons de alta frecuencia).
 #
-# Por eso hay DOS disparadores:
-#   1) workflow_dispatch modo=publicar  -> cron EXTERNO (cron-job.org) cada 7-8 min.
-#      Solo genera la fila y publica 1 post. Rápido (~1 min), no scrapea.
-#   2) schedule                          -> pipeline COMPLETO (scrape + build).
-#      GitHub lo entrega cuando quiere (~cada 2-3 h): mantiene fresco el catálogo.
+# Estrategia (no necesita servicios externos):
+#   `schedule` (5 veces/día) -> scrapea UNA vez y luego entra en
+#   bucle_publicacion.py: publica un post cada 7.5 min durante ~4.5 h.
+#   Como los disparos están a 3 h y el bucle dura 4.5 h, se solapan y la
+#   cobertura de 8:00-22:00 BRT es continua. `concurrency` garantiza que
+#   nunca haya dos publicando a la vez.
 #
-# Publicar y scrapear están separados a propósito: scrapear ML/Amazon cada
-# 7.5 min haría que nos bloqueen la IP.
+#   `workflow_dispatch` modo=publicar -> publica 1 solo post (manual / cron
+#   externo si algún día se configura cron-job.org).
+#
+# Scrapear y publicar están separados a propósito: scrapear ML/Amazon cada
+# 7.5 min haría que nos bloqueen la IP. El bucle NO scrapea.
 # ─────────────────────────────────────────────────────────────────────────────
 on:
   schedule:
-    # Respaldo: 11:00-23:45 UTC + 00:xx = ~8:00-21:45 Brasília
-    - cron: '*/15 0,11-23 * * *'
+    # 5 disparos al día: 8:00, 11:00, 14:00, 17:00 y 20:00 Brasília.
+    # Cada disparo NO publica un solo post: entra en bucle_publicacion.py y se
+    # queda publicando cada 7.5 min hasta ~4.5 h. Así cubrimos 8:00-22:00 BRT
+    # de forma continua sin depender de un cron externo.
+    - cron: '0 11,14,17,20,23 * * *'
   workflow_dispatch:
     inputs:
       modo:
@@ -40,7 +47,7 @@ concurrency:
 jobs:
   bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    timeout-minutes: 330
 
     steps:
       - name: Modo de ejecución
@@ -118,7 +125,25 @@ jobs:
         continue-on-error: true
         run: python gerar_fila_posts.py
 
-      - name: publicar 1 post (publicar_proximo)
+      # ── Publicación ───────────────────────────────────────────────────────
+      # El `schedule` entra en BUCLE: publica cada 7.5 min hasta ~4.5 h, así la
+      # cadencia no depende del cron (que GitHub estrangula a ~3 h).
+      # Un `workflow_dispatch` (cron externo / manual) publica UN solo post.
+      - name: publicar en bucle (cadencia 7-8 min)
+        if: github.event.inputs.modo != 'publicar'
+        continue-on-error: true
+        run: python bucle_publicacion.py
+        env:
+          GREEN_API_ID: ${{ secrets.GREEN_API_ID }}
+          GREEN_API_TOKEN: ${{ secrets.GREEN_API_TOKEN }}
+          WHATSAPP_CHAT_ID: ${{ secrets.WHATSAPP_CHAT_ID }}
+          ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
+          MIN_GAP_MIN: "6"
+          INTERVALO_SEG: "450"
+          DURACION_MAX_SEG: "16200"
+
+      - name: publicar 1 post (dispatch)
+        if: github.event.inputs.modo == 'publicar'
         continue-on-error: true
         run: python publicar_proximo.py
         env:
@@ -154,7 +179,7 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A -- '*.json' go/ img/ logs/ || true
+          git add -A -- '*.json' go/ img/ logs/ precios.db || true
           git pull --rebase --autostash origin main || git pull origin main || true
 
           echo "── reparando estado si hay conflictos ──"
@@ -166,6 +191,6 @@ jobs:
             exit 1;
           }
 
-          git add -A -- '*.json' go/ img/ logs/ || true
+          git add -A -- '*.json' go/ img/ logs/ precios.db || true
           git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
           git push || git push --force-with-lease

@@ -176,7 +176,7 @@ def check_credenciales():
     print("\n── 5. CREDENCIALES ───────────────────────────────────────")
     env_file = BASE / ".env"
     if env_file.exists():
-        for line in env_file.read_text(encoding="utf-8").splitlines():
+        for line in env_file.read_text(encoding="utf-8-sig").splitlines():
             line = line.strip()
             if line and not line.startswith("#") and "=" in line:
                 k, v = line.split("=", 1)

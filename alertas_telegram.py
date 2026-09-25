@@ -27,8 +27,8 @@ if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
 BASE = Path(__file__).parent
 
 # ─── Configuración ────────────────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "8761354869:AAGAa4nQDb_FgqU32OEWBYjF5hlMNCVybE0")
-TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID",   "1277930676")
+TELEGRAM_BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+TELEGRAM_CHAT_ID   = os.environ.get("TELEGRAM_CHAT_ID", "").strip()
 
 PRODUCTOS_JSON  = BASE / "productos.json"
 ESTADO_ANTERIOR = BASE / "estado_alertas.json"   # compatibilidad legacy
