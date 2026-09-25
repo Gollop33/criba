@@ -128,6 +128,12 @@ jobs:
           # 24h en vez de 48h: con 48 la fila bajaba a 11 posts y el bucle se
           # quedaba sin material en ~1h. Con 24 sube a 15. Medido.
           HORAS_ENFRIAMIENTO: "24"
+          # 'geral' = achadinhos (casa, limpieza, higiene, suplementos, pet...).
+          # Medido: el modo 'tech' dejaba la fila en 14 posts y las 29 ofertas
+          # de Amazon caian TODAS -> 0 publicaciones de Amazon en el grupo.
+          # Con 'geral': 51 posts, 25 ML + 26 Amazon, 51 con cupon.
+          # Pon 'tech' para volver al nicho cerrado original.
+          NICHO_MODO: "geral"
 
       # ── Publicación ───────────────────────────────────────────────────────
       # El `schedule` entra en BUCLE: publica cada 7.5 min hasta ~4.5 h, así la

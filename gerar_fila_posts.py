@@ -201,7 +201,7 @@ KEYWORDS_TECH = [
     "relogio", "relógio", "smartwatch", "smart watch", "casio", "g-shock", "invicta", "technos", "curren", "poedagar", "naviforce", "skmei", "mormaii"
 ]
 
-EXCLUIR_NO_TECH = [
+EXCLUIR_SOLO_TECH = [
     "panela", "toalha", "motosserra", "whey", "creatina", "suplemento",
     "aspirador", "fritadeira", "air fryer", "ar condicionado", "ventilador", "armario", "armário",
     "mochila", "casinha", "cachorro", "pet", "colchao", "travesseiro", "tenis", "tênis", "camisa",
@@ -232,16 +232,158 @@ EXCLUIR_NO_TECH = [
     "raticida", "formicida", "desentupidor"
 ]
 
+# ─── MODO DE NICHO ────────────────────────────────────────────────────────────
+# 'tech'  = solo tecnologia, perfumes y relojes (nicho original, mas cerrado)
+# 'geral' = achadinhos generales (casa, limpeza, higiene, suplementos, pet...)
+#
+# Por qué existe 'geral': medido sobre 69 ofertas scrapeadas, el 100% tenia link
+# monetizado pero SOLO 14 pasaban el filtro tech, y las 29 de Amazon caian TODAS
+# (su scraper trae categorias de hogar/belleza/suplementos). Resultado: cero
+# publicaciones de Amazon en el grupo y el 80% del material monetizable tirado.
+#
+# Para un canal de achadinhos, los consumibles de casa son ademas los que MAS
+# repiten compra (fralda, limpeza, suplemento), asi que suelen convertir mejor
+# que la tecnologia, que se compra una vez cada anos.
+NICHO_MODO = os.environ.get("NICHO_MODO", "geral").strip().lower()
+
+# Vetos absolutos: no entran en NINGUN modo (no son afiliables o no encajan).
+EXCLUIR_SIEMPRE = [
+    "medicamento", "remedio", "remédio", "farmacia", "farmácia", "antibiotico",
+    "antibiótico", "generico", "genérico", "arma ", "arma de", "municao", "munição",
+    "cigarro", "vape", "pod descartavel", "narguile", "aposta", "apostas",
+    "cerveja", "vinho", "whisky", "vodka", "gin ", "energetico alcoolico",
+]
+
+# Palabras que en modo 'geral' son BIENVENIDAS (en modo 'tech' estaban vetadas).
+KEYWORDS_GERAL = [
+    # Limpieza y hogar
+    "amaciante", "sabao", "sabão", "detergente", "desinfetante", "alvejante",
+    "multiuso", "limpador", "lava roupas", "lava-roupas", "papel higienico",
+    "papel higiênico", "papel toalha", "guardanapo", "saco de lixo", "esponja",
+    "vassoura", "rodo", "balde", "desodorizador", "aromatizante", "odorizador",
+    "toalha", "lençol", "lencol", "jogo de cama", "cobertor", "travesseiro",
+    "colchao", "colchão", "organizador", "caixa organizadora", "cabide",
+    # Cozinha
+    "panela", "frigideira", "jogo de panelas", "air fryer", "fritadeira",
+    "aspirador", "liquidificador", "batedeira", "cafeteira", "chaleira",
+    "sanduicheira", "micro-ondas", "microondas", "faqueiro", "jogo de pratos",
+    "copo", "garrafa", "marmita", "utensilio", "utensílio", "tábua", "tabua",
+    "cozinha", "casa inteligente", "ventilador", "climatizador", "umidificador",
+    "purificador", "ar condicionado", "ferro de passar", "maquina de costura",
+    # Higiene y beleza
+    "creme dental", "pasta de dente", "escova de dente", "fio dental",
+    "enxaguante", "sabonete", "gel de banho", "shampoo", "condicionador",
+    "hidratante", "protetor solar", "desodorante", "perfume", "fragrancia",
+    "fragrância", "colonia", "colônia", "cotonete", "algodao", "algodão",
+    "fralda", "absorvente", "lenco umedecido", "lenço umedecido", "esmalte",
+    "maquiagem", "batom", "base facial", "secador de cabelo", "prancha",
+    "chapinha", "barbeador", "aparador de pelos", "depilador",
+    # Suplementos e saude
+    "whey", "creatina", "suplemento", "vitamina", "colageno", "colágeno",
+    "omega", "ômega", "pre-workout", "termogenico", "termogênico", "albumina",
+    "proteina", "proteína", "bcaa", "glutamina", "multivitaminico",
+    # Pet
+    "racao", "ração", "areia sanitaria", "areia sanitária", "comedouro",
+    "bebedouro", "coleira", "petisco", "brinquedo para cachorro", "casinha",
+    "tapete higienico", "tapete higiênico", "caminha",
+    # Bebé
+    "mamadeira", "chupeta", "berco", "berço", "carrinho de bebe", "cadeirinha",
+    "papinha", "leite em po", "leite em pó", "fralda",
+    # Ferramentas, automotivo, esporte, papelaria
+    "parafusadeira", "furadeira", "serra", "chave de fenda", "jogo de chaves",
+    "trena", "multimetro", "multímetro", "caixa de ferramentas", "compressor",
+    "aspirador de po", "aspirador de pó", "lavadora de alta pressao",
+    "capota", "capa de volante", "suporte de celular para carro", "oleo",
+    "óleo", "pneu", "bateria automotiva", "som automotivo", "camera de re",
+    "bicicleta", "patins", "skate", "halter", "anilha", "colchonete",
+    "corda de pular", "luva de treino", "faixa elastica", "faixa elástica",
+    "mochila", "caderno", "caneta", "marcador", "papelaria", "mochila escolar",
+    "mesa", "cadeira", "escrivaninha", "guarda-roupa", "sapateira", "estante",
+    "tenis", "tênis", "camisa", "vestido", "bermuda", "bijuteria", "relogio",
+]
+
+EXCLUIR_NO_TECH = EXCLUIR_SOLO_TECH  # compatibilidad con codigo antiguo
+
+
 def es_producto_tecnologia(nombre):
-    """Filtra estrictamente productos del nicho Tech, Hardware, Setup, Perfumes y Relojes."""
+    """Nicho ORIGINAL cerrado: Tech, Hardware, Setup, Perfumes y Relojes."""
     n = (nombre or "").lower()
-    if any(e in n for e in EXCLUIR_NO_TECH):
+    if any(e in n for e in EXCLUIR_SIEMPRE):
+        return False
+    if any(e in n for e in EXCLUIR_SOLO_TECH):
         return False
     return any(k in n for k in KEYWORDS_TECH)
 
-def clasificar_categoria(nombre):
-    """Categoriza un producto dentro del ecosistema Tech + Perfumes + Relojes."""
+
+def es_producto_del_canal(nombre):
+    """
+    Filtro REAL que usa la generacion de la fila, segun NICHO_MODO.
+    En modo 'geral' no se aplica la lista de exclusion del modo tech y se
+    acepta tambien KEYWORDS_GERAL, que es lo que desbloquea Amazon y el hogar.
+    """
+    if NICHO_MODO != "geral":
+        return es_producto_tecnologia(nombre)
     n = (nombre or "").lower()
+    if any(e in n for e in EXCLUIR_SIEMPRE):
+        return False
+    return any(k in n for k in KEYWORDS_TECH + KEYWORDS_GERAL)
+
+def clasificar_categoria(nombre):
+    """Categoriza el producto para el sitio y para el balance del canal."""
+    n = (nombre or "").lower()
+    # ── Categorías de "achadinhos" (modo geral) ──────────────────────────────
+    # Van PRIMERO porque son más específicas: si no, un suplemento acababa
+    # etiquetado como "Gadgets & Smart Tech", que era el cajón de sastre.
+    if any(k in n for k in ["creatina", "whey", "suplemento", "vitamina", "colageno",
+                            "colágeno", "omega", "ômega", "proteina", "proteína",
+                            "bcaa", "glutamina", "termogenico", "termogênico",
+                            "albumina", "pre-workout", "multivitaminico"]):
+        return "Suplementos & Saúde"
+    if any(k in n for k in ["creme dental", "pasta de dente", "escova de dente",
+                            "fio dental", "enxaguante", "sabonete", "gel de banho",
+                            "shampoo", "condicionador", "hidratante", "desodorante",
+                            "protetor solar", "fralda", "absorvente", "cotonete",
+                            "algodao", "algodão", "esmalte", "maquiagem", "batom",
+                            "barbeador", "depilador", "secador de cabelo", "prancha"]):
+        return "Beleza & Higiene"
+    if any(k in n for k in ["amaciante", "sabao", "sabão", "detergente", "desinfetante",
+                            "alvejante", "multiuso", "limpador", "lava roupas",
+                            "lava-roupas", "papel higienico", "papel higiênico",
+                            "papel toalha", "guardanapo", "saco de lixo", "esponja",
+                            "vassoura", "rodo", "balde", "aspirador", "desodorizador",
+                            "aromatizante", "odorizador"]):
+        return "Casa & Limpeza"
+    if any(k in n for k in ["panela", "frigideira", "air fryer", "fritadeira",
+                            "liquidificador", "batedeira", "cafeteira", "chaleira",
+                            "sanduicheira", "micro-ondas", "microondas", "faqueiro",
+                            "copo", "garrafa", "marmita", "utensilio", "utensílio",
+                            "cozinha", "ventilador", "climatizador", "umidificador",
+                            "purificador", "ferro de passar"]):
+        return "Cozinha & Eletro"
+    if any(k in n for k in ["racao", "ração", "areia sanitaria", "areia sanitária",
+                            "comedouro", "bebedouro", "coleira", "petisco", "caminha",
+                            "tapete higienico", "tapete higiênico"]):
+        return "Pet Shop"
+    if any(k in n for k in ["mamadeira", "chupeta", "berco", "berço", "carrinho de bebe",
+                            "cadeirinha", "papinha", "leite em po", "leite em pó"]):
+        return "Bebê"
+    if any(k in n for k in ["parafusadeira", "furadeira", "serra", "chave de fenda",
+                            "trena", "multimetro", "multímetro", "caixa de ferramentas",
+                            "compressor", "lavadora de alta pressao"]):
+        return "Ferramentas"
+    if any(k in n for k in ["capota", "capa de volante", "oleo", "óleo", "pneu",
+                            "bateria automotiva", "som automotivo", "camera de re"]):
+        return "Automotivo"
+    if any(k in n for k in ["bicicleta", "patins", "skate", "halter", "anilha",
+                            "colchonete", "corda de pular", "faixa elastica",
+                            "faixa elástica", "luva de treino"]):
+        return "Esporte & Fitness"
+    if any(k in n for k in ["toalha", "lençol", "lencol", "jogo de cama", "cobertor",
+                            "travesseiro", "colchao", "colchão", "organizador", "cabide",
+                            "mesa", "cadeira", "escrivaninha", "guarda-roupa",
+                            "sapateira", "estante"]):
+        return "Casa & Móveis"
+    # ── Categorías tech (nicho original) ─────────────────────────────────────
     if any(k in n for k in ["perfume", "fragrancia", "fragrância", "colonia", "colônia", "parfum", "toilette", "malbec", "zaad"]):
         return "Perfumes & Fragrâncias"
     if any(k in n for k in ["relogio", "relógio", "smartwatch", "casio", "g-shock", "invicta", "technos"]):
@@ -258,7 +400,7 @@ def clasificar_categoria(nombre):
         return "Games & Gift Cards"
     if any(k in n for k in ["smartphone", "celular", "iphone", "galaxy", "xiaomi", "redmi"]):
         return "Smartphones & Celulares"
-    return "Gadgets & Smart Tech"
+    return "Ofertas Gerais"
 
 def generar_posts_cupones(cupones_reales):
     """Crea posts de cupones estilo canal profesional con enlaces monetizados de activación."""
@@ -420,9 +562,9 @@ def armar_fila_rotativa():
         else:
             continue
 
-        # FILTRO DE NICHO: 100% TECNOLOGÍA, HARDWARE, SETUP, GAMES & GIFT CARDS
+        # FILTRO DE NICHO: según NICHO_MODO ('tech' cerrado o 'geral' achadinhos)
         nombre_prod = item.get("nombre", "")
-        if not es_producto_tecnologia(nombre_prod):
+        if not es_producto_del_canal(nombre_prod):
             continue
 
         cat = clasificar_categoria(nombre_prod)
@@ -445,7 +587,7 @@ def armar_fila_rotativa():
     
     # 0. PRIORIDAD ABSOLUTA: Ofertas curadas con IA / específicas ingresadas por el usuario
     for esp in items_esp:
-        if not es_producto_tecnologia(esp.get("nombre", "")):
+        if not es_producto_del_canal(esp.get("nombre", "")):
             continue
         pid = esp.get("id") or esp.get("nombre", "")[:40]
         if pid not in bloqueados_48h:
