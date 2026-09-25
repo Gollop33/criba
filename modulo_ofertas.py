@@ -118,8 +118,14 @@ def ya_enviado(pid, enviados, canal=None):
         return False
 
 
-def marcar_enviado(pid, enviados, canal="general"):
-    """Registra el envío de un producto para el canal indicado."""
+def marcar_enviado(pid, enviados, canal="general", precio=None):
+    """
+    Registra el envío de un producto para el canal indicado.
+
+    `precio` es la clave de la repetición inteligente: guardar a qué precio se
+    publicó permite volver a publicar el MISMO producto cuando baje de precio.
+    Un producto que bajó es contenido nuevo y valioso, no repetición.
+    """
     now = datetime.utcnow().isoformat()
     if pid not in enviados or not isinstance(enviados[pid], dict):
         enviados[pid] = {"ts": now, "canales": {}}
@@ -127,6 +133,23 @@ def marcar_enviado(pid, enviados, canal="general"):
         enviados[pid]["canales"] = {}
     enviados[pid]["canales"][canal] = now
     enviados[pid]["ts"] = now
+    try:
+        if precio:
+            p = float(precio)
+            if p > 0:
+                enviados[pid]["precio"] = p
+                # Historial de precios publicados: permite detectar bajadas
+                # frente al precio MÁS BAJO que ya anunciamos, no solo el último.
+                hist = enviados[pid].get("precios_publicados")
+                if not isinstance(hist, list):
+                    hist = []
+                hist.append(p)
+                enviados[pid]["precios_publicados"] = hist[-12:]
+                previo_min = min(hist[:-1]) if len(hist) > 1 else None
+                if previo_min is not None:
+                    enviados[pid]["precio_min_publicado"] = previo_min
+    except (TypeError, ValueError):
+        pass
 
 
 # ─── Cupones vigentes ──────────────────────────────────────────────────────────

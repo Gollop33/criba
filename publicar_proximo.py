@@ -305,6 +305,22 @@ def publicar_un_post(es_test=False):
         precio_limpo = str(precio_raw)
 
     lineas = [f"🔥 {titulo}", ""]
+
+    # Sello de bajada: si el producto se repite porque el precio mejoró, hay que
+    # DECIRLO. Repetir sin explicar por qué parece spam; con el sello es una
+    # noticia ("bajó") y es justo lo que hace que la gente vuelva al canal.
+    if post_a_enviar.get("bajada"):
+        antes = post_a_enviar.get("precio_antes_publicado")
+        try:
+            antes = float(antes)
+            if antes > 0:
+                lineas.append(f"📉 BAJÓ DE PRECIO: antes R$ {int(antes)}")
+            else:
+                lineas.append("📉 BAJÓ DE PRECIO")
+        except (TypeError, ValueError):
+            lineas.append("📉 BAJÓ DE PRECIO")
+        lineas.append("")
+
     if precio_int:
         lineas.append(f"💵 R$ {precio_limpo}")
     if cupom:
@@ -351,7 +367,7 @@ def publicar_un_post(es_test=False):
         ok = enviar_whatsapp(mensaje)
 
     if ok:
-        marcar_enviado(pid, enviados, canal="whatsapp")
+        marcar_enviado(pid, enviados, canal="whatsapp", precio=precio_int)
         guardar_enviados(enviados)
         return True, pid, loja
     return False, pid, loja

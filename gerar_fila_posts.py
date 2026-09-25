@@ -149,6 +149,73 @@ def cargar_enviados_recientes(horas=48):
     except Exception:
         return set()
 
+
+# ─── Repetición inteligente por PRECIO ────────────────────────────────────────
+# El producto repetido NO es spam si el precio cambió: hoy puede estar a un
+# precio y mañana más barato, o estar más barato que en otras tiendas. Un canal
+# de ofertas vive de eso ("¡bajó de precio!").
+#
+# Regla de tres niveles:
+#   1. Enviado hace menos de HORAS_MIN_REPETIR (3h)  -> vetado (suelo anti-spam)
+#   2. Dentro de HORAS_ENFRIAMIENTO pero el precio BAJÓ >= MEJORA_MIN_PCT -> PERMITIDO
+#   3. Dentro de HORAS_ENFRIAMIENTO y sin mejora de precio -> vetado (no aporta nada)
+#   > HORAS_ENFRIAMIENTO                            -> permitido
+HORAS_MIN_REPETIR = float(os.environ.get("HORAS_MIN_REPETIR", "3"))
+MEJORA_MIN_PCT = float(os.environ.get("MEJORA_MIN_PCT", "3")) / 100.0
+
+
+def cargar_enviados_raw():
+    if not ENVIADOS_JSON.exists():
+        return {}
+    try:
+        d = json.loads(ENVIADOS_JSON.read_text(encoding="utf-8-sig"))
+        return d if isinstance(d, dict) else {}
+    except Exception:
+        return {}
+
+
+def _horas_desde(ts_str):
+    try:
+        ts = datetime.fromisoformat(str(ts_str).replace("Z", "+00:00"))
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - ts).total_seconds() / 3600.0
+    except Exception:
+        return None
+
+
+def repeticion_permitida(pid, precio_actual, enviados_raw):
+    """
+    (permitido, motivo). Decide si vale la pena volver a publicar un producto
+    que ya se envió, basándose en si el precio mejoró.
+    """
+    e = enviados_raw.get(pid)
+    if not isinstance(e, dict):
+        return True, "sin registro previo"
+
+    horas = _horas_desde(e.get("ts"))
+    if horas is None:
+        return False, "fecha ilegible"
+
+    if horas < HORAS_MIN_REPETIR:
+        return False, f"enviado hace {horas:.1f}h (< {HORAS_MIN_REPETIR:.0f}h)"
+
+    previo = e.get("precio")
+    try:
+        previo = float(previo)
+        actual = float(precio_actual)
+    except (TypeError, ValueError):
+        return False, "sin precios comparables"
+
+    if previo <= 0 or actual <= 0:
+        return False, "precio no válido"
+
+    if actual <= previo * (1 - MEJORA_MIN_PCT):
+        ahorro = (previo - actual) / previo * 100
+        return True, f"BAJÓ R$ {previo:.0f} -> R$ {actual:.0f} (-{ahorro:.0f}%)"
+
+    return False, f"sin mejora (R$ {previo:.0f} -> R$ {actual:.0f})"
+
 def cargar_cupones_reales():
     """Carga cupones reales y vigentes de cupones.json."""
     if not CUPONES_JSON.exists():
@@ -525,27 +592,40 @@ def armar_fila_rotativa():
     # Ventana de enfriamiento anti-repetición (horas). Configurable porque es
     # el factor que MÁS limita cuántos posts/día se pueden publicar: con 48 h el
     # catálogo se agota enseguida, con 24 h se duplica el material disponible.
-    horas_enfriamiento = int(os.environ.get("HORAS_ENFRIAMIENTO", "48"))
+    horas_enfriamiento = int(os.environ.get("HORAS_ENFRIAMIENTO", "24"))
     bloqueados_48h = cargar_enviados_recientes(horas_enfriamiento)
+    enviados_raw = cargar_enviados_raw()
     ahora_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
     print(f"  • Achados totales disponibles: {len(items_achados)}")
     print(f"  • Ofertas ML: {len(items_ml)} | Ofertas Amazon: {len(items_amz)}")
     print(f"  • Ofertas curadas con IA (específicas): {len(items_esp)}")
     print(f"  • Cupones activos cargados: {len(cupones)}")
-    print(f"  • Productos en enfriamiento (48h): {len(bloqueados_48h)}")
+    print(f"  • Enfriamiento {horas_enfriamiento}h: {len(bloqueados_48h)} productos "
+          f"(suelo anti-spam {HORAS_MIN_REPETIR:.0f}h, mejora mínima {MEJORA_MIN_PCT*100:.0f}%)")
 
     # Unificar y filtrar por 48h (ofertas específicas tienen prioridad absoluta)
     todos_candidatos = []
     vistos_slug = set()
+    reingresos = []   # productos readmitidos porque BAJARON de precio
 
     for item in (items_esp + items_achados + items_ml + items_amz):
         pid = item.get("id") or item.get("nombre", "")[:40]
         slug = normalizar(item.get("nombre", ""))[:32]
         
-        # Filtro 48h anti-repetición
+        # Anti-repetición INTELIGENTE: repetir está bien si el precio mejoró.
         if pid in bloqueados_48h:
-            continue
+            permitido, motivo = repeticion_permitida(pid, item.get("precio"), enviados_raw)
+            if not permitido:
+                continue
+            reingresos.append((str(item.get("nombre", ""))[:44], motivo))
+            # Se marca para que el post lo anuncie: repetir solo funciona si el
+            # grupo SABE que el precio bajó. Si no, parece spam.
+            item["_bajada"] = True
+            try:
+                item["_precio_antes"] = float(enviados_raw.get(pid, {}).get("precio"))
+            except (TypeError, ValueError):
+                item["_precio_antes"] = None
         if slug in vistos_slug:
             continue
         vistos_slug.add(slug)
@@ -590,7 +670,12 @@ def armar_fila_rotativa():
         if not es_producto_del_canal(esp.get("nombre", "")):
             continue
         pid = esp.get("id") or esp.get("nombre", "")[:40]
-        if pid not in bloqueados_48h:
+        permitido_esp = True
+        if pid in bloqueados_48h:
+            permitido_esp, motivo_esp = repeticion_permitida(pid, esp.get("precio"), enviados_raw)
+            if permitido_esp:
+                reingresos.append((str(esp.get("nombre", ""))[:44], motivo_esp))
+        if permitido_esp:
             fila_final.append({
                 "id_post": pid,
                 "tipo": "producto",
@@ -640,7 +725,9 @@ def armar_fila_rotativa():
                 "imagen": candidato.get("imagen"),
                 "url": elegir_link_afiliado(candidato),
                 "criado_em": ahora_iso,
-                "prioridade": 5
+                "prioridade": 5,
+                "bajada": bool(candidato.get("_bajada")),
+                "precio_antes_publicado": candidato.get("_precio_antes")
             }
         elif idx_amz < len(cola_amz) or idx_ml >= len(cola_ml):
             if idx_amz < len(cola_amz):
@@ -660,7 +747,9 @@ def armar_fila_rotativa():
                     "imagen": candidato.get("imagen"),
                     "url": elegir_link_afiliado(candidato),
                     "criado_em": ahora_iso,
-                    "prioridade": 5
+                    "prioridade": 5,
+                    "bajada": bool(candidato.get("_bajada")),
+                    "precio_antes_publicado": candidato.get("_precio_antes")
                 }
 
         if item_elegido:
@@ -706,6 +795,14 @@ def armar_fila_rotativa():
     categorias_dist = set(x.get("categoria") for x in fila_final)
     print(f"  • Categorías diferentes en la fila: {len(categorias_dist)}")
     print(f"  • Posts tipo cupón/especial: {sum(1 for x in fila_final if x.get('tipo') == 'cupons_loja')}")
+    ml_n = sum(1 for x in fila_final if "Mercado" in (x.get("loja") or ""))
+    amz_n = sum(1 for x in fila_final if "Amazon" in (x.get("loja") or ""))
+    print(f"  • Reparto: {ml_n} Mercado Livre | {amz_n} Amazon")
+    print(f"  • Con cupón: {sum(1 for x in fila_final if x.get('cupom'))}")
+    if reingresos:
+        print(f"  • READMITIDOS por bajada de precio: {len(reingresos)}")
+        for tit, motivo in reingresos[:8]:
+            print(f"       {tit}  ->  {motivo}")
     print("=" * 60)
     return len(fila_final)
 
