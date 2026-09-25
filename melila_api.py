@@ -53,6 +53,12 @@ HEADERS = {
 _ultima_llamada = 0.0
 MIN_INTERVALO_SEG = 1.0  # Mínimo 1 segundo entre llamadas
 
+# Motivo del último fallo de generar_melila(). Permite al publicador distinguir
+# "cookie vencida / error temporal" (donde el respaldo con tag SÍ monetiza) de
+# "producto no elegible para el programa" (donde el respaldo NO paga comisión y
+# por tanto conviene descartar el post en vez de regalar el clic).
+ULTIMO_MOTIVO = None
+
 
 def _aplicar_rate_limit():
     """Garantiza al menos MIN_INTERVALO_SEG segundos entre peticiones consecutivas."""
@@ -142,6 +148,8 @@ def generar_melila(url_producto, cookie_str=None, tag=None):
       - Rate limiting automático
       - Manejo robusto de errores con retorno seguro (None para fallback)
     """
+    global ULTIMO_MOTIVO
+    ULTIMO_MOTIVO = None
     if not url_producto:
         return None
 
@@ -151,6 +159,10 @@ def generar_melila(url_producto, cookie_str=None, tag=None):
         entrada = cache[url_producto]
         # Válido por 7 días (7 * 86400 segundos)
         if time.time() - entrada.get("timestamp", 0) < 7 * 86400:
+            # Ya sabemos que este producto no es elegible: no reintentar.
+            if entrada.get("no_elegible"):
+                ULTIMO_MOTIVO = "no_elegible"
+                return None
             short_cached = entrada.get("short_url")
             if short_cached:
                 return short_cached
@@ -158,6 +170,7 @@ def generar_melila(url_producto, cookie_str=None, tag=None):
     # 2. Verificar cookie de sesión
     cookie_str = cookie_str or os.environ.get("ML_PORTAL_COOKIE", "").strip()
     if not cookie_str:
+        ULTIMO_MOTIVO = "sin_cookie"
         return None
 
     try:
@@ -165,6 +178,7 @@ def generar_melila(url_producto, cookie_str=None, tag=None):
             tag = obtener_tag_en_uso(cookie_str)
         if not tag:
             print("[meli.la/api] No se pudo obtener la etiqueta de afiliado.")
+            ULTIMO_MOTIVO = "cookie"
             return None
 
         _aplicar_rate_limit()
@@ -173,7 +187,34 @@ def generar_melila(url_producto, cookie_str=None, tag=None):
 
         if r.status_code == 401:
             print("[meli.la/api] Cookie vencida o inválida (401 en /links).")
+            ULTIMO_MOTIVO = "cookie"
             return None
+
+        # 400 con error_code 111 = "URL not allowed in affiliates program".
+        # NO es un fallo nuestro: ese producto concreto no es elegible para el
+        # programa (ML no paga comisión por él). Se comprobó con una sonda sobre
+        # los 6 formatos de payload posibles: el formato {"url","tag"} es
+        # correcto y el resto de productos sí se aceptan.
+        #
+        # Importante: se guarda en caché para no reintentar cada ejecución.
+        if r.status_code == 400:
+            try:
+                err = r.json().get("error", {})
+            except Exception:
+                err = {}
+            if err.get("error_code") == 111:
+                print("[meli.la/api] NO ELEGIBLE para el programa de afiliados "
+                      "(no paga comisión). Se descarta y se recuerda.")
+                cache[url_producto] = {
+                    "short_url": None,
+                    "no_elegible": True,
+                    "timestamp": time.time(),
+                    "tag": tag,
+                }
+                _escribir_cache(cache)
+                ULTIMO_MOTIVO = "no_elegible"
+                return None
+
         r.raise_for_status()
 
         short_url = r.json().get("short_url")

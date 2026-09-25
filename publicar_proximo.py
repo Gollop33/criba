@@ -203,11 +203,18 @@ def resolver_link_afiliado(url, loja, cookie_portal):
 
     if cookie_portal:
         try:
-            from melila_api import generar_melila
-            short_ml = generar_melila(url, cookie_str=cookie_portal, tag=ML_TAG)
+            import melila_api
+            short_ml = melila_api.generar_melila(url, cookie_str=cookie_portal, tag=ML_TAG)
             if short_ml:
                 print(f"  [meli.la] Enlace corto oficial generado: {short_ml}")
                 return short_ml
+            # NO ELEGIBLE: ML dice explícitamente que ese producto no está en el
+            # programa de afiliados, así que el respaldo #D[A:tag] NO pagaría
+            # comisión. Es mejor descartar el post que regalar el clic: el
+            # publicador pasará al siguiente candidato con link que sí cobra.
+            if getattr(melila_api, "ULTIMO_MOTIVO", None) == "no_elegible":
+                print("  ❌ [Dinero] Producto NO elegible para afiliados: no paga comisión. Se descarta.")
+                return None
             print("  [meli.la] No se pudo generar (cookie vencida?). Usando URL con tag.")
         except Exception as e:
             print(f"  [meli.la] Error al generar link corto: {e}")
@@ -323,6 +330,28 @@ def publicar_un_post(es_test=False):
 
     if precio_int:
         lineas.append(f"💵 R$ {precio_limpo}")
+
+    # ── Datos que en Brasil VENDEN y que hasta ahora se tiraban ────────────
+    # El descuento PIX y las cuotas sin interés son los dos mayores disparadores
+    # de conversión en Brasil: mucha gente no decide por el precio total, decide
+    # por "cuánto me sale al mes" y por el descuento extra del PIX.
+    # El campo `pix` YA venía en la fila (54/54 posts) y el publicador lo ignoraba.
+    pix = (post_a_enviar.get("pix") or "").strip()
+    if pix and pix.lower() not in ("à vista", "a vista", "-"):
+        # "mais 5% OFF" -> "⚡ No Pix: mais 5% OFF"
+        lineas.append(f"⚡ No Pix: {pix}")
+
+    # Cuotas: cuando el scraper las capture, salen solas aquí.
+    cuotas = post_a_enviar.get("cuotas") or post_a_enviar.get("parcelas")
+    if cuotas:
+        try:
+            n = int(cuotas)
+            if n > 1:
+                lineas.append(f"💳 em até {n}x sem juros")
+        except (TypeError, ValueError):
+            if str(cuotas).strip():
+                lineas.append(f"💳 {str(cuotas).strip()}")
+
     if cupom:
         lineas.append(f"🎟️ Cupom: {cupom}")
     lineas.append("")
