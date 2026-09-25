@@ -182,7 +182,18 @@ EXCLUIR_NO_TECH = [
     "panela", "toalha", "motosserra", "whey", "creatina", "suplemento",
     "aspirador", "fritadeira", "air fryer", "ar condicionado", "ventilador", "armario", "armário",
     "mochila", "casinha", "cachorro", "pet", "colchao", "travesseiro", "tenis", "tênis", "camisa",
-    "vestido", "bermuda", "bijuteria", "shampoo", "condicionador", "hidratante"
+    "vestido", "bermuda", "bijuteria", "shampoo", "condicionador", "hidratante",
+    # ── Limpieza y hogar ─────────────────────────────────────────────────────
+    # Un suavizante de ropa pasó el filtro porque su título de Amazon decía
+    # "Fabric Softener com Perfume Intenso" y "perfume" está en KEYWORDS_TECH
+    # (los perfumes SÍ son nicho). La palabra clave debe describir el PRODUCTO,
+    # no una característica, así que excluimos explícitamente el hogar/limpieza.
+    "amaciante", "fabric softener", "sabao", "sabão", "detergente", "desinfetante",
+    "alvejante", "multiuso", "limpa", "limpador", "lustra", "cera liquida", "cera líquida",
+    "lava roupas", "lava-roupas", "amaciantes", "papel higienico", "papel higiênico",
+    "fralda", "absorvente", "saco de lixo", "esponja", "vassoura", "rodo", "balde",
+    "desodorizador", "aromatizante", "home spray", "difusor", "odorizador",
+    "racao", "ração", "areia sanitaria", "areia sanitária"
 ]
 
 def es_producto_tecnologia(nombre):
