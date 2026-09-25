@@ -183,6 +183,11 @@ KEYWORDS_TECH = [
     # Periféricos & Setup Gamer
     "teclado", "mouse", "headset", "fone de ouvido", "headphone", "microfone", "webcam",
     "mousepad", "cadeira gamer", "mesa gamer", "hub usb", "suporte monitor",
+    # Audio y conectividad: se añaden porque títulos legítimos como
+    # "Fone Bluetooth Soundcore P20i" se quedaban FUERA (no decían "de ouvido").
+    # Falso negativo = pierdes una venta; falso positivo = pierdes credibilidad.
+    "fone", "bluetooth", "earbud", "soundbar", "caixa de som", "power bank",
+    "carregador", "carregador turbo", "adaptador usb", "hub usb-c",
     # Games, Consolas & Gift Cards
     "playstation", "ps5", "ps4", "xbox", "nintendo", "switch", "dualsense", "joy-con", "controle sem fio",
     "gift card", "cartao presente", "cartão presente", "steam", "roblox", "play store", "game pass",
@@ -211,7 +216,20 @@ EXCLUIR_NO_TECH = [
     "lava roupas", "lava-roupas", "amaciantes", "papel higienico", "papel higiênico",
     "fralda", "absorvente", "saco de lixo", "esponja", "vassoura", "rodo", "balde",
     "desodorizador", "aromatizante", "home spray", "difusor", "odorizador",
-    "racao", "ração", "areia sanitaria", "areia sanitária"
+    "racao", "ração", "areia sanitaria", "areia sanitária",
+    # ── Higiene personal (que NO es el nicho "perfumes") ─────────────────────
+    # Segundo caso real: 'Boni Natural Creme Dental com Óleos Naturais' pasó el
+    # filtro porque "Naturais" contiene "natura", y "natura" es una marca de
+    # perfumes de KEYWORDS_TECH. Mismo fallo que el Downy: coincidencia por
+    # subcadena con una palabra que describe ingrediente/característica, no el
+    # producto. La exclusión gana sobre las keywords.
+    "creme dental", "pasta de dente", "pasta dental", "escova de dente",
+    "fio dental", "enxaguante", "antisseptico", "antisséptico", "bochecho",
+    "sabonete", "gel de banho", "espuma de barbear", "aparelho de barbear",
+    "lamina de barbear", "lâmina de barbear", "lenco umedecido", "lenço umedecido",
+    "cotonete", "algodao", "algodão", "esmalte", "acetona",
+    "removedor de esmalte", "protetor solar", "repelente", "inseticida",
+    "raticida", "formicida", "desentupidor"
 ]
 
 def es_producto_tecnologia(nombre):
