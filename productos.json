@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-25T00:58:35+00:00",
+  "actualizado": "2026-09-25T20:30:49+00:00",
   "productos": [
     {
       "id": "echo-dot-5a-geracao-alexa-smart-speaker",
@@ -11,7 +11,7 @@
       "descuento_pct": 43.1,
       "ahorro": 151.0,
       "bajo": false,
-      "minimo_historico": null,
+      "minimo_historico": 199.0,
       "vista": {
         "precio": 199.0,
         "tienda": "Amazon",
@@ -51,28 +51,12 @@
       "historico": {
         "Amazon": [
           {
-            "fecha": "2026-09-19",
-            "precio": 319.74
+            "fecha": "2026-09-07",
+            "precio": 199.0
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 298.07
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 276.7
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 255.62
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 234.86
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 214.39
+            "fecha": "2026-09-11",
+            "precio": 199.0
           },
           {
             "fecha": "2026-09-25",
@@ -81,28 +65,12 @@
         ],
         "Mercado Livre": [
           {
-            "fecha": "2026-09-19",
-            "precio": 309.64
+            "fecha": "2026-09-07",
+            "precio": 219.0
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 308.1
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 289.05
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 270.27
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 251.75
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 233.49
+            "fecha": "2026-09-11",
+            "precio": 219.0
           },
           {
             "fecha": "2026-09-25",
@@ -121,7 +89,7 @@
       "descuento_pct": 42.6,
       "ahorro": 34.1,
       "bajo": false,
-      "minimo_historico": null,
+      "minimo_historico": 45.9,
       "vista": {
         "precio": 45.9,
         "tienda": "Amazon",
@@ -161,28 +129,12 @@
       "historico": {
         "Amazon": [
           {
-            "fecha": "2026-09-19",
-            "precio": 70.9
+            "fecha": "2026-09-07",
+            "precio": 45.9
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 66.14
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 61.44
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 60.1
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 55.3
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 50.56
+            "fecha": "2026-09-11",
+            "precio": 45.9
           },
           {
             "fecha": "2026-09-25",
@@ -191,28 +143,12 @@
         ],
         "Mercado Livre": [
           {
-            "fecha": "2026-09-19",
-            "precio": 73.97
+            "fecha": "2026-09-07",
+            "precio": 55.9
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 70.39
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 66.86
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 63.38
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 63.41
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 59.86
+            "fecha": "2026-09-11",
+            "precio": 55.9
           },
           {
             "fecha": "2026-09-25",
@@ -231,7 +167,7 @@
       "descuento_pct": 41.7,
       "ahorro": 125.1,
       "bajo": false,
-      "minimo_historico": null,
+      "minimo_historico": 146.41,
       "vista": {
         "precio": 174.9,
         "tienda": "Amazon",
@@ -271,28 +207,20 @@
       "historico": {
         "Amazon": [
           {
-            "fecha": "2026-09-19",
-            "precio": 275.17
+            "fecha": "2026-09-04",
+            "precio": 174.9
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 257.14
+            "fecha": "2026-09-05",
+            "precio": 174.9
           },
           {
-            "fecha": "2026-09-21",
-            "precio": 239.35
+            "fecha": "2026-09-07",
+            "precio": 174.9
           },
           {
-            "fecha": "2026-09-22",
-            "precio": 221.81
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 204.53
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 187.49
+            "fecha": "2026-09-11",
+            "precio": 174.9
           },
           {
             "fecha": "2026-09-25",
@@ -301,28 +229,12 @@
         ],
         "Mercado Livre": [
           {
-            "fecha": "2026-09-19",
-            "precio": 265.94
+            "fecha": "2026-09-07",
+            "precio": 189.9
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 264.92
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 248.87
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 233.04
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 217.43
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 202.03
+            "fecha": "2026-09-11",
+            "precio": 189.9
           },
           {
             "fecha": "2026-09-25",
@@ -341,7 +253,7 @@
       "descuento_pct": 34.0,
       "ahorro": 85.1,
       "bajo": false,
-      "minimo_historico": null,
+      "minimo_historico": 133.66,
       "vista": {
         "precio": 164.9,
         "tienda": "Amazon",
@@ -381,28 +293,12 @@
       "historico": {
         "Amazon": [
           {
-            "fecha": "2026-09-19",
-            "precio": 230.55
+            "fecha": "2026-09-07",
+            "precio": 164.9
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 218.09
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 205.79
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 193.66
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 181.71
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 179.75
+            "fecha": "2026-09-11",
+            "precio": 164.9
           },
           {
             "fecha": "2026-09-25",
@@ -411,28 +307,12 @@
         ],
         "Mercado Livre": [
           {
-            "fecha": "2026-09-19",
-            "precio": 234.92
+            "fecha": "2026-09-07",
+            "precio": 174.9
           },
           {
-            "fecha": "2026-09-20",
-            "precio": 223.61
-          },
-          {
-            "fecha": "2026-09-21",
-            "precio": 212.45
-          },
-          {
-            "fecha": "2026-09-22",
-            "precio": 201.44
-          },
-          {
-            "fecha": "2026-09-23",
-            "precio": 190.58
-          },
-          {
-            "fecha": "2026-09-24",
-            "precio": 179.86
+            "fecha": "2026-09-11",
+            "precio": 174.9
           },
           {
             "fecha": "2026-09-25",
