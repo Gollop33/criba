@@ -14,7 +14,7 @@ REGLA DE ORO:
   - Solo productos con descuento >= 15%
   - Guarda en achados_ml.json (máx 40, expira_em +36h)
 """
-import json, re, time, unicodedata, sys, io
+import json, os, re, time, unicodedata, sys, io
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
@@ -39,35 +39,148 @@ UA = {
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 }
 
+# ─── Parámetros de cosecha (configurables sin tocar código) ───────────────────
+# ML_LIMIT      cuántos resultados pedir por término (la API de ML admite 50)
+# ML_DESC_MIN   descuento mínimo para aceptar una oferta
+# Con ~96 términos x 50 resultados = ~4800 candidatos, de los que tras el filtro
+# de descuento y la deduplicación salen varios cientos de ofertas.
+ML_LIMIT = int(os.environ.get("ML_LIMIT", "50"))
+ML_DESC_MIN = float(os.environ.get("ML_DESC_MIN", "10"))
+# Tope de ofertas guardadas. Antes era 40 FIJO: el scraper cosechaba 565
+# ofertas y el sistema entero acababa publicando con 40. Es el cuello de
+# botella que impedía llegar a 150 posts/día.
+ML_MAX_ACHADOS = int(os.environ.get("ML_MAX_ACHADOS", "400"))
+
+# ─── Categorías de Mercado Livre (LA fuente real de volumen) ──────────────────
+# Cada URL de categoría devuelve ~90 ofertas reales. Antes solo había 3 y de ahí
+# salían las 40 ofertas de ML de todo el sistema. Los IDs son los estándar de
+# ML Brasil; los que no devuelvan nada simplemente se ignoran solos.
+ML_CATEGORIAS = [
+    ("Informática", "https://www.mercadolivre.com.br/ofertas?category=MLB1648"),
+    ("Eletrônicos", "https://www.mercadolivre.com.br/ofertas?category=MLB1000"),
+    ("Eletrodomésticos", "https://www.mercadolivre.com.br/ofertas?category=MLB1574"),
+    ("Celulares e Telefones", "https://www.mercadolivre.com.br/ofertas?category=MLB1051"),
+    ("Esportes e Fitness", "https://www.mercadolivre.com.br/ofertas?category=MLB1276"),
+    ("Ferramentas", "https://www.mercadolivre.com.br/ofertas?category=MLB1403"),
+    ("Beleza e Cuidado Pessoal", "https://www.mercadolivre.com.br/ofertas?category=MLB1747"),
+    ("Acessórios para Veículos", "https://www.mercadolivre.com.br/ofertas?category=MLB1132"),
+    ("Animais", "https://www.mercadolivre.com.br/ofertas?category=MLB1071"),
+    ("Saúde", "https://www.mercadolivre.com.br/ofertas?category=MLB1955"),
+    ("Brinquedos e Hobbies", "https://www.mercadolivre.com.br/ofertas?category=MLB1384"),
+    ("Construção", "https://www.mercadolivre.com.br/ofertas?category=MLB1499"),
+    # Ofertas generales: la que más rinde porque mezcla categorías.
+    ("Ofertas Gerais", "https://www.mercadolivre.com.br/ofertas"),
+]
+# Medido el 2026-09-25: 15 de 16 categorías devuelven ~30-48 ofertas cada una,
+# 656 ofertas en bruto (antes el sistema entero producía 40 de ML).
+# Se quitaron: "Bebês" (MLB1459, devolvía 0) y dos IDs que estaban repetidos
+# (Casa=Mismas que Eletrodomésticos, Indústria=Igual que Construção).
+
 CATEGORIAS_BUSQUEDA = [
-    # Smartphones & Gadgets
+    # ── Tecnología ───────────────────────────────────────────────────────────
     ("Smartphones Samsung", "smartphone samsung"),
     ("iPhone", "iphone"),
-    ("Smart TV", "smart tv"),
+    ("Xiaomi", "xiaomi redmi"),
+    ("Smart TV", "smart tv 4k"),
     ("Notebooks", "notebook"),
+    ("Notebook Gamer", "notebook gamer"),
+    ("Tablets", "tablet"),
     ("Caixa de Som Bluetooth", "caixa de som bluetooth"),
+    ("Fones Bluetooth", "fone de ouvido bluetooth"),
     ("Ar Condicionado", "ar condicionado inverter"),
-    
-    # Casa & Eletro
-    ("Air Fryer", "air fryer fritadeira"),
-    ("Aspiradores Verticais", "aspirador vertical robo"),
     ("Echo Dot Alexa", "echo dot alexa"),
-    
-    # Saúde & Beleza
-    ("Perfumes Masculinos", "perfume masculino"),
-    ("Creatina", "creatina"),
-    ("Whey Protein", "whey protein"),
-    
+    ("Câmeras de Segurança", "camera de seguranca wifi"),
+    ("Projetores", "projetor portatil"),
     # Setup Gamer & Informática
     ("Cadeiras Gamer", "cadeira gamer"),
+    ("Cadeiras Escritório", "cadeira escritorio ergonomica"),
+    ("Mesas Gamer", "mesa gamer"),
     ("Monitores Gamer", "monitor gamer"),
+    ("Monitores 144Hz", "monitor 144hz"),
     ("SSDs NVMe", "ssd nvme"),
+    ("HDs Externos", "hd externo"),
     ("Placas de Video", "placa de video"),
+    ("Processadores", "processador ryzen"),
     ("Memoria RAM", "memoria ram"),
+    ("Placas Mãe", "placa mae"),
+    ("Fontes ATX", "fonte atx"),
+    ("Gabinetes", "gabinete gamer"),
+    ("Water Coolers", "water cooler"),
     ("Teclados Gamer", "teclado gamer"),
+    ("Teclados Mecânicos", "teclado mecanico"),
     ("Mouses Gamer", "mouse gamer"),
+    ("Mouses Sem Fio", "mouse sem fio"),
     ("Headsets Gamer", "headset gamer"),
+    ("Microfones", "microfone condensador"),
+    ("Webcams", "webcam full hd"),
+    ("Mousepads", "mousepad grande"),
+    ("Impressoras", "impressora multifuncional"),
+    ("Roteadores", "roteador wifi"),
+    ("Pendrives e Cartões", "cartao de memoria 128gb"),
+    # Consolas
+    ("PlayStation", "playstation 5"),
+    ("Xbox", "xbox series"),
+    ("Nintendo Switch", "nintendo switch"),
+    ("Controles", "controle sem fio"),
+    # ── Casa, Limpieza y Cozinha ─────────────────────────────────────────────
+    ("Air Fryer", "air fryer fritadeira"),
+    ("Fritadeiras Elétricas", "fritadeira eletrica"),
+    ("Aspiradores Verticais", "aspirador vertical robo"),
+    ("Robô Aspirador", "robo aspirador"),
+    ("Liquidificadores", "liquidificador"),
+    ("Cafeteiras", "cafeteira expresso"),
+    ("Panelas", "jogo de panelas"),
+    ("Panelas de Pressão", "panela de pressao"),
+    ("Jogos de Pratos", "jogo de pratos"),
+    ("Utensílios de Cozinha", "utensilios de cozinha"),
+    ("Ventiladores", "ventilador"),
+    ("Climatizadores", "climatizador"),
+    ("Umidificadores", "umidificador"),
+    ("Ferros de Passar", "ferro de passar roupa"),
+    ("Máquinas de Lavar", "maquina de lavar"),
+    ("Amaciantes", "amaciante"),
+    ("Sabão em Pó", "sabao em po"),
+    ("Detergentes", "detergente"),
+    ("Papel Higiênico", "papel higienico"),
+    ("Papel Toalha", "papel toalha"),
+    ("Jogos de Cama", "jogo de cama"),
+    ("Toalhas de Banho", "jogo de toalhas"),
+    ("Travesseiros", "travesseiro"),
+    ("Colchões", "colchao"),
+    ("Organizadores", "organizador de cozinha"),
+    # ── Salud, Belleza y Suplementos ─────────────────────────────────────────
+    ("Perfumes Masculinos", "perfume masculino"),
+    ("Perfumes Femininos", "perfume feminino"),
+    ("Creatina", "creatina"),
+    ("Whey Protein", "whey protein"),
+    ("Pré-Treino", "pre treino"),
+    ("Multivitamínicos", "multivitaminico"),
+    ("Colágeno", "colageno"),
+    ("Escovas de Dente Elétricas", "escova de dente eletrica"),
+    ("Barbeadores", "barbeador eletrico"),
+    ("Secadores de Cabelo", "secador de cabelo"),
+    ("Pranchas de Cabelo", "prancha de cabelo"),
+    # ── Bebé, Pet, Herramientas, Auto, Fitness ───────────────────────────────
+    ("Fraldas", "fralda"),
+    ("Mamadeiras", "mamadeira"),
+    ("Cadeirinhas Bebé", "cadeirinha de bebe"),
+    ("Ração para Cães", "racao cachorro"),
+    ("Ração para Gatos", "racao gato"),
+    ("Comedouros Pet", "comedouro bebedouro pet"),
+    ("Furadeiras", "furadeira"),
+    ("Parafusadeiras", "parafusadeira"),
+    ("Caixas de Ferramentas", "caixa de ferramentas"),
+    ("Compressores de Ar", "compressor de ar"),
+    ("Lavadoras de Alta Pressão", "lavadora de alta pressao"),
+    ("Acessórios Automotivos", "acessorio automotivo carro"),
+    ("Halteres", "halter anilha"),
+    ("Bicicletas", "bicicleta"),
+    ("Tênis Esportivos", "tenis corrida"),
+    ("Mochilas", "mochila"),
+    ("Relógios Casio", "relogio casio"),
+    ("Smartwatches", "smartwatch"),
 ]
+
 
 def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -108,15 +221,36 @@ def cargar_token_ml():
 
 def cosechar_api(token=None):
     items = []
+    fallos_403 = 0
     log("Consultando API oficial de Mercado Libre...")
     headers = dict(UA)
     if token:
         headers["Authorization"] = f"Bearer {token}"
 
+    # Antes: limit=15 y umbral de descuento 15% -> 20 terminos x 15 = 300
+    # candidatos, de los que pasaban ~40. Ahora hay ~96 terminos y pedimos 50
+    # por termino (el maximo que permite la API de ML), y el umbral baja a 10%
+    # porque un 10% real sigue siendo una oferta digna y el usuario quiere
+    # volumen ("caro o barato, solo que ganemos").
+    limite = ML_LIMIT
+    desc_min = ML_DESC_MIN
+
     for cat_nombre, query in CATEGORIAS_BUSQUEDA:
-        url = f"https://api.mercadolibre.com/sites/MLB/search?q={requests.utils.quote(query)}&limit=15"
+        url = (f"https://api.mercadolibre.com/sites/MLB/search?"
+               f"q={requests.utils.quote(query)}&limit={limite}")
         try:
             r = requests.get(url, headers=headers, timeout=10)
+            # Desde 2025 la API publica de ML responde 403 sin token de
+            # desarrollador. Antes se hacían las ~96 peticiones igual, todas
+            # fallando en silencio. Ahora se detecta y se corta: el scraping de
+            # /ofertas es el que aporta las ofertas de verdad.
+            if r.status_code == 403:
+                fallos_403 += 1
+                if fallos_403 >= 2:
+                    log("API ML responde 403 (necesita token de desarrollador). "
+                        "Se omite esta fuente y se usa solo el scraping.")
+                    break
+                continue
             if r.status_code != 200:
                 continue
             data = r.json()
@@ -131,7 +265,7 @@ def cosechar_api(token=None):
                 if p_ant and p_ant > p_act:
                     desc_pct = round((p_ant - p_act) / p_ant * 100, 1)
 
-                if desc_pct < 15:
+                if desc_pct < ML_DESC_MIN:
                     continue
 
                 titulo = res.get("title", "")
@@ -179,13 +313,17 @@ def cosechar_scraping():
     items = []
     log("Consultando scraping de ofertas en Mercado Livre...")
 
-    scrape_targets = [
-        ("Informática", "https://www.mercadolivre.com.br/ofertas?category=MLB1648"),
-        ("Eletrônicos", "https://www.mercadolivre.com.br/ofertas?category=MLB1000"),
-        ("Eletrodomésticos", "https://www.mercadolivre.com.br/ofertas?category=MLB1574"),
-    ]
-    for cat_nombre, query in CATEGORIAS_BUSQUEDA:
-        scrape_targets.append((cat_nombre, f"https://www.mercadolivre.com.br/ofertas?q={requests.utils.quote(query)}"))
+    scrape_targets = list(ML_CATEGORIAS)
+    # Las búsquedas por texto están DESACTIVADAS por defecto: /ofertas?q=...
+    # ignora la consulta y devuelve una lista genérica, así que eran ~96
+    # peticiones (con 1.5s de espera cada una = ~2.5 min) que no aportaban
+    # ofertas nuevas, solo duplicados que luego se descartaban.
+    if os.environ.get("ML_USAR_BUSQUEDA", "").strip().lower() in ("1", "true", "si", "sí"):
+        for cat_nombre, query in CATEGORIAS_BUSQUEDA:
+            scrape_targets.append(
+                (cat_nombre,
+                 f"https://www.mercadolivre.com.br/ofertas?q={requests.utils.quote(query)}")
+            )
 
     for cat_nombre, url in scrape_targets:
         try:
@@ -234,7 +372,7 @@ def cosechar_scraping():
                     continue
 
                 desc_pct = round((p_ant - p_act) / p_ant * 100, 1)
-                if desc_pct < 15:
+                if desc_pct < ML_DESC_MIN:
                     continue
 
                 # Parcelas y envío gratis leídos del propio texto del anuncio:
@@ -305,12 +443,15 @@ def main():
             it["url"] = aplicar_tag(it["url"])
 
         clave = normalizar(it["nombre"])[:32]
-        if clave and clave not in vistos and it["desc_pct"] >= 15:
+        # El umbral estaba FIJO en 15% aquí aunque la cosecha ya usaba
+        # ML_DESC_MIN (10%). Y el tope de 40 era el verdadero cuello de botella:
+        # el scraper cosechaba 565 ofertas y guardaba 40.
+        if clave and clave not in vistos and it["desc_pct"] >= ML_DESC_MIN:
             vistos.add(clave)
             filtrados.append(it)
 
     filtrados.sort(key=lambda x: x["desc_pct"], reverse=True)
-    seleccionados = filtrados[:40]
+    seleccionados = filtrados[:ML_MAX_ACHADOS]
 
     resultado = {
         "actualizado": ahora_iso,

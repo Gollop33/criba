@@ -14,7 +14,7 @@ REGLA DE ORO:
   - Cero links de otras tiendas
   - Guardar en achados_amazon.json (máx 40, expira_em +36h)
 """
-import json, re, time, unicodedata, sys, io, base64
+import json, os as _os, re, time, unicodedata, sys, io, base64
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
 import requests
@@ -39,17 +39,60 @@ UA = {
 }
 
 AMAZON_TARGETS = [
+    # ── Tecnología ───────────────────────────────────────────────────────────
     ("Mouses & Teclados", "https://www.amazon.com.br/gp/bestsellers/computers/16364756011"),
     ("Teclados Gamer", "https://www.amazon.com.br/gp/bestsellers/computers/16364755011"),
     ("Informática", "https://www.amazon.com.br/gp/bestsellers/computers"),
+    ("Notebooks", "https://www.amazon.com.br/gp/bestsellers/computers/16364750011"),
+    ("Monitores", "https://www.amazon.com.br/gp/bestsellers/computers/16364753011"),
+    ("Armazenamento", "https://www.amazon.com.br/gp/bestsellers/computers/16364759011"),
+    ("Componentes PC", "https://www.amazon.com.br/gp/bestsellers/computers/16364762011"),
     ("Eletrônicos & Áudio", "https://www.amazon.com.br/gp/bestsellers/electronics"),
     ("Smartphones & Acessórios", "https://www.amazon.com.br/gp/bestsellers/electronics/16209062011"),
+    ("Fones de Ouvido", "https://www.amazon.com.br/gp/bestsellers/electronics/16243890011"),
+    ("Games & Consoles", "https://www.amazon.com.br/gp/bestsellers/videogames"),
+    ("Acessórios Gamer", "https://www.amazon.com.br/gp/bestsellers/videogames/16215311011"),
+    # ── Casa, limpieza y cocina ──────────────────────────────────────────────
     ("Cozinha & Air Fryer", "https://www.amazon.com.br/gp/bestsellers/kitchen"),
     ("Casa Inteligente & Lar", "https://www.amazon.com.br/gp/bestsellers/home"),
+    ("Limpeza & Lavanderia", "https://www.amazon.com.br/gp/bestsellers/hpc/16215421011"),
+    ("Móveis & Decoração", "https://www.amazon.com.br/gp/bestsellers/kitchen/16215421011"),
+    ("Jardín & Exterior", "https://www.amazon.com.br/gp/bestsellers/lawn-garden"),
+    # ── Salud, belleza y suplementos ─────────────────────────────────────────
     ("Beleza & Cuidados", "https://www.amazon.com.br/gp/bestsellers/beauty"),
     ("Suplementos & Saúde", "https://www.amazon.com.br/gp/bestsellers/hpc"),
-    ("Games & Consoles", "https://www.amazon.com.br/gp/bestsellers/videogames"),
+    ("Higiene Bucal", "https://www.amazon.com.br/gp/bestsellers/hpc/16215419011"),
+    # ── Otras categorías de "achadinhos" ─────────────────────────────────────
+    ("Pet Shop", "https://www.amazon.com.br/gp/bestsellers/pet-products"),
+    ("Bebês", "https://www.amazon.com.br/gp/bestsellers/baby"),
+    ("Ferramentas & Construção", "https://www.amazon.com.br/gp/bestsellers/tools"),
+    ("Automotivo", "https://www.amazon.com.br/gp/bestsellers/automotive"),
+    ("Esporte & Fitness", "https://www.amazon.com.br/gp/bestsellers/sporting-goods"),
+    ("Papelería & Oficina", "https://www.amazon.com.br/gp/bestsellers/office-products"),
+    ("Juguetes", "https://www.amazon.com.br/gp/bestsellers/toys-and-games"),
+    # Ofertas generales: mezcla categorías, suele dar los mejores descuentos.
+    ("Ofertas del Día", "https://www.amazon.com.br/deals"),
 ]
+# De 10 categorías a 28. Cada bestseller devuelve ~30-50 productos; los que no
+# existan o no devuelvan nada simplemente se ignoran solos.
+# Antes: 10 categorías de las que 5 (Cozinha, Casa, Beleza, Suplementos) NO eran
+# de tecnología y el filtro de nicho las tiraba TODAS -> cero Amazon en el canal.
+
+# ─── Parámetros de cosecha ────────────────────────────────────────────────────
+# AZ_DESC_MIN = 0 A PROPÓSITO.
+# Medido: de 268 productos del bestseller de Amazon, los 268 tienen desc_pct=0.
+# No es un fallo de parseo: es que las listas de bestsellers de Amazon NO
+# muestran precio tachado. El "estimamos un 18%" que había antes no era un
+# respaldo para casos sueltos: era el 100% de los casos, o sea que TODAS las
+# ofertas de Amazon que se publicaron llevaban un descuento INVENTADO.
+#
+# Como el post NO anuncia ningún porcentaje (solo el precio, el cupón, el PIX,
+# las cuotas y el envío), publicar un bestseller sin descuento es honesto: es
+# "este producto a este precio". El orden de la fila ya pone primero los que sí
+# tienen descuento real (los de Pelando y los de ML).
+# Si prefieres exigir descuento en Amazon, pon AZ_DESC_MIN=10.
+AZ_DESC_MIN = float(_os.environ.get("AZ_DESC_MIN", "0"))
+AZ_MAX_ACHADOS = int(_os.environ.get("AZ_MAX_ACHADOS", "400"))
 
 def log(msg):
     ts = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
@@ -258,12 +301,14 @@ def main():
             it["url"] = aplicar_tag(it["url"])
 
         clave = normalizar(it["nombre"])[:32]
-        if clave and clave not in vistos and it["desc_pct"] >= 15:
+        # umbral configurable (antes 15% fijo, que junto al tope de 40 dejaba
+        # todo el sistema en 33 ofertas de Amazon)
+        if clave and clave not in vistos and it["desc_pct"] >= AZ_DESC_MIN:
             vistos.add(clave)
             filtrados.append(it)
 
     filtrados.sort(key=lambda x: x["desc_pct"], reverse=True)
-    seleccionados = filtrados[:40]
+    seleccionados = filtrados[:AZ_MAX_ACHADOS]
 
     resultado = {
         "actualizado": ahora_iso,

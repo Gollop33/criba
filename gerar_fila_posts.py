@@ -701,7 +701,13 @@ def armar_fila_rotativa():
     repeticiones_cat = 0
 
     # Armar hasta 100 posts alternando: ML, Amazon, Cupon, ML, Amazon, etc.
-    total_deseado = min(120, max(80, len(todos_candidatos) + len(posts_cupones)))
+    # Tamaño objetivo de la fila. Debe ser MAYOR que el tope diario de envíos
+    # (MAX_ENVIOS_DIA, 150) o el bucle se queda sin material a mitad de día.
+    # Antes estaba clavado en min(120, ...) y era el último recorte artificial
+    # que quedaba: con 600 ofertas disponibles, la fila seguía siendo de 120.
+    fila_max = int(os.environ.get("FILA_MAX", "400"))
+    fila_min = int(os.environ.get("FILA_MIN", "80"))
+    total_deseado = min(fila_max, max(fila_min, len(todos_candidatos) + len(posts_cupones)))
 
     for step in range(total_deseado):
         item_elegido = None
@@ -763,8 +769,8 @@ def armar_fila_rotativa():
         if item_elegido:
             fila_final.append(item_elegido)
 
-    # Si aún no llegamos a 80, rellenar con lo que quede
-    while len(fila_final) < 80 and (idx_ml < len(cola_ml) or idx_amz < len(cola_amz)):
+    # Si aún no llegamos al objetivo, rellenar con lo que quede
+    while len(fila_final) < total_deseado and (idx_ml < len(cola_ml) or idx_amz < len(cola_amz)):
         if idx_ml < len(cola_ml):
             c = cola_ml[idx_ml]
             idx_ml += 1
@@ -784,11 +790,20 @@ def armar_fila_rotativa():
             "precio_anterior": c.get("precio_anterior"),
             "desc_pct": c.get("desc_pct"),
             "cupom": c.get("cupon") or c.get("cupom") or buscar_cupon_para_producto(c, cupones),
-            "pix": "mais 5% OFF",
+            # Antes el relleno ponía "mais 5% OFF" a mano y se dejaba fuera las
+            # cuotas y el envío gratis: los posts de relleno salían más pobres
+            # que los de la rotación principal.
+            "pix": c.get("pix") or "mais 5% OFF",
             "imagen": c.get("imagen"),
             "url": elegir_link_afiliado(c),
             "criado_em": ahora_iso,
-            "prioridade": 3
+            "prioridade": 3,
+            "bajada": bool(c.get("_bajada")),
+            "precio_antes_publicado": c.get("_precio_antes"),
+            "cuotas": c.get("cuotas"),
+            "cuota_valor": c.get("cuota_valor"),
+            "cuotas_sin_interes": c.get("cuotas_sin_interes"),
+            "envio_gratis": bool(c.get("envio_gratis"))
         })
 
     # Guardar en fila_posts.json

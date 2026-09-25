@@ -12,7 +12,7 @@ Fusiona achados_ml.json y achados_amazon.json en achados.json:
 
 Uso: python unir_achados.py
 """
-import json, re, unicodedata, sys, io
+import json, os, re, unicodedata, sys, io
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -61,8 +61,20 @@ def main():
     todos = items_ml + items_amz
     ahora_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
 
+    # Umbrales por tienda: Amazon muestra menos descuentos que ML en su grilla
+    # de bestsellers, así que exigirle el mismo 15% dejaba fuera casi todo.
+    # Y el tope de 80 era el último cuello de botella: los scrapers ya producían
+    # 400 + 33 ofertas y aquí se quedaban en 80.
+    desc_min_ml = float(os.environ.get("ML_DESC_MIN", "10"))
+    # Amazon: 0 por defecto. Se midió que los 268 productos del bestseller de
+    # Amazon tienen desc_pct=0 porque su lista NO muestra precio tachado. Exigir
+    # descuento ahí dejaba Amazon en 33 ofertas de 268.
+    desc_min_az = float(os.environ.get("AZ_DESC_MIN", "0"))
+    max_achados = int(os.environ.get("MAX_ACHADOS", "600"))
+
     vistos = set()
     validos = []
+    descartados_desc = 0
 
     for it in todos:
         u = it.get("url", "")
@@ -74,8 +86,10 @@ def main():
         if exp and exp <= ahora_iso:
             continue
 
-        # 2. Filtro de descuento mínimo 15%
-        if desc < 15:
+        # 2. Filtro de descuento mínimo (por tienda)
+        desc_min = desc_min_az if "Amazon" in loja else desc_min_ml
+        if desc < desc_min:
+            descartados_desc += 1
             continue
 
         # 3. Regla de Oro estricta
@@ -99,8 +113,9 @@ def main():
     # Ordenar por combinación de frescura y descuento (rotación viva)
     validos.sort(key=lambda x: (x.get("encontrado_em", "") or x.get("revalidado_em", ""), float(x.get("desc_pct") or 0)), reverse=True)
 
-    # Tomar hasta 80 ofertas de alta calidad
-    seleccionados = validos[:80]
+    # Tomar hasta `max_achados` ofertas de alta calidad
+    seleccionados = validos[:max_achados]
+    print(f"  • Descartadas por descuento insuficiente: {descartados_desc}")
 
     resultado = {
         "actualizado": ahora_iso,
