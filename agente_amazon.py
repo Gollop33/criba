@@ -125,26 +125,38 @@ def cosechar_bestsellers():
                 basis_el = card.find("span", class_=lambda c: c and ("basis" in c or "strike" in c or "text-price" in c))
                 p_ant = parse_precio(basis_el.text) if basis_el else None
 
-                desc_pct = 0
+                # HONESTIDAD — antes aquí se INVENTABA el descuento:
+                #   if desc_pct < 15:
+                #       desc_pct = 18.0
+                #       p_ant = p_act / (1 - 0.18)
+                # Eso fabricaba un "18% OFF" y un precio anterior que NUNCA
+                # existió. Publicar un descuento inventado engaña al grupo, y en
+                # cuanto alguien lo comprueba se pierde la confianza, que es el
+                # único activo real de un canal de ofertas.
+                # Si Amazon no muestra precio tachado, NO hay descuento que
+                # anunciar: se guarda el precio y ya está.
                 if p_ant and p_ant > p_act:
                     desc_pct = round((p_ant - p_act) / p_ant * 100, 1)
+                else:
+                    p_ant = None
+                    desc_pct = 0
 
-                # Si no está visible el precio anterior en la grilla rápida, estimamos un 18% para productos top
-                if desc_pct < 15:
-                    desc_pct = 18.0
-                    p_ant = round(p_act / (1 - (desc_pct / 100.0)), 2)
+                # Envío gratis: en Brasil decide más compras de las que parece.
+                txt_card = card.get_text(" ", strip=True).lower()
+                envio_gratis = ("frete gr" in txt_card and "tis" in txt_card)
 
                 items.append({
                     "id": slug_id(titulo),
                     "nombre": titulo,
                     "precio": round(p_act, 2),
-                    "precio_anterior": round(p_ant, 2),
+                    "precio_anterior": round(p_ant, 2) if p_ant else None,
                     "desc_pct": desc_pct,
                     "imagen": imagen,
                     "url": aplicar_tag(url_clean),
                     "loja": "Amazon",
                     "categoria": cat_nombre,
                     "fuente": "Amazon Bestsellers & Deals",
+                    "envio_gratis": envio_gratis,
                 })
         except Exception as e:
             continue

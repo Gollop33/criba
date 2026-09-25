@@ -341,16 +341,27 @@ def publicar_un_post(es_test=False):
         # "mais 5% OFF" -> "⚡ No Pix: mais 5% OFF"
         lineas.append(f"⚡ No Pix: {pix}")
 
-    # Cuotas: cuando el scraper las capture, salen solas aquí.
+    # Cuotas sin interés: el disparador de conversión más fuerte en Brasil
+    # después del propio precio. La gente decide por "cuánto me sale al mes".
     cuotas = post_a_enviar.get("cuotas") or post_a_enviar.get("parcelas")
-    if cuotas:
+    try:
+        n_cuotas = int(cuotas)
+    except (TypeError, ValueError):
+        n_cuotas = None
+    if n_cuotas and n_cuotas > 1:
+        sufijo = " sem juros" if post_a_enviar.get("cuotas_sin_interes") else ""
+        texto_cuota = f"💳 em até {n_cuotas}x{sufijo}"
         try:
-            n = int(cuotas)
-            if n > 1:
-                lineas.append(f"💳 em até {n}x sem juros")
+            valor_cuota = float(post_a_enviar.get("cuota_valor") or 0)
+            if valor_cuota > 0:
+                texto_cuota += f" de R$ {valor_cuota:.2f}".replace(".", ",")
         except (TypeError, ValueError):
-            if str(cuotas).strip():
-                lineas.append(f"💳 {str(cuotas).strip()}")
+            pass
+        lineas.append(texto_cuota)
+
+    # Envío gratis: en Brasil decide más compras de las que parece.
+    if post_a_enviar.get("envio_gratis"):
+        lineas.append("🚚 Frete grátis")
 
     if cupom:
         lineas.append(f"🎟️ Cupom: {cupom}")

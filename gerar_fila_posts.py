@@ -721,13 +721,17 @@ def armar_fila_rotativa():
                 "precio_anterior": candidato.get("precio_anterior"),
                 "desc_pct": candidato.get("desc_pct"),
                 "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
-                "pix": "mais 5% OFF",
+                "pix": candidato.get("pix") or "mais 5% OFF",
                 "imagen": candidato.get("imagen"),
                 "url": elegir_link_afiliado(candidato),
                 "criado_em": ahora_iso,
                 "prioridade": 5,
                 "bajada": bool(candidato.get("_bajada")),
-                "precio_antes_publicado": candidato.get("_precio_antes")
+                "precio_antes_publicado": candidato.get("_precio_antes"),
+                "cuotas": candidato.get("cuotas"),
+                "cuota_valor": candidato.get("cuota_valor"),
+                "cuotas_sin_interes": candidato.get("cuotas_sin_interes"),
+                "envio_gratis": bool(candidato.get("envio_gratis"))
             }
         elif idx_amz < len(cola_amz) or idx_ml >= len(cola_ml):
             if idx_amz < len(cola_amz):
@@ -743,13 +747,17 @@ def armar_fila_rotativa():
                     "precio_anterior": candidato.get("precio_anterior"),
                     "desc_pct": candidato.get("desc_pct"),
                     "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
-                    "pix": "mais 5% OFF",
+                    "pix": candidato.get("pix") or "mais 5% OFF",
                     "imagen": candidato.get("imagen"),
                     "url": elegir_link_afiliado(candidato),
                     "criado_em": ahora_iso,
                     "prioridade": 5,
                     "bajada": bool(candidato.get("_bajada")),
-                    "precio_antes_publicado": candidato.get("_precio_antes")
+                    "precio_antes_publicado": candidato.get("_precio_antes"),
+                    "cuotas": candidato.get("cuotas"),
+                    "cuota_valor": candidato.get("cuota_valor"),
+                    "cuotas_sin_interes": candidato.get("cuotas_sin_interes"),
+                    "envio_gratis": bool(candidato.get("envio_gratis"))
                 }
 
         if item_elegido:

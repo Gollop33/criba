@@ -140,6 +140,17 @@ def cosechar_api(token=None):
                 if thumb and thumb.startswith("http://"):
                     thumb = "https://" + thumb[7:]
 
+                # ── Parcelas y envío gratis ───────────────────────────────
+                # Van en la MISMA respuesta de la API que ya descargamos, así
+                # que no cuesta ni una petición extra. En Brasil son los dos
+                # mayores disparadores de conversión después del precio: mucha
+                # gente decide por "cuánto me sale al mes" y por el flete.
+                inst = res.get("installments") or {}
+                cuotas = inst.get("quantity")
+                cuota_valor = inst.get("amount")
+                sin_interes = (inst.get("rate") == 0) if inst else None
+                envio_gratis = bool((res.get("shipping") or {}).get("free_shipping"))
+
                 items.append({
                     "id": slug_id(titulo),
                     "nombre": titulo,
@@ -151,6 +162,10 @@ def cosechar_api(token=None):
                     "loja": "Mercado Livre",
                     "categoria": cat_nombre,
                     "fuente": "ML API Oficial",
+                    "cuotas": cuotas,
+                    "cuota_valor": cuota_valor,
+                    "cuotas_sin_interes": sin_interes,
+                    "envio_gratis": envio_gratis,
                 })
         except Exception as e:
             continue
@@ -222,6 +237,21 @@ def cosechar_scraping():
                 if desc_pct < 15:
                     continue
 
+                # Parcelas y envío gratis leídos del propio texto del anuncio:
+                # ML los pinta como "em até 12x R$ 24,92 sem juros" y
+                # "Frete grátis". No cuesta ninguna petición extra.
+                txt_card = card.get_text(" ", strip=True).lower()
+                cuotas = None
+                m_cuotas = re.search(r"(\d{1,2})\s*x\s*(?:de\s*)?r\$", txt_card)
+                if m_cuotas:
+                    try:
+                        cuotas = int(m_cuotas.group(1))
+                    except ValueError:
+                        cuotas = None
+                sin_interes = True if "sem juros" in txt_card else None
+                envio_gratis = ("frete gr" in txt_card and "tis" in txt_card) or \
+                               ("frete grátis" in txt_card) or ("frete gratis" in txt_card)
+
                 items.append({
                     "id": slug_id(titulo),
                     "nombre": titulo,
@@ -233,6 +263,9 @@ def cosechar_scraping():
                     "loja": "Mercado Livre",
                     "categoria": cat_nombre,
                     "fuente": "ML Ofertas Web",
+                    "cuotas": cuotas,
+                    "cuotas_sin_interes": sin_interes,
+                    "envio_gratis": envio_gratis,
                 })
         except Exception as e:
             continue
