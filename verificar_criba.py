@@ -113,7 +113,6 @@ def check_regla_de_oro():
         if con_melila == 0 and con_tag_ml > 0:
             print(f"{WARN}ningun ML usa meli.la: cookie vencida, se usa el respaldo "
                   f"con tag (monetiza igual, pero se pierde el link corto)")
-        print(f"{OK}todos los links monetizan ({len(fila)} posts)")
 
 
 def check_cadencia():
