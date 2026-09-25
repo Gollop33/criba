@@ -9,12 +9,6 @@
       389.0
     ]
   },
-  "cupom-amz-lote1-2026092319": {
-    "ts": "2026-09-23T19:06:31.146322",
-    "canales": {
-      "whatsapp": "2026-09-23T19:06:31.146322"
-    }
-  },
   "cupom-amz-lote1-2026092322": {
     "ts": "2026-09-23T22:18:08.790402",
     "canales": {
@@ -627,6 +621,16 @@
     "precio": 375.0,
     "precios_publicados": [
       375.0
+    ]
+  },
+  "amz-adaptador-bluetooth-50-usb-para-pc-ugreen": {
+    "ts": "2026-09-25T19:13:13.506715",
+    "canales": {
+      "whatsapp": "2026-09-25T19:13:13.506715"
+    },
+    "precio": 54.0,
+    "precios_publicados": [
+      54.0
     ]
   }
 }
