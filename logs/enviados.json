@@ -134,14 +134,16 @@
     }
   },
   "ml-tenis-kappa-pulse-rx-unissex-corrida-conforto": {
-    "ts": "2026-09-25T14:47:34.798078",
+    "ts": "2026-09-26T22:11:48.919589",
     "canales": {
-      "whatsapp": "2026-09-25T14:47:34.798078"
+      "whatsapp": "2026-09-26T22:11:48.919589"
     },
     "precio": 135.0,
     "precios_publicados": [
+      135.0,
       135.0
-    ]
+    ],
+    "precio_min_publicado": 135.0
   },
   "amz-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
     "ts": "2026-09-25T14:56:13.569692",
