@@ -179,6 +179,19 @@ jobs:
         env:
           MAX_MONITOR: "60"
 
+      # ── Redes sociales: Facebook Página + Instagram ───────────────────────
+      # API OFICIAL de Meta. Se publica 1 achado por ejecución (~5 al día), que
+      # en redes es lo sensato: más parecería spam.
+      # Sin credenciales el módulo sale solo y no rompe nada.
+      - name: publicar en redes (Facebook + Instagram)
+        if: github.event.inputs.modo != 'publicar'
+        continue-on-error: true
+        run: python publicar_redes.py
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+          META_PAGE_ID: ${{ secrets.META_PAGE_ID }}
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+
       # ── Publicación ───────────────────────────────────────────────────────
       # El `schedule` entra en BUCLE: publica cada 7.5 min hasta ~4.5 h, así la
       # cadencia no depende del cron (que GitHub estrangula a ~3 h).

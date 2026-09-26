@@ -117,6 +117,9 @@ def main():
         ("HUGGINGFACE_API_KEY", "HUGGINGFACE_API_KEY"),
         ("AI_MODEL_HUGGINGFACE", "AI_MODEL_HUGGINGFACE"),
         ("GROQ_API_KEY", "GROQ_API_KEY"),
+        ("META_ACCESS_TOKEN", "META_ACCESS_TOKEN"),
+        ("META_PAGE_ID", "META_PAGE_ID"),
+        ("IG_USER_ID", "IG_USER_ID"),
     ]
 
     print("\n=== subiendo ===")
