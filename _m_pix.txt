@@ -1,0 +1,52 @@
+fix(HONESTIDAD): eliminar el descuento Pix INVENTADO — estaba en el 100% de los posts
+
+Reportado por el usuario con captura de la pantalla real de compra:
+
+  LO QUE EL BOT PUBLICO:              LA REALIDAD EN MERCADO LIVRE:
+  R$ 1216                             Produto      R$ 1.380
+  No Pix: mais 5% OFF   <- INVENTADO  Cupom        - R$ 100
+  Cupom: FOIBARATO (30% OFF)          Pix          (ninguno)
+  Sai por R$ 809        <- MENTIRA    Voce pagara  R$ 1.216
+
+El bot prometia R$ 809 y la persona paga R$ 1.216: 407 reales de diferencia.
+Dos mentiras distintas en el mismo post.
+
+MENTIRA 1 — EL PIX
+gerar_fila_posts.py ponia el descuento Pix en CUATRO sitios asi:
+    "pix": candidato.get("pix") or "mais 5% OFF"
+Y agente_ml.py / agente_amazon.py NUNCA capturaban un campo `pix` (0 de 69
+ofertas). Resultado: el 100% de los posts anunciaba un 5% en Pix que nadie
+habia verificado jamas. Mismo patron que el 18% inventado de Amazon y el tope
+de cupon de R$500 inventado: cuando el dato no estaba, el codigo se lo inventaba.
+
+  - Los 4 sitios ahora dejan el campo VACIO si el origen no lo trae.
+  - El post simplemente no muestra la linea de Pix.
+  - INTENTO FALLIDO DOCUMENTADO: se probo a leerlo del anuncio de ML con un
+    regex de "% ... pix" y salio PEOR: el texto de la tarjeta viene concatenado,
+    asi que enganchaba el descuento del PRODUCTO (73% OFF, 70% OFF...) y lo
+    guardaba como descuento de Pix. Publicar eso habria sido peor que el bug
+    original. Se descarto y se dejo el campo vacio a proposito.
+  - Para tenerlo de verdad hace falta la ficha del producto (1 peticion por
+    producto) o un token de la API de ML.
+
+MENTIRA 2 — EL CUPON DE 30%
+El cupon FOIBARATO es un cupon GENERAL ("30% OFF em produtos elegiveis"). En la
+compra real ML aplico OTRO cupon de R$ 100 fijos. El bot prometia un 30% que no
+era el que se aplicaba. Esto ya se corrigio en el commit anterior con los
+niveles de confianza: los cupones generales se informan pero NO se promete el
+precio final. Este commit completa ese arreglo quitando tambien el Pix, que era
+la otra mitad del calculo falso.
+
+VERIFICADO despues del cambio:
+    posts en la fila: 266
+    con pix: 0        <- antes: 100%
+    con cupon: 263
+    confianza alta: los que prometen precio final | baja: los que solo informan
+
+Ejemplo del post corregido:
+    Oimotoo Patinete Scooter Eletrico 350w Dobrable C/bluetooth
+    R$ 963
+    em ate 10x sem juros
+    Cupom: BARRATINHOJA
+       (ative na pagina do produto - valido para produtos elegiveis)
+    https://meli.la/1oaeSpy

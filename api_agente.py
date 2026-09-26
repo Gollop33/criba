@@ -338,7 +338,9 @@ def injetar_na_fila_e_achados(oferta_dict):
                 "precio_anterior": oferta_dict.get("precio_anterior"),
                 "desc_pct": oferta_dict.get("desc_pct"),
                 "cupom": oferta_dict.get("cupom"),
-                "pix": "mais 5% OFF",
+                # No se inventa el descuento Pix (antes decía "mais 5% OFF"
+                # siempre, sin verificarlo: un descuento falso en cada post).
+                "pix": oferta_dict.get("pix") or "",
                 "imagen": oferta_dict.get("imagen"),
                 "url": oferta_dict.get("url_corta") or oferta_dict.get("url"),
                 "criado_em": oferta_dict.get("criado_em"),

@@ -887,7 +887,11 @@ def armar_fila_rotativa():
                 "precio_anterior": esp.get("precio_anterior"),
                 "desc_pct": esp.get("desc_pct"),
                 "cupom": esp.get("cupom") or esp.get("cupon") or buscar_cupon_para_producto(esp, cupones),
-                "pix": "mais 5% OFF" if "Mercado" in esp.get("loja", "") else "à vista",
+                # NO se inventa el Pix. Si el origen no lo trae, queda vacío y el
+                # post simplemente no muestra la línea. Ver el comentario largo
+                # más abajo: antes se ponía "mais 5% OFF" a TODO, incluso a
+                # productos sin descuento Pix.
+                "pix": esp.get("pix") or "",
                 "imagen": esp.get("imagen"),
                 "url": elegir_link_afiliado(esp),
                 "criado_em": ahora_iso,
@@ -928,7 +932,7 @@ def armar_fila_rotativa():
                 "precio_anterior": candidato.get("precio_anterior"),
                 "desc_pct": candidato.get("desc_pct"),
                 "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
-                "pix": candidato.get("pix") or "mais 5% OFF",
+                "pix": candidato.get("pix") or "",
                 "imagen": candidato.get("imagen"),
                 "url": elegir_link_afiliado(candidato),
                 "criado_em": ahora_iso,
@@ -954,7 +958,7 @@ def armar_fila_rotativa():
                     "precio_anterior": candidato.get("precio_anterior"),
                     "desc_pct": candidato.get("desc_pct"),
                     "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
-                    "pix": candidato.get("pix") or "mais 5% OFF",
+                    "pix": candidato.get("pix") or "",
                     "imagen": candidato.get("imagen"),
                     "url": elegir_link_afiliado(candidato),
                     "criado_em": ahora_iso,
@@ -991,10 +995,7 @@ def armar_fila_rotativa():
             "precio_anterior": c.get("precio_anterior"),
             "desc_pct": c.get("desc_pct"),
             "cupom": c.get("cupon") or c.get("cupom") or buscar_cupon_para_producto(c, cupones),
-            # Antes el relleno ponía "mais 5% OFF" a mano y se dejaba fuera las
-            # cuotas y el envío gratis: los posts de relleno salían más pobres
-            # que los de la rotación principal.
-            "pix": c.get("pix") or "mais 5% OFF",
+            "pix": c.get("pix") or "",
             "imagen": c.get("imagen"),
             "url": elegir_link_afiliado(c),
             "criado_em": ahora_iso,

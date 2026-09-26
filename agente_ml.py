@@ -390,6 +390,20 @@ def cosechar_scraping():
                 envio_gratis = ("frete gr" in txt_card and "tis" in txt_card) or \
                                ("frete grátis" in txt_card) or ("frete gratis" in txt_card)
 
+                # ── DESCUENTO PIX: NO SE CAPTURA AQUÍ ────────────────────────
+                # Se intentó leerlo del anuncio y salió MAL: el texto de la
+                # tarjeta viene todo concatenado, así que un regex de "% ... pix"
+                # enganchaba el descuento del PRODUCTO (73% OFF, 70% OFF...) y lo
+                # guardaba como si fuera un descuento de Pix. Eso habría sido
+                # peor que el bug original: prometer un 73% en Pix inexistente.
+                #
+                # Hasta tener una fuente fiable (la ficha del producto, que sí lo
+                # muestra, pero exige 1 petición por producto) el campo va VACÍO.
+                # El post simplemente no muestra la línea de Pix. Es preferible
+                # no informar a informar mal: el usuario ya comprobó una vez que
+                # el bot prometía un 5% en Pix que el producto no tenía.
+                pix_desc = ""
+
                 items.append({
                     "id": slug_id(titulo),
                     "nombre": titulo,
@@ -404,6 +418,7 @@ def cosechar_scraping():
                     "cuotas": cuotas,
                     "cuotas_sin_interes": sin_interes,
                     "envio_gratis": envio_gratis,
+                    "pix": pix_desc,
                 })
         except Exception as e:
             continue
