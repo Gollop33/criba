@@ -259,6 +259,65 @@ async def leer(horas=12, max_por_chat=40):
     return 0
 
 
+async def unirse(enlaces, seco=False):
+    """
+    Se une a los grupos/canales indicados por enlace de invitación.
+
+    ⚠️ ADVERTENCIA IMPORTANTE — LÉELA ANTES DE USARLO
+    Telegram BANEA las cuentas que entran a muchos grupos de golpe: es una de
+    las señales de spam más claras que tiene. Por eso esto NO automático: hay
+    que pasar los enlaces a mano, uno por uno, y hay que ir despacio.
+
+    Regla práctica: 3-5 grupos al día como máximo, y solo los que de verdad
+    quieras. Si metes 20 de golpe, lo más probable es que te limiten la cuenta.
+
+    Una vez dentro, el lector ya los recoge solo en la siguiente ejecución: no
+    hay que hacer nada más.
+    """
+    from telethon import TelegramClient
+    from telethon.sessions import StringSession
+    from telethon.tl.functions.messages import ImportChatInviteRequest
+    from telethon.errors import UserAlreadyParticipantError
+
+    print("=" * 76)
+    print("  UNIRSE A GRUPOS POR ENLACE DE INVITACIÓN")
+    print("=" * 76)
+    print("  [!] Telegram limita las cuentas que entran a muchos grupos de golpe.")
+    print("      Máximo recomendado: 3-5 al día. Ve despacio.")
+    print()
+
+    async with TelegramClient(StringSession(SESSION), int(API_ID), API_HASH) as c:
+        for i, enlace in enumerate(enlaces, 1):
+            e = enlace.strip()
+            if not e:
+                continue
+            print(f"  [{i}/{len(enlaces)}] {e[:60]}")
+            if seco:
+                print("        [SECO] aquí se uniría")
+                continue
+            try:
+                if "/+" in e:
+                    # enlace privado: hay que importar el hash de invitación
+                    hash_inv = e.split("/+")[-1].split("?")[0]
+                    await c(ImportChatInviteRequest(hash_inv))
+                    print("        unido (grupo privado)")
+                else:
+                    entidad = await c.get_entity(e)
+                    from telethon.tl.functions.channels import JoinChannelRequest
+                    await c(JoinChannelRequest(entidad))
+                    print(f"        unido: {getattr(entidad, 'title', e)}")
+            except UserAlreadyParticipantError:
+                print("        ya estabas dentro")
+            except Exception as ex:
+                print(f"        FALLÓ: {type(ex).__name__}: {str(ex)[:90]}")
+            # Pausa entre uniones: parecer humano, no un bot
+            import asyncio as _a
+            await _a.sleep(8)
+    print()
+    print("  Listo. En la próxima ejecución el lector ya los incluye solo.")
+    return 0
+
+
 def main():
     if not SESSION:
         print("Falta TELEGRAM_SESSION.")
@@ -274,6 +333,14 @@ def main():
                 pass
     if "--listar" in sys.argv:
         return asyncio.run(listar())
+    if "--unirse" in sys.argv:
+        i = sys.argv.index("--unirse")
+        enlaces = [a for a in sys.argv[i + 1:] if a.startswith("http") or a.startswith("t.me")]
+        if not enlaces:
+            print("  Uso: python leer_telegram.py --unirse https://t.me/+XXXX [más enlaces]")
+            print("  Máximo 3-5 al día: Telegram limita las cuentas que entran a muchos grupos.")
+            return 1
+        return asyncio.run(unirse(enlaces, seco="--test" in sys.argv))
     return asyncio.run(leer(horas=horas))
 
 
