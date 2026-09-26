@@ -37,3 +37,8 @@ cookies*.json
 img/envios/
 logs/*dump*.html
 
+
+# Sesion de Telegram y datos derivados: NUNCA al repo
+telegram_session.txt
+.telegram_login.json
+ofertas_telegram.json
