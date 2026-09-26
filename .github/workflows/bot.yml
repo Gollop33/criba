@@ -20,11 +20,15 @@ name: radar-precios
 # ─────────────────────────────────────────────────────────────────────────────
 on:
   schedule:
-    # 5 disparos al día: 8:00, 11:00, 14:00, 17:00 y 20:00 Brasília.
-    # Cada disparo NO publica un solo post: entra en bucle_publicacion.py y se
-    # queda publicando cada 7.5 min hasta ~4.5 h. Así cubrimos 8:00-22:00 BRT
-    # de forma continua sin depender de un cron externo.
-    - cron: '0 11,14,17,20,23 * * *'
+    # CADA 15 MIN durante la ventana, y aquí está el porqué:
+    # GitHub dispara los `schedule` cuando le da la gana (medido: gap mediano de
+    # 174 min con */15). Con solo 5 disparos al día, PERDER UNO deja el canal
+    # mudo horas — pasó el 26/09: el de las 8:00 BRT no se ejecutó y el bot
+    # estuvo callado desde las 22:00 del día anterior.
+    # Con */15 hay 52 oportunidades: aunque GitHub descarte la mayoría, siempre
+    # cae alguna. Y como el bucle dura 5.5 h, un disparo cada 2-3 h mantiene la
+    # cobertura continua. `concurrency` garantiza que nunca publican dos a la vez.
+    - cron: '*/15 0,11-23 * * *'
   workflow_dispatch:
     inputs:
       modo:
@@ -47,7 +51,7 @@ concurrency:
 jobs:
   bot:
     runs-on: ubuntu-latest
-    timeout-minutes: 330
+    timeout-minutes: 358
 
     steps:
       - name: Modo de ejecución
@@ -160,7 +164,10 @@ jobs:
           # intervalos cortos no se bloqueen.
           INTERVALO_MIN_SEG: "60"
           INTERVALO_MAX_SEG: "600"
-          DURACION_MAX_SEG: "16200"
+          # 5.5 h: el máximo seguro antes del límite de 6 h por job de GitHub.
+          # Un solo disparo cubre casi toda la ventana (8:00-22:00 BRT = 14 h),
+          # así que con 2-3 ejecuciones al día hay cobertura completa.
+          DURACION_MAX_SEG: "19800"
           MAX_ENVIOS_DIA: "150"
 
       - name: publicar 1 post (dispatch)

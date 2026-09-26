@@ -75,6 +75,43 @@ def elegir_link_afiliado(item):
     return url
 
 
+def _parsear_descuento_cupon(cupon):
+    """
+    Extrae (porcentaje, tope_maximo, valor_absoluto) de un cupón.
+
+    Los cupones de ML vienen como texto libre del canal de afiliados:
+        🎟️ OFFMLHOJE 👉 10% OFF
+        Tecnologia | Compra mínima: R$149 | Desconto máx.: R$200
+    O a veces en valor absoluto:
+        🛋️ R$100 OFF em Móveis / Compra mínima: R$499
+
+    Sin el porcentaje Y el tope no se puede calcular el precio final: un
+    "30% OFF" con tope de R$50 sobre un producto de R$500 descuenta 50, no 150.
+    """
+    pct = tope = valor = None
+    for campo in ("desconto", "valor", "titulo"):
+        txt = str(cupon.get(campo) or "")
+        m = re.search(r"(\d+(?:[.,]\d+)?)\s*%", txt)
+        if m and pct is None:
+            try:
+                pct = float(m.group(1).replace(",", "."))
+            except ValueError:
+                pass
+    for campo in ("limite", "desconto_max", "tope", "valor", "titulo"):
+        txt = str(cupon.get(campo) or "")
+        m = re.search(r"R\$\s*([\d.,]+)", txt)
+        if m and tope is None:
+            try:
+                tope = float(m.group(1).replace(".", "").replace(",", "."))
+            except ValueError:
+                pass
+    # Descuento en valor absoluto (sin porcentaje): "R$100 OFF"
+    if pct is None and tope:
+        valor = tope
+        tope = None
+    return pct, tope, valor
+
+
 def buscar_cupon_para_producto(item, cupones):
     """Cruza un producto con cupones vigentes por tienda y compra mínima."""
     loja = item.get("loja", "").lower()
@@ -805,6 +842,27 @@ def armar_fila_rotativa():
             "cuotas_sin_interes": c.get("cuotas_sin_interes"),
             "envio_gratis": bool(c.get("envio_gratis"))
         })
+
+    # Enriquecer cada post con el % y el tope del cupón que se le asignó. Es lo
+    # que permite al publicador calcular el PRECIO FINAL con los descuentos ya
+    # aplicados (cupón + Pix), que es lo que de verdad mueve la conversión.
+    cupones_por_codigo = {}
+    for c in cupones:
+        cod = str(c.get("codigo") or "").strip().upper()
+        if cod:
+            cupones_por_codigo[cod] = c
+    enriquecidos = 0
+    for post in fila_final:
+        cod = str(post.get("cupom") or "").strip().upper()
+        c = cupones_por_codigo.get(cod)
+        if not c:
+            continue
+        pct, tope, valor = _parsear_descuento_cupon(c)
+        if pct or tope or valor:
+            post["cupom_pct"] = pct
+            post["cupom_max"] = tope
+            post["cupom_valor"] = valor
+            enriquecidos += 1
 
     # Guardar en fila_posts.json
     resultado = {

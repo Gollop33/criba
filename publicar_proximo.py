@@ -28,6 +28,7 @@ Salvaguardas implementadas
 
 import json
 import os
+import re
 import sys
 import io
 from datetime import datetime, timezone, timedelta
@@ -178,6 +179,71 @@ def cargar_enviados_estricto():
         print("     Publicar ahora trataría el historial como vacío y republicaría")
         print("     todo el catálogo. Arréglalo con:  python reparar_estado.py")
         sys.exit(2)
+
+
+# ─── Precio final con descuentos aplicados ────────────────────────────────────
+
+def extraer_pct(texto):
+    """'mais 5% OFF' -> 5.0 ; 'à vista' -> None."""
+    m = re.search(r"(\d+(?:[.,]\d+)?)\s*%", str(texto or ""))
+    if not m:
+        return None
+    try:
+        return float(m.group(1).replace(",", "."))
+    except ValueError:
+        return None
+
+
+def calcular_precio_final(precio, post):
+    """
+    Calcula lo que el cliente paga DE VERDAD aplicando cupón + descuento Pix.
+
+    Es lo que más convierte: la gente no calcula porcentajes, quiere ver el
+    número final. Devuelve (precio_final, etiqueta) o (None, None) si no hay
+    datos suficientes para calcularlo con honestidad.
+
+    Orden aplicado: cupón primero (con su tope máximo, porque un "30% OFF" con
+    tope de R$50 sobre R$500 descuenta 50, no 150) y luego el Pix sobre el
+    resto. Es el orden que usan las tiendas brasileñas.
+    """
+    try:
+        p = float(precio)
+    except (TypeError, ValueError):
+        return None, None
+    if p <= 0:
+        return None, None
+
+    partes = []
+
+    pct_cupon = post.get("cupom_pct")
+    if pct_cupon:
+        try:
+            desc = p * (float(pct_cupon) / 100.0)
+            tope = post.get("cupom_max")
+            if tope:
+                desc = min(desc, float(tope))
+            if desc > 0:
+                p -= desc
+                partes.append(f"cupom {float(pct_cupon):.0f}%")
+        except (TypeError, ValueError):
+            pass
+    elif post.get("cupom_valor"):
+        try:
+            desc = min(float(post["cupom_valor"]), p)
+            if desc > 0:
+                p -= desc
+                partes.append("cupom")
+        except (TypeError, ValueError):
+            pass
+
+    pct_pix = extraer_pct(post.get("pix"))
+    if pct_pix:
+        p -= p * (pct_pix / 100.0)
+        partes.append(f"Pix {pct_pix:.0f}%")
+
+    if not partes or p >= float(precio):
+        return None, None
+    return p, " + ".join(partes)
 
 
 # ─── Publicación ──────────────────────────────────────────────────────────────
@@ -364,7 +430,23 @@ def publicar_un_post(es_test=False):
         lineas.append("🚚 Frete grátis")
 
     if cupom:
-        lineas.append(f"🎟️ Cupom: {cupom}")
+        # Mostrar también el % del cupón si lo conocemos: da urgencia y explica
+        # de dónde sale el precio final.
+        pct_c = post_a_enviar.get("cupom_pct")
+        if pct_c:
+            lineas.append(f"🎟️ Cupom: {cupom} ({float(pct_c):.0f}% OFF)")
+        else:
+            lineas.append(f"🎟️ Cupom: {cupom}")
+
+    # ── PRECIO FINAL CON TODO APLICADO ────────────────────────────────────────
+    # Es lo que más convierte: la gente no calcula porcentajes de cabeza, quiere
+    # ver el número que va a pagar. Solo se muestra si hay datos reales para
+    # calcularlo (porcentaje del cupón y/o descuento Pix conocidos y su tope).
+    precio_final, etiqueta_final = calcular_precio_final(precio_int, post_a_enviar)
+    if precio_final:
+        lineas.append("")
+        lineas.append(f"✅ Sai por R$ {int(round(precio_final))} com {etiqueta_final}")
+
     lineas.append("")
     lineas.append(link_final)
     lineas.append("")
