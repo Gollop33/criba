@@ -167,6 +167,18 @@ jobs:
           # Pon 'tech' para volver al nicho cerrado original.
           NICHO_MODO: "geral"
 
+      # ── Comparador multi-tienda ───────────────────────────────────────────
+      # Cruza la fila con el historial de precios de 8 tiendas (precios.db) y
+      # marca los posts que están MÁS BARATOS que en otras tiendas -> el post
+      # sale con "🏆 MAIS BARATO QUE NAS OUTRAS LOJAS".
+      # Además escribe productos_monitor.json para que bot_precios.py vigile lo
+      # que realmente se publica: así la comparación gana cobertura cada día.
+      - name: comparador multi-tienda
+        continue-on-error: true
+        run: python comparador_precios.py
+        env:
+          MAX_MONITOR: "60"
+
       # ── Publicación ───────────────────────────────────────────────────────
       # El `schedule` entra en BUCLE: publica cada 7.5 min hasta ~4.5 h, así la
       # cadencia no depende del cron (que GitHub estrangula a ~3 h).

@@ -394,6 +394,15 @@ def publicar_un_post(es_test=False):
             lineas.append("📉 BAJÓ DE PRECIO")
         lineas.append("")
 
+    # ── SELLO DE MEJOR PRECIO ────────────────────────────────────────────────
+    # Lo que más vende en un canal de ofertas no es el precio: es saber que ese
+    # precio es MEJOR que en otros lados. Va arriba del todo, justo debajo del
+    # título, porque es lo primero que tiene que leer la gente.
+    if post_a_enviar.get("mejor_precio") and post_a_enviar.get("comparativa"):
+        lineas.append("🏆 MAIS BARATO QUE NAS OUTRAS LOJAS")
+        lineas.append(f"   {post_a_enviar['comparativa']}")
+        lineas.append("")
+
     if precio_int:
         lineas.append(f"💵 R$ {precio_limpo}")
 

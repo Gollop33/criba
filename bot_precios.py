@@ -119,6 +119,52 @@ PRODUCTOS = [
     {"busqueda": "tomada inteligente wifi",                  "ean": None, "categoria": "Smart Home", "precio_ref": 60},
 ]
 
+
+def _cargar_productos_del_canal():
+    """
+    Productos que se están PUBLICANDO, para vigilarlos.
+
+    Antes esta lista era solo la de arriba (25 productos de tecnología fijos):
+    el monitor seguía productos que casi nunca coincidían con lo que se
+    publicaba en el canal, así que la comparación de precios entre tiendas era
+    imposible por diseño.
+
+    Ahora `comparador_precios.py` escribe `productos_monitor.json` con lo que de
+    verdad se publica, y aquí se añade. La cobertura crece sola cada día.
+    """
+    f = BASE / "productos_monitor.json"
+    if not f.exists():
+        return []
+    try:
+        d = json.loads(f.read_text(encoding="utf-8-sig"))
+        lista = d.get("productos", []) if isinstance(d, dict) else d
+    except Exception as e:
+        print(f"  [monitor] productos_monitor.json ilegible: {e}")
+        return []
+
+    salida = []
+    for p in lista:
+        b = (p.get("busqueda") or "").strip()
+        if not b:
+            continue
+        try:
+            ref = float(p.get("precio_ref") or 0)
+        except (TypeError, ValueError):
+            ref = 0
+        salida.append({
+            "busqueda": b,
+            "ean": None,
+            "categoria": p.get("categoria") or "Canal",
+            "precio_ref": round(ref, 2) if ref > 0 else None,
+            "origen": "canal",
+        })
+    return salida
+
+
+# La lista de vigilancia = la fija de siempre + lo que se está publicando.
+_PRODUCTOS_FIJOS = list(PRODUCTOS)
+PRODUCTOS = _PRODUCTOS_FIJOS + _cargar_productos_del_canal()
+
 # ══════════════════════════════════════════════════
 # ALGORITMO DE CHOLLOS: UMBRALES
 # ══════════════════════════════════════════════════
