@@ -110,12 +110,39 @@ def main():
             it["revalidado_em"] = ahora_iso
             validos.append(it)
 
-    # Ordenar por combinación de frescura y descuento (rotación viva)
-    validos.sort(key=lambda x: (x.get("encontrado_em", "") or x.get("revalidado_em", ""), float(x.get("desc_pct") or 0)), reverse=True)
+    # ── ORDEN: ALTERNAR TIENDAS ───────────────────────────────────────────────
+    # Antes se ordenaba solo por fecha de cosecha. Como agente_amazon.py corre
+    # DESPUÉS de agente_ml.py, TODAS las de Amazon tenían fecha más reciente y
+    # quedaban las primeras: el catálogo empezaba con 78 de Amazon y las 400 de
+    # Mercado Livre venían detrás. El usuario abría la web y solo veía Amazon.
+    #
+    # Ahora se alternan tienda a tienda (y dentro de cada una, por descuento),
+    # así el catálogo muestra las dos desde la primera fila.
+    def _clave_orden(x):
+        return (float(x.get("desc_pct") or 0),
+                x.get("encontrado_em", "") or x.get("revalidado_em", ""))
 
-    # Tomar hasta `max_achados` ofertas de alta calidad
-    seleccionados = validos[:max_achados]
+    ml = sorted([x for x in validos if "Mercado" in (x.get("loja") or "")],
+                key=_clave_orden, reverse=True)
+    az = sorted([x for x in validos if "Amazon" in (x.get("loja") or "")],
+                key=_clave_orden, reverse=True)
+    otros = [x for x in validos if "Mercado" not in (x.get("loja") or "")
+             and "Amazon" not in (x.get("loja") or "")]
+
+    seleccionados = []
+    i = j = 0
+    while len(seleccionados) < max_achados and (i < len(ml) or j < len(az)):
+        if i < len(ml):
+            seleccionados.append(ml[i])
+            i += 1
+        if j < len(az) and len(seleccionados) < max_achados:
+            seleccionados.append(az[j])
+            j += 1
+    if len(seleccionados) < max_achados:
+        seleccionados += otros[:max_achados - len(seleccionados)]
+
     print(f"  • Descartadas por descuento insuficiente: {descartados_desc}")
+    print(f"  • Orden alternado: ML {len(ml)} | Amazon {len(az)} | otras {len(otros)}")
 
     resultado = {
         "actualizado": ahora_iso,
