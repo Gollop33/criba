@@ -114,6 +114,9 @@ def main():
         ("AI_PROVIDER", "AI_PROVIDER"),
         ("AI_API_KEY", "AI_API_KEY"),
         ("AI_MODEL", "AI_MODEL"),
+        ("HUGGINGFACE_API_KEY", "HUGGINGFACE_API_KEY"),
+        ("AI_MODEL_HUGGINGFACE", "AI_MODEL_HUGGINGFACE"),
+        ("GROQ_API_KEY", "GROQ_API_KEY"),
     ]
 
     print("\n=== subiendo ===")

@@ -63,27 +63,66 @@ if _env_file.exists():
         pass
 
 PROVEEDOR = os.environ.get("AI_PROVIDER", "").strip().lower()
-API_KEY = os.environ.get("AI_API_KEY", "").strip()
-MODELO = os.environ.get("AI_MODEL", "").strip()
 
 # CADENA DE RESPALDO: AI_PROVIDER acepta varios separados por coma y se prueban
-# en orden hasta que uno responda. Ejemplo:
-#     AI_PROVIDER=freellmapi,groq,huggingface
-# Muy útil porque FreeLLMAPI vive en 127.0.0.1 (tu PC) y GitHub Actions no puede
-# alcanzarlo: en local usa el router con sus ~250 modelos gratis, y en la nube
-# cae automáticamente al siguiente de la lista.
+# en orden hasta que uno responda. Es la solución a que FreeLLMAPI viva en
+# 127.0.0.1 (tu PC) y GitHub Actions no pueda alcanzarlo: en local usa el router
+# con sus ~250 modelos gratis, y en la nube cae solo al siguiente.
+#
+#     AI_PROVIDER = freellmapi,huggingface
+#
+# CADA PROVEEDOR USA SU PROPIA CLAVE (una sola AI_API_KEY no serviría: el router
+# local y Hugging Face usan claves distintas). Se busca en este orden:
+#   1. AI_API_KEY_<PROVEEDOR>   (p.ej. AI_API_KEY_HUGGINGFACE)
+#   2. la variable típica del proveedor (HUGGINGFACE_API_KEY, GROQ_API_KEY...)
+#   3. AI_API_KEY como genérica
 PROVEEDORES_ACTIVOS = [p.strip() for p in PROVEEDOR.split(",") if p.strip()]
 
-# Compatibilidad: si ya hay una clave de Gemini puesta a la antigua, se usa.
-if not API_KEY:
-    for var, prov in (("GEMINI_API_KEY", "gemini"), ("DEEPSEEK_API_KEY", "deepseek"),
-                      ("GROQ_API_KEY", "groq"), ("OPENAI_API_KEY", "openai"),
-                      ("OPENROUTER_API_KEY", "openrouter"),
-                      ("HF_TOKEN", "huggingface"), ("HUGGINGFACE_API_KEY", "huggingface")):
-        v = os.environ.get(var, "").strip()
-        if v:
-            API_KEY, PROVEEDOR = v, PROVEEDOR or prov
-            break
+CLAVES_POR_PROVEEDOR = {
+    "huggingface": ["HUGGINGFACE_API_KEY", "HF_TOKEN", "HUGGINGFACEHUB_API_TOKEN"],
+    "freellmapi":  ["FREELMAPI_API_KEY", "FREELLMAPI_API_KEY"],
+    "local":       ["FREELMAPI_API_KEY", "FREELLMAPI_API_KEY"],
+    "groq":        ["GROQ_API_KEY"],
+    "deepseek":    ["DEEPSEEK_API_KEY"],
+    "openai":      ["OPENAI_API_KEY"],
+    "openrouter":  ["OPENROUTER_API_KEY"],
+    "gemini":      ["GEMINI_API_KEY", "GOOGLE_API_KEY"],
+    "anthropic":   ["ANTHROPIC_API_KEY"],
+}
+
+# Modelo por defecto por proveedor (se puede pisar con AI_MODEL o
+# AI_MODEL_<PROVEEDOR>).
+MODELO_GENERICO = os.environ.get("AI_MODEL", "").strip()
+
+
+def clave_de(proveedor):
+    """Devuelve la clave que corresponde a ese proveedor ('' si no hay)."""
+    k = os.environ.get(f"AI_API_KEY_{proveedor.upper()}", "").strip()
+    if k:
+        return k
+    for var in CLAVES_POR_PROVEEDOR.get(proveedor, []):
+        k = os.environ.get(var, "").strip()
+        if k:
+            return k
+    return os.environ.get("AI_API_KEY", "").strip()
+
+
+def modelo_de(proveedor):
+    """Modelo para ese proveedor: AI_MODEL_<PROV> > AI_MODEL > por defecto."""
+    m = os.environ.get(f"AI_MODEL_{proveedor.upper()}", "").strip()
+    if m:
+        return m
+    if MODELO_GENERICO:
+        return MODELO_GENERICO
+    return PROVEEDORES.get(proveedor, ("", "", ""))[1]
+
+
+def API_KEY_compat():  # noqa: N802  (compatibilidad con código antiguo)
+    for p in PROVEEDORES_ACTIVOS:
+        k = clave_de(p)
+        if k:
+            return k
+    return ""
 
 # endpoint, modelo por defecto, formato
 PROVEEDORES = {
@@ -118,43 +157,55 @@ PROVEEDORES = {
 
 
 def ia_disponible():
-    return bool(API_KEY and any(p in PROVEEDORES for p in PROVEEDORES_ACTIVOS))
+    """True si al menos un proveedor de la cadena tiene clave."""
+    return any(p in PROVEEDORES and clave_de(p) for p in PROVEEDORES_ACTIVOS)
 
 
 def estado():
-    """Texto para logs: qué proveedores están en la cadena."""
+    """Texto para logs: la cadena de proveedores y si cada uno tiene clave."""
     if not PROVEEDORES_ACTIVOS:
         return "IA desactivada (falta AI_PROVIDER)"
-    if not API_KEY:
+    if not ia_disponible():
         return (f"IA configurada como '{', '.join(PROVEEDORES_ACTIVOS)}' "
-                f"pero SIN clave (AI_API_KEY)")
+                f"pero NINGUNO tiene clave")
     validos = [p for p in PROVEEDORES_ACTIVOS if p in PROVEEDORES]
     desconocidos = [p for p in PROVEEDORES_ACTIVOS if p not in PROVEEDORES]
-    txt = "IA activa: " + " -> ".join(
-        f"{p}/{MODELO or PROVEEDORES[p][1]}" for p in validos) if validos else "IA: sin proveedores válidos"
+    if validos:
+        partes = []
+        for p in validos:
+            tiene = "clave OK" if clave_de(p) else "SIN CLAVE"
+            partes.append(f"{p}/{modelo_de(p)} [{tiene}]")
+        txt = "IA activa: " + " -> ".join(partes)
+    else:
+        txt = "IA: sin proveedores válidos"
     if desconocidos:
         txt += f" | no soportados: {', '.join(desconocidos)}"
     return txt
 
 
 def _intentar(proveedor, prompt, sistema, max_tokens, timeout):
-    """Un intento con un proveedor concreto. Devuelve '' si falla."""
+    """Un intento con un proveedor concreto, con SU clave. '' si falla."""
     endpoint, modelo_def, formato = PROVEEDORES[proveedor]
-    modelo = MODELO or modelo_def
+    modelo = modelo_de(proveedor)
+    clave = clave_de(proveedor)
     endpoint = endpoint.format(modelo=modelo)
+
+    if not clave:
+        print(f"  [ia] {proveedor}: sin clave configurada, se salta")
+        return ""
 
     if formato == "gemini":
         cuerpo = {"contents": [{"parts": [{"text": prompt}]}]}
         if sistema:
             cuerpo["systemInstruction"] = {"parts": [{"text": sistema}]}
-        r = requests.post(f"{endpoint}?key={API_KEY}", json=cuerpo, timeout=timeout)
+        r = requests.post(f"{endpoint}?key={clave}", json=cuerpo, timeout=timeout)
         if r.status_code != 200:
             print(f"  [ia] {proveedor} HTTP {r.status_code}: {r.text[:120]}")
             return ""
         return r.json()["candidates"][0]["content"]["parts"][0]["text"]
 
     if formato == "anthropic":
-        cab = {"x-api-key": API_KEY, "anthropic-version": "2023-06-01",
+        cab = {"x-api-key": clave, "anthropic-version": "2023-06-01",
                "content-type": "application/json"}
         cuerpo = {"model": modelo, "max_tokens": max_tokens,
                   "messages": [{"role": "user", "content": prompt}]}
@@ -167,7 +218,7 @@ def _intentar(proveedor, prompt, sistema, max_tokens, timeout):
         return r.json()["content"][0]["text"]
 
     # formato OpenAI (deepseek, groq, huggingface, openai, openrouter, freellmapi)
-    cab = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+    cab = {"Authorization": f"Bearer {clave}", "Content-Type": "application/json"}
     mensajes = []
     if sistema:
         mensajes.append({"role": "system", "content": sistema})
