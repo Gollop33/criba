@@ -37,6 +37,11 @@ import os
 import sys
 from pathlib import Path
 
+try:
+    import requests
+except ImportError:
+    requests = None
+
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     try:
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -60,6 +65,14 @@ if _env_file.exists():
 PROVEEDOR = os.environ.get("AI_PROVIDER", "").strip().lower()
 API_KEY = os.environ.get("AI_API_KEY", "").strip()
 MODELO = os.environ.get("AI_MODEL", "").strip()
+
+# CADENA DE RESPALDO: AI_PROVIDER acepta varios separados por coma y se prueban
+# en orden hasta que uno responda. Ejemplo:
+#     AI_PROVIDER=freellmapi,groq,huggingface
+# Muy útil porque FreeLLMAPI vive en 127.0.0.1 (tu PC) y GitHub Actions no puede
+# alcanzarlo: en local usa el router con sus ~250 modelos gratis, y en la nube
+# cae automáticamente al siguiente de la lista.
+PROVEEDORES_ACTIVOS = [p.strip() for p in PROVEEDOR.split(",") if p.strip()]
 
 # Compatibilidad: si ya hay una clave de Gemini puesta a la antigua, se usa.
 if not API_KEY:
@@ -87,6 +100,16 @@ PROVEEDORES = {
     "openai":     ("https://api.openai.com/v1/chat/completions", "gpt-4o-mini", "openai"),
     "openrouter": ("https://openrouter.ai/api/v1/chat/completions",
                    "deepseek/deepseek-chat", "openai"),
+    # FreeLLMAPI: router LOCAL del usuario (app de escritorio que escucha en
+    # 127.0.0.1:31415) con API compatible OpenAI y ~250 modelos detrás, muchos
+    # con nivel gratuito. El modelo "auto" deja que el router elija.
+    #
+    # IMPORTANTE: al ser local, SOLO funciona ejecutando el bot en esta máquina.
+    # GitHub Actions NO puede alcanzar 127.0.0.1 de tu PC. Sirve para pruebas
+    # locales y para cuando el bot viva en un sitio donde puedas instalar la app
+    # (un VPS, o tu PC siempre encendido). Para la nube usa groq / huggingface.
+    "freellmapi": ("http://127.0.0.1:31415/v1/chat/completions", "auto", "openai"),
+    "local":      ("http://127.0.0.1:31415/v1/chat/completions", "auto", "openai"),
     "gemini":     ("https://generativelanguage.googleapis.com/v1beta/models/"
                    "{modelo}:generateContent", "gemini-2.0-flash", "gemini"),
     "anthropic":  ("https://api.anthropic.com/v1/messages", "claude-3-5-haiku-latest",
@@ -95,77 +118,100 @@ PROVEEDORES = {
 
 
 def ia_disponible():
-    return bool(PROVEEDOR and API_KEY and PROVEEDOR in PROVEEDORES)
+    return bool(API_KEY and any(p in PROVEEDORES for p in PROVEEDORES_ACTIVOS))
 
 
 def estado():
-    """Texto para logs: qué proveedor está activo."""
-    if not PROVEEDOR:
+    """Texto para logs: qué proveedores están en la cadena."""
+    if not PROVEEDORES_ACTIVOS:
         return "IA desactivada (falta AI_PROVIDER)"
     if not API_KEY:
-        return f"IA configurada como '{PROVEEDOR}' pero SIN clave (AI_API_KEY)"
-    if PROVEEDOR not in PROVEEDORES:
-        return f"IA: proveedor '{PROVEEDOR}' no soportado. Usa: {', '.join(PROVEEDORES)}"
-    return f"IA activa: {PROVEEDOR} / {MODELO or PROVEEDORES[PROVEEDOR][1]}"
+        return (f"IA configurada como '{', '.join(PROVEEDORES_ACTIVOS)}' "
+                f"pero SIN clave (AI_API_KEY)")
+    validos = [p for p in PROVEEDORES_ACTIVOS if p in PROVEEDORES]
+    desconocidos = [p for p in PROVEEDORES_ACTIVOS if p not in PROVEEDORES]
+    txt = "IA activa: " + " -> ".join(
+        f"{p}/{MODELO or PROVEEDORES[p][1]}" for p in validos) if validos else "IA: sin proveedores válidos"
+    if desconocidos:
+        txt += f" | no soportados: {', '.join(desconocidos)}"
+    return txt
+
+
+def _intentar(proveedor, prompt, sistema, max_tokens, timeout):
+    """Un intento con un proveedor concreto. Devuelve '' si falla."""
+    endpoint, modelo_def, formato = PROVEEDORES[proveedor]
+    modelo = MODELO or modelo_def
+    endpoint = endpoint.format(modelo=modelo)
+
+    if formato == "gemini":
+        cuerpo = {"contents": [{"parts": [{"text": prompt}]}]}
+        if sistema:
+            cuerpo["systemInstruction"] = {"parts": [{"text": sistema}]}
+        r = requests.post(f"{endpoint}?key={API_KEY}", json=cuerpo, timeout=timeout)
+        if r.status_code != 200:
+            print(f"  [ia] {proveedor} HTTP {r.status_code}: {r.text[:120]}")
+            return ""
+        return r.json()["candidates"][0]["content"]["parts"][0]["text"]
+
+    if formato == "anthropic":
+        cab = {"x-api-key": API_KEY, "anthropic-version": "2023-06-01",
+               "content-type": "application/json"}
+        cuerpo = {"model": modelo, "max_tokens": max_tokens,
+                  "messages": [{"role": "user", "content": prompt}]}
+        if sistema:
+            cuerpo["system"] = sistema
+        r = requests.post(endpoint, headers=cab, json=cuerpo, timeout=timeout)
+        if r.status_code != 200:
+            print(f"  [ia] {proveedor} HTTP {r.status_code}: {r.text[:120]}")
+            return ""
+        return r.json()["content"][0]["text"]
+
+    # formato OpenAI (deepseek, groq, huggingface, openai, openrouter, freellmapi)
+    cab = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
+    mensajes = []
+    if sistema:
+        mensajes.append({"role": "system", "content": sistema})
+    mensajes.append({"role": "user", "content": prompt})
+    cuerpo = {"model": modelo, "messages": mensajes, "max_tokens": max_tokens,
+              "temperature": 0.2}
+    r = requests.post(endpoint, headers=cab, json=cuerpo, timeout=timeout)
+    if r.status_code != 200:
+        print(f"  [ia] {proveedor} HTTP {r.status_code}: {r.text[:120]}")
+        return ""
+    return r.json()["choices"][0]["message"]["content"]
 
 
 def preguntar(prompt, sistema=None, max_tokens=2000, timeout=60):
     """
-    Envía un prompt y devuelve el texto de la respuesta ('' si falla).
-    Nunca lanza excepción: si la IA falla, el bot debe seguir funcionando.
+    Envía un prompt probando la CADENA de proveedores en orden y devuelve el
+    texto del primero que responda ('' si fallan todos).
+
+    Nunca lanza excepción: si la IA falla, el bot debe seguir publicando. Un
+    agente de apoyo no puede tumbar el negocio.
     """
     if not ia_disponible():
         return ""
+    global ULTIMO_PROVEEDOR
     try:
-        import requests
+        import requests  # noqa: F401
     except ImportError:
         return ""
 
-    endpoint, modelo_def, formato = PROVEEDORES[PROVEEDOR]
-    modelo = MODELO or modelo_def
-    endpoint = endpoint.format(modelo=modelo)
+    for proveedor in PROVEEDORES_ACTIVOS:
+        if proveedor not in PROVEEDORES:
+            continue
+        try:
+            texto = _intentar(proveedor, prompt, sistema, max_tokens, timeout)
+            if texto:
+                ULTIMO_PROVEEDOR = proveedor
+                return texto
+        except Exception as e:
+            print(f"  [ia] {proveedor} falló: {type(e).__name__}: {str(e)[:90]}")
+            continue
+    return ""
 
-    try:
-        if formato == "gemini":
-            cuerpo = {"contents": [{"parts": [{"text": prompt}]}]}
-            if sistema:
-                cuerpo["systemInstruction"] = {"parts": [{"text": sistema}]}
-            r = requests.post(f"{endpoint}?key={API_KEY}", json=cuerpo, timeout=timeout)
-            if r.status_code != 200:
-                print(f"  [ia] {PROVEEDOR} HTTP {r.status_code}: {r.text[:160]}")
-                return ""
-            d = r.json()
-            return d["candidates"][0]["content"]["parts"][0]["text"]
 
-        if formato == "anthropic":
-            cab = {"x-api-key": API_KEY, "anthropic-version": "2023-06-01",
-                   "content-type": "application/json"}
-            cuerpo = {"model": modelo, "max_tokens": max_tokens,
-                      "messages": [{"role": "user", "content": prompt}]}
-            if sistema:
-                cuerpo["system"] = sistema
-            r = requests.post(endpoint, headers=cab, json=cuerpo, timeout=timeout)
-            if r.status_code != 200:
-                print(f"  [ia] {PROVEEDOR} HTTP {r.status_code}: {r.text[:160]}")
-                return ""
-            return r.json()["content"][0]["text"]
-
-        # formato OpenAI (deepseek, groq, openai, openrouter)
-        cab = {"Authorization": f"Bearer {API_KEY}", "Content-Type": "application/json"}
-        mensajes = []
-        if sistema:
-            mensajes.append({"role": "system", "content": sistema})
-        mensajes.append({"role": "user", "content": prompt})
-        cuerpo = {"model": modelo, "messages": mensajes, "max_tokens": max_tokens,
-                  "temperature": 0.2}
-        r = requests.post(endpoint, headers=cab, json=cuerpo, timeout=timeout)
-        if r.status_code != 200:
-            print(f"  [ia] {PROVEEDOR} HTTP {r.status_code}: {r.text[:160]}")
-            return ""
-        return r.json()["choices"][0]["message"]["content"]
-    except Exception as e:
-        print(f"  [ia] error con {PROVEEDOR}: {e}")
-        return ""
+ULTIMO_PROVEEDOR = None
 
 
 def preguntar_json(prompt, sistema=None, timeout=60):
