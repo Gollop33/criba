@@ -108,6 +108,12 @@ def main():
         ("GREEN_API_TOKEN", "GREEN_API_TOKEN"),
         ("GREEN_API_ID", "GREEN_API_ID"),
         ("WHATSAPP_CHAT_ID", "WHATSAPP_CHAT_ID"),
+        ("TELEGRAM_API_ID", "TELEGRAM_API_ID"),
+        ("TELEGRAM_API_HASH", "TELEGRAM_API_HASH"),
+        ("TELEGRAM_SESSION", "TELEGRAM_SESSION"),
+        ("AI_PROVIDER", "AI_PROVIDER"),
+        ("AI_API_KEY", "AI_API_KEY"),
+        ("AI_MODEL", "AI_MODEL"),
     ]
 
     print("\n=== subiendo ===")
