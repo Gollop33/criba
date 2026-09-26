@@ -65,7 +65,8 @@ MODELO = os.environ.get("AI_MODEL", "").strip()
 if not API_KEY:
     for var, prov in (("GEMINI_API_KEY", "gemini"), ("DEEPSEEK_API_KEY", "deepseek"),
                       ("GROQ_API_KEY", "groq"), ("OPENAI_API_KEY", "openai"),
-                      ("OPENROUTER_API_KEY", "openrouter")):
+                      ("OPENROUTER_API_KEY", "openrouter"),
+                      ("HF_TOKEN", "huggingface"), ("HUGGINGFACE_API_KEY", "huggingface")):
         v = os.environ.get(var, "").strip()
         if v:
             API_KEY, PROVEEDOR = v, PROVEEDOR or prov
@@ -76,6 +77,13 @@ PROVEEDORES = {
     "deepseek":   ("https://api.deepseek.com/chat/completions", "deepseek-chat", "openai"),
     "groq":       ("https://api.groq.com/openai/v1/chat/completions",
                    "llama-3.3-70b-versatile", "openai"),
+    # Hugging Face: desde julio 2025 su servicio de Inference Providers habla la
+    # API compatible con OpenAI. Se apunta a router.huggingface.co/v1 y el
+    # proveedor real se puede poner en el nombre del modelo, p.ej.
+    # "deepseek-ai/DeepSeek-V3-0324:novita". Con el nivel gratuito hay un cupo
+    # mensual de creditos; para el volumen de este bot sobra.
+    "huggingface": ("https://router.huggingface.co/v1/chat/completions",
+                    "meta-llama/Llama-3.3-70B-Instruct", "openai"),
     "openai":     ("https://api.openai.com/v1/chat/completions", "gpt-4o-mini", "openai"),
     "openrouter": ("https://openrouter.ai/api/v1/chat/completions",
                    "deepseek/deepseek-chat", "openai"),
