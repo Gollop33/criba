@@ -112,12 +112,176 @@ def _parsear_descuento_cupon(cupon):
     return pct, tope, valor
 
 
+# ─── CUPONES: ¿ESTE CUPÓN APLICA A ESTE PRODUCTO? ─────────────────────────────
+# BUG GRAVE REPORTADO POR EL USUARIO: se publicaba un cupón de 30% en una silla
+# de bebé y el cupón no aplicaba. Y un cupón de Tecnología en un producto de
+# Casa. Publicar un cupón que no sirve destruye la confianza del grupo, que es
+# el único activo real de un canal de ofertas.
+#
+# Había TRES fallos:
+#   1. Si un cupón no declaraba tienda, el filtro lo dejaba pasar para CUALQUIER
+#      tienda (las dos condiciones del if se saltaban).
+#   2. No se comparaba la CATEGORÍA del cupón con la del producto.
+#   3. "Geral" se interpretaba como "aplica a todo", cuando ML lo restringe a
+#      "produtos elegíveis" que solo ML conoce.
+#
+# Ahora:
+#   - La tienda tiene que coincidir y estar declarada en AMBOS lados.
+#   - Si el cupón declara categoría, el producto tiene que ser de esa categoría.
+#   - Los cupones "Geral" (sin categoría) se marcan como confianza BAJA: se
+#     pueden mencionar, pero NO se calcula ni se promete el precio final.
+CATEGORIAS_DE_CUPON = {
+    "tecnologia": ["Monitores & Displays", "Hardware & Componentes", "Notebooks & PCs",
+                   "Periféricos & Setup Gamer", "Smartphones & Celulares",
+                   "Games & Gift Cards", "Gadgets & Smart Tech"],
+    "informatica": ["Monitores & Displays", "Hardware & Componentes", "Notebooks & PCs",
+                    "Periféricos & Setup Gamer", "Smartphones & Celulares",
+                    "Games & Gift Cards", "Gadgets & Smart Tech"],
+    "eletronicos": ["Monitores & Displays", "Gadgets & Smart Tech",
+                    "Smartphones & Celulares", "Games & Gift Cards"],
+    "beleza": ["Beleza & Higiene", "Perfumes & Fragrâncias"],
+    "perfume": ["Perfumes & Fragrâncias"],
+    "relogio": ["Relógios & Smartwatches"],
+    "casa": ["Casa & Limpeza", "Casa & Móveis", "Cozinha & Eletro"],
+    "moveis": ["Casa & Móveis"],
+    "cozinha": ["Cozinha & Eletro"],
+    "pet": ["Pet Shop"],
+    "esporte": ["Esporte & Fitness"],
+    "ferramentas": ["Ferramentas"],
+    "bebe": ["Bebê"],
+    "automotivo": ["Automotivo"],
+}
+
+# Categorías de cupón que NO permiten prometer nada (dependen de ML)
+CATEGORIAS_VAGAS = {"", "geral", "gerais", "todos", "todas", "desconto especial"}
+
+
+def _categoria_cupon(cupon):
+    """Categoría normalizada del cupón, mirando categoria y titulo."""
+    for campo in ("categoria", "titulo"):
+        valor = normalizar(str(cupon.get(campo) or ""))
+        if not valor:
+            continue
+        if valor in CATEGORIAS_VAGAS:
+            continue
+        for clave in CATEGORIAS_DE_CUPON:
+            if clave in valor:
+                return clave
+    return ""
+
+
+def _tienda_de(texto):
+    """'Mercado Livre' / 'Amazon' / '' a partir de un texto."""
+    t = normalizar(str(texto or ""))
+    if "mercado" in t or "melivre" in t:
+        return "mercadolivre"
+    if "amazon" in t:
+        return "amazon"
+    if "shopee" in t:
+        return "shopee"
+    if "kabum" in t:
+        return "kabum"
+    if "magalu" in t:
+        return "magalu"
+    return ""
+
+
+def _minimo_de(cupon):
+    """Compra mínima del cupón en número (0 si no se sabe)."""
+    txt = str(cupon.get("compra_minima") or "")
+    m = re.search(r"([\d.]+(?:,\d{2})?)", txt.replace("R$", "").strip())
+    if not m:
+        return 0.0
+    try:
+        return float(m.group(1).replace(".", "").replace(",", "."))
+    except ValueError:
+        return 0.0
+
+
+def elegir_cupon(item, cupones):
+    """
+    Devuelve el cupón que APLICA a este producto, o None.
+
+    Devuelve un dict con: codigo, pct, tope, valor, confianza ('alta'|'baja'),
+    motivo. La confianza es 'baja' cuando el cupón es de categoría vaga (Geral),
+    porque ML decide qué productos son elegibles y nosotros no podemos saberlo.
+    """
+    loja_item = _tienda_de(item.get("loja"))
+    if not loja_item:
+        return None
+    try:
+        precio = float(item.get("precio") or 0)
+    except (TypeError, ValueError):
+        precio = 0
+    cat_item = item.get("categoria_canal") or clasificar_categoria(item.get("nombre", ""))
+    hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+
+    candidatos = []
+    for c in cupones:
+        codigo = (c.get("codigo") or "").strip()
+        if not codigo:
+            continue
+
+        # ── 1. TIENDA: tiene que estar declarada y coincidir ────────────────
+        tienda_c = _tienda_de(c.get("tienda"))
+        if not tienda_c:
+            continue                      # sin tienda declarada -> no se usa
+        if tienda_c != loja_item:
+            continue
+
+        # ── 2. VIGENCIA ─────────────────────────────────────────────────────
+        hasta = c.get("hasta") or c.get("vencimento") or ""
+        if hasta and hasta < hoy:
+            continue
+
+        # ── 3. COMPRA MÍNIMA ────────────────────────────────────────────────
+        minimo = _minimo_de(c)
+        if minimo and precio and precio < minimo:
+            continue
+
+        # ── 4. CATEGORÍA ────────────────────────────────────────────────────
+        cat_cupon = _categoria_cupon(c)
+        if cat_cupon:
+            permitidas = CATEGORIAS_DE_CUPON.get(cat_cupon, [])
+            if permitidas and cat_item not in permitidas:
+                continue                  # el cupón es de otra categoría
+            confianza = "alta"
+            motivo = f"categoría {cat_cupon} coincide con {cat_item}"
+        else:
+            # Cupón "Geral" o sin categoría: ML decide qué es elegible.
+            confianza = "baja"
+            motivo = "cupón general (ML decide qué produtos são elegíveis)"
+
+        pct, tope, valor = _parsear_descuento_cupon(c)
+        candidatos.append({
+            "codigo": codigo,
+            "pct": pct,
+            "tope": tope,
+            "valor": valor,
+            "confianza": confianza,
+            "motivo": motivo,
+        })
+
+    if not candidatos:
+        return None
+    # Preferir los de confianza alta y, entre esos, el mayor descuento
+    candidatos.sort(key=lambda x: (x["confianza"] == "alta", x.get("pct") or 0),
+                    reverse=True)
+    return candidatos[0]
+
+
 def buscar_cupon_para_producto(item, cupones):
-    """Cruza un producto con cupones vigentes por tienda y compra mínima."""
+    """Compatibilidad: devuelve solo el código del cupón aplicable."""
+    elegido = elegir_cupon(item, cupones)
+    return elegido["codigo"] if elegido else None
+
+
+def _buscar_cupon_viejo(item, cupones):
+    """(sin uso) Código original con los tres fallos documentados arriba."""
     loja = item.get("loja", "").lower()
     precio = float(item.get("precio") or 0)
     hoy = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    
+
     for c in cupones:
         tienda_c = (c.get("tienda") or "").lower()
         # Matchear tienda
@@ -863,6 +1027,32 @@ def armar_fila_rotativa():
             post["cupom_max"] = tope
             post["cupom_valor"] = valor
             enriquecidos += 1
+
+        # ── CONFIANZA DEL CUPÓN ──────────────────────────────────────────────
+        # 'alta'  = el cupón declara categoría y el producto es de esa categoría
+        #           -> se puede prometer el precio final.
+        # 'baja'  = cupón general/sin categoría: ML decide qué "produtos são
+        #           elegíveis" y nosotros NO podemos saberlo. Se menciona, pero
+        #           no se promete un descuento que puede no aplicar.
+        # Es la diferencia entre informar y engañar al grupo.
+        cat_cupon = _categoria_cupon(c)
+        if cat_cupon:
+            permitidas = CATEGORIAS_DE_CUPON.get(cat_cupon, [])
+            cat_post = post.get("categoria", "")
+            if permitidas and cat_post not in permitidas:
+                # No debería pasar (ya se filtró al elegir), pero por si acaso:
+                post["cupom"] = None
+                post["cupom_pct"] = None
+                post["cupom_confianza"] = None
+                continue
+            post["cupom_confianza"] = "alta"
+        else:
+            post["cupom_confianza"] = "baja"
+
+    altos = sum(1 for p in fila_final if p.get("cupom_confianza") == "alta")
+    bajos = sum(1 for p in fila_final if p.get("cupom_confianza") == "baja")
+    print(f"  • Cupones con categoría verificada (confianza alta): {altos}")
+    print(f"  • Cupones generales (confianza baja, sin prometer precio): {bajos}")
 
     # Guardar en fila_posts.json
     resultado = {

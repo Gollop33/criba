@@ -215,7 +215,13 @@ def calcular_precio_final(precio, post):
 
     partes = []
 
-    pct_cupon = post.get("cupom_pct")
+    # CONFIANZA DEL CUPÓN: si el cupón es "general" (sin categoría declarada),
+    # Mercado Livre decide qué "produtos são elegíveis" y nosotros NO podemos
+    # saberlo. En ese caso no se usa para calcular el precio final: prometer un
+    # descuento que puede no aplicar engaña al grupo, y la confianza es el único
+    # activo real de un canal de ofertas.
+    confianza = post.get("cupom_confianza", "alta")
+    pct_cupon = post.get("cupom_pct") if confianza != "baja" else None
     if pct_cupon:
         try:
             desc = p * (float(pct_cupon) / 100.0)
@@ -227,7 +233,7 @@ def calcular_precio_final(precio, post):
                 partes.append(f"cupom {float(pct_cupon):.0f}%")
         except (TypeError, ValueError):
             pass
-    elif post.get("cupom_valor"):
+    elif post.get("cupom_valor") and confianza != "baja":
         try:
             desc = min(float(post["cupom_valor"]), p)
             if desc > 0:
@@ -439,13 +445,18 @@ def publicar_un_post(es_test=False):
         lineas.append("🚚 Frete grátis")
 
     if cupom:
-        # Mostrar también el % del cupón si lo conocemos: da urgencia y explica
-        # de dónde sale el precio final.
+        # El % solo se anuncia si el cupón es de una categoría que CONCUERDA con
+        # el producto (confianza alta). Si es un cupón general, se menciona pero
+        # sin prometer descuento: puede que no aplique a este producto.
         pct_c = post_a_enviar.get("cupom_pct")
-        if pct_c:
+        confianza = post_a_enviar.get("cupom_confianza", "alta")
+        if pct_c and confianza != "baja":
             lineas.append(f"🎟️ Cupom: {cupom} ({float(pct_c):.0f}% OFF)")
         else:
+            # Cupón general: se dice la verdad de cómo se usa.
             lineas.append(f"🎟️ Cupom: {cupom}")
+            lineas.append("   (ative na página do produto — válido para "
+                          "produtos elegíveis)")
 
     # ── PRECIO FINAL CON TODO APLICADO ────────────────────────────────────────
     # Es lo que más convierte: la gente no calcula porcentajes de cabeza, quiere
