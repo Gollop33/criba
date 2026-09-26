@@ -72,24 +72,43 @@ def parsear_texto_cupones(texto):
         desconto = m_desc.group(1).upper() if m_desc else "Desconto Especial"
 
         # 3. Compra mínima
-        m_min = re.search(r"(?:Compra\s*m[ií]nima|m[ií]nimo)[:\s]*(?:de\s*)?(R\$\s*\d+)", b, re.IGNORECASE)
-        compra_minima = m_min.group(1) if m_min else "R$ 1"
+        # OJO: antes se inventaba "R$ 1" cuando no aparecía. Un valor inventado
+        # en un cupón es tan malo como un precio tachado inventado: se muestra
+        # como si fuera un dato real. Si no está, se deja vacío.
+        m_min = re.search(
+            r"(?:Compra\s*m[ií]nima|m[ií]nimo)[.:\s]*(?:de\s*)?(R\$\s*[\d.,]+)",
+            b, re.IGNORECASE)
+        compra_minima = m_min.group(1) if m_min else ""
 
         # 4. Descuento máximo
-        m_max = re.search(r"(?:Desconto\s*m[aá]x|limite)[:\s]*(?:de\s*)?(R\$\s*\d+)", b, re.IGNORECASE)
-        limite = m_max.group(1) if m_max else "R$ 500"
+        # Bug real encontrado: el canal escribe "Desconto máx.: R$200" CON PUNTO,
+        # y la regex solo aceptaba ":" o espacio. Al no coincidir, se inventaba un
+        # "R$ 500" por defecto, lo que inflaba el descuento calculado en el
+        # precio final (OFFMLHOJE salía con tope 500 en vez de 200).
+        m_max = re.search(
+            r"(?:Desconto\s*m[aá]x|limite|tope)[.:\s]*(?:de\s*)?(R\$\s*[\d.,]+)",
+            b, re.IGNORECASE)
+        limite = m_max.group(1) if m_max else ""
 
         # 5. Fecha de vencimiento
-        m_fecha = re.search(r"(\d{1,2})[./](\d{1,2})", b)
+        # Antes, si no había fecha, se ponía 31/12 del año en curso: un cupón
+        # vencido parecía válido todo el año. Sin fecha = sin fecha.
+        m_fecha = re.search(r"(\d{1,2})[./](\d{1,2})(?:[./](\d{2,4}))?", b)
         if m_fecha:
             dia = int(m_fecha.group(1))
             mes = int(m_fecha.group(2))
+            ano_txt = m_fecha.group(3)
             try:
-                vencimiento = f"{ano_actual}-{mes:02d}-{dia:02d}"
+                if ano_txt:
+                    ano_v = int(ano_txt)
+                    ano_v = ano_v + 2000 if ano_v < 100 else ano_v
+                else:
+                    ano_v = ano_actual
+                vencimiento = f"{ano_v}-{mes:02d}-{dia:02d}"
             except Exception:
-                vencimiento = f"{ano_actual}-12-31"
+                vencimiento = ""
         else:
-            vencimiento = f"{ano_actual}-12-31"
+            vencimiento = ""
 
         # 6. Categoría
         categoria = "Geral"
