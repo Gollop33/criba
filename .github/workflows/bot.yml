@@ -179,6 +179,18 @@ jobs:
         env:
           MAX_MONITOR: "60"
 
+      # ── Verificador real de producto (necesita ML_ACCESS_TOKEN) ───────────
+      # Comprueba precio, stock y Pix contra la API OFICIAL de Mercado Livre.
+      # Sin token no hace nada: ML bloquea el acceso anónimo (403) y las fichas
+      # se renderizan con JavaScript, así que NO hay forma anónima de verificar.
+      # El token es gratis en developers.mercadolibre.com/devcenter
+      - name: verificar productos ML (API oficial)
+        if: github.event.inputs.modo != 'publicar'
+        continue-on-error: true
+        run: python verificar_producto.py --fila
+        env:
+          ML_ACCESS_TOKEN: ${{ secrets.ML_ACCESS_TOKEN }}
+
       # ── Redes sociales: Facebook Página + Instagram ───────────────────────
       # API OFICIAL de Meta. Se publica 1 achado por ejecución (~5 al día), que
       # en redes es lo sensato: más parecería spam.
