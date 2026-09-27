@@ -33,16 +33,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
-    "ts": "2026-09-25T14:56:13.569692",
-    "canales": {
-      "whatsapp": "2026-09-25T14:56:13.569692"
-    },
-    "precio": 897.0,
-    "precios_publicados": [
-      897.0
-    ]
-  },
   "ml-cadeira-gamer-profissional-reclinavel-apoio-d": {
     "ts": "2026-09-25T14:58:53.107469",
     "canales": {
@@ -222,14 +212,16 @@
     ]
   },
   "amz-ximodot-monitor-portatil-de-156-polegadas-con": {
-    "ts": "2026-09-25T16:50:52.979973",
+    "ts": "2026-09-27T14:56:26.750584",
     "canales": {
-      "whatsapp": "2026-09-25T16:50:52.979973"
+      "whatsapp": "2026-09-27T14:56:26.750584"
     },
     "precio": 379.0,
     "precios_publicados": [
+      379.0,
       379.0
-    ]
+    ],
+    "precio_min_publicado": 379.0
   },
   "ml-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-09-25T16:59:58.106683",
