@@ -69,26 +69,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "ml-cadeira-escritorio-presidente-ergonomica-cour": {
-    "ts": "2026-09-25T16:16:03.154893",
-    "canales": {
-      "whatsapp": "2026-09-25T16:16:03.154893"
-    },
-    "precio": 408.0,
-    "precios_publicados": [
-      408.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-09-25T16:20:18.990139",
-    "canales": {
-      "whatsapp": "2026-09-25T16:20:18.990139"
-    },
-    "precio": 839.0,
-    "precios_publicados": [
-      839.0
-    ]
-  },
   "ml-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-09-25T16:28:10.836193",
     "canales": {
@@ -2323,6 +2303,16 @@
     "precio": 107.0,
     "precios_publicados": [
       107.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-09-27T16:25:34.553391",
+    "canales": {
+      "whatsapp": "2026-09-27T16:25:34.553391"
+    },
+    "precio": 1320.0,
+    "precios_publicados": [
+      1320.0
     ]
   }
 }
