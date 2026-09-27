@@ -117,16 +117,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-kit-4-radios-comunicadores-walkie-talkie-prof": {
-    "ts": "2026-09-25T19:43:44.238993",
-    "canales": {
-      "whatsapp": "2026-09-25T19:43:44.238993"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0
-    ]
-  },
   "amz-apple-iphone-15-128-gb-azul": {
     "ts": "2026-09-25T19:52:27.414359",
     "canales": {
@@ -2369,6 +2359,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "ml-mini-projetor-davely-hy300-4k-android-com-wif": {
+    "ts": "2026-09-27T19:49:24.274699",
+    "canales": {
+      "whatsapp": "2026-09-27T19:49:24.274699"
+    },
+    "precio": 176.0,
+    "precios_publicados": [
+      176.0
     ]
   }
 }
