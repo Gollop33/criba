@@ -105,26 +105,6 @@
     ],
     "precio_min_publicado": 1699.0
   },
-  "amz-tablet-positivo-vision-tab-10-com-capa-teclad": {
-    "ts": "2026-09-25T18:41:23.163446",
-    "canales": {
-      "whatsapp": "2026-09-25T18:41:23.163446"
-    },
-    "precio": 1165.0,
-    "precios_publicados": [
-      1165.0
-    ]
-  },
-  "ml-varal-dobravel-de-chao-3-andares-de-roupas-gr": {
-    "ts": "2026-09-25T18:43:48.969792",
-    "canales": {
-      "whatsapp": "2026-09-25T18:43:48.969792"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
   "amz-xiaomi-tablet-redmi-pad-2-de-8-gb-256-gb-tela": {
     "ts": "2026-09-25T18:52:02.844265",
     "canales": {
@@ -470,14 +450,16 @@
     ]
   },
   "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-09-25T22:10:03.583488",
+    "ts": "2026-09-27T18:45:00.427161",
     "canales": {
-      "whatsapp": "2026-09-25T22:10:03.583488"
+      "whatsapp": "2026-09-27T18:45:00.427161"
     },
     "precio": 1399.0,
     "precios_publicados": [
+      1399.0,
       1399.0
-    ]
+    ],
+    "precio_min_publicado": 1399.0
   },
   "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
     "ts": "2026-09-25T22:18:07.569262",
