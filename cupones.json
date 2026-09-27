@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-09-27T08:42:30+00:00",
-  "total": 14,
+  "actualizado": "2026-09-27T14:24:39+00:00",
+  "total": 15,
   "fuentes": [
     "Manual",
     "Pelando"
@@ -205,6 +205,18 @@
       "codigo": "NOVO10",
       "valor": 10,
       "hasta": "2026-09-30",
+      "vigente": true
+    },
+    {
+      "codigo": "OFERTASHOJE",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-09-27",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-09-27T12:01:15+00:00",
       "vigente": true
     }
   ]
