@@ -69,16 +69,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "ml-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-09-25T16:28:10.836193",
-    "canales": {
-      "whatsapp": "2026-09-25T16:28:10.836193"
-    },
-    "precio": 5353.0,
-    "precios_publicados": [
-      5353.0
-    ]
-  },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
     "ts": "2026-09-26T21:05:23.902070",
     "canales": {
@@ -2313,6 +2303,16 @@
     "precio": 1320.0,
     "precios_publicados": [
       1320.0
+    ]
+  },
+  "ml-mel-puro-bisnaga-1400-kg-100-natural-florada-": {
+    "ts": "2026-09-27T16:34:05.616248",
+    "canales": {
+      "whatsapp": "2026-09-27T16:34:05.616248"
+    },
+    "precio": 71.0,
+    "precios_publicados": [
+      71.0
     ]
   }
 }
