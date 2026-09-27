@@ -117,36 +117,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-apple-iphone-15-128-gb-azul": {
-    "ts": "2026-09-25T19:52:27.414359",
-    "canales": {
-      "whatsapp": "2026-09-25T19:52:27.414359"
-    },
-    "precio": 4776.0,
-    "precios_publicados": [
-      4776.0
-    ]
-  },
-  "ml-smart-tv-philco-50-p50vik-4k-uhd-led-roku-dol": {
-    "ts": "2026-09-25T19:55:06.310468",
-    "canales": {
-      "whatsapp": "2026-09-25T19:55:06.310468"
-    },
-    "precio": 2099.0,
-    "precios_publicados": [
-      2099.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-09-25T19:57:00.391665",
-    "canales": {
-      "whatsapp": "2026-09-25T19:57:00.391665"
-    },
-    "precio": 1080.0,
-    "precios_publicados": [
-      1080.0
-    ]
-  },
   "ml-notebook-acer-aspire-5-a51545r2a3-amd-ryzen-5": {
     "ts": "2026-09-25T20:02:11.574257",
     "canales": {
@@ -2369,6 +2339,16 @@
     "precio": 176.0,
     "precios_publicados": [
       176.0
+    ]
+  },
+  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
+    "ts": "2026-09-27T19:57:40.661419",
+    "canales": {
+      "whatsapp": "2026-09-27T19:57:40.661419"
+    },
+    "precio": 82.0,
+    "precios_publicados": [
+      82.0
     ]
   }
 }
