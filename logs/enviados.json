@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 84.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-09-25T22:05:10.026532",
-    "canales": {
-      "whatsapp": "2026-09-25T22:05:10.026532"
-    },
-    "precio": 1440.0,
-    "precios_publicados": [
-      1440.0
-    ]
-  },
   "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-09-27T18:45:00.427161",
     "canales": {
@@ -2356,6 +2346,16 @@
     "precio": 805.0,
     "precios_publicados": [
       805.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
+    "ts": "2026-09-27T22:09:25.199722",
+    "canales": {
+      "whatsapp": "2026-09-27T22:09:25.199722"
+    },
+    "precio": 1459.0,
+    "precios_publicados": [
+      1459.0
     ]
   }
 }
