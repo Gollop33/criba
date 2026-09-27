@@ -117,16 +117,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-celular-smartphone-motorola-g86-5g-256gb-8gb1": {
-    "ts": "2026-09-25T19:16:29.247055",
-    "canales": {
-      "whatsapp": "2026-09-25T19:16:29.247055"
-    },
-    "precio": 1653.0,
-    "precios_publicados": [
-      1653.0
-    ]
-  },
   "amz-monitor-pc-gamer-lg-27-ips-100hz-full-hd-hdmi": {
     "ts": "2026-09-25T19:25:09.584710",
     "canales": {
@@ -2339,6 +2329,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-shampoo-cloresten-antifungico-e-antibacterian": {
+    "ts": "2026-09-27T19:18:59.464445",
+    "canales": {
+      "whatsapp": "2026-09-27T19:18:59.464445"
+    },
+    "precio": 114.0,
+    "precios_publicados": [
+      114.0
     ]
   }
 }
