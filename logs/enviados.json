@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 1399.0
   },
-  "ml-caixa-de-som-basike-barad207-edicao-80w-radio": {
-    "ts": "2026-09-25T22:33:13.395820",
-    "canales": {
-      "whatsapp": "2026-09-25T22:33:13.395820"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
   "ml-carrinho-passeio-bebe-reversivel-berco-moises": {
     "ts": "2026-09-25T23:23:02.355561",
     "canales": {
@@ -2356,6 +2346,16 @@
     "precio": 287.0,
     "precios_publicados": [
       287.0
+    ]
+  },
+  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
+    "ts": "2026-09-27T22:36:01.747324",
+    "canales": {
+      "whatsapp": "2026-09-27T22:36:01.747324"
+    },
+    "precio": 758.0,
+    "precios_publicados": [
+      758.0
     ]
   }
 }
