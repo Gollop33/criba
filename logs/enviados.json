@@ -81,16 +81,6 @@
     ],
     "precio_min_publicado": 2469.0
   },
-  "ml-monitor-portatil-gamer-bettdow-156-full-hd-60": {
-    "ts": "2026-09-25T16:40:50.898181",
-    "canales": {
-      "whatsapp": "2026-09-25T16:40:50.898181"
-    },
-    "precio": 394.0,
-    "precios_publicados": [
-      394.0
-    ]
-  },
   "amz-ximodot-monitor-portatil-de-156-polegadas-con": {
     "ts": "2026-09-27T14:56:26.750584",
     "canales": {
@@ -2323,6 +2313,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a07-256gb-8gb-camera-5": {
+    "ts": "2026-09-27T16:48:15.844151",
+    "canales": {
+      "whatsapp": "2026-09-27T16:48:15.844151"
+    },
+    "precio": 879.0,
+    "precios_publicados": [
+      879.0
     ]
   }
 }
