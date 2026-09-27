@@ -117,16 +117,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-triciclo-eletrico-drift-350w-bluetooth-infant": {
-    "ts": "2026-09-25T20:17:32.855258",
-    "canales": {
-      "whatsapp": "2026-09-25T20:17:32.855258"
-    },
-    "precio": 1068.0,
-    "precios_publicados": [
-      1068.0
-    ]
-  },
   "amz-apple-iphone-17e-de-256-gb-preto": {
     "ts": "2026-09-25T20:24:54.983500",
     "canales": {
@@ -2349,6 +2339,16 @@
     "precio": 1898.0,
     "precios_publicados": [
       1898.0
+    ]
+  },
+  "ml-roku-streaming-stick-2025-para-tv-hdfhd-contr": {
+    "ts": "2026-09-27T20:19:15.690540",
+    "canales": {
+      "whatsapp": "2026-09-27T20:19:15.690540"
+    },
+    "precio": 238.0,
+    "precios_publicados": [
+      238.0
     ]
   }
 }
