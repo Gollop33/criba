@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 4299.0
   },
-  "ml-tenis-masculino-feminino-kappa-park-20-origin": {
-    "ts": "2026-09-25T23:39:15.241465",
-    "canales": {
-      "whatsapp": "2026-09-25T23:39:15.241465"
-    },
-    "precio": 102.0,
-    "precios_publicados": [
-      102.0
-    ]
-  },
   "amz-luva-de-microfibra-tramontina": {
     "ts": "2026-09-25T23:45:47.361601",
     "canales": {
@@ -1021,14 +1011,16 @@
     ]
   },
   "ml-tenis-sandrini-aero-spark-corrida-academia-ca": {
-    "ts": "2026-09-26T19:26:12.825014",
+    "ts": "2026-09-27T23:42:35.313270",
     "canales": {
-      "whatsapp": "2026-09-26T19:26:12.825014"
+      "whatsapp": "2026-09-27T23:42:35.313270"
     },
     "precio": 135.0,
     "precios_publicados": [
+      135.0,
       135.0
-    ]
+    ],
+    "precio_min_publicado": 135.0
   },
   "amz-notebook-hp-256r-g9-intel-core-i5-13o-geracao": {
     "ts": "2026-09-26T19:36:11.601698",
