@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 1399.0
   },
-  "ml-carrinho-passeio-bebe-reversivel-berco-moises": {
-    "ts": "2026-09-25T23:23:02.355561",
-    "canales": {
-      "whatsapp": "2026-09-25T23:23:02.355561"
-    },
-    "precio": 611.0,
-    "precios_publicados": [
-      611.0
-    ]
-  },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
     "ts": "2026-09-27T21:18:45.184829",
     "canales": {
@@ -2438,6 +2428,16 @@
     "precio": 1899.0,
     "precios_publicados": [
       1899.0
+    ]
+  },
+  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
+    "ts": "2026-09-27T23:24:47.411833",
+    "canales": {
+      "whatsapp": "2026-09-27T23:24:47.411833"
+    },
+    "precio": 4999.0,
+    "precios_publicados": [
+      4999.0
     ]
   }
 }
