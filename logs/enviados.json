@@ -118,16 +118,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-tablet-positivo-vision-tab-7-stitch-64-gb-3-g": {
-    "ts": "2026-09-25T20:30:47.740056",
-    "canales": {
-      "whatsapp": "2026-09-25T20:30:47.740056"
-    },
-    "precio": 521.0,
-    "precios_publicados": [
-      521.0
-    ]
-  },
   "ml-caixa-de-som-bluetooth-54-sabala-200w-portati": {
     "ts": "2026-09-25T20:37:14.815105",
     "canales": {
@@ -2360,6 +2350,16 @@
     "precio": 1039.0,
     "precios_publicados": [
       1039.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-pro-tela-121-wifi-2": {
+    "ts": "2026-09-27T20:33:54.638011",
+    "canales": {
+      "whatsapp": "2026-09-27T20:33:54.638011"
+    },
+    "precio": 1999.0,
+    "precios_publicados": [
+      1999.0
     ]
   }
 }
