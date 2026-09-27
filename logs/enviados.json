@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 379.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-09-25T17:51:53.527668",
-    "canales": {
-      "whatsapp": "2026-09-25T17:51:53.527668"
-    },
-    "precio": 1898.0,
-    "precios_publicados": [
-      1898.0
-    ]
-  },
   "ml-coleira-para-cachorro-com-guia-enforcador-ref": {
     "ts": "2026-09-25T18:01:39.609401",
     "canales": {
@@ -2327,6 +2317,16 @@
     "precio": 881.0,
     "precios_publicados": [
       881.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
+    "ts": "2026-09-27T17:52:02.545357",
+    "canales": {
+      "whatsapp": "2026-09-27T17:52:02.545357"
+    },
+    "precio": 2463.0,
+    "precios_publicados": [
+      2463.0
     ]
   }
 }
