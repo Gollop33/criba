@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 84.0
   },
-  "amz-duracell-pilha-optimum-aa-pequena-com-12-unid": {
-    "ts": "2026-09-25T21:55:09.852950",
-    "canales": {
-      "whatsapp": "2026-09-25T21:55:09.852950"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "ml-smart-tv-lg-43full-hd-processador-a5-ger6-ai-": {
     "ts": "2026-09-25T22:03:08.304677",
     "canales": {
@@ -2356,6 +2346,16 @@
     "precio": 286.0,
     "precios_publicados": [
       286.0
+    ]
+  },
+  "amz-kindle-16-gb-geracao-mais-recente-leve-e-comp": {
+    "ts": "2026-09-27T21:57:15.692281",
+    "canales": {
+      "whatsapp": "2026-09-27T21:57:15.692281"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
