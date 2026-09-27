@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 883.0
   },
-  "ml-monitor-lg-ultrawide-tela-ips-de-29-219-hdr10": {
-    "ts": "2026-09-25T21:13:35.433298",
-    "canales": {
-      "whatsapp": "2026-09-25T21:13:35.433298"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-cinza-1": {
     "ts": "2026-09-25T21:19:49.424850",
     "canales": {
@@ -295,14 +285,16 @@
     ]
   },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
-    "ts": "2026-09-25T23:32:02.330792",
+    "ts": "2026-09-27T21:18:45.184829",
     "canales": {
-      "whatsapp": "2026-09-25T23:32:02.330792"
+      "whatsapp": "2026-09-27T21:18:45.184829"
     },
-    "precio": 4299.0,
+    "precio": 4399.0,
     "precios_publicados": [
-      4299.0
-    ]
+      4299.0,
+      4399.0
+    ],
+    "precio_min_publicado": 4299.0
   },
   "ml-tenis-masculino-feminino-kappa-park-20-origin": {
     "ts": "2026-09-25T23:39:15.241465",
