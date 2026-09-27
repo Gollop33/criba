@@ -117,16 +117,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-apple-iphone-17e-de-256-gb-preto": {
-    "ts": "2026-09-25T20:24:54.983500",
-    "canales": {
-      "whatsapp": "2026-09-25T20:24:54.983500"
-    },
-    "precio": 4776.0,
-    "precios_publicados": [
-      4776.0
-    ]
-  },
   "ml-tablet-positivo-vision-tab-7-stitch-64-gb-3-g": {
     "ts": "2026-09-25T20:30:47.740056",
     "canales": {
@@ -2359,6 +2349,16 @@
     "precio": 418.0,
     "precios_publicados": [
       418.0
+    ]
+  },
+  "ml-projetor-pfl5211-full-hd-5200lm-branco-intelb": {
+    "ts": "2026-09-27T20:25:36.208902",
+    "canales": {
+      "whatsapp": "2026-09-27T20:25:36.208902"
+    },
+    "precio": 1039.0,
+    "precios_publicados": [
+      1039.0
     ]
   }
 }
