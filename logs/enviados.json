@@ -33,16 +33,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "ml-smart-tv-lg-75-4k-ultra-hd-ai-webos-26-75un85": {
-    "ts": "2026-09-25T15:06:42.213449",
-    "canales": {
-      "whatsapp": "2026-09-25T15:06:42.213449"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-jbl-fone-de-ouvido-bluetooth-overear-tune-530": {
     "ts": "2026-09-25T15:15:02.040858",
     "canales": {
@@ -2271,6 +2261,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "ml-samsung-galaxy-buds3-fe-fone-de-ouvido-sem-fi": {
+    "ts": "2026-09-27T15:12:49.397651",
+    "canales": {
+      "whatsapp": "2026-09-27T15:12:49.397651"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
