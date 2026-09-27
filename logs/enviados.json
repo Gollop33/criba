@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 4299.0
   },
-  "amz-luva-de-microfibra-tramontina": {
-    "ts": "2026-09-25T23:45:47.361601",
-    "canales": {
-      "whatsapp": "2026-09-25T23:45:47.361601"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
-  "ml-basike-fone-de-ouvido-sem-fio-bluetooth-com-g": {
-    "ts": "2026-09-25T23:49:41.125225",
-    "canales": {
-      "whatsapp": "2026-09-25T23:49:41.125225"
-    },
-    "precio": 108.0,
-    "precios_publicados": [
-      108.0
-    ]
-  },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-09-27T22:45:35.053640",
     "canales": {
@@ -1433,14 +1413,16 @@
     ]
   },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-09-26T23:43:21.037400",
+    "ts": "2026-09-27T23:49:53.048428",
     "canales": {
-      "whatsapp": "2026-09-26T23:43:21.037400"
+      "whatsapp": "2026-09-27T23:49:53.048428"
     },
-    "precio": 1633.0,
+    "precio": 1529.0,
     "precios_publicados": [
-      1633.0
-    ]
+      1633.0,
+      1529.0
+    ],
+    "precio_min_publicado": 1633.0
   },
   "ml-patinete-eletrico-triciclo-infantil-drift-350": {
     "ts": "2026-09-26T23:53:01.565408",
