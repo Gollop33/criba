@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 379.0
   },
-  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
-    "ts": "2026-09-25T18:08:44.512645",
-    "canales": {
-      "whatsapp": "2026-09-25T18:08:44.512645"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
   "ml-kit-88-fraldas-needs-ultrasafe-pants-xxg-shor": {
     "ts": "2026-09-25T18:14:41.670944",
     "canales": {
@@ -2337,6 +2327,16 @@
     "precio": 98.0,
     "precios_publicados": [
       98.0
+    ]
+  },
+  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
+    "ts": "2026-09-27T18:09:41.379800",
+    "canales": {
+      "whatsapp": "2026-09-27T18:09:41.379800"
+    },
+    "precio": 353.0,
+    "precios_publicados": [
+      353.0
     ]
   }
 }
