@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 883.0
   },
-  "ml-bicicleta-infantil-aro-16-masculina-ate-7-ano": {
-    "ts": "2026-09-25T21:00:27.585123",
-    "canales": {
-      "whatsapp": "2026-09-25T21:00:27.585123"
-    },
-    "precio": 495.0,
-    "precios_publicados": [
-      495.0
-    ]
-  },
   "amz-gillette-desodorante-antitranspirante-em-gel-": {
     "ts": "2026-09-25T21:08:42.206744",
     "canales": {
@@ -2364,6 +2354,16 @@
     "precio": 1349.0,
     "precios_publicados": [
       1349.0
+    ]
+  },
+  "amz-8bitdo-ultimate-2-wireless-controller-for-win": {
+    "ts": "2026-09-27T21:04:04.232663",
+    "canales": {
+      "whatsapp": "2026-09-27T21:04:04.232663"
+    },
+    "precio": 326.0,
+    "precios_publicados": [
+      326.0
     ]
   }
 }
