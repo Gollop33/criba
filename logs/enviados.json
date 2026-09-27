@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 379.0
   },
-  "ml-maquina-de-lavar-bwf14ab-14kg-smart-sensor-ci": {
-    "ts": "2026-09-25T17:21:59.125062",
-    "canales": {
-      "whatsapp": "2026-09-25T17:21:59.125062"
-    },
-    "precio": 1871.0,
-    "precios_publicados": [
-      1871.0
-    ]
-  },
   "amz-apple-iphone-17-pro-max-256-gb-prateado": {
     "ts": "2026-09-25T17:29:25.705596",
     "canales": {
@@ -2325,6 +2315,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "ml-carregador-portatil-20000-turbo-225w-power-ba": {
+    "ts": "2026-09-27T17:22:13.833122",
+    "canales": {
+      "whatsapp": "2026-09-27T17:22:13.833122"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
