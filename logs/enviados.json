@@ -45,26 +45,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "ml-cadeira-escritorio-ergonomica-genebra-b500-lu": {
-    "ts": "2026-09-25T15:37:58.570542",
-    "canales": {
-      "whatsapp": "2026-09-25T15:37:58.570542"
-    },
-    "precio": 473.0,
-    "precios_publicados": [
-      473.0
-    ]
-  },
-  "amz-echo-dot-geracao-mais-recente-smart-speaker-c": {
-    "ts": "2026-09-25T15:40:19.747544",
-    "canales": {
-      "whatsapp": "2026-09-25T15:40:19.747544"
-    },
-    "precio": 459.0,
-    "precios_publicados": [
-      459.0
-    ]
-  },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
     "ts": "2026-09-26T20:25:43.406910",
     "canales": {
@@ -2291,6 +2271,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
+    "ts": "2026-09-27T15:43:33.275797",
+    "canales": {
+      "whatsapp": "2026-09-27T15:43:33.275797"
+    },
+    "precio": 95.0,
+    "precios_publicados": [
+      95.0
     ]
   }
 }
