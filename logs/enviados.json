@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 883.0
   },
-  "amz-garnier-toque-seco-antimanchas-gel-creme-hidr": {
-    "ts": "2026-09-25T20:55:48.876488",
-    "canales": {
-      "whatsapp": "2026-09-25T20:55:48.876488"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "ml-bicicleta-infantil-aro-16-masculina-ate-7-ano": {
     "ts": "2026-09-25T21:00:27.585123",
     "canales": {
@@ -2364,6 +2354,16 @@
     "precio": 194.0,
     "precios_publicados": [
       194.0
+    ]
+  },
+  "ml-smartwatch-samsung-galaxy-watch-8-40mm-pratea": {
+    "ts": "2026-09-27T20:56:19.070435",
+    "canales": {
+      "whatsapp": "2026-09-27T20:56:19.070435"
+    },
+    "precio": 1349.0,
+    "precios_publicados": [
+      1349.0
     ]
   }
 }
