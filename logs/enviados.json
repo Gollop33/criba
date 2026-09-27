@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 883.0
   },
-  "amz-pantene-prov-shampoo-biotinamina-b3-antiqueda": {
-    "ts": "2026-09-25T21:41:55.883995",
-    "canales": {
-      "whatsapp": "2026-09-25T21:41:55.883995"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "ml-jogo-toalhas-banho-e-rosto-grossas-macias-100": {
     "ts": "2026-09-27T15:47:45.298083",
     "canales": {
@@ -2356,6 +2346,16 @@
     "precio": 1571.0,
     "precios_publicados": [
       1571.0
+    ]
+  },
+  "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
+    "ts": "2026-09-27T21:48:49.743193",
+    "canales": {
+      "whatsapp": "2026-09-27T21:48:49.743193"
+    },
+    "precio": 286.0,
+    "precios_publicados": [
+      286.0
     ]
   }
 }
