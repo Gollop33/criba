@@ -229,26 +229,6 @@
     ],
     "precio_min_publicado": 2349.0
   },
-  "ml-filtros-de-reposicao-para-bebedouros-de-caes-": {
-    "ts": "2026-09-26T23:11:59.335975",
-    "canales": {
-      "whatsapp": "2026-09-26T23:11:59.335975"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0
-    ]
-  },
-  "amz-premier-pet-golden-special-racao-seca-para-ga": {
-    "ts": "2026-09-26T23:13:47.432069",
-    "canales": {
-      "whatsapp": "2026-09-26T23:13:47.432069"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "ml-cadeira-de-escritorio-giratoria-homenow-colum": {
     "ts": "2026-09-28T15:55:23.145603",
     "canales": {
@@ -2269,6 +2249,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
+    "ts": "2026-09-28T23:13:47.600498",
+    "canales": {
+      "whatsapp": "2026-09-28T23:13:47.600498"
+    },
+    "precio": 5999.0,
+    "precios_publicados": [
+      5999.0
     ]
   }
 }
