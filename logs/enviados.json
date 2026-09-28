@@ -190,16 +190,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "ml-triciclo-bicicleta-infantil-3-rodas-passeio-e": {
-    "ts": "2026-09-26T15:05:16.575312",
-    "canales": {
-      "whatsapp": "2026-09-26T15:05:16.575312"
-    },
-    "precio": 215.0,
-    "precios_publicados": [
-      215.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g06128gb-12gb-4gb-ra": {
     "ts": "2026-09-28T14:54:47.293923",
     "canales": {
@@ -2268,6 +2258,16 @@
     "precio": 833.0,
     "precios_publicados": [
       833.0
+    ]
+  },
+  "ml-bicicleta-20-de-6-a-13-anos-roda-apoio-cadeir": {
+    "ts": "2026-09-28T15:08:53.222071",
+    "canales": {
+      "whatsapp": "2026-09-28T15:08:53.222071"
+    },
+    "precio": 639.0,
+    "precios_publicados": [
+      639.0
     ]
   }
 }
