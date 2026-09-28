@@ -178,16 +178,6 @@
     ],
     "precio_min_publicado": 349.0
   },
-  "ml-cama-elastica-infantil-pulapula-trampolim-14m": {
-    "ts": "2026-09-26T00:05:02.303711",
-    "canales": {
-      "whatsapp": "2026-09-26T00:05:02.303711"
-    },
-    "precio": 295.0,
-    "precios_publicados": [
-      295.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
     "ts": "2026-09-28T00:03:49.773746",
     "canales": {
@@ -2464,6 +2454,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "ml-xiaomi-redmi-note-15-pro-5g-512gb-12gb-ram-or": {
+    "ts": "2026-09-28T00:07:59.768983",
+    "canales": {
+      "whatsapp": "2026-09-28T00:07:59.768983"
+    },
+    "precio": 2742.0,
+    "precios_publicados": [
+      2742.0
     ]
   }
 }
