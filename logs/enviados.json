@@ -205,16 +205,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
-    "ts": "2026-09-26T21:14:39.664929",
-    "canales": {
-      "whatsapp": "2026-09-26T21:14:39.664929"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-x1504va-intel-core-": {
     "ts": "2026-09-26T21:24:05.129401",
     "canales": {
@@ -2209,6 +2199,16 @@
     "precio": 611.0,
     "precios_publicados": [
       611.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-09-28T21:18:20.828097",
+    "canales": {
+      "whatsapp": "2026-09-28T21:18:20.828097"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
