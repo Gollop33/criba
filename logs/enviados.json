@@ -190,16 +190,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "ml-monitor-gamer-samsung-essential-s3-24-fhd-120": {
-    "ts": "2026-09-26T00:13:48.578756",
-    "canales": {
-      "whatsapp": "2026-09-26T00:13:48.578756"
-    },
-    "precio": 527.0,
-    "precios_publicados": [
-      527.0
-    ]
-  },
   "amz-be-place-kids-tablet-infantil-android-13-128g": {
     "ts": "2026-09-26T00:22:31.425827",
     "canales": {
@@ -2464,6 +2454,16 @@
     "precio": 2742.0,
     "precios_publicados": [
       2742.0
+    ]
+  },
+  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
+    "ts": "2026-09-28T00:15:37.567553",
+    "canales": {
+      "whatsapp": "2026-09-28T00:15:37.567553"
+    },
+    "precio": 5888.0,
+    "precios_publicados": [
+      5888.0
     ]
   }
 }
