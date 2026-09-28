@@ -217,16 +217,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
-    "ts": "2026-09-26T20:27:38.895796",
-    "canales": {
-      "whatsapp": "2026-09-26T20:27:38.895796"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
   "ml-panela-de-pressao-42l-ceramica-antiaderente-f": {
     "ts": "2026-09-26T20:36:32.469594",
     "canales": {
@@ -772,14 +762,16 @@
     ]
   },
   "ml-cadeira-de-escritorio-gamer-ergonomica-dunami": {
-    "ts": "2026-09-27T15:24:04.516410",
+    "ts": "2026-09-28T20:30:06.456053",
     "canales": {
-      "whatsapp": "2026-09-27T15:24:04.516410"
+      "whatsapp": "2026-09-28T20:30:06.456053"
     },
     "precio": 523.0,
     "precios_publicados": [
+      523.0,
       523.0
-    ]
+    ],
+    "precio_min_publicado": 523.0
   },
   "amz-monitor-philips-22-120hz-1ms-gaming-221v8lb3": {
     "ts": "2026-09-27T15:25:48.647790",
