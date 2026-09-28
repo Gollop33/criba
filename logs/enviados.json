@@ -215,26 +215,6 @@
     ],
     "precio_min_publicado": 189.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-24gb-8g": {
-    "ts": "2026-09-26T17:06:35.755918",
-    "canales": {
-      "whatsapp": "2026-09-26T17:06:35.755918"
-    },
-    "precio": 1371.0,
-    "precios_publicados": [
-      1371.0
-    ]
-  },
-  "ml-relogio-smartwatch-aurafit-am05-tela-amoled-a": {
-    "ts": "2026-09-26T17:11:58.527565",
-    "canales": {
-      "whatsapp": "2026-09-26T17:11:58.527565"
-    },
-    "precio": 232.0,
-    "precios_publicados": [
-      232.0
-    ]
-  },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-09-26T17:21:39.266267",
     "canales": {
@@ -2263,6 +2243,16 @@
     "precio": 3549.0,
     "precios_publicados": [
       3549.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
+    "ts": "2026-09-28T17:12:24.990277",
+    "canales": {
+      "whatsapp": "2026-09-28T17:12:24.990277"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
