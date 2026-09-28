@@ -191,26 +191,6 @@
     ],
     "precio_min_publicado": 776.0
   },
-  "ml-nutella-3kg-balde-ferrero-creme-de-avela-giga": {
-    "ts": "2026-09-26T16:35:36.804274",
-    "canales": {
-      "whatsapp": "2026-09-26T16:35:36.804274"
-    },
-    "precio": 242.0,
-    "precios_publicados": [
-      242.0
-    ]
-  },
-  "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-09-26T16:39:18.181321",
-    "canales": {
-      "whatsapp": "2026-09-26T16:39:18.181321"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0
-    ]
-  },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
     "ts": "2026-09-28T00:59:57.993623",
     "canales": {
@@ -2243,6 +2223,16 @@
     "precio": 1359.0,
     "precios_publicados": [
       1359.0
+    ]
+  },
+  "ml-relogio-smartwatch-aurafit-g6-com-5atm-e-gps-": {
+    "ts": "2026-09-28T16:40:12.478037",
+    "canales": {
+      "whatsapp": "2026-09-28T16:40:12.478037"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
