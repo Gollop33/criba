@@ -205,16 +205,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "ml-smart-tv-de-24-philco-roku-tv-ptv24g5yr2cp-le": {
-    "ts": "2026-09-26T21:29:01.007196",
-    "canales": {
-      "whatsapp": "2026-09-26T21:29:01.007196"
-    },
-    "precio": 863.0,
-    "precios_publicados": [
-      863.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-09-26T21:36:35.062483",
     "canales": {
@@ -2219,6 +2209,16 @@
     "precio": 1036.0,
     "precios_publicados": [
       1036.0
+    ]
+  },
+  "ml-caixa-de-som-aiwa-boombox-plus-200w-bivolt-aw": {
+    "ts": "2026-09-28T21:30:01.651498",
+    "canales": {
+      "whatsapp": "2026-09-28T21:30:01.651498"
+    },
+    "precio": 1329.0,
+    "precios_publicados": [
+      1329.0
     ]
   }
 }
