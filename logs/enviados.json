@@ -229,16 +229,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-09-26T20:18:33.165164",
-    "canales": {
-      "whatsapp": "2026-09-26T20:18:33.165164"
-    },
-    "precio": 110.0,
-    "precios_publicados": [
-      110.0
-    ]
-  },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-09-26T20:27:38.895796",
     "canales": {
@@ -2219,6 +2209,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
+    "ts": "2026-09-28T20:21:16.228887",
+    "canales": {
+      "whatsapp": "2026-09-28T20:21:16.228887"
+    },
+    "precio": 4360.0,
+    "precios_publicados": [
+      4360.0
     ]
   }
 }
