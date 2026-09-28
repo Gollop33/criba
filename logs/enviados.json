@@ -217,16 +217,6 @@
     ],
     "precio_min_publicado": 189.0
   },
-  "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
-    "ts": "2026-09-26T19:20:26.053596",
-    "canales": {
-      "whatsapp": "2026-09-26T19:20:26.053596"
-    },
-    "precio": 1899.0,
-    "precios_publicados": [
-      1899.0
-    ]
-  },
   "ml-tenis-sandrini-aero-spark-corrida-academia-ca": {
     "ts": "2026-09-27T23:42:35.313270",
     "canales": {
@@ -2209,6 +2199,16 @@
     "precio": 223.0,
     "precios_publicados": [
       223.0
+    ]
+  },
+  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
+    "ts": "2026-09-28T19:23:44.476052",
+    "canales": {
+      "whatsapp": "2026-09-28T19:23:44.476052"
+    },
+    "precio": 1199.0,
+    "precios_publicados": [
+      1199.0
     ]
   }
 }
