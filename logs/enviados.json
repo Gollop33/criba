@@ -205,16 +205,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-notebook-asus-vivobook-15-x1504va-intel-core-": {
-    "ts": "2026-09-26T21:24:05.129401",
-    "canales": {
-      "whatsapp": "2026-09-26T21:24:05.129401"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "ml-smart-tv-de-24-philco-roku-tv-ptv24g5yr2cp-le": {
     "ts": "2026-09-26T21:29:01.007196",
     "canales": {
@@ -2219,6 +2209,16 @@
     "precio": 2879.0,
     "precios_publicados": [
       2879.0
+    ]
+  },
+  "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
+    "ts": "2026-09-28T21:25:13.828966",
+    "canales": {
+      "whatsapp": "2026-09-28T21:25:13.828966"
+    },
+    "precio": 1036.0,
+    "precios_publicados": [
+      1036.0
     ]
   }
 }
