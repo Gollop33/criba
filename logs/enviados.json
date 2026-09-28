@@ -202,16 +202,6 @@
     ],
     "precio_min_publicado": 776.0
   },
-  "amz-adaptador-bluetooth-usb-54-para-pc-e-notebook": {
-    "ts": "2026-09-26T15:21:30.017275",
-    "canales": {
-      "whatsapp": "2026-09-26T15:21:30.017275"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "ml-triciclo-de-drift-eletrico-grande-36v-capacid": {
     "ts": "2026-09-26T15:25:31.697749",
     "canales": {
@@ -1151,14 +1141,16 @@
     ]
   },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-09-27T00:24:27.039889",
+    "ts": "2026-09-28T15:22:01.888137",
     "canales": {
-      "whatsapp": "2026-09-27T00:24:27.039889"
+      "whatsapp": "2026-09-28T15:22:01.888137"
     },
     "precio": 35.0,
     "precios_publicados": [
+      35.0,
       35.0
-    ]
+    ],
+    "precio_min_publicado": 35.0
   },
   "ml-power-bank-20000mah-225w-carga-rapida-com-dis": {
     "ts": "2026-09-27T00:31:12.098547",
