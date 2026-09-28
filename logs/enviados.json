@@ -217,16 +217,6 @@
     ],
     "precio_min_publicado": 189.0
   },
-  "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
-    "ts": "2026-09-26T19:03:04.652212",
-    "canales": {
-      "whatsapp": "2026-09-26T19:03:04.652212"
-    },
-    "precio": 107.0,
-    "precios_publicados": [
-      107.0
-    ]
-  },
   "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
     "ts": "2026-09-26T19:05:47.381537",
     "canales": {
@@ -2229,6 +2219,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
+    "ts": "2026-09-28T19:04:43.629947",
+    "canales": {
+      "whatsapp": "2026-09-28T19:04:43.629947"
+    },
+    "precio": 969.0,
+    "precios_publicados": [
+      969.0
     ]
   }
 }
