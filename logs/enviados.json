@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 189.0
   },
-  "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
-    "ts": "2026-09-26T17:30:24.975205",
-    "canales": {
-      "whatsapp": "2026-09-26T17:30:24.975205"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "ml-jogo-de-panelas-fundo-triplo-inducao-15-pecas": {
     "ts": "2026-09-26T17:37:41.586578",
     "canales": {
@@ -1036,14 +1026,16 @@
     ]
   },
   "ml-parafusadeira-furadeira-de-impacto-the-black-": {
-    "ts": "2026-09-27T14:54:38.791829",
+    "ts": "2026-09-28T17:32:13.449559",
     "canales": {
-      "whatsapp": "2026-09-27T14:54:38.791829"
+      "whatsapp": "2026-09-28T17:32:13.449559"
     },
-    "precio": 169.0,
+    "precio": 159.0,
     "precios_publicados": [
-      169.0
-    ]
+      169.0,
+      159.0
+    ],
+    "precio_min_publicado": 169.0
   },
   "ml-power-bank-turbo-portatil-20000mah-turbo-225w": {
     "ts": "2026-09-27T14:57:38.491658",
