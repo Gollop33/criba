@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 1633.0
   },
-  "ml-patinete-eletrico-triciclo-infantil-drift-350": {
-    "ts": "2026-09-26T23:53:01.565408",
-    "canales": {
-      "whatsapp": "2026-09-26T23:53:01.565408"
-    },
-    "precio": 846.0,
-    "precios_publicados": [
-      846.0
-    ]
-  },
   "amz-cabo-usb-para-lightning-reforcado-1m-compativ": {
     "ts": "2026-09-27T00:01:27.202087",
     "canales": {
@@ -2279,6 +2269,16 @@
     "precio": 849.0,
     "precios_publicados": [
       849.0
+    ]
+  },
+  "ml-smartphone-realme-c75-5g-256gb-8gb-ram-storm-": {
+    "ts": "2026-09-28T23:54:28.473641",
+    "canales": {
+      "whatsapp": "2026-09-28T23:54:28.473641"
+    },
+    "precio": 1499.0,
+    "precios_publicados": [
+      1499.0
     ]
   }
 }
