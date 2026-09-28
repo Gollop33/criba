@@ -190,16 +190,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "ml-lixeira-inteligente-automatica-redonda-recarr": {
-    "ts": "2026-09-26T00:54:16.306417",
-    "canales": {
-      "whatsapp": "2026-09-26T00:54:16.306417"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
     "ts": "2026-09-26T13:05:16.398478",
     "canales": {
@@ -611,14 +601,16 @@
     ]
   },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-09-26T16:48:43.790554",
+    "ts": "2026-09-28T00:59:57.993623",
     "canales": {
-      "whatsapp": "2026-09-26T16:48:43.790554"
+      "whatsapp": "2026-09-28T00:59:57.993623"
     },
     "precio": 1233.0,
     "precios_publicados": [
+      1233.0,
       1233.0
-    ]
+    ],
+    "precio_min_publicado": 1233.0
   },
   "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
     "ts": "2026-09-26T16:54:17.752009",
