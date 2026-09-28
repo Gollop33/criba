@@ -190,16 +190,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
-    "ts": "2026-09-26T00:38:43.414735",
-    "canales": {
-      "whatsapp": "2026-09-26T00:38:43.414735"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "ml-petskin-suplemento-natural-caes-gatos-dermati": {
     "ts": "2026-09-26T00:43:52.166870",
     "canales": {
@@ -2464,6 +2454,16 @@
     "precio": 155.0,
     "precios_publicados": [
       155.0
+    ]
+  },
+  "ml-smart-tv-43-philco-p43vik-roku-led-dolby-audi": {
+    "ts": "2026-09-28T00:41:35.163555",
+    "canales": {
+      "whatsapp": "2026-09-28T00:41:35.163555"
+    },
+    "precio": 1449.0,
+    "precios_publicados": [
+      1449.0
     ]
   }
 }
