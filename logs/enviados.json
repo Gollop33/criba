@@ -37,18 +37,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "ml-cadeira-de-escritorio-italia-presidente-ergon": {
-    "ts": "2026-09-26T21:59:34.369807",
-    "canales": {
-      "whatsapp": "2026-09-26T21:59:34.369807"
-    },
-    "precio": 579.0,
-    "precios_publicados": [
-      579.0,
-      579.0
-    ],
-    "precio_min_publicado": 579.0
-  },
   "amz-ximodot-monitor-portatil-de-156-polegadas-con": {
     "ts": "2026-09-27T14:56:26.750584",
     "canales": {
@@ -204,16 +192,6 @@
       135.0
     ],
     "precio_min_publicado": 135.0
-  },
-  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
-    "ts": "2026-09-26T22:03:17.419949",
-    "canales": {
-      "whatsapp": "2026-09-26T22:03:17.419949"
-    },
-    "precio": 119.0,
-    "precios_publicados": [
-      119.0
-    ]
   },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-09-26T22:18:07.700459",
@@ -2229,6 +2207,16 @@
     "precio": 385.0,
     "precios_publicados": [
       385.0
+    ]
+  },
+  "ml-calcado-bb80-soft-works-sapato-enfermagem-coz": {
+    "ts": "2026-09-28T22:05:08.463778",
+    "canales": {
+      "whatsapp": "2026-09-28T22:05:08.463778"
+    },
+    "precio": 90.0,
+    "precios_publicados": [
+      90.0
     ]
   }
 }
