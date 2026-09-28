@@ -35,18 +35,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-09-26T15:49:11.340800",
-    "canales": {
-      "whatsapp": "2026-09-26T15:49:11.340800"
-    },
-    "precio": 787.0,
-    "precios_publicados": [
-      860.0,
-      787.0
-    ],
-    "precio_min_publicado": 860.0
-  },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
     "ts": "2026-09-26T20:25:43.406910",
     "canales": {
@@ -202,16 +190,6 @@
       776.0
     ],
     "precio_min_publicado": 776.0
-  },
-  "ml-microfone-sem-fio-jbl-partybox-profissional-d": {
-    "ts": "2026-09-26T15:52:41.392872",
-    "canales": {
-      "whatsapp": "2026-09-26T15:52:41.392872"
-    },
-    "precio": 633.0,
-    "precios_publicados": [
-      633.0
-    ]
   },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
     "ts": "2026-09-26T15:58:14.608511",
@@ -970,14 +948,16 @@
     ]
   },
   "ml-cadeira-de-escritorio-giratoria-homenow-colum": {
-    "ts": "2026-09-26T23:18:56.739323",
+    "ts": "2026-09-28T15:55:23.145603",
     "canales": {
-      "whatsapp": "2026-09-26T23:18:56.739323"
+      "whatsapp": "2026-09-28T15:55:23.145603"
     },
     "precio": 298.0,
     "precios_publicados": [
+      298.0,
       298.0
-    ]
+    ],
+    "precio_min_publicado": 298.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
     "ts": "2026-09-26T23:22:15.157727",
