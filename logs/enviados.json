@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "ml-patinete-eletrico-gm5-p1-preto-dobravel-com-b": {
-    "ts": "2026-09-27T22:42:26.659665",
-    "canales": {
-      "whatsapp": "2026-09-27T22:42:26.659665"
-    },
-    "precio": 1159.0,
-    "precios_publicados": [
-      1159.0
-    ]
-  },
   "ml-principia-kit-c-2-protetor-solar-facial-ps01-": {
     "ts": "2026-09-27T22:47:29.758744",
     "canales": {
@@ -2352,6 +2342,16 @@
     "precio": 152.0,
     "precios_publicados": [
       152.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-09-29T22:42:46.108023",
+    "canales": {
+      "whatsapp": "2026-09-29T22:42:46.108023"
+    },
+    "precio": 950.0,
+    "precios_publicados": [
+      950.0
     ]
   }
 }
