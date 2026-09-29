@@ -266,16 +266,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-the-last-of-us-part-ii-playstation-4": {
-    "ts": "2026-09-27T21:32:02.837809",
-    "canales": {
-      "whatsapp": "2026-09-27T21:32:02.837809"
-    },
-    "precio": 88.0,
-    "precios_publicados": [
-      88.0
-    ]
-  },
   "ml-cama-elastica-pula-pula-infantil-trampolim-14": {
     "ts": "2026-09-27T21:36:53.718438",
     "canales": {
@@ -2322,6 +2312,16 @@
     "precio": 106.0,
     "precios_publicados": [
       106.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
+    "ts": "2026-09-29T21:32:10.319118",
+    "canales": {
+      "whatsapp": "2026-09-29T21:32:10.319118"
+    },
+    "precio": 2740.0,
+    "precios_publicados": [
+      2740.0
     ]
   }
 }
