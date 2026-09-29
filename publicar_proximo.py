@@ -334,14 +334,43 @@ def publicar_un_post(es_test=False):
         print("  [Fila] Todos los posts ya fueron enviados en la ventana anti-repetición.")
         return False, None, None
 
-    # Regla de Oro + agente de calidad: se elige el primer candidato cuyo link
-    # monetice Y funcione de verdad. Si un link está roto se pasa al siguiente
-    # en vez de publicar algo que no lleva a ninguna parte.
+    # Regla de Oro + agente de calidad + VALIDADOR: se elige el primer candidato
+    # que pase TODAS las puertas.
+    #
+    # El validador se ejecuta AQUÍ, en el momento de enviar, no al generar la
+    # fila. Esa es la diferencia clave: la fila se generó hace horas, y en esas
+    # horas el precio puede haber cambiado, el cupón haber vencido o el enlace
+    # haberse quedado viejo. Antes se validaba al generar y el bucle publicaba
+    # 5,5 h después con datos caducados (de ahí los cupones vencidos en el
+    # canal). Ahora cada envío se valida contra el estado REAL del momento.
     cookie_portal = os.environ.get("ML_PORTAL_COOKIE", "").strip()
     post_a_enviar = None
     link_final = None
+    try:
+        from validador_oferta import validar_oferta, cargar_cupones as _cargar_cupones
+        _cupones_validacion = _cargar_cupones()
+    except Exception as e:
+        _cupones_validacion = {}
+        print(f"  [Validador] no disponible: {e}")
+
     for cand in candidatos:
         tit_c = cand.get("titulo", "")
+
+        # ── PUERTA 0: VALIDADOR (producto → enlace → cupón → PIX) ──────────
+        if _cupones_validacion is not None:
+            try:
+                ok_val, motivo_val, cand_limpio = validar_oferta(
+                    cand, _cupones_validacion)
+            except Exception as e:
+                ok_val, motivo_val, cand_limpio = True, f"validador falló: {e}", cand
+            if not ok_val:
+                print(f"  ⛔ [VALIDACIÓN] RECHAZADO: {tit_c[:44]}")
+                print(f"     Motivo: {motivo_val}")
+                continue
+            if motivo_val:
+                print(f"  ✔️  [VALIDACIÓN] {motivo_val[:80]}")
+            cand = cand_limpio
+
         lf = resolver_link_afiliado(cand.get("url", ""), cand.get("loja", ""), cookie_portal)
         if lf is None:
             print(f"  ⏭️  [Regla de Oro] /go/ no monetiza: {tit_c[:45]}")

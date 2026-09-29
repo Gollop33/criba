@@ -86,6 +86,20 @@ jobs:
           git config user.email "bot@users.noreply.github.com"
           git pull --ff-only origin main || echo "aviso: no se pudo fast-forward, se sigue con el estado del checkout"
 
+      # ── RESET DIARIO: cierra el día anterior y abre el nuevo ──────────────
+      # Se ejecuta el PRIMER run de cada día (hora de Brasilia). No depende de
+      # que el cron caiga a las 08:00 exactas: si GitHub retrasa el schedule
+      # (se midió una mediana de 174 min), el reset ocurre igual en cuanto el
+      # bot vuelve a correr. Archiva el día anterior en logs/historial/, vacía
+      # la fila para que se regenere con datos nuevos y marca los cupones
+      # vencidos. NUNCA borra logs/enviados.json ni precios.db.
+      - name: reset diario del ciclo
+        continue-on-error: true
+        run: python reset_diario.py
+        env:
+          HORA_RESET_BRT: "8"
+          DIAS_TEMPORALES: "7"
+
       # ── Telegram: cupones y ofertas EN TIEMPO REAL ─────────────────────────
       # Lee el canal oficial de afiliados de Mercado Livre y los grupos de
       # ofertas donde esté el usuario. Los cupones de ML duran horas, así que
@@ -190,6 +204,18 @@ jobs:
         run: python verificar_producto.py --fila
         env:
           ML_ACCESS_TOKEN: ${{ secrets.ML_ACCESS_TOKEN }}
+
+      # ── Pruebas del validador: que no se publiquen combinaciones malas ────
+      # 20 escenarios: cupón de otra tienda, cupón de otra categoría, cupón
+      # vencido, enlace equivocado, enlace /go/, PIX inventado, datos viejos...
+      - name: pruebas del validador
+        continue-on-error: true
+        run: python probar_validador.py
+
+      # ── Auditoría de la fila con el validador (deja rastro en el log) ─────
+      - name: auditar la fila con el validador
+        continue-on-error: true
+        run: python validador_oferta.py --auditar
 
       # ── Redes sociales: Facebook Página + Instagram ───────────────────────
       # API OFICIAL de Meta. Se publica 1 achado por ejecución (~5 al día), que
