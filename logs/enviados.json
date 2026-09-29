@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-09-27T20:10:03.478878",
-    "canales": {
-      "whatsapp": "2026-09-27T20:10:03.478878"
-    },
-    "precio": 1898.0,
-    "precios_publicados": [
-      1898.0
-    ]
-  },
   "ml-roku-streaming-stick-2025-para-tv-hdfhd-contr": {
     "ts": "2026-09-27T20:19:15.690540",
     "canales": {
@@ -2326,6 +2316,16 @@
     "precio": 459.0,
     "precios_publicados": [
       459.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s11-wifi-256gb-12gb": {
+    "ts": "2026-09-29T20:10:06.043749",
+    "canales": {
+      "whatsapp": "2026-09-29T20:10:06.043749"
+    },
+    "precio": 5509.0,
+    "precios_publicados": [
+      5509.0
     ]
   }
 }
