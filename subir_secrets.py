@@ -121,6 +121,7 @@ def main():
         ("ML_REFRESH_TOKEN", "ML_REFRESH_TOKEN"),
         ("ML_APP_ID", "ML_APP_ID"),
         ("ML_CLIENT_SECRET", "ML_CLIENT_SECRET"),
+        ("ML_REDIRECT_URI", "ML_REDIRECT_URI"),
         ("META_ACCESS_TOKEN", "META_ACCESS_TOKEN"),
         ("META_PAGE_ID", "META_PAGE_ID"),
         ("IG_USER_ID", "IG_USER_ID"),

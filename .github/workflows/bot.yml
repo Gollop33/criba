@@ -193,6 +193,20 @@ jobs:
         env:
           MAX_MONITOR: "60"
 
+      # ── Renovar el token de ML (dura 6 h) ─────────────────────────────────
+      # El access_token de Mercado Livre caduca cada 6 horas. Con el
+      # refresh_token se renueva sin navegador ni intervención humana. Si no hay
+      # refresh_token (o falla), el paso no rompe nada: el verificador
+      # simplemente se salta la verificación.
+      - name: renovar token de Mercado Livre
+        if: github.event.inputs.modo != 'publicar'
+        continue-on-error: true
+        run: python obtener_token_ml.py --renovar
+        env:
+          ML_APP_ID: ${{ secrets.ML_APP_ID }}
+          ML_CLIENT_SECRET: ${{ secrets.ML_CLIENT_SECRET }}
+          ML_REFRESH_TOKEN: ${{ secrets.ML_REFRESH_TOKEN }}
+
       # ── Verificador real de producto (necesita ML_ACCESS_TOKEN) ───────────
       # Comprueba precio, stock y Pix contra la API OFICIAL de Mercado Livre.
       # Sin token no hace nada: ML bloquea el acceso anónimo (403) y las fichas
