@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "ml-projetor-hy320-mini-portatil-hardline-smart-t": {
-    "ts": "2026-09-27T18:55:34.011618",
-    "canales": {
-      "whatsapp": "2026-09-27T18:55:34.011618"
-    },
-    "precio": 228.0,
-    "precios_publicados": [
-      228.0
-    ]
-  },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
     "ts": "2026-09-29T17:19:30.049098",
     "canales": {
@@ -2322,6 +2312,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "ml-nobreak-intelbras-attiv-1200va-entrada-bivolt": {
+    "ts": "2026-09-29T18:58:45.749851",
+    "canales": {
+      "whatsapp": "2026-09-29T18:58:45.749851"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
