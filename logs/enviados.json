@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 799.0
   },
-  "ml-caneta-aplicadora-de-insulina-refil-ajustavel": {
-    "ts": "2026-09-27T22:12:28.988282",
-    "canales": {
-      "whatsapp": "2026-09-27T22:12:28.988282"
-    },
-    "precio": 152.0,
-    "precios_publicados": [
-      152.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-09-29T00:50:53.282422",
     "canales": {
@@ -2332,6 +2322,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "ml-biscottino-56-cacau-caramelo-salgado-haoma-la": {
+    "ts": "2026-09-29T22:17:43.958004",
+    "canales": {
+      "whatsapp": "2026-09-29T22:17:43.958004"
+    },
+    "precio": 111.0,
+    "precios_publicados": [
+      111.0
     ]
   }
 }
