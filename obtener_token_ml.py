@@ -52,7 +52,16 @@ TOKEN_URL = "https://api.mercadolibre.com/oauth/token"
 # Scopes que necesita el bot: leer items y productos del catálogo.
 # `offline_access` es OBLIGATORIO para recibir refresh_token (si no, el token
 # dura 6 h y no se puede renovar solo: habría que repetir todo a mano cada 6 h).
-SCOPES = "offline_access read"
+#
+# NOTA: en el devcenter nuevo las PERMISSÕES se marcan en el formulario del app
+# (Publicação e sincronização -> Leitura, Promoções/cupons -> Leitura). El
+# parámetro `scope` de la URL tiene que ser coherente con lo que se marcó allí.
+SCOPES = os.environ.get("ML_SCOPES", "offline_access read").strip()
+
+# Redirect por defecto: tiene que ser una URL REAL con dominio (ML rechaza
+# "https://localhost" con "O endereço deve ser válido"). Se usa el dominio del
+# proyecto, que ademas tiene la pagina ml-oauth.html que muestra el code grande.
+REDIRECT_POR_DEFECTO = "https://achadinhosnozap.com.br/ml-oauth.html"
 
 
 def leer_env():

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autorização Mercado Livre · CRIBA</title>
+<meta name="robots" content="noindex, nofollow">
+<style>
+  :root{--bg:#0b0f14;--card:#131a22;--tx:#e8eef6;--mut:#8b9bb0;--ok:#12b76a;--wa:#ff5c1c;--er:#f04438}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--tx);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+       min-height:100vh;display:flex;align-items:center;justify-content:center;padding:22px}
+  .w{max-width:660px;width:100%}
+  .logo{text-align:center;margin-bottom:26px}
+  .logo b{font-size:1.9rem;letter-spacing:-.5px}
+  .logo b span{color:var(--wa)}
+  .logo p{color:var(--mut);font-size:.9rem;margin-top:6px}
+  .card{background:var(--card);border:1px solid #1f2a36;border-radius:16px;padding:28px}
+  h1{font-size:1.25rem;margin-bottom:6px}
+  .sub{color:var(--mut);font-size:.92rem;margin-bottom:22px;line-height:1.55}
+  .estado{display:flex;align-items:center;gap:10px;padding:14px 16px;border-radius:11px;
+          font-weight:600;margin-bottom:20px;font-size:.95rem}
+  .estado.ok{background:rgba(18,183,106,.12);color:#4ade80;border:1px solid rgba(18,183,106,.32)}
+  .estado.er{background:rgba(240,68,56,.12);color:#fca5a5;border:1px solid rgba(240,68,56,.32)}
+  .estado.es{background:rgba(139,155,176,.12);color:var(--mut);border:1px solid #263140}
+  .code{background:#080c10;border:1px solid #263140;border-radius:12px;padding:18px;
+        font-family:ui-monospace,"SF Mono",Consolas,monospace;font-size:.95rem;word-break:break-all;
+        line-height:1.6;margin-bottom:14px;user-select:all}
+  .code .lbl{color:var(--mut);font-size:.76rem;text-transform:uppercase;letter-spacing:.09em;
+             display:block;margin-bottom:8px;font-family:system-ui}
+  .code .val{color:#4ade80;font-weight:600}
+  button{width:100%;background:var(--ok);color:#04120a;border:0;border-radius:11px;padding:15px;
+         font-size:1rem;font-weight:700;cursor:pointer;transition:filter .15s}
+  button:hover{filter:brightness(1.1)}
+  button.sec{background:#1f2a36;color:var(--tx);margin-top:10px}
+  .paso{background:#0e141b;border-left:3px solid var(--wa);border-radius:8px;padding:14px 16px;
+        margin-top:20px;font-size:.88rem;color:var(--mut);line-height:1.65}
+  .paso b{color:var(--tx)}
+  code{background:#080c10;padding:2px 7px;border-radius:5px;font-size:.86em;color:#ffd9a0;
+       font-family:ui-monospace,Consolas,monospace}
+  .aviso{margin-top:18px;font-size:.82rem;color:var(--mut);text-align:center;line-height:1.6}
+</style>
+</head>
+<body>
+<div class="w">
+  <div class="logo">
+    <b>CRI<span>BA</span></b>
+    <p>Autorização da API do Mercado Livre</p>
+  </div>
+
+  <div class="card">
+    <h1>Resultado da autorização</h1>
+    <p class="sub">Esta página recebe a resposta do Mercado Livre. Não guarda nada:
+       o código aparece aqui e você copia para o seu terminal.</p>
+
+    <div id="estado" class="estado es">Verificando…</div>
+
+    <div id="caja" style="display:none">
+      <div class="code">
+        <span class="lbl">Código de autorização (code)</span>
+        <span class="val" id="code"></span>
+      </div>
+      <button id="copiar">📋 Copiar código</button>
+      <div class="paso">
+        <b>Último passo.</b> No seu computador, execute:<br><br>
+        <code id="cmd">python obtener_token_ml.py --code SEU_CODE</code><br><br>
+        <b>Atenção:</b> este código <b>dura 10 minutos</b> e só pode ser usado
+        <b>uma vez</b>. Se demorar, repita a autorização.
+      </div>
+    </div>
+
+    <div id="error" style="display:none">
+      <div class="paso">
+        <b>O Mercado Livre não devolveu um código.</b><br><br>
+        Motivos comuns:<br>
+        • Você cancelou a autorização<br>
+        • A URL de redirecionamento não coincide com a cadastrada no app<br><br>
+        Volte e repita a autorização a partir do passo 2:
+        <code>python obtener_token_ml.py --paso2</code>
+      </div>
+    </div>
+  </div>
+
+  <p class="aviso">Página técnica do sistema CRIBA · não indexada · não armazena dados</p>
+</div>
+
+<script>
+(function(){
+  var q = new URLSearchParams(location.search);
+  var code = q.get('code');
+  var err  = q.get('error');
+  var est  = document.getElementById('estado');
+
+  if(code){
+    est.className = 'estado ok';
+    est.textContent = '✅ Autorizado! Copie o código abaixo.';
+    document.getElementById('caja').style.display = 'block';
+    document.getElementById('code').textContent = code;
+    document.getElementById('cmd').textContent =
+      'python obtener_token_ml.py --code ' + code;
+    document.title = '✅ Autorizado · CRIBA';
+    document.getElementById('copiar').onclick = function(){
+      var b = this;
+      navigator.clipboard.writeText(code).then(function(){
+        b.textContent = '✅ Copiado!';
+        setTimeout(function(){ b.textContent = '📋 Copiar código'; }, 2200);
+      }).catch(function(){
+        var r = document.createRange();
+        r.selectNodeContents(document.getElementById('code'));
+        var s = getSelection(); s.removeAllRanges(); s.addRange(r);
+        b.textContent = 'Selecionado — use Ctrl+C';
+      });
+    };
+  } else if(err){
+    est.className = 'estado er';
+    est.textContent = '❌ Autorização recusada (' + err + ')';
+    document.getElementById('error').style.display = 'block';
+  } else {
+    est.className = 'estado es';
+    est.textContent = 'Sin código en la URL. ¿Llegaste aquí por error?';
+    document.getElementById('error').style.display = 'block';
+  }
+})();
+</script>
+</body>
+</html>
