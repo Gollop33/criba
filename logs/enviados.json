@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 234.0
   },
-  "ml-positivo-vision-tab10-t3010-4gb-ram-128gb-ssd": {
-    "ts": "2026-09-27T17:33:33.269535",
-    "canales": {
-      "whatsapp": "2026-09-27T17:33:33.269535"
-    },
-    "precio": 1044.0,
-    "precios_publicados": [
-      1044.0
-    ]
-  },
   "amz-filtrorefil-original-de-agua-para-purificador": {
     "ts": "2026-09-27T17:42:01.224662",
     "canales": {
@@ -2334,6 +2324,16 @@
     "precio": 48.0,
     "precios_publicados": [
       48.0
+    ]
+  },
+  "ml-whey-protein-concentrado-100-900g-refil-dark-": {
+    "ts": "2026-09-29T17:37:01.509788",
+    "canales": {
+      "whatsapp": "2026-09-29T17:37:01.509788"
+    },
+    "precio": 132.0,
+    "precios_publicados": [
+      132.0
     ]
   }
 }
