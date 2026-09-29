@@ -110,18 +110,6 @@
     ],
     "precio_min_publicado": 1233.0
   },
-  "ml-jogo-de-panelas-antiaderentes-10-pecas-baunil": {
-    "ts": "2026-09-27T20:35:34.615570",
-    "canales": {
-      "whatsapp": "2026-09-27T20:35:34.615570"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0,
-      189.0
-    ],
-    "precio_min_publicado": 189.0
-  },
   "ml-tenis-sandrini-aero-spark-corrida-academia-ca": {
     "ts": "2026-09-27T23:42:35.313270",
     "canales": {
@@ -289,16 +277,6 @@
       62.0
     ],
     "precio_min_publicado": 61.0
-  },
-  "amz-tablet-xiaomi-redmi-pad-2-pro-tela-121-wifi-2": {
-    "ts": "2026-09-27T20:33:54.638011",
-    "canales": {
-      "whatsapp": "2026-09-27T20:33:54.638011"
-    },
-    "precio": 1999.0,
-    "precios_publicados": [
-      1999.0
-    ]
   },
   "ml-creatina-soldiers-nutrition-em-po-sem-sabor-x": {
     "ts": "2026-09-27T20:44:00.590384",
@@ -2326,6 +2304,16 @@
     "precio": 70.0,
     "precios_publicados": [
       70.0
+    ]
+  },
+  "amz-placamae-msi-b550m-provdh-wifi-am4-matx-supor": {
+    "ts": "2026-09-29T20:40:54.487479",
+    "canales": {
+      "whatsapp": "2026-09-29T20:40:54.487479"
+    },
+    "precio": 804.0,
+    "precios_publicados": [
+      804.0
     ]
   }
 }
