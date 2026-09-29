@@ -290,26 +290,6 @@
     ],
     "precio_min_publicado": 1812.0
   },
-  "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
-    "ts": "2026-09-27T16:02:12.118307",
-    "canales": {
-      "whatsapp": "2026-09-27T16:02:12.118307"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0
-    ]
-  },
-  "ml-smartphone-motorola-edge-60-pro-5g-256gb-12gb": {
-    "ts": "2026-09-27T16:06:02.125244",
-    "canales": {
-      "whatsapp": "2026-09-27T16:06:02.125244"
-    },
-    "precio": 2249.0,
-    "precios_publicados": [
-      2249.0
-    ]
-  },
   "amz-garrafa-termica-750ml-24h-gelada-alca-paracor": {
     "ts": "2026-09-27T16:12:22.287159",
     "canales": {
@@ -2354,6 +2334,16 @@
     "precio": 51.0,
     "precios_publicados": [
       51.0
+    ]
+  },
+  "ml-placa-mae-gigabyte-b550m-aorus-elite-am4-ddr4": {
+    "ts": "2026-09-29T16:07:45.204622",
+    "canales": {
+      "whatsapp": "2026-09-29T16:07:45.204622"
+    },
+    "precio": 646.0,
+    "precios_publicados": [
+      646.0
     ]
   }
 }
