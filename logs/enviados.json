@@ -642,14 +642,16 @@
     ]
   },
   "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
-    "ts": "2026-09-27T17:52:02.545357",
+    "ts": "2026-09-29T00:27:13.149380",
     "canales": {
-      "whatsapp": "2026-09-27T17:52:02.545357"
+      "whatsapp": "2026-09-29T00:27:13.149380"
     },
     "precio": 2463.0,
     "precios_publicados": [
+      2463.0,
       2463.0
-    ]
+    ],
+    "precio_min_publicado": 2463.0
   },
   "amz-max-titanium-creatina-300-gr-monohidratada": {
     "ts": "2026-09-27T17:59:42.897243",
