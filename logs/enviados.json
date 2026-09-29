@@ -266,16 +266,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
-    "ts": "2026-09-27T21:48:49.743193",
-    "canales": {
-      "whatsapp": "2026-09-27T21:48:49.743193"
-    },
-    "precio": 286.0,
-    "precios_publicados": [
-      286.0
-    ]
-  },
   "amz-kindle-16-gb-geracao-mais-recente-leve-e-comp": {
     "ts": "2026-09-29T20:57:47.051023",
     "canales": {
@@ -2332,6 +2322,16 @@
     "precio": 104.0,
     "precios_publicados": [
       104.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
+    "ts": "2026-09-29T21:54:14.334572",
+    "canales": {
+      "whatsapp": "2026-09-29T21:54:14.334572"
+    },
+    "precio": 1799.0,
+    "precios_publicados": [
+      1799.0
     ]
   }
 }
