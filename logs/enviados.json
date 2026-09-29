@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-ea-sports-fc-27-playstation-5": {
-    "ts": "2026-09-27T22:45:35.053640",
-    "canales": {
-      "whatsapp": "2026-09-27T22:45:35.053640"
-    },
-    "precio": 349.0,
-    "precios_publicados": [
-      349.0,
-      349.0
-    ],
-    "precio_min_publicado": 349.0
-  },
   "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
     "ts": "2026-09-28T00:03:49.773746",
     "canales": {
@@ -289,16 +277,6 @@
       959.0
     ],
     "precio_min_publicado": 1080.0
-  },
-  "ml-principia-kit-c-2-protetor-solar-facial-ps01-": {
-    "ts": "2026-09-27T22:47:29.758744",
-    "canales": {
-      "whatsapp": "2026-09-27T22:47:29.758744"
-    },
-    "precio": 48.0,
-    "precios_publicados": [
-      48.0
-    ]
   },
   "amz-xiaomi-tablet-redmi-pad-2-de-8-gb-256-gb-tela": {
     "ts": "2026-09-27T22:52:42.812855",
@@ -575,14 +553,16 @@
     ]
   },
   "ml-smart-tv-4k-50-lg-nano-uhd-ai-nu850-2026-proc": {
-    "ts": "2026-09-28T15:28:30.584020",
+    "ts": "2026-09-29T22:51:30.730886",
     "canales": {
-      "whatsapp": "2026-09-28T15:28:30.584020"
+      "whatsapp": "2026-09-29T22:51:30.730886"
     },
     "precio": 2276.0,
     "precios_publicados": [
+      2276.0,
       2276.0
-    ]
+    ],
+    "precio_min_publicado": 2276.0
   },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
     "ts": "2026-09-28T15:32:35.855827",
