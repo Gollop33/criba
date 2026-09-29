@@ -265,16 +265,6 @@
     ],
     "precio_min_publicado": 35.0
   },
-  "ml-kit-24-pedigree-sache-caramelo-ad-churrasco-r": {
-    "ts": "2026-09-27T00:47:01.096516",
-    "canales": {
-      "whatsapp": "2026-09-27T00:47:01.096516"
-    },
-    "precio": 65.0,
-    "precios_publicados": [
-      65.0
-    ]
-  },
   "amz-lyor-frigideira-de-inducao-em-aluminio-com-re": {
     "ts": "2026-09-27T00:55:05.314595",
     "canales": {
@@ -1054,14 +1044,16 @@
     ]
   },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-09-27T22:18:03.011376",
+    "ts": "2026-09-29T00:50:53.282422",
     "canales": {
-      "whatsapp": "2026-09-27T22:18:03.011376"
+      "whatsapp": "2026-09-29T00:50:53.282422"
     },
-    "precio": 1080.0,
+    "precio": 959.0,
     "precios_publicados": [
-      1080.0
-    ]
+      1080.0,
+      959.0
+    ],
+    "precio_min_publicado": 1080.0
   },
   "ml-baba-eletronica-baby-monitor-43-sfio-camera-r": {
     "ts": "2026-09-27T22:26:37.242339",
