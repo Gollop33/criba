@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 1633.0
   },
-  "ml-tapete-higienico-com-carvao-ativado-50-unidad": {
-    "ts": "2026-09-27T00:16:10.198688",
-    "canales": {
-      "whatsapp": "2026-09-27T00:16:10.198688"
-    },
-    "precio": 53.0,
-    "precios_publicados": [
-      53.0
-    ]
-  },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
     "ts": "2026-09-28T15:22:01.888137",
     "canales": {
@@ -2269,6 +2259,16 @@
     "precio": 227.0,
     "precios_publicados": [
       227.0
+    ]
+  },
+  "ml-tenis-kappa-pulse-supra-masculino-feminino": {
+    "ts": "2026-09-29T00:18:11.193461",
+    "canales": {
+      "whatsapp": "2026-09-29T00:18:11.193461"
+    },
+    "precio": 130.0,
+    "precios_publicados": [
+      130.0
     ]
   }
 }
