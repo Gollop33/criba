@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 234.0
   },
-  "amz-filtrorefil-original-de-agua-para-purificador": {
-    "ts": "2026-09-27T17:42:01.224662",
-    "canales": {
-      "whatsapp": "2026-09-27T17:42:01.224662"
-    },
-    "precio": 57.0,
-    "precios_publicados": [
-      57.0
-    ]
-  },
   "ml-container-porta-racao-15kg-impermeavel-cor-pr": {
     "ts": "2026-09-27T17:47:18.190408",
     "canales": {
@@ -2334,6 +2324,16 @@
     "precio": 132.0,
     "precios_publicados": [
       132.0
+    ]
+  },
+  "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
+    "ts": "2026-09-29T17:44:18.140561",
+    "canales": {
+      "whatsapp": "2026-09-29T17:44:18.140561"
+    },
+    "precio": 65.0,
+    "precios_publicados": [
+      65.0
     ]
   }
 }
