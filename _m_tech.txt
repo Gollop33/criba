@@ -1,0 +1,65 @@
+fix(cupones): TECH20 aparecia en TODAS las publicaciones de Amazon — causa raiz
+
+REPORTADO POR EL USUARIO: 'el cupon TECH20 sale en todas las publicaciones de
+Amazon y no es cupon de alli, es de Mercado Libre y ademas esta viejo y expiro'.
+
+CONFIRMADO Y ARREGLADO. Eran TRES problemas encadenados:
+
+1. TECH20 ESTABA MAL CATALOGADO. En cupones.json figuraba con
+   tienda='Amazon', titulo='Cupons de Tecnologia e Informatica', 20% OFF y
+   hasta=2026-10-01. No tenia `fonte`: era una entrada manual vieja.
+
+2. ERA EL UNICO CUPON DE 'AMAZON' DEL CATALOGO. Al elegir cupon para un producto
+   de Amazon, era el unico candidato y se le asignaba al 100% de los posts de
+   Amazon. Por eso salia 'en todas'.
+
+3. NINGUN SCRIPT LO LIMPIABA NUNCA. Esta es la causa raiz de verdad:
+     cupones_pelando.py:  existentes = [c for c in ... if c.get('fonte') != 'Pelando']
+     leer_telegram.py:    por_codigo[cod] = cup ... (conservaba todo lo anterior)
+   Con fonte=None, la condicion `None != 'Pelando'` es True, asi que el cupon
+   huerfano se RESUCITABA en cada ejecucion. Nunca caducaba ni se borraba.
+   Y `fuentes: ['Manual','Pelando']` estaba escrito a mano, asi que el fichero
+   mentia sobre su propio origen (los cupones eran de Telegram).
+
+ARREGLO:
+ - validador_oferta.py: nueva regla cupon_confiable(). Un cupon se usa solo si
+   tiene codigo, tienda reconocible, FUENTE trazable y no esta caducado.
+   Y limpiar_cupones() para que los escritores filtren antes de guardar.
+ - cupones_pelando.py y leer_telegram.py: aplican limpiar_cupones() antes de
+   reescribir. Los huerfanos ya no se resucitan.
+ - validador_oferta.py: _validar_cupon() rechaza cupones sin fuente (ultima
+   barrera, por si alguno entra por otra via).
+ - `fuentes` ahora se calcula de los datos reales en vez de escribirse a mano.
+
+LIMPIEZA DE cupones.json (34 -> 24):
+    X TECH20         SIN FUENTE     <- el reportado
+    X GAMER10        SIN FUENTE
+    X NOVO10         SIN FUENTE
+    X APROVEITAHOJE  caducado 26/09
+    X OFFMLHOJE      caducado 25/09
+    X BELEZA20       caducado 25/09
+    X EPISOL15       caducado 28/09
+    X EPIDRAT15      caducado 28/09
+    X OFERTASHOJE    caducado 27/09
+    X HOJETEMPROMO   caducado 28/09
+  Quedan 24, todos de 'Telegram ML Afiliados' y todos de Mercado Livre.
+
+VERIFICADO en la fila regenerada (344 posts):
+    con TECH20              : 0        (antes: todos los de Amazon)
+    posts de Amazon         : 150
+    de esos, con cupon      : 0        <- correcto: no hay cupones de Amazon
+    tiendas con cupon       : 194x Mercado Livre
+Los de Amazon salen SIN cupon, que es lo honesto: no tenemos ningun cupon de
+Amazon verificado. Antes se rellenaba el hueco con uno inventado.
+
+pruebas: 23/23 (antes 20). Nuevas:
+   15. Producto Amazon + TECH20 sin fuente -> se descarta el cupon.
+   15b. Producto Amazon + cupon de Amazon CON fuente -> se acepta.
+   16. limpiar_cupones(): de 5 entradas mezcla, conserva 1 y descarta 4
+       (sin fuente, caducado, sin tienda y basura).
+
+SOBRE LA DETECCION POR TELEGRAM: funciona y esta bien. El workflow ejecuta
+`python leer_telegram.py --horas 12` en cada corrida, lee el canal oficial
+'Afiliados e Criadores Mercado Livre Brasil', y los 24 cupones que quedan en
+cupones.json vienen de ahi con fonte='Telegram ML Afiliados'. Lo que fallaba no
+era la deteccion, era la LIMPIEZA: nada borraba lo viejo.

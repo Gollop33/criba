@@ -1,43 +1,10 @@
 {
   "actualizado": "2026-09-29T13:33:03+00:00",
-  "total": 34,
+  "total": 24,
   "fuentes": [
-    "Manual",
-    "Pelando"
+    "Telegram ML Afiliados"
   ],
   "cupones": [
-    {
-      "tienda": "Mercado Livre",
-      "titulo": "10% OFF em Tecnologia",
-      "codigo": "APROVEITAHOJE",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "vencimento": "2026-09-26",
-      "hasta": "2026-09-26",
-      "estado": "vencido",
-      "categoria": "Tecnologia",
-      "fonte": "Telegram ML Afiliados",
-      "vigente": false,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "detectado_em": "2026-09-26T12:03:43+00:00"
-    },
-    {
-      "tienda": "Mercado Livre",
-      "titulo": "10% OFF em Tecnologia",
-      "codigo": "OFFMLHOJE",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "vencimento": "2026-09-25",
-      "hasta": "2026-09-25",
-      "estado": "vencido",
-      "categoria": "Tecnologia",
-      "fonte": "Telegram ML Afiliados",
-      "vigente": false,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "detectado_em": "2026-09-25T13:00:16+00:00"
-    },
     {
       "tienda": "Mercado Livre",
       "titulo": "30% OFF em Geral",
@@ -88,54 +55,6 @@
     },
     {
       "tienda": "Mercado Livre",
-      "titulo": "20% OFF em Beleza",
-      "codigo": "BELEZA20",
-      "desconto": "20% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145",
-      "vencimento": "2026-09-25",
-      "hasta": "2026-09-25",
-      "estado": "vencido",
-      "categoria": "Beleza",
-      "fonte": "Telegram ML Afiliados",
-      "vigente": false,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "detectado_em": "2026-09-25T13:35:57+00:00"
-    },
-    {
-      "tienda": "Mercado Livre",
-      "titulo": "15% OFF em Beleza",
-      "codigo": "EPISOL15",
-      "desconto": "15% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145",
-      "vencimento": "2026-09-28",
-      "hasta": "2026-09-28",
-      "estado": "vencido",
-      "categoria": "Beleza",
-      "fonte": "Telegram ML Afiliados",
-      "vigente": false,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "detectado_em": "2026-09-25T13:35:57+00:00"
-    },
-    {
-      "tienda": "Mercado Livre",
-      "titulo": "15% OFF em Beleza",
-      "codigo": "EPIDRAT15",
-      "desconto": "15% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145",
-      "vencimento": "2026-09-28",
-      "hasta": "2026-09-28",
-      "estado": "vencido",
-      "categoria": "Beleza",
-      "fonte": "Telegram ML Afiliados",
-      "vigente": false,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "detectado_em": "2026-09-25T13:35:57+00:00"
-    },
-    {
-      "tienda": "Mercado Livre",
       "titulo": "25% OFF em Geral",
       "codigo": "VALEMUITO",
       "desconto": "25% OFF",
@@ -181,47 +100,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T19:00:14+00:00"
-    },
-    {
-      "tienda": "Amazon",
-      "titulo": "Cupons de Tecnologia e Informática",
-      "codigo": "TECH20",
-      "desconto": "20% OFF",
-      "valor": 20,
-      "hasta": "2026-10-01",
-      "vigente": true,
-      "estado": "ativo"
-    },
-    {
-      "tienda": "KaBuM!",
-      "titulo": "Desconto Gamer",
-      "codigo": "GAMER10",
-      "valor": 15,
-      "hasta": "2026-09-30",
-      "vigente": true,
-      "estado": "ativo"
-    },
-    {
-      "tienda": "Shopee",
-      "titulo": "Cupons Novos Usuários",
-      "codigo": "NOVO10",
-      "valor": 10,
-      "hasta": "2026-09-30",
-      "vigente": true,
-      "estado": "ativo"
-    },
-    {
-      "codigo": "OFERTASHOJE",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-09-27",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-09-27T12:01:15+00:00",
-      "vigente": false,
-      "estado": "vencido"
     },
     {
       "codigo": "MELIGARANTE",
@@ -334,19 +212,6 @@
       "estado": "ativo"
     },
     {
-      "codigo": "HOJETEMPROMO",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-09-28",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-09-28T13:05:20+00:00",
-      "vigente": false,
-      "estado": "vencido"
-    },
-    {
       "codigo": "MIMODODIA",
       "desconto": "8% OFF",
       "compra_minima": "R$150",
@@ -455,5 +320,6 @@
       "detectado_em": "2026-09-29T13:00:17+00:00",
       "vigente": true
     }
-  ]
+  ],
+  "limpiado_em": "por regla cupon_confiable"
 }

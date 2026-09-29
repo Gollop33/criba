@@ -32,27 +32,43 @@ HOY = AHORA.strftime("%Y-%m-%d")
 FUTURO = (AHORA + timedelta(days=30)).strftime("%Y-%m-%d")
 PASADO = (AHORA - timedelta(days=5)).strftime("%Y-%m-%d")
 
+# Todos los cupones de prueba llevan fuente: es OBLIGATORIA. Un cupón sin fuente
+# trazable no se usa. La regla salió del bug reportado por el usuario: TECH20,
+# sin fuente y con la tienda mal puesta, salía en TODAS las publicaciones de
+# Amazon por ser el único cupón marcado como "Amazon".
+FUENTE = "Telegram ML Afiliados"
+
 # ── Cupones de prueba ────────────────────────────────────────────────────────
 CUPONES = {
     "VALIDO_TECH": {
         "codigo": "VALIDO_TECH", "tienda": "Mercado Livre", "categoria": "Tecnologia",
         "desconto": "15% OFF", "hasta": FUTURO, "compra_minima": "R$50",
+        "fonte": FUENTE,
     },
     "VALIDO_CASA": {
         "codigo": "VALIDO_CASA", "tienda": "Mercado Livre", "categoria": "Casa",
         "desconto": "20% OFF", "hasta": FUTURO, "compra_minima": "R$100",
+        "fonte": FUENTE,
     },
     "AMAZON_TECH": {
         "codigo": "AMAZON_TECH", "tienda": "Amazon", "categoria": "Informatica",
-        "desconto": "20% OFF", "hasta": FUTURO,
+        "desconto": "20% OFF", "hasta": FUTURO, "fonte": FUENTE,
     },
     "VENCIDO": {
         "codigo": "VENCIDO", "tienda": "Mercado Livre", "categoria": "Tecnologia",
-        "desconto": "30% OFF", "hasta": PASADO,
+        "desconto": "30% OFF", "hasta": PASADO, "fonte": FUENTE,
     },
     "MINIMO_ALTO": {
         "codigo": "MINIMO_ALTO", "tienda": "Mercado Livre", "categoria": "Tecnologia",
         "desconto": "25% OFF", "hasta": FUTURO, "compra_minima": "R$5000",
+        "fonte": FUENTE,
+    },
+    # Réplica EXACTA del cupón que reportó el usuario: marcado como Amazon, sin
+    # fuente, de una carga manual vieja. Tiene que ser RECHAZADO.
+    "TECH20": {
+        "codigo": "TECH20", "tienda": "Amazon",
+        "titulo": "Cupons de Tecnologia e Informática",
+        "desconto": "20% OFF", "valor": 20, "hasta": FUTURO,
     },
 }
 
@@ -244,6 +260,47 @@ def main():
     resultados.append(_t("Cupón sin tienda (no verificable)", p, cupones=cupones2,
                          espera_ok=True, espera_sin_cupon=True,
                          espera_motivo="sin tienda"))
+
+    # ── 15. EL BUG REPORTADO: TECH20 en TODAS las publicaciones de Amazon ───
+    print("\n── 15. BUG REPORTADO: CUPÓN SIN FUENTE EN AMAZON (TECH20) ──")
+    # El usuario lo reportó así: 'TECH20 sale en todas las publicaciones de
+    # Amazon y no es cupón de allí, es de Mercado Livre y además está viejo'.
+    # Era el ÚNICO cupón marcado como Amazon y no tenía fuente: una entrada
+    # manual vieja que los scripts resucitaban en cada ejecución.
+    p = dict(AMAZON_MOUSE, cupom="TECH20")
+    ok, motivo, limpio = validar_oferta(p, CUPONES, registrar=False)
+    bien = ok and not limpio.get("cupom") and "fuente" in motivo.lower()
+    print(f"  [{'OK  ' if bien else 'FALLO'}] Producto Amazon + TECH20 (sin fuente)")
+    print(f"         resultado: {'aceptada' if ok else 'rechazada'} | {motivo}")
+    print(f"         cupón final: {limpio.get('cupom')!r} (debe ser None)")
+    resultados.append(bien)
+
+    # Y comprobar que un cupón de Amazon CON fuente sí se acepta
+    p2 = dict(AMAZON_MOUSE, cupom="AMAZON_TECH")
+    resultados.append(_t("Producto Amazon + cupón de Amazon CON fuente (correcto)",
+                         p2, espera_ok=True))
+
+    # ── 16. limpiar_cupones(): la función que impide que resuciten ──────────
+    print("\n── 16. LIMPIEZA DE CUPONES HUÉRFANOS Y CADUCADOS ──")
+    from validador_oferta import limpiar_cupones
+    mezcla = [
+        {"codigo": "BUENO", "tienda": "Mercado Livre", "hasta": FUTURO,
+         "fonte": FUENTE},
+        {"codigo": "SIN_FUENTE", "tienda": "Amazon", "hasta": FUTURO},
+        {"codigo": "CADUCO", "tienda": "Mercado Livre", "hasta": PASADO,
+         "fonte": FUENTE},
+        {"codigo": "SIN_TIENDA", "hasta": FUTURO, "fonte": FUENTE},
+        "esto no es un cupón",
+    ]
+    conservados, descartados = limpiar_cupones(mezcla)
+    bien = (len(conservados) == 1 and conservados[0]["codigo"] == "BUENO"
+            and len(descartados) == 4)
+    print(f"  [{'OK  ' if bien else 'FALLO'}] de 5 entradas -> "
+          f"{len(conservados)} conservada, {len(descartados)} descartadas")
+    for c, m in descartados:
+        cod = c.get("codigo") if isinstance(c, dict) else c
+        print(f"         X {cod}: {m}")
+    resultados.append(bien)
 
     # ── RESUMEN ─────────────────────────────────────────────────────────────
     total = len(resultados)

@@ -211,8 +211,28 @@ async def leer(horas=12, max_por_chat=40):
                 resumen.append((nombre, leidos, es_ml))
 
     # ── Guardar cupones (sin duplicar) ────────────────────────────────────────
+    # OJO — BUG CORREGIDO: antes se conservaban TODOS los cupones que ya
+    # estuvieran en el fichero. Los que tenían `fonte: null` (entradas viejas
+    # metidas a mano) se arrastraban para siempre, porque nada los filtraba.
+    # Así sobrevivió TECH20: sin fuente, con la tienda mal puesta, y acabó
+    # saliendo en todas las publicaciones de Amazon por ser el único cupón
+    # marcado como Amazon. Ahora se aplica cupon_confiable(): sin fuente
+    # trazable no se conserva, y caducado tampoco.
     datos = cargar_cupones_existentes()
-    por_codigo = {str(x.get("codigo", "")).upper(): x for x in datos["cupones"]}
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(BASE))
+        from validador_oferta import limpiar_cupones
+        _viejos, _descartados = limpiar_cupones(datos.get("cupones", []))
+        if _descartados:
+            print(f"  [!] {len(_descartados)} cupones descartados por no ser de fiar:")
+            for _c, _m in _descartados[:8]:
+                print(f"        - {_m}")
+    except Exception as _e:
+        print(f"  [!] no se pudieron validar los cupones existentes ({_e})")
+        _viejos = datos.get("cupones", [])
+
+    por_codigo = {str(x.get("codigo", "")).upper(): x for x in _viejos}
     nuevos = 0
     for cup in cupones_nuevos:
         cod = cup["codigo"]
@@ -223,6 +243,9 @@ async def leer(horas=12, max_por_chat=40):
             por_codigo[cod] = cup
             nuevos += 1
     datos["cupones"] = list(por_codigo.values())
+    # Las fuentes se calculan de los datos reales, no se escriben a mano
+    datos["fuentes"] = sorted({str(c.get("fonte") or "(sin fuente)")
+                               for c in datos["cupones"]})
     datos["actualizado"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
     CUPONES_JSON.write_text(json.dumps(datos, ensure_ascii=False, indent=2),
                             encoding="utf-8")

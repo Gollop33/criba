@@ -268,6 +268,17 @@ def _validar_cupon(post, cupon, hoy):
     if not codigo:
         return "sin_cupon", "cupón sin código"
 
+    # ── FUENTE TRAZABLE ─────────────────────────────────────────────────────
+    # Última barrera contra los cupones huérfanos. TECH20 salía en TODAS las
+    # publicaciones de Amazon porque era el único cupón marcado como "Amazon",
+    # y no tenía fuente: era una entrada vieja metida a mano que los scripts
+    # resucitaban en cada ejecución. Un cupón sin origen conocido no se puede
+    # validar ni saber si sigue vivo.
+    ok_fuente, motivo_fuente = cupon_confiable(cupon, hoy)
+    if not ok_fuente and ("SIN FUENTE" in motivo_fuente
+                          or "fuente no reconocida" in motivo_fuente):
+        return "sin_cupon", motivo_fuente
+
     t_producto = tienda_de(post.get("loja"))
     t_enlace = tienda_de_url(post.get("url"))
     t_cupon = tienda_de(cupon.get("tienda"))
@@ -494,6 +505,79 @@ def cargar_cupones():
                 for c in lista if c.get("codigo")}
     except Exception:
         return {}
+
+
+# ══════════════════════════════════════════════════════════════════════════════
+#  ¿ESTE CUPÓN ES DE FIAR?
+# ══════════════════════════════════════════════════════════════════════════════
+# BUG REPORTADO POR EL USUARIO: el cupón TECH20 aparecía en TODAS las
+# publicaciones de Amazon. No es un cupón de Amazon: es una entrada vieja
+# metida a mano, con la tienda mal puesta y con la fecha mal, y como era el
+# ÚNICO cupón marcado como "Amazon" se le asignaba a todo el catálogo de Amazon.
+#
+# CAUSA RAÍZ: en cupones.json había cupones con `fonte: null` (sin fuente).
+# Y los dos scripts que escriben el fichero los RESUCITABAN en cada ejecución:
+#     cupones_pelando.py:  existentes = [c for c in ... if c.get("fonte") != "Pelando"]
+#     leer_telegram.py:    por_codigo[cod] = cup ... (conserva todo lo anterior)
+# Con `fonte = None`, la condición `None != "Pelando"` es True, así que el cupón
+# huérfano se conservaba PARA SIEMPRE. Nunca caducaba, nunca se limpiaba.
+#
+# REGLA: un cupón sin fuente trazable NO se usa y NO se conserva.
+# Si no se sabe de dónde salió, no se puede saber si sigue vigente.
+FUENTES_VALIDAS = ("telegram", "pelando", "manual.json", "afiliados")
+
+
+def cupon_confiable(cupon, hoy=None):
+    """
+    Decide si un cupón merece ser tenido en cuenta.
+    Devuelve (bool, motivo).
+
+    Un cupón es de fiar si:
+      - tiene código
+      - tiene tienda reconocible
+      - tiene FUENTE trazable (lo que impedía que TECH20 muriera)
+      - no está caducado
+    """
+    if not isinstance(cupon, dict):
+        return False, "no es un cupón"
+    codigo = str(cupon.get("codigo") or "").strip()
+    if not codigo:
+        return False, "sin código"
+
+    if not tienda_de(cupon.get("tienda")):
+        return False, f"{codigo}: sin tienda reconocible"
+
+    fonte = str(cupon.get("fonte") or "").strip().lower()
+    if not fonte:
+        return False, (f"{codigo}: SIN FUENTE (no se puede saber de dónde salió "
+                       f"ni si sigue vigente)")
+    if not any(f in fonte for f in FUENTES_VALIDAS):
+        return False, f"{codigo}: fuente no reconocida ({fonte!r})"
+
+    hoy = hoy or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    hasta = str(cupon.get("hasta") or cupon.get("vencimento") or "").strip()
+    if hasta and hasta[:10] < hoy:
+        return False, f"{codigo}: caducado el {hasta[:10]}"
+
+    return True, ""
+
+
+def limpiar_cupones(lista, hoy=None):
+    """
+    Devuelve (conservados, descartados) aplicando cupon_confiable().
+    Se usa en los scripts que ESCRIBEN cupones.json para que los huérfanos no
+    se resuciten en cada ejecución.
+    """
+    hoy = hoy or datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    conservados, descartados = [], []
+    for c in lista or []:
+        ok, motivo = cupon_confiable(c, hoy)
+        if ok:
+            conservados.append(c)
+        else:
+            descartados.append((c, motivo))
+    return conservados, descartados
+
 
 
 # ══════════════════════════════════════════════════════════════════════════════

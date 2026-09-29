@@ -245,17 +245,42 @@ def ejecutar():
     # Scraping Pelando
     nuevos = scrape_todas_tiendas()
 
-    # Cargar cupones manuales preexistentes (los que tienen 'fonte' != 'Pelando')
-    existentes = [c for c in cargar_cupones_existentes() if c.get("fonte") != "Pelando"]
+    # Cargar cupones preexistentes (los que tienen 'fonte' != 'Pelando')
+    #
+    # OJO — BUG CORREGIDO: antes esto conservaba TODO lo que no fuera de Pelando,
+    # incluidos los cupones con `fonte: null`. Como `None != "Pelando"` es True,
+    # un cupón huérfano se resucitaba en CADA ejecución y nunca moría. Así
+    # sobrevivió TECH20 (sin fuente, tienda mal puesta) hasta acabar saliendo en
+    # TODAS las publicaciones de Amazon por ser el único cupón de esa tienda.
+    # Ahora se aplica cupon_confiable(): sin fuente trazable no se conserva.
+    try:
+        import sys as _sys
+        _sys.path.insert(0, str(BASE))
+        from validador_oferta import limpiar_cupones
+        _existentes = [c for c in cargar_cupones_existentes()
+                       if c.get("fonte") != "Pelando"]
+        existentes, _descartados = limpiar_cupones(_existentes)
+        if _descartados:
+            print(f"  [!] {len(_descartados)} cupones descartados por no ser de fiar:")
+            for _c, _m in _descartados[:6]:
+                print(f"        - {_m}")
+    except Exception as _e:
+        print(f"  [!] no se pudo validar los cupones existentes ({_e})")
+        existentes = [c for c in cargar_cupones_existentes()
+                      if c.get("fonte") != "Pelando"]
 
-    # Unificar: manuales + nuevos de Pelando
+    # Unificar: manuales válidos + nuevos de Pelando
     todos = existentes + nuevos
 
-    # Guardar
+    # Guardar. Las fuentes se calculan de los datos reales, no se escriben a
+    # mano: antes decía siempre ["Manual", "Pelando"] aunque los cupones fueran
+    # de Telegram, así que el fichero mentía sobre su propio origen.
+    fuentes_reales = sorted({str(c.get("fonte") or "(sin fuente)")
+                             for c in todos})
     salida = {
         "actualizado": ahora,
         "total": len(todos),
-        "fuentes": ["Manual", "Pelando"],
+        "fuentes": fuentes_reales,
         "cupones": todos,
     }
     SALIDA.write_text(json.dumps(salida, ensure_ascii=False, indent=2), encoding="utf-8")
