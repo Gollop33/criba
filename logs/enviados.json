@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "ml-tablet-positivo-vision-tab-7-stitch-64-gb-3-g": {
-    "ts": "2026-09-27T23:29:52.822064",
-    "canales": {
-      "whatsapp": "2026-09-27T23:29:52.822064"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
   "amz-grand-theft-auto-vi-playstation-5": {
     "ts": "2026-09-27T23:33:53.193662",
     "canales": {
@@ -2322,6 +2312,16 @@
     "precio": 503.0,
     "precios_publicados": [
       503.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a37-5g-256gb-8gb-50mp-": {
+    "ts": "2026-09-29T23:31:57.578990",
+    "canales": {
+      "whatsapp": "2026-09-29T23:31:57.578990"
+    },
+    "precio": 1998.0,
+    "precios_publicados": [
+      1998.0
     ]
   }
 }
