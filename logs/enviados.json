@@ -74,18 +74,6 @@
     ],
     "precio_min_publicado": 883.0
   },
-  "ml-jogo-toalhas-banho-e-rosto-grossas-macias-100": {
-    "ts": "2026-09-27T15:47:45.298083",
-    "canales": {
-      "whatsapp": "2026-09-27T15:47:45.298083"
-    },
-    "precio": 84.0,
-    "precios_publicados": [
-      84.0,
-      84.0
-    ],
-    "precio_min_publicado": 84.0
-  },
   "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-09-27T18:45:00.427161",
     "canales": {
@@ -289,16 +277,6 @@
       523.0
     ],
     "precio_min_publicado": 523.0
-  },
-  "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
-    "ts": "2026-09-27T15:43:33.275797",
-    "canales": {
-      "whatsapp": "2026-09-27T15:43:33.275797"
-    },
-    "precio": 95.0,
-    "precios_publicados": [
-      95.0
-    ]
   },
   "amz-adaptador-wifi-usb-30-dual-band-1300mbps-24gh": {
     "ts": "2026-09-27T15:57:08.522749",
@@ -2374,6 +2352,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "ml-brinquedo-interativo-gato-movimento-mouse-pen": {
+    "ts": "2026-09-29T15:48:16.293986",
+    "canales": {
+      "whatsapp": "2026-09-29T15:48:16.293986"
+    },
+    "precio": 51.0,
+    "precios_publicados": [
+      51.0
     ]
   }
 }
