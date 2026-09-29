@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "ml-baba-eletronica-baby-monitor-43-sfio-camera-r": {
-    "ts": "2026-09-27T22:26:37.242339",
-    "canales": {
-      "whatsapp": "2026-09-27T22:26:37.242339"
-    },
-    "precio": 287.0,
-    "precios_publicados": [
-      287.0
-    ]
-  },
   "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
     "ts": "2026-09-27T22:36:01.747324",
     "canales": {
@@ -2352,6 +2342,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-headset-gamer-redragon-zeus-lite-preto-p3-h51": {
+    "ts": "2026-09-29T22:34:09.252765",
+    "canales": {
+      "whatsapp": "2026-09-29T22:34:09.252765"
+    },
+    "precio": 171.0,
+    "precios_publicados": [
+      171.0
     ]
   }
 }
