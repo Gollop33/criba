@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 234.0
   },
-  "ml-carregador-super-rapido-25w-para-samsung-gala": {
-    "ts": "2026-09-27T17:04:32.856054",
-    "canales": {
-      "whatsapp": "2026-09-27T17:04:32.856054"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-fritadeira-philco-air-fryer-oven-12l-pfr2200p": {
     "ts": "2026-09-27T17:13:47.801960",
     "canales": {
@@ -2342,6 +2332,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
+    "ts": "2026-09-29T17:10:36.492309",
+    "canales": {
+      "whatsapp": "2026-09-29T17:10:36.492309"
+    },
+    "precio": 1159.0,
+    "precios_publicados": [
+      1159.0
     ]
   }
 }
