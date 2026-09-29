@@ -279,6 +279,18 @@ def _validar_cupon(post, cupon, hoy):
                           or "fuente no reconocida" in motivo_fuente):
         return "sin_cupon", motivo_fuente
 
+    # ── ¿MERCADO LIVRE CONFIRMA QUE ESTE PRODUCTO TIENE CUPÓN? ──────────────
+    # ML publica en su página de ofertas qué productos tienen cupón; el scraper
+    # lo lee y lo guarda en `ml_tiene_cupon`. Si ML dice que NO, el cupón se
+    # retira: los cupones de afiliado son generales ("produtos elegíveis") y en
+    # la compra real no aplican. El usuario lo comprobó:
+    #     "Seu cupom foi salvo em 'Cupons', pois não se aplica a esta compra."
+    # gerar_fila_posts.py ya lo aplica al construir la fila; esto es la segunda
+    # barrera, por si el post llegase por otra vía.
+    if post.get("ml_tiene_cupon") is False:
+        return "sin_cupon", (f"cupón {codigo} retirado: Mercado Livre no "
+                             f"confirma que este producto tenga cupón")
+
     t_producto = tienda_de(post.get("loja"))
     t_enlace = tienda_de_url(post.get("url"))
     t_cupon = tienda_de(cupon.get("tienda"))

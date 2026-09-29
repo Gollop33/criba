@@ -1,0 +1,62 @@
+fix(cupones): el cupon solo si MERCADO LIVRE confirma que ese producto lo tiene
+
+REPORTADO POR EL USUARIO con prueba real. Publico:
+    Kit 10 Potes Hermeticos Vidro 640ml Starhouse
+    R$ 107
+    Cupom: BARRATINHOJA (ative na pagina do produto)
+Y al aplicarlo Mercado Livre respondio:
+    "Seu cupom foi salvo em 'Cupons', pois nao se aplica a esta compra."
+
+O sea: el cupon NO aplicaba. El bot lo estaba mostrando igual.
+
+CAUSA RAIZ: los cupones de afiliado (los del canal de Telegram) son cupones
+GENERALES de Mercado Livre, validos para "produtos elegiveis" que solo ML
+conoce. Se asignaban por CATEGORIA, asi que acababan en productos donde no
+aplican. No habia ninguna forma de saber la aplicabilidad real.
+
+LA SOLUCION: Mercado Livre publica EN SU PROPIA PAGINA DE OFERTAS, por cada
+producto, si tiene cupon aplicable y a que precio queda con el:
+
+    "promotions":[{"type":"coupon","text":"{1} com Cupom",
+                   "values":[{"key":"1","type":"price",
+                              "price":{"value":4960}}]}]
+
+Y tambien declara la campana de Pix:
+
+    "tracks":{"price":{"promotions":[
+         {"campaigns":[{"type":"PIX"}],"type":"price_decrement"}],
+         "price":800.1}}
+
+Medido sobre 184 productos: solo el 5,4% tiene cupon y el 39,7% tiene Pix.
+El bot ponia cupon en el 100% de los posts: por eso fallaba casi siempre.
+
+IMPLEMENTADO:
+ - agente_ml.py: nueva _extraer_promos_ml() lee esos dos bloques del JSON de
+   cada tarjeta y guarda por producto: ml_tiene_cupon, ml_precio_cupon,
+   ml_tiene_pix, ml_precio_pix. Medido: 15 de 400 con cupon (3,8%).
+ - gerar_fila_posts.py: llevaba los campos nuevos a los 4 sitios donde se
+   construye un post (sin eso el filtro veia None y borraba TODO) y RETIRA el
+   cupon si ML no lo confirma.
+ - validador_oferta.py: segunda barrera, por si un post llega por otra via.
+ - publicar_proximo.py: muestra el precio que ML garantiza con el cupon.
+
+VERIFICADO sobre la fila real (350 posts):
+    Cupones RETIRADOS por no estar confirmados por ML : 190
+    Productos con cupon CONFIRMADO por ML            : 10
+    Con cupon                                        : 10
+De 200 cupones (100% de los posts de ML) a 10 confirmados (2,9%).
+Ejemplos de los confirmados: OIMOTOO Patinete (R$ 1135,75 con cupon),
+Whey Protein (119,61), Notebook Dell (3450), Relogio Smartwatch (281,2),
+Tablet TCL (674,1).
+
+PIX: se probo a leer el precio con descuento Pix y NO se pudo. ML lista la
+campana pero el precio de la tarjeta es el mismo, y el unico texto es "no Pix"
+(sin porcentaje). Medido: 0 productos con descuento Pix verificable. Asi que NO
+se muestra Pix salvo que haya rebaja real comprobable. Primero se intento y
+salio mal (un regex capturaba el descuento del PRODUCTO, 73% OFF, y lo guardaba
+como Pix): se descarto y se documento en el codigo para que nadie lo reintente
+igual.
+
+pruebas: 23/23. Caso exacto del usuario comprobado:
+    ML NO confirma -> cupom final = None
+    ML SI confirma -> cupom final = 'BARRATINHOJA'

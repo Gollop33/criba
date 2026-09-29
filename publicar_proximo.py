@@ -543,18 +543,31 @@ def publicar_un_post(es_test=False):
         lineas.append("🚚 Frete grátis")
 
     if cupom:
-        # El % solo se anuncia si el cupón es de una categoría que CONCUERDA con
-        # el producto (confianza alta). Si es un cupón general, se menciona pero
-        # sin prometer descuento: puede que no aplique a este producto.
+        # ── SOLO LLEGAN AQUÍ CUPONES CONFIRMADOS POR MERCADO LIVRE ──────────
+        # gerar_fila_posts.py retira el cupón si ML no publica que ESE producto
+        # tiene uno. Antes se asignaba por categoría desde el catálogo de
+        # Telegram y en la compra real no aplicaba: el usuario lo comprobó con
+        # un Kit de Potes, y ML respondió "Seu cupom foi salvo em 'Cupons', pois
+        # não se aplica a esta compra". Medido: solo el 3,8% de los productos
+        # tienen cupón, así que adivinar salía mal casi siempre.
+        #
+        # ML da el PRECIO final con su cupón (ml_precio_cupon) pero no da un
+        # código: es un cupón de vendedor que se activa en la propia página.
+        # Así que se muestra el precio que ML garantiza y se indica cómo usarlo.
+        precio_cupon_ml = post_a_enviar.get("ml_precio_cupon")
         pct_c = post_a_enviar.get("cupom_pct")
-        confianza = post_a_enviar.get("cupom_confianza", "alta")
-        if pct_c and confianza != "baja":
+        try:
+            pc = float(precio_cupon_ml) if precio_cupon_ml else 0
+        except (TypeError, ValueError):
+            pc = 0
+
+        if pc > 0:
+            lineas.append(f"🎟️ Com cupom: R$ {int(round(pc))}")
+            lineas.append(f"   (cupom {cupom} — ative na página do produto)")
+        elif pct_c and post_a_enviar.get("cupom_confianza") != "baja":
             lineas.append(f"🎟️ Cupom: {cupom} ({float(pct_c):.0f}% OFF)")
         else:
-            # Cupón general: se dice la verdad de cómo se usa.
-            lineas.append(f"🎟️ Cupom: {cupom}")
-            lineas.append("   (ative na página do produto — válido para "
-                          "produtos elegíveis)")
+            lineas.append(f"🎟️ Cupom: {cupom} (ative na página do produto)")
 
     # ── PRECIO FINAL CON TODO APLICADO ────────────────────────────────────────
     # Es lo que más convierte: la gente no calcula porcentajes de cabeza, quiere

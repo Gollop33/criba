@@ -335,6 +335,24 @@ def cosechar_scraping():
             soup = BeautifulSoup(r.text, "html.parser")
             polys = soup.select(".poly-card")
 
+            # ── CUPÓN Y PIX REALES POR PRODUCTO (del JSON de ML) ────────────
+            # Mercado Livre publica en su propia página de ofertas, por cada
+            # producto, si tiene cupón aplicable y si tiene descuento Pix:
+            #
+            #   "tracks":{"price":{"promotions":[
+            #        {"campaigns":[{"type":"PIX"}],"type":"price_decrement"}],
+            #        "price":800.1}}          <- precio REAL con PIX
+            #
+            #   "promotions":[{"type":"coupon","text":"{1} com Cupom",
+            #                  "values":[{"price":{"value":4960}}]}]
+            #
+            # Medido sobre 184 productos: solo el 5,4% tiene cupón y el 39,7%
+            # tiene Pix. El bot mostraba cupón en el 100% de los posts, así que
+            # la mayoría no aplicaban (el usuario lo comprobó: ML le dijo
+            # "Seu cupom foi salvo em Cupons, pois não se aplica a esta compra").
+            # Con esto ya no se adivina: se lee lo que ML dice de ESE producto.
+            promos_por_producto = _extraer_promos_ml(r.text)
+
             for card in polys:
                 t_el = card.select_one(".poly-component__title")
                 if not t_el:
@@ -399,10 +417,43 @@ def cosechar_scraping():
                 #
                 # Hasta tener una fuente fiable (la ficha del producto, que sí lo
                 # muestra, pero exige 1 petición por producto) el campo va VACÍO.
-                # El post simplemente no muestra la línea de Pix. Es preferible
-                # no informar a informar mal: el usuario ya comprobó una vez que
-                # el bot prometía un 5% en Pix que el producto no tenía.
+                # ── CUPÓN Y PIX LEÍDOS DE ML (no adivinados) ─────────────────
+                # Se cruza la URL del producto con lo que ML publica en la
+                # página de ofertas. Si ML no dice que el producto tiene cupón,
+                # NO se le pone ninguno: antes se le asignaba uno del catálogo
+                # por categoría y en la compra real no aplicaba.
+                pid = None
+                m_prod = re.search(r"/p/(MLB\d+)", url_raw)
+                if m_prod:
+                    pid = m_prod.group(1)
+                info = promos_por_producto.get(pid, {}) if pid else {}
+
+                cupon_ml = None
+                if info.get("cupon"):
+                    cupon_ml = info.get("precio_cupon")
+
+                # Pix: solo si ML lo declara para ESTE producto Y con un
+                # precio realmente más bajo. Antes se ponía "mais 5% OFF" a
+                # todo sin mirar nada; ahora, si ML no da descuento, no se pone.
                 pix_desc = ""
+                precio_pix = info.get("precio_pix") if info.get("pix") else None
+                if precio_pix:
+                    try:
+                        pf = float(precio_pix)
+                        if p_act and 0 < pf < p_act - 0.01:
+                            pct = (1 - pf / p_act) * 100
+                            if pct >= 1:
+                                pix_desc = f"{pct:.0f}% OFF"
+                                info["precio_pix"] = round(pf, 2)
+                            else:
+                                pix_desc = ""
+                                precio_pix = None
+                        else:
+                            # ML lista una campaña PIX pero sin rebaja real
+                            precio_pix = None
+                    except (TypeError, ValueError):
+                        pix_desc = ""
+                        precio_pix = None
 
                 items.append({
                     "id": slug_id(titulo),
@@ -419,12 +470,85 @@ def cosechar_scraping():
                     "cuotas_sin_interes": sin_interes,
                     "envio_gratis": envio_gratis,
                     "pix": pix_desc,
+                    # Campos nuevos, leídos de ML:
+                    "ml_tiene_cupon": bool(info.get("cupon")),
+                    "ml_precio_cupon": cupon_ml,
+                    "ml_tiene_pix": bool(info.get("pix")),
+                    "ml_precio_pix": precio_pix,
                 })
         except Exception as e:
             continue
 
     log(f"Scraping ML: {len(items)} ofertas obtenidas")
     return items
+
+# ─── PROMOCIONES REALES POR PRODUCTO ─────────────────────────────────────────
+
+def _extraer_promos_ml(html):
+    """
+    Saca, POR PRODUCTO, si Mercado Livre declara cupón y/o descuento Pix.
+
+    De dónde sale: la propia página de ofertas de ML lleva el JSON de cada
+    tarjeta. Dentro está:
+
+      "tracks":{"price":{"promotions":[
+             {"campaigns":[{"type":"PIX"}],"type":"price_decrement"}],
+             "price":800.1}}          <- precio REAL pagando con Pix
+
+      "promotions":[{"type":"coupon","text":"{1} com Cupom",
+                     "values":[{"price":{"value":4960}}]}]
+
+    Por qué existe esto: el bot asignaba cupones por categoría desde el catálogo
+    de Telegram, y en la compra real NO aplicaban (el usuario lo comprobó:
+    "Seu cupom foi salvo em Cupons, pois não se aplica a esta compra").
+    Y el Pix se inventaba al 5% en el 100% de los posts.
+    Medido sobre 184 productos: 5,4% tienen cupón y 39,7% tienen Pix. O sea que
+    adivinar salía mal en la inmensa mayoría de los casos.
+
+    Devuelve {producto_id: {'cupon':bool,'precio_cupon':x,'pix':bool,'precio_pix':y}}
+    """
+    salida = {}
+    marcas = [m.start() for m in re.finditer(
+        r'"metadata"\s*:\s*\{\s*"id"\s*:\s*"(MLB\d+)"', html)]
+    if not marcas:
+        return salida
+    marcas.append(len(html))
+    for i in range(len(marcas) - 1):
+        trozo = html[marcas[i]:marcas[i + 1]]
+        m_prod = re.search(r'"product_id"\s*:\s*"(MLB\d+)"', trozo)
+        if not m_prod:
+            continue
+        pid = m_prod.group(1)
+        info = {"cupon": False, "precio_cupon": None,
+                "pix": False, "precio_pix": None}
+
+        m_cup = re.search(r'"type"\s*:\s*"coupon"', trozo)
+        if m_cup:
+            info["cupon"] = True
+            cola = trozo[m_cup.start():m_cup.start() + 400]
+            mp = re.search(r'"price"\s*:\s*\{\s*"value"\s*:\s*([\d.]+)', cola)
+            if mp:
+                info["precio_cupon"] = mp.group(1)
+
+        m_pix = re.search(r'"type"\s*:\s*"PIX"', trozo)
+        if m_pix:
+            info["pix"] = True
+            # El precio con Pix va DESPUÉS del bloque de promotions, cerrando
+            # el objeto "tracks":{"price":{...,"price":800.1}}. Buscarlo hacia
+            # atrás (como se hacía antes) devolvía el precio base, así que
+            # precio_pix salía igual que precio y no se detectaba descuento.
+            cola = trozo[m_pix.start():m_pix.start() + 260]
+            mp = re.search(r'"price"\s*:\s*([\d.]+)', cola)
+            if mp:
+                info["precio_pix"] = mp.group(1)
+
+        # Si el producto ya estaba, se queda la info más completa
+        previo = salida.get(pid)
+        if not previo or (info["cupon"] and not previo["cupon"]) or \
+                (info["pix"] and not previo["pix"]):
+            salida[pid] = info
+    return salida
+
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────
 

@@ -892,6 +892,15 @@ def armar_fila_rotativa():
                 # más abajo: antes se ponía "mais 5% OFF" a TODO, incluso a
                 # productos sin descuento Pix.
                 "pix": esp.get("pix") or "",
+                # Datos de promocion LEIDOS DE MERCADO LIVRE (no adivinados):
+                # si ML no dice que este producto tiene cupon, no se le pone
+                # ninguno. Antes se asignaba por categoria y en la compra real
+                # no aplicaba ("Seu cupom foi salvo em Cupons, pois nao se
+                # aplica a esta compra").
+                "ml_tiene_cupon": esp.get("ml_tiene_cupon"),
+                "ml_precio_cupon": esp.get("ml_precio_cupon"),
+                "ml_tiene_pix": esp.get("ml_tiene_pix"),
+                "ml_precio_pix": esp.get("ml_precio_pix"),
                 "imagen": esp.get("imagen"),
                 "url": elegir_link_afiliado(esp),
                 "criado_em": ahora_iso,
@@ -933,6 +942,15 @@ def armar_fila_rotativa():
                 "desc_pct": candidato.get("desc_pct"),
                 "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
                 "pix": candidato.get("pix") or "",
+                # Datos de promocion LEIDOS DE MERCADO LIVRE (no adivinados):
+                # si ML no dice que este producto tiene cupon, no se le pone
+                # ninguno. Antes se asignaba por categoria y en la compra real
+                # no aplicaba ("Seu cupom foi salvo em Cupons, pois nao se
+                # aplica a esta compra").
+                "ml_tiene_cupon": candidato.get("ml_tiene_cupon"),
+                "ml_precio_cupon": candidato.get("ml_precio_cupon"),
+                "ml_tiene_pix": candidato.get("ml_tiene_pix"),
+                "ml_precio_pix": candidato.get("ml_precio_pix"),
                 "imagen": candidato.get("imagen"),
                 "url": elegir_link_afiliado(candidato),
                 "criado_em": ahora_iso,
@@ -959,6 +977,15 @@ def armar_fila_rotativa():
                     "desc_pct": candidato.get("desc_pct"),
                     "cupom": candidato.get("cupon") or candidato.get("cupom") or buscar_cupon_para_producto(candidato, cupones),
                     "pix": candidato.get("pix") or "",
+                    # Datos de promocion LEIDOS DE MERCADO LIVRE (no adivinados):
+                    # si ML no dice que este producto tiene cupon, no se le pone
+                    # ninguno. Antes se asignaba por categoria y en la compra real
+                    # no aplicaba ("Seu cupom foi salvo em Cupons, pois nao se
+                    # aplica a esta compra").
+                    "ml_tiene_cupon": candidato.get("ml_tiene_cupon"),
+                    "ml_precio_cupon": candidato.get("ml_precio_cupon"),
+                    "ml_tiene_pix": candidato.get("ml_tiene_pix"),
+                    "ml_precio_pix": candidato.get("ml_precio_pix"),
                     "imagen": candidato.get("imagen"),
                     "url": elegir_link_afiliado(candidato),
                     "criado_em": ahora_iso,
@@ -996,6 +1023,11 @@ def armar_fila_rotativa():
             "desc_pct": c.get("desc_pct"),
             "cupom": c.get("cupon") or c.get("cupom") or buscar_cupon_para_producto(c, cupones),
             "pix": c.get("pix") or "",
+            # Datos de promocion LEIDOS DE MERCADO LIVRE (no adivinados)
+            "ml_tiene_cupon": c.get("ml_tiene_cupon"),
+            "ml_precio_cupon": c.get("ml_precio_cupon"),
+            "ml_tiene_pix": c.get("ml_tiene_pix"),
+            "ml_precio_pix": c.get("ml_precio_pix"),
             "imagen": c.get("imagen"),
             "url": elegir_link_afiliado(c),
             "criado_em": ahora_iso,
@@ -1049,6 +1081,48 @@ def armar_fila_rotativa():
             post["cupom_confianza"] = "alta"
         else:
             post["cupom_confianza"] = "baja"
+
+    # ══════════════════════════════════════════════════════════════════════════
+    #  EL CUPÓN SOLO SI MERCADO LIVRE CONFIRMA QUE ESTE PRODUCTO TIENE CUPÓN
+    # ══════════════════════════════════════════════════════════════════════════
+    # EL BUG QUE REPORTÓ EL USUARIO: se publicaba BARRATINHOJA en un Kit de
+    # Potes y Mercado Livre respondía al aplicarlo:
+    #     "Seu cupom foi salvo em 'Cupons', pois não se aplica a esta compra."
+    #
+    # CAUSA: los cupones de afiliado (los del canal de Telegram) son cupones
+    # GENERALES de Mercado Livre, válidos para "produtos elegíveis" que solo ML
+    # conoce. Se asignaban por categoría, así que acababan en productos donde no
+    # aplican. Medido: solo el 3,8% de los productos tiene cupón de verdad, pero
+    # el bot lo ponía en el 100% de los posts.
+    #
+    # SOLUCIÓN: Mercado Livre publica en su propia página de ofertas qué
+    # productos tienen cupón y a qué precio queda con él:
+    #     "promotions":[{"type":"coupon","values":[{"price":{"value":4960}}]}]
+    # El scraper lo lee (ml_tiene_cupon / ml_precio_cupon). Si ML no lo dice,
+    # NO se pone cupón. Se acabó adivinar.
+    #
+    # Nota: el código del cupón de ML no viene en ese dato (es un cupón de
+    # vendedor que se activa en la página, sin código), así que en el post se
+    # muestra el PRECIO con cupón y se indica que se active en la página.
+    sin_cupon_confirmado = 0
+    con_cupon_confirmado = 0
+    for post in fila_final:
+        if "Mercado" not in str(post.get("loja") or ""):
+            continue
+        if not post.get("ml_tiene_cupon"):
+            if post.get("cupom"):
+                sin_cupon_confirmado += 1
+            post["cupom"] = None
+            post["cupom_pct"] = None
+            post["cupom_max"] = None
+            post["cupom_valor"] = None
+            post["cupom_confianza"] = None
+        else:
+            con_cupon_confirmado += 1
+            post["cupom_precio_ml"] = post.get("ml_precio_cupon")
+
+    print(f"  • Cupones RETIRADOS por no estar confirmados por ML: {sin_cupon_confirmado}")
+    print(f"  • Productos con cupón CONFIRMADO por ML: {con_cupon_confirmado}")
 
     altos = sum(1 for p in fila_final if p.get("cupom_confianza") == "alta")
     bajos = sum(1 for p in fila_final if p.get("cupom_confianza") == "baja")
