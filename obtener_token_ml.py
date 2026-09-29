@@ -193,6 +193,31 @@ def solo_secret(secret):
     return 0
 
 
+def solo_secret_de_fichero(ruta):
+    """
+    Igual que solo_secret(), pero leyendo el secret de un fichero.
+
+    Se usa desde CONFIGURAR_ML.bat: en un .bat los símbolos (% & | < > ^ ") del
+    valor se interpretan y rompen el comando. Pasando por un fichero temporal no
+    hay ningún problema de escape, y además el secret no queda en el historial
+    del terminal.
+    """
+    f = Path(ruta)
+    if not f.exists():
+        print(f"  No existe el fichero: {ruta}")
+        return 1
+    try:
+        valor = f.read_text(encoding="utf-8-sig").strip()
+    except Exception as e:
+        print(f"  No se pudo leer: {e}")
+        return 1
+    try:
+        f.unlink()
+    except Exception:
+        pass
+    return solo_secret(valor)
+
+
 def paso2():
     env = leer_env()
     app_id = env.get("ML_APP_ID", "").strip()
@@ -212,6 +237,29 @@ def paso2():
 
 """)
     print(f"     {url}")
+    print(f"""
+  2. Pulsa "Permitir".
+  3. Te llevará a https://achadinhosnozap.com.br/ml-oauth.html y verás el
+     CÓDIGO EN GRANDE VERDE con un botón para copiarlo.
+  4. Copia ese código (o el valor de code=... de la barra de direcciones).
+""")
+    # Guardar la URL en un fichero para que el .bat pueda abrir el navegador
+    try:
+        (BASE / "_url_autorizacion.txt").write_text(url, encoding="utf-8")
+    except Exception:
+        pass
+    if "--abrir" in sys.argv:
+        try:
+            import webbrowser
+            webbrowser.open(url)
+            print("  (se ha abierto el navegador automáticamente)")
+        except Exception as e:
+            print(f"  no se pudo abrir el navegador: {e}")
+    print("=" * 78)
+    return 0
+
+
+def _paso2_texto_viejo():
     print("""
   2. Pulsa "Permitir".
   3. El navegador te llevará a tu Redirect URI y DARÁ UN ERROR DE PÁGINA
@@ -375,12 +423,34 @@ def main():
             print("  Falta el secret.")
             return 1
         return solo_secret(args[i + 1])
+    if "--secret-file" in args:
+        i = args.index("--secret-file")
+        if i + 1 >= len(args):
+            print("  Falta la ruta del fichero.")
+            return 1
+        return solo_secret_de_fichero(args[i + 1])
     if "--code" in args:
         i = args.index("--code")
         if i + 1 >= len(args):
             print("  Falta el code.")
             return 1
         return canjear_code(args[i + 1])
+    if "--code-file" in args:
+        i = args.index("--code-file")
+        if i + 1 >= len(args):
+            print("  Falta la ruta del fichero.")
+            return 1
+        f = Path(args[i + 1])
+        if not f.exists():
+            print(f"  No existe: {f}")
+            return 1
+        try:
+            valor = f.read_text(encoding="utf-8-sig").strip()
+            f.unlink()
+        except Exception as e:
+            print(f"  No se pudo leer: {e}")
+            return 1
+        return canjear_code(valor)
     if "--renovar" in args:
         return renovar()
     if "--estado" in args:

@@ -42,3 +42,9 @@ logs/*dump*.html
 telegram_session.txt
 .telegram_login.json
 ofertas_telegram.json
+
+# Temporales del asistente de token de Mercado Livre
+_secret_tmp.txt
+_code_tmp.txt
+_url_autorizacion.txt
+_prueba_secret.txt
