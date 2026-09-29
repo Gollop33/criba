@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "amz-max-titanium-creatina-300-gr-monohidratada": {
-    "ts": "2026-09-27T17:59:42.897243",
-    "canales": {
-      "whatsapp": "2026-09-27T17:59:42.897243"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0
-    ]
-  },
   "ml-carregador-portatil-power-bank-turbo-20000mah": {
     "ts": "2026-09-27T18:05:12.060224",
     "canales": {
@@ -2324,6 +2314,16 @@
     "precio": 65.0,
     "precios_publicados": [
       65.0
+    ]
+  },
+  "amz-veja-limpador-para-limpeza-pesada-cloro-ativo": {
+    "ts": "2026-09-29T18:03:06.388558",
+    "canales": {
+      "whatsapp": "2026-09-29T18:03:06.388558"
+    },
+    "precio": 10.0,
+    "precios_publicados": [
+      10.0
     ]
   }
 }
