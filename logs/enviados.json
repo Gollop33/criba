@@ -266,16 +266,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "ml-smartwatch-samsung-galaxy-watch-8-40mm-pratea": {
-    "ts": "2026-09-27T20:56:19.070435",
-    "canales": {
-      "whatsapp": "2026-09-27T20:56:19.070435"
-    },
-    "precio": 1349.0,
-    "precios_publicados": [
-      1349.0
-    ]
-  },
   "amz-8bitdo-ultimate-2-wireless-controller-for-win": {
     "ts": "2026-09-27T21:04:04.232663",
     "canales": {
@@ -349,14 +339,16 @@
     ]
   },
   "amz-kindle-16-gb-geracao-mais-recente-leve-e-comp": {
-    "ts": "2026-09-27T21:57:15.692281",
+    "ts": "2026-09-29T20:57:47.051023",
     "canales": {
-      "whatsapp": "2026-09-27T21:57:15.692281"
+      "whatsapp": "2026-09-29T20:57:47.051023"
     },
     "precio": 799.0,
     "precios_publicados": [
+      799.0,
       799.0
-    ]
+    ],
+    "precio_min_publicado": 799.0
   },
   "ml-bicicleta-ergometrica-spinning-150-kg-treino-": {
     "ts": "2026-09-27T22:04:32.274011",
