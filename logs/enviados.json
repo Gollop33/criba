@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
-    "ts": "2026-09-27T17:28:23.284264",
-    "canales": {
-      "whatsapp": "2026-09-27T17:28:23.284264"
-    },
-    "precio": 1699.0,
-    "precios_publicados": [
-      1699.0,
-      1699.0
-    ],
-    "precio_min_publicado": 1699.0
-  },
   "amz-tablet-tcl-tab-11-fe-nxtvision-tela-de-11-ips": {
     "ts": "2026-09-27T20:41:34.531245",
     "canales": {
@@ -289,16 +277,6 @@
       234.0
     ],
     "precio_min_publicado": 234.0
-  },
-  "ml-carregador-portatil-20000-turbo-225w-power-ba": {
-    "ts": "2026-09-27T17:22:13.833122",
-    "canales": {
-      "whatsapp": "2026-09-27T17:22:13.833122"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
   },
   "ml-positivo-vision-tab10-t3010-4gb-ram-128gb-ssd": {
     "ts": "2026-09-27T17:33:33.269535",
@@ -2336,6 +2314,16 @@
     "precio": 1159.0,
     "precios_publicados": [
       1159.0
+    ]
+  },
+  "ml-cadeira-de-escritorio-gamer-nitro-ergonomica-": {
+    "ts": "2026-09-29T17:29:21.285220",
+    "canales": {
+      "whatsapp": "2026-09-29T17:29:21.285220"
+    },
+    "precio": 579.0,
+    "precios_publicados": [
+      579.0
     ]
   }
 }
