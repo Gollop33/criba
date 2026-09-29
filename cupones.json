@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-29T02:39:08+00:00",
+  "actualizado": "2026-09-29T05:14:15+00:00",
   "total": 29,
   "fuentes": [
     "Manual",
@@ -111,10 +111,10 @@
       "limite": "R$145",
       "vencimento": "2026-09-28",
       "hasta": "2026-09-28",
-      "estado": "ativo",
+      "estado": "vencido",
       "categoria": "Beleza",
       "fonte": "Telegram ML Afiliados",
-      "vigente": true,
+      "vigente": false,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T13:35:57+00:00"
     },
@@ -127,10 +127,10 @@
       "limite": "R$145",
       "vencimento": "2026-09-28",
       "hasta": "2026-09-28",
-      "estado": "ativo",
+      "estado": "vencido",
       "categoria": "Beleza",
       "fonte": "Telegram ML Afiliados",
-      "vigente": true,
+      "vigente": false,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T13:35:57+00:00"
     },
@@ -343,8 +343,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-09-28T13:05:20+00:00",
-      "vigente": true,
-      "estado": "ativo"
+      "vigente": false,
+      "estado": "vencido"
     },
     {
       "codigo": "MIMODODIA",
