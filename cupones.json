@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-09-29T06:24:26+00:00",
-  "total": 29,
+  "actualizado": "2026-09-29T13:33:03+00:00",
+  "total": 34,
   "fuentes": [
     "Manual",
     "Pelando"
@@ -394,6 +394,66 @@
       "detectado_em": "2026-09-28T13:05:20+00:00",
       "vigente": true,
       "estado": "ativo"
+    },
+    {
+      "codigo": "HOJEVAI",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-09-29",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-09-29T13:00:17+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "OFFNOMELI",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-09-29T13:00:17+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "SONOMELI",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-09-29T13:00:17+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "VEMPROMELI",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-09-29T13:00:17+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "DESCONTOMELI",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-11-02",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-09-29T13:00:17+00:00",
+      "vigente": true
     }
   ]
 }
