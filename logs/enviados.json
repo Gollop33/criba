@@ -290,36 +290,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "ml-suporte-carregador-portatil-carro-eletrico-pa": {
-    "ts": "2026-09-27T18:25:18.049324",
-    "canales": {
-      "whatsapp": "2026-09-27T18:25:18.049324"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
-  "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
-    "ts": "2026-09-27T18:29:48.099055",
-    "canales": {
-      "whatsapp": "2026-09-27T18:29:48.099055"
-    },
-    "precio": 1184.0,
-    "precios_publicados": [
-      1184.0
-    ]
-  },
-  "ml-mochila-termica-bolsa-termica-viagem-espacosa": {
-    "ts": "2026-09-27T18:31:10.328012",
-    "canales": {
-      "whatsapp": "2026-09-27T18:31:10.328012"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-09-27T18:40:32.270687",
     "canales": {
@@ -2314,6 +2284,16 @@
     "precio": 549.0,
     "precios_publicados": [
       549.0
+    ]
+  },
+  "amz-lysoform-original-desinfetante-liquido-limpez": {
+    "ts": "2026-09-29T18:31:30.966745",
+    "canales": {
+      "whatsapp": "2026-09-29T18:31:30.966745"
+    },
+    "precio": 48.0,
+    "precios_publicados": [
+      48.0
     ]
   }
 }
