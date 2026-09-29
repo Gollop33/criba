@@ -50,18 +50,6 @@
     ],
     "precio_min_publicado": 883.0
   },
-  "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-09-27T18:45:00.427161",
-    "canales": {
-      "whatsapp": "2026-09-27T18:45:00.427161"
-    },
-    "precio": 1399.0,
-    "precios_publicados": [
-      1399.0,
-      1399.0
-    ],
-    "precio_min_publicado": 1399.0
-  },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
     "ts": "2026-09-27T21:18:45.184829",
     "canales": {
@@ -289,16 +277,6 @@
       2463.0
     ],
     "precio_min_publicado": 2463.0
-  },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-09-27T18:40:32.270687",
-    "canales": {
-      "whatsapp": "2026-09-27T18:40:32.270687"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
   },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-09-27T18:47:05.902058",
@@ -2314,6 +2292,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "ml-carregador-30w-turbo-para-iphone-8-x-xr-11-12": {
+    "ts": "2026-09-29T18:46:24.567583",
+    "canales": {
+      "whatsapp": "2026-09-29T18:46:24.567583"
+    },
+    "precio": 44.0,
+    "precios_publicados": [
+      44.0
     ]
   }
 }
