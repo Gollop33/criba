@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "ml-ventilador-de-teto-42-silencioso-com-lampada-": {
-    "ts": "2026-09-27T20:02:13.602017",
-    "canales": {
-      "whatsapp": "2026-09-27T20:02:13.602017"
-    },
-    "precio": 262.0,
-    "precios_publicados": [
-      262.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
     "ts": "2026-09-27T20:10:03.478878",
     "canales": {
@@ -747,14 +737,16 @@
     ]
   },
   "ml-smartphone-motorola-edge-70-5g-256gb-8gb-ram-": {
-    "ts": "2026-09-28T00:53:18.130560",
+    "ts": "2026-09-29T20:07:43.806476",
     "canales": {
-      "whatsapp": "2026-09-28T00:53:18.130560"
+      "whatsapp": "2026-09-29T20:07:43.806476"
     },
     "precio": 2249.0,
     "precios_publicados": [
+      2249.0,
       2249.0
-    ]
+    ],
+    "precio_min_publicado": 2249.0
   },
   "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
     "ts": "2026-09-28T14:47:07.810562",
