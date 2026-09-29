@@ -265,16 +265,6 @@
     ],
     "precio_min_publicado": 35.0
   },
-  "ml-power-bank-20000mah-225w-carga-rapida-com-dis": {
-    "ts": "2026-09-27T00:31:12.098547",
-    "canales": {
-      "whatsapp": "2026-09-27T00:31:12.098547"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
-  },
   "amz-electrolux-aspirador-po-vertical-com-fio-port": {
     "ts": "2026-09-27T00:40:03.840780",
     "canales": {
@@ -2281,6 +2271,16 @@
     "precio": 439.0,
     "precios_publicados": [
       439.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-e1504fa-amd-ryzen-5": {
+    "ts": "2026-09-29T00:34:03.729926",
+    "canales": {
+      "whatsapp": "2026-09-29T00:34:03.729926"
+    },
+    "precio": 3299.0,
+    "precios_publicados": [
+      3299.0
     ]
   }
 }
