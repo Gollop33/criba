@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
-    "ts": "2026-09-27T21:18:45.184829",
-    "canales": {
-      "whatsapp": "2026-09-27T21:18:45.184829"
-    },
-    "precio": 4399.0,
-    "precios_publicados": [
-      4299.0,
-      4399.0
-    ],
-    "precio_min_publicado": 4299.0
-  },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-09-27T22:45:35.053640",
     "canales": {
@@ -2314,6 +2302,16 @@
     "precio": 296.0,
     "precios_publicados": [
       296.0
+    ]
+  },
+  "amz-apple-iphone-17e-de-256-gb-preto": {
+    "ts": "2026-09-29T21:19:38.590220",
+    "canales": {
+      "whatsapp": "2026-09-29T21:19:38.590220"
+    },
+    "precio": 4499.0,
+    "precios_publicados": [
+      4499.0
     ]
   }
 }
