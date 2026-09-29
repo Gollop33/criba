@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-ximodot-monitor-portatil-de-156-polegadas-con": {
-    "ts": "2026-09-27T14:56:26.750584",
-    "canales": {
-      "whatsapp": "2026-09-27T14:56:26.750584"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0,
-      379.0
-    ],
-    "precio_min_publicado": 379.0
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-09-27T17:28:23.284264",
     "canales": {
@@ -289,16 +277,6 @@
       159.0
     ],
     "precio_min_publicado": 169.0
-  },
-  "ml-power-bank-turbo-portatil-20000mah-turbo-225w": {
-    "ts": "2026-09-27T14:57:38.491658",
-    "canales": {
-      "whatsapp": "2026-09-27T14:57:38.491658"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0
-    ]
   },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-09-27T15:06:10.641651",
@@ -2366,6 +2344,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "ml-smart-tv-philco-75-p75cga-qled-4k-google-tv-d": {
+    "ts": "2026-09-29T14:58:05.055768",
+    "canales": {
+      "whatsapp": "2026-09-29T14:58:05.055768"
+    },
+    "precio": 4182.0,
+    "precios_publicados": [
+      4182.0
     ]
   }
 }
