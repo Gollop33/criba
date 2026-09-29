@@ -166,6 +166,33 @@ def configurar(args):
     return 0
 
 
+def solo_secret(secret):
+    """
+    Guarda SOLO el Client Secret, dejando ya puestos el App ID y el redirect.
+    Así no hay que volver a escribir el redirect entero: si se cuela un espacio
+    o una barra de más, ML rechaza el canje del código con un error confuso.
+    """
+    secret = (secret or "").strip()
+    if not secret:
+        print("  Falta el secret.")
+        return 1
+    env = leer_env()
+    app_id = env.get("ML_APP_ID", "").strip()
+    redirect = env.get("ML_REDIRECT_URI", "").strip() or REDIRECT_POR_DEFECTO
+    if not app_id:
+        print("  No hay ML_APP_ID guardado. Configúralo primero con --config.")
+        return 1
+    guardar_env("ML_CLIENT_SECRET", secret)
+    guardar_env("ML_REDIRECT_URI", redirect)
+    print("  Guardado en .env:")
+    print(f"     ML_APP_ID        = {app_id}")
+    print(f"     ML_CLIENT_SECRET = {'*' * 8}{secret[-4:]}  ({len(secret)} caracteres)")
+    print(f"     ML_REDIRECT_URI  = {redirect}")
+    print()
+    print("  Siguiente paso:  python obtener_token_ml.py --paso2")
+    return 0
+
+
 def paso2():
     env = leer_env()
     app_id = env.get("ML_APP_ID", "").strip()
@@ -342,6 +369,12 @@ def main():
         return paso2()
     if "--config" in args:
         return configurar(args[args.index("--config") + 1:])
+    if "--secret" in args:
+        i = args.index("--secret")
+        if i + 1 >= len(args):
+            print("  Falta el secret.")
+            return 1
+        return solo_secret(args[i + 1])
     if "--code" in args:
         i = args.index("--code")
         if i + 1 >= len(args):
