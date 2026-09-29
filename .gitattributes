@@ -1,0 +1,7 @@
+
+
+# Logs que el bot y el operador escriben A LA VEZ: sin esto, git marca conflicto
+# en cada push y hay que resolverlos a mano. Con merge=union git junta las dos
+# versiones automaticamente (es un log append-only, no hay nada que decidir).
+logs/validacion.jsonl merge=union
+logs/*.jsonl merge=union
