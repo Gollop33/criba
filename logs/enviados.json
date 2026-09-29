@@ -253,26 +253,6 @@
     ],
     "precio_min_publicado": 1633.0
   },
-  "ml-relogio-inteligente-smartwatch-gps-autonomo-a": {
-    "ts": "2026-09-27T00:09:58.762645",
-    "canales": {
-      "whatsapp": "2026-09-27T00:09:58.762645"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
-  "amz-apple-iphone-16-128-gb-branco": {
-    "ts": "2026-09-27T00:14:37.158124",
-    "canales": {
-      "whatsapp": "2026-09-27T00:14:37.158124"
-    },
-    "precio": 5110.0,
-    "precios_publicados": [
-      5110.0
-    ]
-  },
   "ml-tapete-higienico-com-carvao-ativado-50-unidad": {
     "ts": "2026-09-27T00:16:10.198688",
     "canales": {
@@ -2279,6 +2259,16 @@
     "precio": 131.0,
     "precios_publicados": [
       131.0
+    ]
+  },
+  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
+    "ts": "2026-09-29T00:15:19.598822",
+    "canales": {
+      "whatsapp": "2026-09-29T00:15:19.598822"
+    },
+    "precio": 227.0,
+    "precios_publicados": [
+      227.0
     ]
   }
 }
