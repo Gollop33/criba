@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "ml-brigadeiro-de-morango-de-pote-101kg-para-enro": {
-    "ts": "2026-09-27T19:09:41.371470",
-    "canales": {
-      "whatsapp": "2026-09-27T19:09:41.371470"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-shampoo-cloresten-antifungico-e-antibacterian": {
     "ts": "2026-09-27T19:18:59.464445",
     "canales": {
@@ -2352,6 +2342,16 @@
     "precio": 485.0,
     "precios_publicados": [
       485.0
+    ]
+  },
+  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
+    "ts": "2026-09-29T19:14:32.378340",
+    "canales": {
+      "whatsapp": "2026-09-29T19:14:32.378340"
+    },
+    "precio": 1379.0,
+    "precios_publicados": [
+      1379.0
     ]
   }
 }
