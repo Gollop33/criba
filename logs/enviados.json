@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 234.0
   },
-  "amz-fritadeira-philco-air-fryer-oven-12l-pfr2200p": {
-    "ts": "2026-09-27T17:13:47.801960",
-    "canales": {
-      "whatsapp": "2026-09-27T17:13:47.801960"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
   "ml-carregador-portatil-20000-turbo-225w-power-ba": {
     "ts": "2026-09-27T17:22:13.833122",
     "canales": {
@@ -693,14 +683,16 @@
     ]
   },
   "ml-tapete-higienico-para-cachorro-50-unidades-60": {
-    "ts": "2026-09-27T21:24:30.066472",
+    "ts": "2026-09-29T17:17:48.875643",
     "canales": {
-      "whatsapp": "2026-09-27T21:24:30.066472"
+      "whatsapp": "2026-09-29T17:17:48.875643"
     },
     "precio": 44.0,
     "precios_publicados": [
+      44.0,
       44.0
-    ]
+    ],
+    "precio_min_publicado": 44.0
   },
   "amz-the-last-of-us-part-ii-playstation-4": {
     "ts": "2026-09-27T21:32:02.837809",
