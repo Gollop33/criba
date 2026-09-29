@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-09-27T22:36:01.747324",
-    "canales": {
-      "whatsapp": "2026-09-27T22:36:01.747324"
-    },
-    "precio": 758.0,
-    "precios_publicados": [
-      758.0
-    ]
-  },
   "ml-patinete-eletrico-gm5-p1-preto-dobravel-com-b": {
     "ts": "2026-09-27T22:42:26.659665",
     "canales": {
@@ -2352,6 +2342,16 @@
     "precio": 171.0,
     "precios_publicados": [
       171.0
+    ]
+  },
+  "ml-projetor-smart-portatil-full-hd-4k-android-11": {
+    "ts": "2026-09-29T22:36:53.284572",
+    "canales": {
+      "whatsapp": "2026-09-29T22:36:53.284572"
+    },
+    "precio": 152.0,
+    "precios_publicados": [
+      152.0
     ]
   }
 }
