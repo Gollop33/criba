@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "amz-blue-premium-tapete-higienico-descartavel-par": {
-    "ts": "2026-09-27T18:17:49.799668",
-    "canales": {
-      "whatsapp": "2026-09-27T18:17:49.799668"
-    },
-    "precio": 58.0,
-    "precios_publicados": [
-      58.0
-    ]
-  },
   "ml-suporte-carregador-portatil-carro-eletrico-pa": {
     "ts": "2026-09-27T18:25:18.049324",
     "canales": {
@@ -2314,6 +2304,16 @@
     "precio": 41.0,
     "precios_publicados": [
       41.0
+    ]
+  },
+  "ml-jogo-de-panelas-fundo-triplo-inducao-15-pecas": {
+    "ts": "2026-09-29T18:22:41.172301",
+    "canales": {
+      "whatsapp": "2026-09-29T18:22:41.172301"
+    },
+    "precio": 549.0,
+    "precios_publicados": [
+      549.0
     ]
   }
 }
