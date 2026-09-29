@@ -1,0 +1,14 @@
+{
+  "ultimo_dia": "2026-09-28",
+  "ultimo_reset": "2026-09-28T23:39:03-03:00",
+  "dia_archivado": "2026-09-27",
+  "cupones_vigentes": 25,
+  "cupones_vencidos": 4,
+  "archivados": [
+    "cupones.json",
+    "achados.json",
+    "achados_ml.json",
+    "achados_amazon.json"
+  ],
+  "nota": "La fila se vacía y se regenera con datos del día. NO se borran logs/enviados.json ni precios.db: son el histórico que permite detectar bajadas de precio."
+}
