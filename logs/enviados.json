@@ -290,26 +290,6 @@
     ],
     "precio_min_publicado": 1812.0
   },
-  "amz-garrafa-termica-750ml-24h-gelada-alca-paracor": {
-    "ts": "2026-09-27T16:12:22.287159",
-    "canales": {
-      "whatsapp": "2026-09-27T16:12:22.287159"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
-  "ml-xilofone-musical-infantil-brinquedo-educativo": {
-    "ts": "2026-09-27T16:15:42.263648",
-    "canales": {
-      "whatsapp": "2026-09-27T16:15:42.263648"
-    },
-    "precio": 107.0,
-    "precios_publicados": [
-      107.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
     "ts": "2026-09-27T16:25:34.553391",
     "canales": {
@@ -2344,6 +2324,16 @@
     "precio": 646.0,
     "precios_publicados": [
       646.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-24-full-hd-100hz-1ms-adapti": {
+    "ts": "2026-09-29T16:16:17.844114",
+    "canales": {
+      "whatsapp": "2026-09-29T16:16:17.844114"
+    },
+    "precio": 521.0,
+    "precios_publicados": [
+      521.0
     ]
   }
 }
