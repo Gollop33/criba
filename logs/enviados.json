@@ -254,16 +254,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "amz-tab-samsung-galaxy-s11-ultra-cinza-512gb-12gb": {
-    "ts": "2026-09-27T23:53:14.307616",
-    "canales": {
-      "whatsapp": "2026-09-27T23:53:14.307616"
-    },
-    "precio": 7124.0,
-    "precios_publicados": [
-      7124.0
-    ]
-  },
   "ml-placa-de-video-amd-radeon-rx580-8gb-gddr5-256": {
     "ts": "2026-09-27T23:55:46.045093",
     "canales": {
@@ -571,14 +561,16 @@
     ]
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-09-28T16:57:56.709970",
+    "ts": "2026-09-29T23:54:13.910349",
     "canales": {
-      "whatsapp": "2026-09-28T16:57:56.709970"
+      "whatsapp": "2026-09-29T23:54:13.910349"
     },
     "precio": 1440.0,
     "precios_publicados": [
+      1440.0,
       1440.0
-    ]
+    ],
+    "precio_min_publicado": 1440.0
   },
   "ml-smart-tv-pro-lg-65-4k-ultra-hd-ai-65un85c": {
     "ts": "2026-09-28T17:06:20.179450",
