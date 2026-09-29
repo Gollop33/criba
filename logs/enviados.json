@@ -278,26 +278,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
-    "ts": "2026-09-27T15:06:10.641651",
-    "canales": {
-      "whatsapp": "2026-09-27T15:06:10.641651"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
-  "ml-samsung-galaxy-buds3-fe-fone-de-ouvido-sem-fi": {
-    "ts": "2026-09-27T15:12:49.397651",
-    "canales": {
-      "whatsapp": "2026-09-27T15:12:49.397651"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-adaptador-usb-bluetooth-receptor-e-transmisso": {
     "ts": "2026-09-27T15:14:27.732630",
     "canales": {
@@ -2364,6 +2344,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "ml-fone-de-ouvido-bluetooth-bateria-de-longa-dur": {
+    "ts": "2026-09-29T15:14:03.529157",
+    "canales": {
+      "whatsapp": "2026-09-29T15:14:03.529157"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
