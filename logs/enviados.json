@@ -278,26 +278,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "amz-xiaomi-tablet-redmi-pad-2-de-8-gb-256-gb-tela": {
-    "ts": "2026-09-27T22:52:42.812855",
-    "canales": {
-      "whatsapp": "2026-09-27T22:52:42.812855"
-    },
-    "precio": 1550.0,
-    "precios_publicados": [
-      1550.0
-    ]
-  },
-  "ml-bicicleta-infantil-equilibrio-sem-pedal-balan": {
-    "ts": "2026-09-27T22:57:24.244902",
-    "canales": {
-      "whatsapp": "2026-09-27T22:57:24.244902"
-    },
-    "precio": 143.0,
-    "precios_publicados": [
-      143.0
-    ]
-  },
   "amz-xiaomi-tablet-pad-7-de-112-polegadas-8-gb-de-": {
     "ts": "2026-09-27T23:04:43.277282",
     "canales": {
@@ -2332,6 +2312,16 @@
     "precio": 950.0,
     "precios_publicados": [
       950.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
+    "ts": "2026-09-29T23:01:04.745766",
+    "canales": {
+      "whatsapp": "2026-09-29T23:01:04.745766"
+    },
+    "precio": 3332.0,
+    "precios_publicados": [
+      3332.0
     ]
   }
 }
