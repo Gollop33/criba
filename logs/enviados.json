@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 523.0
   },
-  "amz-adaptador-wifi-usb-30-dual-band-1300mbps-24gh": {
-    "ts": "2026-09-27T15:57:08.522749",
-    "canales": {
-      "whatsapp": "2026-09-27T15:57:08.522749"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "ml-monitor-gamer-lg-ultragear-curvo-34-quadhd-2k": {
     "ts": "2026-09-29T14:08:42.767434",
     "canales": {
@@ -391,14 +381,16 @@
     ]
   },
   "amz-monitor-brx-21-led-75hz-hdmi-vga-preto": {
-    "ts": "2026-09-27T17:03:03.640064",
+    "ts": "2026-09-29T15:58:20.297503",
     "canales": {
-      "whatsapp": "2026-09-27T17:03:03.640064"
+      "whatsapp": "2026-09-29T15:58:20.297503"
     },
     "precio": 234.0,
     "precios_publicados": [
+      234.0,
       234.0
-    ]
+    ],
+    "precio_min_publicado": 234.0
   },
   "ml-carregador-super-rapido-25w-para-samsung-gala": {
     "ts": "2026-09-27T17:04:32.856054",
