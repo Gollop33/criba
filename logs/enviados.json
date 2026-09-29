@@ -74,18 +74,6 @@
     ],
     "precio_min_publicado": 1233.0
   },
-  "ml-tenis-sandrini-aero-spark-corrida-academia-ca": {
-    "ts": "2026-09-27T23:42:35.313270",
-    "canales": {
-      "whatsapp": "2026-09-27T23:42:35.313270"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0,
-      135.0
-    ],
-    "precio_min_publicado": 135.0
-  },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-09-28T22:11:48.086788",
     "canales": {
@@ -133,18 +121,6 @@
       298.0
     ],
     "precio_min_publicado": 298.0
-  },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-09-27T23:49:53.048428",
-    "canales": {
-      "whatsapp": "2026-09-27T23:49:53.048428"
-    },
-    "precio": 1529.0,
-    "precios_publicados": [
-      1633.0,
-      1529.0
-    ],
-    "precio_min_publicado": 1633.0
   },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
     "ts": "2026-09-28T15:22:01.888137",
@@ -2332,6 +2308,16 @@
     "precio": 758.0,
     "precios_publicados": [
       758.0
+    ]
+  },
+  "ml-smartphone-motorola-edge-70-5g-crystals-by-sw": {
+    "ts": "2026-09-29T23:49:57.312080",
+    "canales": {
+      "whatsapp": "2026-09-29T23:49:57.312080"
+    },
+    "precio": 2699.0,
+    "precios_publicados": [
+      2699.0
     ]
   }
 }
