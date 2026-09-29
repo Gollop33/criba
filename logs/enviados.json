@@ -266,16 +266,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-cama-elastica-pula-pula-infantil-trampolim-14": {
-    "ts": "2026-09-27T21:36:53.718438",
-    "canales": {
-      "whatsapp": "2026-09-27T21:36:53.718438"
-    },
-    "precio": 269.0,
-    "precios_publicados": [
-      269.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-09-27T21:39:10.005457",
     "canales": {
@@ -2322,6 +2312,16 @@
     "precio": 2740.0,
     "precios_publicados": [
       2740.0
+    ]
+  },
+  "ml-tapete-higienico-pet-50-unidades-60x60-descar": {
+    "ts": "2026-09-29T21:37:02.781670",
+    "canales": {
+      "whatsapp": "2026-09-29T21:37:02.781670"
+    },
+    "precio": 45.0,
+    "precios_publicados": [
+      45.0
     ]
   }
 }
