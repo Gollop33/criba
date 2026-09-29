@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "amz-grand-theft-auto-vi-playstation-5": {
-    "ts": "2026-09-27T23:33:53.193662",
-    "canales": {
-      "whatsapp": "2026-09-27T23:33:53.193662"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
   "amz-tab-samsung-galaxy-s11-ultra-cinza-512gb-12gb": {
     "ts": "2026-09-27T23:53:14.307616",
     "canales": {
@@ -2332,6 +2322,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
+    "ts": "2026-09-29T23:40:50.128724",
+    "canales": {
+      "whatsapp": "2026-09-29T23:40:50.128724"
+    },
+    "precio": 758.0,
+    "precios_publicados": [
+      758.0
     ]
   }
 }
