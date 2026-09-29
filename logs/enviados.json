@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "ml-projetor-pfl5211-full-hd-5200lm-branco-intelb": {
-    "ts": "2026-09-27T20:25:36.208902",
-    "canales": {
-      "whatsapp": "2026-09-27T20:25:36.208902"
-    },
-    "precio": 1039.0,
-    "precios_publicados": [
-      1039.0
-    ]
-  },
   "amz-tablet-xiaomi-redmi-pad-2-pro-tela-121-wifi-2": {
     "ts": "2026-09-27T20:33:54.638011",
     "canales": {
@@ -2326,6 +2316,16 @@
     "precio": 629.0,
     "precios_publicados": [
       629.0
+    ]
+  },
+  "ml-oximetro-de-pulso-dedo-medidor-de-saturacao-g": {
+    "ts": "2026-09-29T20:31:07.647464",
+    "canales": {
+      "whatsapp": "2026-09-29T20:31:07.647464"
+    },
+    "precio": 70.0,
+    "precios_publicados": [
+      70.0
     ]
   }
 }
