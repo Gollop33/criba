@@ -44,11 +44,17 @@ ENDPOINTS = [
     ("/users/me", "identidad", False),
     ("/categories/MLB1051", "categoria", False),
     (f"/products/{ID_CATALOGO_VALIDO}", "producto de catalogo", True),
+    # ESTA es la vía que da el PRECIO. `/items/{id}` da 403 con esta app, pero
+    # NO hace falta: /products/{id}/items devuelve precio, precio original,
+    # envío gratis y condición. Verificado: 10 de 12 productos con precio real.
+    (f"/products/{ID_CATALOGO_VALIDO}/items", "PRECIO del producto", True),
     ("/sites/MLB", "sitio", False),
     ("/currencies/BRL", "moneda", False),
-    ("/items/MLB3896678839", "ITEM concreto", True),
-    ("/sites/MLB/search?q=monitor&limit=3", "busqueda", True),
     ("/trends/MLB", "tendencias", False),
+    # Siguen en 403 y NO son necesarios: se dejan visibles como información,
+    # marcados como no críticos para no perseguir permisos inútiles.
+    ("/items/MLB3896678839", "ITEM (403, no necesario)", False),
+    ("/sites/MLB/search?q=monitor&limit=3", "busqueda (403, no necesaria)", False),
 ]
 
 

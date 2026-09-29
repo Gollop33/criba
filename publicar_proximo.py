@@ -394,13 +394,45 @@ def publicar_un_post(es_test=False):
                         print(f"  ⛔ [API ML] producto inactivo "
                               f"({(v.get('real') or {}).get('estado')}): {tit_c[:38]}")
                         continue
-                    if v.get("precio_coincide") is False:
-                        print(f"  ⚠️  [API ML] {v.get('alerta_precio', 'precio distinto')}")
+
+                    real = v.get("real") or {}
+                    precio_api = real.get("precio")
+
+                    # ── CORRECCIÓN DE PRECIO ────────────────────────────────
+                    # Si la API da un precio distinto al del post, se publica
+                    # con el DE LA API, que es el real. El post se generó hace
+                    # horas y el precio puede haber cambiado: es exactamente el
+                    # "precios errados" que reportó el usuario.
+                    # Medido: la Colcha Cobre Leito estaba a R$ 335,92 en el
+                    # post y a R$ 519,90 en la API -> 184 reales de diferencia.
+                    try:
+                        p_post = float(cand.get("precio") or 0)
+                        p_api = float(precio_api or 0)
+                    except (TypeError, ValueError):
+                        p_post = p_api = 0
+                    if p_api and p_post and abs(p_api - p_post) > 1:
+                        cand["precio_scrapeado"] = p_post
+                        cand["precio"] = p_api
+                        cand["precio_corregido_por_api"] = True
+                        print(f"  🔧 [API ML] PRECIO CORREGIDO: "
+                              f"R$ {p_post:.2f} -> R$ {p_api:.2f} (el real)")
+                    # Precio original (tachado) real, si la API lo trae
+                    if real.get("precio_lista"):
+                        try:
+                            pl = float(real["precio_lista"])
+                            if pl > float(cand.get("precio") or 0):
+                                cand["precio_anterior"] = pl
+                        except (TypeError, ValueError):
+                            pass
+                    # Envío gratis real, no el que dijo el scraper
+                    if real.get("envio_gratis") is not None:
+                        cand["envio_gratis"] = bool(real["envio_gratis"])
+
                     if v.get("sin_precio_api"):
                         print("  ✅ [API ML] producto verificado (activo + nombre OK)")
                     else:
-                        print("  ✅ [API ML] producto verificado: "
-                              f"{(v.get('real') or {}).get('estado')}")
+                        print(f"  ✅ [API ML] verificado: estado "
+                              f"{real.get('estado')}, precio R$ {precio_api}")
                 elif "404" in str(v.get("motivo", "")):
                     print(f"  ⛔ [API ML] el producto YA NO EXISTE (404): {tit_c[:38]}")
                     print("     Se descarta: el enlace llevaría a una página muerta.")

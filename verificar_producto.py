@@ -98,6 +98,116 @@ def consultar(item_id, tipo="item", timeout=20):
         return None
 
     H = {"Authorization": f"Bearer {TOKEN}"}
+
+    # ── LA VÍA BUENA PARA UN PRODUCTO DE CATÁLOGO ───────────────────────────
+    # `/items/{id}` da 403 con esta app (medido: "Access to the requested
+    # resource is forbidden"), así que el precio NO se puede sacar de ahí.
+    #
+    # Pero hay otra vía que SÍ funciona y da TODO lo que hace falta:
+    #     GET /products/{catalogo_id}         -> nombre, estado, marca
+    #     GET /products/{catalogo_id}/items   -> PRECIO, precio original,
+    #                                            envío gratis, condición
+    # Verificado en vivo:
+    #     /products/MLB76109690/items -> 200 con
+    #        {"item_id":"MLB5141219581","price":235.08,
+    #         "original_price":419.8,"shipping":{"free_shipping":true},...}
+    # Y el precio coincide exacto con el del post (235.08), así que sirve para
+    # verificar y para CORREGIR precios equivocados.
+    if tipo == "catalogo":
+        try:
+            r = requests.get(f"{API}/products/{item_id}", headers=H, timeout=timeout)
+            if r.status_code != 200:
+                return {"error": f"HTTP {r.status_code}", "raw": r.text[:140]}
+            d = r.json()
+        except Exception as e:
+            return {"error": f"{type(e).__name__}: {str(e)[:100]}"}
+
+        bbw = d.get("buy_box_winner") or {}
+        datos = {
+            "id": d.get("id"),
+            "titulo": d.get("name"),
+            "precio": bbw.get("price"),
+            "precio_lista": bbw.get("original_price"),
+            "disponible": None,
+            "estado": d.get("status"),
+            "envio_gratis": None,
+            "permalink": d.get("permalink") or "",
+            "categoria_id": d.get("domain_id"),
+            "tipo": "catalogo",
+            "marca": next((a.get("value_name") for a in (d.get("attributes") or [])
+                           if a.get("id") == "BRAND"), None),
+            "con_precio": bbw.get("price") is not None,
+        }
+
+        # Segundo paso: los items del producto, que es donde está el precio.
+        if not datos["con_precio"]:
+            try:
+                r2 = requests.get(f"{API}/products/{item_id}/items",
+                                  headers=H, timeout=timeout)
+                if r2.status_code == 200:
+                    items = (r2.json() or {}).get("results") or []
+                    # Preferir el más barato disponible y nuevo
+                    validos = [x for x in items
+                               if x.get("price") and str(x.get("condition")) == "new"]
+                    elegido = min(validos or items,
+                                  key=lambda x: float(x.get("price") or 1e12),
+                                  default=None)
+                    if elegido:
+                        datos["precio"] = elegido.get("price")
+                        datos["precio_lista"] = elegido.get("original_price")
+                        datos["envio_gratis"] = bool(
+                            (elegido.get("shipping") or {}).get("free_shipping"))
+                        datos["condicion"] = elegido.get("condition")
+                        datos["item_id"] = elegido.get("item_id")
+                        datos["vendedor_oficial"] = elegido.get("official_store_id")
+                        datos["con_precio"] = True
+                        datos["n_items"] = len(items)
+                else:
+                    datos["aviso_items"] = f"HTTP {r2.status_code}"
+            except Exception as e:
+                datos["aviso_items"] = f"{type(e).__name__}: {str(e)[:80]}"
+
+        if not datos["con_precio"]:
+            datos["aviso"] = "la API no da precio para este producto"
+        return datos
+
+    # ── PUBLICACIÓN DIRECTA (/items/{id}) ───────────────────────────────────
+    try:
+        r = requests.get(f"{API}/items/{item_id}", headers=H, timeout=timeout)
+        if r.status_code != 200:
+            return {"error": f"HTTP {r.status_code}", "raw": r.text[:140]}
+        d = r.json()
+    except Exception as e:
+        return {"error": f"{type(e).__name__}: {str(e)[:100]}"}
+
+    return {
+        "id": d.get("id"),
+        "titulo": d.get("title") or d.get("name"),
+        "precio": d.get("price"),
+        "precio_lista": d.get("original_price") or d.get("base_price"),
+        "disponible": d.get("available_quantity"),
+        "estado": d.get("status") or d.get("condition"),
+        "envio_gratis": bool((d.get("shipping") or {}).get("free_shipping")),
+        "permalink": d.get("permalink"),
+        "categoria_id": d.get("category_id"),
+        "tipo": "item",
+        "con_precio": d.get("price") is not None,
+        "pix": next((d[c] for c in ("discount_pix", "pix_discount",
+                                    "payment_discount") if d.get(c)), None),
+    }
+
+
+def _consultar_viejo(item_id, tipo="item", timeout=20):
+    """(sin uso) primera versión: no usaba /products/{id}/items y se quedaba
+    sin precio porque buy_box_winner viene null."""
+    if not token_disponible():
+        return None
+    try:
+        import requests
+    except ImportError:
+        return None
+
+    H = {"Authorization": f"Bearer {TOKEN}"}
     if tipo == "catalogo":
         url = f"{API}/products/{item_id}"
     else:
