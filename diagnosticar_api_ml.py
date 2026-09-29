@@ -34,13 +34,19 @@ if _env.exists():
 TOKEN = os.environ.get("ML_ACCESS_TOKEN", "").strip()
 
 # (ruta, descripción, si es imprescindible para el bot)
+# OJO con los IDs: se usan IDs que EXISTEN de verdad. Antes se probaba
+# /products/MLB34928101, que devuelve 404 (ese producto ya no está en el
+# catálogo), y el diagnóstico lo contaba como "sin permiso" cuando en realidad
+# el permiso SÍ funcionaba. Ese falso negativo llevaba a conclusiones erróneas.
+ID_CATALOGO_VALIDO = "MLB76109690"   # verificado: 200, status=active
+
 ENDPOINTS = [
     ("/users/me", "identidad", False),
-    ("/sites/MLB", "sitio", False),
     ("/categories/MLB1051", "categoria", False),
+    (f"/products/{ID_CATALOGO_VALIDO}", "producto de catalogo", True),
+    ("/sites/MLB", "sitio", False),
     ("/currencies/BRL", "moneda", False),
     ("/items/MLB3896678839", "ITEM concreto", True),
-    ("/products/MLB34928101", "producto de catalogo", True),
     ("/sites/MLB/search?q=monitor&limit=3", "busqueda", True),
     ("/trends/MLB", "tendencias", False),
 ]
@@ -105,6 +111,28 @@ def main():
             print(f"  tags        : {json.dumps(d.get('tags'), ensure_ascii=False)}")
             rep = (d.get("seller_reputation") or {})
             print(f"  vendedor    : {'sí (' + str(rep.get('level_id')) + ')' if rep.get('level_id') else 'NO'}")
+    except Exception:
+        pass
+
+    # ── ¿El token es NUEVO o el de antes? ──────────────────────────────────
+    # Es la clave para no perder el tiempo: si no se ha reautorizado, el token
+    # NO hereda los permisos nuevos y el diagnóstico dará lo mismo aunque se
+    # hayan cambiado bien en el devcenter.
+    print()
+    try:
+        import hashlib
+        import time
+        huella = hashlib.sha256(TOKEN.encode()).hexdigest()[:16]
+        print(f"  token       : huella {huella}")
+        cache = BASE / ".ml_token.json"
+        if cache.exists():
+            c = json.loads(cache.read_text(encoding="utf-8"))
+            obtenido = c.get("obtenido_en")
+            if obtenido:
+                hace = (time.time() - float(obtenido)) / 60
+                print(f"                emitido hace {hace:.0f} min")
+                print("                (si cambiaste permisos y este número no es")
+                print("                 de hace un momento, NO has reautorizado)")
     except Exception:
         pass
 
