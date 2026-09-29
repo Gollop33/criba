@@ -278,16 +278,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
-    "ts": "2026-09-27T23:11:12.110685",
-    "canales": {
-      "whatsapp": "2026-09-27T23:11:12.110685"
-    },
-    "precio": 2699.0,
-    "precios_publicados": [
-      2699.0
-    ]
-  },
   "ml-ar-condicionado-split-hi-wall-inverter-philco": {
     "ts": "2026-09-27T23:18:48.987909",
     "canales": {
@@ -2332,6 +2322,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
+    "ts": "2026-09-29T23:17:00.778813",
+    "canales": {
+      "whatsapp": "2026-09-29T23:17:00.778813"
+    },
+    "precio": 35.0,
+    "precios_publicados": [
+      35.0
     ]
   }
 }
