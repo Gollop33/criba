@@ -111,6 +111,41 @@ def consultar(item_id, tipo="item", timeout=20):
     except Exception as e:
         return {"error": f"{type(e).__name__}: {str(e)[:100]}"}
 
+    # ── RESPUESTA DE CATÁLOGO (/products/{id}) ──────────────────────────────
+    # Devuelve los METADATOS del producto (nombre, marca, atributos, estado)
+    # pero el precio NO está aquí: vive en `buy_box_winner`, y ese campo viene
+    # null salvo que la app tenga también el permiso de `items`.
+    #
+    # Medido con el token actual del proyecto:
+    #     GET /products/MLB76109690 -> 200, name y status="active", buy_box_winner=null
+    #     GET /items/... -> 403 (falta permiso)
+    #
+    # Aunque no haya precio, esto SÍ sirve para dos comprobaciones reales:
+    #   1. Que el producto EXISTE y está activo (no retirado).
+    #   2. Que el NOMBRE coincide con el del post -> pilla enlaces cruzados.
+    if d.get("type") == "catalog_product" or "buy_box_winner" in d or "family_name" in d:
+        bbw = d.get("buy_box_winner") or {}
+        datos = {
+            "id": d.get("id"),
+            "titulo": d.get("name"),
+            "precio": bbw.get("price"),
+            "precio_lista": bbw.get("original_price"),
+            "disponible": None,
+            "estado": d.get("status"),
+            "envio_gratis": None,
+            "permalink": d.get("permalink") or "",
+            "categoria_id": d.get("domain_id"),
+            "tipo": "catalogo",
+            "marca": next((a.get("value_name") for a in (d.get("attributes") or [])
+                           if a.get("id") == "BRAND"), None),
+            "con_precio": bbw.get("price") is not None,
+        }
+        if not datos["con_precio"]:
+            datos["aviso"] = ("el catálogo no da precio sin el permiso de items "
+                              "(buy_box_winner vacío)")
+        return datos
+
+    # ── RESPUESTA DE PUBLICACIÓN (/items/{id}) ──────────────────────────────
     datos = {
         "id": d.get("id"),
         "titulo": d.get("title") or d.get("name"),
@@ -121,6 +156,8 @@ def consultar(item_id, tipo="item", timeout=20):
         "envio_gratis": bool((d.get("shipping") or {}).get("free_shipping")),
         "permalink": d.get("permalink"),
         "categoria_id": d.get("category_id"),
+        "tipo": "item",
+        "con_precio": d.get("price") is not None,
     }
     # Descuento Pix: solo si la API lo trae de verdad. NO se inventa.
     for campo in ("discount_pix", "pix_discount", "payment_discount"):
@@ -131,18 +168,66 @@ def consultar(item_id, tipo="item", timeout=20):
 
 
 def verificar_post(post):
-    """Verifica un post de la fila contra la API real."""
-    item_id, tipo = extraer_item_id(post.get("url"))
+    """
+    Verifica un post de la fila contra la API real.
+
+    IMPORTANTE: hay que RESOLVER el enlace corto ANTES de buscar el id.
+    Medido sobre la fila real: 186 de 191 URLs de Mercado Livre son enlaces
+    `meli.la/XXXX`, así que sin resolverlos solo se podían verificar 5 de 191
+    (2,6%). Con la resolución por cache_melila se recuperan casi todos.
+    """
+    url_original = post.get("url")
+    url = url_original
+    try:
+        from validador_oferta import resolver_enlace
+        url = resolver_enlace(url_original)
+    except Exception:
+        pass
+
+    item_id, tipo = extraer_item_id(url)
     if not item_id:
-        return {"verificable": False, "motivo": "sin id de ML en la URL"}
+        return {"verificable": False,
+                "motivo": f"sin id de ML en la URL ({str(url)[:60]})"}
     real = consultar(item_id, tipo)
     if not real:
         return {"verificable": False, "motivo": "sin ML_ACCESS_TOKEN"}
     if real.get("error"):
-        return {"verificable": False, "motivo": real["error"]}
+        return {"verificable": False, "motivo": real["error"], "id": item_id,
+                "url_resuelta": url}
 
-    salida = {"verificable": True, "id": item_id, "tipo": tipo, "real": real}
-    # Comparar con lo que dice el post
+    salida = {"verificable": True, "id": item_id, "tipo": tipo, "real": real,
+              "url_resuelta": url}
+
+    # ── COMPROBACIÓN 1: el nombre real coincide con el del post ─────────────
+    # Esto pilla los ENLACES CRUZADOS (producto A con enlace del producto B),
+    # que es uno de los errores que reportó el usuario. Funciona incluso sin el
+    # permiso de items, porque /products/ sí devuelve el nombre.
+    try:
+        import unicodedata
+
+        def _norm(s):
+            s = unicodedata.normalize("NFKD", str(s or "")).encode("ascii", "ignore").decode()
+            s = re.sub(r"[^a-z0-9 ]", " ", s.lower())
+            return {w for w in re.sub(r"\s+", " ", s).split() if len(w) >= 4}
+
+        w_post = _norm(post.get("titulo"))
+        w_real = _norm(real.get("titulo"))
+        if w_post and w_real:
+            ratio = len(w_post & w_real) / max(1, len(w_post))
+            salida["nombre_coincide"] = ratio >= 0.5
+            salida["coincidencia_nombre"] = round(ratio, 2)
+            if ratio < 0.5:
+                salida["alerta"] = (f"el nombre del enlace NO coincide con el post "
+                                    f"({ratio:.0%}): {str(real.get('titulo'))[:60]!r}")
+    except Exception:
+        pass
+
+    # ── COMPROBACIÓN 2: el producto sigue activo ────────────────────────────
+    if real.get("estado") and str(real["estado"]).lower() not in ("active", "new"):
+        salida["inactivo"] = True
+        salida["alerta_estado"] = f"producto en estado {real['estado']!r}"
+
+    # ── COMPROBACIÓN 3: precio (solo si la API lo da) ───────────────────────
     try:
         p_post = float(post.get("precio") or 0)
         p_real = float(real.get("precio") or 0)
@@ -151,10 +236,15 @@ def verificar_post(post):
             salida["precio_coincide"] = dif <= 1.0
             salida["precio_post"] = p_post
             salida["precio_real"] = p_real
+            if dif > 1.0:
+                salida["alerta_precio"] = (f"precio del post R$ {p_post:.2f} "
+                                           f"vs real R$ {p_real:.2f}")
     except (TypeError, ValueError):
         pass
-    if real.get("disponible") in (0, None):
+    if real.get("disponible") == 0:
         salida["sin_stock"] = True
+    if real.get("con_precio") is False:
+        salida["sin_precio_api"] = True
     return salida
 
 

@@ -116,19 +116,42 @@ def main():
     else:
         print(f"  FALTAN PERMISOS: {criticos_ok}/{criticos_total} comprobaciones clave pasan.")
         print()
+        # No es lo mismo "nada funciona" que "el catálogo sí y solo falta el
+        # precio". Medido en este proyecto:
+        #   /products/{id} -> 200 con un id válido (catálogo YA funciona)
+        #   /items/{id}    -> 403 (falta el permiso de publicaciones)
+        #   buy_box_winner -> null, y AHÍ vive el precio
+        if any("producto de catalogo" in f for f in fallos):
+            print("  [!] CATÁLOGO: revisa que el tópico 'catalog' esté marcado.")
+        else:
+            print("  [OK] CATÁLOGO funciona. Ya se puede verificar que el producto")
+            print("       EXISTE, que está ACTIVO y que el nombre real coincide con el")
+            print("       del post. Eso detecta enlaces equivocados y ofertas muertas.")
+        print()
+        if any("ITEM concreto" in f for f in fallos):
+            print("  [!] PUBLICACIONES (items): esto es lo que FALTA. Sin este permiso")
+            print("      NO HAY PRECIO, porque vive en buy_box_winner y viene vacío.")
+        print()
         print("  QUÉ HACER (en el devcenter de Mercado Livre):")
         print("     1. Abre tu aplicación y pulsa Editar.")
-        print("     2. En PERMISSÕES pon:")
-        print("          Publicação e sincronização  ->  Leitura")
-        print("          Promoções, cupons e descontos ->  Leitura")
-        print("          Usuários                    ->  Leitura e escrita")
-        print("     3. En TÓPICOS marca: items, prices, catalog, promotions")
-        print("     4. Guarda los cambios.")
-        print("     5. VUELVE A AUTORIZAR (el token viejo NO tiene los permisos")
-        print("        nuevos; hay que emitir uno nuevo):")
+        print("     2. Comprueba que NO haya ningún error rojo en el formulario:")
+        print("        un error de validación impide GUARDAR y parece que no")
+        print("        hiciste nada. Suele ser el campo de notificaciones ->")
+        print("        déjalo VACÍO o pon https://achadinhosnozap.com.br")
+        print("     3. En PERMISSÕES pon:")
+        print("          Publicação e sincronização   ->  Leitura")
+        print("          Promoções, cupons e descontos->  Leitura")
+        print("          Usuários                     ->  Leitura e escrita")
+        print("     4. En TÓPICOS marca las casillas PRINCIPALES de:")
+        print("          items   prices   catalog   promotions")
+        print("        (cada uno despliega sub-opciones; basta el principal, o usa")
+        print("         'Selecionar Todos' dentro de cada uno)")
+        print("     5. Guarda y comprueba que no sale error rojo.")
+        print("     6. VUELVE A AUTORIZAR: el token viejo NO hereda permisos nuevos.")
+        print("        Doble clic en REAUTORIZAR_ML.bat, o a mano:")
         print("          python obtener_token_ml.py --paso2 --abrir")
         print("          python obtener_token_ml.py --code <CODIGO>")
-        print("     6. Vuelve a ejecutar este diagnóstico.")
+        print("     7. Vuelve a ejecutar este diagnóstico.")
     print("=" * 84)
     return 0 if criticos_ok == criticos_total else 2
 

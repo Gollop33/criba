@@ -371,6 +371,43 @@ def publicar_un_post(es_test=False):
                 print(f"  ✔️  [VALIDACIÓN] {motivo_val[:80]}")
             cand = cand_limpio
 
+        # ── PUERTA 0.5: VERIFICACIÓN CONTRA LA API DE MERCADO LIVRE ───────
+        # Comprueba que el producto EXISTE, sigue ACTIVO y que el nombre real
+        # coincide con el del post. Es lo que detecta las OFERTAS MUERTAS:
+        # medido sobre 191 posts, 2 apuntaban a productos que ya no existen en
+        # el catálogo y se iban a publicar igual (el "todo está atrasado" que
+        # reportó el usuario).
+        #
+        # Si la API no responde (sin token, 403 por permisos, timeout) NO se
+        # descarta nada: la verificación es un extra, nunca un requisito. Solo
+        # se descarta cuando la API dice claramente que el producto no existe.
+        if "Mercado" in str(cand.get("loja", "")):
+            try:
+                from verificar_producto import verificar_post
+                v = verificar_post(cand)
+                if v.get("verificable"):
+                    if v.get("alerta"):
+                        print(f"  ⛔ [API ML] {v['alerta'][:74]}")
+                        print("     Se descarta: el enlace NO es de este producto.")
+                        continue
+                    if v.get("inactivo"):
+                        print(f"  ⛔ [API ML] producto inactivo "
+                              f"({(v.get('real') or {}).get('estado')}): {tit_c[:38]}")
+                        continue
+                    if v.get("precio_coincide") is False:
+                        print(f"  ⚠️  [API ML] {v.get('alerta_precio', 'precio distinto')}")
+                    if v.get("sin_precio_api"):
+                        print("  ✅ [API ML] producto verificado (activo + nombre OK)")
+                    else:
+                        print("  ✅ [API ML] producto verificado: "
+                              f"{(v.get('real') or {}).get('estado')}")
+                elif "404" in str(v.get("motivo", "")):
+                    print(f"  ⛔ [API ML] el producto YA NO EXISTE (404): {tit_c[:38]}")
+                    print("     Se descarta: el enlace llevaría a una página muerta.")
+                    continue
+            except Exception as e:
+                print(f"  ℹ️  [API ML] sin verificar ({type(e).__name__})")
+
         lf = resolver_link_afiliado(cand.get("url", ""), cand.get("loja", ""), cookie_portal)
         if lf is None:
             print(f"  ⏭️  [Regla de Oro] /go/ no monetiza: {tit_c[:45]}")
