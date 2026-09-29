@@ -290,16 +290,6 @@
     ],
     "precio_min_publicado": 1812.0
   },
-  "ml-celular-samsung-galaxy-a07-256gb-8gb-camera-5": {
-    "ts": "2026-09-27T16:48:15.844151",
-    "canales": {
-      "whatsapp": "2026-09-27T16:48:15.844151"
-    },
-    "precio": 879.0,
-    "precios_publicados": [
-      879.0
-    ]
-  },
   "ml-headphone-bluetooth-reducao-de-ruido-do-anc-c": {
     "ts": "2026-09-27T16:55:58.063388",
     "canales": {
@@ -2354,6 +2344,16 @@
     "precio": 482.0,
     "precios_publicados": [
       482.0
+    ]
+  },
+  "amz-hyperx-teclado-gamer-hyperx-alloy-core-rgb-ab": {
+    "ts": "2026-09-29T16:54:04.625702",
+    "canales": {
+      "whatsapp": "2026-09-29T16:54:04.625702"
+    },
+    "precio": 176.0,
+    "precios_publicados": [
+      176.0
     ]
   }
 }
