@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
-    "ts": "2026-09-28T21:36:03.753835",
-    "canales": {
-      "whatsapp": "2026-09-28T21:36:03.753835"
-    },
-    "precio": 1665.0,
-    "precios_publicados": [
-      1665.0
-    ]
-  },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
     "ts": "2026-09-30T17:39:07.247677",
     "canales": {
@@ -2198,6 +2188,16 @@
     "precio": 164.0,
     "precios_publicados": [
       164.0
+    ]
+  },
+  "ml-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-09-30T21:40:40.769113",
+    "canales": {
+      "whatsapp": "2026-09-30T21:40:40.769113"
+    },
+    "precio": 394.0,
+    "precios_publicados": [
+      394.0
     ]
   }
 }
