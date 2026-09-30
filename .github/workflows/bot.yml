@@ -303,6 +303,15 @@ jobs:
       #   1) pull
       #   2) reparar_estado.py  -> une enviados.json / restaura el resto
       #   3) validar que ningún .json quedó con marcadores ANTES de commitear
+      # ── SEO: sitemap fresco ───────────────────────────────────────────────
+      # El sitemap es lo primero que leen los buscadores al llegar. Sin él,
+      # Google tarda semanas en encontrar las páginas. El `lastmod` es la señal
+      # de frescura: un sitio de ofertas que se actualiza cada hora tiene que
+      # decirlo, o Google lo trata como contenido muerto.
+      - name: actualizar sitemap (SEO)
+        continue-on-error: true
+        run: python actualizar_sitemap.py
+
       - name: commit y push resultados
         run: |
           git config user.name "radar-bot"

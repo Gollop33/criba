@@ -1,0 +1,22 @@
+# robots.txt de Achadinhos no Zap
+# Sin este archivo los buscadores hacen lo que quieren: no saben qué pueden
+# rastrear ni dónde está el sitemap. Es lo primero que leen al llegar.
+
+User-agent: *
+Allow: /
+Disallow: /ml-oauth.html
+Disallow: /analytics.html
+Disallow: /logs/
+Disallow: /*.json$
+
+# Los buscadores principales: rastreo completo permitido
+User-agent: Googlebot
+Allow: /
+Disallow: /ml-oauth.html
+Disallow: /analytics.html
+
+User-agent: Googlebot-Image
+Allow: /
+
+# Sitemap
+Sitemap: https://achadinhosnozap.com.br/sitemap.xml
