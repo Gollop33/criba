@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "amz-smartphone-motorola-edge-70-5g-256gb-24gb-8gb": {
-    "ts": "2026-09-28T20:01:30.881171",
-    "canales": {
-      "whatsapp": "2026-09-28T20:01:30.881171"
-    },
-    "precio": 2499.0,
-    "precios_publicados": [
-      2499.0
-    ]
-  },
   "ml-oleo-de-coco-extra-virgem-da-polpa-balde-32l-": {
     "ts": "2026-09-28T20:10:06.930555",
     "canales": {
@@ -1269,14 +1259,16 @@
     ]
   },
   "ml-dell-inspiron-dc15i51334um80-notebook-156-i5-": {
-    "ts": "2026-09-29T19:35:59.985529",
+    "ts": "2026-09-30T20:02:29.423067",
     "canales": {
-      "whatsapp": "2026-09-29T19:35:59.985529"
+      "whatsapp": "2026-09-30T20:02:29.423067"
     },
     "precio": 5200.0,
     "precios_publicados": [
+      5200.0,
       5200.0
-    ]
+    ],
+    "precio_min_publicado": 5200.0
   },
   "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
     "ts": "2026-09-29T19:43:37.138066",
