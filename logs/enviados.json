@@ -50,18 +50,6 @@
     ],
     "precio_min_publicado": 2349.0
   },
-  "ml-lixeira-inteligente-automatica-cinza-com-sens": {
-    "ts": "2026-09-28T18:08:50.521998",
-    "canales": {
-      "whatsapp": "2026-09-28T18:08:50.521998"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0,
-      64.0
-    ],
-    "precio_min_publicado": 64.0
-  },
   "ml-cadeira-de-escritorio-gamer-ergonomica-dunami": {
     "ts": "2026-09-30T00:33:27.126415",
     "canales": {
@@ -2278,6 +2266,16 @@
     "precio": 182.0,
     "precios_publicados": [
       182.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-09-30T18:10:10.068632",
+    "canales": {
+      "whatsapp": "2026-09-30T18:10:10.068632"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
