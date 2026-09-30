@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 1099.0
   },
-  "amz-be-place-kids-tablet-infantil-android-13-128g": {
-    "ts": "2026-09-28T21:57:42.490653",
-    "canales": {
-      "whatsapp": "2026-09-28T21:57:42.490653"
-    },
-    "precio": 385.0,
-    "precios_publicados": [
-      385.0
-    ]
-  },
   "ml-calcado-bb80-soft-works-sapato-enfermagem-coz": {
     "ts": "2026-09-28T22:05:08.463778",
     "canales": {
@@ -2200,6 +2190,16 @@
     "precio": 78.0,
     "precios_publicados": [
       78.0
+    ]
+  },
+  "ml-notebook-positivo-vision-r15m-amd-ryzen-37330": {
+    "ts": "2026-09-30T22:04:05.569905",
+    "canales": {
+      "whatsapp": "2026-09-30T22:04:05.569905"
+    },
+    "precio": 2614.0,
+    "precios_publicados": [
+      2614.0
     ]
   }
 }
