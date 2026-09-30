@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-leavein-loreal-paris-elseve-collagen-lifter-p": {
-    "ts": "2026-09-28T18:32:32.291927",
-    "canales": {
-      "whatsapp": "2026-09-28T18:32:32.291927"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
-  "ml-camisa-termica-voker-segunda-pele-protecao-so": {
-    "ts": "2026-09-28T18:35:02.586442",
-    "canales": {
-      "whatsapp": "2026-09-28T18:35:02.586442"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "amz-liquidificador-1400-full-oster-preto-32l-127v": {
     "ts": "2026-09-28T18:43:50.440658",
     "canales": {
@@ -2264,6 +2244,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-09-30T18:37:43.802677",
+    "canales": {
+      "whatsapp": "2026-09-30T18:37:43.802677"
+    },
+    "precio": 1299.0,
+    "precios_publicados": [
+      1299.0
     ]
   }
 }
