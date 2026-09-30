@@ -86,18 +86,6 @@
     ],
     "precio_min_publicado": 298.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-09-28T15:22:01.888137",
-    "canales": {
-      "whatsapp": "2026-09-28T15:22:01.888137"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0,
-      35.0
-    ],
-    "precio_min_publicado": 35.0
-  },
   "ml-lixeira-inteligente-automatica-cinza-com-sens": {
     "ts": "2026-09-28T18:08:50.521998",
     "canales": {
@@ -243,16 +231,6 @@
       2249.0
     ],
     "precio_min_publicado": 2249.0
-  },
-  "ml-caminha-pet-impermeavel-cama-para-cachorro-e-": {
-    "ts": "2026-09-28T15:19:46.850142",
-    "canales": {
-      "whatsapp": "2026-09-28T15:19:46.850142"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
   },
   "ml-smart-tv-4k-50-lg-nano-uhd-ai-nu850-2026-proc": {
     "ts": "2026-09-29T22:51:30.730886",
@@ -2348,6 +2326,16 @@
     "precio": 2339.0,
     "precios_publicados": [
       2339.0
+    ]
+  },
+  "ml-whey-isolate-protein-fuse-refil-18kg-dark-lab": {
+    "ts": "2026-09-30T15:27:28.015096",
+    "canales": {
+      "whatsapp": "2026-09-30T15:27:28.015096"
+    },
+    "precio": 170.0,
+    "precios_publicados": [
+      170.0
     ]
   }
 }
