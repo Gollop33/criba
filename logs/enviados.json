@@ -61,18 +61,6 @@
     ],
     "precio_min_publicado": 2349.0
   },
-  "ml-cadeira-de-escritorio-giratoria-homenow-colum": {
-    "ts": "2026-09-28T15:55:23.145603",
-    "canales": {
-      "whatsapp": "2026-09-28T15:55:23.145603"
-    },
-    "precio": 298.0,
-    "precios_publicados": [
-      298.0,
-      298.0
-    ],
-    "precio_min_publicado": 298.0
-  },
   "ml-lixeira-inteligente-automatica-cinza-com-sens": {
     "ts": "2026-09-28T18:08:50.521998",
     "canales": {
@@ -230,16 +218,6 @@
       2276.0
     ],
     "precio_min_publicado": 2276.0
-  },
-  "amz-panela-de-pressao-tramontina-vancouver-effect": {
-    "ts": "2026-09-28T15:48:18.800239",
-    "canales": {
-      "whatsapp": "2026-09-28T15:48:18.800239"
-    },
-    "precio": 186.0,
-    "precios_publicados": [
-      186.0
-    ]
   },
   "amz-apple-iphone-17-de-256-gb-preto": {
     "ts": "2026-09-28T16:05:12.058919",
@@ -2315,6 +2293,16 @@
     "precio": 1299.0,
     "precios_publicados": [
       1299.0
+    ]
+  },
+  "ml-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
+    "ts": "2026-09-30T15:55:30.635000",
+    "canales": {
+      "whatsapp": "2026-09-30T15:55:30.635000"
+    },
+    "precio": 3714.0,
+    "precios_publicados": [
+      3714.0
     ]
   }
 }
