@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
-    "ts": "2026-09-28T19:10:32.091772",
-    "canales": {
-      "whatsapp": "2026-09-28T19:10:32.091772"
-    },
-    "precio": 574.0,
-    "precios_publicados": [
-      574.0
-    ]
-  },
   "ml-projeto-hy320-smart-tv-android-11-wifi6-lumen": {
     "ts": "2026-09-28T19:19:42.934687",
     "canales": {
@@ -2274,6 +2264,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
+    "ts": "2026-09-30T19:13:39.459806",
+    "canales": {
+      "whatsapp": "2026-09-30T19:13:39.459806"
+    },
+    "precio": 1279.0,
+    "precios_publicados": [
+      1279.0
     ]
   }
 }
