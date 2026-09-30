@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 2276.0
   },
-  "ml-relogio-smartwatch-aurafit-g6-com-5atm-e-gps-": {
-    "ts": "2026-09-28T16:40:12.478037",
-    "canales": {
-      "whatsapp": "2026-09-28T16:40:12.478037"
-    },
-    "precio": 318.0,
-    "precios_publicados": [
-      318.0
-    ]
-  },
   "amz-jbl-fone-de-ouvido-bluetooth-overear-tune-530": {
     "ts": "2026-09-28T16:47:15.630834",
     "canales": {
@@ -2286,6 +2276,16 @@
     "precio": 3035.0,
     "precios_publicados": [
       3035.0
+    ]
+  },
+  "amz-bionature-areia-higienica-para-gatos-biodegra": {
+    "ts": "2026-09-30T16:44:09.590640",
+    "canales": {
+      "whatsapp": "2026-09-30T16:44:09.590640"
+    },
+    "precio": 38.0,
+    "precios_publicados": [
+      38.0
     ]
   }
 }
