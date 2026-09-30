@@ -50,18 +50,6 @@
     ],
     "precio_min_publicado": 776.0
   },
-  "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-09-28T00:59:57.993623",
-    "canales": {
-      "whatsapp": "2026-09-28T00:59:57.993623"
-    },
-    "precio": 1233.0,
-    "precios_publicados": [
-      1233.0,
-      1233.0
-    ],
-    "precio_min_publicado": 1233.0
-  },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-09-28T22:11:48.086788",
     "canales": {
@@ -2329,6 +2317,16 @@
     "precio": 54.0,
     "precios_publicados": [
       54.0
+    ]
+  },
+  "ml-fone-de-ouvido-soundcore-by-anker-p20i-graves": {
+    "ts": "2026-09-30T02:30:35.544049",
+    "canales": {
+      "whatsapp": "2026-09-30T02:30:35.544049"
+    },
+    "precio": 135.0,
+    "precios_publicados": [
+      135.0
     ]
   }
 }

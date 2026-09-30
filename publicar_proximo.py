@@ -127,7 +127,15 @@ def limite_diario_calentamiento(dias_activo):
 
 
 def horario_permitido_brt():
-    """True si la hora actual en Brasília (UTC-3) está entre 8 y 22h."""
+    """
+    True si la hora actual en Brasília (UTC-3) está entre 8 y 22h.
+
+    Se puede forzar con la variable de entorno FORZAR_ENVIO=1 para hacer una
+    publicación manual de prueba fuera de la ventana (por ejemplo, para que el
+    usuario vea cómo queda un post antes de que arranque el ciclo del día).
+    """
+    if os.environ.get("FORZAR_ENVIO", "").strip().lower() in ("1", "true", "si", "sí"):
+        return True
     brt_hour = (datetime.now(timezone.utc).hour - 3) % 24
     return 8 <= brt_hour < 22
 
@@ -586,19 +594,24 @@ def publicar_un_post(es_test=False):
         pc = 0
 
     if pc > 0 and precio_int and pc < precio_int * 0.995:
+        # El cupón mejora el precio: se muestra el precio que ML garantiza.
         ahorro = precio_int - pc
         lineas.append(f"🎟️ Com cupom: R$ {int(round(pc))}"
                       f"  (economiza R$ {int(round(ahorro))})")
-        if cupom:
-            lineas.append(f"   ative o cupom na página do produto")
-    elif cupom and not post_a_enviar.get("ml_tiene_cupon") is False:
-        # Cupón de código que sí pasó el validador (misma tienda, categoría y
-        # fuente trazable). Sin confirmación de ML no se promete precio.
-        pct_c = post_a_enviar.get("cupom_pct")
-        if pct_c and post_a_enviar.get("cupom_confianza") != "baja":
-            lineas.append(f"🎟️ Cupom: {cupom} ({float(pct_c):.0f}% OFF)")
-        else:
-            lineas.append(f"🎟️ Cupom: {cupom} (ative na página do produto)")
+        lineas.append("   ative o cupom na página do produto")
+    elif pc > 0:
+        # ML confirma cupón PERO no mejora el precio actual. Caso real: la API
+        # corrigió el precio a R$ 135 y el cupón daba R$ 140,31 -> el cupón era
+        # PEOR que el precio. No se muestra nada: prometer un ahorro inexistente
+        # es justo lo que el usuario venía denunciando.
+        pass
+    elif post_a_enviar.get("ml_tiene_cupon"):
+        # ML confirma que el producto tiene cupón pero no da su precio. Se dice
+        # que hay cupón SIN código: el código de afiliado es OTRO cupón distinto
+        # y ponerlo hace que la compra falle ("nao se aplica a esta compra").
+        lineas.append("🎟️ Tem cupom — ative na página do produto")
+    # Sin confirmación de ML: NO se muestra ningún cupón. Antes se ponía el
+    # código de afiliado por categoría y en el checkout no aplicaba.
 
     # ── PRECIO FINAL CON TODO APLICADO ────────────────────────────────────────
     # Es lo que más convierte: la gente no calcula porcentajes de cabeza, quiere
