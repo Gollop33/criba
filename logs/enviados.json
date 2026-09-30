@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
-    "ts": "2026-09-28T21:18:20.828097",
-    "canales": {
-      "whatsapp": "2026-09-28T21:18:20.828097"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0
-    ]
-  },
-  "ml-smartphone-motorola-edge-60-pro-5g-512gb-12gb": {
-    "ts": "2026-09-28T21:21:00.744228",
-    "canales": {
-      "whatsapp": "2026-09-28T21:21:00.744228"
-    },
-    "precio": 2879.0,
-    "precios_publicados": [
-      2879.0
-    ]
-  },
   "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
     "ts": "2026-09-28T21:25:13.828966",
     "canales": {
@@ -847,14 +827,16 @@
     ]
   },
   "ml-fone-de-ouvido-sem-fio-para-treinos-soundcore": {
-    "ts": "2026-09-29T16:45:04.712329",
+    "ts": "2026-09-30T21:24:59.433747",
     "canales": {
-      "whatsapp": "2026-09-29T16:45:04.712329"
+      "whatsapp": "2026-09-30T21:24:59.433747"
     },
     "precio": 482.0,
     "precios_publicados": [
+      482.0,
       482.0
-    ]
+    ],
+    "precio_min_publicado": 482.0
   },
   "amz-hyperx-teclado-gamer-hyperx-alloy-core-rgb-ab": {
     "ts": "2026-09-29T16:54:04.625702",
