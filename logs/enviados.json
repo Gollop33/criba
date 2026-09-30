@@ -26,18 +26,6 @@
     ],
     "precio_min_publicado": 349.0
   },
-  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
-    "ts": "2026-09-28T20:27:06.393989",
-    "canales": {
-      "whatsapp": "2026-09-28T20:27:06.393989"
-    },
-    "precio": 2099.0,
-    "precios_publicados": [
-      2349.0,
-      2099.0
-    ],
-    "precio_min_publicado": 2349.0
-  },
   "ml-cadeira-de-escritorio-gamer-ergonomica-dunami": {
     "ts": "2026-09-30T00:33:27.126415",
     "canales": {
@@ -195,16 +183,6 @@
       969.0
     ],
     "precio_min_publicado": 969.0
-  },
-  "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
-    "ts": "2026-09-28T20:23:36.246331",
-    "canales": {
-      "whatsapp": "2026-09-28T20:23:36.246331"
-    },
-    "precio": 86.0,
-    "precios_publicados": [
-      86.0
-    ]
   },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-cinza-1": {
     "ts": "2026-09-28T20:35:13.327207",
@@ -2238,6 +2216,16 @@
     "precio": 176.0,
     "precios_publicados": [
       176.0
+    ]
+  },
+  "ml-salgadinho-de-milho-sabor-requeijao-onda-chee": {
+    "ts": "2026-09-30T20:28:51.057677",
+    "canales": {
+      "whatsapp": "2026-09-30T20:28:51.057677"
+    },
+    "precio": 9.0,
+    "precios_publicados": [
+      9.0
     ]
   }
 }
