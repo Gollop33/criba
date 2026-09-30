@@ -1,0 +1,38 @@
+feat(marketing): 50 skills de marketing + contexto de producto
+
+El usuario pregunto si podiamos usar las "skills virales de Claude" para el
+marketing. Se investigo y SI se puede: son ficheros markdown (formato Agent
+Skills, https://agentskills.io) con licencia MIT.
+
+Se clono coreyhaines31/marketingskills (50 skills, MIT, (c) 2025 Corey Haines) y
+se instalaron en .agents/skills/. DSH las detecto SOLO: el catalogo de skills de
+la sesion paso de 4 a 55 sin tocar ninguna configuracion.
+
+QUE TRAE (las utiles para este proyecto):
+  programmatic-seo  -> paginas SEO en masa desde plantillas y datos
+  seo-audit         -> por que el sitio no posiciona
+  cro               -> conversion: que la gente entre al grupo
+  analytics         -> medicion y tracking (ya hay GA4: G-NFQTYQ0HXH)
+  schema            -> datos estructurados JSON-LD
+  social            -> contenido para Facebook e Instagram
+  competitors       -> analisis de la competencia
+  marketing-plan    -> plan completo AARRR
+  referrals         -> programa de referidos
+  product-marketing -> la base que leen todas las demas
+  (+40 mas: copywriting, offers, popups, pricing, ads, free-tools...)
+
+.agents/product-marketing.md (NUEVO): el contexto que leen todas las skills de
+marketing antes de hacer nada. Redactado desde el propio proyecto, no inventado:
+  - Producto: ofertas de ML y Amazon con el PRECIO CONFERIDO
+  - Diferencial central: la verificacion contra el Mercado Livre, que nacio de
+    los errores reales que el usuario encontro en el checkout
+  - Publico: consumidor brasileno B2C que paga con Pix
+  - Problema: los grupos de ofertas publican cupon que no aplica y precio viejo
+  - Prueba: el post decia "Com cupom: R$ 1076" y el ML cobro R$ 1.076,49
+  - Embudo: Google/redes -> sitio -> grupo de WhatsApp -> compra -> comision
+  - Gargalo actual declarado: entrada de gente al grupo (el topo del embudo)
+
+IMPACTO: a partir de ahora los trabajos de marketing (SEO, conversion, redes,
+contenido) tienen frameworks reales detras en vez de improvisacion.
+
+Licencia MIT, se copio el LICENSE a .agents/skills/LICENSE-marketingskills.
