@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 149.0
   },
-  "ml-cadeira-escritorio-presidente-esteirinha-veri": {
-    "ts": "2026-09-28T23:40:33.569299",
-    "canales": {
-      "whatsapp": "2026-09-28T23:40:33.569299"
-    },
-    "precio": 499.0,
-    "precios_publicados": [
-      499.0
-    ]
-  },
   "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
     "ts": "2026-09-28T23:45:11.108017",
     "canales": {
@@ -2208,6 +2198,16 @@
     "precio": 4333.0,
     "precios_publicados": [
       4333.0
+    ]
+  },
+  "ml-doce-de-figo-em-calda-5kg-neropolis-balde-int": {
+    "ts": "2026-09-30T23:40:34.374820",
+    "canales": {
+      "whatsapp": "2026-09-30T23:40:34.374820"
+    },
+    "precio": 90.0,
+    "precios_publicados": [
+      90.0
     ]
   }
 }
