@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
-    "ts": "2026-09-28T21:25:13.828966",
-    "canales": {
-      "whatsapp": "2026-09-28T21:25:13.828966"
-    },
-    "precio": 1036.0,
-    "precios_publicados": [
-      1036.0
-    ]
-  },
-  "ml-caixa-de-som-aiwa-boombox-plus-200w-bivolt-aw": {
-    "ts": "2026-09-28T21:30:01.651498",
-    "canales": {
-      "whatsapp": "2026-09-28T21:30:01.651498"
-    },
-    "precio": 1329.0,
-    "precios_publicados": [
-      1329.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
     "ts": "2026-09-28T21:36:03.753835",
     "canales": {
@@ -2208,6 +2188,16 @@
     "precio": 597.0,
     "precios_publicados": [
       597.0
+    ]
+  },
+  "ml-carregador-portatil-power-bank-turbo-i2go-200": {
+    "ts": "2026-09-30T21:34:12.926284",
+    "canales": {
+      "whatsapp": "2026-09-30T21:34:12.926284"
+    },
+    "precio": 164.0,
+    "precios_publicados": [
+      164.0
     ]
   }
 }
