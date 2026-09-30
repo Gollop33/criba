@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 1099.0
   },
-  "ml-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
-    "ts": "2026-09-28T21:52:12.052337",
-    "canales": {
-      "whatsapp": "2026-09-28T21:52:12.052337"
-    },
-    "precio": 1713.0,
-    "precios_publicados": [
-      1713.0
-    ]
-  },
   "amz-be-place-kids-tablet-infantil-android-13-128g": {
     "ts": "2026-09-28T21:57:42.490653",
     "canales": {
@@ -2200,6 +2190,16 @@
     "precio": 459.0,
     "precios_publicados": [
       459.0
+    ]
+  },
+  "ml-whey-protein-dark-lab-isolate-fuse-em-po-sabo": {
+    "ts": "2026-09-30T21:55:47.795505",
+    "canales": {
+      "whatsapp": "2026-09-30T21:55:47.795505"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
