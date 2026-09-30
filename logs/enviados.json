@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-smartphone-motorola-moto-g06128gb-12gb-4gb-ra": {
-    "ts": "2026-09-28T14:54:47.293923",
-    "canales": {
-      "whatsapp": "2026-09-28T14:54:47.293923"
-    },
-    "precio": 776.0,
-    "precios_publicados": [
-      776.0,
-      776.0
-    ],
-    "precio_min_publicado": 776.0
-  },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-09-28T22:11:48.086788",
     "canales": {
@@ -254,16 +242,6 @@
       2249.0
     ],
     "precio_min_publicado": 2249.0
-  },
-  "ml-tapete-higienico-80x60-60un-pads-prime-ultra-": {
-    "ts": "2026-09-28T14:58:17.770954",
-    "canales": {
-      "whatsapp": "2026-09-28T14:58:17.770954"
-    },
-    "precio": 74.0,
-    "precios_publicados": [
-      74.0
-    ]
   },
   "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
     "ts": "2026-09-28T15:03:51.264172",
@@ -2379,6 +2357,16 @@
     "precio": 4069.0,
     "precios_publicados": [
       4069.0
+    ]
+  },
+  "ml-suplemento-em-po-dark-lab-venom-underground-c": {
+    "ts": "2026-09-30T15:00:36.652957",
+    "canales": {
+      "whatsapp": "2026-09-30T15:00:36.652957"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
