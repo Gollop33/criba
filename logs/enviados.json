@@ -37,18 +37,6 @@
     ],
     "precio_min_publicado": 349.0
   },
-  "ml-smartphone-samsung-galaxy-a17-5g-128gb-4gb-su": {
-    "ts": "2026-09-28T16:06:20.618903",
-    "canales": {
-      "whatsapp": "2026-09-28T16:06:20.618903"
-    },
-    "precio": 969.0,
-    "precios_publicados": [
-      979.0,
-      969.0
-    ],
-    "precio_min_publicado": 979.0
-  },
   "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
     "ts": "2026-09-28T20:27:06.393989",
     "canales": {
@@ -218,16 +206,6 @@
       2276.0
     ],
     "precio_min_publicado": 2276.0
-  },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-09-28T16:05:12.058919",
-    "canales": {
-      "whatsapp": "2026-09-28T16:05:12.058919"
-    },
-    "precio": 6220.0,
-    "precios_publicados": [
-      6220.0
-    ]
   },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
     "ts": "2026-09-28T16:16:01.122682",
@@ -2305,6 +2283,16 @@
     "precio": 3714.0,
     "precios_publicados": [
       3714.0
+    ]
+  },
+  "ml-notebook-dell-dc15c3100a20-156-fhd-core3-8gb-": {
+    "ts": "2026-09-30T16:07:22.907059",
+    "canales": {
+      "whatsapp": "2026-09-30T16:07:22.907059"
+    },
+    "precio": 3690.0,
+    "precios_publicados": [
+      3690.0
     ]
   }
 }
