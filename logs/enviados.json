@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-esponja-esfrelux-leve-4-pague-3": {
-    "ts": "2026-09-28T18:19:27.904351",
-    "canales": {
-      "whatsapp": "2026-09-28T18:19:27.904351"
-    },
-    "precio": 3.0,
-    "precios_publicados": [
-      3.0
-    ]
-  },
   "amz-leavein-loreal-paris-elseve-collagen-lifter-p": {
     "ts": "2026-09-28T18:32:32.291927",
     "canales": {
@@ -2266,6 +2256,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
+    "ts": "2026-09-30T18:20:29.225789",
+    "canales": {
+      "whatsapp": "2026-09-30T18:20:29.225789"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
