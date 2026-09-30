@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-monitor-pc-gamer-lg-27-ips-100hz-full-hd-hdmi": {
-    "ts": "2026-09-28T17:48:21.640089",
-    "canales": {
-      "whatsapp": "2026-09-28T17:48:21.640089"
-    },
-    "precio": 757.0,
-    "precios_publicados": [
-      757.0
-    ]
-  },
   "ml-suporte-articulado-microfone-mesa-braco-low-p": {
     "ts": "2026-09-28T17:52:30.128855",
     "canales": {
@@ -2286,6 +2276,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "ml-berco-bebe-portatil-retratil-acoplado-moise-b": {
+    "ts": "2026-09-30T17:51:38.554323",
+    "canales": {
+      "whatsapp": "2026-09-30T17:51:38.554323"
+    },
+    "precio": 520.0,
+    "precios_publicados": [
+      520.0
     ]
   }
 }
