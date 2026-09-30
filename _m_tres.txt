@@ -1,0 +1,54 @@
+feat(precios): los TRES precios de ML — PIX y cupon REALES (descubrimiento del usuario)
+
+El usuario mando una captura de la ficha de una TV de Mercado Livre:
+
+    R$ 1.859,98  em 10x          <- precio normal
+    R$ 1.673,98  no Pix          <- precio con descuento Pix
+    R$ 1.628,98  com Cupom       <- precio con cupon aplicado
+
+Y dijo: "el producto ya tiene el valor, si le aplicara un cupon quedaria a ese
+precio, claro no dice cual cupon pero por lo menos ya dice que si se le aplica
+cupon". Su intuicion era correcta y desbloqueo el problema.
+
+LOS TRES PRECIOS ESTAN EN EL JSON DE LA TARJETA (no hay que adivinar nada):
+
+    "installments":{...,"values":[{"key":"price_total",
+                                  "price":{"value":1859.98}}]}   <- NORMAL
+    "tracks":{"price":{"promotions":[{"campaigns":[{"type":"PIX"}],...}],
+                       "price":1673.98}}                          <- CON PIX
+    "promotions":[{"type":"coupon",
+                   "values":[{"price":{"value":1628.98}}]}]       <- CUPON
+
+EL ERROR QUE ESTO ARREGLA: el descuento Pix se buscaba en el TEXTO de la
+tarjeta, donde solo dice "no Pix" sin porcentaje, asi que nunca se encontraba.
+Primero se intento con un regex y salio mal (capturaba el descuento del PRODUCTO
+y lo guardaba como Pix); luego se concluyo que no era detectable y se dejo en
+cero. Las dos cosas estaban equivocadas: el porcentaje sale de COMPARAR los dos
+precios.
+
+MEDIDO sobre 400 ofertas de ML:
+    con campana PIX declarada por ML    : 112
+    con PIX REAL (porcentaje calculado) : 112   <- correlacion PERFECTA
+    con CUPON confirmado por ML         :  58   (14,5%, antes 3,8%)
+Porcentajes detectados: 32x 5%, 28x 10%, 17x 8%, 5x 12%, 4x 18%, 4x 15%...
+
+CAMBIOS:
+ - agente_ml.py: _extraer_promos_ml() saca los tres precios y calcula el % de
+   Pix comparando precio_normal con precio_pix. Nuevos campos:
+   ml_precio_normal, ml_pix_pct.
+ - publicar_proximo.py: muestra "No Pix: R$ 1196 (10% OFF)" con el precio y el
+   porcentaje reales, y "Com cupom: R$ 1076 (economiza R$ 253)". Se elimino la
+   linea "Sai por..." cuando repetia el mismo numero que ya estaba arriba.
+ - gerar_fila_posts.py: los productos con cupon suben al principio.
+
+POST RESULTANTE (mismo patron que el canal de referencia del usuario):
+    Tablet VAIO TL10 4GB RAM 128GB Octa-Core...
+    R$ 1329
+    No Pix: R$ 1196  (10% OFF)
+    Frete gratis
+    Com cupom: R$ 1076  (economiza R$ 253)
+       ative o cupom na pagina do produto
+
+    fila: 44 productos con cupon confirmado (antes 10) y 112 con Pix real.
+
+pruebas del validador: 23/23.

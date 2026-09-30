@@ -510,14 +510,29 @@ def publicar_un_post(es_test=False):
     if precio_int:
         lineas.append(f"💵 R$ {precio_limpo}")
 
-    # ── Datos que en Brasil VENDEN y que hasta ahora se tiraban ────────────
-    # El descuento PIX y las cuotas sin interés son los dos mayores disparadores
-    # de conversión en Brasil: mucha gente no decide por el precio total, decide
-    # por "cuánto me sale al mes" y por el descuento extra del PIX.
-    # El campo `pix` YA venía en la fila (54/54 posts) y el publicador lo ignoraba.
+    # ── LOS TRES PRECIOS DE MERCADO LIVRE ────────────────────────────────────
+    # Descubrimiento del usuario, mirando la ficha de una TV: ML publica TRES
+    # precios por producto, y los tres están en el JSON de la tarjeta:
+    #
+    #     R$ 1.859,98  em 10x         <- normal   (installments.price_total)
+    #     R$ 1.673,98  no Pix         <- con PIX  (tracks.price.price)
+    #     R$ 1.628,98  com Cupom      <- con cupón (promotions[type=coupon])
+    #
+    # El descuento Pix se buscaba en el TEXTO de la tarjeta, donde solo dice
+    # "no Pix" sin porcentaje, así que nunca se encontraba y el bot acabó
+    # inventándolo. El porcentaje sale de comparar los dos primeros precios.
+    # Medido: 112 de 400 productos (28%) con descuento Pix real, del 5% al 26%.
     pix = (post_a_enviar.get("pix") or "").strip()
-    if pix and pix.lower() not in ("à vista", "a vista", "-"):
-        # "mais 5% OFF" -> "⚡ No Pix: mais 5% OFF"
+    precio_pix_ml = post_a_enviar.get("ml_precio_pix")
+    try:
+        pp = float(precio_pix_ml) if precio_pix_ml else 0
+    except (TypeError, ValueError):
+        pp = 0
+
+    if pp > 0 and precio_int and pp < precio_int:
+        lineas.append(f"⚡ No Pix: R$ {int(round(pp))}"
+                      + (f"  ({pix})" if pix else ""))
+    elif pix and pix.lower() not in ("à vista", "a vista", "-"):
         lineas.append(f"⚡ No Pix: {pix}")
 
     # Cuotas sin interés: el disparador de conversión más fuerte en Brasil
@@ -589,8 +604,18 @@ def publicar_un_post(es_test=False):
     # Es lo que más convierte: la gente no calcula porcentajes de cabeza, quiere
     # ver el número que va a pagar. Solo se muestra si hay datos reales para
     # calcularlo (porcentaje del cupón y/o descuento Pix conocidos y su tope).
+    #
+    # NO se muestra si coincide con el precio con Pix que ya está arriba: sería
+    # repetir el mismo número dos veces en el post ("No Pix: R$ 1196" y
+    # "Sai por R$ 1196 com Pix 10%").
     precio_final, etiqueta_final = calcular_precio_final(precio_int, post_a_enviar)
-    if precio_final:
+    repetido = False
+    try:
+        if precio_final and pp > 0 and abs(float(precio_final) - pp) < 1:
+            repetido = True
+    except (TypeError, ValueError):
+        pass
+    if precio_final and not repetido:
         lineas.append("")
         lineas.append(f"✅ Sai por R$ {int(round(precio_final))} com {etiqueta_final}")
 
