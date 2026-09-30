@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 1099.0
   },
-  "ml-tablet-lenovo-tab-101-wifi-5-64gb-4gb-de-ram-": {
-    "ts": "2026-09-28T22:17:47.408910",
-    "canales": {
-      "whatsapp": "2026-09-28T22:17:47.408910"
-    },
-    "precio": 889.0,
-    "precios_publicados": [
-      889.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-8-gb-": {
-    "ts": "2026-09-28T22:20:45.258920",
-    "canales": {
-      "whatsapp": "2026-09-28T22:20:45.258920"
-    },
-    "precio": 3799.0,
-    "precios_publicados": [
-      3799.0
-    ]
-  },
   "ml-proteina-isolada-beef-protein-900g-shark-pro-": {
     "ts": "2026-09-30T19:21:24.282340",
     "canales": {
@@ -2198,6 +2178,16 @@
     "precio": 201.0,
     "precios_publicados": [
       201.0
+    ]
+  },
+  "ml-fone-de-ouvido-bluetooth-51-sem-fio-tws-wirel": {
+    "ts": "2026-09-30T22:25:38.226982",
+    "canales": {
+      "whatsapp": "2026-09-30T22:25:38.226982"
+    },
+    "precio": 22.0,
+    "precios_publicados": [
+      22.0
     ]
   }
 }
