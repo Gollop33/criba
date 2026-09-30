@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "ml-smart-tv-pro-lg-65-4k-ultra-hd-ai-65un85c": {
-    "ts": "2026-09-28T17:06:20.179450",
-    "canales": {
-      "whatsapp": "2026-09-28T17:06:20.179450"
-    },
-    "precio": 3549.0,
-    "precios_publicados": [
-      3549.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
     "ts": "2026-09-28T17:12:24.990277",
     "canales": {
@@ -2286,6 +2276,16 @@
     "precio": 449.0,
     "precios_publicados": [
       449.0
+    ]
+  },
+  "ml-projetor-hy320-mini-portatil-hardline-smart-t": {
+    "ts": "2026-09-30T17:09:00.749849",
+    "canales": {
+      "whatsapp": "2026-09-30T17:09:00.749849"
+    },
+    "precio": 229.0,
+    "precios_publicados": [
+      229.0
     ]
   }
 }
