@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-30T01:44:55+00:00",
+  "actualizado": "2026-09-30T05:02:21+00:00",
   "total": 23,
   "fuentes": [
     "Telegram ML Afiliados"
@@ -306,7 +306,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-09-29T13:00:17+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     }
   ]
 }
