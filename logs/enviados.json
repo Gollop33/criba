@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
-    "ts": "2026-09-28T00:03:49.773746",
-    "canales": {
-      "whatsapp": "2026-09-28T00:03:49.773746"
-    },
-    "precio": 2036.0,
-    "precios_publicados": [
-      2036.0,
-      2036.0
-    ],
-    "precio_min_publicado": 2036.0
-  },
   "amz-smartphone-motorola-moto-g06128gb-12gb-4gb-ra": {
     "ts": "2026-09-28T14:54:47.293923",
     "canales": {
@@ -253,16 +241,6 @@
       959.0
     ],
     "precio_min_publicado": 1080.0
-  },
-  "ml-xiaomi-redmi-note-15-pro-5g-512gb-12gb-ram-or": {
-    "ts": "2026-09-28T00:07:59.768983",
-    "canales": {
-      "whatsapp": "2026-09-28T00:07:59.768983"
-    },
-    "precio": 2742.0,
-    "precios_publicados": [
-      2742.0
-    ]
   },
   "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
     "ts": "2026-09-29T19:50:48.982627",
@@ -2320,6 +2298,16 @@
     "precio": 854.0,
     "precios_publicados": [
       854.0
+    ]
+  },
+  "ml-smartphone-motorola-moto-g15-256gb-4gb-ram8gb": {
+    "ts": "2026-09-30T00:12:42.305009",
+    "canales": {
+      "whatsapp": "2026-09-30T00:12:42.305009"
+    },
+    "precio": 939.0,
+    "precios_publicados": [
+      939.0
     ]
   }
 }
