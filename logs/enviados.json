@@ -25,19 +25,6 @@
     ],
     "precio_min_publicado": 196.0
   },
-  "ml-tenis-kappa-pulse-rx-unissex-corrida-conforto": {
-    "ts": "2026-09-28T15:33:49.869345",
-    "canales": {
-      "whatsapp": "2026-09-28T15:33:49.869345"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0,
-      135.0,
-      135.0
-    ],
-    "precio_min_publicado": 135.0
-  },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-09-28T22:11:48.086788",
     "canales": {
@@ -243,16 +230,6 @@
       2276.0
     ],
     "precio_min_publicado": 2276.0
-  },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-09-28T15:32:35.855827",
-    "canales": {
-      "whatsapp": "2026-09-28T15:32:35.855827"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
   },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-09-28T15:41:44.553485",
@@ -989,14 +966,16 @@
     ]
   },
   "ml-huggies-fralda-descartavel-maxima-protecao-xg": {
-    "ts": "2026-09-28T23:08:00.785213",
+    "ts": "2026-09-30T15:35:47.099477",
     "canales": {
-      "whatsapp": "2026-09-28T23:08:00.785213"
+      "whatsapp": "2026-09-30T15:35:47.099477"
     },
     "precio": 149.0,
     "precios_publicados": [
+      149.0,
       149.0
-    ]
+    ],
+    "precio_min_publicado": 149.0
   },
   "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
     "ts": "2026-09-28T23:13:47.600498",
