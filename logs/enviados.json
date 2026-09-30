@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 149.0
   },
-  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
-    "ts": "2026-09-28T23:13:47.600498",
-    "canales": {
-      "whatsapp": "2026-09-28T23:13:47.600498"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
   "ml-bicicleta-homem-aranha-infantil-com-rodinha-a": {
     "ts": "2026-09-28T23:23:35.524147",
     "canales": {
@@ -2198,6 +2188,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "ml-camera-veicular-dupla-70mai-4k1080p-noturna-h": {
+    "ts": "2026-09-30T23:14:14.291193",
+    "canales": {
+      "whatsapp": "2026-09-30T23:14:14.291193"
+    },
+    "precio": 779.0,
+    "precios_publicados": [
+      779.0
     ]
   }
 }
