@@ -196,26 +196,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
-    "ts": "2026-09-28T19:23:44.476052",
-    "canales": {
-      "whatsapp": "2026-09-28T19:23:44.476052"
-    },
-    "precio": 1199.0,
-    "precios_publicados": [
-      1199.0
-    ]
-  },
-  "ml-formula-natural-pro-cao-adulto-medio-e-grande": {
-    "ts": "2026-09-28T19:28:53.399814",
-    "canales": {
-      "whatsapp": "2026-09-28T19:28:53.399814"
-    },
-    "precio": 183.0,
-    "precios_publicados": [
-      183.0
-    ]
-  },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
     "ts": "2026-09-28T19:38:40.744257",
     "canales": {
@@ -2266,6 +2246,16 @@
     "precio": 1279.0,
     "precios_publicados": [
       1279.0
+    ]
+  },
+  "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
+    "ts": "2026-09-30T19:30:12.327040",
+    "canales": {
+      "whatsapp": "2026-09-30T19:30:12.327040"
+    },
+    "precio": 619.0,
+    "precios_publicados": [
+      619.0
     ]
   }
 }
