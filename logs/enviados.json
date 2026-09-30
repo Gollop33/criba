@@ -208,26 +208,6 @@
     ],
     "precio_min_publicado": 49.0
   },
-  "ml-parafusadeira-furadeira-the-black-tools-tb12a": {
-    "ts": "2026-09-28T22:59:31.877497",
-    "canales": {
-      "whatsapp": "2026-09-28T22:59:31.877497"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0
-    ]
-  },
-  "amz-notebook-lenovo-ideapad-slim-3-amd-ryzen-5-75": {
-    "ts": "2026-09-28T23:01:02.600335",
-    "canales": {
-      "whatsapp": "2026-09-28T23:01:02.600335"
-    },
-    "precio": 3555.0,
-    "precios_publicados": [
-      3555.0
-    ]
-  },
   "ml-huggies-fralda-descartavel-maxima-protecao-xg": {
     "ts": "2026-09-30T15:35:47.099477",
     "canales": {
@@ -2208,6 +2188,16 @@
     "precio": 319.0,
     "precios_publicados": [
       319.0
+    ]
+  },
+  "ml-power-bank-20000mah-225w-carga-rapida-com-dis": {
+    "ts": "2026-09-30T23:06:41.641573",
+    "canales": {
+      "whatsapp": "2026-09-30T23:06:41.641573"
+    },
+    "precio": 64.0,
+    "precios_publicados": [
+      64.0
     ]
   }
 }
