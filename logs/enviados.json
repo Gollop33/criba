@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "ml-power-bank-basike-20000mah-preto-carga-rapida": {
-    "ts": "2026-09-28T18:51:43.680652",
-    "canales": {
-      "whatsapp": "2026-09-28T18:51:43.680652"
-    },
-    "precio": 130.0,
-    "precios_publicados": [
-      130.0
-    ]
-  },
   "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
     "ts": "2026-09-28T18:55:57.233755",
     "canales": {
@@ -2264,6 +2254,16 @@
     "precio": 49.0,
     "precios_publicados": [
       49.0
+    ]
+  },
+  "ml-kit-10-potes-vidro-640ml-hermetico-tampas-4-t": {
+    "ts": "2026-09-30T18:53:30.794695",
+    "canales": {
+      "whatsapp": "2026-09-30T18:53:30.794695"
+    },
+    "precio": 93.0,
+    "precios_publicados": [
+      93.0
     ]
   }
 }
