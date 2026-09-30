@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 969.0
   },
-  "ml-oleo-de-coco-extra-virgem-da-polpa-balde-32l-": {
-    "ts": "2026-09-28T20:10:06.930555",
-    "canales": {
-      "whatsapp": "2026-09-28T20:10:06.930555"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
-  },
   "amz-jimo-lava-louca-multicamadas-detergente-conce": {
     "ts": "2026-09-28T20:11:39.700301",
     "canales": {
@@ -2258,6 +2248,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "ml-power-bank-basike-20000mah-preto-carga-rapida": {
+    "ts": "2026-09-30T20:11:23.129101",
+    "canales": {
+      "whatsapp": "2026-09-30T20:11:23.129101"
+    },
+    "precio": 130.0,
+    "precios_publicados": [
+      130.0
     ]
   }
 }
