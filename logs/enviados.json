@@ -1030,14 +1030,16 @@
     ]
   },
   "ml-creatina-dark-lab-premium-pure-em-po-sem-sabo": {
-    "ts": "2026-09-28T22:49:09.384661",
+    "ts": "2026-09-30T14:46:09.483376",
     "canales": {
-      "whatsapp": "2026-09-28T22:49:09.384661"
+      "whatsapp": "2026-09-30T14:46:09.483376"
     },
-    "precio": 49.0,
+    "precio": 78.0,
     "precios_publicados": [
-      49.0
-    ]
+      49.0,
+      78.0
+    ],
+    "precio_min_publicado": 49.0
   },
   "amz-memoria-desktop-gamer-adata-xpg-gammix-d35-8g": {
     "ts": "2026-09-28T22:52:15.118461",
