@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 1099.0
   },
-  "ml-calcado-bb80-soft-works-sapato-enfermagem-coz": {
-    "ts": "2026-09-28T22:05:08.463778",
-    "canales": {
-      "whatsapp": "2026-09-28T22:05:08.463778"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "ml-tablet-lenovo-tab-101-wifi-5-64gb-4gb-de-ram-": {
     "ts": "2026-09-28T22:17:47.408910",
     "canales": {
@@ -2200,6 +2190,16 @@
     "precio": 2614.0,
     "precios_publicados": [
       2614.0
+    ]
+  },
+  "ml-relogio-inteligente-smartwatch-alexa-chamadas": {
+    "ts": "2026-09-30T22:09:17.886320",
+    "canales": {
+      "whatsapp": "2026-09-30T22:09:17.886320"
+    },
+    "precio": 193.0,
+    "precios_publicados": [
+      193.0
     ]
   }
 }
