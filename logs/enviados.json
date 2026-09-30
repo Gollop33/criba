@@ -255,16 +255,6 @@
     ],
     "precio_min_publicado": 2249.0
   },
-  "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
-    "ts": "2026-09-28T14:47:07.810562",
-    "canales": {
-      "whatsapp": "2026-09-28T14:47:07.810562"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1299.0
-    ]
-  },
   "ml-tapete-higienico-80x60-60un-pads-prime-ultra-": {
     "ts": "2026-09-28T14:58:17.770954",
     "canales": {
@@ -2369,6 +2359,16 @@
     "precio": 1269.0,
     "precios_publicados": [
       1269.0
+    ]
+  },
+  "ml-notebook-acer-aspire-5-a51545r5at-amd-ryzen-5": {
+    "ts": "2026-09-30T14:50:58.172762",
+    "canales": {
+      "whatsapp": "2026-09-30T14:50:58.172762"
+    },
+    "precio": 3297.0,
+    "precios_publicados": [
+      3297.0
     ]
   }
 }
