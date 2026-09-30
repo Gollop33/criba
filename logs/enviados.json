@@ -62,18 +62,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "ml-parafusadeira-furadeira-de-impacto-the-black-": {
-    "ts": "2026-09-28T17:32:13.449559",
-    "canales": {
-      "whatsapp": "2026-09-28T17:32:13.449559"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      169.0,
-      159.0
-    ],
-    "precio_min_publicado": 169.0
-  },
   "ml-cadeira-de-escritorio-gamer-ergonomica-dunami": {
     "ts": "2026-09-30T00:33:27.126415",
     "canales": {
@@ -633,14 +621,16 @@
     ]
   },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
-    "ts": "2026-09-28T21:38:14.512372",
+    "ts": "2026-09-30T17:39:07.247677",
     "canales": {
-      "whatsapp": "2026-09-28T21:38:14.512372"
+      "whatsapp": "2026-09-30T17:39:07.247677"
     },
-    "precio": 1099.0,
+    "precio": 1089.0,
     "precios_publicados": [
-      1099.0
-    ]
+      1099.0,
+      1089.0
+    ],
+    "precio_min_publicado": 1099.0
   },
   "amz-8bitdo-ultimate-2c-wired-controller-for-windo": {
     "ts": "2026-09-28T21:47:30.249086",
