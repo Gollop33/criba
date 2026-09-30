@@ -254,16 +254,6 @@
     ],
     "precio_min_publicado": 1080.0
   },
-  "ml-placa-de-video-amd-radeon-rx580-8gb-gddr5-256": {
-    "ts": "2026-09-27T23:55:46.045093",
-    "canales": {
-      "whatsapp": "2026-09-27T23:55:46.045093"
-    },
-    "precio": 829.0,
-    "precios_publicados": [
-      829.0
-    ]
-  },
   "ml-xiaomi-redmi-note-15-pro-5g-512gb-12gb-ram-or": {
     "ts": "2026-09-28T00:07:59.768983",
     "canales": {
@@ -2310,6 +2300,16 @@
     "precio": 2699.0,
     "precios_publicados": [
       2699.0
+    ]
+  },
+  "ml-tablet-xiaomi-redmi-pad-2-11-256gb-8-ram-cinz": {
+    "ts": "2026-09-30T00:01:37.560724",
+    "canales": {
+      "whatsapp": "2026-09-30T00:01:37.560724"
+    },
+    "precio": 1410.0,
+    "precios_publicados": [
+      1410.0
     ]
   }
 }
