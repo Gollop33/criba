@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "ml-suporte-articulado-microfone-mesa-braco-low-p": {
-    "ts": "2026-09-28T17:52:30.128855",
-    "canales": {
-      "whatsapp": "2026-09-28T17:52:30.128855"
-    },
-    "precio": 212.0,
-    "precios_publicados": [
-      212.0
-    ]
-  },
   "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
     "ts": "2026-09-28T17:59:31.418458",
     "canales": {
@@ -817,14 +807,16 @@
     ]
   },
   "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-09-28T23:49:03.383011",
+    "ts": "2026-09-30T17:57:01.013014",
     "canales": {
-      "whatsapp": "2026-09-28T23:49:03.383011"
+      "whatsapp": "2026-09-30T17:57:01.013014"
     },
-    "precio": 849.0,
+    "precio": 825.0,
     "precios_publicados": [
-      849.0
-    ]
+      849.0,
+      825.0
+    ],
+    "precio_min_publicado": 849.0
   },
   "ml-smartphone-realme-c75-5g-256gb-8gb-ram-storm-": {
     "ts": "2026-09-30T16:13:06.047999",
