@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
-    "ts": "2026-09-28T17:12:24.990277",
-    "canales": {
-      "whatsapp": "2026-09-28T17:12:24.990277"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
   "ml-quadriciclo-com-pedal-eletrico-6v-som-e-farol": {
     "ts": "2026-09-28T17:21:37.296040",
     "canales": {
@@ -2296,6 +2286,16 @@
     "precio": 51.0,
     "precios_publicados": [
       51.0
+    ]
+  },
+  "ml-smart-tv-philco-50-p50vik-4k-uhd-led-roku-dol": {
+    "ts": "2026-09-30T17:14:10.982880",
+    "canales": {
+      "whatsapp": "2026-09-30T17:14:10.982880"
+    },
+    "precio": 2099.0,
+    "precios_publicados": [
+      2099.0
     ]
   }
 }
