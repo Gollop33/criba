@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
-    "ts": "2026-09-28T17:59:31.418458",
-    "canales": {
-      "whatsapp": "2026-09-28T17:59:31.418458"
-    },
-    "precio": 438.0,
-    "precios_publicados": [
-      438.0
-    ]
-  },
   "amz-dove-sabonete-em-barra-original-90g-6-unidade": {
     "ts": "2026-09-28T18:10:28.696327",
     "canales": {
@@ -2278,6 +2268,16 @@
     "precio": 520.0,
     "precios_publicados": [
       520.0
+    ]
+  },
+  "ml-conjunto-de-panelas-antiaderente-10-pecas-cof": {
+    "ts": "2026-09-30T18:06:42.869604",
+    "canales": {
+      "whatsapp": "2026-09-30T18:06:42.869604"
+    },
+    "precio": 182.0,
+    "precios_publicados": [
+      182.0
     ]
   }
 }
