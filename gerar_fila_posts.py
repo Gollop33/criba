@@ -1124,6 +1124,20 @@ def armar_fila_rotativa():
     print(f"  • Cupones RETIRADOS por no estar confirmados por ML: {sin_cupon_confirmado}")
     print(f"  • Productos con cupón CONFIRMADO por ML: {con_cupon_confirmado}")
 
+    # ── PRIORIDAD A LOS PRODUCTOS CON CUPÓN ─────────────────────────────────
+    # Solo ~4% de los productos tiene cupón de verdad, así que en una fila de
+    # 350 quedarían enterrados entre los que no tienen. Se suben al principio
+    # para que el bucle los publique primero: así el canal SÍ tiene posts con
+    # cupón, y con cupones que aplican de verdad (el precio lo da ML).
+    #
+    # No se inventa ninguno: simplemente se ordena para que salgan antes los
+    # que sí lo tienen.
+    con_cupon = [p for p in fila_final if p.get("ml_tiene_cupon")
+                 and p.get("ml_precio_cupon")]
+    sin_cupon = [p for p in fila_final if p not in con_cupon]
+    fila_final = con_cupon + sin_cupon
+    print(f"  • Con cupón al principio de la fila: {len(con_cupon)}")
+
     altos = sum(1 for p in fila_final if p.get("cupom_confianza") == "alta")
     bajos = sum(1 for p in fila_final if p.get("cupom_confianza") == "baja")
     print(f"  • Cupones con categoría verificada (confianza alta): {altos}")

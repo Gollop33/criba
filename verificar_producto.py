@@ -64,6 +64,61 @@ def token_disponible():
     return bool(TOKEN)
 
 
+# ── AUTO-RENOVACIÓN DEL TOKEN ────────────────────────────────────────────────
+# El access_token de Mercado Livre dura 6 HORAS. Sin esto, cualquier uso después
+# de ese plazo devuelve 401 "invalid access token" y la verificación se cae en
+# silencio (pasó de verdad: el token llevaba 230 min caducado y todo daba 401).
+# Se renueva solo con el refresh_token, sin navegador ni intervención humana.
+_renovado = False
+
+
+def _renovar_si_hace_falta(forzar=False):
+    """Renueva el token si está caducado, o si la API respondió 401."""
+    global TOKEN, _renovado
+    if _renovado and not forzar:
+        return False
+    _renovado = True
+    try:
+        import importlib
+        import time
+        import obtener_token_ml as otm
+        importlib.reload(otm)
+        env = otm.leer_env()
+        exp = None
+        cache = BASE / ".ml_token.json"
+        if cache.exists():
+            try:
+                exp = json.loads(cache.read_text(encoding="utf-8")).get("expira_en")
+            except Exception:
+                pass
+        necesita = forzar or (exp is not None and float(exp) - time.time() < 600)
+        if not necesita:
+            return False
+        refresh = env.get("ML_REFRESH_TOKEN", "").strip()
+        if not (env.get("ML_APP_ID") and env.get("ML_CLIENT_SECRET") and refresh):
+            return False
+        import requests as _rq
+        r = _rq.post("https://api.mercadolibre.com/oauth/token", data={
+            "grant_type": "refresh_token",
+            "client_id": env["ML_APP_ID"],
+            "client_secret": env["ML_CLIENT_SECRET"],
+            "refresh_token": refresh,
+        }, headers={"Accept": "application/json"}, timeout=30)
+        if r.status_code == 200:
+            t = r.json()
+            otm.guardar_env("ML_ACCESS_TOKEN", t.get("access_token", ""))
+            if t.get("refresh_token"):
+                otm.guardar_env("ML_REFRESH_TOKEN", t["refresh_token"])
+            otm.guardar_cache(t)
+            TOKEN = t.get("access_token", "")
+            print("  [ML] token renovado automaticamente")
+            return True
+        print(f"  [ML] no se pudo renovar: HTTP {r.status_code}")
+    except Exception as e:
+        print(f"  [ML] no se pudo renovar: {type(e).__name__}")
+    return False
+
+
 def extraer_item_id(url_o_id):
     """
     Saca el ID de item (MLB...) de una URL de Mercado Livre.
@@ -97,6 +152,8 @@ def consultar(item_id, tipo="item", timeout=20):
     except ImportError:
         return None
 
+    # El token dura 6 h: se renueva solo antes de usarlo si está por caducar.
+    _renovar_si_hace_falta()
     H = {"Authorization": f"Bearer {TOKEN}"}
 
     # ── LA VÍA BUENA PARA UN PRODUCTO DE CATÁLOGO ───────────────────────────

@@ -542,29 +542,45 @@ def publicar_un_post(es_test=False):
     if post_a_enviar.get("envio_gratis"):
         lineas.append("🚚 Frete grátis")
 
-    if cupom:
-        # ── SOLO LLEGAN AQUÍ CUPONES CONFIRMADOS POR MERCADO LIVRE ──────────
-        # gerar_fila_posts.py retira el cupón si ML no publica que ESE producto
-        # tiene uno. Antes se asignaba por categoría desde el catálogo de
-        # Telegram y en la compra real no aplicaba: el usuario lo comprobó con
-        # un Kit de Potes, y ML respondió "Seu cupom foi salvo em 'Cupons', pois
-        # não se aplica a esta compra". Medido: solo el 3,8% de los productos
-        # tienen cupón, así que adivinar salía mal casi siempre.
-        #
-        # ML da el PRECIO final con su cupón (ml_precio_cupon) pero no da un
-        # código: es un cupón de vendedor que se activa en la propia página.
-        # Así que se muestra el precio que ML garantiza y se indica cómo usarlo.
-        precio_cupon_ml = post_a_enviar.get("ml_precio_cupon")
-        pct_c = post_a_enviar.get("cupom_pct")
-        try:
-            pc = float(precio_cupon_ml) if precio_cupon_ml else 0
-        except (TypeError, ValueError):
-            pc = 0
+    # ── CUPÓN ────────────────────────────────────────────────────────────────
+    # CAMBIO DE FONDO, tras comprobarlo con el usuario:
+    #
+    # Los códigos de afiliado (BARRATINHOJA, HOJEVAI...) son cupones GENERALES de
+    # Mercado Livre, válidos para "produtos elegíveis" que solo ML conoce, y
+    # ponerlos en un producto cualquiera FALLA:
+    #     "Seu cupom foi salvo em 'Cupons', pois não se aplica a esta compra."
+    #     "Este cupom já foi adicionado, mas ainda pode ser usado em produtos
+    #      selecionados."
+    #
+    # Y NO existe forma de saber qué código aplica a qué producto: se buscó y
+    # ML no lo expone en ninguna parte (ni la página de ofertas, ni la de
+    # cupones, ni la API). El cupón de ML que sí aplica NO TIENE CÓDIGO: es un
+    # cupón de vendedor que se activa en la propia página del producto.
+    #
+    # Así que se muestra lo que ML garantiza, sin inventar código:
+    #     🎟️ Com cupom: R$ 674      (el precio real con el cupón de ML)
+    # Si ML no dice que el producto tenga cupón, no se muestra nada.
+    #
+    # OJO: antes esto estaba dentro de `if cupom:`, y como ya no se asigna
+    # ningún código el bloque nunca se ejecutaba -> los posts salían SIN cupón.
+    # Ahora la condición es el precio con cupón que da ML.
+    precio_cupon_ml = post_a_enviar.get("ml_precio_cupon")
+    try:
+        pc = float(precio_cupon_ml) if precio_cupon_ml else 0
+    except (TypeError, ValueError):
+        pc = 0
 
-        if pc > 0:
-            lineas.append(f"🎟️ Com cupom: R$ {int(round(pc))}")
-            lineas.append(f"   (cupom {cupom} — ative na página do produto)")
-        elif pct_c and post_a_enviar.get("cupom_confianza") != "baja":
+    if pc > 0 and precio_int and pc < precio_int * 0.995:
+        ahorro = precio_int - pc
+        lineas.append(f"🎟️ Com cupom: R$ {int(round(pc))}"
+                      f"  (economiza R$ {int(round(ahorro))})")
+        if cupom:
+            lineas.append(f"   ative o cupom na página do produto")
+    elif cupom and not post_a_enviar.get("ml_tiene_cupon") is False:
+        # Cupón de código que sí pasó el validador (misma tienda, categoría y
+        # fuente trazable). Sin confirmación de ML no se promete precio.
+        pct_c = post_a_enviar.get("cupom_pct")
+        if pct_c and post_a_enviar.get("cupom_confianza") != "baja":
             lineas.append(f"🎟️ Cupom: {cupom} ({float(pct_c):.0f}% OFF)")
         else:
             lineas.append(f"🎟️ Cupom: {cupom} (ative na página do produto)")
