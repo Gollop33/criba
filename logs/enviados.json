@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-09-28T18:43:50.440658",
-    "canales": {
-      "whatsapp": "2026-09-28T18:43:50.440658"
-    },
-    "precio": 184.0,
-    "precios_publicados": [
-      184.0
-    ]
-  },
   "ml-power-bank-basike-20000mah-preto-carga-rapida": {
     "ts": "2026-09-28T18:51:43.680652",
     "canales": {
@@ -2264,6 +2254,16 @@
     "precio": 135.0,
     "precios_publicados": [
       135.0
+    ]
+  },
+  "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
+    "ts": "2026-09-30T18:50:26.623896",
+    "canales": {
+      "whatsapp": "2026-09-30T18:50:26.623896"
+    },
+    "precio": 49.0,
+    "precios_publicados": [
+      49.0
     ]
   }
 }
