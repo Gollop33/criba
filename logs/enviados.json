@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
-    "ts": "2026-09-28T17:29:16.187176",
-    "canales": {
-      "whatsapp": "2026-09-28T17:29:16.187176"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
   "amz-smartphone-samsung-galaxy-a36-256gb-5g-8gb-ra": {
     "ts": "2026-09-28T17:40:26.541012",
     "canales": {
@@ -2306,6 +2296,16 @@
     "precio": 189.0,
     "precios_publicados": [
       189.0
+    ]
+  },
+  "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
+    "ts": "2026-09-30T17:29:34.611220",
+    "canales": {
+      "whatsapp": "2026-09-30T17:29:34.611220"
+    },
+    "precio": 368.0,
+    "precios_publicados": [
+      368.0
     ]
   }
 }
