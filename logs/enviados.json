@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "ml-kit-brinquedo-educativo-mesa-didatica-ativida": {
-    "ts": "2026-09-29T17:54:10.901967",
-    "canales": {
-      "whatsapp": "2026-09-29T17:54:10.901967"
-    },
-    "precio": 65.0,
-    "precios_publicados": [
-      65.0
-    ]
-  },
   "amz-veja-limpador-para-limpeza-pesada-cloro-ativo": {
     "ts": "2026-09-29T18:03:06.388558",
     "canales": {
@@ -1895,6 +1885,16 @@
     "precio": 919.0,
     "precios_publicados": [
       919.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
+    "ts": "2026-10-01T17:56:48.965174",
+    "canales": {
+      "whatsapp": "2026-10-01T17:56:48.965174"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
