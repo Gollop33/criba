@@ -244,16 +244,6 @@
     ],
     "precio_min_publicado": 1499.0
   },
-  "ml-sapateira-organizador-sapatos-empilhavel-vert": {
-    "ts": "2026-09-29T00:05:57.754206",
-    "canales": {
-      "whatsapp": "2026-09-29T00:05:57.754206"
-    },
-    "precio": 131.0,
-    "precios_publicados": [
-      131.0
-    ]
-  },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-09-29T00:15:19.598822",
     "canales": {
@@ -2200,6 +2190,16 @@
     "precio": 11099.0,
     "precios_publicados": [
       11099.0
+    ]
+  },
+  "ml-tapete-higienico-pet-30-unidades-90x60-descar": {
+    "ts": "2026-10-01T00:10:44.177505",
+    "canales": {
+      "whatsapp": "2026-10-01T00:10:44.177505"
+    },
+    "precio": 47.0,
+    "precios_publicados": [
+      47.0
     ]
   }
 }
