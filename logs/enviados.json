@@ -244,26 +244,6 @@
     ],
     "precio_min_publicado": 1499.0
   },
-  "ml-tenis-kappa-pulse-supra-masculino-feminino": {
-    "ts": "2026-09-29T00:18:11.193461",
-    "canales": {
-      "whatsapp": "2026-09-29T00:18:11.193461"
-    },
-    "precio": 130.0,
-    "precios_publicados": [
-      130.0
-    ]
-  },
-  "amz-the-legend-of-zelda-breath-of-the-wild-ninten": {
-    "ts": "2026-09-29T00:19:35.930081",
-    "canales": {
-      "whatsapp": "2026-09-29T00:19:35.930081"
-    },
-    "precio": 439.0,
-    "precios_publicados": [
-      439.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-e1504fa-amd-ryzen-5": {
     "ts": "2026-09-29T00:34:03.729926",
     "canales": {
@@ -2200,6 +2180,16 @@
     "precio": 55.0,
     "precios_publicados": [
       55.0
+    ]
+  },
+  "ml-kit-3-bermuda-masculina-importada-seda-secage": {
+    "ts": "2026-10-01T00:22:10.155442",
+    "canales": {
+      "whatsapp": "2026-10-01T00:22:10.155442"
+    },
+    "precio": 86.0,
+    "precios_publicados": [
+      86.0
     ]
   }
 }
