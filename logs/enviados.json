@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-motosserra-eletrica-a-bateria-btek-48v-12-com": {
-    "ts": "2026-09-29T19:06:59.637789",
-    "canales": {
-      "whatsapp": "2026-09-29T19:06:59.637789"
-    },
-    "precio": 485.0,
-    "precios_publicados": [
-      485.0
-    ]
-  },
   "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
     "ts": "2026-09-29T19:14:32.378340",
     "canales": {
@@ -1887,6 +1877,16 @@
     "precio": 419.0,
     "precios_publicados": [
       419.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
+    "ts": "2026-10-01T19:08:38.387891",
+    "canales": {
+      "whatsapp": "2026-10-01T19:08:38.387891"
+    },
+    "precio": 2944.0,
+    "precios_publicados": [
+      2944.0
     ]
   }
 }
