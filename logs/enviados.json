@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "ml-whey-protein-concentrado-100-900g-refil-dark-": {
-    "ts": "2026-09-29T17:37:01.509788",
-    "canales": {
-      "whatsapp": "2026-09-29T17:37:01.509788"
-    },
-    "precio": 132.0,
-    "precios_publicados": [
-      132.0
-    ]
-  },
   "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
     "ts": "2026-09-29T17:44:18.140561",
     "canales": {
@@ -1895,6 +1885,16 @@
     "precio": 2460.0,
     "precios_publicados": [
       2460.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-octa-core-8gb-ramb-128": {
+    "ts": "2026-10-01T17:43:50.169643",
+    "canales": {
+      "whatsapp": "2026-10-01T17:43:50.169643"
+    },
+    "precio": 2199.0,
+    "precios_publicados": [
+      2199.0
     ]
   }
 }
