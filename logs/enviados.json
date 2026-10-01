@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-celular-samsung-galaxy-a07-256gb-8gb-camera-5": {
-    "ts": "2026-09-29T20:43:33.070470",
-    "canales": {
-      "whatsapp": "2026-09-29T20:43:33.070470"
-    },
-    "precio": 879.0,
-    "precios_publicados": [
-      879.0
-    ]
-  },
   "amz-cabo-usb-para-lightning-reforcado-1m-compativ": {
     "ts": "2026-09-29T20:51:50.857109",
     "canales": {
@@ -1895,6 +1885,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
+    "ts": "2026-10-01T20:49:07.243459",
+    "canales": {
+      "whatsapp": "2026-10-01T20:49:07.243459"
+    },
+    "precio": 1529.0,
+    "precios_publicados": [
+      1529.0
     ]
   }
 }
