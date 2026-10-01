@@ -41,18 +41,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "ml-smart-tv-4k-50-lg-nano-uhd-ai-nu850-2026-proc": {
-    "ts": "2026-09-29T22:51:30.730886",
-    "canales": {
-      "whatsapp": "2026-09-29T22:51:30.730886"
-    },
-    "precio": 2276.0,
-    "precios_publicados": [
-      2276.0,
-      2276.0
-    ],
-    "precio_min_publicado": 2276.0
-  },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-09-29T23:54:13.910349",
     "canales": {
@@ -314,14 +302,16 @@
     ]
   },
   "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
-    "ts": "2026-09-29T23:33:19.138065",
+    "ts": "2026-10-01T22:53:48.791906",
     "canales": {
-      "whatsapp": "2026-09-29T23:33:19.138065"
+      "whatsapp": "2026-10-01T22:53:48.791906"
     },
     "precio": 28.0,
     "precios_publicados": [
+      28.0,
       28.0
-    ]
+    ],
+    "precio_min_publicado": 28.0
   },
   "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
     "ts": "2026-09-29T23:40:50.128724",
