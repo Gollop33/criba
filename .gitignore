@@ -53,3 +53,7 @@ _prueba_secret.txt
 tools/
 video/tmp/
 video/salida/*.mp4
+
+# Estado local del interruptor de sesion (sesion.py)
+.agents/skills-guardadas/
+.agents/.modo-sesion
