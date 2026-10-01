@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-proteina-black-skull-whey-100-hd-em-po-sabor-": {
-    "ts": "2026-09-29T21:44:31.302937",
-    "canales": {
-      "whatsapp": "2026-09-29T21:44:31.302937"
-    },
-    "precio": 104.0,
-    "precios_publicados": [
-      104.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
     "ts": "2026-09-29T21:54:14.334572",
     "canales": {
@@ -1863,6 +1853,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "ml-smart-tv-philco-75-p75cga-qled-4k-google-tv-d": {
+    "ts": "2026-10-01T21:49:20.020039",
+    "canales": {
+      "whatsapp": "2026-10-01T21:49:20.020039"
+    },
+    "precio": 4182.0,
+    "precios_publicados": [
+      4182.0
     ]
   }
 }
