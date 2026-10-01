@@ -40,30 +40,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
-    "ts": "2026-09-29T17:19:30.049098",
-    "canales": {
-      "whatsapp": "2026-09-29T17:19:30.049098"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      61.0,
-      62.0
-    ],
-    "precio_min_publicado": 61.0
-  },
-  "ml-tapete-higienico-para-cachorro-50-unidades-60": {
-    "ts": "2026-09-29T17:17:48.875643",
-    "canales": {
-      "whatsapp": "2026-09-29T17:17:48.875643"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0,
-      44.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-kindle-16-gb-geracao-mais-recente-leve-e-comp": {
     "ts": "2026-09-29T20:57:47.051023",
     "canales": {
@@ -1908,6 +1884,16 @@
     "precio": 145.0,
     "precios_publicados": [
       145.0
+    ]
+  },
+  "ml-smartwatch-samsung-galaxy-watch-8-44mm-com-gp": {
+    "ts": "2026-10-01T17:23:27.759736",
+    "canales": {
+      "whatsapp": "2026-10-01T17:23:27.759736"
+    },
+    "precio": 1529.0,
+    "precios_publicados": [
+      1529.0
     ]
   }
 }
