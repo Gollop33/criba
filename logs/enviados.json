@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-09-29T22:42:46.108023",
-    "canales": {
-      "whatsapp": "2026-09-29T22:42:46.108023"
-    },
-    "precio": 950.0,
-    "precios_publicados": [
-      950.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
     "ts": "2026-09-29T23:01:04.745766",
     "canales": {
@@ -1036,14 +1026,16 @@
     ]
   },
   "ml-tenis-masculino-adizero-drive-rc-adidas": {
-    "ts": "2026-09-30T21:16:26.696342",
+    "ts": "2026-10-01T22:44:09.412722",
     "canales": {
-      "whatsapp": "2026-09-30T21:16:26.696342"
+      "whatsapp": "2026-10-01T22:44:09.412722"
     },
     "precio": 597.0,
     "precios_publicados": [
+      597.0,
       597.0
-    ]
+    ],
+    "precio_min_publicado": 597.0
   },
   "ml-carregador-portatil-power-bank-turbo-i2go-200": {
     "ts": "2026-09-30T21:34:12.926284",
