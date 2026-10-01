@@ -53,18 +53,6 @@
     ],
     "precio_min_publicado": 799.0
   },
-  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
-    "ts": "2026-09-29T19:50:48.982627",
-    "canales": {
-      "whatsapp": "2026-09-29T19:50:48.982627"
-    },
-    "precio": 5888.0,
-    "precios_publicados": [
-      5888.0,
-      5888.0
-    ],
-    "precio_min_publicado": 5888.0
-  },
   "ml-smartphone-motorola-edge-70-5g-256gb-8gb-ram-": {
     "ts": "2026-09-29T20:07:43.806476",
     "canales": {
@@ -1899,6 +1887,16 @@
     "precio": 718.0,
     "precios_publicados": [
       718.0
+    ]
+  },
+  "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
+    "ts": "2026-10-01T19:51:33.081367",
+    "canales": {
+      "whatsapp": "2026-10-01T19:51:33.081367"
+    },
+    "precio": 169.0,
+    "precios_publicados": [
+      169.0
     ]
   }
 }
