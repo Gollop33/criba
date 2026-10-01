@@ -53,18 +53,6 @@
     ],
     "precio_min_publicado": 799.0
   },
-  "ml-smartphone-motorola-edge-70-5g-256gb-8gb-ram-": {
-    "ts": "2026-09-29T20:07:43.806476",
-    "canales": {
-      "whatsapp": "2026-09-29T20:07:43.806476"
-    },
-    "precio": 2249.0,
-    "precios_publicados": [
-      2249.0,
-      2249.0
-    ],
-    "precio_min_publicado": 2249.0
-  },
   "ml-smart-tv-4k-50-lg-nano-uhd-ai-nu850-2026-proc": {
     "ts": "2026-09-29T22:51:30.730886",
     "canales": {
@@ -1897,6 +1885,16 @@
     "precio": 951.0,
     "precios_publicados": [
       951.0
+    ]
+  },
+  "amz-max-titanium-creatina-300-gr-monohidratada": {
+    "ts": "2026-10-01T20:09:43.156157",
+    "canales": {
+      "whatsapp": "2026-10-01T20:09:43.156157"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
