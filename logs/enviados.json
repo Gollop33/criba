@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
-    "ts": "2026-09-29T19:14:32.378340",
-    "canales": {
-      "whatsapp": "2026-09-29T19:14:32.378340"
-    },
-    "precio": 1379.0,
-    "precios_publicados": [
-      1379.0
-    ]
-  },
   "ml-papel-higienico-familiar-folha-dupla-kit-24-r": {
     "ts": "2026-09-29T19:23:49.171878",
     "canales": {
@@ -1907,6 +1897,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "ml-tenis-asics-gel-revelation-original-couro-aca": {
+    "ts": "2026-10-01T19:21:35.179212",
+    "canales": {
+      "whatsapp": "2026-10-01T19:21:35.179212"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
