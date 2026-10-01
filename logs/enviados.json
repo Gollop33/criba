@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-biscottino-56-cacau-caramelo-salgado-haoma-la": {
-    "ts": "2026-09-29T22:17:43.958004",
-    "canales": {
-      "whatsapp": "2026-09-29T22:17:43.958004"
-    },
-    "precio": 111.0,
-    "precios_publicados": [
-      111.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
     "ts": "2026-09-29T22:20:00.768091",
     "canales": {
@@ -1893,6 +1883,16 @@
     "precio": 153.0,
     "precios_publicados": [
       153.0
+    ]
+  },
+  "ml-smartphone-samsung-galaxy-a17-5g-128gb-4gb-su": {
+    "ts": "2026-10-01T22:18:12.230528",
+    "canales": {
+      "whatsapp": "2026-10-01T22:18:12.230528"
+    },
+    "precio": 944.0,
+    "precios_publicados": [
+      944.0
     ]
   }
 }
