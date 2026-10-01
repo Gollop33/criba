@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-scott-duramax-pano-reutilizavel-em-rolo-branc": {
-    "ts": "2026-09-29T19:00:53.445282",
-    "canales": {
-      "whatsapp": "2026-09-29T19:00:53.445282"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
-  "ml-camera-veicular-automotiva-ddpai-z50-dashcam-": {
-    "ts": "2026-09-29T19:02:27.110126",
-    "canales": {
-      "whatsapp": "2026-09-29T19:02:27.110126"
-    },
-    "precio": 918.0,
-    "precios_publicados": [
-      918.0
-    ]
-  },
   "ml-motosserra-eletrica-a-bateria-btek-48v-12-com": {
     "ts": "2026-09-29T19:06:59.637789",
     "canales": {
@@ -1887,6 +1867,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-tab-samsung-galaxy-s11-ultra-cinza-512gb-12gb": {
+    "ts": "2026-10-01T19:02:56.060032",
+    "canales": {
+      "whatsapp": "2026-10-01T19:02:56.060032"
+    },
+    "precio": 7090.0,
+    "precios_publicados": [
+      7090.0
     ]
   }
 }
