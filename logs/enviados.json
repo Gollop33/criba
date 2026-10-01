@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-suco-de-uva-maca-e-pera-natural-one-temperatu": {
-    "ts": "2026-09-29T22:25:02.135740",
-    "canales": {
-      "whatsapp": "2026-09-29T22:25:02.135740"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
   "amz-headset-gamer-redragon-zeus-lite-preto-p3-h51": {
     "ts": "2026-09-29T22:34:09.252765",
     "canales": {
@@ -1893,6 +1883,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "ml-smart-tv-43-philco-p43vik-roku-led-dolby-audi": {
+    "ts": "2026-10-01T22:26:22.032752",
+    "canales": {
+      "whatsapp": "2026-10-01T22:26:22.032752"
+    },
+    "precio": 1449.0,
+    "precios_publicados": [
+      1449.0
     ]
   }
 }
