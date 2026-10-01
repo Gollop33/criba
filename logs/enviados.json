@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-bicicleta-spinning-ergometrica-10kg-130kg-sil": {
-    "ts": "2026-09-29T18:52:15.005183",
-    "canales": {
-      "whatsapp": "2026-09-29T18:52:15.005183"
-    },
-    "precio": 875.0,
-    "precios_publicados": [
-      875.0
-    ]
-  },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-09-29T18:53:51.669874",
-    "canales": {
-      "whatsapp": "2026-09-29T18:53:51.669874"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "ml-nobreak-intelbras-attiv-1200va-entrada-bivolt": {
     "ts": "2026-09-29T18:58:45.749851",
     "canales": {
@@ -378,14 +358,16 @@
     ]
   },
   "amz-echo-dot-geracao-mais-recente-smart-speaker-c": {
-    "ts": "2026-09-29T20:01:04.719481",
+    "ts": "2026-10-01T18:53:55.592581",
     "canales": {
-      "whatsapp": "2026-09-29T20:01:04.719481"
+      "whatsapp": "2026-10-01T18:53:55.592581"
     },
     "precio": 459.0,
     "precios_publicados": [
+      459.0,
       459.0
-    ]
+    ],
+    "precio_min_publicado": 459.0
   },
   "amz-samsung-tablet-galaxy-tab-s11-wifi-256gb-12gb": {
     "ts": "2026-09-29T20:10:06.043749",
