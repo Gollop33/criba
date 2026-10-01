@@ -100,18 +100,6 @@
     ],
     "precio_min_publicado": 799.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-09-29T00:50:53.282422",
-    "canales": {
-      "whatsapp": "2026-09-29T00:50:53.282422"
-    },
-    "precio": 959.0,
-    "precios_publicados": [
-      1080.0,
-      959.0
-    ],
-    "precio_min_publicado": 1080.0
-  },
   "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
     "ts": "2026-09-29T19:50:48.982627",
     "canales": {
@@ -243,16 +231,6 @@
       1499.0
     ],
     "precio_min_publicado": 1499.0
-  },
-  "ml-capa-protetora-colchao-box-casal-padrao-matel": {
-    "ts": "2026-09-29T00:56:35.942026",
-    "canales": {
-      "whatsapp": "2026-09-29T00:56:35.942026"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
   },
   "ml-maquina-de-lavar-bwf14ab-14kg-smart-sensor-ci": {
     "ts": "2026-10-01T00:47:43.902155",
@@ -561,14 +539,16 @@
     ]
   },
   "ml-cadeira-de-escritorio-gamer-nitro-ergonomica-": {
-    "ts": "2026-09-29T17:29:21.285220",
+    "ts": "2026-10-01T00:56:54.163034",
     "canales": {
-      "whatsapp": "2026-09-29T17:29:21.285220"
+      "whatsapp": "2026-10-01T00:56:54.163034"
     },
-    "precio": 579.0,
+    "precio": 479.0,
     "precios_publicados": [
-      579.0
-    ]
+      579.0,
+      479.0
+    ],
+    "precio_min_publicado": 579.0
   },
   "amz-kit-morte-subita-shampoo-condicionador-spray-": {
     "ts": "2026-09-29T17:30:57.340859",
