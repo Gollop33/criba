@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-cabo-carregador-turbo-usbc-1-metro-trancado-d": {
-    "ts": "2026-09-29T22:12:15.594893",
-    "canales": {
-      "whatsapp": "2026-09-29T22:12:15.594893"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "ml-biscottino-56-cacau-caramelo-salgado-haoma-la": {
     "ts": "2026-09-29T22:17:43.958004",
     "canales": {
@@ -1893,6 +1883,16 @@
     "precio": 118.0,
     "precios_publicados": [
       118.0
+    ]
+  },
+  "amz-mondial-ventilador-de-mesa-40cm-super-power-p": {
+    "ts": "2026-10-01T22:13:55.368886",
+    "canales": {
+      "whatsapp": "2026-10-01T22:13:55.368886"
+    },
+    "precio": 153.0,
+    "precios_publicados": [
+      153.0
     ]
   }
 }
