@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-09-29T18:31:30.966745",
-    "canales": {
-      "whatsapp": "2026-09-29T18:31:30.966745"
-    },
-    "precio": 48.0,
-    "precios_publicados": [
-      48.0
-    ]
-  },
   "ml-kit-ferramentas-5-em-1-brushless-48v-2-bateri": {
     "ts": "2026-09-29T18:36:29.536904",
     "canales": {
@@ -1915,6 +1905,16 @@
     "precio": 219.0,
     "precios_publicados": [
       219.0
+    ]
+  },
+  "ml-nac-600mg-formula-exclusiva-com-maxima-concen": {
+    "ts": "2026-10-01T18:35:29.288530",
+    "canales": {
+      "whatsapp": "2026-10-01T18:35:29.288530"
+    },
+    "precio": 45.0,
+    "precios_publicados": [
+      45.0
     ]
   }
 }
