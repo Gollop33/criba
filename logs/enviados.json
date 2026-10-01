@@ -41,18 +41,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-09-29T23:54:13.910349",
-    "canales": {
-      "whatsapp": "2026-09-29T23:54:13.910349"
-    },
-    "precio": 1440.0,
-    "precios_publicados": [
-      1440.0,
-      1440.0
-    ],
-    "precio_min_publicado": 1440.0
-  },
   "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
     "ts": "2026-09-30T16:00:19.997606",
     "canales": {
@@ -232,16 +220,6 @@
       28.0
     ],
     "precio_min_publicado": 28.0
-  },
-  "ml-smartphone-motorola-edge-70-5g-crystals-by-sw": {
-    "ts": "2026-09-29T23:49:57.312080",
-    "canales": {
-      "whatsapp": "2026-09-29T23:49:57.312080"
-    },
-    "precio": 2699.0,
-    "precios_publicados": [
-      2699.0
-    ]
   },
   "ml-tablet-xiaomi-redmi-pad-2-11-256gb-8-ram-cinz": {
     "ts": "2026-09-30T00:01:37.560724",
@@ -1871,6 +1849,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "ml-poco-x8-pro-512gb-12gb-ram-original-lancament": {
+    "ts": "2026-10-01T23:55:51.687510",
+    "canales": {
+      "whatsapp": "2026-10-01T23:55:51.687510"
+    },
+    "precio": 2746.0,
+    "precios_publicados": [
+      2746.0
     ]
   }
 }
