@@ -257,26 +257,6 @@
     ],
     "precio_min_publicado": 5200.0
   },
-  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
-    "ts": "2026-09-29T19:43:37.138066",
-    "canales": {
-      "whatsapp": "2026-09-29T19:43:37.138066"
-    },
-    "precio": 2212.0,
-    "precios_publicados": [
-      2212.0
-    ]
-  },
-  "ml-bicicleta-ergometrica-spinning-bike-ergometri": {
-    "ts": "2026-09-29T19:48:10.111333",
-    "canales": {
-      "whatsapp": "2026-09-29T19:48:10.111333"
-    },
-    "precio": 414.0,
-    "precios_publicados": [
-      414.0
-    ]
-  },
   "ml-creatina-monohidratada-500g-pouch-growth-supp": {
     "ts": "2026-09-29T19:58:08.498867",
     "canales": {
@@ -1909,6 +1889,16 @@
     "precio": 11.0,
     "precios_publicados": [
       11.0
+    ]
+  },
+  "ml-patinete-triciclo-infantil-drift-eletrico-led": {
+    "ts": "2026-10-01T19:48:22.439059",
+    "canales": {
+      "whatsapp": "2026-10-01T19:48:22.439059"
+    },
+    "precio": 718.0,
+    "precios_publicados": [
+      718.0
     ]
   }
 }
