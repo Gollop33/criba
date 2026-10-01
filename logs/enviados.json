@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-papel-higienico-familiar-folha-dupla-kit-24-r": {
-    "ts": "2026-09-29T19:23:49.171878",
-    "canales": {
-      "whatsapp": "2026-09-29T19:23:49.171878"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
     "ts": "2026-09-29T19:31:10.154331",
     "canales": {
@@ -1907,6 +1897,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
+    "ts": "2026-10-01T19:26:14.419400",
+    "canales": {
+      "whatsapp": "2026-10-01T19:26:14.419400"
+    },
+    "precio": 58.0,
+    "precios_publicados": [
+      58.0
     ]
   }
 }
