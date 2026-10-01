@@ -908,14 +908,16 @@
     ]
   },
   "ml-power-bank-basike-20000mah-preto-carga-rapida": {
-    "ts": "2026-09-30T20:11:23.129101",
+    "ts": "2026-10-01T23:04:27.345631",
     "canales": {
-      "whatsapp": "2026-09-30T20:11:23.129101"
+      "whatsapp": "2026-10-01T23:04:27.345631"
     },
-    "precio": 130.0,
+    "precio": 136.0,
     "precios_publicados": [
-      130.0
-    ]
+      130.0,
+      136.0
+    ],
+    "precio_min_publicado": 130.0
   },
   "ml-fone-qcy-t13-anc-2-bluetooth-53-cancelamento-": {
     "ts": "2026-09-30T20:21:27.653327",
