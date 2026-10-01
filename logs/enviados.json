@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-huggies-fralda-descartavel-premium-natural-ca": {
-    "ts": "2026-09-29T18:48:18.811124",
-    "canales": {
-      "whatsapp": "2026-09-29T18:48:18.811124"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "ml-bicicleta-spinning-ergometrica-10kg-130kg-sil": {
     "ts": "2026-09-29T18:52:15.005183",
     "canales": {
@@ -1905,6 +1895,16 @@
     "precio": 202.0,
     "precios_publicados": [
       202.0
+    ]
+  },
+  "ml-kit-combo-1-naninha-1-travesseiro-anatomico-m": {
+    "ts": "2026-10-01T18:51:58.137029",
+    "canales": {
+      "whatsapp": "2026-10-01T18:51:58.137029"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
