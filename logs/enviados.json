@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-apple-iphone-17e-de-256-gb-preto": {
-    "ts": "2026-09-29T21:19:38.590220",
-    "canales": {
-      "whatsapp": "2026-09-29T21:19:38.590220"
-    },
-    "precio": 4499.0,
-    "precios_publicados": [
-      4499.0
-    ]
-  },
   "ml-medidor-digital-de-pressao-de-pneus-astroai-p": {
     "ts": "2026-09-29T21:26:48.265036",
     "canales": {
@@ -1873,6 +1863,16 @@
     "precio": 82.0,
     "precios_publicados": [
       82.0
+    ]
+  },
+  "ml-chocolate-chips-sicao-callabaut-ao-leite-bola": {
+    "ts": "2026-10-01T21:21:55.415376",
+    "canales": {
+      "whatsapp": "2026-10-01T21:21:55.415376"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
