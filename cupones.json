@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-01T10:33:55+00:00",
-  "total": 27,
+  "actualizado": "2026-10-01T17:11:25+00:00",
+  "total": 40,
   "fuentes": [
     "Telegram ML Afiliados"
   ],
@@ -358,6 +358,162 @@
       "detectado_em": "2026-09-30T13:00:06+00:00",
       "vigente": true,
       "estado": "ativo"
+    },
+    {
+      "codigo": "PROMOCERTA",
+      "desconto": "22% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:31:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "OFFAQUI",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:31:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "ECONOMIA",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:31:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "MELIOFF20",
+      "desconto": "20% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-10-30",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:31:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "ECONOMIAMELI",
+      "desconto": "20% OFF",
+      "compra_minima": "",
+      "limite": "R$50",
+      "hasta": "2026-10-04",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:16:01+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "BRINCAR",
+      "desconto": "15% OFF",
+      "compra_minima": "",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:16:01+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "PROMOAQU",
+      "desconto": "8% OFF",
+      "compra_minima": "",
+      "limite": "R$300",
+      "hasta": "",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:16:01+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "OFERTA",
+      "desconto": "15% OFF",
+      "compra_minima": "",
+      "limite": "R$200",
+      "hasta": "2026-10-04",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:16:01+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "PROMOML",
+      "desconto": "10% OFF",
+      "compra_minima": "",
+      "limite": "R$100",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:01:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "DESCONTOSMELI",
+      "desconto": "10% OFF",
+      "compra_minima": "",
+      "limite": "R$200",
+      "hasta": "",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:01:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "TEMPROMO",
+      "desconto": "15% OFF",
+      "compra_minima": "",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:01:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "MODAML",
+      "desconto": "15% OFF",
+      "compra_minima": "",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:01:02+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "OFERTAS",
+      "desconto": "20% OFF",
+      "compra_minima": "",
+      "limite": "R$80",
+      "hasta": "2026-10-04",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-01T13:01:02+00:00",
+      "vigente": true
     }
   ]
 }
