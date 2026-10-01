@@ -48,3 +48,8 @@ _secret_tmp.txt
 _code_tmp.txt
 _url_autorizacion.txt
 _prueba_secret.txt
+
+# ffmpeg descargado (110 MB) y temporales de video
+tools/
+video/tmp/
+video/salida/*.mp4

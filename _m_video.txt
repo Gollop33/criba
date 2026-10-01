@@ -1,0 +1,53 @@
+feat(video): generador de videos verticales de ofertas (FUNCIONA, verificado)
+
+El usuario pidio videos para el marketing: uno con la pantalla del grupo y otro de
+un producto baratisimo. Se ataco el segundo, que es el que se puede automatizar.
+
+CADENA IMPLEMENTADA
+    oferta de achados.json
+      -> HTML por escena        (texto nitido)
+      -> Chrome headless        (PNG 1080x1920)
+      -> ffmpeg zoompan+xfade   (MP4 h264 30fps)
+
+POR QUE ASI
+- La skill video (.agents/skills/video/SKILL.md) avisa: "AI-generated text in
+  video - models can't reliably render readable text; use programmatic overlays".
+  El precio es lo que hay que leer, asi que se pinta en HTML y lo rasteriza
+  Chrome. Sale perfecto.
+- Chrome ya estaba instalado -> cero descargas para el texto.
+- ffmpeg NO estaba: se descargo el build essentials (ffmpeg 9.0.2, gyan.dev) en
+  tools/ffmpeg (314 MB, ignorado por git).
+
+5 ESCENAS (~21 s)
+    1. GANCHO           2,6 s   MAYUSCULA, max 3 palabras
+    2. PRODUCTO         5,0 s   foto + titulo + precio grande
+    3. PRECIOS          5,5 s   No Pix / Com cupom (solo si bajan de verdad)
+    4. DIFERENCIAL      3,4 s   "PRECO CONFERIDO - o cupom que aparece e o
+                                 cupom que aplica"
+    5. CTA              4,5 s   "ENTRA NO GRUPO"
+
+DETALLE QUE EVITA UN ERROR REAL: pix_real() NO muestra la linea de Pix si el
+precio no baja. Se detecto al listar: varias ofertas tenian ml_precio_pix igual
+al precio (R$ 98,91 vs R$ 98,91). Mostrar "No Pix: R$ 98,91" cuando es el mismo
+numero insinua un ahorro que no existe: justo el tipo de dato falso que ya costo
+caro en este proyecto.
+
+VERIFICADO CON EVIDENCIA (no vale "existe el fichero")
+    ffprobe  -> duracion 19,0 s | 1080x1920 | 30 fps | 570 frames | h264
+                bitrate 1581 kbps | 3668 KB
+    Pillow   -> 6 frames analizados, todos con variacion de pixeles 49-95
+                (una imagen en blanco daria ~0). Ninguna escena vacia.
+
+GENERADOS: oferta_01.mp4, oferta_02.mp4, oferta_03.mp4 + 5 frames de muestra
+en video/salida/ para poder revisar el resultado sin abrir el video.
+
+USO
+    python video/generar_video.py --listar    # ofertas con mas gancho
+    python video/generar_video.py --uno 1
+    python video/generar_video.py --lote 5
+
+NOTA: los agentes video-toolchain y video-hooks fallaron antes de terminar (solo
+dejaron un script suelto y sin guiones.json). El toolchain lo hizo el Lead.
+
+PENDIENTE: video "GRUPO" (pantalla con ofertas cayendo), musica, y enganchar la
+generacion al workflow para que salga un lote diario solo.
