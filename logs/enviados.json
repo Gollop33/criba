@@ -244,16 +244,6 @@
     ],
     "precio_min_publicado": 1499.0
   },
-  "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
-    "ts": "2026-09-28T23:58:17.281476",
-    "canales": {
-      "whatsapp": "2026-09-28T23:58:17.281476"
-    },
-    "precio": 288.0,
-    "precios_publicados": [
-      288.0
-    ]
-  },
   "ml-sapateira-organizador-sapatos-empilhavel-vert": {
     "ts": "2026-09-29T00:05:57.754206",
     "canales": {
@@ -2200,6 +2190,16 @@
     "precio": 127.0,
     "precios_publicados": [
       127.0
+    ]
+  },
+  "amz-apple-iphone-17-pro-max-256-gb-prateado": {
+    "ts": "2026-10-01T00:01:35.389656",
+    "canales": {
+      "whatsapp": "2026-10-01T00:01:35.389656"
+    },
+    "precio": 11099.0,
+    "precios_publicados": [
+      11099.0
     ]
   }
 }
