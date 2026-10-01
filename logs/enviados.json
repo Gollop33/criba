@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
-    "ts": "2026-09-29T23:17:00.778813",
-    "canales": {
-      "whatsapp": "2026-09-29T23:17:00.778813"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-5700x-34-ghz-8-nucleo": {
     "ts": "2026-09-29T23:26:25.340260",
     "canales": {
@@ -1871,6 +1861,16 @@
     "precio": 189.0,
     "precios_publicados": [
       189.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-10-01T23:19:26.642815",
+    "canales": {
+      "whatsapp": "2026-10-01T23:19:26.642815"
+    },
+    "precio": 1377.0,
+    "precios_publicados": [
+      1377.0
     ]
   }
 }
