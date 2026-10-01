@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
-    "ts": "2026-09-29T19:31:10.154331",
-    "canales": {
-      "whatsapp": "2026-09-29T19:31:10.154331"
-    },
-    "precio": 776.0,
-    "precios_publicados": [
-      776.0
-    ]
-  },
   "ml-dell-inspiron-dc15i51334um80-notebook-156-i5-": {
     "ts": "2026-09-30T20:02:29.423067",
     "canales": {
@@ -1000,14 +990,16 @@
     ]
   },
   "ml-projetor-hy320-mini-portatil-hardline-smart-t": {
-    "ts": "2026-09-30T17:09:00.749849",
+    "ts": "2026-10-01T19:32:52.288873",
     "canales": {
-      "whatsapp": "2026-09-30T17:09:00.749849"
+      "whatsapp": "2026-10-01T19:32:52.288873"
     },
-    "precio": 229.0,
+    "precio": 227.0,
     "precios_publicados": [
-      229.0
-    ]
+      229.0,
+      227.0
+    ],
+    "precio_min_publicado": 229.0
   },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-09-30T17:11:06.784815",
