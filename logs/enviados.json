@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
-    "ts": "2026-09-29T22:20:00.768091",
-    "canales": {
-      "whatsapp": "2026-09-29T22:20:00.768091"
-    },
-    "precio": 1452.0,
-    "precios_publicados": [
-      1452.0
-    ]
-  },
   "ml-suco-de-uva-maca-e-pera-natural-one-temperatu": {
     "ts": "2026-09-29T22:25:02.135740",
     "canales": {
@@ -1893,6 +1883,16 @@
     "precio": 944.0,
     "precios_publicados": [
       944.0
+    ]
+  },
+  "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
+    "ts": "2026-10-01T22:20:58.496641",
+    "canales": {
+      "whatsapp": "2026-10-01T22:20:58.496641"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
