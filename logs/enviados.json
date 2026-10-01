@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-09-29T23:40:50.128724",
-    "canales": {
-      "whatsapp": "2026-09-29T23:40:50.128724"
-    },
-    "precio": 758.0,
-    "precios_publicados": [
-      758.0
-    ]
-  },
   "ml-smartphone-motorola-edge-70-5g-crystals-by-sw": {
     "ts": "2026-09-29T23:49:57.312080",
     "canales": {
@@ -1861,6 +1851,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
+    "ts": "2026-10-01T23:43:58.781774",
+    "canales": {
+      "whatsapp": "2026-10-01T23:43:58.781774"
+    },
+    "precio": 259.0,
+    "precios_publicados": [
+      259.0
     ]
   }
 }
