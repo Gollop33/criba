@@ -221,36 +221,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-biofresh-super-premium-natural-racao-para-gat": {
-    "ts": "2026-09-29T23:07:35.506667",
-    "canales": {
-      "whatsapp": "2026-09-29T23:07:35.506667"
-    },
-    "precio": 265.0,
-    "precios_publicados": [
-      265.0
-    ]
-  },
-  "amz-romantic-crown-mochila-masculina-de-viagem-pa": {
-    "ts": "2026-09-29T23:09:26.508916",
-    "canales": {
-      "whatsapp": "2026-09-29T23:09:26.508916"
-    },
-    "precio": 108.0,
-    "precios_publicados": [
-      108.0
-    ]
-  },
-  "ml-cadeira-escritorio-ergonomica-python-fly-b07-": {
-    "ts": "2026-09-29T23:10:31.984547",
-    "canales": {
-      "whatsapp": "2026-09-29T23:10:31.984547"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
   "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
     "ts": "2026-09-29T23:17:00.778813",
     "canales": {
@@ -576,14 +546,16 @@
     ]
   },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-09-30T16:16:30.846817",
+    "ts": "2026-10-01T23:13:59.753825",
     "canales": {
-      "whatsapp": "2026-09-30T16:16:30.846817"
+      "whatsapp": "2026-10-01T23:13:59.753825"
     },
-    "precio": 1233.0,
+    "precio": 1298.0,
     "precios_publicados": [
-      1233.0
-    ]
+      1233.0,
+      1298.0
+    ],
+    "precio_min_publicado": 1233.0
   },
   "ml-bomba-submersa-p-climatizador-aquarios-fonte-": {
     "ts": "2026-09-30T16:28:11.432123",
