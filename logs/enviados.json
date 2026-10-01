@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-nobreak-intelbras-attiv-1200va-entrada-bivolt": {
-    "ts": "2026-09-29T18:58:45.749851",
-    "canales": {
-      "whatsapp": "2026-09-29T18:58:45.749851"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-scott-duramax-pano-reutilizavel-em-rolo-branc": {
     "ts": "2026-09-29T19:00:53.445282",
     "canales": {
@@ -1887,6 +1877,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "ml-tv-stick-4k-android-chromecast-smart-hdmi-wif": {
+    "ts": "2026-10-01T18:59:03.832865",
+    "canales": {
+      "whatsapp": "2026-10-01T18:59:03.832865"
+    },
+    "precio": 159.0,
+    "precios_publicados": [
+      159.0
     ]
   }
 }
