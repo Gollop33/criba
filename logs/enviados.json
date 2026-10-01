@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
-    "ts": "2026-09-29T17:44:18.140561",
-    "canales": {
-      "whatsapp": "2026-09-29T17:44:18.140561"
-    },
-    "precio": 65.0,
-    "precios_publicados": [
-      65.0
-    ]
-  },
   "ml-kit-brinquedo-educativo-mesa-didatica-ativida": {
     "ts": "2026-09-29T17:54:10.901967",
     "canales": {
@@ -1895,6 +1885,16 @@
     "precio": 2199.0,
     "precios_publicados": [
       2199.0
+    ]
+  },
+  "ml-eletrico-triciclo-infantil-drift-350w-bluetoo": {
+    "ts": "2026-10-01T17:49:32.730090",
+    "canales": {
+      "whatsapp": "2026-10-01T17:49:32.730090"
+    },
+    "precio": 919.0,
+    "precios_publicados": [
+      919.0
     ]
   }
 }
