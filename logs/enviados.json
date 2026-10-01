@@ -233,36 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-09-29T21:32:10.319118",
-    "canales": {
-      "whatsapp": "2026-09-29T21:32:10.319118"
-    },
-    "precio": 2740.0,
-    "precios_publicados": [
-      2740.0
-    ]
-  },
-  "ml-tapete-higienico-pet-50-unidades-60x60-descar": {
-    "ts": "2026-09-29T21:37:02.781670",
-    "canales": {
-      "whatsapp": "2026-09-29T21:37:02.781670"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
-  "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
-    "ts": "2026-09-29T21:39:45.800414",
-    "canales": {
-      "whatsapp": "2026-09-29T21:39:45.800414"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "ml-proteina-black-skull-whey-100-hd-em-po-sabor-": {
     "ts": "2026-09-29T21:44:31.302937",
     "canales": {
@@ -1873,6 +1843,16 @@
     "precio": 46.0,
     "precios_publicados": [
       46.0
+    ]
+  },
+  "ml-smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c": {
+    "ts": "2026-10-01T21:40:41.243225",
+    "canales": {
+      "whatsapp": "2026-10-01T21:40:41.243225"
+    },
+    "precio": 2498.0,
+    "precios_publicados": [
+      2498.0
     ]
   }
 }
