@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-samsung-tablet-galaxy-tab-s11-wifi-256gb-12gb": {
-    "ts": "2026-09-29T20:10:06.043749",
-    "canales": {
-      "whatsapp": "2026-09-29T20:10:06.043749"
-    },
-    "precio": 5509.0,
-    "precios_publicados": [
-      5509.0
-    ]
-  },
-  "ml-smart-tv-tcl-55-polegadas-qled-4k-p8k-wifi-bl": {
-    "ts": "2026-09-29T20:14:43.969086",
-    "canales": {
-      "whatsapp": "2026-09-29T20:14:43.969086"
-    },
-    "precio": 3219.0,
-    "precios_publicados": [
-      3219.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
     "ts": "2026-09-29T20:23:55.552518",
     "canales": {
@@ -1895,6 +1875,16 @@
     "precio": 43.0,
     "precios_publicados": [
       43.0
+    ]
+  },
+  "ml-kit-8-pilhas-recarregaveis-carregador-rapido-": {
+    "ts": "2026-10-01T20:19:04.009828",
+    "canales": {
+      "whatsapp": "2026-10-01T20:19:04.009828"
+    },
+    "precio": 54.0,
+    "precios_publicados": [
+      54.0
     ]
   }
 }
