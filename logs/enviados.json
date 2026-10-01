@@ -41,18 +41,6 @@
     ],
     "precio_min_publicado": 2463.0
   },
-  "amz-kindle-16-gb-geracao-mais-recente-leve-e-comp": {
-    "ts": "2026-09-29T20:57:47.051023",
-    "canales": {
-      "whatsapp": "2026-09-29T20:57:47.051023"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0,
-      799.0
-    ],
-    "precio_min_publicado": 799.0
-  },
   "ml-smart-tv-4k-50-lg-nano-uhd-ai-nu850-2026-proc": {
     "ts": "2026-09-29T22:51:30.730886",
     "canales": {
@@ -1885,6 +1873,16 @@
     "precio": 1399.0,
     "precios_publicados": [
       1399.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
+    "ts": "2026-10-01T21:00:28.404747",
+    "canales": {
+      "whatsapp": "2026-10-01T21:00:28.404747"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
