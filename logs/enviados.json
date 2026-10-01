@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34-ghz-8-nucleo": {
-    "ts": "2026-09-29T23:26:25.340260",
-    "canales": {
-      "whatsapp": "2026-09-29T23:26:25.340260"
-    },
-    "precio": 1116.0,
-    "precios_publicados": [
-      1116.0
-    ]
-  },
   "ml-cadeira-de-descanso-balanco-bebe-eletrica-mus": {
     "ts": "2026-09-29T23:29:41.073313",
     "canales": {
@@ -1871,6 +1861,16 @@
     "precio": 1377.0,
     "precios_publicados": [
       1377.0
+    ]
+  },
+  "ml-papel-higienico-familiar-folha-dupla-kit-24-r": {
+    "ts": "2026-10-01T23:28:28.318402",
+    "canales": {
+      "whatsapp": "2026-10-01T23:28:28.318402"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
