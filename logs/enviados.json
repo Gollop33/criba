@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-oximetro-de-pulso-dedo-medidor-de-saturacao-g": {
-    "ts": "2026-09-29T20:31:07.647464",
-    "canales": {
-      "whatsapp": "2026-09-29T20:31:07.647464"
-    },
-    "precio": 70.0,
-    "precios_publicados": [
-      70.0
-    ]
-  },
   "amz-placamae-msi-b550m-provdh-wifi-am4-matx-supor": {
     "ts": "2026-09-29T20:40:54.487479",
     "canales": {
@@ -1885,6 +1875,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "ml-xiaomi-poco-c85-12gb-ram-128gb-2chip-fonerelo": {
+    "ts": "2026-10-01T20:34:22.814386",
+    "canales": {
+      "whatsapp": "2026-10-01T20:34:22.814386"
+    },
+    "precio": 960.0,
+    "precios_publicados": [
+      960.0
     ]
   }
 }
