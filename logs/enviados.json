@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "amz-placamae-msi-b550m-provdh-wifi-am4-matx-supor": {
-    "ts": "2026-09-29T20:40:54.487479",
-    "canales": {
-      "whatsapp": "2026-09-29T20:40:54.487479"
-    },
-    "precio": 804.0,
-    "precios_publicados": [
-      804.0
-    ]
-  },
   "ml-celular-samsung-galaxy-a07-256gb-8gb-camera-5": {
     "ts": "2026-09-29T20:43:33.070470",
     "canales": {
@@ -1895,6 +1885,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "ml-marcador-de-temperatura-automotivo-voltimetro": {
+    "ts": "2026-10-01T20:40:58.159749",
+    "canales": {
+      "whatsapp": "2026-10-01T20:40:58.159749"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
