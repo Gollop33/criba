@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-medidor-digital-de-pressao-de-pneus-astroai-p": {
-    "ts": "2026-09-29T21:26:48.265036",
-    "canales": {
-      "whatsapp": "2026-09-29T21:26:48.265036"
-    },
-    "precio": 106.0,
-    "precios_publicados": [
-      106.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-09-29T21:32:10.319118",
     "canales": {
@@ -1873,6 +1863,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-boni-natural-creme-dental-com-oleos-naturais-": {
+    "ts": "2026-10-01T21:30:59.978865",
+    "canales": {
+      "whatsapp": "2026-10-01T21:30:59.978865"
+    },
+    "precio": 46.0,
+    "precios_publicados": [
+      46.0
     ]
   }
 }
