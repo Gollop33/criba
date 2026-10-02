@@ -195,26 +195,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-09-30T15:45:51.419475",
-    "canales": {
-      "whatsapp": "2026-09-30T15:45:51.419475"
-    },
-    "precio": 1399.0,
-    "precios_publicados": [
-      1399.0
-    ]
-  },
-  "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
-    "ts": "2026-09-30T15:47:43.038329",
-    "canales": {
-      "whatsapp": "2026-09-30T15:47:43.038329"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1299.0
-    ]
-  },
   "ml-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
     "ts": "2026-10-01T22:50:25.622922",
     "canales": {
@@ -1869,6 +1849,16 @@
     "precio": 425.0,
     "precios_publicados": [
       425.0
+    ]
+  },
+  "ml-baba-eletronica-baby-monitor-43-lcd-tela-sfio": {
+    "ts": "2026-10-02T15:48:44.841782",
+    "canales": {
+      "whatsapp": "2026-10-02T15:48:44.841782"
+    },
+    "precio": 260.0,
+    "precios_publicados": [
+      260.0
     ]
   }
 }
