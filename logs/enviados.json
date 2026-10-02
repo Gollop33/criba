@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
-    "ts": "2026-09-30T14:52:24.422227",
-    "canales": {
-      "whatsapp": "2026-09-30T14:52:24.422227"
-    },
-    "precio": 4069.0,
-    "precios_publicados": [
-      4069.0
-    ]
-  },
   "ml-suplemento-em-po-dark-lab-venom-underground-c": {
     "ts": "2026-09-30T15:00:36.652957",
     "canales": {
@@ -1852,6 +1842,16 @@
     "precio": 102.0,
     "precios_publicados": [
       102.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-10-02T14:57:27.457384",
+    "canales": {
+      "whatsapp": "2026-10-02T14:57:27.457384"
+    },
+    "precio": 1080.0,
+    "precios_publicados": [
+      1080.0
     ]
   }
 }
