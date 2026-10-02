@@ -52,18 +52,6 @@
     ],
     "precio_min_publicado": 579.0
   },
-  "ml-carregador-30w-turbo-para-iphone-8-x-xr-11-12": {
-    "ts": "2026-09-30T21:51:44.274669",
-    "canales": {
-      "whatsapp": "2026-09-30T21:51:44.274669"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0,
-      44.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-echo-dot-geracao-mais-recente-smart-speaker-c": {
     "ts": "2026-10-01T18:53:55.592581",
     "canales": {
@@ -195,16 +183,6 @@
       597.0
     ],
     "precio_min_publicado": 597.0
-  },
-  "ml-monitor-aoc-22-120hz-1ms-gaming-hdmi-22b35hm2": {
-    "ts": "2026-09-30T21:45:10.424808",
-    "canales": {
-      "whatsapp": "2026-09-30T21:45:10.424808"
-    },
-    "precio": 459.0,
-    "precios_publicados": [
-      459.0
-    ]
   },
   "ml-whey-protein-dark-lab-isolate-fuse-em-po-sabo": {
     "ts": "2026-09-30T21:55:47.795505",
@@ -1972,6 +1950,16 @@
     "precio": 9.0,
     "precios_publicados": [
       9.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s11-wifi-256gb-12gb": {
+    "ts": "2026-10-02T21:52:29.380581",
+    "canales": {
+      "whatsapp": "2026-10-02T21:52:29.380581"
+    },
+    "precio": 5873.0,
+    "precios_publicados": [
+      5873.0
     ]
   }
 }
