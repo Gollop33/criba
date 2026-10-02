@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 130.0
   },
-  "ml-relogio-inteligente-smartwatch-gps-autonomo-i": {
-    "ts": "2026-09-30T21:10:53.160647",
-    "canales": {
-      "whatsapp": "2026-09-30T21:10:53.160647"
-    },
-    "precio": 234.0,
-    "precios_publicados": [
-      234.0
-    ]
-  },
   "ml-tenis-masculino-adizero-drive-rc-adidas": {
     "ts": "2026-10-01T22:44:09.412722",
     "canales": {
@@ -1962,6 +1952,16 @@
     "precio": 104.0,
     "precios_publicados": [
       104.0
+    ]
+  },
+  "ml-bicicleta-ergometrica-spinning-bike-ergometri": {
+    "ts": "2026-10-02T21:15:10.137367",
+    "canales": {
+      "whatsapp": "2026-10-02T21:15:10.137367"
+    },
+    "precio": 449.0,
+    "precios_publicados": [
+      449.0
     ]
   }
 }
