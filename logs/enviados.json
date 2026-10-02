@@ -196,26 +196,6 @@
     ],
     "precio_min_publicado": 130.0
   },
-  "ml-power-bank-i2go-plus-10000mah-usbc-preto": {
-    "ts": "2026-09-30T20:56:17.999449",
-    "canales": {
-      "whatsapp": "2026-09-30T20:56:17.999449"
-    },
-    "precio": 65.0,
-    "precios_publicados": [
-      65.0
-    ]
-  },
-  "ml-notebook-vaio-fe16-amd-ryzen-75825u-linux-16g": {
-    "ts": "2026-09-30T20:58:51.902336",
-    "canales": {
-      "whatsapp": "2026-09-30T20:58:51.902336"
-    },
-    "precio": 3989.0,
-    "precios_publicados": [
-      3989.0
-    ]
-  },
   "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
     "ts": "2026-09-30T21:02:18.896721",
     "canales": {
@@ -1972,6 +1952,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "ml-fralda-pom-pom-derma-protek-hiper-xxg-50-unid": {
+    "ts": "2026-10-02T20:59:13.600299",
+    "canales": {
+      "whatsapp": "2026-10-02T20:59:13.600299"
+    },
+    "precio": 54.0,
+    "precios_publicados": [
+      54.0
     ]
   }
 }
