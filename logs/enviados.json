@@ -207,16 +207,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-whey-isolate-protein-fuse-refil-18kg-dark-lab": {
-    "ts": "2026-09-30T15:27:28.015096",
-    "canales": {
-      "whatsapp": "2026-09-30T15:27:28.015096"
-    },
-    "precio": 170.0,
-    "precios_publicados": [
-      170.0
-    ]
-  },
   "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-09-30T15:45:51.419475",
     "canales": {
@@ -1861,6 +1851,16 @@
     "precio": 502.0,
     "precios_publicados": [
       502.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
+    "ts": "2026-10-02T15:32:47.581068",
+    "canales": {
+      "whatsapp": "2026-10-02T15:32:47.581068"
+    },
+    "precio": 1440.0,
+    "precios_publicados": [
+      1440.0
     ]
   }
 }
