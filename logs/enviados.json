@@ -15,18 +15,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-proteina-isolada-beef-protein-900g-shark-pro-": {
-    "ts": "2026-09-30T19:21:24.282340",
-    "canales": {
-      "whatsapp": "2026-09-30T19:21:24.282340"
-    },
-    "precio": 131.0,
-    "precios_publicados": [
-      131.0,
-      131.0
-    ],
-    "precio_min_publicado": 131.0
-  },
   "ml-maquina-de-lavar-bwf14ab-14kg-smart-sensor-ci": {
     "ts": "2026-10-01T00:47:43.902155",
     "canales": {
@@ -1945,6 +1933,16 @@
     "precio": 3242.0,
     "precios_publicados": [
       3242.0
+    ]
+  },
+  "ml-kit-5-pecas-bebe-menina-vestidojardineirabata": {
+    "ts": "2026-10-02T19:26:41.959579",
+    "canales": {
+      "whatsapp": "2026-10-02T19:26:41.959579"
+    },
+    "precio": 51.0,
+    "precios_publicados": [
+      51.0
     ]
   }
 }
