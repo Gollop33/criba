@@ -51,18 +51,6 @@
     ],
     "precio_min_publicado": 849.0
   },
-  "ml-smartphone-realme-c75-5g-256gb-8gb-ram-storm-": {
-    "ts": "2026-09-30T16:13:06.047999",
-    "canales": {
-      "whatsapp": "2026-09-30T16:13:06.047999"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0,
-      1499.0
-    ],
-    "precio_min_publicado": 1499.0
-  },
   "ml-maquina-de-lavar-bwf14ab-14kg-smart-sensor-ci": {
     "ts": "2026-10-01T00:47:43.902155",
     "canales": {
@@ -194,16 +182,6 @@
       3714.0
     ],
     "precio_min_publicado": 3714.0
-  },
-  "ml-notebook-dell-dc15c3100a20-156-fhd-core3-8gb-": {
-    "ts": "2026-09-30T16:07:22.907059",
-    "canales": {
-      "whatsapp": "2026-09-30T16:07:22.907059"
-    },
-    "precio": 3690.0,
-    "precios_publicados": [
-      3690.0
-    ]
   },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
     "ts": "2026-10-01T23:13:59.753825",
@@ -1887,6 +1865,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-headset-gamer-redragon-zeus-lite-preto-p3-h51": {
+    "ts": "2026-10-02T16:17:04.544490",
+    "canales": {
+      "whatsapp": "2026-10-02T16:17:04.544490"
+    },
+    "precio": 171.0,
+    "precios_publicados": [
+      171.0
     ]
   }
 }
