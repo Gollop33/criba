@@ -76,18 +76,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-dell-inspiron-dc15i51334um80-notebook-156-i5-": {
-    "ts": "2026-09-30T20:02:29.423067",
-    "canales": {
-      "whatsapp": "2026-09-30T20:02:29.423067"
-    },
-    "precio": 5200.0,
-    "precios_publicados": [
-      5200.0,
-      5200.0
-    ],
-    "precio_min_publicado": 5200.0
-  },
   "amz-echo-dot-geracao-mais-recente-smart-speaker-c": {
     "ts": "2026-10-01T18:53:55.592581",
     "canales": {
@@ -195,16 +183,6 @@
       1464.0
     ],
     "precio_min_publicado": 1459.0
-  },
-  "ml-carregador-super-rapido-25w-para-samsung-gala": {
-    "ts": "2026-09-30T20:07:33.003166",
-    "canales": {
-      "whatsapp": "2026-09-30T20:07:33.003166"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
   },
   "ml-power-bank-basike-20000mah-preto-carga-rapida": {
     "ts": "2026-10-01T23:04:27.345631",
@@ -1954,6 +1932,16 @@
     "precio": 323.0,
     "precios_publicados": [
       323.0
+    ]
+  },
+  "amz-switch-gigabit-ms105g-mercusys-de-5-portas-et": {
+    "ts": "2026-10-02T20:08:36.217893",
+    "canales": {
+      "whatsapp": "2026-10-02T20:08:36.217893"
+    },
+    "precio": 57.0,
+    "precios_publicados": [
+      57.0
     ]
   }
 }
