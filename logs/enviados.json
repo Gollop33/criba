@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
-    "ts": "2026-09-30T18:50:26.623896",
-    "canales": {
-      "whatsapp": "2026-09-30T18:50:26.623896"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0
-    ]
-  },
   "ml-kit-10-potes-vidro-640ml-hermetico-tampas-4-t": {
     "ts": "2026-09-30T18:53:30.794695",
     "canales": {
@@ -512,14 +502,16 @@
     ]
   },
   "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
-    "ts": "2026-09-30T22:37:45.899298",
+    "ts": "2026-10-02T18:50:47.366797",
     "canales": {
-      "whatsapp": "2026-09-30T22:37:45.899298"
+      "whatsapp": "2026-10-02T18:50:47.366797"
     },
-    "precio": 243.0,
+    "precio": 249.0,
     "precios_publicados": [
-      243.0
-    ]
+      243.0,
+      249.0
+    ],
+    "precio_min_publicado": 243.0
   },
   "ml-mercusys-mc510-camera-de-seguranca-wifi-exter": {
     "ts": "2026-09-30T22:42:44.638334",
