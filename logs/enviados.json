@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "ml-kit-5-pecas-all-black-dry-3-camisetas-e-2-ber": {
-    "ts": "2026-09-30T00:45:37.829617",
-    "canales": {
-      "whatsapp": "2026-09-30T00:45:37.829617"
-    },
-    "precio": 152.0,
-    "precios_publicados": [
-      152.0
-    ]
-  },
   "amz-ssd-sandisk-plus-1tb-nvme-m2-2280-leitura-ate": {
     "ts": "2026-10-02T00:34:44.203084",
     "canales": {
@@ -241,14 +231,16 @@
     ]
   },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-09-30T00:57:04.146931",
+    "ts": "2026-10-02T00:47:13.984539",
     "canales": {
-      "whatsapp": "2026-09-30T00:57:04.146931"
+      "whatsapp": "2026-10-02T00:47:13.984539"
     },
     "precio": 54.0,
     "precios_publicados": [
+      54.0,
       54.0
-    ]
+    ],
+    "precio_min_publicado": 54.0
   },
   "ml-fone-de-ouvido-soundcore-by-anker-p20i-graves": {
     "ts": "2026-09-30T02:30:35.544049",
