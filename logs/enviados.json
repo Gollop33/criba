@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 130.0
   },
-  "ml-basike-fone-de-ouvido-sem-fio-bluetooth-com-g": {
-    "ts": "2026-09-30T20:46:21.044051",
-    "canales": {
-      "whatsapp": "2026-09-30T20:46:21.044051"
-    },
-    "precio": 102.0,
-    "precios_publicados": [
-      102.0
-    ]
-  },
   "ml-power-bank-i2go-plus-10000mah-usbc-preto": {
     "ts": "2026-09-30T20:56:17.999449",
     "canales": {
@@ -1972,6 +1962,16 @@
     "precio": 1876.0,
     "precios_publicados": [
       1876.0
+    ]
+  },
+  "amz-tablet-anjgg-computador-portatil-101-pol-com-": {
+    "ts": "2026-10-02T20:49:59.666286",
+    "canales": {
+      "whatsapp": "2026-10-02T20:49:59.666286"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
