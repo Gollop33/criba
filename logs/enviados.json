@@ -64,18 +64,6 @@
     ],
     "precio_min_publicado": 131.0
   },
-  "ml-creatina-dark-lab-premium-pure-em-po-sem-sabo": {
-    "ts": "2026-09-30T14:46:09.483376",
-    "canales": {
-      "whatsapp": "2026-09-30T14:46:09.483376"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      49.0,
-      78.0
-    ],
-    "precio_min_publicado": 49.0
-  },
   "ml-huggies-fralda-descartavel-maxima-protecao-xg": {
     "ts": "2026-09-30T15:35:47.099477",
     "canales": {
@@ -1065,14 +1053,16 @@
     ]
   },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-10-01T00:58:16.864402",
+    "ts": "2026-10-02T14:47:46.451512",
     "canales": {
-      "whatsapp": "2026-10-01T00:58:16.864402"
+      "whatsapp": "2026-10-02T14:47:46.451512"
     },
     "precio": 14.0,
     "precios_publicados": [
+      14.0,
       14.0
-    ]
+    ],
+    "precio_min_publicado": 14.0
   },
   "ml-adaptador-hub-usb-com-8-portas-rj45-hdmi-usb-": {
     "ts": "2026-10-01T17:15:28.598995",
