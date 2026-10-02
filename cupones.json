@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-02T01:52:57+00:00",
+  "actualizado": "2026-10-02T05:04:03+00:00",
   "total": 40,
   "fuentes": [
     "Telegram ML Afiliados"
@@ -405,7 +405,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-01T13:31:02+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     },
     {
       "codigo": "ECONOMIAMELI",
@@ -417,7 +418,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-01T13:16:01+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     },
     {
       "codigo": "BRINCAR",
@@ -453,7 +455,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-01T13:16:01+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     },
     {
       "codigo": "PROMOML",
@@ -513,7 +516,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-01T13:01:02+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     }
   ]
 }
