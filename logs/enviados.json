@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "ml-kit-10-potes-vidro-640ml-hermetico-tampas-4-t": {
-    "ts": "2026-09-30T18:53:30.794695",
-    "canales": {
-      "whatsapp": "2026-09-30T18:53:30.794695"
-    },
-    "precio": 93.0,
-    "precios_publicados": [
-      93.0
-    ]
-  },
   "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
     "ts": "2026-10-01T23:59:29.408256",
     "canales": {
@@ -1925,6 +1915,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
+    "ts": "2026-10-02T18:54:22.633935",
+    "canales": {
+      "whatsapp": "2026-10-02T18:54:22.633935"
+    },
+    "precio": 166.0,
+    "precios_publicados": [
+      166.0
     ]
   }
 }
