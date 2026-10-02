@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 1233.0
   },
-  "amz-gabinete-redragon-wideload-pro-ca604bpro": {
-    "ts": "2026-09-30T17:02:22.688382",
-    "canales": {
-      "whatsapp": "2026-09-30T17:02:22.688382"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
   "ml-projetor-hy320-mini-portatil-hardline-smart-t": {
     "ts": "2026-10-01T19:32:52.288873",
     "canales": {
@@ -1915,6 +1905,16 @@
     "precio": 265.0,
     "precios_publicados": [
       265.0
+    ]
+  },
+  "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
+    "ts": "2026-10-02T17:04:53.443904",
+    "canales": {
+      "whatsapp": "2026-10-02T17:04:53.443904"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
