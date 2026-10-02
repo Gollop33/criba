@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 229.0
   },
-  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
-    "ts": "2026-09-30T17:44:14.435677",
-    "canales": {
-      "whatsapp": "2026-09-30T17:44:14.435677"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "ml-berco-bebe-portatil-retratil-acoplado-moise-b": {
     "ts": "2026-09-30T17:51:38.554323",
     "canales": {
@@ -1915,6 +1905,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
+    "ts": "2026-10-02T17:46:08.054613",
+    "canales": {
+      "whatsapp": "2026-10-02T17:46:08.054613"
+    },
+    "precio": 88.0,
+    "precios_publicados": [
+      88.0
     ]
   }
 }
