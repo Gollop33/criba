@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "ml-jbl-partybox-encore-2-com-2-microfones-sem-fi": {
-    "ts": "2026-09-30T00:24:58.661644",
-    "canales": {
-      "whatsapp": "2026-09-30T00:24:58.661644"
-    },
-    "precio": 2039.0,
-    "precios_publicados": [
-      2039.0
-    ]
-  },
   "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
     "ts": "2026-09-30T00:29:16.902104",
     "canales": {
@@ -1861,6 +1851,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
+    "ts": "2026-10-02T00:28:06.932020",
+    "canales": {
+      "whatsapp": "2026-10-02T00:28:06.932020"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
