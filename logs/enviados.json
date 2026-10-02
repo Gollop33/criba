@@ -15,18 +15,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
-    "ts": "2026-09-30T17:39:07.247677",
-    "canales": {
-      "whatsapp": "2026-09-30T17:39:07.247677"
-    },
-    "precio": 1089.0,
-    "precios_publicados": [
-      1099.0,
-      1089.0
-    ],
-    "precio_min_publicado": 1099.0
-  },
   "ml-proteina-isolada-beef-protein-900g-shark-pro-": {
     "ts": "2026-09-30T19:21:24.282340",
     "canales": {
@@ -1917,6 +1905,16 @@
     "precio": 273.0,
     "precios_publicados": [
       273.0
+    ]
+  },
+  "ml-lixeira-inteligente-automatica-redonda-recarr": {
+    "ts": "2026-10-02T17:41:57.934086",
+    "canales": {
+      "whatsapp": "2026-10-02T17:41:57.934086"
+    },
+    "precio": 58.0,
+    "precios_publicados": [
+      58.0
     ]
   }
 }
