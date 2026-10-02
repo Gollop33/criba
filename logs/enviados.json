@@ -51,18 +51,6 @@
     ],
     "precio_min_publicado": 131.0
   },
-  "ml-huggies-fralda-descartavel-maxima-protecao-xg": {
-    "ts": "2026-09-30T15:35:47.099477",
-    "canales": {
-      "whatsapp": "2026-09-30T15:35:47.099477"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0,
-      149.0
-    ],
-    "precio_min_publicado": 149.0
-  },
   "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
     "ts": "2026-09-30T17:57:01.013014",
     "canales": {
@@ -1861,6 +1849,16 @@
     "precio": 1440.0,
     "precios_publicados": [
       1440.0
+    ]
+  },
+  "ml-relogio-smartwatch-aurafit-trek1-com-gps-a-pr": {
+    "ts": "2026-10-02T15:40:45.744629",
+    "canales": {
+      "whatsapp": "2026-10-02T15:40:45.744629"
+    },
+    "precio": 330.0,
+    "precios_publicados": [
+      330.0
     ]
   }
 }
