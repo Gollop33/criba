@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "ml-smartphone-motorola-moto-g15-256gb-4gb-ram8gb": {
-    "ts": "2026-09-30T00:12:42.305009",
-    "canales": {
-      "whatsapp": "2026-09-30T00:12:42.305009"
-    },
-    "precio": 939.0,
-    "precios_publicados": [
-      939.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-09-30T00:19:25.801912",
     "canales": {
@@ -1861,6 +1851,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "ml-smart-tv-tcl-55-polegadas-qled-4k-p8k-wifi-bl": {
+    "ts": "2026-10-02T00:14:09.381251",
+    "canales": {
+      "whatsapp": "2026-10-02T00:14:09.381251"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
