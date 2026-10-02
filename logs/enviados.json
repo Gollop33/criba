@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 243.0
   },
-  "ml-mercusys-mc510-camera-de-seguranca-wifi-exter": {
-    "ts": "2026-09-30T22:42:44.638334",
-    "canales": {
-      "whatsapp": "2026-09-30T22:42:44.638334"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "ml-fone-de-ouvido-bluetooth-54-soundcore-p30i-da": {
     "ts": "2026-09-30T22:49:47.319593",
     "canales": {
@@ -1970,6 +1960,16 @@
     "precio": 1331.0,
     "precios_publicados": [
       1331.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
+    "ts": "2026-10-02T22:44:28.503223",
+    "canales": {
+      "whatsapp": "2026-10-02T22:44:28.503223"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
