@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 1233.0
   },
-  "ml-smart-tv-aoc-dled-32-wifi-roku-tv-quad-core-3": {
-    "ts": "2026-09-30T16:53:49.220208",
-    "canales": {
-      "whatsapp": "2026-09-30T16:53:49.220208"
-    },
-    "precio": 971.0,
-    "precios_publicados": [
-      971.0
-    ]
-  },
   "amz-gabinete-redragon-wideload-pro-ca604bpro": {
     "ts": "2026-09-30T17:02:22.688382",
     "canales": {
@@ -1905,6 +1895,16 @@
     "precio": 202.0,
     "precios_publicados": [
       202.0
+    ]
+  },
+  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
+    "ts": "2026-10-02T16:56:08.878067",
+    "canales": {
+      "whatsapp": "2026-10-02T16:56:08.878067"
+    },
+    "precio": 758.0,
+    "precios_publicados": [
+      758.0
     ]
   }
 }
