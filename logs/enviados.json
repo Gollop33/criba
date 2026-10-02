@@ -221,26 +221,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "ml-tablet-xiaomi-redmi-pad-2-11-256gb-8-ram-cinz": {
-    "ts": "2026-09-30T00:01:37.560724",
-    "canales": {
-      "whatsapp": "2026-09-30T00:01:37.560724"
-    },
-    "precio": 1410.0,
-    "precios_publicados": [
-      1410.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-09-30T00:03:23.541458",
-    "canales": {
-      "whatsapp": "2026-09-30T00:03:23.541458"
-    },
-    "precio": 854.0,
-    "precios_publicados": [
-      854.0
-    ]
-  },
   "ml-smartphone-motorola-moto-g15-256gb-4gb-ram8gb": {
     "ts": "2026-09-30T00:12:42.305009",
     "canales": {
@@ -1861,6 +1841,16 @@
     "precio": 2746.0,
     "precios_publicados": [
       2746.0
+    ]
+  },
+  "ml-jogo-de-toalha-banhao-100-algodao-gigante-gro": {
+    "ts": "2026-10-02T00:04:42.215446",
+    "canales": {
+      "whatsapp": "2026-10-02T00:04:42.215446"
+    },
+    "precio": 113.0,
+    "precios_publicados": [
+      113.0
     ]
   }
 }
