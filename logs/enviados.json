@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 597.0
   },
-  "ml-smartphone-samsung-galaxy-a27-5g-128gb-6gb-su": {
-    "ts": "2026-09-30T22:31:20.824341",
-    "canales": {
-      "whatsapp": "2026-09-30T22:31:20.824341"
-    },
-    "precio": 1435.0,
-    "precios_publicados": [
-      1435.0
-    ]
-  },
   "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
     "ts": "2026-10-02T18:50:47.366797",
     "canales": {
@@ -1960,6 +1950,16 @@
     "precio": 3771.0,
     "precios_publicados": [
       3771.0
+    ]
+  },
+  "amz-havit-fone-de-ouvido-headset-gamer-fuxih3-bla": {
+    "ts": "2026-10-02T22:36:24.099338",
+    "canales": {
+      "whatsapp": "2026-10-02T22:36:24.099338"
+    },
+    "precio": 189.0,
+    "precios_publicados": [
+      189.0
     ]
   }
 }
