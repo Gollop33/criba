@@ -15,18 +15,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
-    "ts": "2026-09-30T16:00:19.997606",
-    "canales": {
-      "whatsapp": "2026-09-30T16:00:19.997606"
-    },
-    "precio": 969.0,
-    "precios_publicados": [
-      969.0,
-      969.0
-    ],
-    "precio_min_publicado": 969.0
-  },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
     "ts": "2026-09-30T17:39:07.247677",
     "canales": {
@@ -1889,6 +1877,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "ml-cesta-bau-cafe-da-manha-organizador-presentes": {
+    "ts": "2026-10-02T16:06:59.905092",
+    "canales": {
+      "whatsapp": "2026-10-02T16:06:59.905092"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
