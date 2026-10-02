@@ -207,16 +207,6 @@
     ],
     "precio_min_publicado": 229.0
   },
-  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-09-30T17:11:06.784815",
-    "canales": {
-      "whatsapp": "2026-09-30T17:11:06.784815"
-    },
-    "precio": 51.0,
-    "precios_publicados": [
-      51.0
-    ]
-  },
   "ml-smart-tv-philco-50-p50vik-4k-uhd-led-roku-dol": {
     "ts": "2026-09-30T17:14:10.982880",
     "canales": {
@@ -1925,6 +1915,16 @@
     "precio": 990.0,
     "precios_publicados": [
       990.0
+    ]
+  },
+  "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
+    "ts": "2026-10-02T17:14:09.110063",
+    "canales": {
+      "whatsapp": "2026-10-02T17:14:09.110063"
+    },
+    "precio": 93.0,
+    "precios_publicados": [
+      93.0
     ]
   }
 }
