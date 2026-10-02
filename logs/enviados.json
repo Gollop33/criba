@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
-    "ts": "2026-09-30T00:19:25.801912",
-    "canales": {
-      "whatsapp": "2026-09-30T00:19:25.801912"
-    },
-    "precio": 1571.0,
-    "precios_publicados": [
-      1571.0
-    ]
-  },
   "ml-jbl-partybox-encore-2-com-2-microfones-sem-fi": {
     "ts": "2026-09-30T00:24:58.661644",
     "canales": {
@@ -1861,6 +1851,16 @@
     "precio": 2999.0,
     "precios_publicados": [
       2999.0
+    ]
+  },
+  "amz-kingston-kf432c16bbk216-kit-de-memorias-de-16": {
+    "ts": "2026-10-02T00:20:01.303519",
+    "canales": {
+      "whatsapp": "2026-10-02T00:20:01.303519"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
