@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 597.0
   },
-  "ml-notebook-positivo-vision-r15m-amd-ryzen-37330": {
-    "ts": "2026-09-30T22:04:05.569905",
-    "canales": {
-      "whatsapp": "2026-09-30T22:04:05.569905"
-    },
-    "precio": 2614.0,
-    "precios_publicados": [
-      2614.0
-    ]
-  },
   "ml-relogio-inteligente-smartwatch-alexa-chamadas": {
     "ts": "2026-09-30T22:09:17.886320",
     "canales": {
@@ -1960,6 +1950,16 @@
     "precio": 1031.0,
     "precios_publicados": [
       1031.0
+    ]
+  },
+  "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
+    "ts": "2026-10-02T22:07:04.787993",
+    "canales": {
+      "whatsapp": "2026-10-02T22:07:04.787993"
+    },
+    "precio": 368.0,
+    "precios_publicados": [
+      368.0
     ]
   }
 }
