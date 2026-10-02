@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-notebook-lenovo-ideapad-slim-3-intel-core-3-8": {
-    "ts": "2026-09-30T14:33:22.286878",
-    "canales": {
-      "whatsapp": "2026-09-30T14:33:22.286878"
-    },
-    "precio": 3394.0,
-    "precios_publicados": [
-      3394.0
-    ]
-  },
   "ml-monitor-lg-ultrafine-tela-ips-uhd-4k-27-hdr10": {
     "ts": "2026-09-30T14:39:19.999258",
     "canales": {
@@ -1862,6 +1852,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-placamae-msi-b550m-provdh-wifi-am4-matx-supor": {
+    "ts": "2026-10-02T14:35:24.672052",
+    "canales": {
+      "whatsapp": "2026-10-02T14:35:24.672052"
+    },
+    "precio": 844.0,
+    "precios_publicados": [
+      844.0
     ]
   }
 }
