@@ -207,16 +207,6 @@
     ],
     "precio_min_publicado": 1459.0
   },
-  "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
-    "ts": "2026-09-30T19:13:39.459806",
-    "canales": {
-      "whatsapp": "2026-09-30T19:13:39.459806"
-    },
-    "precio": 1279.0,
-    "precios_publicados": [
-      1279.0
-    ]
-  },
   "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
     "ts": "2026-09-30T19:30:12.327040",
     "canales": {
@@ -1945,6 +1935,16 @@
     "precio": 319.0,
     "precios_publicados": [
       319.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-cinza-1": {
+    "ts": "2026-10-02T19:16:59.712987",
+    "canales": {
+      "whatsapp": "2026-10-02T19:16:59.712987"
+    },
+    "precio": 3242.0,
+    "precios_publicados": [
+      3242.0
     ]
   }
 }
