@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-suplemento-em-po-dark-lab-venom-underground-c": {
-    "ts": "2026-09-30T15:00:36.652957",
-    "canales": {
-      "whatsapp": "2026-09-30T15:00:36.652957"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
   "ml-smartphone-motorola-edge-60-pro-5g-256gb-12gb": {
     "ts": "2026-09-30T15:10:27.907851",
     "canales": {
@@ -1852,6 +1842,16 @@
     "precio": 1080.0,
     "precios_publicados": [
       1080.0
+    ]
+  },
+  "ml-suporte-portatil-carro-eletrico-carregador-un": {
+    "ts": "2026-10-02T15:04:54.643749",
+    "canales": {
+      "whatsapp": "2026-10-02T15:04:54.643749"
+    },
+    "precio": 45.0,
+    "precios_publicados": [
+      45.0
     ]
   }
 }
