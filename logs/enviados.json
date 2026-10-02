@@ -15,19 +15,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
-    "ts": "2026-09-30T15:17:25.897040",
-    "canales": {
-      "whatsapp": "2026-09-30T15:17:25.897040"
-    },
-    "precio": 2399.0,
-    "precios_publicados": [
-      2463.0,
-      2463.0,
-      2399.0
-    ],
-    "precio_min_publicado": 2463.0
-  },
   "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
     "ts": "2026-09-30T16:00:19.997606",
     "canales": {
@@ -1854,6 +1841,16 @@
     "precio": 126.0,
     "precios_publicados": [
       126.0
+    ]
+  },
+  "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
+    "ts": "2026-10-02T15:21:31.082797",
+    "canales": {
+      "whatsapp": "2026-10-02T15:21:31.082797"
+    },
+    "precio": 980.0,
+    "precios_publicados": [
+      980.0
     ]
   }
 }
