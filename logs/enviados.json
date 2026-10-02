@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 597.0
   },
-  "ml-fone-de-ouvido-bluetooth-51-sem-fio-tws-wirel": {
-    "ts": "2026-09-30T22:25:38.226982",
-    "canales": {
-      "whatsapp": "2026-09-30T22:25:38.226982"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "ml-smartphone-samsung-galaxy-a27-5g-128gb-6gb-su": {
     "ts": "2026-09-30T22:31:20.824341",
     "canales": {
@@ -1960,6 +1950,16 @@
     "precio": 2699.0,
     "precios_publicados": [
       2699.0
+    ]
+  },
+  "ml-notebook-lenovo-ideapad-slim-3-83mms00100-512": {
+    "ts": "2026-10-02T22:27:04.404509",
+    "canales": {
+      "whatsapp": "2026-10-02T22:27:04.404509"
+    },
+    "precio": 3771.0,
+    "precios_publicados": [
+      3771.0
     ]
   }
 }
