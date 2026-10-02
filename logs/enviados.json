@@ -705,14 +705,16 @@
     ]
   },
   "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
-    "ts": "2026-10-01T19:08:38.387891",
+    "ts": "2026-10-02T21:18:25.814130",
     "canales": {
-      "whatsapp": "2026-10-01T19:08:38.387891"
+      "whatsapp": "2026-10-02T21:18:25.814130"
     },
-    "precio": 2944.0,
+    "precio": 2999.0,
     "precios_publicados": [
-      2944.0
-    ]
+      2944.0,
+      2999.0
+    ],
+    "precio_min_publicado": 2944.0
   },
   "ml-monitor-viewpro-236-led-com-hdmi-cor-preto-mw": {
     "ts": "2026-10-01T19:10:05.431415",
