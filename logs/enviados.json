@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "ml-kit-camisa-uv-50-e-sunga-infantil-moda-praia": {
-    "ts": "2026-09-30T18:30:20.381517",
-    "canales": {
-      "whatsapp": "2026-09-30T18:30:20.381517"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
     "ts": "2026-09-30T18:37:43.802677",
     "canales": {
@@ -1923,6 +1913,16 @@
     "precio": 169.0,
     "precios_publicados": [
       169.0
+    ]
+  },
+  "ml-samsung-smart-tv-43-qled-full-hd-q5f-2025-xbo": {
+    "ts": "2026-10-02T18:32:10.976883",
+    "canales": {
+      "whatsapp": "2026-10-02T18:32:10.976883"
+    },
+    "precio": 1557.0,
+    "precios_publicados": [
+      1557.0
     ]
   }
 }
