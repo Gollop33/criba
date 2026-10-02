@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 243.0
   },
-  "ml-power-bank-20000mah-225w-carga-rapida-com-dis": {
-    "ts": "2026-09-30T23:06:41.641573",
-    "canales": {
-      "whatsapp": "2026-09-30T23:06:41.641573"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
-  },
   "ml-camera-veicular-dupla-70mai-4k1080p-noturna-h": {
     "ts": "2026-09-30T23:14:14.291193",
     "canales": {
@@ -1960,6 +1950,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
+    "ts": "2026-10-02T23:09:12.135952",
+    "canales": {
+      "whatsapp": "2026-10-02T23:09:12.135952"
+    },
+    "precio": 781.0,
+    "precios_publicados": [
+      781.0
     ]
   }
 }
