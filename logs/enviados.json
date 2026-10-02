@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-notebook-acer-aspire-5-a51545r5at-amd-ryzen-5": {
-    "ts": "2026-09-30T14:50:58.172762",
-    "canales": {
-      "whatsapp": "2026-09-30T14:50:58.172762"
-    },
-    "precio": 3297.0,
-    "precios_publicados": [
-      3297.0
-    ]
-  },
   "ml-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
     "ts": "2026-09-30T14:52:24.422227",
     "canales": {
@@ -1852,6 +1842,16 @@
     "precio": 189.0,
     "precios_publicados": [
       189.0
+    ]
+  },
+  "ml-tenis-kappa-galaxy-masculino-feminino": {
+    "ts": "2026-10-02T14:51:47.473922",
+    "canales": {
+      "whatsapp": "2026-10-02T14:51:47.473922"
+    },
+    "precio": 102.0,
+    "precios_publicados": [
+      102.0
     ]
   }
 }
