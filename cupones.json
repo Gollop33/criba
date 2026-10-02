@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-02T07:43:55+00:00",
-  "total": 40,
+  "actualizado": "2026-10-02T14:18:20+00:00",
+  "total": 48,
   "fuentes": [
     "Telegram ML Afiliados"
   ],
@@ -518,6 +518,102 @@
       "detectado_em": "2026-10-01T13:01:02+00:00",
       "vigente": true,
       "estado": "ativo"
+    },
+    {
+      "codigo": "SUPERPROMO25",
+      "desconto": "25% OFF",
+      "compra_minima": "",
+      "limite": "R$500",
+      "hasta": "2026-10-30",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:30:03+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "SUPERPROMO30",
+      "desconto": "30% OFF",
+      "compra_minima": "",
+      "limite": "R$500",
+      "hasta": "2026-10-30",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:30:03+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "ESFRIOU20",
+      "desconto": "20% OFF",
+      "compra_minima": "",
+      "limite": "R$200",
+      "hasta": "2026-10-06",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:30:03+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "SEMPREPROMO",
+      "desconto": "10% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$100",
+      "hasta": "2026-10-02",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:01:41+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "VALEDESCONTO",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-10-02",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:01:41+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "DESCONTO",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:01:41+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "VALEPROMO",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:01:41+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "MEUVALE",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-11-09",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-02T13:01:41+00:00",
+      "vigente": true
     }
   ]
 }
