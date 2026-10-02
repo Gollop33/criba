@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 597.0
   },
-  "ml-whey-protein-dark-lab-isolate-fuse-em-po-sabo": {
-    "ts": "2026-09-30T21:55:47.795505",
-    "canales": {
-      "whatsapp": "2026-09-30T21:55:47.795505"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "ml-notebook-positivo-vision-r15m-amd-ryzen-37330": {
     "ts": "2026-09-30T22:04:05.569905",
     "canales": {
@@ -1960,6 +1950,16 @@
     "precio": 5873.0,
     "precios_publicados": [
       5873.0
+    ]
+  },
+  "ml-smart-tv-32-philco-p32vik-roku-led-dolby-audi": {
+    "ts": "2026-10-02T21:59:11.694844",
+    "canales": {
+      "whatsapp": "2026-10-02T21:59:11.694844"
+    },
+    "precio": 1031.0,
+    "precios_publicados": [
+      1031.0
     ]
   }
 }
