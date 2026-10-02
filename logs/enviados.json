@@ -195,16 +195,6 @@
     ],
     "precio_min_publicado": 1459.0
   },
-  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
-    "ts": "2026-09-30T19:43:32.401824",
-    "canales": {
-      "whatsapp": "2026-09-30T19:43:32.401824"
-    },
-    "precio": 469.0,
-    "precios_publicados": [
-      469.0
-    ]
-  },
   "ml-fritadeira-air-fryer-oven-11-litros-1800w-8-f": {
     "ts": "2026-09-30T19:48:45.085088",
     "canales": {
@@ -1943,6 +1933,16 @@
     "precio": 282.0,
     "precios_publicados": [
       282.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
+    "ts": "2026-10-02T19:44:29.649205",
+    "canales": {
+      "whatsapp": "2026-10-02T19:44:29.649205"
+    },
+    "precio": 2212.0,
+    "precios_publicados": [
+      2212.0
     ]
   }
 }
