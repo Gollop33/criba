@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "ml-4-caixas-organizadora-de-guarda-roupa-cesto-g": {
-    "ts": "2026-10-01T18:15:04.151454",
-    "canales": {
-      "whatsapp": "2026-10-01T18:15:04.151454"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      54.0
-    ]
-  },
   "amz-be-place-kids-tablet-infantil-android-13-128g": {
     "ts": "2026-10-01T18:17:52.820651",
     "canales": {
@@ -2296,6 +2286,16 @@
     "precio": 173.0,
     "precios_publicados": [
       173.0
+    ]
+  },
+  "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
+    "ts": "2026-10-03T18:16:15.345080",
+    "canales": {
+      "whatsapp": "2026-10-03T18:16:15.345080"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
