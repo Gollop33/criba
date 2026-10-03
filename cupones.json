@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-03T08:42:49+00:00",
-  "total": 46,
+  "actualizado": "2026-10-03T14:03:53+00:00",
+  "total": 49,
   "fuentes": [
     "Telegram ML Afiliados"
   ],
@@ -594,6 +594,42 @@
       "detectado_em": "2026-10-02T13:01:41+00:00",
       "vigente": true,
       "estado": "ativo"
+    },
+    {
+      "codigo": "DESCONTOS",
+      "desconto": "10% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$100",
+      "hasta": "2026-10-03",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-03T12:01:00+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "CARRINHOML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-10-03",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-03T12:01:00+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "ACESSORIOS",
+      "desconto": "15% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$50",
+      "hasta": "2026-10-04",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-03T12:01:00+00:00",
+      "vigente": true
     }
   ]
 }
