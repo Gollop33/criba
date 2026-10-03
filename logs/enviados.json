@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 2944.0
   },
-  "ml-triciclo-infantil-eletrico-bluetooth-drift-le": {
-    "ts": "2026-10-01T19:59:39.482642",
-    "canales": {
-      "whatsapp": "2026-10-01T19:59:39.482642"
-    },
-    "precio": 951.0,
-    "precios_publicados": [
-      951.0
-    ]
-  },
   "amz-max-titanium-creatina-300-gr-monohidratada": {
     "ts": "2026-10-01T20:09:43.156157",
     "canales": {
@@ -2290,6 +2280,16 @@
     "precio": 1028.0,
     "precios_publicados": [
       1028.0
+    ]
+  },
+  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
+    "ts": "2026-10-03T20:04:31.009437",
+    "canales": {
+      "whatsapp": "2026-10-03T20:04:31.009437"
+    },
+    "precio": 349.0,
+    "precios_publicados": [
+      349.0
     ]
   }
 }
