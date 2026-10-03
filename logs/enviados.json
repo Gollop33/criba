@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
-    "ts": "2026-10-01T18:31:10.073272",
-    "canales": {
-      "whatsapp": "2026-10-01T18:31:10.073272"
-    },
-    "precio": 219.0,
-    "precios_publicados": [
-      219.0
-    ]
-  },
   "ml-nac-600mg-formula-exclusiva-com-maxima-concen": {
     "ts": "2026-10-01T18:35:29.288530",
     "canales": {
@@ -2296,6 +2286,16 @@
     "precio": 776.0,
     "precios_publicados": [
       776.0
+    ]
+  },
+  "ml-smart-tv-philco-40-p40vik-led-roku-dolby-audi": {
+    "ts": "2026-10-03T18:34:43.408389",
+    "canales": {
+      "whatsapp": "2026-10-03T18:34:43.408389"
+    },
+    "precio": 1349.0,
+    "precios_publicados": [
+      1349.0
     ]
   }
 }
