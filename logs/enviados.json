@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 1529.0
   },
-  "ml-bicicleta-spinning-com-roda-de-inercia-de-13k": {
-    "ts": "2026-10-01T20:56:40.208186",
-    "canales": {
-      "whatsapp": "2026-10-01T20:56:40.208186"
-    },
-    "precio": 1399.0,
-    "precios_publicados": [
-      1399.0
-    ]
-  },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-10-03T19:05:43.896497",
     "canales": {
@@ -2340,6 +2330,16 @@
     "precio": 413.0,
     "precios_publicados": [
       413.0
+    ]
+  },
+  "ml-suco-de-uva-maca-e-pera-natural-one-temperatu": {
+    "ts": "2026-10-03T21:04:06.151754",
+    "canales": {
+      "whatsapp": "2026-10-03T21:04:06.151754"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
