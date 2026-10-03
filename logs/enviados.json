@@ -244,16 +244,6 @@
     ],
     "precio_min_publicado": 944.0
   },
-  "ml-smart-tv-43-philco-p43vik-roku-led-dolby-audi": {
-    "ts": "2026-10-01T22:26:22.032752",
-    "canales": {
-      "whatsapp": "2026-10-01T22:26:22.032752"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0
-    ]
-  },
   "amz-colgate-total-original-mint-creme-dental-com-": {
     "ts": "2026-10-01T22:33:52.428451",
     "canales": {
@@ -2350,6 +2340,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
+    "ts": "2026-10-03T22:27:42.353196",
+    "canales": {
+      "whatsapp": "2026-10-03T22:27:42.353196"
+    },
+    "precio": 419.0,
+    "precios_publicados": [
+      419.0
     ]
   }
 }
