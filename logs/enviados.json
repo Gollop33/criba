@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "ml-oimotoo-es8085-patinete-eletrico-premium-500w": {
-    "ts": "2026-10-01T18:22:04.692189",
-    "canales": {
-      "whatsapp": "2026-10-01T18:22:04.692189"
-    },
-    "precio": 1159.0,
-    "precios_publicados": [
-      1159.0
-    ]
-  },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-10-01T18:31:10.073272",
     "canales": {
@@ -2296,6 +2286,16 @@
     "precio": 56.0,
     "precios_publicados": [
       56.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
+    "ts": "2026-10-03T18:29:12.102291",
+    "canales": {
+      "whatsapp": "2026-10-03T18:29:12.102291"
+    },
+    "precio": 776.0,
+    "precios_publicados": [
+      776.0
     ]
   }
 }
