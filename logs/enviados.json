@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 243.0
   },
-  "amz-apple-iphone-17-pro-max-256-gb-prateado": {
-    "ts": "2026-10-01T00:01:35.389656",
-    "canales": {
-      "whatsapp": "2026-10-01T00:01:35.389656"
-    },
-    "precio": 11099.0,
-    "precios_publicados": [
-      11099.0
-    ]
-  },
   "ml-tapete-higienico-pet-30-unidades-90x60-descar": {
     "ts": "2026-10-01T00:10:44.177505",
     "canales": {
@@ -1978,6 +1968,16 @@
     "precio": 367.0,
     "precios_publicados": [
       367.0
+    ]
+  },
+  "amz-xiaomi-tablet-redmi-pad-2-de-8-gb-256-gb-tela": {
+    "ts": "2026-10-03T00:05:13.982144",
+    "canales": {
+      "whatsapp": "2026-10-03T00:05:13.982144"
+    },
+    "precio": 1560.0,
+    "precios_publicados": [
+      1560.0
     ]
   }
 }
