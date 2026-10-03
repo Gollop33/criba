@@ -112,18 +112,6 @@
     ],
     "precio_min_publicado": 130.0
   },
-  "ml-tenis-masculino-adizero-drive-rc-adidas": {
-    "ts": "2026-10-01T22:44:09.412722",
-    "canales": {
-      "whatsapp": "2026-10-01T22:44:09.412722"
-    },
-    "precio": 597.0,
-    "precios_publicados": [
-      597.0,
-      597.0
-    ],
-    "precio_min_publicado": 597.0
-  },
   "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
     "ts": "2026-10-02T18:50:47.366797",
     "canales": {
@@ -2350,6 +2338,16 @@
     "precio": 10885.0,
     "precios_publicados": [
       10885.0
+    ]
+  },
+  "ml-piano-teclado-musical-infantil-pianinho-micro": {
+    "ts": "2026-10-03T22:47:03.731604",
+    "canales": {
+      "whatsapp": "2026-10-03T22:47:03.731604"
+    },
+    "precio": 199.0,
+    "precios_publicados": [
+      199.0
     ]
   }
 }
