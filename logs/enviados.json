@@ -16,18 +16,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
-    "ts": "2026-10-01T22:53:48.791906",
-    "canales": {
-      "whatsapp": "2026-10-01T22:53:48.791906"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0,
-      28.0
-    ],
-    "precio_min_publicado": 28.0
-  },
   "amz-ssd-sandisk-plus-1tb-nvme-m2-2280-leitura-ate": {
     "ts": "2026-10-02T00:34:44.203084",
     "canales": {
@@ -2356,6 +2344,16 @@
     "precio": 106.0,
     "precios_publicados": [
       106.0
+    ]
+  },
+  "amz-pragmata-playstation-5": {
+    "ts": "2026-10-03T23:01:10.117922",
+    "canales": {
+      "whatsapp": "2026-10-03T23:01:10.117922"
+    },
+    "precio": 229.0,
+    "precios_publicados": [
+      229.0
     ]
   }
 }
