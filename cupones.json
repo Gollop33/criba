@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-03T02:53:15+00:00",
+  "actualizado": "2026-10-03T04:48:47+00:00",
   "total": 46,
   "fuentes": [
     "Telegram ML Afiliados"
@@ -529,7 +529,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-02T13:30:03+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     },
     {
       "codigo": "SUPERPROMO30",
@@ -541,7 +542,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-02T13:30:03+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     },
     {
       "codigo": "ESFRIOU20",
@@ -553,7 +555,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-02T13:30:03+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     },
     {
       "codigo": "DESCONTO",
@@ -589,7 +592,8 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-02T13:01:41+00:00",
-      "vigente": true
+      "vigente": true,
+      "estado": "ativo"
     }
   ]
 }
