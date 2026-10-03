@@ -797,14 +797,16 @@
     ]
   },
   "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
-    "ts": "2026-10-01T23:43:58.781774",
+    "ts": "2026-10-03T14:55:11.161612",
     "canales": {
-      "whatsapp": "2026-10-01T23:43:58.781774"
+      "whatsapp": "2026-10-03T14:55:11.161612"
     },
     "precio": 259.0,
     "precios_publicados": [
+      259.0,
       259.0
-    ]
+    ],
+    "precio_min_publicado": 259.0
   },
   "amz-processador-amd-ryzen-5-5500-100100000457box-": {
     "ts": "2026-10-01T23:46:29.342846",
