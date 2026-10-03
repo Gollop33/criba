@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 82.0
   },
-  "ml-smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c": {
-    "ts": "2026-10-01T21:40:41.243225",
-    "canales": {
-      "whatsapp": "2026-10-01T21:40:41.243225"
-    },
-    "precio": 2498.0,
-    "precios_publicados": [
-      2498.0
-    ]
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-10-01T21:42:43.032761",
     "canales": {
@@ -2360,6 +2350,16 @@
     "precio": 1998.0,
     "precios_publicados": [
       1998.0
+    ]
+  },
+  "ml-fone-de-ouvido-bluetooth-xiaomi-redmi-buds-6-": {
+    "ts": "2026-10-03T21:41:36.498247",
+    "canales": {
+      "whatsapp": "2026-10-03T21:41:36.498247"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
