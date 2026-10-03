@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 49.0
   },
-  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
-    "ts": "2026-10-01T23:02:04.611609",
-    "canales": {
-      "whatsapp": "2026-10-01T23:02:04.611609"
-    },
-    "precio": 5888.0,
-    "precios_publicados": [
-      5888.0
-    ]
-  },
   "amz-dux-human-health-whey-protein-concentrado-900": {
     "ts": "2026-10-01T23:05:59.912137",
     "canales": {
@@ -2354,6 +2344,16 @@
     "precio": 229.0,
     "precios_publicados": [
       229.0
+    ]
+  },
+  "ml-bebedouro-fonte-de-agua-para-gatos-caes-inox-": {
+    "ts": "2026-10-03T23:04:16.819887",
+    "canales": {
+      "whatsapp": "2026-10-03T23:04:16.819887"
+    },
+    "precio": 114.0,
+    "precios_publicados": [
+      114.0
     ]
   }
 }
