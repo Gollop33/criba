@@ -52,18 +52,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-10-01T22:50:25.622922",
-    "canales": {
-      "whatsapp": "2026-10-01T22:50:25.622922"
-    },
-    "precio": 3714.0,
-    "precios_publicados": [
-      3714.0,
-      3714.0
-    ],
-    "precio_min_publicado": 3714.0
-  },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
     "ts": "2026-10-01T23:13:59.753825",
     "canales": {
@@ -2358,6 +2346,16 @@
     "precio": 189.0,
     "precios_publicados": [
       189.0
+    ]
+  },
+  "ml-power-bank-basike-com-cabo-embutido-de-225w-e": {
+    "ts": "2026-10-03T22:52:11.581077",
+    "canales": {
+      "whatsapp": "2026-10-03T22:52:11.581077"
+    },
+    "precio": 106.0,
+    "precios_publicados": [
+      106.0
     ]
   }
 }
