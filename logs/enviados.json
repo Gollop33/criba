@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 2944.0
   },
-  "ml-tenis-asics-gel-revelation-original-couro-aca": {
-    "ts": "2026-10-01T19:21:35.179212",
-    "canales": {
-      "whatsapp": "2026-10-01T19:21:35.179212"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
     "ts": "2026-10-01T19:26:14.419400",
     "canales": {
@@ -2270,6 +2260,16 @@
     "precio": 819.0,
     "precios_publicados": [
       819.0
+    ]
+  },
+  "ml-smartwatch-gps-relogio-inteligente-amoled-nov": {
+    "ts": "2026-10-03T19:22:39.115772",
+    "canales": {
+      "whatsapp": "2026-10-03T19:22:39.115772"
+    },
+    "precio": 266.0,
+    "precios_publicados": [
+      266.0
     ]
   }
 }
