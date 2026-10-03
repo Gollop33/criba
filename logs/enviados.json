@@ -76,18 +76,6 @@
     ],
     "precio_min_publicado": 1233.0
   },
-  "ml-projetor-hy320-mini-portatil-hardline-smart-t": {
-    "ts": "2026-10-01T19:32:52.288873",
-    "canales": {
-      "whatsapp": "2026-10-01T19:32:52.288873"
-    },
-    "precio": 227.0,
-    "precios_publicados": [
-      229.0,
-      227.0
-    ],
-    "precio_min_publicado": 229.0
-  },
   "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
     "ts": "2026-10-02T15:10:50.857953",
     "canales": {
@@ -2270,6 +2258,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "ml-tenis-torx-ultra-max-corrida-placa-propulsao-": {
+    "ts": "2026-10-03T19:36:54.137787",
+    "canales": {
+      "whatsapp": "2026-10-03T19:36:54.137787"
+    },
+    "precio": 260.0,
+    "precios_publicados": [
+      260.0
     ]
   }
 }
