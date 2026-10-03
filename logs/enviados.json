@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 82.0
   },
-  "ml-chocolate-chips-sicao-callabaut-ao-leite-bola": {
-    "ts": "2026-10-01T21:21:55.415376",
-    "canales": {
-      "whatsapp": "2026-10-01T21:21:55.415376"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-boni-natural-creme-dental-com-oleos-naturais-": {
     "ts": "2026-10-01T21:30:59.978865",
     "canales": {
@@ -2350,6 +2340,16 @@
     "precio": 2428.0,
     "precios_publicados": [
       2428.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
+    "ts": "2026-10-03T21:25:30.000251",
+    "canales": {
+      "whatsapp": "2026-10-03T21:25:30.000251"
+    },
+    "precio": 1452.0,
+    "precios_publicados": [
+      1452.0
     ]
   }
 }
