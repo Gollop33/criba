@@ -16,18 +16,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-maquina-de-lavar-bwf14ab-14kg-smart-sensor-ci": {
-    "ts": "2026-10-01T00:47:43.902155",
-    "canales": {
-      "whatsapp": "2026-10-01T00:47:43.902155"
-    },
-    "precio": 1709.0,
-    "precios_publicados": [
-      1804.0,
-      1709.0
-    ],
-    "precio_min_publicado": 1804.0
-  },
   "ml-cadeira-de-escritorio-gamer-nitro-ergonomica-": {
     "ts": "2026-10-01T00:56:54.163034",
     "canales": {
@@ -2008,6 +1996,16 @@
     "precio": 284.0,
     "precios_publicados": [
       284.0
+    ]
+  },
+  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
+    "ts": "2026-10-03T00:49:01.354570",
+    "canales": {
+      "whatsapp": "2026-10-03T00:49:01.354570"
+    },
+    "precio": 247.0,
+    "precios_publicados": [
+      247.0
     ]
   }
 }
