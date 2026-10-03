@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-marcador-de-temperatura-automotivo-voltimetro": {
-    "ts": "2026-10-01T20:40:58.159749",
-    "canales": {
-      "whatsapp": "2026-10-01T20:40:58.159749"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
     "ts": "2026-10-03T16:49:43.523127",
     "canales": {
@@ -2320,6 +2310,16 @@
     "precio": 1499.0,
     "precios_publicados": [
       1499.0
+    ]
+  },
+  "amz-final-fantasy-resonance-nintendo-switch-2-exc": {
+    "ts": "2026-10-03T20:46:29.388874",
+    "canales": {
+      "whatsapp": "2026-10-03T20:46:29.388874"
+    },
+    "precio": 299.0,
+    "precios_publicados": [
+      299.0
     ]
   }
 }
