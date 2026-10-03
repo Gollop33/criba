@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 49.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
-    "ts": "2026-10-01T23:19:26.642815",
-    "canales": {
-      "whatsapp": "2026-10-01T23:19:26.642815"
-    },
-    "precio": 1377.0,
-    "precios_publicados": [
-      1377.0
-    ]
-  },
   "ml-papel-higienico-familiar-folha-dupla-kit-24-r": {
     "ts": "2026-10-01T23:28:28.318402",
     "canales": {
@@ -2340,6 +2330,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
+    "ts": "2026-10-03T23:19:39.692627",
+    "canales": {
+      "whatsapp": "2026-10-03T23:19:39.692627"
+    },
+    "precio": 49.0,
+    "precios_publicados": [
+      49.0
     ]
   }
 }
