@@ -837,14 +837,16 @@
     ]
   },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-10-02T00:08:56.917922",
+    "ts": "2026-10-03T14:43:49.435905",
     "canales": {
-      "whatsapp": "2026-10-02T00:08:56.917922"
+      "whatsapp": "2026-10-03T14:43:49.435905"
     },
-    "precio": 44.0,
+    "precio": 42.0,
     "precios_publicados": [
-      44.0
-    ]
+      44.0,
+      42.0
+    ],
+    "precio_min_publicado": 44.0
   },
   "ml-smart-tv-tcl-55-polegadas-qled-4k-p8k-wifi-bl": {
     "ts": "2026-10-02T00:14:09.381251",
