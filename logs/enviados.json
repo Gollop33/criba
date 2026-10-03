@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 243.0
   },
-  "ml-kit-3-bermuda-masculina-importada-seda-secage": {
-    "ts": "2026-10-01T00:22:10.155442",
-    "canales": {
-      "whatsapp": "2026-10-01T00:22:10.155442"
-    },
-    "precio": 86.0,
-    "precios_publicados": [
-      86.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
-    "ts": "2026-10-01T00:25:14.016563",
-    "canales": {
-      "whatsapp": "2026-10-01T00:25:14.016563"
-    },
-    "precio": 4775.0,
-    "precios_publicados": [
-      4775.0
-    ]
-  },
   "amz-apple-iphone-17-de-256-gb-lavanda": {
     "ts": "2026-10-01T00:32:01.841081",
     "canales": {
@@ -1988,6 +1968,16 @@
     "precio": 269.0,
     "precios_publicados": [
       269.0
+    ]
+  },
+  "amz-xiaomi-tablet-pad-7-de-112-polegadas-8-gb-de-": {
+    "ts": "2026-10-03T00:25:44.793268",
+    "canales": {
+      "whatsapp": "2026-10-03T00:25:44.793268"
+    },
+    "precio": 2134.0,
+    "precios_publicados": [
+      2134.0
     ]
   }
 }
