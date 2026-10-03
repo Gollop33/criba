@@ -232,26 +232,6 @@
     ],
     "precio_min_publicado": 82.0
   },
-  "ml-smart-tv-philco-75-p75cga-qled-4k-google-tv-d": {
-    "ts": "2026-10-01T21:49:20.020039",
-    "canales": {
-      "whatsapp": "2026-10-01T21:49:20.020039"
-    },
-    "precio": 4182.0,
-    "precios_publicados": [
-      4182.0
-    ]
-  },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-10-01T21:51:05.143298",
-    "canales": {
-      "whatsapp": "2026-10-01T21:51:05.143298"
-    },
-    "precio": 179.0,
-    "precios_publicados": [
-      179.0
-    ]
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-10-01T21:52:08.389705",
     "canales": {
@@ -2360,6 +2340,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "ml-smartwatch-samsung-galaxy-fit3-display-16-ros": {
+    "ts": "2026-10-03T21:51:29.944190",
+    "canales": {
+      "whatsapp": "2026-10-03T21:51:29.944190"
+    },
+    "precio": 206.0,
+    "precios_publicados": [
+      206.0
     ]
   }
 }
