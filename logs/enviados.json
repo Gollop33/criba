@@ -196,26 +196,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-xiaomi-poco-c85-12gb-ram-128gb-2chip-fonerelo": {
-    "ts": "2026-10-01T20:34:22.814386",
-    "canales": {
-      "whatsapp": "2026-10-01T20:34:22.814386"
-    },
-    "precio": 960.0,
-    "precios_publicados": [
-      960.0
-    ]
-  },
-  "amz-jimo-lava-louca-multicamadas-detergente-conce": {
-    "ts": "2026-10-01T20:35:59.886023",
-    "canales": {
-      "whatsapp": "2026-10-01T20:35:59.886023"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "ml-marcador-de-temperatura-automotivo-voltimetro": {
     "ts": "2026-10-01T20:40:58.159749",
     "canales": {
@@ -2320,6 +2300,16 @@
     "precio": 1277.0,
     "precios_publicados": [
       1277.0
+    ]
+  },
+  "amz-veja-limpador-para-limpeza-pesada-cloro-ativo": {
+    "ts": "2026-10-03T20:37:35.325058",
+    "canales": {
+      "whatsapp": "2026-10-03T20:37:35.325058"
+    },
+    "precio": 10.0,
+    "precios_publicados": [
+      10.0
     ]
   }
 }
