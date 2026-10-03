@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "ml-nac-600mg-formula-exclusiva-com-maxima-concen": {
-    "ts": "2026-10-01T18:35:29.288530",
-    "canales": {
-      "whatsapp": "2026-10-01T18:35:29.288530"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "amz-jbl-fone-de-ouvido-bluetooth-overear-tune-530": {
     "ts": "2026-10-01T18:44:54.754029",
     "canales": {
@@ -2296,6 +2286,16 @@
     "precio": 1349.0,
     "precios_publicados": [
       1349.0
+    ]
+  },
+  "amz-bebedouro-para-gatos-3l-fonte-gato-inox-comed": {
+    "ts": "2026-10-03T18:38:36.904431",
+    "canales": {
+      "whatsapp": "2026-10-03T18:38:36.904431"
+    },
+    "precio": 100.0,
+    "precios_publicados": [
+      100.0
     ]
   }
 }
