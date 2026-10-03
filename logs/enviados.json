@@ -40,18 +40,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-10-01T23:13:59.753825",
-    "canales": {
-      "whatsapp": "2026-10-01T23:13:59.753825"
-    },
-    "precio": 1298.0,
-    "precios_publicados": [
-      1233.0,
-      1298.0
-    ],
-    "precio_min_publicado": 1233.0
-  },
   "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
     "ts": "2026-10-02T15:10:50.857953",
     "canales": {
@@ -2342,6 +2330,16 @@
     "precio": 405.0,
     "precios_publicados": [
       405.0
+    ]
+  },
+  "ml-suco-de-laranja-ambiente-natural-one-17-litro": {
+    "ts": "2026-10-03T23:14:54.506843",
+    "canales": {
+      "whatsapp": "2026-10-03T23:14:54.506843"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
