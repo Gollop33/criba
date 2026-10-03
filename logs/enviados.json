@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-creatina-monohidratada-1kg-100-pura-importada": {
-    "ts": "2026-10-01T20:26:13.778554",
-    "canales": {
-      "whatsapp": "2026-10-01T20:26:13.778554"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
   "ml-xiaomi-poco-c85-12gb-ram-128gb-2chip-fonerelo": {
     "ts": "2026-10-01T20:34:22.814386",
     "canales": {
@@ -2320,6 +2310,16 @@
     "precio": 45.0,
     "precios_publicados": [
       45.0
+    ]
+  },
+  "ml-caixa-de-som-bluetooth-jbl-partybox-onthego-e": {
+    "ts": "2026-10-03T20:32:43.576773",
+    "canales": {
+      "whatsapp": "2026-10-03T20:32:43.576773"
+    },
+    "precio": 1277.0,
+    "precios_publicados": [
+      1277.0
     ]
   }
 }
