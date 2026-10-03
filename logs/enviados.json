@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 82.0
   },
-  "ml-formula-natural-fresh-meat-sensitive-caes-adu": {
-    "ts": "2026-10-01T22:05:06.398434",
-    "canales": {
-      "whatsapp": "2026-10-01T22:05:06.398434"
-    },
-    "precio": 118.0,
-    "precios_publicados": [
-      118.0
-    ]
-  },
   "amz-mondial-ventilador-de-mesa-40cm-super-power-p": {
     "ts": "2026-10-01T22:13:55.368886",
     "canales": {
@@ -2340,6 +2330,16 @@
     "precio": 668.0,
     "precios_publicados": [
       668.0
+    ]
+  },
+  "amz-pinho-sol-desinfetante-original-3-8l": {
+    "ts": "2026-10-03T22:08:03.039171",
+    "canales": {
+      "whatsapp": "2026-10-03T22:08:03.039171"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
