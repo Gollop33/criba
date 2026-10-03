@@ -225,14 +225,16 @@
     ]
   },
   "amz-tablet-lenovo-idea-tab-octa-core-8gb-ramb-128": {
-    "ts": "2026-10-01T17:43:50.169643",
+    "ts": "2026-10-03T15:38:45.348404",
     "canales": {
-      "whatsapp": "2026-10-01T17:43:50.169643"
+      "whatsapp": "2026-10-03T15:38:45.348404"
     },
-    "precio": 2199.0,
+    "precio": 2099.0,
     "precios_publicados": [
-      2199.0
-    ]
+      2199.0,
+      2099.0
+    ],
+    "precio_min_publicado": 2199.0
   },
   "ml-eletrico-triciclo-infantil-drift-350w-bluetoo": {
     "ts": "2026-10-01T17:49:32.730090",
