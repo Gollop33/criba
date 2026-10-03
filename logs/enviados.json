@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 259.0
   },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-10-01T23:46:29.342846",
-    "canales": {
-      "whatsapp": "2026-10-01T23:46:29.342846"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "ml-poco-x8-pro-512gb-12gb-ram-original-lancament": {
     "ts": "2026-10-03T23:23:21.129874",
     "canales": {
@@ -2364,6 +2354,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
+    "ts": "2026-10-03T23:49:39.955791",
+    "canales": {
+      "whatsapp": "2026-10-03T23:49:39.955791"
+    },
+    "precio": 792.0,
+    "precios_publicados": [
+      792.0
     ]
   }
 }
