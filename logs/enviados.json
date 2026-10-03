@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 2944.0
   },
-  "amz-max-titanium-creatina-300-gr-monohidratada": {
-    "ts": "2026-10-01T20:09:43.156157",
-    "canales": {
-      "whatsapp": "2026-10-01T20:09:43.156157"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "ml-kit-8-pilhas-recarregaveis-carregador-rapido-": {
     "ts": "2026-10-03T17:43:41.285517",
     "canales": {
@@ -2300,6 +2290,16 @@
     "precio": 799.0,
     "precios_publicados": [
       799.0
+    ]
+  },
+  "amz-apple-iphone-16e-de-128-gb-preto": {
+    "ts": "2026-10-03T20:15:10.841468",
+    "canales": {
+      "whatsapp": "2026-10-03T20:15:10.841468"
+    },
+    "precio": 3482.0,
+    "precios_publicados": [
+      3482.0
     ]
   }
 }
