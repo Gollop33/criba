@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 2944.0
   },
-  "ml-patinete-triciclo-infantil-drift-eletrico-led": {
-    "ts": "2026-10-01T19:48:22.439059",
-    "canales": {
-      "whatsapp": "2026-10-01T19:48:22.439059"
-    },
-    "precio": 718.0,
-    "precios_publicados": [
-      718.0
-    ]
-  },
-  "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
-    "ts": "2026-10-01T19:51:33.081367",
-    "canales": {
-      "whatsapp": "2026-10-01T19:51:33.081367"
-    },
-    "precio": 169.0,
-    "precios_publicados": [
-      169.0
-    ]
-  },
   "ml-triciclo-infantil-eletrico-bluetooth-drift-le": {
     "ts": "2026-10-01T19:59:39.482642",
     "canales": {
@@ -801,14 +781,16 @@
     ]
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-10-02T15:32:47.581068",
+    "ts": "2026-10-03T19:53:10.622564",
     "canales": {
-      "whatsapp": "2026-10-02T15:32:47.581068"
+      "whatsapp": "2026-10-03T19:53:10.622564"
     },
     "precio": 1440.0,
     "precios_publicados": [
+      1440.0,
       1440.0
-    ]
+    ],
+    "precio_min_publicado": 1440.0
   },
   "ml-relogio-smartwatch-aurafit-trek1-com-gps-a-pr": {
     "ts": "2026-10-02T15:40:45.744629",
