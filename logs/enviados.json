@@ -529,14 +529,16 @@
     ]
   },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-10-01T20:49:07.243459",
+    "ts": "2026-10-03T16:49:43.523127",
     "canales": {
-      "whatsapp": "2026-10-01T20:49:07.243459"
+      "whatsapp": "2026-10-03T16:49:43.523127"
     },
-    "precio": 1529.0,
+    "precio": 1668.0,
     "precios_publicados": [
-      1529.0
-    ]
+      1529.0,
+      1668.0
+    ],
+    "precio_min_publicado": 1529.0
   },
   "ml-bicicleta-spinning-com-roda-de-inercia-de-13k": {
     "ts": "2026-10-01T20:56:40.208186",
