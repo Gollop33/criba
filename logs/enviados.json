@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 2944.0
   },
-  "amz-limpador-perfumado-veja-buque-do-cerrado-2l": {
-    "ts": "2026-10-01T19:41:02.425311",
-    "canales": {
-      "whatsapp": "2026-10-01T19:41:02.425311"
-    },
-    "precio": 11.0,
-    "precios_publicados": [
-      11.0
-    ]
-  },
   "ml-patinete-triciclo-infantil-drift-eletrico-led": {
     "ts": "2026-10-01T19:48:22.439059",
     "canales": {
@@ -2268,6 +2258,16 @@
     "precio": 260.0,
     "precios_publicados": [
       260.0
+    ]
+  },
+  "ml-cadeira-de-escritorio-gamer-alpha-racer-ergon": {
+    "ts": "2026-10-03T19:41:06.957713",
+    "canales": {
+      "whatsapp": "2026-10-03T19:41:06.957713"
+    },
+    "precio": 457.0,
+    "precios_publicados": [
+      457.0
     ]
   }
 }
