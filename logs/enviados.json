@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "ml-eletrico-triciclo-infantil-drift-350w-bluetoo": {
-    "ts": "2026-10-01T17:49:32.730090",
-    "canales": {
-      "whatsapp": "2026-10-01T17:49:32.730090"
-    },
-    "precio": 919.0,
-    "precios_publicados": [
-      919.0
-    ]
-  },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-10-01T17:56:48.965174",
     "canales": {
@@ -2306,6 +2296,16 @@
     "precio": 47.0,
     "precios_publicados": [
       47.0
+    ]
+  },
+  "ml-hoverboard-skate-eletrico-65-polegadas-com-le": {
+    "ts": "2026-10-03T17:55:56.244352",
+    "canales": {
+      "whatsapp": "2026-10-03T17:55:56.244352"
+    },
+    "precio": 569.0,
+    "precios_publicados": [
+      569.0
     ]
   }
 }
