@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "ml-cadeirinha-infantil-para-carro-936kg-passeio-": {
-    "ts": "2026-10-01T19:04:59.806648",
-    "canales": {
-      "whatsapp": "2026-10-01T19:04:59.806648"
-    },
-    "precio": 419.0,
-    "precios_publicados": [
-      419.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
     "ts": "2026-10-02T21:18:25.814130",
     "canales": {
@@ -371,14 +361,16 @@
     ]
   },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-10-01T21:00:28.404747",
+    "ts": "2026-10-03T19:05:43.896497",
     "canales": {
-      "whatsapp": "2026-10-01T21:00:28.404747"
+      "whatsapp": "2026-10-03T19:05:43.896497"
     },
     "precio": 18.0,
     "precios_publicados": [
+      18.0,
       18.0
-    ]
+    ],
+    "precio_min_publicado": 18.0
   },
   "ml-carrinho-jipe-eletrico-infantil-vermelho-12v-": {
     "ts": "2026-10-01T21:05:45.921140",
