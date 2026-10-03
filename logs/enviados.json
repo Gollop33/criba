@@ -196,26 +196,6 @@
     ],
     "precio_min_publicado": 49.0
   },
-  "ml-papel-higienico-familiar-folha-dupla-kit-24-r": {
-    "ts": "2026-10-01T23:28:28.318402",
-    "canales": {
-      "whatsapp": "2026-10-01T23:28:28.318402"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
-  "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
-    "ts": "2026-10-01T23:34:10.062295",
-    "canales": {
-      "whatsapp": "2026-10-01T23:34:10.062295"
-    },
-    "precio": 58.0,
-    "precios_publicados": [
-      58.0
-    ]
-  },
   "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
     "ts": "2026-10-03T14:55:11.161612",
     "canales": {
@@ -1265,14 +1245,16 @@
     ]
   },
   "amz-mouse-gamer-logitech-g203-lightsync-rgb-efeit": {
-    "ts": "2026-10-02T23:30:24.724952",
+    "ts": "2026-10-03T23:34:58.291631",
     "canales": {
-      "whatsapp": "2026-10-02T23:30:24.724952"
+      "whatsapp": "2026-10-03T23:34:58.291631"
     },
-    "precio": 89.0,
+    "precio": 85.0,
     "precios_publicados": [
-      89.0
-    ]
+      89.0,
+      85.0
+    ],
+    "precio_min_publicado": 89.0
   },
   "ml-jogo-de-panelas-inducao-antiaderente-ceramica": {
     "ts": "2026-10-02T23:37:38.307802",
