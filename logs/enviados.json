@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 243.0
   },
-  "amz-apple-iphone-17-de-256-gb-lavanda": {
-    "ts": "2026-10-01T00:32:01.841081",
-    "canales": {
-      "whatsapp": "2026-10-01T00:32:01.841081"
-    },
-    "precio": 6332.0,
-    "precios_publicados": [
-      6332.0
-    ]
-  },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
     "ts": "2026-10-01T00:40:51.786282",
     "canales": {
@@ -1988,6 +1978,16 @@
     "precio": 1295.0,
     "precios_publicados": [
       1295.0
+    ]
+  },
+  "amz-mesa-portatil-para-notebook-suporte-cama-sofa": {
+    "ts": "2026-10-03T00:33:30.175951",
+    "canales": {
+      "whatsapp": "2026-10-03T00:33:30.175951"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
