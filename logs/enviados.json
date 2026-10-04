@@ -271,26 +271,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "ml-projetor-smart-portatil-full-hd-4k-android-11": {
-    "ts": "2026-10-02T23:49:06.225129",
-    "canales": {
-      "whatsapp": "2026-10-02T23:49:06.225129"
-    },
-    "precio": 167.0,
-    "precios_publicados": [
-      167.0
-    ]
-  },
-  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-10-02T23:56:47.913318",
-    "canales": {
-      "whatsapp": "2026-10-02T23:56:47.913318"
-    },
-    "precio": 127.0,
-    "precios_publicados": [
-      127.0
-    ]
-  },
   "ml-jogo-de-panelas-smart-plus-vanilla-inducao-ce": {
     "ts": "2026-10-04T18:59:50.371510",
     "canales": {
@@ -620,14 +600,16 @@
     ]
   },
   "ml-suplemento-natural-pet-p-dermatite-e-leishman": {
-    "ts": "2026-10-03T16:14:46.694583",
+    "ts": "2026-10-04T23:57:00.570503",
     "canales": {
-      "whatsapp": "2026-10-03T16:14:46.694583"
+      "whatsapp": "2026-10-04T23:57:00.570503"
     },
     "precio": 152.0,
     "precios_publicados": [
+      152.0,
       152.0
-    ]
+    ],
+    "precio_min_publicado": 152.0
   },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
     "ts": "2026-10-04T22:53:33.233310",
