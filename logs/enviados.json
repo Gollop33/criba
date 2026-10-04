@@ -552,14 +552,16 @@
     ]
   },
   "ml-lixeira-inteligente-automatica-redonda-recarr": {
-    "ts": "2026-10-02T17:41:57.934086",
+    "ts": "2026-10-04T13:21:04.020737",
     "canales": {
-      "whatsapp": "2026-10-02T17:41:57.934086"
+      "whatsapp": "2026-10-04T13:21:04.020737"
     },
     "precio": 58.0,
     "precios_publicados": [
+      58.0,
       58.0
-    ]
+    ],
+    "precio_min_publicado": 58.0
   },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
     "ts": "2026-10-02T17:46:08.054613",
