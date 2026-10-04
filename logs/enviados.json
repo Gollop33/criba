@@ -512,14 +512,16 @@
     ]
   },
   "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
-    "ts": "2026-10-02T17:14:09.110063",
+    "ts": "2026-10-04T13:44:36.335310",
     "canales": {
-      "whatsapp": "2026-10-02T17:14:09.110063"
+      "whatsapp": "2026-10-04T13:44:36.335310"
     },
-    "precio": 93.0,
+    "precio": 97.0,
     "precios_publicados": [
-      93.0
-    ]
+      93.0,
+      97.0
+    ],
+    "precio_min_publicado": 93.0
   },
   "ml-filamento-pla-preto-velvet-aveludado-1kg-para": {
     "ts": "2026-10-02T17:24:11.006330",
