@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-carregador-portatil-power-bank-basike-20000ma": {
-    "ts": "2026-10-02T14:42:43.460575",
-    "canales": {
-      "whatsapp": "2026-10-02T14:42:43.460575"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0
-    ]
-  },
   "ml-tenis-kappa-galaxy-masculino-feminino": {
     "ts": "2026-10-02T14:51:47.473922",
     "canales": {
@@ -2457,6 +2447,16 @@
     "precio": 114.0,
     "precios_publicados": [
       114.0
+    ]
+  },
+  "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
+    "ts": "2026-10-04T14:44:53.278517",
+    "canales": {
+      "whatsapp": "2026-10-04T14:44:53.278517"
+    },
+    "precio": 51.0,
+    "precios_publicados": [
+      51.0
     ]
   }
 }
