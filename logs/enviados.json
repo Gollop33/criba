@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "ml-carrinho-eletrico-infantil-brinquedo-mini-car": {
-    "ts": "2026-10-02T17:06:58.114227",
-    "canales": {
-      "whatsapp": "2026-10-02T17:06:58.114227"
-    },
-    "precio": 990.0,
-    "precios_publicados": [
-      990.0
-    ]
-  },
   "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
     "ts": "2026-10-04T13:44:36.335310",
     "canales": {
@@ -2438,6 +2428,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "ml-kit-5-toalhas-banho-gigante-grossa-hotel-luxo": {
+    "ts": "2026-10-04T17:08:15.606230",
+    "canales": {
+      "whatsapp": "2026-10-04T17:08:15.606230"
+    },
+    "precio": 116.0,
+    "precios_publicados": [
+      116.0
     ]
   }
 }
