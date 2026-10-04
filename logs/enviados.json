@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "amz-xiaomi-redmi-buds-6-play": {
-    "ts": "2026-10-02T16:40:41.252203",
-    "canales": {
-      "whatsapp": "2026-10-02T16:40:41.252203"
-    },
-    "precio": 74.0,
-    "precios_publicados": [
-      74.0
-    ]
-  },
   "ml-mini-berco-multifuncional-com-mosqueteiro-e-t": {
     "ts": "2026-10-02T16:49:30.124835",
     "canales": {
@@ -2428,6 +2418,16 @@
     "precio": 1740.0,
     "precios_publicados": [
       1740.0
+    ]
+  },
+  "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
+    "ts": "2026-10-04T16:42:02.138069",
+    "canales": {
+      "whatsapp": "2026-10-04T16:42:02.138069"
+    },
+    "precio": 296.0,
+    "precios_publicados": [
+      296.0
     ]
   }
 }
