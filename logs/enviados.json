@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
-    "ts": "2026-10-02T17:04:53.443904",
-    "canales": {
-      "whatsapp": "2026-10-02T17:04:53.443904"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "ml-carrinho-eletrico-infantil-brinquedo-mini-car": {
     "ts": "2026-10-02T17:06:58.114227",
     "canales": {
@@ -2438,6 +2428,16 @@
     "precio": 2099.0,
     "precios_publicados": [
       2099.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
+    "ts": "2026-10-04T17:05:59.190093",
+    "canales": {
+      "whatsapp": "2026-10-04T17:05:59.190093"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
