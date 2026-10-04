@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "ml-capa-protetora-colchao-box-casal-padrao-matel": {
-    "ts": "2026-10-02T22:17:06.274081",
-    "canales": {
-      "whatsapp": "2026-10-02T22:17:06.274081"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
     "ts": "2026-10-04T18:11:01.004111",
     "canales": {
@@ -2438,6 +2428,16 @@
     "precio": 170.0,
     "precios_publicados": [
       170.0
+    ]
+  },
+  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
+    "ts": "2026-10-04T22:19:14.180930",
+    "canales": {
+      "whatsapp": "2026-10-04T22:19:14.180930"
+    },
+    "precio": 66.0,
+    "precios_publicados": [
+      66.0
     ]
   }
 }
