@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "amz-samsung-tablet-galaxy-tab-s11-wifi-256gb-12gb": {
-    "ts": "2026-10-02T21:52:29.380581",
-    "canales": {
-      "whatsapp": "2026-10-02T21:52:29.380581"
-    },
-    "precio": 5873.0,
-    "precios_publicados": [
-      5873.0
-    ]
-  },
   "ml-smart-tv-32-philco-p32vik-roku-led-dolby-audi": {
     "ts": "2026-10-02T21:59:11.694844",
     "canales": {
@@ -2428,6 +2418,16 @@
     "precio": 197.0,
     "precios_publicados": [
       197.0
+    ]
+  },
+  "amz-boni-natural-creme-dental-com-oleos-naturais-": {
+    "ts": "2026-10-04T21:55:56.618108",
+    "canales": {
+      "whatsapp": "2026-10-04T21:55:56.618108"
+    },
+    "precio": 28.0,
+    "precios_publicados": [
+      28.0
     ]
   }
 }
