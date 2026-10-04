@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 340.0
   },
-  "ml-caixa-de-som-boombox-plus-aiwa-bbs01lbl-200w-": {
-    "ts": "2026-10-02T19:01:17.731982",
-    "canales": {
-      "whatsapp": "2026-10-02T19:01:17.731982"
-    },
-    "precio": 1405.0,
-    "precios_publicados": [
-      1405.0
-    ]
-  },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
     "ts": "2026-10-04T13:56:11.119762",
     "canales": {
@@ -243,16 +233,6 @@
       976.0
     ],
     "precio_min_publicado": 950.0
-  },
-  "ml-mini-scooter-moto-eletrica-frente-e-re-bateri": {
-    "ts": "2026-10-02T19:08:35.773710",
-    "canales": {
-      "whatsapp": "2026-10-02T19:08:35.773710"
-    },
-    "precio": 319.0,
-    "precios_publicados": [
-      319.0
-    ]
   },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-cinza-1": {
     "ts": "2026-10-02T19:16:59.712987",
@@ -2452,6 +2432,16 @@
     "precio": 145.0,
     "precios_publicados": [
       145.0
+    ]
+  },
+  "amz-purina-friskies-carne-ao-molho-racao-umida-85": {
+    "ts": "2026-10-04T19:08:41.493328",
+    "canales": {
+      "whatsapp": "2026-10-04T19:08:41.493328"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
