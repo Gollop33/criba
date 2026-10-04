@@ -709,14 +709,16 @@
     ]
   },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
-    "ts": "2026-10-03T16:24:21.129765",
+    "ts": "2026-10-04T22:53:33.233310",
     "canales": {
-      "whatsapp": "2026-10-03T16:24:21.129765"
+      "whatsapp": "2026-10-04T22:53:33.233310"
     },
-    "precio": 49.0,
+    "precio": 48.0,
     "precios_publicados": [
-      49.0
-    ]
+      49.0,
+      48.0
+    ],
+    "precio_min_publicado": 49.0
   },
   "ml-mop-esfregao-giratorio-condor-balde-inox-13-l": {
     "ts": "2026-10-03T16:31:54.330991",
