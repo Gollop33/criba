@@ -271,16 +271,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "ml-jogo-de-panelas-inducao-antiaderente-ceramica": {
-    "ts": "2026-10-02T23:37:38.307802",
-    "canales": {
-      "whatsapp": "2026-10-02T23:37:38.307802"
-    },
-    "precio": 363.0,
-    "precios_publicados": [
-      363.0
-    ]
-  },
   "ml-projetor-smart-portatil-full-hd-4k-android-11": {
     "ts": "2026-10-02T23:49:06.225129",
     "canales": {
@@ -2461,6 +2451,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "amz-controle-sem-fio-playstation-dualsensetm-edic": {
+    "ts": "2026-10-04T23:40:02.783764",
+    "canales": {
+      "whatsapp": "2026-10-04T23:40:02.783764"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
