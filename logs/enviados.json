@@ -42,18 +42,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
-    "ts": "2026-10-02T21:18:25.814130",
-    "canales": {
-      "whatsapp": "2026-10-02T21:18:25.814130"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2944.0,
-      2999.0
-    ],
-    "precio_min_publicado": 2944.0
-  },
   "ml-kit-8-pilhas-recarregaveis-carregador-rapido-": {
     "ts": "2026-10-03T17:43:41.285517",
     "canales": {
@@ -233,16 +221,6 @@
       976.0
     ],
     "precio_min_publicado": 950.0
-  },
-  "ml-bicicleta-ergometrica-spinning-bike-ergometri": {
-    "ts": "2026-10-02T21:15:10.137367",
-    "canales": {
-      "whatsapp": "2026-10-02T21:15:10.137367"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
   },
   "ml-rocadeira-aparador-grama-a-bateria-recarregav": {
     "ts": "2026-10-02T21:27:25.252486",
@@ -2438,6 +2416,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-fralda-pom-pom-protek-protecao-de-mae-hiper-g": {
+    "ts": "2026-10-04T21:18:36.733994",
+    "canales": {
+      "whatsapp": "2026-10-04T21:18:36.733994"
+    },
+    "precio": 56.0,
+    "precios_publicados": [
+      56.0
     ]
   }
 }
