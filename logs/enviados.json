@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 340.0
   },
-  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
-    "ts": "2026-10-02T18:54:22.633935",
-    "canales": {
-      "whatsapp": "2026-10-02T18:54:22.633935"
-    },
-    "precio": 166.0,
-    "precios_publicados": [
-      166.0
-    ]
-  },
   "ml-caixa-de-som-boombox-plus-aiwa-bbs01lbl-200w-": {
     "ts": "2026-10-02T19:01:17.731982",
     "canales": {
@@ -711,14 +701,16 @@
     ]
   },
   "ml-jogo-de-panelas-smart-plus-vanilla-inducao-ce": {
-    "ts": "2026-10-02T23:58:19.351336",
+    "ts": "2026-10-04T18:59:50.371510",
     "canales": {
-      "whatsapp": "2026-10-02T23:58:19.351336"
+      "whatsapp": "2026-10-04T18:59:50.371510"
     },
     "precio": 367.0,
     "precios_publicados": [
+      367.0,
       367.0
-    ]
+    ],
+    "precio_min_publicado": 367.0
   },
   "amz-xiaomi-tablet-redmi-pad-2-de-8-gb-256-gb-tela": {
     "ts": "2026-10-03T00:05:13.982144",
