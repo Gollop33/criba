@@ -246,16 +246,6 @@
     ],
     "precio_min_publicado": 3771.0
   },
-  "ml-quarto-bebe-completo-infantil-com-guardaroupa": {
-    "ts": "2026-10-02T22:39:08.799955",
-    "canales": {
-      "whatsapp": "2026-10-02T22:39:08.799955"
-    },
-    "precio": 1331.0,
-    "precios_publicados": [
-      1331.0
-    ]
-  },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-10-04T16:39:59.022997",
     "canales": {
@@ -2458,6 +2448,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-hyperx-teclado-gamer-hyperx-alloy-core-rgb-ab": {
+    "ts": "2026-10-04T22:42:17.981004",
+    "canales": {
+      "whatsapp": "2026-10-04T22:42:17.981004"
+    },
+    "precio": 176.0,
+    "precios_publicados": [
+      176.0
     ]
   }
 }
