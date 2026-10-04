@@ -234,16 +234,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "ml-cadeira-galzerano-infantil-para-carro-leon-80": {
-    "ts": "2026-10-02T20:33:31.471503",
-    "canales": {
-      "whatsapp": "2026-10-02T20:33:31.471503"
-    },
-    "precio": 839.0,
-    "precios_publicados": [
-      839.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-10-02T20:42:38.816972",
     "canales": {
@@ -2436,6 +2426,16 @@
     "precio": 1599.0,
     "precios_publicados": [
       1599.0
+    ]
+  },
+  "ml-bicicleta-eletrica-scooter-bikelete-mt2-500w-": {
+    "ts": "2026-10-04T20:42:01.244413",
+    "canales": {
+      "whatsapp": "2026-10-04T20:42:01.244413"
+    },
+    "precio": 3039.0,
+    "precios_publicados": [
+      3039.0
     ]
   }
 }
