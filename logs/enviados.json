@@ -53,18 +53,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-10-02T14:47:46.451512",
-    "canales": {
-      "whatsapp": "2026-10-02T14:47:46.451512"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0,
-      14.0
-    ],
-    "precio_min_publicado": 14.0
-  },
   "amz-tablet-lenovo-idea-tab-octa-core-8gb-ramb-128": {
     "ts": "2026-10-03T15:38:45.348404",
     "canales": {
@@ -196,16 +184,6 @@
       42.0
     ],
     "precio_min_publicado": 44.0
-  },
-  "ml-tenis-kappa-galaxy-masculino-feminino": {
-    "ts": "2026-10-02T14:51:47.473922",
-    "canales": {
-      "whatsapp": "2026-10-02T14:51:47.473922"
-    },
-    "precio": 102.0,
-    "precios_publicados": [
-      102.0
-    ]
   },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-10-02T14:57:27.457384",
@@ -2467,6 +2445,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "ml-tablet-xiaomi-redmi-pad-2-256-versao-global-v": {
+    "ts": "2026-10-04T14:53:31.487792",
+    "canales": {
+      "whatsapp": "2026-10-04T14:53:31.487792"
+    },
+    "precio": 1354.0,
+    "precios_publicados": [
+      1354.0
     ]
   }
 }
