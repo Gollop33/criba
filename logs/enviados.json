@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-10-02T21:44:54.541746",
-    "canales": {
-      "whatsapp": "2026-10-02T21:44:54.541746"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s11-wifi-256gb-12gb": {
     "ts": "2026-10-02T21:52:29.380581",
     "canales": {
@@ -2428,6 +2418,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "ml-power-bank-baseus-turbo-bipow2-pro-20000mah-2": {
+    "ts": "2026-10-04T21:47:36.930034",
+    "canales": {
+      "whatsapp": "2026-10-04T21:47:36.930034"
+    },
+    "precio": 197.0,
+    "precios_publicados": [
+      197.0
     ]
   }
 }
