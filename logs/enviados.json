@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "ml-papel-higienico-neve-supreme-folha-tripla-lev": {
-    "ts": "2026-10-02T16:38:12.346199",
-    "canales": {
-      "whatsapp": "2026-10-02T16:38:12.346199"
-    },
-    "precio": 61.0,
-    "precios_publicados": [
-      61.0
-    ]
-  },
   "amz-xiaomi-redmi-buds-6-play": {
     "ts": "2026-10-02T16:40:41.252203",
     "canales": {
@@ -797,14 +787,16 @@
     ]
   },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
-    "ts": "2026-10-02T22:44:28.503223",
+    "ts": "2026-10-04T16:39:59.022997",
     "canales": {
-      "whatsapp": "2026-10-02T22:44:28.503223"
+      "whatsapp": "2026-10-04T16:39:59.022997"
     },
     "precio": 3999.0,
     "precios_publicados": [
+      3999.0,
       3999.0
-    ]
+    ],
+    "precio_min_publicado": 3999.0
   },
   "ml-cadeira-escritorio-kopenhagen-lisboa-paris-pr": {
     "ts": "2026-10-02T22:54:09.208122",
