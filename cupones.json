@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-04T06:31:05+00:00",
-  "total": 47,
+  "actualizado": "2026-10-04T12:57:02+00:00",
+  "total": 48,
   "fuentes": [
     "Telegram ML Afiliados"
   ],
@@ -607,6 +607,18 @@
       "detectado_em": "2026-10-03T12:01:00+00:00",
       "vigente": true,
       "estado": "ativo"
+    },
+    {
+      "codigo": "OFFNOML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-10-04",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-04T12:01:01+00:00",
+      "vigente": true
     }
   ]
 }
