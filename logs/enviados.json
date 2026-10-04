@@ -185,16 +185,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "ml-relogio-smartwatch-aurafit-trek1-com-gps-a-pr": {
-    "ts": "2026-10-02T15:40:45.744629",
-    "canales": {
-      "whatsapp": "2026-10-02T15:40:45.744629"
-    },
-    "precio": 330.0,
-    "precios_publicados": [
-      330.0
-    ]
-  },
   "amz-memoria-desktop-gamer-adata-xpg-gammix-d35-8g": {
     "ts": "2026-10-02T15:43:30.038559",
     "canales": {
@@ -2463,6 +2453,16 @@
     "precio": 7090.0,
     "precios_publicados": [
       7090.0
+    ]
+  },
+  "ml-fone-de-ouvido-headphone-dapon-h02d-bluetooth": {
+    "ts": "2026-10-04T15:41:57.223184",
+    "canales": {
+      "whatsapp": "2026-10-04T15:41:57.223184"
+    },
+    "precio": 70.0,
+    "precios_publicados": [
+      70.0
     ]
   }
 }
