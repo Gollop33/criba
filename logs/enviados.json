@@ -210,16 +210,6 @@
     ],
     "precio_min_publicado": 58.0
   },
-  "ml-baba-eletronica-monitor-24-sem-fio-zoom-baby-": {
-    "ts": "2026-10-02T17:55:46.052026",
-    "canales": {
-      "whatsapp": "2026-10-02T17:55:46.052026"
-    },
-    "precio": 209.0,
-    "precios_publicados": [
-      209.0
-    ]
-  },
   "amz-adaptador-wifi-usb-30-dual-band-1300mbps-24gh": {
     "ts": "2026-10-02T17:59:21.537338",
     "canales": {
@@ -2456,6 +2446,16 @@
     "precio": 281.0,
     "precios_publicados": [
       281.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
+    "ts": "2026-10-04T17:58:07.238408",
+    "canales": {
+      "whatsapp": "2026-10-04T17:58:07.238408"
+    },
+    "precio": 3968.0,
+    "precios_publicados": [
+      3968.0
     ]
   }
 }
