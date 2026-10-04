@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 340.0
   },
-  "ml-samsung-smart-tv-43-qled-full-hd-q5f-2025-xbo": {
-    "ts": "2026-10-02T18:32:10.976883",
-    "canales": {
-      "whatsapp": "2026-10-02T18:32:10.976883"
-    },
-    "precio": 1557.0,
-    "precios_publicados": [
-      1557.0
-    ]
-  },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-10-02T18:35:29.731635",
     "canales": {
@@ -881,14 +871,16 @@
     ]
   },
   "ml-smartphone-motorola-edge-70-fusion-5g-fifa-wo": {
-    "ts": "2026-10-03T14:07:30.222285",
+    "ts": "2026-10-04T18:35:02.293857",
     "canales": {
-      "whatsapp": "2026-10-03T14:07:30.222285"
+      "whatsapp": "2026-10-04T18:35:02.293857"
     },
     "precio": 2199.0,
     "precios_publicados": [
+      2199.0,
       2199.0
-    ]
+    ],
+    "precio_min_publicado": 2199.0
   },
   "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
     "ts": "2026-10-03T14:17:10.031744",
