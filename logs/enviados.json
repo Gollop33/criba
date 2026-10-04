@@ -185,16 +185,6 @@
     ],
     "precio_min_publicado": 1440.0
   },
-  "ml-cesta-bau-cafe-da-manha-organizador-presentes": {
-    "ts": "2026-10-02T16:06:59.905092",
-    "canales": {
-      "whatsapp": "2026-10-02T16:06:59.905092"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
   "amz-headset-gamer-redragon-zeus-lite-preto-p3-h51": {
     "ts": "2026-10-02T16:17:04.544490",
     "canales": {
@@ -2443,6 +2433,16 @@
     "precio": 1259.0,
     "precios_publicados": [
       1259.0
+    ]
+  },
+  "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
+    "ts": "2026-10-04T16:14:25.858838",
+    "canales": {
+      "whatsapp": "2026-10-04T16:14:25.858838"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
