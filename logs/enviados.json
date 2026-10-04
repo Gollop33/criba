@@ -16,18 +16,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "amz-ssd-sandisk-plus-1tb-nvme-m2-2280-leitura-ate": {
-    "ts": "2026-10-02T00:34:44.203084",
-    "canales": {
-      "whatsapp": "2026-10-02T00:34:44.203084"
-    },
-    "precio": 929.0,
-    "precios_publicados": [
-      899.0,
-      929.0
-    ],
-    "precio_min_publicado": 899.0
-  },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-10-02T00:47:13.984539",
     "canales": {
@@ -2382,6 +2370,16 @@
     "precio": 499.0,
     "precios_publicados": [
       499.0
+    ]
+  },
+  "ml-farinha-de-amendoa-natural-1kg-alta-proteina-": {
+    "ts": "2026-10-04T00:36:38.133537",
+    "canales": {
+      "whatsapp": "2026-10-04T00:36:38.133537"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
