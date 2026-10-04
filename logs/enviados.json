@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "ml-mini-berco-multifuncional-com-mosqueteiro-e-t": {
-    "ts": "2026-10-02T16:49:30.124835",
-    "canales": {
-      "whatsapp": "2026-10-02T16:49:30.124835"
-    },
-    "precio": 202.0,
-    "precios_publicados": [
-      202.0
-    ]
-  },
   "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
     "ts": "2026-10-02T16:56:08.878067",
     "canales": {
@@ -2438,6 +2428,16 @@
     "precio": 13.0,
     "precios_publicados": [
       13.0
+    ]
+  },
+  "ml-smart-tv-philips-50-4k-50pug7300-comando-de-v": {
+    "ts": "2026-10-04T16:50:08.963917",
+    "canales": {
+      "whatsapp": "2026-10-04T16:50:08.963917"
+    },
+    "precio": 1973.0,
+    "precios_publicados": [
+      1973.0
     ]
   }
 }
