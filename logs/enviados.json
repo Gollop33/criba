@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 340.0
   },
-  "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
-    "ts": "2026-10-02T18:20:59.690751",
-    "canales": {
-      "whatsapp": "2026-10-02T18:20:59.690751"
-    },
-    "precio": 1099.0,
-    "precios_publicados": [
-      1099.0
-    ]
-  },
   "amz-combo-teclado-e-mouse-sem-fio-logitech-mk250-": {
     "ts": "2026-10-02T18:27:11.976379",
     "canales": {
@@ -2458,6 +2448,16 @@
     "precio": 299.0,
     "precios_publicados": [
       299.0
+    ]
+  },
+  "amz-galaxy-tab-a9-5g-grafite-tela-11-64-gb-4gb-ra": {
+    "ts": "2026-10-04T18:22:06.609570",
+    "canales": {
+      "whatsapp": "2026-10-04T18:22:06.609570"
+    },
+    "precio": 2100.0,
+    "precios_publicados": [
+      2100.0
     ]
   }
 }
