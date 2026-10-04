@@ -696,14 +696,16 @@
     ]
   },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-10-02T19:06:30.847640",
+    "ts": "2026-10-04T13:56:11.119762",
     "canales": {
-      "whatsapp": "2026-10-02T19:06:30.847640"
+      "whatsapp": "2026-10-04T13:56:11.119762"
     },
-    "precio": 950.0,
+    "precio": 976.0,
     "precios_publicados": [
-      950.0
-    ]
+      950.0,
+      976.0
+    ],
+    "precio_min_publicado": 950.0
   },
   "ml-mini-scooter-moto-eletrica-frente-e-re-bateri": {
     "ts": "2026-10-02T19:08:35.773710",
