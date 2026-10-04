@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "ml-smart-tv-32-philco-p32vik-roku-led-dolby-audi": {
-    "ts": "2026-10-02T21:59:11.694844",
-    "canales": {
-      "whatsapp": "2026-10-02T21:59:11.694844"
-    },
-    "precio": 1031.0,
-    "precios_publicados": [
-      1031.0
-    ]
-  },
   "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
     "ts": "2026-10-02T22:07:04.787993",
     "canales": {
@@ -2438,6 +2428,16 @@
     "precio": 81.0,
     "precios_publicados": [
       81.0
+    ]
+  },
+  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
+    "ts": "2026-10-04T22:04:59.644297",
+    "canales": {
+      "whatsapp": "2026-10-04T22:04:59.644297"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
