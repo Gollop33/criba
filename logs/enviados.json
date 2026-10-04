@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 2746.0
   },
-  "ml-jogo-de-toalha-banhao-100-algodao-gigante-gro": {
-    "ts": "2026-10-02T00:04:42.215446",
-    "canales": {
-      "whatsapp": "2026-10-02T00:04:42.215446"
-    },
-    "precio": 113.0,
-    "precios_publicados": [
-      113.0
-    ]
-  },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-10-03T14:43:49.435905",
     "canales": {
@@ -2372,6 +2362,16 @@
     "precio": 4032.0,
     "precios_publicados": [
       4032.0
+    ]
+  },
+  "ml-camiseta-masculina-basica-cruz-de-jesus-algod": {
+    "ts": "2026-10-04T00:07:27.093283",
+    "canales": {
+      "whatsapp": "2026-10-04T00:07:27.093283"
+    },
+    "precio": 31.0,
+    "precios_publicados": [
+      31.0
     ]
   }
 }
