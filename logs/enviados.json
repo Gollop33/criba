@@ -185,16 +185,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-10-02T14:57:27.457384",
-    "canales": {
-      "whatsapp": "2026-10-02T14:57:27.457384"
-    },
-    "precio": 1080.0,
-    "precios_publicados": [
-      1080.0
-    ]
-  },
   "ml-suporte-portatil-carro-eletrico-carregador-un": {
     "ts": "2026-10-02T15:04:54.643749",
     "canales": {
@@ -2455,6 +2445,16 @@
     "precio": 1354.0,
     "precios_publicados": [
       1354.0
+    ]
+  },
+  "amz-be-place-kids-tablet-infantil-android-13-128g": {
+    "ts": "2026-10-04T14:57:47.434594",
+    "canales": {
+      "whatsapp": "2026-10-04T14:57:47.434594"
+    },
+    "precio": 395.0,
+    "precios_publicados": [
+      395.0
     ]
   }
 }
