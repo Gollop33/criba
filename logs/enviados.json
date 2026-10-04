@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "ml-rocadeira-aparador-grama-a-bateria-recarregav": {
-    "ts": "2026-10-02T21:27:25.252486",
-    "canales": {
-      "whatsapp": "2026-10-02T21:27:25.252486"
-    },
-    "precio": 148.0,
-    "precios_publicados": [
-      148.0
-    ]
-  },
   "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
     "ts": "2026-10-02T21:33:46.868789",
     "canales": {
@@ -635,14 +625,16 @@
     ]
   },
   "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
-    "ts": "2026-10-03T14:31:17.292052",
+    "ts": "2026-10-04T21:31:14.242796",
     "canales": {
-      "whatsapp": "2026-10-03T14:31:17.292052"
+      "whatsapp": "2026-10-04T21:31:14.242796"
     },
-    "precio": 43.0,
+    "precio": 44.0,
     "precios_publicados": [
-      43.0
-    ]
+      43.0,
+      44.0
+    ],
+    "precio_min_publicado": 43.0
   },
   "ml-air-fryer-forno-5-em-1-12l-1700w-digital-espe": {
     "ts": "2026-10-03T14:34:31.249595",
