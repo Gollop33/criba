@@ -52,18 +52,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
-    "ts": "2026-10-01T23:59:29.408256",
-    "canales": {
-      "whatsapp": "2026-10-01T23:59:29.408256"
-    },
-    "precio": 1464.0,
-    "precios_publicados": [
-      1459.0,
-      1464.0
-    ],
-    "precio_min_publicado": 1459.0
-  },
   "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
     "ts": "2026-10-02T18:50:47.366797",
     "canales": {
@@ -2374,6 +2362,16 @@
     "precio": 3499.0,
     "precios_publicados": [
       3499.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
+    "ts": "2026-10-04T00:00:28.822086",
+    "canales": {
+      "whatsapp": "2026-10-04T00:00:28.822086"
+    },
+    "precio": 4032.0,
+    "precios_publicados": [
+      4032.0
     ]
   }
 }
