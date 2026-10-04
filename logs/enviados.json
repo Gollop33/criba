@@ -210,16 +210,6 @@
     ],
     "precio_min_publicado": 58.0
   },
-  "amz-adaptador-wifi-usb-30-dual-band-1300mbps-24gh": {
-    "ts": "2026-10-02T17:59:21.537338",
-    "canales": {
-      "whatsapp": "2026-10-02T17:59:21.537338"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
   "ml-relogio-smartwatch-redmi-watch-6-active-globa": {
     "ts": "2026-10-04T16:15:45.074622",
     "canales": {
@@ -2456,6 +2446,16 @@
     "precio": 3968.0,
     "precios_publicados": [
       3968.0
+    ]
+  },
+  "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
+    "ts": "2026-10-04T18:02:19.005735",
+    "canales": {
+      "whatsapp": "2026-10-04T18:02:19.005735"
+    },
+    "precio": 969.0,
+    "precios_publicados": [
+      969.0
     ]
   }
 }
