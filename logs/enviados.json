@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-xiaomi-poco-x7-pro-dual-sim-5g-512gb-preto-12": {
-    "ts": "2026-10-02T14:26:44.087343",
-    "canales": {
-      "whatsapp": "2026-10-02T14:26:44.087343"
-    },
-    "precio": 2550.0,
-    "precios_publicados": [
-      2550.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
     "ts": "2026-10-02T14:32:16.277040",
     "canales": {
@@ -2467,6 +2457,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
+    "ts": "2026-10-04T14:28:28.720057",
+    "canales": {
+      "whatsapp": "2026-10-04T14:28:28.720057"
+    },
+    "precio": 3165.0,
+    "precios_publicados": [
+      3165.0
     ]
   }
 }
