@@ -392,14 +392,16 @@
     ]
   },
   "ml-relogio-smartwatch-redmi-watch-6-active-globa": {
-    "ts": "2026-10-02T18:08:50.387337",
+    "ts": "2026-10-04T16:15:45.074622",
     "canales": {
-      "whatsapp": "2026-10-02T18:08:50.387337"
+      "whatsapp": "2026-10-04T16:15:45.074622"
     },
     "precio": 340.0,
     "precios_publicados": [
+      340.0,
       340.0
-    ]
+    ],
+    "precio_min_publicado": 340.0
   },
   "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
     "ts": "2026-10-02T18:13:39.937817",
