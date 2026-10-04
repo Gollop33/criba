@@ -185,16 +185,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-suporte-portatil-carro-eletrico-carregador-un": {
-    "ts": "2026-10-02T15:04:54.643749",
-    "canales": {
-      "whatsapp": "2026-10-02T15:04:54.643749"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "ml-tenis-feminino-delta-122-olympikus-marinhopur": {
     "ts": "2026-10-02T15:15:33.781783",
     "canales": {
@@ -2465,6 +2455,16 @@
     "precio": 734.0,
     "precios_publicados": [
       734.0
+    ]
+  },
+  "amz-tablet-xiaomi-poco-pad-m1-wifi-8256gb-tela-de": {
+    "ts": "2026-10-04T15:06:28.234353",
+    "canales": {
+      "whatsapp": "2026-10-04T15:06:28.234353"
+    },
+    "precio": 1940.0,
+    "precios_publicados": [
+      1940.0
     ]
   }
 }
