@@ -1,31 +1,15 @@
 {
-  "actualizado": "2026-10-04T01:11:26+00:00",
+  "actualizado": "2026-10-04T05:23:34+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
-    {
-      "busqueda": "jogo de toalhas buddemeyer atena fio penteado banho",
-      "nombre": "Jogo De Toalhas Buddemeyer Atena Fio Penteado Banho Cinza/cinza Claro 4 Peças",
-      "precio_ref": 164.92,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "jogo de toalhas buddemeyer bella extra soft banho",
-      "nombre": "Jogo De Toalhas Buddemeyer Bella Extra Soft Banho 4",
-      "precio_ref": 127.42,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
     {
       "busqueda": "monitor gamer lg ultragear 27 full hd ips",
       "nombre": "Monitor Gamer LG UltraGear 27' Full HD IPS 144Hz 1ms",
       "precio_ref": 849.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
       "busqueda": "ssd kingston nv2 1tb m 2 2280 nvme",
@@ -33,7 +17,7 @@
       "precio_ref": 389.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
       "busqueda": "teclado mecanico redragon kumara rgb switch outemu blue",
@@ -41,223 +25,63 @@
       "precio_ref": 179.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "papel higienico familiar folha dupla kit 24 rolos",
-      "nombre": "Papel Higiênico Familiar Folha Dupla Kit 24 Rolos de 30 m",
-      "precio_ref": 26.59,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "tenis kappa pulse rx unissex corrida conforto",
+      "nombre": "Tênis Kappa Pulse Rx Unissex Corrida Conforto",
+      "precio_ref": 135.99,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
-      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
-      "precio_ref": 50.38,
+      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
+      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
+      "precio_ref": 13.94,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "cama pet grande caminha cachorros sofa luxo suporte",
-      "nombre": "Cama Pet Grande Caminha Cachorros sofá luxo Suporte Cervical Espuma De Ortopédica C/fundo Impermeável 89×71×15",
-      "precio_ref": 265.05,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete em barra creme care promo 6",
-      "nombre": "NIVEA Sabonete em Barra Creme Care Promo 6 un. 90g - Limpa e deixa a pele macia mesmo após o banho, com glicerina, fragrância",
-      "precio_ref": 22.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "tenis feminino leve confortavel academia corrida caminhada",
-      "nombre": "Tenis Feminino Leve Confortável Academia Corrida Caminhada",
-      "precio_ref": 70.44,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "bellacotton algodao quadrado baby 100 algodao macio 100",
-      "nombre": "Bellacotton Algodão Quadrado Baby 100% Algodão Macio – 100 Unidades",
-      "precio_ref": 26.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 11 caneta e capa",
-      "nombre": "Tablet Positivo Vision Tab 11 Caneta E Capa 4g 11 128gb Preto",
-      "precio_ref": 1298.0,
+      "busqueda": "smart tv tcl 55 polegadas qd mini led",
+      "nombre": "Smart Tv Tcl 55 Polegadas Qd-Mini Led 4k A400m Wifi Bluetooth Google Tv Hdr10+ 144 Hz Vrr 55a400m",
+      "precio_ref": 3649.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F",
-      "precio_ref": 799.0,
-      "categoria": "Monitores & Displays",
+      "busqueda": "placa mae msi a520m a pro am4 2xddr4",
+      "nombre": "Placa Mãe MSI A520M-A PRO (AM4/2xDDR4/HDMI/DVI-D/M.2/USB 3.2)",
+      "precio_ref": 443.52,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "tv stick 4k android chromecast smart hdmi wifi",
-      "nombre": "Tv Stick 4k Android Chromecast Smart Hdmi Wifi Ao Vivo Preto Padrão",
-      "precio_ref": 159.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics",
-      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics",
-      "precio_ref": 21.9,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "carregador portatil power bank basike 10000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Basike 10000mAh 22.5W Rápido 4 Saídas Cabo Embutido Display iPhone Samsung",
-      "precio_ref": 141.84,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
-      "precio_ref": 2389.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "carrinho passeio bebe reversivel berco moises conforto rosa",
-      "nombre": "Carrinho Passeio Bebê Reversível Berço Moisés Conforto Rosa",
-      "precio_ref": 597.91,
-      "categoria": "Bebê",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
-      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
-      "precio_ref": 629.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "cadeira de carro infantil 0 a 36kg eternity",
-      "nombre": "Cadeira De Carro Infantil 0 A 36kg Eternity 360º Maxi Baby",
-      "precio_ref": 650.91,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
-      "precio_ref": 4099.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "body splash arabe c 4un 200ml perfume feminino",
-      "nombre": "Body Splash Arabe C/4un 200ml Perfume Feminino de Luxo Alta Concentração",
-      "precio_ref": 60.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 11 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 11 polegadas (Wi-Fi, 512 GB) - Luz das estrelas (M3)",
-      "precio_ref": 5888.88,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "smart tv lg 43 nano 4k uhd hdmi",
-      "nombre": "Smart Tv Lg 43\" Nano 4k Uhd Hdmi Usb Wi-fi Bluetooth Thinq Ai Alexa Apple Airplay - 43UN85CBPSA.AWZ",
-      "precio_ref": 1912.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "shampoo de glicerina johnson s baby 400ml hipoalergenico",
-      "nombre": "Shampoo de Glicerina Johnson's Baby, 400ml | Hipoalergênico, Testado por Pediatras e Dermatologistas, Fragrância Suave",
-      "precio_ref": 17.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "smartphone samsung galaxy a17 4g 128gb 4gb ram",
-      "nombre": "Smartphone Samsung Galaxy A17, 4G, 128GB, 4GB RAM Preto",
-      "precio_ref": 869.13,
+      "busqueda": "tablet infantil stitch positivo vision tab 7 processador",
+      "nombre": "Tablet Infantil Stitch Positivo Vision Tab 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento Tela 7 IPS, Bateria 3100mAh, Android 14 GO, Wi-Fi - Inclui Capa de Proteção e Mochila, Presente Crianças",
+      "precio_ref": 455.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "nivea sun protetor solar facial fluido uv face",
-      "nombre": "NIVEA SUN Protetor Solar Facial Fluido UV Face Specialist Invisible FPS 70 40ml, Muito Alta Proteção UVA/UVB, Invisível em To",
-      "precio_ref": 54.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "caixa de som portatil inova caixinha com rgb",
-      "nombre": "Caixa De Som Portatil Inova Caixinha Com Rgb Tws Recarregável Subwoofer, Potente Caixas Bluetooth Ideal Festas Ao Ar Livre E Uso Diário, Preto",
-      "precio_ref": 73.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "acer nitro kg270 p0bi 27 polegadas 1920x1080 full",
-      "nombre": "Acer Nitro KG270 P0bi, 27 Polegadas, 1920x1080 Full HD, Monitor Gamer LED VA, 16:9, Anti-Reflexo, 1000:1, 1ms, 144Hz, 18W",
-      "precio_ref": 739.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "colageno renova be com verisol e acido hialuronico",
-      "nombre": "Colágeno Renova Be com Verisol e Ácido Hialurônico",
-      "precio_ref": 80.73,
+      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
+      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition",
+      "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc 24 full hd 100hz 1ms",
-      "nombre": "Monitor Gamer Aoc 24\", Full Hd, 100hz, 1ms, Adaptive-Sync, Hdr, Preto - 24b35hm2",
-      "precio_ref": 521.55,
-      "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "kit 2 cartao de memoria 256gb para fotograficas",
-      "nombre": "Kit 2 Cartão De Memória 256gb Para Fotográficas Drones Celular Câmeras De Segurança Wi-fi Micro Sd Classe 10 Ultra 100mb/s Cartão Sd",
-      "precio_ref": 53.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "notebook lenovo ideapad slim 3 83mms00100 512gb 8gb",
+      "nombre": "Notebook Lenovo Ideapad Slim 3 83mms00100 512gb 8gb + Ebook",
+      "precio_ref": 3771.0,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
       "busqueda": "monitor 23 8 aoc 24b30hm2 full hd 100hz",
@@ -265,215 +89,15 @@
       "precio_ref": 469.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
-      "busqueda": "kit baba eletronica monitor wifi app celular tf",
-      "nombre": "Kit Baba Eletrônica Monitor Wifi App Celular Tf Alarme Choro 127/220v Azul-celeste",
-      "precio_ref": 353.69,
-      "categoria": "Monitores & Displays",
+      "busqueda": "berco bebe portatil sleepguard ajustavel mosquiteiro rosa claro",
+      "nombre": "Berço Bebê Portatil Sleepguard Ajustável Mosquiteiro Rosa-claro",
+      "precio_ref": 534.52,
+      "categoria": "Bebê",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "serum leave in cabelos finos elseve l oreal",
-      "nombre": "Sérum Leave-in Cabelos Finos Elseve L'Oréal Paris Colágeno Encorpador 100ml | Injeção de massa, 7% de peptídeos, alta concent",
-      "precio_ref": 36.88,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "bolsa canguru bebe ergonomica mochila frente costas ate",
-      "nombre": "Bolsa Canguru Bebê Ergonômica Mochila Frente Costas Até 25kg Cinza",
-      "precio_ref": 124.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
-      "precio_ref": 664.05,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "samsung smart tv 43 qled full hd q5f",
-      "nombre": "Samsung Smart Tv 43 Qled Full Hd Q5f 2025, Xbox Cloud Gaming, Canais Gratuitos, Hdr, Som Em Movimento Virtual",
-      "precio_ref": 1557.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s11 wifi 256gb 12gb",
-      "nombre": "Samsung Tablet Galaxy Tab S11 Wifi, 256GB, 12GB RAM, Tela 11\", Galaxy AI, S Pen e Capa Teclado Inclusas",
-      "precio_ref": 5509.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "nac 600mg formula exclusiva com maxima concentracao e",
-      "nombre": "NAC 600mg - Fórmula Exclusiva com Máxima Concentração e Pureza - N-Acetil L-Cisteína - 60 Cápsulas",
-      "precio_ref": 45.77,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "cerave locao hidratante corporal com textura fluida e",
-      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-      "precio_ref": 93.73,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "colchao antiescara pneumatico de ar inflavel para acamados",
-      "nombre": "Colchão Antiescara Pneumático De Ar Inflável Para Acamados",
-      "precio_ref": 177.89,
-      "categoria": "Automotivo",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "ximodot monitor portatil de 15 6 polegadas conectividade",
-      "nombre": "Ximodot Monitor portátil de 15,6 polegadas, Conectividade USB-C HDMI Full HD 1080P e alto-falantes integrados, Monitor gamer",
-      "precio_ref": 339.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
-      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
-      "precio_ref": 424.14,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 processador octa core",
-      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento Tela 7” IPS Bateria 3100mAh, Android 14 Go, Wi-fi - Preto",
-      "precio_ref": 459.08,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
-      "nombre": "L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios para cabelos secos e danificados | Repara e Promove Bril",
-      "precio_ref": 56.62,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "rocadeira aparador grama a bateria recarregavel 460w profissional",
-      "nombre": "Roçadeira Aparador Grama A Bateria Recarregável 460w Profissional Com Acessórios Tcg12b The Black Tools",
-      "precio_ref": 148.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
-      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
-      "precio_ref": 32.22,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a17 com ia 128gb 4gb",
-      "nombre": "Celular Samsung Galaxy A17 Com Ia, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
-      "precio_ref": 845.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "haiz monitor gamer 25 144hz 0 5ms 1920x1080",
-      "nombre": "Haiz Monitor Gamer 25'' 144hz 0.5ms 1920x1080 Adaptative Sync FHD HDMI/DP IPS VESA",
-      "precio_ref": 509.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "torneira cozinha gourmet bancada flexivel monocomando pia preto",
-      "nombre": "Torneira Cozinha Gourmet Bancada Flexível Monocomando Pia Preto B22-black",
-      "precio_ref": 109.99,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "monitor portatil para notebook 15 6 fhd ips",
-      "nombre": "Monitor Portatil para Notebook 15.6\" FHD IPS Ultra Fino 1080P | HDR e FreeSync USB-C/HDMI Tela Portátil para Notebook com Fil",
-      "precio_ref": 359.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "cama casinha toca iglu 2 em 1 gatos",
-      "nombre": "Cama Casinha Toca Iglu 2 Em 1 Gatos Cães Pequenos Lavável Bege",
-      "precio_ref": 63.58,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM, WiFi",
-      "precio_ref": 1585.55,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "caixa de som portatil basike ba rad133 de",
-      "nombre": "Caixa de Som Portátil Basike Ba-RAD133 de 160W, com Bluetooth e Bass Boost",
-      "precio_ref": 477.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 758.09,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "fralda descartavel turma da monica baby m 50",
-      "nombre": "Fralda Descartável Turma da Mônica Baby M 50 Unidades 12 h",
-      "precio_ref": 35.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "vasenol geleia de vaselina hidratante para pele ressecada",
-      "nombre": "Vasenol Geleia de Vaselina Hidratante para Pele Ressecada",
-      "precio_ref": 25.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
-    },
-    {
-      "busqueda": "cadeira de balanco bebe eletrica musical controle azul",
-      "nombre": "Cadeira De Balanco Bebê Elétrica Musical Controle Azul",
-      "precio_ref": 340.09,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     },
     {
       "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
@@ -481,7 +105,383 @@
       "precio_ref": 31.99,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-04T01:11:26+00:00"
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "cadeirinha infantil para carro mass litet 0 a",
+      "nombre": "Cadeirinha Infantil Para Carro Mass Litet 0 A 36kg Com 13 Ajustes De Cabeça 4 Reclínios E Cinto 3 Pontos - BB456",
+      "precio_ref": 533.11,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
+      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
+      "precio_ref": 58.81,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "bicicleta infantil aro 12 menina nathor flower rodinha",
+      "nombre": "Bicicleta Infantil Aro 12 Menina Nathor Flower Rodinha Cesta 2 a 5 Anos",
+      "precio_ref": 219.99,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 28.33,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 256 versao global",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 (256) - Versão Global Verde-menta",
+      "precio_ref": 1354.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "echo dot geracao mais recente smart speaker com",
+      "nombre": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Azul, com Acesso A",
+      "precio_ref": 445.74,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "relogio inteligente smartwatch gps 5atm amoled mapas offline",
+      "nombre": "Relógio Inteligente Smartwatch Gps 5atm Amoled Mapas Offline Branco Smartwatch Esportivo À Prova D'água Com Gps Para Aventuras Ao Ar Livre Preto",
+      "precio_ref": 309.75,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
+      "nombre": "Mini Rack Montado Intelbras 3U 370mm MRM 337 Preto",
+      "precio_ref": 303.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "relogio inteligente smartwatch alexa chamadas bluetooth novante rosa",
+      "nombre": "Relógio Inteligente Smartwatch Alexa Chamadas Bluetooth NOVANTE Rosa Digital Feminino Masculino Esportivo Notificações Instantâneas Agua IP68 350mAh 1.85 AMOLED Com Codificador Monitor Cardíaco Spo2",
+      "precio_ref": 239.39,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 7 5700g box am4 8",
+      "nombre": "Processador AMD Ryzen 7 5700G Box (AM4 / 8 Cores/16 Threads/4.6GHz /16MB Cache/Wraith Stealth/Vega 8) - 100-100000263BOX",
+      "precio_ref": 1294.1,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "tapete higienico pet 30 unidades 90x60 descartavel cao",
+      "nombre": "Tapete Higiênico Pet 30 Unidades 90x60 Descartável Cão Gato",
+      "precio_ref": 47.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "fralda turma da monica baby mega p 62",
+      "nombre": "Fralda Turma da Mônica Baby Mega P 62 Unidades",
+      "precio_ref": 37.66,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "power bank basike 20000mah para notebook e celular",
+      "nombre": "Power Bank Basike 20000mAh para Notebook e Celular com Cabo USB-C 65W",
+      "precio_ref": 207.66,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 5415.32,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "celular smartphone realme c73 256gb 8gb ram dual",
+      "nombre": "Celular Smartphone Realme C73 256gb 8gb Ram Dual Sim 120hz 6 Ah Violeta",
+      "precio_ref": 1114.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
+      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
+      "precio_ref": 18.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "tablet com teclado capa caneta 6gb 256gb entrada",
+      "nombre": "Tablet Com Teclado + Capa Caneta 6gb 256gb Entrada Chip 5g Sortidos",
+      "precio_ref": 599.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "gabinete redragon wideload pro ca 604b pro preto",
+      "nombre": "Gabinete Redragon Wideload Pro CA-604B-PRO Preto",
+      "precio_ref": 433.22,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g15 256gb 12gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G15 256gb 12gb 4GB RAM 8GB RAM Boost Camera 50mp Verde",
+      "precio_ref": 919.08,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 fe 5g 128gb 8gb",
+      "nombre": "Celular Samsung Galaxy S25 FE 5G, 128GB, 8GB, Câmera Tripla - Jet Black",
+      "precio_ref": 3165.61,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "escrivaninha industrial 90cm mesa estudo aparador aco mdf",
+      "nombre": "Escrivaninha Industrial 90cm Mesa Estudo Aparador  Aço Mdf",
+      "precio_ref": 113.07,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
+      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
+      "precio_ref": 629.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "smart tv 32 philco roku tv dolby audio",
+      "nombre": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
+      "precio_ref": 1049.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "placa de video msi rtx 5060 shadow 2x",
+      "nombre": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037",
+      "precio_ref": 2959.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "triciclo eletrico drift infantil 350w luz rgb led",
+      "nombre": "Triciclo Eletrico Drift Infantil 350w Luz Rgb Led Bluetooth Preto",
+      "precio_ref": 952.06,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "purina friskies carne ao molho racao umida 85g",
+      "nombre": "PURINA FRISKIES Carne ao Molho Ração Úmida 85g Pack 15un Gatos Filhotes",
+      "precio_ref": 37.07,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "camisetas raglan protecao uv termica camisas dry fit",
+      "nombre": "Camisetas Raglan Proteção Uv Térmica Camisas Dry Fit Voker",
+      "precio_ref": 36.96,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics",
+      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics",
+      "precio_ref": 21.9,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "samsung smart tv 43 qled full hd q5f",
+      "nombre": "Samsung Smart Tv 43 Qled Full Hd Q5f 2025, Xbox Cloud Gaming, Canais Gratuitos, Hdr, Som Em Movimento Virtual",
+      "precio_ref": 1557.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "dove sabonete em barra original 90g 6 unidades",
+      "nombre": "Dove Sabonete em Barra Original 90g 6 Unidades",
+      "precio_ref": 27.41,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "monitor viewpro 23 6 led com hdmi cor",
+      "nombre": "Monitor Viewpro 23,6 Led Com Hdmi Cor Preto Mwv23 Preto",
+      "precio_ref": 281.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "memoria desktop gamer adata xpg gammix d35 8gb",
+      "nombre": "Memória Desktop Gamer Adata XPG Gammix D35 8GB DDR4 3200 Mhz - AX4U32008G16A-SBKD35",
+      "precio_ref": 425.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "power bank baseus turbo bipow2 pro 20000mah 22",
+      "nombre": "Power Bank Baseus Turbo Bipow2 Pro 20000mah 22.5w Cor Preto",
+      "precio_ref": 197.6,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "bicicleta de equilibrio infantil nathor balance bike aro",
+      "nombre": "Bicicleta de Equilíbrio Infantil Nathor Balance Bike Aro 12 Vermelha",
+      "precio_ref": 242.64,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "piracanjuba proforce bebida proteica liquida sabor cacau zero",
+      "nombre": "Piracanjuba ProForce Bebida Proteica Líquida Sabor Cacau Zero Lactose 23g Proteínas, Caixa 250ml – Pack com 12 Unidades",
+      "precio_ref": 93.99,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "jogo de panelas antiaderente ceramica inducao gas 15",
+      "nombre": "Jogo De Panelas Antiaderente Cerâmica Indução Gas 15 Peças Cinza",
+      "precio_ref": 511.83,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
+      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
+      "precio_ref": 38.79,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "curcuma 130mg colageno tipo ii 45mg formula com",
+      "nombre": "CÚRCUMA 130mg + COLÁGENO Tipo Ii 45mg - Fórmula com Máxima Concentração e Pureza - 60 Cápsulas",
+      "precio_ref": 47.77,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc 24 full hd 100hz 1ms",
+      "nombre": "Monitor Gamer Aoc 24\", Full Hd, 100hz, 1ms, Adaptive-Sync, Hdr, Preto - 24b35hm2",
+      "precio_ref": 521.55,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "torneira cozinha gourmet bancada flexivel monocomando pia preto",
+      "nombre": "Torneira Cozinha Gourmet Bancada Flexível Monocomando Pia Preto B22-black",
+      "precio_ref": 109.99,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g17 4g 256gb 12gb 4gb",
+      "nombre": "Smartphone Motorola Moto G17 4g - 256GB 12GB (4GB RAM + 8GB RAM Boost) camera 50MP Sony Lytia 600, tela Fhd+ 60hz, bateria 52",
+      "precio_ref": 999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "amazon firetv stick 4k stick wi fi 6",
+      "nombre": "Amazon Firetv Stick 4k Stick Wi-fi-6 Com Alexa Por Voz Preto Preto De Voz",
+      "precio_ref": 273.53,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "cerave locao hidratante corporal com textura fluida e",
+      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
+      "precio_ref": 93.73,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "fonte de agua para gato cachorro bebedouro automatico",
+      "nombre": "Fonte De Agua Para Gato Cachorro Bebedouro Automático Bivolt 110/220 Amarelo",
+      "precio_ref": 40.03,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "fralda pampers premium care pants tamanho xxg facil",
+      "nombre": "Fralda Pampers Premium Care Pants Tamanho XXG, Fácil de Vestir, 90 Unidades",
+      "precio_ref": 169.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "smart tv de 24 philco roku tv ptv24g5yr2cp",
+      "nombre": "Smart TV de 24\" Philco Roku TV PTV24G5YR2CP LED - Preto",
+      "precio_ref": 863.63,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F",
+      "precio_ref": 842.09,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-04T05:23:34+00:00"
     }
   ]
 }
