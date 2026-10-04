@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-smart-tv-tcl-55-polegadas-qled-4k-p8k-wifi-bl": {
-    "ts": "2026-10-02T00:14:09.381251",
-    "canales": {
-      "whatsapp": "2026-10-02T00:14:09.381251"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
   "amz-kingston-kf432c16bbk216-kit-de-memorias-de-16": {
     "ts": "2026-10-02T00:20:01.303519",
     "canales": {
@@ -2382,6 +2372,16 @@
     "precio": 114.0,
     "precios_publicados": [
       114.0
+    ]
+  },
+  "ml-barbeador-e-aparador-eletrico-philips-oneblad": {
+    "ts": "2026-10-04T00:19:18.090858",
+    "canales": {
+      "whatsapp": "2026-10-04T00:19:18.090858"
+    },
+    "precio": 139.0,
+    "precios_publicados": [
+      139.0
     ]
   }
 }
