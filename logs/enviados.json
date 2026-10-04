@@ -234,16 +234,6 @@
     ],
     "precio_min_publicado": 950.0
   },
-  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
-    "ts": "2026-10-02T19:44:29.649205",
-    "canales": {
-      "whatsapp": "2026-10-02T19:44:29.649205"
-    },
-    "precio": 2212.0,
-    "precios_publicados": [
-      2212.0
-    ]
-  },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
     "ts": "2026-10-02T19:51:44.539021",
     "canales": {
@@ -2444,6 +2434,16 @@
     "precio": 151.0,
     "precios_publicados": [
       151.0
+    ]
+  },
+  "amz-max-titanium-creatina-300-gr-monohidratada": {
+    "ts": "2026-10-04T19:45:59.503215",
+    "canales": {
+      "whatsapp": "2026-10-04T19:45:59.503215"
+    },
+    "precio": 42.0,
+    "precios_publicados": [
+      42.0
     ]
   }
 }
