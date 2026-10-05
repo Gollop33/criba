@@ -264,16 +264,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
-    "ts": "2026-10-03T23:28:19.698090",
-    "canales": {
-      "whatsapp": "2026-10-03T23:28:19.698090"
-    },
-    "precio": 1699.0,
-    "precios_publicados": [
-      1699.0
-    ]
-  },
   "ml-racao-seca-formula-natural-fresh-meat-gatos-f": {
     "ts": "2026-10-03T23:37:40.775319",
     "canales": {
@@ -1814,6 +1804,16 @@
     "precio": 445.0,
     "precios_publicados": [
       445.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
+    "ts": "2026-10-05T23:33:32.770418",
+    "canales": {
+      "whatsapp": "2026-10-05T23:33:32.770418"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
