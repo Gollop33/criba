@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
-    "ts": "2026-10-03T21:25:30.000251",
-    "canales": {
-      "whatsapp": "2026-10-03T21:25:30.000251"
-    },
-    "precio": 1452.0,
-    "precios_publicados": [
-      1452.0
-    ]
-  },
   "ml-ecozendsy-colchao-inflavel-casal-queen-size-c": {
     "ts": "2026-10-03T21:34:26.788321",
     "canales": {
@@ -1869,6 +1859,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book6-16-copilot-pc-w": {
+    "ts": "2026-10-05T21:27:06.544876",
+    "canales": {
+      "whatsapp": "2026-10-05T21:27:06.544876"
+    },
+    "precio": 7699.0,
+    "precios_publicados": [
+      7699.0
     ]
   }
 }
