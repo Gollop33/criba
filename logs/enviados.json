@@ -285,16 +285,6 @@
     ],
     "precio_min_publicado": 367.0
   },
-  "ml-kit-10-potes-hermeticos-vidro-tampa-bambu-sei": {
-    "ts": "2026-10-03T00:52:58.007755",
-    "canales": {
-      "whatsapp": "2026-10-03T00:52:58.007755"
-    },
-    "precio": 123.0,
-    "precios_publicados": [
-      123.0
-    ]
-  },
   "ml-smartphone-motorola-edge-70-fusion-5g-fifa-wo": {
     "ts": "2026-10-04T18:35:02.293857",
     "canales": {
@@ -2435,6 +2425,16 @@
     "precio": 2675.0,
     "precios_publicados": [
       2675.0
+    ]
+  },
+  "ml-patinete-eletrico-infantil-triciclo-pares-dri": {
+    "ts": "2026-10-05T00:58:42.787970",
+    "canales": {
+      "whatsapp": "2026-10-05T00:58:42.787970"
+    },
+    "precio": 809.0,
+    "precios_publicados": [
+      809.0
     ]
   }
 }
