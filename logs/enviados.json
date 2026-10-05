@@ -264,26 +264,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-apple-iphone-17-pro-max-512-gb-prateado": {
-    "ts": "2026-10-03T22:42:53.291313",
-    "canales": {
-      "whatsapp": "2026-10-03T22:42:53.291313"
-    },
-    "precio": 10885.0,
-    "precios_publicados": [
-      10885.0
-    ]
-  },
-  "ml-piano-teclado-musical-infantil-pianinho-micro": {
-    "ts": "2026-10-03T22:47:03.731604",
-    "canales": {
-      "whatsapp": "2026-10-03T22:47:03.731604"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
   "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
     "ts": "2026-10-03T22:50:14.285685",
     "canales": {
@@ -1852,6 +1832,16 @@
     "precio": 365.0,
     "precios_publicados": [
       365.0
+    ]
+  },
+  "amz-notebook-asus-rog-strix-g16-intel-core-i9-rtx": {
+    "ts": "2026-10-05T22:49:17.324598",
+    "canales": {
+      "whatsapp": "2026-10-05T22:49:17.324598"
+    },
+    "precio": 11179.0,
+    "precios_publicados": [
+      11179.0
     ]
   }
 }
