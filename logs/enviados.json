@@ -83,14 +83,15 @@
     "precio_min_publicado": 4099.0
   },
   "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
-    "ts": "2026-10-04T13:44:36.335310",
+    "ts": "2026-10-05T22:29:49.599678",
     "canales": {
-      "whatsapp": "2026-10-04T13:44:36.335310"
+      "whatsapp": "2026-10-05T22:29:49.599678"
     },
-    "precio": 97.0,
+    "precio": 86.0,
     "precios_publicados": [
       93.0,
-      97.0
+      97.0,
+      86.0
     ],
     "precio_min_publicado": 93.0
   },
@@ -262,26 +263,6 @@
       41.0
     ],
     "precio_min_publicado": 44.0
-  },
-  "ml-laptop-infantil-educativo-candide-disney-stit": {
-    "ts": "2026-10-03T22:25:20.816549",
-    "canales": {
-      "whatsapp": "2026-10-03T22:25:20.816549"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
-  "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
-    "ts": "2026-10-03T22:27:42.353196",
-    "canales": {
-      "whatsapp": "2026-10-03T22:27:42.353196"
-    },
-    "precio": 419.0,
-    "precios_publicados": [
-      419.0
-    ]
   },
   "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-10-03T22:33:01.658171",
