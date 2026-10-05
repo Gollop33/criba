@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
-    "ts": "2026-10-03T20:54:03.699483",
-    "canales": {
-      "whatsapp": "2026-10-03T20:54:03.699483"
-    },
-    "precio": 413.0,
-    "precios_publicados": [
-      413.0
-    ]
-  },
   "ml-suco-de-uva-maca-e-pera-natural-one-temperatu": {
     "ts": "2026-10-03T21:04:06.151754",
     "canales": {
@@ -1857,6 +1847,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "ml-suco-natural-one-laranja-e-maca-ambiente-180m": {
+    "ts": "2026-10-05T20:57:46.039996",
+    "canales": {
+      "whatsapp": "2026-10-05T20:57:46.039996"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
