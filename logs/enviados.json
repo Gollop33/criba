@@ -285,26 +285,6 @@
     ],
     "precio_min_publicado": 367.0
   },
-  "ml-cama-elastica-pula-pula-infantil-trampolim-14": {
-    "ts": "2026-10-03T00:47:40.900923",
-    "canales": {
-      "whatsapp": "2026-10-03T00:47:40.900923"
-    },
-    "precio": 284.0,
-    "precios_publicados": [
-      284.0
-    ]
-  },
-  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
-    "ts": "2026-10-03T00:49:01.354570",
-    "canales": {
-      "whatsapp": "2026-10-03T00:49:01.354570"
-    },
-    "precio": 247.0,
-    "precios_publicados": [
-      247.0
-    ]
-  },
   "ml-kit-10-potes-hermeticos-vidro-tampa-bambu-sei": {
     "ts": "2026-10-03T00:52:58.007755",
     "canales": {
@@ -2445,6 +2425,16 @@
     "precio": 4499.0,
     "precios_publicados": [
       4499.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
+    "ts": "2026-10-05T00:49:11.413495",
+    "canales": {
+      "whatsapp": "2026-10-05T00:49:11.413495"
+    },
+    "precio": 2675.0,
+    "precios_publicados": [
+      2675.0
     ]
   }
 }
