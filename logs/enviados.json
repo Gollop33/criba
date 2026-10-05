@@ -264,36 +264,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-yodoit-monitor-portatil-156-1080p-100-srgb-fh": {
-    "ts": "2026-10-03T23:13:49.479572",
-    "canales": {
-      "whatsapp": "2026-10-03T23:13:49.479572"
-    },
-    "precio": 405.0,
-    "precios_publicados": [
-      405.0
-    ]
-  },
-  "ml-suco-de-laranja-ambiente-natural-one-17-litro": {
-    "ts": "2026-10-03T23:14:54.506843",
-    "canales": {
-      "whatsapp": "2026-10-03T23:14:54.506843"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
-  "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
-    "ts": "2026-10-03T23:19:39.692627",
-    "canales": {
-      "whatsapp": "2026-10-03T23:19:39.692627"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0
-    ]
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-10-03T23:28:19.698090",
     "canales": {
@@ -1824,6 +1794,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
+    "ts": "2026-10-05T23:22:09.386901",
+    "canales": {
+      "whatsapp": "2026-10-05T23:22:09.386901"
+    },
+    "precio": 4081.0,
+    "precios_publicados": [
+      4081.0
     ]
   }
 }
