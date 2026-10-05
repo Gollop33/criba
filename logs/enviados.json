@@ -167,18 +167,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-mouse-gamer-logitech-g203-lightsync-rgb-efeit": {
-    "ts": "2026-10-03T23:34:58.291631",
-    "canales": {
-      "whatsapp": "2026-10-03T23:34:58.291631"
-    },
-    "precio": 85.0,
-    "precios_publicados": [
-      89.0,
-      85.0
-    ],
-    "precio_min_publicado": 89.0
-  },
   "ml-jogo-de-panelas-smart-plus-vanilla-inducao-ce": {
     "ts": "2026-10-04T18:59:50.371510",
     "canales": {
@@ -263,16 +251,6 @@
       41.0
     ],
     "precio_min_publicado": 44.0
-  },
-  "ml-racao-seca-formula-natural-fresh-meat-gatos-f": {
-    "ts": "2026-10-03T23:37:40.775319",
-    "canales": {
-      "whatsapp": "2026-10-03T23:37:40.775319"
-    },
-    "precio": 318.0,
-    "precios_publicados": [
-      318.0
-    ]
   },
   "amz-mondial-ventilador-de-mesa-110v-30cm-6-pas-su": {
     "ts": "2026-10-03T23:44:31.483776",
@@ -1824,6 +1802,16 @@
     "precio": 1044.0,
     "precios_publicados": [
       1044.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
+    "ts": "2026-10-05T23:43:22.012830",
+    "canales": {
+      "whatsapp": "2026-10-05T23:43:22.012830"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
