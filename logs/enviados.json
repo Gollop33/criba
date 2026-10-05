@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-xiaomi-redmi-note-15-pro-5g-512gb-12gb-ram-or": {
-    "ts": "2026-10-03T21:15:55.226113",
-    "canales": {
-      "whatsapp": "2026-10-03T21:15:55.226113"
-    },
-    "precio": 2428.0,
-    "precios_publicados": [
-      2428.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
     "ts": "2026-10-03T21:25:30.000251",
     "canales": {
@@ -1867,6 +1857,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "ml-bicicleta-infantil-de-equilibrio-sem-pedal-an": {
+    "ts": "2026-10-05T21:17:43.749736",
+    "canales": {
+      "whatsapp": "2026-10-05T21:17:43.749736"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
