@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-mochila-bolsa-lequeen-smart-multifuncional-mo": {
-    "ts": "2026-10-03T20:17:15.685402",
-    "canales": {
-      "whatsapp": "2026-10-03T20:17:15.685402"
-    },
-    "precio": 194.0,
-    "precios_publicados": [
-      194.0
-    ]
-  },
   "amz-tapete-higienico-premium-para-caes-petlike-ul": {
     "ts": "2026-10-03T20:25:54.210479",
     "canales": {
@@ -1144,14 +1134,16 @@
     ]
   },
   "ml-kit-5-toalhas-banho-gigante-grossa-hotel-luxo": {
-    "ts": "2026-10-04T17:08:15.606230",
+    "ts": "2026-10-05T20:21:36.294808",
     "canales": {
-      "whatsapp": "2026-10-04T17:08:15.606230"
+      "whatsapp": "2026-10-05T20:21:36.294808"
     },
-    "precio": 116.0,
+    "precio": 109.0,
     "precios_publicados": [
-      116.0
-    ]
+      116.0,
+      109.0
+    ],
+    "precio_min_publicado": 116.0
   },
   "amz-kindle-16-gb-modelo-2024-leve-e-compacto-com-": {
     "ts": "2026-10-04T17:15:28.725396",
