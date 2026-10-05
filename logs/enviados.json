@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-10-03T21:57:57.308223",
-    "canales": {
-      "whatsapp": "2026-10-03T21:57:57.308223"
-    },
-    "precio": 6015.0,
-    "precios_publicados": [
-      6015.0
-    ]
-  },
   "ml-vedo-kit-microfone-7-pecas-dinamicos-com-fio-": {
     "ts": "2026-10-03T22:03:38.722568",
     "canales": {
@@ -1869,6 +1859,16 @@
     "precio": 93.0,
     "precios_publicados": [
       93.0
+    ]
+  },
+  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
+    "ts": "2026-10-05T22:01:21.345926",
+    "canales": {
+      "whatsapp": "2026-10-05T22:01:21.345926"
+    },
+    "precio": 4649.0,
+    "precios_publicados": [
+      4649.0
     ]
   }
 }
