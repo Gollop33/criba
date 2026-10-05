@@ -1326,14 +1326,16 @@
     ]
   },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-10-04T19:34:03.023049",
+    "ts": "2026-10-05T20:29:40.806002",
     "canales": {
-      "whatsapp": "2026-10-04T19:34:03.023049"
+      "whatsapp": "2026-10-05T20:29:40.806002"
     },
-    "precio": 169.0,
+    "precio": 159.0,
     "precios_publicados": [
-      169.0
-    ]
+      169.0,
+      159.0
+    ],
+    "precio_min_publicado": 169.0
   },
   "ml-auxiliar-de-partida-carregador-bateria-com-co": {
     "ts": "2026-10-04T19:43:03.764231",
