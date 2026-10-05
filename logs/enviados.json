@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-lixeira-inteligente-automatica-com-sensor-inf": {
-    "ts": "2026-10-03T20:51:50.534030",
-    "canales": {
-      "whatsapp": "2026-10-03T20:51:50.534030"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
-  },
   "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
     "ts": "2026-10-03T20:54:03.699483",
     "canales": {
@@ -1857,6 +1847,16 @@
     "precio": 184.0,
     "precios_publicados": [
       184.0
+    ]
+  },
+  "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
+    "ts": "2026-10-05T20:53:22.593831",
+    "canales": {
+      "whatsapp": "2026-10-05T20:53:22.593831"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
