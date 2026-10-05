@@ -263,16 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-tapete-higienico-premium-para-caes-petlike-ul": {
-    "ts": "2026-10-03T20:25:54.210479",
-    "canales": {
-      "whatsapp": "2026-10-03T20:25:54.210479"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "ml-caixa-de-som-bluetooth-jbl-partybox-onthego-e": {
     "ts": "2026-10-03T20:32:43.576773",
     "canales": {
@@ -1863,6 +1853,16 @@
     "precio": 3099.0,
     "precios_publicados": [
       3099.0
+    ]
+  },
+  "ml-manta-de-bebe-tricot-menina-cobertor-infantil": {
+    "ts": "2026-10-05T20:27:12.865711",
+    "canales": {
+      "whatsapp": "2026-10-05T20:27:12.865711"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
