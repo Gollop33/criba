@@ -263,26 +263,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-suco-de-uva-maca-e-pera-natural-one-temperatu": {
-    "ts": "2026-10-03T21:04:06.151754",
-    "canales": {
-      "whatsapp": "2026-10-03T21:04:06.151754"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
-  "amz-apple-iphone-15-128-gb-preto": {
-    "ts": "2026-10-03T21:11:18.662729",
-    "canales": {
-      "whatsapp": "2026-10-03T21:11:18.662729"
-    },
-    "precio": 4220.0,
-    "precios_publicados": [
-      4220.0
-    ]
-  },
   "ml-xiaomi-redmi-note-15-pro-5g-512gb-12gb-ram-or": {
     "ts": "2026-10-03T21:15:55.226113",
     "canales": {
@@ -1877,6 +1857,16 @@
     "precio": 520.0,
     "precios_publicados": [
       520.0
+    ]
+  },
+  "amz-fralda-turma-da-monica-baby-mega-p-62-unidade": {
+    "ts": "2026-10-05T21:12:11.283057",
+    "canales": {
+      "whatsapp": "2026-10-05T21:12:11.283057"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
