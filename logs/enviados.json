@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-barbeador-e-aparador-eletrico-philips-oneblad": {
-    "ts": "2026-10-04T00:19:18.090858",
-    "canales": {
-      "whatsapp": "2026-10-04T00:19:18.090858"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-smartphone-poco-x8-pro-512gb-12gb-ram-branco-": {
     "ts": "2026-10-04T00:24:34.338887",
     "canales": {
@@ -658,14 +648,16 @@
     ]
   },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
-    "ts": "2026-10-04T16:44:45.609477",
+    "ts": "2026-10-06T00:22:26.847982",
     "canales": {
-      "whatsapp": "2026-10-04T16:44:45.609477"
+      "whatsapp": "2026-10-06T00:22:26.847982"
     },
     "precio": 13.0,
     "precios_publicados": [
+      13.0,
       13.0
-    ]
+    ],
+    "precio_min_publicado": 13.0
   },
   "ml-smart-tv-philips-50-4k-50pug7300-comando-de-v": {
     "ts": "2026-10-04T16:50:08.963917",
