@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-06T15:33:21+00:00",
-  "total": 64,
+  "actualizado": "2026-10-06T21:00:12+00:00",
+  "total": 68,
   "fuentes": [
     "Telegram ML Afiliados"
   ],
@@ -619,14 +619,14 @@
     },
     {
       "codigo": "BRINCADEIRAS",
-      "desconto": "15% OFF",
+      "desconto": "20% OFF",
       "compra_minima": "R$59",
       "limite": "R$50",
-      "hasta": "",
+      "hasta": "2026-10-06",
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-05T13:19:05+00:00",
+      "detectado_em": "2026-10-06T17:11:26+00:00",
       "vigente": true
     },
     {
@@ -810,6 +810,54 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-06T13:00:08+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "MODANOMELI",
+      "desconto": "15% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$50",
+      "hasta": "2026-10-09",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-06T17:11:26+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "PROMONOML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-06T17:11:26+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "COMPRASML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-06T17:11:26+00:00",
+      "vigente": true
+    },
+    {
+      "codigo": "OFERTASML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$99",
+      "limite": "R$50",
+      "hasta": "2026-10-09",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-06T17:11:26+00:00",
       "vigente": true
     }
   ]
