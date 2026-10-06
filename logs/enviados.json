@@ -219,16 +219,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-10-04T23:05:36.166277",
-    "canales": {
-      "whatsapp": "2026-10-04T23:05:36.166277"
-    },
-    "precio": 4999.0,
-    "precios_publicados": [
-      4999.0
-    ]
-  },
   "ml-propolis-silvestre-natural-extrato-seco-11-ba": {
     "ts": "2026-10-04T23:11:20.053173",
     "canales": {
@@ -1659,6 +1649,16 @@
     "precio": 41.0,
     "precios_publicados": [
       41.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-250ml-limpeza-s": {
+    "ts": "2026-10-06T23:07:04.327133",
+    "canales": {
+      "whatsapp": "2026-10-06T23:07:04.327133"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
