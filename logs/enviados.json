@@ -219,26 +219,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-propolis-silvestre-natural-extrato-seco-11-ba": {
-    "ts": "2026-10-04T23:11:20.053173",
-    "canales": {
-      "whatsapp": "2026-10-04T23:11:20.053173"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
-  "amz-huggies-fralda-descartavel-premium-natural-ca": {
-    "ts": "2026-10-04T23:15:02.901613",
-    "canales": {
-      "whatsapp": "2026-10-04T23:15:02.901613"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "ml-vedo-tocadiscos-vinilbluetoothaltofalantes3-v": {
     "ts": "2026-10-04T23:17:24.251309",
     "canales": {
@@ -1669,6 +1649,16 @@
     "precio": 959.0,
     "precios_publicados": [
       959.0
+    ]
+  },
+  "amz-morte-subita-mascara-super-hidratante-450g-lo": {
+    "ts": "2026-10-06T23:15:12.426399",
+    "canales": {
+      "whatsapp": "2026-10-06T23:15:12.426399"
+    },
+    "precio": 30.0,
+    "precios_publicados": [
+      30.0
     ]
   }
 }
