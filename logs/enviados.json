@@ -242,26 +242,6 @@
     ],
     "precio_min_publicado": 944.0
   },
-  "ml-tenis-esportivo-masculino-goya-3-mizuno-preto": {
-    "ts": "2026-10-04T15:57:55.155625",
-    "canales": {
-      "whatsapp": "2026-10-04T15:57:55.155625"
-    },
-    "precio": 230.0,
-    "precios_publicados": [
-      230.0
-    ]
-  },
-  "ml-smart-tv-hd-32-lg-lb650-ai-2026-processador-5": {
-    "ts": "2026-10-04T16:04:31.817501",
-    "canales": {
-      "whatsapp": "2026-10-04T16:04:31.817501"
-    },
-    "precio": 1259.0,
-    "precios_publicados": [
-      1259.0
-    ]
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-10-04T16:14:25.858838",
     "canales": {
@@ -1534,6 +1514,16 @@
     "precio": 3354.0,
     "precios_publicados": [
       3354.0
+    ]
+  },
+  "amz-bellacotton-algodao-quadrado-baby-100-algodao": {
+    "ts": "2026-10-06T16:06:57.259761",
+    "canales": {
+      "whatsapp": "2026-10-06T16:06:57.259761"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
