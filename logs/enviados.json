@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-10-04T20:48:55.157371",
-    "canales": {
-      "whatsapp": "2026-10-04T20:48:55.157371"
-    },
-    "precio": 1298.0,
-    "precios_publicados": [
-      1298.0
-    ]
-  },
   "amz-blue-premium-tapete-higienico-descartavel-par": {
     "ts": "2026-10-04T20:58:53.599524",
     "canales": {
@@ -1653,6 +1643,16 @@
     "precio": 546.0,
     "precios_publicados": [
       546.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-lite-enterprise": {
+    "ts": "2026-10-06T20:50:42.298564",
+    "canales": {
+      "whatsapp": "2026-10-06T20:50:42.298564"
+    },
+    "precio": 2499.0,
+    "precios_publicados": [
+      2499.0
     ]
   }
 }
