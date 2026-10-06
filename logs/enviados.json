@@ -217,16 +217,6 @@
     ],
     "precio_min_publicado": 944.0
   },
-  "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
-    "ts": "2026-10-04T16:42:02.138069",
-    "canales": {
-      "whatsapp": "2026-10-04T16:42:02.138069"
-    },
-    "precio": 296.0,
-    "precios_publicados": [
-      296.0
-    ]
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-10-06T00:22:26.847982",
     "canales": {
@@ -1529,6 +1519,16 @@
     "precio": 219.0,
     "precios_publicados": [
       219.0
+    ]
+  },
+  "amz-apple-2025-ipad-wifi-128-gb-prateado-a16-wifi": {
+    "ts": "2026-10-06T16:44:08.696266",
+    "canales": {
+      "whatsapp": "2026-10-06T16:44:08.696266"
+    },
+    "precio": 4099.0,
+    "precios_publicados": [
+      4099.0
     ]
   }
 }
