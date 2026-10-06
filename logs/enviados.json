@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 116.0
   },
-  "ml-cadeira-ergonomica-mesh-preta-para-escritorio": {
-    "ts": "2026-10-04T17:25:31.746264",
-    "canales": {
-      "whatsapp": "2026-10-04T17:25:31.746264"
-    },
-    "precio": 375.0,
-    "precios_publicados": [
-      375.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-10-04T17:33:58.874693",
     "canales": {
@@ -1549,6 +1539,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-protetor-solar-facial-neutrogena-sun-fresh-de": {
+    "ts": "2026-10-06T17:25:55.051853",
+    "canales": {
+      "whatsapp": "2026-10-06T17:25:55.051853"
+    },
+    "precio": 47.0,
+    "precios_publicados": [
+      47.0
     ]
   }
 }
