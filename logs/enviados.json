@@ -277,16 +277,6 @@
     ],
     "precio_min_publicado": 3968.0
   },
-  "ml-porteiro-residencial-ipr-8010-pretobranco-int": {
-    "ts": "2026-10-04T18:39:35.929621",
-    "canales": {
-      "whatsapp": "2026-10-04T18:39:35.929621"
-    },
-    "precio": 160.0,
-    "precios_publicados": [
-      160.0
-    ]
-  },
   "ml-jogo-de-toalhas-buddemeyer-bella-extra-soft-b": {
     "ts": "2026-10-04T18:41:15.648491",
     "canales": {
@@ -1579,6 +1569,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
+    "ts": "2026-10-06T18:41:05.120383",
+    "canales": {
+      "whatsapp": "2026-10-06T18:41:05.120383"
+    },
+    "precio": 776.0,
+    "precios_publicados": [
+      776.0
     ]
   }
 }
