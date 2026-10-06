@@ -265,16 +265,6 @@
     ],
     "precio_min_publicado": 3968.0
   },
-  "amz-purina-friskies-carne-ao-molho-racao-umida-85": {
-    "ts": "2026-10-04T19:08:41.493328",
-    "canales": {
-      "whatsapp": "2026-10-04T19:08:41.493328"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
   "ml-tenis-kappa-sparta-unissex-original-confortav": {
     "ts": "2026-10-04T19:18:39.917676",
     "canales": {
@@ -1587,6 +1577,16 @@
     "precio": 65.0,
     "precios_publicados": [
       65.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-10-06T19:12:42.524347",
+    "canales": {
+      "whatsapp": "2026-10-06T19:12:42.524347"
+    },
+    "precio": 1049.0,
+    "precios_publicados": [
+      1049.0
     ]
   }
 }
