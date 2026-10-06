@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-farinha-de-amendoa-natural-1kg-alta-proteina-": {
-    "ts": "2026-10-04T00:36:38.133537",
-    "canales": {
-      "whatsapp": "2026-10-04T00:36:38.133537"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-finish-power-powder-advanced-detergente-para-": {
     "ts": "2026-10-04T00:45:19.511207",
     "canales": {
@@ -1767,6 +1757,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
+    "ts": "2026-10-06T00:41:30.991123",
+    "canales": {
+      "whatsapp": "2026-10-06T00:41:30.991123"
+    },
+    "precio": 3399.0,
+    "precios_publicados": [
+      3399.0
     ]
   }
 }
