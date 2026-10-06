@@ -108,18 +108,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "ml-jogo-de-panelas-smart-plus-vanilla-inducao-ce": {
-    "ts": "2026-10-04T18:59:50.371510",
-    "canales": {
-      "whatsapp": "2026-10-04T18:59:50.371510"
-    },
-    "precio": 367.0,
-    "precios_publicados": [
-      367.0,
-      367.0
-    ],
-    "precio_min_publicado": 367.0
-  },
   "ml-smartphone-motorola-edge-70-fusion-5g-fifa-wo": {
     "ts": "2026-10-05T20:01:02.387214",
     "canales": {
@@ -1579,6 +1567,16 @@
     "precio": 1975.0,
     "precios_publicados": [
       1975.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
+    "ts": "2026-10-06T19:01:47.346480",
+    "canales": {
+      "whatsapp": "2026-10-06T19:01:47.346480"
+    },
+    "precio": 64.0,
+    "precios_publicados": [
+      64.0
     ]
   }
 }
