@@ -32,19 +32,6 @@
     ],
     "precio_min_publicado": 1529.0
   },
-  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
-    "ts": "2026-10-04T23:20:59.875527",
-    "canales": {
-      "whatsapp": "2026-10-04T23:20:59.875527"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      49.0,
-      49.0,
-      44.0
-    ],
-    "precio_min_publicado": 49.0
-  },
   "ml-poco-x8-pro-512gb-12gb-ram-original-lancament": {
     "ts": "2026-10-05T00:44:18.003702",
     "canales": {
@@ -1659,6 +1646,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
+    "ts": "2026-10-06T23:29:45.367272",
+    "canales": {
+      "whatsapp": "2026-10-06T23:29:45.367272"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
