@@ -241,16 +241,6 @@
     ],
     "precio_min_publicado": 2099.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-10-04T17:05:59.190093",
-    "canales": {
-      "whatsapp": "2026-10-04T17:05:59.190093"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
   "ml-kit-5-toalhas-banho-gigante-grossa-hotel-luxo": {
     "ts": "2026-10-05T20:21:36.294808",
     "canales": {
@@ -1549,6 +1539,16 @@
     "precio": 798.0,
     "precios_publicados": [
       798.0
+    ]
+  },
+  "amz-placa-de-video-msi-rtx-5060-shadow-2x-oc-8gb-": {
+    "ts": "2026-10-06T17:10:42.571953",
+    "canales": {
+      "whatsapp": "2026-10-06T17:10:42.571953"
+    },
+    "precio": 2959.0,
+    "precios_publicados": [
+      2959.0
     ]
   }
 }
