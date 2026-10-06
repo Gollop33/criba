@@ -157,18 +157,6 @@
     ],
     "precio_min_publicado": 49.0
   },
-  "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
-    "ts": "2026-10-04T20:11:35.500447",
-    "canales": {
-      "whatsapp": "2026-10-04T20:11:35.500447"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      44.0,
-      41.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-10-05T22:38:42.422960",
     "canales": {
@@ -264,16 +252,6 @@
       159.0
     ],
     "precio_min_publicado": 169.0
-  },
-  "ml-videoporteiro-residencial-modulo-interno-e-ex": {
-    "ts": "2026-10-04T20:15:49.186005",
-    "canales": {
-      "whatsapp": "2026-10-04T20:15:49.186005"
-    },
-    "precio": 510.0,
-    "precios_publicados": [
-      510.0
-    ]
   },
   "amz-controle-sem-fio-xbox-com-cabo-usbc-preto": {
     "ts": "2026-10-04T20:21:16.845465",
@@ -1635,6 +1613,16 @@
     "precio": 443.0,
     "precios_publicados": [
       443.0
+    ]
+  },
+  "amz-tablet-infantil-positivo-vision-tab-7-minions": {
+    "ts": "2026-10-06T20:17:21.681058",
+    "canales": {
+      "whatsapp": "2026-10-06T20:17:21.681058"
+    },
+    "precio": 469.0,
+    "precios_publicados": [
+      469.0
     ]
   }
 }
