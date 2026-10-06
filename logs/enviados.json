@@ -265,16 +265,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-ddpai-n2-dual-camera-veicular-2k1080p-adas-ip": {
-    "ts": "2026-10-04T19:51:22.131105",
-    "canales": {
-      "whatsapp": "2026-10-04T19:51:22.131105"
-    },
-    "precio": 648.0,
-    "precios_publicados": [
-      648.0
-    ]
-  },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
     "ts": "2026-10-04T20:00:45.097465",
     "canales": {
@@ -1595,6 +1585,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-echo-dot-geracao-mais-recente-smart-speaker-c": {
+    "ts": "2026-10-06T19:51:59.040134",
+    "canales": {
+      "whatsapp": "2026-10-06T19:51:59.040134"
+    },
+    "precio": 329.0,
+    "precios_publicados": [
+      329.0
     ]
   }
 }
