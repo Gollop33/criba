@@ -242,16 +242,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-escorredor-inox-organizador-loucas-2andares-p": {
-    "ts": "2026-10-04T21:21:42.445447",
-    "canales": {
-      "whatsapp": "2026-10-04T21:21:42.445447"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
   "ml-lixeira-smart-inteligente-16-litros-quadrada-": {
     "ts": "2026-10-04T21:32:48.107489",
     "canales": {
@@ -1672,6 +1662,16 @@
     "precio": 95.0,
     "precios_publicados": [
       95.0
+    ]
+  },
+  "amz-scala-plus-papel-toalha-multipicote-200-toalh": {
+    "ts": "2026-10-06T21:26:08.286915",
+    "canales": {
+      "whatsapp": "2026-10-06T21:26:08.286915"
+    },
+    "precio": 7.0,
+    "precios_publicados": [
+      7.0
     ]
   }
 }
