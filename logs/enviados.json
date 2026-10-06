@@ -219,16 +219,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-vedo-tocadiscos-vinilbluetoothaltofalantes3-v": {
-    "ts": "2026-10-04T23:17:24.251309",
-    "canales": {
-      "whatsapp": "2026-10-04T23:17:24.251309"
-    },
-    "precio": 341.0,
-    "precios_publicados": [
-      341.0
-    ]
-  },
   "ml-comedouro-automatico-racao-gatos-e-caes-velds": {
     "ts": "2026-10-04T23:31:00.870044",
     "canales": {
@@ -1659,6 +1649,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-vitafor-omegafor-plus-120-capsulas": {
+    "ts": "2026-10-06T23:20:33.417166",
+    "canales": {
+      "whatsapp": "2026-10-06T23:20:33.417166"
+    },
+    "precio": 129.0,
+    "precios_publicados": [
+      129.0
     ]
   }
 }
