@@ -620,14 +620,16 @@
     ]
   },
   "ml-smart-tv-philco-50-p50vik-4k-uhd-led-roku-dol": {
-    "ts": "2026-10-04T17:02:43.431727",
+    "ts": "2026-10-06T00:57:42.838572",
     "canales": {
-      "whatsapp": "2026-10-04T17:02:43.431727"
+      "whatsapp": "2026-10-06T00:57:42.838572"
     },
-    "precio": 2099.0,
+    "precio": 2036.0,
     "precios_publicados": [
-      2099.0
-    ]
+      2099.0,
+      2036.0
+    ],
+    "precio_min_publicado": 2099.0
   },
   "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
     "ts": "2026-10-04T17:05:59.190093",
