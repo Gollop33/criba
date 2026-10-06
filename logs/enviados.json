@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-bicicleta-eletrica-scooter-bikelete-mt2-500w-": {
-    "ts": "2026-10-04T20:42:01.244413",
-    "canales": {
-      "whatsapp": "2026-10-04T20:42:01.244413"
-    },
-    "precio": 3039.0,
-    "precios_publicados": [
-      3039.0
-    ]
-  },
   "amz-havit-headphone-fone-de-ouvido-h2002d-gamer-c": {
     "ts": "2026-10-04T20:46:06.915409",
     "canales": {
@@ -1643,6 +1633,16 @@
     "precio": 205.0,
     "precios_publicados": [
       205.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
+    "ts": "2026-10-06T20:42:31.331881",
+    "canales": {
+      "whatsapp": "2026-10-06T20:42:31.331881"
+    },
+    "precio": 1239.0,
+    "precios_publicados": [
+      1239.0
     ]
   }
 }
