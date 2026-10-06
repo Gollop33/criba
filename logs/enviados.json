@@ -229,16 +229,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
-    "ts": "2026-10-04T16:57:39.946638",
-    "canales": {
-      "whatsapp": "2026-10-04T16:57:39.946638"
-    },
-    "precio": 1479.0,
-    "precios_publicados": [
-      1479.0
-    ]
-  },
   "ml-smart-tv-philco-50-p50vik-4k-uhd-led-roku-dol": {
     "ts": "2026-10-06T00:57:42.838572",
     "canales": {
@@ -1529,6 +1519,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
+    "ts": "2026-10-06T16:58:07.856950",
+    "canales": {
+      "whatsapp": "2026-10-06T16:58:07.856950"
+    },
+    "precio": 159.0,
+    "precios_publicados": [
+      159.0
     ]
   }
 }
