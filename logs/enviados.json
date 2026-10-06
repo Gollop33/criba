@@ -277,16 +277,6 @@
     ],
     "precio_min_publicado": 3968.0
   },
-  "ml-berco-portatil-infantil-cercado-desmontavel-l": {
-    "ts": "2026-10-04T18:17:04.535550",
-    "canales": {
-      "whatsapp": "2026-10-04T18:17:04.535550"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
   "amz-galaxy-tab-a9-5g-grafite-tela-11-64-gb-4gb-ra": {
     "ts": "2026-10-04T18:22:06.609570",
     "canales": {
@@ -1579,6 +1569,16 @@
     "precio": 2099.0,
     "precios_publicados": [
       2099.0
+    ]
+  },
+  "amz-mouse-gamer-logitech-g203-lightsync-rgb-efeit": {
+    "ts": "2026-10-06T18:22:02.990196",
+    "canales": {
+      "whatsapp": "2026-10-06T18:22:02.990196"
+    },
+    "precio": 85.0,
+    "precios_publicados": [
+      85.0
     ]
   }
 }
