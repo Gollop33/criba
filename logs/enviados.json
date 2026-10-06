@@ -230,16 +230,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-lixeira-smart-inteligente-16-litros-quadrada-": {
-    "ts": "2026-10-04T21:32:48.107489",
-    "canales": {
-      "whatsapp": "2026-10-04T21:32:48.107489"
-    },
-    "precio": 61.0,
-    "precios_publicados": [
-      61.0
-    ]
-  },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
     "ts": "2026-10-04T21:37:37.677451",
     "canales": {
@@ -1680,6 +1670,16 @@
     "precio": 1999.0,
     "precios_publicados": [
       1999.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-10-06T21:35:12.708762",
+    "canales": {
+      "whatsapp": "2026-10-06T21:35:12.708762"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
