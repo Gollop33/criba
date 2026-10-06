@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "amz-havit-headphone-fone-de-ouvido-h2002d-gamer-c": {
-    "ts": "2026-10-04T20:46:06.915409",
-    "canales": {
-      "whatsapp": "2026-10-04T20:46:06.915409"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
     "ts": "2026-10-04T20:48:55.157371",
     "canales": {
@@ -1653,6 +1643,16 @@
     "precio": 148.0,
     "precios_publicados": [
       148.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-moana-processado": {
+    "ts": "2026-10-06T20:46:42.037116",
+    "canales": {
+      "whatsapp": "2026-10-06T20:46:42.037116"
+    },
+    "precio": 546.0,
+    "precios_publicados": [
+      546.0
     ]
   }
 }
