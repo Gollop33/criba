@@ -18,19 +18,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
-    "ts": "2026-10-04T16:36:55.335867",
-    "canales": {
-      "whatsapp": "2026-10-04T16:36:55.335867"
-    },
-    "precio": 235.0,
-    "precios_publicados": [
-      243.0,
-      249.0,
-      235.0
-    ],
-    "precio_min_publicado": 243.0
-  },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
     "ts": "2026-10-05T00:32:16.145879",
     "canales": {
@@ -229,16 +216,6 @@
       1034.0
     ],
     "precio_min_publicado": 944.0
-  },
-  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
-    "ts": "2026-10-04T16:34:38.528692",
-    "canales": {
-      "whatsapp": "2026-10-04T16:34:38.528692"
-    },
-    "precio": 1740.0,
-    "precios_publicados": [
-      1740.0
-    ]
   },
   "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
     "ts": "2026-10-04T16:42:02.138069",
@@ -1542,6 +1519,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
+    "ts": "2026-10-06T16:40:24.525274",
+    "canales": {
+      "whatsapp": "2026-10-06T16:40:24.525274"
+    },
+    "precio": 219.0,
+    "precios_publicados": [
+      219.0
     ]
   }
 }
