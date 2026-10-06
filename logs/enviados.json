@@ -242,16 +242,6 @@
     ],
     "precio_min_publicado": 944.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-10-04T15:47:55.499514",
-    "canales": {
-      "whatsapp": "2026-10-04T15:47:55.499514"
-    },
-    "precio": 1580.0,
-    "precios_publicados": [
-      1580.0
-    ]
-  },
   "ml-tenis-esportivo-masculino-goya-3-mizuno-preto": {
     "ts": "2026-10-04T15:57:55.155625",
     "canales": {
@@ -1524,6 +1514,16 @@
     "precio": 76.0,
     "precios_publicados": [
       76.0
+    ]
+  },
+  "amz-dove-sabonete-em-barra-original-90g-6-unidade": {
+    "ts": "2026-10-06T15:54:44.890282",
+    "canales": {
+      "whatsapp": "2026-10-06T15:54:44.890282"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
