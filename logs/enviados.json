@@ -206,16 +206,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-comedouro-automatico-racao-gatos-e-caes-velds": {
-    "ts": "2026-10-04T23:31:00.870044",
-    "canales": {
-      "whatsapp": "2026-10-04T23:31:00.870044"
-    },
-    "precio": 249.0,
-    "precios_publicados": [
-      249.0
-    ]
-  },
   "amz-controle-sem-fio-playstation-dualsensetm-edic": {
     "ts": "2026-10-04T23:40:02.783764",
     "canales": {
@@ -1656,6 +1646,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-omega-3-epa-dha-1g-120-caps-vitafor": {
+    "ts": "2026-10-06T23:35:38.094034",
+    "canales": {
+      "whatsapp": "2026-10-06T23:35:38.094034"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
