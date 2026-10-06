@@ -277,16 +277,6 @@
     ],
     "precio_min_publicado": 3968.0
   },
-  "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
-    "ts": "2026-10-04T18:02:19.005735",
-    "canales": {
-      "whatsapp": "2026-10-04T18:02:19.005735"
-    },
-    "precio": 969.0,
-    "precios_publicados": [
-      969.0
-    ]
-  },
   "ml-berco-portatil-infantil-cercado-desmontavel-l": {
     "ts": "2026-10-04T18:17:04.535550",
     "canales": {
@@ -1559,6 +1549,16 @@
     "precio": 86.0,
     "precios_publicados": [
       86.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-10-06T18:04:07.246355",
+    "canales": {
+      "whatsapp": "2026-10-06T18:04:07.246355"
+    },
+    "precio": 479.0,
+    "precios_publicados": [
+      479.0
     ]
   }
 }
