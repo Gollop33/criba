@@ -230,16 +230,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-kit-3x-colageno-verisol-acido-hialuronico-bio": {
-    "ts": "2026-10-04T22:14:12.120073",
-    "canales": {
-      "whatsapp": "2026-10-04T22:14:12.120073"
-    },
-    "precio": 170.0,
-    "precios_publicados": [
-      170.0
-    ]
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-10-04T22:19:14.180930",
     "canales": {
@@ -1680,6 +1670,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
+    "ts": "2026-10-06T22:18:26.060759",
+    "canales": {
+      "whatsapp": "2026-10-06T22:18:26.060759"
+    },
+    "precio": 1066.0,
+    "precios_publicados": [
+      1066.0
     ]
   }
 }
