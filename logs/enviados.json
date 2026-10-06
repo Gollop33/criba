@@ -253,16 +253,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-celular-motorola-moto-g56-256gb-12gb-ram-5g-d": {
-    "ts": "2026-10-04T00:49:20.099229",
-    "canales": {
-      "whatsapp": "2026-10-04T00:49:20.099229"
-    },
-    "precio": 1554.0,
-    "precios_publicados": [
-      1554.0
-    ]
-  },
   "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
     "ts": "2026-10-04T00:58:48.731044",
     "canales": {
@@ -1767,6 +1757,16 @@
     "precio": 93.0,
     "precios_publicados": [
       93.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
+    "ts": "2026-10-06T00:50:48.910069",
+    "canales": {
+      "whatsapp": "2026-10-06T00:50:48.910069"
+    },
+    "precio": 2249.0,
+    "precios_publicados": [
+      2249.0
     ]
   }
 }
