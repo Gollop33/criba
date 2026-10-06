@@ -122,18 +122,6 @@
     ],
     "precio_min_publicado": 152.0
   },
-  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
-    "ts": "2026-10-04T22:53:33.233310",
-    "canales": {
-      "whatsapp": "2026-10-04T22:53:33.233310"
-    },
-    "precio": 48.0,
-    "precios_publicados": [
-      49.0,
-      48.0
-    ],
-    "precio_min_publicado": 49.0
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-10-06T22:44:12.093327",
     "canales": {
@@ -1661,6 +1649,16 @@
     "precio": 62.0,
     "precios_publicados": [
       62.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-10-06T22:55:46.398511",
+    "canales": {
+      "whatsapp": "2026-10-06T22:55:46.398511"
+    },
+    "precio": 1411.0,
+    "precios_publicados": [
+      1411.0
     ]
   }
 }
