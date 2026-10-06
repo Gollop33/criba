@@ -253,26 +253,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-video-porteiro-ivr-1010-branco-e-preto-intelb": {
-    "ts": "2026-10-04T20:30:56.992421",
-    "canales": {
-      "whatsapp": "2026-10-04T20:30:56.992421"
-    },
-    "precio": 370.0,
-    "precios_publicados": [
-      370.0
-    ]
-  },
-  "amz-volante-e-pedais-logitech-g29-driving-force-c": {
-    "ts": "2026-10-04T20:33:15.500190",
-    "canales": {
-      "whatsapp": "2026-10-04T20:33:15.500190"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
-  },
   "ml-bicicleta-eletrica-scooter-bikelete-mt2-500w-": {
     "ts": "2026-10-04T20:42:01.244413",
     "canales": {
@@ -1633,6 +1613,16 @@
     "precio": 179.0,
     "precios_publicados": [
       179.0
+    ]
+  },
+  "amz-luxcar-new-fresh-gel-carro-novo-60-g-aromatiz": {
+    "ts": "2026-10-06T20:34:12.714179",
+    "canales": {
+      "whatsapp": "2026-10-06T20:34:12.714179"
+    },
+    "precio": 7.0,
+    "precios_publicados": [
+      7.0
     ]
   }
 }
