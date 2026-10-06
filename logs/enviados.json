@@ -110,18 +110,6 @@
     ],
     "precio_min_publicado": 2199.0
   },
-  "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
-    "ts": "2026-10-04T21:31:14.242796",
-    "canales": {
-      "whatsapp": "2026-10-04T21:31:14.242796"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      43.0,
-      44.0
-    ],
-    "precio_min_publicado": 43.0
-  },
   "ml-suplemento-natural-pet-p-dermatite-e-leishman": {
     "ts": "2026-10-04T23:57:00.570503",
     "canales": {
@@ -1672,6 +1660,16 @@
     "precio": 7.0,
     "precios_publicados": [
       7.0
+    ]
+  },
+  "amz-sublime-papel-higienico-folha-dupla-24-rolos": {
+    "ts": "2026-10-06T21:31:16.926408",
+    "canales": {
+      "whatsapp": "2026-10-06T21:31:16.926408"
+    },
+    "precio": 28.0,
+    "precios_publicados": [
+      28.0
     ]
   }
 }
