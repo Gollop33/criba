@@ -265,16 +265,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-kit-reparo-pneu-sem-camara-maleta-25-remendos": {
-    "ts": "2026-10-04T20:05:45.784337",
-    "canales": {
-      "whatsapp": "2026-10-04T20:05:45.784337"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "ml-videoporteiro-residencial-modulo-interno-e-ex": {
     "ts": "2026-10-04T20:15:49.186005",
     "canales": {
@@ -1625,6 +1615,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-11-8256gb-wifi-grafite-cin": {
+    "ts": "2026-10-06T20:06:45.948679",
+    "canales": {
+      "whatsapp": "2026-10-06T20:06:45.948679"
+    },
+    "precio": 1480.0,
+    "precios_publicados": [
+      1480.0
     ]
   }
 }
