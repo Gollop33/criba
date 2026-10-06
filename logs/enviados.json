@@ -254,16 +254,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-bicicleta-infantil-aro-16-masculina-ate-7-ano": {
-    "ts": "2026-10-04T21:04:23.048893",
-    "canales": {
-      "whatsapp": "2026-10-04T21:04:23.048893"
-    },
-    "precio": 495.0,
-    "precios_publicados": [
-      495.0
-    ]
-  },
   "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
     "ts": "2026-10-04T21:07:26.873472",
     "canales": {
@@ -1674,6 +1664,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-secret-desodorante-antitranspirante-em-gel-la": {
+    "ts": "2026-10-06T21:05:06.024572",
+    "canales": {
+      "whatsapp": "2026-10-06T21:05:06.024572"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
