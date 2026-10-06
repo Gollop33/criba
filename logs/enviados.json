@@ -230,16 +230,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "ml-power-bank-baseus-turbo-bipow2-pro-20000mah-2": {
-    "ts": "2026-10-04T21:47:36.930034",
-    "canales": {
-      "whatsapp": "2026-10-04T21:47:36.930034"
-    },
-    "precio": 197.0,
-    "precios_publicados": [
-      197.0
-    ]
-  },
   "amz-boni-natural-creme-dental-com-oleos-naturais-": {
     "ts": "2026-10-04T21:55:56.618108",
     "canales": {
@@ -1680,6 +1670,16 @@
     "precio": 318.0,
     "precios_publicados": [
       318.0
+    ]
+  },
+  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
+    "ts": "2026-10-06T21:48:34.253558",
+    "canales": {
+      "whatsapp": "2026-10-06T21:48:34.253558"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
