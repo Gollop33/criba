@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 1044.0
   },
-  "ml-pacote-fralda-calca-mamy-poko-super-protecao-": {
-    "ts": "2026-10-05T23:49:26.527725",
-    "canales": {
-      "whatsapp": "2026-10-05T23:49:26.527725"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "ml-smart-tv-lg-43-4k-ultra-hd-nano-ai-webos-26-4": {
     "ts": "2026-10-06T00:02:43.791893",
     "canales": {
@@ -2713,6 +2703,16 @@
     "precio": 2299.0,
     "precios_publicados": [
       2299.0
+    ]
+  },
+  "ml-celular-smartphone-realme-c73-128gb-4gb-ram-d": {
+    "ts": "2026-10-07T23:51:00.399449",
+    "canales": {
+      "whatsapp": "2026-10-07T23:51:00.399449"
+    },
+    "precio": 912.0,
+    "precios_publicados": [
+      912.0
     ]
   }
 }
