@@ -182,14 +182,16 @@
     "precio_min_publicado": 53.0
   },
   "ml-creatina-monohidratada-dark-lab-1kg-100": {
-    "ts": "2026-10-05T19:55:49.723311",
+    "ts": "2026-10-07T10:31:50.347748",
     "canales": {
-      "whatsapp": "2026-10-05T19:55:49.723311"
+      "whatsapp": "2026-10-07T10:31:50.347748"
     },
     "precio": 78.0,
     "precios_publicados": [
+      78.0,
       78.0
-    ]
+    ],
+    "precio_min_publicado": 78.0
   },
   "ml-suplemento-em-po-dark-lab-carboidratos-dark-m": {
     "ts": "2026-10-05T20:03:12.877001",
