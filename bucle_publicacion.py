@@ -61,6 +61,13 @@ INTERVALO_MAX_SEG = int(os.environ.get("INTERVALO_MAX_SEG", "600"))
 DURACION_MAX_SEG = int(os.environ.get("DURACION_MAX_SEG", "16200"))
 MAX_POSTS = int(os.environ.get("MAX_POSTS", "80"))
 MAX_REGENERACIONES = int(os.environ.get("MAX_REGENERACIONES", "3"))
+# ─── CARRIL RÁPIDO DE CUPONES (2026-10-07) ────────────────────────────────────
+# Los grupos de la competencia publican el cupón que Mercado Livre acaba de
+# soltar en minutos, aunque sea la medianoche. Antes nosotros solo mirábamos
+# los cupones en los runs "full" (gap mediano de GitHub: 174 min), así que un
+# cupón de las 00:05 salía a las 3:00 o no salía. Con esto, mientras hay un job
+# vivo, se mira cada CHEQUEO_CUPONES_SEG y lo nuevo se publica al momento.
+CHEQUEO_CUPONES_SEG = int(os.environ.get("CHEQUEO_CUPONES_SEG", "300"))
 DRY = "--dry" in sys.argv
 
 # La guardia anti-duplicado de publicar_proximo.py debe ser MENOR que el
@@ -177,6 +184,29 @@ def resumen(esperas):
     print(f"  ritmo real: {60/(media/60):.1f} posts/hora")
 
 
+def vigilar_cupones():
+    """
+    Carril rápido: corre cupones_vigia.py, que mira la página oficial de cupones
+    de Mercado Livre y publica SOLO lo que aparezca nuevo, con enlace corto.
+
+    Devuelve True si publicó algún cupón (para persistir el estado).
+    """
+    rc, out = correr(["python", "cupones_vigia.py"])
+    publico = False
+    for ln in (out or "").splitlines():
+        s = ln.strip()
+        if any(k in s for k in ("Cupones NUEVOS", "Publicado cupón", "BOOTSTRAP",
+                                "Sin cupones nuevos", "Enlace de afiliado",
+                                "Se corta aquí", "Fin. Cupones", "Falló el envío",
+                                "Descartado solo", "Sin ML_PORTAL_COOKIE")):
+            log("  [cupones] " + s)
+        if "Publicado cupón" in s:
+            publico = True
+    if rc == 2:
+        log("  [cupones] estado corrupto en cupones.json: no se publica nada.")
+    return publico
+
+
 def main():
     lo, hi = (INTERVALO_FIJO, INTERVALO_FIJO) if INTERVALO_FIJO else (INTERVALO_MIN_SEG, INTERVALO_MAX_SEG)
     print("=" * 66)
@@ -205,6 +235,7 @@ def main():
     regenes = 0
     esperas = []
     espera_anterior = None
+    ultimo_chequeo_cupones = 0.0   # 0 => se revisa en la primera vuelta
 
     while True:
         transcurrido = time.time() - inicio
@@ -217,6 +248,14 @@ def main():
         if publicados >= MAX_POSTS:
             log(f"Tope de posts del bucle alcanzado ({MAX_POSTS}). Fin.")
             break
+
+        # ── CARRIL RÁPIDO DE CUPONES ─────────────────────────────────────────
+        # Va ANTES del post normal: si Mercado Livre acaba de soltar un cupón,
+        # sale ya, no dentro de 40 minutos. Es lo que hace la competencia.
+        if not DRY and time.time() - ultimo_chequeo_cupones >= CHEQUEO_CUPONES_SEG:
+            if vigilar_cupones():
+                commit_y_push(publicados)
+            ultimo_chequeo_cupones = time.time()
 
         log(f"── Post {publicados + 1} (transcurrido {transcurrido/60:.1f} min) ──")
 

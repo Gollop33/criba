@@ -65,6 +65,82 @@ def log(msg):
     except Exception:
         pass
 
+# ─── HIGIENE DE CÓDIGOS (2026-10-07) ─────────────────────────────────────────
+# Medido sobre la página real de ML (sonda del 2026-10-07): de 24 códigos
+# únicos, 13 eran blobs base64 de 88 caracteres del estado interno, del tipo
+#   NNBpAXHMT8hIDNR67NEp3xjZhIoZM7hUa4JNTe0ujKOB4nlGn1WUU8gPaM-FHYcHqmVS1NcYrN-O3CH-mLSwMw==
+# y fragmentos de texto como "MELI", "2273" o "100R".
+# Publicar eso en el grupo quemaría la credibilidad del canal.
+#
+# Un código real de Mercado Livre (OFERTASMELI, PRECINHOBOM, BATEDESCONTO,
+# VALEMUITO, MELIBAIXOU, SUPERPROMO25...) cumple SIEMPRE:
+#   · 5 a 20 caracteres
+#   · solo letras y dígitos
+#   · al menos una letra (nunca solo números)
+PATRON_CODIGO_VALIDO = re.compile(r"[A-Z0-9]{5,20}")
+
+
+def codigo_valido(cod):
+    """True solo si el código tiene forma de código de cupón de verdad."""
+    if cod is None:
+        return False
+    texto = str(cod).strip().upper()
+    if not PATRON_CODIGO_VALIDO.fullmatch(texto):
+        return False
+    return any(ch.isalpha() for ch in texto)
+
+
+def descuento_real(valor):
+    """
+    Devuelve el descuento SOLO si el valor tiene forma de descuento real
+    ('30% OFF', 'R$ 20 OFF'). Si no se puede leer, devuelve None.
+
+    Antes esta función no existía y el código hacía
+        str(item.get('discount') or item.get('desconto') or '10% OFF')
+    es decir, INVENTABA "10% OFF" en todos los cupones de la fuente oficial.
+    La Regla de Oro del proyecto prohíbe inventar datos: si la página no lo
+    dice, el post simplemente no muestra esa línea.
+    """
+    if not valor:
+        return None
+    texto = str(valor).strip()
+    m = re.search(r"(\d+)\s*%", texto)
+    if m:
+        return f"{m.group(1)}% OFF"
+    m = re.search(r"R\$\s*(\d+(?:[.,]\d{2})?)", texto)
+    if m:
+        return f"R$ {m.group(1)} OFF"
+    return None
+
+
+def fecha_valida(valor):
+    """Devuelve 'YYYY-MM-DD' solo si el valor ES una fecha. Si no, None."""
+    if not valor:
+        return None
+    m = re.match(r"(\d{4}-\d{2}-\d{2})", str(valor).strip())
+    return m.group(1) if m else None
+
+
+def texto_plano(valor):
+    """
+    Normaliza un campo que puede venir como texto O como dict.
+
+    MEDIDO (2026-10-07): en el estado interno de /cupons, `titulo`/`title` viene
+    como {"text": "30% OFF com BATEDESCONTO", "color": "..."}. Al hacer
+    str(dict)[:45] el grupo recibía literalmente
+    "({'text': '30% OFF com BATEDESCONTO', 'color': ...})" en el post, y el
+    descuento real (30% OFF) se perdía de vista. Aquí se saca el texto.
+    """
+    if valor is None:
+        return ""
+    if isinstance(valor, dict):
+        for clave in ("text", "title", "label", "value", "name"):
+            if valor.get(clave):
+                return str(valor[clave]).strip()
+        return ""
+    return str(valor).strip()
+
+
 def obtener_tag_ml():
     """Obtiene el ID de afiliado de Mercado Livre desde config_afiliados.json."""
     if CONFIG_JSON.exists():
@@ -159,8 +235,8 @@ def extraer_cupones_de_estado_ml(html_text):
     cards = soup.find_all(attrs={"class": re.compile(r"coupon|cupom|card-coupon", re.I)})
     for c in cards:
         txt = c.text
-        cod_m = re.search(r"\b([A-Z0-9]{4,20})\b", txt)
-        if cod_m:
+        cod_m = re.search(r"\b([A-Z][A-Z0-9]{4,19})\b", txt)
+        if cod_m and codigo_valido(cod_m.group(1)):
             desc_m = re.search(r"(\d+%\s*OFF|R\$\s*\d+\s*OFF)", txt, re.I)
             cupones.append({
                 "code": cod_m.group(1),
@@ -198,27 +274,48 @@ def obtener_cupones_oficiales_ml(cookie_str=None):
             return None
 
         cupones_limpios = []
-        hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        vistos_local = set()
+        descartados_codigo = 0
         for item in cupones_raw:
             codigo = item.get("code") or item.get("coupon_code") or item.get("codigo")
-            if not codigo or len(codigo) < 4:
+            if not codigo:
                 continue
-            
+            codigo = str(codigo).strip().upper()
+            # BASURA FUERA (ver HIGIENE DE CÓDIGOS arriba)
+            if not codigo_valido(codigo):
+                descartados_codigo += 1
+                continue
+            if codigo in vistos_local:
+                continue
+            vistos_local.add(codigo)
+
+            # NADA SE INVENTA: si la página no publica el descuento ni la fecha,
+            # el campo queda vacío y el post simplemente no muestra esa línea.
+            # El descuento también se busca en el TÍTULO: ML lo escribe ahí
+            # ("30% OFF com BATEDESCONTO") y sin esto se perdía.
+            materia = texto_plano(item.get("title") or item.get("titulo"))
+            descuento = descuento_real(item.get("discount") or item.get("desconto") or materia)
+            hasta = fecha_valida(item.get("expiration_date") or item.get("vencimento")
+                                 or item.get("hasta"))
+
             cupones_limpios.append({
                 "tienda": "Mercado Livre",
-                "titulo": f"Cupom Oficial ML {codigo}",
-                "codigo": codigo.upper(),
-                "desconto": str(item.get("discount") or item.get("desconto") or "10% OFF"),
+                "titulo": materia or f"Cupom Oficial ML {codigo}",
+                "codigo": codigo,
+                "desconto": descuento,
                 "compra_minima": item.get("min_amount") or item.get("compra_minima"),
                 "limite": item.get("max_amount") or item.get("limite"),
-                "vencimento": item.get("expiration_date") or item.get("vencimento") or hoy_str,
-                "hasta": item.get("expiration_date") or item.get("vencimento") or hoy_str,
+                "vencimento": hasta,
+                "hasta": hasta,
                 "estado": item.get("status", "ativo"),
-                "categoria": "Cupons Oficiais",
+                "categoria": item.get("category") or "Cupons Oficiais",
                 "fonte": "ML Oficial",
-                "vigente": True
+                "vigente": True,
             })
-        
+
+        if descartados_codigo:
+            log(f"{descartados_codigo} código(s) inválidos descartados "
+                f"(blobs del estado interno de ML o fragmentos de texto).")
         if cupones_limpios:
             log(f"Se extrajeron exitosamente {len(cupones_limpios)} cupones de ML Oficial.")
             return cupones_limpios
@@ -416,7 +513,15 @@ def limpiar_y_actualizar_cupones(cupones_nuevos):
 
         existente = next((x for x in cupones_limpios if x.get("codigo") == cod and "mercado" in x.get("tienda", "").lower()), None)
         if existente:
-            existente.update(nuevo)
+            # NO PISAR DATOS REALES CON VACÍOS. La fuente oficial no siempre
+            # publica el descuento ni la fecha (antes los INVENTABA, ahora van
+            # en None), mientras que el canal de Telegram sí los trae. Si se
+            # hiciera existente.update(nuevo) a secas, un "30% OFF" verificado
+            # se convertiría en None y el post perdería el dato bueno.
+            for campo, valor in nuevo.items():
+                if valor in (None, "", []):
+                    continue
+                existente[campo] = valor
             actualizados_ml += 1
         else:
             cupones_limpios.insert(0, nuevo)
@@ -453,22 +558,14 @@ def main():
         cupones = obtener_cupones_ml_pelando()
 
     hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    if not any(c.get("codigo") == "SUPERDESCONTOS" for c in cupones):
-        cupones.append({
-            "tienda": "Mercado Livre",
-            "titulo": "Cupom Mercado Livre - 10% off Acima de R$149 limitado à R$200 em Selecionados",
-            "codigo": "SUPERDESCONTOS",
-            "desconto": "10% OFF",
-            "compra_minima": "R$ 149",
-            "limite": "R$ 200",
-            "vencimento": hoy_str,
-            "hasta": hoy_str,
-            "estado": "ativo",
-            "categoria": "Cupons Oficiais",
-            "fonte": "ML Oficial",
-            "vigente": True
-        })
 
+    # ── SE ELIMINÓ UN CUPÓN INVENTADO (2026-10-07) ────────────────────────────
+    # Aquí se añadía a mano, cuando no aparecía en la cosecha, un cupón
+    # "SUPERDESCONTOS — 10% OFF acima de R$149, limitado a R$200, vence HOY".
+    # Ese cupón NO venía de ninguna fuente: era un dato fijo en el código, con
+    # la fecha de hoy puesta a mano. Es exactamente lo que prohíbe la Regla de
+    # Oro. Con el carril rápido de cupones, un invento así se publicaría en
+    # minutos en el grupo, así que se borra.
     cupones_actualizados = limpiar_y_actualizar_cupones(cupones)
 
     print("\n" + "-" * 60)
@@ -480,7 +577,7 @@ def main():
         aviso_vence = " ⏰ Vence HOJE!" if vence == hoy_str else ""
         minimo = c.get("compra_minima", "Sem mínimo")
         limite = f" | Limite {c.get('limite')}" if c.get("limite") else ""
-        print(f"  {idx}. 🎟️ [{c.get('codigo')}]: {c.get('desconto', 'OFF')} (Mínimo {minimo}{limite}) - Vence {vence}{aviso_vence}")
+        print(f"  {idx}. 🎟️ [{c.get('codigo')}]: {c.get('desconto') or 'sem desconto informado'} (Mínimo {minimo}{limite}) - Vence {vence}{aviso_vence}")
 
     tag_ml = obtener_tag_ml()
     print(f"\n  ⭐️ Link oficial de activación: https://www.mercadolivre.com.br/cupons#D[A:{tag_ml}]")

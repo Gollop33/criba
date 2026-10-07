@@ -353,7 +353,8 @@ def publicar_un_post(es_test=False):
     from modulo_ofertas import marcar_enviado, guardar_enviados, ya_enviado
     enviados = cargar_enviados_estricto()
 
-    # Candidatos: no enviados, sin posts genéricos de cupón
+    # Candidatos: no enviados. Los cupones SÍ entran (tipo 'cupon'); el tipo
+    # legacy 'cupons_loja' se sigue ignorando porque su formato es viejo.
     candidatos = []
     for p in posts:
         if p.get("tipo") == "cupons_loja":
@@ -389,6 +390,51 @@ def publicar_un_post(es_test=False):
 
     for cand in candidatos:
         tit_c = cand.get("titulo", "")
+
+        # ── RAMA DE CUPÓN (tanda de cupones, sin producto detrás) ────────────
+        # El 2026-10-07 se descubrió que las tandas de cupón se generaban y se
+        # TIRABAN: nunca entraban en la fila y, además, este publicador saltaba
+        # el tipo. Dos puertas cerradas = el canal jamás publicó un cupón.
+        #
+        # Aquí el mensaje ya viene montado (varios códigos + enlace corto), así
+        # que no se construye con título/precio. Antes de enviar se comprueba,
+        # código por código, que sigue siendo un cupón de fiar: existe en
+        # cupones.json, tiene fuente trazable, no está caducado y el enlace
+        # lleva nuestro tag. Si UNO falla, se salta la tanda entera (son lotes
+        # de 4; publicar un lote con un código muerto es lo que hacía que ML
+        # respondiera "seu cupom não se aplica a esta compra").
+        if cand.get("tipo") == "cupon":
+            codigos = [str(c) for c in (cand.get("codigos") or []) if c]
+            if not codigos:
+                print(f"  ⛔ [VALIDACIÓN CUPÓN] tanda sin códigos: se descarta")
+                continue
+            try:
+                from validador_oferta import validar_cupon
+                cat = json.loads((Path(__file__).parent / "cupones.json").read_text(encoding="utf-8-sig"))
+                por_codigo = {c.get("codigo"): c for c in cat.get("cupones", [])
+                              if isinstance(c, dict) and c.get("codigo")}
+                bloqueo = None
+                for cod in codigos:
+                    cup = por_codigo.get(cod)
+                    if not cup:
+                        bloqueo = f"{cod}: ya no está en cupones.json"
+                        break
+                    ok_cup, motivo_cup = validar_cupon(cup, cand.get("url"))
+                    if not ok_cup:
+                        bloqueo = f"{cod}: {motivo_cup}"
+                        break
+            except Exception as e:
+                bloqueo = f"validador de cupón no disponible: {e}"
+
+            if bloqueo:
+                print(f"  ⛔ [VALIDACIÓN CUPÓN] RECHAZADO: {tit_c[:44]}")
+                print(f"     Motivo: {bloqueo}")
+                continue
+
+            print(f"  ✔️  [VALIDACIÓN CUPÓN] {tit_c[:50]} -> {len(codigos)} código(s) verificados")
+            post_a_enviar = cand
+            link_final = cand.get("url")
+            break
 
         # ── PUERTA 0: VALIDADOR (producto → enlace → cupón → PIX) ──────────
         if _cupones_validacion is not None:
@@ -497,6 +543,34 @@ def publicar_un_post(es_test=False):
     if not post_a_enviar:
         print("  ❌ Ningún candidato tiene un link válido. No se publica nada esta pasada.")
         return False, None, None
+
+    # ── ENVÍO DE UNA TANDA DE CUPONES ────────────────────────────────────────
+    # La tanda ya trae el mensaje montado (4 códigos + enlace corto), así que NO
+    # se construye con título/precio ni lleva foto. Se registra igual que
+    # cualquier envío para que el anti-duplicado y el tope diario la cuenten.
+    if post_a_enviar.get("tipo") == "cupon":
+        pid = post_a_enviar.get("id_post") or "cupon"
+        loja = post_a_enviar.get("loja", "Mercado Livre")
+        mensaje = str(post_a_enviar.get("mensaje") or "").strip()
+        if not mensaje:
+            print("  ❌ El post de cupón no trae mensaje. No se publica.")
+            return False, None, None
+
+        print(f"\n  🎯 Post seleccionado: [CUPÓN] {str(post_a_enviar.get('titulo'))[:50]}")
+        print("--- PREVIEW POST ---")
+        print(mensaje)
+        print("--- FIN PREVIEW ---\n")
+
+        if es_test:
+            return True, pid, loja
+
+        from enviar_whatsapp import enviar_whatsapp
+        print("  [WhatsApp] Enviando tanda de cupones...")
+        if enviar_whatsapp(mensaje):
+            marcar_enviado(pid, enviados, canal="whatsapp")
+            guardar_enviados(enviados)
+            return True, pid, loja
+        return False, pid, loja
 
     pid = post_a_enviar.get("id_post") or post_a_enviar.get("titulo", "")[:40]
     loja = post_a_enviar.get("loja", "Loja")

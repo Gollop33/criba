@@ -28,11 +28,13 @@ ese chat sigue con el catálogo que cargó. Cierra y abre.
 
 ```
 Bot            : 24/7 — ventana VENTANA_BRT=0-24, noche 23-7h cada 20-40 min
-Fila           : 164 posts | 149 Mercado Livre + 15 Amazon | 104 con cupon CONFIRMADO
+Fila           : 166 posts | 151 Mercado Livre + 15 Amazon | 104 con cupon CONFIRMADO
+                 + 2 tandas de cupon al frente (antes: 0, se tiraban)
+Cupones        : carril rápido cada 5 min (cupones_vigia.py) + pagina oficial ML
 Frescura       : solo se publica lo confirmado hace menos de 12 h (MAX_EDAD_HORAS)
 Validacion     : 514 decisiones registradas en logs/validacion.jsonl
 Token ML       : se renueva solo (duracion 6 h)
-Pruebas        : 23/23 validador + 20/20 amazon + 134/134 shopee
+Pruebas        : 23/23 validador + 20/20 amazon + 134/134 shopee + 37/37 cupones
 Auditoria seg. : LIMPIA (2026-10-02) — skills sin scripts, sin envios externos raros
 Sitio          : 478 ofertas, SEO arreglado, sitemap + robots
 Videos         : generador funcionando (video/generar_video.py)
@@ -127,6 +129,49 @@ mentir — y eso es lo que de verdad mueve a un grupo de ofertas.
 3. **Shopee**: sin `SHOPEE_AFFILIATE_ID` no se genera ni un enlace.
 4. **Caducidad de la cookie ML**: cuando vuelva el 0, hay que renovarla
    (`REAUTORIZAR_ML.bat`). Ahora el log lo dice claramente.
+5. **Carril rápido de BAJADAS de precio** (fase 2 del de cupones): re-cosechar ML
+   dentro del bucle y publicar al momento cuando el precio baje del mínimo ya
+   publicado (`precio_min_publicado` en `logs/enviados.json`).
+
+---
+
+### 6. Carril rápido de cupones: publicar en minutos, 24/7
+
+**El problema que había (medido, no supuesto):**
+
+| Fallo | Dónde |
+|---|---|
+| Las tandas de cupón se generaban y se **tiraban** | `gerar_fila_posts.py`: `posts_cupones` solo se usaba para *contar*; nunca entraba en `fila_final` |
+| Aunque entraran, el publicador las **saltaba** | `publicar_proximo.py`: `if p.get("tipo") == "cupons_loja": continue` |
+| La fuente más fresca **no se ejecutaba nunca** | `cupons_ml.py` (página oficial `/cupons`) no estaba en el workflow |
+| Latencia de **horas**, no minutos | Las fuentes de cupón solo corrían en los runs "full", antes del bucle; el bucle de 5,5 h no volvía a mirar |
+| El enlace no era corto | Se publicaba la URL larga `#D[A:tag]` |
+
+**Cómo quedó:**
+
+- **`cupones_vigia.py`** (nuevo): mira la página oficial de ML, detecta códigos
+  NUEVOS (registro `logs/cupones_publicados.json`) y los publica al momento.
+  - **Bootstrap**: la primera vez marca todos los códigos existentes como ya
+    vistos y NO publica nada (si no, escupiría 69 cupones de golpe).
+  - Topes: 3/hora, 15/día, 3 min de separación, y suma al tope diario global.
+  - `python cupones_vigia.py --dry` dice qué haría sin enviar.
+- **`bucle_publicacion.py`**: lo llama cada `CHEQUEO_CUPONES_SEG=300` mientras el
+  job vive -> latencia máxima 5 minutos. Para 24/7 de verdad hace falta el cron
+  externo de `CRON_EXTERNO_SETUP.md` (el cron de GitHub tiene gap mediano 174 min).
+- **Higiene de códigos** (`cupons_ml.py`): medido que la página oficial devuelve
+  24 códigos únicos de los que **13 son blobs base64 de 88 caracteres**. Ahora se
+  filtran (5-20 caracteres alfanuméricos, con al menos una letra). Se eliminó
+  también un cupón **INVENTADO** a mano (`SUPERDESCONTOS` con fecha de hoy) y el
+  `or "10% OFF"` que metía un descuento falso cuando ML no lo publicaba.
+- **Título-dict**: ML devuelve `titulo` como `{"text": "30% OFF com BATEDESCONTO"}`.
+  Antes se publicaba el dict entero (`({'text': ...})`); ahora se saca el texto y
+  de ahí se lee el descuento REAL.
+- **Enlace corto**: probado que **meli.la rechaza la página de cupones** ("no
+  elegible para el programa de afiliados"). Se genera entonces un enlace corto
+  propio (`achadinhosnozap.com.br/go/<codigo>/`) y **se verifica leyendo el HTML
+  generado que lleve el tag dentro**. El validador (`validar_cupon`) acepta
+  `/go/` SOLO con esa comprobación; sin tag sigue prohibido.
+- **Pruebas**: `probar_cupones.py` (37 escenarios, offline) en el workflow.
 
 ---
 

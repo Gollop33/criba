@@ -114,6 +114,19 @@ jobs:
           TELEGRAM_API_HASH: ${{ secrets.TELEGRAM_API_HASH }}
           TELEGRAM_SESSION: ${{ secrets.TELEGRAM_SESSION }}
 
+      # ── CUPONES OFICIALES DE MERCADO LIVRE (/cupons) ───────────────────────
+      # Es la fuente MÁS FRESCA de cupones y no depende de la sesión de
+      # Telethon. Medido el 2026-10-07: 137 cupones en la página, de los que
+      # 11 tienen código válido tras el filtro de higiene (el resto eran blobs
+      # base64 de 88 caracteres del estado interno y fragmentos de texto).
+      # Necesita ML_PORTAL_COOKIE (la misma sesión del portal).
+      - name: cosechar cupones oficiales ML (cupons_ml)
+        if: github.event.inputs.modo != 'publicar'
+        continue-on-error: true
+        run: python cupons_ml.py
+        env:
+          ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
+
       # ── Pipeline PESADO: solo en modo full (schedule) ──────────────────────
       - name: actualizar cupones pelando
         if: github.event.inputs.modo != 'publicar'
@@ -220,6 +233,10 @@ jobs:
           # Con 'geral': 51 posts, 25 ML + 26 Amazon, 51 con cupon.
           # Pon 'tech' para volver al nicho cerrado original.
           NICHO_MODO: "geral"
+          # Tandas de cupón al frente de la fila. Antes se generaban y se
+          # TIRABAN (solo se contaban): el canal nunca publicó una. Ahora entran
+          # de verdad, limitadas para que la fila no sea 100% cupones.
+          MAX_LOTES_CUPON_FILA: "2"
 
       # ── Comparador multi-tienda ───────────────────────────────────────────
       # Cruza la fila con el historial de precios de 8 tiendas (precios.db) y
@@ -280,6 +297,15 @@ jobs:
         continue-on-error: true
         run: python probar_shopee_api.py
 
+      # ── Pruebas del carril de cupones (offline) ───────────────────────────
+      # 37 escenarios: blobs base64 de ML rechazados, descuento NUNCA
+      # inventado, título-dict normalizado, cupón caducado fuera, /go/ sin tag
+      # fuera, bootstrap sin spam, topes por hora/día y la tanda de cupón
+      # entrando de verdad en la fila (antes se generaba y se tiraba).
+      - name: pruebas de cupones (offline)
+        continue-on-error: true
+        run: python probar_cupones.py
+
       # ── Auditoría de la fila con el validador (deja rastro en el log) ─────
       - name: auditar la fila con el validador
         continue-on-error: true
@@ -330,6 +356,17 @@ jobs:
           MODO_24H: "1"
           # Tope diario subido de 150 a 220 porque ahora también cubre la noche.
           MAX_ENVIOS_DIA: "220"
+          # ── CARRIL RÁPIDO DE CUPONES ────────────────────────────────────────
+          # Mientras este job vive, cada 5 min se mira si Mercado Livre soltó un
+          # cupón nuevo y se publica al momento. Es lo que hace la competencia a
+          # las 12 de la noche; antes solo se miraba en los runs "full" (gap
+          # mediano de GitHub: 174 min), así que un cupón de las 00:05 salía a
+          # las 3:00 o no salía.
+          CHEQUEO_CUPONES_SEG: "300"
+          CUPONES_FRESCURA_HORAS: "24"
+          MAX_CUPONES_HORA: "3"
+          MAX_CUPONES_DIA: "15"
+          CUPON_MIN_GAP_MIN: "3"
 
       - name: publicar 1 post (dispatch)
         if: github.event.inputs.modo == 'publicar'

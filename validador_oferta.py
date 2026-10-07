@@ -605,7 +605,7 @@ def cargar_cupones():
 #
 # REGLA: un cupón sin fuente trazable NO se usa y NO se conserva.
 # Si no se sabe de dónde salió, no se puede saber si sigue vigente.
-FUENTES_VALIDAS = ("telegram", "pelando", "manual.json", "afiliados")
+FUENTES_VALIDAS = ("telegram", "pelando", "manual.json", "afiliados", "ml oficial")
 
 
 def cupon_confiable(cupon, hoy=None):
@@ -641,6 +641,79 @@ def cupon_confiable(cupon, hoy=None):
         return False, f"{codigo}: caducado el {hasta[:10]}"
 
     return True, ""
+
+
+def _ml_tag():
+    """ID de afiliado de Mercado Livre, leído de config_afiliados.json."""
+    try:
+        cfg = json.loads((BASE / "config_afiliados.json").read_text(encoding="utf-8"))
+        return str(cfg.get("mercadolivre", {}).get("id") or "").strip()
+    except Exception:
+        return ""
+
+
+def validar_cupon(cupon, link=None, hoy=None):
+    """
+    Puerta de un post de CUPÓN (un cupón suelto, sin producto detrás).
+
+    Un cupón solo sale al grupo si:
+      1. Tiene código con FORMA de código (no los blobs base64 de 88 caracteres
+         que Mercado Livre mete en el estado interno de /cupons).
+      2. Tiene tienda monetizada, fuente trazable y no está caducado
+         -> cupon_confiable().
+      3. El enlace lleva NUESTRO tag de afiliado y se puede DEMOSTRAR:
+           · meli.la              -> acortador oficial del programa de afiliados
+           · mercadolivre.com.br  -> con #D[A:<tag>]
+           · /go/<codigo>/        -> SOLO si el HTML de redirección local lleva
+             el tag dentro. Sin esta comprobación /go/ sigue prohibido, igual
+             que en _validar_enlace(): un /go/ sin tag no cobra y el clic se
+             regala.
+
+    Devuelve (bool, motivo) — mismo formato que el resto del validador.
+    """
+    ok, motivo = cupon_confiable(cupon, hoy)
+    if not ok:
+        return False, motivo
+
+    codigo = str(cupon.get("codigo")).strip()
+    try:
+        from cupons_ml import codigo_valido
+        if not codigo_valido(codigo):
+            return False, f"{codigo}: no tiene forma de código de cupón"
+    except Exception:
+        pass
+
+    if link is None:
+        link = cupon.get("url_afiliado") or cupon.get("url") or ""
+    link = str(link).strip()
+    if not link.startswith("http"):
+        return False, f"{codigo}: sin enlace de activación"
+
+    tag = _ml_tag()
+
+    if "meli.la/" in link:
+        return True, ""
+
+    if "/go/" in link:
+        m = re.search(r"/go/([A-Za-z0-9]+)/?", link)
+        if not m:
+            return False, f"{codigo}: /go/ sin código de redirección"
+        archivo = BASE / "go" / m.group(1) / "index.html"
+        if not archivo.exists():
+            return False, f"{codigo}: /go/{m.group(1)} no existe: no se puede verificar"
+        try:
+            html = archivo.read_text(encoding="utf-8", errors="replace")
+        except Exception as e:
+            return False, f"{codigo}: no se pudo leer el redirect ({e})"
+        if not tag or tag not in html:
+            return False, (f"{codigo}: el enlace /go/ NO lleva nuestro tag: "
+                           f"no monetiza (Regla de Oro)")
+        return True, ""
+
+    if tag and tag in link and "mercadolivre.com.br" in link:
+        return True, ""
+
+    return False, f"{codigo}: enlace sin tag de afiliado ({link[:60]})"
 
 
 def limpiar_cupones(lista, hoy=None):

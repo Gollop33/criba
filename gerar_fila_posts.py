@@ -504,11 +504,20 @@ def repeticion_permitida(pid, precio_actual, enviados_raw):
     return False, f"sin mejora (R$ {previo:.0f} -> R$ {actual:.0f})"
 
 def cargar_cupones_reales():
-    """Carga cupones reales y vigentes de cupones.json."""
+    """
+    Carga cupones reales y vigentes de cupones.json.
+
+    OJO con `hasta = c.get("hasta", "9999-12-31")`: si la clave EXISTE con valor
+    None (que es lo que escribe ahora la fuente oficial cuando ML no publica la
+    fecha), el valor por defecto NO se aplica y la comparación `None >= hoy`
+    lanzaba TypeError. Esa excepción la tragaba el `except` de abajo y devolvía
+    una lista vacía EN SILENCIO: cero cupones, cero posts de cupón, y nadie se
+    enteraba. Ahora se normaliza el valor y, si algo falla, se dice.
+    """
     if not CUPONES_JSON.exists():
         return []
     try:
-        data = json.loads(CUPONES_JSON.read_text(encoding="utf-8"))
+        data = json.loads(CUPONES_JSON.read_text(encoding="utf-8-sig"))
         lista = data.get("cupones", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
         hoy = datetime.now(timezone.utc).date().isoformat()
         validos = []
@@ -519,11 +528,12 @@ def cargar_cupones_reales():
             # Regla de oro: solo tiendas monetizadas (ML y Amazon hoy)
             if "mercado" not in tienda and "amazon" not in tienda and "shopee" not in tienda:
                 continue
-            hasta = c.get("hasta", "9999-12-31")
+            hasta = str(c.get("hasta") or c.get("vencimento") or "9999-12-31")
             if hasta >= hoy:
                 validos.append(c)
         return validos
-    except Exception:
+    except Exception as e:
+        print(f"  ⚠️  No se pudieron cargar los cupones: {e}")
         return []
 
 KEYWORDS_TECH = [
@@ -756,6 +766,23 @@ def clasificar_categoria(nombre):
         return "Smartphones & Celulares"
     return "Ofertas Gerais"
 
+def _link_cupones_con_afiliado():
+    """
+    (link, es_corto) para la página de cupones de Mercado Livre.
+
+    Intenta el meli.la OFICIAL (el enlace corto de referido que usan todos los
+    canales de ofertas); si ML no lo permite para esa URL, devuelve el enlace
+    largo CON el tag de afiliado, que también cobra. Nunca /go/: ese dominio no
+    monetiza (Regla de Oro del proyecto).
+    """
+    try:
+        from cupones_vigia import link_afiliado_cupones
+        return link_afiliado_cupones()
+    except Exception as e:
+        print(f"  • [cupones] enlace corto no disponible ({e}); se usa el largo con tag")
+        return f"https://www.mercadolivre.com.br/cupons#D[A:{ML_ID}]", False
+
+
 def generar_posts_cupones(cupones_reales):
     """Crea posts de cupones estilo canal profesional con enlaces monetizados de activación."""
     posts_cupones = []
@@ -779,7 +806,7 @@ def generar_posts_cupones(cupones_reales):
         )
     )
 
-    link_ativacao_ml = f"https://www.mercadolivre.com.br/cupons#D[A:{ML_ID}]"
+    link_ativacao_ml, _es_corto = _link_cupones_con_afiliado()
     for chunk_idx in range(0, min(16, len(cupons_ml)), 4):
         grupo = cupons_ml[chunk_idx:chunk_idx+4]
         if not grupo:
@@ -787,20 +814,32 @@ def generar_posts_cupones(cupones_reales):
         lineas = [f"🔥 Cupons Mercado Livre Selecionados #{chunk_idx//4 + 1}\n"]
         for c in grupo:
             cod = c.get("codigo") or "NO CARRINHO"
-            desc = c.get("desconto") or f"R$ {c.get('valor', 15)} OFF"
-            titulo = c.get("titulo", "Desconto ativo")[:45]
+            # NADA INVENTADO: antes esto ponía "R$ 15 OFF" por defecto cuando la
+            # fuente no traía descuento. Es un dato inventado en el grupo.
+            desc = c.get("desconto") or "desconto não informado"
+            # str(...) a propósito: hay cupones con "titulo": null en
+            # cupones.json (clave presente, valor nulo) y .get(k, defecto) NO
+            # aplica el defecto en ese caso -> None[:45] reventaba el generador
+            # entero y la fila se quedaba sin cupones (y sin avisar).
+            # Si el título no existe, no se inventa relleno: se omite el paréntesis.
+            titulo = str(c.get("titulo") or "").strip()[:45]
+            sufijo = f" ({titulo})" if titulo else ""
             vence = c.get("hasta") or c.get("vencimento")
             urgencia = " ⏰ Vence HOJE!" if vence == hoy_str else ""
-            lineas.append(f"🎟️ {desc}: {cod} ({titulo}){urgencia}")
+            lineas.append(f"🎟️ {desc}: {cod}{sufijo}{urgencia}")
         lineas.append(f"\n⭐️ Ative por aqui para aplicar no carrinho:\n👉 {link_ativacao_ml}")
         
         posts_cupones.append({
             "id_post": f"cupom-ml-lote{chunk_idx//4 + 1}-{datetime.now().strftime('%Y%m%d%H')}",
-            "tipo": "cupons_loja",
+            # OJO: el publicador SALTA el tipo legacy 'cupons_loja' (nunca se
+            # publicó ni una tanda de cupones en el canal). El tipo nuevo es
+            # 'cupon' y tiene su propia rama de envío.
+            "tipo": "cupon",
             "loja": "Mercado Livre",
             "categoria": "Cupons",
             "titulo": f"🔥 Cupons Mercado Livre #{chunk_idx//4 + 1}",
-            "mensagem": "\n".join(lineas),
+            "mensaje": "\n".join(lineas),
+            "codigos": [c.get("codigo") for c in grupo if c.get("codigo")],
             "url": link_ativacao_ml,
             "criado_em": ahora_iso,
             "prioridade": 10
@@ -816,18 +855,20 @@ def generar_posts_cupones(cupones_reales):
         lineas = [f"🔥 Cupons & Promoções Amazon Brasil #{chunk_idx//4 + 1}\n"]
         for c in grupo:
             cod = c.get("codigo") or "RESGATE DIRETO"
-            desc = c.get("desconto") or f"{c.get('valor', 10)}% OFF"
-            titulo = c.get("titulo", "Promoção especial")[:45]
+            # NADA INVENTADO (antes: f"{c.get('valor', 10)}% OFF")
+            desc = c.get("desconto") or "oferta não informada"
+            titulo = str(c.get("titulo") or "Promoção especial")[:45]
             lineas.append(f"🎟️ {desc}: {cod} ({titulo})")
         lineas.append(f"\n⭐️ Resgate e ative seus cupons Amazon:\n👉 {link_ativacao_amz}")
         
         posts_cupones.append({
             "id_post": f"cupom-amz-lote{chunk_idx//4 + 1}-{datetime.now().strftime('%Y%m%d%H')}",
-            "tipo": "cupons_loja",
+            "tipo": "cupon",
             "loja": "Amazon",
             "categoria": "Cupons",
             "titulo": f"🔥 Cupons & Promoções Amazon #{chunk_idx//4 + 1}",
             "mensagem": "\n".join(lineas),
+            "codigos": [c.get("codigo") for c in grupo if c.get("codigo")],
             "url": link_ativacao_amz,
             "criado_em": ahora_iso,
             "prioridade": 9
@@ -1377,7 +1418,17 @@ def armar_fila_rotativa():
     con_cupon = [p for p in fila_final if p.get("ml_tiene_cupon")
                  and p.get("ml_precio_cupon")]
     sin_cupon = [p for p in fila_final if p not in con_cupon]
-    fila_final = con_cupon + sin_cupon
+
+    # ── TANDAS DE CUPÓN AL FRENTE DE LA FILA (2026-10-07) ────────────────────
+    # EL BUG: generar_posts_cupones() construía las tandas y NADIE las usaba
+    # (solo se contaban para calcular el tamaño de la fila). Encima el
+    # publicador saltaba el tipo 'cupons_loja'. Dos puertas cerradas: el canal
+    # nunca publicó una tanda de cupones. Ahora entran de verdad y van primero.
+    max_lotes = int(os.environ.get("MAX_LOTES_CUPON_FILA", "2"))
+    lotes = posts_cupones[:max_lotes] if max_lotes > 0 else []
+    fila_final = lotes + con_cupon + sin_cupon
+    print(f"  • Tandas de cupón al frente de la fila: {len(lotes)} "
+          f"(MAX_LOTES_CUPON_FILA={max_lotes})")
     print(f"  • Con cupón al principio de la fila: {len(con_cupon)}")
 
     altos = sum(1 for p in fila_final if p.get("cupom_confianza") == "alta")
@@ -1396,7 +1447,7 @@ def armar_fila_rotativa():
     print(f"\n[OK] fila_posts.json generada con {len(fila_final)} posts.")
     categorias_dist = set(x.get("categoria") for x in fila_final)
     print(f"  • Categorías diferentes en la fila: {len(categorias_dist)}")
-    print(f"  • Posts tipo cupón/especial: {sum(1 for x in fila_final if x.get('tipo') == 'cupons_loja')}")
+    print(f"  • Posts tipo cupón/especial: {sum(1 for x in fila_final if x.get('tipo') == 'cupon')}")
     ml_n = sum(1 for x in fila_final if "Mercado" in (x.get("loja") or ""))
     amz_n = sum(1 for x in fila_final if "Amazon" in (x.get("loja") or ""))
     shp_n = sum(1 for x in fila_final if "Shopee" in (x.get("loja") or ""))
