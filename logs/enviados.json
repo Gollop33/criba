@@ -206,16 +206,6 @@
     ],
     "precio_min_publicado": 53.0
   },
-  "ml-jogo-de-toalhas-buddemeyer-atena-fio-penteado": {
-    "ts": "2026-10-05T00:19:20.840748",
-    "canales": {
-      "whatsapp": "2026-10-05T00:19:20.840748"
-    },
-    "precio": 164.0,
-    "precios_publicados": [
-      164.0
-    ]
-  },
   "ml-carregador-portatil-20000-turbo-225w-power-ba": {
     "ts": "2026-10-05T00:28:52.432029",
     "canales": {
@@ -1624,6 +1614,16 @@
     "precio": 199.0,
     "precios_publicados": [
       199.0
+    ]
+  },
+  "amz-notebook-asus-tuf-gaming-f16-fx607vu-rtx4050-": {
+    "ts": "2026-10-07T00:25:25.783474",
+    "canales": {
+      "whatsapp": "2026-10-07T00:25:25.783474"
+    },
+    "precio": 7199.0,
+    "precios_publicados": [
+      7199.0
     ]
   }
 }
