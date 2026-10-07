@@ -19,19 +19,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-10-05T00:32:16.145879",
-    "canales": {
-      "whatsapp": "2026-10-05T00:32:16.145879"
-    },
-    "precio": 1585.0,
-    "precios_publicados": [
-      1529.0,
-      1668.0,
-      1585.0
-    ],
-    "precio_min_publicado": 1529.0
-  },
   "ml-poco-x8-pro-512gb-12gb-ram-original-lancament": {
     "ts": "2026-10-05T00:44:18.003702",
     "canales": {
@@ -205,26 +192,6 @@
       43.0
     ],
     "precio_min_publicado": 53.0
-  },
-  "ml-carregador-portatil-20000-turbo-225w-power-ba": {
-    "ts": "2026-10-05T00:28:52.432029",
-    "canales": {
-      "whatsapp": "2026-10-05T00:28:52.432029"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
-  "ml-motorola-moto-g56-5g-dual-sim-256gb-8gb-preto": {
-    "ts": "2026-10-05T00:33:27.807416",
-    "canales": {
-      "whatsapp": "2026-10-05T00:33:27.807416"
-    },
-    "precio": 1388.0,
-    "precios_publicados": [
-      1388.0
-    ]
   },
   "amz-apple-iphone-17e-de-256-gb-rosapalido": {
     "ts": "2026-10-05T00:36:32.676618",
@@ -1624,6 +1591,16 @@
     "precio": 7199.0,
     "precios_publicados": [
       7199.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
+    "ts": "2026-10-07T00:33:49.568773",
+    "canales": {
+      "whatsapp": "2026-10-07T00:33:49.568773"
+    },
+    "precio": 5499.0,
+    "precios_publicados": [
+      5499.0
     ]
   }
 }
