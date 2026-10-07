@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "ml-bicicleta-ergometrica-spinning-bike-ergometri": {
-    "ts": "2026-10-05T22:54:56.710918",
-    "canales": {
-      "whatsapp": "2026-10-05T22:54:56.710918"
-    },
-    "precio": 382.0,
-    "precios_publicados": [
-      382.0
-    ]
-  },
   "amz-acer-aspire-5-notebook-156-amd-ryzen-5-512gb-": {
     "ts": "2026-10-05T23:02:40.988194",
     "canales": {
@@ -2675,6 +2665,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "ml-farinha-de-amendoa-natural-1kg-alta-proteina-": {
+    "ts": "2026-10-07T22:58:30.435182",
+    "canales": {
+      "whatsapp": "2026-10-07T22:58:30.435182"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
