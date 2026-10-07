@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "amz-notebook-hp-256r-g9-intel-core-i5-13o-geracao": {
-    "ts": "2026-10-05T22:13:08.451273",
-    "canales": {
-      "whatsapp": "2026-10-05T22:13:08.451273"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
   "ml-lixeira-inteligente-automatica-com-sensor-inf": {
     "ts": "2026-10-05T22:22:11.060786",
     "canales": {
@@ -2676,6 +2666,12 @@
     "ts": "2026-10-07T22:13:04.008880",
     "canales": {
       "whatsapp": "2026-10-07T22:13:04.008880"
+    }
+  },
+  "cupon-RIDE15": {
+    "ts": "2026-10-07T22:18:39.465768",
+    "canales": {
+      "whatsapp": "2026-10-07T22:18:39.465768"
     }
   }
 }
