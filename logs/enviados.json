@@ -193,16 +193,6 @@
     ],
     "precio_min_publicado": 53.0
   },
-  "amz-apple-iphone-17e-de-256-gb-rosapalido": {
-    "ts": "2026-10-05T00:36:32.676618",
-    "canales": {
-      "whatsapp": "2026-10-05T00:36:32.676618"
-    },
-    "precio": 4499.0,
-    "precios_publicados": [
-      4499.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
     "ts": "2026-10-05T00:49:11.413495",
     "canales": {
@@ -1601,6 +1591,16 @@
     "precio": 5499.0,
     "precios_publicados": [
       5499.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-10-07T00:38:45.126747",
+    "canales": {
+      "whatsapp": "2026-10-07T00:38:45.126747"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
