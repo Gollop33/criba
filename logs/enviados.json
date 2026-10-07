@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 3099.0
   },
-  "ml-fralda-calca-mamy-poko-superprotecao-jumbo-m-": {
-    "ts": "2026-10-05T20:43:29.985480",
-    "canales": {
-      "whatsapp": "2026-10-05T20:43:29.985480"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
     "ts": "2026-10-05T20:47:17.178899",
     "canales": {
@@ -2650,6 +2640,16 @@
     "precio": 787.0,
     "precios_publicados": [
       787.0
+    ]
+  },
+  "ml-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-10-07T20:46:13.340978",
+    "canales": {
+      "whatsapp": "2026-10-07T20:46:13.340978"
+    },
+    "precio": 468.0,
+    "precios_publicados": [
+      468.0
     ]
   }
 }
