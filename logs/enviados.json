@@ -169,26 +169,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-10-05T23:22:09.386901",
-    "canales": {
-      "whatsapp": "2026-10-05T23:22:09.386901"
-    },
-    "precio": 4081.0,
-    "precios_publicados": [
-      4081.0
-    ]
-  },
-  "ml-bicicleta-ergometrica-spinning-cardio-e-muscu": {
-    "ts": "2026-10-05T23:25:31.405522",
-    "canales": {
-      "whatsapp": "2026-10-05T23:25:31.405522"
-    },
-    "precio": 445.0,
-    "precios_publicados": [
-      445.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
     "ts": "2026-10-05T23:33:32.770418",
     "canales": {
@@ -2718,5 +2698,11 @@
     "precios_publicados": [
       604.0
     ]
+  },
+  "cupon-PELUCIAS10": {
+    "ts": "2026-10-07T23:26:58.146032",
+    "canales": {
+      "whatsapp": "2026-10-07T23:26:58.146032"
+    }
   }
 }
