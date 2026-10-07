@@ -110,18 +110,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "amz-colgate-slim-soft-black-escova-de-dente-macia": {
-    "ts": "2026-10-05T21:20:02.176992",
-    "canales": {
-      "whatsapp": "2026-10-05T21:20:02.176992"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      28.0,
-      29.0
-    ],
-    "precio_min_publicado": 28.0
-  },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-10-06T00:04:02.863320",
     "canales": {
@@ -2650,6 +2638,16 @@
     "precio": 1890.0,
     "precios_publicados": [
       1890.0
+    ]
+  },
+  "ml-kit-12-bebida-whey-piracanjuba-0-lactose-sabo": {
+    "ts": "2026-10-07T21:24:33.622315",
+    "canales": {
+      "whatsapp": "2026-10-07T21:24:33.622315"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
