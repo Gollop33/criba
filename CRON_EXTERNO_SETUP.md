@@ -58,10 +58,11 @@ https://api.github.com/repos/Gollop33/criba/actions/workflows/bot.yml/dispatches
 
 ### Schedule
 - **Every 8 minutes** (o expresión cron: `*/8 * * * *`)
-- **Execution:** cada 8 min, todos los días.
-- ⚠️ En cron-job.org, desmarca cualquier opción de "días" que limite el horario:
-  el propio bot ya filtra la ventana 8:00-22:00 Brasília. Si prefieres ahorrar
-  ejecuciones, puedes limitarlo a las horas 11-01 UTC.
+- **Execution:** cada 8 min, **todos los días, las 24 horas**.
+- ⚠️ Desde el 2026-10-07 el bot es 24/7 (`VENTANA_BRT=0-24` en el workflow), así
+  que **NO limites el horario** en cron-job.org: el bot ya baja el ritmo solo por
+  la noche (de 23h a 7h BRT publica cada 20-40 min). Si limitas las horas aquí,
+  vuelves a tener el bot apagado media jornada.
 
 ### Request method
 ```

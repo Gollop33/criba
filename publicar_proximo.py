@@ -532,6 +532,14 @@ def publicar_un_post(es_test=False):
             lineas.append("📉 BAJÓ DE PRECIO")
         lineas.append("")
 
+    # ── MENOR PRECIO EN 30 DÍAS ──────────────────────────────────────────────
+    # El sello más fuerte que puede llevar un post de ofertas. Solo se pone si
+    # el histórico real de precios (precios.db) lo confirma con 2+ registros:
+    # si no se puede demostrar, no se escribe.
+    if post_a_enviar.get("menor_precio_30d"):
+        lineas.append("🔻 MENOR PRECIO EN 30 DÍAS")
+        lineas.append("")
+
     # ── SELLO DE MEJOR PRECIO ────────────────────────────────────────────────
     # Lo que más vende en un canal de ofertas no es el precio: es saber que ese
     # precio es MEJOR que en otros lados. Va arriba del todo, justo debajo del

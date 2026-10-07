@@ -22,6 +22,7 @@ import json
 import os
 import re
 import random
+import sqlite3
 import unicodedata
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
@@ -413,6 +414,36 @@ def edad_horas(item):
         if h is not None and (mejor is None or h < mejor):
             mejor = h
     return mejor
+
+
+def _minimos_30d():
+    """
+    {id_producto: precio_mínimo} de los últimos 30 días, leído del histórico
+    REAL (precios.db -> historico_precios, que llena unir_achados.py).
+
+    Solo se devuelven productos con AL MENOS 2 registros: con uno solo no se
+    puede afirmar que sea "el mínimo de 30 días", y este bot no afirma lo que no
+    puede demostrar.
+    """
+    db = BASE / "precios.db"
+    if not db.exists():
+        return {}
+    try:
+        con = sqlite3.connect(db)
+        desde = (datetime.now(timezone.utc) - timedelta(days=30)).strftime("%Y-%m-%d %H:%M:%S")
+        por_producto = {}
+        for pid, precio, fecha in con.execute(
+                "SELECT producto_id, precio, fecha FROM historico_precios WHERE fecha >= ?", (desde,)):
+            try:
+                p = float(precio)
+            except (TypeError, ValueError):
+                continue
+            if p > 0:
+                por_producto.setdefault(str(pid), []).append(p)
+        con.close()
+        return {pid: min(v) for pid, v in por_producto.items() if len(v) >= 2}
+    except Exception:
+        return {}
 
 
 def puntaje_oferta(item):
@@ -1320,6 +1351,29 @@ def armar_fila_rotativa():
     #
     # No se inventa ninguno: simplemente se ordena para que salgan antes los
     # que sí lo tienen.
+    # ── MENOR PRECIO EN 30 DÍAS (con datos, no con marketing) ────────────────
+    # Ahora que unir_achados.py guarda el histórico de toda la cosecha, se puede
+    # marcar "MENOR PRECIO EN 30 DIAS" SOLO cuando es verdad. Se exigen 2+
+    # registros del mismo producto; si no, no se marca nada.
+    minimos_30d = _minimos_30d()
+    marcados_menor = 0
+    if minimos_30d:
+        for post in fila_final:
+            pid = str(post.get("id_post") or "")
+            pmin = minimos_30d.get(pid)
+            if not pmin:
+                continue
+            try:
+                precio_post = float(post.get("precio") or 0)
+            except (TypeError, ValueError):
+                continue
+            if precio_post > 0 and precio_post <= pmin:
+                post["menor_precio_30d"] = True
+                post["menor_precio_30d_ref"] = pmin
+                marcados_menor += 1
+    print(f"  • Marcados como MENOR PRECIO EN 30 DIAS: {marcados_menor} "
+          f"(histórico con {len(minimos_30d)} productos comparables)")
+
     con_cupon = [p for p in fila_final if p.get("ml_tiene_cupon")
                  and p.get("ml_precio_cupon")]
     sin_cupon = [p for p in fila_final if p not in con_cupon]
