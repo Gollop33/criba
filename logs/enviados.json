@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "ml-lixeira-inteligente-automatica-com-sensor-inf": {
-    "ts": "2026-10-05T22:22:11.060786",
-    "canales": {
-      "whatsapp": "2026-10-05T22:22:11.060786"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
-  },
   "ml-smart-tv-philco-65-p65cga-qled-mini-led-quant": {
     "ts": "2026-10-05T22:36:25.911224",
     "canales": {
@@ -2679,5 +2669,15 @@
     "canales": {
       "whatsapp": "2026-10-07T22:21:38.457813"
     }
+  },
+  "ml-caixa-de-som-boombox-aiwa-awsbbs01b-200w-rms-": {
+    "ts": "2026-10-07T22:29:37.376516",
+    "canales": {
+      "whatsapp": "2026-10-07T22:29:37.376516"
+    },
+    "precio": 1138.0,
+    "precios_publicados": [
+      1138.0
+    ]
   }
 }
