@@ -59,19 +59,6 @@
     ],
     "precio_min_publicado": 3899.0
   },
-  "ml-smartphone-motorola-edge-70-fusion-5g-fifa-wo": {
-    "ts": "2026-10-05T20:01:02.387214",
-    "canales": {
-      "whatsapp": "2026-10-05T20:01:02.387214"
-    },
-    "precio": 2199.0,
-    "precios_publicados": [
-      2199.0,
-      2199.0,
-      2199.0
-    ],
-    "precio_min_publicado": 2199.0
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-10-06T22:44:12.093327",
     "canales": {
@@ -194,16 +181,6 @@
       78.0
     ],
     "precio_min_publicado": 78.0
-  },
-  "ml-suplemento-em-po-dark-lab-carboidratos-dark-m": {
-    "ts": "2026-10-05T20:03:12.877001",
-    "canales": {
-      "whatsapp": "2026-10-05T20:03:12.877001"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
   },
   "ml-whey-isolate-protein-fuse-900g-dark-lab-sabor": {
     "ts": "2026-10-05T20:08:31.817215",
@@ -2697,6 +2674,16 @@
     "precio": 884.0,
     "precios_publicados": [
       884.0
+    ]
+  },
+  "ml-racao-golden-premium-especial-castrado-carne-": {
+    "ts": "2026-10-07T20:07:03.264025",
+    "canales": {
+      "whatsapp": "2026-10-07T20:07:03.264025"
+    },
+    "precio": 139.0,
+    "precios_publicados": [
+      139.0
     ]
   }
 }
