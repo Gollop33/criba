@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "ml-tenis-vizzano-casual-feminino-plataforma-leve": {
-    "ts": "2026-10-05T21:56:22.540969",
-    "canales": {
-      "whatsapp": "2026-10-05T21:56:22.540969"
-    },
-    "precio": 93.0,
-    "precios_publicados": [
-      93.0
-    ]
-  },
   "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
     "ts": "2026-10-05T22:01:21.345926",
     "canales": {
@@ -2678,6 +2668,16 @@
     "precio": 1310.0,
     "precios_publicados": [
       1310.0
+    ]
+  },
+  "amz-balanca-de-cozinha-digital-premium-gourmet-re": {
+    "ts": "2026-10-07T21:58:41.892234",
+    "canales": {
+      "whatsapp": "2026-10-07T21:58:41.892234"
+    },
+    "precio": 13.0,
+    "precios_publicados": [
+      13.0
     ]
   }
 }
