@@ -39,6 +39,25 @@ UA = {
     "Accept-Language": "pt-BR,pt;q=0.9,en;q=0.8",
 }
 
+# ─── COOKIE DE SESIÓN: imprescindible desde el 2026-10-06 ─────────────────────
+# CAUSA RAÍZ del "Scraping ML: 0 ofertas" (el bot pasó de 400 achados/día a 0):
+# Mercado Livre dejó de servir la página de ofertas a peticiones anónimas.
+# Sin cookie responde 200 pero con una cáscara de 41 KB que solo ejecuta
+#   window.location.href = '/gz/account-verification/error'
+# y no trae ni un solo producto (poly-card = 0).
+#
+# Medido el 2026-10-07 desde el PC del usuario:
+#   sin cookie -> 41 KB, 0 poly-card, 0 precios
+#   con cookie -> 509 KB, 214 poly-card, 121 precios   ✅
+#
+# La cookie es la misma que ya usa gerador_melila.py (ML_PORTAL_COOKIE). Es la
+# sesión del usuario en el portal, así que caduca: si vuelve el 0, hay que
+# renovarla (CONFIGURAR_ML.bat / REAUTORIZAR_ML.bat).
+ML_PORTAL_COOKIE = os.environ.get("ML_PORTAL_COOKIE", "").strip()
+UA_SESION = dict(UA)
+if ML_PORTAL_COOKIE:
+    UA_SESION["Cookie"] = ML_PORTAL_COOKIE
+
 # ─── Parámetros de cosecha (configurables sin tocar código) ───────────────────
 # ML_LIMIT      cuántos resultados pedir por término (la API de ML admite 50)
 # ML_DESC_MIN   descuento mínimo para aceptar una oferta
@@ -311,7 +330,9 @@ def cosechar_api(token=None):
 
 def cosechar_scraping():
     items = []
-    log("Consultando scraping de ofertas en Mercado Livre...")
+    sin_sesion = 0
+    log("Consultando scraping de ofertas en Mercado Livre..."
+        + ("" if ML_PORTAL_COOKIE else " [AVISO: sin cookie de sesión]"))
 
     scrape_targets = list(ML_CATEGORIAS)
     # Las búsquedas por texto están DESACTIVADAS por defecto: /ofertas?q=...
@@ -328,12 +349,18 @@ def cosechar_scraping():
     for cat_nombre, url in scrape_targets:
         try:
             time.sleep(1.5)
-            r = requests.get(url, headers=UA, timeout=12)
+            r = requests.get(url, headers=UA_SESION, timeout=20)
             if r.status_code != 200:
+                log(f"    [{cat_nombre}] HTTP {r.status_code}: se salta")
                 continue
 
             soup = BeautifulSoup(r.text, "html.parser")
             polys = soup.select(".poly-card")
+            if not polys:
+                # Cáscara anti-bot de ML: 200, pero sin un solo producto.
+                # Ver la explicación de ML_PORTAL_COOKIE al principio del archivo.
+                sin_sesion += 1
+                continue
 
             # ── CUPÓN Y PIX REALES POR PRODUCTO (del JSON de ML) ────────────
             # Mercado Livre publica en su propia página de ofertas, por cada
@@ -479,7 +506,23 @@ def cosechar_scraping():
         except Exception as e:
             continue
 
-    log(f"Scraping ML: {len(items)} ofertas obtenidas")
+    # ── DIAGNÓSTICO HONESTO ───────────────────────────────────────────────────
+    # El 2026-10-06 el bot se quedó en 0 ofertas de ML durante horas y el log
+    # solo decía "0 ofertas obtenidas". Nunca más sin decir POR QUÉ.
+    if not items:
+        if not ML_PORTAL_COOKIE:
+            log("  [DIAGNÓSTICO] ML_PORTAL_COOKIE no está configurada. Sin esa cookie "
+                "Mercado Livre devuelve una página vacía: ESA es la causa del 0.")
+        elif sin_sesion:
+            log(f"  [DIAGNÓSTICO] {sin_sesion} categoría(s) devolvieron la cáscara "
+                "anti-bot de ML: la cookie ML_PORTAL_COOKIE caducó. "
+                "Renuévala con REAUTORIZAR_ML.bat y vuelve a correr.")
+        else:
+            log("  [DIAGNÓSTICO] ML respondió páginas con contenido pero 0 ofertas "
+                "pasaron el filtro: revisa ML_DESC_MIN o los selectores .poly-card.")
+
+    log(f"Scraping ML: {len(items)} ofertas obtenidas"
+        + (f" | {sin_sesion} categoría(s) sin sesión" if sin_sesion else ""))
     return items
 
 # ─── PROMOCIONES REALES POR PRODUCTO ─────────────────────────────────────────

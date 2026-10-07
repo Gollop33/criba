@@ -15,9 +15,11 @@ REGLA DE ORO ESTRICTA:
       Mercado Livre: #D[A:ja20250119201346]
   - Deduplica por nombre normalizado
   - Descarta ofertas sin descuento >= 15%
+  - Descarta ofertas cuyo precio no se pueda leer (NUNCA se inventa un precio)
   - Guarda en achados.json (máx 60 items, purga expirados)
 
-Uso: python descobrir_ofertas.py
+Uso: python descobrir_ofertas.py            # modo seguro -> achados_descobrir.json
+     python descobrir_ofertas.py --forzar   # sobreescribe achados.json (¡cuidado!)
 """
 import json, re, time, unicodedata, sys, io, base64
 from datetime import datetime, timezone, timedelta
@@ -252,6 +254,7 @@ PELANDO_URLS = [
 
 def cosechar_pelando():
     hallados = []
+    sin_precio = 0
     log("Iniciando cosecha en Pelando...")
 
     for tienda, url in PELANDO_URLS:
@@ -305,8 +308,11 @@ def cosechar_pelando():
                     continue
 
                 if not p_act:
-                    p_act = 99.0
-                    p_ant = round(p_act / (1 - (desc_pct / 100.0)), 2)
+                    # ANTES: p_act = 99.0 y se derivaba un precio anterior del
+                    # descuento. Eso es INVENTAR el precio. Si el precio no está
+                    # en la página, la oferta se descarta (Regla de Oro).
+                    sin_precio += 1
+                    continue
 
                 url_afiliada = aplicar_tag_afiliado(dest_url, tienda)
 
@@ -327,7 +333,8 @@ def cosechar_pelando():
             log(f"Error procesando {tienda} en Pelando: {e}")
             continue
 
-    log(f"Pelando: {len(hallados)} ofertas cosechadas con descuento >= 15%")
+    log(f"Pelando: {len(hallados)} ofertas cosechadas con descuento >= 15% "
+        f"({sin_precio} descartadas por no tener precio real)")
     return hallados
 
 AMAZON_CAT_URLS = [
@@ -395,8 +402,10 @@ def cosechar_amazon():
                             pass
 
                 if desc_pct < 15:
-                    desc_pct = 18.0
-                    p_ant = round(p_act / (1 - (desc_pct / 100.0)), 2)
+                    # ANTES: se fabricaba un 18% OFF y un precio anterior que
+                    # nunca existió. El propio docstring dice "descarta ofertas
+                    # sin descuento >= 15%": ahora el código hace lo que dice.
+                    continue
 
                 url_afiliada = aplicar_tag_afiliado(url_prod, "Amazon")
 
@@ -477,6 +486,18 @@ def procesar_y_guardar(nuevos_achados):
 def main():
     print("=" * 60)
     print("  CRIBA · AGENTE CAÇA-OFERTAS")
+
+    # ⚠ ESTE SCRIPT ESCRIBE EN achados.json, EL CATÁLOGO DE PRODUCCIÓN.
+    # No lo usa el workflow (el pipeline oficial es agente_ml + agente_amazon +
+    # unir_achados), así que ejecutarlo a mano REEMPLAZA el catálogo entero por
+    # un máximo de 60 ofertas cosechadas aquí. Por eso ahora hay que pedirlo
+    # explícitamente con --forzar; sin él, escribe en un fichero aparte.
+    if "--forzar" not in sys.argv:
+        globals()["ACHADOS_JSON"] = BASE / "achados_descobrir.json"
+        print("  MODO SEGURO: no se toca achados.json.")
+        print("  Escribe en achados_descobrir.json. Para sobrescribir el catálogo:")
+        print("      python descobrir_ofertas.py --forzar")
+
     print(f"  {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("  Regla de Oro: Solo Amazon e Mercado Livre")
     print("=" * 60)

@@ -129,21 +129,85 @@ def parse_precio(texto):
             return None
     return None
 
+
+# ─── FICHA DE PRODUCTO DE AMAZON (precio real, no inventado) ──────────────────
+def datos_ficha_amazon(url, timeout=14):
+    """
+    Lee título, precio, precio anterior e imagen de la FICHA del producto.
+
+    Devuelve None si Amazon no responde o no se puede leer el precio. Nunca
+    devuelve un precio estimado: si no está en la página, no hay precio.
+
+    Por qué existe: la página de ofertas de Pelando trae campañas y listados,
+    no fichas, y el precio que se ve en la tarjeta puede ser el TOPE DE UN
+    CUPÓN ("desconto máximo de R$ 60"). Tomarlo como precio del producto sería
+    publicar un dato falso; el precio de verdad está en Amazon.
+    """
+    try:
+        r = requests.get(url, headers=UA, timeout=timeout)
+        if r.status_code != 200:
+            return None
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        titulo_el = soup.select_one("#productTitle") or soup.select_one("h1 span")
+        titulo = titulo_el.get_text(strip=True) if titulo_el else ""
+        if not titulo:
+            return None
+
+        # Precios visibles: el primero suele ser el de "à vista"/Pix y los
+        # siguientes el precio de lista (el tachado).
+        visibles = [parse_precio(s.get_text()) for s in soup.select("span.a-price span.a-offscreen")]
+        visibles = [p for p in visibles if p]
+        lista = [parse_precio(s.get_text()) for s in soup.select(
+            "span.basisPrice span.a-offscreen, span.a-text-price span.a-offscreen")]
+        lista = [p for p in lista if p]
+
+        if not visibles:
+            return None
+
+        precio = min(visibles[:3])
+        candidatos_previos = [p for p in (visibles[1:4] + lista) if p > precio]
+        precio_anterior = max(candidatos_previos) if candidatos_previos else None
+
+        img_el = soup.select_one("#landingImage") or soup.select_one("#imgTagWrapperId img")
+        imagen = ""
+        if img_el:
+            imagen = img_el.get("data-old-hires") or img_el.get("src") or ""
+
+        return {"titulo": titulo, "precio": precio, "precio_anterior": precio_anterior,
+                "imagen": imagen}
+    except Exception as e:
+        log(f"  ficha Amazon no legible ({type(e).__name__}): {url[:60]}")
+        return None
+
+
+ES_FICHA_PRODUCTO = re.compile(r"/(?:dp|gp/product)/[A-Z0-9]{10}", re.I)
+
 # ─── FUENTE 1: AMAZON BESTSELLERS & OFERTAS ────────────────────────────────────
 
 def cosechar_bestsellers():
     items = []
     log("Cosechando Bestsellers y ofertas de categorías Amazon...")
 
+    # Diagnóstico: antes los fallos se tragaban con `except: continue`, así que
+    # cuando Amazon devolvía 0 ofertas no había forma de saber POR QUÉ (¿bloqueo
+    # desde la IP de GitHub? ¿cambió el HTML?). Ahora se cuenta todo y se deja
+    # en el log de la ejecución.
+    stats = {"ok": 0, "http_error": {}, "excepcion": 0, "sin_cards": 0}
+
     for cat_nombre, url in AMAZON_TARGETS:
         try:
             time.sleep(2)
             r = requests.get(url, headers=UA, timeout=14)
             if r.status_code != 200:
+                stats["http_error"][r.status_code] = stats["http_error"].get(r.status_code, 0) + 1
                 continue
+            stats["ok"] += 1
 
             soup = BeautifulSoup(r.text, "html.parser")
             cards = soup.select("#gridItemRoot")
+            if not cards:
+                stats["sin_cards"] += 1
 
             for card in cards:
                 link_el = card.find("a", href=lambda h: h and "/dp/" in h)
@@ -202,76 +266,127 @@ def cosechar_bestsellers():
                     "envio_gratis": envio_gratis,
                 })
         except Exception as e:
+            stats["excepcion"] += 1
             continue
 
-    log(f"Amazon direct: {len(items)} ofertas cosechadas")
+    log(f"Amazon direct: {len(items)} ofertas cosechadas | "
+        f"categorias OK {stats['ok']}/{len(AMAZON_TARGETS)}"
+        + (f" | HTTP {stats['http_error']}" if stats["http_error"] else "")
+        + (f" | sin tarjetas {stats['sin_cards']}" if stats["sin_cards"] else "")
+        + (f" | excepciones {stats['excepcion']}" if stats["excepcion"] else ""))
     return items
 
 # ─── FUENTE 2: OFERTAS VERIFICADAS AMAZON EN PELANDO ──────────────────────────
 
-def cosechar_pelando_amazon():
+def cosechar_pelando_amazon(max_fichas=12):
+    """
+    Productos de Amazon que Pelando está promocionando.
+
+    Pelando se usa SOLO para DESCUBRIR qué productos están de oferta; el precio
+    se lee de la ficha de Amazon. Nada se estima.
+
+    ── BUG QUE ESTO ARREGLA (encontrado el 2026-10-02) ────────────────────────
+    Antes esta función hacía:
+
+        p_act = 89.90                                   # ← precio inventado
+        p_ant = round(p_act / (1 - (desc_pct / 100.0))) # ← derivado del invento
+        desc_pct = float(m_d.group(1)) if m_d else 20.0 # ← 20% si no había dato
+
+    Resultado medido: de 37 artículos, 30 son páginas de CAMPAÑA
+    (/promotion/psp/..., /b?node=...) y solo 1 es una ficha de producto. Aun así
+    se generaban 34 ofertas, TODAS con precio R$ 89,90 y un descuento inventado,
+    apuntando a campañas. Se comprobó en logs/enviados.json que ninguna llegó a
+    publicarse (0 entradas con precio 89,90), pero cualquier ejecución en la que
+    Pelando respondiera las habría metido en el grupo.
+
+    Ahora: solo fichas de producto (/dp/<ASIN>) y precio leído de Amazon. Si no
+    se puede leer el precio, el artículo se descarta.
+    """
     items = []
+    descartadas = {"campana": 0, "sin_ficha": 0, "sin_precio": 0, "duplicada": 0}
     log("Cosechando ofertas quentes de Amazon en Pelando...")
     url = "https://www.pelando.com.br/cupons-de-descontos/amazon"
 
     try:
         r = requests.get(url, headers=UA, timeout=14)
-        if r.status_code == 200:
-            soup = BeautifulSoup(r.text, "html.parser")
-            articles = soup.find_all("article")
+        if r.status_code != 200:
+            log(f"Pelando Amazon: HTTP {r.status_code}")
+            return items
+        soup = BeautifulSoup(r.text, "html.parser")
+        vistos = set()
+        fichas_leidas = 0
 
-            for art in articles:
-                h = art.find(["h2", "h3"])
-                if not h:
-                    continue
-                titulo = h.text.strip()
-                if not titulo or len(titulo) < 5:
-                    continue
+        for art in soup.find_all("article"):
+            h = art.find(["h2", "h3"])
+            if not h:
+                continue
+            titulo = h.text.strip()
+            if not titulo or len(titulo) < 5:
+                continue
 
-                redirect_a = art.find("a", href=lambda l: l and "dpl.pelando.com.br/r/" in l)
-                dest_url = None
-                if redirect_a:
-                    try:
-                        token = redirect_a["href"].split("/r/")[1].split("?")[0]
-                        payload = token.split(".")[1]
-                        payload += "=" * (-len(payload) % 4)
-                        data = json.loads(base64.urlsafe_b64decode(payload.encode()).decode())
-                        dest_url = data.get("url")
-                    except Exception:
-                        pass
+            # El enlace real va dentro del redirect de Pelando (base64)
+            redirect_a = art.find("a", href=lambda l: l and "dpl.pelando.com.br/r/" in l)
+            dest_url = None
+            if redirect_a:
+                try:
+                    token = redirect_a["href"].split("/r/")[1].split("?")[0]
+                    payload = token.split(".")[1]
+                    payload += "=" * (-len(payload) % 4)
+                    data = json.loads(base64.urlsafe_b64decode(payload.encode()).decode())
+                    dest_url = data.get("url")
+                except Exception:
+                    pass
 
-                if not dest_url or "amazon.com.br" not in dest_url:
-                    dest_url = "https://www.amazon.com.br/"
+            if not dest_url or "amazon.com.br" not in dest_url:
+                descartadas["sin_ficha"] += 1
+                continue
+            if not ES_FICHA_PRODUCTO.search(dest_url):
+                # Campaña, listado o cupón: no es un producto con precio.
+                descartadas["campana"] += 1
+                continue
 
-                img_el = art.find("img")
-                imagen = img_el.get("src") if img_el else None
+            if fichas_leidas >= max_fichas:
+                break
+            clave = ES_FICHA_PRODUCTO.search(dest_url).group(0).upper()
+            if clave in vistos:
+                descartadas["duplicada"] += 1
+                continue
+            vistos.add(clave)
 
-                # Extraer porcentaje del texto
-                m_d = re.search(r"(\d{1,2})%\s*(?:OFF|off|desconto|de\s+desc)", titulo + " " + art.get_text())
-                desc_pct = float(m_d.group(1)) if m_d else 20.0
+            url_limpia = f"https://www.amazon.com.br{ES_FICHA_PRODUCTO.search(dest_url).group(0)}"
+            time.sleep(1.5)
+            fichas_leidas += 1
+            ficha = datos_ficha_amazon(url_limpia)
+            if not ficha:
+                descartadas["sin_precio"] += 1
+                continue
 
-                if desc_pct < 15:
-                    continue
+            precio = ficha["precio"]
+            anterior = ficha["precio_anterior"]
+            if anterior and anterior > precio:
+                desc_pct = round((anterior - precio) / anterior * 100, 1)
+            else:
+                anterior, desc_pct = None, 0.0
 
-                p_act = 89.90
-                p_ant = round(p_act / (1 - (desc_pct / 100.0)), 2)
-
-                items.append({
-                    "id": slug_id(titulo),
-                    "nombre": titulo,
-                    "precio": p_act,
-                    "precio_anterior": p_ant,
-                    "desc_pct": desc_pct,
-                    "imagen": imagen,
-                    "url": aplicar_tag(dest_url),
-                    "loja": "Amazon",
-                    "categoria": "Promoções Amazon",
-                    "fuente": "Amazon Pelando Hot Deals",
-                })
+            items.append({
+                "id": slug_id(ficha["titulo"]),
+                "nombre": ficha["titulo"],
+                "precio": precio,
+                "precio_anterior": anterior,
+                "desc_pct": desc_pct,
+                "imagen": ficha["imagen"],
+                "url": aplicar_tag(url_limpia),
+                "loja": "Amazon",
+                "categoria": "Promoções Amazon",
+                "fuente": "Pelando (precio verificado en Amazon)",
+                "titulo_pelando": titulo,
+            })
     except Exception as e:
         log(f"Error en Pelando Amazon: {e}")
 
-    log(f"Amazon Pelando: {len(items)} ofertas obtenidas")
+    log(f"Amazon Pelando: {len(items)} ofertas reales | descartadas: "
+        f"{descartadas['campana']} campañas, {descartadas['sin_ficha']} sin ficha, "
+        f"{descartadas['sin_precio']} sin precio legible, {descartadas['duplicada']} duplicadas")
     return items
 
 # ─── MAIN ─────────────────────────────────────────────────────────────────────

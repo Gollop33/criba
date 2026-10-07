@@ -277,7 +277,13 @@ def consumir_api_dealee():
         return []
 
 def simular_ofertas_teste():
-    """Genera 3 ofertas de prueba reales para verificar el pipeline completo."""
+    """
+    Ofertas de EJEMPLO para probar el pipeline. NO son ofertas reales.
+
+    Se marcan con `simulado: True` para que nada de esto pueda acabar publicado.
+    Solo se usan con `python agente_autonomo.py --simular`, que además ya no
+    escribe en achados_especificos.json.
+    """
     return [
         {
             "id": "MLB34928101",
@@ -429,9 +435,17 @@ def ejecutar_agente_autonomo(forzar_simulacion=False):
 
     # 1. Obtener ofertas
     raw_offers = []
-    if forzar_simulacion or not DEALEE_API_KEY:
-        print("  • Modo: Consumo / Simulação de Verificação de Ofertas...")
+    if forzar_simulacion:
+        print("  • MODO PRUEBA (--simular): las ofertas de ejemplo NO se guardan.")
         raw_offers = simular_ofertas_teste()
+    elif not DEALEE_API_KEY:
+        # ANTES: sin clave de API se inyectaban 3 ofertas de EJEMPLO con precios
+        # inventados (Monitor LG R$ 849, SSD Kingston R$ 389,90, Teclado Redragon
+        # R$ 179,90) en achados_especificos.json, que gerar_fila_posts publica
+        # con prioridad 10 (las primeras). Medido: el SSD falso SÍ se publicó
+        # el 2026-09-30 16:23. Ya no se inyecta nada: sin fuente, no hay oferta.
+        print("  • Sin DEALEE_API_KEY: no hay fuente de ofertas. No se genera nada.")
+        return 0
     else:
         print(f"  • Consultando API externa: {DEALEE_API_URL}...")
         raw_offers = consumir_api_dealee()
@@ -509,12 +523,18 @@ def ejecutar_agente_autonomo(forzar_simulacion=False):
                     "destaque": analise["destaque"]
                 },
                 "origem": "agente_autonomo_api",
+                "simulado": bool(forzar_simulacion or item.get("simulado")),
                 "prioridade": 10
             }
             aprobadas_para_postar.append(oferta_final)
 
     # 7. Inyectar en achados_especificos.json
-    if aprobadas_para_postar:
+    # En modo --simular NO se escribe nunca: son ofertas de ejemplo con precios
+    # inventados y gerar_fila_posts las publica con prioridad 10 (las primeras).
+    if forzar_simulacion:
+        print(f"\n[MODO PRUEBA] {len(aprobadas_para_postar)} ofertas de ejemplo "
+              f"analizadas. NO se guardan en achados_especificos.json.")
+    elif aprobadas_para_postar:
         total = salvar_em_achados_especificos(aprobadas_para_postar)
         print(f"\n[SUCESSO] {total} ofertas curadas e monetizadas prontas para publicação imediata!")
     else:

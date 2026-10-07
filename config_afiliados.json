@@ -13,7 +13,42 @@
   "shopee": {
     "id": "PON_AQUI_TU_ID",
     "nombre": "Shopee Afiliados Brasil",
-    "param": "aff_id"
+    "param": "aff_id",
+    "app_id": "",
+    "secret_key": "",
+    "feed_file": "shopee_feed.csv",
+    "usar_telegram": true,
+    "telegram_file": "ofertas_telegram.json",
+    "max_telegram": 40,
+    "min_desc": 15,
+    "min_comision": 0,
+    "max_achados": 120,
+    "pagos_aprobados": false,
+    "busquedas": [
+      "air fryer",
+      "panela eletrica",
+      "aspirador de po",
+      "liquidificador",
+      "jogo de cama",
+      "organizador de cozinha",
+      "kit panelas",
+      "cafeteira",
+      "fone bluetooth",
+      "smartwatch",
+      "caixa de som bluetooth",
+      "power bank",
+      "perfume feminino",
+      "creatina",
+      "whey protein",
+      "racao cachorro",
+      "comedouro pet",
+      "fralda",
+      "mamadeira",
+      "parafusadeira",
+      "mochila",
+      "tenis masculino"
+    ],
+    "_nota": "app_id/secret_key se leen de .env (SHOPEE_APP_ID / SHOPEE_SECRET_KEY). Aqui solo van como respaldo. 'shopee' NO va en tiendas_que_pagan: ese interruptor activa scrapers que devolverian enlaces SIN afiliado. La unica fuente valida de Shopee es la API oficial (agente_shopee.py)."
   },
   "kabum": {
     "id": "PON_AQUI_TU_ID",
@@ -51,7 +86,7 @@
     "mercadolivre": 5,
     "amazon": 5
   },
-  "dealee_api_key": "${DEALEE_API_KEY}",
+  "dealee_api_key": "",
   "dealee_api_url": "https://api.dealee.app/offers",
   "agente_autonomo_activo": true
 }

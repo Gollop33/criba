@@ -40,6 +40,9 @@ CONFIG_FILE = BASE / "config_afiliados.json"
 ML_ID = "ja20250119201346"
 ML_TAG = "ja20250119201346"
 AMAZON_TAG = "criba20-20"
+# Hosts de enlace corto de afiliado de Shopee (ver shopee_api.py).
+# Shopee no lleva tag en la URL: el enlace corto ES la credencial.
+HOSTS_SHOPEE = ("s.shopee.com.br", "shp.ee")
 
 
 def elegir_link_afiliado(item):
@@ -364,6 +367,15 @@ def cargar_enviados_recientes(horas=48):
 HORAS_MIN_REPETIR = float(os.environ.get("HORAS_MIN_REPETIR", "3"))
 MEJORA_MIN_PCT = float(os.environ.get("MEJORA_MIN_PCT", "3")) / 100.0
 
+# ─── FRESCURA (regla del usuario, 2026-10-07) ─────────────────────────────────
+# "cada cosa que consigas actualizada de menos de 12 h, publicas".
+# Una oferta de hace 3 días ya no es una oferta: el precio cambió, el stock se
+# agotó o el enlace murió. Si la cosecha de una tienda se rompe (p.ej. Amazon
+# bloqueando las IPs de GitHub), sus ofertas dejan de renovarse y este filtro
+# las retira SOLO en vez de seguir publicándolas como si fueran de hoy.
+# Se puede subir/bajar con MAX_EDAD_HORAS.
+MAX_EDAD_HORAS = float(os.environ.get("MAX_EDAD_HORAS", "12"))
+
 
 def cargar_enviados_raw():
     if not ENVIADOS_JSON.exists():
@@ -383,6 +395,49 @@ def _horas_desde(ts_str):
         return (datetime.now(timezone.utc) - ts).total_seconds() / 3600.0
     except Exception:
         return None
+
+
+def edad_horas(item):
+    """
+    Horas desde la última confirmación REAL de la oferta. Se toma la fecha más
+    reciente de las tres que escriben los cosechadores:
+      encontrado_em  -> cuándo se encontró/rencontró el producto
+      revalidado_em  -> cuándo el unificador lo dio por bueno
+      criado_em      -> cuándo entró a la fila
+    Devuelve None si el item no trae ninguna fecha (no se puede demostrar que
+    esté fresco, así que no se publica).
+    """
+    mejor = None
+    for campo in ("encontrado_em", "revalidado_em", "criado_em"):
+        h = _horas_desde(item.get(campo))
+        if h is not None and (mejor is None or h < mejor):
+            mejor = h
+    return mejor
+
+
+def puntaje_oferta(item):
+    """
+    Cuánto vale la pena publicar esta oferta. Es lo que ordena la fila.
+      · descuento real (desc_pct)      -> el motor principal
+      · frescura (< MAX_EDAD_HORAS h)  -> hasta +25
+      · cupón CONFIRMADO por la tienda -> +20
+      · precio bajo                    -> hasta +10 (R$ 0 suma 10, R$ 150+ suma 0)
+      · readmitida porque BAJÓ          -> +15
+    Nada de esto inventa datos: solo ordena lo que ya viene verificado.
+    """
+    desc = float(item.get("desc_pct") or 0)
+    edad = edad_horas(item)
+    frescura = 0.0
+    if edad is not None and MAX_EDAD_HORAS > 0:
+        frescura = max(0.0, (MAX_EDAD_HORAS - edad) / MAX_EDAD_HORAS) * 25.0
+    cupon = 20.0 if item.get("ml_tiene_cupon") else 0.0
+    try:
+        precio = float(item.get("precio") or 0)
+    except (TypeError, ValueError):
+        precio = 0.0
+    barato = 10.0 * max(0.0, (150.0 - precio) / 150.0) if precio > 0 else 0.0
+    bajada = 15.0 if item.get("_bajada") else 0.0
+    return desc + frescura + cupon + barato + bajada
 
 
 def repeticion_permitida(pid, precio_actual, enviados_raw):
@@ -789,6 +844,54 @@ def armar_fila_rotativa():
         except Exception:
             pass
 
+    # ── BLINDAJE: fuera las ofertas de EJEMPLO ───────────────────────────────
+    # Estas ofertas entran por DOS sitios (la lista de "específicas" y el bucle
+    # general de candidatos), así que hay que filtrarlas aquí, al cargarlas.
+    # El 2026-09-30 se publicó así un "SSD Kingston NV2 1TB" a R$ 389 con precio
+    # inventado, y quedaron en la fila otros dos de ejemplo (Monitor LG R$ 849 y
+    # Teclado Redragon R$ 179,90) por delante de todo lo demás.
+    def _especifica_confiable(x):
+        """
+        Puerta dura para achados_especificos.json.
+
+        El 2026-09-09 se escribieron ahí 3 ofertas de EJEMPLO (Monitor LG R$ 849,
+        SSD Kingston R$ 389,90, Teclado Redragon R$ 179,90) con ids inventados o
+        precios fijos de plantilla. El campo `simulado` no las cubría porque son
+        anteriores a él, así que siguieron en producción 28 días.
+        Ahora no basta con "no estar marcada": hay que DEMOSTRAR que es real.
+          · precio > 0
+          · id con formato REAL de la tienda (MLB + dígitos / ASIN de 10)
+          · url de la tienda
+        Lo que no se pueda demostrar, no se publica.
+        """
+        if x.get("simulado"):
+            return False
+        if str(x.get("origem") or "") in ("agente_autonomo_api", "curadoria_agente_ia"):
+            return False
+        try:
+            if float(x.get("precio") or 0) <= 0:
+                return False
+        except (TypeError, ValueError):
+            return False
+        url = str(x.get("url") or "")
+        pid = str(x.get("id") or "")
+        loja = str(x.get("loja") or "")
+        if not url or not pid or not loja:
+            return False
+        if "Mercado" in loja and not re.fullmatch(r"MLB\d{6,}", pid):
+            return False
+        if "Amazon" in loja and not re.fullmatch(r"[A-Z0-9]{10}", pid):
+            return False
+        if "Shopee" in loja and not x.get("afiliado_verificado"):
+            return False
+        return True
+
+    sospechosas = [x for x in items_esp if not _especifica_confiable(x)]
+    if sospechosas:
+        print(f"  [Regla de Oro] {len(sospechosas)} oferta(s) curada(s) SIN datos "
+              f"verificables descartadas: {[str(x.get('nombre'))[:28] for x in sospechosas][:3]}")
+    items_esp = [x for x in items_esp if _especifica_confiable(x)]
+
     cupones = cargar_cupones_reales()
     # Ventana de enfriamiento anti-repetición (horas). Configurable porque es
     # el factor que MÁS limita cuántos posts/día se pueden publicar: con 48 h el
@@ -804,11 +907,13 @@ def armar_fila_rotativa():
     print(f"  • Cupones activos cargados: {len(cupones)}")
     print(f"  • Enfriamiento {horas_enfriamiento}h: {len(bloqueados_48h)} productos "
           f"(suelo anti-spam {HORAS_MIN_REPETIR:.0f}h, mejora mínima {MEJORA_MIN_PCT*100:.0f}%)")
+    print(f"  • Frescura exigida: {MAX_EDAD_HORAS:.0f}h (MAX_EDAD_HORAS)")
 
     # Unificar y filtrar por 48h (ofertas específicas tienen prioridad absoluta)
     todos_candidatos = []
     vistos_slug = set()
     reingresos = []   # productos readmitidos porque BAJARON de precio
+    descartados_viejos = 0   # ofertas sin confirmar en las últimas MAX_EDAD_HORAS
 
     for item in (items_esp + items_achados + items_ml + items_amz):
         pid = item.get("id") or item.get("nombre", "")[:40]
@@ -840,6 +945,13 @@ def armar_fila_rotativa():
         elif "Amazon" in loja:
             if "amazon.com.br" not in url or f"tag={AMAZON_TAG}" not in url:
                 continue
+        elif "Shopee" in loja:
+            # Shopee no usa tag en la URL: su enlace de afiliado es un link corto
+            # (s.shopee.com.br / shp.ee) que emite la API con la cuenta del
+            # afiliado. Se exigen las dos cosas: el host y la marca que deja
+            # agente_shopee.py. Un enlace shopee.com.br/product/... NO entra.
+            if not item.get("afiliado_verificado") or not any(h in url for h in HOSTS_SHOPEE):
+                continue
         else:
             continue
 
@@ -848,18 +960,47 @@ def armar_fila_rotativa():
         if not es_producto_del_canal(nombre_prod):
             continue
 
+        # FILTRO DE FRESCURA: "solo lo actualizado en menos de 12 h" (regla del
+        # usuario). Protege al grupo de publicar material que ya no es oferta.
+        edad = edad_horas(item)
+        if edad is None or edad > MAX_EDAD_HORAS:
+            descartados_viejos += 1
+            continue
+
         cat = clasificar_categoria(nombre_prod)
         item["categoria_canal"] = cat
         todos_candidatos.append(item)
 
+    print(f"  • Descartadas por ANTIGUAS (> {MAX_EDAD_HORAS:.0f}h sin confirmar): {descartados_viejos}")
+
     # Dividir candidatos por tienda
     cola_ml = [x for x in todos_candidatos if "Mercado Livre" in x.get("loja", "")]
     cola_amz = [x for x in todos_candidatos if "Amazon" in x.get("loja", "")]
+    cola_shp = [x for x in todos_candidatos if "Shopee" in x.get("loja", "")]
 
-    # Shuffle suave para evitar que el mismo top de descuento esté siempre adelante
-    random.seed(int(datetime.now().strftime("%Y%m%d%H")))
-    random.shuffle(cola_ml)
-    random.shuffle(cola_amz)
+    # ── ORDEN POR VALOR REAL (antes: random.shuffle) ──────────────────────────
+    # El azar puro produjo el problema que reportó el usuario: 4 veces la misma
+    # creatina en el grupo y ni un monitor. Ahora la fila va ordenada por lo que
+    # vale de verdad (descuento real + frescura + cupón confirmado + precio
+    # bajo). Se conserva variedad barajando SOLO dentro de bandas de 5 puntos,
+    # así el primer puesto no es siempre el mismo producto pero nunca cae uno
+    # malo delante de uno bueno.
+    random.seed(int(datetime.now().strftime("%Y%m%d")))
+
+    def _ordenar_por_valor(cola):
+        bandas = {}
+        for it in cola:
+            bandas.setdefault(int(puntaje_oferta(it) // 5), []).append(it)
+        salida = []
+        for b in sorted(bandas, reverse=True):
+            grupo = bandas[b]
+            random.shuffle(grupo)
+            salida.extend(grupo)
+        return salida
+
+    cola_ml = _ordenar_por_valor(cola_ml)
+    cola_amz = _ordenar_por_valor(cola_amz)
+    cola_shp = _ordenar_por_valor(cola_shp)
 
     # Crear posts de cupones
     posts_cupones = generar_posts_cupones(cupones)
@@ -868,6 +1009,11 @@ def armar_fila_rotativa():
     
     # 0. PRIORIDAD ABSOLUTA: Ofertas curadas con IA / específicas ingresadas por el usuario
     for esp in items_esp:
+        # BLINDAJE: nunca publicar una oferta de EJEMPLO. El 2026-09-30 se
+        # publicó así un "SSD Kingston NV2 1TB" a R$ 389 con precio inventado.
+        if esp.get("simulado"):
+            print(f"  [Regla de Oro] Descartada oferta SIMULADA: {str(esp.get('nombre'))[:50]}")
+            continue
         if not es_producto_del_canal(esp.get("nombre", "")):
             continue
         pid = esp.get("id") or esp.get("nombre", "")[:40]
@@ -910,6 +1056,7 @@ def armar_fila_rotativa():
 
     idx_ml = 0
     idx_amz = 0
+    idx_shp = 0
     idx_cupom = 0
     ultima_cat = None
     repeticiones_cat = 0
@@ -926,8 +1073,43 @@ def armar_fila_rotativa():
     for step in range(total_deseado):
         item_elegido = None
 
+        # Shopee entra en 1 de cada 3 huecos, y SOLO si hay ofertas suyas.
+        # Mientras la API de afiliados no devuelva nada, cola_shp está vacía y
+        # esta rama nunca se activa: el reparto sigue siendo ML/Amazon como antes.
+        if step % 3 == 2 and idx_shp < len(cola_shp):
+            candidato = cola_shp[idx_shp]
+            idx_shp += 1
+            item_elegido = {
+                "id_post": candidato.get("id") or f"shp-{step}",
+                "tipo": "producto",
+                "loja": "Shopee",
+                "categoria": candidato.get("categoria_canal", "Shopee Ofertas"),
+                "titulo": candidato.get("nombre"),
+                "precio": candidato.get("precio"),
+                "precio_anterior": candidato.get("precio_anterior"),
+                "desc_pct": candidato.get("desc_pct"),
+                # SIN CUPÓN a propósito: de Shopee todavía NO tenemos una fuente
+                # que confirme qué código aplica a qué producto. Poner uno sería
+                # repetir el error de ML ("seu cupom nao se aplica a esta compra").
+                "cupom": None,
+                "cupom_pct": None,
+                "pix": "",
+                "ml_tiene_cupon": None,
+                "ml_precio_cupon": None,
+                "ml_tiene_pix": None,
+                "ml_precio_pix": None,
+                "imagen": candidato.get("imagen"),
+                "url": elegir_link_afiliado(candidato),
+                "criado_em": ahora_iso,
+                "prioridade": 5,
+                "cuotas": candidato.get("cuotas"),
+                "cuota_valor": candidato.get("cuota_valor"),
+                "cuotas_sin_interes": candidato.get("cuotas_sin_interes"),
+                "envio_gratis": bool(candidato.get("envio_gratis"))
+            }
+
         # Rotación 50/50: alternar entre Mercado Livre y Amazon (100% productos con foto)
-        if (step % 2 == 0 and idx_ml < len(cola_ml)) or (idx_amz >= len(cola_amz) and idx_ml < len(cola_ml)):
+        elif (step % 2 == 0 and idx_ml < len(cola_ml)) or (idx_amz >= len(cola_amz) and idx_ml < len(cola_ml)):
             # Tomar de ML cuidando repetición de categoría consecutiva
             candidato = cola_ml[idx_ml]
             idx_ml += 1
@@ -1002,15 +1184,19 @@ def armar_fila_rotativa():
             fila_final.append(item_elegido)
 
     # Si aún no llegamos al objetivo, rellenar con lo que quede
-    while len(fila_final) < total_deseado and (idx_ml < len(cola_ml) or idx_amz < len(cola_amz)):
+    while len(fila_final) < total_deseado and (idx_ml < len(cola_ml) or idx_amz < len(cola_amz) or idx_shp < len(cola_shp)):
         if idx_ml < len(cola_ml):
             c = cola_ml[idx_ml]
             idx_ml += 1
             loja = "Mercado Livre"
-        else:
+        elif idx_amz < len(cola_amz):
             c = cola_amz[idx_amz]
             idx_amz += 1
             loja = "Amazon"
+        else:
+            c = cola_shp[idx_shp]
+            idx_shp += 1
+            loja = "Shopee"
 
         fila_final.append({
             "id_post": c.get("id") or f"post-{len(fila_final)}",
@@ -1021,8 +1207,10 @@ def armar_fila_rotativa():
             "precio": c.get("precio"),
             "precio_anterior": c.get("precio_anterior"),
             "desc_pct": c.get("desc_pct"),
-            "cupom": c.get("cupon") or c.get("cupom") or buscar_cupon_para_producto(c, cupones),
-            "pix": c.get("pix") or "",
+            # En Shopee no se asigna cupón: no hay fuente que confirme qué código
+            # aplica a qué producto (misma razón que en la rotación principal).
+            "cupom": None if loja == "Shopee" else (c.get("cupon") or c.get("cupom") or buscar_cupon_para_producto(c, cupones)),
+            "pix": "" if loja == "Shopee" else (c.get("pix") or ""),
             # Datos de promocion LEIDOS DE MERCADO LIVRE (no adivinados)
             "ml_tiene_cupon": c.get("ml_tiene_cupon"),
             "ml_precio_cupon": c.get("ml_precio_cupon"),
@@ -1157,7 +1345,8 @@ def armar_fila_rotativa():
     print(f"  • Posts tipo cupón/especial: {sum(1 for x in fila_final if x.get('tipo') == 'cupons_loja')}")
     ml_n = sum(1 for x in fila_final if "Mercado" in (x.get("loja") or ""))
     amz_n = sum(1 for x in fila_final if "Amazon" in (x.get("loja") or ""))
-    print(f"  • Reparto: {ml_n} Mercado Livre | {amz_n} Amazon")
+    shp_n = sum(1 for x in fila_final if "Shopee" in (x.get("loja") or ""))
+    print(f"  • Reparto: {ml_n} Mercado Livre | {amz_n} Amazon | {shp_n} Shopee")
     print(f"  • Con cupón: {sum(1 for x in fila_final if x.get('cupom'))}")
     if reingresos:
         print(f"  • READMITIDOS por bajada de precio: {len(reingresos)}")

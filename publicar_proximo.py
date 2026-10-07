@@ -126,18 +126,44 @@ def limite_diario_calentamiento(dias_activo):
     return 120  # día 3+: tope de seguridad del canal
 
 
+def ventana_brt():
+    """
+    Ventana de publicación en hora de Brasília, leída de VENTANA_BRT.
+
+      VENTANA_BRT="8-22"   -> horario comercial (comportamiento histórico)
+      VENTANA_BRT="0-24"   -> 24/7 (lo que pidió el usuario el 2026-10-07)
+
+    Acepta también una ventana que cruza medianoche (p.ej. "22-6").
+    """
+    bruto = os.environ.get("VENTANA_BRT", "8-22").strip().replace(" ", "")
+    if bruto in ("0-24", "24", "24h", "24/7", "*"):
+        return 0, 24
+    try:
+        ini_s, fin_s = bruto.split("-")
+        ini, fin = int(ini_s), int(fin_s)
+    except Exception:
+        ini, fin = 8, 22
+    ini = max(0, min(23, ini))
+    fin = max(0, min(24, fin))
+    return ini, fin
+
+
 def horario_permitido_brt():
     """
-    True si la hora actual en Brasília (UTC-3) está entre 8 y 22h.
+    True si la hora actual de Brasília (UTC-3) cae dentro de la ventana.
 
-    Se puede forzar con la variable de entorno FORZAR_ENVIO=1 para hacer una
-    publicación manual de prueba fuera de la ventana (por ejemplo, para que el
-    usuario vea cómo queda un post antes de que arranque el ciclo del día).
+    Se puede forzar con FORZAR_ENVIO=1 para una publicación manual de prueba.
     """
     if os.environ.get("FORZAR_ENVIO", "").strip().lower() in ("1", "true", "si", "sí"):
         return True
+    ini, fin = ventana_brt()
+    if fin - ini >= 24:
+        return True
     brt_hour = (datetime.now(timezone.utc).hour - 3) % 24
-    return 8 <= brt_hour < 22
+    if ini <= fin:
+        return ini <= brt_hour < fin
+    # ventana que cruza medianoche: 22-6 -> 22,23,0..5
+    return brt_hour >= ini or brt_hour < fin
 
 
 # ─── Guardia de cadencia ──────────────────────────────────────────────────────

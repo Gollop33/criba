@@ -83,9 +83,51 @@ def correr(cmd, env_extra=None):
     return r.returncode, (r.stdout or "") + (r.stderr or "")
 
 
+def ventana_brt():
+    """
+    Ventana de publicación en hora de Brasília (UTC-3), leída de VENTANA_BRT:
+
+      VENTANA_BRT="8-22"  -> horario comercial (histórico)
+      VENTANA_BRT="0-24"  -> 24/7 (lo que pidió el usuario el 2026-10-07)
+    """
+    bruto = os.environ.get("VENTANA_BRT", "8-22").strip().replace(" ", "")
+    if bruto in ("0-24", "24", "24h", "24/7", "*"):
+        return 0, 24
+    try:
+        ini_s, fin_s = bruto.split("-")
+        ini, fin = int(ini_s), int(fin_s)
+    except Exception:
+        ini, fin = 8, 22
+    return max(0, min(23, ini)), max(0, min(24, fin))
+
+
 def ventana_abierta():
+    ini, fin = ventana_brt()
+    if fin - ini >= 24:
+        return True
     brt = (datetime.now(timezone.utc).hour - 3) % 24
-    return 8 <= brt < 22
+    if ini <= fin:
+        return ini <= brt < fin
+    return brt >= ini or brt < fin
+
+
+# ─── RITMO NOCTURNO (24/7 sin parecer un robot) ────────────────────────────────
+# Publicar cada 5 min a las 4 de la mañana es spam y además quema el tope
+# diario. En modo 24/7 la noche va MUCHO más lenta: sigue habiendo actividad
+# (el grupo no se queda muerto y el bot no depende de una franja horaria),
+# pero con huecos de 20-40 min. Configurable.
+MODO_24H = os.environ.get("MODO_24H", "").strip().lower() in ("1", "true", "si", "sí")
+NOCHE_INICIO = int(os.environ.get("NOCHE_INICIO", "23"))   # hora BRT
+NOCHE_FIN = int(os.environ.get("NOCHE_FIN", "7"))          # hora BRT
+INTERVALO_NOCHE_MIN_SEG = int(os.environ.get("INTERVALO_NOCHE_MIN_SEG", "1200"))
+INTERVALO_NOCHE_MAX_SEG = int(os.environ.get("INTERVALO_NOCHE_MAX_SEG", "2400"))
+
+
+def es_de_noche():
+    brt = (datetime.now(timezone.utc).hour - 3) % 24
+    if NOCHE_INICIO <= NOCHE_FIN:
+        return NOCHE_INICIO <= brt < NOCHE_FIN
+    return brt >= NOCHE_INICIO or brt < NOCHE_FIN
 
 
 def commit_y_push(n):
@@ -113,7 +155,11 @@ def siguiente_espera(anterior=None):
     """Espera aleatoria entre el mínimo y el máximo. Evita repetir el mismo valor."""
     if INTERVALO_FIJO:
         return INTERVALO_FIJO
-    lo, hi = sorted((INTERVALO_MIN_SEG, INTERVALO_MAX_SEG))
+    if MODO_24H and es_de_noche():
+        # ritmo nocturno: el bot sigue vivo, pero sin parecer un robot
+        lo, hi = sorted((INTERVALO_NOCHE_MIN_SEG, INTERVALO_NOCHE_MAX_SEG))
+    else:
+        lo, hi = sorted((INTERVALO_MIN_SEG, INTERVALO_MAX_SEG))
     for _ in range(10):
         s = random.randint(lo, hi)
         # un humano no repite exactamente el mismo hueco dos veces seguidas
@@ -139,10 +185,19 @@ def main():
           f"  (media teórica {(lo+hi)/2/60:.1f} min ≈ {60/(((lo+hi)/2)/60):.0f} posts/h)")
     print(f"  max duración {DURACION_MAX_SEG/3600:.1f} h | max posts {MAX_POSTS}"
           f" | MIN_GAP interno {MIN_GAP_LOOP} min")
+    _ini, _fin = ventana_brt()
+    _modo = "24/7 (noche lenta)" if MODO_24H else "ventana fija"
+    print(f"  ventana BRT: {_ini}h-{_fin}h  | modo: {_modo}", end="")
+    if MODO_24H:
+        print(f"  | noche {NOCHE_INICIO}h-{NOCHE_FIN}h cada "
+              f"{INTERVALO_NOCHE_MIN_SEG/60:.0f}-{INTERVALO_NOCHE_MAX_SEG/60:.0f} min")
+    else:
+        print()
     print("=" * 66)
 
     if not DRY and not ventana_abierta():
-        log("Fuera de la ventana Brasília (8-22). No se publica.")
+        ini, fin = ventana_brt()
+        log(f"Fuera de la ventana Brasília ({ini}-{fin}). No se publica.")
         return 0
 
     inicio = time.time()

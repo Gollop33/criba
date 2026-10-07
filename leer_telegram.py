@@ -120,10 +120,16 @@ def extraer_ofertas(texto, fecha_msg):
     """
     Extrae ofertas de grupos de afiliados. Los mensajes suelen traer título,
     precio y un enlace de afiliado (meli.la, amzn.to, s.shopee.com.br).
+
+    Desde 2026-10-02 también se guardan TODOS los precios vistos y el % de
+    descuento si el mensaje lo dice: es lo que permite reconstruir la oferta
+    (precio actual + precio anterior) cuando reconvertimos el enlace a nuestra
+    cuenta de afiliado. Antes solo se guardaba el primer precio y se perdía.
     """
     salida = []
     enlaces = re.findall(r"https?://(?:meli\.la|amzn\.to|amazon\.com\.br|"
-                         r"s\.shopee\.com\.br|mercadolivre\.com\.br)/\S+", texto)
+                         r"s\.shopee\.com\.br|shp\.ee|shopee\.com\.br|"
+                         r"mercadolivre\.com\.br)/\S+", texto)
     if not enlaces:
         return salida
     precios = re.findall(r"R\$\s*([\d.]+(?:,\d{2})?)", texto)
@@ -135,9 +141,22 @@ def extraer_ofertas(texto, fecha_msg):
             break
     if not titulo:
         return salida
+
+    # % de descuento declarado en el mensaje ("50% OFF", "30% de desconto").
+    # Solo se guarda si el propio mensaje lo dice: no se calcula ni se inventa.
+    desconto_pct = None
+    m_desc = re.search(r"(\d{1,2})\s*%\s*(?:OFF|off|de\s+desconto|desc\.?)", texto)
+    if m_desc:
+        try:
+            desconto_pct = float(m_desc.group(1))
+        except ValueError:
+            desconto_pct = None
+
     salida.append({
         "titulo": titulo,
         "precio_texto": precios[0] if precios else "",
+        "precios": precios[:3],
+        "desconto_pct": desconto_pct,
         "enlaces": enlaces[:3],
         "fonte": "Telegram grupo",
         "detectado_em": fecha_msg.isoformat(),

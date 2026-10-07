@@ -125,6 +125,10 @@ def main():
         ("META_ACCESS_TOKEN", "META_ACCESS_TOKEN"),
         ("META_PAGE_ID", "META_PAGE_ID"),
         ("IG_USER_ID", "IG_USER_ID"),
+        ("SHOPEE_APP_ID", "SHOPEE_APP_ID"),
+        ("SHOPEE_SECRET_KEY", "SHOPEE_SECRET_KEY"),
+        ("SHOPEE_AFFILIATE_ID", "SHOPEE_AFFILIATE_ID"),
+        ("SHOPEE_PAGOS_APROBADOS", "SHOPEE_PAGOS_APROBADOS"),
     ]
 
     print("\n=== subiendo ===")

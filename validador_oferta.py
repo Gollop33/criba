@@ -61,6 +61,13 @@ MIN_PALABRAS_ENLACE = 0.40   # % de palabras del título que deben salir en la U
 CUPON_VALIDEZ_DIAS = 0       # días de margen antes de considerar un cupón vencido
 HORAS_MAX_DATOS = 30         # antigüedad máxima tolerada de los datos de origen
 
+# Hosts de enlace corto de afiliado de Shopee (ver shopee_api.py). Shopee no usa
+# tag en la URL: el enlace corto emitido por la API ES la credencial de afiliado.
+HOSTS_SHOPEE = ("s.shopee.com.br", "shp.ee")
+_UA_VALIDADOR = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                 "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36")
+_CACHE_SHOPEE = {}           # url corta -> url final (para no repetir peticiones)
+
 # ── Tiendas ──────────────────────────────────────────────────────────────────
 DOMINIOS = {
     "mercadolivre": ("mercadolivre.com.br", "meli.la", "produto.mercadolivre"),
@@ -143,16 +150,61 @@ def cache_inverso():
     return _CACHE_INVERSO
 
 
+def _origin_link(url):
+    """URL de producto escondida en un enlace de afiliado /an_redir de Shopee."""
+    m = re.search(r"[?&]origin_link=([^&]+)", str(url or ""))
+    if not m:
+        return ""
+    try:
+        from urllib.parse import unquote
+        return unquote(m.group(1))
+    except Exception:
+        return ""
+
+
+def _shopee_affiliate_id():
+    """ID numérico de afiliado de Shopee (de .env o de config_afiliados.json)."""
+    v = os.environ.get("SHOPEE_AFFILIATE_ID", "").strip()
+    if not v:
+        try:
+            cfg = json.loads((BASE / "config_afiliados.json").read_text(encoding="utf-8"))
+            v = str((cfg.get("shopee") or {}).get("id") or "")
+        except Exception:
+            v = ""
+    return re.sub(r"[^0-9]", "", v)
+
+
 def resolver_enlace(url):
     """
     Devuelve la URL "real" de un enlace, para poder compararla con el producto.
-    Primero el caché (0 peticiones). Si no está, se devuelve la propia URL.
+
+    - meli.la          -> caché inverso (0 peticiones).
+    - Shopee /an_redir -> la URL del producto viene dentro del propio enlace
+                          (parámetro origin_link), así que no hace falta red.
+    - Shopee corto     -> se sigue la redirección (s.shopee.com.br / shp.ee).
+    - resto            -> la propia URL.
     """
     u = str(url or "").strip()
     if not u:
         return ""
+    origen = _origin_link(u)
+    if origen:
+        return origen
     if "meli.la/" in u.lower():
         return cache_inverso().get(u.rstrip("/").lower(), u)
+    if any(h in u.lower() for h in HOSTS_SHOPEE):
+        if u in _CACHE_SHOPEE:
+            return _CACHE_SHOPEE[u]
+        try:
+            import requests
+            real = requests.get(
+                u, allow_redirects=True, timeout=10,
+                headers={"User-Agent": _UA_VALIDADOR, "Accept-Language": "pt-BR,pt;q=0.9"},
+            ).url or u
+        except Exception:
+            real = u  # no verificable ahora mismo: se deja pasar con aviso
+        _CACHE_SHOPEE[u] = real
+        return real
     return u
 
 
@@ -184,6 +236,8 @@ def _validar_enlace(post):
       2. Ser de la MISMA tienda que el producto.
       3. Corresponder AL MISMO producto (slug de la URL vs título).
       4. No ser un /go/ (no monetiza: Regla de Oro del proyecto).
+      5. En Shopee: si lleva affiliate_id, que sea EL NUESTRO (si no, la comisión
+         se la lleva otro afiliado).
     """
     url = str(post.get("url") or "").strip()
     if not url.startswith("http"):
@@ -191,6 +245,15 @@ def _validar_enlace(post):
 
     if "/go/" in url:
         return False, "enlace /go/ no monetiza (Regla de Oro)"
+
+    # El enlace de afiliado de Shopee lleva el ID del afiliado dentro. Si es de
+    # otro, el clic se regala: se descarta antes de publicar.
+    m_aid = re.search(r"[?&]affiliate_id=(\d+)", url)
+    if m_aid:
+        nuestro = _shopee_affiliate_id()
+        if nuestro and m_aid.group(1) != nuestro:
+            return False, (f"enlace de Shopee de OTRO afiliado "
+                           f"({m_aid.group(1)} != {nuestro}): la comisión no es tuya")
 
     t_producto = tienda_de(post.get("loja"))
     t_enlace = tienda_de_url(url)
@@ -202,10 +265,11 @@ def _validar_enlace(post):
 
     # Correspondencia producto <-> enlace por slug
     real = resolver_enlace(url)
-    if real == url and "meli.la/" in url.lower():
-        # Enlace corto sin caché: no se puede comprobar -> se avisa pero no se
-        # descarta (descartar todo lo no cacheado dejaría el canal sin posts).
-        return True, "enlace corto sin cache: correspondencia no verificable"
+    if real == url and ("meli.la/" in url.lower() or any(h in url.lower() for h in HOSTS_SHOPEE)):
+        # Enlace corto sin resolver (sin caché o sin red): no se puede comprobar
+        # -> se avisa pero no se descarta. Descartar todo lo no verificable
+        # dejaría el canal sin posts; y el enlace viene de la API del afiliado.
+        return True, "enlace corto sin resolver: correspondencia no verificable"
 
     # Extraer el slug del producto de la URL.
     # OJO (bug corregido): antes se borraba cualquier segmento que contuviera
@@ -219,7 +283,12 @@ def _validar_enlace(post):
     partes = [s for s in partes_url.path.split("/") if s]
     partes = [s for s in partes
               if not re.fullmatch(r"MLB[U]?\d+", s, re.I)
-              and s.lower() not in ("dp", "p", "up", "produto", "lista", "www")]
+              # "product" y "opaanlp" son rutas de Shopee; los números de
+              # tienda/artículo no son slug. Una URL /product/<tienda>/<item>
+              # se queda sin slug comparable (se acepta por tienda, como Amazon).
+              and not re.fullmatch(r"\d{5,}", s)
+              and s.lower() not in ("dp", "p", "up", "produto", "lista", "www",
+                                    "product", "opaanlp")]
     slug_txt = " ".join(partes)
     if not slug_txt:
         return True, "URL sin slug comparable"
