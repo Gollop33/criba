@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 3099.0
   },
-  "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
-    "ts": "2026-10-05T20:47:17.178899",
-    "canales": {
-      "whatsapp": "2026-10-05T20:47:17.178899"
-    },
-    "precio": 184.0,
-    "precios_publicados": [
-      184.0
-    ]
-  },
   "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
     "ts": "2026-10-07T00:45:45.700242",
     "canales": {
@@ -2650,6 +2640,16 @@
     "precio": 468.0,
     "precios_publicados": [
       468.0
+    ]
+  },
+  "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
+    "ts": "2026-10-07T20:56:01.957583",
+    "canales": {
+      "whatsapp": "2026-10-07T20:56:01.957583"
+    },
+    "precio": 936.0,
+    "precios_publicados": [
+      936.0
     ]
   }
 }
