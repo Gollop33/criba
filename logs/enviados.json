@@ -361,14 +361,16 @@
     ]
   },
   "ml-jogo-de-panelas-inducao-antiaderente-ceramica": {
-    "ts": "2026-10-05T21:40:53.573199",
+    "ts": "2026-10-07T13:09:27.315343",
     "canales": {
-      "whatsapp": "2026-10-05T21:40:53.573199"
+      "whatsapp": "2026-10-07T13:09:27.315343"
     },
-    "precio": 341.0,
+    "precio": 359.0,
     "precios_publicados": [
-      341.0
-    ]
+      341.0,
+      359.0
+    ],
+    "precio_min_publicado": 341.0
   },
   "amz-acer-aspire-go-15-notebook-156-intel-core-i5-": {
     "ts": "2026-10-05T21:47:24.692982",
