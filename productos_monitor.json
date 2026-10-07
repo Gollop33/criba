@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-07T00:16:18+00:00",
-  "total": 38,
+  "actualizado": "2026-10-07T01:07:14+00:00",
+  "total": 17,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": 849.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
       "busqueda": "teclado mecanico redragon kumara rgb switch outemu blue",
@@ -17,295 +17,127 @@
       "precio_ref": 179.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "roteador wi fi 6 dual band w6 1500",
-      "nombre": "Roteador Wi-Fi 6 Dual band W6-1500 Intelbras",
-      "precio_ref": 199.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook asus tuf gaming f16 fx607vu rtx4050 intel",
-      "nombre": "Notebook ASUS TUF Gaming F16 FX607VU RTX4050 Intel Core 5 210H 16Gb Ram 512Gb SSD Windows 11 Tela Nível IPS 16\" LED 144Hz Gra",
-      "precio_ref": 7199.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
-      "precio_ref": 5499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
-      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
-      "precio_ref": 17.91,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book4 intel coretm i5 1335u windows",
-      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, Windows 11 Home, 8GB, 512GB SSD, Iris Xe, 15.6'' Full HD LED, 1.55kg*.",
-      "precio_ref": 4299.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book3 360 intel coretm i5 1335u",
-      "nombre": "Samsung Galaxy Book3 360 Intel® Core™ i5-1335U, Windows 11 Home, 8 GB, 256 GB SSD, 13.3\" Full HD AMOLED, 1.16 kg*",
-      "precio_ref": 4699.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
-      "precio_ref": 3899.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
-      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 256GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ731",
-      "precio_ref": 3099.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
-      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
-      "precio_ref": 1999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
-      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
-      "precio_ref": 68.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook samsung galaxy book4 intel core 3 100u",
-      "nombre": "Notebook Samsung Galaxy Book4 Intel Core 3-100U, Windows 11 Home, 8GB, 256GB SSD, UHD Graphics, 15.6'' Full HD LED, 1.55kg*",
-      "precio_ref": 3599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "conjunto de roteador sem fio wi fi 6",
-      "nombre": "Conjunto de Roteador Sem Fio WI-FI 6 Twibi Force AX Branco Intelbras",
-      "precio_ref": 512.01,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "bepantol derma rosa mosqueta hidratante multirrestaurador 20g rosa",
-      "nombre": "Bepantol Derma Rosa Mosqueta Hidratante Multirrestaurador 20g | Rosa Mosqueta 20g, Com dexpantenol, Uniformiza o tom, Rápida",
-      "precio_ref": 29.94,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
-      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
-      "precio_ref": 36.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "loreal professionnel absolut repair shampoo refil com proteina",
-      "nombre": "L’Oréal Professionnel | Absolut Repair Shampoo Refil | Com Proteína e Quinoa Dourada para cabelos danificados e secos | SERIE",
-      "precio_ref": 60.63,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 dc15 i51334u a50 intel i5",
-      "nombre": "Notebook Dell 15 DC15-I51334U-A50, Intel i5-1334U, Windows 11 Home | 15,6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SSD, Inte",
-      "precio_ref": 4349.33,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go e1504fa amd ryzen 5",
-      "nombre": "Notebook Asus Vivobook Go E1504fa Amd Ryzen 5 7520u 8gb Ram 256gb Ssd Windows 11 Tela 15,6\" Fhd Black - Nj825w",
-      "precio_ref": 3299.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook asus tuf gaming f16 intel core 5",
-      "nombre": "Notebook ASUS TUF Gaming F16 Intel Core 5, RTX 3050, 16 GB, 512 GB SSD, KeepOS/Linux, 16.0'' FHD, Mecha Gray - FX607VJ-RL015",
-      "precio_ref": 8499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "acer aspire 5 notebook 15 6 amd ryzen",
-      "nombre": "Acer Aspire 5 Notebook 15.6\" AMD Ryzen 5 512GB SSD 16GB",
-      "precio_ref": 4299.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "switch gigabit ms105g mercusys de 5 portas ethernet",
-      "nombre": "Switch Gigabit MS105G Mercusys de 5 portas Ethernet RJ45 LAN 10/100/1000 Mbps, Plug & Play para conectar SmartTVs, Notebooks,",
-      "precio_ref": 57.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook hp 256r g9 intel core i5 13o",
-      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
-      "precio_ref": 4299.0,
+      "busqueda": "echo spot com alexa geracao mais recente despertador",
+      "nombre": "Echo Spot com Alexa (Geração mais recente) | Despertador inteligente com som vibrante | Cor Preta, com Acesso Antecipado à Al",
+      "precio_ref": 899.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "tp link switch gigabit de mesa com 5",
-      "nombre": "TP-Link Switch Gigabit De Mesa Com 5 Portas 10/100/1000 Ls1005G Smb",
-      "precio_ref": 90.99,
-      "categoria": "Casa & Móveis",
+      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
+      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
+      "precio_ref": 615.99,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "notebook asus vivobook 15 intel core i5 16",
-      "nombre": "Notebook ASUS Vivobook 15, Intel Core i5, 16 GB, 512 GB SSD W11 Home, 15.6'' FHD, Quiet Blue -X1504VA-NJ1745W",
-      "precio_ref": 4299.0,
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 819.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
+    },
+    {
+      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
+      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
+      "precio_ref": 137.75,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Câmera Tripla de até 50MP, Selfie de 12MP, Tela Super AMOLED 6.7\", NFC, Recurso",
+      "precio_ref": 2665.56,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
-      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
-      "precio_ref": 14.9,
-      "categoria": "Notebooks & PCs",
+      "busqueda": "apple iphone 17 de 256 gb preto",
+      "nombre": "Apple iPhone 17 de 256 GB — Preto",
+      "precio_ref": 6015.39,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
-      "nombre": "Notebook Dell 15 I15-I1300-A60P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz antirreflexo, 16 GB de RAM, SSD",
-      "precio_ref": 4649.0,
+      "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto g06-128GB 4GB RAM + 8GB Ram Boost e Camera 50MP com AI Bateria de 5200 mAh Tela 6.9\" - Azul Marinho",
+      "precio_ref": 698.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "nivea sabonete em barra creme care promo 6",
-      "nombre": "NIVEA Sabonete em Barra Creme Care Promo 6 un. 90g - Limpa e deixa a pele macia mesmo após o banho, com glicerina, fragrância",
-      "precio_ref": 21.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook 2 em 1 positivo duo intel celeron",
-      "nombre": "Notebook 2 em 1 Positivo Duo Intel Celeron N4500 4GB RAM 128GB de Armazenamento Tela 11\" HD IPS touch com caneta capacitiva,",
-      "precio_ref": 1955.44,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "tp link archer t3u adaptador wi fi usb",
-      "nombre": "TP-Link Archer T3U Adaptador Wi-Fi USB 3.0 AC1300 para PC e Notebook, Dual Band, até 867 Mbps em 5 GHz, MU-MIMO e Design Mini",
-      "precio_ref": 127.26,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
-      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
-      "precio_ref": 3621.9,
+      "busqueda": "amazon fire tv stick hd modelo mais recente",
+      "nombre": "Amazon Fire TV Stick HD (modelo mais recente), Controle Remoto por Voz com Alexa, alimentado pela TV, com configuração simple",
+      "precio_ref": 249.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
-      "precio_ref": 3299.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "celular samsung galaxy a07 256gb 8gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Verde",
+      "precio_ref": 1099.0,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
-      "nombre": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml",
-      "precio_ref": 29.99,
-      "categoria": "Automotivo",
+      "busqueda": "pasta termica pcyes nitrogen basic 1 5g 5",
+      "nombre": "PASTA TÉRMICA PCYES NITROGEN BASIC 1,5G - 5,5W/MK - PCYNB1555 – PCYES",
+      "precio_ref": 16.46,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 49.9,
+      "busqueda": "amazon echo show 11 smart display full hd",
+      "nombre": "Amazon Echo Show 11 - Smart display Full HD de 11\" redesenhado com mais área de visualização, áudio espacial e Alexa, Cor Gra",
+      "precio_ref": 1649.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
+    },
+    {
+      "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
+      "nombre": "Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo, trocas de página rápidas, luz frontal ajustável e bateri",
+      "precio_ref": 519.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
+      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
+      "precio_ref": 33.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "cerave locao hidratante corporal com textura fluida e",
-      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-      "precio_ref": 93.73,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "apple iphone 15 128 gb azul",
+      "nombre": "Apple iPhone 15 (128 GB) — Azul",
+      "precio_ref": 4220.84,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     },
     {
-      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
-      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
-      "precio_ref": 3498.99,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
+      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
+      "precio_ref": 109.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "notebook vaio fe16 intel core i5 1334u windows",
-      "nombre": "Notebook VAIO FE16 Intel Core i5-1334U Windows 11 Home 16GB RAM total 512GB SSD Tela 16\" IPS WUXGA Antireflexo - Cinza Grafit",
-      "precio_ref": 4443.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
-    },
-    {
-      "busqueda": "acer aspire go 15 notebook 15 6 intel",
-      "nombre": "Acer Aspire Go 15 Notebook 15.6\" Intel Core i5 13ª Geração 16GB Windows",
-      "precio_ref": 4699.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-07T00:16:18+00:00"
+      "monitorizado_desde": "2026-10-07T01:07:14+00:00"
     }
   ]
 }
