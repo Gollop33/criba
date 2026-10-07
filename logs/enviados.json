@@ -122,30 +122,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
-    "ts": "2026-10-05T20:36:06.022074",
-    "canales": {
-      "whatsapp": "2026-10-05T20:36:06.022074"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      3968.0,
-      4199.0
-    ],
-    "precio_min_publicado": 3968.0
-  },
-  "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-10-05T20:29:40.806002",
-    "canales": {
-      "whatsapp": "2026-10-05T20:29:40.806002"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      169.0,
-      159.0
-    ],
-    "precio_min_publicado": 169.0
-  },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-10-06T00:04:02.863320",
     "canales": {
@@ -181,16 +157,6 @@
       3099.0
     ],
     "precio_min_publicado": 3099.0
-  },
-  "ml-chocadeira-automatica-72-ovos-com-medidor-de-": {
-    "ts": "2026-10-05T20:33:26.547531",
-    "canales": {
-      "whatsapp": "2026-10-05T20:33:26.547531"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
   },
   "ml-fralda-calca-mamy-poko-superprotecao-jumbo-m-": {
     "ts": "2026-10-05T20:43:29.985480",
@@ -2674,6 +2640,16 @@
     "precio": 410.0,
     "precios_publicados": [
       410.0
+    ]
+  },
+  "ml-cadeira-de-carro-infantil-all-stages-20-isofi": {
+    "ts": "2026-10-07T20:37:29.216420",
+    "canales": {
+      "whatsapp": "2026-10-07T20:37:29.216420"
+    },
+    "precio": 787.0,
+    "precios_publicados": [
+      787.0
     ]
   }
 }
