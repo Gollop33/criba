@@ -5693,3 +5693,14 @@
 [2026-10-07 23:13:01] [CUPONES] ✅ Publicado cupón BRINQUE10 (detectado -> publicado: 220.2 min)
 [2026-10-07 23:13:01] [CUPONES] Se corta aquí: tope por hora alcanzado (3).
 [2026-10-07 23:13:01] [CUPONES] Fin. Cupones publicados en esta pasada: 1
+[2026-10-07 23:18:19] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-07 23:18:21] [CUPONS_ML] 60 código(s) inválidos descartados (blobs del estado interno de ML o fragmentos de texto).
+[2026-10-07 23:18:21] [CUPONS_ML] Se extrajeron exitosamente 7 cupones de ML Oficial.
+[2026-10-07 23:18:21] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-07 23:18:21] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 7 refrescados.
+[2026-10-07 23:18:21] [CUPONS_ML] Total cupones en cupones.json: 87
+[2026-10-07 23:18:21] [CUPONES] Fuente oficial ML refrescada: 7 cupón(es).
+[2026-10-07 23:18:21] [CUPONES] Cupones NUEVOS detectados: 4 (PELUCIAS10, BONECAS10, JOGOS10, COLECIONE10)
+[2026-10-07 23:18:21] [CUPONES] Enlace de afiliado: meli.la (corto) -> https://achadinhosnozap.com.br/go/34en4m/
+[2026-10-07 23:18:21] [CUPONES] Se corta aquí: tope por hora alcanzado (3).
+[2026-10-07 23:18:21] [CUPONES] Fin. Cupones publicados en esta pasada: 0
