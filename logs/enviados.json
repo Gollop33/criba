@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-10-05T23:33:32.770418",
-    "canales": {
-      "whatsapp": "2026-10-05T23:33:32.770418"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
     "ts": "2026-10-07T20:14:15.680164",
     "canales": {
@@ -2704,5 +2694,15 @@
     "canales": {
       "whatsapp": "2026-10-07T23:26:58.146032"
     }
+  },
+  "ml-bebedouro-fonte-automatico-caes-gatos-com-sen": {
+    "ts": "2026-10-07T23:36:18.560038",
+    "canales": {
+      "whatsapp": "2026-10-07T23:36:18.560038"
+    },
+    "precio": 98.0,
+    "precios_publicados": [
+      98.0
+    ]
   }
 }
