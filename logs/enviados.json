@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "ml-whey-isolate-protein-fuse-900g-dark-lab-sabor": {
-    "ts": "2026-10-05T20:08:31.817215",
-    "canales": {
-      "whatsapp": "2026-10-05T20:08:31.817215"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-10-07T00:58:00.624989",
     "canales": {
@@ -491,14 +481,16 @@
     ]
   },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
-    "ts": "2026-10-05T23:34:52.669802",
+    "ts": "2026-10-07T20:14:15.680164",
     "canales": {
-      "whatsapp": "2026-10-05T23:34:52.669802"
+      "whatsapp": "2026-10-07T20:14:15.680164"
     },
-    "precio": 1044.0,
+    "precio": 1099.0,
     "precios_publicados": [
-      1044.0
-    ]
+      1044.0,
+      1099.0
+    ],
+    "precio_min_publicado": 1044.0
   },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-10-05T23:43:22.012830",
