@@ -19,19 +19,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "ml-poco-x8-pro-512gb-12gb-ram-original-lancament": {
-    "ts": "2026-10-05T00:44:18.003702",
-    "canales": {
-      "whatsapp": "2026-10-05T00:44:18.003702"
-    },
-    "precio": 2956.0,
-    "precios_publicados": [
-      2746.0,
-      2956.0,
-      2956.0
-    ],
-    "precio_min_publicado": 2746.0
-  },
   "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
     "ts": "2026-10-05T22:29:49.599678",
     "canales": {
@@ -294,14 +281,16 @@
     ]
   },
   "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-10-05T20:53:22.593831",
+    "ts": "2026-10-07T00:45:45.700242",
     "canales": {
-      "whatsapp": "2026-10-05T20:53:22.593831"
+      "whatsapp": "2026-10-07T00:45:45.700242"
     },
     "precio": 4299.0,
     "precios_publicados": [
+      4299.0,
       4299.0
-    ]
+    ],
+    "precio_min_publicado": 4299.0
   },
   "ml-suco-natural-one-laranja-e-maca-ambiente-180m": {
     "ts": "2026-10-05T20:57:46.039996",
