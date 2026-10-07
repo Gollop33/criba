@@ -180,16 +180,6 @@
     ],
     "precio_min_publicado": 53.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
-    "ts": "2026-10-05T00:49:11.413495",
-    "canales": {
-      "whatsapp": "2026-10-05T00:49:11.413495"
-    },
-    "precio": 2675.0,
-    "precios_publicados": [
-      2675.0
-    ]
-  },
   "ml-patinete-eletrico-infantil-triciclo-pares-dri": {
     "ts": "2026-10-05T00:58:42.787970",
     "canales": {
@@ -1590,6 +1580,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
+    "ts": "2026-10-07T00:50:27.619764",
+    "canales": {
+      "whatsapp": "2026-10-07T00:50:27.619764"
+    },
+    "precio": 4699.0,
+    "precios_publicados": [
+      4699.0
     ]
   }
 }
