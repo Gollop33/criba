@@ -110,18 +110,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "ml-kit-5-toalhas-banho-gigante-grossa-hotel-luxo": {
-    "ts": "2026-10-05T20:21:36.294808",
-    "canales": {
-      "whatsapp": "2026-10-05T20:21:36.294808"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      116.0,
-      109.0
-    ],
-    "precio_min_publicado": 116.0
-  },
   "amz-colgate-slim-soft-black-escova-de-dente-macia": {
     "ts": "2026-10-05T21:20:02.176992",
     "canales": {
@@ -193,16 +181,6 @@
       3099.0
     ],
     "precio_min_publicado": 3099.0
-  },
-  "ml-manta-de-bebe-tricot-menina-cobertor-infantil": {
-    "ts": "2026-10-05T20:27:12.865711",
-    "canales": {
-      "whatsapp": "2026-10-05T20:27:12.865711"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
   },
   "ml-chocadeira-automatica-72-ovos-com-medidor-de-": {
     "ts": "2026-10-05T20:33:26.547531",
@@ -2686,6 +2664,16 @@
     "precio": 999.0,
     "precios_publicados": [
       999.0
+    ]
+  },
+  "ml-racao-fresh-meat-sensitive-cao-adulto-pequeno": {
+    "ts": "2026-10-07T20:27:28.334049",
+    "canales": {
+      "whatsapp": "2026-10-07T20:27:28.334049"
+    },
+    "precio": 410.0,
+    "precios_publicados": [
+      410.0
     ]
   }
 }
