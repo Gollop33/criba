@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 341.0
   },
-  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
-    "ts": "2026-10-05T22:01:21.345926",
-    "canales": {
-      "whatsapp": "2026-10-05T22:01:21.345926"
-    },
-    "precio": 4649.0,
-    "precios_publicados": [
-      4649.0
-    ]
-  },
   "ml-colchao-antiescara-pneumatico-de-ar-inflavel-": {
     "ts": "2026-10-05T22:10:59.919103",
     "canales": {
@@ -2679,5 +2669,11 @@
     "precios_publicados": [
       13.0
     ]
+  },
+  "cupon-PINTADINHA20": {
+    "ts": "2026-10-07T22:02:40.259101",
+    "canales": {
+      "whatsapp": "2026-10-07T22:02:40.259101"
+    }
   }
 }
