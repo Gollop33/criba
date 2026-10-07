@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 1044.0
   },
-  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-10-05T23:43:22.012830",
-    "canales": {
-      "whatsapp": "2026-10-05T23:43:22.012830"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "ml-pacote-fralda-calca-mamy-poko-super-protecao-": {
     "ts": "2026-10-05T23:49:26.527725",
     "canales": {
@@ -2713,6 +2703,16 @@
     "precio": 4369.0,
     "precios_publicados": [
       4369.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
+    "ts": "2026-10-07T23:47:41.239407",
+    "canales": {
+      "whatsapp": "2026-10-07T23:47:41.239407"
+    },
+    "precio": 2299.0,
+    "precios_publicados": [
+      2299.0
     ]
   }
 }
