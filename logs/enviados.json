@@ -173,16 +173,6 @@
     ],
     "precio_min_publicado": 36.0
   },
-  "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
-    "ts": "2026-10-06T20:25:02.366812",
-    "canales": {
-      "whatsapp": "2026-10-06T20:25:02.366812"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-jbl-fone-de-ouvido-bluetooth-overear-tune-530": {
     "ts": "2026-10-06T20:29:52.672991",
     "canales": {
@@ -3046,5 +3036,15 @@
     "canales": {
       "whatsapp": "2026-10-08T20:24:29.774751"
     }
+  },
+  "ml-carregador-portatil-power-bank-turbo-20000mah": {
+    "ts": "2026-10-08T20:26:50.585799",
+    "canales": {
+      "whatsapp": "2026-10-08T20:26:50.585799"
+    },
+    "precio": 109.0,
+    "precios_publicados": [
+      109.0
+    ]
   }
 }
