@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 1044.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-10-06T00:06:39.281215",
-    "canales": {
-      "whatsapp": "2026-10-06T00:06:39.281215"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "ml-samsung-galaxy-a17-4g-cinza": {
     "ts": "2026-10-06T00:12:38.007989",
     "canales": {
@@ -2711,6 +2701,16 @@
     "precio": 76.0,
     "precios_publicados": [
       76.0
+    ]
+  },
+  "ml-smartphone-samsung-galaxy-a36-5g-256gb-8gb-su": {
+    "ts": "2026-10-08T00:09:31.091319",
+    "canales": {
+      "whatsapp": "2026-10-08T00:09:31.091319"
+    },
+    "precio": 1799.0,
+    "precios_publicados": [
+      1799.0
     ]
   }
 }
