@@ -161,16 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-protetor-solar-facial-neutrogena-sun-fresh-de": {
-    "ts": "2026-10-06T17:25:55.051853",
-    "canales": {
-      "whatsapp": "2026-10-06T17:25:55.051853"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
     "ts": "2026-10-06T17:35:41.043058",
     "canales": {
@@ -3157,6 +3147,16 @@
     "precio": 299.0,
     "precios_publicados": [
       299.0
+    ]
+  },
+  "ml-smartphone-samsung-galaxy-a17-4g-128gb-4gb-ra": {
+    "ts": "2026-10-08T17:27:40.530962",
+    "canales": {
+      "whatsapp": "2026-10-08T17:27:40.530962"
+    },
+    "precio": 949.0,
+    "precios_publicados": [
+      949.0
     ]
   }
 }
