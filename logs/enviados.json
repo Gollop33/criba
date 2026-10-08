@@ -1474,14 +1474,16 @@
     "precio_min_publicado": 1507.0
   },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
-    "ts": "2026-10-07T14:55:13.079755",
+    "ts": "2026-10-08T18:40:07.475173",
     "canales": {
-      "whatsapp": "2026-10-07T14:55:13.079755"
+      "whatsapp": "2026-10-08T18:40:07.475173"
     },
-    "precio": 56.0,
+    "precio": 39.0,
     "precios_publicados": [
-      56.0
-    ]
+      56.0,
+      39.0
+    ],
+    "precio_min_publicado": 56.0
   },
   "ml-chocadeira-incubadora-130-ovos-bivolt-certifi": {
     "ts": "2026-10-07T15:04:14.068860",
