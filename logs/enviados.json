@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-omega-3-epa-dha-1g-120-caps-vitafor": {
-    "ts": "2026-10-06T23:35:38.094034",
-    "canales": {
-      "whatsapp": "2026-10-06T23:35:38.094034"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
     "ts": "2026-10-06T23:38:07.811747",
     "canales": {
@@ -1519,14 +1509,16 @@
     ]
   },
   "ml-tv-stick-4k-android-chromecast-smart-hdmi-wif": {
-    "ts": "2026-10-07T21:09:34.929225",
+    "ts": "2026-10-08T23:38:06.577347",
     "canales": {
-      "whatsapp": "2026-10-07T21:09:34.929225"
+      "whatsapp": "2026-10-08T23:38:06.577347"
     },
     "precio": 159.0,
     "precios_publicados": [
+      159.0,
       159.0
-    ]
+    ],
+    "precio_min_publicado": 159.0
   },
   "ml-monitor-gamer-lg-ultragear-curvo-34-quadhd-2k": {
     "ts": "2026-10-08T23:31:58.840377",
