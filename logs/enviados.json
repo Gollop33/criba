@@ -620,14 +620,16 @@
     ]
   },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-10-06T19:55:31.919421",
+    "ts": "2026-10-08T01:54:58.507865",
     "canales": {
-      "whatsapp": "2026-10-06T19:55:31.919421"
+      "whatsapp": "2026-10-08T01:54:58.507865"
     },
-    "precio": 36.0,
+    "precio": 39.0,
     "precios_publicados": [
-      36.0
-    ]
+      36.0,
+      39.0
+    ],
+    "precio_min_publicado": 36.0
   },
   "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
     "ts": "2026-10-06T19:59:50.097212",
