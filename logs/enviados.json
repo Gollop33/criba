@@ -152,26 +152,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
-    "ts": "2026-10-06T23:08:49.196412",
-    "canales": {
-      "whatsapp": "2026-10-06T23:08:49.196412"
-    },
-    "precio": 959.0,
-    "precios_publicados": [
-      959.0
-    ]
-  },
-  "amz-morte-subita-mascara-super-hidratante-450g-lo": {
-    "ts": "2026-10-06T23:15:12.426399",
-    "canales": {
-      "whatsapp": "2026-10-06T23:15:12.426399"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "amz-vitafor-omegafor-plus-120-capsulas": {
     "ts": "2026-10-06T23:20:33.417166",
     "canales": {
@@ -1527,14 +1507,16 @@
     "precio_min_publicado": 468.0
   },
   "ml-smartphone-motorola-moto-g35-5g-12gb-ram-boos": {
-    "ts": "2026-10-07T20:56:01.957583",
+    "ts": "2026-10-08T23:15:28.937207",
     "canales": {
-      "whatsapp": "2026-10-07T20:56:01.957583"
+      "whatsapp": "2026-10-08T23:15:28.937207"
     },
-    "precio": 936.0,
+    "precio": 969.0,
     "precios_publicados": [
-      936.0
-    ]
+      936.0,
+      969.0
+    ],
+    "precio_min_publicado": 936.0
   },
   "ml-cadeira-para-automovel-9-a-36kg-grafite-e-pre": {
     "ts": "2026-10-07T20:58:23.490729",
