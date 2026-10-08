@@ -161,26 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-10-06T16:29:55.090723",
-    "canales": {
-      "whatsapp": "2026-10-06T16:29:55.090723"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0
-    ]
-  },
-  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-10-06T16:31:38.356626",
-    "canales": {
-      "whatsapp": "2026-10-06T16:31:38.356626"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
     "ts": "2026-10-06T16:40:24.525274",
     "canales": {
@@ -1854,14 +1834,16 @@
     ]
   },
   "ml-smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c": {
-    "ts": "2026-10-07T16:28:19.339573",
+    "ts": "2026-10-08T16:33:51.553565",
     "canales": {
-      "whatsapp": "2026-10-07T16:28:19.339573"
+      "whatsapp": "2026-10-08T16:33:51.553565"
     },
-    "precio": 2404.0,
+    "precio": 2540.0,
     "precios_publicados": [
-      2404.0
-    ]
+      2404.0,
+      2540.0
+    ],
+    "precio_min_publicado": 2404.0
   },
   "cupon-SEMPREMELI": {
     "ts": "2026-10-07T16:32:28.438190",
