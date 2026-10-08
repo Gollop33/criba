@@ -173,16 +173,6 @@
     ],
     "precio_min_publicado": 36.0
   },
-  "amz-tablet-samsung-galaxy-tab-s10-lite-enterprise": {
-    "ts": "2026-10-06T20:50:42.298564",
-    "canales": {
-      "whatsapp": "2026-10-06T20:50:42.298564"
-    },
-    "precio": 2499.0,
-    "precios_publicados": [
-      2499.0
-    ]
-  },
   "amz-mesa-portatil-para-notebook-suporte-cama-sofa": {
     "ts": "2026-10-06T20:55:43.401449",
     "canales": {
@@ -3015,6 +3005,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "ml-cadeira-infantil-para-carro-isofix-9-a-36kg-c": {
+    "ts": "2026-10-08T20:52:22.395676",
+    "canales": {
+      "whatsapp": "2026-10-08T20:52:22.395676"
+    },
+    "precio": 568.0,
+    "precios_publicados": [
+      568.0
     ]
   }
 }
