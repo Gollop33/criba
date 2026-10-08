@@ -3,8 +3,8 @@
   "codigos": {
     "OFERTAAQUI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T14:26:39+00:00",
+      "motivo": "tanda"
     },
     "BATEDESCONTO": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
@@ -33,18 +33,18 @@
     },
     "BARRATINHOJA": {
       "detectado_em": "2026-09-25T13:00:16+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T14:26:39+00:00",
+      "motivo": "tanda"
     },
     "DESCONTOESPECIAL": {
       "detectado_em": "2026-09-25T13:00:16+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T14:26:39+00:00",
+      "motivo": "tanda"
     },
     "CUSTOUPOUQUINHO": {
       "detectado_em": "2026-09-25T13:00:16+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T14:26:39+00:00",
+      "motivo": "tanda"
     },
     "VALEMUITO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
@@ -492,5 +492,5 @@
       "motivo": "publicado"
     }
   },
-  "actualizado": "2026-10-08T14:21:54+00:00"
+  "actualizado": "2026-10-08T14:26:39+00:00"
 }
