@@ -246,6 +246,14 @@ def _validar_enlace(post):
     if "/go/" in url:
         return False, "enlace /go/ no monetiza (Regla de Oro)"
 
+    # Enlace de ANUNCIO de Mercado Livre (contador de clics): el título dice una
+    # cosa y el enlace lleva a otra. Medido el 2026-10-08: 41 de las 238 ofertas
+    # del catálogo venían así. Es la oferta falsa más peligrosa porque el precio
+    # y la foto son reales: solo el destino es mentira.
+    if re.search(r"(click\d*\.mercadolivre|/mclics/|click\.mercadolivre|/gz/|/jms/)",
+                 url, re.IGNORECASE):
+        return False, "enlace de ANUNCIO (contador de clics), no es la página del producto"
+
     # El enlace de afiliado de Shopee lleva el ID del afiliado dentro. Si es de
     # otro, el clic se regala: se descarta antes de publicar.
     m_aid = re.search(r"[?&]affiliate_id=(\d+)", url)

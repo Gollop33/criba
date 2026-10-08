@@ -44,6 +44,14 @@ CONFIG_FILE = BASE / "config_afiliados.json"
 
 ML_ID = "ja20250119201346"
 ML_TAG = "ja20250119201346"
+
+# Enlaces de ANUNCIO de Mercado Livre: contadores de clic (click1.mercadolivre,
+# /mclics/) que NO llevan al producto anunciado. Medido el 2026-10-08: 41 de las
+# 238 ofertas del catálogo venían así, y el título decía "Smartwatch FoxBox"
+# mientras el enlace apuntaba a un contador de clics. Publicarlas es una oferta
+# falsa: la persona entra buscando el producto y aterriza en otra cosa.
+_PATRON_ANUNCIO = re.compile(
+    r"(click\d*\.mercadolivre|/mclics/|click\.mercadolivre|/gz/|/jms/)", re.IGNORECASE)
 AMAZON_TAG = "criba20-20"
 # Hosts de enlace corto de afiliado de Shopee (ver shopee_api.py).
 # Shopee no lleva tag en la URL: el enlace corto ES la credencial.
@@ -1206,6 +1214,7 @@ def armar_fila_rotativa():
     vistos_slug = set()
     reingresos = []   # productos readmitidos porque BAJARON de precio
     descartados_viejos = 0   # ofertas sin confirmar en las últimas MAX_EDAD_HORAS
+    descartados_anuncio = 0  # enlaces de anuncio de ML (no son el producto)
 
     for item in (items_esp + items_achados + items_ml + items_amz):
         pid = item.get("id") or item.get("nombre", "")[:40]
@@ -1232,6 +1241,13 @@ def armar_fila_rotativa():
         url = item.get("url", "")
         # Regla de oro estricta
         if "Mercado Livre" in loja:
+            # Enlace de ANUNCIO de ML (contador de clics click1.mercadolivre...):
+            # NO es la página del producto. Publicarlo sería una oferta falsa:
+            # el título dice una cosa y el enlace lleva a otra. Medido el
+            # 2026-10-08: 41 de 238 ofertas del catálogo venían así.
+            if _PATRON_ANUNCIO.search(url):
+                descartados_anuncio += 1
+                continue
             if "meli.la" not in url and ("mercadolivre.com.br" not in url or ML_TAG not in url):
                 continue
         elif "Amazon" in loja:
@@ -1264,6 +1280,7 @@ def armar_fila_rotativa():
         todos_candidatos.append(item)
 
     print(f"  • Descartadas por ANTIGUAS (> {MAX_EDAD_HORAS:.0f}h sin confirmar): {descartados_viejos}")
+    print(f"  • Descartadas por ENLACE DE ANUNCIO (no es el producto): {descartados_anuncio}")
 
     # Dividir candidatos por tienda
     cola_ml = [x for x in todos_candidatos if "Mercado Livre" in x.get("loja", "")]

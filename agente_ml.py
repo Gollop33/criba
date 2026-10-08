@@ -33,6 +33,11 @@ LOG_DIR.mkdir(exist_ok=True)
 LOG_FILE = LOG_DIR / "ejecucion.log"
 
 ML_TAG = "#D[A:ja20250119201346]"
+
+# Enlaces de ANUNCIO de Mercado Livre: contadores de clic que no llevan al
+# producto. Se descartan en el origen (ver comentario en cosechar_scraping).
+PATRON_ANUNCIO = re.compile(
+    r"(click\d*\.mercadolivre|/mclics/|click\.mercadolivre|/gz/|/jms/)", re.IGNORECASE)
 UA = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
@@ -331,6 +336,7 @@ def cosechar_api(token=None):
 def cosechar_scraping():
     items = []
     sin_sesion = 0
+    anuncios_descartados = 0
     log("Consultando scraping de ofertas en Mercado Livre..."
         + ("" if ML_PORTAL_COOKIE else " [AVISO: sin cookie de sesión]"))
 
@@ -390,6 +396,17 @@ def cosechar_scraping():
                 if not link_el or not link_el.get("href"):
                     continue
                 url_raw = link_el["href"].split("?")[0].split("#")[0]
+
+                # ── FUERA LOS ANUNCIOS (2026-10-08) ──────────────────────────
+                # Mercado Livre mete en la grilla de ofertas enlaces de CONTADOR
+                # DE CLICS de sus anuncios:
+                #     https://click1.mercadolivre.com.br/mclics/clicks/external/MLB/count
+                # NO son la página del producto. Medido: 41 de 238 ofertas (17%)
+                # venían así. Publicar eso es mandar a la gente a un enlace que
+                # no es el del producto que anuncia el post: una oferta falsa.
+                if PATRON_ANUNCIO.search(url_raw):
+                    anuncios_descartados += 1
+                    continue
 
                 img_el = card.select_one("img")
                 imagen = img_el.get("src") or img_el.get("data-src") if img_el else None
@@ -522,7 +539,8 @@ def cosechar_scraping():
                 "pasaron el filtro: revisa ML_DESC_MIN o los selectores .poly-card.")
 
     log(f"Scraping ML: {len(items)} ofertas obtenidas"
-        + (f" | {sin_sesion} categoría(s) sin sesión" if sin_sesion else ""))
+        + (f" | {sin_sesion} categoría(s) sin sesión" if sin_sesion else "")
+        + (f" | {anuncios_descartados} enlaces de ANUNCIO descartados" if anuncios_descartados else ""))
     return items
 
 # ─── PROMOCIONES REALES POR PRODUCTO ─────────────────────────────────────────

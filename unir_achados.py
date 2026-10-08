@@ -41,6 +41,12 @@ FILE_OUT = BASE / "achados.json"
 AMAZON_TAG = "criba20-20"
 ML_TAG = "ja20250119201346"
 
+# Enlaces de ANUNCIO de Mercado Livre: contadores de clic que NO llevan al
+# producto anunciado. Publicarlos sería una oferta falsa (el título dice una
+# cosa y el enlace va a otra). Medido el 2026-10-08: 41 de 238 ofertas.
+PATRON_ANUNCIO = re.compile(
+    r"(click\d*\.mercadolivre|/mclics/|click\.mercadolivre|/gz/|/jms/)", re.IGNORECASE)
+
 def normalizar(s):
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9 ]", "", s.lower()).strip()
@@ -175,6 +181,10 @@ def main():
                 descartados_enlace += 1
                 continue
         elif "Mercado Livre" in loja:
+            # Enlace de ANUNCIO (contador de clics) -> no es el producto.
+            if PATRON_ANUNCIO.search(u):
+                descartados_enlace += 1
+                continue
             if "meli.la" not in u and ("mercadolivre.com.br" not in u or ML_TAG not in u):
                 descartados_enlace += 1
                 continue
