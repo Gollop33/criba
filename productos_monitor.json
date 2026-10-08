@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-08T19:44:12+00:00",
+  "actualizado": "2026-10-08T19:49:25+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
@@ -17,7 +17,7 @@
       "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
@@ -25,7 +25,7 @@
       "precio_ref": 109.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "rocadeira aparador grama a bateria recarregavel 460w profissional",
@@ -33,7 +33,7 @@
       "precio_ref": 140.65,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "tapete higienico para cachorro descartavel alta absorcao 60x60",
@@ -41,7 +41,7 @@
       "precio_ref": 22.24,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "racao quatree life gatos ad castrados 10 1kg",
@@ -49,7 +49,7 @@
       "precio_ref": 148.82,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "areia sanitaria gatos lavanda 1 5kg mercado livre",
@@ -57,31 +57,7 @@
       "precio_ref": 18.01,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "yopro energy boost uht cappuccino 15g de proteinas",
-      "nombre": "YoPRO Energy Boost UHT Cappuccino 15g de Proteínas 250ml",
-      "precio_ref": 6.29,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "creatina dark lab premium pure em po sem",
-      "nombre": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
-      "precio_ref": 49.92,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "cadeira infantil para carro isofix 9 a 36kg",
-      "nombre": "Cadeira Infantil Para Carro Isofix 9 A 36kg Cadeirinha Bebê Cadeirinha Infantil Isofix Vermelho",
-      "precio_ref": 568.99,
-      "categoria": "Bebê",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "celular smartphone realme c73 256gb 8gb ram dual",
@@ -89,7 +65,39 @@
       "precio_ref": 1115.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "creatina dark lab premium pure em po sem",
+      "nombre": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
+      "precio_ref": 49.92,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "yopro energy boost uht cappuccino 15g de proteinas",
+      "nombre": "YoPRO Energy Boost UHT Cappuccino 15g de Proteínas 250ml",
+      "precio_ref": 6.29,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "cadeira infantil para carro isofix 9 a 36kg",
+      "nombre": "Cadeira Infantil Para Carro Isofix 9 A 36kg Cadeirinha Bebê Cadeirinha Infantil Isofix Vermelho",
+      "precio_ref": 568.99,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 4gb ram 128gb octa core",
+      "nombre": "Tablet VAIO TL10 4GB RAM 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi Dual Band, Câmera 8MP + Selfie 5MP, 7000mAh, Android 16, com Teclado Magnético de Conexão Inteligente – Preto",
+      "precio_ref": 1259.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "sapateira vertical irsina 7 andares aco inox 21",
@@ -97,7 +105,7 @@
       "precio_ref": 46.14,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "smartphone samsung galaxy a36 5g 128gb 6gb ram",
@@ -105,7 +113,7 @@
       "precio_ref": 1424.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "relogio inteligente gps smartwatch amoled 3atm sport gps",
@@ -113,7 +121,7 @@
       "precio_ref": 300.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "fone de ouvido sem fio havit tw982 enc",
@@ -121,7 +129,7 @@
       "precio_ref": 69.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "monitor pc gamer lg 24 ips full hd",
@@ -129,7 +137,7 @@
       "precio_ref": 517.78,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "comedouro automatico 4l velds para caes e gatos",
@@ -137,7 +145,7 @@
       "precio_ref": 248.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "bicicleta eletrica scooter 500w bateria removivel 48v 15ah",
@@ -145,7 +153,7 @@
       "precio_ref": 2912.0,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "rocadeira eletrica cortador de grama 48v bivolt 2",
@@ -153,39 +161,7 @@
       "precio_ref": 131.71,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "racao golden gatos castrados sabor frango e carne",
-      "nombre": "Racao Golden Gatos Castrados Sabor Frango E Carne 10.1 Kg",
-      "precio_ref": 128.79,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "proteina growth supplements basic whey em po sabor",
-      "nombre": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
-      "precio_ref": 72.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "camera residencial infravermelho ip bullet hilook by hikvision",
-      "nombre": "Câmera Residencial Infravermelho Ip Bullet Hilook By Hikvision Ipc-b121h-c(2.8mm)",
-      "precio_ref": 127.64,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "cadeira escritorio presidente ergonomica nr17 marqs home arcanis",
-      "nombre": "Cadeira Escritório Presidente Ergonômica NR17 Marqs Home Arcanis Preta com Apoio Lombar e Encosto Mesh Premium",
-      "precio_ref": 484.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "alimentador inteligente comedouro automatico pet app newpet np1322",
@@ -193,15 +169,7 @@
       "precio_ref": 190.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto G15 256gb 4GB RAM + 8GB RAM Boost Camera 50mp Verde",
-      "precio_ref": 963.46,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
@@ -209,7 +177,39 @@
       "precio_ref": 765.33,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "cadeira escritorio presidente ergonomica nr17 marqs home arcanis",
+      "nombre": "Cadeira Escritório Presidente Ergonômica NR17 Marqs Home Arcanis Preta com Apoio Lombar e Encosto Mesh Premium",
+      "precio_ref": 484.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "proteina growth supplements basic whey em po sabor",
+      "nombre": "Proteína Growth Supplements Basic Whey em pó sabor Chocolate x 1kg",
+      "precio_ref": 72.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto G15 256gb 4GB RAM + 8GB RAM Boost Camera 50mp Verde",
+      "precio_ref": 963.46,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "racao golden gatos castrados sabor frango e carne",
+      "nombre": "Racao Golden Gatos Castrados Sabor Frango E Carne 10.1 Kg",
+      "precio_ref": 128.79,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "smart tv lg 43 ld wifi bluetooth full",
@@ -217,15 +217,15 @@
       "precio_ref": 1467.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
-      "busqueda": "smart tv philco 50 polegadas 4k uhd roku",
-      "nombre": "Smart TV Philco 50\" Polegadas 4K UHD Roku TV HDR10 Dolby Audio WiFi P50CRB",
-      "precio_ref": 1945.0,
+      "busqueda": "camera residencial infravermelho ip bullet hilook by hikvision",
+      "nombre": "Câmera Residencial Infravermelho Ip Bullet Hilook By Hikvision Ipc-b121h-c(2.8mm)",
+      "precio_ref": 127.64,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "samsung smart monitor tv 43 hd plataforma tizentm",
@@ -233,7 +233,7 @@
       "precio_ref": 1399.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "cadeira de escritorio italia presidente ergonomica couro sintetico",
@@ -241,15 +241,7 @@
       "precio_ref": 579.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "smartphone galaxy a17 4g tela 6 7 256gb",
-      "nombre": "Smartphone Galaxy A17 4g Tela 6.7 256gb Samsung Cinza Com Preto",
-      "precio_ref": 1243.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "smart tv 32 philco roku tv dolby audio",
@@ -257,7 +249,7 @@
       "precio_ref": 979.08,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "smart tv pro lg 50 4k ultra hd",
@@ -265,23 +257,15 @@
       "precio_ref": 2314.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
-      "busqueda": "smart tv 32 philco p32vik roku led dolby",
-      "nombre": "Smart Tv 32 Philco P32vik Roku Led Dolby Audio Hdr Wi-fi 110/220v",
-      "precio_ref": 999.08,
+      "busqueda": "smart tv philco 50 polegadas 4k uhd roku",
+      "nombre": "Smart TV Philco 50\" Polegadas 4K UHD Roku TV HDR10 Dolby Audio WiFi P50CRB",
+      "precio_ref": 1945.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "smartphone samsung galaxy a07 4g 256gb 8gb preto",
-      "nombre": "Smartphone Samsung Galaxy A07 4G 256GB 8GB Preto 6,7\"",
-      "precio_ref": 1019.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "tablet positivo vision tab 7 processador octa core",
@@ -289,15 +273,7 @@
       "precio_ref": 468.67,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "racao quatree supreme gatos adultos castrados salmao e",
-      "nombre": "Ração Quatree Supreme Gatos Adultos Castrados Salmão e Batata Doce Super Premium",
-      "precio_ref": 167.17,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "chocadeira automatica 72 ovos com medidor de umidade",
@@ -305,23 +281,31 @@
       "precio_ref": 599.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
-      "busqueda": "ssd240gb adata 2 5 su650 asu650ss 240gt r",
-      "nombre": "SSD240GB Adata 2.5 SU650 ASU650SS-240GT-R 240GB preto",
-      "precio_ref": 289.98,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "smart tv 32 philco p32vik roku led dolby",
+      "nombre": "Smart Tv 32 Philco P32vik Roku Led Dolby Audio Hdr Wi-fi 110/220v",
+      "precio_ref": 999.08,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g35 5g 12gb ram boost",
-      "nombre": "Smartphone Motorola Moto G35 5g 12gb Ram Boost 128g Cor Grafite",
-      "precio_ref": 969.1,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "smartphone galaxy a17 4g tela 6 7 256gb",
+      "nombre": "Smartphone Galaxy A17 4g Tela 6.7 256gb Samsung Cinza Com Preto",
+      "precio_ref": 1243.0,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone samsung galaxy a07 4g 256gb 8gb preto",
+      "nombre": "Smartphone Samsung Galaxy A07 4G 256GB 8GB Preto 6,7\"",
+      "precio_ref": 1019.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "caixa de som bluetooth amplificada grande potencia hz",
@@ -329,7 +313,31 @@
       "precio_ref": 775.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "ssd240gb adata 2 5 su650 asu650ss 240gt r",
+      "nombre": "SSD240GB Adata 2.5 SU650 ASU650SS-240GT-R 240GB preto",
+      "precio_ref": 289.98,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "racao quatree supreme gatos adultos castrados salmao e",
+      "nombre": "Ração Quatree Supreme Gatos Adultos Castrados Salmão e Batata Doce Super Premium",
+      "precio_ref": 167.17,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 12gb ram boost",
+      "nombre": "Smartphone Motorola Moto G35 5g 12gb Ram Boost 128g Cor Grafite",
+      "precio_ref": 969.1,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "kit profissional l oreal absolut repair shampoo 1",
@@ -337,7 +345,7 @@
       "precio_ref": 299.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear curvo 34 quadhd 2k",
@@ -345,7 +353,7 @@
       "precio_ref": 1890.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "tv stick 4k android chromecast smart hdmi wifi",
@@ -353,7 +361,7 @@
       "precio_ref": 159.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "ar condicionado dual inverter lg compact ai 9000",
@@ -361,7 +369,7 @@
       "precio_ref": 1889.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "notebook samsung galaxy book4 intel u300 1 20",
@@ -369,7 +377,7 @@
       "precio_ref": 3028.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
@@ -377,7 +385,7 @@
       "precio_ref": 3648.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "tenis on cloud running masculino e feminino esportivo",
@@ -385,7 +393,7 @@
       "precio_ref": 155.1,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "gaiola hamster serragem roedores brinquedo labirinto mdf mdf",
@@ -393,7 +401,7 @@
       "precio_ref": 112.26,
       "categoria": "Ferramentas",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "nac 600mg formula exclusiva com maxima concentracao e",
@@ -401,7 +409,7 @@
       "precio_ref": 32.04,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
@@ -409,7 +417,7 @@
       "precio_ref": 193.32,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "kit panelinhas inox infantil cozinha brinquedo 10 pecas",
@@ -417,7 +425,7 @@
       "precio_ref": 71.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "jogo de panelas genebra ceramica 12 pcs antiaderente",
@@ -425,7 +433,7 @@
       "precio_ref": 227.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "camisa gola polo masculina pique premium algodao confortavel",
@@ -433,7 +441,7 @@
       "precio_ref": 33.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "cadeira musical vibratoria bebe funtime maxibaby 18kgs rosa",
@@ -441,7 +449,7 @@
       "precio_ref": 199.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "bermuda masculina tactel short academia treino plus size",
@@ -449,7 +457,7 @@
       "precio_ref": 29.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "projetor portatil 4k hd android 11 0 smart",
@@ -457,7 +465,7 @@
       "precio_ref": 181.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "microfone lapela duplo hollyland lark m2 combo usb",
@@ -465,7 +473,7 @@
       "precio_ref": 687.34,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     },
     {
       "busqueda": "oleo de coco extravirgem 900ml 0 3 acidez",
@@ -473,15 +481,7 @@
       "precio_ref": 44.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
-    },
-    {
-      "busqueda": "triciclo drift eletrico infantil mini moto 6 5",
-      "nombre": "Triciclo Drift Elétrico Infantil Mini Moto 6.5' Bluetooth Vermelho",
-      "precio_ref": 822.69,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-08T19:44:12+00:00"
+      "monitorizado_desde": "2026-10-08T19:49:25+00:00"
     }
   ]
 }
