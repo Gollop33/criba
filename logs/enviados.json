@@ -161,26 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
-    "ts": "2026-10-06T18:13:38.425517",
-    "canales": {
-      "whatsapp": "2026-10-06T18:13:38.425517"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
-  "amz-tablet-lenovo-idea-tab-octa-core-8gb-ramb-128": {
-    "ts": "2026-10-06T18:15:43.805067",
-    "canales": {
-      "whatsapp": "2026-10-06T18:15:43.805067"
-    },
-    "precio": 2099.0,
-    "precios_publicados": [
-      2099.0
-    ]
-  },
   "amz-mouse-gamer-logitech-g203-lightsync-rgb-efeit": {
     "ts": "2026-10-06T18:22:02.990196",
     "canales": {
@@ -1884,14 +1864,16 @@
     ]
   },
   "ml-triciclo-eletrico-infantil-bluetooth-drift-36": {
-    "ts": "2026-10-07T18:18:27.615568",
+    "ts": "2026-10-08T18:19:13.225540",
     "canales": {
-      "whatsapp": "2026-10-07T18:18:27.615568"
+      "whatsapp": "2026-10-08T18:19:13.225540"
     },
     "precio": 1099.0,
     "precios_publicados": [
+      1099.0,
       1099.0
-    ]
+    ],
+    "precio_min_publicado": 1099.0
   },
   "ml-power-bank-baseus-turbo-bipow2-pro-20000mah-2": {
     "ts": "2026-10-07T18:25:56.936602",
