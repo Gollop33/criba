@@ -1,0 +1,25 @@
+{
+  "_nota": "CUPONES REALES DE LA CUENTA DEL USUARIO. Fuente: captura de 'Cupons > Meus cupons' de su cuenta de Mercado Livre (2026-10-08). Son los que TIENE ACTIVADOS, con su mínimo, su tope y su vencimiento reales. El bot publica SOLO estos: un código que no esté en su cuenta no sirve de nada al grupo, y publicarlo quema la credibilidad del canal (el 2026-10-08 salieron ECONOMIATOTAL, MIMODODIA, BARATINHO y TODEBOA, que NO estaban activados).",
+  "actualizado": "2026-10-08T16:35:00+00:00",
+  "fuente": "cuenta ML del usuario (captura 'Meus cupons')",
+  "total": 17,
+  "cupones": [
+    {"codigo": "PRECINHOBOM",   "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-11", "vence_texto": "domingo",      "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "BATEDESCONTO",  "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-11", "vence_texto": "domingo",      "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "VALEMUITO",     "tienda": "Mercado Livre", "desconto": "25% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-15", "vence_texto": "15 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "FOIBARATO",     "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-25", "vence_texto": "25 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "BARRATINHOJA",  "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-25", "vence_texto": "25 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "MELICOMPRA",    "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-27", "vence_texto": "27 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "DESCONTEI",     "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": "R$ 29",   "limite": "R$ 500", "hasta": "2026-10-31", "vence_texto": "31 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "MLCOMPRANDO",   "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-31", "vence_texto": "31 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "ACHEIOFF",      "tienda": "Mercado Livre", "desconto": "25% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-10-31", "vence_texto": "31 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "PEGUEISEU",     "tienda": "Mercado Livre", "desconto": "25% OFF", "compra_minima": "R$ 29",   "limite": "R$ 500", "hasta": "2026-10-31", "vence_texto": "31 de outubro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "MEUVALE",       "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-11-09", "vence_texto": "9 de novembro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "VALEPROMO",     "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-11-09", "vence_texto": "9 de novembro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "ACHEINOMELI",   "tienda": "Mercado Livre", "desconto": "25% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-11-17", "vence_texto": "17 de novembro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "MUITOBARATO",   "tienda": "Mercado Livre", "desconto": "18% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-11-17", "vence_texto": "17 de novembro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "OFERTASMELI",   "tienda": "Mercado Livre", "desconto": "30% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-11-30", "vence_texto": "30 de novembro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "OFERTAAQUI",    "tienda": "Mercado Livre", "desconto": "25% OFF", "compra_minima": null,      "limite": "R$ 500", "hasta": "2026-11-30", "vence_texto": "30 de novembro", "alcance": "produtos selecionados", "fonte": "cuenta ML", "verificado": true},
+    {"codigo": "PONTOS",        "tienda": "Mercado Livre", "desconto": "R$ 1 OFF", "compra_minima": "R$ 10",  "limite": "R$ 1",   "hasta": null,         "vence_texto": null,            "alcance": "todos os produtos",     "fonte": "cuenta ML", "verificado": true}
+  ]
+}

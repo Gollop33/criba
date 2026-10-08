@@ -33,6 +33,9 @@ ACHADOS_JSON = BASE / "achados.json"
 FILE_ML = BASE / "achados_ml.json"
 FILE_AMZ = BASE / "achados_amazon.json"
 CUPONES_JSON = BASE / "cupones.json"
+# Cupones REALES activados en la cuenta del usuario (captura "Meus cupons").
+# Es la única fuente de cupones que puede ir al grupo.
+CUPONES_CUENTA = BASE / "cupones_cuenta.json"
 FILA_JSON = BASE / "fila_posts.json"
 LOG_DIR = BASE / "logs"
 LOG_DIR.mkdir(exist_ok=True)
@@ -629,6 +632,47 @@ def _huella(codigos):
     return hashlib.sha1(limpio.encode("utf-8")).hexdigest()[:10]
 
 
+def _cupon_vale_la_pena(c):
+    """
+    Fuera los cupones simbólicos: "R$ 1 OFF" no le mueve el bolsillo a nadie y
+    ensucia una tanda de 4 cupones. Se exige un porcentaje real o ≥ R$ 5.
+    """
+    d = str(c.get("desconto") or "")
+    if not d:
+        return False
+    numeros = "".join(ch for ch in d if ch.isdigit() or ch == ".")
+    try:
+        valor = float(numeros) if numeros else 0.0
+    except ValueError:
+        return True
+    if "%" in d:
+        return valor >= 5.0
+    return valor >= 5.0
+
+
+def cargar_cupones_cuenta():
+    """
+    Cupones que el usuario TIENE ACTIVADOS en su cuenta de Mercado Livre.
+
+    Fuente: `cupones_cuenta.json`, hecho a mano a partir de la captura de
+    "Cupons > Meus cupons". Trae lo que de verdad importa y que antes no
+    teníamos: compra mínima, tope de descuento y vencimiento real.
+
+    Por qué es la única fuente publicable: un código que no está activado en su
+    cuenta no lo puede usar nadie del grupo. El 2026-10-08 se publicaron cuatro
+    (ECONOMIATOTAL, MIMODODIA, BARATINHO, TODEBOA) que NO estaban activados.
+    """
+    try:
+        d = json.loads(CUPONES_CUENTA.read_text(encoding="utf-8-sig"))
+        lista = d.get("cupones") or []
+        return [c for c in lista if isinstance(c, dict) and c.get("codigo")]
+    except FileNotFoundError:
+        return []
+    except Exception as e:
+        print(f"  ⚠️  cupones_cuenta.json ilegible ({e}): se usa el respaldo cupones.json")
+        return []
+
+
 def cargar_cupones_reales():
     """
     Carga cupones reales y vigentes de cupones.json.
@@ -640,8 +684,31 @@ def cargar_cupones_reales():
     una lista vacía EN SILENCIO: cero cupones, cero posts de cupón, y nadie se
     enteraba. Ahora se normaliza el valor y, si algo falla, se dice.
     """
-    if not CUPONES_JSON.exists():
+    if not CUPONES_JSON.exists() and not CUPONES_CUENTA.exists():
         return []
+
+    # ── 1. LA FUENTE BUENA: los cupones ACTIVADOS en la cuenta del usuario ───
+    # El 2026-10-08 el usuario mandó la captura de "Cupons > Meus cupons": 19
+    # cupones activados, con su mínimo, su tope y su vencimiento reales. Ahí se
+    # vio la cagada: ECONOMIATOTAL, MIMODODIA, BARATINHO y TODEBOA (los que el
+    # bot había publicado) NO estaban en su cuenta. Un código que no está
+    # activado no sirve para nada y quema la credibilidad del canal, así que a
+    # partir de ahora al grupo solo va lo que está en cupones_cuenta.json.
+    cuenta = cargar_cupones_cuenta()
+    if cuenta:
+        hoy = datetime.now(timezone.utc).date().isoformat()
+        vigentes = [c for c in cuenta if cupon_vigente(c, hoy)]
+        vencidos = len(cuenta) - len(vigentes)
+        print(f"  • Cupones de la CUENTA del usuario: {len(vigentes)} vigentes"
+              + (f" | {vencidos} ya vencidos" if vencidos else ""))
+        if len(vigentes) < 5:
+            print("  ⚠️  Quedan pocos cupones activados. Manda una captura nueva de "
+                  "'Meus cupons' para actualizar cupones_cuenta.json.")
+        return vigentes
+
+    # ── 2. RESPALDO: comportamiento anterior (cupones.json) ─────────────────
+    # Solo se usa si no existe cupones_cuenta.json, para que el bot no se quede
+    # sin cupones si alguien borra el archivo.
     try:
         data = json.loads(CUPONES_JSON.read_text(encoding="utf-8-sig"))
         lista = data.get("cupones", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
@@ -928,7 +995,8 @@ def generar_posts_cupones(cupones_reales):
     # 1. Posts de Cupones Mercado Livre en lotes de 4, CON ROTACIÓN
     #    SOLO cupones con descuento conocido: un lote que diga "desconto não
     #    informado" en cada línea parece un bot roto (y no aporta nada).
-    pool_ml = [c for c in por_tienda.get("mercadolivre", []) if c.get("desconto")]
+    pool_ml = [c for c in por_tienda.get("mercadolivre", [])
+               if _cupon_vale_la_pena(c)]
     sin_desc = len(por_tienda.get("mercadolivre", [])) - len(pool_ml)
     if sin_desc:
         print(f"  • Cupones sin descuento conocido (fuera de las tandas): {sin_desc}")
@@ -953,16 +1021,28 @@ def generar_posts_cupones(cupones_reales):
             # NADA INVENTADO: antes esto ponía "R$ 15 OFF" por defecto cuando la
             # fuente no traía descuento. Es un dato inventado en el grupo.
             desc = c.get("desconto") or "desconto não informado"
-            # str(...) a propósito: hay cupones con "titulo": null en
-            # cupones.json (clave presente, valor nulo) y .get(k, defecto) NO
-            # aplica el defecto en ese caso -> None[:45] reventaba el generador
-            # entero y la fila se quedaba sin cupones (y sin avisar).
-            # Si el título no existe, no se inventa relleno: se omite el paréntesis.
-            titulo = str(c.get("titulo") or "").strip()[:45]
-            sufijo = f" ({titulo})" if titulo else ""
+            # CONDICIONES REALES. Esto es lo que separa una lista de códigos de
+            # una oferta útil: sin el mínimo, el tope y la fecha, el grupo no
+            # sabe si le sirve. Los datos vienen de la cuenta del usuario
+            # (cupones_cuenta.json), no se estiman.
+            cond = []
+            if c.get("compra_minima"):
+                cond.append(f"mín. {c['compra_minima']}")
+            if c.get("limite"):
+                cond.append(f"até {c['limite']} de desconto")
             vence = c.get("hasta") or c.get("vencimento")
-            urgencia = " ⏰ Vence HOJE!" if vence == hoy_str else ""
-            lineas.append(f"🎟️ {desc}: {cod}{sufijo}{urgencia}")
+            if vence:
+                vence_txt = str(vence)[:10]
+                try:
+                    _a, _m, _d = vence_txt.split("-")
+                    vence_txt = f"{_d}/{_m}"
+                except Exception:
+                    pass
+                cond.append("VENCE HOJE ⏰" if vence == hoy_str else f"válido até {vence_txt}")
+            linea = f"🎟️ {desc} — {cod}"
+            if cond:
+                linea += "\n      " + " · ".join(cond)
+            lineas.append(linea)
         lineas.append(f"\n⭐️ Ative por aqui para aplicar no carrinho:\n👉 {link_ativacao_ml}")
         
         posts_cupones.append({
