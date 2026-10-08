@@ -333,12 +333,15 @@ def main():
     (tmp2 / "achados_especificos.json").write_text(json.dumps({"achados": []}), encoding="utf-8")
 
     gf_guardado = (gf.BASE, gf.ACHADOS_JSON, gf.FILE_ML, gf.FILE_AMZ, gf.CUPONES_JSON,
-                   gf.FILA_JSON, gf.ENVIADOS_JSON)
+                   gf.CUPONES_CUENTA, gf.FILA_JSON, gf.ENVIADOS_JSON)
     gf.BASE = tmp2
     gf.ACHADOS_JSON = tmp2 / "achados.json"
     gf.FILE_ML = tmp2 / "achados_ml.json"
     gf.FILE_AMZ = tmp2 / "achados_amazon.json"
     gf.CUPONES_JSON = tmp2 / "cupones.json"
+    # Sin cupones_cuenta.json -> cargar_cupones_reales() usa el cupones.json
+    # temporal, que es lo que quiere esta prueba.
+    gf.CUPONES_CUENTA = tmp2 / "cupones_cuenta.json"
     gf.FILA_JSON = tmp2 / "fila_posts.json"
     gf.ENVIADOS_JSON = tmp2 / "enviados.json"
     os.environ["NICHO_MODO"] = "geral"
@@ -361,7 +364,7 @@ def main():
                   or "30% OFF" in tandas[0]["mensaje"])
     finally:
         (gf.BASE, gf.ACHADOS_JSON, gf.FILE_ML, gf.FILE_AMZ, gf.CUPONES_JSON,
-         gf.FILA_JSON, gf.ENVIADOS_JSON) = gf_guardado
+         gf.CUPONES_CUENTA, gf.FILA_JSON, gf.ENVIADOS_JSON) = gf_guardado
         os.environ.pop("MAX_LOTES_CUPON_FILA", None)
 
     # ── 8. ROTACIÓN Y VIGENCIA EFECTIVA (el "cupón antiguo" del 2026-10-08) ──

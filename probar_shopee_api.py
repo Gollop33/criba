@@ -360,13 +360,26 @@ def main():
         },
     ]}, ensure_ascii=False), encoding="utf-8")
 
+    # Cupones de la CUENTA del usuario: es la única fuente de cupones que se
+    # publica (ver cupones_cuenta.json). En la prueba va un archivo temporal
+    # para que el test no dependa del contenido real del repo.
+    (tmp2 / "cupones_cuenta.json").write_text(json.dumps({"cupones": [
+        {"codigo": "PRECINHOBOM", "tienda": "Mercado Livre", "desconto": "30% OFF",
+         "compra_minima": None, "limite": "R$ 500", "hasta": "2026-10-11",
+         "fonte": "cuenta ML", "verificado": True},
+        {"codigo": "VALEMUITO", "tienda": "Mercado Livre", "desconto": "25% OFF",
+         "compra_minima": None, "limite": "R$ 500", "hasta": "2026-10-15",
+         "fonte": "cuenta ML", "verificado": True},
+    ]}), encoding="utf-8")
+
     guardado_gf = (gf.ACHADOS_JSON, gf.FILE_ML, gf.FILE_AMZ, gf.CUPONES_JSON,
-                   gf.FILA_JSON, gf.ENVIADOS_JSON, gf.BASE)
+                   gf.CUPONES_CUENTA, gf.FILA_JSON, gf.ENVIADOS_JSON, gf.BASE)
     gf.BASE = tmp2
     gf.ACHADOS_JSON = tmp2 / "achados.json"
     gf.FILE_ML = tmp2 / "achados_ml.json"
     gf.FILE_AMZ = tmp2 / "achados_amazon.json"
     gf.CUPONES_JSON = tmp2 / "cupones.json"
+    gf.CUPONES_CUENTA = tmp2 / "cupones_cuenta.json"
     gf.FILA_JSON = tmp2 / "fila_posts.json"
     gf.ENVIADOS_JSON = tmp2 / "enviados.json"     # no existe -> sin enfriamiento
     os.environ["NICHO_MODO"] = "geral"
@@ -385,9 +398,24 @@ def main():
               any("Mercado" in (p.get("loja") or "") for p in fila))
         check("Shopee no se come la fila (menos de la mitad)",
               len(shopee) < len(fila) / 2, f"-> {len(shopee)}/{len(fila)}")
-        check("ningún post de la fila apunta a una tienda sin afiliado",
+        check("ningún post de PRODUCTO apunta a una tienda sin afiliado",
               all(("meli.la" in p["url"] or "D[A:" in p["url"] or shp.es_link_afiliado(p["url"]))
-                  for p in fila))
+                  for p in fila if p.get("tipo") != "cupon"))
+        # Las tandas de cupón llevan un enlace propio /go/<codigo>/ (el meli.la
+        # no existe para la página de cupones: ML lo rechaza). Se comprueba que
+        # ese /go/ lleve DENTRO el tag de afiliado: sin tag no cobra.
+        tandas = [p for p in fila if p.get("tipo") == "cupon"]
+        def _tanda_monetiza(p):
+            u = str(p.get("url") or "")
+            if "meli.la/" in u or "D[A:" in u:
+                return True
+            m = __import__("re").search(r"/go/([A-Za-z0-9]+)/?", u)
+            if not m:
+                return False
+            f = BASE_DIR / "go" / m.group(1) / "index.html"
+            return f.exists() and "ja20250119201346" in f.read_text(encoding="utf-8", errors="replace")
+        check("las tandas de cupón llevan enlace que monetiza (tag dentro del /go/)",
+              all(_tanda_monetiza(p) for p in tandas), f"-> {len(tandas)} tanda(s)")
         check("una oferta SIMULADA nunca entra en la fila",
               not any(p.get("id_post") == "B0B94JY59Z" for p in fila))
         check("una oferta de 3 días queda fuera (frescura < 12 h)",
@@ -396,7 +424,7 @@ def main():
               not any(p.get("id_post") == "MLB34928101" for p in fila))
     finally:
         (gf.ACHADOS_JSON, gf.FILE_ML, gf.FILE_AMZ, gf.CUPONES_JSON,
-         gf.FILA_JSON, gf.ENVIADOS_JSON, gf.BASE) = guardado_gf
+         gf.CUPONES_CUENTA, gf.FILA_JSON, gf.ENVIADOS_JSON, gf.BASE) = guardado_gf
 
     # ── 11. El validador final acepta (y comprueba) un enlace de Shopee ──────
     import validador_oferta as val
