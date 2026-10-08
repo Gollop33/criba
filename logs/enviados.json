@@ -1316,14 +1316,16 @@
     ]
   },
   "ml-cadeira-de-escritorio-italia-presidente-ergon": {
-    "ts": "2026-10-07T17:31:17.414170",
+    "ts": "2026-10-08T21:47:14.689605",
     "canales": {
-      "whatsapp": "2026-10-07T17:31:17.414170"
+      "whatsapp": "2026-10-08T21:47:14.689605"
     },
-    "precio": 493.0,
+    "precio": 579.0,
     "precios_publicados": [
-      493.0
-    ]
+      493.0,
+      579.0
+    ],
+    "precio_min_publicado": 493.0
   },
   "cupon-TUDOEMPROMO": {
     "ts": "2026-10-07T17:41:00.928272",
