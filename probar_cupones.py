@@ -364,6 +364,44 @@ def main():
          gf.FILA_JSON, gf.ENVIADOS_JSON) = gf_guardado
         os.environ.pop("MAX_LOTES_CUPON_FILA", None)
 
+    # ── 8. ROTACIÓN Y VIGENCIA EFECTIVA (el "cupón antiguo" del 2026-10-08) ──
+    # El usuario lo reportó desde el grupo: las MISMAS 8 tandas salieron 12
+    # veces en 2 días. Estas pruebas fijan el arreglo.
+    def hace_horas(h):
+        return (datetime.now(timezone.utc) - timedelta(hours=h)).isoformat(timespec="seconds")
+
+    check("un cupón sin fecha detectado hace 30 días YA NO vive",
+          not gf.cupon_vigente({"codigo": "X", "detectado_em": hace_horas(24 * 30)}))
+    check("un cupón sin fecha detectado hace 2 días SÍ vive",
+          gf.cupon_vigente({"codigo": "X", "detectado_em": hace_horas(48)}))
+    check("una fecha de vencimiento explícita manda sobre la detección",
+          gf.cupon_vigente({"codigo": "X", "hasta": "2030-01-01",
+                            "detectado_em": hace_horas(24 * 60)})
+          and not gf.cupon_vigente({"codigo": "X", "hasta": "2020-01-01"}))
+    check("sin ninguna fecha no se declara muerto (no se inventa)",
+          gf.cupon_vigente({"codigo": "X"}))
+
+    pool = [{"codigo": f"COD{i}", "tienda": "Mercado Livre", "fonte": "ML Oficial",
+             "detectado_em": hace_horas(1)} for i in range(8)]
+    # _registro_cupones() devuelve el mapa {codigo: info} (no el dict completo)
+    registro_falso = {f"COD{i}": {"publicado_em": hace_horas(1)} for i in range(4)}
+    gf._registro_cupones = lambda: registro_falso
+    rotados = gf._rotar_cupones(pool)
+    primeros = [c["codigo"] for c in rotados[:4]]
+    check("la rotación pone PRIMERO los que nunca salieron",
+          all(c not in ("COD0", "COD1", "COD2", "COD3") for c in primeros),
+          f"-> {primeros}")
+    check("los que salieron hace 1 h quedan al final (no se repiten)",
+          [c["codigo"] for c in rotados[4:]] == ["COD0", "COD1", "COD2", "COD3"])
+    gf._registro_cupones = lambda: {}
+    check("sin registro, el orden no rompe (y prioriza ML Oficial)",
+          len(gf._rotar_cupones(pool)) == 8)
+    check("el id de la tanda es ESTABLE (mismos códigos, mismo id)",
+          gf._huella(["A", "B", "C", "D"]) == gf._huella(["D", "C", "B", "A"])
+          and gf._huella(["A", "B", "C", "D"]) != gf._huella(["A", "B", "C", "E"]))
+    check("el id de la tanda NO lleva la hora (era la causa de la repetición)",
+          "2026" not in gf._huella(["A", "B"]))
+
     # ── RESULTADO ────────────────────────────────────────────────────────────
     print("-" * 68)
     print(f"  RESULTADO: {PASADAS}/{PASADAS + len(FALLOS)} pruebas pasadas")

@@ -222,6 +222,39 @@ def _tag_ml():
         return "ja20250119201346"
 
 
+def registrar_publicados(codigos, motivo="tanda"):
+    """
+    Marca códigos como publicados en el registro compartido.
+
+    Lo usan DOS caminos, y por eso vive aquí:
+      · este vigía, cuando publica un cupón nuevo al momento;
+      · el publicador de tandas (publicar_proximo.py), cuando manda un lote.
+
+    Al compartir un único registro, la rotación de tandas sabe qué cupones ya
+    salieron y deja de repetir los mismos cada pocas horas (el 2026-10-08 el
+    usuario lo reportó: "estancado con un cupón antiguo").
+    """
+    codigos = [str(c).strip().upper() for c in (codigos or []) if c]
+    if not codigos:
+        return
+    try:
+        datos = cargar_registro()
+    except Exception as e:
+        log(f"⚠️  Registro ilegible, no se pudo anotar la tanda: {e}")
+        return
+    if datos is None:
+        datos = {"bootstrap_em": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+                 "codigos": {}}
+    ahora = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    for cod in codigos:
+        entrada = datos["codigos"].get(cod) or {}
+        entrada["publicado_em"] = ahora
+        entrada["motivo"] = motivo
+        datos["codigos"][cod] = entrada
+    guardar_registro(datos)
+    log(f"Anotados {len(codigos)} código(s) como publicados ({motivo}).")
+
+
 def _link_go_verificado(largo, tag):
     """
     Crea (o reutiliza) un enlace corto en NUESTRO dominio:

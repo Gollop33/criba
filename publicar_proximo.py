@@ -569,6 +569,14 @@ def publicar_un_post(es_test=False):
         if enviar_whatsapp(mensaje):
             marcar_enviado(pid, enviados, canal="whatsapp")
             guardar_enviados(enviados)
+            # Anotar los códigos en el registro compartido: es lo que alimenta
+            # la ROTACIÓN de tandas. Sin esto, los mismos cupones vuelven al
+            # grupo cada pocas horas (12 veces en 2 días, reportado el 08/10).
+            try:
+                from cupones_vigia import registrar_publicados
+                registrar_publicados(codigos, motivo="tanda")
+            except Exception as e:
+                print(f"  ⚠️  No se pudo anotar la tanda en el registro: {e}")
             return True, pid, loja
         return False, pid, loja
 

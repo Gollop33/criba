@@ -21,6 +21,7 @@ Uso: python gerar_fila_posts.py
 import json
 import os
 import re
+import hashlib
 import random
 import sqlite3
 import unicodedata
@@ -503,6 +504,99 @@ def repeticion_permitida(pid, precio_actual, enviados_raw):
 
     return False, f"sin mejora (R$ {previo:.0f} -> R$ {actual:.0f})"
 
+# ─── ROTACIÓN Y CADUCIDAD DE CUPONES (2026-10-08) ────────────────────────────
+# El usuario lo vio en el grupo: "el bot está estancado con un cupón antiguo".
+# Medido: las MISMAS 8 tandas salieron 12 veces en 2 días (05:26, 10:59, 16:36,
+# 22:13, 03:08, 08:05...) porque este generador cogía SIEMPRE las 4 primeras de
+# la lista ordenada. Y 45 de los 69 cupones no traen fecha de vencimiento, así
+# que se trataban como eternos.
+#
+# Dos reglas nuevas:
+#   1. ROTACIÓN: se ordena el pool por "cuándo salió por última vez" y los que
+#      salieron en las últimas CUPOM_ROTACION_HORAS van al final (solo se usan
+#      si no queda nada más). Con 69 cupones, cada tanda lleva 8 códigos nuevos.
+#   2. VIGENCIA EFECTIVA: un cupón sin fecha declarada se considera vivo solo
+#      CUPOM_VALIDEZ_DIAS desde que se detectó. Un cupón de Mercado Livre de
+#      hace tres semanas ya no es un cupón: es basura.
+CUPOM_ROTACION_HORAS = float(os.environ.get("CUPOM_ROTACION_HORAS", "24"))
+# 10 días, no 15: medido que el canal arrastraba cupones del 25/09 que nunca
+# más se volvieron a ver en Mercado Livre. Un cupón sin fecha declarada y con
+# 10 días encima es basura, no una oferta.
+CUPOM_VALIDEZ_DIAS = float(os.environ.get("CUPOM_VALIDEZ_DIAS", "10"))
+
+
+def _registro_cupones():
+    """{codigo: {...}} del registro compartido logs/cupones_publicados.json."""
+    try:
+        d = json.loads((BASE / "logs" / "cupones_publicados.json").read_text(encoding="utf-8"))
+        return d.get("codigos") or {}
+    except Exception:
+        return {}
+
+
+def cupon_vigente(c, hoy_iso=None):
+    """
+    Vigencia EFECTIVA de un cupón (honesta, sin inventar fechas):
+      · si declara vencimiento -> manda esa fecha;
+      · si NO lo declara -> vale CUPOM_VALIDEZ_DIAS desde que se detectó;
+      · si no hay ninguna fecha -> no se puede afirmar que esté muerto, se deja.
+    """
+    hoy_iso = hoy_iso or datetime.now(timezone.utc).date().isoformat()
+    hasta = c.get("hasta") or c.get("vencimento")
+    if hasta:
+        return str(hasta)[:10] >= hoy_iso
+    detectado = c.get("detectado_em") or c.get("capturado_em")
+    if not detectado:
+        return True
+    try:
+        ts = datetime.fromisoformat(str(detectado).replace("Z", "+00:00"))
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - ts).days <= CUPOM_VALIDEZ_DIAS
+    except Exception:
+        return True
+
+
+def _rotar_cupones(cupons):
+    """
+    Ordena el pool por rotación real: primero los que NUNCA salieron, después
+    los que salieron hace más tiempo. Los publicados en las últimas
+    CUPOM_ROTACION_HORAS quedan al final (solo como último recurso).
+    """
+    registro = _registro_cupones()
+    ahora = datetime.now(timezone.utc)
+
+    def ultimo_salida(c):
+        info = registro.get(str(c.get("codigo") or "").upper()) or {}
+        return info.get("publicado_em") or ""
+
+    def salio_hace_poco(c):
+        u = ultimo_salida(c)
+        if not u:
+            return False
+        try:
+            ts = datetime.fromisoformat(str(u).replace("Z", "+00:00"))
+            if ts.tzinfo is None:
+                ts = ts.replace(tzinfo=timezone.utc)
+            return (ahora - ts).total_seconds() < CUPOM_ROTACION_HORAS * 3600
+        except Exception:
+            return False
+
+    ordenados = sorted(cupons, key=lambda c: (
+        ultimo_salida(c) or "",
+        0 if "oficial" in (c.get("fonte") or "").lower() else 1,
+    ))
+    frescos = [c for c in ordenados if not salio_hace_poco(c)]
+    repetidos = [c for c in ordenados if salio_hace_poco(c)]
+    return frescos + repetidos
+
+
+def _huella(codigos):
+    """Huella corta y estable de un conjunto de códigos (para el id del post)."""
+    limpio = "|".join(sorted(str(c).strip().upper() for c in codigos if c))
+    return hashlib.sha1(limpio.encode("utf-8")).hexdigest()[:10]
+
+
 def cargar_cupones_reales():
     """
     Carga cupones reales y vigentes de cupones.json.
@@ -521,6 +615,7 @@ def cargar_cupones_reales():
         lista = data.get("cupones", []) if isinstance(data, dict) else (data if isinstance(data, list) else [])
         hoy = datetime.now(timezone.utc).date().isoformat()
         validos = []
+        descartados_viejos = 0
         for c in lista:
             if not isinstance(c, dict):
                 continue
@@ -528,9 +623,13 @@ def cargar_cupones_reales():
             # Regla de oro: solo tiendas monetizadas (ML y Amazon hoy)
             if "mercado" not in tienda and "amazon" not in tienda and "shopee" not in tienda:
                 continue
-            hasta = str(c.get("hasta") or c.get("vencimento") or "9999-12-31")
-            if hasta >= hoy:
+            if cupon_vigente(c, hoy):
                 validos.append(c)
+            else:
+                descartados_viejos += 1
+        if descartados_viejos:
+            print(f"  • Cupones caducados por vigencia efectiva "
+                  f"(sin fecha declarada y > {CUPOM_VALIDEZ_DIAS:.0f} días): {descartados_viejos}")
         return validos
     except Exception as e:
         print(f"  ⚠️  No se pudieron cargar los cupones: {e}")
@@ -794,17 +893,9 @@ def generar_posts_cupones(cupones_reales):
         t = "mercadolivre" if "mercado" in c.get("tienda", "").lower() else "amazon"
         por_tienda.setdefault(t, []).append(c)
 
-    # 1. Posts de Cupones Mercado Livre en lotes de 3-4 (Priorizando ML Oficial y urgencia)
-    cupons_ml = por_tienda.get("mercadolivre", [])
+    # 1. Posts de Cupones Mercado Livre en lotes de 4, CON ROTACIÓN
+    cupons_ml = _rotar_cupones(por_tienda.get("mercadolivre", []))
     hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    
-    # Prioridad: 1) fuente "ML Oficial", 2) vencimiento hoy
-    cupons_ml.sort(
-        key=lambda c: (
-            0 if "oficial" in (c.get("fonte") or "").lower() else 1,
-            0 if (c.get("hasta") or c.get("vencimento")) == hoy_str else 1
-        )
-    )
 
     link_ativacao_ml, _es_corto = _link_cupones_con_afiliado()
     for chunk_idx in range(0, min(16, len(cupons_ml)), 4):
@@ -812,6 +903,8 @@ def generar_posts_cupones(cupones_reales):
         if not grupo:
             continue
         lineas = [f"🔥 Cupons Mercado Livre Selecionados #{chunk_idx//4 + 1}\n"]
+        codigos_lote = [str(c.get("codigo") or "").strip().upper() for c in grupo
+                        if c.get("codigo")]
         for c in grupo:
             cod = c.get("codigo") or "NO CARRINHO"
             # NADA INVENTADO: antes esto ponía "R$ 15 OFF" por defecto cuando la
@@ -830,16 +923,18 @@ def generar_posts_cupones(cupones_reales):
         lineas.append(f"\n⭐️ Ative por aqui para aplicar no carrinho:\n👉 {link_ativacao_ml}")
         
         posts_cupones.append({
-            "id_post": f"cupom-ml-lote{chunk_idx//4 + 1}-{datetime.now().strftime('%Y%m%d%H')}",
-            # OJO: el publicador SALTA el tipo legacy 'cupons_loja' (nunca se
-            # publicó ni una tanda de cupones en el canal). El tipo nuevo es
-            # 'cupon' y tiene su propia rama de envío.
+            # ID ESTABLE por contenido: antes llevaba la hora
+            # ("cupom-ml-lote1-2026100810"), así que el anti-duplicado NUNCA
+            # bloqueaba la tanda y los mismos 4 cupones volvían al grupo cada
+            # pocas horas (medido: 12 veces en 2 días). Con el hash de los
+            # códigos, la misma tanda no se repite y una distinta sí entra.
+            "id_post": "cupom-ml-" + _huella(codigos_lote),
             "tipo": "cupon",
             "loja": "Mercado Livre",
             "categoria": "Cupons",
             "titulo": f"🔥 Cupons Mercado Livre #{chunk_idx//4 + 1}",
             "mensaje": "\n".join(lineas),
-            "codigos": [c.get("codigo") for c in grupo if c.get("codigo")],
+            "codigos": codigos_lote,
             "url": link_ativacao_ml,
             "criado_em": ahora_iso,
             "prioridade": 10
@@ -853,6 +948,8 @@ def generar_posts_cupones(cupones_reales):
         if not grupo:
             continue
         lineas = [f"🔥 Cupons & Promoções Amazon Brasil #{chunk_idx//4 + 1}\n"]
+        codigos_lote_amz = [str(c.get("codigo") or "").strip().upper() for c in grupo
+                            if c.get("codigo")]
         for c in grupo:
             cod = c.get("codigo") or "RESGATE DIRETO"
             # NADA INVENTADO (antes: f"{c.get('valor', 10)}% OFF")
@@ -862,13 +959,13 @@ def generar_posts_cupones(cupones_reales):
         lineas.append(f"\n⭐️ Resgate e ative seus cupons Amazon:\n👉 {link_ativacao_amz}")
         
         posts_cupones.append({
-            "id_post": f"cupom-amz-lote{chunk_idx//4 + 1}-{datetime.now().strftime('%Y%m%d%H')}",
+            "id_post": "cupom-amz-" + _huella(codigos_lote_amz),
             "tipo": "cupon",
             "loja": "Amazon",
             "categoria": "Cupons",
             "titulo": f"🔥 Cupons & Promoções Amazon #{chunk_idx//4 + 1}",
             "mensagem": "\n".join(lineas),
-            "codigos": [c.get("codigo") for c in grupo if c.get("codigo")],
+            "codigos": codigos_lote_amz,
             "url": link_ativacao_amz,
             "criado_em": ahora_iso,
             "prioridade": 9

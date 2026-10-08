@@ -8,28 +8,28 @@
     },
     "BATEDESCONTO": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "ACHEIOFF": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "DESCONTEI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "PRECINHOBOM": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "OFERTASMELI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "BARRATINHOJA": {
       "detectado_em": "2026-09-25T13:00:16+00:00",
@@ -48,13 +48,13 @@
     },
     "VALEMUITO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "FOIBARATO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "VICHYNOMELI": {
       "detectado_em": "2026-09-25T19:00:14+00:00",
@@ -263,8 +263,8 @@
     },
     "APROVEITAESSA": {
       "detectado_em": "2026-10-05T13:30:29+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
+      "publicado_em": "2026-10-08T08:40:13+00:00",
+      "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
     "ACHADOSMELI": {
       "detectado_em": "2026-10-05T13:19:05+00:00",
@@ -478,5 +478,5 @@
       "motivo": "publicado"
     }
   },
-  "actualizado": "2026-10-08T13:33:44+00:00"
+  "actualizado": "2026-10-08T14:01:23+00:00"
 }
