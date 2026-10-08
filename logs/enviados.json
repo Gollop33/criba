@@ -1328,14 +1328,16 @@
     ]
   },
   "ml-projetor-smart-portatil-full-hd-4k-android-11": {
-    "ts": "2026-10-07T10:39:08.124156",
+    "ts": "2026-10-08T12:27:28.920493",
     "canales": {
-      "whatsapp": "2026-10-07T10:39:08.124156"
+      "whatsapp": "2026-10-08T12:27:28.920493"
     },
-    "precio": 176.0,
+    "precio": 239.0,
     "precios_publicados": [
-      176.0
-    ]
+      176.0,
+      239.0
+    ],
+    "precio_min_publicado": 176.0
   },
   "ml-relogio-inteligente-smartwatch-alexa-chamadas": {
     "ts": "2026-10-07T10:40:28.856630",
