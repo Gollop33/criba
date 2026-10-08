@@ -173,36 +173,6 @@
     ],
     "precio_min_publicado": 36.0
   },
-  "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
-    "ts": "2026-10-06T20:42:31.331881",
-    "canales": {
-      "whatsapp": "2026-10-06T20:42:31.331881"
-    },
-    "precio": 1239.0,
-    "precios_publicados": [
-      1239.0
-    ]
-  },
-  "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
-    "ts": "2026-10-06T20:43:57.526254",
-    "canales": {
-      "whatsapp": "2026-10-06T20:43:57.526254"
-    },
-    "precio": 148.0,
-    "precios_publicados": [
-      148.0
-    ]
-  },
-  "amz-tablet-positivo-vision-tab-7-moana-processado": {
-    "ts": "2026-10-06T20:46:42.037116",
-    "canales": {
-      "whatsapp": "2026-10-06T20:46:42.037116"
-    },
-    "precio": 546.0,
-    "precios_publicados": [
-      546.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-s10-lite-enterprise": {
     "ts": "2026-10-06T20:50:42.298564",
     "canales": {
@@ -3025,6 +2995,16 @@
     "precio": 148.0,
     "precios_publicados": [
       148.0
+    ]
+  },
+  "ml-areia-sanitaria-gatos-lavanda-15kg-mercado-li": {
+    "ts": "2026-10-08T20:49:16.684822",
+    "canales": {
+      "whatsapp": "2026-10-08T20:49:16.684822"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
