@@ -216,6 +216,17 @@ jobs:
         continue-on-error: true
         run: python acortador.py
 
+      # ── WEB ESTÁTICA: ofertas DENTRO del HTML ──────────────────────────────
+      # El 2026-10-08 Awin RECHAZÓ una solicitud con el motivo "URL inativo,
+      # página não encontrada". El sitio estaba perfecto... pero las ofertas se
+      # pintaban con JavaScript, así que un revisor automático veía el HTML
+      # vacío (0 precios). Esto escribe las tarjetas REALES dentro de
+      # index.html y ofertas.html. El JS sigue funcionando: al cargar, las
+      # reemplaza por la versión dinámica.
+      - name: generar web estática (ofertas sin JavaScript)
+        continue-on-error: true
+        run: python generar_web_estatica.py
+
       # ── Pipeline LIGERO: siempre (también en modo publicar) ───────────────
       - name: generar fila rotativa de posts (gerar_fila_posts)
         continue-on-error: true
@@ -429,7 +440,7 @@ jobs:
         run: |
           git config user.name "radar-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add -A -- '*.json' go/ img/ logs/ precios.db || true
+          git add -A -- '*.json' '*.html' go/ img/ logs/ precios.db || true
           git pull --rebase --autostash origin main || git pull origin main || true
 
           echo "── reparando estado si hay conflictos ──"
@@ -441,6 +452,6 @@ jobs:
             exit 1;
           }
 
-          git add -A -- '*.json' go/ img/ logs/ precios.db || true
+          git add -A -- '*.json' '*.html' go/ img/ logs/ precios.db || true
           git diff --staged --quiet || git commit -m "auto: achados+fila+cupons $(date -u +%H:%M)"
           git push || git push --force-with-lease
