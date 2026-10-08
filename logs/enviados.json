@@ -165,16 +165,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-personal-vip-papel-higienico-folha-dupla-12-u": {
-    "ts": "2026-10-06T22:35:04.764664",
-    "canales": {
-      "whatsapp": "2026-10-06T22:35:04.764664"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
   "amz-granado-colonia-terrapeutics-cardamomo-e-geng": {
     "ts": "2026-10-06T22:45:49.628382",
     "canales": {
@@ -2935,6 +2925,16 @@
     "precio": 1399.0,
     "precios_publicados": [
       1399.0
+    ]
+  },
+  "ml-smart-tv-pro-lg-50-4k-ultra-hd-ai-50un85c": {
+    "ts": "2026-10-08T22:36:08.244719",
+    "canales": {
+      "whatsapp": "2026-10-08T22:36:08.244719"
+    },
+    "precio": 2314.0,
+    "precios_publicados": [
+      2314.0
     ]
   }
 }
