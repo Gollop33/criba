@@ -161,16 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
-    "ts": "2026-10-06T16:40:24.525274",
-    "canales": {
-      "whatsapp": "2026-10-06T16:40:24.525274"
-    },
-    "precio": 219.0,
-    "precios_publicados": [
-      219.0
-    ]
-  },
   "amz-apple-2025-ipad-wifi-128-gb-prateado-a16-wifi": {
     "ts": "2026-10-06T16:44:08.696266",
     "canales": {
@@ -1796,14 +1786,16 @@
     ]
   },
   "ml-kit-10-pote-vidro-hermetico-marmita-640ml-mic": {
-    "ts": "2026-10-07T16:05:02.523978",
+    "ts": "2026-10-08T16:43:55.984840",
     "canales": {
-      "whatsapp": "2026-10-07T16:05:02.523978"
+      "whatsapp": "2026-10-08T16:43:55.984840"
     },
     "precio": 89.0,
     "precios_publicados": [
+      89.0,
       89.0
-    ]
+    ],
+    "precio_min_publicado": 89.0
   },
   "ml-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
     "ts": "2026-10-07T16:14:18.366694",
