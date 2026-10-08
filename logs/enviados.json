@@ -1854,14 +1854,16 @@
     "precio_min_publicado": 1349.0
   },
   "ml-tapete-higienico-pet-50-unidades-60x60-descar": {
-    "ts": "2026-10-07T19:38:27.719486",
+    "ts": "2026-10-08T19:43:11.644805",
     "canales": {
-      "whatsapp": "2026-10-07T19:38:27.719486"
+      "whatsapp": "2026-10-08T19:43:11.644805"
     },
     "precio": 52.0,
     "precios_publicados": [
+      52.0,
       52.0
-    ]
+    ],
+    "precio_min_publicado": 52.0
   },
   "ml-smart-tv-43-philco-led-roku-tv-dolby-audio-pt": {
     "ts": "2026-10-07T19:47:16.073073",
