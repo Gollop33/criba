@@ -1356,14 +1356,16 @@
     ]
   },
   "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
-    "ts": "2026-10-07T10:55:36.188182",
+    "ts": "2026-10-08T11:37:10.564061",
     "canales": {
-      "whatsapp": "2026-10-07T10:55:36.188182"
+      "whatsapp": "2026-10-08T11:37:10.564061"
     },
     "precio": 458.0,
     "precios_publicados": [
+      458.0,
       458.0
-    ]
+    ],
+    "precio_min_publicado": 458.0
   },
   "cupom-ml-lote1-2026100710": {
     "ts": "2026-10-07T10:59:18.416928",
