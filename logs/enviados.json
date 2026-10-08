@@ -161,26 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
-    "ts": "2026-10-06T18:32:07.571000",
-    "canales": {
-      "whatsapp": "2026-10-06T18:32:07.571000"
-    },
-    "precio": 589.0,
-    "precios_publicados": [
-      589.0
-    ]
-  },
-  "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
-    "ts": "2026-10-06T18:34:14.540011",
-    "canales": {
-      "whatsapp": "2026-10-06T18:34:14.540011"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
     "ts": "2026-10-06T18:41:05.120383",
     "canales": {
@@ -1876,14 +1856,16 @@
     ]
   },
   "ml-berco-portatil-infantil-cercado-desmontavel-l": {
-    "ts": "2026-10-07T18:29:45.430729",
+    "ts": "2026-10-08T18:36:53.360702",
     "canales": {
-      "whatsapp": "2026-10-07T18:29:45.430729"
+      "whatsapp": "2026-10-08T18:36:53.360702"
     },
     "precio": 299.0,
     "precios_publicados": [
+      299.0,
       299.0
-    ]
+    ],
+    "precio_min_publicado": 299.0
   },
   "ml-formula-natural-fresh-meat-gato-castrado-carn": {
     "ts": "2026-10-07T18:35:47.273136",
