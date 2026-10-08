@@ -1575,14 +1575,16 @@
     ]
   },
   "ml-power-bank-20000mah-225w-carga-rapida-com-dis": {
-    "ts": "2026-10-07T12:54:46.700317",
+    "ts": "2026-10-08T12:58:41.737881",
     "canales": {
-      "whatsapp": "2026-10-07T12:54:46.700317"
+      "whatsapp": "2026-10-08T12:58:41.737881"
     },
-    "precio": 63.0,
+    "precio": 69.0,
     "precios_publicados": [
-      63.0
-    ]
+      63.0,
+      69.0
+    ],
+    "precio_min_publicado": 63.0
   },
   "ml-fone-de-ouvido-bluetooth-54-soundcore-p30i-da": {
     "ts": "2026-10-07T13:02:31.354748",
