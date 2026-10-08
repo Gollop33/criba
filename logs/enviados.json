@@ -19,19 +19,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
-    "ts": "2026-10-06T15:46:24.614847",
-    "canales": {
-      "whatsapp": "2026-10-06T15:46:24.614847"
-    },
-    "precio": 2698.0,
-    "precios_publicados": [
-      2699.0,
-      2699.0,
-      2698.0
-    ],
-    "precio_min_publicado": 2699.0
-  },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-10-07T00:56:08.547385",
     "canales": {
@@ -1750,14 +1737,16 @@
     ]
   },
   "ml-celular-motorola-moto-g56-256gb-12gb-ram-5g-d": {
-    "ts": "2026-10-07T14:47:53.253838",
+    "ts": "2026-10-08T15:48:16.850856",
     "canales": {
-      "whatsapp": "2026-10-07T14:47:53.253838"
+      "whatsapp": "2026-10-08T15:48:16.850856"
     },
-    "precio": 1507.0,
+    "precio": 1399.0,
     "precios_publicados": [
-      1507.0
-    ]
+      1507.0,
+      1399.0
+    ],
+    "precio_min_publicado": 1507.0
   },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
     "ts": "2026-10-07T14:55:13.079755",
