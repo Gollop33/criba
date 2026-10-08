@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-08T03:08:02+00:00",
+  "actualizado": "2026-10-08T03:04:30+00:00",
   "total": 86,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -22,7 +22,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -40,7 +40,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -58,7 +58,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -76,7 +76,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -94,7 +94,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -112,7 +112,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -130,7 +130,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T03:08:02+00:00",
+      "capturado_em": "2026-10-08T03:04:30+00:00",
       "detectado_em": "2026-10-07T13:21:30+00:00"
     },
     {
@@ -142,7 +142,9 @@
       "limite": "R$500",
       "vencimento": "2026-10-25",
       "hasta": "2026-10-25",
-      "estado": "ativo",
+      "estado": {
+        "id": "ACTIVE"
+      },
       "categoria": "Cupons Oficiais",
       "fonte": "ML Oficial",
       "vigente": true,
@@ -199,7 +201,7 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -218,7 +220,7 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "capturado_em": "2026-10-08T03:08:02+00:00"
+      "capturado_em": "2026-10-08T03:04:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -1005,8 +1007,7 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-07T13:21:30+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
       "codigo": "SEMPREMELI",
@@ -1058,8 +1059,7 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-07T13:10:54+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
       "codigo": "VIPNOML",
@@ -1150,8 +1150,7 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-07T19:32:52+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
       "codigo": "PELUCIAS10",
@@ -1203,8 +1202,7 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-07T19:29:55+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }
