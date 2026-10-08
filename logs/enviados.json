@@ -1,24 +1,4 @@
 {
-  "B0B94JY59Z": {
-    "ts": "2026-10-06T21:02:35.242806",
-    "canales": {
-      "whatsapp": "2026-10-06T21:02:35.242806"
-    },
-    "precio": 389.0,
-    "precios_publicados": [
-      389.0,
-      389.0,
-      389.0,
-      389.0,
-      389.0,
-      389.0,
-      389.0,
-      389.0,
-      389.0,
-      389.0
-    ],
-    "precio_min_publicado": 389.0
-  },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-10-07T00:56:08.547385",
     "canales": {
@@ -172,26 +152,6 @@
       39.0
     ],
     "precio_min_publicado": 36.0
-  },
-  "amz-secret-desodorante-antitranspirante-em-gel-la": {
-    "ts": "2026-10-06T21:05:06.024572",
-    "canales": {
-      "whatsapp": "2026-10-06T21:05:06.024572"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
-  "amz-growth-supplements-creatina-500g-pouch-treino": {
-    "ts": "2026-10-06T21:08:11.165238",
-    "canales": {
-      "whatsapp": "2026-10-06T21:08:11.165238"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
   },
   "amz-kingston-kf432c16bbk216-kit-de-memorias-de-16": {
     "ts": "2026-10-06T21:17:12.054139",
@@ -2995,6 +2955,16 @@
     "precio": 46.0,
     "precios_publicados": [
       46.0
+    ]
+  },
+  "ml-fone-de-ouvido-sem-fio-havit-tw982-enc-blueto": {
+    "ts": "2026-10-08T21:10:56.202924",
+    "canales": {
+      "whatsapp": "2026-10-08T21:10:56.202924"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
