@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-08T01:04:58+00:00",
+  "actualizado": "2026-10-08T01:19:36+00:00",
   "total": 85,
   "fuentes": [
     "ML Oficial",
@@ -22,7 +22,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-07T17:25:30+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -40,7 +40,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T01:04:58+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -58,7 +58,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T01:04:58+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -76,7 +76,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T01:04:58+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -94,7 +94,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T01:04:58+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -112,24 +112,27 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-08T01:04:58+00:00",
+      "capturado_em": "2026-10-08T01:19:36+00:00",
       "detectado_em": "2026-10-07T13:21:30+00:00"
     },
     {
       "tienda": "Mercado Livre",
-      "titulo": "30% OFF em Geral",
+      "titulo": "30% OFF com BARRATINHOJA",
       "codigo": "BARRATINHOJA",
       "desconto": "30% OFF",
       "compra_minima": "R$1",
       "limite": "R$500",
       "vencimento": "2026-10-25",
       "hasta": "2026-10-25",
-      "estado": "ativo",
-      "categoria": "Geral",
-      "fonte": "Telegram ML Afiliados",
+      "estado": {
+        "id": "ACTIVE"
+      },
+      "categoria": "Cupons Oficiais",
+      "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "detectado_em": "2026-09-25T13:00:16+00:00"
+      "detectado_em": "2026-09-25T13:00:16+00:00",
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -180,7 +183,7 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "capturado_em": "2026-10-08T01:04:58+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -199,7 +202,7 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "capturado_em": "2026-10-08T01:04:58+00:00"
+      "capturado_em": "2026-10-08T01:19:36+00:00"
     },
     {
       "tienda": "Mercado Livre",
