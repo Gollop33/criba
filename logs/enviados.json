@@ -165,26 +165,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-asus-prime-geforce-rtxtm-5070-gddr7-12gb-oc-e": {
-    "ts": "2026-10-06T22:24:40.349259",
-    "canales": {
-      "whatsapp": "2026-10-06T22:24:40.349259"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
-  "amz-adata-memoria-p-notebook-ddr4-16gb-3200mhz-so": {
-    "ts": "2026-10-06T22:27:09.054557",
-    "canales": {
-      "whatsapp": "2026-10-06T22:27:09.054557"
-    },
-    "precio": 649.0,
-    "precios_publicados": [
-      649.0
-    ]
-  },
   "amz-personal-vip-papel-higienico-folha-dupla-12-u": {
     "ts": "2026-10-06T22:35:04.764664",
     "canales": {
@@ -1146,14 +1126,16 @@
     "precio_min_publicado": 89.0
   },
   "ml-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
-    "ts": "2026-10-07T16:14:18.366694",
+    "ts": "2026-10-08T22:31:57.740273",
     "canales": {
-      "whatsapp": "2026-10-07T16:14:18.366694"
+      "whatsapp": "2026-10-08T22:31:57.740273"
     },
-    "precio": 923.0,
+    "precio": 979.0,
     "precios_publicados": [
-      923.0
-    ]
+      923.0,
+      979.0
+    ],
+    "precio_min_publicado": 923.0
   },
   "ml-racao-quatree-supreme-gatos-castrados-frango-": {
     "ts": "2026-10-07T16:18:07.644032",
