@@ -8,8 +8,8 @@
     },
     "BATEDESCONTO": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T08:40:13+00:00",
-      "motivo": "migracion: ya salio en tandas antes de la rotacion"
+      "publicado_em": "2026-10-08T20:24:29+00:00",
+      "motivo": "tanda"
     },
     "ACHEIOFF": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
@@ -23,8 +23,8 @@
     },
     "PRECINHOBOM": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T08:40:13+00:00",
-      "motivo": "migracion: ya salio en tandas antes de la rotacion"
+      "publicado_em": "2026-10-08T20:24:29+00:00",
+      "motivo": "tanda"
     },
     "OFERTASMELI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
@@ -48,8 +48,8 @@
     },
     "VALEMUITO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "publicado_em": "2026-10-08T08:40:13+00:00",
-      "motivo": "migracion: ya salio en tandas antes de la rotacion"
+      "publicado_em": "2026-10-08T20:24:29+00:00",
+      "motivo": "tanda"
     },
     "FOIBARATO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
@@ -472,10 +472,10 @@
     },
     "MLCOMPRANDO": {
       "detectado_em": "2026-10-08T02:40:17+00:00",
-      "publicado_em": "2026-10-08T02:40:18+00:00",
+      "publicado_em": "2026-10-08T20:24:29+00:00",
       "descuento": "30% OFF",
       "link_corto": true,
-      "motivo": "publicado"
+      "motivo": "tanda"
     },
     "SALVAMEUBOLSO": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
@@ -492,5 +492,5 @@
       "motivo": "publicado"
     }
   },
-  "actualizado": "2026-10-08T19:38:39+00:00"
+  "actualizado": "2026-10-08T20:24:29+00:00"
 }

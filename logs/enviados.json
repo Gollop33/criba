@@ -161,26 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
-    "ts": "2026-10-06T19:46:23.793869",
-    "canales": {
-      "whatsapp": "2026-10-06T19:46:23.793869"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
-  "amz-echo-dot-geracao-mais-recente-smart-speaker-c": {
-    "ts": "2026-10-06T19:51:59.040134",
-    "canales": {
-      "whatsapp": "2026-10-06T19:51:59.040134"
-    },
-    "precio": 329.0,
-    "precios_publicados": [
-      329.0
-    ]
-  },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
     "ts": "2026-10-08T01:54:58.507865",
     "canales": {
@@ -192,66 +172,6 @@
       39.0
     ],
     "precio_min_publicado": 36.0
-  },
-  "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
-    "ts": "2026-10-06T19:59:50.097212",
-    "canales": {
-      "whatsapp": "2026-10-06T19:59:50.097212"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0
-    ]
-  },
-  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
-    "ts": "2026-10-06T20:02:14.433472",
-    "canales": {
-      "whatsapp": "2026-10-06T20:02:14.433472"
-    },
-    "precio": 219.0,
-    "precios_publicados": [
-      219.0
-    ]
-  },
-  "amz-elg-f80n-suporte-articulado-de-mesa-pistao-a-": {
-    "ts": "2026-10-06T20:05:15.918587",
-    "canales": {
-      "whatsapp": "2026-10-06T20:05:15.918587"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
-  "amz-xiaomi-redmi-pad-2-11-8256gb-wifi-grafite-cin": {
-    "ts": "2026-10-06T20:06:45.948679",
-    "canales": {
-      "whatsapp": "2026-10-06T20:06:45.948679"
-    },
-    "precio": 1480.0,
-    "precios_publicados": [
-      1480.0
-    ]
-  },
-  "amz-memoria-desktop-gamer-adata-xpg-gammix-d35-8g": {
-    "ts": "2026-10-06T20:08:56.131891",
-    "canales": {
-      "whatsapp": "2026-10-06T20:08:56.131891"
-    },
-    "precio": 443.0,
-    "precios_publicados": [
-      443.0
-    ]
-  },
-  "amz-tablet-infantil-positivo-vision-tab-7-minions": {
-    "ts": "2026-10-06T20:17:21.681058",
-    "canales": {
-      "whatsapp": "2026-10-06T20:17:21.681058"
-    },
-    "precio": 469.0,
-    "precios_publicados": [
-      469.0
-    ]
   },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-10-06T20:25:02.366812",
@@ -3120,5 +3040,11 @@
     "precios_publicados": [
       273.0
     ]
+  },
+  "cupom-ml-49ee0c1dd7": {
+    "ts": "2026-10-08T20:24:29.774751",
+    "canales": {
+      "whatsapp": "2026-10-08T20:24:29.774751"
+    }
   }
 }
