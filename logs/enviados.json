@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 1044.0
   },
-  "ml-samsung-galaxy-a17-4g-cinza": {
-    "ts": "2026-10-06T00:12:38.007989",
-    "canales": {
-      "whatsapp": "2026-10-06T00:12:38.007989"
-    },
-    "precio": 849.0,
-    "precios_publicados": [
-      849.0
-    ]
-  },
   "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
     "ts": "2026-10-07T13:13:40.502702",
     "canales": {
@@ -2722,5 +2712,11 @@
     "precios_publicados": [
       381.0
     ]
+  },
+  "cupon-BONECAS10": {
+    "ts": "2026-10-08T00:22:00.756523",
+    "canales": {
+      "whatsapp": "2026-10-08T00:22:00.756523"
+    }
   }
 }
