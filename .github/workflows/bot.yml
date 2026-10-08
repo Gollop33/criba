@@ -43,6 +43,14 @@ on:
         options:
           - publicar
           - full
+      bucle:
+        description: 'si = entra al bucle de 5,5 h (reserva el job) | no = solo cosecha y sale'
+        required: false
+        default: 'si'
+        type: choice
+        options:
+          - si
+          - no
 
 permissions:
   contents: write
@@ -328,8 +336,13 @@ jobs:
       # El `schedule` entra en BUCLE: publica cada 7.5 min hasta ~4.5 h, así la
       # cadencia no depende del cron (que GitHub estrangula a ~3 h).
       # Un `workflow_dispatch` (cron externo / manual) publica UN solo post.
+      #
+      # `bucle=no` (cron externo cada hora): cosecha, regenera la fila y SALE sin
+      # reservar el job 5,5 h. Es lo que permite tener un disparador frecuente
+      # sin llenar la cola de ejecuciones largas (concurrency solo deja una
+      # corriendo y el resto espera).
       - name: publicar en bucle (cadencia 7-8 min)
-        if: github.event.inputs.modo != 'publicar'
+        if: github.event.inputs.modo != 'publicar' && github.event.inputs.bucle != 'no'
         continue-on-error: true
         run: python bucle_publicacion.py
         env:

@@ -42,27 +42,33 @@ GitHub estrangula los `schedule` de alta frecuencia. Por eso la cadencia la da u
 
 ---
 
-## Paso 3 — Crear el cronjob
+## Paso 3 — Crear los DOS cronjobs
 
-`Create cronjob` y rellena **exactamente** esto:
+Son dos, y cada uno hace una cosa distinta. El plan gratis de cron-job.org los
+admite sin problema.
 
-### Título
-```
-CRIBA publicar WhatsApp
-```
+| # | Título | Cada | Body | Para qué |
+|---|--------|------|------|----------|
+| 1 | `CRIBA publicar` | 7 min | `{"ref":"main","inputs":{"modo":"publicar"}}` | publica 1 post validado en el momento |
+| 2 | `CRIBA cosechar` | 60 min | `{"ref":"main","inputs":{"modo":"full","bucle":"no"}}` | cosecha ML/cupones y regenera la fila, **sin** reservar el job 5,5 h |
 
-### URL
+> ¿Por qué `"bucle":"no"` en el segundo? Sin ese campo, el run entra en el bucle
+> de 5,5 h y con el `concurrency` del workflow **bloquearía** todas las llamadas
+> de 7 minutos hasta que termine. Con `bucle=no` cosecha en ~3 min y sale, así
+> los dos cronjobs conviven.
+
+### URL (la misma para los dos)
 ```
 https://api.github.com/repos/Gollop33/criba/actions/workflows/bot.yml/dispatches
 ```
 
 ### Schedule
-- **Every 8 minutes** (o expresión cron: `*/8 * * * *`)
-- **Execution:** cada 8 min, **todos los días, las 24 horas**.
-- ⚠️ Desde el 2026-10-07 el bot es 24/7 (`VENTANA_BRT=0-24` en el workflow), así
-  que **NO limites el horario** en cron-job.org: el bot ya baja el ritmo solo por
-  la noche (de 23h a 7h BRT publica cada 20-40 min). Si limitas las horas aquí,
-  vuelves a tener el bot apagado media jornada.
+- Job 1: **Every 7 minutes** (`*/7 * * * *`)
+- Job 2: **Every 60 minutes** (`0 * * * *`)
+- **Todos los días, las 24 horas.** ⚠️ NO limites el horario en cron-job.org:
+  desde el 2026-10-07 el bot es 24/7 (`VENTANA_BRT=0-24`) y ya baja el ritmo él
+  solo por la noche (23h-7h BRT, un post cada 20-40 min). Si limitas las horas
+  aquí, vuelves a tener el bot apagado media jornada.
 
 ### Request method
 ```
@@ -82,11 +88,12 @@ POST
 ```json
 {"ref":"main","inputs":{"modo":"publicar"}}
 ```
+(El job 2 usa `{"ref":"main","inputs":{"modo":"full","bucle":"no"}}`.)
 
-> El campo `modo` es importante: `publicar` ejecuta solo la parte ligera
-> (generar fila + publicar 1 post + commit). **No** scrapea Mercado Livre ni
-> Amazon, para que no nos bloqueen la IP por hacer 180 peticiones/hora.
-> El pipeline completo lo sigue disparando el `schedule` de GitHub.
+> `publicar` ejecuta solo la parte ligera (regenerar fila + publicar 1 post +
+> commit). **No** scrapea Mercado Livre ni Amazon: así el disparo de cada 7 min
+> no nos hace 180 peticiones/hora ni nos bloquean la IP. La cosecha la hace el
+> job 2 cada hora.
 
 ### Respuesta esperada
 - **204 No Content** → correcto, la ejecución se ha encolado.
@@ -102,7 +109,7 @@ devuelve cada llamada. Es tu principal herramienta de diagnóstico.
 ## Paso 4 — Verificar que funciona
 
 ### En cron-job.org
-`History` del cronjob: deben aparecer `204` cada 8 minutos.
+`History` del job 1: deben aparecer `204` cada 7 minutos.
 
 ### En GitHub
 <https://github.com/Gollop33/criba/actions/workflows/bot.yml>
