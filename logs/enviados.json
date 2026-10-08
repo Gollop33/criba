@@ -706,14 +706,16 @@
     ]
   },
   "ml-racao-golden-gatos-castrados-sabor-frango-e-c": {
-    "ts": "2026-10-07T11:55:57.273391",
+    "ts": "2026-10-08T22:02:09.576984",
     "canales": {
-      "whatsapp": "2026-10-07T11:55:57.273391"
+      "whatsapp": "2026-10-08T22:02:09.576984"
     },
-    "precio": 135.0,
+    "precio": 128.0,
     "precios_publicados": [
-      135.0
-    ]
+      135.0,
+      128.0
+    ],
+    "precio_min_publicado": 135.0
   },
   "ml-vitamina-d3-k2-menaquinona7-formula-com-maxim": {
     "ts": "2026-10-07T12:02:53.298316",
