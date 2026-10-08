@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "ml-carregador-portatil-power-bank-turbo-20000mah": {
-    "ts": "2026-10-06T00:36:26.669268",
-    "canales": {
-      "whatsapp": "2026-10-06T00:36:26.669268"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
     "ts": "2026-10-06T00:41:30.991123",
     "canales": {
@@ -2728,5 +2718,15 @@
     "canales": {
       "whatsapp": "2026-10-08T00:35:47.939866"
     }
+  },
+  "ml-chocadeira-automatica-72-ovos-com-medidor-de-": {
+    "ts": "2026-10-08T00:41:24.039889",
+    "canales": {
+      "whatsapp": "2026-10-08T00:41:24.039889"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
+    ]
   }
 }
