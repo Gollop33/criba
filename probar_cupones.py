@@ -374,6 +374,19 @@ def main():
           not gf.cupon_vigente({"codigo": "X", "detectado_em": hace_horas(24 * 30)}))
     check("un cupón sin fecha detectado hace 2 días SÍ vive",
           gf.cupon_vigente({"codigo": "X", "detectado_em": hace_horas(48)}))
+    # ── LA CAGADA DEL 2026-10-08: salieron ECONOMIATOTAL / MIMODODIA /
+    # BARATINHO / TODEBOA, códigos de 10 días, prometiendo 20% y 15% OFF que
+    # Mercado Livre ya había retirado. Y DESCONTOESPECIAL y compañía, de 13 días.
+    check("un cupón de 10 días NO se publica (fue el caso real)",
+          not gf.cupon_vigente({"codigo": "ECONOMIATOTAL",
+                                "detectado_em": hace_horas(24 * 10)}))
+    check("un cupón de 13 días NO se publica (fue el caso real)",
+          not gf.cupon_vigente({"codigo": "DESCONTOESPECIAL",
+                                "detectado_em": hace_horas(24 * 13)}))
+    check("un cupón de 20 horas SÍ se publica",
+          gf.cupon_vigente({"codigo": "FRESCO1", "detectado_em": hace_horas(20)}))
+    check("el límite es 72 h, no 10 días",
+          gf.CUPOM_VALIDEZ_HORAS == 72)
     check("una fecha de vencimiento explícita manda sobre la detección",
           gf.cupon_vigente({"codigo": "X", "hasta": "2030-01-01",
                             "detectado_em": hace_horas(24 * 60)})
@@ -396,11 +409,52 @@ def main():
     gf._registro_cupones = lambda: {}
     check("sin registro, el orden no rompe (y prioriza ML Oficial)",
           len(gf._rotar_cupones(pool)) == 8)
+
+    # ROTACIÓN ENTRE FRESCOS: entre los que nunca salieron, primero los MÁS NUEVOS
+    pool_edades = [
+        {"codigo": "VIEJO", "tienda": "Mercado Livre", "fonte": "Telegram",
+         "desconto": "10% OFF", "detectado_em": hace_horas(60)},
+        {"codigo": "NUEVO", "tienda": "Mercado Livre", "fonte": "Telegram",
+         "desconto": "10% OFF", "detectado_em": hace_horas(2)},
+        {"codigo": "MEDIO", "tienda": "Mercado Livre", "fonte": "Telegram",
+         "desconto": "10% OFF", "detectado_em": hace_horas(20)},
+    ]
+    orden = [c["codigo"] for c in gf._rotar_cupones(pool_edades)]
+    check("entre los frescos, sale PRIMERO el más nuevo (no el del fondo)",
+          orden == ["NUEVO", "MEDIO", "VIEJO"], f"-> {orden}")
     check("el id de la tanda es ESTABLE (mismos códigos, mismo id)",
           gf._huella(["A", "B", "C", "D"]) == gf._huella(["D", "C", "B", "A"])
           and gf._huella(["A", "B", "C", "D"]) != gf._huella(["A", "B", "C", "E"]))
     check("el id de la tanda NO lleva la hora (era la causa de la repetición)",
           "2026" not in gf._huella(["A", "B"]))
+
+    # ── 9. EL PRECIO PIX NO SE APLICA DOS VECES (fallo real del 2026-10-08) ──
+    # El usuario mandó la captura del checkout: Mercado Livre cobraba R$ 1.449
+    # no Pix y el post prometía "Sai por R$ 1275 com Pix 12%". El precio que
+    # publica el bot YA era el de Pix, y encima le aplicaba el 12% otra vez.
+    import publicar_proximo as pp2
+
+    tv = {"precio": 1449.0, "ml_precio_pix": 1449.12, "ml_pix_pct": 12.0,
+          "pix": "12% OFF", "ml_precio_normal": 1646,
+          "ml_tiene_cupon": True, "ml_precio_cupon": 1448.12}
+    check("el caso real de la Smart TV Philco: el precio YA es el de Pix",
+          pp2._precio_ya_tiene_pix(tv["precio"], tv))
+    fin, _etq = pp2.calcular_precio_final(tv["precio"], tv)
+    check("y NO se inventa un precio final más bajo (antes daba R$ 1.275)",
+          fin is None, f"-> {fin}")
+
+    control = {"precio": 1646.0, "ml_precio_pix": 1449.12, "pix": "12% OFF"}
+    check("si el Pix NO está aplicado, se calcula (control)",
+          not pp2._precio_ya_tiene_pix(control["precio"], control)
+          and pp2.calcular_precio_final(1646.0, control)[0] is not None)
+
+    check("tolerancia: R$ 1 o 1% de diferencia cuenta como Pix ya aplicado",
+          pp2._precio_ya_tiene_pix(1449.0, {"ml_precio_pix": 1449.12})
+          and pp2._precio_ya_tiene_pix(1000.0, {"ml_precio_pix": 1005.0}))
+    check("sin el dato de ML no se cambia el comportamiento anterior",
+          pp2.calcular_precio_final(1000.0, {"pix": "10% OFF"})[0] == 900.0)
+    check("un Pix de 0% no genera una línea de precio final",
+          pp2.calcular_precio_final(100.0, {"pix": "0% OFF"})[0] is None)
 
     # ── RESULTADO ────────────────────────────────────────────────────────────
     print("-" * 68)

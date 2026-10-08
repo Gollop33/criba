@@ -228,6 +228,35 @@ def extraer_pct(texto):
         return None
 
 
+def _precio_ya_tiene_pix(precio, post):
+    """
+    True si el precio que vamos a publicar YA es el precio con Pix.
+
+    POR QUÉ (fallo real del 2026-10-08): Mercado Livre publica en su JSON tres
+    precios — normal, con Pix (`ml_precio_pix`) y con cupón. El scraper guarda
+    el de Pix en `precio` y además el porcentaje en `pix`. Al sumar otra vez ese
+    porcentaje, el bot INVENTABA un descuento:
+
+        anuncio del bot : "💵 R$ 1449 ... ✅ Sai por R$ 1275 com Pix 12%"
+        checkout de ML  : R$ 1.449,00 no Pix
+
+    El usuario lo comprobó con una Smart TV Philco P43VIK. R$ 174 de mentira en
+    un producto de R$ 1.449. Eso es exactamente lo que hace que un grupo de
+    ofertas pierda toda la credibilidad.
+
+    Solo se afirma cuando Mercado Livre lo confirma con `ml_precio_pix`
+    (tolerancia de R$ 1 o 1%). Sin ese dato, no se toca el comportamiento.
+    """
+    try:
+        p = float(precio)
+        pix_ml = float(post.get("ml_precio_pix") or 0)
+    except (TypeError, ValueError):
+        return False
+    if p <= 0 or pix_ml <= 0:
+        return False
+    return abs(p - pix_ml) <= max(1.0, pix_ml * 0.01)
+
+
 def calcular_precio_final(precio, post):
     """
     Calcula lo que el cliente paga DE VERDAD aplicando cupón + descuento Pix.
@@ -277,7 +306,9 @@ def calcular_precio_final(precio, post):
             pass
 
     pct_pix = extraer_pct(post.get("pix"))
-    if pct_pix:
+    # NUNCA aplicar el Pix dos veces: si el precio ya es el de Pix, el
+    # porcentaje sirve para INFORMAR, no para descontar otra vez.
+    if pct_pix and not _precio_ya_tiene_pix(precio, post):
         p -= p * (pct_pix / 100.0)
         partes.append(f"Pix {pct_pix:.0f}%")
 
@@ -653,7 +684,12 @@ def publicar_un_post(es_test=False):
     except (TypeError, ValueError):
         pp = 0
 
-    if pp > 0 and precio_int and pp < precio_int:
+    if _precio_ya_tiene_pix(precio_int, post_a_enviar):
+        # El precio publicado YA es el de Pix. Antes esta línea decía
+        # "⚡ No Pix: 12% OFF" y el bot volvía a descontar: prometía R$ 1.275
+        # cuando Mercado Livre cobraba R$ 1.449. Ahora solo se informa.
+        lineas.append("💠 Preço no Pix (já aplicado)")
+    elif pp > 0 and precio_int and pp < precio_int:
         lineas.append(f"⚡ No Pix: R$ {int(round(pp))}"
                       + (f"  ({pix})" if pix else ""))
     elif pix and pix.lower() not in ("à vista", "a vista", "-"):

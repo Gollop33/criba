@@ -261,6 +261,12 @@ jobs:
           # El post sale con el sello "📉 BAJÓ DE PRECIO: antes R$ X".
           HORAS_MIN_REPETIR: "3"
           MEJORA_MIN_PCT: "3"
+          # VIGENCIA DE CUPONES: 72 h desde que se detectan, no 10 días.
+          # El 2026-10-08 salió al grupo una tanda con ECONOMIATOTAL,
+          # MIMODODIA, BARATINHO y TODEBOA — códigos de 10 días prometiendo
+          # 20% y 15% OFF que Mercado Livre ya había retirado.
+          CUPOM_VALIDEZ_HORAS: "72"
+          CUPOM_ROTACION_HORAS: "24"
           # 'geral' = achadinhos (casa, limpieza, higiene, suplementos, pet...).
           # Medido: el modo 'tech' dejaba la fila en 14 posts y las 29 ofertas
           # de Amazon caian TODAS -> 0 publicaciones de Amazon en el grupo.

@@ -508,21 +508,30 @@ def repeticion_permitida(pid, precio_actual, enviados_raw):
 # El usuario lo vio en el grupo: "el bot está estancado con un cupón antiguo".
 # Medido: las MISMAS 8 tandas salieron 12 veces en 2 días (05:26, 10:59, 16:36,
 # 22:13, 03:08, 08:05...) porque este generador cogía SIEMPRE las 4 primeras de
-# la lista ordenada. Y 45 de los 69 cupones no traen fecha de vencimiento, así
-# que se trataban como eternos.
+# la lista ordenada. Además 45 de los 69 cupones no traen fecha de vencimiento,
+# así que se trataban como eternos.
 #
-# Dos reglas nuevas:
-#   1. ROTACIÓN: se ordena el pool por "cuándo salió por última vez" y los que
-#      salieron en las últimas CUPOM_ROTACION_HORAS van al final (solo se usan
-#      si no queda nada más). Con 69 cupones, cada tanda lleva 8 códigos nuevos.
-#   2. VIGENCIA EFECTIVA: un cupón sin fecha declarada se considera vivo solo
-#      CUPOM_VALIDEZ_DIAS desde que se detectó. Un cupón de Mercado Livre de
-#      hace tres semanas ya no es un cupón: es basura.
+# SEGUNDO AVISO DEL USUARIO (mismo día, más tarde): el bot publicó en el grupo
+# una tanda con ECONOMIATOTAL, MIMODODIA, BARATINHO y TODEBOA — códigos de
+# Mercado Livre de hacía 10-13 DÍAS, con "20% OFF" y "15% OFF" que ya no
+# existían. Medido entonces: edad mediana del pool 75 h, y la rotación que
+# añadí ANTES empeoraba el problema, porque ordena "los que nunca salieron
+# primero" y por tanto desenterraba justo los más viejos.
+#
+# Tres reglas (las definitivas):
+#   1. VIGENCIA EN HORAS: un cupón sin fecha declarada caduca a las
+#      CUPOM_VALIDEZ_HORAS (72 h por defecto). Los cupones del canal de
+#      afiliados de ML son ofertas relámpago: duran horas o un par de días,
+#      NO dos semanas. Los de la página oficial se refrescan en cada pasada
+#      (se les actualiza `capturado_em`), así que no caducan solos.
+#   2. ROTACIÓN ENTRE FRESCOS: dentro de los vigentes, primero los más NUEVOS;
+#      los que ya salieron en las últimas CUPOM_ROTACION_HORAS van al final.
+#   3. SIN DESCUENTO NO ENTRA EN TANDA: un lote que diga
+#      "desconto não informado" parece roto. Se publica solo si trae descuento.
 CUPOM_ROTACION_HORAS = float(os.environ.get("CUPOM_ROTACION_HORAS", "24"))
-# 10 días, no 15: medido que el canal arrastraba cupones del 25/09 que nunca
-# más se volvieron a ver en Mercado Livre. Un cupón sin fecha declarada y con
-# 10 días encima es basura, no una oferta.
-CUPOM_VALIDEZ_DIAS = float(os.environ.get("CUPOM_VALIDEZ_DIAS", "10"))
+# 72 horas, no 10 días. Medido: los códigos de 09-25 y 09-28 seguían saliendo
+# con 13 y 10 días de edad, prometiendo descuentos que ML ya había retirado.
+CUPOM_VALIDEZ_HORAS = float(os.environ.get("CUPOM_VALIDEZ_HORAS", "72"))
 
 
 def _registro_cupones():
@@ -538,8 +547,11 @@ def cupon_vigente(c, hoy_iso=None):
     """
     Vigencia EFECTIVA de un cupón (honesta, sin inventar fechas):
       · si declara vencimiento -> manda esa fecha;
-      · si NO lo declara -> vale CUPOM_VALIDEZ_DIAS desde que se detectó;
+      · si NO lo declara -> vale CUPOM_VALIDEZ_HORAS desde que se detectó;
       · si no hay ninguna fecha -> no se puede afirmar que esté muerto, se deja.
+
+    El límite por horas (no por días) es la corrección del 2026-10-08: el bot
+    llegó a publicar códigos de 13 días prometiendo "30% OFF".
     """
     hoy_iso = hoy_iso or datetime.now(timezone.utc).date().isoformat()
     hasta = c.get("hasta") or c.get("vencimento")
@@ -552,9 +564,24 @@ def cupon_vigente(c, hoy_iso=None):
         ts = datetime.fromisoformat(str(detectado).replace("Z", "+00:00"))
         if ts.tzinfo is None:
             ts = ts.replace(tzinfo=timezone.utc)
-        return (datetime.now(timezone.utc) - ts).days <= CUPOM_VALIDEZ_DIAS
+        horas = (datetime.now(timezone.utc) - ts).total_seconds() / 3600.0
+        return horas <= CUPOM_VALIDEZ_HORAS
     except Exception:
         return True
+
+
+def edad_cupon_horas(c):
+    """Horas desde que se detectó el cupón. None si no hay fecha."""
+    detectado = c.get("detectado_em") or c.get("capturado_em")
+    if not detectado:
+        return None
+    try:
+        ts = datetime.fromisoformat(str(detectado).replace("Z", "+00:00"))
+        if ts.tzinfo is None:
+            ts = ts.replace(tzinfo=timezone.utc)
+        return (datetime.now(timezone.utc) - ts).total_seconds() / 3600.0
+    except Exception:
+        return None
 
 
 def _rotar_cupones(cupons):
@@ -582,8 +609,13 @@ def _rotar_cupones(cupons):
         except Exception:
             return False
 
+    # ORDEN: primero los que NUNCA salieron, y entre ellos los MÁS NUEVOS.
+    # (Antes, entre los "nunca salidos" el orden era arbitrario, así que salían
+    # primero los viejos del fondo de la lista: eso fue exactamente la tanda con
+    # ECONOMIATOTAL de 10 días.)
     ordenados = sorted(cupons, key=lambda c: (
         ultimo_salida(c) or "",
+        edad_cupon_horas(c) if edad_cupon_horas(c) is not None else 0.0,
         0 if "oficial" in (c.get("fonte") or "").lower() else 1,
     ))
     frescos = [c for c in ordenados if not salio_hace_poco(c)]
@@ -629,7 +661,7 @@ def cargar_cupones_reales():
                 descartados_viejos += 1
         if descartados_viejos:
             print(f"  • Cupones caducados por vigencia efectiva "
-                  f"(sin fecha declarada y > {CUPOM_VALIDEZ_DIAS:.0f} días): {descartados_viejos}")
+                  f"(sin fecha declarada y > {CUPOM_VALIDEZ_HORAS:.0f} h de edad): {descartados_viejos}")
         return validos
     except Exception as e:
         print(f"  ⚠️  No se pudieron cargar los cupones: {e}")
@@ -894,8 +926,19 @@ def generar_posts_cupones(cupones_reales):
         por_tienda.setdefault(t, []).append(c)
 
     # 1. Posts de Cupones Mercado Livre en lotes de 4, CON ROTACIÓN
-    cupons_ml = _rotar_cupones(por_tienda.get("mercadolivre", []))
+    #    SOLO cupones con descuento conocido: un lote que diga "desconto não
+    #    informado" en cada línea parece un bot roto (y no aporta nada).
+    pool_ml = [c for c in por_tienda.get("mercadolivre", []) if c.get("desconto")]
+    sin_desc = len(por_tienda.get("mercadolivre", [])) - len(pool_ml)
+    if sin_desc:
+        print(f"  • Cupones sin descuento conocido (fuera de las tandas): {sin_desc}")
+    cupons_ml = _rotar_cupones(pool_ml)
     hoy_str = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if cupons_ml:
+        edades = [e for e in (edad_cupon_horas(c) for c in cupons_ml[:8]) if e is not None]
+        if edades:
+            print(f"  • Edad de los cupones que van a salir: "
+                  f"{min(edades):.0f}-{max(edades):.0f} h (máx. {CUPOM_VALIDEZ_HORAS:.0f} h)")
 
     link_ativacao_ml, _es_corto = _link_cupones_con_afiliado()
     for chunk_idx in range(0, min(16, len(cupons_ml)), 4):
