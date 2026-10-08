@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
-    "ts": "2026-10-06T22:55:46.398511",
-    "canales": {
-      "whatsapp": "2026-10-06T22:55:46.398511"
-    },
-    "precio": 1411.0,
-    "precios_publicados": [
-      1411.0
-    ]
-  },
   "amz-max-titanium-creatina-pote-monohidratada-300g": {
     "ts": "2026-10-06T23:02:33.309636",
     "canales": {
@@ -1737,14 +1727,16 @@
     ]
   },
   "ml-racao-quatree-supreme-gatos-adultos-castrados": {
-    "ts": "2026-10-07T22:34:05.724375",
+    "ts": "2026-10-08T23:01:58.912009",
     "canales": {
-      "whatsapp": "2026-10-07T22:34:05.724375"
+      "whatsapp": "2026-10-08T23:01:58.912009"
     },
-    "precio": 179.0,
+    "precio": 167.0,
     "precios_publicados": [
-      179.0
-    ]
+      179.0,
+      167.0
+    ],
+    "precio_min_publicado": 179.0
   },
   "ml-triciclo-eletrico-drift-250w-carrinho-rolima-": {
     "ts": "2026-10-07T22:41:06.889417",
