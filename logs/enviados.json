@@ -1599,14 +1599,16 @@
     "precio_min_publicado": 207.0
   },
   "ml-crossover-taramps-pro-24-bt-automotivo-com-bl": {
-    "ts": "2026-10-07T13:20:47.332186",
+    "ts": "2026-10-08T13:26:18.503989",
     "canales": {
-      "whatsapp": "2026-10-07T13:20:47.332186"
+      "whatsapp": "2026-10-08T13:26:18.503989"
     },
-    "precio": 107.0,
+    "precio": 104.0,
     "precios_publicados": [
-      107.0
-    ]
+      107.0,
+      104.0
+    ],
+    "precio_min_publicado": 107.0
   },
   "ml-cadeira-de-escritorio-gamer-ergonomica-dunami": {
     "ts": "2026-10-07T13:24:54.412153",
