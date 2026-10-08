@@ -72,18 +72,6 @@
     ],
     "precio_min_publicado": 944.0
   },
-  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
-    "ts": "2026-10-06T00:22:26.847982",
-    "canales": {
-      "whatsapp": "2026-10-06T00:22:26.847982"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0,
-      13.0
-    ],
-    "precio_min_publicado": 13.0
-  },
   "ml-smart-tv-philco-50-p50vik-4k-uhd-led-roku-dol": {
     "ts": "2026-10-07T14:38:06.669109",
     "canales": {
@@ -2717,6 +2705,12 @@
     "ts": "2026-10-08T00:22:00.756523",
     "canales": {
       "whatsapp": "2026-10-08T00:22:00.756523"
+    }
+  },
+  "cupon-JOGOS10": {
+    "ts": "2026-10-08T00:27:32.229784",
+    "canales": {
+      "whatsapp": "2026-10-08T00:27:32.229784"
     }
   }
 }
