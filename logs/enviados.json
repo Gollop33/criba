@@ -1258,14 +1258,16 @@
     "precio_min_publicado": 59.0
   },
   "ml-cama-elastica-pula-pula-infantil-trampolim-14": {
-    "ts": "2026-10-07T10:11:17.803993",
+    "ts": "2026-10-08T10:51:16.253582",
     "canales": {
-      "whatsapp": "2026-10-07T10:11:17.803993"
+      "whatsapp": "2026-10-08T10:51:16.253582"
     },
     "precio": 259.0,
     "precios_publicados": [
+      259.0,
       259.0
-    ]
+    ],
+    "precio_min_publicado": 259.0
   },
   "ml-tablet-positivo-vision-tab-7-stitch-64-gb-3-g": {
     "ts": "2026-10-07T10:14:36.778455",
