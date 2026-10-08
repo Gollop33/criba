@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-10-06T00:50:48.910069",
-    "canales": {
-      "whatsapp": "2026-10-06T00:50:48.910069"
-    },
-    "precio": 2249.0,
-    "precios_publicados": [
-      2249.0
-    ]
-  },
   "amz-duracell-pilha-alcalina-aa-pequena-com-16-uni": {
     "ts": "2026-10-06T15:35:44.221015",
     "canales": {
@@ -2717,6 +2707,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "ml-camera-residencial-infravermelho-ip-bullet-hi": {
+    "ts": "2026-10-08T00:58:19.280619",
+    "canales": {
+      "whatsapp": "2026-10-08T00:58:19.280619"
+    },
+    "precio": 132.0,
+    "precios_publicados": [
+      132.0
     ]
   }
 }
