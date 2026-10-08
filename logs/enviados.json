@@ -1214,14 +1214,16 @@
     "precio_min_publicado": 113.0
   },
   "ml-bomba-de-ar-de-mao-pneu-car-air-pump-sem-fio-": {
-    "ts": "2026-10-07T08:41:38.915750",
+    "ts": "2026-10-08T09:57:33.104012",
     "canales": {
-      "whatsapp": "2026-10-07T08:41:38.915750"
+      "whatsapp": "2026-10-08T09:57:33.104012"
     },
-    "precio": 59.0,
+    "precio": 54.0,
     "precios_publicados": [
-      59.0
-    ]
+      59.0,
+      54.0
+    ],
+    "precio_min_publicado": 59.0
   },
   "ml-relogio-inteligente-smartwatch-gps-autonomo-i": {
     "ts": "2026-10-07T09:11:02.211968",
