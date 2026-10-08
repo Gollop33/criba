@@ -1536,14 +1536,16 @@
     ]
   },
   "ml-smart-tv-32-philco-p32vik-roku-led-dolby-audi": {
-    "ts": "2026-10-07T20:18:43.690037",
+    "ts": "2026-10-08T22:43:30.871715",
     "canales": {
-      "whatsapp": "2026-10-07T20:18:43.690037"
+      "whatsapp": "2026-10-08T22:43:30.871715"
     },
     "precio": 999.0,
     "precios_publicados": [
+      999.0,
       999.0
-    ]
+    ],
+    "precio_min_publicado": 999.0
   },
   "ml-racao-fresh-meat-sensitive-cao-adulto-pequeno": {
     "ts": "2026-10-07T20:27:28.334049",
