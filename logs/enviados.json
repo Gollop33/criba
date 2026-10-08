@@ -161,16 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-apple-2025-ipad-wifi-128-gb-prateado-a16-wifi": {
-    "ts": "2026-10-06T16:44:08.696266",
-    "canales": {
-      "whatsapp": "2026-10-06T16:44:08.696266"
-    },
-    "precio": 4099.0,
-    "precios_publicados": [
-      4099.0
-    ]
-  },
   "amz-combo-teclado-e-mouse-sem-fio-logitech-mk235-": {
     "ts": "2026-10-06T16:53:45.773970",
     "canales": {
@@ -1390,14 +1380,16 @@
     "precio_min_publicado": 174.0
   },
   "ml-tablet-vaio-tl10-4gb-ram-128gb-octacore-tela-": {
-    "ts": "2026-10-07T12:26:25.675305",
+    "ts": "2026-10-08T16:45:44.555309",
     "canales": {
-      "whatsapp": "2026-10-07T12:26:25.675305"
+      "whatsapp": "2026-10-08T16:45:44.555309"
     },
-    "precio": 1196.0,
+    "precio": 1349.0,
     "precios_publicados": [
-      1196.0
-    ]
+      1196.0,
+      1349.0
+    ],
+    "precio_min_publicado": 1196.0
   },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
     "ts": "2026-10-08T12:31:49.185275",
