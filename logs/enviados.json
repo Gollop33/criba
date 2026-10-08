@@ -161,36 +161,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
-    "ts": "2026-10-06T16:58:07.856950",
-    "canales": {
-      "whatsapp": "2026-10-06T16:58:07.856950"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
-  },
-  "amz-rexona-sabonete-em-barra-multivitaminas-84g-6": {
-    "ts": "2026-10-06T16:59:34.672796",
-    "canales": {
-      "whatsapp": "2026-10-06T16:59:34.672796"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0
-    ]
-  },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-10-06T17:02:23.097776",
-    "canales": {
-      "whatsapp": "2026-10-06T17:02:23.097776"
-    },
-    "precio": 798.0,
-    "precios_publicados": [
-      798.0
-    ]
-  },
   "amz-placa-de-video-msi-rtx-5060-shadow-2x-oc-8gb-": {
     "ts": "2026-10-06T17:10:42.571953",
     "canales": {
@@ -1748,14 +1718,16 @@
     ]
   },
   "ml-mini-scooter-moto-eletrica-frente-e-re-bateri": {
-    "ts": "2026-10-07T15:56:48.550879",
+    "ts": "2026-10-08T17:03:41.829325",
     "canales": {
-      "whatsapp": "2026-10-07T15:56:48.550879"
+      "whatsapp": "2026-10-08T17:03:41.829325"
     },
     "precio": 398.0,
     "precios_publicados": [
+      398.0,
       398.0
-    ]
+    ],
+    "precio_min_publicado": 398.0
   },
   "ml-smart-tv-lg-43full-hd-processador-a5-ger6-ai-": {
     "ts": "2026-10-07T15:58:32.559128",
