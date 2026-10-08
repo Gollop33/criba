@@ -227,6 +227,21 @@ jobs:
         continue-on-error: true
         run: python generar_web_estatica.py
 
+      # ── COSECHA DE RESCATE (solo en modo publicar) ────────────────────────
+      # Medido el 2026-10-08 con el cron externo ya activo: de los últimos 30
+      # runs, 15 fueron CANCELADOS. El motivo es el `concurrency`: mientras un
+      # run está en el bucle de 5,5 h, los demás quedan pendientes y GitHub va
+      # cancelando los viejos. El cronjob de cosecha por hora casi nunca llegaba
+      # a ejecutarse, así que achados.json solo se refrescaba cada ~5,5 h.
+      # Este paso cosecha SOLO si el material tiene más de 3 h, usando el reloj
+      # de cada 7 minutos que ya está funcionando.
+      - name: cosechar si los achados estan viejos
+        if: github.event.inputs.modo == 'publicar'
+        continue-on-error: true
+        run: python cosechar_si_viejo.py
+        env:
+          ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
+
       # ── Pipeline LIGERO: siempre (también en modo publicar) ───────────────
       - name: generar fila rotativa de posts (gerar_fila_posts)
         continue-on-error: true
