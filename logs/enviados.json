@@ -1649,14 +1649,16 @@
     ]
   },
   "ml-rocadeira-aparador-grama-a-bateria-recarregav": {
-    "ts": "2026-10-07T14:06:36.525336",
+    "ts": "2026-10-08T16:02:00.109288",
     "canales": {
-      "whatsapp": "2026-10-07T14:06:36.525336"
+      "whatsapp": "2026-10-08T16:02:00.109288"
     },
     "precio": 150.0,
     "precios_publicados": [
+      150.0,
       150.0
-    ]
+    ],
+    "precio_min_publicado": 150.0
   },
   "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
     "ts": "2026-10-07T14:11:16.833431",
