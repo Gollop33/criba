@@ -1856,14 +1856,16 @@
     }
   },
   "ml-cama-elastica-trampolim-justfun-de-140-m-para": {
-    "ts": "2026-10-07T17:49:41.104817",
+    "ts": "2026-10-08T17:51:11.363659",
     "canales": {
-      "whatsapp": "2026-10-07T17:49:41.104817"
+      "whatsapp": "2026-10-08T17:51:11.363659"
     },
-    "precio": 246.0,
+    "precio": 252.0,
     "precios_publicados": [
-      246.0
-    ]
+      246.0,
+      252.0
+    ],
+    "precio_min_publicado": 246.0
   },
   "cupon-BRINCADEIRASML": {
     "ts": "2026-10-07T17:56:25.292588",
