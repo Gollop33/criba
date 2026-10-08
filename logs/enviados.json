@@ -97,18 +97,6 @@
     ],
     "precio_min_publicado": 2036.0
   },
-  "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
-    "ts": "2026-10-06T00:04:02.863320",
-    "canales": {
-      "whatsapp": "2026-10-06T00:04:02.863320"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      53.0,
-      43.0
-    ],
-    "precio_min_publicado": 53.0
-  },
   "ml-creatina-monohidratada-dark-lab-1kg-100": {
     "ts": "2026-10-07T10:31:50.347748",
     "canales": {
@@ -180,16 +168,6 @@
       1099.0
     ],
     "precio_min_publicado": 1044.0
-  },
-  "ml-smart-tv-lg-43-4k-ultra-hd-nano-ai-webos-26-4": {
-    "ts": "2026-10-06T00:02:43.791893",
-    "canales": {
-      "whatsapp": "2026-10-06T00:02:43.791893"
-    },
-    "precio": 1775.0,
-    "precios_publicados": [
-      1775.0
-    ]
   },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-10-06T00:06:39.281215",
@@ -2723,6 +2701,16 @@
     "precio": 218.0,
     "precios_publicados": [
       218.0
+    ]
+  },
+  "ml-fone-de-ouvido-bluetooth-xiaomi-redmi-buds-6-": {
+    "ts": "2026-10-08T00:05:27.522796",
+    "canales": {
+      "whatsapp": "2026-10-08T00:05:27.522796"
+    },
+    "precio": 76.0,
+    "precios_publicados": [
+      76.0
     ]
   }
 }
