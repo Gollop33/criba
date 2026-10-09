@@ -517,16 +517,6 @@
     ],
     "precio_min_publicado": 56.0
   },
-  "ml-baba-eletronica-baby-monitor-vb603-visao-notu": {
-    "ts": "2026-10-07T15:06:14.740205",
-    "canales": {
-      "whatsapp": "2026-10-07T15:06:14.740205"
-    },
-    "precio": 205.0,
-    "precios_publicados": [
-      205.0
-    ]
-  },
   "ml-cama-elastica-infantil-pula-pula-18m-trampoli": {
     "ts": "2026-10-08T16:24:17.082483",
     "canales": {
@@ -3343,6 +3333,16 @@
     "precio": 18.0,
     "precios_publicados": [
       18.0
+    ]
+  },
+  "amz-personal-vip-papel-higienico-folha-dupla-12-u": {
+    "ts": "2026-10-09T15:07:35.029951",
+    "canales": {
+      "whatsapp": "2026-10-09T15:07:35.029951"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
