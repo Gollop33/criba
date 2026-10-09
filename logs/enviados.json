@@ -704,16 +704,6 @@
     ],
     "precio_min_publicado": 1460.0
   },
-  "ml-racao-golden-premium-especial-castrado-carne-": {
-    "ts": "2026-10-07T20:07:03.264025",
-    "canales": {
-      "whatsapp": "2026-10-07T20:07:03.264025"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "ml-smart-tv-32-philco-p32vik-roku-led-dolby-audi": {
     "ts": "2026-10-08T22:43:30.871715",
     "canales": {
@@ -3390,6 +3380,16 @@
     "precio": 321.0,
     "precios_publicados": [
       321.0
+    ]
+  },
+  "ml-mercusys-mc510-camera-de-seguranca-wifi-exter": {
+    "ts": "2026-10-09T20:09:41.789937",
+    "canales": {
+      "whatsapp": "2026-10-09T20:09:41.789937"
+    },
+    "precio": 151.0,
+    "precios_publicados": [
+      151.0
     ]
   }
 }
