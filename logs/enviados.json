@@ -336,16 +336,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "ml-smartphone-samsung-galaxy-a17-5g-128gb-4gb-su": {
-    "ts": "2026-10-07T12:38:23.705136",
-    "canales": {
-      "whatsapp": "2026-10-07T12:38:23.705136"
-    },
-    "precio": 976.0,
-    "precios_publicados": [
-      976.0
-    ]
-  },
   "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
     "ts": "2026-10-08T12:44:24.004937",
     "canales": {
@@ -3232,6 +3222,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "amz-cerave-locao-hidratante-corporal-com-textura-": {
+    "ts": "2026-10-09T12:42:40.691932",
+    "canales": {
+      "whatsapp": "2026-10-09T12:42:40.691932"
+    },
+    "precio": 93.0,
+    "precios_publicados": [
+      93.0
     ]
   }
 }
