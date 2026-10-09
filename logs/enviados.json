@@ -66,18 +66,6 @@
     ],
     "precio_min_publicado": 3099.0
   },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-10-07T00:45:45.700242",
-    "canales": {
-      "whatsapp": "2026-10-07T00:45:45.700242"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0,
-      4299.0
-    ],
-    "precio_min_publicado": 4299.0
-  },
   "ml-bicicleta-infantil-de-equilibrio-sem-pedal-an": {
     "ts": "2026-10-08T11:21:33.756800",
     "canales": {
@@ -151,16 +139,6 @@
       14.0
     ],
     "precio_min_publicado": 14.0
-  },
-  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
-    "ts": "2026-10-07T00:38:45.126747",
-    "canales": {
-      "whatsapp": "2026-10-07T00:38:45.126747"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
   },
   "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
     "ts": "2026-10-07T00:50:27.619764",
@@ -1835,14 +1813,16 @@
     }
   },
   "ml-chocadeira-automatica-72-ovos-com-medidor-de-": {
-    "ts": "2026-10-08T00:41:24.039889",
+    "ts": "2026-10-09T00:46:12.944534",
     "canales": {
-      "whatsapp": "2026-10-08T00:41:24.039889"
+      "whatsapp": "2026-10-09T00:46:12.944534"
     },
     "precio": 599.0,
     "precios_publicados": [
+      599.0,
       599.0
-    ]
+    ],
+    "precio_min_publicado": 599.0
   },
   "ml-chocolate-chips-sicao-callabaut-ao-leite-bola": {
     "ts": "2026-10-08T00:50:08.752134",
