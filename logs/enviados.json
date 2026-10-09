@@ -590,12 +590,6 @@
     ],
     "precio_min_publicado": 2404.0
   },
-  "cupon-PROMOVALE": {
-    "ts": "2026-10-07T16:41:40.299990",
-    "canales": {
-      "whatsapp": "2026-10-07T16:41:40.299990"
-    }
-  },
   "cupom-ml-lote2-2026100716": {
     "ts": "2026-10-07T16:44:20.581289",
     "canales": {
@@ -3392,6 +3386,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-vitafor-omegafor-plus-120-capsulas": {
+    "ts": "2026-10-09T16:44:10.259329",
+    "canales": {
+      "whatsapp": "2026-10-09T16:44:10.259329"
+    },
+    "precio": 118.0,
+    "precios_publicados": [
+      118.0
     ]
   }
 }
