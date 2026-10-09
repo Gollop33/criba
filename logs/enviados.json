@@ -40,18 +40,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-10-07T00:58:00.624989",
-    "canales": {
-      "whatsapp": "2026-10-07T00:58:00.624989"
-    },
-    "precio": 3099.0,
-    "precios_publicados": [
-      3099.0,
-      3099.0
-    ],
-    "precio_min_publicado": 3099.0
-  },
   "ml-bicicleta-infantil-de-equilibrio-sem-pedal-an": {
     "ts": "2026-10-08T11:21:33.756800",
     "canales": {
@@ -1811,14 +1799,16 @@
     ]
   },
   "ml-camera-residencial-infravermelho-ip-bullet-hi": {
-    "ts": "2026-10-08T00:58:19.280619",
+    "ts": "2026-10-09T01:02:33.326496",
     "canales": {
-      "whatsapp": "2026-10-08T00:58:19.280619"
+      "whatsapp": "2026-10-09T01:02:33.326496"
     },
-    "precio": 132.0,
+    "precio": 127.0,
     "precios_publicados": [
-      132.0
-    ]
+      132.0,
+      127.0
+    ],
+    "precio_min_publicado": 132.0
   },
   "ml-smartphone-galaxy-a17-4g-tela-67-256gb-samsun": {
     "ts": "2026-10-08T01:05:01.429842",
