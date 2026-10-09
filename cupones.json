@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-09T19:40:30+00:00",
-  "total": 22,
+  "actualizado": "2026-10-09T19:57:09+00:00",
+  "total": 25,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -76,7 +76,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-09T19:40:30+00:00"
+      "capturado_em": "2026-10-09T19:57:09+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -94,7 +94,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-09T19:40:30+00:00"
+      "capturado_em": "2026-10-09T19:57:09+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -112,7 +112,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-09T19:40:30+00:00"
+      "capturado_em": "2026-10-09T19:57:09+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -130,7 +130,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-09T19:40:30+00:00"
+      "capturado_em": "2026-10-09T19:57:09+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -148,7 +148,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-09T19:40:30+00:00"
+      "capturado_em": "2026-10-09T19:57:09+00:00"
     },
     {
       "codigo": "MODANOML",
@@ -330,6 +330,45 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-09T13:02:26+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "TECNOML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$250",
+      "hasta": "",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-09T19:00:08+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "COMPRASML",
+      "desconto": "20% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$100",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-09T16:04:57+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFERTASML",
+      "desconto": "20% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-09T16:04:57+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
