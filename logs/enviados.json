@@ -666,16 +666,6 @@
     ],
     "precio_min_publicado": 299.0
   },
-  "ml-kit-30-pecas-bico-04mm-compativel-bambu-lab-a": {
-    "ts": "2026-10-07T19:04:22.005021",
-    "canales": {
-      "whatsapp": "2026-10-07T19:04:22.005021"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
   "ml-emeet-pixy-4k-30fps-ai-tracking-autofoco-dual": {
     "ts": "2026-10-07T19:07:36.767482",
     "canales": {
@@ -3402,6 +3392,16 @@
     "precio": 97.0,
     "precios_publicados": [
       97.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
+    "ts": "2026-10-09T19:05:11.542071",
+    "canales": {
+      "whatsapp": "2026-10-09T19:05:11.542071"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
