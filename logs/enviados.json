@@ -590,18 +590,6 @@
     ],
     "precio_min_publicado": 2404.0
   },
-  "cupom-ml-lote2-2026100716": {
-    "ts": "2026-10-07T16:44:20.581289",
-    "canales": {
-      "whatsapp": "2026-10-07T16:44:20.581289"
-    }
-  },
-  "cupon-DESCONTOSML": {
-    "ts": "2026-10-07T16:51:15.367841",
-    "canales": {
-      "whatsapp": "2026-10-07T16:51:15.367841"
-    }
-  },
   "ml-hoverboard-skate-eletrico-65-polegadas-com-le": {
     "ts": "2026-10-07T16:52:42.286620",
     "canales": {
@@ -3396,6 +3384,16 @@
     "precio": 118.0,
     "precios_publicados": [
       118.0
+    ]
+  },
+  "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
+    "ts": "2026-10-09T16:51:30.553840",
+    "canales": {
+      "whatsapp": "2026-10-09T16:51:30.553840"
+    },
+    "precio": 103.0,
+    "precios_publicados": [
+      103.0
     ]
   }
 }
