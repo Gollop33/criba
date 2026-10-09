@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-09T13:42:30+00:00",
+  "actualizado": "2026-10-09T13:49:25+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -17,39 +17,7 @@
       "precio_ref": 34.93,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
-      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
-      "precio_ref": 48.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 65.45,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "loreal professionnel absolut repair shampoo refil com proteina",
-      "nombre": "L’Oréal Professionnel | Absolut Repair Shampoo Refil | Com Proteína e Quinoa Dourada para cabelos danificados e secos | SERIE",
-      "precio_ref": 60.63,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "mochila para notebook impermeavel e reforcada com entrada",
-      "nombre": "Mochila para Notebook Impermeável e Reforçada com Entrada USB – 25 a 40L, Masculina e Feminina",
-      "precio_ref": 79.19,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "protetor solar facial neutrogena sun fresh derm care",
@@ -57,31 +25,31 @@
       "precio_ref": 47.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
-      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
-      "precio_ref": 29.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 65.45,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "la roche posay ultra cover protetor solar com",
-      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
-      "precio_ref": 67.4,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "loreal professionnel absolut repair shampoo refil com proteina",
+      "nombre": "L’Oréal Professionnel | Absolut Repair Shampoo Refil | Com Proteína e Quinoa Dourada para cabelos danificados e secos | SERIE",
+      "precio_ref": 60.63,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
-      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
-      "precio_ref": 113.49,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "mochila para notebook impermeavel e reforcada com entrada",
+      "nombre": "Mochila para Notebook Impermeável e Reforçada com Entrada USB – 25 a 40L, Masculina e Feminina",
+      "precio_ref": 79.19,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "mondial liquidificador turbo power preto 550w 220v l",
@@ -89,143 +57,15 @@
       "precio_ref": 97.79,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 109.9,
+      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
+      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
+      "precio_ref": 29.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech pebble 2 m350s com",
-      "nombre": "Mouse sem fio Logitech Pebble 2 M350s com Clique Silencioso, Design Slim Ambidestro, Conexão Bluetooth e Pilha Inclusa - Graf",
-      "precio_ref": 115.47,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "caixa de som bluetooth portatil alta potencia som",
-      "nombre": "Caixa De Som Bluetooth Portátil Alta Potência Som Forte Black",
-      "precio_ref": 106.73,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "fralda pampers pants ajuste total tamanho xxg 14",
-      "nombre": "Fralda Pampers Pants Ajuste Total Tamanho XXG (14-18 kg), 74 Unidades",
-      "precio_ref": 119.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "armario de cozinha compacta xangai multimoveis vm2840 branco",
-      "nombre": "Armário de Cozinha Compacta Xangai Multimóveis VM2840 Branco/Lacca Fumê",
-      "precio_ref": 468.8,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "combo teclado e mouse sem fio dell km3322w",
-      "nombre": "Combo Teclado e Mouse Sem Fio Dell KM3322W 1858, Receptor USB 2,4 GHz | 2 pilhas AAA para o teclado e 1 AA para o mouse, DPI",
-      "precio_ref": 129.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "kit 2 comedouro alto elevado mick p caes",
-      "nombre": "Kit 2 Comedouro Alto Elevado Mick P/ Caes E Gatos 350ml",
-      "precio_ref": 61.11,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "elg f80n suporte articulado de mesa pistao a",
-      "nombre": "ELG, F80N, Suporte Articulado de Mesa, Pistão a Gás, Design Compacto e Retrátil, Ergonômico, Monitores 17'' a 35'', 2kg a 9kg",
-      "precio_ref": 129.99,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "fralda pampers confort sec tamanho xg 86 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho XG, 86 Unidades",
-      "precio_ref": 119.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
-      "nombre": "Creatina Monohidratada 500g Pouch - Growth Supplements Sem Sabor",
-      "precio_ref": 59.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "piracanjuba proforce bebida proteica liquida sabor cacau zero",
-      "nombre": "Piracanjuba ProForce Bebida Proteica Líquida Sabor Cacau Zero Lactose 23g Proteínas, Caixa 250ml – Pack com 12 Unidades",
-      "precio_ref": 103.99,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "bicicleta equilibrio brinq kids sem pedal andador infantil",
-      "nombre": "Bicicleta Equilíbrio Brinq Kids Sem Pedal Andador Infantil Azul 4 Rodas",
-      "precio_ref": 59.9,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "philips oneblade qp220 51 laminas de reposicao masculinas",
-      "nombre": "Philips OneBlade QP220/51 Lâminas de Reposição Masculinas em Aço Inoxidável – Pacote com 2 Unidades",
-      "precio_ref": 94.04,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "caixa de som boombox plus aiwa bbs 01",
-      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
-      "precio_ref": 1149.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "mouse gamer logitech g203 lightsync rgb efeito de",
-      "nombre": "Mouse Gamer Logitech G203 LIGHTSYNC RGB, Efeito de Ondas de Cores, 6 Botões Programáveis e Até 8.000 DPI - Preto",
-      "precio_ref": 85.4,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "cadeira de escritorio presidente james preta healer",
-      "nombre": "Cadeira de escritório Presidente James Preta Healer",
-      "precio_ref": 451.15,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "cerave gel de limpeza facial para pele oleosa",
@@ -233,63 +73,15 @@
       "precio_ref": 83.99,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "carregador 30w turbo para iphone 8 x xr",
-      "nombre": "Carregador 30w Turbo Para iPhone 8 X Xr 11 12 13 14 Pro Max Fonte Usb C Cor Branca Dtimp",
-      "precio_ref": 44.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
+      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
+      "precio_ref": 113.49,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "frigideira rochedo stone pro 24cm preto com efeito",
-      "nombre": "Frigideira Rochedo Stone Pro 24cm Preto com Efeito Pedra e Antiaderente Minerium, Alta Resistência e Durabilidade, Cabos Ergo",
-      "precio_ref": 71.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
-      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
-      "precio_ref": 497.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "vichy dercos shampoo anticaspa para cabelos normais a",
-      "nombre": "Vichy, Dercos Shampoo Anticaspa para Cabelos Normais a Oleosos",
-      "precio_ref": 95.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
-      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "precio_ref": 59.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
-      "nombre": "Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas | Marmitas Reutilizáveis | Vedação Total | Refratário para Forno,",
-      "precio_ref": 84.2,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "testo essencial formula exclusiva com feno grego boro",
-      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
-      "precio_ref": 39.74,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "britania sanduicheira e grill press 127v bgr27i classico",
@@ -297,15 +89,111 @@
       "precio_ref": 90.14,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "cama elastica pula pula infantil trampolim 1 4",
-      "nombre": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
-      "precio_ref": 259.9,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
+      "precio_ref": 109.9,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "piracanjuba proforce bebida proteica liquida sabor cacau zero",
+      "nombre": "Piracanjuba ProForce Bebida Proteica Líquida Sabor Cacau Zero Lactose 23g Proteínas, Caixa 250ml – Pack com 12 Unidades",
+      "precio_ref": 103.99,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "caixa de som bluetooth portatil alta potencia som",
+      "nombre": "Caixa De Som Bluetooth Portátil Alta Potência Som Forte Black",
+      "precio_ref": 106.73,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech pebble 2 m350s com",
+      "nombre": "Mouse sem fio Logitech Pebble 2 M350s com Clique Silencioso, Design Slim Ambidestro, Conexão Bluetooth e Pilha Inclusa - Graf",
+      "precio_ref": 115.47,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "armario de cozinha compacta xangai multimoveis vm2840 branco",
+      "nombre": "Armário de Cozinha Compacta Xangai Multimóveis VM2840 Branco/Lacca Fumê",
+      "precio_ref": 468.8,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "elg f80n suporte articulado de mesa pistao a",
+      "nombre": "ELG, F80N, Suporte Articulado de Mesa, Pistão a Gás, Design Compacto e Retrátil, Ergonômico, Monitores 17'' a 35'', 2kg a 9kg",
+      "precio_ref": 129.99,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "kit 2 comedouro alto elevado mick p caes",
+      "nombre": "Kit 2 Comedouro Alto Elevado Mick P/ Caes E Gatos 350ml",
+      "precio_ref": 61.11,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "la roche posay ultra cover protetor solar com",
+      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
+      "precio_ref": 67.4,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
+      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 33.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "combo teclado e mouse sem fio dell km3322w",
+      "nombre": "Combo Teclado e Mouse Sem Fio Dell KM3322W 1858, Receptor USB 2,4 GHz | 2 pilhas AAA para o teclado e 1 AA para o mouse, DPI",
+      "precio_ref": 129.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
+      "nombre": "Creatina Monohidratada 500g Pouch - Growth Supplements Sem Sabor",
+      "precio_ref": 59.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho xg 86 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho XG, 86 Unidades",
+      "precio_ref": 119.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "bicicleta equilibrio brinq kids sem pedal andador infantil",
+      "nombre": "Bicicleta Equilíbrio Brinq Kids Sem Pedal Andador Infantil Azul 4 Rodas",
+      "precio_ref": 59.9,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "liquidificador ph900 3l preto 110v philco",
@@ -313,7 +201,119 @@
       "precio_ref": 129.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "caixa de som boombox plus aiwa bbs 01",
+      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
+      "precio_ref": 1149.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "mouse gamer logitech g203 lightsync rgb efeito de",
+      "nombre": "Mouse Gamer Logitech G203 LIGHTSYNC RGB, Efeito de Ondas de Cores, 6 Botões Programáveis e Até 8.000 DPI - Preto",
+      "precio_ref": 85.4,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "cadeira de escritorio presidente james preta healer",
+      "nombre": "Cadeira de escritório Presidente James Preta Healer",
+      "precio_ref": 451.15,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "fralda pampers pants ajuste total tamanho xxg 14",
+      "nombre": "Fralda Pampers Pants Ajuste Total Tamanho XXG (14-18 kg), 74 Unidades",
+      "precio_ref": 119.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "carregador 30w turbo para iphone 8 x xr",
+      "nombre": "Carregador 30w Turbo Para iPhone 8 X Xr 11 12 13 14 Pro Max Fonte Usb C Cor Branca Dtimp",
+      "precio_ref": 44.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "frigideira rochedo stone pro 24cm preto com efeito",
+      "nombre": "Frigideira Rochedo Stone Pro 24cm Preto com Efeito Pedra e Antiaderente Minerium, Alta Resistência e Durabilidade, Cabos Ergo",
+      "precio_ref": 71.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
+      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
+      "precio_ref": 497.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "philips oneblade qp220 51 laminas de reposicao masculinas",
+      "nombre": "Philips OneBlade QP220/51 Lâminas de Reposição Masculinas em Aço Inoxidável – Pacote com 2 Unidades",
+      "precio_ref": 94.04,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
+      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "precio_ref": 59.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
+      "nombre": "Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas | Marmitas Reutilizáveis | Vedação Total | Refratário para Forno,",
+      "precio_ref": 84.2,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "testo essencial formula exclusiva com feno grego boro",
+      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
+      "precio_ref": 39.74,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "vichy dercos shampoo anticaspa para cabelos normais a",
+      "nombre": "Vichy, Dercos Shampoo Anticaspa para Cabelos Normais a Oleosos",
+      "precio_ref": 95.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "cama elastica pula pula infantil trampolim 1 4",
+      "nombre": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
+      "precio_ref": 259.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g67 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G67 5G - 128GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela 1.5K extreme Amoled 120hz, u",
+      "precio_ref": 1344.45,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
@@ -321,119 +321,7 @@
       "precio_ref": 458.9,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "fritadeira philco air fryer oven 12l pfr2200p 127v",
-      "nombre": "Fritadeira Philco Air Fryer Oven 12L PFR2200P - 127V",
-      "precio_ref": 399.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "kit parafusadeira mini motosserra 2 baterias maleta nakasaki",
-      "nombre": "Kit Parafusadeira Mini Motosserra 2 Baterias Maleta Nakasaki",
-      "precio_ref": 131.99,
-      "categoria": "Ferramentas",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "combo teclado e mouse sem fio logitech mk235",
-      "nombre": "Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout ABNT2",
-      "precio_ref": 149.99,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "mesa home office escrivaninha industrial quarto notebook",
-      "nombre": "Mesa Home Office Escrivaninha Industrial Quarto Notebook",
-      "precio_ref": 132.88,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
-      "precio_ref": 3599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "tenis kappa pulse rx unissex corrida conforto",
-      "nombre": "Tênis Kappa Pulse Rx Unissex Corrida Conforto",
-      "precio_ref": 132.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 apenas WiFi (sem chamadas ou texto) 27.9 cm 2.5K Octa Core 4 alto-falantes ROM global 9000mAh Bluetooth 5.",
-      "precio_ref": 1414.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "suporte copo interior carro para golf mk4 jetta",
-      "nombre": "Suporte Copo Interior Carro Para Golf Mk4 Jetta Mk4 Mk5 Mk6 Preto",
-      "precio_ref": 101.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
-      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
-      "precio_ref": 739.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "baba eletronica monitor 2 4 sem fio zoom",
-      "nombre": "Babá Eletrônica Monitor 2.4 Sem Fio Zoom Baby On Maxi Baby",
-      "precio_ref": 209.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
-      "precio_ref": 2769.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes vidro hermetico vai ao forno",
-      "nombre": "Kit 10 Potes Vidro Hermetico Vai Ao Forno Microondas 640ml",
-      "precio_ref": 97.62,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "mochila dell gaming 17 para notebook 17 peso",
-      "nombre": "Mochila Dell Gaming 17 para Notebook, 17 | Peso 98 g, Resistente à Água, Multíplos Bolsos, Acolchoado, Compatível com Dell Ga",
-      "precio_ref": 239.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
-    },
-    {
-      "busqueda": "bicicleta de equilibrio brinq kids brinquei rosa 1",
-      "nombre": "Bicicleta de Equilíbrio Brinq Kids Brinquei Rosa 1 Ano Sem Pedal",
-      "precio_ref": 69.9,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "apple iphone 16 128 gb branco",
@@ -441,23 +329,119 @@
       "precio_ref": 5065.39,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "cozinha de brinquedo infantil completa princess replay kids",
-      "nombre": "Cozinha De Brinquedo Infantil Completa Princess Replay Kids",
-      "precio_ref": 98.91,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "kit parafusadeira mini motosserra 2 baterias maleta nakasaki",
+      "nombre": "Kit Parafusadeira Mini Motosserra 2 Baterias Maleta Nakasaki",
+      "precio_ref": 131.99,
+      "categoria": "Ferramentas",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
-      "nombre": "Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa - Compatível com PC, Mac, Chro",
-      "precio_ref": 219.9,
+      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
+      "nombre": "Xiaomi Redmi Pad 2 apenas WiFi (sem chamadas ou texto) 27.9 cm 2.5K Octa Core 4 alto-falantes ROM global 9000mAh Bluetooth 5.",
+      "precio_ref": 1414.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "mesa home office escrivaninha industrial quarto notebook",
+      "nombre": "Mesa Home Office Escrivaninha Industrial Quarto Notebook",
+      "precio_ref": 132.88,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola edge 70 5g 256gb 24gb 8gb",
+      "nombre": "Smartphone Motorola Edge 70 5G - 256GB 24GB (8GB RAM + 16GB RAM Boost), Ultrafino, 3 Câmeras 50MP, Tela 1.5K Extreme Amoled 1",
+      "precio_ref": 2499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "tenis kappa pulse rx unissex corrida conforto",
+      "nombre": "Tênis Kappa Pulse Rx Unissex Corrida Conforto",
+      "precio_ref": 132.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "combo teclado e mouse sem fio logitech mk235",
+      "nombre": "Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout ABNT2",
+      "precio_ref": 149.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "baba eletronica monitor 2 4 sem fio zoom",
+      "nombre": "Babá Eletrônica Monitor 2.4 Sem Fio Zoom Baby On Maxi Baby",
+      "precio_ref": 209.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
+      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
+      "precio_ref": 739.99,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "kit 10 potes vidro hermetico vai ao forno",
+      "nombre": "Kit 10 Potes Vidro Hermetico Vai Ao Forno Microondas 640ml",
+      "precio_ref": 97.62,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 6289.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "suporte copo interior carro para golf mk4 jetta",
+      "nombre": "Suporte Copo Interior Carro Para Golf Mk4 Jetta Mk4 Mk5 Mk6 Preto",
+      "precio_ref": 101.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 865.56,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "bicicleta de equilibrio brinq kids brinquei rosa 1",
+      "nombre": "Bicicleta de Equilíbrio Brinq Kids Brinquei Rosa 1 Ano Sem Pedal",
+      "precio_ref": 69.9,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera Tripla de até 50MP OIS, Selfie de 12MP Video HDR, IP68, Tela Super AMOLE",
+      "precio_ref": 1959.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
       "busqueda": "projetor portatil mini hy300 4k full hd 1080p",
@@ -465,23 +449,39 @@
       "precio_ref": 171.45,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
-      "nombre": "Smartphone Motorola Razr 60-256GB 12GB RAM+12GB Ram Boost Tela dobrável 6,9\" pOLED e externa 3,6” Moto AI camera IP48 - Azul",
-      "precio_ref": 2999.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "mochila dell gaming 17 para notebook 17 peso",
+      "nombre": "Mochila Dell Gaming 17 para Notebook, 17 | Peso 98 g, Resistente à Água, Multíplos Bolsos, Acolchoado, Compatível com Dell Ga",
+      "precio_ref": 239.0,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     },
     {
-      "busqueda": "colchao antiescara pneumatico de ar inflavel para acamados",
-      "nombre": "Colchão Antiescara Pneumático De Ar Inflável Para Acamados",
-      "precio_ref": 199.99,
+      "busqueda": "kit 4 bicos pino tampa valvula pneu roda",
+      "nombre": "Kit 4 Bicos Pino Tampa Válvula Pneu Roda Carro Moto Neon Luz",
+      "precio_ref": 18.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T13:42:30+00:00"
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
+      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
+      "precio_ref": 2769.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
+    },
+    {
+      "busqueda": "projetor portatil 4k hd android 11 0 smart",
+      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
+      "precio_ref": 181.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T13:49:25+00:00"
     }
   ]
 }
