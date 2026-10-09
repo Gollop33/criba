@@ -7458,3 +7458,12 @@
 [2026-10-09 07:23:26] [CUPONES] Fuente oficial ML refrescada: 7 cupón(es).
 [2026-10-09 07:23:26] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
 [2026-10-09 07:23:26] [CUPONES] Sin cupones nuevos (96 códigos ya vistos).
+[2026-10-09 07:57:58] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-09 07:57:59] [CUPONS_ML] 63 código(s) inválidos descartados (blobs del estado interno de ML o fragmentos de texto).
+[2026-10-09 07:57:59] [CUPONS_ML] Se extrajeron exitosamente 7 cupones de ML Oficial.
+[2026-10-09 07:57:59] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-09 07:57:59] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 7 refrescados.
+[2026-10-09 07:57:59] [CUPONS_ML] Total cupones en cupones.json: 9
+[2026-10-09 07:57:59] [CUPONES] Fuente oficial ML refrescada: 7 cupón(es).
+[2026-10-09 07:57:59] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-10-09 07:57:59] [CUPONES] Sin cupones nuevos (96 códigos ya vistos).
