@@ -276,6 +276,26 @@ def calcular_precio_final(precio, post):
     if p <= 0:
         return None, None
 
+    # ── CUPÓN CONFIRMADO POR MERCADO LIVRE (el único que se puede prometer) ──
+    # Cuando ML publica `ml_precio_cupon`, ESE es el precio que queda al activar
+    # su cupón: es dato de la tienda, no una estimación.
+    #
+    # FALLO REAL del 2026-10-08 (mismo día que el del Pix): el bot ignoraba ese
+    # dato y calculaba el porcentaje del CÓDIGO GENÉRICO del canal. Medido en un
+    # "Kit 10 Pote de Vidro": prometía "Sai por R$ 76 com cupom 15%" (OFERTASJA)
+    # mientras Mercado Livre decía R$ 88,90 para ese mismo producto. R$ 13 de
+    # mentira, y encima el código genérico puede no aplicar a ese artículo.
+    try:
+        pc_ml = float(post.get("ml_precio_cupon") or 0)
+    except (TypeError, ValueError):
+        pc_ml = 0
+    if pc_ml > 0 and (p - pc_ml) >= max(3.0, p * 0.01):
+        return pc_ml, "cupom"
+    if post.get("ml_tiene_cupon"):
+        # ML confirmó el cupón pero no baja el precio de forma apreciable: no
+        # hay nada honesto que prometer con un código genérico.
+        return None, None
+
     partes = []
 
     # CONFIANZA DEL CUPÓN: si el cupón es "general" (sin categoría declarada),
@@ -714,8 +734,16 @@ def publicar_un_post(es_test=False):
         lineas.append(texto_cuota)
 
     # Envío gratis: en Brasil decide más compras de las que parece.
+    #
+    # Y cuando NO es gratis hay que DECIRLO. Fallo real del 2026-10-09: el post
+    # de un armário prometía "R$ 467 com cupom" (correcto: el checkout daba
+    # R$ 466,96) pero el envío costaba R$ 119,99 y el post no decía nada. El
+    # usuario vio "R$ 586,95" al pagar y lo vivió como una oferta falsa. El dato
+    # ya lo teníamos (`envio_gratis: False`): lo que faltaba era contarlo.
     if post_a_enviar.get("envio_gratis"):
         lineas.append("🚚 Frete grátis")
+    elif post_a_enviar.get("envio_gratis") is False:
+        lineas.append("🚚 Frete NÃO incluso (confira o valor no carrinho)")
 
     # ── CUPÓN ────────────────────────────────────────────────────────────────
     # CAMBIO DE FONDO, tras comprobarlo con el usuario:
