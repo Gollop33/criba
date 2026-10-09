@@ -790,16 +790,6 @@
     ],
     "precio_min_publicado": 1889.0
   },
-  "ml-microondas-consul-23-litros-funcao-marmita-cm": {
-    "ts": "2026-10-07T21:45:41.518156",
-    "canales": {
-      "whatsapp": "2026-10-07T21:45:41.518156"
-    },
-    "precio": 474.0,
-    "precios_publicados": [
-      474.0
-    ]
-  },
   "ml-smart-tv-43-aoc-led-roku-full-hd-wifi-60hz-hd": {
     "ts": "2026-10-07T21:49:13.716553",
     "canales": {
@@ -3456,6 +3446,16 @@
     "precio": 1140.0,
     "precios_publicados": [
       1140.0
+    ]
+  },
+  "ml-cadeira-de-escritorio-gamer-ergonomica-dunami": {
+    "ts": "2026-10-09T21:46:22.821559",
+    "canales": {
+      "whatsapp": "2026-10-09T21:46:22.821559"
+    },
+    "precio": 530.0,
+    "precios_publicados": [
+      530.0
     ]
   }
 }
