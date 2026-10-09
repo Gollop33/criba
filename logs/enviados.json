@@ -741,26 +741,6 @@
     ],
     "precio_min_publicado": 936.0
   },
-  "ml-cadeira-para-automovel-9-a-36kg-grafite-e-pre": {
-    "ts": "2026-10-07T20:58:23.490729",
-    "canales": {
-      "whatsapp": "2026-10-07T20:58:23.490729"
-    },
-    "precio": 288.0,
-    "precios_publicados": [
-      288.0
-    ]
-  },
-  "ml-triciclo-eletrico-drift-infantil-350w-potente": {
-    "ts": "2026-10-07T21:05:52.661212",
-    "canales": {
-      "whatsapp": "2026-10-07T21:05:52.661212"
-    },
-    "precio": 997.0,
-    "precios_publicados": [
-      997.0
-    ]
-  },
   "ml-tv-stick-4k-android-chromecast-smart-hdmi-wif": {
     "ts": "2026-10-08T23:38:06.577347",
     "canales": {
@@ -1948,14 +1928,16 @@
     }
   },
   "ml-carregador-portatil-power-bank-turbo-20000mah": {
-    "ts": "2026-10-08T20:26:50.585799",
+    "ts": "2026-10-09T21:06:13.787615",
     "canales": {
-      "whatsapp": "2026-10-08T20:26:50.585799"
+      "whatsapp": "2026-10-09T21:06:13.787615"
     },
-    "precio": 109.0,
+    "precio": 99.0,
     "precios_publicados": [
-      109.0
-    ]
+      109.0,
+      99.0
+    ],
+    "precio_min_publicado": 109.0
   },
   "ml-tapete-higienico-para-cachorro-descartavel-al": {
     "ts": "2026-10-08T20:33:44.745534",
