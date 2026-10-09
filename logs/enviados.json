@@ -115,16 +115,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "ml-mochila-para-notebook-impermeavel-e-reforcada": {
-    "ts": "2026-10-07T06:20:40.499682",
-    "canales": {
-      "whatsapp": "2026-10-07T06:20:40.499682"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "ml-creatina-soldiers-nutrition-em-po-sem-sabor-x": {
     "ts": "2026-10-08T07:04:00.873525",
     "canales": {
@@ -3047,6 +3037,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-fresh-comfort-2": {
+    "ts": "2026-10-09T06:28:55.509268",
+    "canales": {
+      "whatsapp": "2026-10-09T06:28:55.509268"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
