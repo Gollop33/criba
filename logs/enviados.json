@@ -667,26 +667,6 @@
     ],
     "precio_min_publicado": 299.0
   },
-  "ml-filamento-pla-preto-velvet-aveludado-1kg-para": {
-    "ts": "2026-10-07T19:20:25.004742",
-    "canales": {
-      "whatsapp": "2026-10-07T19:20:25.004742"
-    },
-    "precio": 96.0,
-    "precios_publicados": [
-      96.0
-    ]
-  },
-  "ml-racao-seca-formula-natural-fresh-meat-para-ca": {
-    "ts": "2026-10-07T19:21:34.707886",
-    "canales": {
-      "whatsapp": "2026-10-07T19:21:34.707886"
-    },
-    "precio": 307.0,
-    "precios_publicados": [
-      307.0
-    ]
-  },
   "ml-colchao-solteiro-espuma-d33-pillow-top-new-mi": {
     "ts": "2026-10-07T19:27:35.855553",
     "canales": {
@@ -1986,14 +1966,16 @@
     ]
   },
   "ml-colchao-antiescara-pneumatico-de-ar-inflavel-": {
-    "ts": "2026-10-08T19:19:49.357526",
+    "ts": "2026-10-09T19:25:41.762139",
     "canales": {
-      "whatsapp": "2026-10-08T19:19:49.357526"
+      "whatsapp": "2026-10-09T19:25:41.762139"
     },
-    "precio": 179.0,
+    "precio": 168.0,
     "precios_publicados": [
-      179.0
-    ]
+      179.0,
+      168.0
+    ],
+    "precio_min_publicado": 179.0
   },
   "ml-fone-de-ouvido-soundcore-by-anker-p20i-graves": {
     "ts": "2026-10-08T19:28:40.697837",
