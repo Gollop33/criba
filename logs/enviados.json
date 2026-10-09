@@ -54,18 +54,6 @@
     ],
     "precio_min_publicado": 69.0
   },
-  "ml-jogo-de-panelas-inducao-antiaderente-ceramica": {
-    "ts": "2026-10-07T13:09:27.315343",
-    "canales": {
-      "whatsapp": "2026-10-07T13:09:27.315343"
-    },
-    "precio": 359.0,
-    "precios_publicados": [
-      341.0,
-      359.0
-    ],
-    "precio_min_publicado": 341.0
-  },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
     "ts": "2026-10-09T08:07:36.717943",
     "canales": {
@@ -3262,6 +3250,16 @@
     "precio": 75.0,
     "precios_publicados": [
       75.0
+    ]
+  },
+  "amz-mochila-lenovo-casual-b210-preta-para-noteboo": {
+    "ts": "2026-10-09T13:14:36.465963",
+    "canales": {
+      "whatsapp": "2026-10-09T13:14:36.465963"
+    },
+    "precio": 74.0,
+    "precios_publicados": [
+      74.0
     ]
   }
 }
