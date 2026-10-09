@@ -802,16 +802,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "ml-caixa-de-som-boombox-aiwa-awsbbs01b-200w-rms-": {
-    "ts": "2026-10-07T22:29:37.376516",
-    "canales": {
-      "whatsapp": "2026-10-07T22:29:37.376516"
-    },
-    "precio": 1138.0,
-    "precios_publicados": [
-      1138.0
-    ]
-  },
   "ml-racao-quatree-supreme-gatos-adultos-castrados": {
     "ts": "2026-10-08T23:01:58.912009",
     "canales": {
@@ -3478,6 +3468,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
+    "ts": "2026-10-09T22:33:24.863199",
+    "canales": {
+      "whatsapp": "2026-10-09T22:33:24.863199"
+    },
+    "precio": 148.0,
+    "precios_publicados": [
+      148.0
     ]
   }
 }
