@@ -790,16 +790,6 @@
     ],
     "precio_min_publicado": 1889.0
   },
-  "ml-cadeira-de-escritorio-giratoria-estofada-pret": {
-    "ts": "2026-10-07T21:39:46.475893",
-    "canales": {
-      "whatsapp": "2026-10-07T21:39:46.475893"
-    },
-    "precio": 161.0,
-    "precios_publicados": [
-      161.0
-    ]
-  },
   "ml-microondas-consul-23-litros-funcao-marmita-cm": {
     "ts": "2026-10-07T21:45:41.518156",
     "canales": {
@@ -3456,6 +3446,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "ml-projetor-netflix-8k-profissional-1000ansi-por": {
+    "ts": "2026-10-09T21:43:40.947015",
+    "canales": {
+      "whatsapp": "2026-10-09T21:43:40.947015"
+    },
+    "precio": 1140.0,
+    "precios_publicados": [
+      1140.0
     ]
   }
 }
