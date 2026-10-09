@@ -802,18 +802,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "cupon-RIDE15": {
-    "ts": "2026-10-07T22:18:39.465768",
-    "canales": {
-      "whatsapp": "2026-10-07T22:18:39.465768"
-    }
-  },
-  "cupom-ml-lote2-2026100722": {
-    "ts": "2026-10-07T22:21:38.457813",
-    "canales": {
-      "whatsapp": "2026-10-07T22:21:38.457813"
-    }
-  },
   "ml-caixa-de-som-boombox-aiwa-awsbbs01b-200w-rms-": {
     "ts": "2026-10-07T22:29:37.376516",
     "canales": {
@@ -3480,6 +3468,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "ml-carregador-turbo-super-rapido-30w-para-iphone": {
+    "ts": "2026-10-09T22:27:27.726901",
+    "canales": {
+      "whatsapp": "2026-10-09T22:27:27.726901"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
