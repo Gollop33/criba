@@ -815,26 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-celular-smartphone-realme-c73-128gb-4gb-ram-d": {
-    "ts": "2026-10-07T23:51:00.399449",
-    "canales": {
-      "whatsapp": "2026-10-07T23:51:00.399449"
-    },
-    "precio": 912.0,
-    "precios_publicados": [
-      912.0
-    ]
-  },
-  "ml-camera-de-video-wifi-intelbras-im3-c-microsd-": {
-    "ts": "2026-10-07T23:57:09.555878",
-    "canales": {
-      "whatsapp": "2026-10-07T23:57:09.555878"
-    },
-    "precio": 218.0,
-    "precios_publicados": [
-      218.0
-    ]
-  },
   "ml-fone-de-ouvido-bluetooth-xiaomi-redmi-buds-6-": {
     "ts": "2026-10-08T00:05:27.522796",
     "canales": {
@@ -1930,14 +1910,16 @@
     ]
   },
   "amz-blue-premium-tapete-higienico-descartavel-par": {
-    "ts": "2026-10-08T23:56:59.506884",
+    "ts": "2026-10-09T23:57:31.499524",
     "canales": {
-      "whatsapp": "2026-10-08T23:56:59.506884"
+      "whatsapp": "2026-10-09T23:57:31.499524"
     },
-    "precio": 66.0,
+    "precio": 58.0,
     "precios_publicados": [
-      66.0
-    ]
+      66.0,
+      58.0
+    ],
+    "precio_min_publicado": 66.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
     "ts": "2026-10-09T00:00:12.699019",
