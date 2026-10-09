@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
-    "ts": "2026-10-07T00:33:49.568773",
-    "canales": {
-      "whatsapp": "2026-10-07T00:33:49.568773"
-    },
-    "precio": 5499.0,
-    "precios_publicados": [
-      5499.0
-    ]
-  },
   "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
     "ts": "2026-10-07T00:38:45.126747",
     "canales": {
@@ -2926,6 +2916,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
+    "ts": "2026-10-09T00:36:49.153837",
+    "canales": {
+      "whatsapp": "2026-10-09T00:36:49.153837"
+    },
+    "precio": 50.0,
+    "precios_publicados": [
+      50.0
     ]
   }
 }
