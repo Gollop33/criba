@@ -542,16 +542,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-tapete-higienico-pet-30-unidades-90x60-descar": {
-    "ts": "2026-10-07T15:45:02.379921",
-    "canales": {
-      "whatsapp": "2026-10-07T15:45:02.379921"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "ml-berco-portatil-pipdip-cosleeper-com-balanco-e": {
     "ts": "2026-10-07T15:51:13.272289",
     "canales": {
@@ -3354,6 +3344,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "amz-scala-plus-papel-toalha-multipicote-200-toalh": {
+    "ts": "2026-10-09T15:45:18.594095",
+    "canales": {
+      "whatsapp": "2026-10-09T15:45:18.594095"
+    },
+    "precio": 7.0,
+    "precios_publicados": [
+      7.0
     ]
   }
 }
