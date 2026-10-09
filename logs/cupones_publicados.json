@@ -13,13 +13,13 @@
     },
     "ACHEIOFF": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T08:40:13+00:00",
-      "motivo": "migracion: ya salio en tandas antes de la rotacion"
+      "publicado_em": "2026-10-09T02:00:40+00:00",
+      "motivo": "tanda"
     },
     "DESCONTEI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T08:40:13+00:00",
-      "motivo": "migracion: ya salio en tandas antes de la rotacion"
+      "publicado_em": "2026-10-09T02:00:40+00:00",
+      "motivo": "tanda"
     },
     "PRECINHOBOM": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
@@ -28,8 +28,8 @@
     },
     "OFERTASMELI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T08:40:13+00:00",
-      "motivo": "migracion: ya salio en tandas antes de la rotacion"
+      "publicado_em": "2026-10-09T02:00:40+00:00",
+      "motivo": "tanda"
     },
     "BARRATINHOJA": {
       "detectado_em": "2026-09-25T13:00:16+00:00",
@@ -486,10 +486,10 @@
     },
     "ACHEINOMELI": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
-      "publicado_em": "2026-10-08T14:21:54+00:00",
+      "publicado_em": "2026-10-09T02:00:40+00:00",
       "descuento": "25% OFF",
       "link_corto": true,
-      "motivo": "publicado"
+      "motivo": "tanda"
     },
     "MUITOBARATO": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
@@ -527,5 +527,5 @@
       "motivo": "publicado"
     }
   },
-  "actualizado": "2026-10-09T01:49:38+00:00"
+  "actualizado": "2026-10-09T02:00:40+00:00"
 }
