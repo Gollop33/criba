@@ -815,16 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
-    "ts": "2026-10-07T23:47:41.239407",
-    "canales": {
-      "whatsapp": "2026-10-07T23:47:41.239407"
-    },
-    "precio": 2299.0,
-    "precios_publicados": [
-      2299.0
-    ]
-  },
   "ml-celular-smartphone-realme-c73-128gb-4gb-ram-d": {
     "ts": "2026-10-07T23:51:00.399449",
     "canales": {
@@ -3453,6 +3443,16 @@
     "precio": 776.0,
     "precios_publicados": [
       776.0
+    ]
+  },
+  "ml-case-suporte-p-starlink-mini-fechado-c-ima-66": {
+    "ts": "2026-10-09T23:48:12.293010",
+    "canales": {
+      "whatsapp": "2026-10-09T23:48:12.293010"
+    },
+    "precio": 186.0,
+    "precios_publicados": [
+      186.0
     ]
   }
 }
