@@ -790,16 +790,6 @@
     ],
     "precio_min_publicado": 1889.0
   },
-  "ml-smart-tv-43-aoc-led-roku-full-hd-wifi-60hz-hd": {
-    "ts": "2026-10-07T21:49:13.716553",
-    "canales": {
-      "whatsapp": "2026-10-07T21:49:13.716553"
-    },
-    "precio": 1310.0,
-    "precios_publicados": [
-      1310.0
-    ]
-  },
   "amz-balanca-de-cozinha-digital-premium-gourmet-re": {
     "ts": "2026-10-09T09:28:35.102426",
     "canales": {
@@ -3456,6 +3446,16 @@
     "precio": 530.0,
     "precios_publicados": [
       530.0
+    ]
+  },
+  "ml-caixa-de-som-bluetooth-portatil-65-3000mah-ka": {
+    "ts": "2026-10-09T21:52:32.624472",
+    "canales": {
+      "whatsapp": "2026-10-09T21:52:32.624472"
+    },
+    "precio": 280.0,
+    "precios_publicados": [
+      280.0
     ]
   }
 }
