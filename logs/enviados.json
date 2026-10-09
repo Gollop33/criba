@@ -814,22 +814,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "cupon-BRINQUE10": {
-    "ts": "2026-10-07T23:13:01.971872",
-    "canales": {
-      "whatsapp": "2026-10-07T23:13:01.971872"
-    }
-  },
-  "ml-jogo-6-tacas-vidro-diamond-340ml-conjunto-mes": {
-    "ts": "2026-10-07T23:16:20.925570",
-    "canales": {
-      "whatsapp": "2026-10-07T23:16:20.925570"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
   "ml-cadeira-para-auto-0-a-36kg-4-road-burigotto-c": {
     "ts": "2026-10-07T23:18:26.551343",
     "canales": {
@@ -3472,6 +3456,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
+    "ts": "2026-10-09T23:17:14.039754",
+    "canales": {
+      "whatsapp": "2026-10-09T23:17:14.039754"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
