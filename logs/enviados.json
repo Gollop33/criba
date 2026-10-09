@@ -802,12 +802,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "cupom-ml-lote1-2026100722": {
-    "ts": "2026-10-07T22:13:04.008880",
-    "canales": {
-      "whatsapp": "2026-10-07T22:13:04.008880"
-    }
-  },
   "cupon-RIDE15": {
     "ts": "2026-10-07T22:18:39.465768",
     "canales": {
@@ -3476,6 +3470,16 @@
     "precio": 176.0,
     "precios_publicados": [
       176.0
+    ]
+  },
+  "amz-chalesco-tapete-higienico-premium-para-caes-9": {
+    "ts": "2026-10-09T22:17:42.959087",
+    "canales": {
+      "whatsapp": "2026-10-09T22:17:42.959087"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
