@@ -1931,14 +1931,16 @@
     ]
   },
   "ml-areia-sanitaria-gatos-lavanda-15kg-mercado-li": {
-    "ts": "2026-10-08T20:49:16.684822",
+    "ts": "2026-10-09T21:38:07.294099",
     "canales": {
-      "whatsapp": "2026-10-08T20:49:16.684822"
+      "whatsapp": "2026-10-09T21:38:07.294099"
     },
-    "precio": 18.0,
+    "precio": 17.0,
     "precios_publicados": [
-      18.0
-    ]
+      18.0,
+      17.0
+    ],
+    "precio_min_publicado": 18.0
   },
   "ml-yopro-energy-boost-uht-cappuccino-15g-de-prot": {
     "ts": "2026-10-08T20:50:26.672381",
