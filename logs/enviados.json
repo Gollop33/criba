@@ -815,26 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-bebedouro-fonte-automatico-caes-gatos-com-sen": {
-    "ts": "2026-10-07T23:36:18.560038",
-    "canales": {
-      "whatsapp": "2026-10-07T23:36:18.560038"
-    },
-    "precio": 98.0,
-    "precios_publicados": [
-      98.0
-    ]
-  },
-  "ml-apple-iphone-15-256-gb-azul-distribuidor-auto": {
-    "ts": "2026-10-07T23:38:56.705055",
-    "canales": {
-      "whatsapp": "2026-10-07T23:38:56.705055"
-    },
-    "precio": 4369.0,
-    "precios_publicados": [
-      4369.0
-    ]
-  },
   "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
     "ts": "2026-10-07T23:47:41.239407",
     "canales": {
@@ -3463,6 +3443,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
+    "ts": "2026-10-09T23:40:39.625616",
+    "canales": {
+      "whatsapp": "2026-10-09T23:40:39.625616"
+    },
+    "precio": 776.0,
+    "precios_publicados": [
+      776.0
     ]
   }
 }
