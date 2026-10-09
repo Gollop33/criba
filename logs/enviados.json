@@ -1843,14 +1843,16 @@
     ]
   },
   "ml-smart-tv-lg-43-ld-wifi-bluetooth-full-hd-43lr": {
-    "ts": "2026-10-08T01:24:27.521664",
+    "ts": "2026-10-09T01:27:19.795026",
     "canales": {
-      "whatsapp": "2026-10-08T01:24:27.521664"
+      "whatsapp": "2026-10-09T01:27:19.795026"
     },
-    "precio": 1719.0,
+    "precio": 1467.0,
     "precios_publicados": [
-      1719.0
-    ]
+      1719.0,
+      1467.0
+    ],
+    "precio_min_publicado": 1719.0
   },
   "ml-smart-tv-tcl-43-polegadas-qled-full-hd-s5k-wi": {
     "ts": "2026-10-08T01:33:10.471712",
