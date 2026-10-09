@@ -814,22 +814,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-kit-teclado-e-mouse-sem-fio-csi50-24ghz-abnt2": {
-    "ts": "2026-10-07T23:01:53.933061",
-    "canales": {
-      "whatsapp": "2026-10-07T23:01:53.933061"
-    },
-    "precio": 96.0,
-    "precios_publicados": [
-      96.0
-    ]
-  },
-  "cupon-SPORTSINFANTIL": {
-    "ts": "2026-10-07T23:06:08.573281",
-    "canales": {
-      "whatsapp": "2026-10-07T23:06:08.573281"
-    }
-  },
   "cupon-BRINQUE10": {
     "ts": "2026-10-07T23:13:01.971872",
     "canales": {
@@ -3478,6 +3462,16 @@
     "precio": 929.0,
     "precios_publicados": [
       929.0
+    ]
+  },
+  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
+    "ts": "2026-10-09T23:08:39.056501",
+    "canales": {
+      "whatsapp": "2026-10-09T23:08:39.056501"
+    },
+    "precio": 109.0,
+    "precios_publicados": [
+      109.0
     ]
   }
 }
