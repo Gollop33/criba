@@ -1811,14 +1811,16 @@
     "precio_min_publicado": 132.0
   },
   "ml-smartphone-galaxy-a17-4g-tela-67-256gb-samsun": {
-    "ts": "2026-10-08T01:05:01.429842",
+    "ts": "2026-10-09T01:14:55.579556",
     "canales": {
-      "whatsapp": "2026-10-08T01:05:01.429842"
+      "whatsapp": "2026-10-09T01:14:55.579556"
     },
     "precio": 1243.0,
     "precios_publicados": [
+      1243.0,
       1243.0
-    ]
+    ],
+    "precio_min_publicado": 1243.0
   },
   "ml-smartphone-samsung-galaxy-a07-4g-256gb-8gb-pr": {
     "ts": "2026-10-08T01:09:39.081355",
