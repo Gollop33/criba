@@ -115,12 +115,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "cupom-ml-lote2-2026100705": {
-    "ts": "2026-10-07T05:58:32.956880",
-    "canales": {
-      "whatsapp": "2026-10-07T05:58:32.956880"
-    }
-  },
   "ml-mochila-para-notebook-impermeavel-e-reforcada": {
     "ts": "2026-10-07T06:20:40.499682",
     "canales": {
@@ -3043,6 +3037,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-10-09T06:02:56.123101",
+    "canales": {
+      "whatsapp": "2026-10-09T06:02:56.123101"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
