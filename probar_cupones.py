@@ -491,6 +491,27 @@ def main():
     check("un Pix de 0% no genera una línea de precio final",
           pp2.calcular_precio_final(100.0, {"pix": "0% OFF"})[0] is None)
 
+    # ── 10. PRECIO CON EL CUPÓN QUE DA MERCADO LIVRE (no el genérico) ────────
+    # El 2026-10-09 el usuario mandó el checkout de un armário: ML cobraba
+    # R$ 466,96 no Pix com Cupom y el post decía R$ 467 → cuadraba. Pero el
+    # mismo día se descubrió que el arreglo del "Kit 10 Pote" NUNCA se había
+    # aplicado: seguía prometiendo R$ 76 (cupón genérico 15%) donde ML decía
+    # R$ 88,90. Estas pruebas fijan las dos cosas.
+    pote10 = {"precio": 89.9, "cupom": "OFERTASJA", "cupom_pct": 15.0,
+              "cupom_confianza": "alta", "cupom_max": 200.0,
+              "ml_tiene_cupon": True, "ml_precio_cupon": 88.9}
+    check("Kit de Pote: NO se promete R$ 76 del cupón genérico (ML dice R$ 88,90)",
+          pp2.calcular_precio_final(89.9, pote10)[0] is None)
+
+    armario = {"precio": 514.96, "ml_tiene_cupon": True, "ml_precio_cupon": 466.96}
+    fin_a, _etq_a = pp2.calcular_precio_final(514.96, armario)
+    check("Armário: se usa el precio de cupón QUE DA ML (R$ 466,96)",
+          fin_a is not None and abs(fin_a - 466.96) < 0.01, f"-> {fin_a}")
+
+    check("un cupón confirmado con descuento diminuto no se promete",
+          pp2.calcular_precio_final(100.0, {"ml_tiene_cupon": True,
+                                            "ml_precio_cupon": 99.5})[0] is None)
+
     # ── RESULTADO ────────────────────────────────────────────────────────────
     print("-" * 68)
     print(f"  RESULTADO: {PASADAS}/{PASADAS + len(FALLOS)} pruebas pasadas")
