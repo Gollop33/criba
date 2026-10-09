@@ -530,16 +530,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-mix-nuts-caramelizadas-com-chocolate-meio-ama": {
-    "ts": "2026-10-07T15:20:14.575659",
-    "canales": {
-      "whatsapp": "2026-10-07T15:20:14.575659"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "ml-tapete-higienico-para-cachorro-50-unidades-60": {
     "ts": "2026-10-08T16:27:29.693738",
     "canales": {
@@ -3344,6 +3334,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-colgate-slim-soft-black-escova-de-dente-macia": {
+    "ts": "2026-10-09T15:21:34.218813",
+    "canales": {
+      "whatsapp": "2026-10-09T15:21:34.218813"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
