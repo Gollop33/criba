@@ -814,16 +814,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-triciclo-eletrico-drift-250w-carrinho-rolima-": {
-    "ts": "2026-10-07T22:41:06.889417",
-    "canales": {
-      "whatsapp": "2026-10-07T22:41:06.889417"
-    },
-    "precio": 873.0,
-    "precios_publicados": [
-      873.0
-    ]
-  },
   "ml-furadeira-parafusadeira-a-bateria-12v-38-10mm": {
     "ts": "2026-10-07T22:48:43.909578",
     "canales": {
@@ -3488,6 +3478,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
+    "ts": "2026-10-09T22:44:38.216235",
+    "canales": {
+      "whatsapp": "2026-10-09T22:44:38.216235"
+    },
+    "precio": 146.0,
+    "precios_publicados": [
+      146.0
     ]
   }
 }
