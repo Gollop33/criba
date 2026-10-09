@@ -432,26 +432,6 @@
     ],
     "precio_min_publicado": 497.0
   },
-  "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-10-07T14:00:27.640829",
-    "canales": {
-      "whatsapp": "2026-10-07T14:00:27.640829"
-    },
-    "precio": 1387.0,
-    "precios_publicados": [
-      1387.0
-    ]
-  },
-  "ml-cafe-aromatizado-cafe-torrado-e-moido-caramel": {
-    "ts": "2026-10-07T14:04:42.411764",
-    "canales": {
-      "whatsapp": "2026-10-07T14:04:42.411764"
-    },
-    "precio": 51.0,
-    "precios_publicados": [
-      51.0
-    ]
-  },
   "ml-rocadeira-aparador-grama-a-bateria-recarregav": {
     "ts": "2026-10-08T16:02:00.109288",
     "canales": {
@@ -3300,6 +3280,16 @@
     "precio": 97.0,
     "precios_publicados": [
       97.0
+    ]
+  },
+  "ml-strobo-pisca-pisca-cordao-natal-1600-leds-50m": {
+    "ts": "2026-10-09T14:09:56.201910",
+    "canales": {
+      "whatsapp": "2026-10-09T14:09:56.201910"
+    },
+    "precio": 238.0,
+    "precios_publicados": [
+      238.0
     ]
   }
 }
