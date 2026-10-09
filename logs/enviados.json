@@ -276,16 +276,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-kit-10-potes-hermeticos-de-vidro-640ml-hausho": {
-    "ts": "2026-10-07T11:51:03.726099",
-    "canales": {
-      "whatsapp": "2026-10-07T11:51:03.726099"
-    },
-    "precio": 75.0,
-    "precios_publicados": [
-      75.0
-    ]
-  },
   "ml-racao-golden-gatos-castrados-sabor-frango-e-c": {
     "ts": "2026-10-08T22:02:09.576984",
     "canales": {
@@ -3192,6 +3182,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
+    "ts": "2026-10-09T11:56:34.505764",
+    "canales": {
+      "whatsapp": "2026-10-09T11:56:34.505764"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
