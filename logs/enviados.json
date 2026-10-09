@@ -396,16 +396,6 @@
     ],
     "precio_min_publicado": 103.0
   },
-  "ml-formula-natural-pro-cao-adulto-medio-e-grande": {
-    "ts": "2026-10-07T13:41:12.699757",
-    "canales": {
-      "whatsapp": "2026-10-07T13:41:12.699757"
-    },
-    "precio": 180.0,
-    "precios_publicados": [
-      180.0
-    ]
-  },
   "ml-creatina-growth-supplements-monohidratada-em-": {
     "ts": "2026-10-08T15:10:07.241552",
     "canales": {
@@ -3280,6 +3270,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
+    "ts": "2026-10-09T13:42:37.928999",
+    "canales": {
+      "whatsapp": "2026-10-09T13:42:37.928999"
+    },
+    "precio": 48.0,
+    "precios_publicados": [
+      48.0
     ]
   }
 }
