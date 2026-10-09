@@ -591,16 +591,6 @@
     ],
     "precio_min_publicado": 2404.0
   },
-  "ml-formula-natural-fresh-meat-sensitive-caes-adu": {
-    "ts": "2026-10-07T17:14:48.795162",
-    "canales": {
-      "whatsapp": "2026-10-07T17:14:48.795162"
-    },
-    "precio": 107.0,
-    "precios_publicados": [
-      107.0
-    ]
-  },
   "ml-kit-cabide-madeira-mafim-antiderrapante-para-": {
     "ts": "2026-10-09T14:18:18.084266",
     "canales": {
@@ -3395,6 +3385,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
+    "ts": "2026-10-09T17:18:47.102428",
+    "canales": {
+      "whatsapp": "2026-10-09T17:18:47.102428"
+    },
+    "precio": 3621.0,
+    "precios_publicados": [
+      3621.0
     ]
   }
 }
