@@ -492,16 +492,6 @@
     ],
     "precio_min_publicado": 1449.0
   },
-  "ml-tablet-xiaomi-redmi-pad-2-11-256gb-8-ram-cinz": {
-    "ts": "2026-10-07T14:35:27.187346",
-    "canales": {
-      "whatsapp": "2026-10-07T14:35:27.187346"
-    },
-    "precio": 1285.0,
-    "precios_publicados": [
-      1285.0
-    ]
-  },
   "ml-celular-motorola-moto-g56-256gb-12gb-ram-5g-d": {
     "ts": "2026-10-08T15:48:16.850856",
     "canales": {
@@ -3302,6 +3292,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-growth-supplements-creatina-500g-pouch-treino": {
+    "ts": "2026-10-09T14:35:43.390723",
+    "canales": {
+      "whatsapp": "2026-10-09T14:35:43.390723"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
