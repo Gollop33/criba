@@ -667,16 +667,6 @@
     ],
     "precio_min_publicado": 299.0
   },
-  "ml-colchao-solteiro-espuma-d33-pillow-top-new-mi": {
-    "ts": "2026-10-07T19:27:35.855553",
-    "canales": {
-      "whatsapp": "2026-10-07T19:27:35.855553"
-    },
-    "precio": 469.0,
-    "precios_publicados": [
-      469.0
-    ]
-  },
   "ml-smart-tv-philco-40-p40vik-led-roku-dolby-audi": {
     "ts": "2026-10-08T19:38:42.664813",
     "canales": {
@@ -1672,14 +1662,16 @@
     ]
   },
   "ml-cozinha-de-brinquedo-infantil-completa-prince": {
-    "ts": "2026-10-08T15:03:55.145915",
+    "ts": "2026-10-09T19:30:03.208428",
     "canales": {
-      "whatsapp": "2026-10-08T15:03:55.145915"
+      "whatsapp": "2026-10-09T19:30:03.208428"
     },
-    "precio": 104.0,
+    "precio": 98.0,
     "precios_publicados": [
-      104.0
-    ]
+      104.0,
+      98.0
+    ],
+    "precio_min_publicado": 104.0
   },
   "ml-jogo-de-panelas-smart-plus-vanilla-inducao-ce": {
     "ts": "2026-10-08T15:13:27.094652",
