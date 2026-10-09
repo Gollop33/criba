@@ -1955,14 +1955,16 @@
     ]
   },
   "ml-xiaomi-poco-x7-pro-5g-12gb-ram-512gb-global-n": {
-    "ts": "2026-10-08T05:05:56.131665",
+    "ts": "2026-10-09T05:12:40.642795",
     "canales": {
-      "whatsapp": "2026-10-08T05:05:56.131665"
+      "whatsapp": "2026-10-09T05:12:40.642795"
     },
-    "precio": 2559.0,
+    "precio": 2359.0,
     "precios_publicados": [
-      2559.0
-    ]
+      2559.0,
+      2359.0
+    ],
+    "precio_min_publicado": 2559.0
   },
   "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
     "ts": "2026-10-08T05:28:57.603374",
