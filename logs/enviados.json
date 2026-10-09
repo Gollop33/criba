@@ -704,16 +704,6 @@
     ],
     "precio_min_publicado": 1460.0
   },
-  "ml-cadeira-de-carro-infantil-max360-isofix-36kgs": {
-    "ts": "2026-10-07T20:00:27.926237",
-    "canales": {
-      "whatsapp": "2026-10-07T20:00:27.926237"
-    },
-    "precio": 884.0,
-    "precios_publicados": [
-      884.0
-    ]
-  },
   "ml-racao-golden-premium-especial-castrado-carne-": {
     "ts": "2026-10-07T20:07:03.264025",
     "canales": {
@@ -3390,6 +3380,16 @@
     "precio": 13.0,
     "precios_publicados": [
       13.0
+    ]
+  },
+  "ml-kit-cabide-madeira-natural-gancho-de-metal-ma": {
+    "ts": "2026-10-09T20:05:38.359145",
+    "canales": {
+      "whatsapp": "2026-10-09T20:05:38.359145"
+    },
+    "precio": 321.0,
+    "precios_publicados": [
+      321.0
     ]
   }
 }
