@@ -542,26 +542,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-racao-quatree-supreme-gatos-adultos-salmao-ba": {
-    "ts": "2026-10-07T15:29:54.766312",
-    "canales": {
-      "whatsapp": "2026-10-07T15:29:54.766312"
-    },
-    "precio": 166.0,
-    "precios_publicados": [
-      166.0
-    ]
-  },
-  "ml-power-bank-20000mah-carregador-portatil-turbo": {
-    "ts": "2026-10-07T15:36:07.308628",
-    "canales": {
-      "whatsapp": "2026-10-07T15:36:07.308628"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "ml-tapete-higienico-pet-30-unidades-90x60-descar": {
     "ts": "2026-10-07T15:45:02.379921",
     "canales": {
@@ -3364,6 +3344,16 @@
     "precio": 73.0,
     "precios_publicados": [
       73.0
+    ]
+  },
+  "ml-carregador-turbo-67w-usbc-para-xiaomi-redmi-n": {
+    "ts": "2026-10-09T15:36:30.069627",
+    "canales": {
+      "whatsapp": "2026-10-09T15:36:30.069627"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
