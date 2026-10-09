@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-roteador-wifi-6-dual-band-w61500-intelbras": {
-    "ts": "2026-10-07T00:16:21.451469",
-    "canales": {
-      "whatsapp": "2026-10-07T00:16:21.451469"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
   "amz-notebook-asus-tuf-gaming-f16-fx607vu-rtx4050-": {
     "ts": "2026-10-07T00:25:25.783474",
     "canales": {
@@ -2911,5 +2901,15 @@
     "canales": {
       "whatsapp": "2026-10-09T00:15:42.963458"
     }
+  },
+  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
+    "ts": "2026-10-09T00:18:55.864379",
+    "canales": {
+      "whatsapp": "2026-10-09T00:18:55.864379"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
+    ]
   }
 }
