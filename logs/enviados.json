@@ -628,12 +628,6 @@
     ],
     "precio_min_publicado": 246.0
   },
-  "cupon-BRINCADEIRASML": {
-    "ts": "2026-10-07T17:56:25.292588",
-    "canales": {
-      "whatsapp": "2026-10-07T17:56:25.292588"
-    }
-  },
   "ml-xiaomi-redmi-note-15-256gb-8gb-ram-dual-sim": {
     "ts": "2026-10-07T17:59:36.874017",
     "canales": {
@@ -3414,6 +3408,16 @@
     "precio": 101.0,
     "precios_publicados": [
       101.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
+    "ts": "2026-10-09T17:58:22.446396",
+    "canales": {
+      "whatsapp": "2026-10-09T17:58:22.446396"
+    },
+    "precio": 5499.0,
+    "precios_publicados": [
+      5499.0
     ]
   }
 }
