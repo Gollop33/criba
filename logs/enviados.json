@@ -1481,14 +1481,16 @@
     ]
   },
   "amz-balanca-de-cozinha-digital-premium-gourmet-re": {
-    "ts": "2026-10-07T21:58:41.892234",
+    "ts": "2026-10-09T09:28:35.102426",
     "canales": {
-      "whatsapp": "2026-10-07T21:58:41.892234"
+      "whatsapp": "2026-10-09T09:28:35.102426"
     },
     "precio": 13.0,
     "precios_publicados": [
+      13.0,
       13.0
-    ]
+    ],
+    "precio_min_publicado": 13.0
   },
   "cupon-PINTADINHA20": {
     "ts": "2026-10-07T22:02:40.259101",
