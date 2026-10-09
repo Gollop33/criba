@@ -802,12 +802,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "cupon-PINTADINHA20": {
-    "ts": "2026-10-07T22:02:40.259101",
-    "canales": {
-      "whatsapp": "2026-10-07T22:02:40.259101"
-    }
-  },
   "cupon-QCABECA15": {
     "ts": "2026-10-07T22:10:45.565451",
     "canales": {
@@ -1891,14 +1885,16 @@
     ]
   },
   "ml-racao-quatree-life-gatos-ad-castrados-101kg-s": {
-    "ts": "2026-10-08T20:41:47.066656",
+    "ts": "2026-10-09T22:03:25.063889",
     "canales": {
-      "whatsapp": "2026-10-08T20:41:47.066656"
+      "whatsapp": "2026-10-09T22:03:25.063889"
     },
-    "precio": 148.0,
+    "precio": 162.0,
     "precios_publicados": [
-      148.0
-    ]
+      148.0,
+      162.0
+    ],
+    "precio_min_publicado": 148.0
   },
   "ml-areia-sanitaria-gatos-lavanda-15kg-mercado-li": {
     "ts": "2026-10-09T21:38:07.294099",
