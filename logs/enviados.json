@@ -716,16 +716,6 @@
     ],
     "precio_min_publicado": 999.0
   },
-  "ml-racao-fresh-meat-sensitive-cao-adulto-pequeno": {
-    "ts": "2026-10-07T20:27:28.334049",
-    "canales": {
-      "whatsapp": "2026-10-07T20:27:28.334049"
-    },
-    "precio": 410.0,
-    "precios_publicados": [
-      410.0
-    ]
-  },
   "ml-cadeira-de-carro-infantil-all-stages-20-isofi": {
     "ts": "2026-10-07T20:37:29.216420",
     "canales": {
@@ -3410,6 +3400,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "amz-bionature-areia-higienica-para-gatos-biodegra": {
+    "ts": "2026-10-09T20:31:37.548844",
+    "canales": {
+      "whatsapp": "2026-10-09T20:31:37.548844"
+    },
+    "precio": 38.0,
+    "precios_publicados": [
+      38.0
     ]
   }
 }
