@@ -250,16 +250,6 @@
     ],
     "precio_min_publicado": 176.0
   },
-  "ml-relogio-inteligente-smartwatch-alexa-chamadas": {
-    "ts": "2026-10-07T10:40:28.856630",
-    "canales": {
-      "whatsapp": "2026-10-07T10:40:28.856630"
-    },
-    "precio": 134.0,
-    "precios_publicados": [
-      134.0
-    ]
-  },
   "ml-furadeira-parafusadeira-sem-fio-de-6mm-bosch-": {
     "ts": "2026-10-07T10:47:02.840775",
     "canales": {
@@ -3212,6 +3202,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
+    "ts": "2026-10-09T10:42:41.495520",
+    "canales": {
+      "whatsapp": "2026-10-09T10:42:41.495520"
+    },
+    "precio": 64.0,
+    "precios_publicados": [
+      64.0
     ]
   }
 }
