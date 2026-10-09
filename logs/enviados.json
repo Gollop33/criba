@@ -590,18 +590,6 @@
     ],
     "precio_min_publicado": 2404.0
   },
-  "cupon-SEMPREMELI": {
-    "ts": "2026-10-07T16:32:28.438190",
-    "canales": {
-      "whatsapp": "2026-10-07T16:32:28.438190"
-    }
-  },
-  "cupom-ml-lote1-2026100716": {
-    "ts": "2026-10-07T16:36:00.483255",
-    "canales": {
-      "whatsapp": "2026-10-07T16:36:00.483255"
-    }
-  },
   "cupon-PROMOVALE": {
     "ts": "2026-10-07T16:41:40.299990",
     "canales": {
@@ -3394,6 +3382,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
+    "ts": "2026-10-09T16:41:15.837870",
+    "canales": {
+      "whatsapp": "2026-10-09T16:41:15.837870"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
