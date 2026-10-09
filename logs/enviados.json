@@ -238,16 +238,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-auxiliar-de-partida-bateria-e-compressor-de-a": {
-    "ts": "2026-10-07T10:33:37.231492",
-    "canales": {
-      "whatsapp": "2026-10-07T10:33:37.231492"
-    },
-    "precio": 130.0,
-    "precios_publicados": [
-      130.0
-    ]
-  },
   "ml-projetor-smart-portatil-full-hd-4k-android-11": {
     "ts": "2026-10-08T12:27:28.920493",
     "canales": {
@@ -3212,6 +3202,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-max-titanium-creatina-pote-monohidratada-300g": {
+    "ts": "2026-10-09T10:35:38.011904",
+    "canales": {
+      "whatsapp": "2026-10-09T10:35:38.011904"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
