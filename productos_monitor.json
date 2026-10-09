@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-09T19:42:27+00:00",
+  "actualizado": "2026-10-09T19:49:25+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -17,7 +17,7 @@
       "precio_ref": 49.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "positivo vision tab10 t3010 4gb ram 128gb ssd",
@@ -25,15 +25,7 @@
       "precio_ref": 943.33,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "kit cabide madeira natural gancho de metal marfim",
-      "nombre": "Kit Cabide Madeira Natural Gancho De Metal Marfim Envernizado Antideslizante Adulto Roupa Camisa Vestido Terno Irsina",
-      "precio_ref": 321.69,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "mercusys mc510 camera de seguranca wi fi externa",
@@ -41,31 +33,15 @@
       "precio_ref": 151.92,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "lixeira inteligente sem contato sensor infravermelho usb recarregavel",
-      "nombre": "Lixeira Inteligente Sem Contato Sensor Infravermelho + USB Recarregável, Cinza Escuro 16L para Casa e Escritório.",
-      "precio_ref": 64.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "kit cabide madeira natural gancho de metal marfim",
+      "nombre": "Kit Cabide Madeira Natural Gancho De Metal Marfim Envernizado Antideslizante Adulto Roupa Camisa Vestido Terno Irsina",
+      "precio_ref": 321.69,
+      "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete liquido intimo fresh comfort 250ml limpeza",
-      "nombre": "NIVEA Sabonete Líquido Íntimo Fresh Comfort 250ml, Limpeza Suave, Mantém pH Natural, Aloe Vera, Cuidado Refrescante, Uso Diár",
-      "precio_ref": 15.19,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "protetor diario carefree todo dia 80 unidades absorvente",
-      "nombre": "Protetor Diário Carefree Todo Dia, 80 Unidades | Absorvente Externo, Respirável, Uso Diário, Sem Fragrância",
-      "precio_ref": 16.89,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
@@ -73,7 +49,31 @@
       "precio_ref": 62.18,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete liquido intimo fresh comfort 250ml limpeza",
+      "nombre": "NIVEA Sabonete Líquido Íntimo Fresh Comfort 250ml, Limpeza Suave, Mantém pH Natural, Aloe Vera, Cuidado Refrescante, Uso Diár",
+      "precio_ref": 15.19,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "lixeira inteligente sem contato sensor infravermelho usb recarregavel",
+      "nombre": "Lixeira Inteligente Sem Contato Sensor Infravermelho + USB Recarregável, Cinza Escuro 16L para Casa e Escritório.",
+      "precio_ref": 64.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "protetor diario carefree todo dia 80 unidades absorvente",
+      "nombre": "Protetor Diário Carefree Todo Dia, 80 Unidades | Absorvente Externo, Respirável, Uso Diário, Sem Fragrância",
+      "precio_ref": 16.89,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "notebook asus tuf gaming f16 fx607vu rtx4050 intel",
@@ -81,7 +81,7 @@
       "precio_ref": 7199.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "bomba de ar de mao pneu car air",
@@ -89,7 +89,7 @@
       "precio_ref": 54.34,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "dux human health whey protein concentrado 900g chocolate",
@@ -97,7 +97,7 @@
       "precio_ref": 189.99,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "capa protetora colchao box casal padrao matelado impermeavel",
@@ -105,7 +105,7 @@
       "precio_ref": 28.49,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
@@ -113,7 +113,7 @@
       "precio_ref": 999.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "comedouro bebedouro para cachorro caes pets elevado duplo",
@@ -121,7 +121,7 @@
       "precio_ref": 75.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "acer aspire go 15 notebook 15 6 intel",
@@ -129,23 +129,7 @@
       "precio_ref": 4699.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
-      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
-      "precio_ref": 497.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi redmi note 15 preto 8gb ram",
-      "nombre": "Smartphone Xiaomi Redmi Note 15 Preto 8GB RAM 256GB ROM (2510DRA23L) | 2510DRA23L",
-      "precio_ref": 1434.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "tenis casual kappa zenit masculino unissex conforto",
@@ -153,15 +137,15 @@
       "precio_ref": 85.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
-      "precio_ref": 3599.0,
+      "busqueda": "smartphone xiaomi redmi note 15 preto 8gb ram",
+      "nombre": "Smartphone Xiaomi Redmi Note 15 Preto 8GB RAM 256GB ROM (2510DRA23L) | 2510DRA23L",
+      "precio_ref": 1434.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "xiaomi poco x7 pro 5g 12ram 512 gb",
@@ -169,15 +153,15 @@
       "precio_ref": 2370.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "adaptogen tasty whey original 900g embalagem pode mudar",
-      "nombre": "Adaptogen Tasty Whey Original 900g (Embalagem Pode Mudar)",
-      "precio_ref": 219.0,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
+      "precio_ref": 3599.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
@@ -185,15 +169,15 @@
       "precio_ref": 99.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "apple iphone 16 128 gb branco",
-      "nombre": "Apple iPhone 16 (128 GB) – Branco",
-      "precio_ref": 5065.39,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "adaptogen tasty whey original 900g embalagem pode mudar",
+      "nombre": "Adaptogen Tasty Whey Original 900g (Embalagem Pode Mudar)",
+      "precio_ref": 219.0,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "polares z20 patinete eletrico premium 500w pneu aderente",
@@ -201,79 +185,15 @@
       "precio_ref": 1310.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
-      "precio_ref": 1799.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "apple iphone 16 128 gb branco",
+      "nombre": "Apple iPhone 16 (128 GB) – Branco",
+      "precio_ref": 5065.39,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "cadeira de escritorio gamer ergonomica dunamis preta marqs",
-      "nombre": "Cadeira De Escritorio Gamer Ergonômica Dunamis Preta Marqs Home Reclinável 180kg Resistente Giratória Confortavel Computador",
-      "precio_ref": 530.91,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g67 5g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto G67 5G - 128GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela 1.5K extreme Amoled 120hz, u",
-      "precio_ref": 1344.45,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "areia sanitaria gatos lavanda 1 5kg mercado livre",
-      "nombre": "Areia Sanitária Gatos Lavanda 1,5Kg Mercado Livre Basics",
-      "precio_ref": 17.91,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book3 360 intel coretm i5 1335u",
-      "nombre": "Samsung Galaxy Book3 360 Intel® Core™ i5-1335U, Windows 11 Home, 8 GB, 256 GB SSD, 13.3\" Full HD AMOLED, 1.16 kg*",
-      "precio_ref": 4699.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "alfajor proteico caramelo salgado sem acucar topway kit",
-      "nombre": "Alfajor Proteíco Caramelo Salgado Sem Açúcar Topway Kit 10un",
-      "precio_ref": 84.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola edge 70 5g 256gb 24gb 8gb",
-      "nombre": "Smartphone Motorola Edge 70 5G - 256GB 24GB (8GB RAM + 16GB RAM Boost), Ultrafino, 3 Câmeras 50MP, Tela 1.5K Extreme Amoled 1",
-      "precio_ref": 2459.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "projetor netflix 8k profissional 1000ansi portatil 35000lm 5g",
-      "nombre": "Projetor Netflix 8k Profissional 1000ANSI Portátil 35000lm 5G/2.4G Wifi Bluetooth 4K Full Hd",
-      "precio_ref": 1140.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "notebook samsung galaxy book go windows 11 home",
-      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
-      "precio_ref": 2249.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "tenis masculino feminino kappa park 2 0 original",
@@ -281,7 +201,87 @@
       "precio_ref": 68.72,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
+      "precio_ref": 1799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "areia sanitaria gatos lavanda 1 5kg mercado livre",
+      "nombre": "Areia Sanitária Gatos Lavanda 1,5Kg Mercado Livre Basics",
+      "precio_ref": 17.91,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g67 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G67 5G - 128GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela 1.5K extreme Amoled 120hz, u",
+      "precio_ref": 1344.45,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "projetor netflix 8k profissional 1000ansi portatil 35000lm 5g",
+      "nombre": "Projetor Netflix 8k Profissional 1000ANSI Portátil 35000lm 5G/2.4G Wifi Bluetooth 4K Full Hd",
+      "precio_ref": 1140.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book3 360 intel coretm i5 1335u",
+      "nombre": "Samsung Galaxy Book3 360 Intel® Core™ i5-1335U, Windows 11 Home, 8 GB, 256 GB SSD, 13.3\" Full HD AMOLED, 1.16 kg*",
+      "precio_ref": 4699.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
+      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
+      "precio_ref": 497.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola edge 70 5g 256gb 24gb 8gb",
+      "nombre": "Smartphone Motorola Edge 70 5G - 256GB 24GB (8GB RAM + 16GB RAM Boost), Ultrafino, 3 Câmeras 50MP, Tela 1.5K Extreme Amoled 1",
+      "precio_ref": 2459.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "cadeira de escritorio gamer ergonomica dunamis preta marqs",
+      "nombre": "Cadeira De Escritorio Gamer Ergonômica Dunamis Preta Marqs Home Reclinável 180kg Resistente Giratória Confortavel Computador",
+      "precio_ref": 530.91,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "notebook samsung galaxy book go windows 11 home",
+      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
+      "precio_ref": 2249.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "alfajor proteico caramelo salgado sem acucar topway kit",
+      "nombre": "Alfajor Proteíco Caramelo Salgado Sem Açúcar Topway Kit 10un",
+      "precio_ref": 84.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "apple iphone 17 de 256 gb preto",
@@ -289,7 +289,7 @@
       "precio_ref": 6015.39,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "racao quatree life gatos ad castrados 10 1kg",
@@ -297,7 +297,7 @@
       "precio_ref": 162.36,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
@@ -305,47 +305,7 @@
       "precio_ref": 3399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "bebedouro para gatos sem fio com sensor 3",
-      "nombre": "Bebedouro Para Gatos Sem Fio Com Sensor 3.2 L 3 Filtros 127/220v Branco",
-      "precio_ref": 176.36,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi poco x7 pro 5g nfc black",
-      "nombre": "Smartphone Xiaomi Poco X7 Pro 5G NFC Black (Preto) 12GB RAM 512GB ROM [2412DPC0AG]",
-      "precio_ref": 2368.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para caes gatos pets manta absorvente",
-      "nombre": "Tapete Higiênico Para Cães Gatos Pets Manta Absorvente 50 Unidades 50x60Cm Branco Fralda Pet Cachorro Camadas De Proteção Bloqueador De Odor Linha Premium Com Camadas De Proteção",
-      "precio_ref": 40.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "smartphone poco x8 pro 512gb 12gb ram branco",
-      "nombre": "Smartphone Poco X8 Pro 512GB 12GB RAM - Branco | Mediatek Dimensity 8500 Ultra",
-      "precio_ref": 2768.95,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
-      "nombre": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.2\", Azul Marinho",
-      "precio_ref": 3978.57,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "cadeira de escritorio gamer nitro ergonomica estofado couro",
@@ -353,15 +313,39 @@
       "precio_ref": 579.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g77 5g 256gb 24gb 8gb",
-      "nombre": "Smartphone Motorola Moto G77 5g - 256GB 24GB (8GB RAM + 16GB RAM Boost) camera 108MP Ultra-Pixel, tela 1.5k extreme Amoled 12",
-      "precio_ref": 1639.0,
+      "busqueda": "smartphone xiaomi poco x7 pro 5g nfc black",
+      "nombre": "Smartphone Xiaomi Poco X7 Pro 5G NFC Black (Preto) 12GB RAM 512GB ROM [2412DPC0AG]",
+      "precio_ref": 2368.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "bebedouro para gatos sem fio com sensor 3",
+      "nombre": "Bebedouro Para Gatos Sem Fio Com Sensor 3.2 L 3 Filtros 127/220v Branco",
+      "precio_ref": 176.36,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone poco x8 pro 512gb 12gb ram branco",
+      "nombre": "Smartphone Poco X8 Pro 512GB 12GB RAM - Branco | Mediatek Dimensity 8500 Ultra",
+      "precio_ref": 2768.95,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
+      "nombre": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.2\", Azul Marinho",
+      "precio_ref": 3978.57,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "carregador turbo super rapido 30w para iphone 15",
@@ -369,7 +353,23 @@
       "precio_ref": 37.49,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g77 5g 256gb 24gb 8gb",
+      "nombre": "Smartphone Motorola Moto G77 5g - 256GB 24GB (8GB RAM + 16GB RAM Boost) camera 108MP Ultra-Pixel, tela 1.5k extreme Amoled 12",
+      "precio_ref": 1639.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para caes gatos pets manta absorvente",
+      "nombre": "Tapete Higiênico Para Cães Gatos Pets Manta Absorvente 50 Unidades 50x60Cm Branco Fralda Pet Cachorro Camadas De Proteção Bloqueador De Odor Linha Premium Com Camadas De Proteção",
+      "precio_ref": 40.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -377,31 +377,7 @@
       "precio_ref": 887.77,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a07 256gb 8gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Verde",
-      "precio_ref": 858.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "cozinha infantil brinquedo com luz 33 acessorios sai",
-      "nombre": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
-      "precio_ref": 64.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "asus tuf gaming f16 intel core 5 rtx",
-      "nombre": "ASUS TUF Gaming F16 Intel Core 5, RTX 4050, 8 GB, 512 GB SSD, KeepOS/Linux,16.0'' FHD, Mecha Gray - FX607VU-RL054",
-      "precio_ref": 6749.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "sapateira vertical irsina 7 andares aco inox 21",
@@ -409,15 +385,15 @@
       "precio_ref": 46.02,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "notebook hp 256r g9 intel core i5 13o",
-      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
-      "precio_ref": 4299.0,
-      "categoria": "Pet Shop",
+      "busqueda": "celular samsung galaxy a07 256gb 8gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Verde",
+      "precio_ref": 858.0,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "triciclo patinete led eletrico drift 350w bluetooth 100kg",
@@ -425,7 +401,31 @@
       "precio_ref": 957.29,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "asus tuf gaming f16 intel core 5 rtx",
+      "nombre": "ASUS TUF Gaming F16 Intel Core 5, RTX 4050, 8 GB, 512 GB SSD, KeepOS/Linux,16.0'' FHD, Mecha Gray - FX607VU-RL054",
+      "precio_ref": 6749.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "cozinha infantil brinquedo com luz 33 acessorios sai",
+      "nombre": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
+      "precio_ref": 64.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "notebook hp 256r g9 intel core i5 13o",
+      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
+      "precio_ref": 4299.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
@@ -433,15 +433,7 @@
       "precio_ref": 776.67,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
-      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
-      "precio_ref": 6270.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "kit bebedouro e comedouro de passaros aves automatico",
@@ -449,7 +441,15 @@
       "precio_ref": 54.45,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 6270.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "notebook gamer asus tuf gaming a15 rtx3050 amd",
@@ -457,15 +457,15 @@
       "precio_ref": 7499.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
-      "busqueda": "rocadeira aparador grama a bateria recarregavel 460w profissional",
-      "nombre": "Roçadeira Aparador Grama A Bateria Recarregável 460w Profissional Com Acessórios Tcg12b The Black Tools",
-      "precio_ref": 142.5,
+      "busqueda": "celular samsung galaxy a17 com ia 128gb 4gb",
+      "nombre": "Celular Samsung Galaxy A17 Com Ia, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
+      "precio_ref": 819.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a36 5g 128gb 6gb ram",
@@ -473,7 +473,7 @@
       "precio_ref": 1499.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     },
     {
       "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
@@ -481,7 +481,7 @@
       "precio_ref": 196.65,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:42:27+00:00"
+      "monitorizado_desde": "2026-10-09T19:49:25+00:00"
     }
   ]
 }
