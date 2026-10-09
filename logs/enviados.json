@@ -815,12 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "cupon-PELUCIAS10": {
-    "ts": "2026-10-07T23:26:58.146032",
-    "canales": {
-      "whatsapp": "2026-10-07T23:26:58.146032"
-    }
-  },
   "ml-bebedouro-fonte-automatico-caes-gatos-com-sen": {
     "ts": "2026-10-07T23:36:18.560038",
     "canales": {
@@ -3457,6 +3451,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
+    "ts": "2026-10-09T23:28:38.378074",
+    "canales": {
+      "whatsapp": "2026-10-09T23:28:38.378074"
+    },
+    "precio": 109.0,
+    "precios_publicados": [
+      109.0
     ]
   }
 }
