@@ -666,16 +666,6 @@
     ],
     "precio_min_publicado": 299.0
   },
-  "ml-cadeira-para-carro-com-isofix-0-a-36kg-360-sp": {
-    "ts": "2026-10-07T19:12:48.615912",
-    "canales": {
-      "whatsapp": "2026-10-07T19:12:48.615912"
-    },
-    "precio": 1064.0,
-    "precios_publicados": [
-      1064.0
-    ]
-  },
   "ml-filamento-pla-preto-velvet-aveludado-1kg-para": {
     "ts": "2026-10-07T19:20:25.004742",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 3999.0,
     "precios_publicados": [
       3999.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
+    "ts": "2026-10-09T19:15:25.358574",
+    "canales": {
+      "whatsapp": "2026-10-09T19:15:25.358574"
+    },
+    "precio": 865.0,
+    "precios_publicados": [
+      865.0
     ]
   }
 }
