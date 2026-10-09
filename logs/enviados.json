@@ -616,12 +616,6 @@
     ],
     "precio_min_publicado": 493.0
   },
-  "cupon-GARANTAMEUDESCONTO": {
-    "ts": "2026-10-07T17:48:02.139032",
-    "canales": {
-      "whatsapp": "2026-10-07T17:48:02.139032"
-    }
-  },
   "ml-cama-elastica-trampolim-justfun-de-140-m-para": {
     "ts": "2026-10-08T17:51:11.363659",
     "canales": {
@@ -3410,6 +3404,16 @@
     "precio": 4443.0,
     "precios_publicados": [
       4443.0
+    ]
+  },
+  "ml-bicicleta-de-equilibrio-infantil-andador-sem-": {
+    "ts": "2026-10-09T17:50:22.572630",
+    "canales": {
+      "whatsapp": "2026-10-09T17:50:22.572630"
+    },
+    "precio": 101.0,
+    "precios_publicados": [
+      101.0
     ]
   }
 }
