@@ -178,6 +178,7 @@ def main():
         "REGISTRO": cv.REGISTRO,
         "LOG_FILE": cv.LOG_FILE,
         "DRY": cv.DRY,
+        "BASE": cv.BASE,
         "refrescar_fuente": cv.refrescar_fuente,
         "publicar": cv.publicar,
         "link_afiliado_cupones": cv.link_afiliado_cupones,
@@ -185,6 +186,10 @@ def main():
     cv.CUPONES_JSON = cupones_tmp
     cv.REGISTRO = registro_tmp
     cv.LOG_FILE = tmp / "logs" / "ejecucion.log"
+    # BASE al temporal: así `codigos_de_la_cuenta()` no encuentra
+    # cupones_cuenta.json y no filtra por cuenta (que es lo que quiere esta
+    # prueba: aquí los cupones son inventados a propósito).
+    cv.BASE = tmp
     cv.DRY = False
     cv.refrescar_fuente = lambda: False
     cv.link_afiliado_cupones = lambda: (link_largo, False)
@@ -298,11 +303,38 @@ def main():
         check("un cupón de tienda no monetizada no se publica",
               not enviados_fake, f"-> {enviados_fake}")
 
+        # 6h. FILTRO DE CUENTA (2026-10-09): el vigía publicaba códigos que el
+        # dueño del canal NO tiene activados (medido: 5 de 8 en 24 h:
+        # SALVAMEUBOLSO, PROMOBRINQUEDOS, MELHORDODIA, SPORTS1010,
+        # OPORTUNIDADEML). Un código que él no tiene no le sirve a nadie.
+        (tmp / "cupones_cuenta.json").write_text(json.dumps({"cupones": [
+            {"codigo": "ENMICUENTA", "tienda": "Mercado Livre", "desconto": "30% OFF",
+             "hasta": "2026-12-31", "fonte": "cuenta ML"},
+        ]}), encoding="utf-8")
+        enviados_fake.clear()
+        escribir_cupones([
+            {"codigo": "NOACTIVADO", "tienda": "Mercado Livre", "fonte": "ML Oficial",
+             "desconto": "30% OFF", "detectado_em": detectado(0.1)},
+        ])
+        cv.main()
+        check("un cupón que NO está activado en la cuenta no se publica",
+              not enviados_fake, f"-> {enviados_fake}")
+        enviados_fake.clear()
+        escribir_cupones([
+            {"codigo": "ENMICUENTA", "tienda": "Mercado Livre", "fonte": "ML Oficial",
+             "desconto": "30% OFF", "detectado_em": detectado(0.1)},
+        ])
+        cv.main()
+        check("un cupón SÍ activado en la cuenta se publica",
+              enviados_fake == ["ENMICUENTA"], f"-> {enviados_fake}")
+        (tmp / "cupones_cuenta.json").unlink()
+
     finally:
         cv.CUPONES_JSON = guardado["CUPONES_JSON"]
         cv.REGISTRO = guardado["REGISTRO"]
         cv.LOG_FILE = guardado["LOG_FILE"]
         cv.DRY = guardado["DRY"]
+        cv.BASE = guardado["BASE"]
         cv.refrescar_fuente = guardado["refrescar_fuente"]
         cv.publicar = guardado["publicar"]
         cv.link_afiliado_cupones = guardado["link_afiliado_cupones"]

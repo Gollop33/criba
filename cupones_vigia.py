@@ -407,6 +407,30 @@ def publicar(mensaje, codigo):
     return True
 
 
+def codigos_de_la_cuenta():
+    """
+    Códigos ACTIVADOS en la cuenta del usuario (cupones_cuenta.json).
+
+    POR QUÉ ESTO ES UN REQUISITO (2026-10-09): el vigía publicaba cualquier
+    código nuevo que apareciera en la página de cupones de ML o en el canal de
+    Telegram. Medido: de los 8 cupones sueltos publicados en 24 h, **5 NO
+    estaban activados en su cuenta** (SALVAMEUBOLSO, PROMOBRINQUEDOS,
+    MELHORDODIA, SPORTS1010, OPORTUNIDADEML). Un código que el dueño del canal
+    no tiene activado no le sirve a nadie del grupo: si alguien lo usa y no
+    aplica, el que queda mal es el canal.
+
+    Si el archivo no existe, se devuelve un conjunto vacío y NO se filtra (para
+    no dejar el bot mudo si alguien borra el archivo).
+    """
+    try:
+        d = json.loads((BASE / "cupones_cuenta.json").read_text(encoding="utf-8-sig"))
+        return {str(c.get("codigo")).strip().upper()
+                for c in (d.get("cupones") or [])
+                if isinstance(c, dict) and c.get("codigo")}
+    except Exception:
+        return set()
+
+
 def main():
     print("=" * 66)
     print("  CRIBA · VIGÍA DE CUPONES" + ("  [MODO DRY]" if DRY else ""))
@@ -453,6 +477,12 @@ def main():
 
     # ── DETECCIÓN ─────────────────────────────────────────────────────────────
     ya_vistos = registro_previo.get("codigos") or {}
+    cuenta = codigos_de_la_cuenta()
+    if cuenta:
+        log(f"Cupones activados en la cuenta del usuario: {len(cuenta)}. "
+            f"Solo esos se publican.")
+    else:
+        log("⚠️  Sin cupones_cuenta.json: no se filtra por cuenta.")
     candidatos = []
     for c in cupones:
         codigo = str(c.get("codigo") or "").strip().upper()
@@ -468,6 +498,17 @@ def main():
                     "publicado_em": None,
                     "motivo": motivo,
                 }
+            continue
+        # FILTRO DE CUENTA: solo se publica lo que el dueño del canal tiene
+        # activado. Un código que no está en su cuenta no se puede usar.
+        if cuenta and codigo not in cuenta:
+            log(f"Descartado {codigo}: no está ACTIVADO en la cuenta del usuario")
+            ya_vistos[codigo] = {
+                "detectado_em": (c.get("detectado_em") or c.get("capturado_em")
+                                 or datetime.now(timezone.utc).isoformat(timespec="seconds")),
+                "publicado_em": None,
+                "motivo": "no está activado en la cuenta del usuario",
+            }
             continue
         candidatos.append((codigo, c))
 
