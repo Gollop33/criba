@@ -665,22 +665,6 @@
     ],
     "precio_min_publicado": 299.0
   },
-  "cupon-VIPNOML": {
-    "ts": "2026-10-07T18:42:39.459097",
-    "canales": {
-      "whatsapp": "2026-10-07T18:42:39.459097"
-    }
-  },
-  "ml-monitor-lg-ultrawide-tela-ips-de-29-219-hdr10": {
-    "ts": "2026-10-07T18:46:06.095438",
-    "canales": {
-      "whatsapp": "2026-10-07T18:46:06.095438"
-    },
-    "precio": 969.0,
-    "precios_publicados": [
-      969.0
-    ]
-  },
   "cupon-PEGAESSAPROMO": {
     "ts": "2026-10-07T18:54:16.051015",
     "canales": {
@@ -1980,14 +1964,16 @@
     ]
   },
   "ml-caixa-de-som-boombox-plus-aiwa-bbs01bg-200w-b": {
-    "ts": "2026-10-08T18:45:45.746668",
+    "ts": "2026-10-09T18:47:05.831675",
     "canales": {
-      "whatsapp": "2026-10-08T18:45:45.746668"
+      "whatsapp": "2026-10-09T18:47:05.831675"
     },
     "precio": 1149.0,
     "precios_publicados": [
+      1149.0,
       1149.0
-    ]
+    ],
+    "precio_min_publicado": 1149.0
   },
   "ml-kit-4-camiseta-dryfit-sandrini-masculina-acad": {
     "ts": "2026-10-08T18:52:59.157835",
