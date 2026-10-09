@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-notebook-asus-tuf-gaming-f16-fx607vu-rtx4050-": {
-    "ts": "2026-10-07T00:25:25.783474",
-    "canales": {
-      "whatsapp": "2026-10-07T00:25:25.783474"
-    },
-    "precio": 7199.0,
-    "precios_publicados": [
-      7199.0
-    ]
-  },
   "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
     "ts": "2026-10-07T00:33:49.568773",
     "canales": {
@@ -2917,5 +2907,15 @@
     "canales": {
       "whatsapp": "2026-10-09T00:22:56.991905"
     }
+  },
+  "amz-pack-racao-umida-whiskas-sache-carnefrangoatu": {
+    "ts": "2026-10-09T00:29:47.047348",
+    "canales": {
+      "whatsapp": "2026-10-09T00:29:47.047348"
+    },
+    "precio": 48.0,
+    "precios_publicados": [
+      48.0
+    ]
   }
 }
