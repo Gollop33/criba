@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-09T09:56:30+00:00",
+  "actualizado": "2026-10-09T10:00:33+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -17,39 +17,7 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
-      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
-      "precio_ref": 13.66,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
-      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
-      "precio_ref": 29.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete liquido oleo de banho 200ml limpeza",
-      "nombre": "NIVEA Sabonete Líquido Óleo de Banho 200ml, Limpeza Corporal, Pele Macia, 55% Óleos Naturais, Sensação Hidratante",
-      "precio_ref": 32.91,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
-      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
-      "precio_ref": 113.49,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "mouse gamer logitech g203 lightsync rgb efeito de",
@@ -57,223 +25,15 @@
       "precio_ref": 85.4,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
-      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
-      "precio_ref": 52.8,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "kit 2 comedouro alto elevado mick p caes",
-      "nombre": "Kit 2 Comedouro Alto Elevado Mick P/ Caes E Gatos 350ml",
-      "precio_ref": 61.11,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
-      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
-      "precio_ref": 47.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
-      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
-      "precio_ref": 497.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "tramontina jogo facas inox 4pc plenus pre preto",
-      "nombre": "Tramontina JOGO FACAS INOX 4PC PLENUS PRE, Preto",
-      "precio_ref": 27.54,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 109.9,
+      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
+      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
+      "precio_ref": 29.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "fralda turma da monica baby mega m 50",
-      "nombre": "Fralda Turma da Mônica Baby Mega M 50 Unidades",
-      "precio_ref": 35.77,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "armario de cozinha compacta xangai multimoveis vm2840 branco",
-      "nombre": "Armário de Cozinha Compacta Xangai Multimóveis VM2840 Branco/Lacca Fumê",
-      "precio_ref": 468.8,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "serum hidratante corporal para pele com tom irregular",
-      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
-      "precio_ref": 29.89,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "relogio smartwatch bettdow fb050 gps tela amoled 1",
-      "nombre": "Relógio Smartwatch Bettdow Fb050 Gps Tela Amoled 1.43 Cinza",
-      "precio_ref": 266.8,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
-      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
-      "precio_ref": 26.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "comedouro de sementes para calopsitas automatico fim sujeira",
-      "nombre": "Comedouro De Sementes Para Calopsitas Automatico Fim Sujeira Branco",
-      "precio_ref": 31.87,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics",
-      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics",
-      "precio_ref": 21.9,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "projetor netflix 8k profissional 1000ansi portatil 35000lm 5g",
-      "nombre": "Projetor Netflix 8k Profissional 1000ANSI Portátil 35000lm 5G/2.4G Wifi Bluetooth 4K Full Hd",
-      "precio_ref": 1129.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "filtro refil original de agua acqua pure para",
-      "nombre": "Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux PE12A/PE12B/PE12G/PE12V/PE12P",
-      "precio_ref": 54.14,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "testo essencial formula exclusiva com feno grego boro",
-      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
-      "precio_ref": 39.74,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
-      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
-      "precio_ref": 64.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "carregador 30w turbo para iphone 8 x xr",
-      "nombre": "Carregador 30w Turbo Para iPhone 8 X Xr 11 12 13 14 Pro Max Fonte Usb C Cor Branca Dtimp",
-      "precio_ref": 44.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 42.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
-      "nombre": "Creatina Monohidratada 500g Pouch - Growth Supplements Sem Sabor",
-      "precio_ref": 59.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
-      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
-      "precio_ref": 55.55,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "caixa de som boombox plus aiwa bbs 01",
-      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
-      "precio_ref": 1149.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "bepantol derma rosa mosqueta hidratante multirrestaurador 20g rosa",
-      "nombre": "Bepantol Derma Rosa Mosqueta Hidratante Multirrestaurador 20g | Rosa Mosqueta 20g, Com dexpantenol, Uniformiza o tom, Rápida",
-      "precio_ref": 29.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "bicicleta equilibrio brinq kids sem pedal andador infantil",
-      "nombre": "Bicicleta Equilíbrio Brinq Kids Sem Pedal Andador Infantil Azul 4 Rodas",
-      "precio_ref": 59.9,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
-      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
-      "precio_ref": 48.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
-      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "precio_ref": 59.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "la roche posay ultra cover protetor solar com",
@@ -281,31 +41,143 @@
       "precio_ref": 67.4,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "racao quatree life gatos ad castrados 10 1kg",
-      "nombre": "Ração Quatree Life gatos ad castrados 10,1kg sem transgênicos",
-      "precio_ref": 148.69,
+      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
+      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
+      "precio_ref": 113.49,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
+      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
+      "precio_ref": 48.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
+      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 33.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
+      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
+      "precio_ref": 47.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "kit 2 comedouro alto elevado mick p caes",
+      "nombre": "Kit 2 Comedouro Alto Elevado Mick P/ Caes E Gatos 350ml",
+      "precio_ref": 61.11,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "granado colonia terrapeutics cardamomo e gengibre 230ml",
-      "nombre": "Granado Colônia Terrapeutics, Cardamomo E Gengibre, 230ml",
-      "precio_ref": 62.68,
-      "categoria": "Perfumes & Fragrâncias",
+      "busqueda": "serum hidratante corporal para pele com tom irregular",
+      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
+      "precio_ref": 29.89,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "cama elastica pula pula infantil trampolim 1 4",
-      "nombre": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
-      "precio_ref": 259.9,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
+      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
+      "precio_ref": 497.9,
+      "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "filtro refil original de agua acqua pure para",
+      "nombre": "Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux PE12A/PE12B/PE12G/PE12V/PE12P",
+      "precio_ref": 54.14,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
+      "precio_ref": 109.9,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
+      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
+      "precio_ref": 64.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "armario de cozinha compacta xangai multimoveis vm2840 branco",
+      "nombre": "Armário de Cozinha Compacta Xangai Multimóveis VM2840 Branco/Lacca Fumê",
+      "precio_ref": 468.8,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "bepantol baby pomada assadura bebe hipoalergenica 100g 100g",
+      "nombre": "Bepantol Baby Pomada Assadura Bebe, Hipoalergênica, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente test",
+      "precio_ref": 41.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "relogio smartwatch bettdow fb050 gps tela amoled 1",
+      "nombre": "Relógio Smartwatch Bettdow Fb050 Gps Tela Amoled 1.43 Cinza",
+      "precio_ref": 266.8,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
+      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
+      "precio_ref": 55.55,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "comedouro de sementes para calopsitas automatico fim sujeira",
+      "nombre": "Comedouro De Sementes Para Calopsitas Automatico Fim Sujeira Branco",
+      "precio_ref": 31.87,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 42.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "projetor netflix 8k profissional 1000ansi portatil 35000lm 5g",
+      "nombre": "Projetor Netflix 8k Profissional 1000ANSI Portátil 35000lm 5G/2.4G Wifi Bluetooth 4K Full Hd",
+      "precio_ref": 1129.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "skin care hidratante facial garnier uniform matte toque",
@@ -313,143 +185,47 @@
       "precio_ref": 28.2,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "mesa home office escrivaninha industrial quarto notebook",
-      "nombre": "Mesa Home Office Escrivaninha Industrial Quarto Notebook",
-      "precio_ref": 132.88,
-      "categoria": "Casa & Móveis",
+      "busqueda": "testo essencial formula exclusiva com feno grego boro",
+      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
+      "precio_ref": 39.74,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
-      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
-      "precio_ref": 37.3,
+      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
+      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
+      "precio_ref": 52.8,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "carregador 30w turbo para iphone 8 x xr",
+      "nombre": "Carregador 30w Turbo Para iPhone 8 X Xr 11 12 13 14 Pro Max Fonte Usb C Cor Branca Dtimp",
+      "precio_ref": 44.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
+      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
+      "precio_ref": 26.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
-      "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
-      "nombre": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness Preto E Vermelho Sevenfit Para Cardio",
-      "precio_ref": 458.9,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "loreal professionnel absolut repair shampoo refil com proteina",
-      "nombre": "L’Oréal Professionnel | Absolut Repair Shampoo Refil | Com Proteína e Quinoa Dourada para cabelos danificados e secos | SERIE",
-      "precio_ref": 60.63,
+      "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
+      "nombre": "Creatina Monohidratada 500g Pouch - Growth Supplements Sem Sabor",
+      "precio_ref": 59.9,
       "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "caixa de som boombox aiwa aws bbs 01",
-      "nombre": "Caixa De Som Boombox Aiwa AWS-BBS-01-B 200w IP66 30hs De Bateria",
-      "precio_ref": 1195.0,
-      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "weleda babycreme de calendula protecao natural contra assaduras",
-      "nombre": "Weleda Babycreme de Calêndula | Proteção Natural Contra Assaduras | Fórmula Suave com Calêndula e Camomila | 120 ml",
-      "precio_ref": 35.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes vidro hermetico vai ao forno",
-      "nombre": "Kit 10 Potes Vidro Hermetico Vai Ao Forno Microondas 640ml",
-      "precio_ref": 97.62,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "sanduicheira eletrica cadence click 127v",
-      "nombre": "Sanduicheira Elétrica Cadence Click - 127V",
-      "precio_ref": 75.34,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "tenis kappa pulse rx unissex corrida conforto",
-      "nombre": "Tênis Kappa Pulse Rx Unissex Corrida Conforto",
-      "precio_ref": 132.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
-      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
-      "precio_ref": 35.6,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "bicicleta de equilibrio infantil andador sem pedal 4",
-      "nombre": "Bicicleta De Equilíbrio Infantil Andador Sem Pedal 4 Rodas Rosa",
-      "precio_ref": 101.11,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
-      "nombre": "Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas | Marmitas Reutilizáveis | Vedação Total | Refratário para Forno,",
-      "precio_ref": 84.2,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "baba eletronica monitor 2 4 sem fio zoom",
-      "nombre": "Babá Eletrônica Monitor 2.4 Sem Fio Zoom Baby On Maxi Baby",
-      "precio_ref": 209.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "lencos umedecidos huggies recem nascido sem fragrancia 6x48u",
-      "nombre": "Lenços Umedecidos Huggies Recém-Nascido Sem Fragrância 6x48U",
-      "precio_ref": 54.9,
-      "categoria": "Perfumes & Fragrâncias",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "colchao antiescara pneumatico de ar inflavel para acamados",
-      "nombre": "Colchão Antiescara Pneumático De Ar Inflável Para Acamados",
-      "precio_ref": 199.99,
-      "categoria": "Automotivo",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "frigideira rochedo stone pro 24cm preto com efeito",
-      "nombre": "Frigideira Rochedo Stone Pro 24cm Preto com Efeito Pedra e Antiaderente Minerium, Alta Resistência e Durabilidade, Cabos Ergo",
-      "precio_ref": 71.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
-    },
-    {
-      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
-      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
-      "precio_ref": 196.5,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
@@ -457,7 +233,167 @@
       "precio_ref": 44.49,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "caixa de som boombox plus aiwa bbs 01",
+      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
+      "precio_ref": 1149.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics",
+      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics",
+      "precio_ref": 21.9,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "bicicleta equilibrio brinq kids sem pedal andador infantil",
+      "nombre": "Bicicleta Equilíbrio Brinq Kids Sem Pedal Andador Infantil Azul 4 Rodas",
+      "precio_ref": 59.9,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "cerave gel de limpeza facial para pele oleosa",
+      "nombre": "CeraVe, Gel de Limpeza Facial para pele oleosa, com Ácido Hialurônico e Niacinamida",
+      "precio_ref": 83.99,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
+      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "precio_ref": 59.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "loreal professionnel absolut repair shampoo refil com proteina",
+      "nombre": "L’Oréal Professionnel | Absolut Repair Shampoo Refil | Com Proteína e Quinoa Dourada para cabelos danificados e secos | SERIE",
+      "precio_ref": 60.63,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "racao quatree life gatos ad castrados 10 1kg",
+      "nombre": "Ração Quatree Life gatos ad castrados 10,1kg sem transgênicos",
+      "precio_ref": 148.69,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "granado colonia terrapeutics cardamomo e gengibre 230ml",
+      "nombre": "Granado Colônia Terrapeutics, Cardamomo E Gengibre, 230ml",
+      "precio_ref": 62.68,
+      "categoria": "Perfumes & Fragrâncias",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "cama elastica pula pula infantil trampolim 1 4",
+      "nombre": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
+      "precio_ref": 259.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "sanduicheira eletrica cadence click 127v",
+      "nombre": "Sanduicheira Elétrica Cadence Click - 127V",
+      "precio_ref": 75.34,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
+      "nombre": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness Preto E Vermelho Sevenfit Para Cardio",
+      "precio_ref": 458.9,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "weleda babycreme de calendula protecao natural contra assaduras",
+      "nombre": "Weleda Babycreme de Calêndula | Proteção Natural Contra Assaduras | Fórmula Suave com Calêndula e Camomila | 120 ml",
+      "precio_ref": 35.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "mesa home office escrivaninha industrial quarto notebook",
+      "nombre": "Mesa Home Office Escrivaninha Industrial Quarto Notebook",
+      "precio_ref": 132.88,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
+      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
+      "precio_ref": 37.3,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "caixa de som boombox aiwa aws bbs 01",
+      "nombre": "Caixa De Som Boombox Aiwa AWS-BBS-01-B 200w IP66 30hs De Bateria",
+      "precio_ref": 1195.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "bepantol derma rosa mosqueta hidratante multirrestaurador 20g rosa",
+      "nombre": "Bepantol Derma Rosa Mosqueta Hidratante Multirrestaurador 20g | Rosa Mosqueta 20g, Com dexpantenol, Uniformiza o tom, Rápida",
+      "precio_ref": 29.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "tenis kappa pulse rx unissex corrida conforto",
+      "nombre": "Tênis Kappa Pulse Rx Unissex Corrida Conforto",
+      "precio_ref": 132.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "frigideira rochedo stone pro 24cm preto com efeito",
+      "nombre": "Frigideira Rochedo Stone Pro 24cm Preto com Efeito Pedra e Antiaderente Minerium, Alta Resistência e Durabilidade, Cabos Ergo",
+      "precio_ref": 71.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "bicicleta de equilibrio infantil andador sem pedal 4",
+      "nombre": "Bicicleta De Equilíbrio Infantil Andador Sem Pedal 4 Rodas Rosa",
+      "precio_ref": 101.11,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "fralda turma da monica baby mega m 50",
+      "nombre": "Fralda Turma da Mônica Baby Mega M 50 Unidades",
+      "precio_ref": 35.77,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "projetor android 4k fv08 smart led netflix 5g",
@@ -465,7 +401,71 @@
       "precio_ref": 542.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "mochila lenovo casual b210 preta para notebook 15",
+      "nombre": "Mochila Lenovo Casual B210 Preta para Notebook 15,6\" - GX40Q17225",
+      "precio_ref": 74.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "colchao antiescara pneumatico de ar inflavel para acamados",
+      "nombre": "Colchão Antiescara Pneumático De Ar Inflável Para Acamados",
+      "precio_ref": 199.99,
+      "categoria": "Automotivo",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
+      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
+      "precio_ref": 17.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "cozinha de brinquedo infantil completa princess replay kids",
+      "nombre": "Cozinha De Brinquedo Infantil Completa Princess Replay Kids",
+      "precio_ref": 98.91,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
+      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
+      "precio_ref": 35.6,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "berco portatil balanco moises sleepguard cobed bege ragaluma",
+      "nombre": "Berço Portátil Balanço Moises Sleepguard Cobed Bege Ragaluma Bege",
+      "precio_ref": 551.07,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
+      "nombre": "Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas | Marmitas Reutilizáveis | Vedação Total | Refratário para Forno,",
+      "precio_ref": 84.2,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
+      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+      "precio_ref": 196.5,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "bellacotton algodao quadrado baby 100 algodao macio 100",
@@ -473,7 +473,7 @@
       "precio_ref": 26.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     },
     {
       "busqueda": "projetor portatil mini hy300 4k full hd 1080p",
@@ -481,7 +481,7 @@
       "precio_ref": 171.45,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T09:56:30+00:00"
+      "monitorizado_desde": "2026-10-09T10:00:33+00:00"
     }
   ]
 }
