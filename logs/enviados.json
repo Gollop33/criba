@@ -616,22 +616,6 @@
     ],
     "precio_min_publicado": 493.0
   },
-  "cupon-TUDOEMPROMO": {
-    "ts": "2026-10-07T17:41:00.928272",
-    "canales": {
-      "whatsapp": "2026-10-07T17:41:00.928272"
-    }
-  },
-  "ml-basike-fone-de-ouvido-bluetooth-tws-gamer-esp": {
-    "ts": "2026-10-07T17:42:18.088104",
-    "canales": {
-      "whatsapp": "2026-10-07T17:42:18.088104"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "cupon-GARANTAMEUDESCONTO": {
     "ts": "2026-10-07T17:48:02.139032",
     "canales": {
@@ -3406,6 +3390,16 @@
     "precio": 4220.0,
     "precios_publicados": [
       4220.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-e1504fa-amd-ryzen-5": {
+    "ts": "2026-10-09T17:44:47.772754",
+    "canales": {
+      "whatsapp": "2026-10-09T17:44:47.772754"
+    },
+    "precio": 3299.0,
+    "precios_publicados": [
+      3299.0
     ]
   }
 }
