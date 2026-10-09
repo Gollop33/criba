@@ -226,16 +226,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "ml-proteina-max-titanium-whey-pro-concetrado-em-": {
-    "ts": "2026-10-07T10:23:05.457903",
-    "canales": {
-      "whatsapp": "2026-10-07T10:23:05.457903"
-    },
-    "precio": 77.0,
-    "precios_publicados": [
-      77.0
-    ]
-  },
   "ml-creatina-monohidratada-500g-pouch-growth-supp": {
     "ts": "2026-10-08T10:55:46.302238",
     "canales": {
@@ -3212,6 +3202,16 @@
     "precio": 54.0,
     "precios_publicados": [
       54.0
+    ]
+  },
+  "amz-fralda-turma-da-monica-baby-mega-m-50-unidade": {
+    "ts": "2026-10-09T10:28:39.624668",
+    "canales": {
+      "whatsapp": "2026-10-09T10:28:39.624668"
+    },
+    "precio": 35.0,
+    "precios_publicados": [
+      35.0
     ]
   }
 }
