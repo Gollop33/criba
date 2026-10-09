@@ -802,12 +802,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "cupon-QCABECA15": {
-    "ts": "2026-10-07T22:10:45.565451",
-    "canales": {
-      "whatsapp": "2026-10-07T22:10:45.565451"
-    }
-  },
   "cupom-ml-lote1-2026100722": {
     "ts": "2026-10-07T22:13:04.008880",
     "canales": {
@@ -3472,6 +3466,16 @@
     "precio": 875.0,
     "precios_publicados": [
       875.0
+    ]
+  },
+  "ml-bebedouro-para-gatos-sem-fio-com-sensor-32-l-": {
+    "ts": "2026-10-09T22:11:49.525184",
+    "canales": {
+      "whatsapp": "2026-10-09T22:11:49.525184"
+    },
+    "precio": 176.0,
+    "precios_publicados": [
+      176.0
     ]
   }
 }
