@@ -766,16 +766,6 @@
     ],
     "precio_min_publicado": 1890.0
   },
-  "ml-kit-12-bebida-whey-piracanjuba-0-lactose-sabo": {
-    "ts": "2026-10-07T21:24:33.622315",
-    "canales": {
-      "whatsapp": "2026-10-07T21:24:33.622315"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
   "ml-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-10-08T23:50:25.481065",
     "canales": {
@@ -3444,6 +3434,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
+    "ts": "2026-10-09T21:24:34.586792",
+    "canales": {
+      "whatsapp": "2026-10-09T21:24:34.586792"
+    },
+    "precio": 85.0,
+    "precios_publicados": [
+      85.0
     ]
   }
 }
