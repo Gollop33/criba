@@ -653,16 +653,6 @@
     ],
     "precio_min_publicado": 1099.0
   },
-  "ml-power-bank-baseus-turbo-bipow2-pro-20000mah-2": {
-    "ts": "2026-10-07T18:25:56.936602",
-    "canales": {
-      "whatsapp": "2026-10-07T18:25:56.936602"
-    },
-    "precio": 177.0,
-    "precios_publicados": [
-      177.0
-    ]
-  },
   "ml-berco-portatil-infantil-cercado-desmontavel-l": {
     "ts": "2026-10-08T18:36:53.360702",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
+    "ts": "2026-10-09T18:34:10.414355",
+    "canales": {
+      "whatsapp": "2026-10-09T18:34:10.414355"
+    },
+    "precio": 2310.0,
+    "precios_publicados": [
+      2310.0
     ]
   }
 }
