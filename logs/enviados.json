@@ -2052,14 +2052,16 @@
     ]
   },
   "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
-    "ts": "2026-10-09T17:58:22.446396",
+    "ts": "2026-10-10T19:24:26.731601",
     "canales": {
-      "whatsapp": "2026-10-09T17:58:22.446396"
+      "whatsapp": "2026-10-10T19:24:26.731601"
     },
     "precio": 5499.0,
     "precios_publicados": [
+      5499.0,
       5499.0
-    ]
+    ],
+    "precio_min_publicado": 5499.0
   },
   "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
     "ts": "2026-10-10T18:46:10.754123",
