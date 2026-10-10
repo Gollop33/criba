@@ -889,16 +889,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
-    "ts": "2026-10-08T05:28:57.603374",
-    "canales": {
-      "whatsapp": "2026-10-08T05:28:57.603374"
-    },
-    "precio": 296.0,
-    "precios_publicados": [
-      296.0
-    ]
-  },
   "ml-extensor-mesh-wifi6-ex1500-preto-intelbras": {
     "ts": "2026-10-08T05:56:43.956740",
     "canales": {
@@ -3481,6 +3471,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
+    "ts": "2026-10-10T05:30:14.721848",
+    "canales": {
+      "whatsapp": "2026-10-10T05:30:14.721848"
+    },
+    "precio": 80.0,
+    "precios_publicados": [
+      80.0
     ]
   }
 }
