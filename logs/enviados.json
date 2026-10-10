@@ -290,18 +290,6 @@
     ],
     "precio_min_publicado": 459.0
   },
-  "ml-mini-scooter-moto-eletrica-frente-e-re-bateri": {
-    "ts": "2026-10-08T17:03:41.829325",
-    "canales": {
-      "whatsapp": "2026-10-08T17:03:41.829325"
-    },
-    "precio": 398.0,
-    "precios_publicados": [
-      398.0,
-      398.0
-    ],
-    "precio_min_publicado": 398.0
-  },
   "ml-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
     "ts": "2026-10-08T22:31:57.740273",
     "canales": {
@@ -3644,6 +3632,16 @@
     "precio": 190.0,
     "precios_publicados": [
       190.0
+    ]
+  },
+  "amz-kit-10-potes-de-vidro-borossilicato-640ml-her": {
+    "ts": "2026-10-10T17:10:12.903606",
+    "canales": {
+      "whatsapp": "2026-10-10T17:10:12.903606"
+    },
+    "precio": 87.0,
+    "precios_publicados": [
+      87.0
     ]
   }
 }
