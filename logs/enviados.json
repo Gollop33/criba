@@ -890,12 +890,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "cupom-ml-lote1-2026100808": {
-    "ts": "2026-10-08T08:05:55.826892",
-    "canales": {
-      "whatsapp": "2026-10-08T08:05:55.826892"
-    }
-  },
   "cupom-ml-lote2-2026100808": {
     "ts": "2026-10-08T08:40:13.107517",
     "canales": {
@@ -3492,6 +3486,16 @@
     "precio": 171.0,
     "precios_publicados": [
       171.0
+    ]
+  },
+  "amz-nintendo-switch-2-pro-controller": {
+    "ts": "2026-10-10T08:34:58.628396",
+    "canales": {
+      "whatsapp": "2026-10-10T08:34:58.628396"
+    },
+    "precio": 529.0,
+    "precios_publicados": [
+      529.0
     ]
   }
 }
