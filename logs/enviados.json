@@ -654,16 +654,6 @@
     ],
     "precio_min_publicado": 569.0
   },
-  "ml-tenis-masculino-puma-bmw-motorsport-leve-conf": {
-    "ts": "2026-10-08T18:04:35.094367",
-    "canales": {
-      "whatsapp": "2026-10-08T18:04:35.094367"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
   "ml-relogio-inteligente-smartwatch-gps-autonomo-a": {
     "ts": "2026-10-08T18:13:06.328517",
     "canales": {
@@ -3596,6 +3586,16 @@
     "precio": 413.0,
     "precios_publicados": [
       413.0
+    ]
+  },
+  "amz-batedeira-planetaria-oster-bowl-inox-iii-127v": {
+    "ts": "2026-10-10T18:04:35.858167",
+    "canales": {
+      "whatsapp": "2026-10-10T18:04:35.858167"
+    },
+    "precio": 365.0,
+    "precios_publicados": [
+      365.0
     ]
   }
 }
