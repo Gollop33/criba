@@ -815,26 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-smartphone-samsung-galaxy-a36-5g-256gb-8gb-su": {
-    "ts": "2026-10-08T00:09:31.091319",
-    "canales": {
-      "whatsapp": "2026-10-08T00:09:31.091319"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0
-    ]
-  },
-  "ml-cadeira-de-escritorio-giratoria-homenow-colum": {
-    "ts": "2026-10-08T00:12:14.310521",
-    "canales": {
-      "whatsapp": "2026-10-08T00:12:14.310521"
-    },
-    "precio": 381.0,
-    "precios_publicados": [
-      381.0
-    ]
-  },
   "cupon-BONECAS10": {
     "ts": "2026-10-08T00:22:00.756523",
     "canales": {
@@ -3437,6 +3417,16 @@
     "precio": 8999.0,
     "precios_publicados": [
       8999.0
+    ]
+  },
+  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
+    "ts": "2026-10-10T00:15:26.371084",
+    "canales": {
+      "whatsapp": "2026-10-10T00:15:26.371084"
+    },
+    "precio": 4649.0,
+    "precios_publicados": [
+      4649.0
     ]
   }
 }
