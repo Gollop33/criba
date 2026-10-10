@@ -877,16 +877,6 @@
     ],
     "precio_min_publicado": 1719.0
   },
-  "amz-limpador-multiuso-veja-gold-original-750ml-em": {
-    "ts": "2026-10-08T02:05:27.224128",
-    "canales": {
-      "whatsapp": "2026-10-08T02:05:27.224128"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
   "cupon-MLCOMPRANDO": {
     "ts": "2026-10-08T02:40:18.081465",
     "canales": {
@@ -3431,6 +3421,16 @@
     "precio": 769.0,
     "precios_publicados": [
       769.0
+    ]
+  },
+  "ml-geleia-de-abacaxi-com-pimenta-zero-acucar-100": {
+    "ts": "2026-10-10T02:07:37.650113",
+    "canales": {
+      "whatsapp": "2026-10-10T02:07:37.650113"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
