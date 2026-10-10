@@ -666,16 +666,6 @@
     ],
     "precio_min_publicado": 569.0
   },
-  "ml-fechadura-eletronica-digital-com-biometria-se": {
-    "ts": "2026-10-08T17:45:48.292495",
-    "canales": {
-      "whatsapp": "2026-10-08T17:45:48.292495"
-    },
-    "precio": 287.0,
-    "precios_publicados": [
-      287.0
-    ]
-  },
   "ml-balanca-comercial-digital-toledo-prix-4-uno-s": {
     "ts": "2026-10-08T17:53:19.806569",
     "canales": {
@@ -3628,6 +3618,16 @@
     "precio": 449.0,
     "precios_publicados": [
       449.0
+    ]
+  },
+  "ml-bicicleta-infantil-de-equilibrio-sem-pedal-an": {
+    "ts": "2026-10-10T17:51:04.823555",
+    "canales": {
+      "whatsapp": "2026-10-10T17:51:04.823555"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
