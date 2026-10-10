@@ -1926,14 +1926,16 @@
     }
   },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
-    "ts": "2026-10-09T00:18:55.864379",
+    "ts": "2026-10-10T00:20:58.106938",
     "canales": {
-      "whatsapp": "2026-10-09T00:18:55.864379"
+      "whatsapp": "2026-10-10T00:20:58.106938"
     },
     "precio": 40.0,
     "precios_publicados": [
+      40.0,
       40.0
-    ]
+    ],
+    "precio_min_publicado": 40.0
   },
   "cupon-MELHORDODIA": {
     "ts": "2026-10-09T00:22:56.991905",
