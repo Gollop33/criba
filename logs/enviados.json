@@ -892,16 +892,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "ml-suplemento-caes-nutrimais-pele-e-pelo-probiot": {
-    "ts": "2026-10-08T10:37:33.837645",
-    "canales": {
-      "whatsapp": "2026-10-08T10:37:33.837645"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
   "ml-suco-de-uva-e-maca-natural-one-ambiente-liqui": {
     "ts": "2026-10-08T10:43:36.236182",
     "canales": {
@@ -3644,6 +3634,16 @@
     "precio": 789.0,
     "precios_publicados": [
       789.0
+    ]
+  },
+  "ml-cozinha-infantil-completa-com-luz-e-som-acess": {
+    "ts": "2026-10-10T10:38:31.550157",
+    "canales": {
+      "whatsapp": "2026-10-10T10:38:31.550157"
+    },
+    "precio": 66.0,
+    "precios_publicados": [
+      66.0
     ]
   }
 }
