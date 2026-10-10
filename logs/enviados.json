@@ -795,16 +795,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "ml-cadeira-auto-isofix-360-ancora-0-a-12-anos-re": {
-    "ts": "2026-10-08T13:27:49.488975",
-    "canales": {
-      "whatsapp": "2026-10-08T13:27:49.488975"
-    },
-    "precio": 1287.0,
-    "precios_publicados": [
-      1287.0
-    ]
-  },
   "cupom-ml-lote1-2026100813": {
     "ts": "2026-10-08T13:58:17.877464",
     "canales": {
@@ -3667,6 +3657,16 @@
     "precio": 2955.0,
     "precios_publicados": [
       2955.0
+    ]
+  },
+  "ml-cadeira-sweet-studio-escritorio-ergonomica-gi": {
+    "ts": "2026-10-10T13:28:44.834622",
+    "canales": {
+      "whatsapp": "2026-10-10T13:28:44.834622"
+    },
+    "precio": 312.0,
+    "precios_publicados": [
+      312.0
     ]
   }
 }
