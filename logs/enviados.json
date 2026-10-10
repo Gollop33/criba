@@ -2097,14 +2097,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-10-09T19:05:11.542071",
+    "ts": "2026-10-10T20:10:03.033591",
     "canales": {
-      "whatsapp": "2026-10-09T19:05:11.542071"
+      "whatsapp": "2026-10-10T20:10:03.033591"
     },
     "precio": 3999.0,
     "precios_publicados": [
+      3999.0,
       3999.0
-    ]
+    ],
+    "precio_min_publicado": 3999.0
   },
   "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
     "ts": "2026-10-09T19:15:25.358574",
