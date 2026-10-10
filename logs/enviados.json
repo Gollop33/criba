@@ -263,30 +263,6 @@
     ],
     "precio_min_publicado": 135.0
   },
-  "ml-kit-10-pote-de-vidro-marmita-hermetico-640ml-": {
-    "ts": "2026-10-08T12:22:27.158792",
-    "canales": {
-      "whatsapp": "2026-10-08T12:22:27.158792"
-    },
-    "precio": 97.0,
-    "precios_publicados": [
-      97.0,
-      97.0
-    ],
-    "precio_min_publicado": 97.0
-  },
-  "ml-projetor-portatil-mini-hy300-4k-full-hd-1080p": {
-    "ts": "2026-10-08T12:19:44.885180",
-    "canales": {
-      "whatsapp": "2026-10-08T12:19:44.885180"
-    },
-    "precio": 174.0,
-    "precios_publicados": [
-      174.0,
-      174.0
-    ],
-    "precio_min_publicado": 174.0
-  },
   "ml-tablet-vaio-tl10-4gb-ram-128gb-octacore-tela-": {
     "ts": "2026-10-08T16:45:44.555309",
     "canales": {
@@ -3710,6 +3686,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-apple-iphone-16-128-gb-branco": {
+    "ts": "2026-10-10T12:22:55.987621",
+    "canales": {
+      "whatsapp": "2026-10-10T12:22:55.987621"
+    },
+    "precio": 5065.0,
+    "precios_publicados": [
+      5065.0
     ]
   }
 }
