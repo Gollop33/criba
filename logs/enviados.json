@@ -880,26 +880,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "ml-colchao-solteiro-molas-ensacadas-zidi-alabama": {
-    "ts": "2026-10-08T11:54:14.741601",
-    "canales": {
-      "whatsapp": "2026-10-08T11:54:14.741601"
-    },
-    "precio": 365.0,
-    "precios_publicados": [
-      365.0
-    ]
-  },
-  "ml-cesta-bau-cafe-da-manha-organizador-presentes": {
-    "ts": "2026-10-08T11:58:41.888451",
-    "canales": {
-      "whatsapp": "2026-10-08T11:58:41.888451"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "ml-basike-fone-de-ouvido-bluetooth-60-esportivo-": {
     "ts": "2026-10-08T12:05:38.059140",
     "canales": {
@@ -3720,6 +3700,16 @@
     "precio": 999.0,
     "precios_publicados": [
       999.0
+    ]
+  },
+  "ml-mesinha-atividades-infantil-didatica-mesa-beb": {
+    "ts": "2026-10-10T11:59:10.254443",
+    "canales": {
+      "whatsapp": "2026-10-10T11:59:10.254443"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
