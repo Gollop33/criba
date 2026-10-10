@@ -333,18 +333,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "ml-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-10-08T23:50:25.481065",
-    "canales": {
-      "whatsapp": "2026-10-08T23:50:25.481065"
-    },
-    "precio": 3648.0,
-    "precios_publicados": [
-      2861.0,
-      3648.0
-    ],
-    "precio_min_publicado": 2861.0
-  },
   "amz-balanca-de-cozinha-digital-premium-gourmet-re": {
     "ts": "2026-10-09T09:28:35.102426",
     "canales": {
@@ -1873,14 +1861,16 @@
     ]
   },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
-    "ts": "2026-10-09T20:31:37.548844",
+    "ts": "2026-10-10T23:54:25.927141",
     "canales": {
-      "whatsapp": "2026-10-09T20:31:37.548844"
+      "whatsapp": "2026-10-10T23:54:25.927141"
     },
     "precio": 38.0,
     "precios_publicados": [
+      38.0,
       38.0
-    ]
+    ],
+    "precio_min_publicado": 38.0
   },
   "amz-tapete-higienico-premium-para-caes-petlike-ul": {
     "ts": "2026-10-09T20:33:41.327027",
