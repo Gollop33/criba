@@ -664,26 +664,6 @@
     ],
     "precio_min_publicado": 569.0
   },
-  "ml-quarto-de-bebe-completo-com-berco-americano-3": {
-    "ts": "2026-10-08T17:19:29.769675",
-    "canales": {
-      "whatsapp": "2026-10-08T17:19:29.769675"
-    },
-    "precio": 1456.0,
-    "precios_publicados": [
-      1456.0
-    ]
-  },
-  "ml-bicicleta-infantil-aro-12-nathor-spiderman-co": {
-    "ts": "2026-10-08T17:23:05.807095",
-    "canales": {
-      "whatsapp": "2026-10-08T17:23:05.807095"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
   "ml-smartphone-samsung-galaxy-a17-4g-128gb-4gb-ra": {
     "ts": "2026-10-08T17:27:40.530962",
     "canales": {
@@ -1795,14 +1775,16 @@
     ]
   },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-10-09T13:07:49.575478",
+    "ts": "2026-10-10T17:26:52.156244",
     "canales": {
-      "whatsapp": "2026-10-09T13:07:49.575478"
+      "whatsapp": "2026-10-10T17:26:52.156244"
     },
     "precio": 75.0,
     "precios_publicados": [
+      75.0,
       75.0
-    ]
+    ],
+    "precio_min_publicado": 75.0
   },
   "amz-mochila-lenovo-casual-b210-preta-para-noteboo": {
     "ts": "2026-10-09T13:14:36.465963",
