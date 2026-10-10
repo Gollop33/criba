@@ -890,16 +890,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-10-08T07:31:23.082242",
-    "canales": {
-      "whatsapp": "2026-10-08T07:31:23.082242"
-    },
-    "precio": 1298.0,
-    "precios_publicados": [
-      1298.0
-    ]
-  },
   "cupom-ml-lote1-2026100808": {
     "ts": "2026-10-08T08:05:55.826892",
     "canales": {
@@ -3492,6 +3482,16 @@
     "precio": 369.0,
     "precios_publicados": [
       369.0
+    ]
+  },
+  "ml-relogio-inteligente-smartwatch-gps-autonomo-c": {
+    "ts": "2026-10-10T07:56:15.597981",
+    "canales": {
+      "whatsapp": "2026-10-10T07:56:15.597981"
+    },
+    "precio": 171.0,
+    "precios_publicados": [
+      171.0
     ]
   }
 }
