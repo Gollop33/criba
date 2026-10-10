@@ -890,12 +890,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "cupom-ml-lote2-2026100808": {
-    "ts": "2026-10-08T08:40:13.107517",
-    "canales": {
-      "whatsapp": "2026-10-08T08:40:13.107517"
-    }
-  },
   "ml-suplemento-caes-nutrimais-pele-e-pelo-probiot": {
     "ts": "2026-10-08T10:37:33.837645",
     "canales": {
@@ -1141,14 +1135,16 @@
     "precio_min_publicado": 104.0
   },
   "ml-jogo-de-panelas-smart-plus-vanilla-inducao-ce": {
-    "ts": "2026-10-08T15:13:27.094652",
+    "ts": "2026-10-10T08:42:31.216444",
     "canales": {
-      "whatsapp": "2026-10-08T15:13:27.094652"
+      "whatsapp": "2026-10-10T08:42:31.216444"
     },
-    "precio": 367.0,
+    "precio": 358.0,
     "precios_publicados": [
-      367.0
-    ]
+      367.0,
+      358.0
+    ],
+    "precio_min_publicado": 367.0
   },
   "ml-jbl-partybox-encore-2-com-2-microfones-sem-fi": {
     "ts": "2026-10-08T15:19:36.586953",
