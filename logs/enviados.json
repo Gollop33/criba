@@ -880,16 +880,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "ml-colchao-casal-emma-original-138x188cm-3-camad": {
-    "ts": "2026-10-08T11:33:21.080364",
-    "canales": {
-      "whatsapp": "2026-10-08T11:33:21.080364"
-    },
-    "precio": 2253.0,
-    "precios_publicados": [
-      2253.0
-    ]
-  },
   "ml-baba-eletronica-monitor-24-sem-fio-zoom-baby-": {
     "ts": "2026-10-09T19:09:29.251558",
     "canales": {
@@ -3702,6 +3692,16 @@
     "precio": 75.0,
     "precios_publicados": [
       75.0
+    ]
+  },
+  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
+    "ts": "2026-10-10T11:34:07.638958",
+    "canales": {
+      "whatsapp": "2026-10-10T11:34:07.638958"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
