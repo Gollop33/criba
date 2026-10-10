@@ -827,16 +827,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "ml-chocolate-chips-sicao-callabaut-ao-leite-bola": {
-    "ts": "2026-10-08T00:50:08.752134",
-    "canales": {
-      "whatsapp": "2026-10-08T00:50:08.752134"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "ml-camera-residencial-infravermelho-ip-bullet-hi": {
     "ts": "2026-10-09T01:02:33.326496",
     "canales": {
@@ -1916,14 +1906,16 @@
     }
   },
   "amz-pack-racao-umida-whiskas-sache-carnefrangoatu": {
-    "ts": "2026-10-09T00:29:47.047348",
+    "ts": "2026-10-10T00:55:33.300670",
     "canales": {
-      "whatsapp": "2026-10-09T00:29:47.047348"
+      "whatsapp": "2026-10-10T00:55:33.300670"
     },
     "precio": 48.0,
     "precios_publicados": [
+      48.0,
       48.0
-    ]
+    ],
+    "precio_min_publicado": 48.0
   },
   "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
     "ts": "2026-10-10T00:31:43.869126",
