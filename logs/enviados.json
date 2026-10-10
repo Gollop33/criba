@@ -664,16 +664,6 @@
     ],
     "precio_min_publicado": 569.0
   },
-  "ml-smartphone-samsung-galaxy-a17-4g-128gb-4gb-ra": {
-    "ts": "2026-10-08T17:27:40.530962",
-    "canales": {
-      "whatsapp": "2026-10-08T17:27:40.530962"
-    },
-    "precio": 949.0,
-    "precios_publicados": [
-      949.0
-    ]
-  },
   "ml-monitor-aoc-238-100hz-1ms-gaming-hdmi-24b30hm": {
     "ts": "2026-10-08T17:31:40.536232",
     "canales": {
@@ -3624,6 +3614,16 @@
     "precio": 216.0,
     "precios_publicados": [
       216.0
+    ]
+  },
+  "amz-kit-10-potes-de-vidro-hermeticos-640ml-com-ta": {
+    "ts": "2026-10-10T17:29:05.524902",
+    "canales": {
+      "whatsapp": "2026-10-10T17:29:05.524902"
+    },
+    "precio": 84.0,
+    "precios_publicados": [
+      84.0
     ]
   }
 }
