@@ -815,12 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "cupon-COLECIONE10": {
-    "ts": "2026-10-08T00:35:47.939866",
-    "canales": {
-      "whatsapp": "2026-10-08T00:35:47.939866"
-    }
-  },
   "ml-chocadeira-automatica-72-ovos-com-medidor-de-": {
     "ts": "2026-10-09T00:46:12.944534",
     "canales": {
@@ -1954,14 +1948,16 @@
     ]
   },
   "amz-wanpytruly-creamy-petisco-cremoso-para-gatos-": {
-    "ts": "2026-10-09T00:38:00.487195",
+    "ts": "2026-10-10T00:41:18.119245",
     "canales": {
-      "whatsapp": "2026-10-09T00:38:00.487195"
+      "whatsapp": "2026-10-10T00:41:18.119245"
     },
     "precio": 69.0,
     "precios_publicados": [
+      69.0,
       69.0
-    ]
+    ],
+    "precio_min_publicado": 69.0
   },
   "amz-whiskas-racao-peixe-gatos-adultos-castrados-2": {
     "ts": "2026-10-09T00:49:12.816599",
