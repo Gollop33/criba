@@ -213,18 +213,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-projetor-smart-portatil-full-hd-4k-android-11": {
-    "ts": "2026-10-08T12:27:28.920493",
-    "canales": {
-      "whatsapp": "2026-10-08T12:27:28.920493"
-    },
-    "precio": 239.0,
-    "precios_publicados": [
-      176.0,
-      239.0
-    ],
-    "precio_min_publicado": 176.0
-  },
   "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
     "ts": "2026-10-09T18:24:11.187673",
     "canales": {
@@ -3696,6 +3684,16 @@
     "precio": 5065.0,
     "precios_publicados": [
       5065.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
+    "ts": "2026-10-10T12:29:27.165938",
+    "canales": {
+      "whatsapp": "2026-10-10T12:29:27.165938"
+    },
+    "precio": 843.0,
+    "precios_publicados": [
+      843.0
     ]
   }
 }
