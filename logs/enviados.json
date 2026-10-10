@@ -251,18 +251,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "ml-motorola-moto-g56-5g-dual-sim-256gb-8gb-preto": {
-    "ts": "2026-10-08T15:51:47.869077",
-    "canales": {
-      "whatsapp": "2026-10-08T15:51:47.869077"
-    },
-    "precio": 1388.0,
-    "precios_publicados": [
-      1388.0,
-      1388.0
-    ],
-    "precio_min_publicado": 1388.0
-  },
   "ml-fone-de-ouvido-bluetooth-54-soundcore-p30i-da": {
     "ts": "2026-10-10T01:16:33.190664",
     "canales": {
@@ -349,18 +337,6 @@
       1449.0
     ],
     "precio_min_publicado": 1449.0
-  },
-  "ml-celular-motorola-moto-g56-256gb-12gb-ram-5g-d": {
-    "ts": "2026-10-08T15:48:16.850856",
-    "canales": {
-      "whatsapp": "2026-10-08T15:48:16.850856"
-    },
-    "precio": 1399.0,
-    "precios_publicados": [
-      1507.0,
-      1399.0
-    ],
-    "precio_min_publicado": 1507.0
   },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
     "ts": "2026-10-09T18:55:23.380707",
@@ -3698,6 +3674,16 @@
     "precio": 258.0,
     "precios_publicados": [
       258.0
+    ]
+  },
+  "ml-patinete-eletrico-gm5-p1-preto-dobravel-com-b": {
+    "ts": "2026-10-10T15:56:35.770338",
+    "canales": {
+      "whatsapp": "2026-10-10T15:56:35.770338"
+    },
+    "precio": 1260.0,
+    "precios_publicados": [
+      1260.0
     ]
   }
 }
