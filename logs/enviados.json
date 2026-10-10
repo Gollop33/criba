@@ -720,26 +720,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "ml-yopro-energy-boost-uht-cappuccino-15g-de-prot": {
-    "ts": "2026-10-08T20:50:26.672381",
-    "canales": {
-      "whatsapp": "2026-10-08T20:50:26.672381"
-    },
-    "precio": 6.0,
-    "precios_publicados": [
-      6.0
-    ]
-  },
-  "ml-cadeira-infantil-para-carro-isofix-9-a-36kg-c": {
-    "ts": "2026-10-08T20:52:22.395676",
-    "canales": {
-      "whatsapp": "2026-10-08T20:52:22.395676"
-    },
-    "precio": 568.0,
-    "precios_publicados": [
-      568.0
-    ]
-  },
   "ml-sapateira-vertical-irsina-7-andares-aco-inox-": {
     "ts": "2026-10-09T23:31:56.407637",
     "canales": {
@@ -3700,6 +3680,16 @@
     "precio": 123.0,
     "precios_publicados": [
       123.0
+    ]
+  },
+  "amz-marvels-wolverine-playstation-5": {
+    "ts": "2026-10-10T20:53:54.416331",
+    "canales": {
+      "whatsapp": "2026-10-10T20:53:54.416331"
+    },
+    "precio": 309.0,
+    "precios_publicados": [
+      309.0
     ]
   }
 }
