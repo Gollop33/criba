@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-09T19:57:02+00:00",
+  "actualizado": "2026-10-10T01:25:24+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,15 +9,15 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "psyllium velez 200g puro rico em fibras 100",
-      "nombre": "Psyllium Velez 200g Puro Rico Em Fibras 100% Natural",
-      "precio_ref": 13.99,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "cama elastica pula pula infantil trampolim 1 4",
+      "nombre": "Cama Elástica Pula Pula Infantil Trampolim 1,4 Metros Atentu",
+      "precio_ref": 289.9,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -25,127 +25,79 @@
       "precio_ref": 49.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "kit cabide madeira natural gancho de metal marfim",
-      "nombre": "Kit Cabide Madeira Natural Gancho De Metal Marfim Envernizado Antideslizante Adulto Roupa Camisa Vestido Terno Irsina",
-      "precio_ref": 321.69,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "mercusys mc510 camera de seguranca wi fi externa",
-      "nombre": "Mercusys MC510 Câmera de Segurança Wi-Fi Externa 2K 3MP, Rotação 360°, Visão Noturna Colorida, Detecção de Pessoas e Rastreamento de Movimento, IP65, Áudio Bidirecional, Alexa e MicroSD até 512 GB",
-      "precio_ref": 151.92,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
-      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
-      "precio_ref": 57.31,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente sem contato sensor infravermelho usb recarregavel",
-      "nombre": "Lixeira Inteligente Sem Contato Sensor Infravermelho + USB Recarregável, Cinza Escuro 16L para Casa e Escritório.",
-      "precio_ref": 64.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "wanpy truly creamy petisco cremoso para gatos 40",
-      "nombre": "Wanpy/Truly Creamy Petisco Cremoso para Gatos, 40 Sachês, 560g, Atum e Salmão + Atum e Bacalhau",
-      "precio_ref": 69.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 62.18,
+      "busqueda": "creatina monohidratada dark lab 1kg 100",
+      "nombre": "Creatina Monohidratada Dark Lab 1kg (100%)",
+      "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "bionature areia higienica para gatos biodegradavel wisecat 4kg",
-      "nombre": "Bionature Areia Higiênica para Gatos Biodegradável Wisecat 4kg",
-      "precio_ref": 38.45,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "tapete higienico premium para caes petlike ultrapads aroma",
-      "nombre": "Tapete Higiênico Premium para cães Petlike Ultrapads Aroma Lavanda 80cmx60cm 30 unid.",
-      "precio_ref": 47.35,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "samsung galaxy a57 256 gb e 8 ram",
+      "nombre": "Samsung Galaxy A57 256 gb e 8 Ram Dual Sim Lilás",
+      "precio_ref": 1949.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
-      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
-      "precio_ref": 45.66,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "bomba de ar de mao pneu car air",
-      "nombre": "Bomba De Ar De Mão Pneu Car Air Pump Sem Fio 150 Psi Luz De Emergência Led Com Bateria Recarregável De 4000 Mah Verunto",
-      "precio_ref": 54.34,
-      "categoria": "Automotivo",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
-      "nombre": "NexGard Spectra Antipulgas e Vermífugo para Cães de 3,6 a 7,5 kg – 1 Tablete",
-      "precio_ref": 66.1,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 99.9,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "eliminador de odores pet wap elimina odores 1",
-      "nombre": "Eliminador de Odores Pet WAP Elimina Odores 1 Litro Líquido Cereja e Avelã | Neutralizador de Odores com fragrância",
-      "precio_ref": 37.59,
-      "categoria": "Perfumes & Fragrâncias",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "cadeira escritorio ergonomica genebra b500 luvinco cor preto",
-      "nombre": "Cadeira Escritório Ergonômica Genebra B500 Luvinco Cor Preto Com Suporte Lombar Estofado Mesh",
-      "precio_ref": 497.9,
+      "busqueda": "jogo de toalhas buddemeyer bella extra soft banho",
+      "nombre": "Jogo De Toalhas Buddemeyer Bella Extra Soft Banho 4",
+      "precio_ref": 126.75,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
+      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
+      "precio_ref": 519.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
+      "nombre": "Patinete Elétrico Infantil Triciclo PARES Drift Bluetooth 3 Rodas Vermelho Diversão e Lazer + Kit de segurança",
+      "precio_ref": 769.4,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "geleia de abacaxi com pimenta zero acucar 100",
+      "nombre": "Geleia De Abacaxi Com Pimenta Zero Açucar 100% Natural Vegan",
+      "precio_ref": 29.2,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch 2 mario kart world",
+      "nombre": "Bundle Nintendo Switch 2 + Mario Kart World",
+      "precio_ref": 4399.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "bebida de arroz po kids supramil unilife sem",
+      "nombre": "Bebida De Arroz Pó Kids Supramil Unilife Sem Lactose 1kg",
+      "precio_ref": 55.38,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book4 intel coretm i5 1335u windows",
+      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, Windows 11 Home, 8GB, 512GB SSD, Iris Xe, 15.6'' Full HD LED, 1.55kg*.",
+      "precio_ref": 3949.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
       "busqueda": "pack nestle purina friskies racao umida para gatos",
@@ -153,95 +105,15 @@
       "precio_ref": 38.53,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "comedouro bebedouro para cachorro caes pets elevado duplo",
-      "nombre": "Comedouro Bebedouro para cachorro caes pets elevado Duplo inox tijela antiderrapante com regulavel com aço inoxidável para buldogue com ajuste de altura suporte 8cm 31cm com Proteção contra respingos",
-      "precio_ref": 75.0,
-      "categoria": "Pet Shop",
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 62.18,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "brinquedo macaco chalesco para caes pelucia interativa para",
-      "nombre": "Brinquedo Macaco Chalesco para Cães – Pelúcia Interativa para Brincadeiras e Convivência Familiar",
-      "precio_ref": 23.3,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "tenis casual kappa zenit masculino unissex conforto",
-      "nombre": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
-      "precio_ref": 85.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "pack racao umida whiskas sache frango ao molho",
-      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
-      "precio_ref": 36.88,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "polares z20 patinete eletrico premium 500w pneu aderente",
-      "nombre": "POLARES Z20 Patinete Elétrico Premium 500w Pneu Aderente Velocidade Máxima 32km/h Motorizado Até 30km De Autonomia Polares",
-      "precio_ref": 1310.0,
-      "categoria": "Automotivo",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "pack racao umida pedigree sache carne ao molho",
-      "nombre": "Pack Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas - Leve 18 Pague 15",
-      "precio_ref": 40.89,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "xiaomi poco x7 pro 5g 12ram 512 gb",
-      "nombre": "Xiaomi Poco X7 Pro 5g 12ram /512 Gb Global Cor Preto",
-      "precio_ref": 2370.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
-      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
-      "precio_ref": 58.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "areia sanitaria gatos lavanda 1 5kg mercado livre",
-      "nombre": "Areia Sanitária Gatos Lavanda 1,5Kg Mercado Livre Basics",
-      "precio_ref": 17.91,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "dreamies petisco carne tentadora gatos adultos 150g",
-      "nombre": "Dreamies Petisco Carne Tentadora Gatos Adultos 150G",
-      "precio_ref": 15.19,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "projetor netflix 8k profissional 1000ansi portatil 35000lm 5g",
-      "nombre": "Projetor Netflix 8k Profissional 1000ANSI Portátil 35000lm 5G/2.4G Wifi Bluetooth 4K Full Hd",
-      "precio_ref": 1140.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
       "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
@@ -249,239 +121,367 @@
       "precio_ref": 49.05,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "cadeira de escritorio gamer ergonomica dunamis preta marqs",
-      "nombre": "Cadeira De Escritorio Gamer Ergonômica Dunamis Preta Marqs Home Reclinável 180kg Resistente Giratória Confortavel Computador",
-      "precio_ref": 530.91,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "pack racao umida whiskas sache carne frango atum",
-      "nombre": "Pack Ração Úmida Whiskas Sachê Carne/Frango/Atum para Gatos Adultos - Leve 24 Pague 18",
-      "precio_ref": 48.95,
-      "categoria": "Pet Shop",
+      "busqueda": "eliminador de odores pet wap elimina odores 1",
+      "nombre": "Eliminador de Odores Pet WAP Elimina Odores 1 Litro Líquido Cereja e Avelã | Neutralizador de Odores com fragrância",
+      "precio_ref": 37.59,
+      "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "caixa de som bluetooth portatil 6 5 3000mah",
-      "nombre": "Caixa De Som Bluetooth Portátil 6,5 3000mah Karaokê Rgb Preto 5v",
-      "precio_ref": 280.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
-      "precio_ref": 32.8,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "tablet android 15 tab kit completo ram 16gb",
-      "nombre": "Tablet Android 15 Tab Kit Completo Ram 16gb 512gb 11.6'' Hd Lilás",
-      "precio_ref": 875.0,
+      "busqueda": "placa mae msi a520m a pro am4 2xddr4",
+      "nombre": "Placa Mãe MSI A520M-A PRO (AM4/2xDDR4/HDMI/DVI-D/M.2/USB 3.2)",
+      "precio_ref": 418.88,
       "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "blue premium tapete higienico descartavel para caes 30",
-      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
-      "precio_ref": 58.9,
-      "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "racao quatree life gatos ad castrados 10 1kg",
-      "nombre": "Ração Quatree Life gatos ad castrados 10,1kg sem transgênicos",
-      "precio_ref": 162.36,
-      "categoria": "Pet Shop",
+      "busqueda": "colageno tipo 2 com 45mg formula exclusiva com",
+      "nombre": "COLÁGENO TIPO 2 com 45mg - Fórmula Exclusiva com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 29.24,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "petisco para gatos wanpy creamy sabores sortidos pacote",
-      "nombre": "Petisco para gatos Wanpy Creamy Sabores Sortidos Pacote com 25 tubos de 14g - 350g",
-      "precio_ref": 40.9,
-      "categoria": "Pet Shop",
+      "busqueda": "processador amd ryzen 5 5600gt am4 6 cores",
+      "nombre": "Processador AMD Ryzen 5 5600GT (AM4/6 Cores/12 Threads/4.6GHz/19MB Cache/Wraith Stealth/AMD Radeon)",
+      "precio_ref": 1016.25,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "bebedouro para gatos sem fio com sensor 3",
-      "nombre": "Bebedouro Para Gatos Sem Fio Com Sensor 3.2 L 3 Filtros 127/220v Branco",
-      "precio_ref": 176.36,
-      "categoria": "Pet Shop",
+      "busqueda": "relogio inteligente smartwatch gps autonomo chamadas bluetooth novante",
+      "nombre": "Relógio Inteligente Smartwatch GPS Autônomo Chamadas Bluetooth NOVANTE Moda Digital Feminino Masculino Esportivo Preto IP68 3ATM Agua Tela Hd 1.85 350mAh 10Dias Android IOS Com Monitoramento de saúde",
+      "precio_ref": 183.39,
+      "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 89.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "carregador turbo super rapido 30w para iphone 15",
-      "nombre": "Carregador Turbo Super Rápido 30w Para iPhone 15 16 17 Pro Max - Cabo Blindado Tipo Usb C Dtimp",
-      "precio_ref": 37.49,
+      "busqueda": "apple iphone 16e de 128 gb preto",
+      "nombre": "Apple iPhone 16e de 128 GB — Preto",
+      "precio_ref": 3482.69,
       "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "air cooler gamerstorm x redragon ak400 rd preto",
-      "nombre": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
-      "precio_ref": 148.0,
+      "busqueda": "tenis masculino feminino kappa park 2 0 original",
+      "nombre": "Tênis Masculino Feminino Kappa Park 2.0 Original",
+      "precio_ref": 68.72,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "notebook samsung galaxy book go windows 11 home",
+      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
+      "precio_ref": 2249.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "tapete higienico para caes gatos pets manta absorvente",
-      "nombre": "Tapete Higiênico Para Cães Gatos Pets Manta Absorvente 50 Unidades 50x60Cm Branco Fralda Pet Cachorro Camadas De Proteção Bloqueador De Odor Linha Premium Com Camadas De Proteção",
-      "precio_ref": 40.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
-      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
-      "precio_ref": 146.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "cadeira de escritorio gamer nitro ergonomica estofado couro",
-      "nombre": "Cadeira De Escritório Gamer Nitro Ergonômica Estofado Couro Sintético Reclinável Altura Ajustável Apoio Para Pés Cor Preto Luvinco",
-      "precio_ref": 579.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
-      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
-      "precio_ref": 137.75,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "triciclo patinete eletrico drift 350w bluetooth 100kg freio",
-      "nombre": "Triciclo Patinete Elétrico Drift 350w Bluetooth 100kg Freio Roxo",
-      "precio_ref": 929.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "kingston flash drive exodia m 128gb usb pen",
-      "nombre": "Kingston Flash Drive Exodia M 128GB USB | Pen drive USB 3.2 Geração 1 com tampa móvel e laço de chaveiro para documentos, mús",
-      "precio_ref": 109.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
-      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
-      "precio_ref": 99.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "cozinha infantil brinquedo com luz 33 acessorios sai",
-      "nombre": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
-      "precio_ref": 64.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
-      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
-      "precio_ref": 109.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "sapateira vertical irsina 7 andares aco inox 21",
-      "nombre": "Sapateira Vertical IRSINA 7 Andares Aço Inox 21 Pares Cor Preto",
-      "precio_ref": 46.02,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto g06-128GB 4GB RAM + 8GB Ram Boost e Camera 50MP com AI Bateria de 5200 mAh Tela 6.9\" - Azul Marinho",
-      "precio_ref": 776.0,
+      "busqueda": "acer notebook aspire 5 amd ryzen 5 5500u",
+      "nombre": "Acer Notebook Aspire 5 AMD Ryzen 5 5500U 16GB SSD 512GB 15.6\" Full HD Linux Preto Alimentação CA Compatível c/ Mouse USB - A5",
+      "precio_ref": 3998.89,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "case suporte p starlink mini fechado c ima",
-      "nombre": "Case Suporte P Starlink Mini Fechado C Imã 66mm P Teto Carro Suporte De Liberação Rápida Para Teto De Carro, Van, Barco, Iate E Caminhão Preto",
-      "precio_ref": 186.29,
+      "busqueda": "notebook acer aspire go 15 intel core i3",
+      "nombre": "Notebook Acer Aspire Go 15 Intel Core I3 1215u 8gb 256gb Ssd Linux Prateado",
+      "precio_ref": 2986.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "asus tuf gaming f16 intel core 5 rtx",
+      "nombre": "ASUS TUF Gaming F16 Intel Core 5, RTX 4050, 8 GB, 512 GB SSD, KeepOS/Linux,16.0'' FHD, Mecha Gray - FX607VU-RL054",
+      "precio_ref": 6749.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
+      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
+      "precio_ref": 193.32,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "placa de video msi rtx 5060 shadow 2x",
+      "nombre": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037",
+      "precio_ref": 2939.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
+      "nombre": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Rosa",
+      "precio_ref": 72.9,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 5554.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "camera veicular ddpai z60 pro 4g monitoramento remoto",
+      "nombre": "Câmera Veicular Ddpai Z60 Pro 4g Monitoramento Remoto 4k Hdr",
+      "precio_ref": 1516.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "water cooler husky glacier iluminacao argb 240mm amd",
+      "nombre": "Water Cooler Husky Glacier, Iluminação ARGB, 240mm, AMD e Intel, Preto - HWT600PT",
+      "precio_ref": 189.97,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "racao gato adulto reneff cat premium carne 10",
+      "nombre": "Ração Gato Adulto Rêneff Cat Premium Carne 10,1kg Original",
+      "precio_ref": 102.09,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "notebook asus tuf gaming f16 fx607vu rtx4050 intel",
-      "nombre": "Notebook ASUS TUF Gaming F16 FX607VU RTX4050 Intel Core 5 210H 16Gb Ram 512Gb SSD Windows 11 Tela Nível IPS 16\" LED 144Hz Gra",
-      "precio_ref": 8999.0,
+      "busqueda": "kingston kf432c16bbk2 16 kit de memorias de 16gb",
+      "nombre": "Kingston, KF432C16BBK2/16 - Kit de memórias de 16GB (2 x 8GB) DIMM DDR4 3200Mhz FURY Beast Black 1,35V 1Rx8 288 pinos para de",
+      "precio_ref": 899.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "cadeira sweet studio escritorio ergonomica giratoria preto com",
+      "nombre": "Cadeira Sweet Studio Escritório Ergonômica Giratória Preto Com Apoio Lombar e Apoio de cabeça",
+      "precio_ref": 312.89,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
+      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
+      "precio_ref": 509.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "jbl fone de ouvido bluetooth over ear tune",
+      "nombre": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 530BT, Sem Fio, Até 76 Horas de Bateria - Preto",
+      "precio_ref": 175.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "rocadeira aparador grama a bateria recarregavel 460w profissional",
+      "nombre": "Roçadeira Aparador Grama A Bateria Recarregável 460w Profissional Com Acessórios Tcg12b The Black Tools",
+      "precio_ref": 142.5,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "smart tv 50 philco p50crb 4k led dolby",
+      "nombre": "Smart TV 50” Philco P50CRB 4K LED Dolby Audio",
+      "precio_ref": 2146.38,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "celular motorola moto g56 256gb 12gb ram 5g",
+      "nombre": "Celular Motorola Moto G56 256gb + 12gb Ram 5g Dual Sim Green",
+      "precio_ref": 1399.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
+      "precio_ref": 559.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
-      "nombre": "Notebook Dell 15 I15-I1300-A60P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz antirreflexo, 16 GB de RAM, SSD",
-      "precio_ref": 4649.0,
+      "busqueda": "berco portatil balanco moises sleepguard cobed bege ragaluma",
+      "nombre": "Berço Portátil Balanço Moises Sleepguard Cobed Bege Ragaluma Bege",
+      "precio_ref": 598.99,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
+      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
+      "precio_ref": 219.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "smart tv pro lg 55 4k ultra hd",
+      "nombre": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
+      "precio_ref": 2540.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire 5 amd ryzen 5 5500u",
+      "nombre": "Notebook Acer Aspire 5, AMD Ryzen 5 5500U, 8GB RAM, SSD 256GB, Tela 15.6\" FHD IPS, Prata, A515-45-R1AC",
+      "precio_ref": 3399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "kit bebedouro e comedouro de passaros aves automatico",
-      "nombre": "Kit Bebedouro E Comedouro de passaros aves Automático periquito calopsita alimentador coisas acessorios para gaiola de aves comedouro De Sementes Em Acrílico Transparente para canario fim sujeira",
-      "precio_ref": 54.45,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
-    },
-    {
-      "busqueda": "acer aspire go 15 notebook 15 6 intel",
-      "nombre": "Acer Aspire Go 15 Notebook 15.6\" Intel Core i7 16GB Linux",
-      "precio_ref": 4499.0,
-      "categoria": "Notebooks & PCs",
+      "busqueda": "smart tv 4k 55 lg uhd 55ua85 processador",
+      "nombre": "Smart TV 4K 55\" LG UHD 55UA85 Processador α7 AI Ger8 4K Super Upscaling Google Cast Alexa Integrado Controle AI Smart Magic W",
+      "precio_ref": 2000.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     },
     {
-      "busqueda": "cadeira de escritorio diretor malcom preta healer",
-      "nombre": "Cadeira De Escritório Diretor Malcom Preta Healer",
-      "precio_ref": 295.45,
-      "categoria": "Casa & Móveis",
+      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
+      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
+      "precio_ref": 1388.0,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-09T19:57:02+00:00"
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
+      "nombre": "Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo, trocas de página rápidas, luz frontal ajustável e bateri",
+      "precio_ref": 519.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "aparador e raspador oneblade intimate qp1924 10 philips",
+      "nombre": "Aparador E Raspador Oneblade Intimate Qp1924/10 Philips Branco 127/220v",
+      "precio_ref": 131.74,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "amazon fire tv stick hd modelo mais recente",
+      "nombre": "Amazon Fire TV Stick HD (modelo mais recente), Controle Remoto por Voz com Alexa, alimentado pela TV, com configuração simple",
+      "precio_ref": 246.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "projetor portatil 4k hd android 11 0 smart",
+      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
+      "precio_ref": 181.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera Tripla de até 50MP OIS, Selfie de 12MP Video HDR, IP68, Tela Super AMOLE",
+      "precio_ref": 1959.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "notebook gamer alienware 15 15 3 wuxga 165hz",
+      "nombre": "Notebook Gamer Alienware 15, 15,3\" WUXGA 165Hz, Intel Core 5 210H, 8GB DDR5, 512GB SSD, NVIDIA GeForce RTX 3050 6GB, Windows",
+      "precio_ref": 5999.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "camera veicular ddpai z60 pro 4k 1080p sony",
+      "nombre": "Câmera Veicular Ddpai Z60 Pro 4k+1080p Sony Imx678+imx662",
+      "precio_ref": 1249.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 7 5700x 3 4 ghz",
+      "nombre": "Processador AMD Ryzen 7 5700X, 3,4 GHz, 8 núcleos, 16 threads, cache de 32 MB, soquete AM4, OEM",
+      "precio_ref": 1039.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "smart tv philco 60 p60vik 4k uhd led",
+      "nombre": "Smart TV Philco 60\" P60VIK 4K UHD LED Roku Dolby Audio Wi-Fi HDR10",
+      "precio_ref": 2705.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
+      "precio_ref": 3599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "tenis adidas acelera 2 masculino branco com detalhes",
+      "nombre": "Tênis adidas Acelera 2 Masculino Branco Com Detalhes Pretos Branco 42 Br",
+      "precio_ref": 259.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Touch Screen - Luna Grey - Intel Core i5-13420H, 8GB RAM, 512GB SSD, Windows 11",
+      "precio_ref": 3999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
+    },
+    {
+      "busqueda": "creatina growth supplements monohidratada em po sem sabor",
+      "nombre": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 250g",
+      "precio_ref": 39.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T01:25:24+00:00"
     }
   ]
 }
