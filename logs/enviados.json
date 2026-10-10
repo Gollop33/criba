@@ -799,16 +799,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "ml-smart-tv-de-24-philco-roku-tv-ptv24g5yr2cp-le": {
-    "ts": "2026-10-08T15:25:15.557763",
-    "canales": {
-      "whatsapp": "2026-10-08T15:25:15.557763"
-    },
-    "precio": 863.0,
-    "precios_publicados": [
-      863.0
-    ]
-  },
   "ml-conj-de-panelas-8-pecas-ceramic-life-smart-pl": {
     "ts": "2026-10-08T15:38:21.037820",
     "canales": {
@@ -3679,6 +3669,16 @@
     "precio": 199.0,
     "precios_publicados": [
       199.0
+    ]
+  },
+  "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
+    "ts": "2026-10-10T15:31:54.412805",
+    "canales": {
+      "whatsapp": "2026-10-10T15:31:54.412805"
+    },
+    "precio": 181.0,
+    "precios_publicados": [
+      181.0
     ]
   }
 }
