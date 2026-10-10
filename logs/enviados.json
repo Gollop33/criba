@@ -276,18 +276,6 @@
     ],
     "precio_min_publicado": 150.0
   },
-  "ml-celular-smartphone-realme-c73-256gb-8gb-ram-d": {
-    "ts": "2026-10-08T16:12:57.079757",
-    "canales": {
-      "whatsapp": "2026-10-08T16:12:57.079757"
-    },
-    "precio": 1173.0,
-    "precios_publicados": [
-      1115.0,
-      1173.0
-    ],
-    "precio_min_publicado": 1115.0
-  },
   "ml-kit-2-travesseiro-pena-pluma-de-ganso-sinteti": {
     "ts": "2026-10-08T16:35:35.098817",
     "canales": {
@@ -1791,14 +1779,16 @@
     ]
   },
   "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
-    "ts": "2026-10-09T11:28:32.072740",
+    "ts": "2026-10-10T16:16:12.911276",
     "canales": {
-      "whatsapp": "2026-10-09T11:28:32.072740"
+      "whatsapp": "2026-10-10T16:16:12.911276"
     },
-    "precio": 54.0,
+    "precio": 64.0,
     "precios_publicados": [
-      54.0
-    ]
+      54.0,
+      64.0
+    ],
+    "precio_min_publicado": 54.0
   },
   "amz-tramontina-jogo-facas-inox-4pc-plenus-pre-pre": {
     "ts": "2026-10-09T11:35:37.149810",
