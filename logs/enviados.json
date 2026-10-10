@@ -212,18 +212,6 @@
     ],
     "precio_min_publicado": 128.0
   },
-  "ml-tablet-vaio-tl10-4gb-ram-128gb-octacore-tela-": {
-    "ts": "2026-10-08T16:45:44.555309",
-    "canales": {
-      "whatsapp": "2026-10-08T16:45:44.555309"
-    },
-    "precio": 1349.0,
-    "precios_publicados": [
-      1196.0,
-      1349.0
-    ],
-    "precio_min_publicado": 1196.0
-  },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
     "ts": "2026-10-09T19:39:30.476330",
     "canales": {
@@ -313,18 +301,6 @@
       398.0
     ],
     "precio_min_publicado": 398.0
-  },
-  "ml-kit-10-pote-vidro-hermetico-marmita-640ml-mic": {
-    "ts": "2026-10-08T16:43:55.984840",
-    "canales": {
-      "whatsapp": "2026-10-08T16:43:55.984840"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0,
-      89.0
-    ],
-    "precio_min_publicado": 89.0
   },
   "ml-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
     "ts": "2026-10-08T22:31:57.740273",
@@ -1533,14 +1509,16 @@
     ]
   },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-10-09T08:42:38.019302",
+    "ts": "2026-10-10T16:47:20.274428",
     "canales": {
-      "whatsapp": "2026-10-09T08:42:38.019302"
+      "whatsapp": "2026-10-10T16:47:20.274428"
     },
     "precio": 29.0,
     "precios_publicados": [
+      29.0,
       29.0
-    ]
+    ],
+    "precio_min_publicado": 29.0
   },
   "amz-kit-12-utensilios-de-cozinha-em-silicone-e-ca": {
     "ts": "2026-10-10T16:28:47.260583",
