@@ -892,16 +892,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "ml-suco-de-uva-e-maca-natural-one-ambiente-liqui": {
-    "ts": "2026-10-08T10:43:36.236182",
-    "canales": {
-      "whatsapp": "2026-10-08T10:43:36.236182"
-    },
-    "precio": 10.0,
-    "precios_publicados": [
-      10.0
-    ]
-  },
   "ml-colchao-casal-molas-ensacadas-zidi-alabama-13": {
     "ts": "2026-10-08T11:23:35.561100",
     "canales": {
@@ -3644,6 +3634,16 @@
     "precio": 66.0,
     "precios_publicados": [
       66.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
+    "ts": "2026-10-10T10:48:29.515648",
+    "canales": {
+      "whatsapp": "2026-10-10T10:48:29.515648"
+    },
+    "precio": 2804.0,
+    "precios_publicados": [
+      2804.0
     ]
   }
 }
