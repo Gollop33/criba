@@ -815,16 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "ml-fone-de-ouvido-bluetooth-xiaomi-redmi-buds-6-": {
-    "ts": "2026-10-08T00:05:27.522796",
-    "canales": {
-      "whatsapp": "2026-10-08T00:05:27.522796"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "ml-smartphone-samsung-galaxy-a36-5g-256gb-8gb-su": {
     "ts": "2026-10-08T00:09:31.091319",
     "canales": {
@@ -1938,14 +1928,16 @@
     }
   },
   "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
-    "ts": "2026-10-09T00:07:06.822198",
+    "ts": "2026-10-10T00:08:59.431766",
     "canales": {
-      "whatsapp": "2026-10-09T00:07:06.822198"
+      "whatsapp": "2026-10-10T00:08:59.431766"
     },
     "precio": 40.0,
     "precios_publicados": [
+      40.0,
       40.0
-    ]
+    ],
+    "precio_min_publicado": 40.0
   },
   "cupon-PROMOBRINQUEDOS": {
     "ts": "2026-10-09T00:15:42.963458",
