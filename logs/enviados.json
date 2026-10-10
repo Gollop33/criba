@@ -783,12 +783,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "cupom-ml-lote1-2026100813": {
-    "ts": "2026-10-08T13:58:17.877464",
-    "canales": {
-      "whatsapp": "2026-10-08T13:58:17.877464"
-    }
-  },
   "cupon-SALVAMEUBOLSO": {
     "ts": "2026-10-08T14:15:11.654279",
     "canales": {
@@ -3685,6 +3679,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "ml-yopro-bebida-lactea-uht-chocolate-23g-de-prot": {
+    "ts": "2026-10-10T14:01:04.153815",
+    "canales": {
+      "whatsapp": "2026-10-10T14:01:04.153815"
+    },
+    "precio": 7.0,
+    "precios_publicados": [
+      7.0
     ]
   }
 }
