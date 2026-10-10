@@ -9249,3 +9249,13 @@
 [2026-10-10 13:04:09] [CUPONES] Fuente oficial ML refrescada: 6 cupón(es).
 [2026-10-10 13:04:09] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
 [2026-10-10 13:04:09] [CUPONES] Sin cupones nuevos (113 códigos ya vistos).
+[2026-10-10 13:11:39] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-10 13:11:40] [CUPONS_ML] 93 código(s) inválidos descartados (blobs del estado interno de ML o fragmentos de texto).
+[2026-10-10 13:11:40] [CUPONS_ML] Se extrajeron exitosamente 7 cupones de ML Oficial.
+[2026-10-10 13:11:40] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-10 13:11:40] [CUPONS_ML] Cupones ML actualizados: 1 nuevos, 6 refrescados.
+[2026-10-10 13:11:40] [CUPONS_ML] Total cupones en cupones.json: 34
+[2026-10-10 13:11:40] [CUPONES] Fuente oficial ML refrescada: 7 cupón(es).
+[2026-10-10 13:11:40] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-10-10 13:11:40] [CUPONES] Descartado PNEUS: no está ACTIVADO en la cuenta del usuario
+[2026-10-10 13:11:40] [CUPONES] Sin cupones nuevos (114 códigos ya vistos).
