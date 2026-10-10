@@ -806,26 +806,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "ml-carregador-portatil-power-bank-basike-20000ma": {
-    "ts": "2026-10-08T13:13:39.096934",
-    "canales": {
-      "whatsapp": "2026-10-08T13:13:39.096934"
-    },
-    "precio": 179.0,
-    "precios_publicados": [
-      179.0
-    ]
-  },
-  "ml-power-bank-baseus-bipow2-pro-fc51-20000mah-22": {
-    "ts": "2026-10-08T13:17:07.622370",
-    "canales": {
-      "whatsapp": "2026-10-08T13:17:07.622370"
-    },
-    "precio": 177.0,
-    "precios_publicados": [
-      177.0
-    ]
-  },
   "ml-cadeira-auto-isofix-360-ancora-0-a-12-anos-re": {
     "ts": "2026-10-08T13:27:49.488975",
     "canales": {
@@ -3678,6 +3658,16 @@
     "precio": 132.0,
     "precios_publicados": [
       132.0
+    ]
+  },
+  "ml-secador-de-cabelos-philco-psc3500-4-em-1-dobr": {
+    "ts": "2026-10-10T13:17:54.579575",
+    "canales": {
+      "whatsapp": "2026-10-10T13:17:54.579575"
+    },
+    "precio": 376.0,
+    "precios_publicados": [
+      376.0
     ]
   }
 }
