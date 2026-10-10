@@ -8912,3 +8912,18 @@
 [2026-10-10 08:34:56] [CUPONES] Fuente oficial ML refrescada: 6 cupón(es).
 [2026-10-10 08:34:56] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
 [2026-10-10 08:34:56] [CUPONES] Sin cupones nuevos (113 códigos ya vistos).
+[2026-10-10 08:35:26] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-10-10 08:35:57] [AGENTE-ML] Scraping ML: 262 ofertas obtenidas | 48 enlaces de ANUNCIO descartados
+[2026-10-10 08:35:57] [AGENTE-ML] Guardados 208 achados en achados_ml.json
+[2026-10-10 08:35:57] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-10 08:35:58] [CUPONS_ML] 96 código(s) inválidos descartados (blobs del estado interno de ML o fragmentos de texto).
+[2026-10-10 08:35:58] [CUPONS_ML] Se extrajeron exitosamente 6 cupones de ML Oficial.
+[2026-10-10 08:35:58] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-10 08:35:58] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 6 refrescados.
+[2026-10-10 08:35:58] [CUPONS_ML] Total cupones en cupones.json: 32
+[2026-10-10 08:35:59] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-10 08:35:59] [AGENTE-AMAZON] Amazon Pelando: 1 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 1 sin precio legible, 1 duplicadas
+[2026-10-10 08:35:59] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-10 08:36:02] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
+[2026-10-10 08:36:02] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-10-10 08:36:04] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
