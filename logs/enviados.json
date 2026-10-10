@@ -877,16 +877,6 @@
     ],
     "precio_min_publicado": 1719.0
   },
-  "ml-bicicleta-ergometrica-profissional-spinning-x": {
-    "ts": "2026-10-08T04:27:50.144569",
-    "canales": {
-      "whatsapp": "2026-10-08T04:27:50.144569"
-    },
-    "precio": 422.0,
-    "precios_publicados": [
-      422.0
-    ]
-  },
   "ml-xiaomi-poco-x7-pro-5g-12gb-ram-512gb-global-n": {
     "ts": "2026-10-09T05:12:40.642795",
     "canales": {
@@ -3481,6 +3471,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-predator-rgb-m612rgb-pre": {
+    "ts": "2026-10-10T04:54:05.524047",
+    "canales": {
+      "whatsapp": "2026-10-10T04:54:05.524047"
+    },
+    "precio": 90.0,
+    "precios_publicados": [
+      90.0
     ]
   }
 }
