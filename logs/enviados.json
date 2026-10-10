@@ -657,16 +657,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-jipe-infantil-eletrico-12v-carrinho-controle-": {
-    "ts": "2026-10-08T18:59:37.842716",
-    "canales": {
-      "whatsapp": "2026-10-08T18:59:37.842716"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
     "ts": "2026-10-10T12:50:44.573848",
     "canales": {
@@ -3599,6 +3589,16 @@
     "precio": 3999.0,
     "precios_publicados": [
       3999.0
+    ]
+  },
+  "amz-star-fox-nintendo-switch-2": {
+    "ts": "2026-10-10T19:00:37.807645",
+    "canales": {
+      "whatsapp": "2026-10-10T19:00:37.807645"
+    },
+    "precio": 339.0,
+    "precios_publicados": [
+      339.0
     ]
   }
 }
