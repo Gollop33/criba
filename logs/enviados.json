@@ -783,18 +783,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "cupon-ACHEINOMELI": {
-    "ts": "2026-10-08T14:21:54.873285",
-    "canales": {
-      "whatsapp": "2026-10-08T14:21:54.873285"
-    }
-  },
-  "cupom-ml-48e03832eb": {
-    "ts": "2026-10-08T14:26:39.608623",
-    "canales": {
-      "whatsapp": "2026-10-08T14:26:39.608623"
-    }
-  },
   "cupom-ml-6cf88f8a73": {
     "ts": "2026-10-08T14:35:58.593981",
     "canales": {
@@ -3707,6 +3695,16 @@
     "precio": 237.0,
     "precios_publicados": [
       237.0
+    ]
+  },
+  "ml-racao-seca-formula-natural-gatos-castrados-ad": {
+    "ts": "2026-10-10T14:27:42.331034",
+    "canales": {
+      "whatsapp": "2026-10-10T14:27:42.331034"
+    },
+    "precio": 265.0,
+    "precios_publicados": [
+      265.0
     ]
   }
 }
