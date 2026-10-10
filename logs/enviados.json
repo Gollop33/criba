@@ -276,18 +276,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
-    "ts": "2026-10-08T12:44:24.004937",
-    "canales": {
-      "whatsapp": "2026-10-08T12:44:24.004937"
-    },
-    "precio": 779.0,
-    "precios_publicados": [
-      795.0,
-      779.0
-    ],
-    "precio_min_publicado": 795.0
-  },
   "ml-motorola-moto-g56-5g-dual-sim-256gb-8gb-preto": {
     "ts": "2026-10-08T15:51:47.869077",
     "canales": {
@@ -843,16 +831,6 @@
       209.0
     ],
     "precio_min_publicado": 218.0
-  },
-  "ml-barbeador-e-aparador-eletrico-philips-oneblad": {
-    "ts": "2026-10-08T12:37:58.409199",
-    "canales": {
-      "whatsapp": "2026-10-08T12:37:58.409199"
-    },
-    "precio": 125.0,
-    "precios_publicados": [
-      125.0
-    ]
   },
   "ml-basike-power-bank-20000mah-rapido-portatil-45": {
     "ts": "2026-10-08T13:09:12.504399",
@@ -3694,6 +3672,16 @@
     "precio": 95.0,
     "precios_publicados": [
       95.0
+    ]
+  },
+  "amz-smartphone-motorola-edge-70-5g-crystals-by-sw": {
+    "ts": "2026-10-10T12:45:45.414215",
+    "canales": {
+      "whatsapp": "2026-10-10T12:45:45.414215"
+    },
+    "precio": 3099.0,
+    "precios_publicados": [
+      3099.0
     ]
   }
 }
