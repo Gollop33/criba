@@ -892,16 +892,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "ml-colchao-queen-emma-original-158x198cm-3-camad": {
-    "ts": "2026-10-08T11:45:50.368801",
-    "canales": {
-      "whatsapp": "2026-10-08T11:45:50.368801"
-    },
-    "precio": 2739.0,
-    "precios_publicados": [
-      2739.0
-    ]
-  },
   "ml-colchao-solteiro-molas-ensacadas-zidi-alabama": {
     "ts": "2026-10-08T11:54:14.741601",
     "canales": {
@@ -3722,6 +3712,16 @@
     "precio": 189.0,
     "precios_publicados": [
       189.0
+    ]
+  },
+  "amz-apple-iphone-17-de-256-gb-preto": {
+    "ts": "2026-10-10T11:51:05.133620",
+    "canales": {
+      "whatsapp": "2026-10-10T11:51:05.133620"
+    },
+    "precio": 6015.0,
+    "precios_publicados": [
+      6015.0
     ]
   }
 }
