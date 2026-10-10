@@ -815,22 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "cupon-JOGOS10": {
-    "ts": "2026-10-08T00:27:32.229784",
-    "canales": {
-      "whatsapp": "2026-10-08T00:27:32.229784"
-    }
-  },
-  "ml-racao-whey-protein-grannature-xtreme-alta-per": {
-    "ts": "2026-10-08T00:31:20.804290",
-    "canales": {
-      "whatsapp": "2026-10-08T00:31:20.804290"
-    },
-    "precio": 181.0,
-    "precios_publicados": [
-      181.0
-    ]
-  },
   "cupon-COLECIONE10": {
     "ts": "2026-10-08T00:35:47.939866",
     "canales": {
@@ -1948,14 +1932,16 @@
     ]
   },
   "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
-    "ts": "2026-10-09T00:31:37.159645",
+    "ts": "2026-10-10T00:31:43.869126",
     "canales": {
-      "whatsapp": "2026-10-09T00:31:37.159645"
+      "whatsapp": "2026-10-10T00:31:43.869126"
     },
     "precio": 15.0,
     "precios_publicados": [
+      15.0,
       15.0
-    ]
+    ],
+    "precio_min_publicado": 15.0
   },
   "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
     "ts": "2026-10-09T00:36:49.153837",
