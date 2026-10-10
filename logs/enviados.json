@@ -42,19 +42,6 @@
     ],
     "precio_min_publicado": 1044.0
   },
-  "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
-    "ts": "2026-10-08T15:40:32.957445",
-    "canales": {
-      "whatsapp": "2026-10-08T15:40:32.957445"
-    },
-    "precio": 2705.0,
-    "precios_publicados": [
-      2705.0,
-      2705.0,
-      2705.0
-    ],
-    "precio_min_publicado": 2705.0
-  },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
     "ts": "2026-10-09T11:42:34.523426",
     "canales": {
@@ -3691,6 +3678,16 @@
     "precio": 413.0,
     "precios_publicados": [
       413.0
+    ]
+  },
+  "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
+    "ts": "2026-10-10T15:44:50.118999",
+    "canales": {
+      "whatsapp": "2026-10-10T15:44:50.118999"
+    },
+    "precio": 1387.0,
+    "precios_publicados": [
+      1387.0
     ]
   }
 }
