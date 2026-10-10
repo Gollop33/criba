@@ -42,19 +42,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "ml-bicicleta-infantil-de-equilibrio-sem-pedal-an": {
-    "ts": "2026-10-08T11:21:33.756800",
-    "canales": {
-      "whatsapp": "2026-10-08T11:21:33.756800"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0,
-      69.0,
-      69.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "ml-cadeira-de-escritorio-ergonomica-monaco-bt07-": {
     "ts": "2026-10-10T09:14:39.484718",
     "canales": {
@@ -3685,6 +3672,16 @@
     "precio": 5554.0,
     "precios_publicados": [
       5554.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g67-5g-128gb-4gb-ram": {
+    "ts": "2026-10-10T11:22:17.268646",
+    "canales": {
+      "whatsapp": "2026-10-10T11:22:17.268646"
+    },
+    "precio": 1339.0,
+    "precios_publicados": [
+      1339.0
     ]
   }
 }
