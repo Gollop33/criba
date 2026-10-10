@@ -2078,14 +2078,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
-    "ts": "2026-10-09T18:02:47.484773",
+    "ts": "2026-10-10T18:46:10.754123",
     "canales": {
-      "whatsapp": "2026-10-09T18:02:47.484773"
+      "whatsapp": "2026-10-10T18:46:10.754123"
     },
     "precio": 1999.0,
     "precios_publicados": [
+      1999.0,
       1999.0
-    ]
+    ],
+    "precio_min_publicado": 1999.0
   },
   "ml-tenis-kappa-pulse-rx-unissex-corrida-conforto": {
     "ts": "2026-10-09T18:09:46.181038",
