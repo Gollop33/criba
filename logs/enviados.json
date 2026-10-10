@@ -355,18 +355,6 @@
     ],
     "precio_min_publicado": 886.0
   },
-  "ml-smart-tv-philco-40-p40vik-led-roku-dolby-audi": {
-    "ts": "2026-10-08T19:38:42.664813",
-    "canales": {
-      "whatsapp": "2026-10-08T19:38:42.664813"
-    },
-    "precio": 1349.0,
-    "precios_publicados": [
-      1349.0,
-      1349.0
-    ],
-    "precio_min_publicado": 1349.0
-  },
   "ml-tapete-higienico-pet-50-unidades-60x60-descar": {
     "ts": "2026-10-10T15:22:44.166950",
     "canales": {
@@ -3614,6 +3602,16 @@
     "precio": 618.0,
     "precios_publicados": [
       618.0
+    ]
+  },
+  "ml-fritadeira-eletrica-air-fryer-quad-fry-42-l14": {
+    "ts": "2026-10-10T19:47:13.233187",
+    "canales": {
+      "whatsapp": "2026-10-10T19:47:13.233187"
+    },
+    "precio": 145.0,
+    "precios_publicados": [
+      145.0
     ]
   }
 }
