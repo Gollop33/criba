@@ -889,16 +889,6 @@
     ],
     "precio_min_publicado": 2559.0
   },
-  "ml-extensor-mesh-wifi6-ex1500-preto-intelbras": {
-    "ts": "2026-10-08T05:56:43.956740",
-    "canales": {
-      "whatsapp": "2026-10-08T05:56:43.956740"
-    },
-    "precio": 192.0,
-    "precios_publicados": [
-      192.0
-    ]
-  },
   "ml-cpap-automatico-airsense-s10-autoset-c-umidif": {
     "ts": "2026-10-08T06:26:04.017603",
     "canales": {
@@ -3491,6 +3481,16 @@
     "precio": 1699.0,
     "precios_publicados": [
       1699.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-astrolabe-lite-preto-paw": {
+    "ts": "2026-10-10T06:12:48.237633",
+    "canales": {
+      "whatsapp": "2026-10-10T06:12:48.237633"
+    },
+    "precio": 83.0,
+    "precios_publicados": [
+      83.0
     ]
   }
 }
