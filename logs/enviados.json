@@ -176,15 +176,16 @@
     "precio_min_publicado": 59.0
   },
   "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
-    "ts": "2026-10-09T18:24:11.187673",
+    "ts": "2026-10-10T18:24:54.104840",
     "canales": {
-      "whatsapp": "2026-10-09T18:24:11.187673"
+      "whatsapp": "2026-10-10T18:24:54.104840"
     },
-    "precio": 458.0,
+    "precio": 449.0,
     "precios_publicados": [
       458.0,
       458.0,
-      458.0
+      458.0,
+      449.0
     ],
     "precio_min_publicado": 458.0
   },
@@ -352,18 +353,6 @@
       963.0
     ],
     "precio_min_publicado": 886.0
-  },
-  "ml-triciclo-eletrico-infantil-bluetooth-drift-36": {
-    "ts": "2026-10-08T18:19:13.225540",
-    "canales": {
-      "whatsapp": "2026-10-08T18:19:13.225540"
-    },
-    "precio": 1099.0,
-    "precios_publicados": [
-      1099.0,
-      1099.0
-    ],
-    "precio_min_publicado": 1099.0
   },
   "ml-berco-portatil-infantil-cercado-desmontavel-l": {
     "ts": "2026-10-08T18:36:53.360702",
@@ -653,16 +642,6 @@
       549.0
     ],
     "precio_min_publicado": 569.0
-  },
-  "ml-berco-bebe-moises-ajustavel-mosqueteiro-porta": {
-    "ts": "2026-10-08T18:21:52.432462",
-    "canales": {
-      "whatsapp": "2026-10-08T18:21:52.432462"
-    },
-    "precio": 435.0,
-    "precios_publicados": [
-      435.0
-    ]
   },
   "ml-bicicleta-ergometrica-spinning-150-kg-treino-": {
     "ts": "2026-10-08T18:27:04.751758",
