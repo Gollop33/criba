@@ -684,12 +684,6 @@
     ],
     "precio_min_publicado": 273.0
   },
-  "cupom-ml-49ee0c1dd7": {
-    "ts": "2026-10-08T20:24:29.774751",
-    "canales": {
-      "whatsapp": "2026-10-08T20:24:29.774751"
-    }
-  },
   "ml-carregador-portatil-power-bank-turbo-20000mah": {
     "ts": "2026-10-09T21:06:13.787615",
     "canales": {
@@ -3666,6 +3660,16 @@
     "precio": 2705.0,
     "precios_publicados": [
       2705.0
+    ]
+  },
+  "amz-acer-aspire-go-15-notebook-156-intel-core-i5-": {
+    "ts": "2026-10-10T20:25:44.374787",
+    "canales": {
+      "whatsapp": "2026-10-10T20:25:44.374787"
+    },
+    "precio": 4699.0,
+    "precios_publicados": [
+      4699.0
     ]
   }
 }
