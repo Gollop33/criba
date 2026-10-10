@@ -288,18 +288,6 @@
     ],
     "precio_min_publicado": 207.0
   },
-  "ml-colchao-inflavel-casal-acampamento-inflador-a": {
-    "ts": "2026-10-08T13:33:47.412058",
-    "canales": {
-      "whatsapp": "2026-10-08T13:33:47.412058"
-    },
-    "precio": 103.0,
-    "precios_publicados": [
-      103.0,
-      103.0
-    ],
-    "precio_min_publicado": 103.0
-  },
   "ml-creatina-growth-supplements-monohidratada-em-": {
     "ts": "2026-10-08T15:10:07.241552",
     "canales": {
@@ -3667,6 +3655,16 @@
     "precio": 312.0,
     "precios_publicados": [
       312.0
+    ]
+  },
+  "ml-cpap-philips-dreamstation-auto-c-umidificador": {
+    "ts": "2026-10-10T13:38:09.741000",
+    "canales": {
+      "whatsapp": "2026-10-10T13:38:09.741000"
+    },
+    "precio": 2025.0,
+    "precios_publicados": [
+      2025.0
     ]
   }
 }
