@@ -866,14 +866,16 @@
     ]
   },
   "ml-tenis-flyer-runner-mesh-bdp-puma": {
-    "ts": "2026-10-08T15:23:22.153021",
+    "ts": "2026-10-10T14:21:36.769536",
     "canales": {
-      "whatsapp": "2026-10-08T15:23:22.153021"
+      "whatsapp": "2026-10-10T14:21:36.769536"
     },
     "precio": 184.0,
     "precios_publicados": [
+      184.0,
       184.0
-    ]
+    ],
+    "precio_min_publicado": 184.0
   },
   "ml-smart-tv-de-24-philco-roku-tv-ptv24g5yr2cp-le": {
     "ts": "2026-10-08T15:25:15.557763",
