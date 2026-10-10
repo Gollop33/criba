@@ -722,16 +722,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "ml-monitor-pc-gamer-lg-24-ips-full-hd-100hz-hdmi": {
-    "ts": "2026-10-08T21:23:23.809974",
-    "canales": {
-      "whatsapp": "2026-10-08T21:23:23.809974"
-    },
-    "precio": 517.0,
-    "precios_publicados": [
-      517.0
-    ]
-  },
   "ml-rocadeira-eletrica-cortador-de-grama-48v-bivo": {
     "ts": "2026-10-08T21:32:50.244466",
     "canales": {
@@ -2203,14 +2193,16 @@
     ]
   },
   "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
-    "ts": "2026-10-09T21:24:34.586792",
+    "ts": "2026-10-10T21:30:21.238587",
     "canales": {
-      "whatsapp": "2026-10-09T21:24:34.586792"
+      "whatsapp": "2026-10-10T21:30:21.238587"
     },
-    "precio": 85.0,
+    "precio": 74.0,
     "precios_publicados": [
-      85.0
-    ]
+      85.0,
+      74.0
+    ],
+    "precio_min_publicado": 85.0
   },
   "ml-polares-z20-patinete-eletrico-premium-500w-pn": {
     "ts": "2026-10-09T21:29:48.039891",
