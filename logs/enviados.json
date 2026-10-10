@@ -877,12 +877,6 @@
     ],
     "precio_min_publicado": 1719.0
   },
-  "cupon-MLCOMPRANDO": {
-    "ts": "2026-10-08T02:40:18.081465",
-    "canales": {
-      "whatsapp": "2026-10-08T02:40:18.081465"
-    }
-  },
   "amz-vonixx-kit-pneu-pretinho-500ml-vintex-aplicad": {
     "ts": "2026-10-08T03:04:34.054282",
     "canales": {
@@ -1940,14 +1934,16 @@
     "precio_min_publicado": 37.0
   },
   "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
-    "ts": "2026-10-09T01:44:03.325442",
+    "ts": "2026-10-10T02:42:40.491861",
     "canales": {
-      "whatsapp": "2026-10-09T01:44:03.325442"
+      "whatsapp": "2026-10-10T02:42:40.491861"
     },
     "precio": 49.0,
     "precios_publicados": [
+      49.0,
       49.0
-    ]
+    ],
+    "precio_min_publicado": 49.0
   },
   "amz-eliminador-de-odores-pet-wap-elimina-odores-1": {
     "ts": "2026-10-10T02:35:41.082202",
