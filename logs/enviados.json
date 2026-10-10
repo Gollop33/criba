@@ -877,12 +877,6 @@
     ],
     "precio_min_publicado": 1719.0
   },
-  "cupom-ml-lote1-2026100803": {
-    "ts": "2026-10-08T03:08:04.210642",
-    "canales": {
-      "whatsapp": "2026-10-08T03:08:04.210642"
-    }
-  },
   "cupom-ml-lote2-2026100803": {
     "ts": "2026-10-08T03:38:29.405015",
     "canales": {
@@ -3463,6 +3457,16 @@
     "precio": 246.0,
     "precios_publicados": [
       246.0
+    ]
+  },
+  "amz-apple-iphone-16e-de-128-gb-preto": {
+    "ts": "2026-10-10T03:14:31.791885",
+    "canales": {
+      "whatsapp": "2026-10-10T03:14:31.791885"
+    },
+    "precio": 3482.0,
+    "precios_publicados": [
+      3482.0
     ]
   }
 }
