@@ -877,12 +877,6 @@
     ],
     "precio_min_publicado": 1719.0
   },
-  "cupom-ml-lote2-2026100803": {
-    "ts": "2026-10-08T03:38:29.405015",
-    "canales": {
-      "whatsapp": "2026-10-08T03:38:29.405015"
-    }
-  },
   "ml-caminhao-dinossauro-3-em-1-engole-carro-e-lan": {
     "ts": "2026-10-08T04:06:36.768076",
     "canales": {
@@ -3477,6 +3471,16 @@
     "precio": 1113.0,
     "precios_publicados": [
       1113.0
+    ]
+  },
+  "amz-the-last-of-us-hits-playstation-4": {
+    "ts": "2026-10-10T03:49:19.460294",
+    "canales": {
+      "whatsapp": "2026-10-10T03:49:19.460294"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
