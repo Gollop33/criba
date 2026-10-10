@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-10T03:14:23+00:00",
+  "actualizado": "2026-10-10T03:22:16+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -17,7 +17,7 @@
       "precio_ref": 289.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -25,39 +25,87 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "triciclo eletrico drift infantil 350w potente 3 velocidades",
+      "nombre": "Triciclo Elétrico Drift Infantil 350w Potente 3 Velocidades até 100kg Bluetooth Led Skide Maxi Voltz - AZUL",
+      "precio_ref": 1113.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "bundle nintendo switch 2 mario kart world",
       "nombre": "Bundle Nintendo Switch 2 + Mario Kart World",
-      "precio_ref": 4399.0,
+      "precio_ref": 4599.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "samsung galaxy book4 intel coretm i5 1335u windows",
-      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, Windows 11 Home, 8GB, 512GB SSD, Iris Xe, 15.6'' Full HD LED, 1.55kg*.",
-      "precio_ref": 3949.99,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "bomba de ar de mao pneu car air",
+      "nombre": "Bomba De Ar De Mão Pneu Car Air Pump Sem Fio 150 Psi Luz De Emergência Led Com Bateria Recarregável De 4000 Mah Verunto",
+      "precio_ref": 49.82,
+      "categoria": "Automotivo",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "the last of us hits playstation 4",
+      "nombre": "The Last Of Us Hits - PlayStation 4",
+      "precio_ref": 59.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "ghost of tsushima edicao padrao playstation 4",
+      "nombre": "Ghost Of Tsushima Edição Padrão - PlayStation 4",
+      "precio_ref": 69.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
+      "nombre": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
+      "precio_ref": 90.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
       "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 62.18,
+      "precio_ref": 65.45,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "apple iphone 16e de 128 gb preto",
-      "nombre": "Apple iPhone 16e de 128 GB — Preto",
-      "precio_ref": 3482.69,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "32 in1 case estojo para nintendo switch oled",
+      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
+      "precio_ref": 80.99,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "smart tv tcl 43 polegadas qled full hd",
+      "nombre": "Smart Tv Tcl 43 Polegadas Qled Full Hd S5k Wifi Bluetooth Google Tv 2 Hdmi Hdr10 Dolby Audio 43s5k",
+      "precio_ref": 1699.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "mouse gamer redragon astrolabe lite preto paw3313 10000",
+      "nombre": "Mouse Gamer Redragon Astrolabe Lite Preto PAW3313 10000 DPI Sem Fio Tri-Mode USB 2.4GHz Bluetooth, USB Tipo-C Estrutura Perfu",
+      "precio_ref": 83.11,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
@@ -65,87 +113,31 @@
       "precio_ref": 112.24,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "notebook samsung galaxy book go windows 11 home",
-      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
-      "precio_ref": 2249.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "ghost of yoteitm complete edition playstation 5",
+      "nombre": "Ghost of Yōtei™ Complete Edition - PlayStation 5",
+      "precio_ref": 369.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "notebook hp 256r g9 intel core i5 13o",
-      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
-      "precio_ref": 4299.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "colageno tipo 2 com 45mg formula exclusiva com",
-      "nombre": "COLÁGENO TIPO 2 com 45mg - Fórmula Exclusiva com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 29.24,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
-      "nombre": "Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo, trocas de página rápidas, luz frontal ajustável e bateri",
-      "precio_ref": 519.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "tenis masculino feminino kappa park 2 0 original",
-      "nombre": "Tênis Masculino Feminino Kappa Park 2.0 Original",
-      "precio_ref": 68.72,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 7 5700x 3 4 ghz",
-      "nombre": "Processador AMD Ryzen 7 5700X, 3,4 GHz, 8 núcleos, 16 threads, cache de 32 MB, soquete AM4, OEM",
-      "precio_ref": 1039.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "relogio inteligente smartwatch gps autonomo chamadas bluetooth novante",
       "nombre": "Relógio Inteligente Smartwatch GPS Autônomo Chamadas Bluetooth NOVANTE Moda Digital Feminino Masculino Esportivo Preto IP68 3ATM Agua Tela Hd 1.85 350mAh 10Dias Android IOS Com Monitoramento de saúde",
-      "precio_ref": 183.39,
+      "precio_ref": 171.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "gabinete gamer lian li vector v100 preto sem",
-      "nombre": "Gabinete Gamer Lian Li Vector V100 Preto Sem Fans V100X",
-      "precio_ref": 406.8,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "nintendo switch 2 pro controller",
+      "nombre": "Nintendo Switch 2 Pro Controller",
+      "precio_ref": 529.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
-      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
-      "precio_ref": 193.32,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
-      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
-      "precio_ref": 5554.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "notebook acer aspire go 15 intel core i3",
@@ -153,15 +145,47 @@
       "precio_ref": 2986.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "smart tv 50 philco p50crb 4k led dolby",
-      "nombre": "Smart TV 50” Philco P50CRB 4K LED Dolby Audio",
-      "precio_ref": 2146.38,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "controle sem fio xbox x25 edicao especial de",
+      "nombre": "Controle sem fio XBOX - X25 Edição Especial de 25 anos - XBOX Series X/S, XBOX One, PCs, TVs, mobile",
+      "precio_ref": 799.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
+      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
+      "precio_ref": 197.32,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "console nintendo switch 2 modelo nacional de tomada",
+      "nombre": "Console Nintendo Switch 2 - Modelo Nacional de Tomada | Bateria de até 9 Horas, Inclui Joy-Con com Suporte e Alças, 1 ano de",
+      "precio_ref": 3999.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "fone bluetooth samsung galaxy buds core preto",
+      "nombre": "Fone Bluetooth Samsung Galaxy Buds Core Preto",
+      "precio_ref": 269.9,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "final fantasy resonance playstation 5 exclusivo amazon",
+      "nombre": "Final Fantasy Resonance - PlayStation 5 (Exclusivo Amazon)",
+      "precio_ref": 299.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
@@ -169,15 +193,95 @@
       "precio_ref": 72.9,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
-      "precio_ref": 3599.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "hyperx teclado gamer hyperx alloy core rgb abnt2",
+      "nombre": "HyperX Teclado Gamer HyperX Alloy Core RGB, ABNT2, PRETO",
+      "precio_ref": 176.46,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "smart tv pro lg 43 4k ultra hd",
+      "nombre": "Smart TV PRO LG 43'' 4K Ultra HD AI 43UN85C",
+      "precio_ref": 1739.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
+      "nombre": "PlayStation®5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
+      "precio_ref": 4089.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g67 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G67 5g - 128gb 4gb Ram + 8gb Ram Boost, Camera 50mp Sony Lytia 600, Tela 1.5k Extreme Amoled 120hz, Ultrarresistente - Verde Claro",
+      "precio_ref": 1089.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "base de carregamento do dualsense playstation 5",
+      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
+      "precio_ref": 193.45,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "racao gato adulto reneff cat premium carne 10",
+      "nombre": "Ração Gato Adulto Rêneff Cat Premium Carne 10,1kg Original",
+      "precio_ref": 105.25,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "controle nintendo switch pro",
+      "nombre": "Controle Nintendo Switch Pro",
+      "precio_ref": 329.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 11 caneta e capa",
+      "nombre": "Tablet Positivo Vision Tab 11 Caneta E Capa 4g 11 128gb Preto",
+      "precio_ref": 1199.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "grand theft auto vi playstation 5",
+      "nombre": "Grand Theft Auto VI - PlayStation 5",
+      "precio_ref": 449.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
+      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
+      "precio_ref": 899.1,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "pragmata playstation 5",
+      "nombre": "PRAGMATA - PlayStation 5",
+      "precio_ref": 299.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "camera veicular ddpai z60 pro 4g monitoramento remoto",
@@ -185,31 +289,31 @@
       "precio_ref": 1516.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "kingston kf432c16bbk2 16 kit de memorias de 16gb",
-      "nombre": "Kingston, KF432C16BBK2/16 - Kit de memórias de 16GB (2 x 8GB) DIMM DDR4 3200Mhz FURY Beast Black 1,35V 1Rx8 288 pinos para de",
-      "precio_ref": 899.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "marvel s wolverine playstation 5",
+      "nombre": "Marvel's Wolverine - PlayStation 5",
+      "precio_ref": 309.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "smart tv pro lg 55 4k ultra hd",
-      "nombre": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
-      "precio_ref": 2540.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "xuxao dalmata de pelucia gigante 1 10m travesseiro",
+      "nombre": "Xuxão Dálmata De Pelúcia Gigante 1,10m Travesseiro Corpo Dálmata",
+      "precio_ref": 85.46,
+      "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "placa de video asrock radeon rx 7600 challenger",
-      "nombre": "Placa de Vídeo ASRock Radeon RX 7600 Challenger OC, 8GB, GDDR6, 128-Bit, FSR, Ray Tracing, Preto",
-      "precio_ref": 1999.99,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "havit headphone fone de ouvido h2002d gamer com",
+      "nombre": "Havit Headphone Fone de Ouvido H2002d, Gamer, com Microfone, Falante 53mm, Plug 3, 5mm: compatível com XBOX ONE e PS4, HAVIT,",
+      "precio_ref": 189.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "cadeira sweet studio escritorio ergonomica giratoria preto com",
@@ -217,183 +321,47 @@
       "precio_ref": 312.89,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 779.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
-      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
-      "precio_ref": 944.1,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "smart tv 43 philco roku tv hdr10 dolby",
-      "nombre": "Smart TV 43\" Philco Roku TV HDR10 Dolby Áudio",
-      "precio_ref": 1420.95,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "camera veicular ddpai z60 pro 4k 1080p sony",
-      "nombre": "Câmera Veicular Ddpai Z60 Pro 4k+1080p Sony Imx678+imx662",
-      "precio_ref": 1249.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "echo dot geracao mais recente smart speaker com",
-      "nombre": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso",
-      "precio_ref": 329.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "racao gato adulto reneff cat premium carne 10",
-      "nombre": "Ração Gato Adulto Rêneff Cat Premium Carne 10,1kg Original",
-      "precio_ref": 102.09,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Touch Screen - Luna Grey - Intel Core i5-13420H, 8GB RAM, 512GB SSD, Windows 11",
-      "precio_ref": 3999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "rocadeira aparador grama a bateria recarregavel 460w profissional",
-      "nombre": "Roçadeira Aparador Grama A Bateria Recarregável 460w Profissional Com Acessórios Tcg12b The Black Tools",
-      "precio_ref": 142.5,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 amd ryzen 7 16",
-      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 16 GB, 512 GB SSD, W11 Home, 15.6'' FHD, Cool Silver - M1502YA-NJ655W",
-      "precio_ref": 4659.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "tenis adidas acelera 2 masculino branco com detalhes",
-      "nombre": "Tênis adidas Acelera 2 Masculino Branco Com Detalhes Pretos Branco 42 Br",
-      "precio_ref": 259.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
-      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
-      "precio_ref": 509.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "projetor portatil 4k hd android 11 0 smart",
-      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
-      "precio_ref": 181.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "asus tuf gaming f16 intel core 5 rtx",
-      "nombre": "ASUS TUF Gaming F16 Intel Core 5, RTX 4050, 8 GB, 512 GB SSD, KeepOS/Linux,16.0'' FHD, Mecha Gray - FX607VU-RL054",
-      "precio_ref": 6749.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "aparador e raspador oneblade intimate qp1924 10 philips",
-      "nombre": "Aparador E Raspador Oneblade Intimate Qp1924/10 Philips Branco 127/220v",
-      "precio_ref": 131.74,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
-      "nombre": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera Tripla de até 50MP OIS, Selfie de 12MP Video HDR, IP68, Tela Super AMOLE",
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
       "precio_ref": 1959.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para cachorro 50 unidades 60x55cm com",
-      "nombre": "Tapete Higiênico para Cachorro 50 Unidades 60x55cm com Gel Absorvente Fralda Manta Pet Cão Com Fitas Adesivas Anti Odor Atrativo Canino",
-      "precio_ref": 44.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
-      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
-      "precio_ref": 589.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "sapatenis leve de ziper super conforto",
-      "nombre": "Sapatênis , Leve De  Zíper Super Conforto",
-      "precio_ref": 58.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "jbl fone de ouvido bluetooth over ear tune",
-      "nombre": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 530BT, Sem Fio, Até 76 Horas de Bateria - Preto",
-      "precio_ref": 175.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
-      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
-      "precio_ref": 1388.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire 5 amd ryzen 5 5500u",
-      "nombre": "Notebook Acer Aspire 5, AMD Ryzen 5 5500U, 8GB RAM, SSD 256GB, Tela 15.6\" FHD IPS, Prata, A515-45-R1AC",
-      "precio_ref": 3399.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "smart tv 4k 55 lg uhd 55ua85 processador",
-      "nombre": "Smart TV 4K 55\" LG UHD 55UA85 Processador α7 AI Ger8 4K Super Upscaling Google Cast Alexa Integrado Controle AI Smart Magic W",
-      "precio_ref": 2000.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "smartphone samsung galaxy a36 5g 128gb 6gb ram",
+      "nombre": "Smartphone Samsung Galaxy A36 5g 128gb 6gb Ram Câmera Tripla De Até 50mp Selfie De 12mp Ip67 Super Amoled 6.7'' Nfc Recursos Ai Android E Segurança Snapdragon - Preto",
+      "precio_ref": 1245.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "orbitals nintendo switch 2",
+      "nombre": "Orbitals – Nintendo Switch 2",
+      "precio_ref": 316.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "tenis masculino feminino kappa park 2 0 original",
+      "nombre": "Tênis Masculino Feminino Kappa Park 2.0 Original",
+      "precio_ref": 94.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm gray camouflage",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Gray Camouflage",
+      "precio_ref": 413.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "berco portatil balanco moises sleepguard cobed bege ragaluma",
@@ -401,31 +369,63 @@
       "precio_ref": 598.99,
       "categoria": "Bebê",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "samsung galaxy book3 360 intel coretm i5 1335u",
-      "nombre": "Samsung Galaxy Book3 360 Intel® Core™ i5-1335U, Windows 11 Home, 8 GB, 256 GB SSD, 13.3\" Full HD AMOLED, 1.16 kg*",
-      "precio_ref": 4699.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "ea sports fc 27 playstation 5",
+      "nombre": "EA Sports FC 27 - PlayStation 5",
+      "precio_ref": 379.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "creatina growth supplements monohidratada em po sem sabor",
-      "nombre": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 250g",
-      "precio_ref": 39.9,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "parafusadeira furadeira de impacto the black tools profissional",
+      "nombre": "Parafusadeira Furadeira De Impacto The Black Tools Profissional TB-21PX 2 Baterias Com Maleta 60Hz Amarelo",
+      "precio_ref": 159.9,
+      "categoria": "Ferramentas",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "placa de video msi rtx 5060 shadow 2x",
-      "nombre": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037",
-      "precio_ref": 2939.0,
+      "busqueda": "star fox nintendo switch 2",
+      "nombre": "Star Fox – Nintendo Switch 2",
+      "precio_ref": 339.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "aparador e raspador oneblade intimate qp1924 10 philips",
+      "nombre": "Aparador E Raspador Oneblade Intimate Qp1924/10 Philips Branco 127/220v",
+      "precio_ref": 131.74,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "nintendo cartao samsung microsd express 256 gb cartao",
+      "nombre": "Nintendo, Cartão Samsung microSD Express, 256 GB, Cartão de Memória, Nintendo Switch 2",
+      "precio_ref": 410.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "rocadeira aparador grama a bateria recarregavel 460w profissional",
+      "nombre": "Roçadeira Aparador Grama A Bateria Recarregável 460w Profissional Com Acessórios Tcg12b The Black Tools",
+      "precio_ref": 142.5,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "resident evil requiem playstation 5",
+      "nombre": "Resident Evil Requiem - PlayStation 5",
+      "precio_ref": 269.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
       "busqueda": "celular motorola moto g56 256gb 12gb ram 5g",
@@ -433,55 +433,55 @@
       "precio_ref": 1399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "water cooler husky glacier iluminacao argb 240mm amd",
-      "nombre": "Water Cooler Husky Glacier, Iluminação ARGB, 240mm, AMD e Intel, Preto - HWT600PT",
-      "precio_ref": 189.97,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "playstation5 slim disk pacote astro bot e gran",
+      "nombre": "PlayStation®5 Slim Disk - Pacote ASTRO BOT e Gran Turismo 7",
+      "precio_ref": 4999.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "celular smartphone realme c73 256gb 8gb ram dual",
-      "nombre": "Celular Smartphone Realme C73 256gb 8gb Ram Dual Sim 120hz 6 Ah Violeta",
-      "precio_ref": 1114.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "creatina growth supplements monohidratada em po sem sabor",
+      "nombre": "Creatina Growth Supplements Monohidratada em pó Sem sabor x 250g",
+      "precio_ref": 39.9,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
-      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
-      "precio_ref": 200.0,
-      "categoria": "Relógios & Smartwatches",
+      "busqueda": "ghost of tsushima versao do diretor playstation 5",
+      "nombre": "Ghost of Tsushima Versão Do Diretor - PlayStation 5",
+      "precio_ref": 169.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "smart tv philco 60 p60vik 4k uhd led",
-      "nombre": "Smart TV Philco 60\" P60VIK 4K UHD LED Roku Dolby Audio Wi-Fi HDR10",
-      "precio_ref": 2705.0,
+      "busqueda": "patinete eletrico 500w 25km h dobravel app bluetooth",
+      "nombre": "Patinete Elétrico 500w 25km/h Dobrável App Bluetooth Rapido Preto",
+      "precio_ref": 1057.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     },
     {
-      "busqueda": "processador amd ryzen 5 5600gt am4 6 cores",
-      "nombre": "Processador AMD Ryzen 5 5600GT (AM4/6 Cores/12 Threads/4.6GHz/19MB Cache/Wraith Stealth/AMD Radeon)",
-      "precio_ref": 1016.25,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
-    },
-    {
-      "busqueda": "cadeira musical vibratoria bebe funtime maxibaby 18kgs rosa",
-      "nombre": "Cadeira Musical Vibratória Bebê Funtime Maxibaby 18kgs Rosa Rosa",
-      "precio_ref": 199.9,
-      "categoria": "Casa & Móveis",
+      "busqueda": "projetor portatil 4k hd android 11 0 smart",
+      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
+      "precio_ref": 181.0,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-10T03:14:23+00:00"
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola edge 60 fusion 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Edge 60 Fusion 5g - 256gb 8gb Ram+8gb Ram Boost, 50mp Sony Ai Camera Ip68 Nfc - Rosa",
+      "precio_ref": 1706.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-10T03:22:16+00:00"
     }
   ]
 }
