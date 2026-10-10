@@ -290,18 +290,6 @@
     ],
     "precio_min_publicado": 150.0
   },
-  "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
-    "ts": "2026-10-08T16:03:14.948357",
-    "canales": {
-      "whatsapp": "2026-10-08T16:03:14.948357"
-    },
-    "precio": 259.0,
-    "precios_publicados": [
-      259.0,
-      259.0
-    ],
-    "precio_min_publicado": 259.0
-  },
   "ml-celular-smartphone-realme-c73-256gb-8gb-ram-d": {
     "ts": "2026-10-08T16:12:57.079757",
     "canales": {
@@ -773,16 +761,6 @@
       549.0
     ],
     "precio_min_publicado": 569.0
-  },
-  "ml-cadeirinha-infantil-para-carro-mass-litet-0-a": {
-    "ts": "2026-10-08T15:58:41.656521",
-    "canales": {
-      "whatsapp": "2026-10-08T15:58:41.656521"
-    },
-    "precio": 533.0,
-    "precios_publicados": [
-      533.0
-    ]
   },
   "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
     "ts": "2026-10-08T16:22:37.497163",
@@ -3684,6 +3662,16 @@
     "precio": 1260.0,
     "precios_publicados": [
       1260.0
+    ]
+  },
+  "ml-notebook-156-acer-aspire-go-15-intel-core-i7-": {
+    "ts": "2026-10-10T16:03:48.119546",
+    "canales": {
+      "whatsapp": "2026-10-10T16:03:48.119546"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
