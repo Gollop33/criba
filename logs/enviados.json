@@ -815,12 +815,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "cupon-BONECAS10": {
-    "ts": "2026-10-08T00:22:00.756523",
-    "canales": {
-      "whatsapp": "2026-10-08T00:22:00.756523"
-    }
-  },
   "cupon-JOGOS10": {
     "ts": "2026-10-08T00:27:32.229784",
     "canales": {
@@ -3429,6 +3423,16 @@
     "precio": 4649.0,
     "precios_publicados": [
       4649.0
+    ]
+  },
+  "ml-kit-bebedouro-e-comedouro-de-passaros-aves-au": {
+    "ts": "2026-10-10T00:25:29.045447",
+    "canales": {
+      "whatsapp": "2026-10-10T00:25:29.045447"
+    },
+    "precio": 54.0,
+    "precios_publicados": [
+      54.0
     ]
   }
 }
