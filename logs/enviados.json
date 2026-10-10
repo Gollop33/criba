@@ -187,18 +187,6 @@
     ],
     "precio_min_publicado": 259.0
   },
-  "ml-tablet-positivo-vision-tab-7-stitch-64-gb-3-g": {
-    "ts": "2026-10-08T11:52:25.221414",
-    "canales": {
-      "whatsapp": "2026-10-08T11:52:25.221414"
-    },
-    "precio": 443.0,
-    "precios_publicados": [
-      494.0,
-      443.0
-    ],
-    "precio_min_publicado": 494.0
-  },
   "ml-cozinha-infantil-brinquedo-com-luz-33-acessor": {
     "ts": "2026-10-09T23:26:42.921054",
     "canales": {
@@ -3722,6 +3710,16 @@
     "precio": 6015.0,
     "precios_publicados": [
       6015.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
+    "ts": "2026-10-10T11:52:53.008247",
+    "canales": {
+      "whatsapp": "2026-10-10T11:52:53.008247"
+    },
+    "precio": 999.0,
+    "precios_publicados": [
+      999.0
     ]
   }
 }
