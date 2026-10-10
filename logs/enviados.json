@@ -345,18 +345,6 @@
     ],
     "precio_min_publicado": 2861.0
   },
-  "ml-ar-condicionado-dual-inverter-lg-compact-ai-9": {
-    "ts": "2026-10-08T23:40:18.025637",
-    "canales": {
-      "whatsapp": "2026-10-08T23:40:18.025637"
-    },
-    "precio": 1889.0,
-    "precios_publicados": [
-      1889.0,
-      1889.0
-    ],
-    "precio_min_publicado": 1889.0
-  },
   "amz-balanca-de-cozinha-digital-premium-gourmet-re": {
     "ts": "2026-10-09T09:28:35.102426",
     "canales": {
@@ -613,16 +601,6 @@
       46.0
     ],
     "precio_min_publicado": 46.0
-  },
-  "ml-notebook-samsung-galaxy-book4-intel-u300-120-": {
-    "ts": "2026-10-08T23:44:53.253433",
-    "canales": {
-      "whatsapp": "2026-10-08T23:44:53.253433"
-    },
-    "precio": 3028.0,
-    "precios_publicados": [
-      3028.0
-    ]
   },
   "amz-blue-premium-tapete-higienico-descartavel-par": {
     "ts": "2026-10-09T23:57:31.499524",
@@ -3514,6 +3492,16 @@
     "precio": 5683.0,
     "precios_publicados": [
       5683.0
+    ]
+  },
+  "ml-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
+    "ts": "2026-10-10T23:44:55.410638",
+    "canales": {
+      "whatsapp": "2026-10-10T23:44:55.410638"
+    },
+    "precio": 4557.0,
+    "precios_publicados": [
+      4557.0
     ]
   }
 }
