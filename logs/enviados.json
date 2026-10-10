@@ -288,18 +288,6 @@
     ],
     "precio_min_publicado": 29.0
   },
-  "ml-smart-tv-43-philco-p43vik-roku-led-dolby-audi": {
-    "ts": "2026-10-08T16:16:32.337794",
-    "canales": {
-      "whatsapp": "2026-10-08T16:16:32.337794"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0,
-      1449.0
-    ],
-    "precio_min_publicado": 1449.0
-  },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
     "ts": "2026-10-09T18:55:23.380707",
     "canales": {
@@ -735,16 +723,6 @@
       549.0
     ],
     "precio_min_publicado": 569.0
-  },
-  "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
-    "ts": "2026-10-08T16:22:37.497163",
-    "canales": {
-      "whatsapp": "2026-10-08T16:22:37.497163"
-    },
-    "precio": 217.0,
-    "precios_publicados": [
-      217.0
-    ]
   },
   "ml-kit-c3-oleo-de-abacate-100-puro-prensado-a-fr": {
     "ts": "2026-10-08T16:53:47.757694",
@@ -3658,6 +3636,16 @@
     "precio": 6230.0,
     "precios_publicados": [
       6230.0
+    ]
+  },
+  "amz-mondial-sanduicheira-fast-grill-sandwich-pret": {
+    "ts": "2026-10-10T16:23:32.773902",
+    "canales": {
+      "whatsapp": "2026-10-10T16:23:32.773902"
+    },
+    "precio": 65.0,
+    "precios_publicados": [
+      65.0
     ]
   }
 }
