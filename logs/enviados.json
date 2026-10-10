@@ -333,18 +333,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "ml-tv-stick-4k-android-chromecast-smart-hdmi-wif": {
-    "ts": "2026-10-08T23:38:06.577347",
-    "canales": {
-      "whatsapp": "2026-10-08T23:38:06.577347"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0,
-      159.0
-    ],
-    "precio_min_publicado": 159.0
-  },
   "ml-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-10-08T23:50:25.481065",
     "canales": {
@@ -3516,6 +3504,16 @@
     "precio": 539.0,
     "precios_publicados": [
       539.0
+    ]
+  },
+  "ml-notebook-asus-vivobook-s-14-s5406sa-copilot-p": {
+    "ts": "2026-10-10T23:39:13.577012",
+    "canales": {
+      "whatsapp": "2026-10-10T23:39:13.577012"
+    },
+    "precio": 5683.0,
+    "precios_publicados": [
+      5683.0
     ]
   }
 }
