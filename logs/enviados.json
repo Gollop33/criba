@@ -1938,14 +1938,16 @@
     "precio_min_publicado": 15.0
   },
   "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
-    "ts": "2026-10-09T00:36:49.153837",
+    "ts": "2026-10-10T00:45:40.278250",
     "canales": {
-      "whatsapp": "2026-10-09T00:36:49.153837"
+      "whatsapp": "2026-10-10T00:45:40.278250"
     },
-    "precio": 50.0,
+    "precio": 36.0,
     "precios_publicados": [
-      50.0
-    ]
+      50.0,
+      36.0
+    ],
+    "precio_min_publicado": 50.0
   },
   "amz-wanpytruly-creamy-petisco-cremoso-para-gatos-": {
     "ts": "2026-10-10T00:41:18.119245",
