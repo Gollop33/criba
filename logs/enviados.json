@@ -369,18 +369,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
-    "ts": "2026-10-08T21:15:04.621688",
-    "canales": {
-      "whatsapp": "2026-10-08T21:15:04.621688"
-    },
-    "precio": 1424.0,
-    "precios_publicados": [
-      1460.0,
-      1424.0
-    ],
-    "precio_min_publicado": 1460.0
-  },
   "ml-smart-tv-32-philco-p32vik-roku-led-dolby-audi": {
     "ts": "2026-10-08T22:43:30.871715",
     "canales": {
@@ -3712,6 +3700,16 @@
     "precio": 376.0,
     "precios_publicados": [
       376.0
+    ]
+  },
+  "ml-bicicleta-aro-20-xgt-infantil-feminina-mariin": {
+    "ts": "2026-10-10T21:20:19.189206",
+    "canales": {
+      "whatsapp": "2026-10-10T21:20:19.189206"
+    },
+    "precio": 478.0,
+    "precios_publicados": [
+      478.0
     ]
   }
 }
