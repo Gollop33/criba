@@ -696,16 +696,6 @@
     ],
     "precio_min_publicado": 109.0
   },
-  "ml-tapete-higienico-para-cachorro-descartavel-al": {
-    "ts": "2026-10-08T20:33:44.745534",
-    "canales": {
-      "whatsapp": "2026-10-08T20:33:44.745534"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "ml-racao-quatree-life-gatos-ad-castrados-101kg-s": {
     "ts": "2026-10-09T22:03:25.063889",
     "canales": {
@@ -3670,6 +3660,16 @@
     "precio": 4699.0,
     "precios_publicados": [
       4699.0
+    ]
+  },
+  "ml-berco-portatil-balanco-moises-sleepguard-cobe": {
+    "ts": "2026-10-10T20:34:35.992931",
+    "canales": {
+      "whatsapp": "2026-10-10T20:34:35.992931"
+    },
+    "precio": 598.0,
+    "precios_publicados": [
+      598.0
     ]
   }
 }
