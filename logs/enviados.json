@@ -341,18 +341,6 @@
     ],
     "precio_min_publicado": 493.0
   },
-  "ml-cama-elastica-trampolim-justfun-de-140-m-para": {
-    "ts": "2026-10-08T17:51:11.363659",
-    "canales": {
-      "whatsapp": "2026-10-08T17:51:11.363659"
-    },
-    "precio": 252.0,
-    "precios_publicados": [
-      246.0,
-      252.0
-    ],
-    "precio_min_publicado": 246.0
-  },
   "ml-smartphone-motorola-moto-g15-256gb-4gb-ram-8g": {
     "ts": "2026-10-08T22:08:35.104120",
     "canales": {
@@ -665,36 +653,6 @@
       549.0
     ],
     "precio_min_publicado": 569.0
-  },
-  "ml-balanca-comercial-digital-toledo-prix-4-uno-s": {
-    "ts": "2026-10-08T17:53:19.806569",
-    "canales": {
-      "whatsapp": "2026-10-08T17:53:19.806569"
-    },
-    "precio": 5899.0,
-    "precios_publicados": [
-      5899.0
-    ]
-  },
-  "ml-smartphone-oppo-a60-256gb-8gb-ram-branco": {
-    "ts": "2026-10-08T17:54:30.922574",
-    "canales": {
-      "whatsapp": "2026-10-08T17:54:30.922574"
-    },
-    "precio": 1304.0,
-    "precios_publicados": [
-      1304.0
-    ]
-  },
-  "ml-omega-plus-240-caps-dark-lab": {
-    "ts": "2026-10-08T17:57:57.382007",
-    "canales": {
-      "whatsapp": "2026-10-08T17:57:57.382007"
-    },
-    "precio": 142.0,
-    "precios_publicados": [
-      142.0
-    ]
   },
   "ml-tenis-masculino-puma-bmw-motorsport-leve-conf": {
     "ts": "2026-10-08T18:04:35.094367",
@@ -3628,6 +3586,16 @@
     "precio": 67.0,
     "precios_publicados": [
       67.0
+    ]
+  },
+  "amz-controle-sem-fio-playstation-dualsensetm-gray": {
+    "ts": "2026-10-10T17:59:29.136652",
+    "canales": {
+      "whatsapp": "2026-10-10T17:59:29.136652"
+    },
+    "precio": 413.0,
+    "precios_publicados": [
+      413.0
     ]
   }
 }
