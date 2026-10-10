@@ -783,12 +783,6 @@
     ],
     "precio_min_publicado": 218.0
   },
-  "cupon-SALVAMEUBOLSO": {
-    "ts": "2026-10-08T14:15:11.654279",
-    "canales": {
-      "whatsapp": "2026-10-08T14:15:11.654279"
-    }
-  },
   "cupon-ACHEINOMELI": {
     "ts": "2026-10-08T14:21:54.873285",
     "canales": {
@@ -3701,6 +3695,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "ml-jogo-de-panelas-genebra-ceramica-12-pcs-antia": {
+    "ts": "2026-10-10T14:16:24.029062",
+    "canales": {
+      "whatsapp": "2026-10-10T14:16:24.029062"
+    },
+    "precio": 237.0,
+    "precios_publicados": [
+      237.0
     ]
   }
 }
