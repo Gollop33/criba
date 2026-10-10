@@ -654,16 +654,6 @@
     ],
     "precio_min_publicado": 569.0
   },
-  "ml-relogio-inteligente-smartwatch-gps-autonomo-a": {
-    "ts": "2026-10-08T18:13:06.328517",
-    "canales": {
-      "whatsapp": "2026-10-08T18:13:06.328517"
-    },
-    "precio": 191.0,
-    "precios_publicados": [
-      191.0
-    ]
-  },
   "ml-berco-bebe-moises-ajustavel-mosqueteiro-porta": {
     "ts": "2026-10-08T18:21:52.432462",
     "canales": {
@@ -2059,14 +2049,16 @@
     ]
   },
   "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-10-09T17:18:47.102428",
+    "ts": "2026-10-10T18:14:59.817758",
     "canales": {
-      "whatsapp": "2026-10-09T17:18:47.102428"
+      "whatsapp": "2026-10-10T18:14:59.817758"
     },
     "precio": 3621.0,
     "precios_publicados": [
+      3621.0,
       3621.0
-    ]
+    ],
+    "precio_min_publicado": 3621.0
   },
   "ml-kit-com-10-cuecas-boxer-algodao-cotton-mascul": {
     "ts": "2026-10-09T17:25:19.872995",
