@@ -1941,14 +1941,16 @@
     "precio_min_publicado": 85.0
   },
   "ml-polares-z20-patinete-eletrico-premium-500w-pn": {
-    "ts": "2026-10-09T21:29:48.039891",
+    "ts": "2026-10-11T00:07:44.387317",
     "canales": {
-      "whatsapp": "2026-10-09T21:29:48.039891"
+      "whatsapp": "2026-10-11T00:07:44.387317"
     },
-    "precio": 1310.0,
+    "precio": 1198.0,
     "precios_publicados": [
-      1310.0
-    ]
+      1310.0,
+      1198.0
+    ],
+    "precio_min_publicado": 1310.0
   },
   "ml-xiaomi-poco-x7-pro-5g-12ram-512-gb-global-cor": {
     "ts": "2026-10-09T21:31:22.168797",
