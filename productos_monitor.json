@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11T15:21:27+00:00",
+  "actualizado": "2026-10-11T15:28:28+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -17,7 +17,7 @@
       "precio_ref": 55.23,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -25,15 +25,7 @@
       "precio_ref": 34.93,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "balanca digital corporal bioimpedancia aplicativo bluetooth relaxmedic",
-      "nombre": "Balança Digital Corporal Bioimpedância Aplicativo Bluetooth Relaxmedic",
-      "precio_ref": 109.55,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "polares z20 patinete eletrico premium 500w pneu aderente",
@@ -41,7 +33,15 @@
       "precio_ref": 1310.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "balanca digital corporal bioimpedancia aplicativo bluetooth relaxmedic",
+      "nombre": "Balança Digital Corporal Bioimpedância Aplicativo Bluetooth Relaxmedic",
+      "precio_ref": 109.55,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -49,23 +49,7 @@
       "precio_ref": 231.92,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
-      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
-      "precio_ref": 367.92,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy a57 256 gb e 8 ram",
-      "nombre": "Samsung Galaxy A57 256 gb e 8 Ram Dual Sim Lilás",
-      "precio_ref": 1990.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "patinete eletrico honeywhale m1 lite dobravel com bluetooth",
@@ -73,7 +57,23 @@
       "precio_ref": 987.5,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
+      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
+      "precio_ref": 367.92,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy a57 256 gb e 8 ram",
+      "nombre": "Samsung Galaxy A57 256 gb e 8 Ram Dual Sim Lilás",
+      "precio_ref": 1990.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "jogo de toalhas 4 pcs fio cardado 100",
@@ -81,7 +81,7 @@
       "precio_ref": 89.92,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "aspirador de po e agua wap gtw 10",
@@ -89,7 +89,7 @@
       "precio_ref": 242.79,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "fritadeira eletrica air fryer 8 em 1 wap",
@@ -97,7 +97,7 @@
       "precio_ref": 589.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -105,7 +105,7 @@
       "precio_ref": 728.91,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "triciclo eletrico drift infantil 350w potente 3 velocidades",
@@ -113,15 +113,7 @@
       "precio_ref": 1113.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "sanremo rodo plastico para pia de 14cm cor",
-      "nombre": "Sanremo - Rodo Plástico para Pia de 14cm, Cor Preta Linha Casar",
-      "precio_ref": 5.41,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "cif limpador especialista derrete gordura 500 ml",
@@ -129,31 +121,7 @@
       "precio_ref": 15.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
-      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
-      "precio_ref": 58.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "limpador perfumado 500ml uau ingleza perfume cha branco",
-      "nombre": "Limpador Perfumado 500ml UAU Ingleza Perfume Chá Branco",
-      "precio_ref": 4.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "limpador perfumado veja banho de cheiro 2l",
-      "nombre": "Limpador Perfumado Veja Banho de Cheiro 2L",
-      "precio_ref": 14.39,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "limpador multiuso power fusion limao veja 500ml",
@@ -161,7 +129,23 @@
       "precio_ref": 6.5,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "limpador perfumado 500ml uau ingleza perfume cha branco",
+      "nombre": "Limpador Perfumado 500ml UAU Ingleza Perfume Chá Branco",
+      "precio_ref": 4.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "limpador perfumado veja banho de cheiro 2l",
+      "nombre": "Limpador Perfumado Veja Banho de Cheiro 2L",
+      "precio_ref": 14.39,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "harpic cloro forte desinfetante e desodorizador sanitario 200ml",
@@ -169,7 +153,23 @@
       "precio_ref": 6.19,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
+      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
+      "precio_ref": 58.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "sanremo rodo plastico para pia de 14cm cor",
+      "nombre": "Sanremo - Rodo Plástico para Pia de 14cm, Cor Preta Linha Casar",
+      "precio_ref": 5.41,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "cozinha infantil completa com luz e som acessorios",
@@ -177,39 +177,7 @@
       "precio_ref": 69.8,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "finish powerball detergente para lava loucas em tabletes",
-      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
-      "precio_ref": 52.11,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 65.45,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "mondial ventilador de mesa 110v 30cm 6 pas",
-      "nombre": "MONDIAL Ventilador de Mesa 110V, 30cm, 6 pás, Super Power - VSP-30-B",
-      "precio_ref": 99.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
-      "nombre": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Rosa",
-      "precio_ref": 67.07,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "ype detergente clear 5l detergente liquido",
@@ -217,31 +185,15 @@
       "precio_ref": 32.8,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "ype detergente em po para maquina 1kg formula",
-      "nombre": "Ypê Detergente em Pó para Máquina 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
-      "precio_ref": 48.28,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "lysoform original desinfetante liquido limpeza casa 5l",
-      "nombre": "Lysoform Original, Desinfetante Líquido, Limpeza Casa, 5L",
-      "precio_ref": 46.7,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "kit 6 pares meias puma algodao cano medio",
-      "nombre": "Kit 6 Pares Meias Puma Algodão Cano Médio Alto Atoalhado",
-      "precio_ref": 56.98,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
+      "nombre": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Rosa",
+      "precio_ref": 67.07,
+      "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "jimo lava louca multicamadas detergente concentrado para maquinas",
@@ -249,7 +201,31 @@
       "precio_ref": 29.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "ype detergente em po para maquina 1kg formula",
+      "nombre": "Ypê Detergente em Pó para Máquina 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
+      "precio_ref": 48.28,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "lysoform original desinfetante liquido limpeza casa 5l",
+      "nombre": "Lysoform Original, Desinfetante Líquido, Limpeza Casa, 5L",
+      "precio_ref": 46.7,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 65.45,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "flash limp mop giratorio fit balde 8 litros",
@@ -257,15 +233,23 @@
       "precio_ref": 52.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
-      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
-      "precio_ref": 106.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "kit 6 pares meias puma algodao cano medio",
+      "nombre": "Kit 6 Pares Meias Puma Algodão Cano Médio Alto Atoalhado",
+      "precio_ref": 56.98,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "finish powerball detergente para lava loucas em tabletes",
+      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
+      "precio_ref": 52.11,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "pinho sol desinfetante original 3 8l",
@@ -273,15 +257,15 @@
       "precio_ref": 43.39,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 99.9,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
+      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
+      "precio_ref": 106.0,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "detergente limpador para extratoras concentrado wap limpa e",
@@ -289,7 +273,15 @@
       "precio_ref": 45.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
+      "precio_ref": 99.9,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "jimo lava louca gel detergente concentrado desengordurante super",
@@ -297,7 +289,15 @@
       "precio_ref": 30.3,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 798.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "nac 600mg formula exclusiva com maxima concentracao e",
@@ -305,47 +305,7 @@
       "precio_ref": 32.04,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
-      "nombre": "Electrolux Aspirador pó vertical 2 em 1 1450W HEPA STK15 Cinza Urban 127V | Com fio, portátil de mão, potente, cabo de 6m e c",
-      "precio_ref": 170.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
-      "precio_ref": 1580.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
-      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
-      "precio_ref": 29.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "monitor dell pro 24 plus 1080p 1920 x",
-      "nombre": "Monitor Dell Pro 24 Plus, 1080p (1920 x 1080), 100 Hz, LED, 5 ms, P2425H | Tela de 23,8 proporção 16:9, contraste de 1500:1,",
-      "precio_ref": 999.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "apple iphone 17 de 256 gb preto",
@@ -353,7 +313,47 @@
       "precio_ref": 6015.39,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
+      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 33.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "smartphone poco x8 pro 512gb 12gb ram branco",
+      "nombre": "Smartphone Poco X8 Pro 512GB 12GB RAM - Branco | Mediatek Dimensity 8500 Ultra",
+      "precio_ref": 2794.95,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
+      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
+      "precio_ref": 29.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "apple iphone 16e de 128 gb preto",
+      "nombre": "Apple iPhone 16e de 128 GB — Preto",
+      "precio_ref": 3482.69,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "apple iphone 16 128 gb preto",
+      "nombre": "Apple iPhone 16 (128 GB) – Preto",
+      "precio_ref": 5065.39,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "tenis sneaker skate casual unissex moda promocao sk8",
@@ -361,15 +361,15 @@
       "precio_ref": 138.25,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "tab samsung galaxy s11 ultra cinza 512gb 12gb",
-      "nombre": "Tab Samsung Galaxy S11 Ultra Cinza, 512GB, 12GB 14.6\" Camera 12MP, WiFi | Câmera 12MP, WiFi",
-      "precio_ref": 7090.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "monitor gamer alienware 25 full hd 1920 x",
+      "nombre": "Monitor Gamer Alienware 25\", Full Hd (1920 x 1080), 320 Hz, Aw2525hm | NVIDIA G-SYNC, Tempo de Resposta 0,5 ms, 400 nits, 100",
+      "precio_ref": 1599.0,
+      "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "colageno tipo 2 com 45mg formula exclusiva com",
@@ -377,15 +377,15 @@
       "precio_ref": 29.24,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
-      "nombre": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Azul",
-      "precio_ref": 999.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "smartphone motorola moto g67 5g 256gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G67 5G - 256GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela 1.5K extreme Amoled 120hz, u",
+      "precio_ref": 1427.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "projetor portatil bettdowac1093pro 350ansi 4kgtv com netflix cinza",
@@ -393,31 +393,15 @@
       "precio_ref": 375.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "smartphone xiaomi poco x7 pro 5g nfc black",
-      "nombre": "Smartphone Xiaomi Poco X7 Pro 5G NFC Black (Preto) 12GB RAM 512GB ROM [2412DPC0AG]",
-      "precio_ref": 2360.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "ventilador de coluna mallory eolo 126w silencioso helice",
+      "nombre": "Ventilador de Coluna Mallory Éolo 126W, Silencioso, Hélice de 6 pás, Grade Especial em Sistema TS, Máxima Vazão e Mínimo Ruíd",
+      "precio_ref": 198.89,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
-      "nombre": "Creatina Monohidratada 500g Pouch - Growth Supplements Sem Sabor",
-      "precio_ref": 59.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM, WiFi",
-      "precio_ref": 1570.47,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "bicicleta equilibrio brinq kids sem pedal andador infantil",
@@ -425,7 +409,7 @@
       "precio_ref": 55.11,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "monitor philips 27 120hz 1ms gaming alto falantes",
@@ -433,23 +417,15 @@
       "precio_ref": 599.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
-      "busqueda": "caixa de som boombox plus aiwa bbs 01",
-      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
-      "precio_ref": 1149.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
-      "precio_ref": 3149.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "xiaomi tablet pad 7 de 11 2 polegadas",
+      "nombre": "XIAOMI Tablet Pad 7 de 11,2 polegadas, 8 GB de RAM + 256 GB de armazenamento, tela 3.2K de 144 Hz, Snapdragon 7+ de 3ª geraçã",
+      "precio_ref": 2149.85,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
@@ -457,7 +433,7 @@
       "precio_ref": 449.9,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "be place kids tablet infantil android 13 128gb",
@@ -465,7 +441,23 @@
       "precio_ref": 395.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
+      "nombre": "Creatina Monohidratada 500g Pouch - Growth Supplements Sem Sabor",
+      "precio_ref": 59.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "hepta world ventilador de coluna resfriamento silencioso design",
+      "nombre": "HEPTA WORLD Ventilador de Coluna, Resfriamento, Silencioso, Design Slim para Casa Escritório (PRETO, 110V, 101)",
+      "precio_ref": 139.99,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "basike fone de ouvido bluetooth 5 4 tws",
@@ -473,7 +465,7 @@
       "precio_ref": 96.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
@@ -481,7 +473,15 @@
       "precio_ref": 1709.1,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T15:21:27+00:00"
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido headphone dapon h02d bluetooth 5",
+      "nombre": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "precio_ref": 68.91,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T15:28:28+00:00"
     }
   ]
 }
