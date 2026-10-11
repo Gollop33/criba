@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11T02:00:38+00:00",
+  "actualizado": "2026-10-11T02:08:29+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,23 +9,15 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "creatina dark lab premium pure em po sem",
-      "nombre": "Creatina Dark Lab Premium Pure em pó Sem sabor x 500g",
-      "precio_ref": 49.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
       "nombre": "Creatina Monohidratada Dark Lab 1kg (100%)",
-      "precio_ref": 78.9,
+      "precio_ref": 78.92,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "samsung galaxy a57 256 gb e 8 ram",
@@ -33,7 +25,15 @@
       "precio_ref": 1990.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "carrinho eletrico infantil 12v brinquedo mini carro passeio",
+      "nombre": "Carrinho Elétrico Infantil 12v Brinquedo Mini Carro Passeio Voltagem do carregador",
+      "precio_ref": 990.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "notebook gamer 15 6 nitro v 15 processador",
@@ -41,7 +41,23 @@
       "precio_ref": 7749.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "tapete higienico 80x60 50un pet cachorro caes pads",
+      "nombre": "Tapete Higiênico 80x60 50un Pet Cachorro Cães Pads Prime",
+      "precio_ref": 67.52,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "condroplex lb suplemento alimentar para caes grandes 60",
+      "nombre": "Condroplex Lb Suplemento Alimentar Para Cães Grandes 60 Comprimidos",
+      "precio_ref": 131.85,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -49,15 +65,7 @@
       "precio_ref": 519.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "cadeira de escritorio ergonomica monaco bt07 luvinco malha",
-      "nombre": "Cadeira De Escritório Ergonômica Mônaco Bt07 Luvinco Malha Respirável Com Suporte Lombar Adaptável Apoio Para Pés Retrátil Encosto Ajustável Seis Posições Cor Preta Suporta 200kg",
-      "precio_ref": 1099.0,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -65,7 +73,31 @@
       "precio_ref": 728.91,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "triciclo eletrico drift infantil 350w potente 3 velocidades",
+      "nombre": "Triciclo Elétrico Drift Infantil 350w Potente 3 Velocidades até 100kg Bluetooth Led Skide Maxi Voltz - AZUL",
+      "precio_ref": 1113.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go e1504ga intel core i3",
+      "nombre": "Notebook Asus Vivobook Go E1504GA Intel Core I3 N305 4Gb Ram 256Gb Ssd Linux Keepos Tela 15,6 Fhd Silver - Nj447",
+      "precio_ref": 2436.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "notebook hp 200 hp 200 g2i intel core",
+      "nombre": "Notebook HP 200 HP 200 G2i Intel Core 3-100U 16\" Intel Graphics RAM 8GB (1x8GB) DDR5 SSD 256GB PCIe4x4 Windows 11 Home SL - E30QDAT#AK4",
+      "precio_ref": 3585.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
@@ -73,15 +105,15 @@
       "precio_ref": 69.93,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
-      "precio_ref": 32.8,
-      "categoria": "Pet Shop",
+      "busqueda": "eucerin dermopure clinical gel de limpeza gentil 200ml",
+      "nombre": "EUCERIN Dermopure Clinical Gel de Limpeza Gentil 200ml, Redução da oleosidade e acne, Desobstrui os poros",
+      "precio_ref": 41.59,
+      "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
@@ -89,55 +121,63 @@
       "precio_ref": 58.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
-      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
-      "precio_ref": 45.66,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "serum hidratante corporal para pele com tom irregular",
+      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
+      "precio_ref": 29.89,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "alimento com amendoas almond breeze caramelo c 12",
+      "nombre": "Alimento Com Amêndoas Almond Breeze Caramelo C/12 Un",
+      "precio_ref": 34.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "skin care hidratante facial garnier uniform matte toque",
+      "nombre": "Skin Care Hidratante Facial Garnier Uniform & Matte Toque Seco 85g | Creme com vitamina C e ácido hialurônico, reduz poros e",
+      "precio_ref": 26.61,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
       "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 65.45,
+      "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "pack nestle purina friskies racao umida para gatos",
-      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
-      "precio_ref": 36.78,
-      "categoria": "Pet Shop",
+      "busqueda": "loreal professionnel absolut repair shampoo refil com proteina",
+      "nombre": "L’Oréal Professionnel | Absolut Repair Shampoo Refil | Com Proteína e Quinoa Dourada para cabelos danificados e secos | SERIE",
+      "precio_ref": 57.6,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "eliminador de odores pet wap elimina odores 1",
-      "nombre": "Eliminador de Odores Pet WAP Elimina Odores 1 Litro Líquido Cereja e Avelã | Neutralizador de Odores com fragrância",
-      "precio_ref": 37.59,
-      "categoria": "Perfumes & Fragrâncias",
+      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
+      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
+      "precio_ref": 26.9,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "blue premium tapete higienico descartavel para caes 30",
-      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
-      "precio_ref": 61.9,
-      "categoria": "Pet Shop",
+      "busqueda": "bellacotton algodao quadrado baby 100 algodao macio 100",
+      "nombre": "Bellacotton Algodão Quadrado Baby 100% Algodão Macio – 100 Unidades",
+      "precio_ref": 26.0,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
-      "nombre": "Tapete Higiênico para Cães Good Pad 60cmx60cm 50 Unidades",
-      "precio_ref": 43.19,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "yopro energy boost uht cafe expresso 15g de",
@@ -145,15 +185,23 @@
       "precio_ref": 6.15,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
-      "nombre": "NexGard Spectra Antipulgas e Vermífugo para Cães de 7,6 a 15 kg - 1 Tablete Mastigável",
-      "precio_ref": 67.36,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics",
+      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics",
+      "precio_ref": 21.9,
+      "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete liquido oleo de banho 200ml limpeza",
+      "nombre": "NIVEA Sabonete Líquido Óleo de Banho 200ml, Limpeza Corporal, Pele Macia, 55% Óleos Naturais, Sensação Hidratante",
+      "precio_ref": 34.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "biofresh super premium natural racao para gatos castrados",
@@ -161,15 +209,31 @@
       "precio_ref": 237.97,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
-      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
-      "precio_ref": 109.9,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "hada labo demaquilante cleansing oil refil limpador facial",
+      "nombre": "Hada Labo Demaquilante Cleansing Oil Refil - Limpador Facial 180 ml - Remove Maquiagem Resistente à Água - Limpeza Eficaz sem",
+      "precio_ref": 39.9,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "yopro uht cheesecake frutas vermelhas 15g proteina 250ml",
+      "nombre": "YoPRO UHT Cheesecake Frutas Vermelhas 15g Proteína 250ml",
+      "precio_ref": 6.15,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "dove sabonete em barra original 90g 6 unidades",
+      "nombre": "Dove Sabonete em Barra Original 90g 6 Unidades",
+      "precio_ref": 25.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "panela de pressao brinox pressure 4 2l 20",
@@ -177,23 +241,95 @@
       "precio_ref": 189.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
-      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
-      "precio_ref": 137.75,
+      "busqueda": "secret desodorante antitranspirante em gel lavanda 73g",
+      "nombre": "Secret Desodorante Antitranspirante em Gel Lavanda 73g",
+      "precio_ref": 19.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete em barra creme care promo 6",
+      "nombre": "NIVEA Sabonete em Barra Creme Care Promo 6 un. 90g - Limpa e deixa a pele macia mesmo após o banho, com glicerina, fragrância",
+      "precio_ref": 21.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 256gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G35 5g - 256gb 4gb Ram+8gb Ram Boost e Camera 50mp Com Ai Nfc Tela 6.7 Com Superbrilho - Coral - Vegan Leather",
+      "precio_ref": 809.19,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
+      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
+      "precio_ref": 33.9,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "jogo de lencol 400 fios ponto palito cama",
+      "nombre": "Jogo De Lençol 400 Fios Ponto Palito Cama Queen 3 Pçs Saldão",
+      "precio_ref": 25.93,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
+      "precio_ref": 30.5,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "nivea locao deo hidratante milk 400ml hidratacao profunda",
+      "nombre": "NIVEA Loção Deo-Hidratante Milk 400ml, Hidratação Profunda 72h, Hialurônico Puro, Corporal, Pele Seca e Extrasseca",
+      "precio_ref": 20.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para caes gatos pets manta absorvente",
+      "nombre": "Tapete Higiênico Para Cães Gatos Pets Manta Absorvente 50 Unidades 50x60Cm Branco Fralda Pet Cachorro Camadas De Proteção Bloqueador De Odor Linha Premium Com Camadas De Proteção",
+      "precio_ref": 40.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
+      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
+      "precio_ref": 48.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "amazon firetv stick 4k stick wi fi 6",
+      "nombre": "Amazon Firetv Stick 4k Stick Wi-fi-6 Com Alexa Por Voz Preto Preto De Voz",
+      "precio_ref": 251.65,
       "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
-      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
-      "precio_ref": 99.9,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "serum leave in cabelos finos elseve l oreal",
+      "nombre": "Sérum Leave-in Cabelos Finos Elseve L'Oréal Paris Colágeno Encorpador 100ml | Injeção de massa, 7% de peptídeos, alta concent",
+      "precio_ref": 32.5,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "secador de cabelos philco psc3500 4 em 1",
@@ -201,31 +337,23 @@
       "precio_ref": 346.83,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
-      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
-      "precio_ref": 146.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "argan oleo reparador 50ml lola cosmetics",
+      "nombre": "Argan Óleo Reparador 50ml , Lola Cosmetics",
+      "precio_ref": 17.7,
+      "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 89.99,
-      "categoria": "Pet Shop",
+      "busqueda": "shampoo de glicerina johnson s baby 400ml hipoalergenico",
+      "nombre": "Shampoo de Glicerina Johnson's Baby, 400ml | Hipoalergênico, Testado por Pediatras e Dermatologistas, Fragrância Suave",
+      "precio_ref": 19.67,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 798.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "tapete higienico descartavel para pet alta absorcao 60x60",
@@ -233,55 +361,47 @@
       "precio_ref": 70.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "xiaomi tablet pad 7 de 11 2 polegadas",
-      "nombre": "XIAOMI Tablet Pad 7 de 11,2 polegadas, 8 GB de RAM + 256 GB de armazenamento, tela 3.2K de 144 Hz, Snapdragon 7+ de 3ª geraçã",
-      "precio_ref": 2149.85,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
+      "nombre": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml",
+      "precio_ref": 29.99,
+      "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 apenas WiFi (sem chamadas ou texto) 27.9 cm 2.5K Octa Core 4 alto-falantes ROM global 9000mAh Bluetooth 5.",
-      "precio_ref": 1450.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
-      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
-      "precio_ref": 1388.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "yopro bebida lactea uht chocolate 23g de proteinas",
+      "nombre": "Yopro Bebida Láctea Uht Chocolate 23g De Proteínas 250ml",
+      "precio_ref": 7.9,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
-      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
-      "precio_ref": 865.56,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
+      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
+      "precio_ref": 47.9,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
-      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-      "precio_ref": 107.7,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
-      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
-      "precio_ref": 199.0,
-      "categoria": "Relógios & Smartwatches",
+      "busqueda": "la roche posay ultra cover protetor solar com",
+      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
+      "precio_ref": 77.14,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "cerave locao hidratante corporal com textura fluida e",
+      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
+      "precio_ref": 90.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "patinete eletrico 500w 25km h dobravel app bluetooth",
@@ -289,63 +409,15 @@
       "precio_ref": 1057.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM, WiFi",
-      "precio_ref": 1570.44,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "vichy dercos shampoo anticaspa para cabelos normais a",
+      "nombre": "Vichy, Dercos Shampoo Anticaspa para Cabelos Normais a Oleosos",
+      "precio_ref": 107.23,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "cadeira sweet studio escritorio ergonomica giratoria preto com",
-      "nombre": "Cadeira Sweet Studio Escritório Ergonômica Giratória Preto Com Apoio Lombar e Apoio de cabeça",
-      "precio_ref": 340.1,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
-      "precio_ref": 4099.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "cappuccino proteico com whey canela e pimenta 200g",
-      "nombre": "Cappuccino Proteico com Whey Canela E Pimenta 200g +Mu",
-      "precio_ref": 43.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11, 64GB, 4GB RAM, Tela de 8.7\", Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, WiFi,",
-      "precio_ref": 999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g06 256gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto G06 - 256gb 4gb Ram + 8gb Ram Boost e Camera 50mp Com Ai Bateria De 5200 Mah Tela 6.9 - Verde",
-      "precio_ref": 712.79,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
-      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
-      "precio_ref": 899.09,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "cadeirinha infantil para carro 9 36kg passeio com",
@@ -353,15 +425,15 @@
       "precio_ref": 319.92,
       "categoria": "Bebê",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
-      "precio_ref": 3149.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
+      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
+      "precio_ref": 107.7,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
       "busqueda": "fechadura digital de sobrepor fr 101 v preta",
@@ -369,119 +441,47 @@
       "precio_ref": 191.66,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "amazon fire tv stick hd modelo mais recente",
-      "nombre": "Amazon Fire TV Stick HD (modelo mais recente), Controle Remoto por Voz com Alexa, alimentado pela TV, com configuração simple",
-      "precio_ref": 246.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
+      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
+      "precio_ref": 1388.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     },
     {
-      "busqueda": "conjunto panelas antiaderente 10 pecas teflon varias cores",
-      "nombre": "Conjunto Panelas Antiaderente 10 Peças Teflon Várias Cores Preto Com Beje",
-      "precio_ref": 165.21,
+      "busqueda": "recheio cobertura nestle pasta cremosa prestigio 1 01kg",
+      "nombre": "Recheio cobertura Nestlé Pasta Cremosa Prestigio 1,01kg balde",
+      "precio_ref": 55.79,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g06 256gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto G06 - 256gb 4gb Ram + 8gb Ram Boost e Camera 50mp Com Ai Bateria De 5200 Mah Tela 6.9 - Verde",
+      "precio_ref": 712.79,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "brus fit bicicleta ergometrica spinning liftness x11 cor",
+      "nombre": "Brus fit Bicicleta Ergométrica Spinning Liftness X11 Cor Preto/vermelho",
+      "precio_ref": 437.0,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
+    },
+    {
+      "busqueda": "electrolux jogo de panelas em inox com 5",
+      "nombre": "Electrolux Jogo de Panelas em Inox com 5 Peças Design com Fundo Triplo",
+      "precio_ref": 446.38,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "be place kids tablet infantil android 13 128gb",
-      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
-      "precio_ref": 395.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "poco x8 pro 512gb 12gb ram original lancamento",
-      "nombre": "Poco X8 Pro 512gb 12gb Ram Original Lancamento Global C/ Nfc Preto",
-      "precio_ref": 2853.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Luz das estrelas (M3)",
-      "precio_ref": 6444.43,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para cachorro 50 unidades 60x55cm com",
-      "nombre": "Tapete Higiênico para Cachorro 50 Unidades 60x55cm com Gel Absorvente Fralda Manta Pet Cão Com Fitas Adesivas Anti Odor Atrativo Canino",
-      "precio_ref": 43.61,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 moana processador octa",
-      "nombre": "Tablet Positivo Vision TAB 7 Moana - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android",
-      "precio_ref": 492.94,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "cama elastica trampolim justfun de 1 40 m",
-      "nombre": "Cama Elástica Trampolim JustFun de 1,40 m para Crianças Colorida JustFun Brinquedos",
-      "precio_ref": 252.59,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
-      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
-      "precio_ref": 219.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "kit 2 travesseiro pena pluma de ganso sintetica",
-      "nombre": "Kit 2 Travesseiro Pena Pluma de Ganso Sintetica Siliconada Lavavel Toque Macio 70x50cm",
-      "precio_ref": 29.89,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
-      "nombre": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Câmera Tripla de até 50MP, Selfie de 12MP, Tela Super AMOLED 6.7\", NFC, Recurso",
-      "precio_ref": 2212.06,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "video porteiro ivr 1010 branco e preto intelbras",
-      "nombre": "Video Porteiro Ivr 1010 Branco E Preto Intelbras 110V/220V",
-      "precio_ref": 459.8,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
-      "precio_ref": 2355.15,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
-    },
-    {
-      "busqueda": "smartphone samsung galaxy a36 5g 128gb 6gb ram",
-      "nombre": "Smartphone Samsung Galaxy A36 5g 128gb 6gb Ram Câmera Tripla De Até 50mp Selfie De 12mp Ip67 Super Amoled 6.7'' Nfc Recursos Ai Android E Segurança Snapdragon - Preto",
-      "precio_ref": 1294.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T02:00:38+00:00"
+      "monitorizado_desde": "2026-10-11T02:08:29+00:00"
     }
   ]
 }
