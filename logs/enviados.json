@@ -345,18 +345,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "ml-smartphone-galaxy-a17-4g-tela-67-256gb-samsun": {
-    "ts": "2026-10-09T01:14:55.579556",
-    "canales": {
-      "whatsapp": "2026-10-09T01:14:55.579556"
-    },
-    "precio": 1243.0,
-    "precios_publicados": [
-      1243.0,
-      1243.0
-    ],
-    "precio_min_publicado": 1243.0
-  },
   "ml-smartphone-samsung-galaxy-a07-4g-256gb-8gb-pr": {
     "ts": "2026-10-09T01:33:49.048002",
     "canales": {
@@ -667,12 +655,6 @@
       69.0
     ],
     "precio_min_publicado": 69.0
-  },
-  "cupon-SPORTS1010": {
-    "ts": "2026-10-09T01:12:33.279395",
-    "canales": {
-      "whatsapp": "2026-10-09T01:12:33.279395"
-    }
   },
   "cupon-OPORTUNIDADEML": {
     "ts": "2026-10-09T01:22:55.262835",
@@ -3478,6 +3460,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
+    "ts": "2026-10-11T01:19:42.027391",
+    "canales": {
+      "whatsapp": "2026-10-11T01:19:42.027391"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
