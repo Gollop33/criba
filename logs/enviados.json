@@ -1705,14 +1705,16 @@
     ]
   },
   "ml-kit-10-potes-vidro-hermetico-vai-ao-forno-mic": {
-    "ts": "2026-10-09T18:39:25.968015",
+    "ts": "2026-10-11T01:09:59.862408",
     "canales": {
-      "whatsapp": "2026-10-09T18:39:25.968015"
+      "whatsapp": "2026-10-11T01:09:59.862408"
     },
-    "precio": 97.0,
+    "precio": 94.0,
     "precios_publicados": [
-      97.0
-    ]
+      97.0,
+      94.0
+    ],
+    "precio_min_publicado": 97.0
   },
   "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
     "ts": "2026-10-10T20:10:03.033591",
