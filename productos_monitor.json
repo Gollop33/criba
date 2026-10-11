@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11T01:42:30+00:00",
+  "actualizado": "2026-10-11T01:49:31+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -17,7 +17,7 @@
       "precio_ref": 49.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -25,7 +25,7 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "samsung galaxy a57 256 gb e 8 ram",
@@ -33,7 +33,7 @@
       "precio_ref": 1990.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "notebook gamer 15 6 nitro v 15 processador",
@@ -41,7 +41,7 @@
       "precio_ref": 7749.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -49,7 +49,7 @@
       "precio_ref": 519.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -57,7 +57,7 @@
       "precio_ref": 728.91,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "cadeira de escritorio ergonomica monaco bt07 luvinco malha",
@@ -65,7 +65,7 @@
       "precio_ref": 1099.0,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
@@ -73,23 +73,7 @@
       "precio_ref": 69.93,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "pack nestle purina friskies racao umida para gatos",
-      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
-      "precio_ref": 36.78,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
-      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
-      "precio_ref": 58.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "eliminador de odores pet wap elimina odores 1",
@@ -97,31 +81,15 @@
       "precio_ref": 37.59,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 65.45,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
+      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
+      "precio_ref": 58.9,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
-      "precio_ref": 32.8,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "blue premium tapete higienico descartavel para caes 30",
-      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
-      "precio_ref": 61.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
@@ -129,7 +97,15 @@
       "precio_ref": 43.19,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 65.45,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
@@ -137,15 +113,23 @@
       "precio_ref": 67.36,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "yopro energy boost uht cafe expresso 15g de",
-      "nombre": "YoPRO Energy Boost UHT Café Expresso 15g de Proteínas 250ml",
-      "precio_ref": 6.15,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "busqueda": "blue premium tapete higienico descartavel para caes 30",
+      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
+      "precio_ref": 61.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
+      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
+      "precio_ref": 32.8,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
@@ -153,7 +137,23 @@
       "precio_ref": 45.66,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "yopro energy boost uht cafe expresso 15g de",
+      "nombre": "YoPRO Energy Boost UHT Café Expresso 15g de Proteínas 250ml",
+      "precio_ref": 6.15,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "pack nestle purina friskies racao umida para gatos",
+      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
+      "precio_ref": 36.78,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "biofresh super premium natural racao para gatos castrados",
@@ -161,15 +161,15 @@
       "precio_ref": 237.97,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
-      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
-      "precio_ref": 899.09,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Câmera Tripla de até 50MP, Selfie de 12MP, Tela Super AMOLED 6.7\", NFC, Recurso",
+      "precio_ref": 2212.06,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "panela de pressao brinox pressure 4 2l 20",
@@ -177,39 +177,15 @@
       "precio_ref": 189.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
-      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
-      "precio_ref": 5554.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Luz das estrelas (M3)",
+      "precio_ref": 6444.43,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
-      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 12GB RAM, Tela 120Hz, Octa-Core, Câmera 13MP + 5MP, Bateria 8000mAh, Kit c",
-      "precio_ref": 759.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "secador de cabelos philco psc3500 4 em 1",
-      "nombre": "Secador De Cabelos Philco psc3500 4 Em 1 dobrável motor bldc Prateado",
-      "precio_ref": 346.83,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
-      "precio_ref": 2355.15,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -217,63 +193,23 @@
       "precio_ref": 1450.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "smart tv 4k 55 lg uhd 55ua85 processador",
-      "nombre": "Smart TV 4K 55\" LG UHD 55UA85 Processador α7 AI Ger8 4K Super Upscaling Google Cast Alexa Integrado Controle AI Smart Magic W",
-      "precio_ref": 2319.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "smart tv 43 philco roku tv hdr10 dolby",
-      "nombre": "Smart TV 43\" Philco Roku TV HDR10 Dolby Áudio",
-      "precio_ref": 1420.95,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tapete higienico descartavel para pet alta absorcao 60x60",
-      "nombre": "Tapete Higiênico Descartável Para Pet Alta Absorção 60x60 80 Unidades Cachorro Cão Proteção Piso",
-      "precio_ref": 70.0,
-      "categoria": "Pet Shop",
+      "busqueda": "secador de cabelos philco psc3500 4 em 1",
+      "nombre": "Secador De Cabelos Philco psc3500 4 Em 1 dobrável motor bldc Prateado",
+      "precio_ref": 346.83,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "be place kids tablet infantil android 13 128gb",
-      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
-      "precio_ref": 395.9,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
+      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
+      "precio_ref": 199.0,
+      "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "cadeirinha infantil para carro 9 36kg passeio com",
-      "nombre": "Cadeirinha Infantil Para Carro 9-36kg Passeio Com Segurança Cadeirinha Infantil Preto",
-      "precio_ref": 319.92,
-      "categoria": "Bebê",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 89.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "cappuccino proteico com whey canela e pimenta 200g",
-      "nombre": "Cappuccino Proteico com Whey Canela E Pimenta 200g +Mu",
-      "precio_ref": 43.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
@@ -281,191 +217,7 @@
       "precio_ref": 1949.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "patinete eletrico 500w 25km h dobravel app bluetooth",
-      "nombre": "Patinete Elétrico 500w 25km/h Dobrável App Bluetooth Rapido Preto",
-      "precio_ref": 1057.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
-      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
-      "precio_ref": 469.41,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
-      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
-      "precio_ref": 1388.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
-      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
-      "precio_ref": 109.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "cadeira sweet studio escritorio ergonomica giratoria preto com",
-      "nombre": "Cadeira Sweet Studio Escritório Ergonômica Giratória Preto Com Apoio Lombar e Apoio de cabeça",
-      "precio_ref": 340.1,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
-      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
-      "precio_ref": 219.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "cadeira presidente escritorio massagem reclinavel apoio pes",
-      "nombre": "Cadeira Presidente Escritório Massagem Reclinável Apoio Pés",
-      "precio_ref": 434.91,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a07 256gb 8gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Preto",
-      "precio_ref": 1049.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para cachorro 50 unidades 60x55cm com",
-      "nombre": "Tapete Higiênico para Cachorro 50 Unidades 60x55cm com Gel Absorvente Fralda Manta Pet Cão Com Fitas Adesivas Anti Odor Atrativo Canino",
-      "precio_ref": 43.61,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
-      "precio_ref": 3149.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
-      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-      "precio_ref": 107.7,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 798.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g06 256gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto G06 - 256gb 4gb Ram + 8gb Ram Boost e Camera 50mp Com Ai Bateria De 5200 Mah Tela 6.9 - Verde",
-      "precio_ref": 712.79,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
-      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
-      "precio_ref": 1649.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "conjunto panelas antiaderente 10 pecas teflon varias cores",
-      "nombre": "Conjunto Panelas Antiaderente 10 Peças Teflon Várias Cores Preto Com Beje",
-      "precio_ref": 165.21,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "xiaomi tablet pad 7 de 11 2 polegadas",
-      "nombre": "XIAOMI Tablet Pad 7 de 11,2 polegadas, 8 GB de RAM + 256 GB de armazenamento, tela 3.2K de 144 Hz, Snapdragon 7+ de 3ª geraçã",
-      "precio_ref": 2149.85,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "fechadura digital de sobrepor fr 101 v preta",
-      "nombre": "Fechadura Digital De Sobrepor Fr 101 V Preta Intelbras",
-      "precio_ref": 191.66,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
-      "precio_ref": 2499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "tenis masculino casual aramis daily slip confortavel moderno",
-      "nombre": "Tênis Masculino Casual Aramis Daily Slip Confortável Moderno",
-      "precio_ref": 193.19,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "jbl fone de ouvido bluetooth over ear tune",
-      "nombre": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 530BT, Sem Fio, Até 76 Horas de Bateria - Preto",
-      "precio_ref": 175.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "cama elastica trampolim justfun de 1 40 m",
-      "nombre": "Cama Elástica Trampolim JustFun de 1,40 m para Crianças Colorida JustFun Brinquedos",
-      "precio_ref": 252.59,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
-      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
-      "precio_ref": 137.75,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto G15 256gb 4GB RAM + 8GB RAM Boost Camera 50mp Verde",
-      "precio_ref": 963.46,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -473,15 +225,263 @@
       "precio_ref": 559.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     },
     {
-      "busqueda": "smart tv philco 50 p50vik 4k uhd led",
-      "nombre": "Smart Tv Philco 50 P50vik 4k Uhd Led Roku Dolby Audio Wi-fi Hdr10 110/220v",
-      "precio_ref": 2099.0,
+      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
+      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
+      "precio_ref": 4099.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tapete higienico descartavel para pet alta absorcao 60x60",
+      "nombre": "Tapete Higiênico Descartável Para Pet Alta Absorção 60x60 80 Unidades Cachorro Cão Proteção Piso",
+      "precio_ref": 70.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
+      "nombre": "Tablet Samsung Galaxy TAB A11, 64GB, 4GB RAM, Tela de 8.7\", Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, WiFi,",
+      "precio_ref": 999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
+      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
+      "precio_ref": 1388.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T01:42:30+00:00"
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
+      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
+      "precio_ref": 899.09,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "cadeirinha infantil para carro 9 36kg passeio com",
+      "nombre": "Cadeirinha Infantil Para Carro 9-36kg Passeio Com Segurança Cadeirinha Infantil Preto",
+      "precio_ref": 319.92,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
+      "precio_ref": 3149.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "patinete eletrico 500w 25km h dobravel app bluetooth",
+      "nombre": "Patinete Elétrico 500w 25km/h Dobrável App Bluetooth Rapido Preto",
+      "precio_ref": 1057.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 798.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "cadeira sweet studio escritorio ergonomica giratoria preto com",
+      "nombre": "Cadeira Sweet Studio Escritório Ergonômica Giratória Preto Com Apoio Lombar e Apoio de cabeça",
+      "precio_ref": 340.1,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "xiaomi tablet pad 7 de 11 2 polegadas",
+      "nombre": "XIAOMI Tablet Pad 7 de 11,2 polegadas, 8 GB de RAM + 256 GB de armazenamento, tela 3.2K de 144 Hz, Snapdragon 7+ de 3ª geraçã",
+      "precio_ref": 2149.85,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "cadeira presidente escritorio massagem reclinavel apoio pes",
+      "nombre": "Cadeira Presidente Escritório Massagem Reclinável Apoio Pés",
+      "precio_ref": 434.91,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 7 moana processador octa",
+      "nombre": "Tablet Positivo Vision TAB 7 Moana - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android",
+      "precio_ref": 492.94,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "cappuccino proteico com whey canela e pimenta 200g",
+      "nombre": "Cappuccino Proteico com Whey Canela E Pimenta 200g +Mu",
+      "precio_ref": 43.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab plus 12 1 2",
+      "nombre": "Tablet Lenovo Idea Tab Plus 12.1\" 2.5K 90Hz - Octa-Core, 8GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Case",
+      "precio_ref": 2132.73,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g06 256gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto G06 - 256gb 4gb Ram + 8gb Ram Boost e Camera 50mp Com Ai Bateria De 5200 Mah Tela 6.9 - Verde",
+      "precio_ref": 712.79,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
+      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
+      "precio_ref": 99.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
+      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
+      "precio_ref": 107.7,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
+      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
+      "precio_ref": 2355.15,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "fechadura digital de sobrepor fr 101 v preta",
+      "nombre": "Fechadura Digital De Sobrepor Fr 101 V Preta Intelbras",
+      "precio_ref": 191.66,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
+      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 12GB RAM, Tela 120Hz, Octa-Core, Câmera 13MP + 5MP, Bateria 8000mAh, Kit c",
+      "precio_ref": 759.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "carregador portatil power bank basike 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Basike 20000mAh 22.5W Rápido Cabos Embutidos Tipo C iPhone Samsung",
+      "precio_ref": 173.94,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
+      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
+      "precio_ref": 1649.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "video porteiro ivr 1010 branco e preto intelbras",
+      "nombre": "Video Porteiro Ivr 1010 Branco E Preto Intelbras 110V/220V",
+      "precio_ref": 459.8,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "be place kids tablet infantil android 13 128gb",
+      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
+      "precio_ref": 395.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "berco portatil infantil cercado desmontavel lune maxi baby",
+      "nombre": "Berço Portátil Infantil Cercado Desmontável Lune Maxi Baby - BEGE",
+      "precio_ref": 299.9,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 2499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "smart tv lg 43 ld wifi bluetooth full",
+      "nombre": "Smart Tv Lg 43 Ld Wifi Bluetooth Full Hd 43lr6700psa Hdr10 Pro",
+      "precio_ref": 1412.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 5554.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "racao quatree supreme gatos adultos castrados salmao e",
+      "nombre": "Ração Quatree Supreme Gatos Adultos Castrados Salmão e Batata Doce Super Premium",
+      "precio_ref": 183.91,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
+      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
+      "precio_ref": 146.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
+    },
+    {
+      "busqueda": "smartphone samsung galaxy a36 5g 128gb 6gb ram",
+      "nombre": "Smartphone Samsung Galaxy A36 5g 128gb 6gb Ram Câmera Tripla De Até 50mp Selfie De 12mp Ip67 Super Amoled 6.7'' Nfc Recursos Ai Android E Segurança Snapdragon - Preto",
+      "precio_ref": 1294.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-11T01:49:31+00:00"
     }
   ]
 }
