@@ -603,20 +603,16 @@
     "precio_min_publicado": 66.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-10-09T00:00:12.699019",
+    "ts": "2026-10-11T00:06:20.606880",
     "canales": {
-      "whatsapp": "2026-10-09T00:00:12.699019"
+      "whatsapp": "2026-10-11T00:06:20.606880"
     },
-    "precio": 35.0,
+    "precio": 28.0,
     "precios_publicados": [
-      35.0
-    ]
-  },
-  "cupon-MUITOBARATO": {
-    "ts": "2026-10-09T00:04:21.812626",
-    "canales": {
-      "whatsapp": "2026-10-09T00:04:21.812626"
-    }
+      35.0,
+      28.0
+    ],
+    "precio_min_publicado": 35.0
   },
   "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
     "ts": "2026-10-10T00:08:59.431766",
