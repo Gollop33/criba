@@ -345,18 +345,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "ml-chocadeira-automatica-72-ovos-com-medidor-de-": {
-    "ts": "2026-10-09T00:46:12.944534",
-    "canales": {
-      "whatsapp": "2026-10-09T00:46:12.944534"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0,
-      599.0
-    ],
-    "precio_min_publicado": 599.0
-  },
   "ml-camera-residencial-infravermelho-ip-bullet-hi": {
     "ts": "2026-10-09T01:02:33.326496",
     "canales": {
@@ -689,16 +677,6 @@
       69.0
     ],
     "precio_min_publicado": 69.0
-  },
-  "amz-whiskas-racao-peixe-gatos-adultos-castrados-2": {
-    "ts": "2026-10-09T00:49:12.816599",
-    "canales": {
-      "whatsapp": "2026-10-09T00:49:12.816599"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
   },
   "ml-tenis-on-cloud-running-masculino-e-feminino-e": {
     "ts": "2026-10-09T00:56:28.971520",
@@ -3508,6 +3486,16 @@
     "precio": 1986.0,
     "precios_publicados": [
       1986.0
+    ]
+  },
+  "ml-tenis-masculino-feminino-kappa-park-20-origin": {
+    "ts": "2026-10-11T00:52:46.694177",
+    "canales": {
+      "whatsapp": "2026-10-11T00:52:46.694177"
+    },
+    "precio": 68.0,
+    "precios_publicados": [
+      68.0
     ]
   }
 }
