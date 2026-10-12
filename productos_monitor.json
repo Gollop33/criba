@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-12T00:08:57+00:00",
+  "actualizado": "2026-10-12T00:13:38+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "polares z20 patinete eletrico premium 500w pneu aderente",
@@ -17,7 +17,7 @@
       "precio_ref": 1310.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -25,7 +25,7 @@
       "precio_ref": 231.92,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "patinete eletrico gm5 p1 preto dobravel com bluetooth",
@@ -33,7 +33,7 @@
       "precio_ref": 1260.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "patinete eletrico honeywhale m1 lite dobravel com bluetooth",
@@ -41,7 +41,7 @@
       "precio_ref": 987.5,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -49,7 +49,7 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -57,7 +57,7 @@
       "precio_ref": 49.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "samsung galaxy a57 256 gb e 8 ram",
@@ -65,15 +65,7 @@
       "precio_ref": 1990.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
-      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
-      "precio_ref": 415.92,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "jogo de toalhas altenburg toquio banho 4 pecas",
@@ -81,7 +73,15 @@
       "precio_ref": 82.11,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
+      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
+      "precio_ref": 415.92,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "fritadeira eletrica air fryer 8 em 1 wap",
@@ -89,7 +89,7 @@
       "precio_ref": 589.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "jogo de toalhas 4 pcs fio cardado 100",
@@ -97,7 +97,7 @@
       "precio_ref": 97.42,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -105,7 +105,7 @@
       "precio_ref": 728.91,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "triciclo eletrico drift infantil 350w potente 3 velocidades",
@@ -113,7 +113,7 @@
       "precio_ref": 1113.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "scala plus papel toalha mega 360 toalhas 3",
@@ -121,7 +121,7 @@
       "precio_ref": 17.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
@@ -129,7 +129,7 @@
       "precio_ref": 69.93,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "finish powerball detergente para lava loucas em tabletes",
@@ -137,7 +137,7 @@
       "precio_ref": 61.52,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "limpador multiuso power fusion limao veja 500ml",
@@ -145,7 +145,7 @@
       "precio_ref": 6.5,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
@@ -153,7 +153,7 @@
       "precio_ref": 58.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "comfort boom odorizador de roupas cristais de perfume",
@@ -161,7 +161,7 @@
       "precio_ref": 12.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "ype detergente em po para maquina 1kg formula",
@@ -169,7 +169,7 @@
       "precio_ref": 48.28,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "kit 6 pares meias puma algodao cano medio",
@@ -177,7 +177,7 @@
       "precio_ref": 56.98,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "integralmedica creatina em po hardcore 100 pura e",
@@ -185,7 +185,7 @@
       "precio_ref": 39.88,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
@@ -193,7 +193,7 @@
       "precio_ref": 65.45,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "cif limpador especialista derrete gordura 500 ml",
@@ -201,7 +201,7 @@
       "precio_ref": 15.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "growth supplements creatina 500g pouch treino musculacao dieta",
@@ -209,7 +209,7 @@
       "precio_ref": 59.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "personal papel higienico vip folha tripla 32 rolos",
@@ -217,7 +217,7 @@
       "precio_ref": 53.31,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
@@ -225,7 +225,7 @@
       "precio_ref": 67.07,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "detergente limpador para extratoras concentrado wap limpa e",
@@ -233,7 +233,7 @@
       "precio_ref": 45.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "secret desodorante antitranspirante em gel lavanda 73g",
@@ -241,7 +241,7 @@
       "precio_ref": 19.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
@@ -249,7 +249,7 @@
       "precio_ref": 106.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "ype detergente clear 5l detergente liquido",
@@ -257,15 +257,7 @@
       "precio_ref": 32.8,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
-      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
-      "precio_ref": 29.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "clear shampoo men anticaspa ice cool menthol 400ml",
@@ -273,15 +265,7 @@
       "precio_ref": 34.5,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "bellacotton algodao quadrado baby 100 algodao macio 100",
-      "nombre": "Bellacotton Algodão Quadrado Baby 100% Algodão Macio – 100 Unidades",
-      "precio_ref": 26.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "isdin oleo de banho ureadin calm oleogel 400ml",
@@ -289,7 +273,23 @@
       "precio_ref": 80.91,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "bellacotton algodao quadrado baby 100 algodao macio 100",
+      "nombre": "Bellacotton Algodão Quadrado Baby 100% Algodão Macio – 100 Unidades",
+      "precio_ref": 26.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
+      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
+      "precio_ref": 29.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "comfort boom perfume em cristais explosao de frescor",
@@ -297,63 +297,7 @@
       "precio_ref": 12.9,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "tenis sneaker skate casual unissex moda promocao sk8",
-      "nombre": "Tênis Sneaker Skate Casual Unissex Moda Promoçao Sk8 Origin",
-      "precio_ref": 138.25,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "dove sabonete em barra original 90g 6 unidades",
-      "nombre": "Dove Sabonete em Barra Original 90g 6 Unidades",
-      "precio_ref": 25.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "tenis vizzano casual feminino plataforma leve ultra conforto",
-      "nombre": "Tênis Vizzano Casual Feminino Plataforma Leve Ultra Conforto",
-      "precio_ref": 78.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "ola bebe sabao liquido para roupas finas e",
-      "nombre": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
-      "precio_ref": 56.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "skin care hidratante facial garnier uniform matte toque",
-      "nombre": "Skin Care Hidratante Facial Garnier Uniform & Matte Toque Seco 85g | Creme com vitamina C e ácido hialurônico, reduz poros e",
-      "precio_ref": 26.61,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "baba eletronica baby monitor vb603 visao noturna dual",
-      "nombre": "Baba Eletrônica Baby Monitor Vb603 Visão Noturna Dual Audio Cor Branco Estary Shop",
-      "precio_ref": 216.64,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
-    },
-    {
-      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
-      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
-      "precio_ref": 47.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "tablet android 15 tab kit completo ram 16gb",
@@ -361,7 +305,55 @@
       "precio_ref": 805.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "dove sabonete em barra original 90g 6 unidades",
+      "nombre": "Dove Sabonete em Barra Original 90g 6 Unidades",
+      "precio_ref": 25.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "tenis vizzano casual feminino plataforma leve ultra conforto",
+      "nombre": "Tênis Vizzano Casual Feminino Plataforma Leve Ultra Conforto",
+      "precio_ref": 78.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "ola bebe sabao liquido para roupas finas e",
+      "nombre": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
+      "precio_ref": 56.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "tenis sneaker skate casual unissex moda promocao sk8",
+      "nombre": "Tênis Sneaker Skate Casual Unissex Moda Promoçao Sk8 Origin",
+      "precio_ref": 138.25,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "skin care hidratante facial garnier uniform matte toque",
+      "nombre": "Skin Care Hidratante Facial Garnier Uniform & Matte Toque Seco 85g | Creme com vitamina C e ácido hialurônico, reduz poros e",
+      "precio_ref": 26.61,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
+      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
+      "precio_ref": 47.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "papel higienico neve supreme folha tripla leve 24",
@@ -369,7 +361,15 @@
       "precio_ref": 47.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
+    },
+    {
+      "busqueda": "baba eletronica baby monitor vb603 visao noturna dual",
+      "nombre": "Baba Eletrônica Baby Monitor Vb603 Visão Noturna Dual Audio Cor Branco Estary Shop",
+      "precio_ref": 216.64,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "jimo lava louca multicamadas detergente concentrado para maquinas",
@@ -377,7 +377,7 @@
       "precio_ref": 29.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
@@ -385,7 +385,7 @@
       "precio_ref": 197.32,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "flash limp mop giratorio fit balde 8 litros",
@@ -393,7 +393,7 @@
       "precio_ref": 52.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "colgate slim soft black escova de dente macia",
@@ -401,7 +401,7 @@
       "precio_ref": 25.52,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "proteina max titanium whey pro concetrado em po",
@@ -409,7 +409,7 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "serum hidratante corporal para pele com tom irregular",
@@ -417,7 +417,7 @@
       "precio_ref": 29.89,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "caixa de som boombox plus aiwa bbs 01",
@@ -425,7 +425,7 @@
       "precio_ref": 1149.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
@@ -433,7 +433,7 @@
       "precio_ref": 15.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "testo essencial formula exclusiva com feno grego boro",
@@ -441,7 +441,7 @@
       "precio_ref": 39.74,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "mascara de tratamento elseve l oreal paris colageno",
@@ -449,7 +449,7 @@
       "precio_ref": 26.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "smart tv hisense hd 32 polegadas 32a4nv com",
@@ -457,7 +457,7 @@
       "precio_ref": 869.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "la roche posay ultra cover protetor solar com",
@@ -465,7 +465,7 @@
       "precio_ref": 67.4,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "creatina monohidratada 500g pouch growth supplements sem sabor",
@@ -473,7 +473,7 @@
       "precio_ref": 59.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     },
     {
       "busqueda": "personal vip papel higienico folha dupla branco 24",
@@ -481,7 +481,7 @@
       "precio_ref": 31.5,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-12T00:08:57+00:00"
+      "monitorizado_desde": "2026-10-12T00:13:38+00:00"
     }
   ]
 }
