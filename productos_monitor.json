@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-11T23:55:55+00:00",
+  "actualizado": "2026-10-12T00:00:37+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "polares z20 patinete eletrico premium 500w pneu aderente",
@@ -17,7 +17,7 @@
       "precio_ref": 1310.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -25,7 +25,7 @@
       "precio_ref": 231.92,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "patinete eletrico gm5 p1 preto dobravel com bluetooth",
@@ -33,7 +33,7 @@
       "precio_ref": 1260.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "patinete eletrico honeywhale m1 lite dobravel com bluetooth",
@@ -41,7 +41,7 @@
       "precio_ref": 987.5,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -49,7 +49,7 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -57,7 +57,7 @@
       "precio_ref": 49.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "samsung galaxy a57 256 gb e 8 ram",
@@ -65,23 +65,7 @@
       "precio_ref": 1990.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "aspirador de po e agua wap gtw 10",
-      "nombre": "Aspirador de Pó e Água WAP GTW 10 1400W de Potência com Bocal de Sopro",
-      "precio_ref": 242.79,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
-      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
-      "precio_ref": 415.92,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "jogo de toalhas altenburg toquio banho 4 pecas",
@@ -89,7 +73,23 @@
       "precio_ref": 82.11,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
+      "nombre": "Cama Elástica Infantil Pula Pula 1,8m Trampolim Com Zíper",
+      "precio_ref": 415.92,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "aspirador de po e agua wap gtw 10",
+      "nombre": "Aspirador de Pó e Água WAP GTW 10 1400W de Potência com Bocal de Sopro",
+      "precio_ref": 242.79,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "fritadeira eletrica air fryer 8 em 1 wap",
@@ -97,7 +97,7 @@
       "precio_ref": 589.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "jogo de toalhas 4 pcs fio cardado 100",
@@ -105,7 +105,7 @@
       "precio_ref": 97.42,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -113,7 +113,7 @@
       "precio_ref": 728.91,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "triciclo eletrico drift infantil 350w potente 3 velocidades",
@@ -121,87 +121,7 @@
       "precio_ref": 1113.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
-      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
-      "precio_ref": 57.31,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
-      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
-      "precio_ref": 58.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
-      "precio_ref": 32.8,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "wanpy truly creamy petisco cremoso para gatos 40",
-      "nombre": "Wanpy/Truly Creamy Petisco Cremoso para Gatos, 40 Sachês, 560g, Atum e Salmão + Atum e Bacalhau",
-      "precio_ref": 69.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 69.93,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "tapete higienico premium para caes petlike ultrapads aroma",
-      "nombre": "Tapete Higiênico Premium para cães Petlike Ultrapads Aroma Lavanda 80cmx60cm 30 unid.",
-      "precio_ref": 47.35,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "pack racao umida whiskas sache frango ao molho",
-      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
-      "precio_ref": 50.89,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "bionature areia higienica para gatos biodegradavel wisecat 4kg",
-      "nombre": "Bionature Areia Higiênica para Gatos Biodegradável Wisecat 4kg",
-      "precio_ref": 38.4,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "pack racao umida whiskas sache carne frango atum",
-      "nombre": "Pack Ração Úmida Whiskas Sachê Carne/Frango/Atum para Gatos Adultos - Leve 24 Pague 18",
-      "precio_ref": 48.95,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 65.45,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "eliminador de odores pet wap elimina odores 1",
@@ -209,39 +129,39 @@
       "precio_ref": 37.59,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
-      "nombre": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Rosa",
-      "precio_ref": 67.07,
-      "categoria": "Esporte & Fitness",
+      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
+      "precio_ref": 69.93,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
-      "nombre": "NexGard Spectra Antipulgas e Vermífugo para Cães de 7,6 a 15 kg - 1 Tablete Mastigável",
-      "precio_ref": 67.36,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
-      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
-      "precio_ref": 106.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "blue premium tapete higienico descartavel para caes 30",
-      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
-      "precio_ref": 69.0,
+      "busqueda": "wanpy truly creamy petisco cremoso para gatos 40",
+      "nombre": "Wanpy/Truly Creamy Petisco Cremoso para Gatos, 40 Sachês, 560g, Atum e Salmão + Atum e Bacalhau",
+      "precio_ref": 69.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "tapete higienico premium para caes petlike ultrapads aroma",
+      "nombre": "Tapete Higiênico Premium para cães Petlike Ultrapads Aroma Lavanda 80cmx60cm 30 unid.",
+      "precio_ref": 47.35,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
+      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
+      "precio_ref": 58.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "dreamies petisco carne tentadora gatos adultos 150g",
@@ -249,7 +169,15 @@
       "precio_ref": 15.19,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "pack racao umida whiskas sache carne frango atum",
+      "nombre": "Pack Ração Úmida Whiskas Sachê Carne/Frango/Atum para Gatos Adultos - Leve 24 Pague 18",
+      "precio_ref": 48.95,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "kit 6 pares meias puma algodao cano medio",
@@ -257,71 +185,7 @@
       "precio_ref": 56.98,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
-      "nombre": "Tapete Higiênico para Cães Good Pad 60cmx60cm 50 Unidades",
-      "precio_ref": 49.05,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
-      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
-      "precio_ref": 29.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "pack nestle purina friskies racao umida para gatos",
-      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
-      "precio_ref": 36.95,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "isdin oleo de banho ureadin calm oleogel 400ml",
-      "nombre": "ISDIN Óleo de Banho Ureadin Calm OleoGel - 400ml",
-      "precio_ref": 80.91,
-      "categoria": "Automotivo",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "pack racao umida pedigree sache carne ao molho",
-      "nombre": "Pack Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas - Leve 18 Pague 15",
-      "precio_ref": 40.89,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
-      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
-      "precio_ref": 59.6,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "tenis sneaker skate casual unissex moda promocao sk8",
-      "nombre": "Tênis Sneaker Skate Casual Unissex Moda Promoçao Sk8 Origin",
-      "precio_ref": 138.25,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
-      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
-      "precio_ref": 45.66,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "petisco para gatos wanpy creamy sabores sortidos pacote",
@@ -329,31 +193,119 @@
       "precio_ref": 49.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "baba eletronica baby monitor vb603 visao noturna dual",
-      "nombre": "Baba Eletrônica Baby Monitor Vb603 Visão Noturna Dual Audio Cor Branco Estary Shop",
-      "precio_ref": 216.64,
-      "categoria": "Monitores & Displays",
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 65.45,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 89.99,
+      "busqueda": "blue premium tapete higienico descartavel para caes 30",
+      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
+      "precio_ref": 69.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "premier pet golden special racao seca para gatos",
-      "nombre": "PremieR Pet Golden Special Ração Seca para Gatos Castrados Sabor Frango e Carne 10,1kg",
-      "precio_ref": 144.31,
+      "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
+      "nombre": "NexGard Spectra Antipulgas e Vermífugo para Cães de 7,6 a 15 kg - 1 Tablete Mastigável",
+      "precio_ref": 67.36,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "pack racao umida whiskas sache frango ao molho",
+      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
+      "precio_ref": 50.89,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "bicicleta infantil de equilibrio sem pedal andador 4",
+      "nombre": "Bicicleta Infantil De Equilíbrio Sem Pedal Andador 4 Rodas Cor Rosa",
+      "precio_ref": 67.07,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "bionature areia higienica para gatos biodegradavel wisecat 4kg",
+      "nombre": "Bionature Areia Higiênica para Gatos Biodegradável Wisecat 4kg",
+      "precio_ref": 38.4,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "pack nestle purina friskies racao umida para gatos",
+      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
+      "precio_ref": 36.95,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
+      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
+      "precio_ref": 106.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
+      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
+      "precio_ref": 59.6,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "pack racao umida pedigree sache carne ao molho",
+      "nombre": "Pack Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas - Leve 18 Pague 15",
+      "precio_ref": 40.89,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "isdin oleo de banho ureadin calm oleogel 400ml",
+      "nombre": "ISDIN Óleo de Banho Ureadin Calm OleoGel - 400ml",
+      "precio_ref": 80.91,
+      "categoria": "Automotivo",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
+      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
+      "precio_ref": 32.8,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
+      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
+      "precio_ref": 29.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
+      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
+      "precio_ref": 45.66,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "tablet android 15 tab kit completo ram 16gb",
@@ -361,15 +313,15 @@
       "precio_ref": 805.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
-      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
-      "precio_ref": 1485.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
+      "nombre": "Tapete Higiênico para Cães Good Pad 60cmx60cm 50 Unidades",
+      "precio_ref": 49.05,
+      "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "tenis vizzano casual feminino plataforma leve ultra conforto",
@@ -377,7 +329,39 @@
       "precio_ref": 78.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
+      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
+      "precio_ref": 57.31,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "tenis sneaker skate casual unissex moda promocao sk8",
+      "nombre": "Tênis Sneaker Skate Casual Unissex Moda Promoçao Sk8 Origin",
+      "precio_ref": 138.25,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "chalesco tapete higienico premium para caes 90 x",
+      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
+      "precio_ref": 89.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "premier pet golden special racao seca para gatos",
+      "nombre": "PremieR Pet Golden Special Ração Seca para Gatos Castrados Sabor Frango e Carne 10,1kg",
+      "precio_ref": 144.31,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "tab samsung galaxy s11 ultra cinza 512gb 12gb",
@@ -385,47 +369,23 @@
       "precio_ref": 7090.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
-      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
-      "precio_ref": 945.99,
+      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
+      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
+      "precio_ref": 2969.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
-      "precio_ref": 4099.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
-      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
-      "precio_ref": 197.32,
-      "categoria": "Casa & Móveis",
+      "busqueda": "baba eletronica baby monitor vb603 visao noturna dual",
+      "nombre": "Baba Eletrônica Baby Monitor Vb603 Visão Noturna Dual Audio Cor Branco Estary Shop",
+      "precio_ref": 216.64,
+      "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Luz das estrelas (M3)",
-      "precio_ref": 6444.43,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
-    },
-    {
-      "busqueda": "testo essencial formula exclusiva com feno grego boro",
-      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
-      "precio_ref": 39.74,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "tablet infantil minnie 7 wi fi 4gb ram",
@@ -433,23 +393,31 @@
       "precio_ref": 482.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "caixa de som boombox plus aiwa bbs 01",
-      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
-      "precio_ref": 1149.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
+      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
+      "precio_ref": 197.32,
+      "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 apenas WiFi (sem chamadas ou texto) 27.9 cm 2.5K Octa Core 4 alto-falantes ROM global 9000mAh Bluetooth 5.",
-      "precio_ref": 1415.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
+      "nombre": "Tablet Samsung Galaxy TAB A11, 64GB, 4GB RAM, Tela de 8.7\", Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, WiFi,",
+      "precio_ref": 1034.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Luz das estrelas (M3)",
+      "precio_ref": 6444.43,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "proteina max titanium whey pro concetrado em po",
@@ -457,15 +425,47 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
-      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
-      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
-      "precio_ref": 1077.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "be place kids tablet infantil android 13 128gb",
+      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
+      "precio_ref": 395.9,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "caixa de som boombox plus aiwa bbs 01",
+      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
+      "precio_ref": 1149.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 11 8 256gb wifi",
+      "nombre": "Xiaomi Redmi Pad 2 11\" 8+256GB WiFi Grafite Cinza EU",
+      "precio_ref": 1480.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "testo essencial formula exclusiva com feno grego boro",
+      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
+      "precio_ref": 39.74,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
+      "precio_ref": 1485.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "smart tv hisense hd 32 polegadas 32a4nv com",
@@ -473,7 +473,7 @@
       "precio_ref": 869.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     },
     {
       "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
@@ -481,7 +481,7 @@
       "precio_ref": 1499.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-11T23:55:55+00:00"
+      "monitorizado_desde": "2026-10-12T00:00:37+00:00"
     }
   ]
 }
