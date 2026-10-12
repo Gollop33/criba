@@ -725,7 +725,12 @@
       "detectado_em": "2026-10-11T12:01:01+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PEGUEISEU": {
+      "detectado_em": "2026-10-11T04:02:57+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 25h (> 24h)"
     }
   },
-  "actualizado": "2026-10-12T00:09:26+00:00"
+  "actualizado": "2026-10-12T05:27:43+00:00"
 }
