@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-13T11:56:26+00:00",
+  "actualizado": "2026-10-13T12:00:45+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -17,7 +17,7 @@
       "precio_ref": 34.93,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "lixeira inteligente sensor automatico 16l cinza smart recarregavel",
@@ -25,23 +25,7 @@
       "precio_ref": 60.46,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
-    },
-    {
-      "busqueda": "patinete eletrico gm5 p1 preto dobravel com bluetooth",
-      "nombre": "Patinete Elétrico GM5 P1 Preto Dobrável com Bluetooth, 25 Km/h e Autonomia de 22 Km",
-      "precio_ref": 1260.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada dark lab 1kg 100",
-      "nombre": "Creatina Monohidratada Dark Lab 1kg (100%)",
-      "precio_ref": 78.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -49,7 +33,23 @@
       "precio_ref": 266.71,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
+    },
+    {
+      "busqueda": "patinete eletrico gm5 p1 preto dobravel com bluetooth",
+      "nombre": "Patinete Elétrico GM5 P1 Preto Dobrável com Bluetooth, 25 Km/h e Autonomia de 22 Km",
+      "precio_ref": 1260.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada dark lab 1kg 100",
+      "nombre": "Creatina Monohidratada Dark Lab 1kg (100%)",
+      "precio_ref": 78.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "patinete eletrico honeywhale m1 lite dobravel com bluetooth",
@@ -57,7 +57,7 @@
       "precio_ref": 1130.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "carrinho eletrico infantil 12v brinquedo mini carro passeio",
@@ -65,7 +65,7 @@
       "precio_ref": 1019.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "varal dobravel de chao 3 andares de roupas",
@@ -73,7 +73,7 @@
       "precio_ref": 78.91,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "frigideira antiaderente ceramica granito 24cm com espatula cabo",
@@ -81,7 +81,7 @@
       "precio_ref": 54.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -89,7 +89,7 @@
       "precio_ref": 493.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -97,7 +97,7 @@
       "precio_ref": 737.01,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "oral b iconic premium escova de dentes 3",
@@ -105,7 +105,7 @@
       "precio_ref": 32.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
@@ -113,7 +113,7 @@
       "precio_ref": 21.29,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "mochila para notebook impermeavel e reforcada com entrada",
@@ -121,7 +121,7 @@
       "precio_ref": 79.19,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "suporte para notebook e macbook em aluminio com",
@@ -129,7 +129,7 @@
       "precio_ref": 12.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
@@ -137,7 +137,7 @@
       "precio_ref": 58.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "colgate slim soft black escova de dente macia",
@@ -145,7 +145,7 @@
       "precio_ref": 25.53,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "oral b escova de dente sensitive purification gold",
@@ -153,15 +153,7 @@
       "precio_ref": 14.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
-      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
-      "precio_ref": 24.99,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
@@ -169,15 +161,15 @@
       "precio_ref": 66.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
-      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
-      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
-      "precio_ref": 37.3,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
+      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
+      "precio_ref": 24.99,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "cozinha infantil brinquedo com luz 33 acessorios sai",
@@ -185,7 +177,15 @@
       "precio_ref": 59.71,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
+      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
+      "precio_ref": 37.3,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -193,7 +193,7 @@
       "precio_ref": 64.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
@@ -201,7 +201,7 @@
       "precio_ref": 45.17,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
@@ -209,7 +209,7 @@
       "precio_ref": 65.45,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "bellacotton algodao quadrado baby 100 algodao macio 100",
@@ -217,7 +217,7 @@
       "precio_ref": 26.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
@@ -225,7 +225,7 @@
       "precio_ref": 113.49,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
@@ -233,7 +233,7 @@
       "precio_ref": 55.55,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "cozinha infantil completa com luz e som acessorios",
@@ -241,7 +241,7 @@
       "precio_ref": 78.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "vonixx limpador bactericida para interior sintra pro 3",
@@ -249,7 +249,7 @@
       "precio_ref": 68.28,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "mochila jiesipote 9242 a prova d agua reforcada",
@@ -257,7 +257,7 @@
       "precio_ref": 87.29,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "integralmedica creatina em po hardcore 100 pura e",
@@ -265,7 +265,7 @@
       "precio_ref": 42.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "relogio smartwatch forestory r1 smart watch inteligente redondo",
@@ -273,7 +273,7 @@
       "precio_ref": 117.56,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "glazy 500ml vonixx limpador restaurador vidros 4 em",
@@ -281,7 +281,7 @@
       "precio_ref": 45.92,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "garrafa de tinta original epson ecotank t544 preto",
@@ -289,7 +289,7 @@
       "precio_ref": 49.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
@@ -297,7 +297,7 @@
       "precio_ref": 99.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "lencos umedecidos huggies recem nascido sem fragrancia 6x48u",
@@ -305,7 +305,7 @@
       "precio_ref": 54.9,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "tenis casual kappa zenit masculino unissex conforto",
@@ -313,7 +313,7 @@
       "precio_ref": 86.45,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
@@ -321,7 +321,7 @@
       "precio_ref": 26.7,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
@@ -329,7 +329,7 @@
       "precio_ref": 33.8,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "nivea sabonete liquido intimo fresh comfort 250ml limpeza",
@@ -337,7 +337,7 @@
       "precio_ref": 18.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "relogio inteligente smartwatch gps autonomo novante masculino feminino",
@@ -345,7 +345,7 @@
       "precio_ref": 188.1,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "bepantol baby lenco umedecido hipoalergenico 192 unidades 192",
@@ -353,7 +353,7 @@
       "precio_ref": 40.0,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "bepantol baby pomada assadura bebe hipoalergenica 100g 100g",
@@ -361,7 +361,7 @@
       "precio_ref": 44.99,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
@@ -369,7 +369,7 @@
       "precio_ref": 197.32,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "esponja esfrelux com formato protetor de unha",
@@ -377,7 +377,7 @@
       "precio_ref": 2.53,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "testo essencial formula exclusiva com feno grego boro",
@@ -385,7 +385,7 @@
       "precio_ref": 39.74,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "colgate tripla acao menta original creme dental 6x90g",
@@ -393,7 +393,7 @@
       "precio_ref": 26.94,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "tapete higienico para cachorro descartavel alta absorcao 60x60",
@@ -401,7 +401,7 @@
       "precio_ref": 22.29,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "vonix blend ceramic carnauba spray wax black edition",
@@ -409,7 +409,7 @@
       "precio_ref": 39.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "caixa de som boombox plus aiwa bbs 01",
@@ -417,7 +417,7 @@
       "precio_ref": 1149.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "bendita canfora pote com 30 tabletes multiuso odorizante",
@@ -425,7 +425,7 @@
       "precio_ref": 29.89,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "copo de treinamento infantil anti vazamento com canudo",
@@ -433,7 +433,7 @@
       "precio_ref": 18.71,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
@@ -441,7 +441,7 @@
       "precio_ref": 15.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "cha da amamentacao 30 saches 5 ervas 100",
@@ -449,7 +449,7 @@
       "precio_ref": 32.05,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "luxcar new fresh gel carro novo 60 g",
@@ -457,7 +457,7 @@
       "precio_ref": 14.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "fio dental reach essencial 100m menta 1 unidade",
@@ -465,7 +465,7 @@
       "precio_ref": 13.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "fone de ouvido headphone dapon h02d bluetooth 5",
@@ -473,7 +473,7 @@
       "precio_ref": 72.59,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     },
     {
       "busqueda": "vonixx shampoo automotivo concentrado 1 400 v floc",
@@ -481,7 +481,7 @@
       "precio_ref": 74.35,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T11:56:26+00:00"
+      "monitorizado_desde": "2026-10-13T12:00:45+00:00"
     }
   ]
 }
