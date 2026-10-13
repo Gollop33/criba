@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-13T12:42:31+00:00",
+  "actualizado": "2026-10-13T12:49:28+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -17,7 +17,7 @@
       "precio_ref": 34.93,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "lixeira inteligente sensor automatico 16l cinza smart recarregavel",
@@ -25,7 +25,7 @@
       "precio_ref": 60.46,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "patinete eletrico gm5 p1 preto dobravel com bluetooth",
@@ -33,7 +33,7 @@
       "precio_ref": 1260.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -41,7 +41,7 @@
       "precio_ref": 266.71,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "creatina monohidratada dark lab 1kg 100",
@@ -49,7 +49,7 @@
       "precio_ref": 78.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "varal dobravel de chao 3 andares de roupas",
@@ -57,7 +57,7 @@
       "precio_ref": 78.91,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -65,7 +65,7 @@
       "precio_ref": 493.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "triciclo drift eletrico infantil 350w nanotoyzzz roda 8",
@@ -73,7 +73,7 @@
       "precio_ref": 1307.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -81,199 +81,15 @@
       "precio_ref": 737.01,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "filtro refil original de agua acqua pure para",
-      "nombre": "Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux PE12A/PE12B/PE12G/PE12V/PE12P",
-      "precio_ref": 64.25,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "finish detergente para lava loucas em po 700g",
-      "nombre": "Finish Detergente para Lava Louças em pó 700g",
-      "precio_ref": 59.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "mochila para notebook impermeavel e reforcada com entrada",
-      "nombre": "Mochila para Notebook Impermeável e Reforçada com Entrada USB – 25 a 40L, Masculina e Feminina",
-      "precio_ref": 79.19,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "chaleira eletrica 1 8 litros inox desligamento automatico",
-      "nombre": "Chaleira Elétrica 1.8 Litros Inox Desligamento Automatico Cor Aço 110V Aquecimento Rápido Segura Café Chá Fácil Abertura Prem",
-      "precio_ref": 32.99,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
-      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
-      "precio_ref": 58.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "flash limp mop giratorio fit balde 8 litros",
-      "nombre": "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010 - ABS Cinza",
-      "precio_ref": 55.45,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 69.93,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
-      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
-      "precio_ref": 59.49,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
-      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
-      "precio_ref": 58.81,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "relogio smartwatch forestory r1 smart watch inteligente redondo",
-      "nombre": "Relógio Smartwatch Forestory R1 Smart Watch Inteligente Redondo Bluetooth Ip68 À Prova D'água Notificações Chamadas Relogio Corrida com Android e iOS Com 2 Pulseiras Feminino Masculino Alumínio",
-      "precio_ref": 99.25,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
-      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
-      "precio_ref": 16.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "cozinha infantil brinquedo com luz 33 acessorios sai",
-      "nombre": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
-      "precio_ref": 59.71,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "frigideira rochedo stone pro 20cm preta com efeito",
-      "nombre": "Frigideira Rochedo Stone Pro 20cm Preta com Efeito Pedra e Antiaderente Minerium, Alta Resistência e Durabilidade, Cabos Ergo",
-      "precio_ref": 60.01,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 65.45,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "pack nestle purina friskies racao umida para gatos",
-      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
-      "precio_ref": 37.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "sanremo rodo plastico para pia de 14cm cor",
-      "nombre": "Sanremo - Rodo Plástico para Pia de 14cm, Cor Preta Linha Casar",
-      "precio_ref": 6.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
-      "nombre": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
-      "precio_ref": 66.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "esponja scotch brite nao risca c 3 azul",
-      "nombre": "Esponja Scotch Brite Não Risca c/3 Azul | Não Risca Louças Delicadas, Ideal para Aço Inox Polido e Escovado, Antiaderente, Vi",
-      "precio_ref": 9.88,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "bionature areia higienica para gatos biodegradavel wisecat 4kg",
-      "nombre": "Bionature Areia Higiênica para Gatos Biodegradável Wisecat 4kg",
-      "precio_ref": 38.78,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
-      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
-      "precio_ref": 113.49,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "dreamies petisco carne tentadora gatos adultos 150g",
-      "nombre": "Dreamies Petisco Carne Tentadora Gatos Adultos 150G",
-      "precio_ref": 17.69,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "mochila jiesipote 9242 a prova d agua reforcada",
-      "nombre": "Mochila jiesipote-9242 À Prova D'água Reforçada Expansível Cor Preto",
-      "precio_ref": 87.29,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 40.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "carregador 30w turbo para iphone 8 x xr",
-      "nombre": "Carregador 30w Turbo Para iPhone 8 X Xr 11 12 13 14 Pro Max Fonte Usb C Cor Branca Dtimp",
-      "precio_ref": 39.5,
+      "busqueda": "tramontina jogo facas inox 4pc plenus pre preto",
+      "nombre": "Tramontina JOGO FACAS INOX 4PC PLENUS PRE, Preto",
+      "precio_ref": 34.9,
       "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "eliminador de odores pet wap elimina odores 1",
@@ -281,15 +97,55 @@
       "precio_ref": 52.7,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "relogio inteligente smartwatch gps autonomo novante masculino feminino",
-      "nombre": "Relógio Inteligente Smartwatch GPS Autônomo NOVANTE Masculino Feminino Chamadas Bluetooth Preto Esportivo Tática À prova d'água 3ATM 430mAh Android IOS Com Pulseira De Aço Lanterna Bússola Presente",
-      "precio_ref": 188.1,
-      "categoria": "Relógios & Smartwatches",
+      "busqueda": "mochila para notebook impermeavel e reforcada com entrada",
+      "nombre": "Mochila para Notebook Impermeável e Reforçada com Entrada USB – 25 a 40L, Masculina e Feminina",
+      "precio_ref": 79.19,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
+      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
+      "precio_ref": 16.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
+      "nombre": "Lixeira Inteligente Automática Redonda Recarregável USB‐C Sensor para Cozinha Banheiro Escritório",
+      "precio_ref": 58.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "detergente limpador para extratoras concentrado wap limpa e",
+      "nombre": "Detergente Limpador para Extratoras Concentrado WAP Limpa e Extrai, com Fragrância e sem Espuma, 1 Litro",
+      "precio_ref": 53.28,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
+      "precio_ref": 69.93,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "kit 6 copos de vidro canelado 420 ml",
+      "nombre": "Kit 6 Copos de Vidro Canelado 420 ml com Borda Dourada para Água, Sucos e Drinks, Mesa Posta Elegante",
+      "precio_ref": 29.99,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
@@ -297,31 +153,15 @@
       "precio_ref": 49.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "tenis casual kappa zenit masculino unissex conforto",
-      "nombre": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
-      "precio_ref": 86.45,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "relogio smartwatch forestory r1 smart watch inteligente redondo",
+      "nombre": "Relógio Smartwatch Forestory R1 Smart Watch Inteligente Redondo Bluetooth Ip68 À Prova D'água Notificações Chamadas Relogio Corrida com Android e iOS Com 2 Pulseiras Feminino Masculino Alumínio",
+      "precio_ref": 99.25,
+      "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "controle usb com fio para xbox 360 computador",
-      "nombre": "Controle Usb Com Fio Para Xbox 360 Computador Notebook Preto",
-      "precio_ref": 40.97,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "parafusadeira furadeira 48v profissional 2 baterias sem fio",
-      "nombre": "Parafusadeira Furadeira 48v Profissional 2 Baterias Sem Fio Amarelo 127/220v 60 Hz",
-      "precio_ref": 104.31,
-      "categoria": "Ferramentas",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "tp link ub500 adaptador bluetooth para pc e",
@@ -329,55 +169,63 @@
       "precio_ref": 54.0,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "copo de treinamento infantil anti vazamento com canudo",
-      "nombre": "Copo de Treinamento infantil Anti Vazamento com Canudo de Silicone 300ml",
-      "precio_ref": 18.71,
+      "busqueda": "cozinha infantil brinquedo com luz 33 acessorios sai",
+      "nombre": "Cozinha Infantil Brinquedo Com Luz 33 Acessórios Sai Água Rosa",
+      "precio_ref": 59.71,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
-      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
-      "precio_ref": 55.0,
+      "busqueda": "dreamies petisco carne tentadora gatos adultos 150g",
+      "nombre": "Dreamies Petisco Carne Tentadora Gatos Adultos 150G",
+      "precio_ref": 17.69,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "testo essencial formula exclusiva com feno grego boro",
-      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
-      "precio_ref": 39.74,
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 65.45,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "lysoform suave odor desinfetante liquido limpeza casa 2l",
-      "nombre": "Lysoform Suave Odor, Desinfetante Líquido, Limpeza Casa, 2L",
-      "precio_ref": 19.99,
+      "busqueda": "esponja scotch brite nao risca c 3 azul",
+      "nombre": "Esponja Scotch Brite Não Risca c/3 Azul | Não Risca Louças Delicadas, Ideal para Aço Inox Polido e Escovado, Antiaderente, Vi",
+      "precio_ref": 9.88,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
-      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "precio_ref": 59.99,
-      "categoria": "Pet Shop",
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 40.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
+      "nombre": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
+      "precio_ref": 66.0,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
-      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
-      "precio_ref": 18.9,
+      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
+      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
+      "precio_ref": 58.81,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "pasta termica pcyes nitrogen basic 1 5g 5",
@@ -385,15 +233,15 @@
       "precio_ref": 13.71,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
-      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
-      "precio_ref": 197.32,
-      "categoria": "Casa & Móveis",
+      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
+      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
+      "precio_ref": 113.49,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
@@ -401,39 +249,47 @@
       "precio_ref": 43.52,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "caixa de som boombox plus aiwa bbs 01",
-      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
-      "precio_ref": 1149.0,
+      "busqueda": "mochila jiesipote 9242 a prova d agua reforcada",
+      "nombre": "Mochila jiesipote-9242 À Prova D'água Reforçada Expansível Cor Preto",
+      "precio_ref": 87.29,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "scott duramax pano reutilizavel em rolo branco 174",
-      "nombre": "Scott Duramax Pano Reutilizável em Rolo, Branco, 174 Folhas (3 Unidades de 58 Folhas)",
-      "precio_ref": 36.01,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
-    },
-    {
-      "busqueda": "pack racao umida whiskas sache frango ao molho",
-      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
-      "precio_ref": 53.0,
+      "busqueda": "pack nestle purina friskies racao umida para gatos",
+      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
+      "precio_ref": 37.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "jogo de panelas antiaderente inducao 12 pecas fundo",
-      "nombre": "Jogo De Panelas Antiaderente Indução 12 Peças Fundo Triplo Palha",
-      "precio_ref": 308.0,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "carregador 30w turbo para iphone 8 x xr",
+      "nombre": "Carregador 30w Turbo Para iPhone 8 X Xr 11 12 13 14 Pro Max Fonte Usb C Cor Branca Dtimp",
+      "precio_ref": 39.5,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
+      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
+      "precio_ref": 18.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "relogio inteligente smartwatch gps autonomo novante masculino feminino",
+      "nombre": "Relógio Inteligente Smartwatch GPS Autônomo NOVANTE Masculino Feminino Chamadas Bluetooth Preto Esportivo Tática À prova d'água 3ATM 430mAh Android IOS Com Pulseira De Aço Lanterna Bússola Presente",
+      "precio_ref": 188.1,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "pack racao umida pedigree sache carne ao molho",
@@ -441,7 +297,143 @@
       "precio_ref": 49.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "tenis casual kappa zenit masculino unissex conforto",
+      "nombre": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+      "precio_ref": 86.45,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "cif limpador especialista derrete gordura 500 ml",
+      "nombre": "Cif Limpador Especialista Derrete Gordura 500 Ml",
+      "precio_ref": 15.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "parafusadeira furadeira 48v profissional 2 baterias sem fio",
+      "nombre": "Parafusadeira Furadeira 48v Profissional 2 Baterias Sem Fio Amarelo 127/220v 60 Hz",
+      "precio_ref": 104.31,
+      "categoria": "Ferramentas",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "bionature areia higienica para gatos biodegradavel wisecat 4kg",
+      "nombre": "Bionature Areia Higiênica para Gatos Biodegradável Wisecat 4kg",
+      "precio_ref": 38.78,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "copo de treinamento infantil anti vazamento com canudo",
+      "nombre": "Copo de Treinamento infantil Anti Vazamento com Canudo de Silicone 300ml",
+      "precio_ref": 18.71,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
+      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
+      "precio_ref": 59.49,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "testo essencial formula exclusiva com feno grego boro",
+      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
+      "precio_ref": 39.74,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "sanremo rodo plastico para pia de 14cm cor",
+      "nombre": "Sanremo - Rodo Plástico para Pia de 14cm, Cor Preta Linha Casar",
+      "precio_ref": 6.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
+      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "precio_ref": 59.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "switch gigabit ms105g mercusys de 5 portas ethernet",
+      "nombre": "Switch Gigabit MS105G Mercusys de 5 portas Ethernet RJ45 LAN 10/100/1000 Mbps, Plug & Play para conectar SmartTVs, Notebooks,",
+      "precio_ref": 57.0,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
+      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
+      "precio_ref": 36.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "cadeira de escritorio ergonomica ravena apoio lombar e",
+      "nombre": "Cadeira De Escritório Ergonômica Ravena Apoio Lombar E Nuca Preto Espuma, Mesh Respirável",
+      "precio_ref": 197.32,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "controle usb com fio para xbox 360 computador",
+      "nombre": "Controle Usb Com Fio Para Xbox 360 Computador Notebook Preto",
+      "precio_ref": 40.97,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "caixa de som boombox plus aiwa bbs 01",
+      "nombre": "Caixa de Som Boombox Plus AIWA BBS-01-BG 200W Bluetooth 30H IP66 USB Cinza",
+      "precio_ref": 1149.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "finish detergente para lava loucas em po 700g",
+      "nombre": "Finish Detergente para Lava Louças em pó 700g",
+      "precio_ref": 59.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "carregador turbo super rapido 30w para iphone 15",
+      "nombre": "Carregador Turbo Super Rápido 30w Para iPhone 15 16 17 Pro Max - Cabo Blindado Tipo Usb C Dtimp",
+      "precio_ref": 37.49,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "jimo lava louca multicamadas detergente concentrado para maquinas",
+      "nombre": "JIMO Lava Louça Multicamadas Detergente Concentrado para Máquinas de Lavar Louças Desengordurante Mais Brilho e Proteção às L",
+      "precio_ref": 29.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "camera veicular ddpai z60 pro 4g monitoramento remoto",
@@ -449,31 +441,31 @@
       "precio_ref": 1334.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "blue premium tapete higienico descartavel para caes 30",
-      "nombre": "Blue Premium Tapete Higiênico Descartável para Cães, 30 Unidades",
-      "precio_ref": 64.4,
+      "busqueda": "pack racao umida whiskas sache frango ao molho",
+      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
+      "precio_ref": 53.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "tenis kappa park 2 0 original unissex caminhada",
-      "nombre": "Tênis Kappa Park 2.0 Original Unissex Caminhada Academia",
-      "precio_ref": 81.7,
-      "categoria": "Pet Shop",
+      "busqueda": "fone de ouvido headphone dapon h02d bluetooth 5",
+      "nombre": "Fone De Ouvido Headphone Dapon H02D Bluetooth 5.1 Over-ear 22h Preto",
+      "precio_ref": 72.59,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
-      "busqueda": "finish powerball detergente para lava loucas em tabletes",
-      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
-      "precio_ref": 55.93,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "tapete higienico premium para caes petlike ultrapads aroma",
+      "nombre": "Tapete Higiênico Premium para cães Petlike Ultrapads Aroma Lavanda 80cmx60cm 30 unid.",
+      "precio_ref": 47.35,
+      "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     },
     {
       "busqueda": "monitor portatil 15 6 full hd 1080p ips",
@@ -481,7 +473,15 @@
       "precio_ref": 367.63,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-13T12:42:31+00:00"
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
+    },
+    {
+      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
+      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
+      "precio_ref": 55.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-13T12:49:28+00:00"
     }
   ]
 }
