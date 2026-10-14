@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-14T13:41:02+00:00",
-  "total": 69,
+  "actualizado": "2026-10-14T14:14:29+00:00",
+  "total": 74,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -22,7 +22,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -74,7 +74,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -145,7 +145,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -163,7 +163,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -181,7 +181,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -217,7 +217,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00",
+      "capturado_em": "2026-10-14T14:14:29+00:00",
       "detectado_em": "2026-10-11T13:05:42+00:00"
     },
     {
@@ -254,7 +254,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "codigo": "MEUVALE",
@@ -272,7 +272,7 @@
         "id": "ACTIVE"
       },
       "titulo": "30% OFF com MEUVALE",
-      "capturado_em": "2026-10-14T13:41:02+00:00"
+      "capturado_em": "2026-10-14T14:14:29+00:00"
     },
     {
       "codigo": "MELISALVA",
@@ -986,6 +986,71 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "AQUITEM",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-10-14",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-14T13:00:53+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MEGADESCONTO",
+      "desconto": "18% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-14T13:00:53+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "PEGUESEUCUPOM",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-14T13:00:53+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "ECONOMIZAMELI",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-14T13:00:53+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "POUPAMAIS",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-11-25",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-14T13:00:53+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }
