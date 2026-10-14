@@ -12,14 +12,16 @@
     "precio_min_publicado": 60.0
   },
   "ml-creatina-monohidratada-dark-lab-1kg-100": {
-    "ts": "2026-10-13T14:56:39.457382",
+    "ts": "2026-10-14T14:57:49.747173",
     "canales": {
-      "whatsapp": "2026-10-13T14:56:39.457382"
+      "whatsapp": "2026-10-14T14:57:49.747173"
     },
-    "precio": 78.0,
+    "precio": 55.0,
     "precios_publicados": [
-      78.0
-    ]
+      78.0,
+      55.0
+    ],
+    "precio_min_publicado": 78.0
   },
   "ml-patinete-eletrico-gm5-p1-preto-dobravel-com-b": {
     "ts": "2026-10-13T15:07:39.365607",
