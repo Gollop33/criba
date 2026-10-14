@@ -104,14 +104,16 @@
     ]
   },
   "ml-cama-elastica-infantil-pula-pula-18m-trampoli": {
-    "ts": "2026-10-13T16:07:42.876792",
+    "ts": "2026-10-14T16:11:16.861726",
     "canales": {
-      "whatsapp": "2026-10-13T16:07:42.876792"
+      "whatsapp": "2026-10-14T16:11:16.861726"
     },
-    "precio": 519.0,
+    "precio": 478.0,
     "precios_publicados": [
-      519.0
-    ]
+      519.0,
+      478.0
+    ],
+    "precio_min_publicado": 519.0
   },
   "ml-mochila-para-notebook-impermeavel-e-reforcada": {
     "ts": "2026-10-13T16:14:47.026872",
