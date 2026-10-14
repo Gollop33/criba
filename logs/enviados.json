@@ -892,14 +892,16 @@
     ]
   },
   "ml-nutella-3kg-balde-ferrero-creme-de-avela-giga": {
-    "ts": "2026-10-13T23:22:49.327802",
+    "ts": "2026-10-14T23:32:41.984772",
     "canales": {
-      "whatsapp": "2026-10-13T23:22:49.327802"
+      "whatsapp": "2026-10-14T23:32:41.984772"
     },
-    "precio": 228.0,
+    "precio": 236.0,
     "precios_publicados": [
-      228.0
-    ]
+      228.0,
+      236.0
+    ],
+    "precio_min_publicado": 228.0
   },
   "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
     "ts": "2026-10-13T23:26:15.946279",
