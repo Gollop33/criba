@@ -868,14 +868,16 @@
     ]
   },
   "ml-colchao-antiescara-pneumatico-de-ar-inflavel-": {
-    "ts": "2026-10-13T23:12:44.014560",
+    "ts": "2026-10-14T23:14:14.676209",
     "canales": {
-      "whatsapp": "2026-10-13T23:12:44.014560"
+      "whatsapp": "2026-10-14T23:14:14.676209"
     },
-    "precio": 179.0,
+    "precio": 199.0,
     "precios_publicados": [
-      179.0
-    ]
+      179.0,
+      199.0
+    ],
+    "precio_min_publicado": 179.0
   },
   "amz-shampoo-de-glicerina-johnsons-baby-400ml-hipo": {
     "ts": "2026-10-13T23:16:43.424032",
