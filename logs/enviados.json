@@ -1,13 +1,15 @@
 {
   "ml-lixeira-inteligente-sensor-automatico-16l-cin": {
-    "ts": "2026-10-13T14:49:41.082412",
+    "ts": "2026-10-14T14:51:26.956999",
     "canales": {
-      "whatsapp": "2026-10-13T14:49:41.082412"
+      "whatsapp": "2026-10-14T14:51:26.956999"
     },
     "precio": 60.0,
     "precios_publicados": [
+      60.0,
       60.0
-    ]
+    ],
+    "precio_min_publicado": 60.0
   },
   "ml-creatina-monohidratada-dark-lab-1kg-100": {
     "ts": "2026-10-13T14:56:39.457382",
