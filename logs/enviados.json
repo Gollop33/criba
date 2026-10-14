@@ -356,14 +356,16 @@
     "precio_min_publicado": 49.0
   },
   "ml-tenis-fila-corrida-caminhada-heating-treino-l": {
-    "ts": "2026-10-13T18:38:56.159204",
+    "ts": "2026-10-14T19:58:28.595598",
     "canales": {
-      "whatsapp": "2026-10-13T18:38:56.159204"
+      "whatsapp": "2026-10-14T19:58:28.595598"
     },
     "precio": 110.0,
     "precios_publicados": [
+      110.0,
       110.0
-    ]
+    ],
+    "precio_min_publicado": 110.0
   },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-10-14T18:52:59.917980",
