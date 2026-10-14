@@ -532,14 +532,16 @@
     ]
   },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
-    "ts": "2026-10-13T20:10:48.168748",
+    "ts": "2026-10-14T20:19:03.007540",
     "canales": {
-      "whatsapp": "2026-10-13T20:10:48.168748"
+      "whatsapp": "2026-10-14T20:19:03.007540"
     },
     "precio": 39.0,
     "precios_publicados": [
+      39.0,
       39.0
-    ]
+    ],
+    "precio_min_publicado": 39.0
   },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
     "ts": "2026-10-13T20:14:02.896930",
