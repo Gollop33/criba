@@ -848,14 +848,16 @@
     ]
   },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
-    "ts": "2026-10-13T23:06:24.484207",
+    "ts": "2026-10-14T23:18:49.303296",
     "canales": {
-      "whatsapp": "2026-10-13T23:06:24.484207"
+      "whatsapp": "2026-10-14T23:18:49.303296"
     },
-    "precio": 157.0,
+    "precio": 181.0,
     "precios_publicados": [
-      157.0
-    ]
+      157.0,
+      181.0
+    ],
+    "precio_min_publicado": 157.0
   },
   "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
     "ts": "2026-10-13T23:10:47.242681",
