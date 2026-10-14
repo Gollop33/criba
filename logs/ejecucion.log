@@ -15454,3 +15454,49 @@
 [2026-10-14 08:07:28] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
 [2026-10-14 08:07:28] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
 [2026-10-14 08:07:30] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
+[2026-10-14 08:11:05] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-14 08:11:05] [CUPONS_ML] 84 código(s) inválidos descartados (blobs del estado interno de ML o fragmentos de texto).
+[2026-10-14 08:11:05] [CUPONS_ML] Se extrajeron exitosamente 8 cupones de ML Oficial.
+[2026-10-14 08:11:05] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-14 08:11:05] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 8 refrescados.
+[2026-10-14 08:11:05] [CUPONS_ML] Total cupones en cupones.json: 69
+[2026-10-14 08:11:05] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-10-14 08:11:10] [PELANDO]   Falha ao acessar Amazon
+[2026-10-14 08:11:12] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-10-14 08:11:16] [PELANDO]   Falha ao acessar KaBuM!
+[2026-10-14 08:11:18] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-10-14 08:11:22] [PELANDO]   Falha ao acessar Mercado Livre
+[2026-10-14 08:11:24] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-10-14 08:11:28] [PELANDO]   Falha ao acessar Shopee
+[2026-10-14 08:11:30] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-10-14 08:11:35] [PELANDO]   Falha ao acessar Magazine Luiza
+[2026-10-14 08:11:37] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-10-14 08:11:41] [PELANDO]   Falha ao acessar AliExpress
+[2026-10-14 08:11:43] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-10-14 08:11:47] [PELANDO]   Falha ao acessar Pichau
+[2026-10-14 08:11:49] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-10-14 08:11:53] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-10-14 08:11:55] [PELANDO] Completado: 0 Pelando + 69 manuales = 69 total
+[2026-10-14 08:11:55] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-10-14 08:12:27] [AGENTE-ML] Scraping ML: 263 ofertas obtenidas | 48 enlaces de ANUNCIO descartados
+[2026-10-14 08:12:27] [AGENTE-ML] Guardados 209 achados en achados_ml.json
+[2026-10-14 08:12:27] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-10-14 08:13:27] [AGENTE-AMAZON] Amazon direct: 29 ofertas cosechadas | categorias OK 3/28 | HTTP {503: 25} | sin tarjetas 2
+[2026-10-14 08:13:27] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-14 08:13:27] [AGENTE-AMAZON] Pelando Amazon: HTTP 403
+[2026-10-14 08:13:27] [AGENTE-AMAZON] Guardados 29 achados en achados_amazon.json
+[2026-10-14 08:14:11] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-14 08:14:11] [AGENTE-AMAZON] Amazon Pelando: 1 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 1 sin precio legible, 1 duplicadas
+[2026-10-14 08:14:11] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-14 08:14:14] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
+[2026-10-14 08:14:14] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-10-14 08:14:16] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
+[2026-10-14 08:14:17] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-14 08:14:18] [CUPONS_ML] 84 código(s) inválidos descartados (blobs del estado interno de ML o fragmentos de texto).
+[2026-10-14 08:14:18] [CUPONS_ML] Se extrajeron exitosamente 8 cupones de ML Oficial.
+[2026-10-14 08:14:18] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-14 08:14:18] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 8 refrescados.
+[2026-10-14 08:14:18] [CUPONS_ML] Total cupones en cupones.json: 69
+[2026-10-14 08:14:18] [CUPONES] Fuente oficial ML refrescada: 8 cupón(es).
+[2026-10-14 08:14:18] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-10-14 08:14:18] [CUPONES] Sin cupones nuevos (145 códigos ya vistos).
