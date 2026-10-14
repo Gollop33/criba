@@ -82,14 +82,16 @@
     ]
   },
   "ml-patinete-eletrico-infantil-triciclo-pares-dri": {
-    "ts": "2026-10-13T15:49:37.943508",
+    "ts": "2026-10-14T15:51:01.053225",
     "canales": {
-      "whatsapp": "2026-10-13T15:49:37.943508"
+      "whatsapp": "2026-10-14T15:51:01.053225"
     },
-    "precio": 728.0,
+    "precio": 719.0,
     "precios_publicados": [
-      728.0
-    ]
+      728.0,
+      719.0
+    ],
+    "precio_min_publicado": 728.0
   },
   "ml-triciclo-drift-eletrico-infantil-350w-nanotoy": {
     "ts": "2026-10-13T15:56:39.739406",
