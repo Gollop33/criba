@@ -224,14 +224,16 @@
     ]
   },
   "ml-carregador-portatil-power-bank-turbo-20000mah": {
-    "ts": "2026-10-13T17:28:43.250591",
+    "ts": "2026-10-14T17:30:13.442730",
     "canales": {
-      "whatsapp": "2026-10-13T17:28:43.250591"
+      "whatsapp": "2026-10-14T17:30:13.442730"
     },
-    "precio": 99.0,
+    "precio": 69.0,
     "precios_publicados": [
-      99.0
-    ]
+      99.0,
+      69.0
+    ],
+    "precio_min_publicado": 99.0
   },
   "ml-capa-protetora-colchao-box-casal-padrao-matel": {
     "ts": "2026-10-13T17:35:42.173797",
