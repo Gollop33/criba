@@ -596,14 +596,16 @@
     ]
   },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
-    "ts": "2026-10-13T20:42:39.132733",
+    "ts": "2026-10-15T05:35:48.736206",
     "canales": {
-      "whatsapp": "2026-10-13T20:42:39.132733"
+      "whatsapp": "2026-10-15T05:35:48.736206"
     },
-    "precio": 67.0,
+    "precio": 65.0,
     "precios_publicados": [
-      67.0
-    ]
+      67.0,
+      65.0
+    ],
+    "precio_min_publicado": 67.0
   },
   "ml-caixa-de-som-boombox-plus-aiwa-bbs01bg-200w-b": {
     "ts": "2026-10-13T20:49:15.571515",
