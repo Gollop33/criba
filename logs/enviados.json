@@ -1376,14 +1376,16 @@
     "precio_min_publicado": 64.0
   },
   "ml-mochila-para-notebook-impermeavel-com-porta-u": {
-    "ts": "2026-10-14T07:42:41.360439",
+    "ts": "2026-10-15T19:36:00.806174",
     "canales": {
-      "whatsapp": "2026-10-14T07:42:41.360439"
+      "whatsapp": "2026-10-15T19:36:00.806174"
     },
-    "precio": 84.0,
+    "precio": 89.0,
     "precios_publicados": [
-      84.0
-    ]
+      84.0,
+      89.0
+    ],
+    "precio_min_publicado": 84.0
   },
   "ml-tenis-on-cloud-running-masculino-e-feminino-e": {
     "ts": "2026-10-14T07:49:42.659822",
