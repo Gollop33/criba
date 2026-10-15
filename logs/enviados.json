@@ -430,16 +430,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "ml-jogo-de-panelas-antiaderente-inducao-12-pecas": {
-    "ts": "2026-10-13T21:26:58.332733",
-    "canales": {
-      "whatsapp": "2026-10-13T21:26:58.332733"
-    },
-    "precio": 308.0,
-    "precios_publicados": [
-      308.0
-    ]
-  },
   "amz-bellacotton-algodao-quadrado-baby-100-algodao": {
     "ts": "2026-10-14T21:43:07.510480",
     "canales": {
@@ -1431,14 +1421,16 @@
     "precio_min_publicado": 95.0
   },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
-    "ts": "2026-10-14T10:50:15.475490",
+    "ts": "2026-10-15T21:28:16.620061",
     "canales": {
-      "whatsapp": "2026-10-14T10:50:15.475490"
+      "whatsapp": "2026-10-15T21:28:16.620061"
     },
     "precio": 63.0,
     "precios_publicados": [
+      63.0,
       63.0
-    ]
+    ],
+    "precio_min_publicado": 63.0
   },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
     "ts": "2026-10-14T10:51:29.635279",
