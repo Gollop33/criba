@@ -479,16 +479,6 @@
     ],
     "precio_min_publicado": 50.0
   },
-  "ml-banha-de-porco-suina-natural-sem-conservantes": {
-    "ts": "2026-10-13T22:23:11.113706",
-    "canales": {
-      "whatsapp": "2026-10-13T22:23:11.113706"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-nivea-sun-protetor-solar-facial-toque-seco-an": {
     "ts": "2026-10-15T21:44:46.754228",
     "canales": {
@@ -3373,6 +3363,16 @@
     "precio": 47.0,
     "precios_publicados": [
       47.0
+    ]
+  },
+  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
+    "ts": "2026-10-15T22:28:42.689356",
+    "canales": {
+      "whatsapp": "2026-10-15T22:28:42.689356"
+    },
+    "precio": 35.0,
+    "precios_publicados": [
+      35.0
     ]
   }
 }
