@@ -309,16 +309,6 @@
     ],
     "precio_min_publicado": 280.0
   },
-  "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
-    "ts": "2026-10-13T19:43:24.665829",
-    "canales": {
-      "whatsapp": "2026-10-13T19:43:24.665829"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "ml-tapete-higienico-para-cachorro-descartavel-al": {
     "ts": "2026-10-14T20:08:30.212572",
     "canales": {
@@ -496,14 +486,16 @@
     "precio_min_publicado": 81.0
   },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
-    "ts": "2026-10-13T21:08:49.780413",
+    "ts": "2026-10-15T19:44:21.202908",
     "canales": {
-      "whatsapp": "2026-10-13T21:08:49.780413"
+      "whatsapp": "2026-10-15T19:44:21.202908"
     },
-    "precio": 17.0,
+    "precio": 16.0,
     "precios_publicados": [
-      17.0
-    ]
+      17.0,
+      16.0
+    ],
+    "precio_min_publicado": 17.0
   },
   "ml-cadeira-de-escritorio-ergonomica-giratoria-te": {
     "ts": "2026-10-13T21:12:37.082108",
