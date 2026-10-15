@@ -24,14 +24,16 @@
     "precio_min_publicado": 78.0
   },
   "ml-patinete-eletrico-gm5-p1-preto-dobravel-com-b": {
-    "ts": "2026-10-13T15:07:39.365607",
+    "ts": "2026-10-15T12:28:44.989501",
     "canales": {
-      "whatsapp": "2026-10-13T15:07:39.365607"
+      "whatsapp": "2026-10-15T12:28:44.989501"
     },
-    "precio": 1260.0,
+    "precio": 1299.0,
     "precios_publicados": [
-      1260.0
-    ]
+      1260.0,
+      1299.0
+    ],
+    "precio_min_publicado": 1260.0
   },
   "ml-cama-elastica-pula-pula-infantil-trampolim-14": {
     "ts": "2026-10-14T15:23:27.992069",
