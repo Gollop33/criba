@@ -1756,14 +1756,16 @@
     ]
   },
   "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
-    "ts": "2026-10-14T11:14:09.217930",
+    "ts": "2026-10-15T13:42:15.380136",
     "canales": {
-      "whatsapp": "2026-10-14T11:14:09.217930"
+      "whatsapp": "2026-10-15T13:42:15.380136"
     },
-    "precio": 94.0,
+    "precio": 93.0,
     "precios_publicados": [
-      94.0
-    ]
+      94.0,
+      93.0
+    ],
+    "precio_min_publicado": 94.0
   },
   "ml-perfume-arabe-asad-bourbon-100ml-marca-isabel": {
     "ts": "2026-10-14T11:21:43.942010",
