@@ -1044,14 +1044,16 @@
     "precio_min_publicado": 408.0
   },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-10-14T00:47:45.238057",
+    "ts": "2026-10-15T00:54:52.376683",
     "canales": {
-      "whatsapp": "2026-10-14T00:47:45.238057"
+      "whatsapp": "2026-10-15T00:54:52.376683"
     },
     "precio": 15.0,
     "precios_publicados": [
+      15.0,
       15.0
-    ]
+    ],
+    "precio_min_publicado": 15.0
   },
   "amz-nivea-sabonete-liquido-intimo-fresh-comfort-2": {
     "ts": "2026-10-14T00:51:59.276412",
