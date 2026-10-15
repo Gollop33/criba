@@ -503,16 +503,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "ml-fritadeira-eletrica-air-fryer-quad-fry-42-l14": {
-    "ts": "2026-10-13T22:55:18.429780",
-    "canales": {
-      "whatsapp": "2026-10-13T22:55:18.429780"
-    },
-    "precio": 145.0,
-    "precios_publicados": [
-      145.0
-    ]
-  },
   "amz-secret-desodorante-antitranspirante-em-gel-la": {
     "ts": "2026-10-13T23:03:31.646223",
     "canales": {
@@ -3375,6 +3365,16 @@
     "precio": 459.0,
     "precios_publicados": [
       459.0
+    ]
+  },
+  "amz-algodao-quadrado-para-bebe-bellacotton-100-un": {
+    "ts": "2026-10-15T22:59:21.451044",
+    "canales": {
+      "whatsapp": "2026-10-15T22:59:21.451044"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
