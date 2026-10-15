@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-15T18:35:30+00:00",
+  "actualizado": "2026-10-15T18:42:33+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "jaguaride patinete eletrico scooter adulto xm01 500w velocidade",
@@ -17,7 +17,7 @@
       "precio_ref": 1159.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
@@ -25,7 +25,7 @@
       "precio_ref": 66.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "philips fone de ouvido com microfone taue101bk 00",
@@ -33,55 +33,7 @@
       "precio_ref": 28.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 25.53,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para cachorro super absorvente 40 unidades",
-      "nombre": "Tapete Higiênico Para Cachorro Super Absorvente 40 Unidades 60x60 Descartável Pet Cão Proteção Piso Alta Absorção",
-      "precio_ref": 32.15,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
-      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
-      "precio_ref": 13.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "tenis fila academia corrida caminhada macio treino couro",
-      "nombre": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
-      "precio_ref": 110.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 40.31,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "tenis fila corrida caminhada heating treino leve academia",
@@ -89,7 +41,55 @@
       "precio_ref": 110.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 25.53,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
+      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 33.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
+      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
+      "precio_ref": 13.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "tenis fila academia corrida caminhada macio treino couro",
+      "nombre": "Tênis Fila Academia Corrida Caminhada Macio Treino Couro Lev",
+      "precio_ref": 110.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 40.31,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para cachorro super absorvente 40 unidades",
+      "nombre": "Tapete Higiênico Para Cachorro Super Absorvente 40 Unidades 60x60 Descartável Pet Cão Proteção Piso Alta Absorção",
+      "precio_ref": 32.15,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
@@ -97,7 +97,7 @@
       "precio_ref": 41.2,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "carregador 30w turbo para iphone 8 x xr",
@@ -105,7 +105,7 @@
       "precio_ref": 44.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
@@ -113,31 +113,7 @@
       "precio_ref": 15.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
-      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "precio_ref": 59.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "oral b escova de dente sensitive purification gold",
-      "nombre": "Oral-B Escova de Dente Sensitive Purification Gold Extra Macia 4 Unidades",
-      "precio_ref": 57.69,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a07 256gb 8gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Verde",
-      "precio_ref": 1049.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "samsung galaxy watch8 smartwatch 40mm lte galaxy ai",
@@ -145,15 +121,23 @@
       "precio_ref": 1169.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
-      "busqueda": "notebook dell 15 dc15 i71355u a100 intel core",
-      "nombre": "Notebook Dell 15 DC15-I71355U-A100, Intel Core i7-1355U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 16 GB RAM, SSD",
-      "precio_ref": 6688.49,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "oral b escova de dente sensitive purification gold",
+      "nombre": "Oral-B Escova de Dente Sensitive Purification Gold Extra Macia 4 Unidades",
+      "precio_ref": 57.69,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a07 256gb 8gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 256GB, 8GB, Câm. 50MP, Tela 6.7\" - Verde",
+      "precio_ref": 1049.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "tapete higienico para cachorro descartavel alta absorcao 60x60",
@@ -161,79 +145,15 @@
       "precio_ref": 22.52,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
-      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
-      "precio_ref": 919.9,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "roku streaming stick para tv hd fhd controle",
-      "nombre": "Roku Streaming Stick Para Tv Hd/fhd Controle Por Voz Preto De Voz",
-      "precio_ref": 231.79,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
-      "precio_ref": 5999.0,
+      "busqueda": "notebook dell 15 dc15 i71355u a100 intel core",
+      "nombre": "Notebook Dell 15 DC15-I71355U-A100, Intel Core i7-1355U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 16 GB RAM, SSD",
+      "precio_ref": 6688.49,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "cadeira escritorio presidente ergonomica nr17 marqs home arcanis",
-      "nombre": "Cadeira Escritório Presidente Ergonômica NR17 Marqs Home Arcanis Preta com Apoio Lombar e Encosto Mesh Premium",
-      "precio_ref": 331.81,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
-      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 256GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ731",
-      "precio_ref": 3099.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "proteina max titanium whey pro concentrado em po",
-      "nombre": "Proteína Max Titanium Whey Pro Concentrado Em Pó Sabor Baunilha X 1kg",
-      "precio_ref": 78.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "notebook hp 256r g9 intel core i5 13o",
-      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
-      "precio_ref": 3999.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "smart tv 32 philco roku tv dolby audio",
-      "nombre": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
-      "precio_ref": 919.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
-      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
-      "precio_ref": 2249.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
@@ -241,15 +161,79 @@
       "precio_ref": 87.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
-      "busqueda": "whey protein concentrado cookies pote 900g contribui para",
-      "nombre": "Whey Protein Concentrado Cookies Pote 900g – Contribui para o Ganho Muscular Hipertrofia – Dux Human Health",
-      "precio_ref": 192.68,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 919.9,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "cadeira escritorio presidente ergonomica nr17 marqs home arcanis",
+      "nombre": "Cadeira Escritório Presidente Ergonômica NR17 Marqs Home Arcanis Preta com Apoio Lombar e Encosto Mesh Premium",
+      "precio_ref": 331.81,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
+      "precio_ref": 5999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "proteina max titanium whey pro concentrado em po",
+      "nombre": "Proteína Max Titanium Whey Pro Concentrado Em Pó Sabor Baunilha X 1kg",
+      "precio_ref": 78.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
+      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 256GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ731",
+      "precio_ref": 3099.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "smart tv 32 philco roku tv dolby audio",
+      "nombre": "Smart Tv 32 Philco Roku Tv Dolby Áudio Hdr10 P32crb",
+      "precio_ref": 919.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "notebook hp 256r g9 intel core i5 13o",
+      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
+      "precio_ref": 3999.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
+      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "precio_ref": 59.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
+      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
+      "precio_ref": 2249.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "relogio inteligente smartwatch alexa chamadas novante masculino feminino",
@@ -257,15 +241,15 @@
       "precio_ref": 122.71,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
-      "busqueda": "iphone 16e apple 128gb camera 48mp tela super",
-      "nombre": "iPhone 16e Apple 128GB, Câmera 48MP, Tela Super Retina XDR 6,1\", Branco",
-      "precio_ref": 3665.56,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "whey protein concentrado cookies pote 900g contribui para",
+      "nombre": "Whey Protein Concentrado Cookies Pote 900g – Contribui para o Ganho Muscular Hipertrofia – Dux Human Health",
+      "precio_ref": 192.68,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "amazon firetv stick 4k stick wi fi 6",
@@ -273,7 +257,23 @@
       "precio_ref": 234.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "iphone 16e apple 128gb camera 48mp tela super",
+      "nombre": "iPhone 16e Apple 128GB, Câmera 48MP, Tela Super Retina XDR 6,1\", Branco",
+      "precio_ref": 3665.56,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
+    },
+    {
+      "busqueda": "roku streaming stick para tv hd fhd controle",
+      "nombre": "Roku Streaming Stick Para Tv Hd/fhd Controle Por Voz Preto De Voz",
+      "precio_ref": 231.79,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
@@ -281,7 +281,7 @@
       "precio_ref": 5374.15,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "kit 10 potes vidro hermetico vai ao forno",
@@ -289,7 +289,7 @@
       "precio_ref": 97.62,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "acer nitro v 15 notebook gamer 15 6",
@@ -297,7 +297,7 @@
       "precio_ref": 7998.82,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "tenis kappa park 2 0 original unissex caminhada",
@@ -305,7 +305,7 @@
       "precio_ref": 81.7,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -313,7 +313,7 @@
       "precio_ref": 219.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "colchao antiescara pneumatico de ar inflavel para acamados",
@@ -321,7 +321,7 @@
       "precio_ref": 187.2,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -329,7 +329,7 @@
       "precio_ref": 1430.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "patinete drift 360 eletrico ruum 36v 25km h",
@@ -337,7 +337,7 @@
       "precio_ref": 1404.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "notebook samsung galaxy book go windows 11 home",
@@ -345,7 +345,7 @@
       "precio_ref": 2299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "jogo de panelas ceramico antiaderente 8 pecas cozilux",
@@ -353,7 +353,7 @@
       "precio_ref": 459.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "vitafor omegafor plus 240 capsulas",
@@ -361,7 +361,7 @@
       "precio_ref": 221.89,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "papel higienico folha dupla neve leve 16 pague",
@@ -369,7 +369,7 @@
       "precio_ref": 26.29,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "acer aspire 5 notebook 15 6 amd ryzen",
@@ -377,7 +377,7 @@
       "precio_ref": 5799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "tenis kappa sparta unissex original confortavel caminhada",
@@ -385,7 +385,7 @@
       "precio_ref": 109.66,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "notebook acer aspire 5 amd ryzen 5 5500u",
@@ -393,7 +393,7 @@
       "precio_ref": 3499.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "racao golden gatos special castrados sabor frango e",
@@ -401,7 +401,7 @@
       "precio_ref": 132.97,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
@@ -409,7 +409,7 @@
       "precio_ref": 3498.19,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "bicicleta aro 20 cross bmx freestyle infantil aero",
@@ -417,7 +417,7 @@
       "precio_ref": 467.91,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -425,7 +425,7 @@
       "precio_ref": 599.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "celular motorola moto g56 256gb 12gb ram 5g",
@@ -433,7 +433,7 @@
       "precio_ref": 1399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 intel core i5 16",
@@ -441,7 +441,7 @@
       "precio_ref": 4699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
@@ -449,7 +449,7 @@
       "precio_ref": 196.5,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
@@ -457,7 +457,7 @@
       "precio_ref": 999.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "jogo toalhas banho karsten 4pcs grossas macias 100",
@@ -465,7 +465,7 @@
       "precio_ref": 124.54,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "combo teclado e mouse sem fio dell km3322w",
@@ -473,7 +473,7 @@
       "precio_ref": 153.45,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     },
     {
       "busqueda": "vittak kit 50 cabides veludo de roupa antideslizante",
@@ -481,7 +481,7 @@
       "precio_ref": 69.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-15T18:35:30+00:00"
+      "monitorizado_desde": "2026-10-15T18:42:33+00:00"
     }
   ]
 }
