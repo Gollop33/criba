@@ -906,14 +906,16 @@
     "precio_min_publicado": 2.0
   },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
-    "ts": "2026-10-14T01:54:30.303283",
+    "ts": "2026-10-15T22:32:29.995099",
     "canales": {
-      "whatsapp": "2026-10-14T01:54:30.303283"
+      "whatsapp": "2026-10-15T22:32:29.995099"
     },
-    "precio": 100.0,
+    "precio": 87.0,
     "precios_publicados": [
-      100.0
-    ]
+      100.0,
+      87.0
+    ],
+    "precio_min_publicado": 100.0
   },
   "amz-max-titanium-creatina-pote-monohidratada-300g": {
     "ts": "2026-10-15T02:14:37.352913",
