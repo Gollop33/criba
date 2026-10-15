@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-15T01:14:39+00:00",
+  "actualizado": "2026-10-15T04:09:48+00:00",
   "total": 74,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -22,7 +22,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -74,7 +74,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -145,7 +145,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -163,7 +163,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -181,7 +181,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -217,7 +217,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00",
+      "capturado_em": "2026-10-15T04:09:48+00:00",
       "detectado_em": "2026-10-11T13:05:42+00:00"
     },
     {
@@ -254,7 +254,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "codigo": "MEUVALE",
@@ -268,9 +268,11 @@
       "detectado_em": "2026-10-09T13:36:08+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo",
+      "estado": {
+        "id": "ACTIVE"
+      },
       "titulo": "30% OFF com MEUVALE",
-      "capturado_em": "2026-10-15T01:14:39+00:00"
+      "capturado_em": "2026-10-15T04:09:48+00:00"
     },
     {
       "codigo": "MELISALVA",
@@ -1052,6 +1054,5 @@
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
     }
-  ],
-  "revisado_em": "2026-10-15T00:00:54-03:00"
+  ]
 }
