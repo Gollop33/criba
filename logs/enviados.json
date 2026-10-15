@@ -974,14 +974,16 @@
     ]
   },
   "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
-    "ts": "2026-10-14T00:04:25.291709",
+    "ts": "2026-10-15T00:06:58.304045",
     "canales": {
-      "whatsapp": "2026-10-14T00:04:25.291709"
+      "whatsapp": "2026-10-15T00:06:58.304045"
     },
     "precio": 54.0,
     "precios_publicados": [
+      54.0,
       54.0
-    ]
+    ],
+    "precio_min_publicado": 54.0
   },
   "ml-tenis-fila-academia-corrida-caminhada-macio-t": {
     "ts": "2026-10-14T00:11:26.921589",
