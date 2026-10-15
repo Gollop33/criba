@@ -990,14 +990,16 @@
     "precio_min_publicado": 54.0
   },
   "ml-tenis-fila-academia-corrida-caminhada-macio-t": {
-    "ts": "2026-10-14T00:11:26.921589",
+    "ts": "2026-10-15T01:49:40.910237",
     "canales": {
-      "whatsapp": "2026-10-14T00:11:26.921589"
+      "whatsapp": "2026-10-15T01:49:40.910237"
     },
-    "precio": 107.0,
+    "precio": 110.0,
     "precios_publicados": [
-      107.0
-    ]
+      107.0,
+      110.0
+    ],
+    "precio_min_publicado": 107.0
   },
   "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
     "ts": "2026-10-15T00:20:17.079713",
