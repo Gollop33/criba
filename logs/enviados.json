@@ -50,12 +50,6 @@
     ],
     "precio_min_publicado": 266.0
   },
-  "cupom-ml-a07b591c5f": {
-    "ts": "2026-10-13T15:29:12.193320",
-    "canales": {
-      "whatsapp": "2026-10-13T15:29:12.193320"
-    }
-  },
   "ml-creatina-dark-lab-premium-pure-em-po-sem-sabo": {
     "ts": "2026-10-13T15:35:43.495351",
     "canales": {
@@ -3382,6 +3376,16 @@
     "precio": 9.0,
     "precios_publicados": [
       9.0
+    ]
+  },
+  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
+    "ts": "2026-10-15T15:33:52.789700",
+    "canales": {
+      "whatsapp": "2026-10-15T15:33:52.789700"
+    },
+    "precio": 47.0,
+    "precios_publicados": [
+      47.0
     ]
   }
 }
