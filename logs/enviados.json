@@ -768,14 +768,16 @@
     ]
   },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-10-13T22:13:49.803537",
+    "ts": "2026-10-15T12:07:42.676526",
     "canales": {
-      "whatsapp": "2026-10-13T22:13:49.803537"
+      "whatsapp": "2026-10-15T12:07:42.676526"
     },
     "precio": 50.0,
     "precios_publicados": [
+      50.0,
       50.0
-    ]
+    ],
+    "precio_min_publicado": 50.0
   },
   "ml-banha-de-porco-suina-natural-sem-conservantes": {
     "ts": "2026-10-13T22:23:11.113706",
