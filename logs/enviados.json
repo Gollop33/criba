@@ -345,16 +345,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-nivea-sabonete-em-barra-creme-care-promo-6-un": {
-    "ts": "2026-10-13T20:04:42.344518",
-    "canales": {
-      "whatsapp": "2026-10-13T20:04:42.344518"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
     "ts": "2026-10-14T20:19:03.007540",
     "canales": {
@@ -654,14 +644,16 @@
     ]
   },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
-    "ts": "2026-10-13T22:47:35.581011",
+    "ts": "2026-10-15T20:07:19.823929",
     "canales": {
-      "whatsapp": "2026-10-13T22:47:35.581011"
+      "whatsapp": "2026-10-15T20:07:19.823929"
     },
     "precio": 21.0,
     "precios_publicados": [
+      21.0,
       21.0
-    ]
+    ],
+    "precio_min_publicado": 21.0
   },
   "ml-fritadeira-eletrica-air-fryer-quad-fry-42-l14": {
     "ts": "2026-10-13T22:55:18.429780",
