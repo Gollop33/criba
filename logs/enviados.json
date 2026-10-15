@@ -682,14 +682,16 @@
     "precio_min_publicado": 26.0
   },
   "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
-    "ts": "2026-10-13T21:42:27.768307",
+    "ts": "2026-10-15T16:07:18.644877",
     "canales": {
-      "whatsapp": "2026-10-13T21:42:27.768307"
+      "whatsapp": "2026-10-15T16:07:18.644877"
     },
-    "precio": 25.0,
+    "precio": 28.0,
     "precios_publicados": [
-      25.0
-    ]
+      25.0,
+      28.0
+    ],
+    "precio_min_publicado": 25.0
   },
   "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
     "ts": "2026-10-13T21:52:29.553127",
