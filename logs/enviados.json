@@ -250,14 +250,16 @@
     ]
   },
   "ml-relogio-inteligente-smartwatch-gps-autonomo-n": {
-    "ts": "2026-10-13T17:42:44.076259",
+    "ts": "2026-10-15T12:14:44.600663",
     "canales": {
-      "whatsapp": "2026-10-13T17:42:44.076259"
+      "whatsapp": "2026-10-15T12:14:44.600663"
     },
-    "precio": 190.0,
+    "precio": 189.0,
     "precios_publicados": [
-      190.0
-    ]
+      190.0,
+      189.0
+    ],
+    "precio_min_publicado": 190.0
   },
   "ml-cadeira-escritorio-ergonomica-genebra-b500-lu": {
     "ts": "2026-10-14T17:50:48.688211",
