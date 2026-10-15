@@ -914,14 +914,16 @@
     ]
   },
   "ml-patinete-eletrico-honeywhale-m1-lite-dobravel": {
-    "ts": "2026-10-13T23:34:28.929753",
+    "ts": "2026-10-15T00:25:43.504215",
     "canales": {
-      "whatsapp": "2026-10-13T23:34:28.929753"
+      "whatsapp": "2026-10-15T00:25:43.504215"
     },
-    "precio": 1104.0,
+    "precio": 1299.0,
     "precios_publicados": [
-      1104.0
-    ]
+      1104.0,
+      1299.0
+    ],
+    "precio_min_publicado": 1104.0
   },
   "ml-jogo-de-toalhas-altenburg-toquio-banho-4-peca": {
     "ts": "2026-10-13T23:43:20.669548",
