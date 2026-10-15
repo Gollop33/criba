@@ -485,14 +485,16 @@
     "precio_min_publicado": 25.0
   },
   "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
-    "ts": "2026-10-13T21:52:29.553127",
+    "ts": "2026-10-15T21:10:42.832138",
     "canales": {
-      "whatsapp": "2026-10-13T21:52:29.553127"
+      "whatsapp": "2026-10-15T21:10:42.832138"
     },
     "precio": 69.0,
     "precios_publicados": [
+      69.0,
       69.0
-    ]
+    ],
+    "precio_min_publicado": 69.0
   },
   "ml-ventilador-de-teto-antuvi-42-polegadas-com-lu": {
     "ts": "2026-10-13T22:00:44.961557",
