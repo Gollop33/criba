@@ -49,16 +49,6 @@
     ],
     "precio_min_publicado": 266.0
   },
-  "ml-varal-dobravel-de-chao-3-andares-de-roupas-gr": {
-    "ts": "2026-10-13T15:21:36.182443",
-    "canales": {
-      "whatsapp": "2026-10-13T15:21:36.182443"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "cupom-ml-a07b591c5f": {
     "ts": "2026-10-13T15:29:12.193320",
     "canales": {
@@ -3381,6 +3371,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "ml-batata-sour-cream-e-cebola-elma-chips-134g": {
+    "ts": "2026-10-15T15:22:14.997618",
+    "canales": {
+      "whatsapp": "2026-10-15T15:22:14.997618"
+    },
+    "precio": 9.0,
+    "precios_publicados": [
+      9.0
     ]
   }
 }
