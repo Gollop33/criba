@@ -382,16 +382,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "ml-copo-de-treinamento-infantil-anti-vazamento-c": {
-    "ts": "2026-10-13T20:26:54.742211",
-    "canales": {
-      "whatsapp": "2026-10-13T20:26:54.742211"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
     "ts": "2026-10-13T20:35:06.313670",
     "canales": {
@@ -3372,6 +3362,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "ml-tapete-higienico-para-cachorro-super-absorven": {
+    "ts": "2026-10-15T20:29:46.981137",
+    "canales": {
+      "whatsapp": "2026-10-15T20:29:46.981137"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
