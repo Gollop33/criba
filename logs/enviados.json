@@ -2268,14 +2268,16 @@
     ]
   },
   "ml-racao-golden-gatos-special-castrados-sabor-fr": {
-    "ts": "2026-10-14T21:30:04.713276",
+    "ts": "2026-10-15T23:36:31.353358",
     "canales": {
-      "whatsapp": "2026-10-14T21:30:04.713276"
+      "whatsapp": "2026-10-15T23:36:31.353358"
     },
     "precio": 132.0,
     "precios_publicados": [
+      132.0,
       132.0
-    ]
+    ],
+    "precio_min_publicado": 132.0
   },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-10-14T21:35:49.696144",
