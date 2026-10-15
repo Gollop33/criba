@@ -50,16 +50,6 @@
     ],
     "precio_min_publicado": 266.0
   },
-  "ml-patinete-eletrico-xm01-adulto-com-motor-500w-": {
-    "ts": "2026-10-13T15:42:42.319809",
-    "canales": {
-      "whatsapp": "2026-10-13T15:42:42.319809"
-    },
-    "precio": 1199.0,
-    "precios_publicados": [
-      1199.0
-    ]
-  },
   "ml-patinete-eletrico-infantil-triciclo-pares-dri": {
     "ts": "2026-10-14T15:51:01.053225",
     "canales": {
@@ -3386,6 +3376,16 @@
     "precio": 921.0,
     "precios_publicados": [
       921.0
+    ]
+  },
+  "amz-personal-vip-papel-higienico-folha-dupla-bran": {
+    "ts": "2026-10-15T15:45:30.412483",
+    "canales": {
+      "whatsapp": "2026-10-15T15:45:30.412483"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
