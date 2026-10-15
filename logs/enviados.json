@@ -382,16 +382,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "ml-bicicleta-infantil-aro-12-com-rodinhas-latera": {
-    "ts": "2026-10-13T20:39:27.276283",
-    "canales": {
-      "whatsapp": "2026-10-13T20:39:27.276283"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0
-    ]
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-10-15T05:35:48.736206",
     "canales": {
@@ -415,14 +405,16 @@
     ]
   },
   "amz-skin-care-hidratante-facial-garnier-uniform-m": {
-    "ts": "2026-10-13T20:51:49.243919",
+    "ts": "2026-10-15T20:42:48.046069",
     "canales": {
-      "whatsapp": "2026-10-13T20:51:49.243919"
+      "whatsapp": "2026-10-15T20:42:48.046069"
     },
     "precio": 26.0,
     "precios_publicados": [
+      26.0,
       26.0
-    ]
+    ],
+    "precio_min_publicado": 26.0
   },
   "ml-racao-quatree-life-gatos-ad-castrados-101kg-s": {
     "ts": "2026-10-13T20:52:58.608681",
