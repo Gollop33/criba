@@ -718,14 +718,16 @@
     "precio_min_publicado": 179.0
   },
   "amz-shampoo-de-glicerina-johnsons-baby-400ml-hipo": {
-    "ts": "2026-10-13T23:16:43.424032",
+    "ts": "2026-10-15T20:00:55.536152",
     "canales": {
-      "whatsapp": "2026-10-13T23:16:43.424032"
+      "whatsapp": "2026-10-15T20:00:55.536152"
     },
-    "precio": 19.0,
+    "precio": 17.0,
     "precios_publicados": [
-      19.0
-    ]
+      19.0,
+      17.0
+    ],
+    "precio_min_publicado": 19.0
   },
   "ml-nutella-3kg-balde-ferrero-creme-de-avela-giga": {
     "ts": "2026-10-14T23:32:41.984772",
