@@ -1933,14 +1933,16 @@
     ]
   },
   "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
-    "ts": "2026-10-14T13:19:00.717052",
+    "ts": "2026-10-15T16:17:00.880605",
     "canales": {
-      "whatsapp": "2026-10-14T13:19:00.717052"
+      "whatsapp": "2026-10-15T16:17:00.880605"
     },
-    "precio": 300.0,
+    "precio": 296.0,
     "precios_publicados": [
-      300.0
-    ]
+      300.0,
+      296.0
+    ],
+    "precio_min_publicado": 300.0
   },
   "ml-porta-copo-automotivo-regulavel-com-suporte-p": {
     "ts": "2026-10-14T13:24:14.431844",
