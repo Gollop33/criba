@@ -1296,14 +1296,16 @@
     "precio_min_publicado": 25.0
   },
   "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
-    "ts": "2026-10-14T04:23:42.963639",
+    "ts": "2026-10-15T14:42:17.074120",
     "canales": {
-      "whatsapp": "2026-10-14T04:23:42.963639"
+      "whatsapp": "2026-10-15T14:42:17.074120"
     },
-    "precio": 519.0,
+    "precio": 474.0,
     "precios_publicados": [
-      519.0
-    ]
+      519.0,
+      474.0
+    ],
+    "precio_min_publicado": 519.0
   },
   "amz-frigideira-rochedo-stone-pro-20cm-preta-com-e": {
     "ts": "2026-10-14T04:56:12.798979",
