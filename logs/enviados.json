@@ -1250,14 +1250,16 @@
     "precio_min_publicado": 259.0
   },
   "amz-colgate-slim-soft-black-escova-de-dente-macia": {
-    "ts": "2026-10-14T03:43:54.576843",
+    "ts": "2026-10-15T03:49:40.768274",
     "canales": {
-      "whatsapp": "2026-10-14T03:43:54.576843"
+      "whatsapp": "2026-10-15T03:49:40.768274"
     },
     "precio": 25.0,
     "precios_publicados": [
+      25.0,
       25.0
-    ]
+    ],
+    "precio_min_publicado": 25.0
   },
   "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
     "ts": "2026-10-14T04:23:42.963639",
