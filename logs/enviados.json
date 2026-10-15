@@ -63,16 +63,6 @@
     ],
     "precio_min_publicado": 719.0
   },
-  "ml-triciclo-drift-eletrico-infantil-350w-nanotoy": {
-    "ts": "2026-10-13T15:56:39.739406",
-    "canales": {
-      "whatsapp": "2026-10-13T15:56:39.739406"
-    },
-    "precio": 1307.0,
-    "precios_publicados": [
-      1307.0
-    ]
-  },
   "ml-cama-elastica-infantil-pula-pula-18m-trampoli": {
     "ts": "2026-10-14T16:11:16.861726",
     "canales": {
@@ -3387,6 +3377,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "ml-tapete-higienico-para-caes-gatos-pets-manta-a": {
+    "ts": "2026-10-15T15:57:38.358041",
+    "canales": {
+      "whatsapp": "2026-10-15T15:57:38.358041"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
