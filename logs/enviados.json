@@ -546,14 +546,16 @@
     "precio_min_publicado": 39.0
   },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-10-13T20:14:02.896930",
+    "ts": "2026-10-15T09:42:47.055738",
     "canales": {
-      "whatsapp": "2026-10-13T20:14:02.896930"
+      "whatsapp": "2026-10-15T09:42:47.055738"
     },
-    "precio": 43.0,
+    "precio": 44.0,
     "precios_publicados": [
-      43.0
-    ]
+      43.0,
+      44.0
+    ],
+    "precio_min_publicado": 43.0
   },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-10-13T20:23:36.397493",
