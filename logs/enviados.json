@@ -116,14 +116,16 @@
     "precio_min_publicado": 519.0
   },
   "ml-mochila-para-notebook-impermeavel-e-reforcada": {
-    "ts": "2026-10-13T16:14:47.026872",
+    "ts": "2026-10-15T04:37:39.333662",
     "canales": {
-      "whatsapp": "2026-10-13T16:14:47.026872"
+      "whatsapp": "2026-10-15T04:37:39.333662"
     },
     "precio": 79.0,
     "precios_publicados": [
+      79.0,
       79.0
-    ]
+    ],
+    "precio_min_publicado": 79.0
   },
   "ml-lixeira-inteligente-automatica-redonda-recarr": {
     "ts": "2026-10-14T16:23:02.824999",
