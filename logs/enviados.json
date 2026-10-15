@@ -467,26 +467,6 @@
     ],
     "precio_min_publicado": 69.0
   },
-  "ml-ventilador-de-teto-antuvi-42-polegadas-com-lu": {
-    "ts": "2026-10-13T22:00:44.961557",
-    "canales": {
-      "whatsapp": "2026-10-13T22:00:44.961557"
-    },
-    "precio": 327.0,
-    "precios_publicados": [
-      327.0
-    ]
-  },
-  "amz-eucerin-dermopure-clinical-gel-de-limpeza-gen": {
-    "ts": "2026-10-13T22:03:07.721794",
-    "canales": {
-      "whatsapp": "2026-10-13T22:03:07.721794"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      41.0
-    ]
-  },
   "ml-monitor-portatil-156-full-hd-1080p-ips-maizhe": {
     "ts": "2026-10-13T22:12:30.878133",
     "canales": {
@@ -3363,6 +3343,16 @@
     "precio": 919.0,
     "precios_publicados": [
       919.0
+    ]
+  },
+  "amz-dove-shampoo-bond-intense-repair-peptideo-600": {
+    "ts": "2026-10-15T22:05:20.495851",
+    "canales": {
+      "whatsapp": "2026-10-15T22:05:20.495851"
+    },
+    "precio": 30.0,
+    "precios_publicados": [
+      30.0
     ]
   }
 }
