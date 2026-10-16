@@ -1180,16 +1180,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "ml-proteina-integralmedica-whey-100-pure-em-po-s": {
-    "ts": "2026-10-14T20:26:29.672035",
-    "canales": {
-      "whatsapp": "2026-10-14T20:26:29.672035"
-    },
-    "precio": 138.0,
-    "precios_publicados": [
-      138.0
-    ]
-  },
   "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
     "ts": "2026-10-15T20:38:02.829058",
     "canales": {
@@ -3200,6 +3190,16 @@
     "precio": 2705.0,
     "precios_publicados": [
       2705.0
+    ]
+  },
+  "ml-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
+    "ts": "2026-10-16T20:26:49.177982",
+    "canales": {
+      "whatsapp": "2026-10-16T20:26:49.177982"
+    },
+    "precio": 1799.0,
+    "precios_publicados": [
+      1799.0
     ]
   }
 }
