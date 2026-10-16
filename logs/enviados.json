@@ -199,18 +199,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "ml-nac-600mg-formula-exclusiva-com-maxima-concen": {
-    "ts": "2026-10-14T18:10:43.654580",
-    "canales": {
-      "whatsapp": "2026-10-14T18:10:43.654580"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0,
-      32.0
-    ],
-    "precio_min_publicado": 32.0
-  },
   "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
     "ts": "2026-10-16T16:25:12.726617",
     "canales": {
@@ -3228,6 +3216,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "ml-racao-quatree-life-gatos-ad-castrados-101kg-s": {
+    "ts": "2026-10-16T18:16:57.197807",
+    "canales": {
+      "whatsapp": "2026-10-16T18:16:57.197807"
+    },
+    "precio": 162.0,
+    "precios_publicados": [
+      162.0
     ]
   }
 }
