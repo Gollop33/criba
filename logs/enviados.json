@@ -186,18 +186,6 @@
     ],
     "precio_min_publicado": 190.0
   },
-  "ml-cadeira-escritorio-ergonomica-genebra-b500-lu": {
-    "ts": "2026-10-14T17:50:48.688211",
-    "canales": {
-      "whatsapp": "2026-10-14T17:50:48.688211"
-    },
-    "precio": 497.0,
-    "precios_publicados": [
-      497.0,
-      497.0
-    ],
-    "precio_min_publicado": 497.0
-  },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
     "ts": "2026-10-16T17:16:01.804560",
     "canales": {
@@ -1209,16 +1197,6 @@
       146.0
     ],
     "precio_min_publicado": 146.0
-  },
-  "amz-philips-oneblade-qp22051-laminas-de-reposicao": {
-    "ts": "2026-10-14T17:52:37.067429",
-    "canales": {
-      "whatsapp": "2026-10-14T17:52:37.067429"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
   },
   "ml-fone-de-ouvido-sem-fio-para-treinos-soundcore": {
     "ts": "2026-10-14T17:57:14.801110",
@@ -3230,6 +3208,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-omo-sabao-em-po-lavagem-perfeita-22kg": {
+    "ts": "2026-10-16T17:52:52.701441",
+    "canales": {
+      "whatsapp": "2026-10-16T17:52:52.701441"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
