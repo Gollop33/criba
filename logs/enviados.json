@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "ml-bermuda-masculina-tactel-short-academia-trein": {
-    "ts": "2026-10-14T12:11:39.098967",
-    "canales": {
-      "whatsapp": "2026-10-14T12:11:39.098967"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "ml-biofresh-super-premium-natural-racao-para-gat": {
     "ts": "2026-10-14T12:20:04.529046",
     "canales": {
@@ -3313,6 +3303,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
+    "ts": "2026-10-16T12:17:11.981006",
+    "canales": {
+      "whatsapp": "2026-10-16T12:17:11.981006"
+    },
+    "precio": 114.0,
+    "precios_publicados": [
+      114.0
     ]
   }
 }
