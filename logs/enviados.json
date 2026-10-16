@@ -1087,16 +1087,6 @@
     ],
     "precio_min_publicado": 1388.0
   },
-  "ml-bicicleta-aro-20-xgt-infantil-feminina-mariin": {
-    "ts": "2026-10-14T13:14:37.432078",
-    "canales": {
-      "whatsapp": "2026-10-14T13:14:37.432078"
-    },
-    "precio": 493.0,
-    "precios_publicados": [
-      493.0
-    ]
-  },
   "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
     "ts": "2026-10-15T16:17:00.880605",
     "canales": {
@@ -3303,6 +3293,16 @@
     "precio": 153.0,
     "precios_publicados": [
       153.0
+    ]
+  },
+  "ml-patinete-eletrico-adulto-xm01-350w-velocidade": {
+    "ts": "2026-10-16T13:21:50.209263",
+    "canales": {
+      "whatsapp": "2026-10-16T13:21:50.209263"
+    },
+    "precio": 1125.0,
+    "precios_publicados": [
+      1125.0
     ]
   }
 }
