@@ -1197,16 +1197,6 @@
     ],
     "precio_min_publicado": 132.0
   },
-  "ml-capota-maritima-saveiro-cabine-simples-201020": {
-    "ts": "2026-10-14T23:52:33.516177",
-    "canales": {
-      "whatsapp": "2026-10-14T23:52:33.516177"
-    },
-    "precio": 494.0,
-    "precios_publicados": [
-      494.0
-    ]
-  },
   "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
     "ts": "2026-10-15T00:01:47.340827",
     "canales": {
@@ -3043,6 +3033,16 @@
     "precio": 465.0,
     "precios_publicados": [
       465.0
+    ]
+  },
+  "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
+    "ts": "2026-10-16T23:52:44.916720",
+    "canales": {
+      "whatsapp": "2026-10-16T23:52:44.916720"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
