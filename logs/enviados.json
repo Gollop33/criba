@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "ml-formula-natural-pro-cao-adulto-medio-e-grande": {
-    "ts": "2026-10-14T12:27:49.502369",
-    "canales": {
-      "whatsapp": "2026-10-14T12:27:49.502369"
-    },
-    "precio": 182.0,
-    "precios_publicados": [
-      182.0
-    ]
-  },
   "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
     "ts": "2026-10-14T12:37:48.733098",
     "canales": {
@@ -2368,14 +2358,16 @@
     ]
   },
   "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-10-15T12:35:08.009015",
+    "ts": "2026-10-16T12:36:16.782288",
     "canales": {
-      "whatsapp": "2026-10-15T12:35:08.009015"
+      "whatsapp": "2026-10-16T12:36:16.782288"
     },
     "precio": 6.0,
     "precios_publicados": [
+      6.0,
       6.0
-    ]
+    ],
+    "precio_min_publicado": 6.0
   },
   "amz-ype-amaciante-tradicional-ultra-aconchego-5l-": {
     "ts": "2026-10-15T12:39:28.664627",
