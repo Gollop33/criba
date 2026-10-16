@@ -492,18 +492,6 @@
     ],
     "precio_min_publicado": 19.0
   },
-  "ml-nutella-3kg-balde-ferrero-creme-de-avela-giga": {
-    "ts": "2026-10-14T23:32:41.984772",
-    "canales": {
-      "whatsapp": "2026-10-14T23:32:41.984772"
-    },
-    "precio": 236.0,
-    "precios_publicados": [
-      228.0,
-      236.0
-    ],
-    "precio_min_publicado": 228.0
-  },
   "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
     "ts": "2026-10-16T19:54:59.741312",
     "canales": {
@@ -1857,14 +1845,16 @@
     ]
   },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-10-15T15:33:52.789700",
+    "ts": "2026-10-16T23:33:33.626529",
     "canales": {
-      "whatsapp": "2026-10-15T15:33:52.789700"
+      "whatsapp": "2026-10-16T23:33:33.626529"
     },
-    "precio": 47.0,
+    "precio": 49.0,
     "precios_publicados": [
-      47.0
-    ]
+      47.0,
+      49.0
+    ],
+    "precio_min_publicado": 47.0
   },
   "ml-camera-veicular-automotiva-ddpai-z50-dashcam-": {
     "ts": "2026-10-15T15:36:59.292987",
