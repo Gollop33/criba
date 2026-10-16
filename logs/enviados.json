@@ -2031,14 +2031,16 @@
     "precio_min_publicado": 6.0
   },
   "amz-ype-amaciante-tradicional-ultra-aconchego-5l-": {
-    "ts": "2026-10-15T12:39:28.664627",
+    "ts": "2026-10-16T17:48:54.186754",
     "canales": {
-      "whatsapp": "2026-10-15T12:39:28.664627"
+      "whatsapp": "2026-10-16T17:48:54.186754"
     },
-    "precio": 25.0,
+    "precio": 35.0,
     "precios_publicados": [
-      25.0
-    ]
+      25.0,
+      35.0
+    ],
+    "precio_min_publicado": 25.0
   },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
     "ts": "2026-10-15T12:46:20.856529",
