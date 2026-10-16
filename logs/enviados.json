@@ -404,18 +404,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-bellacotton-algodao-quadrado-baby-100-algodao": {
-    "ts": "2026-10-14T21:43:07.510480",
-    "canales": {
-      "whatsapp": "2026-10-14T21:43:07.510480"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0,
-      26.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
     "ts": "2026-10-15T16:07:18.644877",
     "canales": {
@@ -1193,36 +1181,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "ml-creatina-integralmedica-hardcore-em-capsula-s": {
-    "ts": "2026-10-14T20:44:56.010842",
-    "canales": {
-      "whatsapp": "2026-10-14T20:44:56.010842"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
-  "amz-monitor-gamer-samsung-24-fhd-120-hz-hdmi-pret": {
-    "ts": "2026-10-14T20:51:13.739603",
-    "canales": {
-      "whatsapp": "2026-10-14T20:51:13.739603"
-    },
-    "precio": 569.0,
-    "precios_publicados": [
-      569.0
-    ]
-  },
-  "amz-notebook-dell-15-dc15i51334ua80-intel-i51334u": {
-    "ts": "2026-10-14T20:52:44.201685",
-    "canales": {
-      "whatsapp": "2026-10-14T20:52:44.201685"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
   "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
     "ts": "2026-10-16T06:25:12.927919",
     "canales": {
@@ -1234,26 +1192,6 @@
       4179.0
     ],
     "precio_min_publicado": 3955.0
-  },
-  "ml-suplemento-em-po-darkness-pre-treino-evora-sa": {
-    "ts": "2026-10-14T21:03:18.560439",
-    "canales": {
-      "whatsapp": "2026-10-14T21:03:18.560439"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
-  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
-    "ts": "2026-10-14T21:08:53.519676",
-    "canales": {
-      "whatsapp": "2026-10-14T21:08:53.519676"
-    },
-    "precio": 729.0,
-    "precios_publicados": [
-      729.0
-    ]
   },
   "ml-baba-eletronica-monitor-24-sem-fio-zoom-baby-": {
     "ts": "2026-10-16T00:21:39.546534",
@@ -1267,16 +1205,6 @@
     ],
     "precio_min_publicado": 209.0
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-10-14T21:25:23.155086",
-    "canales": {
-      "whatsapp": "2026-10-14T21:25:23.155086"
-    },
-    "precio": 2249.0,
-    "precios_publicados": [
-      2249.0
-    ]
-  },
   "ml-racao-golden-gatos-special-castrados-sabor-fr": {
     "ts": "2026-10-15T23:36:31.353358",
     "canales": {
@@ -1288,26 +1216,6 @@
       132.0
     ],
     "precio_min_publicado": 132.0
-  },
-  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-10-14T21:35:49.696144",
-    "canales": {
-      "whatsapp": "2026-10-14T21:35:49.696144"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
-  "amz-bettdow-monitor-portatil-156-fhd-1080p-monito": {
-    "ts": "2026-10-14T21:44:57.537940",
-    "canales": {
-      "whatsapp": "2026-10-14T21:44:57.537940"
-    },
-    "precio": 402.0,
-    "precios_publicados": [
-      402.0
-    ]
   },
   "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
     "ts": "2026-10-14T21:54:13.370662",
@@ -3201,6 +3109,16 @@
     "precio": 1799.0,
     "precios_publicados": [
       1799.0
+    ]
+  },
+  "ml-camera-veicular-ddpai-z60-pro-4g-com-suporta-": {
+    "ts": "2026-10-16T21:49:28.862027",
+    "canales": {
+      "whatsapp": "2026-10-16T21:49:28.862027"
+    },
+    "precio": 1599.0,
+    "precios_publicados": [
+      1599.0
     ]
   }
 }
