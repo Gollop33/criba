@@ -1060,16 +1060,17 @@
     "precio_min_publicado": 265.0
   },
   "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
-    "ts": "2026-10-15T13:42:15.380136",
+    "ts": "2026-10-16T16:41:24.961175",
     "canales": {
-      "whatsapp": "2026-10-15T13:42:15.380136"
+      "whatsapp": "2026-10-16T16:41:24.961175"
     },
-    "precio": 93.0,
+    "precio": 95.0,
     "precios_publicados": [
       94.0,
-      93.0
+      93.0,
+      95.0
     ],
-    "precio_min_publicado": 94.0
+    "precio_min_publicado": 93.0
   },
   "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
     "ts": "2026-10-15T17:48:27.282294",
@@ -1166,16 +1167,6 @@
       189.0
     ],
     "precio_min_publicado": 184.0
-  },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-10-14T16:35:29.184717",
-    "canales": {
-      "whatsapp": "2026-10-14T16:35:29.184717"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0
-    ]
   },
   "ml-smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c": {
     "ts": "2026-10-15T17:12:12.877588",
