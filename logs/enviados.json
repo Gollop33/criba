@@ -1136,16 +1136,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "ml-cadeira-de-descanso-algodao-balanco-bebe-blue": {
-    "ts": "2026-10-14T15:14:05.649528",
-    "canales": {
-      "whatsapp": "2026-10-14T15:14:05.649528"
-    },
-    "precio": 483.0,
-    "precios_publicados": [
-      483.0
-    ]
-  },
   "ml-cadeirinha-descanso-bebe-musical-maxi-baby-at": {
     "ts": "2026-10-14T15:26:23.205727",
     "canales": {
@@ -2251,14 +2241,16 @@
     "precio_min_publicado": 67.0
   },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-10-15T13:03:50.356623",
+    "ts": "2026-10-16T15:21:52.590905",
     "canales": {
-      "whatsapp": "2026-10-15T13:03:50.356623"
+      "whatsapp": "2026-10-16T15:21:52.590905"
     },
     "precio": 47.0,
     "precios_publicados": [
+      47.0,
       47.0
-    ]
+    ],
+    "precio_min_publicado": 47.0
   },
   "amz-cabo-usb-para-lightning-reforcado-1m-compativ": {
     "ts": "2026-10-16T13:11:21.305307",
