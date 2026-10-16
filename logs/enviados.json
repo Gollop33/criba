@@ -1167,16 +1167,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "ml-formula-natural-fresh-meat-sensitive-caes-adu": {
-    "ts": "2026-10-14T16:28:20.048645",
-    "canales": {
-      "whatsapp": "2026-10-14T16:28:20.048645"
-    },
-    "precio": 112.0,
-    "precios_publicados": [
-      112.0
-    ]
-  },
   "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
     "ts": "2026-10-14T16:35:29.184717",
     "canales": {
@@ -2226,14 +2216,16 @@
     ]
   },
   "amz-enxaguante-bucal-listerine-cool-mint-sem-alco": {
-    "ts": "2026-10-15T13:34:47.367114",
+    "ts": "2026-10-16T16:35:00.803218",
     "canales": {
-      "whatsapp": "2026-10-15T13:34:47.367114"
+      "whatsapp": "2026-10-16T16:35:00.803218"
     },
     "precio": 31.0,
     "precios_publicados": [
+      31.0,
       31.0
-    ]
+    ],
+    "precio_min_publicado": 31.0
   },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-10-16T14:14:42.412621",
