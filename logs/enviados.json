@@ -1393,14 +1393,16 @@
     ]
   },
   "amz-fralda-turma-da-monica-baby-jumbo-rn-36-unida": {
-    "ts": "2026-10-14T14:14:32.236424",
+    "ts": "2026-10-16T10:46:32.577885",
     "canales": {
-      "whatsapp": "2026-10-14T14:14:32.236424"
+      "whatsapp": "2026-10-16T10:46:32.577885"
     },
-    "precio": 20.0,
+    "precio": 24.0,
     "precios_publicados": [
-      20.0
-    ]
+      20.0,
+      24.0
+    ],
+    "precio_min_publicado": 20.0
   },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-10-14T14:22:02.717407",
