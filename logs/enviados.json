@@ -1099,16 +1099,6 @@
     ],
     "precio_min_publicado": 300.0
   },
-  "ml-porta-copo-automotivo-regulavel-com-suporte-p": {
-    "ts": "2026-10-14T13:24:14.431844",
-    "canales": {
-      "whatsapp": "2026-10-14T13:24:14.431844"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "ml-bebedouro-fonte-automatico-caes-gatos-com-sen": {
     "ts": "2026-10-16T12:53:16.345131",
     "canales": {
@@ -2396,14 +2386,16 @@
     "precio_min_publicado": 5.0
   },
   "amz-mesa-portatil-para-notebook-suporte-cama-sofa": {
-    "ts": "2026-10-15T13:17:52.208127",
+    "ts": "2026-10-16T13:28:44.594538",
     "canales": {
-      "whatsapp": "2026-10-15T13:17:52.208127"
+      "whatsapp": "2026-10-16T13:28:44.594538"
     },
     "precio": 32.0,
     "precios_publicados": [
+      32.0,
       32.0
-    ]
+    ],
+    "precio_min_publicado": 32.0
   },
   "amz-scala-plus-papel-toalha-mega-360-toalhas-3-ro": {
     "ts": "2026-10-15T13:20:42.798155",
