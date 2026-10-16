@@ -1197,16 +1197,6 @@
     ],
     "precio_min_publicado": 132.0
   },
-  "amz-monitor-gamer-aoc-24-full-hd-100hz-1ms-adapti": {
-    "ts": "2026-10-14T23:46:27.975542",
-    "canales": {
-      "whatsapp": "2026-10-14T23:46:27.975542"
-    },
-    "precio": 529.0,
-    "precios_publicados": [
-      529.0
-    ]
-  },
   "ml-capota-maritima-saveiro-cabine-simples-201020": {
     "ts": "2026-10-14T23:52:33.516177",
     "canales": {
@@ -1804,14 +1794,16 @@
     "precio_min_publicado": 9.0
   },
   "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
-    "ts": "2026-10-15T15:11:10.935194",
+    "ts": "2026-10-16T23:49:06.065723",
     "canales": {
-      "whatsapp": "2026-10-15T15:11:10.935194"
+      "whatsapp": "2026-10-16T23:49:06.065723"
     },
     "precio": 55.0,
     "precios_publicados": [
+      55.0,
       55.0
-    ]
+    ],
+    "precio_min_publicado": 55.0
   },
   "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
     "ts": "2026-10-16T20:25:44.623313",
