@@ -697,16 +697,6 @@
     ],
     "precio_min_publicado": 15.0
   },
-  "amz-nivea-sabonete-liquido-intimo-fresh-comfort-2": {
-    "ts": "2026-10-14T00:51:59.276412",
-    "canales": {
-      "whatsapp": "2026-10-14T00:51:59.276412"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
     "ts": "2026-10-15T11:07:38.268412",
     "canales": {
@@ -3493,6 +3483,16 @@
     "precio": 93.0,
     "precios_publicados": [
       93.0
+    ]
+  },
+  "ml-polares-z20pro-patinete-eletrico-adulto-premi": {
+    "ts": "2026-10-16T00:56:46.177388",
+    "canales": {
+      "whatsapp": "2026-10-16T00:56:46.177388"
+    },
+    "precio": 1699.0,
+    "precios_publicados": [
+      1699.0
     ]
   }
 }
