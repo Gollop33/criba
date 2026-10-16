@@ -1111,16 +1111,6 @@
     ],
     "precio_min_publicado": 93.0
   },
-  "ml-cesta-bau-cafe-da-manha-organizador-presentes": {
-    "ts": "2026-10-14T13:49:49.274776",
-    "canales": {
-      "whatsapp": "2026-10-14T13:49:49.274776"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "ml-trailforge-patinete-eletrico-800w-48v-125ah-4": {
     "ts": "2026-10-14T13:56:41.627001",
     "canales": {
@@ -2334,14 +2324,16 @@
     ]
   },
   "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-10-15T13:02:11.216914",
+    "ts": "2026-10-16T13:56:39.945709",
     "canales": {
-      "whatsapp": "2026-10-15T13:02:11.216914"
+      "whatsapp": "2026-10-16T13:56:39.945709"
     },
-    "precio": 67.0,
+    "precio": 71.0,
     "precios_publicados": [
-      67.0
-    ]
+      67.0,
+      71.0
+    ],
+    "precio_min_publicado": 67.0
   },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-10-15T13:03:50.356623",
