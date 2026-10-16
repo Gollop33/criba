@@ -881,16 +881,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-10-14T06:07:42.857370",
-    "canales": {
-      "whatsapp": "2026-10-14T06:07:42.857370"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0
-    ]
-  },
   "amz-colgate-tripla-acao-menta-original-creme-dent": {
     "ts": "2026-10-15T10:56:38.366421",
     "canales": {
@@ -2070,14 +2060,16 @@
     ]
   },
   "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-10-14T20:59:45.742832",
+    "ts": "2026-10-16T06:25:12.927919",
     "canales": {
-      "whatsapp": "2026-10-14T20:59:45.742832"
+      "whatsapp": "2026-10-16T06:25:12.927919"
     },
-    "precio": 3955.0,
+    "precio": 4179.0,
     "precios_publicados": [
-      3955.0
-    ]
+      3955.0,
+      4179.0
+    ],
+    "precio_min_publicado": 3955.0
   },
   "ml-suplemento-em-po-darkness-pre-treino-evora-sa": {
     "ts": "2026-10-14T21:03:18.560439",
