@@ -854,16 +854,17 @@
     "precio_min_publicado": 25.0
   },
   "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
-    "ts": "2026-10-15T14:42:17.074120",
+    "ts": "2026-10-16T17:22:05.078425",
     "canales": {
-      "whatsapp": "2026-10-15T14:42:17.074120"
+      "whatsapp": "2026-10-16T17:22:05.078425"
     },
-    "precio": 474.0,
+    "precio": 460.0,
     "precios_publicados": [
       519.0,
-      474.0
+      474.0,
+      460.0
     ],
-    "precio_min_publicado": 519.0
+    "precio_min_publicado": 474.0
   },
   "ml-colchao-casal-molas-ensacadas-zidi-alabama-13": {
     "ts": "2026-10-16T01:14:51.012264",
@@ -1194,26 +1195,6 @@
       82.0
     ],
     "precio_min_publicado": 82.0
-  },
-  "ml-patinete-eletrico-500w-25kmh-dobravel-app-blu": {
-    "ts": "2026-10-14T17:19:05.961528",
-    "canales": {
-      "whatsapp": "2026-10-14T17:19:05.961528"
-    },
-    "precio": 1089.0,
-    "precios_publicados": [
-      1089.0
-    ]
-  },
-  "amz-philips-oneblade-intimate-aparador-de-pelos-i": {
-    "ts": "2026-10-14T17:21:23.222703",
-    "canales": {
-      "whatsapp": "2026-10-14T17:21:23.222703"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
   },
   "ml-racao-whey-protein-grannature-xtreme-alta-per": {
     "ts": "2026-10-14T17:32:16.222744",
