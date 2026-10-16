@@ -1135,26 +1135,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "ml-berco-portatil-moises-eletrico-ajustavel-mosq": {
-    "ts": "2026-10-14T14:39:02.050537",
-    "canales": {
-      "whatsapp": "2026-10-14T14:39:02.050537"
-    },
-    "precio": 828.0,
-    "precios_publicados": [
-      828.0
-    ]
-  },
-  "ml-kit-3-toalhas-de-banho-grande-100-algodao-68x": {
-    "ts": "2026-10-14T14:42:29.029952",
-    "canales": {
-      "whatsapp": "2026-10-14T14:42:29.029952"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
-  },
   "amz-pasta-termica-pcyes-nitrogen-basic-15g-55wmk-": {
     "ts": "2026-10-14T15:02:18.928607",
     "canales": {
@@ -1916,14 +1896,16 @@
     ]
   },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-10-15T00:32:26.105571",
+    "ts": "2026-10-16T14:42:46.636671",
     "canales": {
-      "whatsapp": "2026-10-15T00:32:26.105571"
+      "whatsapp": "2026-10-16T14:42:46.636671"
     },
     "precio": 174.0,
     "precios_publicados": [
+      174.0,
       174.0
-    ]
+    ],
+    "precio_min_publicado": 174.0
   },
   "ml-conjunto-panelas-antiaderente-10-pecas-teflon": {
     "ts": "2026-10-15T00:45:38.389921",
