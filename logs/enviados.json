@@ -1032,26 +1032,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-10-14T10:51:29.635279",
-    "canales": {
-      "whatsapp": "2026-10-14T10:51:29.635279"
-    },
-    "precio": 144.0,
-    "precios_publicados": [
-      144.0
-    ]
-  },
-  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
-    "ts": "2026-10-14T10:53:14.569882",
-    "canales": {
-      "whatsapp": "2026-10-14T10:53:14.569882"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
     "ts": "2026-10-14T10:58:21.195203",
     "canales": {
@@ -2475,14 +2455,16 @@
     ]
   },
   "amz-absorvente-noturno-com-abas-sempre-livre-cobe": {
-    "ts": "2026-10-15T10:14:37.226765",
+    "ts": "2026-10-16T10:58:19.872621",
     "canales": {
-      "whatsapp": "2026-10-15T10:14:37.226765"
+      "whatsapp": "2026-10-16T10:58:19.872621"
     },
-    "precio": 20.0,
+    "precio": 22.0,
     "precios_publicados": [
-      20.0
-    ]
+      20.0,
+      22.0
+    ],
+    "precio_min_publicado": 20.0
   },
   "amz-absorvente-com-abas-sempre-livre-adapt-cobert": {
     "ts": "2026-10-15T11:14:39.275470",
