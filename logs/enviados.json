@@ -1182,16 +1182,6 @@
     ],
     "precio_min_publicado": 2540.0
   },
-  "ml-celular-motorola-moto-g56-256gb-12gb-ram-5g-d": {
-    "ts": "2026-10-14T17:00:32.625894",
-    "canales": {
-      "whatsapp": "2026-10-14T17:00:32.625894"
-    },
-    "precio": 1399.0,
-    "precios_publicados": [
-      1399.0
-    ]
-  },
   "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
     "ts": "2026-10-14T17:05:36.301032",
     "canales": {
@@ -3242,6 +3232,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "ml-skate-infantil-crianca-menino-menina-completo": {
+    "ts": "2026-10-16T17:04:11.445861",
+    "canales": {
+      "whatsapp": "2026-10-16T17:04:11.445861"
+    },
+    "precio": 134.0,
+    "precios_publicados": [
+      134.0
     ]
   }
 }
