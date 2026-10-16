@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "ml-tablet-positivo-vision-tab-11-caneta-e-capa-4": {
-    "ts": "2026-10-14T12:37:48.733098",
-    "canales": {
-      "whatsapp": "2026-10-14T12:37:48.733098"
-    },
-    "precio": 1298.0,
-    "precios_publicados": [
-      1298.0
-    ]
-  },
   "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
     "ts": "2026-10-14T12:42:29.892764",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 174.0,
     "precios_publicados": [
       174.0
+    ]
+  },
+  "amz-combo-teclado-e-mouse-sem-fio-logitech-mk250-": {
+    "ts": "2026-10-16T12:39:57.412387",
+    "canales": {
+      "whatsapp": "2026-10-16T12:39:57.412387"
+    },
+    "precio": 176.0,
+    "precios_publicados": [
+      176.0
     ]
   }
 }
