@@ -94,12 +94,13 @@
     "precio_min_publicado": 79.0
   },
   "ml-lixeira-inteligente-automatica-redonda-recarr": {
-    "ts": "2026-10-15T16:31:07.271073",
+    "ts": "2026-10-16T22:09:39.515674",
     "canales": {
-      "whatsapp": "2026-10-15T16:31:07.271073"
+      "whatsapp": "2026-10-16T22:09:39.515674"
     },
     "precio": 58.0,
     "precios_publicados": [
+      58.0,
       58.0,
       58.0,
       58.0
@@ -1216,16 +1217,6 @@
       132.0
     ],
     "precio_min_publicado": 132.0
-  },
-  "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
-    "ts": "2026-10-14T22:08:39.595836",
-    "canales": {
-      "whatsapp": "2026-10-14T22:08:39.595836"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
   },
   "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
     "ts": "2026-10-14T22:13:29.900031",
