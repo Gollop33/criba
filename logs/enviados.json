@@ -721,16 +721,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "amz-kit-5-potes-de-vidro-borossilicato-640-ml-ret": {
-    "ts": "2026-10-14T01:08:46.699072",
-    "canales": {
-      "whatsapp": "2026-10-14T01:08:46.699072"
-    },
-    "precio": 34.0,
-    "precios_publicados": [
-      34.0
-    ]
-  },
   "ml-kit-7-pares-meia-bebe-todo-dia-rn-duck-menino": {
     "ts": "2026-10-15T14:19:54.882932",
     "canales": {
@@ -912,14 +902,16 @@
     ]
   },
   "ml-colchao-casal-molas-ensacadas-zidi-alabama-13": {
-    "ts": "2026-10-14T05:14:38.187808",
+    "ts": "2026-10-16T01:14:51.012264",
     "canales": {
-      "whatsapp": "2026-10-14T05:14:38.187808"
+      "whatsapp": "2026-10-16T01:14:51.012264"
     },
-    "precio": 536.0,
+    "precio": 522.0,
     "precios_publicados": [
-      536.0
-    ]
+      536.0,
+      522.0
+    ],
+    "precio_min_publicado": 536.0
   },
   "ml-colchao-solteiro-molas-ensacadas-zidi-alabama": {
     "ts": "2026-10-14T05:21:43.003468",
