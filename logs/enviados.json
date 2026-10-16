@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "ml-racao-quatree-supreme-gatos-castrados-frango-": {
-    "ts": "2026-10-14T12:49:53.082779",
-    "canales": {
-      "whatsapp": "2026-10-14T12:49:53.082779"
-    },
-    "precio": 173.0,
-    "precios_publicados": [
-      173.0
-    ]
-  },
   "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
     "ts": "2026-10-15T17:48:27.282294",
     "canales": {
@@ -1140,14 +1130,16 @@
     ]
   },
   "ml-bebedouro-fonte-automatico-caes-gatos-com-sen": {
-    "ts": "2026-10-14T13:32:59.901797",
+    "ts": "2026-10-16T12:53:16.345131",
     "canales": {
-      "whatsapp": "2026-10-14T13:32:59.901797"
+      "whatsapp": "2026-10-16T12:53:16.345131"
     },
-    "precio": 93.0,
+    "precio": 98.0,
     "precios_publicados": [
-      93.0
-    ]
+      93.0,
+      98.0
+    ],
+    "precio_min_publicado": 93.0
   },
   "ml-fone-de-ouvido-bluetooth-54-soundcore-p30i-da": {
     "ts": "2026-10-14T13:38:43.376801",
