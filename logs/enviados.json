@@ -467,18 +467,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
-    "ts": "2026-10-14T23:18:49.303296",
-    "canales": {
-      "whatsapp": "2026-10-14T23:18:49.303296"
-    },
-    "precio": 181.0,
-    "precios_publicados": [
-      157.0,
-      181.0
-    ],
-    "precio_min_publicado": 157.0
-  },
   "ml-colchao-antiescara-pneumatico-de-ar-inflavel-": {
     "ts": "2026-10-16T00:37:55.581271",
     "canales": {
@@ -3070,6 +3058,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "ml-cadeira-escritorio-ergonomica-genebra-b500-lu": {
+    "ts": "2026-10-16T23:19:09.417661",
+    "canales": {
+      "whatsapp": "2026-10-16T23:19:09.417661"
+    },
+    "precio": 497.0,
+    "precios_publicados": [
+      497.0
     ]
   }
 }
