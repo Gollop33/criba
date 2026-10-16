@@ -1004,16 +1004,6 @@
     ],
     "precio_min_publicado": 84.0
   },
-  "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
-    "ts": "2026-10-14T09:23:51.286046",
-    "canales": {
-      "whatsapp": "2026-10-14T09:23:51.286046"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
     "ts": "2026-10-14T09:57:36.324824",
     "canales": {
@@ -3404,6 +3394,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
+    "ts": "2026-10-16T09:28:21.950849",
+    "canales": {
+      "whatsapp": "2026-10-16T09:28:21.950849"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
