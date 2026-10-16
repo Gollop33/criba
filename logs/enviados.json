@@ -1058,16 +1058,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "ml-perfume-arabe-asad-bourbon-100ml-marca-isabel": {
-    "ts": "2026-10-14T11:21:43.942010",
-    "canales": {
-      "whatsapp": "2026-10-14T11:21:43.942010"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "ml-smart-tv-aoc-dled-32-wifi-roku-tv-quad-core-3": {
     "ts": "2026-10-14T11:30:32.876502",
     "canales": {
@@ -2439,14 +2429,16 @@
     "precio_min_publicado": 20.0
   },
   "amz-absorvente-com-abas-sempre-livre-adapt-cobert": {
-    "ts": "2026-10-15T11:14:39.275470",
+    "ts": "2026-10-16T11:25:57.739027",
     "canales": {
-      "whatsapp": "2026-10-15T11:14:39.275470"
+      "whatsapp": "2026-10-16T11:25:57.739027"
     },
     "precio": 14.0,
     "precios_publicados": [
+      14.0,
       14.0
-    ]
+    ],
+    "precio_min_publicado": 14.0
   },
   "amz-scalibor-19g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-10-15T11:42:42.892025",
