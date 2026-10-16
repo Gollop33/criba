@@ -2153,14 +2153,16 @@
     "precio_min_publicado": 14.0
   },
   "amz-scalibor-19g-coleira-antiparasitaria-contra-m": {
-    "ts": "2026-10-15T11:42:42.892025",
+    "ts": "2026-10-16T15:13:59.770080",
     "canales": {
-      "whatsapp": "2026-10-15T11:42:42.892025"
+      "whatsapp": "2026-10-16T15:13:59.770080"
     },
-    "precio": 56.0,
+    "precio": 48.0,
     "precios_publicados": [
-      56.0
-    ]
+      56.0,
+      48.0
+    ],
+    "precio_min_publicado": 56.0
   },
   "ml-psyllium-velez-200g-puro-rico-em-fibras-100-n": {
     "ts": "2026-10-15T12:20:41.326480",
