@@ -1111,26 +1111,6 @@
     ],
     "precio_min_publicado": 93.0
   },
-  "ml-trailforge-patinete-eletrico-800w-48v-125ah-4": {
-    "ts": "2026-10-14T13:56:41.627001",
-    "canales": {
-      "whatsapp": "2026-10-14T13:56:41.627001"
-    },
-    "precio": 2185.0,
-    "precios_publicados": [
-      2185.0
-    ]
-  },
-  "ml-cadeira-de-alimentacao-portatil-para-bebe-alt": {
-    "ts": "2026-10-14T14:07:35.119319",
-    "canales": {
-      "whatsapp": "2026-10-14T14:07:35.119319"
-    },
-    "precio": 296.0,
-    "precios_publicados": [
-      296.0
-    ]
-  },
   "amz-fralda-turma-da-monica-baby-jumbo-rn-36-unida": {
     "ts": "2026-10-16T10:46:32.577885",
     "canales": {
@@ -2420,14 +2400,16 @@
     ]
   },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
-    "ts": "2026-10-15T14:06:28.853418",
+    "ts": "2026-10-16T14:07:51.560939",
     "canales": {
-      "whatsapp": "2026-10-15T14:06:28.853418"
+      "whatsapp": "2026-10-16T14:07:51.560939"
     },
-    "precio": 12.0,
+    "precio": 13.0,
     "precios_publicados": [
-      12.0
-    ]
+      12.0,
+      13.0
+    ],
+    "precio_min_publicado": 12.0
   },
   "amz-growth-supplements-creatina-500g-pouch-treino": {
     "ts": "2026-10-15T14:15:24.268271",
