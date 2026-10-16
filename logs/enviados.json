@@ -538,16 +538,17 @@
     "precio_min_publicado": 228.0
   },
   "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
-    "ts": "2026-10-15T04:09:50.005876",
+    "ts": "2026-10-16T19:54:59.741312",
     "canales": {
-      "whatsapp": "2026-10-15T04:09:50.005876"
+      "whatsapp": "2026-10-16T19:54:59.741312"
     },
-    "precio": 50.0,
+    "precio": 52.0,
     "precios_publicados": [
       53.0,
-      50.0
+      50.0,
+      52.0
     ],
-    "precio_min_publicado": 53.0
+    "precio_min_publicado": 50.0
   },
   "ml-patinete-eletrico-honeywhale-m1-lite-dobravel": {
     "ts": "2026-10-15T00:25:43.504215",
@@ -1189,16 +1190,6 @@
       97.0
     ],
     "precio_min_publicado": 99.0
-  },
-  "ml-curcuma-130mg-colageno-tipo-ii-45mg-formula-c": {
-    "ts": "2026-10-14T19:51:44.889267",
-    "canales": {
-      "whatsapp": "2026-10-14T19:51:44.889267"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0
-    ]
   },
   "ml-proteina-integralmedica-whey-100-pure-em-po-s": {
     "ts": "2026-10-14T20:26:29.672035",
