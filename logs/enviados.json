@@ -1075,16 +1075,6 @@
     ],
     "precio_min_publicado": 819.0
   },
-  "ml-cpap-automatico-airsense-s10-autoset-c-umidif": {
-    "ts": "2026-10-14T13:00:32.490119",
-    "canales": {
-      "whatsapp": "2026-10-14T13:00:32.490119"
-    },
-    "precio": 3065.0,
-    "precios_publicados": [
-      3065.0
-    ]
-  },
   "ml-motorola-moto-g56-5g-dual-sim-256gb-8gb-preto": {
     "ts": "2026-10-16T00:50:29.238357",
     "canales": {
@@ -3301,6 +3291,16 @@
     "precio": 176.0,
     "precios_publicados": [
       176.0
+    ]
+  },
+  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
+    "ts": "2026-10-16T13:01:57.894191",
+    "canales": {
+      "whatsapp": "2026-10-16T13:01:57.894191"
+    },
+    "precio": 153.0,
+    "precios_publicados": [
+      153.0
     ]
   }
 }
