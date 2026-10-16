@@ -1063,26 +1063,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "ml-milho-pipoca-grande-redonda-gourmet-ciaball-m": {
-    "ts": "2026-10-14T12:04:53.714873",
-    "canales": {
-      "whatsapp": "2026-10-14T12:04:53.714873"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
-  "ml-banha-de-porco-100-natural-gordura-suina-1kg": {
-    "ts": "2026-10-14T12:06:18.209701",
-    "canales": {
-      "whatsapp": "2026-10-14T12:06:18.209701"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "ml-bermuda-masculina-tactel-short-academia-trein": {
     "ts": "2026-10-14T12:11:39.098967",
     "canales": {
@@ -3323,6 +3303,16 @@
     "precio": 269.0,
     "precios_publicados": [
       269.0
+    ]
+  },
+  "ml-kit-2-garrafa-copo-de-alce-agua-infantil-cria": {
+    "ts": "2026-10-16T12:07:07.073633",
+    "canales": {
+      "whatsapp": "2026-10-16T12:07:07.073633"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
