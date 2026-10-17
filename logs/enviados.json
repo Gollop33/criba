@@ -634,16 +634,17 @@
     "precio_min_publicado": 460.0
   },
   "ml-colchao-casal-molas-ensacadas-zidi-alabama-13": {
-    "ts": "2026-10-16T01:14:51.012264",
+    "ts": "2026-10-17T23:25:33.214148",
     "canales": {
-      "whatsapp": "2026-10-16T01:14:51.012264"
+      "whatsapp": "2026-10-17T23:25:33.214148"
     },
     "precio": 522.0,
     "precios_publicados": [
       536.0,
+      522.0,
       522.0
     ],
-    "precio_min_publicado": 536.0
+    "precio_min_publicado": 522.0
   },
   "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
     "ts": "2026-10-16T11:41:27.203767",
@@ -1516,16 +1517,6 @@
       34.0
     ],
     "precio_min_publicado": 34.0
-  },
-  "ml-tapete-higienico-descartavel-para-pet-alta-ab": {
-    "ts": "2026-10-15T23:18:00.883679",
-    "canales": {
-      "whatsapp": "2026-10-15T23:18:00.883679"
-    },
-    "precio": 70.0,
-    "precios_publicados": [
-      70.0
-    ]
   },
   "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
     "ts": "2026-10-17T09:14:45.904846",
