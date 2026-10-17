@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-17T03:42:28+00:00",
+  "actualizado": "2026-10-17T03:49:33+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -17,7 +17,7 @@
       "precio_ref": 266.71,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -25,7 +25,7 @@
       "precio_ref": 493.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
@@ -33,7 +33,7 @@
       "precio_ref": 113.49,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
@@ -41,7 +41,7 @@
       "precio_ref": 46.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "tapete higienico para cachorro descartavel alta absorcao 60x60",
@@ -49,215 +49,7 @@
       "precio_ref": 22.29,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "oral b pasta de dente 3d white brilliant",
-      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
-      "precio_ref": 14.69,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
-      "nombre": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
-      "precio_ref": 66.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "cabo de carregador de iphone fast carga rapida",
-      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
-      "precio_ref": 6.3,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 42.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "carrinho de bebe 3 em 1 reclinavel berco",
-      "nombre": "Carrinho De Bebê 3 Em 1 Reclinável Berço Preto Dourado Marrom",
-      "precio_ref": 615.63,
-      "categoria": "Bebê",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "absorvente com abas sempre livre adapt cobertura suave",
-      "nombre": "Absorvente com Abas Sempre Livre Adapt, Cobertura Suave, 32 Unidades | Hipoalergênico, Algodão, Proteção Confortável",
-      "precio_ref": 14.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "amaciante de roupa ype tradicional 5l ultra intenso",
-      "nombre": "Amaciante de Roupa Ypê Tradicional, 5L | Ultra Intenso",
-      "precio_ref": 19.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "tenis vans ultrarange vr3 neo preto azul branco",
-      "nombre": "Tênis Vans Ultrarange Vr3 Neo Preto Azul Branco 34 Ao 43",
-      "precio_ref": 128.5,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "suporte para notebook e macbook em aluminio com",
-      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
-      "precio_ref": 12.78,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy watch8 smartwatch 40mm lte galaxy ai",
-      "nombre": "Samsung Galaxy Watch8 Smartwatch 40mm Lte, Galaxy Ai Caixa Prata Pulseira Prata Bisel Prata",
-      "precio_ref": 1169.0,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 25.53,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "kit2 profissional parafusadeira chave de impacto brushless",
-      "nombre": "Kit2 Profissional Parafusadeira Chave De Impacto Brushless",
-      "precio_ref": 389.91,
-      "categoria": "Ferramentas",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "scalibor 19g coleira antiparasitaria contra mosquitos vetores da",
-      "nombre": "Scalibor® 19g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte médio 48cm - MSD Saúde Animal",
-      "precio_ref": 48.14,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "honeywhale m2 pro patinete eletrico adulto 500w scooter",
-      "nombre": "HONEYWHALE M2 Pro Patinete Eletrico Adulto, 500W Scooter Elétrica, Velocidade Máxima de 32 KM/H, 22 KM de Autonomia, Honey Whale com App Bluetooth (36V 7.8AH)",
-      "precio_ref": 1655.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
-      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
-      "precio_ref": 13.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "colchao king emma original 193x203cm 3 camadas de",
-      "nombre": "Colchão King Emma Original 193x203cm 3 Camadas de Espuma Embalado à vácuo, Alta Respirabilidade, Capa Lavável",
-      "precio_ref": 3419.0,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
-      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
-      "precio_ref": 15.27,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "air fryer oven 11 litros wap waod4 grey",
-      "nombre": "Air Fryer Oven 11 Litros Wap Waod4 Grey Stone Painel Digital 11 Funções 127V",
-      "precio_ref": 296.65,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
-      "precio_ref": 25.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
-      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
-      "precio_ref": 899.1,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
-      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
-      "precio_ref": 42.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "relogio inteligente smartwatch alexa chamadas novante masculino feminino",
-      "nombre": "Relógio Inteligente Smartwatch Alexa Chamadas NOVANTE Masculino Feminino Esportivo IP68 Bluetooth Notificações Instantâneas Tela Hd 1.83 300mAh 10Dias Monitor Cardíaco Spo2 Sono Ecg Pagamento Offline",
-      "precio_ref": 139.84,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "absorvente noturno com abas sempre livre cobertura suave",
-      "nombre": "Absorvente Noturno com Abas Sempre Livre, Cobertura Suave, 32 Unidades | Cobertura Seca, Com Abas, Neutralizador de Odor",
-      "precio_ref": 22.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "whey 100 pure pouch cookies 1 8kg integralmedica",
-      "nombre": "Whey 100% Pure Pouch Cookies 1,8kg Integralmedica - Energia e Força",
-      "precio_ref": 261.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "fralda turma da monica baby jumbo rn 36",
-      "nombre": "Fralda Turma da Mônica Baby Jumbo RN 36 Unidades",
-      "precio_ref": 24.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "roku streaming stick para tv hd fhd controle",
-      "nombre": "Roku Streaming Stick Para Tv Hd/fhd Controle Por Voz Preto De Voz",
-      "precio_ref": 237.41,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "bepantol baby pomada assadura bebe hipoalergenica 100g 100g",
@@ -265,119 +57,199 @@
       "precio_ref": 43.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "tapete higienico para caes tapete higienico descartavel 90x60",
-      "nombre": "Tapete Higiênico Para Cães Tapete Higiênico Descartável 90x60 30 Unidades Grande Tapete Higiênico Para Cachorro Tapete Pet",
-      "precio_ref": 44.05,
-      "categoria": "Pet Shop",
+      "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
+      "nombre": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
+      "precio_ref": 66.0,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "mesa portatil para notebook suporte cama sofa ma",
-      "nombre": "Mesa Portátil Para Notebook Suporte Cama Sofá MA, Cor Aleatório",
-      "precio_ref": 33.95,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo tab 10 1 wifi 5 64gb",
-      "nombre": "Tablet Lenovo Tab 10.1¨ Wifi 5 64gb 4gb De Ram Android 14 Cinza",
-      "precio_ref": 873.52,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "cabo usb para lightning reforcado 1m compativel com",
-      "nombre": "Cabo USB para Lightning Reforçado 1M, Compatível com iPhone 6 7 8 X Xs 11 Se 12 Xr 13 14 Pro Max – Carregamento Turbo e Trans",
-      "precio_ref": 5.8,
+      "busqueda": "cabo de carregador de iphone fast carga rapida",
+      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
+      "precio_ref": 6.3,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "monitor gamer phillips de 23 8 full hd",
-      "nombre": "Monitor Gamer Phillips de 23.8\" Full HD IPS com 200Hz",
-      "precio_ref": 651.19,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
-      "nombre": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
-      "precio_ref": 45.17,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "smart tv pro lg 55 4k ultra hd",
-      "nombre": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
-      "precio_ref": 2540.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "protetor diario carefree todo dia 80 unidades absorvente",
-      "nombre": "Protetor Diário Carefree Todo Dia, 80 Unidades | Absorvente Externo, Respirável, Uso Diário, Sem Fragrância",
-      "precio_ref": 24.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
-      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
-      "precio_ref": 1388.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
-      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
-      "precio_ref": 15.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "sapatenis leve de ziper super conforto",
-      "nombre": "Sapatênis , Leve De  Zíper Super Conforto",
-      "precio_ref": 56.54,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
-      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition",
-      "precio_ref": 68.9,
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 42.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "relogio technos masculino racer dourado 2315law 1x",
-      "nombre": "Relógio Technos Masculino Racer Dourado - 2315law/1x",
-      "precio_ref": 259.84,
+      "busqueda": "carrinho de bebe 3 em 1 reclinavel berco",
+      "nombre": "Carrinho De Bebê 3 Em 1 Reclinável Berço Preto Dourado Marrom",
+      "precio_ref": 615.63,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "fralda turma da monica baby jumbo rn 36",
+      "nombre": "Fralda Turma da Mônica Baby Jumbo RN 36 Unidades",
+      "precio_ref": 24.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "amaciante de roupa ype tradicional 5l ultra intenso",
+      "nombre": "Amaciante de Roupa Ypê Tradicional, 5L | Ultra Intenso",
+      "precio_ref": 19.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy watch8 smartwatch 40mm lte galaxy ai",
+      "nombre": "Samsung Galaxy Watch8 Smartwatch 40mm Lte, Galaxy Ai Caixa Prata Pulseira Prata Bisel Prata",
+      "precio_ref": 1169.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
-      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
-      "precio_ref": 58.9,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "suporte para notebook e macbook em aluminio com",
+      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
+      "precio_ref": 12.78,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "honeywhale m2 pro patinete eletrico adulto 500w scooter",
+      "nombre": "HONEYWHALE M2 Pro Patinete Eletrico Adulto, 500W Scooter Elétrica, Velocidade Máxima de 32 KM/H, 22 KM de Autonomia, Honey Whale com App Bluetooth (36V 7.8AH)",
+      "precio_ref": 1655.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 25.53,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "roku streaming stick para tv hd fhd controle",
+      "nombre": "Roku Streaming Stick Para Tv Hd/fhd Controle Por Voz Preto De Voz",
+      "precio_ref": 237.41,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
+      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
+      "precio_ref": 25.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "whey 100 pure pouch cookies 1 8kg integralmedica",
+      "nombre": "Whey 100% Pure Pouch Cookies 1,8kg Integralmedica - Energia e Força",
+      "precio_ref": 261.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
+      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
+      "precio_ref": 13.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "colchao king emma original 193x203cm 3 camadas de",
+      "nombre": "Colchão King Emma Original 193x203cm 3 Camadas de Espuma Embalado à vácuo, Alta Respirabilidade, Capa Lavável",
+      "precio_ref": 3419.0,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
+      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
+      "precio_ref": 15.27,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "relogio inteligente smartwatch alexa chamadas novante masculino feminino",
+      "nombre": "Relógio Inteligente Smartwatch Alexa Chamadas NOVANTE Masculino Feminino Esportivo IP68 Bluetooth Notificações Instantâneas Tela Hd 1.83 300mAh 10Dias Monitor Cardíaco Spo2 Sono Ecg Pagamento Offline",
+      "precio_ref": 139.84,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "absorvente noturno com abas sempre livre cobertura suave",
+      "nombre": "Absorvente Noturno com Abas Sempre Livre, Cobertura Suave, 32 Unidades | Cobertura Seca, Com Abas, Neutralizador de Odor",
+      "precio_ref": 22.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "kit2 profissional parafusadeira chave de impacto brushless",
+      "nombre": "Kit2 Profissional Parafusadeira Chave De Impacto Brushless",
+      "precio_ref": 389.91,
+      "categoria": "Ferramentas",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
+      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
+      "precio_ref": 42.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "air fryer oven 11 litros wap waod4 grey",
+      "nombre": "Air Fryer Oven 11 Litros Wap Waod4 Grey Stone Painel Digital 11 Funções 127V",
+      "precio_ref": 296.65,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "absorvente com abas sempre livre adapt cobertura suave",
+      "nombre": "Absorvente com Abas Sempre Livre Adapt, Cobertura Suave, 32 Unidades | Hipoalergênico, Algodão, Proteção Confortável",
+      "precio_ref": 14.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
+      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
+      "precio_ref": 899.1,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "oral b pasta de dente 3d white brilliant",
+      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
+      "precio_ref": 14.69,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "projetor portatil 4k hd android 11 0 smart",
@@ -385,15 +257,15 @@
       "precio_ref": 186.55,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "oral b escova de dente sensitive purification gold",
-      "nombre": "Oral-B Escova de Dente Sensitive Purification Gold Extra Macia 4 Unidades",
-      "precio_ref": 57.69,
+      "busqueda": "protetor diario carefree todo dia 80 unidades absorvente",
+      "nombre": "Protetor Diário Carefree Todo Dia, 80 Unidades | Absorvente Externo, Respirável, Uso Diário, Sem Fragrância",
+      "precio_ref": 24.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "air fryer philco 6 5l visor glass e",
@@ -401,31 +273,95 @@
       "precio_ref": 274.16,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "piracanjuba proforce bebida proteica liquida sabor cacau zero",
-      "nombre": "Piracanjuba ProForce Bebida Proteica Líquida Sabor Cacau Zero Lactose 23g Proteínas, Caixa 250ml – Pack com 12 Unidades",
-      "precio_ref": 114.99,
+      "busqueda": "scalibor 19g coleira antiparasitaria contra mosquitos vetores da",
+      "nombre": "Scalibor® 19g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte médio 48cm - MSD Saúde Animal",
+      "precio_ref": 48.14,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "smart tv pro lg 55 4k ultra hd",
+      "nombre": "Smart TV PRO LG 55'' 4K Ultra HD AI 55UN85C",
+      "precio_ref": 2540.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
+      "nombre": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
+      "precio_ref": 45.17,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para caes tapete higienico descartavel 90x60",
+      "nombre": "Tapete Higiênico Para Cães Tapete Higiênico Descartável 90x60 30 Unidades Grande Tapete Higiênico Para Cachorro Tapete Pet",
+      "precio_ref": 44.05,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
+      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
+      "precio_ref": 15.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "monitor gamer phillips de 23 8 full hd",
+      "nombre": "Monitor Gamer Phillips de 23.8\" Full HD IPS com 200Hz",
+      "precio_ref": 651.19,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "mesa portatil para notebook suporte cama sofa ma",
+      "nombre": "Mesa Portátil Para Notebook Suporte Cama Sofá MA, Cor Aleatório",
+      "precio_ref": 33.95,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "relogio technos masculino racer dourado 2315law 1x",
+      "nombre": "Relógio Technos Masculino Racer Dourado - 2315law/1x",
+      "precio_ref": 259.84,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "cabo usb para lightning reforcado 1m compativel com",
+      "nombre": "Cabo USB para Lightning Reforçado 1M, Compatível com iPhone 6 7 8 X Xs 11 Se 12 Xr 13 14 Pro Max – Carregamento Turbo e Trans",
+      "precio_ref": 5.8,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo tab 10 1 wifi 5 64gb",
+      "nombre": "Tablet Lenovo Tab 10.1¨ Wifi 5 64gb 4gb De Ram Android 14 Cinza",
+      "precio_ref": 873.52,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
+      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition",
+      "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "cpap automatico airsense s10 autoset c umidificador resmed",
-      "nombre": "Cpap Automático Airsense S10 Autoset C/ Umidificador Resmed",
-      "precio_ref": 2949.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
-    },
-    {
-      "busqueda": "lencos umedecidos huggies recem nascido sem fragrancia 6x48u",
-      "nombre": "Lenços Umedecidos Huggies Recém-Nascido Sem Fragrância 6x48U",
-      "precio_ref": 54.9,
-      "categoria": "Perfumes & Fragrâncias",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "formula natural pro cao adulto medio e grande",
@@ -433,31 +369,47 @@
       "precio_ref": 182.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "bepantol baby lenco umedecido hipoalergenico 192 unidades 192",
-      "nombre": "Bepantol Baby Lenço Umedecido Hipoalergênico, 192 Unidades | 192 unidades, Com Pró-Vitamina B5, Hipoalergênico, Dermatologica",
-      "precio_ref": 54.5,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
+      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
+      "precio_ref": 58.9,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "formula natural fresh meat sensitive caes adultos mini",
-      "nombre": "Fórmula Natural Fresh Meat Sensitive Cães Adultos Mini e Pequeno Portes Sabor Cordeiro 2,5kg",
-      "precio_ref": 112.0,
+      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
+      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
+      "precio_ref": 1388.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 105.5,
-      "categoria": "Pet Shop",
+      "busqueda": "oral b escova de dente sensitive purification gold",
+      "nombre": "Oral-B Escova de Dente Sensitive Purification Gold Extra Macia 4 Unidades",
+      "precio_ref": 57.69,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "celular motorola moto g56 256gb 12gb ram 5g",
+      "nombre": "Celular Motorola Moto G56 256gb + 12gb Ram 5g Dual Sim Green",
+      "precio_ref": 1399.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "piracanjuba proforce bebida proteica liquida sabor cacau zero",
+      "nombre": "Piracanjuba ProForce Bebida Proteica Líquida Sabor Cacau Zero Lactose 23g Proteínas, Caixa 250ml – Pack com 12 Unidades",
+      "precio_ref": 114.99,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "smart tv 4k 65 lg nano uhd ai",
@@ -465,15 +417,31 @@
       "precio_ref": 3349.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
-      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
-      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
-      "precio_ref": 55.55,
+      "busqueda": "lencos umedecidos huggies recem nascido sem fragrancia 6x48u",
+      "nombre": "Lenços Umedecidos Huggies Recém-Nascido Sem Fragrância 6x48U",
+      "precio_ref": 54.9,
+      "categoria": "Perfumes & Fragrâncias",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "cpap automatico airsense s10 autoset c umidificador resmed",
+      "nombre": "Cpap Automático Airsense S10 Autoset C/ Umidificador Resmed",
+      "precio_ref": 2949.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "bepantol baby lenco umedecido hipoalergenico 192 unidades 192",
+      "nombre": "Bepantol Baby Lenço Umedecido Hipoalergênico, 192 Unidades | 192 unidades, Com Pró-Vitamina B5, Hipoalergênico, Dermatologica",
+      "precio_ref": 54.5,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     },
     {
       "busqueda": "bicicleta aro 20 xgt infantil feminina mariinha rodas",
@@ -481,7 +449,39 @@
       "precio_ref": 467.91,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T03:42:28+00:00"
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "chalesco tapete higienico premium para caes 90 x",
+      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
+      "precio_ref": 105.5,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 4gb ram 128gb octa core",
+      "nombre": "Tablet VAIO TL10 4GB RAM 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi Dual Band, Câmera 8MP + Selfie 5MP, 7000mAh, Android 16, com Teclado Magnético de Conexão Inteligente – Preto",
+      "precio_ref": 1224.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
+      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
+      "precio_ref": 55.55,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para cachorro 50 unidades 60x55cm com",
+      "nombre": "Tapete Higiênico para Cachorro 50 Unidades 60x55cm com Gel Absorvente Fralda Manta Pet Cão Com Fitas Adesivas Anti Odor Atrativo Canino",
+      "precio_ref": 44.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T03:49:33+00:00"
     }
   ]
 }
