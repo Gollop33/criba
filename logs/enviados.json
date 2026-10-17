@@ -1198,16 +1198,6 @@
     ],
     "precio_min_publicado": 132.0
   },
-  "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
-    "ts": "2026-10-15T00:10:43.866420",
-    "canales": {
-      "whatsapp": "2026-10-15T00:10:43.866420"
-    },
-    "precio": 259.0,
-    "precios_publicados": [
-      259.0
-    ]
-  },
   "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
     "ts": "2026-10-15T00:12:29.891737",
     "canales": {
@@ -3044,6 +3034,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "ml-cadeira-lombar-ergonomica-escritorio-apoio-me": {
+    "ts": "2026-10-17T00:12:03.131793",
+    "canales": {
+      "whatsapp": "2026-10-17T00:12:03.131793"
+    },
+    "precio": 313.0,
+    "precios_publicados": [
+      313.0
     ]
   }
 }
