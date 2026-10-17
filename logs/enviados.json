@@ -1544,16 +1544,6 @@
     ],
     "precio_min_publicado": 29.0
   },
-  "ml-papel-higienico-folha-dupla-neve-leve-16-pagu": {
-    "ts": "2026-10-15T23:52:34.226569",
-    "canales": {
-      "whatsapp": "2026-10-15T23:52:34.226569"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
   "amz-clear-sports-men-shampoo-anticaspa-limpeza-pr": {
     "ts": "2026-10-17T10:21:45.957816",
     "canales": {
@@ -3358,6 +3348,16 @@
     "precio": 45.0,
     "precios_publicados": [
       45.0
+    ]
+  },
+  "amz-blackdecker-mixer-multiuso-sem-fio-com-haste-": {
+    "ts": "2026-10-17T23:54:42.251382",
+    "canales": {
+      "whatsapp": "2026-10-17T23:54:42.251382"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
