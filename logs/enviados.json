@@ -1431,14 +1431,16 @@
     ]
   },
   "ml-tapete-higienico-para-cachorro-super-absorven": {
-    "ts": "2026-10-15T20:29:46.981137",
+    "ts": "2026-10-17T18:32:18.024143",
     "canales": {
-      "whatsapp": "2026-10-15T20:29:46.981137"
+      "whatsapp": "2026-10-17T18:32:18.024143"
     },
-    "precio": 32.0,
+    "precio": 36.0,
     "precios_publicados": [
-      32.0
-    ]
+      32.0,
+      36.0
+    ],
+    "precio_min_publicado": 32.0
   },
   "ml-roku-streaming-stick-para-tv-hdfhd-controle-p": {
     "ts": "2026-10-15T20:47:03.398985",
