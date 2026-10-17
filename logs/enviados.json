@@ -26,18 +26,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "ml-patinete-eletrico-gm5-p1-preto-dobravel-com-b": {
-    "ts": "2026-10-15T12:28:44.989501",
-    "canales": {
-      "whatsapp": "2026-10-15T12:28:44.989501"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1260.0,
-      1299.0
-    ],
-    "precio_min_publicado": 1260.0
-  },
   "ml-cama-elastica-pula-pula-infantil-trampolim-14": {
     "ts": "2026-10-16T15:28:11.830019",
     "canales": {
@@ -2963,6 +2951,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
+    "ts": "2026-10-17T12:32:35.395329",
+    "canales": {
+      "whatsapp": "2026-10-17T12:32:35.395329"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
