@@ -1207,16 +1207,6 @@
     ],
     "precio_min_publicado": 873.0
   },
-  "amz-lg-ultragear-monitor-gamer-oled-27-oled-240hz": {
-    "ts": "2026-10-15T03:56:35.058823",
-    "canales": {
-      "whatsapp": "2026-10-15T03:56:35.058823"
-    },
-    "precio": 4104.0,
-    "precios_publicados": [
-      4104.0
-    ]
-  },
   "ml-lixeira-inteligente-automatica-16l-sensor-inf": {
     "ts": "2026-10-16T09:07:43.511929",
     "canales": {
@@ -1844,14 +1834,16 @@
     ]
   },
   "amz-kit-sabonete-phebo-amarelo-720g": {
-    "ts": "2026-10-15T22:09:57.907274",
+    "ts": "2026-10-17T04:34:06.129805",
     "canales": {
-      "whatsapp": "2026-10-15T22:09:57.907274"
+      "whatsapp": "2026-10-17T04:34:06.129805"
     },
     "precio": 32.0,
     "precios_publicados": [
+      32.0,
       32.0
-    ]
+    ],
+    "precio_min_publicado": 32.0
   },
   "ml-fechadura-digital-de-sobrepor-fr-102-preto-in": {
     "ts": "2026-10-15T22:16:29.625569",
