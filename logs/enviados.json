@@ -906,18 +906,6 @@
     ],
     "precio_min_publicado": 209.0
   },
-  "ml-racao-golden-gatos-special-castrados-sabor-fr": {
-    "ts": "2026-10-15T23:36:31.353358",
-    "canales": {
-      "whatsapp": "2026-10-15T23:36:31.353358"
-    },
-    "precio": 132.0,
-    "precios_publicados": [
-      132.0,
-      132.0
-    ],
-    "precio_min_publicado": 132.0
-  },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
     "ts": "2026-10-16T14:42:46.636671",
     "canales": {
@@ -3349,6 +3337,16 @@
     "precio": 799.0,
     "precios_publicados": [
       799.0
+    ]
+  },
+  "amz-filtrorefil-original-de-agua-para-purificador": {
+    "ts": "2026-10-17T23:39:16.942570",
+    "canales": {
+      "whatsapp": "2026-10-17T23:39:16.942570"
+    },
+    "precio": 53.0,
+    "precios_publicados": [
+      53.0
     ]
   }
 }
