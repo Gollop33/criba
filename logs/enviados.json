@@ -1152,16 +1152,6 @@
     ],
     "precio_min_publicado": 66.0
   },
-  "amz-huggies-fralda-descartavel-premium-natural-ca": {
-    "ts": "2026-10-15T09:56:41.136019",
-    "canales": {
-      "whatsapp": "2026-10-15T09:56:41.136019"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "amz-absorvente-noturno-com-abas-sempre-livre-cobe": {
     "ts": "2026-10-16T10:58:19.872621",
     "canales": {
@@ -1849,14 +1839,16 @@
     "precio_min_publicado": 97.0
   },
   "amz-morte-subita-mascara-super-hidratante-450g-lo": {
-    "ts": "2026-10-15T23:15:11.728452",
+    "ts": "2026-10-17T09:56:51.348714",
     "canales": {
-      "whatsapp": "2026-10-15T23:15:11.728452"
+      "whatsapp": "2026-10-17T09:56:51.348714"
     },
     "precio": 34.0,
     "precios_publicados": [
+      34.0,
       34.0
-    ]
+    ],
+    "precio_min_publicado": 34.0
   },
   "ml-tapete-higienico-descartavel-para-pet-alta-ab": {
     "ts": "2026-10-15T23:18:00.883679",
