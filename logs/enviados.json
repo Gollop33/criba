@@ -2350,14 +2350,16 @@
     ]
   },
   "ml-notebook-asus-vivobook-go-e1504ga-intel-core-": {
-    "ts": "2026-10-16T22:03:27.374912",
+    "ts": "2026-10-17T22:11:45.979243",
     "canales": {
-      "whatsapp": "2026-10-16T22:03:27.374912"
+      "whatsapp": "2026-10-17T22:11:45.979243"
     },
     "precio": 2464.0,
     "precios_publicados": [
+      2464.0,
       2464.0
-    ]
+    ],
+    "precio_min_publicado": 2464.0
   },
   "ml-notebook-lenovo-ideapad-slim-3-15irh10-intel-": {
     "ts": "2026-10-16T22:05:11.054221",
