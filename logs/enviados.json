@@ -1198,16 +1198,6 @@
     ],
     "precio_min_publicado": 132.0
   },
-  "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
-    "ts": "2026-10-15T00:12:29.891737",
-    "canales": {
-      "whatsapp": "2026-10-15T00:12:29.891737"
-    },
-    "precio": 4699.0,
-    "precios_publicados": [
-      4699.0
-    ]
-  },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
     "ts": "2026-10-16T14:42:46.636671",
     "canales": {
@@ -3044,6 +3034,16 @@
     "precio": 313.0,
     "precios_publicados": [
       313.0
+    ]
+  },
+  "ml-smart-tv-lg-43-nano-4k-uhd-hdmi-usb-wifi-blue": {
+    "ts": "2026-10-17T00:21:53.504499",
+    "canales": {
+      "whatsapp": "2026-10-17T00:21:53.504499"
+    },
+    "precio": 1762.0,
+    "precios_publicados": [
+      1762.0
     ]
   }
 }
