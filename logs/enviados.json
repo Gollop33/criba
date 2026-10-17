@@ -509,18 +509,6 @@
     ],
     "precio_min_publicado": 50.0
   },
-  "ml-jogo-de-toalhas-buddemeyer-bella-extra-soft-b": {
-    "ts": "2026-10-15T01:21:35.647723",
-    "canales": {
-      "whatsapp": "2026-10-15T01:21:35.647723"
-    },
-    "precio": 127.0,
-    "precios_publicados": [
-      134.0,
-      127.0
-    ],
-    "precio_min_publicado": 134.0
-  },
   "ml-tenis-mizuno-wave-26-original-macio-corrida-c": {
     "ts": "2026-10-15T09:49:45.721022",
     "canales": {
@@ -2208,14 +2196,16 @@
     ]
   },
   "ml-creatina-monohidratada-1kg-100-pura-dark-lab": {
-    "ts": "2026-10-16T01:21:37.084441",
+    "ts": "2026-10-17T01:22:38.595852",
     "canales": {
-      "whatsapp": "2026-10-16T01:21:37.084441"
+      "whatsapp": "2026-10-17T01:22:38.595852"
     },
     "precio": 78.0,
     "precios_publicados": [
+      78.0,
       78.0
-    ]
+    ],
+    "precio_min_publicado": 78.0
   },
   "ml-tenis-new-balance-academia-corrida-caminhada-": {
     "ts": "2026-10-16T01:28:56.080311",
