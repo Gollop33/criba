@@ -507,18 +507,6 @@
     ],
     "precio_min_publicado": 50.0
   },
-  "ml-patinete-eletrico-honeywhale-m1-lite-dobravel": {
-    "ts": "2026-10-15T00:25:43.504215",
-    "canales": {
-      "whatsapp": "2026-10-15T00:25:43.504215"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1104.0,
-      1299.0
-    ],
-    "precio_min_publicado": 1104.0
-  },
   "ml-jogo-de-toalhas-buddemeyer-bella-extra-soft-b": {
     "ts": "2026-10-15T01:21:35.647723",
     "canales": {
@@ -3044,6 +3032,16 @@
     "precio": 1762.0,
     "precios_publicados": [
       1762.0
+    ]
+  },
+  "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
+    "ts": "2026-10-17T00:25:44.248720",
+    "canales": {
+      "whatsapp": "2026-10-17T00:25:44.248720"
+    },
+    "precio": 10.0,
+    "precios_publicados": [
+      10.0
     ]
   }
 }
