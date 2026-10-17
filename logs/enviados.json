@@ -633,18 +633,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "ml-proteina-max-titanium-whey-pro-concetrado-em-": {
-    "ts": "2026-10-15T01:07:47.277150",
-    "canales": {
-      "whatsapp": "2026-10-15T01:07:47.277150"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0,
-      78.0
-    ],
-    "precio_min_publicado": 78.0
-  },
   "ml-kit-7-pares-meia-bebe-todo-dia-rn-duck-menino": {
     "ts": "2026-10-15T14:19:54.882932",
     "canales": {
@@ -1187,16 +1175,6 @@
       174.0
     ],
     "precio_min_publicado": 174.0
-  },
-  "ml-tablet-vaio-tl10-4gb-ram-128gb-octacore-tela-": {
-    "ts": "2026-10-15T01:04:45.951630",
-    "canales": {
-      "whatsapp": "2026-10-15T01:04:45.951630"
-    },
-    "precio": 1224.0,
-    "precios_publicados": [
-      1224.0
-    ]
   },
   "amz-notebook-intel-celeron-14in-8gb-ram-256gb-ssd": {
     "ts": "2026-10-15T01:13:28.763782",
@@ -3046,6 +3024,16 @@
     "precio": 303.0,
     "precios_publicados": [
       303.0
+    ]
+  },
+  "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
+    "ts": "2026-10-17T01:07:52.902263",
+    "canales": {
+      "whatsapp": "2026-10-17T01:07:52.902263"
+    },
+    "precio": 148.0,
+    "precios_publicados": [
+      148.0
     ]
   }
 }
