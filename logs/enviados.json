@@ -548,18 +548,6 @@
     ],
     "precio_min_publicado": 15.0
   },
-  "ml-kit-7-pares-meia-bebe-todo-dia-rn-duck-menino": {
-    "ts": "2026-10-15T14:19:54.882932",
-    "canales": {
-      "whatsapp": "2026-10-15T14:19:54.882932"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0,
-      36.0
-    ],
-    "precio_min_publicado": 36.0
-  },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
     "ts": "2026-10-17T00:32:52.668128",
     "canales": {
@@ -3095,6 +3083,16 @@
     "precio": 187.0,
     "precios_publicados": [
       187.0
+    ]
+  },
+  "ml-jogo-de-panelas-genebra-ceramica-12-pcs-antia": {
+    "ts": "2026-10-17T14:20:06.510504",
+    "canales": {
+      "whatsapp": "2026-10-17T14:20:06.510504"
+    },
+    "precio": 213.0,
+    "precios_publicados": [
+      213.0
     ]
   }
 }
