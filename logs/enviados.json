@@ -1928,14 +1928,16 @@
     ]
   },
   "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
-    "ts": "2026-10-16T00:14:49.825020",
+    "ts": "2026-10-17T10:28:45.797727",
     "canales": {
-      "whatsapp": "2026-10-16T00:14:49.825020"
+      "whatsapp": "2026-10-17T10:28:45.797727"
     },
-    "precio": 45.0,
+    "precio": 49.0,
     "precios_publicados": [
-      45.0
-    ]
+      45.0,
+      49.0
+    ],
+    "precio_min_publicado": 45.0
   },
   "amz-vichy-dercos-shampoo-anticaspa-para-cabelos-n": {
     "ts": "2026-10-16T00:19:42.646139",
