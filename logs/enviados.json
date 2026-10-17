@@ -1338,16 +1338,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "ml-batata-sour-cream-e-cebola-elma-chips-134g": {
-    "ts": "2026-10-15T15:22:14.997618",
-    "canales": {
-      "whatsapp": "2026-10-15T15:22:14.997618"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
     "ts": "2026-10-16T23:33:33.626529",
     "canales": {
@@ -3172,6 +3162,16 @@
     "precio": 874.0,
     "precios_publicados": [
       874.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a17-5g-com-ia-128gb-4g": {
+    "ts": "2026-10-17T15:28:13.333476",
+    "canales": {
+      "whatsapp": "2026-10-17T15:28:13.333476"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
