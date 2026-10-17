@@ -1315,16 +1315,6 @@
     ],
     "precio_min_publicado": 12.0
   },
-  "ml-colchao-para-berco-americano-prorelax-baby-d1": {
-    "ts": "2026-10-15T14:49:05.367689",
-    "canales": {
-      "whatsapp": "2026-10-15T14:49:05.367689"
-    },
-    "precio": 147.0,
-    "precios_publicados": [
-      147.0
-    ]
-  },
   "amz-mouse-com-fio-multi-classic-box-usb-1200-dpi-": {
     "ts": "2026-10-16T23:26:45.631404",
     "canales": {
@@ -2236,14 +2226,16 @@
     ]
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-10-16T14:49:40.713372",
+    "ts": "2026-10-17T14:53:31.005270",
     "canales": {
-      "whatsapp": "2026-10-16T14:49:40.713372"
+      "whatsapp": "2026-10-17T14:53:31.005270"
     },
-    "precio": 1450.0,
+    "precio": 1420.0,
     "precios_publicados": [
-      1450.0
-    ]
+      1450.0,
+      1420.0
+    ],
+    "precio_min_publicado": 1450.0
   },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-10-16T14:56:45.846943",
