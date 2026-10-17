@@ -2124,14 +2124,16 @@
     ]
   },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-10-16T16:09:22.559561",
+    "ts": "2026-10-17T21:27:28.921016",
     "canales": {
-      "whatsapp": "2026-10-16T16:09:22.559561"
+      "whatsapp": "2026-10-17T21:27:28.921016"
     },
-    "precio": 62.0,
+    "precio": 61.0,
     "precios_publicados": [
-      62.0
-    ]
+      62.0,
+      61.0
+    ],
+    "precio_min_publicado": 62.0
   },
   "amz-lysoform-suave-odor-desinfetante-liquido-limp": {
     "ts": "2026-10-16T16:20:00.969907",
