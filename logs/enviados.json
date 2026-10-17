@@ -504,18 +504,6 @@
     ],
     "precio_min_publicado": 50.0
   },
-  "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
-    "ts": "2026-10-15T10:49:41.798761",
-    "canales": {
-      "whatsapp": "2026-10-15T10:49:41.798761"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0,
-      26.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
     "ts": "2026-10-16T11:01:32.338957",
     "canales": {
@@ -1752,14 +1740,16 @@
     "precio_min_publicado": 47.0
   },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-10-15T22:28:42.689356",
+    "ts": "2026-10-17T10:49:44.758435",
     "canales": {
-      "whatsapp": "2026-10-15T22:28:42.689356"
+      "whatsapp": "2026-10-17T10:49:44.758435"
     },
-    "precio": 35.0,
+    "precio": 39.0,
     "precios_publicados": [
-      35.0
-    ]
+      35.0,
+      39.0
+    ],
+    "precio_min_publicado": 35.0
   },
   "amz-head-shoulders-shampoo-anticaspa-anticoceira-": {
     "ts": "2026-10-17T07:20:57.649445",
