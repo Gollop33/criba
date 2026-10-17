@@ -858,18 +858,6 @@
     ],
     "precio_min_publicado": 129.0
   },
-  "ml-tenis-flyer-runner-mesh-bdp-puma": {
-    "ts": "2026-10-15T17:29:33.397232",
-    "canales": {
-      "whatsapp": "2026-10-15T17:29:33.397232"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      184.0,
-      189.0
-    ],
-    "precio_min_publicado": 184.0
-  },
   "amz-duracell-pilha-alcalina-aa-pequena-com-16-uni": {
     "ts": "2026-10-17T11:28:46.623131",
     "canales": {
@@ -3248,6 +3236,16 @@
     "precio": 385.0,
     "precios_publicados": [
       385.0
+    ]
+  },
+  "ml-jaguaride-patinete-eletrico-scooter-adulto-xm": {
+    "ts": "2026-10-17T17:40:36.446566",
+    "canales": {
+      "whatsapp": "2026-10-17T17:40:36.446566"
+    },
+    "precio": 1088.0,
+    "precios_publicados": [
+      1088.0
     ]
   }
 }
