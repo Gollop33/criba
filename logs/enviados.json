@@ -1205,16 +1205,6 @@
     ],
     "precio_min_publicado": 873.0
   },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-10-15T03:35:36.739811",
-    "canales": {
-      "whatsapp": "2026-10-15T03:35:36.739811"
-    },
-    "precio": 4699.0,
-    "precios_publicados": [
-      4699.0
-    ]
-  },
   "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
     "ts": "2026-10-15T03:42:40.238527",
     "canales": {
@@ -1490,14 +1480,16 @@
     "precio_min_publicado": 64.0
   },
   "ml-tablet-android-15-tab-kit-completo-ram-16gb-5": {
-    "ts": "2026-10-15T14:01:00.484780",
+    "ts": "2026-10-17T03:35:42.798200",
     "canales": {
-      "whatsapp": "2026-10-15T14:01:00.484780"
+      "whatsapp": "2026-10-17T03:35:42.798200"
     },
-    "precio": 875.0,
+    "precio": 780.0,
     "precios_publicados": [
-      875.0
-    ]
+      875.0,
+      780.0
+    ],
+    "precio_min_publicado": 875.0
   },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-10-16T14:07:51.560939",
