@@ -606,18 +606,6 @@
     ],
     "precio_min_publicado": 36.0
   },
-  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
-    "ts": "2026-10-15T10:42:38.931421",
-    "canales": {
-      "whatsapp": "2026-10-15T10:42:38.931421"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0,
-      29.0
-    ],
-    "precio_min_publicado": 29.0
-  },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-10-15T11:21:36.361367",
     "canales": {
@@ -2955,6 +2943,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-protetor-solar-facial-minesol-oil-control-sem": {
+    "ts": "2026-10-17T10:42:51.812871",
+    "canales": {
+      "whatsapp": "2026-10-17T10:42:51.812871"
+    },
+    "precio": 61.0,
+    "precios_publicados": [
+      61.0
     ]
   }
 }
