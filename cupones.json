@@ -1,11 +1,27 @@
 {
-  "actualizado": "2026-10-16T23:59:15+00:00",
-  "total": 82,
+  "actualizado": "2026-10-17T00:08:46+00:00",
+  "total": 80,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "Cupom Oficial ML INTERNACIONAL",
+      "codigo": "INTERNACIONAL",
+      "desconto": "30% OFF",
+      "compra_minima": null,
+      "limite": null,
+      "vencimento": null,
+      "hasta": null,
+      "estado": "ativo",
+      "categoria": "Cupons Oficiais",
+      "fonte": "ML Oficial",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "capturado_em": "2026-10-17T00:08:46+00:00"
+    },
     {
       "tienda": "Mercado Livre",
       "titulo": "Cupom Oficial ML BEAUTY",
@@ -38,7 +54,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-16T23:59:15+00:00"
+      "capturado_em": "2026-10-17T00:08:46+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -90,7 +106,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-16T23:59:15+00:00"
+      "capturado_em": "2026-10-17T00:08:46+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -179,7 +195,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-16T23:59:15+00:00"
+      "capturado_em": "2026-10-17T00:08:46+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -270,7 +286,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-16T23:59:15+00:00"
+      "capturado_em": "2026-10-17T00:08:46+00:00"
     },
     {
       "codigo": "MEUVALE",
@@ -696,20 +712,6 @@
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "codigo": "CICALFATE15",
-      "desconto": "15% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145.",
-      "hasta": "2026-10-16",
-      "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-10T19:03:33+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
-    },
-    {
       "codigo": "DESCONTOAQUI",
       "desconto": "30% OFF",
       "compra_minima": "",
@@ -854,20 +856,6 @@
       "detectado_em": "2026-10-11T12:01:01+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "CLEANANCE15",
-      "desconto": "15% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145",
-      "hasta": "2026-10-16",
-      "categoria": "Beleza",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-11T12:01:01+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
     },
     {
       "codigo": "SALVAMEUBOLSO",
@@ -1107,19 +1095,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
-    },
-    {
-      "codigo": "OFFHOJE",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-10-16",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-16T13:01:20+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
       "codigo": "BATEUDESCONTO",
