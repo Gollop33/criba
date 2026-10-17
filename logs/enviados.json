@@ -715,18 +715,6 @@
     ],
     "precio_min_publicado": 58.0
   },
-  "ml-mochila-para-notebook-impermeavel-com-porta-u": {
-    "ts": "2026-10-15T19:36:00.806174",
-    "canales": {
-      "whatsapp": "2026-10-15T19:36:00.806174"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      84.0,
-      89.0
-    ],
-    "precio_min_publicado": 84.0
-  },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
     "ts": "2026-10-16T22:27:16.741155",
     "canales": {
@@ -3306,6 +3294,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "ml-tenis-masculino-wbox-premium-confortavel-90-c": {
+    "ts": "2026-10-17T19:41:54.021873",
+    "canales": {
+      "whatsapp": "2026-10-17T19:41:54.021873"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
