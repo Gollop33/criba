@@ -1794,14 +1794,16 @@
     ]
   },
   "amz-vitafor-omegafor-plus-120-capsulas": {
-    "ts": "2026-10-15T16:53:07.045093",
+    "ts": "2026-10-17T01:38:06.459443",
     "canales": {
-      "whatsapp": "2026-10-15T16:53:07.045093"
+      "whatsapp": "2026-10-17T01:38:06.459443"
     },
-    "precio": 139.0,
+    "precio": 132.0,
     "precios_publicados": [
-      139.0
-    ]
+      139.0,
+      132.0
+    ],
+    "precio_min_publicado": 139.0
   },
   "ml-coleira-seresto-elanco-antipulgas-e-carrapato": {
     "ts": "2026-10-15T16:58:44.890269",
