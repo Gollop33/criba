@@ -869,18 +869,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "ml-smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c": {
-    "ts": "2026-10-15T17:12:12.877588",
-    "canales": {
-      "whatsapp": "2026-10-15T17:12:12.877588"
-    },
-    "precio": 2540.0,
-    "precios_publicados": [
-      2540.0,
-      2540.0
-    ],
-    "precio_min_publicado": 2540.0
-  },
   "amz-duracell-pilha-alcalina-aa-pequena-com-16-uni": {
     "ts": "2026-10-17T11:28:46.623131",
     "canales": {
@@ -3239,6 +3227,16 @@
     "precio": 999.0,
     "precios_publicados": [
       999.0
+    ]
+  },
+  "ml-banha-de-porco-100-natural-gordura-suina-1kg": {
+    "ts": "2026-10-17T17:15:11.036227",
+    "canales": {
+      "whatsapp": "2026-10-17T17:15:11.036227"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
