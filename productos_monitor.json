@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-17T09:56:38+00:00",
+  "actualizado": "2026-10-17T10:00:47+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -17,7 +17,7 @@
       "precio_ref": 266.71,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -25,7 +25,7 @@
       "precio_ref": 493.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -33,7 +33,7 @@
       "precio_ref": 809.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "tapete higienico para cachorro descartavel alta absorcao 60x60",
@@ -41,31 +41,7 @@
       "precio_ref": 22.29,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
-      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
-      "precio_ref": 34.58,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
-      "nombre": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
-      "precio_ref": 66.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "clear sports men shampoo anticaspa limpeza profunda 400ml",
-      "nombre": "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml",
-      "precio_ref": 21.03,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "dove shampoo bond intense repair peptideo 600ml pump",
@@ -73,63 +49,15 @@
       "precio_ref": 30.59,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
-      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
-      "precio_ref": 113.49,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
-      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
-      "precio_ref": 39.99,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "creatina soldiers nutrition em po sem sabor x",
-      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
-      "precio_ref": 68.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "argan oleo reparador 50ml lola cosmetics",
-      "nombre": "Argan Óleo Reparador 50ml , Lola Cosmetics",
-      "precio_ref": 16.14,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "lixeira inteligente sensor automatico 16l cinza smart recarregavel",
-      "nombre": "Lixeira Inteligente Sensor Automático 16l Cinza Smart Recarregável Para Banheiro E Cozinha",
-      "precio_ref": 60.46,
+      "busqueda": "lixeira inteligente automatica 16l sensor infravermelho recarregavel usb",
+      "nombre": "Lixeira Inteligente Automática 16L Sensor Infravermelho Recarregável USB-C 3 Modos Tampa Touch Banheiro Cozinha",
+      "precio_ref": 66.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "serum hidratante corporal para pele com tom irregular",
-      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
-      "precio_ref": 29.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "serum leave in cabelos finos elseve l oreal",
@@ -137,55 +65,71 @@
       "precio_ref": 32.5,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "testo essencial formula exclusiva com feno grego boro",
-      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
-      "precio_ref": 39.74,
+      "busqueda": "argan oleo reparador 50ml lola cosmetics",
+      "nombre": "Argan Óleo Reparador 50ml , Lola Cosmetics",
+      "precio_ref": 16.14,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
+      "nombre": "Câmera de Segurança Wi-Fi iCSee/Yoosee A28B 4K Dupla Lente Visão Noturna Colorida Full Hd Externa Prova D'água Ip66 Sensor Movimento Woosh",
+      "precio_ref": 113.49,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "clear sports men shampoo anticaspa limpeza profunda 400ml",
+      "nombre": "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml",
+      "precio_ref": 21.03,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "creatina soldiers nutrition em po sem sabor x",
+      "nombre": "Creatina Soldiers Nutrition em pó Sem sabor x 1kg",
+      "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "protetor solar facial minesol oil control sem cor",
-      "nombre": "Protetor Solar Facial Minesol Oil Control, Sem Cor, FPS 70, 40g | Antioxidante, Controle da Oleosidade, Resistente à Água",
-      "precio_ref": 61.11,
+      "busqueda": "serum hidratante corporal para pele com tom irregular",
+      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
+      "precio_ref": 29.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
-      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
-      "precio_ref": 109.9,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "cerave locao hidratante corporal com textura fluida e",
-      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-      "precio_ref": 93.73,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "cetaphil creme hidratante",
-      "nombre": "Cetaphil Creme Hidratante",
-      "precio_ref": 89.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "panela de pressao brinox pressure 4 2l 20",
-      "nombre": "Panela De Pressão Brinox Pressure 4,2l Ø20 X 14,5 Cm Vanilla Baunilha",
-      "precio_ref": 194.9,
+      "busqueda": "lixeira inteligente sensor automatico 16l cinza smart recarregavel",
+      "nombre": "Lixeira Inteligente Sensor Automático 16l Cinza Smart Recarregável Para Banheiro E Cozinha",
+      "precio_ref": 60.46,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
+      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
+      "precio_ref": 39.99,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
+      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 33.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
@@ -193,31 +137,31 @@
       "precio_ref": 82.49,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "tenis casual kappa zenit masculino unissex conforto",
-      "nombre": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
-      "precio_ref": 96.41,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "testo essencial formula exclusiva com feno grego boro",
+      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
+      "precio_ref": 39.74,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
-      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
-      "precio_ref": 109.9,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "protetor solar facial minesol oil control sem cor",
+      "nombre": "Protetor Solar Facial Minesol Oil Control, Sem Cor, FPS 70, 40g | Antioxidante, Controle da Oleosidade, Resistente à Água",
+      "precio_ref": 61.11,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
-      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "precio_ref": 59.99,
-      "categoria": "Pet Shop",
+      "busqueda": "carregador portatil power bank turbo 20000mah 22 5w",
+      "nombre": "Carregador Portátil Power Bank Turbo 20000mah 22.5w universal para iphone samsung motorola xiaomi Com Display Digital DTimp",
+      "precio_ref": 109.9,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "eucerin pomada reparadora aquaphor duopack 10ml hidratacao intensiva",
@@ -225,23 +169,7 @@
       "precio_ref": 49.49,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
-      "nombre": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness Preto E Vermelho Sevenfit Para Cardio",
-      "precio_ref": 460.74,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
-      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Preto)",
-      "precio_ref": 1799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "bolsa de viagem pet bolsa de transporte mochila",
@@ -249,103 +177,55 @@
       "precio_ref": 107.35,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g17 4g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto G17 4G - 128GB 4GB Ram + 8GB Ram Boost - Roxo",
-      "precio_ref": 986.99,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "cetaphil creme hidratante",
+      "nombre": "Cetaphil Creme Hidratante",
+      "precio_ref": 89.9,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "jogo de panelas genebra ceramica 12 pcs antiaderente",
-      "nombre": "Jogo De Panelas Genebra Cerâmica 12 Pçs Antiaderente Indução Creme",
-      "precio_ref": 213.74,
+      "busqueda": "panela de pressao brinox pressure 4 2l 20",
+      "nombre": "Panela De Pressão Brinox Pressure 4,2l Ø20 X 14,5 Cm Vanilla Baunilha",
+      "precio_ref": 194.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a36 5g 128gb 6gb ram",
-      "nombre": "Celular Samsung Galaxy A36 5G 128GB, 6GB RAM, Câmera 50MP, IP67, Super AMOLED 6.7\", Recursos AI, Branco",
-      "precio_ref": 1498.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
+      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
+      "precio_ref": 109.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "suporte articulado para monitor 13 a 32 pistao",
-      "nombre": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto",
-      "precio_ref": 87.98,
-      "categoria": "Monitores & Displays",
+      "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
+      "nombre": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness Preto E Vermelho Sevenfit Para Cardio",
+      "precio_ref": 460.74,
+      "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
-      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
-      "precio_ref": 2292.99,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "cerave locao hidratante corporal com textura fluida e",
+      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
+      "precio_ref": 93.73,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "carregador fonte apple iphone turbo original usb c",
-      "nombre": "Carregador Fonte Apple iPhone Turbo Original Usb-c 20w Branco",
-      "precio_ref": 112.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "tenis casual kappa zenit masculino unissex conforto",
+      "nombre": "Tênis Casual Kappa Zenit Masculino Unissex Conforto",
+      "precio_ref": 96.41,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "acer notebook aspire 5 amd ryzen 5 5500u",
-      "nombre": "Acer Notebook Aspire 5 AMD Ryzen 5 5500U 16GB SSD 512GB 15.6\" Full HD Linux Preto Alimentação CA Compatível c/ Mouse USB - A5",
-      "precio_ref": 4047.08,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "kit 10 pote de vidro marmita hermetico 640ml",
-      "nombre": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Borossilicato 4 Travas Micro-ondas Azul-Escuro",
-      "precio_ref": 84.15,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "apple iphone 16e de 128 gb preto",
-      "nombre": "Apple iPhone 16e de 128 GB — Preto",
-      "precio_ref": 3665.56,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "cooktop 4 bocas atlas agile up mesa vidro",
-      "nombre": "Cooktop 4 Bocas Atlas Agile Up Mesa Vidro Mega Chama Bivolt",
-      "precio_ref": 302.75,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "notebook intel celeron 14in 8gb ram 256gb ssd",
-      "nombre": "Notebook Intel Celeron 14in 8GB RAM 256GB SSD | 1920x1080 FHD, Laptop",
-      "precio_ref": 1999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "relogio life realizacoes feminino couro rose rose",
-      "nombre": "Relógio Life Realizações Feminino Couro Rosé Rosé",
-      "precio_ref": 328.0,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "acer aspire 5 notebook 15 6 amd ryzen",
@@ -353,7 +233,95 @@
       "precio_ref": 5799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
+      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "precio_ref": 59.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
+      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Preto)",
+      "precio_ref": 1799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "suporte articulado para monitor 13 a 32 pistao",
+      "nombre": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto",
+      "precio_ref": 87.98,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "apple iphone 15 128 gb preto",
+      "nombre": "Apple iPhone 15 (128 GB) — Preto",
+      "precio_ref": 4443.33,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "carregador fonte apple iphone turbo original usb c",
+      "nombre": "Carregador Fonte Apple iPhone Turbo Original Usb-c 20w Branco",
+      "precio_ref": 112.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
+      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
+      "precio_ref": 2292.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "acer notebook aspire 5 amd ryzen 5 5500u",
+      "nombre": "Acer Notebook Aspire 5 AMD Ryzen 5 5500U 16GB SSD 512GB 15.6\" Full HD Linux Preto Alimentação CA Compatível c/ Mouse USB - A5",
+      "precio_ref": 4047.08,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "cooktop 4 bocas atlas agile up mesa vidro",
+      "nombre": "Cooktop 4 Bocas Atlas Agile Up Mesa Vidro Mega Chama Bivolt",
+      "precio_ref": 302.75,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
+      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
+      "precio_ref": 216.0,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "jogo de panelas genebra ceramica 12 pcs antiaderente",
+      "nombre": "Jogo De Panelas Genebra Cerâmica 12 Pçs Antiaderente Indução Creme",
+      "precio_ref": 213.74,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "echo dot geracao mais recente smart speaker com",
+      "nombre": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso",
+      "precio_ref": 649.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "air fryer oven 11 litros wap waod4 grey",
@@ -361,23 +329,39 @@
       "precio_ref": 296.65,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "smartphone xiaomi poco x8 pro 512gb 12gb ram",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro 512GB / 12GB Ram (Verde) | MediaTek Dimensity 8500 Ultra",
-      "precio_ref": 2695.0,
+      "busqueda": "notebook samsung galaxy book6 14 copilot pc windows",
+      "nombre": "Notebook Samsung Galaxy Book6 14\" Copilot+ PC, Windows 11 Home, Ultra 5, 16GB, 512GB SSD, 1.43 kg",
+      "precio_ref": 7028.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "cpap automatico airsense s10 autoset c umidificador resmed",
-      "nombre": "Cpap Automático Airsense S10 Autoset C/ Umidificador Resmed",
-      "precio_ref": 2949.0,
+      "busqueda": "kit 10 pote de vidro marmita hermetico 640ml",
+      "nombre": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Borossilicato 4 Travas Micro-ondas Azul-Escuro",
+      "precio_ref": 84.15,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "smartphone xiaomi poco x8 pro 256gb 8gb ram",
+      "nombre": "Smartphone Xiaomi Poco X8 Pro 256GB / 8GB Ram (Preto) | Tela AMOLED 6,59'' 120Hz, câmera 50MP e bateria 6500mAh com carga ráp",
+      "precio_ref": 2464.95,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "relogio life realizacoes feminino couro rose rose",
+      "nombre": "Relógio Life Realizações Feminino Couro Rosé Rosé",
+      "precio_ref": 328.0,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "samsung notebook galaxy book4 windows 11 home intel",
@@ -385,47 +369,15 @@
       "precio_ref": 4659.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "celular motorola moto g56 256gb 12gb ram 5g",
-      "nombre": "Celular Motorola Moto G56 256gb + 12gb Ram 5g Dual Sim Green",
-      "precio_ref": 1399.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "cpap automatico airsense s10 autoset c umidificador resmed",
+      "nombre": "Cpap Automático Airsense S10 Autoset C/ Umidificador Resmed",
+      "precio_ref": 2949.0,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
-      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
-      "precio_ref": 233.11,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
-      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
-      "precio_ref": 196.5,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
-      "precio_ref": 5999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "bicicleta aro 20 xgt infantil feminina mariinha rodas",
-      "nombre": "Bicicleta Aro 20 Xgt Infantil Feminina Mariinha Rodas Cesta Rosa M",
-      "precio_ref": 467.91,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
@@ -433,39 +385,39 @@
       "precio_ref": 3702.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "framboesa pet 2 litros 06 unidades refrigerante",
-      "nombre": "Framboesa Pet 2 Litros - 06 Unidades Refrigerante",
-      "precio_ref": 38.79,
+      "busqueda": "celular motorola moto g56 256gb 12gb ram 5g",
+      "nombre": "Celular Motorola Moto G56 256gb + 12gb Ram 5g Dual Sim Green",
+      "precio_ref": 1399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "amazon fire tv stick hd modelo mais recente",
-      "nombre": "Amazon Fire TV Stick HD (modelo mais recente), Controle Remoto por Voz com Alexa, alimentado pela TV, com configuração simple",
-      "precio_ref": 479.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
-      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
-      "precio_ref": 1388.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Touch Screen - Luna Grey - Intel Core i5-13420H, 8GB RAM, 512GB SSD, Windows 11",
-      "precio_ref": 4299.0,
+      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
+      "precio_ref": 5999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
+      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+      "precio_ref": 196.5,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 829.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
       "busqueda": "tablet lenovo tab 10 1 wifi 5 64gb",
@@ -473,15 +425,63 @@
       "precio_ref": 873.52,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g67 5g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto G67 5G - 128GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela 1.5K extreme Amoled 120hz, u",
-      "precio_ref": 1665.53,
+      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
+      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
+      "precio_ref": 233.11,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
+      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
+      "precio_ref": 1388.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Touch Screen - Luna Grey - Intel Core i5-13420H, 8GB RAM, 512GB SSD, Windows 11",
+      "precio_ref": 4299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-17T09:56:38+00:00"
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
+      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
+      "precio_ref": 899.1,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "apple iphone 16e de 128 gb preto",
+      "nombre": "Apple iPhone 16e de 128 GB — Preto",
+      "precio_ref": 3665.56,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "smart tv 4k 65 lg nano uhd ai",
+      "nombre": "Smart TV 4K 65\" LG NANO UHD AI NU850 2026 Processador α7 Ger9 HDR10 Xbox Bluetooth Wi-Fi AI Search Google Gemini webOS 26 - 65NU850BPSA",
+      "precio_ref": 3349.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
+    },
+    {
+      "busqueda": "notebook intel celeron 14in 8gb ram 256gb ssd",
+      "nombre": "Notebook Intel Celeron 14in 8GB RAM 256GB SSD | 1920x1080 FHD, Laptop",
+      "precio_ref": 1999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-17T10:00:47+00:00"
     }
   ]
 }
