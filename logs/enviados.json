@@ -582,18 +582,6 @@
     ],
     "precio_min_publicado": 36.0
   },
-  "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
-    "ts": "2026-10-15T11:21:36.361367",
-    "canales": {
-      "whatsapp": "2026-10-15T11:21:36.361367"
-    },
-    "precio": 2.0,
-    "precios_publicados": [
-      2.0,
-      2.0
-    ],
-    "precio_min_publicado": 2.0
-  },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
     "ts": "2026-10-17T00:32:52.668128",
     "canales": {
@@ -1918,14 +1906,16 @@
     ]
   },
   "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-10-16T00:33:40.659059",
+    "ts": "2026-10-17T11:21:41.089860",
     "canales": {
-      "whatsapp": "2026-10-16T00:33:40.659059"
+      "whatsapp": "2026-10-17T11:21:41.089860"
     },
     "precio": 89.0,
     "precios_publicados": [
+      89.0,
       89.0
-    ]
+    ],
+    "precio_min_publicado": 89.0
   },
   "amz-cerave-locao-hidratante-corporal-com-textura-": {
     "ts": "2026-10-17T10:35:43.308975",
