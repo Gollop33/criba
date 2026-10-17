@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-17T03:01:08+00:00",
+  "actualizado": "2026-10-17T03:02:15+00:00",
   "total": 80,
   "fuentes": [
     "ML Oficial",
@@ -54,7 +54,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-17T03:01:08+00:00"
+      "capturado_em": "2026-10-17T03:02:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -106,7 +106,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-17T03:01:08+00:00"
+      "capturado_em": "2026-10-17T03:02:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -195,7 +195,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-17T03:01:08+00:00"
+      "capturado_em": "2026-10-17T03:02:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -286,7 +286,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-17T03:01:08+00:00"
+      "capturado_em": "2026-10-17T03:02:15+00:00"
     },
     {
       "codigo": "MEUVALE",
@@ -300,9 +300,7 @@
       "detectado_em": "2026-10-09T13:36:08+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": {
-        "id": "ACTIVE"
-      },
+      "estado": "ativo",
       "titulo": "30% OFF com MEUVALE",
       "capturado_em": "2026-10-16T12:01:00+00:00"
     },
@@ -933,7 +931,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-16T17:00:36+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CARE15",
@@ -1133,7 +1132,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-16T13:01:20+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-17T00:01:41-03:00"
 }
