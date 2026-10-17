@@ -1192,16 +1192,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "ml-torneira-cozinha-bancada-inox-304-agua-fria-b": {
-    "ts": "2026-10-15T01:56:39.718508",
-    "canales": {
-      "whatsapp": "2026-10-15T01:56:39.718508"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "ml-samsung-galaxy-watch8-smartwatch-40mm-lte-gal": {
     "ts": "2026-10-16T03:13:04.826852",
     "canales": {
@@ -1755,14 +1745,16 @@
     "precio_min_publicado": 74.0
   },
   "amz-omega-3-epa-dha-1g-120-caps-vitafor": {
-    "ts": "2026-10-15T16:20:33.404163",
+    "ts": "2026-10-17T01:59:52.932609",
     "canales": {
-      "whatsapp": "2026-10-15T16:20:33.404163"
+      "whatsapp": "2026-10-17T01:59:52.932609"
     },
     "precio": 91.0,
     "precios_publicados": [
+      91.0,
       91.0
-    ]
+    ],
+    "precio_min_publicado": 91.0
   },
   "amz-elg-f80n-suporte-articulado-de-mesa-pistao-a-": {
     "ts": "2026-10-17T00:43:15.788012",
