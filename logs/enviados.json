@@ -722,18 +722,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-colgate-tripla-acao-menta-original-creme-dent": {
-    "ts": "2026-10-15T10:56:38.366421",
-    "canales": {
-      "whatsapp": "2026-10-15T10:56:38.366421"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0,
-      26.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-10-16T12:01:05.010976",
     "canales": {
@@ -1854,14 +1842,16 @@
     "precio_min_publicado": 22.0
   },
   "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
-    "ts": "2026-10-15T23:50:13.315482",
+    "ts": "2026-10-17T10:56:44.163238",
     "canales": {
-      "whatsapp": "2026-10-15T23:50:13.315482"
+      "whatsapp": "2026-10-17T10:56:44.163238"
     },
     "precio": 29.0,
     "precios_publicados": [
+      29.0,
       29.0
-    ]
+    ],
+    "precio_min_publicado": 29.0
   },
   "ml-papel-higienico-folha-dupla-neve-leve-16-pagu": {
     "ts": "2026-10-15T23:52:34.226569",
