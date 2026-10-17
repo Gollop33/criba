@@ -1480,16 +1480,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "amz-cabo-carregador-usbc-tipo-c-turbo-60w-1-metro": {
-    "ts": "2026-10-15T22:48:09.785915",
-    "canales": {
-      "whatsapp": "2026-10-15T22:48:09.785915"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "ml-jogo-de-panelas-ceramico-antiaderente-8-pecas": {
     "ts": "2026-10-15T22:52:20.613632",
     "canales": {
@@ -2243,14 +2233,16 @@
     ]
   },
   "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
-    "ts": "2026-10-16T18:35:51.897156",
+    "ts": "2026-10-17T22:50:25.064906",
     "canales": {
-      "whatsapp": "2026-10-16T18:35:51.897156"
+      "whatsapp": "2026-10-17T22:50:25.064906"
     },
-    "precio": 52.0,
+    "precio": 54.0,
     "precios_publicados": [
-      52.0
-    ]
+      52.0,
+      54.0
+    ],
+    "precio_min_publicado": 52.0
   },
   "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
     "ts": "2026-10-16T18:41:35.348871",
