@@ -177,18 +177,6 @@
     ],
     "precio_min_publicado": 69.0
   },
-  "ml-relogio-inteligente-smartwatch-gps-autonomo-n": {
-    "ts": "2026-10-15T12:14:44.600663",
-    "canales": {
-      "whatsapp": "2026-10-15T12:14:44.600663"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      190.0,
-      189.0
-    ],
-    "precio_min_publicado": 190.0
-  },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
     "ts": "2026-10-16T17:16:01.804560",
     "canales": {
@@ -1118,16 +1106,6 @@
       48.0
     ],
     "precio_min_publicado": 56.0
-  },
-  "ml-psyllium-velez-200g-puro-rico-em-fibras-100-n": {
-    "ts": "2026-10-15T12:20:41.326480",
-    "canales": {
-      "whatsapp": "2026-10-15T12:20:41.326480"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0
-    ]
   },
   "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
     "ts": "2026-10-16T22:17:39.939573",
@@ -2975,6 +2953,16 @@
     "precio": 74.0,
     "precios_publicados": [
       74.0
+    ]
+  },
+  "amz-luxcar-new-fresh-gel-carro-novo-60-g-aromatiz": {
+    "ts": "2026-10-17T12:22:30.672802",
+    "canales": {
+      "whatsapp": "2026-10-17T12:22:30.672802"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
