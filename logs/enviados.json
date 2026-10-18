@@ -774,18 +774,6 @@
     ],
     "precio_min_publicado": 209.0
   },
-  "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-10-16T14:42:46.636671",
-    "canales": {
-      "whatsapp": "2026-10-16T14:42:46.636671"
-    },
-    "precio": 174.0,
-    "precios_publicados": [
-      174.0,
-      174.0
-    ],
-    "precio_min_publicado": 174.0
-  },
   "ml-mercusys-mc510-camera-de-seguranca-wifi-exter": {
     "ts": "2026-10-18T01:49:23.867113",
     "canales": {
@@ -1423,16 +1411,6 @@
       108.0
     ],
     "precio_min_publicado": 70.0
-  },
-  "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
-    "ts": "2026-10-16T14:35:48.843609",
-    "canales": {
-      "whatsapp": "2026-10-16T14:35:48.843609"
-    },
-    "precio": 988.0,
-    "precios_publicados": [
-      988.0
-    ]
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-10-17T14:53:31.005270",
@@ -3428,6 +3406,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-huggies-fralda-descartavel-premium-natural-ca": {
+    "ts": "2026-10-18T14:43:22.230162",
+    "canales": {
+      "whatsapp": "2026-10-18T14:43:22.230162"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
