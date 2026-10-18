@@ -1556,16 +1556,6 @@
     ],
     "precio_min_publicado": 1655.0
   },
-  "amz-protetor-diario-carefree-todo-dia-80-unidades": {
-    "ts": "2026-10-16T10:39:04.735200",
-    "canales": {
-      "whatsapp": "2026-10-16T10:39:04.735200"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "ml-pipoqueira-ceramic-life-pic-poc-55l-vanilla-b": {
     "ts": "2026-10-16T10:48:45.509077",
     "canales": {
@@ -3462,6 +3452,16 @@
     "precio": 419.0,
     "precios_publicados": [
       419.0
+    ]
+  },
+  "ml-projetor-smart-portatil-full-hd-4k-android-11": {
+    "ts": "2026-10-18T10:42:45.296712",
+    "canales": {
+      "whatsapp": "2026-10-18T10:42:45.296712"
+    },
+    "precio": 199.0,
+    "precios_publicados": [
+      199.0
     ]
   }
 }
