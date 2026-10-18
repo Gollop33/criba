@@ -461,19 +461,6 @@
     ],
     "precio_min_publicado": 50.0
   },
-  "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
-    "ts": "2026-10-16T11:01:32.338957",
-    "canales": {
-      "whatsapp": "2026-10-16T11:01:32.338957"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      54.0,
-      54.0,
-      54.0
-    ],
-    "precio_min_publicado": 54.0
-  },
   "ml-tenis-fila-academia-corrida-caminhada-macio-t": {
     "ts": "2026-10-17T02:39:36.929600",
     "canales": {
@@ -890,18 +877,6 @@
       66.0
     ],
     "precio_min_publicado": 66.0
-  },
-  "amz-absorvente-noturno-com-abas-sempre-livre-cobe": {
-    "ts": "2026-10-16T10:58:19.872621",
-    "canales": {
-      "whatsapp": "2026-10-16T10:58:19.872621"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      20.0,
-      22.0
-    ],
-    "precio_min_publicado": 20.0
   },
   "amz-absorvente-com-abas-sempre-livre-adapt-cobert": {
     "ts": "2026-10-16T11:25:57.739027",
@@ -1543,16 +1518,6 @@
       1655.0
     ],
     "precio_min_publicado": 1655.0
-  },
-  "ml-monitor-portatil-full-hd-156-notebook-celular": {
-    "ts": "2026-10-16T10:59:34.145628",
-    "canales": {
-      "whatsapp": "2026-10-16T10:59:34.145628"
-    },
-    "precio": 298.0,
-    "precios_publicados": [
-      298.0
-    ]
   },
   "ml-kit-10-pote-de-vidro-marmita-hermetico-370ml-": {
     "ts": "2026-10-16T11:05:04.759148",
@@ -3460,6 +3425,16 @@
     "precio": 1399.0,
     "precios_publicados": [
       1399.0
+    ]
+  },
+  "ml-armario-de-cozinha-poliman-moveis-clarice-12-": {
+    "ts": "2026-10-18T11:05:03.824284",
+    "canales": {
+      "whatsapp": "2026-10-18T11:05:03.824284"
+    },
+    "precio": 495.0,
+    "precios_publicados": [
+      495.0
     ]
   }
 }
