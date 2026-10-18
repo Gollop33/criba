@@ -1454,16 +1454,6 @@
     ],
     "precio_min_publicado": 497.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
-    "ts": "2026-10-16T23:52:44.916720",
-    "canales": {
-      "whatsapp": "2026-10-16T23:52:44.916720"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "amz-purina-friskies-carne-ao-molho-racao-umida-85": {
     "ts": "2026-10-17T00:08:51.894105",
     "canales": {
@@ -3392,6 +3382,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
+    "ts": "2026-10-18T23:57:11.508191",
+    "canales": {
+      "whatsapp": "2026-10-18T23:57:11.508191"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
