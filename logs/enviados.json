@@ -1519,16 +1519,6 @@
     ],
     "precio_min_publicado": 1655.0
   },
-  "ml-kit-10-pote-de-vidro-marmita-hermetico-370ml-": {
-    "ts": "2026-10-16T11:05:04.759148",
-    "canales": {
-      "whatsapp": "2026-10-16T11:05:04.759148"
-    },
-    "precio": 75.0,
-    "precios_publicados": [
-      75.0
-    ]
-  },
   "ml-vestido-longo-tule-brilho-com-manga-e-fenda-c": {
     "ts": "2026-10-16T11:16:00.590215",
     "canales": {
@@ -1978,14 +1968,16 @@
     ]
   },
   "ml-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
-    "ts": "2026-10-16T20:26:49.177982",
+    "ts": "2026-10-18T11:07:08.658105",
     "canales": {
-      "whatsapp": "2026-10-16T20:26:49.177982"
+      "whatsapp": "2026-10-18T11:07:08.658105"
     },
     "precio": 1799.0,
     "precios_publicados": [
+      1799.0,
       1799.0
-    ]
+    ],
+    "precio_min_publicado": 1799.0
   },
   "ml-camera-veicular-ddpai-z60-pro-4g-com-suporta-": {
     "ts": "2026-10-16T21:49:28.862027",
