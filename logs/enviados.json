@@ -841,12 +841,13 @@
     "precio_min_publicado": 873.0
   },
   "ml-lixeira-inteligente-automatica-16l-sensor-inf": {
-    "ts": "2026-10-17T12:39:24.933192",
+    "ts": "2026-10-18T12:40:28.365027",
     "canales": {
-      "whatsapp": "2026-10-17T12:39:24.933192"
+      "whatsapp": "2026-10-18T12:40:28.365027"
     },
     "precio": 66.0,
     "precios_publicados": [
+      66.0,
       66.0,
       66.0,
       66.0
@@ -1481,16 +1482,6 @@
       284.0
     ],
     "precio_min_publicado": 269.0
-  },
-  "amz-combo-teclado-e-mouse-sem-fio-logitech-mk250-": {
-    "ts": "2026-10-16T12:39:57.412387",
-    "canales": {
-      "whatsapp": "2026-10-16T12:39:57.412387"
-    },
-    "precio": 176.0,
-    "precios_publicados": [
-      176.0
-    ]
   },
   "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
     "ts": "2026-10-16T13:01:57.894191",
