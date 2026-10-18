@@ -906,18 +906,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
-    "ts": "2026-10-16T12:49:35.834625",
-    "canales": {
-      "whatsapp": "2026-10-16T12:49:35.834625"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      24.0,
-      15.0
-    ],
-    "precio_min_publicado": 24.0
-  },
   "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
     "ts": "2026-10-18T00:12:52.302844",
     "canales": {
@@ -3445,6 +3433,16 @@
     "precio": 150.0,
     "precios_publicados": [
       150.0
+    ]
+  },
+  "ml-tablet-vaio-tl10-4gb-ram-128gb-octacore-tela-": {
+    "ts": "2026-10-18T12:52:01.693972",
+    "canales": {
+      "whatsapp": "2026-10-18T12:52:01.693972"
+    },
+    "precio": 1224.0,
+    "precios_publicados": [
+      1224.0
     ]
   }
 }
