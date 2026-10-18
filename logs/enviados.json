@@ -1402,16 +1402,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "ml-racao-quatree-life-gatos-ad-castrados-101kg-s": {
-    "ts": "2026-10-16T18:16:57.197807",
-    "canales": {
-      "whatsapp": "2026-10-16T18:16:57.197807"
-    },
-    "precio": 162.0,
-    "precios_publicados": [
-      162.0
-    ]
-  },
   "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
     "ts": "2026-10-16T18:21:35.564500",
     "canales": {
@@ -3400,6 +3390,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-oleo-de-banho-200ml-li": {
+    "ts": "2026-10-18T18:17:08.537329",
+    "canales": {
+      "whatsapp": "2026-10-18T18:17:08.537329"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
