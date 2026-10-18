@@ -860,18 +860,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-10-16T06:25:12.927919",
-    "canales": {
-      "whatsapp": "2026-10-16T06:25:12.927919"
-    },
-    "precio": 4179.0,
-    "precios_publicados": [
-      3955.0,
-      4179.0
-    ],
-    "precio_min_publicado": 3955.0
-  },
   "ml-baba-eletronica-monitor-24-sem-fio-zoom-baby-": {
     "ts": "2026-10-17T16:35:36.545394",
     "canales": {
@@ -3412,6 +3400,16 @@
     "precio": 5748.0,
     "precios_publicados": [
       5748.0
+    ]
+  },
+  "amz-sanduicheira-eletrica-cadence-click-127v": {
+    "ts": "2026-10-18T06:28:42.138806",
+    "canales": {
+      "whatsapp": "2026-10-18T06:28:42.138806"
+    },
+    "precio": 80.0,
+    "precios_publicados": [
+      80.0
     ]
   }
 }
