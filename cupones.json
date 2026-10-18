@@ -1,11 +1,29 @@
 {
-  "actualizado": "2026-10-18T19:42:11+00:00",
-  "total": 84,
+  "actualizado": "2026-10-18T21:52:18+00:00",
+  "total": 85,
   "fuentes": [
     "Telegram ML Afiliados",
     "ML Oficial"
   ],
   "cupones": [
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "30% OFF com BARRATINHOJA",
+      "codigo": "BARRATINHOJA",
+      "desconto": "30% OFF",
+      "compra_minima": null,
+      "limite": null,
+      "vencimento": null,
+      "hasta": null,
+      "estado": {
+        "id": "ACTIVE"
+      },
+      "categoria": "Cupons Oficiais",
+      "fonte": "ML Oficial",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "capturado_em": "2026-10-18T21:52:18+00:00"
+    },
     {
       "tienda": "Mercado Livre",
       "titulo": "Cupom Oficial ML BRAND",
@@ -68,7 +86,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T19:42:11+00:00"
+      "capturado_em": "2026-10-18T21:52:18+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -154,7 +172,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T19:42:11+00:00"
+      "capturado_em": "2026-10-18T21:52:18+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -225,7 +243,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T19:42:11+00:00"
+      "capturado_em": "2026-10-18T21:52:18+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -243,7 +261,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T19:42:11+00:00"
+      "capturado_em": "2026-10-18T21:52:18+00:00"
     },
     {
       "tienda": "Mercado Livre",

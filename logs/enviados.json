@@ -420,19 +420,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
-    "ts": "2026-10-16T19:54:59.741312",
-    "canales": {
-      "whatsapp": "2026-10-16T19:54:59.741312"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      53.0,
-      50.0,
-      52.0
-    ],
-    "precio_min_publicado": 50.0
-  },
   "ml-tenis-fila-academia-corrida-caminhada-macio-t": {
     "ts": "2026-10-17T02:39:36.929600",
     "canales": {
@@ -1422,26 +1409,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "ml-camisa-gola-polo-masculina-pique-premium-algo": {
-    "ts": "2026-10-16T20:00:10.923038",
-    "canales": {
-      "whatsapp": "2026-10-16T20:00:10.923038"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
-  "amz-ype-detergente-em-po-para-maquina-1kg-formula": {
-    "ts": "2026-10-16T20:04:33.822689",
-    "canales": {
-      "whatsapp": "2026-10-16T20:04:33.822689"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
     "ts": "2026-10-18T18:15:36.577959",
     "canales": {
@@ -1465,16 +1432,6 @@
       1799.0
     ],
     "precio_min_publicado": 1799.0
-  },
-  "ml-camera-veicular-ddpai-z60-pro-4g-com-suporta-": {
-    "ts": "2026-10-16T21:49:28.862027",
-    "canales": {
-      "whatsapp": "2026-10-16T21:49:28.862027"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
   },
   "ml-patinete-eletrico-m4-800w-48v156ah-com-ajusta": {
     "ts": "2026-10-16T21:54:01.581584",
@@ -3403,5 +3360,11 @@
     "precios_publicados": [
       21.0
     ]
+  },
+  "cupom-ml-095f00ee4d": {
+    "ts": "2026-10-18T21:52:19.342101",
+    "canales": {
+      "whatsapp": "2026-10-18T21:52:19.342101"
+    }
   }
 }
