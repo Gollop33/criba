@@ -1520,16 +1520,6 @@
     ],
     "precio_min_publicado": 1655.0
   },
-  "ml-vestido-longo-tule-brilho-com-manga-e-fenda-c": {
-    "ts": "2026-10-16T11:16:00.590215",
-    "canales": {
-      "whatsapp": "2026-10-16T11:16:00.590215"
-    },
-    "precio": 125.0,
-    "precios_publicados": [
-      125.0
-    ]
-  },
   "ml-lenco-umedecido-kit-higiene-upa-bebe-12-pcts-": {
     "ts": "2026-10-16T11:28:18.766147",
     "canales": {
@@ -2085,14 +2075,16 @@
     ]
   },
   "ml-cadeira-escritorio-ergonomica-genebra-b500-lu": {
-    "ts": "2026-10-16T23:19:09.417661",
+    "ts": "2026-10-18T11:16:27.108460",
     "canales": {
-      "whatsapp": "2026-10-16T23:19:09.417661"
+      "whatsapp": "2026-10-18T11:16:27.108460"
     },
     "precio": 497.0,
     "precios_publicados": [
+      497.0,
       497.0
-    ]
+    ],
+    "precio_min_publicado": 497.0
   },
   "ml-cadeira-de-escritorio-gamer-nitro-ergonomica-": {
     "ts": "2026-10-16T23:29:25.386128",
