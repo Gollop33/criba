@@ -152,20 +152,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "ml-carregador-portatil-power-bank-turbo-20000mah": {
-    "ts": "2026-10-16T17:46:18.449426",
-    "canales": {
-      "whatsapp": "2026-10-16T17:46:18.449426"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      99.0,
-      69.0,
-      109.0,
-      109.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
     "ts": "2026-10-17T22:41:54.380811",
     "canales": {
@@ -2390,14 +2376,16 @@
     ]
   },
   "ml-jaguaride-patinete-eletrico-scooter-adulto-xm": {
-    "ts": "2026-10-17T17:40:36.446566",
+    "ts": "2026-10-18T17:47:59.503120",
     "canales": {
-      "whatsapp": "2026-10-17T17:40:36.446566"
+      "whatsapp": "2026-10-18T17:47:59.503120"
     },
     "precio": 1088.0,
     "precios_publicados": [
+      1088.0,
       1088.0
-    ]
+    ],
+    "precio_min_publicado": 1088.0
   },
   "ml-notebook-vaio-fe16-intel-core-i31315u-linux-8": {
     "ts": "2026-10-17T17:45:23.510791",
