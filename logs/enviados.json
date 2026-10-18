@@ -1459,16 +1459,6 @@
     ],
     "precio_min_publicado": 269.0
   },
-  "ml-patinete-eletrico-adulto-xm01-350w-velocidade": {
-    "ts": "2026-10-16T13:21:50.209263",
-    "canales": {
-      "whatsapp": "2026-10-16T13:21:50.209263"
-    },
-    "precio": 1125.0,
-    "precios_publicados": [
-      1125.0
-    ]
-  },
   "ml-smartwatch-a-prova-dagua-mede-pressao-arteria": {
     "ts": "2026-10-18T13:21:42.102039",
     "canales": {
@@ -3453,6 +3443,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "ml-parafusadeira-furadeira-de-impacto-atverce-se": {
+    "ts": "2026-10-18T13:28:43.421715",
+    "canales": {
+      "whatsapp": "2026-10-18T13:28:43.421715"
+    },
+    "precio": 126.0,
+    "precios_publicados": [
+      126.0
     ]
   }
 }
