@@ -1402,16 +1402,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "ml-caixa-de-som-boombox-plus-aiwa-bbs01bg-200w-b": {
-    "ts": "2026-10-16T18:02:26.244454",
-    "canales": {
-      "whatsapp": "2026-10-16T18:02:26.244454"
-    },
-    "precio": 1259.0,
-    "precios_publicados": [
-      1259.0
-    ]
-  },
   "amz-cif-limpador-especialista-derrete-gordura-500": {
     "ts": "2026-10-16T18:10:14.957650",
     "canales": {
@@ -3398,6 +3388,16 @@
     "precio": 488.0,
     "precios_publicados": [
       488.0
+    ]
+  },
+  "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
+    "ts": "2026-10-18T18:03:44.792128",
+    "canales": {
+      "whatsapp": "2026-10-18T18:03:44.792128"
+    },
+    "precio": 55.0,
+    "precios_publicados": [
+      55.0
     ]
   }
 }
