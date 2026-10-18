@@ -1424,16 +1424,6 @@
     ],
     "precio_min_publicado": 70.0
   },
-  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
-    "ts": "2026-10-16T14:21:41.952427",
-    "canales": {
-      "whatsapp": "2026-10-16T14:21:41.952427"
-    },
-    "precio": 2402.0,
-    "precios_publicados": [
-      2402.0
-    ]
-  },
   "amz-fralda-pampers-confort-sec-tamanho-xg-148-uni": {
     "ts": "2026-10-16T14:28:46.628084",
     "canales": {
@@ -3436,6 +3426,16 @@
     "precio": 45.0,
     "precios_publicados": [
       45.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-10-18T14:24:43.693608",
+    "canales": {
+      "whatsapp": "2026-10-18T14:24:43.693608"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
