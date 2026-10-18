@@ -879,18 +879,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-10-16T12:36:16.782288",
-    "canales": {
-      "whatsapp": "2026-10-16T12:36:16.782288"
-    },
-    "precio": 6.0,
-    "precios_publicados": [
-      6.0,
-      6.0
-    ],
-    "precio_min_publicado": 6.0
-  },
   "amz-ype-amaciante-tradicional-ultra-aconchego-5l-": {
     "ts": "2026-10-18T00:21:47.679522",
     "canales": {
@@ -3446,6 +3434,16 @@
     "precio": 1299.0,
     "precios_publicados": [
       1299.0
+    ]
+  },
+  "ml-racao-quatree-supreme-gatos-adultos-castrados": {
+    "ts": "2026-10-18T12:37:37.189461",
+    "canales": {
+      "whatsapp": "2026-10-18T12:37:37.189461"
+    },
+    "precio": 181.0,
+    "precios_publicados": [
+      181.0
     ]
   }
 }
