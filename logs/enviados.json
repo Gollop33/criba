@@ -746,18 +746,6 @@
     ],
     "precio_min_publicado": 93.0
   },
-  "amz-fralda-turma-da-monica-baby-jumbo-rn-36-unida": {
-    "ts": "2026-10-16T10:46:32.577885",
-    "canales": {
-      "whatsapp": "2026-10-16T10:46:32.577885"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      20.0,
-      24.0
-    ],
-    "precio_min_publicado": 20.0
-  },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-10-17T11:35:52.050344",
     "canales": {
@@ -1555,16 +1543,6 @@
       1655.0
     ],
     "precio_min_publicado": 1655.0
-  },
-  "ml-pipoqueira-ceramic-life-pic-poc-55l-vanilla-b": {
-    "ts": "2026-10-16T10:48:45.509077",
-    "canales": {
-      "whatsapp": "2026-10-16T10:48:45.509077"
-    },
-    "precio": 117.0,
-    "precios_publicados": [
-      117.0
-    ]
   },
   "ml-monitor-portatil-full-hd-156-notebook-celular": {
     "ts": "2026-10-16T10:59:34.145628",
@@ -3462,6 +3440,16 @@
     "precio": 199.0,
     "precios_publicados": [
       199.0
+    ]
+  },
+  "ml-formula-natural-pro-cao-adulto-medio-e-grande": {
+    "ts": "2026-10-18T10:49:09.997977",
+    "canales": {
+      "whatsapp": "2026-10-18T10:49:09.997977"
+    },
+    "precio": 182.0,
+    "precios_publicados": [
+      182.0
     ]
   }
 }
