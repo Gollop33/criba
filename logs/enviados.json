@@ -1624,26 +1624,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "ml-tenis-new-balance-academia-corrida-caminhada-": {
-    "ts": "2026-10-16T01:28:56.080311",
-    "canales": {
-      "whatsapp": "2026-10-16T01:28:56.080311"
-    },
-    "precio": 92.0,
-    "precios_publicados": [
-      92.0
-    ]
-  },
-  "ml-bolsa-termica-para-leite-materno-porta-mamade": {
-    "ts": "2026-10-16T01:35:46.705482",
-    "canales": {
-      "whatsapp": "2026-10-16T01:35:46.705482"
-    },
-    "precio": 71.0,
-    "precios_publicados": [
-      71.0
-    ]
-  },
   "ml-tenis-new-balance-1080-casual-para-treinar-ac": {
     "ts": "2026-10-16T02:16:19.727631",
     "canales": {
@@ -3380,6 +3360,16 @@
     "precio": 237.0,
     "precios_publicados": [
       237.0
+    ]
+  },
+  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
+    "ts": "2026-10-18T01:37:12.727745",
+    "canales": {
+      "whatsapp": "2026-10-18T01:37:12.727745"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
