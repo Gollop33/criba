@@ -1496,14 +1496,16 @@
     "precio_min_publicado": 1655.0
   },
   "ml-air-fryer-philco-65l-visor-glass-e-redstone-1": {
-    "ts": "2026-10-16T11:55:41.271229",
+    "ts": "2026-10-18T11:54:59.594042",
     "canales": {
-      "whatsapp": "2026-10-16T11:55:41.271229"
+      "whatsapp": "2026-10-18T11:54:59.594042"
     },
-    "precio": 269.0,
+    "precio": 284.0,
     "precios_publicados": [
-      269.0
-    ]
+      269.0,
+      284.0
+    ],
+    "precio_min_publicado": 269.0
   },
   "ml-kit-2-garrafa-copo-de-alce-agua-infantil-cria": {
     "ts": "2026-10-16T12:07:07.073633",
