@@ -1461,16 +1461,6 @@
     ],
     "precio_min_publicado": 4609.0
   },
-  "amz-cabo-carregador-turbo-usbc-1-metro-trancado-d": {
-    "ts": "2026-10-16T22:35:55.423565",
-    "canales": {
-      "whatsapp": "2026-10-16T22:35:55.423565"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "ml-bicicleta-ergometrica-spinning-bike-ergometri": {
     "ts": "2026-10-16T22:39:44.638532",
     "canales": {
@@ -3389,6 +3379,16 @@
     "precio": 2350.0,
     "precios_publicados": [
       2350.0
+    ]
+  },
+  "ml-nac-600mg-formula-exclusiva-com-maxima-concen": {
+    "ts": "2026-10-18T22:37:30.450011",
+    "canales": {
+      "whatsapp": "2026-10-18T22:37:30.450011"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
