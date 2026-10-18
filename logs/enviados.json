@@ -1557,16 +1557,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "ml-tenis-kappa-sparta-unissex-original-confortav": {
-    "ts": "2026-10-16T00:01:19.792443",
-    "canales": {
-      "whatsapp": "2026-10-16T00:01:19.792443"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "ml-sapatenis-leve-de-ziper-super-conforto": {
     "ts": "2026-10-16T00:07:16.573643",
     "canales": {
@@ -3359,6 +3349,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "ml-locao-hidratante-corporal-isdin-ureadin-10": {
+    "ts": "2026-10-18T00:03:00.939601",
+    "canales": {
+      "whatsapp": "2026-10-18T00:03:00.939601"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
