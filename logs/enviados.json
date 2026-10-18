@@ -2311,14 +2311,16 @@
     ]
   },
   "ml-carregador-fonte-apple-iphone-turbo-original-": {
-    "ts": "2026-10-17T15:19:14.577168",
+    "ts": "2026-10-18T16:08:02.125902",
     "canales": {
-      "whatsapp": "2026-10-17T15:19:14.577168"
+      "whatsapp": "2026-10-18T16:08:02.125902"
     },
     "precio": 112.0,
     "precios_publicados": [
+      112.0,
       112.0
-    ]
+    ],
+    "precio_min_publicado": 112.0
   },
   "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
     "ts": "2026-10-17T15:20:25.392655",
