@@ -188,19 +188,6 @@
     ],
     "precio_min_publicado": 49.0
   },
-  "ml-suco-de-uva-e-maca-natural-one-ambiente-liqui": {
-    "ts": "2026-10-16T10:06:08.114507",
-    "canales": {
-      "whatsapp": "2026-10-16T10:06:08.114507"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0,
-      8.0,
-      8.0
-    ],
-    "precio_min_publicado": 8.0
-  },
   "amz-wanpytruly-creamy-petisco-cremoso-para-gatos-": {
     "ts": "2026-10-16T15:12:25.430597",
     "canales": {
@@ -500,19 +487,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
-    "ts": "2026-10-16T10:22:37.869055",
-    "canales": {
-      "whatsapp": "2026-10-16T10:22:37.869055"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0,
-      45.0,
-      45.0
-    ],
-    "precio_min_publicado": 45.0
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-10-17T21:15:59.954743",
     "canales": {
@@ -782,18 +756,6 @@
       24.0
     ],
     "precio_min_publicado": 20.0
-  },
-  "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
-    "ts": "2026-10-16T10:15:28.831194",
-    "canales": {
-      "whatsapp": "2026-10-16T10:15:28.831194"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0,
-      14.0
-    ],
-    "precio_min_publicado": 14.0
   },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-10-17T11:35:52.050344",
@@ -1592,16 +1554,6 @@
       1655.0
     ],
     "precio_min_publicado": 1655.0
-  },
-  "ml-comedouro-e-bebedouro-automatico-duplo-para-c": {
-    "ts": "2026-10-16T10:31:26.489285",
-    "canales": {
-      "whatsapp": "2026-10-16T10:31:26.489285"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
   },
   "amz-protetor-diario-carefree-todo-dia-80-unidades": {
     "ts": "2026-10-16T10:39:04.735200",
@@ -3489,6 +3441,16 @@
     "precio": 644.0,
     "precios_publicados": [
       644.0
+    ]
+  },
+  "ml-fone-ouvido-bluetooth-54-sem-fio-estojo-de-ca": {
+    "ts": "2026-10-18T10:32:48.401526",
+    "canales": {
+      "whatsapp": "2026-10-18T10:32:48.401526"
+    },
+    "precio": 42.0,
+    "precios_publicados": [
+      42.0
     ]
   }
 }
