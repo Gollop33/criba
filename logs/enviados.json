@@ -1418,16 +1418,6 @@
     ],
     "precio_min_publicado": 62.0
   },
-  "amz-lysoform-suave-odor-desinfetante-liquido-limp": {
-    "ts": "2026-10-16T16:20:00.969907",
-    "canales": {
-      "whatsapp": "2026-10-16T16:20:00.969907"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-esponja-esfrelux-leve-4-pague-3": {
     "ts": "2026-10-16T16:28:00.705190",
     "canales": {
@@ -3422,6 +3412,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "ml-racao-biofresh-super-premium-gato-castrado-ad": {
+    "ts": "2026-10-18T16:21:45.628920",
+    "canales": {
+      "whatsapp": "2026-10-18T16:21:45.628920"
+    },
+    "precio": 239.0,
+    "precios_publicados": [
+      239.0
     ]
   }
 }
