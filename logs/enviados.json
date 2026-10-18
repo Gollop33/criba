@@ -1400,16 +1400,6 @@
     ],
     "precio_min_publicado": 1450.0
   },
-  "amz-amaciante-de-roupa-ype-tradicional-5l-ultra-i": {
-    "ts": "2026-10-16T15:33:53.215301",
-    "canales": {
-      "whatsapp": "2026-10-16T15:33:53.215301"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-10-16T15:43:46.438139",
     "canales": {
@@ -3434,6 +3424,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "ml-banha-de-porco-suina-natural-sem-conservantes": {
+    "ts": "2026-10-18T15:39:19.804606",
+    "canales": {
+      "whatsapp": "2026-10-18T15:39:19.804606"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
