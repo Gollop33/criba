@@ -1424,16 +1424,6 @@
     ],
     "precio_min_publicado": 70.0
   },
-  "amz-fralda-pampers-confort-sec-tamanho-xg-148-uni": {
-    "ts": "2026-10-16T14:28:46.628084",
-    "canales": {
-      "whatsapp": "2026-10-16T14:28:46.628084"
-    },
-    "precio": 215.0,
-    "precios_publicados": [
-      215.0
-    ]
-  },
   "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
     "ts": "2026-10-16T14:35:48.843609",
     "canales": {
@@ -2077,14 +2067,16 @@
     ]
   },
   "amz-bepantol-derma-rosa-mosqueta-hidratante-multi": {
-    "ts": "2026-10-17T09:21:39.647507",
+    "ts": "2026-10-18T14:33:18.772385",
     "canales": {
-      "whatsapp": "2026-10-17T09:21:39.647507"
+      "whatsapp": "2026-10-18T14:33:18.772385"
     },
     "precio": 33.0,
     "precios_publicados": [
+      33.0,
       33.0
-    ]
+    ],
+    "precio_min_publicado": 33.0
   },
   "amz-protetor-solar-facial-minesol-oil-control-sem": {
     "ts": "2026-10-17T10:42:51.812871",
