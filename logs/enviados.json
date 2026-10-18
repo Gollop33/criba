@@ -1402,16 +1402,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-10-16T18:10:14.957650",
-    "canales": {
-      "whatsapp": "2026-10-16T18:10:14.957650"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "ml-racao-quatree-life-gatos-ad-castrados-101kg-s": {
     "ts": "2026-10-16T18:16:57.197807",
     "canales": {
@@ -1505,14 +1495,16 @@
     ]
   },
   "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
-    "ts": "2026-10-16T20:22:20.661650",
+    "ts": "2026-10-18T18:15:36.577959",
     "canales": {
-      "whatsapp": "2026-10-16T20:22:20.661650"
+      "whatsapp": "2026-10-18T18:15:36.577959"
     },
     "precio": 2705.0,
     "precios_publicados": [
+      2705.0,
       2705.0
-    ]
+    ],
+    "precio_min_publicado": 2705.0
   },
   "ml-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
     "ts": "2026-10-18T11:07:08.658105",
