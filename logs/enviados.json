@@ -2406,14 +2406,16 @@
     ]
   },
   "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
-    "ts": "2026-10-17T00:25:44.248720",
+    "ts": "2026-10-18T00:45:12.456336",
     "canales": {
-      "whatsapp": "2026-10-17T00:25:44.248720"
+      "whatsapp": "2026-10-18T00:45:12.456336"
     },
-    "precio": 10.0,
+    "precio": 13.0,
     "precios_publicados": [
-      10.0
-    ]
+      10.0,
+      13.0
+    ],
+    "precio_min_publicado": 10.0
   },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-10-17T00:34:22.533618",
