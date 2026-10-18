@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-18T21:07:34+00:00",
+  "actualizado": "2026-10-18T21:14:40+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "creatina dark lab premium pure em po sem",
@@ -17,7 +17,7 @@
       "precio_ref": 49.92,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "patinete eletrico ix3 dobravel para adultos com banco",
@@ -25,7 +25,7 @@
       "precio_ref": 2621.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "notebook vaio fe16 amd ryzen 5 5625u linux",
@@ -33,23 +33,7 @@
       "precio_ref": 2998.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "mercusys mc510 camera de seguranca wi fi externa",
-      "nombre": "Mercusys MC510 Câmera de Segurança Wi-Fi Externa 2K 3MP, Rotação 360°, Visão Noturna Colorida, Detecção de Pessoas e Rastreamento de Movimento, IP65, Áudio Bidirecional, Alexa e MicroSD até 512 GB",
-      "precio_ref": 142.42,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "jogo de toalhas 4 pcs fio cardado 100",
-      "nombre": "Jogo De Toalhas 4 Pçs Fio Cardado 100% Algodão Bosco Karsten",
-      "precio_ref": 99.3,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "notebook gamer acer nitro v15 anv15 52 52vn",
@@ -57,7 +41,23 @@
       "precio_ref": 6699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "mercusys mc510 camera de seguranca wi fi externa",
+      "nombre": "Mercusys MC510 Câmera de Segurança Wi-Fi Externa 2K 3MP, Rotação 360°, Visão Noturna Colorida, Detecção de Pessoas e Rastreamento de Movimento, IP65, Áudio Bidirecional, Alexa e MicroSD até 512 GB",
+      "precio_ref": 142.42,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "jogo de toalhas 4 pcs fio cardado 100",
+      "nombre": "Jogo De Toalhas 4 Pçs Fio Cardado 100% Algodão Bosco Karsten",
+      "precio_ref": 99.3,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
@@ -65,7 +65,7 @@
       "precio_ref": 58.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
@@ -73,7 +73,7 @@
       "precio_ref": 15.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "fio dental reach essencial 100m menta 1 unidade",
@@ -81,7 +81,7 @@
       "precio_ref": 13.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "compressor de ar digital portatil lumi sem fio",
@@ -89,143 +89,7 @@
       "precio_ref": 61.84,
       "categoria": "Ferramentas",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
-      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
-      "precio_ref": 26.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "xiaomi poco x7 pro dual sim 5g 512gb",
-      "nombre": "Xiaomi Poco X7 Pro Dual SIM 5g 512gb Preto 12ram 50mpx",
-      "precio_ref": 2350.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 26.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "coenzima q10 200mg pura alta concentracao 60 capsulas",
-      "nombre": "Coenzima Q10 200mg Pura Alta Concentração 60 Cápsulas - Forged Nutrition Sem Sabor",
-      "precio_ref": 48.93,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "cerave locao hidratante corporal com textura fluida e",
-      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-      "precio_ref": 93.73,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
-      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
-      "precio_ref": 29.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
-      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
-      "precio_ref": 34.57,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
-      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
-      "precio_ref": 82.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "nac 600mg formula exclusiva com maxima concentracao e",
-      "nombre": "NAC 600mg - Fórmula Exclusiva com Máxima Concentração e Pureza - N-Acetil L-Cisteína - 60 Cápsulas",
-      "precio_ref": 32.04,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "fralda pampers supersequinha tamanho g 80 unidades",
-      "nombre": "Fralda Pampers Supersequinha Tamanho G 80 Unidades",
-      "precio_ref": 79.7,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "xiaomi poco x7 pro 5g 12ram 512 gb",
-      "nombre": "Xiaomi Poco X7 Pro 5g 12ram /512 Gb Global Cor Preto",
-      "precio_ref": 2180.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
-      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
-      "precio_ref": 42.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
-      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
-      "precio_ref": 33.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 42.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 1kg 100 pura dark lab",
-      "nombre": "Creatina Monohidratada 1kg 100% Pura - Dark Lab",
-      "precio_ref": 58.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 45.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy watch8 smartwatch 40mm lte galaxy ai",
-      "nombre": "Samsung Galaxy Watch8 Smartwatch 40mm Lte, Galaxy Ai Caixa Prata Pulseira Prata Bisel Prata",
-      "precio_ref": 1169.0,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "switch gigabit de mesa tp link ls1005g com",
@@ -233,15 +97,103 @@
       "precio_ref": 78.09,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "kit doce de leite zero pasta de amendoim",
-      "nombre": "Kit Doce De Leite Zero Pasta De Amendoim  Panqueca C/whey",
-      "precio_ref": 65.16,
+      "busqueda": "xiaomi poco x7 pro dual sim 5g 512gb",
+      "nombre": "Xiaomi Poco X7 Pro Dual SIM 5g 512gb Preto 12ram 50mpx",
+      "precio_ref": 2350.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
+      "precio_ref": 34.57,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "coenzima q10 200mg pura alta concentracao 60 capsulas",
+      "nombre": "Coenzima Q10 200mg Pura Alta Concentração 60 Cápsulas - Forged Nutrition Sem Sabor",
+      "precio_ref": 48.93,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 26.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "carregador super rapido 25w para samsung galaxy s24",
+      "nombre": "Carregador Super Rápido 25w Para Samsung Galaxy S24 S23 S22 S21 S20 Fe Ultra Motorola M22 M31 M32 M62 M63 M64 G15 Xiaomi Redmi Note 12 13 14 15 LG - Super Fast Cabo Blindado Tipo Usb C -Dtimp",
+      "precio_ref": 29.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "fralda pampers supersequinha tamanho g 80 unidades",
+      "nombre": "Fralda Pampers Supersequinha Tamanho G 80 Unidades",
+      "precio_ref": 79.7,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 45.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "nac 600mg formula exclusiva com maxima concentracao e",
+      "nombre": "NAC 600mg - Fórmula Exclusiva com Máxima Concentração e Pureza - N-Acetil L-Cisteína - 60 Cápsulas",
+      "precio_ref": 32.04,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
+      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
+      "precio_ref": 82.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "xiaomi poco x7 pro 5g 12ram 512 gb",
+      "nombre": "Xiaomi Poco X7 Pro 5g 12ram /512 Gb Global Cor Preto",
+      "precio_ref": 2180.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 42.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "vitamina d3 k2 menaquinona 7 formula com maxima",
+      "nombre": "VITAMINA D3 + K2 Menaquinona-7 - Fórmula com Máxima Concentração e Biodisponibilidade - 60 Cápsulas",
+      "precio_ref": 33.8,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "serum leave in cabelos finos elseve l oreal",
@@ -249,7 +201,31 @@
       "precio_ref": 32.5,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 1kg 100 pura dark lab",
+      "nombre": "Creatina Monohidratada 1kg 100% Pura - Dark Lab",
+      "precio_ref": 58.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "cerave locao hidratante corporal com textura fluida e",
+      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
+      "precio_ref": 93.73,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy watch8 smartwatch 40mm lte galaxy ai",
+      "nombre": "Samsung Galaxy Watch8 Smartwatch 40mm Lte, Galaxy Ai Caixa Prata Pulseira Prata Bisel Prata",
+      "precio_ref": 1169.0,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "isdin protetor solar facial fusion water 5 stars",
@@ -257,31 +233,23 @@
       "precio_ref": 77.62,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "suporte articulado para monitor 13 a 32 pistao",
-      "nombre": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto",
-      "precio_ref": 83.2,
-      "categoria": "Monitores & Displays",
+      "busqueda": "kit doce de leite zero pasta de amendoim",
+      "nombre": "Kit Doce De Leite Zero Pasta De Amendoim  Panqueca C/whey",
+      "precio_ref": 65.16,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "cetaphil creme hidratante",
-      "nombre": "Cetaphil Creme Hidratante",
-      "precio_ref": 89.9,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
+      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
+      "precio_ref": 26.9,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "colchao para berco americano prorelax baby d18 70x130",
-      "nombre": "Colchão para Berço Americano Prorelax Baby D18, 70x130 cm, Branco Impermeável Antialérgico",
-      "precio_ref": 145.53,
-      "categoria": "Bebê",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
@@ -289,7 +257,39 @@
       "precio_ref": 49.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "suporte articulado para monitor 13 a 32 pistao",
+      "nombre": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto",
+      "precio_ref": 83.2,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "cetaphil creme hidratante",
+      "nombre": "Cetaphil Creme Hidratante",
+      "precio_ref": 89.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "colchao para berco americano prorelax baby d18 70x130",
+      "nombre": "Colchão para Berço Americano Prorelax Baby D18, 70x130 cm, Branco Impermeável Antialérgico",
+      "precio_ref": 145.53,
+      "categoria": "Bebê",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
+      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
+      "precio_ref": 42.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "perfume arabe asad bourbon 100ml marca isabelle la",
@@ -297,71 +297,7 @@
       "precio_ref": 78.9,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung 27 fhd 120 hz hdmi",
-      "nombre": "Monitor Gamer Samsung 27\" FHD, 120 Hz, HDMI, Preto, S3",
-      "precio_ref": 717.65,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
-      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
-      "precio_ref": 59.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "echo dot geracao mais recente smart speaker com",
-      "nombre": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso",
-      "precio_ref": 649.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon quad 27 qhd 180hz",
-      "nombre": "Monitor Gamer AOC AGON QUAD 27\" QHD 180Hz 0.5ms IPS HDR10 Base Ajustável Q27G4F",
-      "precio_ref": 1199.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "laminas de reposicao originais philips oneblade qp630 51",
-      "nombre": "Lâminas de Reposição Originais Philips OneBlade QP630/51 Aço Inoxidável - Raspa, Apara e Contorna - Pacote com 3 un",
-      "precio_ref": 229.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "colchao antiescara pneumatico de ar inflavel para acamados",
-      "nombre": "Colchão Antiescara Pneumático De Ar Inflável Para Acamados",
-      "precio_ref": 187.2,
-      "categoria": "Automotivo",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F",
-      "precio_ref": 789.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes vidro hermetico vai ao forno",
-      "nombre": "Kit 10 Potes Vidro Hermetico Vai Ao Forno Microondas 640ml Marmita Hermético Freezer Fitness Rishon",
-      "precio_ref": 97.62,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
@@ -369,71 +305,47 @@
       "precio_ref": 2399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
-      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-      "precio_ref": 87.9,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "kit 4 camiseta dry fit sandrini masculina academia",
+      "nombre": "Kit 4 Camiseta Dry-fit Sandrini Masculina Academia Caminhada",
+      "precio_ref": 59.99,
+      "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
-      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
-      "precio_ref": 146.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "patinete drift 360 eletrico ruum 36v 25km h",
-      "nombre": "Patinete Drift 360 Elétrico Ruum 36v 25km/h Bluetooth 110kg Preto",
-      "precio_ref": 1404.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
-      "precio_ref": 599.0,
+      "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F",
+      "precio_ref": 789.99,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
-      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
-      "precio_ref": 1159.0,
-      "categoria": "Monitores & Displays",
+      "busqueda": "echo dot geracao mais recente smart speaker com",
+      "nombre": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso",
+      "precio_ref": 649.0,
+      "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "kit 10 pote de vidro marmita hermetico 640ml",
-      "nombre": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Borossilicato 4 Travas Micro-ondas Azul-Escuro",
-      "precio_ref": 84.15,
+      "busqueda": "kit 10 potes vidro hermetico vai ao forno",
+      "nombre": "Kit 10 Potes Vidro Hermetico Vai Ao Forno Microondas 640ml Marmita Hermético Freezer Fitness Rishon",
+      "precio_ref": 97.62,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Preto",
-      "precio_ref": 874.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
+      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
+      "precio_ref": 233.11,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
-    },
-    {
-      "busqueda": "oculos inteligente tradutor ia microwear bluetooth 5 3",
-      "nombre": "Óculos Inteligente Tradutor Ia Microwear Bluetooth 5.3 Preto Translucida- Inteligente Tradutor X18 W Ai 4 Preto Preto Único",
-      "precio_ref": 114.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -441,15 +353,71 @@
       "precio_ref": 214.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "relogio inteligente gps smartwatch amoled 3atm sport gps",
-      "nombre": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
-      "precio_ref": 296.0,
-      "categoria": "Relógios & Smartwatches",
+      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
+      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
+      "precio_ref": 87.9,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "laminas de reposicao originais philips oneblade qp630 51",
+      "nombre": "Lâminas de Reposição Originais Philips OneBlade QP630/51 Aço Inoxidável - Raspa, Apara e Contorna - Pacote com 3 un",
+      "precio_ref": 229.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
+      "precio_ref": 599.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "kit 10 pote de vidro marmita hermetico 640ml",
+      "nombre": "Kit 10 Pote De Vidro Marmita Hermético 640ml Freezer Fitness Borossilicato 4 Travas Micro-ondas Azul-Escuro",
+      "precio_ref": 84.15,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "tp link switch gigabit de mesa com 8",
+      "nombre": "TP-Link Switch Gigabit De Mesa Com 8 Portas 10/100/1000 Ls1008G Smb, Preto",
+      "precio_ref": 147.61,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
+      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+      "precio_ref": 196.5,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon quad 27 qhd 180hz",
+      "nombre": "Monitor Gamer AOC AGON QUAD 27\" QHD 180Hz 0.5ms IPS HDR10 Base Ajustável Q27G4F",
+      "precio_ref": 1199.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "roku streaming stick para tv hd fhd controle",
+      "nombre": "Roku Streaming Stick Para Tv Hd/fhd Controle Por Voz Preto De Voz",
+      "precio_ref": 237.41,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "monitor brx 20 led 75hz hdmi vga preto",
@@ -457,7 +425,23 @@
       "precio_ref": 207.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "relogio inteligente gps smartwatch amoled 3atm sport gps",
+      "nombre": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
+      "precio_ref": 296.0,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "apple iphone 16e de 128 gb preto",
+      "nombre": "Apple iPhone 16e de 128 GB — Preto",
+      "precio_ref": 3665.56,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
       "busqueda": "quatree premium racao gatos castrados delicias do mar",
@@ -465,23 +449,39 @@
       "precio_ref": 118.08,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "monitor dell pro 24 plus 1080p 1920 x",
-      "nombre": "Monitor Dell Pro 24 Plus, 1080p (1920 x 1080), 100 Hz, LED, 5 ms, P2425H | Tela de 23,8 proporção 16:9, contraste de 1500:1,",
+      "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
+      "nombre": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Azul",
       "precio_ref": 999.0,
-      "categoria": "Monitores & Displays",
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     },
     {
-      "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
-      "nombre": "Motorola Moto G56 5g Dual Sim 256gb + 8gb preto",
-      "precio_ref": 1388.0,
+      "busqueda": "tapete higienico higienepet p caes 60x60cm 30 unidades",
+      "nombre": "Tapete Higiênico Higienepet P/ Cães 60x60cm 30 Unidades Carvão Bamboo",
+      "precio_ref": 39.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "fralda descartavel huggies tamanho xg 140 unidades tecnologia",
+      "nombre": "Fralda Descartável Huggies, Tamanho XG, 140 Unidades | Tecnologia Xtra-Flex, Canais em X Adaptáveis aos Movimentos, Máxima Pr",
+      "precio_ref": 229.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
+    },
+    {
+      "busqueda": "patinete drift 360 eletrico ruum 36v 25km h",
+      "nombre": "Patinete Drift 360 Elétrico Ruum 36v 25km/h Bluetooth 110kg Preto",
+      "precio_ref": 1404.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T21:07:34+00:00"
+      "monitorizado_desde": "2026-10-18T21:14:40+00:00"
     }
   ]
 }
