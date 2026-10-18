@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-18T13:02:17+00:00",
-  "total": 83,
+  "actualizado": "2026-10-18T14:17:02+00:00",
+  "total": 84,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -68,7 +68,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T13:02:17+00:00"
+      "capturado_em": "2026-10-18T14:17:02+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -188,7 +188,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T13:02:17+00:00"
+      "capturado_em": "2026-10-18T14:17:02+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -776,15 +776,17 @@
       "compra_minima": "R$1",
       "limite": "R$500",
       "hasta": "2026-11-17",
-      "categoria": "Geral",
+      "categoria": "Cupons Oficiais",
       "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
+      "fonte": "ML Oficial",
       "detectado_em": "2026-10-15T18:38:45+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "titulo": "25% OFF com ACHEINOMELI",
-      "estado": "ativo",
-      "capturado_em": "2026-10-11T05:13:42+00:00"
+      "estado": {
+        "id": "ACTIVE"
+      },
+      "capturado_em": "2026-10-18T14:17:02+00:00"
     },
     {
       "codigo": "OFFNOMELI",
@@ -1182,6 +1184,19 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "MELIHOJE",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "2026-10-18",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-18T12:01:24+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }
