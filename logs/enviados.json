@@ -1433,16 +1433,6 @@
     ],
     "precio_min_publicado": 1799.0
   },
-  "ml-patinete-eletrico-m4-800w-48v156ah-com-ajusta": {
-    "ts": "2026-10-16T21:54:01.581584",
-    "canales": {
-      "whatsapp": "2026-10-16T21:54:01.581584"
-    },
-    "precio": 2774.0,
-    "precios_publicados": [
-      2774.0
-    ]
-  },
   "ml-notebook-asus-vivobook-go-e1504ga-intel-core-": {
     "ts": "2026-10-17T22:11:45.979243",
     "canales": {
@@ -3366,5 +3356,15 @@
     "canales": {
       "whatsapp": "2026-10-18T21:52:19.342101"
     }
+  },
+  "ml-patinete-eletrico-ix3-dobravel-para-adultos-c": {
+    "ts": "2026-10-18T21:57:28.892604",
+    "canales": {
+      "whatsapp": "2026-10-18T21:57:28.892604"
+    },
+    "precio": 2621.0,
+    "precios_publicados": [
+      2621.0
+    ]
   }
 }
