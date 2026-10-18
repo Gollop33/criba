@@ -569,19 +569,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-oralb-escova-de-dente-sensitive-purification-": {
-    "ts": "2026-10-16T07:43:35.268719",
-    "canales": {
-      "whatsapp": "2026-10-16T07:43:35.268719"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      57.0,
-      57.0,
-      14.0
-    ],
-    "precio_min_publicado": 57.0
-  },
   "ml-amazon-firetv-stick-4k-stick-wifi6-com-alexa-": {
     "ts": "2026-10-17T18:43:35.311412",
     "canales": {
@@ -1605,16 +1592,6 @@
       1655.0
     ],
     "precio_min_publicado": 1655.0
-  },
-  "amz-creatina-monohidratada-1kg-100-pura-importada": {
-    "ts": "2026-10-16T08:04:57.055261",
-    "canales": {
-      "whatsapp": "2026-10-16T08:04:57.055261"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
   },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-10-16T09:28:21.950849",
@@ -3472,6 +3449,16 @@
     "precio": 78.0,
     "precios_publicados": [
       78.0
+    ]
+  },
+  "ml-notebook-gamer-acer-nitro-v15-anv155252vn-int": {
+    "ts": "2026-10-18T08:14:16.074158",
+    "canales": {
+      "whatsapp": "2026-10-18T08:14:16.074158"
+    },
+    "precio": 6699.0,
+    "precios_publicados": [
+      6699.0
     ]
   }
 }
