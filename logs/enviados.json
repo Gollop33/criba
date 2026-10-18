@@ -1494,16 +1494,6 @@
     ],
     "precio_min_publicado": 269.0
   },
-  "ml-kit-2-garrafa-copo-de-alce-agua-infantil-cria": {
-    "ts": "2026-10-16T12:07:07.073633",
-    "canales": {
-      "whatsapp": "2026-10-16T12:07:07.073633"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
   "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
     "ts": "2026-10-16T12:17:11.981006",
     "canales": {
@@ -2317,14 +2307,16 @@
     ]
   },
   "ml-armario-de-cozinha-6-portas-2-gavetas-adelle-": {
-    "ts": "2026-10-17T12:04:24.028651",
+    "ts": "2026-10-18T12:13:44.062060",
     "canales": {
-      "whatsapp": "2026-10-17T12:04:24.028651"
+      "whatsapp": "2026-10-18T12:13:44.062060"
     },
-    "precio": 680.0,
+    "precio": 687.0,
     "precios_publicados": [
-      680.0
-    ]
+      680.0,
+      687.0
+    ],
+    "precio_min_publicado": 680.0
   },
   "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
     "ts": "2026-10-17T12:13:00.728871",
