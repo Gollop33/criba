@@ -1451,16 +1451,6 @@
     ],
     "precio_min_publicado": 4609.0
   },
-  "ml-relogio-masculino-classico-pulseira-prata-cor": {
-    "ts": "2026-10-16T23:09:09.599967",
-    "canales": {
-      "whatsapp": "2026-10-16T23:09:09.599967"
-    },
-    "precio": 92.0,
-    "precios_publicados": [
-      92.0
-    ]
-  },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
     "ts": "2026-10-16T23:18:01.501894",
     "canales": {
@@ -3381,6 +3371,16 @@
     "precio": 13.0,
     "precios_publicados": [
       13.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
+    "ts": "2026-10-18T23:09:58.655878",
+    "canales": {
+      "whatsapp": "2026-10-18T23:09:58.655878"
+    },
+    "precio": 71.0,
+    "precios_publicados": [
+      71.0
     ]
   }
 }
