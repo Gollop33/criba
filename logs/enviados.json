@@ -944,18 +944,6 @@
     ],
     "precio_min_publicado": 47.0
   },
-  "amz-cabo-usb-para-lightning-reforcado-1m-compativ": {
-    "ts": "2026-10-16T13:11:21.305307",
-    "canales": {
-      "whatsapp": "2026-10-16T13:11:21.305307"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0,
-      5.0
-    ],
-    "precio_min_publicado": 5.0
-  },
   "amz-mesa-portatil-para-notebook-suporte-cama-sofa": {
     "ts": "2026-10-16T13:28:44.594538",
     "canales": {
@@ -3453,6 +3441,16 @@
     "precio": 1096.0,
     "precios_publicados": [
       1096.0
+    ]
+  },
+  "ml-fone-de-ouvido-bluetooth-bateria-de-longa-dur": {
+    "ts": "2026-10-18T13:14:46.555820",
+    "canales": {
+      "whatsapp": "2026-10-18T13:14:46.555820"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
