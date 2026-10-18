@@ -1,11 +1,27 @@
 {
-  "actualizado": "2026-10-18T03:13:31+00:00",
-  "total": 80,
+  "actualizado": "2026-10-18T03:48:32+00:00",
+  "total": 81,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
+    {
+      "tienda": "Mercado Livre",
+      "titulo": "Cupom Oficial ML STESSY",
+      "codigo": "STESSY",
+      "desconto": "30% OFF",
+      "compra_minima": null,
+      "limite": null,
+      "vencimento": null,
+      "hasta": null,
+      "estado": "ativo",
+      "categoria": "Cupons Oficiais",
+      "fonte": "ML Oficial",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "capturado_em": "2026-10-18T03:48:32+00:00"
+    },
     {
       "tienda": "Mercado Livre",
       "titulo": "Cupom Oficial ML INTERNACIONAL",
@@ -88,7 +104,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-11T04:02:57+00:00"
+      "capturado_em": "2026-10-18T03:48:32+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -140,7 +156,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T03:13:31+00:00"
+      "capturado_em": "2026-10-18T03:48:32+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -177,7 +193,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T03:13:31+00:00"
+      "capturado_em": "2026-10-18T03:48:32+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -286,7 +302,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-18T03:13:31+00:00"
+      "capturado_em": "2026-10-18T03:48:32+00:00"
     },
     {
       "codigo": "MEUVALE",
