@@ -1593,16 +1593,6 @@
     ],
     "precio_min_publicado": 1655.0
   },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-10-16T09:28:21.950849",
-    "canales": {
-      "whatsapp": "2026-10-16T09:28:21.950849"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "ml-comedouro-e-bebedouro-automatico-duplo-para-c": {
     "ts": "2026-10-16T10:31:26.489285",
     "canales": {
@@ -3479,6 +3469,16 @@
     "precio": 86.0,
     "precios_publicados": [
       86.0
+    ]
+  },
+  "ml-lavadora-de-alta-pressao-karcher-compacta-150": {
+    "ts": "2026-10-18T09:29:57.782273",
+    "canales": {
+      "whatsapp": "2026-10-18T09:29:57.782273"
+    },
+    "precio": 299.0,
+    "precios_publicados": [
+      299.0
     ]
   }
 }
