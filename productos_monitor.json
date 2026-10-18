@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-18T13:14:37+00:00",
+  "actualizado": "2026-10-18T13:21:33+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "cama elastica pula pula infantil trampolim 1 4",
@@ -17,7 +17,7 @@
       "precio_ref": 289.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "jaguaride patinete eletrico scooter adulto xm01 500w velocidade",
@@ -25,7 +25,7 @@
       "precio_ref": 1088.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "cama elastica infantil pula pula 1 8m trampolim",
@@ -33,7 +33,7 @@
       "precio_ref": 478.31,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "patinete eletrico infantil triciclo pares drift bluetooth 3",
@@ -41,7 +41,7 @@
       "precio_ref": 809.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "lixeira inteligente automatica redonda recarregavel usbc sensor para",
@@ -49,15 +49,7 @@
       "precio_ref": 58.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "fone de ouvido bluetooth bateria de longa duracao",
-      "nombre": "Fone De Ouvido Bluetooth Bateria de Longa Duração Pro 4 Branco Conecta Rápido Fast Plug Com Case Carregador E Microfone",
-      "precio_ref": 24.49,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "creatina soldiers nutrition em po sem sabor x",
@@ -65,23 +57,7 @@
       "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "parafusadeira furadeira de impacto atverce sem fio com",
-      "nombre": "Parafusadeira Furadeira de Impacto Atverce, sem Fio, com 2 Baterias e Kit 46 Peças",
-      "precio_ref": 126.0,
-      "categoria": "Ferramentas",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "smartwatch a prova d agua mede pressao arterial",
-      "nombre": "Smartwatch A Prova D'água Mede Pressão Arterial Gps Strava Preto",
-      "precio_ref": 108.3,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "camera de seguranca wi fi icsee yoosee a28b",
@@ -89,15 +65,15 @@
       "precio_ref": 112.24,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
-      "busqueda": "tapete higienico para cachorro super absorvente 40 unidades",
-      "nombre": "Tapete Higiênico Para Cachorro Super Absorvente 40 Unidades 60x60 Descartável Pet Cão Proteção Piso Alta Absorção",
-      "precio_ref": 33.0,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "smartwatch a prova d agua mede pressao arterial",
+      "nombre": "Smartwatch A Prova D'água Mede Pressão Arterial Gps Strava Preto",
+      "precio_ref": 108.3,
+      "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "tenis puma bmw masculino motorsport casual confortavel leve",
@@ -105,15 +81,23 @@
       "precio_ref": 101.75,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
-      "busqueda": "testo essencial formula exclusiva com feno grego boro",
-      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
-      "precio_ref": 39.74,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "parafusadeira furadeira de impacto atverce sem fio com",
+      "nombre": "Parafusadeira Furadeira de Impacto Atverce, sem Fio, com 2 Baterias e Kit 46 Peças",
+      "precio_ref": 126.0,
+      "categoria": "Ferramentas",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para cachorro super absorvente 40 unidades",
+      "nombre": "Tapete Higiênico Para Cachorro Super Absorvente 40 Unidades 60x60 Descartável Pet Cão Proteção Piso Alta Absorção",
+      "precio_ref": 33.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "panela de pressao brinox pressure 4 2l 20",
@@ -121,55 +105,15 @@
       "precio_ref": 182.16,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
-      "busqueda": "amazon firetv stick 4k stick wi fi 6",
-      "nombre": "Amazon Firetv Stick 4k Stick Wi-fi-6 Com Alexa Por Voz Preto Preto De Voz",
-      "precio_ref": 247.0,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "testo essencial formula exclusiva com feno grego boro",
+      "nombre": "TESTO ESSENCIAL - Fórmula Exclusiva com Feno Grego + Boro + Arginina + ZMA + Vitamina B6 - 60 cápsulas",
+      "precio_ref": 39.74,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "tela de pc gamer gawfolk 2k 120hz hdmi",
-      "nombre": "Tela de PC Gamer Gawfolk 2k 120hz Hdmi Dp de 27 monitores",
-      "precio_ref": 759.35,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
-      "nombre": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness Preto E Vermelho Sevenfit Para Cardio",
-      "precio_ref": 460.74,
-      "categoria": "Esporte & Fitness",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "tablet 10 1 128gb 12gb ram kit capa",
-      "nombre": "Tablet 10.1 128gb 12gb Ram Kit Capa E Teclado Promoção Gris",
-      "precio_ref": 811.71,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
-      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
-      "precio_ref": 87.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "jipe infantil eletrico 12v carrinho controle remoto musica",
-      "nombre": "Jipe Infantil Elétrico 12v Carrinho Controle Remoto Música Cor Vermelho Voltagem Do Carregador 110v/220v BrinqKids",
-      "precio_ref": 870.1,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "kit 10 pote de vidro marmita hermetico 640ml",
@@ -177,15 +121,39 @@
       "precio_ref": 84.15,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
-      "busqueda": "tapete higienico para caes gatos pets manta absorvente",
-      "nombre": "Tapete Higiênico Para Cães Gatos Pets Manta Absorvente 50 Unidades 50x60Cm Branco Fralda Pet Cachorro Camadas De Proteção Bloqueador De Odor Linha Premium Com Camadas De Proteção",
-      "precio_ref": 41.31,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "kit 10 potes hermeticos vidro 640ml starhouse marmita",
+      "nombre": "Kit 10 Potes Herméticos Vidro 640ml Starhouse Marmita Forno Micro-ondas Airfryer com 4 travas de super vedação",
+      "precio_ref": 87.9,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "jipe infantil eletrico 12v carrinho controle remoto musica",
+      "nombre": "Jipe Infantil Elétrico 12v Carrinho Controle Remoto Música Cor Vermelho Voltagem Do Carregador 110v/220v BrinqKids",
+      "precio_ref": 870.1,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "amazon firetv stick 4k stick wi fi 6",
+      "nombre": "Amazon Firetv Stick 4k Stick Wi-fi-6 Com Alexa Por Voz Preto Preto De Voz",
+      "precio_ref": 247.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "tela de pc gamer gawfolk 2k 120hz hdmi",
+      "nombre": "Tela de PC Gamer Gawfolk 2k 120hz Hdmi Dp de 27 monitores",
+      "precio_ref": 759.35,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "jogo de panelas genebra ceramica 12 pcs antiaderente",
@@ -193,15 +161,31 @@
       "precio_ref": 213.74,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
-      "busqueda": "projetor portatil 4k hd android 11 0 smart",
-      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
-      "precio_ref": 167.89,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "tablet 10 1 128gb 12gb ram kit capa",
+      "nombre": "Tablet 10.1 128gb 12gb Ram Kit Capa E Teclado Promoção Gris",
+      "precio_ref": 811.71,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "bicicleta ergometrica bike spinning 6kg sensacao inercia fitness",
+      "nombre": "Bicicleta Ergométrica Bike Spinning 6kg Sensação Inércia Fitness Preto E Vermelho Sevenfit Para Cardio",
+      "precio_ref": 460.74,
+      "categoria": "Esporte & Fitness",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para caes gatos pets manta absorvente",
+      "nombre": "Tapete Higiênico Para Cães Gatos Pets Manta Absorvente 50 Unidades 50x60Cm Branco Fralda Pet Cachorro Camadas De Proteção Bloqueador De Odor Linha Premium Com Camadas De Proteção",
+      "precio_ref": 41.31,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "tablet lenovo tab 10 1 wifi 5 64gb",
@@ -209,15 +193,7 @@
       "precio_ref": 873.52,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "relogio inteligente gps smartwatch amoled 3atm sport gps",
-      "nombre": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
-      "precio_ref": 296.0,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "racao biofresh super premium gato castrado adulto sabor",
@@ -225,31 +201,15 @@
       "precio_ref": 239.2,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
-      "busqueda": "bermuda cargo infantil sarja verao menino elastico estilo",
-      "nombre": "Bermuda Cargo Infantil Sarja Verão Menino Elastico Estilo Marrom/bege 10",
-      "precio_ref": 74.2,
+      "busqueda": "projetor portatil 4k hd android 11 0 smart",
+      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
+      "precio_ref": 167.89,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
-      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
-      "precio_ref": 944.1,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "smart tv philco 60 p60vik 4k uhd led",
-      "nombre": "Smart TV Philco 60\" P60VIK 4K UHD LED Roku Dolby Audio Wi-Fi HDR10",
-      "precio_ref": 2705.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "lixeira antiodor fraldas bebe lixo magico anti odor",
@@ -257,23 +217,7 @@
       "precio_ref": 115.34,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
-      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
-      "precio_ref": 196.5,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "tenis flyer runner mesh bdp puma",
-      "nombre": "Tênis Flyer Runner Mesh Bdp Puma",
-      "precio_ref": 189.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "coleira seresto elanco antipulgas e carrapatos cachorros 8kg",
@@ -281,15 +225,7 @@
       "precio_ref": 147.2,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
-    },
-    {
-      "busqueda": "jogo de lencol 400 fios ponto palito cama",
-      "nombre": "Jogo De Lençol 400 Fios Ponto Palito Cama Queen 3 Pçs Saldão",
-      "precio_ref": 28.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "motorola moto g56 5g dual sim 256gb 8gb",
@@ -297,7 +233,39 @@
       "precio_ref": 1388.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "tenis flyer runner mesh bdp puma",
+      "nombre": "Tênis Flyer Runner Mesh Bdp Puma",
+      "precio_ref": 189.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "bermuda cargo infantil sarja verao menino elastico estilo",
+      "nombre": "Bermuda Cargo Infantil Sarja Verão Menino Elastico Estilo Marrom/bege 10",
+      "precio_ref": 74.2,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "relogio inteligente gps smartwatch amoled 3atm sport gps",
+      "nombre": "Relógio Inteligente Gps Smartwatch Amoled 3atm Sport Gps Caixa Preto",
+      "precio_ref": 296.0,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "smart tv philco 60 p60vik 4k uhd led",
+      "nombre": "Smart TV Philco 60\" P60VIK 4K UHD LED Roku Dolby Audio Wi-Fi HDR10",
+      "precio_ref": 2705.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "kit 4 bicos pino tampa valvula pneu roda",
@@ -305,7 +273,31 @@
       "precio_ref": 18.0,
       "categoria": "Automotivo",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g com ia 128gb",
+      "nombre": "Celular Samsung Galaxy A17 5G Com IA, 128gb, 4gb Ram, Câm De 50mp, Tela De 6.7\", Nfc, Ip54 - Preto",
+      "precio_ref": 944.1,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "jogo de lencol 400 fios ponto palito cama",
+      "nombre": "Jogo De Lençol 400 Fios Ponto Palito Cama Queen 3 Pçs Saldão",
+      "precio_ref": 28.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido bluetooth 5 4 soundcore p30i",
+      "nombre": "Fone de Ouvido Bluetooth 5.4 soundcore P30i da Anker, Cancelamento de Ruído Adaptativo, Graves Poderosos, 45H de Reprodução, Estojo 2-em-1 com Suporte para Celular, IP54, Fone sem fio TWS, Preto",
+      "precio_ref": 196.5,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "colchonete almofada para os carrinho cor safari rosa",
@@ -313,7 +305,7 @@
       "precio_ref": 51.9,
       "categoria": "Esporte & Fitness",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "smart tv 43 philco p43vik roku led dolby",
@@ -321,7 +313,7 @@
       "precio_ref": 1449.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
@@ -329,7 +321,7 @@
       "precio_ref": 899.44,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "caixa de som bluetooth 5 4 sabala 200w",
@@ -337,7 +329,7 @@
       "precio_ref": 1173.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "cadeira escritorio presidente ergonomica nr17 marqs home arcanis",
@@ -345,7 +337,7 @@
       "precio_ref": 439.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "fone de ouvido sem fio para treinos soundcore",
@@ -353,7 +345,7 @@
       "precio_ref": 482.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "kit 10 pote vidro hermetico marmita 640ml micro",
@@ -361,7 +353,7 @@
       "precio_ref": 89.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "geleia cebola caramelizada queensberry gourmet sem gluten 310",
@@ -369,7 +361,7 @@
       "precio_ref": 21.07,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "patinete triciclo eletrico drift infantil c led y",
@@ -377,7 +369,7 @@
       "precio_ref": 899.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "power bank 20 000mah 22 5w carga rapida",
@@ -385,7 +377,7 @@
       "precio_ref": 72.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "power bank baseus bipow2 pro fc51 20000mah 22",
@@ -393,7 +385,7 @@
       "precio_ref": 178.69,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "berco para bebe tamanho americano 70 c rodinhas",
@@ -401,7 +393,7 @@
       "precio_ref": 491.04,
       "categoria": "Bebê",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "formula natural fresh meat gato castrado carne 10",
@@ -409,7 +401,7 @@
       "precio_ref": 310.62,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "banha de porco suina natural sem conservantes 1kg",
@@ -417,7 +409,7 @@
       "precio_ref": 27.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g77 5g 256gb 8gb ram",
@@ -425,7 +417,7 @@
       "precio_ref": 1580.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "alaxe caixa de som inteligente comando voz portatil",
@@ -433,7 +425,7 @@
       "precio_ref": 87.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "projetor hy320 mini portatil hardline smart tv android",
@@ -441,7 +433,7 @@
       "precio_ref": 215.99,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "smart tv pro lg 43 4k ultra hd",
@@ -449,7 +441,7 @@
       "precio_ref": 1770.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "smart tv philco 50 p50vik 4k uhd led",
@@ -457,7 +449,7 @@
       "precio_ref": 2099.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "cadeira giratoria escritorio presidente ergonomica couro sintetico encosto",
@@ -465,7 +457,7 @@
       "precio_ref": 484.9,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "tapete higienico pet 50 unidades 60x60 descartavel cao",
@@ -473,7 +465,7 @@
       "precio_ref": 52.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     },
     {
       "busqueda": "racao whey protein grannature xtreme alta performance 30",
@@ -481,7 +473,15 @@
       "precio_ref": 181.24,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-18T13:14:37+00:00"
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
+    },
+    {
+      "busqueda": "patinete eletrico dobravel 400w 30km h suporta 120kg",
+      "nombre": "Patinete Elétrico Dobrável 400W 30km/h Suporta 120kg Pneu 8,5 Pol Bluetooth Portátil para Mobilidade Urbana",
+      "precio_ref": 956.8,
+      "categoria": "Automotivo",
+      "tienda_origen": "Mercado Livre",
+      "monitorizado_desde": "2026-10-18T13:21:33+00:00"
     }
   ]
 }

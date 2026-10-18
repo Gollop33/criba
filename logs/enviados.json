@@ -1470,14 +1470,16 @@
     ]
   },
   "ml-smartwatch-a-prova-dagua-mede-pressao-arteria": {
-    "ts": "2026-10-16T13:35:43.767423",
+    "ts": "2026-10-18T13:21:42.102039",
     "canales": {
-      "whatsapp": "2026-10-16T13:35:43.767423"
+      "whatsapp": "2026-10-18T13:21:42.102039"
     },
-    "precio": 70.0,
+    "precio": 108.0,
     "precios_publicados": [
-      70.0
-    ]
+      70.0,
+      108.0
+    ],
+    "precio_min_publicado": 70.0
   },
   "ml-notebook-dell-latitude-3190-n5030-4gb-ram-128": {
     "ts": "2026-10-16T13:42:52.237352",
