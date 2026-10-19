@@ -665,19 +665,6 @@
     ],
     "precio_min_publicado": 82.0
   },
-  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
-    "ts": "2026-10-17T13:20:31.465837",
-    "canales": {
-      "whatsapp": "2026-10-17T13:20:31.465837"
-    },
-    "precio": 146.0,
-    "precios_publicados": [
-      146.0,
-      146.0,
-      146.0
-    ],
-    "precio_min_publicado": 146.0
-  },
   "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
     "ts": "2026-10-18T17:51:29.137692",
     "canales": {
@@ -3442,6 +3429,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "ml-kit-10-pote-de-vidro-marmita-hermetico-370ml-": {
+    "ts": "2026-10-19T13:24:34.534567",
+    "canales": {
+      "whatsapp": "2026-10-19T13:24:34.534567"
+    },
+    "precio": 75.0,
+    "precios_publicados": [
+      75.0
     ]
   }
 }
