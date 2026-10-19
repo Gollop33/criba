@@ -1137,18 +1137,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-10-17T11:21:41.089860",
-    "canales": {
-      "whatsapp": "2026-10-17T11:21:41.089860"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0,
-      89.0
-    ],
-    "precio_min_publicado": 89.0
-  },
   "ml-creatina-dark-lab-premium-pure-em-po-sem-sabo": {
     "ts": "2026-10-19T09:42:36.673636",
     "canales": {
@@ -3399,6 +3387,16 @@
     "precio": 85.0,
     "precios_publicados": [
       85.0
+    ]
+  },
+  "amz-switch-gigabit-de-mesa-tplink-ls1005g-com-5-p": {
+    "ts": "2026-10-19T11:21:43.906475",
+    "canales": {
+      "whatsapp": "2026-10-19T11:21:43.906475"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
