@@ -560,20 +560,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
-    "ts": "2026-10-17T18:20:38.552358",
-    "canales": {
-      "whatsapp": "2026-10-17T18:20:38.552358"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0,
-      93.0,
-      95.0,
-      94.0
-    ],
-    "precio_min_publicado": 93.0
-  },
   "ml-motorola-moto-g56-5g-dual-sim-256gb-8gb-preto": {
     "ts": "2026-10-19T15:00:08.114485",
     "canales": {
@@ -3343,6 +3329,16 @@
     "precio": 57.0,
     "precios_publicados": [
       57.0
+    ]
+  },
+  "ml-camera-seguranca-ip-externa-wifi-a28-app-icse": {
+    "ts": "2026-10-19T18:22:33.388234",
+    "canales": {
+      "whatsapp": "2026-10-19T18:22:33.388234"
+    },
+    "precio": 107.0,
+    "precios_publicados": [
+      107.0
     ]
   }
 }
