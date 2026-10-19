@@ -1456,16 +1456,6 @@
     ],
     "precio_min_publicado": 497.0
   },
-  "amz-purina-friskies-carne-ao-molho-racao-umida-85": {
-    "ts": "2026-10-17T00:08:51.894105",
-    "canales": {
-      "whatsapp": "2026-10-17T00:08:51.894105"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
   "ml-cadeira-lombar-ergonomica-escritorio-apoio-me": {
     "ts": "2026-10-18T00:58:20.356544",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-fralda-pampers-supersequinha-tamanho-g-80-uni": {
+    "ts": "2026-10-19T00:11:49.196432",
+    "canales": {
+      "whatsapp": "2026-10-19T00:11:49.196432"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
