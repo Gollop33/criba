@@ -1472,16 +1472,6 @@
     ],
     "precio_min_publicado": 899.0
   },
-  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
-    "ts": "2026-10-17T16:37:28.988961",
-    "canales": {
-      "whatsapp": "2026-10-17T16:37:28.988961"
-    },
-    "precio": 179.0,
-    "precios_publicados": [
-      179.0
-    ]
-  },
   "ml-bermuda-masculina-tactel-short-academia-trein": {
     "ts": "2026-10-17T16:42:47.303721",
     "canales": {
@@ -2525,14 +2515,16 @@
     ]
   },
   "ml-racao-biofresh-super-premium-gato-castrado-ad": {
-    "ts": "2026-10-18T16:21:45.628920",
+    "ts": "2026-10-19T16:38:15.378504",
     "canales": {
-      "whatsapp": "2026-10-18T16:21:45.628920"
+      "whatsapp": "2026-10-19T16:38:15.378504"
     },
     "precio": 239.0,
     "precios_publicados": [
+      239.0,
       239.0
-    ]
+    ],
+    "precio_min_publicado": 239.0
   },
   "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
     "ts": "2026-10-19T16:28:49.688366",
