@@ -2296,14 +2296,16 @@
     "precio_min_publicado": 199.0
   },
   "ml-formula-natural-pro-cao-adulto-medio-e-grande": {
-    "ts": "2026-10-18T10:49:09.997977",
+    "ts": "2026-10-19T14:37:26.001195",
     "canales": {
-      "whatsapp": "2026-10-18T10:49:09.997977"
+      "whatsapp": "2026-10-19T14:37:26.001195"
     },
     "precio": 182.0,
     "precios_publicados": [
+      182.0,
       182.0
-    ]
+    ],
+    "precio_min_publicado": 182.0
   },
   "ml-celular-motorola-moto-g56-256gb-12gb-ram-5g-d": {
     "ts": "2026-10-18T10:57:31.833825",
