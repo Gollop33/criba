@@ -1469,16 +1469,6 @@
     ],
     "precio_min_publicado": 213.0
   },
-  "ml-berco-cosleeper-multifuncional-portatil-com-m": {
-    "ts": "2026-10-17T15:01:58.098628",
-    "canales": {
-      "whatsapp": "2026-10-17T15:01:58.098628"
-    },
-    "precio": 445.0,
-    "precios_publicados": [
-      445.0
-    ]
-  },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-10-17T15:09:56.335291",
     "canales": {
@@ -2596,14 +2586,16 @@
     ]
   },
   "amz-switch-gigabit-ms105g-mercusys-de-5-portas-et": {
-    "ts": "2026-10-18T15:00:42.476098",
+    "ts": "2026-10-19T15:02:41.021441",
     "canales": {
-      "whatsapp": "2026-10-18T15:00:42.476098"
+      "whatsapp": "2026-10-19T15:02:41.021441"
     },
     "precio": 57.0,
     "precios_publicados": [
+      57.0,
       57.0
-    ]
+    ],
+    "precio_min_publicado": 57.0
   },
   "amz-creatina-monohidratada-1kg-100-pura-importada": {
     "ts": "2026-10-18T15:21:17.399077",
