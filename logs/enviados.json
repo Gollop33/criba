@@ -1482,16 +1482,6 @@
     ],
     "precio_min_publicado": 112.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-10-17T15:20:25.392655",
-    "canales": {
-      "whatsapp": "2026-10-17T15:20:25.392655"
-    },
-    "precio": 874.0,
-    "precios_publicados": [
-      874.0
-    ]
-  },
   "ml-celular-samsung-galaxy-a17-5g-com-ia-128gb-4g": {
     "ts": "2026-10-18T17:56:54.447266",
     "canales": {
@@ -3412,6 +3402,16 @@
     "precio": 20.0,
     "precios_publicados": [
       20.0
+    ]
+  },
+  "ml-toalhas-paninho-de-boca-bebe-soft-100-algodao": {
+    "ts": "2026-10-19T15:24:52.920511",
+    "canales": {
+      "whatsapp": "2026-10-19T15:24:52.920511"
+    },
+    "precio": 56.0,
+    "precios_publicados": [
+      56.0
     ]
   }
 }
