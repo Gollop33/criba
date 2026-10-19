@@ -2462,14 +2462,16 @@
     "precio_min_publicado": 55.0
   },
   "amz-colgate-tripla-acao-menta-original-creme-dent": {
-    "ts": "2026-10-18T18:07:13.334005",
+    "ts": "2026-10-19T19:01:46.274012",
     "canales": {
-      "whatsapp": "2026-10-18T18:07:13.334005"
+      "whatsapp": "2026-10-19T19:01:46.274012"
     },
     "precio": 26.0,
     "precios_publicados": [
+      26.0,
       26.0
-    ]
+    ],
+    "precio_min_publicado": 26.0
   },
   "amz-nivea-sabonete-liquido-oleo-de-banho-200ml-li": {
     "ts": "2026-10-18T18:17:08.537329",
