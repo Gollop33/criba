@@ -2443,14 +2443,16 @@
     ]
   },
   "ml-whey-isolate-protein-fuse-900g-dark-lab-sabor": {
-    "ts": "2026-10-18T07:35:42.500744",
+    "ts": "2026-10-19T09:49:45.186460",
     "canales": {
-      "whatsapp": "2026-10-18T07:35:42.500744"
+      "whatsapp": "2026-10-19T09:49:45.186460"
     },
     "precio": 78.0,
     "precios_publicados": [
+      78.0,
       78.0
-    ]
+    ],
+    "precio_min_publicado": 78.0
   },
   "ml-notebook-gamer-acer-nitro-v15-anv155252vn-int": {
     "ts": "2026-10-18T08:14:16.074158",
