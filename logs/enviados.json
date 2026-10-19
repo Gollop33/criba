@@ -2229,14 +2229,16 @@
     ]
   },
   "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
-    "ts": "2026-10-18T11:13:51.411993",
+    "ts": "2026-10-19T15:59:12.588928",
     "canales": {
-      "whatsapp": "2026-10-18T11:13:51.411993"
+      "whatsapp": "2026-10-19T15:59:12.588928"
     },
-    "precio": 234.0,
+    "precio": 247.0,
     "precios_publicados": [
-      234.0
-    ]
+      234.0,
+      247.0
+    ],
+    "precio_min_publicado": 234.0
   },
   "ml-smart-tv-pro-lg-55-4k-ultra-hd-ai-55un85c": {
     "ts": "2026-10-18T11:24:04.607604",
