@@ -2270,14 +2270,16 @@
     ]
   },
   "ml-locao-hidratante-corporal-isdin-ureadin-10": {
-    "ts": "2026-10-18T00:03:00.939601",
+    "ts": "2026-10-19T04:07:42.166720",
     "canales": {
-      "whatsapp": "2026-10-18T00:03:00.939601"
+      "whatsapp": "2026-10-19T04:07:42.166720"
     },
     "precio": 69.0,
     "precios_publicados": [
+      69.0,
       69.0
-    ]
+    ],
+    "precio_min_publicado": 69.0
   },
   "ml-cadeira-presidente-escritorio-massagem-reclin": {
     "ts": "2026-10-18T00:20:25.905284",
