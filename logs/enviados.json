@@ -410,20 +410,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "ml-tenis-fila-academia-corrida-caminhada-macio-t": {
-    "ts": "2026-10-17T02:39:36.929600",
-    "canales": {
-      "whatsapp": "2026-10-17T02:39:36.929600"
-    },
-    "precio": 116.0,
-    "precios_publicados": [
-      107.0,
-      110.0,
-      110.0,
-      116.0
-    ],
-    "precio_min_publicado": 107.0
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-10-18T23:49:55.474127",
     "canales": {
@@ -3450,6 +3436,16 @@
     "precio": 118.0,
     "precios_publicados": [
       118.0
+    ]
+  },
+  "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
+    "ts": "2026-10-19T02:59:06.484221",
+    "canales": {
+      "whatsapp": "2026-10-19T02:59:06.484221"
+    },
+    "precio": 186.0,
+    "precios_publicados": [
+      186.0
     ]
   }
 }
