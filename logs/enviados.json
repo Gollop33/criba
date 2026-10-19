@@ -1463,26 +1463,6 @@
     ],
     "precio_min_publicado": 379.0
   },
-  "ml-fechadura-digital-de-embutir-biometrica-fr-22": {
-    "ts": "2026-10-17T03:21:44.850216",
-    "canales": {
-      "whatsapp": "2026-10-17T03:21:44.850216"
-    },
-    "precio": 343.0,
-    "precios_publicados": [
-      343.0
-    ]
-  },
-  "ml-notebook-vaio-fe16-amd-ryzen-75825u-linux-16g": {
-    "ts": "2026-10-17T03:28:43.501238",
-    "canales": {
-      "whatsapp": "2026-10-17T03:28:43.501238"
-    },
-    "precio": 4053.0,
-    "precios_publicados": [
-      4053.0
-    ]
-  },
   "ml-tenis-vans-ultrarange-vr3-neo-preto-azul-bran": {
     "ts": "2026-10-17T03:42:37.119297",
     "canales": {
@@ -3428,5 +3408,11 @@
     "precios_publicados": [
       186.0
     ]
+  },
+  "cupom-ml-225b59f97b": {
+    "ts": "2026-10-19T03:28:45.351036",
+    "canales": {
+      "whatsapp": "2026-10-19T03:28:45.351036"
+    }
   }
 }
