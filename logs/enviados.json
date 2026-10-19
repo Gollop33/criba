@@ -872,18 +872,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "ml-tablet-android-15-tab-kit-completo-ram-16gb-5": {
-    "ts": "2026-10-17T03:35:42.798200",
-    "canales": {
-      "whatsapp": "2026-10-17T03:35:42.798200"
-    },
-    "precio": 780.0,
-    "precios_publicados": [
-      875.0,
-      780.0
-    ],
-    "precio_min_publicado": 875.0
-  },
   "amz-growth-supplements-creatina-500g-pouch-treino": {
     "ts": "2026-10-17T22:57:23.857339",
     "canales": {
@@ -3413,6 +3401,12 @@
     "ts": "2026-10-19T03:28:45.351036",
     "canales": {
       "whatsapp": "2026-10-19T03:28:45.351036"
+    }
+  },
+  "cupom-ml-e1dcc169be": {
+    "ts": "2026-10-19T03:35:47.468467",
+    "canales": {
+      "whatsapp": "2026-10-19T03:35:47.468467"
     }
   }
 }
