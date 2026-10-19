@@ -326,19 +326,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
-    "ts": "2026-10-17T05:49:12.632755",
-    "canales": {
-      "whatsapp": "2026-10-17T05:49:12.632755"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      69.0,
-      69.0,
-      68.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-10-17T22:01:54.775760",
     "canales": {
@@ -1630,14 +1617,16 @@
     "precio_min_publicado": 2180.0
   },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
-    "ts": "2026-10-17T13:05:08.155279",
+    "ts": "2026-10-19T05:54:24.017133",
     "canales": {
-      "whatsapp": "2026-10-17T13:05:08.155279"
+      "whatsapp": "2026-10-19T05:54:24.017133"
     },
     "precio": 21.0,
     "precios_publicados": [
+      21.0,
       21.0
-    ]
+    ],
+    "precio_min_publicado": 21.0
   },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
     "ts": "2026-10-17T13:08:27.603552",
