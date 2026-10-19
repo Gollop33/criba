@@ -1453,16 +1453,6 @@
     ],
     "precio_min_publicado": 1088.0
   },
-  "ml-tenis-masculino-wbox-premium-confortavel-90-c": {
-    "ts": "2026-10-17T19:41:54.021873",
-    "canales": {
-      "whatsapp": "2026-10-17T19:41:54.021873"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "amz-garrafa-termica-firenze-mini-250ml-branco-inv": {
     "ts": "2026-10-17T20:00:47.793980",
     "canales": {
@@ -3335,6 +3325,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "ml-kit-cozinha-brinquedo-infantil-39pcs-panelinh": {
+    "ts": "2026-10-19T19:46:36.127140",
+    "canales": {
+      "whatsapp": "2026-10-19T19:46:36.127140"
+    },
+    "precio": 28.0,
+    "precios_publicados": [
+      28.0
     ]
   }
 }
