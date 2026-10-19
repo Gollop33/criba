@@ -1468,16 +1468,6 @@
     ],
     "precio_min_publicado": 213.0
   },
-  "ml-panela-de-pressao-brinox-pressure-42l-20-x-14": {
-    "ts": "2026-10-17T14:48:59.068546",
-    "canales": {
-      "whatsapp": "2026-10-17T14:48:59.068546"
-    },
-    "precio": 194.0,
-    "precios_publicados": [
-      194.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-10-17T14:56:06.464939",
     "canales": {
@@ -2583,14 +2573,16 @@
     ]
   },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-10-18T14:48:48.922055",
+    "ts": "2026-10-19T14:52:24.820427",
     "canales": {
-      "whatsapp": "2026-10-18T14:48:48.922055"
+      "whatsapp": "2026-10-19T14:52:24.820427"
     },
     "precio": 16.0,
     "precios_publicados": [
+      16.0,
       16.0
-    ]
+    ],
+    "precio_min_publicado": 16.0
   },
   "ml-relogio-smartwatch-forestory-r1-smart-watch-i": {
     "ts": "2026-10-18T14:50:29.354692",
