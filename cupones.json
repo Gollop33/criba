@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-19T17:07:27+00:00",
-  "total": 84,
+  "actualizado": "2026-10-19T17:21:15+00:00",
+  "total": 92,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -86,7 +86,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-19T17:07:27+00:00"
+      "capturado_em": "2026-10-19T17:21:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -102,7 +102,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-19T17:07:27+00:00"
+      "capturado_em": "2026-10-19T17:21:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -120,7 +120,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-19T17:07:27+00:00"
+      "capturado_em": "2026-10-19T17:21:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -172,7 +172,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-19T17:07:27+00:00"
+      "capturado_em": "2026-10-19T17:21:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -243,7 +243,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-19T17:07:27+00:00"
+      "capturado_em": "2026-10-19T17:21:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -261,7 +261,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-19T17:07:27+00:00"
+      "capturado_em": "2026-10-19T17:21:15+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -794,10 +794,10 @@
       "compra_minima": "R$1",
       "limite": "R$500",
       "hasta": "2026-11-17",
-      "categoria": "Cupons Oficiais",
+      "categoria": "Geral",
       "tienda": "Mercado Livre",
-      "fonte": "ML Oficial",
-      "detectado_em": "2026-10-15T18:38:45+00:00",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T17:00:08+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "titulo": "25% OFF com ACHEINOMELI",
@@ -1200,6 +1200,110 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "MUITOBARATO",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T17:00:08+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "COMBINACUPOM",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:30:09+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "FESTIVALDECUPONS",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:30:09+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "APROVEITAMELI",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:30:09+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "BOASOFERTAS",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-11-30",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:30:09+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFFHOJENOML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:02:41+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFFPRACONSTRUIR",
+      "desconto": "20% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$100",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:02:41+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFERTAS",
+      "desconto": "20% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-19T13:02:41+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }
