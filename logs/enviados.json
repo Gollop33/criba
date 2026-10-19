@@ -1153,18 +1153,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-omo-sabao-em-po-lavagem-perfeita-22kg": {
-    "ts": "2026-10-17T18:38:12.775352",
-    "canales": {
-      "whatsapp": "2026-10-17T18:38:12.775352"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0,
-      24.0
-    ],
-    "precio_min_publicado": 24.0
-  },
   "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
     "ts": "2026-10-19T12:44:39.262507",
     "canales": {
@@ -2471,14 +2459,16 @@
     ]
   },
   "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
-    "ts": "2026-10-18T18:03:44.792128",
+    "ts": "2026-10-19T18:38:33.108329",
     "canales": {
-      "whatsapp": "2026-10-18T18:03:44.792128"
+      "whatsapp": "2026-10-19T18:38:33.108329"
     },
     "precio": 55.0,
     "precios_publicados": [
+      55.0,
       55.0
-    ]
+    ],
+    "precio_min_publicado": 55.0
   },
   "amz-colgate-tripla-acao-menta-original-creme-dent": {
     "ts": "2026-10-18T18:07:13.334005",
