@@ -1373,16 +1373,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-notebook-intel-g6500y-ram-16gb-ssd-512gb-win1": {
-    "ts": "2026-10-17T11:49:46.453688",
-    "canales": {
-      "whatsapp": "2026-10-17T11:49:46.453688"
-    },
-    "precio": 2469.0,
-    "precios_publicados": [
-      2469.0
-    ]
-  },
   "ml-patinete-eletrico-honeywhale-m1-lite-dobravel": {
     "ts": "2026-10-17T11:54:21.932768",
     "canales": {
@@ -3399,6 +3389,16 @@
     "precio": 148.0,
     "precios_publicados": [
       148.0
+    ]
+  },
+  "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
+    "ts": "2026-10-19T11:50:39.925842",
+    "canales": {
+      "whatsapp": "2026-10-19T11:50:39.925842"
+    },
+    "precio": 51.0,
+    "precios_publicados": [
+      51.0
     ]
   }
 }
