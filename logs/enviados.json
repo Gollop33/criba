@@ -1486,16 +1486,6 @@
     ],
     "precio_min_publicado": 1088.0
   },
-  "ml-notebook-vaio-fe16-intel-core-i31315u-linux-8": {
-    "ts": "2026-10-17T17:45:23.510791",
-    "canales": {
-      "whatsapp": "2026-10-17T17:45:23.510791"
-    },
-    "precio": 2969.0,
-    "precios_publicados": [
-      2969.0
-    ]
-  },
   "amz-sabao-liquido-brilhante-5l": {
     "ts": "2026-10-17T17:51:29.900484",
     "canales": {
@@ -3362,6 +3352,16 @@
     "precio": 13.0,
     "precios_publicados": [
       13.0
+    ]
+  },
+  "amz-protetor-solar-corporal-em-locao-neutrogena-s": {
+    "ts": "2026-10-19T17:46:10.615231",
+    "canales": {
+      "whatsapp": "2026-10-19T17:46:10.615231"
+    },
+    "precio": 56.0,
+    "precios_publicados": [
+      56.0
     ]
   }
 }
