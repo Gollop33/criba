@@ -1466,26 +1466,6 @@
     ],
     "precio_min_publicado": 213.0
   },
-  "amz-galaxy-tab-a9-5g-grafite-tela-11-64-gb-4gb-ra": {
-    "ts": "2026-10-17T14:29:05.972617",
-    "canales": {
-      "whatsapp": "2026-10-17T14:29:05.972617"
-    },
-    "precio": 2100.0,
-    "precios_publicados": [
-      2100.0
-    ]
-  },
-  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-10-17T14:31:13.668194",
-    "canales": {
-      "whatsapp": "2026-10-17T14:31:13.668194"
-    },
-    "precio": 994.0,
-    "precios_publicados": [
-      994.0
-    ]
-  },
   "amz-xiaomi-tablet-pad-7-de-112-polegadas-8-gb-de-": {
     "ts": "2026-10-17T14:40:40.246658",
     "canales": {
@@ -2303,14 +2283,16 @@
     ]
   },
   "ml-projetor-smart-portatil-full-hd-4k-android-11": {
-    "ts": "2026-10-18T10:42:45.296712",
+    "ts": "2026-10-19T14:31:28.106495",
     "canales": {
-      "whatsapp": "2026-10-18T10:42:45.296712"
+      "whatsapp": "2026-10-19T14:31:28.106495"
     },
     "precio": 199.0,
     "precios_publicados": [
+      199.0,
       199.0
-    ]
+    ],
+    "precio_min_publicado": 199.0
   },
   "ml-formula-natural-pro-cao-adulto-medio-e-grande": {
     "ts": "2026-10-18T10:49:09.997977",
