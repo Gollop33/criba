@@ -1469,16 +1469,6 @@
     ],
     "precio_min_publicado": 213.0
   },
-  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
-    "ts": "2026-10-17T15:09:56.335291",
-    "canales": {
-      "whatsapp": "2026-10-17T15:09:56.335291"
-    },
-    "precio": 216.0,
-    "precios_publicados": [
-      216.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
     "ts": "2026-10-17T15:15:06.020983",
     "canales": {
@@ -3411,6 +3401,16 @@
     "precio": 146.0,
     "precios_publicados": [
       146.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
+    "ts": "2026-10-19T15:10:37.660922",
+    "canales": {
+      "whatsapp": "2026-10-19T15:10:37.660922"
+    },
+    "precio": 820.0,
+    "precios_publicados": [
+      820.0
     ]
   }
 }
