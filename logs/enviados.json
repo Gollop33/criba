@@ -1482,16 +1482,6 @@
     ],
     "precio_min_publicado": 189.0
   },
-  "ml-bicicleta-aro-20-cross-bmx-freestyle-infantil": {
-    "ts": "2026-10-17T22:33:39.527253",
-    "canales": {
-      "whatsapp": "2026-10-17T22:33:39.527253"
-    },
-    "precio": 467.0,
-    "precios_publicados": [
-      467.0
-    ]
-  },
   "ml-tapete-higienico-para-caes-tapete-higienico-d": {
     "ts": "2026-10-17T22:44:53.828905",
     "canales": {
@@ -2463,14 +2453,16 @@
     ]
   },
   "ml-xiaomi-poco-x7-pro-dual-sim-5g-512gb-preto-12": {
-    "ts": "2026-10-18T22:24:11.568743",
+    "ts": "2026-10-19T22:40:45.454927",
     "canales": {
-      "whatsapp": "2026-10-18T22:24:11.568743"
+      "whatsapp": "2026-10-19T22:40:45.454927"
     },
     "precio": 2350.0,
     "precios_publicados": [
+      2350.0,
       2350.0
-    ]
+    ],
+    "precio_min_publicado": 2350.0
   },
   "ml-nac-600mg-formula-exclusiva-com-maxima-concen": {
     "ts": "2026-10-18T22:37:30.450011",
