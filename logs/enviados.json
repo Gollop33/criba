@@ -1495,26 +1495,6 @@
     ],
     "precio_min_publicado": 899.0
   },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-10-17T15:39:42.999517",
-    "canales": {
-      "whatsapp": "2026-10-17T15:39:42.999517"
-    },
-    "precio": 758.0,
-    "precios_publicados": [
-      758.0
-    ]
-  },
-  "amz-tablet-s7p-android-15-101-polegadas-1212gb-ra": {
-    "ts": "2026-10-17T15:41:41.944814",
-    "canales": {
-      "whatsapp": "2026-10-17T15:41:41.944814"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
     "ts": "2026-10-17T15:46:56.644981",
     "canales": {
@@ -1738,14 +1718,16 @@
     ]
   },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
-    "ts": "2026-10-17T20:31:20.251478",
+    "ts": "2026-10-19T15:44:38.403949",
     "canales": {
-      "whatsapp": "2026-10-17T20:31:20.251478"
+      "whatsapp": "2026-10-19T15:44:38.403949"
     },
-    "precio": 167.0,
+    "precio": 186.0,
     "precios_publicados": [
-      167.0
-    ]
+      167.0,
+      186.0
+    ],
+    "precio_min_publicado": 167.0
   },
   "ml-bermuda-cargo-infantil-masculina-sarja-verao-": {
     "ts": "2026-10-17T20:50:56.080558",
