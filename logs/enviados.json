@@ -1469,16 +1469,6 @@
     ],
     "precio_min_publicado": 313.0
   },
-  "ml-smart-tv-lg-43-nano-4k-uhd-hdmi-usb-wifi-blue": {
-    "ts": "2026-10-17T00:21:53.504499",
-    "canales": {
-      "whatsapp": "2026-10-17T00:21:53.504499"
-    },
-    "precio": 1762.0,
-    "precios_publicados": [
-      1762.0
-    ]
-  },
   "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
     "ts": "2026-10-18T00:45:12.456336",
     "canales": {
@@ -3395,6 +3385,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
+    "ts": "2026-10-19T00:22:57.072410",
+    "canales": {
+      "whatsapp": "2026-10-19T00:22:57.072410"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
