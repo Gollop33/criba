@@ -171,20 +171,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "ml-kit-4-camiseta-dryfit-sandrini-masculina-acad": {
-    "ts": "2026-10-17T13:51:53.109994",
-    "canales": {
-      "whatsapp": "2026-10-17T13:51:53.109994"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0,
-      59.0,
-      59.0,
-      59.0
-    ],
-    "precio_min_publicado": 59.0
-  },
   "amz-tapete-higienico-premium-para-caes-petlike-ul": {
     "ts": "2026-10-19T12:00:00.729631",
     "canales": {
@@ -3459,6 +3445,16 @@
     "precio": 103.0,
     "precios_publicados": [
       103.0
+    ]
+  },
+  "ml-nutella-3kg-balde-ferrero-creme-de-avela-giga": {
+    "ts": "2026-10-19T13:55:18.975424",
+    "canales": {
+      "whatsapp": "2026-10-19T13:55:18.975424"
+    },
+    "precio": 235.0,
+    "precios_publicados": [
+      235.0
     ]
   }
 }
