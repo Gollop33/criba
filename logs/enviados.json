@@ -1479,16 +1479,6 @@
     ],
     "precio_min_publicado": 167.0
   },
-  "ml-farinha-de-amendoa-natural-1kg-alta-proteina-": {
-    "ts": "2026-10-17T21:29:59.213531",
-    "canales": {
-      "whatsapp": "2026-10-17T21:29:59.213531"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "ml-smart-tv-4k-65-lg-nano-uhd-ai-nu850-2026-proc": {
     "ts": "2026-10-17T21:44:44.296520",
     "canales": {
@@ -2454,14 +2444,16 @@
     ]
   },
   "amz-shampoo-para-cabelos-finos-elseve-loreal-pari": {
-    "ts": "2026-10-18T19:41:00.937182",
+    "ts": "2026-10-19T21:32:33.236316",
     "canales": {
-      "whatsapp": "2026-10-18T19:41:00.937182"
+      "whatsapp": "2026-10-19T21:32:33.236316"
     },
     "precio": 21.0,
     "precios_publicados": [
+      21.0,
       21.0
-    ]
+    ],
+    "precio_min_publicado": 21.0
   },
   "cupom-ml-095f00ee4d": {
     "ts": "2026-10-18T21:52:19.342101",
