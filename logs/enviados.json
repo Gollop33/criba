@@ -1383,16 +1383,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
-    "ts": "2026-10-17T11:14:41.703247",
-    "canales": {
-      "whatsapp": "2026-10-17T11:14:41.703247"
-    },
-    "precio": 3159.0,
-    "precios_publicados": [
-      3159.0
-    ]
-  },
   "amz-acer-aspire-go-15-notebook-156-intel-core-i5-": {
     "ts": "2026-10-17T11:42:44.525679",
     "canales": {
@@ -3399,6 +3389,16 @@
     "precio": 46.0,
     "precios_publicados": [
       46.0
+    ]
+  },
+  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
+    "ts": "2026-10-19T11:14:46.809083",
+    "canales": {
+      "whatsapp": "2026-10-19T11:14:46.809083"
+    },
+    "precio": 85.0,
+    "precios_publicados": [
+      85.0
     ]
   }
 }
