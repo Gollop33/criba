@@ -1147,18 +1147,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
-    "ts": "2026-10-17T10:28:45.797727",
-    "canales": {
-      "whatsapp": "2026-10-17T10:28:45.797727"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      45.0,
-      49.0
-    ],
-    "precio_min_publicado": 45.0
-  },
   "amz-cetaphil-creme-hidratante": {
     "ts": "2026-10-17T11:21:41.089860",
     "canales": {
@@ -1510,14 +1498,16 @@
     ]
   },
   "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
-    "ts": "2026-10-17T12:48:53.209207",
+    "ts": "2026-10-19T10:28:52.982257",
     "canales": {
-      "whatsapp": "2026-10-17T12:48:53.209207"
+      "whatsapp": "2026-10-19T10:28:52.982257"
     },
     "precio": 26.0,
     "precios_publicados": [
+      26.0,
       26.0
-    ]
+    ],
+    "precio_min_publicado": 26.0
   },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-10-19T10:14:55.453435",
