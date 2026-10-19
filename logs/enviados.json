@@ -2583,14 +2583,16 @@
     ]
   },
   "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
-    "ts": "2026-10-18T14:24:43.693608",
+    "ts": "2026-10-19T14:24:48.092530",
     "canales": {
-      "whatsapp": "2026-10-18T14:24:43.693608"
+      "whatsapp": "2026-10-19T14:24:48.092530"
     },
-    "precio": 19.0,
+    "precio": 17.0,
     "precios_publicados": [
-      19.0
-    ]
+      19.0,
+      17.0
+    ],
+    "precio_min_publicado": 19.0
   },
   "amz-huggies-fralda-descartavel-premium-natural-ca": {
     "ts": "2026-10-18T14:43:22.230162",
