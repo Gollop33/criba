@@ -1468,16 +1468,6 @@
     ],
     "precio_min_publicado": 92.0
   },
-  "ml-comedouro-elevado-dobravel-ajustavel-lento-pa": {
-    "ts": "2026-10-17T13:19:21.787490",
-    "canales": {
-      "whatsapp": "2026-10-17T13:19:21.787490"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-10-17T13:28:38.467478",
     "canales": {
@@ -3442,6 +3432,16 @@
     "precio": 499.0,
     "precios_publicados": [
       499.0
+    ]
+  },
+  "ml-kit-5-macacao-estampado-ziper-bebe-inverno-al": {
+    "ts": "2026-10-19T13:20:06.774234",
+    "canales": {
+      "whatsapp": "2026-10-19T13:20:06.774234"
+    },
+    "precio": 64.0,
+    "precios_publicados": [
+      64.0
     ]
   }
 }
