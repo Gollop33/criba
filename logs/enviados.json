@@ -1497,14 +1497,16 @@
     ]
   },
   "ml-proteina-max-titanium-whey-pro-concetrado-em-": {
-    "ts": "2026-10-17T13:34:10.082936",
+    "ts": "2026-10-19T12:52:55.882636",
     "canales": {
-      "whatsapp": "2026-10-17T13:34:10.082936"
+      "whatsapp": "2026-10-19T12:52:55.882636"
     },
     "precio": 78.0,
     "precios_publicados": [
+      78.0,
       78.0
-    ]
+    ],
+    "precio_min_publicado": 78.0
   },
   "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
     "ts": "2026-10-17T13:42:42.905857",
