@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-parafusadeira-furadeira-de-impacto-atverce-se": {
-    "ts": "2026-10-18T13:28:43.421715",
-    "canales": {
-      "whatsapp": "2026-10-18T13:28:43.421715"
-    },
-    "precio": 126.0,
-    "precios_publicados": [
-      126.0
-    ]
-  },
   "ml-tenis-puma-bmw-masculino-motorsport-casual-co": {
     "ts": "2026-10-18T13:35:43.671198",
     "canales": {
@@ -3514,6 +3504,16 @@
     "precio": 256.0,
     "precios_publicados": [
       256.0
+    ]
+  },
+  "ml-agua-mineral-daflora-com-gas-garrafa-pet-510m": {
+    "ts": "2026-10-20T13:34:58.587112",
+    "canales": {
+      "whatsapp": "2026-10-20T13:34:58.587112"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
