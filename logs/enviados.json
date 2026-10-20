@@ -2465,14 +2465,16 @@
     ]
   },
   "ml-celular-samsung-galaxy-a17-com-ia-128gb-4gb-r": {
-    "ts": "2026-10-19T15:10:37.660922",
+    "ts": "2026-10-20T15:15:27.100283",
     "canales": {
-      "whatsapp": "2026-10-19T15:10:37.660922"
+      "whatsapp": "2026-10-20T15:15:27.100283"
     },
-    "precio": 820.0,
+    "precio": 824.0,
     "precios_publicados": [
-      820.0
-    ]
+      820.0,
+      824.0
+    ],
+    "precio_min_publicado": 820.0
   },
   "ml-barrinha-cereal-naturale-brigadeiro-e-aveia-c": {
     "ts": "2026-10-19T15:13:07.276914",
