@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
-    "ts": "2026-10-18T12:27:54.929149",
-    "canales": {
-      "whatsapp": "2026-10-18T12:27:54.929149"
-    },
-    "precio": 217.0,
-    "precios_publicados": [
-      217.0
-    ]
-  },
   "ml-smart-tv-lg-43-ld-wifi-bluetooth-full-hd-43lr": {
     "ts": "2026-10-18T12:31:42.779966",
     "canales": {
@@ -3474,6 +3464,16 @@
     "precio": 789.0,
     "precios_publicados": [
       789.0
+    ]
+  },
+  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
+    "ts": "2026-10-20T12:30:22.866981",
+    "canales": {
+      "whatsapp": "2026-10-20T12:30:22.866981"
+    },
+    "precio": 597.0,
+    "precios_publicados": [
+      597.0
     ]
   }
 }
