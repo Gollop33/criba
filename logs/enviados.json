@@ -1756,14 +1756,16 @@
     ]
   },
   "ml-racao-seca-formula-natural-fresh-meat-sensiti": {
-    "ts": "2026-10-18T19:27:38.030690",
+    "ts": "2026-10-20T15:34:24.123169",
     "canales": {
-      "whatsapp": "2026-10-18T19:27:38.030690"
+      "whatsapp": "2026-10-20T15:34:24.123169"
     },
     "precio": 374.0,
     "precios_publicados": [
+      374.0,
       374.0
-    ]
+    ],
+    "precio_min_publicado": 374.0
   },
   "amz-shampoo-para-cabelos-finos-elseve-loreal-pari": {
     "ts": "2026-10-19T21:32:33.236316",
