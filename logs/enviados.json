@@ -574,19 +574,6 @@
     ],
     "precio_min_publicado": 296.0
   },
-  "ml-bebedouro-fonte-automatico-caes-gatos-com-sen": {
-    "ts": "2026-10-18T11:12:47.470348",
-    "canales": {
-      "whatsapp": "2026-10-18T11:12:47.470348"
-    },
-    "precio": 98.0,
-    "precios_publicados": [
-      93.0,
-      98.0,
-      98.0
-    ],
-    "precio_min_publicado": 93.0
-  },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-10-19T10:35:37.757156",
     "canales": {
@@ -3462,6 +3449,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-vonix-blend-ceramic-carnauba-spray-wax-black-": {
+    "ts": "2026-10-20T11:18:36.256054",
+    "canales": {
+      "whatsapp": "2026-10-20T11:18:36.256054"
+    },
+    "precio": 48.0,
+    "precios_publicados": [
+      48.0
     ]
   }
 }
