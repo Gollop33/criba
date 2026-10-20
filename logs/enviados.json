@@ -1444,16 +1444,6 @@
     ],
     "precio_min_publicado": 2998.0
   },
-  "ml-guardaroupa-solteiro-2-portas-de-correr-com-e": {
-    "ts": "2026-10-18T06:07:38.477529",
-    "canales": {
-      "whatsapp": "2026-10-18T06:07:38.477529"
-    },
-    "precio": 658.0,
-    "precios_publicados": [
-      658.0
-    ]
-  },
   "ml-notebook-asus-vivobook-s-14-s5406sa-copilot-p": {
     "ts": "2026-10-19T06:26:55.602659",
     "canales": {
@@ -3266,6 +3256,16 @@
     "precio": 561.0,
     "precios_publicados": [
       561.0
+    ]
+  },
+  "ml-ddpai-z60-pro-3-ips-camera-veicular-automotiv": {
+    "ts": "2026-10-20T06:07:45.598046",
+    "canales": {
+      "whatsapp": "2026-10-20T06:07:45.598046"
+    },
+    "precio": 1536.0,
+    "precios_publicados": [
+      1536.0
     ]
   }
 }
