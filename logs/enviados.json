@@ -1611,16 +1611,6 @@
     ],
     "precio_min_publicado": 32.0
   },
-  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
-    "ts": "2026-10-18T23:13:12.957771",
-    "canales": {
-      "whatsapp": "2026-10-18T23:13:12.957771"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "ml-kit-doce-de-leite-zero-pasta-de-amendoim-panq": {
     "ts": "2026-10-18T23:26:15.604123",
     "canales": {
@@ -3495,6 +3485,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-electrolux-cafeteira-eletrica-inox-filtro-per": {
+    "ts": "2026-10-20T23:13:17.764519",
+    "canales": {
+      "whatsapp": "2026-10-20T23:13:17.764519"
+    },
+    "precio": 93.0,
+    "precios_publicados": [
+      93.0
     ]
   }
 }
