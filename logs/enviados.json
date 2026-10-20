@@ -2477,14 +2477,16 @@
     ]
   },
   "ml-patinete-eletrico-hearbuds-m85-dobravel-com-a": {
-    "ts": "2026-10-19T01:25:56.782515",
+    "ts": "2026-10-20T02:29:12.583143",
     "canales": {
-      "whatsapp": "2026-10-19T01:25:56.782515"
+      "whatsapp": "2026-10-20T02:29:12.583143"
     },
-    "precio": 956.0,
+    "precio": 1038.0,
     "precios_publicados": [
-      956.0
-    ]
+      956.0,
+      1038.0
+    ],
+    "precio_min_publicado": 956.0
   },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
     "ts": "2026-10-19T01:43:22.445609",
