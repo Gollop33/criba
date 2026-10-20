@@ -496,19 +496,6 @@
     ],
     "precio_min_publicado": 460.0
   },
-  "ml-colchao-casal-molas-ensacadas-zidi-alabama-13": {
-    "ts": "2026-10-17T23:25:33.214148",
-    "canales": {
-      "whatsapp": "2026-10-17T23:25:33.214148"
-    },
-    "precio": 522.0,
-    "precios_publicados": [
-      536.0,
-      522.0,
-      522.0
-    ],
-    "precio_min_publicado": 522.0
-  },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-10-18T22:57:50.039505",
     "canales": {
@@ -797,19 +784,6 @@
     ],
     "precio_min_publicado": 14.0
   },
-  "amz-growth-supplements-creatina-500g-pouch-treino": {
-    "ts": "2026-10-17T22:57:23.857339",
-    "canales": {
-      "whatsapp": "2026-10-17T22:57:23.857339"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0,
-      59.0,
-      59.0
-    ],
-    "precio_min_publicado": 59.0
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-10-19T20:48:27.809532",
     "canales": {
@@ -862,19 +836,6 @@
       55.0
     ],
     "precio_min_publicado": 55.0
-  },
-  "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
-    "ts": "2026-10-17T23:56:07.825838",
-    "canales": {
-      "whatsapp": "2026-10-17T23:56:07.825838"
-    },
-    "precio": 38.0,
-    "precios_publicados": [
-      44.0,
-      44.0,
-      38.0
-    ],
-    "precio_min_publicado": 44.0
   },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
     "ts": "2026-10-19T20:04:39.211301",
@@ -1494,46 +1455,6 @@
       39.0
     ],
     "precio_min_publicado": 39.0
-  },
-  "ml-smartphone-tcl-256gb-50mp-14gb-ram-67-hd-octa": {
-    "ts": "2026-10-17T23:08:53.916981",
-    "canales": {
-      "whatsapp": "2026-10-17T23:08:53.916981"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0
-    ]
-  },
-  "amz-filtrorefil-original-de-agua-para-purificador": {
-    "ts": "2026-10-17T23:39:16.942570",
-    "canales": {
-      "whatsapp": "2026-10-17T23:39:16.942570"
-    },
-    "precio": 53.0,
-    "precios_publicados": [
-      53.0
-    ]
-  },
-  "amz-lavaroupas-em-po-omo-todo-ciclo-caixa-2kg": {
-    "ts": "2026-10-17T23:48:54.524106",
-    "canales": {
-      "whatsapp": "2026-10-17T23:48:54.524106"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
-  "amz-blackdecker-mixer-multiuso-sem-fio-com-haste-": {
-    "ts": "2026-10-17T23:54:42.251382",
-    "canales": {
-      "whatsapp": "2026-10-17T23:54:42.251382"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
   },
   "ml-locao-hidratante-corporal-isdin-ureadin-10": {
     "ts": "2026-10-19T04:07:42.166720",
@@ -3350,5 +3271,11 @@
     "precios_publicados": [
       114.0
     ]
+  },
+  "cupom-ml-198fc957e6": {
+    "ts": "2026-10-20T00:00:58.690982",
+    "canales": {
+      "whatsapp": "2026-10-20T00:00:58.690982"
+    }
   }
 }
