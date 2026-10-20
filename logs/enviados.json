@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-smart-tv-lg-43-ld-wifi-bluetooth-full-hd-43lr": {
-    "ts": "2026-10-18T12:31:42.779966",
-    "canales": {
-      "whatsapp": "2026-10-18T12:31:42.779966"
-    },
-    "precio": 1749.0,
-    "precios_publicados": [
-      1749.0
-    ]
-  },
   "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
     "ts": "2026-10-18T12:36:12.131053",
     "canales": {
@@ -3474,6 +3464,16 @@
     "precio": 597.0,
     "precios_publicados": [
       597.0
+    ]
+  },
+  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
+    "ts": "2026-10-20T12:35:41.364100",
+    "canales": {
+      "whatsapp": "2026-10-20T12:35:41.364100"
+    },
+    "precio": 418.0,
+    "precios_publicados": [
+      418.0
     ]
   }
 }
