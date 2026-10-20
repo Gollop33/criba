@@ -363,20 +363,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-shampoo-de-glicerina-johnsons-baby-400ml-hipo": {
-    "ts": "2026-10-18T15:55:40.449492",
-    "canales": {
-      "whatsapp": "2026-10-18T15:55:40.449492"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      19.0,
-      17.0,
-      17.0,
-      17.0
-    ],
-    "precio_min_publicado": 17.0
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-10-18T23:49:55.474127",
     "canales": {
@@ -927,19 +913,6 @@
       97.0
     ],
     "precio_min_publicado": 96.0
-  },
-  "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
-    "ts": "2026-10-18T15:54:02.270861",
-    "canales": {
-      "whatsapp": "2026-10-18T15:54:02.270861"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0,
-      47.0,
-      47.0
-    ],
-    "precio_min_publicado": 47.0
   },
   "amz-dove-sabonete-em-barra-original-90g-6-unidade": {
     "ts": "2026-10-19T21:16:29.229256",
@@ -3576,6 +3549,16 @@
     "precio": 217.0,
     "precios_publicados": [
       217.0
+    ]
+  },
+  "ml-projetor-vlx-hy320-mini-4k-wifi-preto-bluetoo": {
+    "ts": "2026-10-20T15:59:29.269464",
+    "canales": {
+      "whatsapp": "2026-10-20T15:59:29.269464"
+    },
+    "precio": 208.0,
+    "precios_publicados": [
+      208.0
     ]
   }
 }
