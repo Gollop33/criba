@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-smartphone-samsung-galaxy-a36-5g-128gb-6gb-ra": {
-    "ts": "2026-10-18T12:36:12.131053",
-    "canales": {
-      "whatsapp": "2026-10-18T12:36:12.131053"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1299.0
-    ]
-  },
   "ml-racao-quatree-supreme-gatos-adultos-castrados": {
     "ts": "2026-10-18T12:37:37.189461",
     "canales": {
@@ -3474,6 +3464,16 @@
     "precio": 418.0,
     "precios_publicados": [
       418.0
+    ]
+  },
+  "ml-monitor-gamer-samsung-essential-s3-24-fhd-120": {
+    "ts": "2026-10-20T12:37:08.422657",
+    "canales": {
+      "whatsapp": "2026-10-20T12:37:08.422657"
+    },
+    "precio": 452.0,
+    "precios_publicados": [
+      452.0
     ]
   }
 }
