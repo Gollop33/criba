@@ -2421,14 +2421,16 @@
     ]
   },
   "ml-camera-seguranca-ip-externa-wifi-a28-app-icse": {
-    "ts": "2026-10-19T18:22:33.388234",
+    "ts": "2026-10-20T20:58:01.357596",
     "canales": {
-      "whatsapp": "2026-10-19T18:22:33.388234"
+      "whatsapp": "2026-10-20T20:58:01.357596"
     },
-    "precio": 107.0,
+    "precio": 90.0,
     "precios_publicados": [
-      107.0
-    ]
+      107.0,
+      90.0
+    ],
+    "precio_min_publicado": 107.0
   },
   "ml-cadeira-de-descanso-balanco-bebe-eletrica-mus": {
     "ts": "2026-10-19T18:43:13.060863",
