@@ -1687,14 +1687,16 @@
     ]
   },
   "ml-suporte-articulado-para-monitor-13-a-32-pista": {
-    "ts": "2026-10-18T09:05:59.743170",
+    "ts": "2026-10-20T01:05:45.060534",
     "canales": {
-      "whatsapp": "2026-10-18T09:05:59.743170"
+      "whatsapp": "2026-10-20T01:05:45.060534"
     },
-    "precio": 86.0,
+    "precio": 83.0,
     "precios_publicados": [
-      86.0
-    ]
+      86.0,
+      83.0
+    ],
+    "precio_min_publicado": 86.0
   },
   "ml-lavadora-de-alta-pressao-karcher-compacta-150": {
     "ts": "2026-10-18T09:29:57.782273",
