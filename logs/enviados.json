@@ -727,19 +727,6 @@
     ],
     "precio_min_publicado": 9.0
   },
-  "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
-    "ts": "2026-10-18T22:17:32.150788",
-    "canales": {
-      "whatsapp": "2026-10-18T22:17:32.150788"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0,
-      55.0,
-      55.0
-    ],
-    "precio_min_publicado": 55.0
-  },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
     "ts": "2026-10-19T20:04:39.211301",
     "canales": {
@@ -3525,6 +3512,16 @@
     "precio": 7.0,
     "precios_publicados": [
       7.0
+    ]
+  },
+  "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
+    "ts": "2026-10-20T22:17:44.748123",
+    "canales": {
+      "whatsapp": "2026-10-20T22:17:44.748123"
+    },
+    "precio": 62.0,
+    "precios_publicados": [
+      62.0
     ]
   }
 }
