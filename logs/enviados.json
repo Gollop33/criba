@@ -1560,16 +1560,6 @@
     ],
     "precio_min_publicado": 112.0
   },
-  "ml-sapatenis-leve-de-ziper-super-conforto": {
-    "ts": "2026-10-18T11:38:54.930312",
-    "canales": {
-      "whatsapp": "2026-10-18T11:38:54.930312"
-    },
-    "precio": 56.0,
-    "precios_publicados": [
-      56.0
-    ]
-  },
   "ml-mesa-dobravel-vira-maleta-com-alca-portatil-1": {
     "ts": "2026-10-20T05:55:00.643107",
     "canales": {
@@ -3462,6 +3452,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
+    "ts": "2026-10-20T11:44:23.128562",
+    "canales": {
+      "whatsapp": "2026-10-20T11:44:23.128562"
+    },
+    "precio": 112.0,
+    "precios_publicados": [
+      112.0
     ]
   }
 }
