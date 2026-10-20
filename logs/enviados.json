@@ -1159,18 +1159,6 @@
     ],
     "precio_min_publicado": 497.0
   },
-  "ml-cadeira-lombar-ergonomica-escritorio-apoio-me": {
-    "ts": "2026-10-18T00:58:20.356544",
-    "canales": {
-      "whatsapp": "2026-10-18T00:58:20.356544"
-    },
-    "precio": 313.0,
-    "precios_publicados": [
-      313.0,
-      313.0
-    ],
-    "precio_min_publicado": 313.0
-  },
   "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
     "ts": "2026-10-19T22:24:00.796178",
     "canales": {
@@ -3284,6 +3272,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "ml-relogio-inteligente-smartwatch-gps-autonomo-n": {
+    "ts": "2026-10-20T01:04:03.979751",
+    "canales": {
+      "whatsapp": "2026-10-20T01:04:03.979751"
+    },
+    "precio": 186.0,
+    "precios_publicados": [
+      186.0
     ]
   }
 }
