@@ -464,21 +464,6 @@
     ],
     "precio_min_publicado": 460.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-10-18T22:57:50.039505",
-    "canales": {
-      "whatsapp": "2026-10-18T22:57:50.039505"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      40.0,
-      40.0,
-      42.0,
-      42.0,
-      42.0
-    ],
-    "precio_min_publicado": 40.0
-  },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
     "ts": "2026-10-19T13:17:29.292181",
     "canales": {
@@ -1107,18 +1092,6 @@
       2.0
     ],
     "precio_min_publicado": 2.0
-  },
-  "ml-xiaomi-poco-x7-pro-5g-12ram-512-gb-global-cor": {
-    "ts": "2026-10-18T23:04:16.590465",
-    "canales": {
-      "whatsapp": "2026-10-18T23:04:16.590465"
-    },
-    "precio": 2180.0,
-    "precios_publicados": [
-      2180.0,
-      2180.0
-    ],
-    "precio_min_publicado": 2180.0
   },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
     "ts": "2026-10-20T10:51:14.655347",
@@ -2005,14 +1978,16 @@
     ]
   },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
-    "ts": "2026-10-19T11:14:46.809083",
+    "ts": "2026-10-20T23:05:15.232491",
     "canales": {
-      "whatsapp": "2026-10-19T11:14:46.809083"
+      "whatsapp": "2026-10-20T23:05:15.232491"
     },
     "precio": 85.0,
     "precios_publicados": [
+      85.0,
       85.0
-    ]
+    ],
+    "precio_min_publicado": 85.0
   },
   "amz-switch-gigabit-de-mesa-tplink-ls1005g-com-5-p": {
     "ts": "2026-10-19T11:21:43.906475",
