@@ -1432,16 +1432,6 @@
     ],
     "precio_min_publicado": 237.0
   },
-  "ml-cama-elastica-infantil-orbitoys-trampolim-140": {
-    "ts": "2026-10-18T05:49:43.015808",
-    "canales": {
-      "whatsapp": "2026-10-18T05:49:43.015808"
-    },
-    "precio": 334.0,
-    "precios_publicados": [
-      334.0
-    ]
-  },
   "ml-notebook-vaio-fe16-amd-ryzen-55625u-linux-8gb": {
     "ts": "2026-10-20T00:35:47.431986",
     "canales": {
@@ -1733,14 +1723,16 @@
     ]
   },
   "ml-mesa-dobravel-vira-maleta-com-alca-portatil-1": {
-    "ts": "2026-10-18T11:47:18.705802",
+    "ts": "2026-10-20T05:55:00.643107",
     "canales": {
-      "whatsapp": "2026-10-18T11:47:18.705802"
+      "whatsapp": "2026-10-20T05:55:00.643107"
     },
     "precio": 210.0,
     "precios_publicados": [
+      210.0,
       210.0
-    ]
+    ],
+    "precio_min_publicado": 210.0
   },
   "ml-racao-seca-formula-natural-gatos-castrados-ad": {
     "ts": "2026-10-18T11:56:07.529503",
