@@ -1444,16 +1444,6 @@
     ],
     "precio_min_publicado": 237.0
   },
-  "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
-    "ts": "2026-10-18T02:02:17.133131",
-    "canales": {
-      "whatsapp": "2026-10-18T02:02:17.133131"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "amz-kit-10-potes-de-vidro-hermeticos-640ml-com-ta": {
     "ts": "2026-10-18T02:48:43.910847",
     "canales": {
@@ -2507,14 +2497,16 @@
     ]
   },
   "ml-quatree-premium-racao-gatos-castrados-delicia": {
-    "ts": "2026-10-19T01:53:15.909059",
+    "ts": "2026-10-20T02:07:39.163593",
     "canales": {
-      "whatsapp": "2026-10-19T01:53:15.909059"
+      "whatsapp": "2026-10-20T02:07:39.163593"
     },
     "precio": 118.0,
     "precios_publicados": [
+      118.0,
       118.0
-    ]
+    ],
+    "precio_min_publicado": 118.0
   },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
     "ts": "2026-10-19T02:59:06.484221",
