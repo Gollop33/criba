@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-10-18T13:01:09.457381",
-    "canales": {
-      "whatsapp": "2026-10-18T13:01:09.457381"
-    },
-    "precio": 1399.0,
-    "precios_publicados": [
-      1399.0
-    ]
-  },
   "ml-carrinho-eletrico-infantil-12v-brinquedo-mini": {
     "ts": "2026-10-18T13:07:44.926236",
     "canales": {
@@ -3484,6 +3474,16 @@
     "precio": 2235.0,
     "precios_publicados": [
       2235.0
+    ]
+  },
+  "ml-jogo-de-panelas-ceramica-antiaderente-inducao": {
+    "ts": "2026-10-20T13:01:35.254304",
+    "canales": {
+      "whatsapp": "2026-10-20T13:01:35.254304"
+    },
+    "precio": 595.0,
+    "precios_publicados": [
+      595.0
     ]
   }
 }
