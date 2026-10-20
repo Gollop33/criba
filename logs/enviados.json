@@ -660,20 +660,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "ml-samsung-galaxy-watch8-smartwatch-40mm-lte-gal": {
-    "ts": "2026-10-18T04:13:34.536569",
-    "canales": {
-      "whatsapp": "2026-10-18T04:13:34.536569"
-    },
-    "precio": 1169.0,
-    "precios_publicados": [
-      1169.0,
-      1169.0,
-      1169.0,
-      1169.0
-    ],
-    "precio_min_publicado": 1169.0
-  },
   "ml-tablet-lenovo-tab-101-wifi-5-64gb-4gb-de-ram-": {
     "ts": "2026-10-19T21:08:27.813959",
     "canales": {
@@ -3296,6 +3282,16 @@
     "precio": 123.0,
     "precios_publicados": [
       123.0
+    ]
+  },
+  "ml-monitor-gamer-phillips-24-evnia-ips-144hz-05m": {
+    "ts": "2026-10-20T04:51:27.175102",
+    "canales": {
+      "whatsapp": "2026-10-20T04:51:27.175102"
+    },
+    "precio": 561.0,
+    "precios_publicados": [
+      561.0
     ]
   }
 }
