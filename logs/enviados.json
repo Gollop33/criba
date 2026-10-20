@@ -356,21 +356,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
-    "ts": "2026-10-18T23:49:55.474127",
-    "canales": {
-      "whatsapp": "2026-10-18T23:49:55.474127"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0,
-      13.0,
-      13.0,
-      13.0,
-      13.0
-    ],
-    "precio_min_publicado": 13.0
-  },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
     "ts": "2026-10-20T01:13:25.032052",
     "canales": {
@@ -3465,6 +3450,16 @@
     "precio": 337.0,
     "precios_publicados": [
       337.0
+    ]
+  },
+  "amz-kit-10-potes-hermeticos-de-vidro-640ml-com-ta": {
+    "ts": "2026-10-20T23:51:44.993151",
+    "canales": {
+      "whatsapp": "2026-10-20T23:51:44.993151"
+    },
+    "precio": 84.0,
+    "precios_publicados": [
+      84.0
     ]
   }
 }
