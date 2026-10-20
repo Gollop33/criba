@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-guardaroupa-casal-com-espelho-6-portas-2-gave": {
-    "ts": "2026-10-18T12:18:15.146108",
-    "canales": {
-      "whatsapp": "2026-10-18T12:18:15.146108"
-    },
-    "precio": 430.0,
-    "precios_publicados": [
-      430.0
-    ]
-  },
   "ml-projetor-hy320-davely-smart-tv-android-wifi-6": {
     "ts": "2026-10-18T12:27:54.929149",
     "canales": {
@@ -3474,6 +3464,16 @@
     "precio": 869.0,
     "precios_publicados": [
       869.0
+    ]
+  },
+  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
+    "ts": "2026-10-20T12:25:52.462282",
+    "canales": {
+      "whatsapp": "2026-10-20T12:25:52.462282"
+    },
+    "precio": 789.0,
+    "precios_publicados": [
+      789.0
     ]
   }
 }
