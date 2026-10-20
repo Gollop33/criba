@@ -1536,16 +1536,6 @@
     ],
     "precio_min_publicado": 1399.0
   },
-  "ml-armario-de-cozinha-poliman-moveis-clarice-12-": {
-    "ts": "2026-10-18T11:05:03.824284",
-    "canales": {
-      "whatsapp": "2026-10-18T11:05:03.824284"
-    },
-    "precio": 495.0,
-    "precios_publicados": [
-      495.0
-    ]
-  },
   "ml-cadeira-de-alimentacao-infantil-3-em-1-harmon": {
     "ts": "2026-10-19T15:59:12.588928",
     "canales": {
@@ -3458,6 +3448,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-cooler-fan-c3tech-storm-f7100bk-120mm-silenci": {
+    "ts": "2026-10-20T11:06:12.386535",
+    "canales": {
+      "whatsapp": "2026-10-20T11:06:12.386535"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
