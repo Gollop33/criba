@@ -1562,16 +1562,6 @@
     ],
     "precio_min_publicado": 210.0
   },
-  "ml-rocadeira-aparador-grama-a-bateria-recarregav": {
-    "ts": "2026-10-18T12:45:16.470922",
-    "canales": {
-      "whatsapp": "2026-10-18T12:45:16.470922"
-    },
-    "precio": 150.0,
-    "precios_publicados": [
-      150.0
-    ]
-  },
   "ml-tablet-vaio-tl10-4gb-ram-128gb-octacore-tela-": {
     "ts": "2026-10-18T12:52:01.693972",
     "canales": {
@@ -3474,6 +3464,16 @@
     "precio": 449.0,
     "precios_publicados": [
       449.0
+    ]
+  },
+  "amz-kingston-kf432c16bbk216-kit-de-memorias-de-16": {
+    "ts": "2026-10-20T12:48:25.836928",
+    "canales": {
+      "whatsapp": "2026-10-20T12:48:25.836928"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
