@@ -1192,18 +1192,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-bepantol-derma-rosa-mosqueta-hidratante-multi": {
-    "ts": "2026-10-18T14:33:18.772385",
-    "canales": {
-      "whatsapp": "2026-10-18T14:33:18.772385"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0,
-      33.0
-    ],
-    "precio_min_publicado": 33.0
-  },
   "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
     "ts": "2026-10-20T11:20:23.858205",
     "canales": {
@@ -3567,6 +3555,16 @@
     "precio": 104.0,
     "precios_publicados": [
       104.0
+    ]
+  },
+  "ml-celular-samsung-galaxy-a56-5g-256gb-8gb-ram-c": {
+    "ts": "2026-10-20T14:36:46.934313",
+    "canales": {
+      "whatsapp": "2026-10-20T14:36:46.934313"
+    },
+    "precio": 2299.0,
+    "precios_publicados": [
+      2299.0
     ]
   }
 }
