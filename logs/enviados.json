@@ -1458,16 +1458,6 @@
     ],
     "precio_min_publicado": 5748.0
   },
-  "ml-smartwatch-samsung-galaxy-fit3-display-16-ros": {
-    "ts": "2026-10-18T07:29:21.266796",
-    "canales": {
-      "whatsapp": "2026-10-18T07:29:21.266796"
-    },
-    "precio": 185.0,
-    "precios_publicados": [
-      185.0
-    ]
-  },
   "ml-whey-isolate-protein-fuse-900g-dark-lab-sabor": {
     "ts": "2026-10-19T09:49:45.186460",
     "canales": {
@@ -3290,6 +3280,16 @@
     "precio": 1157.0,
     "precios_publicados": [
       1157.0
+    ]
+  },
+  "ml-fone-de-ouvido-bluetooth-tws-esportivo-com-ga": {
+    "ts": "2026-10-20T07:35:53.167848",
+    "canales": {
+      "whatsapp": "2026-10-20T07:35:53.167848"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
