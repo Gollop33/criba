@@ -1611,16 +1611,6 @@
     ],
     "precio_min_publicado": 32.0
   },
-  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-10-18T23:09:58.655878",
-    "canales": {
-      "whatsapp": "2026-10-18T23:09:58.655878"
-    },
-    "precio": 71.0,
-    "precios_publicados": [
-      71.0
-    ]
-  },
   "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
     "ts": "2026-10-18T23:13:12.957771",
     "canales": {
@@ -2376,14 +2366,16 @@
     ]
   },
   "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
-    "ts": "2026-10-19T18:56:04.683480",
+    "ts": "2026-10-20T23:10:41.314384",
     "canales": {
-      "whatsapp": "2026-10-19T18:56:04.683480"
+      "whatsapp": "2026-10-20T23:10:41.314384"
     },
-    "precio": 94.0,
+    "precio": 95.0,
     "precios_publicados": [
-      94.0
-    ]
+      94.0,
+      95.0
+    ],
+    "precio_min_publicado": 94.0
   },
   "amz-omo-sabao-em-po-lavagem-perfeita-22kg": {
     "ts": "2026-10-19T19:20:56.821041",
