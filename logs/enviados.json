@@ -1203,18 +1203,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "ml-armario-de-cozinha-6-portas-2-gavetas-adelle-": {
-    "ts": "2026-10-18T12:13:44.062060",
-    "canales": {
-      "whatsapp": "2026-10-18T12:13:44.062060"
-    },
-    "precio": 687.0,
-    "precios_publicados": [
-      680.0,
-      687.0
-    ],
-    "precio_min_publicado": 680.0
-  },
   "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
     "ts": "2026-10-20T11:20:23.858205",
     "canales": {
@@ -3466,6 +3454,16 @@
     "precio": 134.0,
     "precios_publicados": [
       134.0
+    ]
+  },
+  "ml-colchao-solteiro-d33-basic-a-vacuo-ortopedico": {
+    "ts": "2026-10-20T12:15:50.793285",
+    "canales": {
+      "whatsapp": "2026-10-20T12:15:50.793285"
+    },
+    "precio": 422.0,
+    "precios_publicados": [
+      422.0
     ]
   }
 }
