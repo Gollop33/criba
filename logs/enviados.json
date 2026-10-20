@@ -1470,16 +1470,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "ml-notebook-gamer-acer-nitro-v15-anv155252vn-int": {
-    "ts": "2026-10-18T08:14:16.074158",
-    "canales": {
-      "whatsapp": "2026-10-18T08:14:16.074158"
-    },
-    "precio": 6699.0,
-    "precios_publicados": [
-      6699.0
-    ]
-  },
   "ml-cadeira-escritorio-presidente-charles-eames-c": {
     "ts": "2026-10-18T08:44:43.896163",
     "canales": {
@@ -3330,6 +3320,16 @@
     "precio": 206.0,
     "precios_publicados": [
       206.0
+    ]
+  },
+  "ml-mochila-maternidade-mochila-bebe-bolsa-de-mat": {
+    "ts": "2026-10-20T08:14:49.584717",
+    "canales": {
+      "whatsapp": "2026-10-20T08:14:49.584717"
+    },
+    "precio": 119.0,
+    "precios_publicados": [
+      119.0
     ]
   }
 }
