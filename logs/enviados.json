@@ -1956,14 +1956,16 @@
     "precio_min_publicado": 58.0
   },
   "amz-lampada-osram-standard-7528-p215-original": {
-    "ts": "2026-10-19T05:26:57.457581",
+    "ts": "2026-10-20T21:45:48.962807",
     "canales": {
-      "whatsapp": "2026-10-19T05:26:57.457581"
+      "whatsapp": "2026-10-20T21:45:48.962807"
     },
     "precio": 10.0,
     "precios_publicados": [
+      10.0,
       10.0
-    ]
+    ],
+    "precio_min_publicado": 10.0
   },
   "amz-controle-remoto-compativel-samsung-para-smart": {
     "ts": "2026-10-19T07:17:35.825689",
