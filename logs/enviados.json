@@ -1584,16 +1584,6 @@
     ],
     "precio_min_publicado": 32.0
   },
-  "ml-kit-doce-de-leite-zero-pasta-de-amendoim-panq": {
-    "ts": "2026-10-18T23:26:15.604123",
-    "canales": {
-      "whatsapp": "2026-10-18T23:26:15.604123"
-    },
-    "precio": 65.0,
-    "precios_publicados": [
-      65.0
-    ]
-  },
   "amz-cabo-carregador-turbo-usbc-1-metro-trancado-d": {
     "ts": "2026-10-18T23:33:55.121255",
     "canales": {
@@ -3470,6 +3460,16 @@
     "precio": 93.0,
     "precios_publicados": [
       93.0
+    ]
+  },
+  "amz-mondial-liquidificador-turbo-power-preto-550w": {
+    "ts": "2026-10-20T23:28:18.137632",
+    "canales": {
+      "whatsapp": "2026-10-20T23:28:18.137632"
+    },
+    "precio": 97.0,
+    "precios_publicados": [
+      97.0
     ]
   }
 }
