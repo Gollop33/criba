@@ -1456,16 +1456,6 @@
     ],
     "precio_min_publicado": 5748.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-10-18T06:28:42.138806",
-    "canales": {
-      "whatsapp": "2026-10-18T06:28:42.138806"
-    },
-    "precio": 80.0,
-    "precios_publicados": [
-      80.0
-    ]
-  },
   "ml-bicicleta-ergometrica-profissional-spinning-x": {
     "ts": "2026-10-18T06:49:35.780539",
     "canales": {
@@ -3286,6 +3276,16 @@
     "precio": 1599.0,
     "precios_publicados": [
       1599.0
+    ]
+  },
+  "ml-barra-de-nuts-ejoy-proteina-banana-e-canela-3": {
+    "ts": "2026-10-20T06:29:06.630698",
+    "canales": {
+      "whatsapp": "2026-10-20T06:29:06.630698"
+    },
+    "precio": 53.0,
+    "precios_publicados": [
+      53.0
     ]
   }
 }
