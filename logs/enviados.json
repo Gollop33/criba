@@ -2455,14 +2455,16 @@
     ]
   },
   "amz-pcyes-pasta-termica-nitrogen-basic-15g-55wmk-": {
-    "ts": "2026-10-19T10:21:40.269083",
+    "ts": "2026-10-20T11:09:35.583029",
     "canales": {
-      "whatsapp": "2026-10-19T10:21:40.269083"
+      "whatsapp": "2026-10-20T11:09:35.583029"
     },
-    "precio": 13.0,
+    "precio": 16.0,
     "precios_publicados": [
-      13.0
-    ]
+      13.0,
+      16.0
+    ],
+    "precio_min_publicado": 13.0
   },
   "ml-calibrador-e-medidor-digital-pressao-p-pneus-": {
     "ts": "2026-10-19T10:42:55.227874",
