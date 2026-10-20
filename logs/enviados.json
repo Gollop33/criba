@@ -2083,14 +2083,16 @@
     ]
   },
   "ml-carregador-portatil-power-bank-turbo-20000mah": {
-    "ts": "2026-10-19T12:31:39.211918",
+    "ts": "2026-10-20T22:21:51.035825",
     "canales": {
-      "whatsapp": "2026-10-19T12:31:39.211918"
+      "whatsapp": "2026-10-20T22:21:51.035825"
     },
     "precio": 109.0,
     "precios_publicados": [
+      109.0,
       109.0
-    ]
+    ],
+    "precio_min_publicado": 109.0
   },
   "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
     "ts": "2026-10-19T12:42:08.998591",
