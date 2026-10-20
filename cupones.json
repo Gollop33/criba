@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-20T05:54:57+00:00",
+  "actualizado": "2026-10-20T05:56:25+00:00",
   "total": 92,
   "fuentes": [
     "Telegram ML Afiliados",
@@ -86,7 +86,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T05:54:57+00:00"
+      "capturado_em": "2026-10-20T05:56:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -172,7 +172,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T05:54:57+00:00"
+      "capturado_em": "2026-10-20T05:56:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -243,7 +243,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T05:54:57+00:00"
+      "capturado_em": "2026-10-20T05:56:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -261,7 +261,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T05:54:57+00:00"
+      "capturado_em": "2026-10-20T05:56:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -1264,7 +1264,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-19T13:30:09+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFFHOJENOML",
@@ -1305,5 +1306,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-20T02:55:50-03:00"
 }
