@@ -240,22 +240,6 @@
     ],
     "precio_min_publicado": 87.0
   },
-  "ml-amazon-firetv-stick-4k-stick-wifi6-com-alexa-": {
-    "ts": "2026-10-19T20:39:02.925477",
-    "canales": {
-      "whatsapp": "2026-10-19T20:39:02.925477"
-    },
-    "precio": 260.0,
-    "precios_publicados": [
-      259.0,
-      246.0,
-      234.0,
-      247.0,
-      247.0,
-      260.0
-    ],
-    "precio_min_publicado": 234.0
-  },
   "amz-colgate-slim-soft-black-escova-de-dente-macia": {
     "ts": "2026-10-21T11:41:17.661281",
     "canales": {
@@ -3348,6 +3332,16 @@
     "precio": 6043.0,
     "precios_publicados": [
       6043.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
+    "ts": "2026-10-21T20:39:15.267403",
+    "canales": {
+      "whatsapp": "2026-10-21T20:39:15.267403"
+    },
+    "precio": 1917.0,
+    "precios_publicados": [
+      1917.0
     ]
   }
 }
