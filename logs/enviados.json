@@ -469,20 +469,6 @@
     ],
     "precio_min_publicado": 296.0
   },
-  "amz-duracell-pilha-alcalina-aa-pequena-com-16-uni": {
-    "ts": "2026-10-19T11:07:56.035219",
-    "canales": {
-      "whatsapp": "2026-10-19T11:07:56.035219"
-    },
-    "precio": 82.0,
-    "precios_publicados": [
-      82.0,
-      82.0,
-      82.0,
-      82.0
-    ],
-    "precio_min_publicado": 82.0
-  },
   "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
     "ts": "2026-10-21T10:39:31.809228",
     "canales": {
@@ -3423,6 +3409,16 @@
     "precio": 42.0,
     "precios_publicados": [
       42.0
+    ]
+  },
+  "amz-oralb-escova-de-dente-sensitive-purification-": {
+    "ts": "2026-10-21T11:10:57.619591",
+    "canales": {
+      "whatsapp": "2026-10-21T11:10:57.619591"
+    },
+    "precio": 44.0,
+    "precios_publicados": [
+      44.0
     ]
   }
 }
