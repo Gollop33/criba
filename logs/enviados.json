@@ -1526,16 +1526,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "ml-calibrador-e-medidor-digital-pressao-p-pneus-": {
-    "ts": "2026-10-19T10:42:55.227874",
-    "canales": {
-      "whatsapp": "2026-10-19T10:42:55.227874"
-    },
-    "precio": 46.0,
-    "precios_publicados": [
-      46.0
-    ]
-  },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-10-20T23:05:15.232491",
     "canales": {
@@ -3392,6 +3382,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-fralda-pampers-premium-care-tamanho-p-40-unid": {
+    "ts": "2026-10-21T10:45:54.815035",
+    "canales": {
+      "whatsapp": "2026-10-21T10:45:54.815035"
+    },
+    "precio": 54.0,
+    "precios_publicados": [
+      54.0
     ]
   }
 }
