@@ -1399,16 +1399,6 @@
     ],
     "precio_min_publicado": 109.0
   },
-  "amz-premier-pet-golden-special-racao-para-caes-ad": {
-    "ts": "2026-10-19T13:37:04.833995",
-    "canales": {
-      "whatsapp": "2026-10-19T13:37:04.833995"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0
-    ]
-  },
   "amz-premier-pet-golden-special-racao-seca-para-ga": {
     "ts": "2026-10-19T13:40:03.464526",
     "canales": {
@@ -3257,6 +3247,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-10-21T13:39:29.227350",
+    "canales": {
+      "whatsapp": "2026-10-21T13:39:29.227350"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
