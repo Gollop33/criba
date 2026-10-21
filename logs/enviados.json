@@ -1541,16 +1541,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-adaptador-usb-wifi-wireless-dual-band-ac1200-": {
-    "ts": "2026-10-19T08:27:20.366707",
-    "canales": {
-      "whatsapp": "2026-10-19T08:27:20.366707"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-case-externo-para-ssd-m2-nvme-usbc-31-10gbps-": {
     "ts": "2026-10-20T11:29:38.251751",
     "canales": {
@@ -3401,6 +3391,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
+    "ts": "2026-10-21T08:32:51.356953",
+    "canales": {
+      "whatsapp": "2026-10-21T08:32:51.356953"
+    },
+    "precio": 41.0,
+    "precios_publicados": [
+      41.0
     ]
   }
 }
