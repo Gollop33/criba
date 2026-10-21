@@ -1354,16 +1354,6 @@
     ],
     "precio_min_publicado": 3967.0
   },
-  "ml-curcuma-130mg-colageno-tipo-ii-45mg-formula-c": {
-    "ts": "2026-10-19T17:59:24.041131",
-    "canales": {
-      "whatsapp": "2026-10-19T17:59:24.041131"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0
-    ]
-  },
   "ml-lixeira-inteligente-automatica-preta-universa": {
     "ts": "2026-10-19T18:11:11.943156",
     "canales": {
@@ -3370,6 +3360,16 @@
     "precio": 144.0,
     "precios_publicados": [
       144.0
+    ]
+  },
+  "amz-kit-10-potes-de-vidro-borossilicato-640ml-her": {
+    "ts": "2026-10-21T18:01:37.411510",
+    "canales": {
+      "whatsapp": "2026-10-21T18:01:37.411510"
+    },
+    "precio": 87.0,
+    "precios_publicados": [
+      87.0
     ]
   }
 }
