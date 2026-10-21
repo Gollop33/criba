@@ -1398,16 +1398,6 @@
     ],
     "precio_min_publicado": 109.0
   },
-  "ml-kit-10-pote-de-vidro-marmita-hermetico-370ml-": {
-    "ts": "2026-10-19T13:24:34.534567",
-    "canales": {
-      "whatsapp": "2026-10-19T13:24:34.534567"
-    },
-    "precio": 75.0,
-    "precios_publicados": [
-      75.0
-    ]
-  },
   "amz-coleira-antipulgas-e-carrapatos-para-caes-aci": {
     "ts": "2026-10-19T13:27:26.147887",
     "canales": {
@@ -3266,6 +3256,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
+    "ts": "2026-10-21T13:26:36.773188",
+    "canales": {
+      "whatsapp": "2026-10-21T13:26:36.773188"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
