@@ -1530,16 +1530,6 @@
     ],
     "precio_min_publicado": 956.0
   },
-  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
-    "ts": "2026-10-19T01:43:22.445609",
-    "canales": {
-      "whatsapp": "2026-10-19T01:43:22.445609"
-    },
-    "precio": 2402.0,
-    "precios_publicados": [
-      2402.0
-    ]
-  },
   "ml-quatree-premium-racao-gatos-castrados-delicia": {
     "ts": "2026-10-20T02:07:39.163593",
     "canales": {
@@ -2031,14 +2021,16 @@
     }
   },
   "ml-notebook-hp-200-g2i-intel-core-5120u-16-intel": {
-    "ts": "2026-10-19T17:25:06.984002",
+    "ts": "2026-10-21T01:44:11.273674",
     "canales": {
-      "whatsapp": "2026-10-19T17:25:06.984002"
+      "whatsapp": "2026-10-21T01:44:11.273674"
     },
     "precio": 3967.0,
     "precios_publicados": [
+      3967.0,
       3967.0
-    ]
+    ],
+    "precio_min_publicado": 3967.0
   },
   "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
     "ts": "2026-10-19T17:33:20.332385",
