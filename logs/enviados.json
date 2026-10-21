@@ -1246,16 +1246,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "ml-oculos-inteligente-tradutor-ia-microwear-blue": {
-    "ts": "2026-10-19T22:51:06.125446",
-    "canales": {
-      "whatsapp": "2026-10-19T22:51:06.125446"
-    },
-    "precio": 114.0,
-    "precios_publicados": [
-      114.0
-    ]
-  },
   "cupom-ml-198fc957e6": {
     "ts": "2026-10-21T00:03:48.288120",
     "canales": {
@@ -2253,14 +2243,16 @@
     "precio_min_publicado": 62.0
   },
   "amz-filtrorefil-original-de-agua-para-purificador": {
-    "ts": "2026-10-20T22:51:39.496715",
+    "ts": "2026-10-21T22:54:55.798209",
     "canales": {
-      "whatsapp": "2026-10-20T22:51:39.496715"
+      "whatsapp": "2026-10-21T22:54:55.798209"
     },
     "precio": 53.0,
     "precios_publicados": [
+      53.0,
       53.0
-    ]
+    ],
+    "precio_min_publicado": 53.0
   },
   "amz-sanduicheira-eletrica-cadence-click-220v": {
     "ts": "2026-10-20T22:56:49.458741",
