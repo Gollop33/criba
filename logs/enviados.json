@@ -1288,26 +1288,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-relogio-technos-masculino-acqua-troca-pulseir": {
-    "ts": "2026-10-19T20:51:19.236499",
-    "canales": {
-      "whatsapp": "2026-10-19T20:51:19.236499"
-    },
-    "precio": 544.0,
-    "precios_publicados": [
-      544.0
-    ]
-  },
-  "ml-tenis-kappa-pulse-rx-unissex-corrida-conforto": {
-    "ts": "2026-10-19T20:57:28.750649",
-    "canales": {
-      "whatsapp": "2026-10-19T20:57:28.750649"
-    },
-    "precio": 142.0,
-    "precios_publicados": [
-      142.0
-    ]
-  },
   "ml-milho-pipoca-grande-redonda-gourmet-ciaball-m": {
     "ts": "2026-10-19T21:00:43.039008",
     "canales": {
@@ -3358,6 +3338,16 @@
     "precio": 1445.0,
     "precios_publicados": [
       1445.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
+    "ts": "2026-10-21T20:58:48.000819",
+    "canales": {
+      "whatsapp": "2026-10-21T20:58:48.000819"
+    },
+    "precio": 2806.0,
+    "precios_publicados": [
+      2806.0
     ]
   }
 }
