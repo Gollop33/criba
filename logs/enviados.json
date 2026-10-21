@@ -544,19 +544,6 @@
     ],
     "precio_min_publicado": 3879.0
   },
-  "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
-    "ts": "2026-10-19T22:24:00.796178",
-    "canales": {
-      "whatsapp": "2026-10-19T22:24:00.796178"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      10.0,
-      13.0,
-      13.0
-    ],
-    "precio_min_publicado": 10.0
-  },
   "ml-compressor-de-ar-digital-portatil-lumi-sem-fi": {
     "ts": "2026-10-20T07:07:55.903630",
     "canales": {
@@ -3347,6 +3334,16 @@
     "precio": 3299.0,
     "precios_publicados": [
       3299.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x7-pro-5g-nfc-black-pr": {
+    "ts": "2026-10-21T22:31:07.524060",
+    "canales": {
+      "whatsapp": "2026-10-21T22:31:07.524060"
+    },
+    "precio": 2326.0,
+    "precios_publicados": [
+      2326.0
     ]
   }
 }
