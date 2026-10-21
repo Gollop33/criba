@@ -1259,16 +1259,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "ml-lencostoalhas-umedecidos-baby-free-hipoalerge": {
-    "ts": "2026-10-19T22:16:16.898827",
-    "canales": {
-      "whatsapp": "2026-10-19T22:16:16.898827"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "ml-oculos-inteligente-tradutor-ia-microwear-blue": {
     "ts": "2026-10-19T22:51:06.125446",
     "canales": {
@@ -2264,14 +2254,16 @@
     "precio_min_publicado": 7.0
   },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
-    "ts": "2026-10-20T22:17:44.748123",
+    "ts": "2026-10-21T22:18:39.586107",
     "canales": {
-      "whatsapp": "2026-10-20T22:17:44.748123"
+      "whatsapp": "2026-10-21T22:18:39.586107"
     },
-    "precio": 62.0,
+    "precio": 57.0,
     "precios_publicados": [
-      62.0
-    ]
+      62.0,
+      57.0
+    ],
+    "precio_min_publicado": 62.0
   },
   "amz-filtrorefil-original-de-agua-para-purificador": {
     "ts": "2026-10-20T22:51:39.496715",
