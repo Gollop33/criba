@@ -719,18 +719,6 @@
     ],
     "precio_min_publicado": 189.0
   },
-  "ml-creatina-growth-supplements-monohidratada-em-": {
-    "ts": "2026-10-19T21:23:37.586644",
-    "canales": {
-      "whatsapp": "2026-10-19T21:23:37.586644"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0,
-      39.0
-    ],
-    "precio_min_publicado": 39.0
-  },
   "ml-cadeira-presidente-escritorio-massagem-reclin": {
     "ts": "2026-10-20T09:28:45.537528",
     "canales": {
@@ -3323,6 +3311,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
+    "ts": "2026-10-21T21:24:41.453379",
+    "canales": {
+      "whatsapp": "2026-10-21T21:24:41.453379"
+    },
+    "precio": 4099.0,
+    "precios_publicados": [
+      4099.0
     ]
   }
 }
