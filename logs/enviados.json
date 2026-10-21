@@ -1042,18 +1042,6 @@
     ],
     "precio_min_publicado": 57.0
   },
-  "ml-racao-biofresh-super-premium-gato-castrado-ad": {
-    "ts": "2026-10-19T16:38:15.378504",
-    "canales": {
-      "whatsapp": "2026-10-19T16:38:15.378504"
-    },
-    "precio": 239.0,
-    "precios_publicados": [
-      239.0,
-      239.0
-    ],
-    "precio_min_publicado": 239.0
-  },
   "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
     "ts": "2026-10-20T21:32:55.089945",
     "canales": {
@@ -1353,16 +1341,6 @@
       824.0
     ],
     "precio_min_publicado": 820.0
-  },
-  "ml-bicicleta-bmx-aro-20-pro-gts-insanos-aluminio": {
-    "ts": "2026-10-19T16:40:56.456676",
-    "canales": {
-      "whatsapp": "2026-10-19T16:40:56.456676"
-    },
-    "precio": 545.0,
-    "precios_publicados": [
-      545.0
-    ]
   },
   "ml-cadeira-de-escritorio-gamer-nitro-ergonomica-": {
     "ts": "2026-10-19T16:50:33.008247",
@@ -3328,6 +3306,16 @@
     "precio": 76.0,
     "precios_publicados": [
       76.0
+    ]
+  },
+  "amz-coleira-antipulgas-e-carrapatos-para-caes-aci": {
+    "ts": "2026-10-21T16:44:46.200608",
+    "canales": {
+      "whatsapp": "2026-10-21T16:44:46.200608"
+    },
+    "precio": 136.0,
+    "precios_publicados": [
+      136.0
     ]
   }
 }
