@@ -318,21 +318,6 @@
     ],
     "precio_min_publicado": 460.0
   },
-  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
-    "ts": "2026-10-19T13:17:29.292181",
-    "canales": {
-      "whatsapp": "2026-10-19T13:17:29.292181"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0,
-      48.0,
-      50.0,
-      48.0,
-      49.0
-    ],
-    "precio_min_publicado": 48.0
-  },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
     "ts": "2026-10-20T20:48:25.832378",
     "canales": {
@@ -1412,16 +1397,6 @@
       109.0
     ],
     "precio_min_publicado": 109.0
-  },
-  "ml-kit-5-macacao-estampado-ziper-bebe-inverno-al": {
-    "ts": "2026-10-19T13:20:06.774234",
-    "canales": {
-      "whatsapp": "2026-10-19T13:20:06.774234"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
   },
   "ml-kit-10-pote-de-vidro-marmita-hermetico-370ml-": {
     "ts": "2026-10-19T13:24:34.534567",
@@ -3281,6 +3256,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
+    "ts": "2026-10-21T13:22:57.903762",
+    "canales": {
+      "whatsapp": "2026-10-21T13:22:57.903762"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
