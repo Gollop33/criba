@@ -429,20 +429,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-personal-papel-higienico-vip-folha-tripla-com": {
-    "ts": "2026-10-19T18:51:46.830921",
-    "canales": {
-      "whatsapp": "2026-10-19T18:51:46.830921"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      14.0,
-      14.0,
-      19.0,
-      19.0
-    ],
-    "precio_min_publicado": 14.0
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-10-19T20:48:27.809532",
     "canales": {
@@ -1354,16 +1340,6 @@
     ],
     "precio_min_publicado": 3967.0
   },
-  "ml-lixeira-inteligente-automatica-preta-universa": {
-    "ts": "2026-10-19T18:11:11.943156",
-    "canales": {
-      "whatsapp": "2026-10-19T18:11:11.943156"
-    },
-    "precio": 57.0,
-    "precios_publicados": [
-      57.0
-    ]
-  },
   "ml-camera-seguranca-ip-externa-wifi-a28-app-icse": {
     "ts": "2026-10-20T20:58:01.357596",
     "canales": {
@@ -1376,16 +1352,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "ml-cadeira-de-descanso-balanco-bebe-eletrica-mus": {
-    "ts": "2026-10-19T18:43:13.060863",
-    "canales": {
-      "whatsapp": "2026-10-19T18:43:13.060863"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
     "ts": "2026-10-20T23:10:41.314384",
     "canales": {
@@ -1397,16 +1363,6 @@
       95.0
     ],
     "precio_min_publicado": 94.0
-  },
-  "amz-omo-sabao-em-po-lavagem-perfeita-22kg": {
-    "ts": "2026-10-19T19:20:56.821041",
-    "canales": {
-      "whatsapp": "2026-10-19T19:20:56.821041"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
   },
   "ml-kit-4-camiseta-dryfit-sandrini-masculina-acad": {
     "ts": "2026-10-21T03:32:43.681641",
@@ -3380,6 +3336,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-wolff-conjunto-7-pecas-bowl-com-6-tacas-para-": {
+    "ts": "2026-10-21T19:43:59.645033",
+    "canales": {
+      "whatsapp": "2026-10-21T19:43:59.645033"
+    },
+    "precio": 63.0,
+    "precios_publicados": [
+      63.0
     ]
   }
 }
