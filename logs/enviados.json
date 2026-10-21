@@ -1342,16 +1342,6 @@
     ],
     "precio_min_publicado": 820.0
   },
-  "ml-mochila-maternidade-media-passeio-personaliza": {
-    "ts": "2026-10-19T16:57:58.349119",
-    "canales": {
-      "whatsapp": "2026-10-19T16:57:58.349119"
-    },
-    "precio": 83.0,
-    "precios_publicados": [
-      83.0
-    ]
-  },
   "cupom-ml-2f21814a6b": {
     "ts": "2026-10-19T17:21:19.581600",
     "canales": {
@@ -3326,6 +3316,16 @@
     "precio": 82.0,
     "precios_publicados": [
       82.0
+    ]
+  },
+  "amz-street-fighter-6-year-1-2-fighters-edition-pl": {
+    "ts": "2026-10-21T17:06:46.900124",
+    "canales": {
+      "whatsapp": "2026-10-21T17:06:46.900124"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
