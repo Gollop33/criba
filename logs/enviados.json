@@ -1541,16 +1541,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "ml-caixa-de-som-bluetooth-subwoofer-tws-mic-abs3": {
-    "ts": "2026-10-19T07:50:27.056176",
-    "canales": {
-      "whatsapp": "2026-10-19T07:50:27.056176"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "amz-adaptador-usb-wifi-wireless-dual-band-ac1200-": {
     "ts": "2026-10-19T08:27:20.366707",
     "canales": {
@@ -3402,5 +3392,15 @@
     "canales": {
       "whatsapp": "2026-10-21T06:49:49.170211"
     }
+  },
+  "amz-huggies-fralda-descartavel-premium-natural-ca": {
+    "ts": "2026-10-21T08:10:09.946287",
+    "canales": {
+      "whatsapp": "2026-10-21T08:10:09.946287"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
+    ]
   }
 }
