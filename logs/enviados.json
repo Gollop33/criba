@@ -684,19 +684,6 @@
     ],
     "precio_min_publicado": 32.0
   },
-  "amz-elg-f80n-suporte-articulado-de-mesa-pistao-a-": {
-    "ts": "2026-10-19T00:06:55.300095",
-    "canales": {
-      "whatsapp": "2026-10-19T00:06:55.300095"
-    },
-    "precio": 134.0,
-    "precios_publicados": [
-      134.0,
-      134.0,
-      134.0
-    ],
-    "precio_min_publicado": 134.0
-  },
   "amz-kit-sabonete-phebo-amarelo-720g": {
     "ts": "2026-10-19T21:42:01.114868",
     "canales": {
@@ -1540,16 +1527,6 @@
       32.0
     ],
     "precio_min_publicado": 32.0
-  },
-  "amz-fralda-pampers-supersequinha-tamanho-g-80-uni": {
-    "ts": "2026-10-19T00:11:49.196432",
-    "canales": {
-      "whatsapp": "2026-10-19T00:11:49.196432"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
   },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-10-19T00:22:57.072410",
@@ -3447,6 +3424,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-monitor-brx-23-led-75hz-hdmi-vga-preto": {
+    "ts": "2026-10-21T00:12:28.224437",
+    "canales": {
+      "whatsapp": "2026-10-21T00:12:28.224437"
+    },
+    "precio": 314.0,
+    "precios_publicados": [
+      314.0
     ]
   }
 }

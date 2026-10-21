@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-20T23:59:18+00:00",
-  "total": 99,
+  "actualizado": "2026-10-21T00:12:25+00:00",
+  "total": 96,
   "fuentes": [
     "Telegram ML Afiliados",
     "ML Oficial"
@@ -86,7 +86,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T23:59:18+00:00"
+      "capturado_em": "2026-10-21T00:12:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -243,7 +243,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T23:59:18+00:00"
+      "capturado_em": "2026-10-21T00:12:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -261,7 +261,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-10-20T23:59:18+00:00"
+      "capturado_em": "2026-10-21T00:12:25+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -1001,20 +1001,6 @@
       "estado": "ativo"
     },
     {
-      "codigo": "CARE15",
-      "desconto": "15% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145",
-      "hasta": "2026-10-20",
-      "categoria": "Beleza",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-12T12:01:01+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
-    },
-    {
       "codigo": "CUPOMON",
       "desconto": "30% OFF",
       "compra_minima": "R$1",
@@ -1359,37 +1345,11 @@
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "codigo": "OFFSOHJ",
-      "desconto": "8% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-10-20",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-20T13:01:39+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
       "codigo": "OFERTASHJ",
       "desconto": "20% OFF",
       "compra_minima": "R$79",
       "limite": "R$120",
       "hasta": "",
-      "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-20T13:01:39+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "OFFHOJEML",
-      "desconto": "20% OFF",
-      "compra_minima": "R$79",
-      "limite": "R$100",
-      "hasta": "2026-10-20",
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
