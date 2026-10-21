@@ -205,21 +205,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "amz-nivea-sun-protetor-solar-facial-toque-seco-an": {
-    "ts": "2026-10-19T20:00:05.647462",
-    "canales": {
-      "whatsapp": "2026-10-19T20:00:05.647462"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      32.0,
-      32.0,
-      37.0,
-      34.0,
-      37.0
-    ],
-    "precio_min_publicado": 32.0
-  },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-10-21T14:39:59.583589",
     "canales": {
@@ -3356,6 +3341,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-tapete-higienico-para-caes-50-unidades-premiu": {
+    "ts": "2026-10-21T20:00:30.388287",
+    "canales": {
+      "whatsapp": "2026-10-21T20:00:30.388287"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
