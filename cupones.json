@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-21T02:06:04+00:00",
+  "actualizado": "2026-10-21T06:11:28+00:00",
   "total": 96,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -747,7 +747,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-20T18:44:30+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SUPERDESCONTO",
@@ -1342,7 +1343,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-20T14:11:03+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFERTASHJ",
@@ -1357,5 +1359,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-21T03:11:02-03:00"
 }
