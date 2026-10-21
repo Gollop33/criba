@@ -686,19 +686,6 @@
     ],
     "precio_min_publicado": 3879.0
   },
-  "ml-cadeira-escritorio-ergonomica-genebra-b500-lu": {
-    "ts": "2026-10-19T14:42:12.044046",
-    "canales": {
-      "whatsapp": "2026-10-19T14:42:12.044046"
-    },
-    "precio": 497.0,
-    "precios_publicados": [
-      497.0,
-      497.0,
-      497.0
-    ],
-    "precio_min_publicado": 497.0
-  },
   "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
     "ts": "2026-10-19T22:24:00.796178",
     "canales": {
@@ -3236,6 +3223,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
+    "ts": "2026-10-21T14:44:39.306688",
+    "canales": {
+      "whatsapp": "2026-10-21T14:44:39.306688"
+    },
+    "precio": 68.0,
+    "precios_publicados": [
+      68.0
     ]
   }
 }
