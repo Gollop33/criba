@@ -369,20 +369,6 @@
     ],
     "precio_min_publicado": 852.0
   },
-  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-10-19T20:48:27.809532",
-    "canales": {
-      "whatsapp": "2026-10-19T20:48:27.809532"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0,
-      23.0,
-      23.0,
-      23.0
-    ],
-    "precio_min_publicado": 23.0
-  },
   "amz-personal-vip-papel-higienico-folha-dupla-bran": {
     "ts": "2026-10-19T20:59:29.242362",
     "canales": {
@@ -3362,6 +3348,16 @@
     "precio": 184.0,
     "precios_publicados": [
       184.0
+    ]
+  },
+  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
+    "ts": "2026-10-21T20:51:06.803414",
+    "canales": {
+      "whatsapp": "2026-10-21T20:51:06.803414"
+    },
+    "precio": 1445.0,
+    "precios_publicados": [
+      1445.0
     ]
   }
 }
