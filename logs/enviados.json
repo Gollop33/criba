@@ -614,20 +614,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
-    "ts": "2026-10-19T00:18:33.902508",
-    "canales": {
-      "whatsapp": "2026-10-19T00:18:33.902508"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0,
-      49.0,
-      49.0,
-      49.0
-    ],
-    "precio_min_publicado": 49.0
-  },
   "amz-personal-papel-higienico-vip-folha-tripla-com": {
     "ts": "2026-10-19T18:51:46.830921",
     "canales": {
@@ -3444,6 +3430,16 @@
     "precio": 659.0,
     "precios_publicados": [
       659.0
+    ]
+  },
+  "ml-cadeira-de-escritorio-sweet-studio-presidente": {
+    "ts": "2026-10-21T00:20:50.233957",
+    "canales": {
+      "whatsapp": "2026-10-21T00:20:50.233957"
+    },
+    "precio": 499.0,
+    "precios_publicados": [
+      499.0
     ]
   }
 }
