@@ -1142,18 +1142,6 @@
     ],
     "precio_min_publicado": 2998.0
   },
-  "ml-whey-isolate-protein-fuse-900g-dark-lab-sabor": {
-    "ts": "2026-10-19T09:49:45.186460",
-    "canales": {
-      "whatsapp": "2026-10-19T09:49:45.186460"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0,
-      78.0
-    ],
-    "precio_min_publicado": 78.0
-  },
   "ml-suporte-articulado-para-monitor-13-a-32-pista": {
     "ts": "2026-10-21T04:07:34.113560",
     "canales": {
@@ -1552,16 +1540,6 @@
       48.0
     ],
     "precio_min_publicado": 48.0
-  },
-  "ml-patinete-eletrico-infantil-k6-para-criancas-c": {
-    "ts": "2026-10-19T09:35:42.393068",
-    "canales": {
-      "whatsapp": "2026-10-19T09:35:42.393068"
-    },
-    "precio": 791.0,
-    "precios_publicados": [
-      791.0
-    ]
   },
   "ml-turma-hello-kitty-miniaturas-16pcs-kawaii-san": {
     "ts": "2026-10-19T09:56:55.903585",
@@ -3421,6 +3399,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
+    "ts": "2026-10-21T09:49:57.455060",
+    "canales": {
+      "whatsapp": "2026-10-21T09:49:57.455060"
+    },
+    "precio": 13.0,
+    "precios_publicados": [
+      13.0
     ]
   }
 }
