@@ -1342,12 +1342,6 @@
     ],
     "precio_min_publicado": 820.0
   },
-  "cupom-ml-2f21814a6b": {
-    "ts": "2026-10-19T17:21:19.581600",
-    "canales": {
-      "whatsapp": "2026-10-19T17:21:19.581600"
-    }
-  },
   "ml-notebook-hp-200-g2i-intel-core-5120u-16-intel": {
     "ts": "2026-10-21T01:44:11.273674",
     "canales": {
@@ -3346,6 +3340,16 @@
     "precio": 82.0,
     "precios_publicados": [
       82.0
+    ]
+  },
+  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
+    "ts": "2026-10-21T17:27:04.924839",
+    "canales": {
+      "whatsapp": "2026-10-21T17:27:04.924839"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
