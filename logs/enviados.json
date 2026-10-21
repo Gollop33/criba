@@ -839,19 +839,6 @@
     ],
     "precio_min_publicado": 70.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-10-19T01:28:21.223231",
-    "canales": {
-      "whatsapp": "2026-10-19T01:28:21.223231"
-    },
-    "precio": 1450.0,
-    "precios_publicados": [
-      1450.0,
-      1420.0,
-      1450.0
-    ],
-    "precio_min_publicado": 1420.0
-  },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
     "ts": "2026-10-19T12:25:34.268499",
     "canales": {
@@ -905,15 +892,16 @@
     "precio_min_publicado": 1799.0
   },
   "ml-notebook-asus-vivobook-go-e1504ga-intel-core-": {
-    "ts": "2026-10-19T11:44:29.481059",
+    "ts": "2026-10-21T01:34:41.240212",
     "canales": {
-      "whatsapp": "2026-10-19T11:44:29.481059"
+      "whatsapp": "2026-10-21T01:34:41.240212"
     },
-    "precio": 2464.0,
+    "precio": 2547.0,
     "precios_publicados": [
       2464.0,
       2464.0,
-      2464.0
+      2464.0,
+      2547.0
     ],
     "precio_min_publicado": 2464.0
   },
