@@ -400,20 +400,6 @@
     ],
     "precio_min_publicado": 852.0
   },
-  "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
-    "ts": "2026-10-19T20:01:45.509147",
-    "canales": {
-      "whatsapp": "2026-10-19T20:01:45.509147"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      54.0,
-      54.0,
-      54.0,
-      54.0
-    ],
-    "precio_min_publicado": 54.0
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-10-19T20:48:27.809532",
     "canales": {
@@ -427,20 +413,6 @@
       23.0
     ],
     "precio_min_publicado": 23.0
-  },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-10-19T20:04:39.211301",
-    "canales": {
-      "whatsapp": "2026-10-19T20:04:39.211301"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0,
-      49.0,
-      49.0,
-      47.0
-    ],
-    "precio_min_publicado": 47.0
   },
   "amz-personal-vip-papel-higienico-folha-dupla-bran": {
     "ts": "2026-10-19T20:59:29.242362",
@@ -3351,6 +3323,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-cafeteira-electrolux-efficient-15-xicaras-ecm": {
+    "ts": "2026-10-21T20:08:34.161343",
+    "canales": {
+      "whatsapp": "2026-10-21T20:08:34.161343"
+    },
+    "precio": 114.0,
+    "precios_publicados": [
+      114.0
     ]
   }
 }
