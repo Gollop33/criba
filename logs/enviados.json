@@ -1354,16 +1354,6 @@
     ],
     "precio_min_publicado": 3967.0
   },
-  "amz-boni-natural-creme-dental-com-oleos-naturais-": {
-    "ts": "2026-10-19T17:42:38.919872",
-    "canales": {
-      "whatsapp": "2026-10-19T17:42:38.919872"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0
-    ]
-  },
   "amz-protetor-solar-corporal-em-locao-neutrogena-s": {
     "ts": "2026-10-19T17:46:10.615231",
     "canales": {
@@ -3350,6 +3340,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "amz-cetaphil-creme-hidratante": {
+    "ts": "2026-10-21T17:43:42.219326",
+    "canales": {
+      "whatsapp": "2026-10-21T17:43:42.219326"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
