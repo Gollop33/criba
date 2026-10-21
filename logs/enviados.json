@@ -1514,16 +1514,6 @@
     ],
     "precio_min_publicado": 118.0
   },
-  "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-10-19T02:59:06.484221",
-    "canales": {
-      "whatsapp": "2026-10-19T02:59:06.484221"
-    },
-    "precio": 186.0,
-    "precios_publicados": [
-      186.0
-    ]
-  },
   "cupom-ml-225b59f97b": {
     "ts": "2026-10-20T03:32:46.787809",
     "canales": {
@@ -3416,6 +3406,16 @@
     "precio": 330.0,
     "precios_publicados": [
       330.0
+    ]
+  },
+  "ml-proteina-max-titanium-whey-pro-concentrado-em": {
+    "ts": "2026-10-21T03:02:42.897459",
+    "canales": {
+      "whatsapp": "2026-10-21T03:02:42.897459"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
