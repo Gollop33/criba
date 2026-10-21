@@ -190,21 +190,6 @@
     ],
     "precio_min_publicado": 81.0
   },
-  "ml-jogo-de-lencol-400-fios-ponto-palito-cama-que": {
-    "ts": "2026-10-19T20:27:22.366998",
-    "canales": {
-      "whatsapp": "2026-10-19T20:27:22.366998"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      25.0,
-      28.0,
-      28.0,
-      28.0,
-      28.0
-    ],
-    "precio_min_publicado": 25.0
-  },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-10-21T14:39:59.583589",
     "canales": {
@@ -1332,16 +1317,6 @@
       59.0
     ],
     "precio_min_publicado": 59.0
-  },
-  "amz-ola-bebe-sabao-liquido-para-roupas-finas-e-de": {
-    "ts": "2026-10-19T20:29:57.565846",
-    "canales": {
-      "whatsapp": "2026-10-19T20:29:57.565846"
-    },
-    "precio": 56.0,
-    "precios_publicados": [
-      56.0
-    ]
   },
   "ml-relogio-technos-masculino-acqua-troca-pulseir": {
     "ts": "2026-10-19T20:51:19.236499",
@@ -3363,6 +3338,16 @@
     "precio": 5499.0,
     "precios_publicados": [
       5499.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
+    "ts": "2026-10-21T20:32:43.292851",
+    "canales": {
+      "whatsapp": "2026-10-21T20:32:43.292851"
+    },
+    "precio": 6043.0,
+    "precios_publicados": [
+      6043.0
     ]
   }
 }
