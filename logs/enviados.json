@@ -1541,16 +1541,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-controle-remoto-compativel-samsung-para-smart": {
-    "ts": "2026-10-19T07:17:35.825689",
-    "canales": {
-      "whatsapp": "2026-10-19T07:17:35.825689"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
   "ml-caixa-de-som-bluetooth-subwoofer-tws-mic-abs3": {
     "ts": "2026-10-19T07:50:27.056176",
     "canales": {
@@ -2132,14 +2122,16 @@
     ]
   },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-10-19T22:07:18.566906",
+    "ts": "2026-10-21T07:40:04.421608",
     "canales": {
-      "whatsapp": "2026-10-19T22:07:18.566906"
+      "whatsapp": "2026-10-21T07:40:04.421608"
     },
     "precio": 25.0,
     "precios_publicados": [
+      25.0,
       25.0
-    ]
+    ],
+    "precio_min_publicado": 25.0
   },
   "ml-lencostoalhas-umedecidos-baby-free-hipoalerge": {
     "ts": "2026-10-19T22:16:16.898827",
