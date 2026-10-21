@@ -2250,14 +2250,16 @@
     ]
   },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-10-20T21:38:11.879467",
+    "ts": "2026-10-21T21:41:07.355033",
     "canales": {
-      "whatsapp": "2026-10-20T21:38:11.879467"
+      "whatsapp": "2026-10-21T21:41:07.355033"
     },
     "precio": 33.0,
     "precios_publicados": [
+      33.0,
       33.0
-    ]
+    ],
+    "precio_min_publicado": 33.0
   },
   "amz-espatula-para-confeitar-mimo-style-aco-inox-1": {
     "ts": "2026-10-20T21:52:50.739721",
