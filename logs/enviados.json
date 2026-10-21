@@ -428,21 +428,6 @@
     ],
     "precio_min_publicado": 852.0
   },
-  "ml-lixeira-inteligente-automatica-16l-sensor-inf": {
-    "ts": "2026-10-19T12:40:33.256254",
-    "canales": {
-      "whatsapp": "2026-10-19T12:40:33.256254"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0,
-      66.0,
-      66.0,
-      66.0,
-      66.0
-    ],
-    "precio_min_publicado": 66.0
-  },
   "amz-scalibor-19g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-10-19T12:57:27.417314",
     "canales": {
@@ -3343,6 +3328,16 @@
     "precio": 71.0,
     "precios_publicados": [
       71.0
+    ]
+  },
+  "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
+    "ts": "2026-10-21T12:41:20.998365",
+    "canales": {
+      "whatsapp": "2026-10-21T12:41:20.998365"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
