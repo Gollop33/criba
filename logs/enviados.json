@@ -2255,14 +2255,16 @@
     "precio_min_publicado": 53.0
   },
   "amz-sanduicheira-eletrica-cadence-click-220v": {
-    "ts": "2026-10-20T22:56:49.458741",
+    "ts": "2026-10-21T23:03:47.829411",
     "canales": {
-      "whatsapp": "2026-10-20T22:56:49.458741"
+      "whatsapp": "2026-10-21T23:03:47.829411"
     },
-    "precio": 89.0,
+    "precio": 96.0,
     "precios_publicados": [
-      89.0
-    ]
+      89.0,
+      96.0
+    ],
+    "precio_min_publicado": 89.0
   },
   "amz-electrolux-cafeteira-eletrica-inox-filtro-per": {
     "ts": "2026-10-20T23:13:17.764519",
