@@ -1333,16 +1333,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-caminha-redonda-pet-sherpa-cama-para-caes-gat": {
-    "ts": "2026-10-19T20:11:59.279797",
-    "canales": {
-      "whatsapp": "2026-10-19T20:11:59.279797"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-ola-bebe-sabao-liquido-para-roupas-finas-e-de": {
     "ts": "2026-10-19T20:29:57.565846",
     "canales": {
@@ -3343,6 +3333,16 @@
     "precio": 1489.0,
     "precios_publicados": [
       1489.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
+    "ts": "2026-10-21T20:14:03.455739",
+    "canales": {
+      "whatsapp": "2026-10-21T20:14:03.455739"
+    },
+    "precio": 943.0,
+    "precios_publicados": [
+      943.0
     ]
   }
 }
