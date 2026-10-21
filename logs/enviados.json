@@ -140,21 +140,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
-    "ts": "2026-10-19T12:11:57.458156",
-    "canales": {
-      "whatsapp": "2026-10-19T12:11:57.458156"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0,
-      17.0,
-      17.0,
-      17.0,
-      17.0
-    ],
-    "precio_min_publicado": 17.0
-  },
   "ml-testo-essencial-formula-exclusiva-com-feno-gr": {
     "ts": "2026-10-20T23:26:14.880023",
     "canales": {
@@ -233,21 +218,6 @@
       28.0
     ],
     "precio_min_publicado": 25.0
-  },
-  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-10-19T12:06:01.187322",
-    "canales": {
-      "whatsapp": "2026-10-19T12:06:01.187322"
-    },
-    "precio": 50.0,
-    "precios_publicados": [
-      50.0,
-      50.0,
-      50.0,
-      50.0,
-      50.0
-    ],
-    "precio_min_publicado": 50.0
   },
   "amz-nivea-sun-protetor-solar-facial-toque-seco-an": {
     "ts": "2026-10-19T20:00:05.647462",
@@ -3400,6 +3370,16 @@
     "precio": 53.0,
     "precios_publicados": [
       53.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
+    "ts": "2026-10-21T12:12:20.023237",
+    "canales": {
+      "whatsapp": "2026-10-21T12:12:20.023237"
+    },
+    "precio": 71.0,
+    "precios_publicados": [
+      71.0
     ]
   }
 }
