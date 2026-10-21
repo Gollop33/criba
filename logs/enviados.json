@@ -1142,18 +1142,6 @@
     ],
     "precio_min_publicado": 2998.0
   },
-  "ml-notebook-asus-vivobook-s-14-s5406sa-copilot-p": {
-    "ts": "2026-10-19T06:26:55.602659",
-    "canales": {
-      "whatsapp": "2026-10-19T06:26:55.602659"
-    },
-    "precio": 5748.0,
-    "precios_publicados": [
-      5748.0,
-      5748.0
-    ],
-    "precio_min_publicado": 5748.0
-  },
   "ml-whey-isolate-protein-fuse-900g-dark-lab-sabor": {
     "ts": "2026-10-19T09:49:45.186460",
     "canales": {
@@ -3404,5 +3392,11 @@
     "precios_publicados": [
       37.0
     ]
+  },
+  "cupom-ml-b50c34a302": {
+    "ts": "2026-10-21T06:28:50.862197",
+    "canales": {
+      "whatsapp": "2026-10-21T06:28:50.862197"
+    }
   }
 }
