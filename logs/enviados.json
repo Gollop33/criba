@@ -1413,36 +1413,6 @@
     ],
     "precio_min_publicado": 129.0
   },
-  "ml-nutella-3kg-balde-ferrero-creme-de-avela-giga": {
-    "ts": "2026-10-19T13:55:18.975424",
-    "canales": {
-      "whatsapp": "2026-10-19T13:55:18.975424"
-    },
-    "precio": 235.0,
-    "precios_publicados": [
-      235.0
-    ]
-  },
-  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-10-19T13:59:56.067480",
-    "canales": {
-      "whatsapp": "2026-10-19T13:59:56.067480"
-    },
-    "precio": 164.0,
-    "precios_publicados": [
-      164.0
-    ]
-  },
-  "amz-mercusys-me30-repetidor-wifi-ac1200-banda-uni": {
-    "ts": "2026-10-19T14:02:30.157158",
-    "canales": {
-      "whatsapp": "2026-10-19T14:02:30.157158"
-    },
-    "precio": 163.0,
-    "precios_publicados": [
-      163.0
-    ]
-  },
   "ml-fone-de-ouvido-soundcore-by-anker-p20i-graves": {
     "ts": "2026-10-19T14:11:53.161332",
     "canales": {
@@ -3239,6 +3209,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-scalibor-19g-coleira-antiparasitaria-contra-m": {
+    "ts": "2026-10-21T14:02:41.125522",
+    "canales": {
+      "whatsapp": "2026-10-21T14:02:41.125522"
+    },
+    "precio": 48.0,
+    "precios_publicados": [
+      48.0
     ]
   }
 }
