@@ -1102,18 +1102,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "ml-locao-hidratante-corporal-isdin-ureadin-10": {
-    "ts": "2026-10-19T04:07:42.166720",
-    "canales": {
-      "whatsapp": "2026-10-19T04:07:42.166720"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0,
-      69.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "ml-cadeira-presidente-escritorio-massagem-reclin": {
     "ts": "2026-10-20T09:28:45.537528",
     "canales": {
@@ -3401,6 +3389,16 @@
     "precio": 78.0,
     "precios_publicados": [
       78.0
+    ]
+  },
+  "ml-tapete-higienico-zenx-medali-nao-vaza-anti-od": {
+    "ts": "2026-10-21T04:46:35.097977",
+    "canales": {
+      "whatsapp": "2026-10-21T04:46:35.097977"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
