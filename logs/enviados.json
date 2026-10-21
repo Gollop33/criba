@@ -2240,14 +2240,16 @@
     ]
   },
   "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
-    "ts": "2026-10-20T21:16:45.219402",
+    "ts": "2026-10-21T21:17:08.585546",
     "canales": {
-      "whatsapp": "2026-10-20T21:16:45.219402"
+      "whatsapp": "2026-10-21T21:17:08.585546"
     },
-    "precio": 65.0,
+    "precio": 78.0,
     "precios_publicados": [
-      65.0
-    ]
+      65.0,
+      78.0
+    ],
+    "precio_min_publicado": 65.0
   },
   "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
     "ts": "2026-10-20T21:24:34.657053",
