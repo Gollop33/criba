@@ -647,19 +647,6 @@
     ],
     "precio_min_publicado": 2705.0
   },
-  "ml-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
-    "ts": "2026-10-19T15:57:19.252121",
-    "canales": {
-      "whatsapp": "2026-10-19T15:57:19.252121"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0,
-      1799.0,
-      1799.0
-    ],
-    "precio_min_publicado": 1799.0
-  },
   "ml-notebook-asus-vivobook-go-e1504ga-intel-core-": {
     "ts": "2026-10-21T01:34:41.240212",
     "canales": {
@@ -989,18 +976,6 @@
       2445.0
     ],
     "precio_min_publicado": 2540.0
-  },
-  "ml-formula-natural-fresh-meat-sensitive-caes-adu": {
-    "ts": "2026-10-19T15:53:19.146253",
-    "canales": {
-      "whatsapp": "2026-10-19T15:53:19.146253"
-    },
-    "precio": 112.0,
-    "precios_publicados": [
-      112.0,
-      112.0
-    ],
-    "precio_min_publicado": 112.0
   },
   "ml-mesa-dobravel-vira-maleta-com-alca-portatil-1": {
     "ts": "2026-10-20T05:55:00.643107",
@@ -3295,6 +3270,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-tapete-higienico-para-caes-good-pad-60cmx60cm": {
+    "ts": "2026-10-21T15:57:45.715025",
+    "canales": {
+      "whatsapp": "2026-10-21T15:57:45.715025"
+    },
+    "precio": 50.0,
+    "precios_publicados": [
+      50.0
     ]
   }
 }
