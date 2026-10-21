@@ -1247,16 +1247,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "ml-smart-tv-aoc-50-roku-4k-uhd-dled-wifi-dolby-a": {
-    "ts": "2026-10-19T21:50:14.714008",
-    "canales": {
-      "whatsapp": "2026-10-19T21:50:14.714008"
-    },
-    "precio": 2060.0,
-    "precios_publicados": [
-      2060.0
-    ]
-  },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-10-21T07:40:04.421608",
     "canales": {
@@ -2262,14 +2252,16 @@
     "precio_min_publicado": 33.0
   },
   "amz-espatula-para-confeitar-mimo-style-aco-inox-1": {
-    "ts": "2026-10-20T21:52:50.739721",
+    "ts": "2026-10-21T21:55:38.273985",
     "canales": {
-      "whatsapp": "2026-10-20T21:52:50.739721"
+      "whatsapp": "2026-10-21T21:55:38.273985"
     },
-    "precio": 7.0,
+    "precio": 6.0,
     "precios_publicados": [
-      7.0
-    ]
+      7.0,
+      6.0
+    ],
+    "precio_min_publicado": 7.0
   },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
     "ts": "2026-10-20T22:17:44.748123",
