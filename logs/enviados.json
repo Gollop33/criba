@@ -354,35 +354,6 @@
     ],
     "precio_min_publicado": 142.0
   },
-  "ml-tablet-lenovo-tab-101-wifi-5-64gb-4gb-de-ram-": {
-    "ts": "2026-10-19T21:08:27.813959",
-    "canales": {
-      "whatsapp": "2026-10-19T21:08:27.813959"
-    },
-    "precio": 873.0,
-    "precios_publicados": [
-      873.0,
-      873.0,
-      852.0,
-      873.0,
-      873.0
-    ],
-    "precio_min_publicado": 852.0
-  },
-  "amz-personal-vip-papel-higienico-folha-dupla-bran": {
-    "ts": "2026-10-19T20:59:29.242362",
-    "canales": {
-      "whatsapp": "2026-10-19T20:59:29.242362"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      32.0,
-      32.0,
-      32.0,
-      40.0
-    ],
-    "precio_min_publicado": 32.0
-  },
   "amz-kit-sabonete-phebo-amarelo-720g": {
     "ts": "2026-10-21T13:54:28.333861",
     "canales": {
@@ -1287,16 +1258,6 @@
       59.0
     ],
     "precio_min_publicado": 59.0
-  },
-  "ml-milho-pipoca-grande-redonda-gourmet-ciaball-m": {
-    "ts": "2026-10-19T21:00:43.039008",
-    "canales": {
-      "whatsapp": "2026-10-19T21:00:43.039008"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
   },
   "ml-smart-tv-aoc-50-roku-4k-uhd-dled-wifi-dolby-a": {
     "ts": "2026-10-19T21:50:14.714008",
@@ -2257,14 +2218,16 @@
     ]
   },
   "amz-chaleira-eletrica-inox-110v-18l-aquecimento-r": {
-    "ts": "2026-10-20T21:04:14.308188",
+    "ts": "2026-10-21T21:08:49.265074",
     "canales": {
-      "whatsapp": "2026-10-20T21:04:14.308188"
+      "whatsapp": "2026-10-21T21:08:49.265074"
     },
     "precio": 33.0,
     "precios_publicados": [
+      33.0,
       33.0
-    ]
+    ],
+    "precio_min_publicado": 33.0
   },
   "ml-camera-de-re-automotiva-visao-noturna-8-leds-": {
     "ts": "2026-10-20T21:13:01.758860",
