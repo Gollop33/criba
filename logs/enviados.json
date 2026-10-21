@@ -713,20 +713,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "ml-kit-10-potes-vidro-hermetico-vai-ao-forno-mic": {
-    "ts": "2026-10-19T02:38:28.292318",
-    "canales": {
-      "whatsapp": "2026-10-19T02:38:28.292318"
-    },
-    "precio": 97.0,
-    "precios_publicados": [
-      97.0,
-      97.0,
-      96.0,
-      97.0
-    ],
-    "precio_min_publicado": 96.0
-  },
   "amz-dove-sabonete-em-barra-original-90g-6-unidade": {
     "ts": "2026-10-19T21:16:29.229256",
     "canales": {
@@ -3420,6 +3406,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "ml-cadeira-de-balanco-bebe-eletrica-musical-cont": {
+    "ts": "2026-10-21T02:40:44.914134",
+    "canales": {
+      "whatsapp": "2026-10-21T02:40:44.914134"
+    },
+    "precio": 330.0,
+    "precios_publicados": [
+      330.0
     ]
   }
 }
