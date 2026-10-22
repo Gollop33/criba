@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-22T00:58:59+00:00",
+  "actualizado": "2026-10-22T06:05:50+00:00",
   "total": 103,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -1078,7 +1078,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-21T17:00:07+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "POUPAMAIS",
@@ -1370,7 +1371,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-21T19:00:24+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "APROVEITAESSE",
@@ -1422,7 +1424,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-21T14:00:52+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFFSEMPREMELI",
@@ -1450,5 +1453,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-22T03:05:24-03:00"
 }
