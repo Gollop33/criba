@@ -1094,16 +1094,6 @@
     ],
     "precio_min_publicado": 3248.0
   },
-  "ml-carregador-turbo-200w-porta-dupla-usbc-tipo-c": {
-    "ts": "2026-10-20T10:58:54.608595",
-    "canales": {
-      "whatsapp": "2026-10-20T10:58:54.608595"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-cooler-fan-c3tech-storm-f7100bk-120mm-silenci": {
     "ts": "2026-10-20T11:06:12.386535",
     "canales": {
@@ -2003,14 +1993,16 @@
     ]
   },
   "amz-controle-usb-com-fio-para-xbox-360-computador": {
-    "ts": "2026-10-21T10:52:18.813609",
+    "ts": "2026-10-22T11:01:31.327329",
     "canales": {
-      "whatsapp": "2026-10-21T10:52:18.813609"
+      "whatsapp": "2026-10-22T11:01:31.327329"
     },
     "precio": 42.0,
     "precios_publicados": [
+      42.0,
       42.0
-    ]
+    ],
+    "precio_min_publicado": 42.0
   },
   "amz-mesa-portatil-para-notebook-suporte-cama-sofa": {
     "ts": "2026-10-21T11:03:48.477594",
