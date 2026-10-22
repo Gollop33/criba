@@ -970,18 +970,6 @@
     ],
     "precio_min_publicado": 32.0
   },
-  "ml-patinete-eletrico-hearbuds-m85-dobravel-com-a": {
-    "ts": "2026-10-20T02:29:12.583143",
-    "canales": {
-      "whatsapp": "2026-10-20T02:29:12.583143"
-    },
-    "precio": 1038.0,
-    "precios_publicados": [
-      956.0,
-      1038.0
-    ],
-    "precio_min_publicado": 956.0
-  },
   "cupom-ml-225b59f97b": {
     "ts": "2026-10-21T12:37:28.630861",
     "canales": {
@@ -3411,6 +3399,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
+    "ts": "2026-10-22T02:51:57.843278",
+    "canales": {
+      "whatsapp": "2026-10-22T02:51:57.843278"
+    },
+    "precio": 479.0,
+    "precios_publicados": [
+      479.0
     ]
   }
 }
