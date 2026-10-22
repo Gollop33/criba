@@ -898,16 +898,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "ml-patinete-eletrico-adulto-xm01-350w-velocidade": {
-    "ts": "2026-10-20T19:46:01.698533",
-    "canales": {
-      "whatsapp": "2026-10-20T19:46:01.698533"
-    },
-    "precio": 1125.0,
-    "precios_publicados": [
-      1125.0
-    ]
-  },
   "ml-patinete-eletrico-triciclo-drift-infantil-350": {
     "ts": "2026-10-20T19:57:07.771916",
     "canales": {
@@ -2818,6 +2808,16 @@
     "precio": 4659.0,
     "precios_publicados": [
       4659.0
+    ]
+  },
+  "amz-acer-notebook-aspire-5-amd-ryzen-5-5500u-16gb": {
+    "ts": "2026-10-22T19:50:52.715459",
+    "canales": {
+      "whatsapp": "2026-10-22T19:50:52.715459"
+    },
+    "precio": 3837.0,
+    "precios_publicados": [
+      3837.0
     ]
   }
 }
