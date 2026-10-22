@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "ml-teclado-mecanico-gamer-rgb-tkl-usbcbluetooth2": {
-    "ts": "2026-10-20T13:25:19.780277",
-    "canales": {
-      "whatsapp": "2026-10-20T13:25:19.780277"
-    },
-    "precio": 256.0,
-    "precios_publicados": [
-      256.0
-    ]
-  },
   "ml-agua-mineral-daflora-com-gas-garrafa-pet-510m": {
     "ts": "2026-10-20T13:34:58.587112",
     "canales": {
@@ -2931,6 +2921,16 @@
     "precio": 172.0,
     "precios_publicados": [
       172.0
+    ]
+  },
+  "amz-hyperx-teclado-gamer-hyperx-alloy-core-rgb-ab": {
+    "ts": "2026-10-22T13:29:47.006655",
+    "canales": {
+      "whatsapp": "2026-10-22T13:29:47.006655"
+    },
+    "precio": 176.0,
+    "precios_publicados": [
+      176.0
     ]
   }
 }
