@@ -206,23 +206,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "ml-colchao-antiescara-pneumatico-de-ar-inflavel-": {
-    "ts": "2026-10-20T04:12:38.437990",
-    "canales": {
-      "whatsapp": "2026-10-20T04:12:38.437990"
-    },
-    "precio": 187.0,
-    "precios_publicados": [
-      179.0,
-      199.0,
-      187.0,
-      187.0,
-      187.0,
-      187.0,
-      187.0
-    ],
-    "precio_min_publicado": 179.0
-  },
   "ml-kit-10-potes-hermeticos-vidro-640ml-starhouse": {
     "ts": "2026-10-21T05:20:55.082775",
     "canales": {
@@ -3416,6 +3399,16 @@
     "precio": 207.0,
     "precios_publicados": [
       207.0
+    ]
+  },
+  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
+    "ts": "2026-10-22T04:38:52.362377",
+    "canales": {
+      "whatsapp": "2026-10-22T04:38:52.362377"
+    },
+    "precio": 159.0,
+    "precios_publicados": [
+      159.0
     ]
   }
 }
