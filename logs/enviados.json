@@ -982,18 +982,6 @@
     ],
     "precio_min_publicado": 956.0
   },
-  "ml-quatree-premium-racao-gatos-castrados-delicia": {
-    "ts": "2026-10-20T02:07:39.163593",
-    "canales": {
-      "whatsapp": "2026-10-20T02:07:39.163593"
-    },
-    "precio": 118.0,
-    "precios_publicados": [
-      118.0,
-      118.0
-    ],
-    "precio_min_publicado": 118.0
-  },
   "cupom-ml-225b59f97b": {
     "ts": "2026-10-21T12:37:28.630861",
     "canales": {
@@ -3413,6 +3401,16 @@
     "precio": 796.0,
     "precios_publicados": [
       796.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
+    "ts": "2026-10-22T02:24:48.022441",
+    "canales": {
+      "whatsapp": "2026-10-22T02:24:48.022441"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
