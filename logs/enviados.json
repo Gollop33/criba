@@ -306,22 +306,6 @@
     ],
     "precio_min_publicado": 1388.0
   },
-  "ml-relogio-inteligente-gps-smartwatch-amoled-3at": {
-    "ts": "2026-10-20T01:30:10.042673",
-    "canales": {
-      "whatsapp": "2026-10-20T01:30:10.042673"
-    },
-    "precio": 276.0,
-    "precios_publicados": [
-      300.0,
-      296.0,
-      296.0,
-      296.0,
-      296.0,
-      276.0
-    ],
-    "precio_min_publicado": 296.0
-  },
   "amz-philips-fone-de-ouvido-com-microfone-taue101b": {
     "ts": "2026-10-21T10:39:31.809228",
     "canales": {
@@ -1034,14 +1018,15 @@
     }
   },
   "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
-    "ts": "2026-10-20T20:18:55.234307",
+    "ts": "2026-10-22T01:35:52.460437",
     "canales": {
-      "whatsapp": "2026-10-20T20:18:55.234307"
+      "whatsapp": "2026-10-22T01:35:52.460437"
     },
-    "precio": 45.0,
+    "precio": 42.0,
     "precios_publicados": [
       45.0,
-      45.0
+      45.0,
+      42.0
     ],
     "precio_min_publicado": 45.0
   },
