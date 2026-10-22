@@ -1326,14 +1326,16 @@
     ]
   },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-10-21T08:32:51.356953",
+    "ts": "2026-10-22T18:15:29.914373",
     "canales": {
-      "whatsapp": "2026-10-21T08:32:51.356953"
+      "whatsapp": "2026-10-22T18:15:29.914373"
     },
-    "precio": 41.0,
+    "precio": 42.0,
     "precios_publicados": [
-      41.0
-    ]
+      41.0,
+      42.0
+    ],
+    "precio_min_publicado": 41.0
   },
   "amz-mouse-pad-grande-90x40-cm-preto-com-base-anti": {
     "ts": "2026-10-21T08:58:25.978461",
