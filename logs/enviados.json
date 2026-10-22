@@ -830,16 +830,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "amz-copo-termico-118l-em-aco-inoxidavel-com-canud": {
-    "ts": "2026-10-20T20:34:37.777682",
-    "canales": {
-      "whatsapp": "2026-10-20T20:34:37.777682"
-    },
-    "precio": 38.0,
-    "precios_publicados": [
-      38.0
-    ]
-  },
   "ml-bicicleta-ergometrica-spinning-bike-ergometri": {
     "ts": "2026-10-20T20:44:01.283677",
     "canales": {
@@ -2794,6 +2784,16 @@
     "precio": 3999.0,
     "precios_publicados": [
       3999.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-e1504ga-intel-core-": {
+    "ts": "2026-10-22T20:39:19.743476",
+    "canales": {
+      "whatsapp": "2026-10-22T20:39:19.743476"
+    },
+    "precio": 2799.0,
+    "precios_publicados": [
+      2799.0
     ]
   }
 }
