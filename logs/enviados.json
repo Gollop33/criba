@@ -1953,14 +1953,16 @@
     ]
   },
   "amz-tapete-higienico-para-caes-50-unidades-premiu": {
-    "ts": "2026-10-21T20:00:30.388287",
+    "ts": "2026-10-22T20:03:54.867081",
     "canales": {
-      "whatsapp": "2026-10-21T20:00:30.388287"
+      "whatsapp": "2026-10-22T20:03:54.867081"
     },
-    "precio": 32.0,
+    "precio": 33.0,
     "precios_publicados": [
-      32.0
-    ]
+      32.0,
+      33.0
+    ],
+    "precio_min_publicado": 32.0
   },
   "amz-cafeteira-electrolux-efficient-15-xicaras-ecm": {
     "ts": "2026-10-21T20:08:34.161343",
