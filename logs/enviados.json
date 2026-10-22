@@ -704,18 +704,6 @@
     ],
     "precio_min_publicado": 3967.0
   },
-  "ml-camera-seguranca-ip-externa-wifi-a28-app-icse": {
-    "ts": "2026-10-20T20:58:01.357596",
-    "canales": {
-      "whatsapp": "2026-10-20T20:58:01.357596"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      107.0,
-      90.0
-    ],
-    "precio_min_publicado": 107.0
-  },
   "ml-tenis-casual-kappa-zenit-masculino-unissex-co": {
     "ts": "2026-10-20T23:10:41.314384",
     "canales": {
@@ -2824,6 +2812,16 @@
     "precio": 3702.0,
     "precios_publicados": [
       3702.0
+    ]
+  },
+  "amz-samsung-galaxy-book4-intel-coretm-i31315u-win": {
+    "ts": "2026-10-22T21:03:07.690469",
+    "canales": {
+      "whatsapp": "2026-10-22T21:03:07.690469"
+    },
+    "precio": 3561.0,
+    "precios_publicados": [
+      3561.0
     ]
   }
 }
