@@ -1063,26 +1063,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "ml-colchao-solteiro-d33-basic-a-vacuo-ortopedico": {
-    "ts": "2026-10-20T12:15:50.793285",
-    "canales": {
-      "whatsapp": "2026-10-20T12:15:50.793285"
-    },
-    "precio": 422.0,
-    "precios_publicados": [
-      422.0
-    ]
-  },
-  "amz-memoria-ddr4-xpg-gammix-d35-16gb-3200mhz-pret": {
-    "ts": "2026-10-20T12:18:10.895700",
-    "canales": {
-      "whatsapp": "2026-10-20T12:18:10.895700"
-    },
-    "precio": 869.0,
-    "precios_publicados": [
-      869.0
-    ]
-  },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-10-20T12:25:52.462282",
     "canales": {
@@ -2981,6 +2961,16 @@
     "precio": 303.0,
     "precios_publicados": [
       303.0
+    ]
+  },
+  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
+    "ts": "2026-10-22T12:20:52.975710",
+    "canales": {
+      "whatsapp": "2026-10-22T12:20:52.975710"
+    },
+    "precio": 1999.0,
+    "precios_publicados": [
+      1999.0
     ]
   }
 }
