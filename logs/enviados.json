@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-10-20T12:25:52.462282",
-    "canales": {
-      "whatsapp": "2026-10-20T12:25:52.462282"
-    },
-    "precio": 789.0,
-    "precios_publicados": [
-      789.0
-    ]
-  },
   "amz-processador-amd-ryzen-5-5500-100100000457box-": {
     "ts": "2026-10-20T12:30:22.866981",
     "canales": {
@@ -2971,6 +2961,16 @@
     "precio": 1999.0,
     "precios_publicados": [
       1999.0
+    ]
+  },
+  "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
+    "ts": "2026-10-22T12:26:39.081324",
+    "canales": {
+      "whatsapp": "2026-10-22T12:26:39.081324"
+    },
+    "precio": 263.0,
+    "precios_publicados": [
+      263.0
     ]
   }
 }
