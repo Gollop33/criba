@@ -1584,14 +1584,16 @@
     ]
   },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
-    "ts": "2026-10-21T14:17:14.716602",
+    "ts": "2026-10-22T17:07:10.975048",
     "canales": {
-      "whatsapp": "2026-10-21T14:17:14.716602"
+      "whatsapp": "2026-10-22T17:07:10.975048"
     },
-    "precio": 39.0,
+    "precio": 40.0,
     "precios_publicados": [
-      39.0
-    ]
+      39.0,
+      40.0
+    ],
+    "precio_min_publicado": 39.0
   },
   "amz-purina-friskies-carne-ao-molho-racao-umida-85": {
     "ts": "2026-10-22T15:56:35.890960",
