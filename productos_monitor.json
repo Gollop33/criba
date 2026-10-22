@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T14:00:54+00:00",
+  "actualizado": "2026-10-22T14:07:36+00:00",
   "total": 4,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-22T14:00:54+00:00"
+      "monitorizado_desde": "2026-10-22T14:07:36+00:00"
     },
     {
       "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
@@ -17,7 +17,7 @@
       "precio_ref": 79.98,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T14:00:54+00:00"
+      "monitorizado_desde": "2026-10-22T14:07:36+00:00"
     },
     {
       "busqueda": "32 in1 case estojo para nintendo switch oled",
@@ -25,7 +25,7 @@
       "precio_ref": 89.99,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T14:00:54+00:00"
+      "monitorizado_desde": "2026-10-22T14:07:36+00:00"
     },
     {
       "busqueda": "street fighter 6 year 1 2 fighters edition",
@@ -33,7 +33,7 @@
       "precio_ref": 149.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T14:00:54+00:00"
+      "monitorizado_desde": "2026-10-22T14:07:36+00:00"
     }
   ]
 }
