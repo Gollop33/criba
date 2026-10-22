@@ -846,18 +846,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
-    "ts": "2026-10-20T11:11:20.712576",
-    "canales": {
-      "whatsapp": "2026-10-20T11:11:20.712576"
-    },
-    "precio": 58.0,
-    "precios_publicados": [
-      58.0,
-      58.0
-    ],
-    "precio_min_publicado": 58.0
-  },
   "amz-lampada-osram-standard-7528-p215-original": {
     "ts": "2026-10-22T11:03:33.668460",
     "canales": {
@@ -882,18 +870,6 @@
       48.0
     ],
     "precio_min_publicado": 48.0
-  },
-  "amz-pcyes-pasta-termica-nitrogen-basic-15g-55wmk-": {
-    "ts": "2026-10-20T11:09:35.583029",
-    "canales": {
-      "whatsapp": "2026-10-20T11:09:35.583029"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      13.0,
-      16.0
-    ],
-    "precio_min_publicado": 13.0
   },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-10-22T01:52:36.106129",
@@ -1094,16 +1070,6 @@
       3248.0
     ],
     "precio_min_publicado": 3248.0
-  },
-  "amz-cooler-fan-c3tech-storm-f7100bk-120mm-silenci": {
-    "ts": "2026-10-20T11:06:12.386535",
-    "canales": {
-      "whatsapp": "2026-10-20T11:06:12.386535"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
   },
   "amz-vonix-blend-ceramic-carnauba-spray-wax-black-": {
     "ts": "2026-10-20T11:18:36.256054",
@@ -2993,6 +2959,16 @@
     "precio": 164.0,
     "precios_publicados": [
       164.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-astrolabe-lite-preto-paw": {
+    "ts": "2026-10-22T11:12:35.748921",
+    "canales": {
+      "whatsapp": "2026-10-22T11:12:35.748921"
+    },
+    "precio": 83.0,
+    "precios_publicados": [
+      83.0
     ]
   }
 }
