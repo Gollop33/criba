@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-22T10:14:31+00:00",
+  "actualizado": "2026-10-22T10:21:40+00:00",
   "total": 7,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     },
     {
       "busqueda": "philips fone de ouvido com microfone taue101bk 00",
@@ -17,7 +17,7 @@
       "precio_ref": 32.95,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     },
     {
       "busqueda": "controle remoto compativel samsung para smart tv teclas",
@@ -25,7 +25,7 @@
       "precio_ref": 16.13,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     },
     {
       "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
@@ -33,7 +33,7 @@
       "precio_ref": 109.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     },
     {
       "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
@@ -41,7 +41,7 @@
       "precio_ref": 82.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     },
     {
       "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
@@ -49,7 +49,7 @@
       "precio_ref": 119.84,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
@@ -57,7 +57,7 @@
       "precio_ref": 899.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-22T10:14:31+00:00"
+      "monitorizado_desde": "2026-10-22T10:21:40+00:00"
     }
   ]
 }
