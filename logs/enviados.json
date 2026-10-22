@@ -1063,16 +1063,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "ml-sapatenis-leve-de-ziper-super-conforto": {
-    "ts": "2026-10-20T13:17:40.004057",
-    "canales": {
-      "whatsapp": "2026-10-20T13:17:40.004057"
-    },
-    "precio": 56.0,
-    "precios_publicados": [
-      56.0
-    ]
-  },
   "ml-teclado-mecanico-gamer-rgb-tkl-usbcbluetooth2": {
     "ts": "2026-10-20T13:25:19.780277",
     "canales": {
@@ -2931,6 +2921,16 @@
     "precio": 439.0,
     "precios_publicados": [
       439.0
+    ]
+  },
+  "amz-havit-headphone-fone-de-ouvido-h2002d-gamer-c": {
+    "ts": "2026-10-22T13:23:41.702137",
+    "canales": {
+      "whatsapp": "2026-10-22T13:23:41.702137"
+    },
+    "precio": 172.0,
+    "precios_publicados": [
+      172.0
     ]
   }
 }
