@@ -505,19 +505,6 @@
     ],
     "precio_min_publicado": 1088.0
   },
-  "ml-tenis-flyer-runner-mesh-bdp-puma": {
-    "ts": "2026-10-20T15:53:36.184884",
-    "canales": {
-      "whatsapp": "2026-10-20T15:53:36.184884"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0,
-      189.0,
-      189.0
-    ],
-    "precio_min_publicado": 189.0
-  },
   "ml-notebook-vaio-fe16-amd-ryzen-55625u-linux-8gb": {
     "ts": "2026-10-21T01:27:57.617452",
     "canales": {
@@ -1625,14 +1612,16 @@
     ]
   },
   "amz-purina-friskies-carne-ao-molho-racao-umida-85": {
-    "ts": "2026-10-21T14:22:58.148698",
+    "ts": "2026-10-22T15:56:35.890960",
     "canales": {
-      "whatsapp": "2026-10-21T14:22:58.148698"
+      "whatsapp": "2026-10-22T15:56:35.890960"
     },
     "precio": 37.0,
     "precios_publicados": [
+      37.0,
       37.0
-    ]
+    ],
+    "precio_min_publicado": 37.0
   },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-10-21T14:24:50.004261",
