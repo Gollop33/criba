@@ -911,16 +911,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "ml-projetor-vlx-hy320-mini-4k-wifi-preto-bluetoo": {
-    "ts": "2026-10-20T15:59:29.269464",
-    "canales": {
-      "whatsapp": "2026-10-20T15:59:29.269464"
-    },
-    "precio": 208.0,
-    "precios_publicados": [
-      208.0
-    ]
-  },
   "ml-patinete-eletrico-iscooter-ix3-dobravel-com-a": {
     "ts": "2026-10-20T19:37:24.995748",
     "canales": {
@@ -1664,14 +1654,16 @@
     ]
   },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-10-21T15:03:19.453804",
+    "ts": "2026-10-22T16:04:55.718780",
     "canales": {
-      "whatsapp": "2026-10-21T15:03:19.453804"
+      "whatsapp": "2026-10-22T16:04:55.718780"
     },
     "precio": 51.0,
     "precios_publicados": [
+      51.0,
       51.0
-    ]
+    ],
+    "precio_min_publicado": 51.0
   },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
     "ts": "2026-10-21T15:13:01.543510",
