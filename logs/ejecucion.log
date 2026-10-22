@@ -26485,3 +26485,8 @@
 [2026-10-22 12:02:40] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
 [2026-10-22 12:02:40] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
 [2026-10-22 12:02:40] [CUPONES] Sin cupones nuevos (187 códigos ya vistos).
+[2026-10-22 12:10:52] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-22 12:10:53] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-10-22 12:10:53] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-10-22 12:10:53] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-10-22 12:10:53] [CUPONES] Sin cupones nuevos (187 códigos ya vistos).
