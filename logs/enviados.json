@@ -1452,14 +1452,16 @@
     ]
   },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-10-21T11:23:11.907166",
+    "ts": "2026-10-22T18:28:37.844319",
     "canales": {
-      "whatsapp": "2026-10-21T11:23:11.907166"
+      "whatsapp": "2026-10-22T18:28:37.844319"
     },
-    "precio": 15.0,
+    "precio": 18.0,
     "precios_publicados": [
-      15.0
-    ]
+      15.0,
+      18.0
+    ],
+    "precio_min_publicado": 15.0
   },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-10-21T11:30:55.650690",
