@@ -880,16 +880,6 @@
     ],
     "precio_min_publicado": 134.0
   },
-  "ml-salgadinho-de-milho-fandangos-sabor-presunto-": {
-    "ts": "2026-10-20T20:05:26.612039",
-    "canales": {
-      "whatsapp": "2026-10-20T20:05:26.612039"
-    },
-    "precio": 10.0,
-    "precios_publicados": [
-      10.0
-    ]
-  },
   "amz-copo-termico-118l-em-aco-inoxidavel-com-canud": {
     "ts": "2026-10-20T20:34:37.777682",
     "canales": {
@@ -1133,14 +1123,16 @@
     ]
   },
   "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-10-21T00:32:25.097576",
+    "ts": "2026-10-22T20:08:24.152968",
     "canales": {
-      "whatsapp": "2026-10-21T00:32:25.097576"
+      "whatsapp": "2026-10-22T20:08:24.152968"
     },
     "precio": 4499.0,
     "precios_publicados": [
+      4499.0,
       4499.0
-    ]
+    ],
+    "precio_min_publicado": 4499.0
   },
   "amz-britania-fritadeira-air-fryer-bfr37-revestime": {
     "ts": "2026-10-22T00:41:05.379467",
