@@ -35,24 +35,6 @@
     ],
     "precio_min_publicado": 65.0
   },
-  "ml-camera-de-seguranca-wifi-icseeyoosee-a28b-4k-": {
-    "ts": "2026-10-20T20:26:27.394170",
-    "canales": {
-      "whatsapp": "2026-10-20T20:26:27.394170"
-    },
-    "precio": 106.0,
-    "precios_publicados": [
-      109.0,
-      109.0,
-      113.0,
-      124.0,
-      113.0,
-      112.0,
-      112.0,
-      106.0
-    ],
-    "precio_min_publicado": 109.0
-  },
   "ml-carregador-super-rapido-25w-para-samsung-gala": {
     "ts": "2026-10-20T22:08:20.414632",
     "canales": {
@@ -2792,6 +2774,16 @@
     "precio": 3399.0,
     "precios_publicados": [
       3399.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book4-intel-core-3100": {
+    "ts": "2026-10-22T20:30:04.112845",
+    "canales": {
+      "whatsapp": "2026-10-22T20:30:04.112845"
+    },
+    "precio": 3499.0,
+    "precios_publicados": [
+      3499.0
     ]
   }
 }
