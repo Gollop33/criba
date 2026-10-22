@@ -1528,14 +1528,16 @@
     "precio_min_publicado": 14.0
   },
   "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
-    "ts": "2026-10-21T13:22:57.903762",
+    "ts": "2026-10-22T18:23:24.182108",
     "canales": {
-      "whatsapp": "2026-10-21T13:22:57.903762"
+      "whatsapp": "2026-10-22T18:23:24.182108"
     },
     "precio": 34.0,
     "precios_publicados": [
+      34.0,
       34.0
-    ]
+    ],
+    "precio_min_publicado": 34.0
   },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-10-21T13:26:36.773188",
