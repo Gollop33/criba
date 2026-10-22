@@ -826,16 +826,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "ml-berco-bebe-portatil-moises-ajustavel-mosquete": {
-    "ts": "2026-10-20T23:46:22.262230",
-    "canales": {
-      "whatsapp": "2026-10-20T23:46:22.262230"
-    },
-    "precio": 337.0,
-    "precios_publicados": [
-      337.0
-    ]
-  },
   "amz-kit-10-potes-hermeticos-de-vidro-640ml-com-ta": {
     "ts": "2026-10-21T23:52:09.039684",
     "canales": {
@@ -2726,6 +2716,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-electrolux-cafeteira-eletrica-inox-filtro-per": {
+    "ts": "2026-10-22T23:48:12.533036",
+    "canales": {
+      "whatsapp": "2026-10-22T23:48:12.533036"
+    },
+    "precio": 111.0,
+    "precios_publicados": [
+      111.0
     ]
   }
 }
