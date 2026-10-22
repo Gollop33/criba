@@ -861,18 +861,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-case-externo-para-ssd-m2-nvme-usbc-31-10gbps-": {
-    "ts": "2026-10-20T11:29:38.251751",
-    "canales": {
-      "whatsapp": "2026-10-20T11:29:38.251751"
-    },
-    "precio": 48.0,
-    "precios_publicados": [
-      48.0,
-      48.0
-    ],
-    "precio_min_publicado": 48.0
-  },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-10-22T01:52:36.106129",
     "canales": {
@@ -1104,14 +1092,16 @@
     ]
   },
   "amz-kit-lavagem-completa-shampoo-cera-tok-final-i": {
-    "ts": "2026-10-20T12:07:15.529852",
+    "ts": "2026-10-22T11:30:25.945798",
     "canales": {
-      "whatsapp": "2026-10-20T12:07:15.529852"
+      "whatsapp": "2026-10-22T11:30:25.945798"
     },
     "precio": 134.0,
     "precios_publicados": [
+      134.0,
       134.0
-    ]
+    ],
+    "precio_min_publicado": 134.0
   },
   "ml-colchao-solteiro-d33-basic-a-vacuo-ortopedico": {
     "ts": "2026-10-20T12:15:50.793285",
