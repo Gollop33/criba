@@ -25984,3 +25984,48 @@
 [2026-10-22 00:56:48] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
 [2026-10-22 00:56:48] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
 [2026-10-22 00:56:50] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
+[2026-10-22 00:58:59] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-22 00:58:59] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-10-22 00:58:59] [CUPONS_ML] Utilizando fallback de Pelando para Mercado Livre...
+[2026-10-22 00:58:59] [CUPONS_ML] Ejecutando fallback en Pelando: https://www.pelando.com.br/cupons-de-descontos/mercado-livre...
+[2026-10-22 00:58:59] [CUPONS_ML] Pelando retornó status HTTP 403
+[2026-10-22 00:58:59] [CUPONS_ML] Limpieza completada: 1 vencidos eliminados, 0 marcados vigente=false.
+[2026-10-22 00:58:59] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 0 refrescados.
+[2026-10-22 00:58:59] [CUPONS_ML] Total cupones en cupones.json: 103
+[2026-10-22 00:58:59] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-10-22 00:59:03] [PELANDO]   Falha ao acessar Amazon
+[2026-10-22 00:59:05] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-10-22 00:59:10] [PELANDO]   Falha ao acessar KaBuM!
+[2026-10-22 00:59:12] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-10-22 00:59:16] [PELANDO]   Falha ao acessar Mercado Livre
+[2026-10-22 00:59:18] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-10-22 00:59:22] [PELANDO]   Falha ao acessar Shopee
+[2026-10-22 00:59:24] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-10-22 00:59:28] [PELANDO]   Falha ao acessar Magazine Luiza
+[2026-10-22 00:59:30] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-10-22 00:59:34] [PELANDO]   Falha ao acessar AliExpress
+[2026-10-22 00:59:36] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-10-22 00:59:40] [PELANDO]   Falha ao acessar Pichau
+[2026-10-22 00:59:42] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-10-22 00:59:46] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-10-22 00:59:48] [PELANDO] Completado: 0 Pelando + 103 manuales = 103 total
+[2026-10-22 00:59:49] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-10-22 01:00:11] [AGENTE-ML]   [DIAGNÓSTICO] 13 categoría(s) devolvieron la cáscara anti-bot de ML: la cookie ML_PORTAL_COOKIE caducó. Renuévala con REAUTORIZAR_ML.bat y vuelve a correr.
+[2026-10-22 01:00:11] [AGENTE-ML] Scraping ML: 0 ofertas obtenidas | 13 categoría(s) sin sesión
+[2026-10-22 01:00:11] [AGENTE-ML] Guardados 0 achados en achados_ml.json
+[2026-10-22 01:00:11] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-10-22 01:01:12] [AGENTE-AMAZON] Amazon direct: 58 ofertas cosechadas | categorias OK 5/28 | HTTP {503: 23} | sin tarjetas 3
+[2026-10-22 01:01:12] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-22 01:01:12] [AGENTE-AMAZON] Pelando Amazon: HTTP 403
+[2026-10-22 01:01:12] [AGENTE-AMAZON] Guardados 58 achados en achados_amazon.json
+[2026-10-22 01:01:14] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-22 01:01:14] [AGENTE-AMAZON] Amazon Pelando: 1 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 1 sin precio legible, 1 duplicadas
+[2026-10-22 01:01:14] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-10-22 01:01:17] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
+[2026-10-22 01:01:17] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-10-22 01:01:19] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
+[2026-10-22 01:01:20] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-10-22 01:01:20] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-10-22 01:01:20] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-10-22 01:01:20] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-10-22 01:01:20] [CUPONES] Sin cupones nuevos (187 códigos ya vistos).

@@ -490,19 +490,6 @@
     ],
     "precio_min_publicado": 58.0
   },
-  "ml-smartwatch-a-prova-dagua-mede-pressao-arteria": {
-    "ts": "2026-10-20T00:48:13.354484",
-    "canales": {
-      "whatsapp": "2026-10-20T00:48:13.354484"
-    },
-    "precio": 108.0,
-    "precios_publicados": [
-      70.0,
-      108.0,
-      108.0
-    ],
-    "precio_min_publicado": 70.0
-  },
   "ml-smart-tv-philco-60-p60vik-4k-uhd-led-roku-dol": {
     "ts": "2026-10-20T02:58:37.480944",
     "canales": {
@@ -968,18 +955,6 @@
     "canales": {
       "whatsapp": "2026-10-21T22:02:49.052119"
     }
-  },
-  "ml-jogo-de-toalhas-4-pcs-fio-cardado-100-algodao": {
-    "ts": "2026-10-20T00:46:43.362986",
-    "canales": {
-      "whatsapp": "2026-10-20T00:46:43.362986"
-    },
-    "precio": 97.0,
-    "precios_publicados": [
-      99.0,
-      97.0
-    ],
-    "precio_min_publicado": 99.0
   },
   "ml-xiaomi-poco-x7-pro-dual-sim-5g-512gb-preto-12": {
     "ts": "2026-10-20T22:40:58.381467",
@@ -3508,6 +3483,16 @@
     "precio": 874.0,
     "precios_publicados": [
       874.0
+    ]
+  },
+  "amz-adaptador-bluetooth-50-usb-receptor-dongle-pa": {
+    "ts": "2026-10-22T01:01:22.343614",
+    "canales": {
+      "whatsapp": "2026-10-22T01:01:22.343614"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
