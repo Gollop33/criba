@@ -1807,14 +1807,16 @@
     ]
   },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
-    "ts": "2026-10-21T16:36:31.949459",
+    "ts": "2026-10-22T19:10:25.795231",
     "canales": {
-      "whatsapp": "2026-10-21T16:36:31.949459"
+      "whatsapp": "2026-10-22T19:10:25.795231"
     },
-    "precio": 76.0,
+    "precio": 85.0,
     "precios_publicados": [
-      76.0
-    ]
+      76.0,
+      85.0
+    ],
+    "precio_min_publicado": 76.0
   },
   "amz-coleira-antipulgas-e-carrapatos-para-caes-aci": {
     "ts": "2026-10-21T16:44:46.200608",
