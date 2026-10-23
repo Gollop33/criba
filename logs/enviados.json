@@ -1655,14 +1655,16 @@
     "precio_min_publicado": 3399.0
   },
   "amz-notebook-samsung-galaxy-book4-intel-core-3100": {
-    "ts": "2026-10-22T20:30:04.112845",
+    "ts": "2026-10-23T23:00:07.591207",
     "canales": {
-      "whatsapp": "2026-10-22T20:30:04.112845"
+      "whatsapp": "2026-10-23T23:00:07.591207"
     },
     "precio": 3499.0,
     "precios_publicados": [
+      3499.0,
       3499.0
-    ]
+    ],
+    "precio_min_publicado": 3499.0
   },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-10-22T20:33:53.243064",
