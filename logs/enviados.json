@@ -976,16 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
-    "ts": "2026-10-21T22:22:37.288428",
-    "canales": {
-      "whatsapp": "2026-10-21T22:22:37.288428"
-    },
-    "precio": 3299.0,
-    "precios_publicados": [
-      3299.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x7-pro-5g-nfc-black-pr": {
     "ts": "2026-10-21T22:31:07.524060",
     "canales": {
@@ -2664,6 +2654,16 @@
     "precio": 3726.0,
     "precios_publicados": [
       3726.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
+    "ts": "2026-10-23T22:27:31.297697",
+    "canales": {
+      "whatsapp": "2026-10-23T22:27:31.297697"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
