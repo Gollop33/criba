@@ -854,16 +854,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
-    "ts": "2026-10-21T00:23:07.672484",
-    "canales": {
-      "whatsapp": "2026-10-21T00:23:07.672484"
-    },
-    "precio": 365.0,
-    "precios_publicados": [
-      365.0
-    ]
-  },
   "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
     "ts": "2026-10-22T20:08:24.152968",
     "canales": {
@@ -2702,6 +2692,16 @@
     "precio": 111.0,
     "precios_publicados": [
       111.0
+    ]
+  },
+  "amz-sanduicheira-eletrica-cadence-click-127v": {
+    "ts": "2026-10-23T00:24:14.834722",
+    "canales": {
+      "whatsapp": "2026-10-23T00:24:14.834722"
+    },
+    "precio": 95.0,
+    "precios_publicados": [
+      95.0
     ]
   }
 }
