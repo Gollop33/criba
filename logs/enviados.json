@@ -301,19 +301,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "amz-shampoo-para-cabelos-finos-elseve-loreal-pari": {
-    "ts": "2026-10-21T14:30:12.683893",
-    "canales": {
-      "whatsapp": "2026-10-21T14:30:12.683893"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0,
-      21.0,
-      21.0
-    ],
-    "precio_min_publicado": 21.0
-  },
   "cupom-ml-095f00ee4d": {
     "ts": "2026-10-22T22:46:18.741992",
     "canales": {
@@ -1620,14 +1607,16 @@
     ]
   },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-10-22T05:25:43.588871",
+    "ts": "2026-10-23T14:34:35.289040",
     "canales": {
-      "whatsapp": "2026-10-22T05:25:43.588871"
+      "whatsapp": "2026-10-23T14:34:35.289040"
     },
     "precio": 164.0,
     "precios_publicados": [
+      164.0,
       164.0
-    ]
+    ],
+    "precio_min_publicado": 164.0
   },
   "amz-mouse-gamer-redragon-astrolabe-lite-preto-paw": {
     "ts": "2026-10-22T11:12:35.748921",
