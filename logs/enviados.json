@@ -1325,14 +1325,16 @@
     "precio_min_publicado": 83.0
   },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
-    "ts": "2026-10-22T11:39:35.926858",
+    "ts": "2026-10-23T21:06:58.764961",
     "canales": {
-      "whatsapp": "2026-10-22T11:39:35.926858"
+      "whatsapp": "2026-10-23T21:06:58.764961"
     },
-    "precio": 4199.0,
+    "precio": 4299.0,
     "precios_publicados": [
-      4199.0
-    ]
+      4199.0,
+      4299.0
+    ],
+    "precio_min_publicado": 4199.0
   },
   "amz-bundle-gta-vi-playstation-5-slim-disk-pacote-": {
     "ts": "2026-10-22T11:45:37.395164",
