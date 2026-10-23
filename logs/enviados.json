@@ -758,16 +758,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
-    "ts": "2026-10-21T14:44:39.306688",
-    "canales": {
-      "whatsapp": "2026-10-21T14:44:39.306688"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-10-22T17:19:27.070529",
     "canales": {
@@ -2570,6 +2560,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
+    "ts": "2026-10-23T14:45:36.537593",
+    "canales": {
+      "whatsapp": "2026-10-23T14:45:36.537593"
+    },
+    "precio": 689.0,
+    "precios_publicados": [
+      689.0
     ]
   }
 }
