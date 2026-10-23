@@ -976,16 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-10-21T21:11:35.238101",
-    "canales": {
-      "whatsapp": "2026-10-21T21:11:35.238101"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
     "ts": "2026-10-21T21:24:41.453379",
     "canales": {
@@ -1429,14 +1419,16 @@
     ]
   },
   "amz-base-de-carregamento-do-dualsense-playstation": {
-    "ts": "2026-10-22T12:45:07.835499",
+    "ts": "2026-10-23T21:15:07.911321",
     "canales": {
-      "whatsapp": "2026-10-22T12:45:07.835499"
+      "whatsapp": "2026-10-23T21:15:07.911321"
     },
-    "precio": 189.0,
+    "precio": 181.0,
     "precios_publicados": [
-      189.0
-    ]
+      189.0,
+      181.0
+    ],
+    "precio_min_publicado": 189.0
   },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
     "ts": "2026-10-22T12:52:37.012143",
