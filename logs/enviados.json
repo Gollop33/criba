@@ -1415,14 +1415,16 @@
     "precio_min_publicado": 189.0
   },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
-    "ts": "2026-10-22T12:52:37.012143",
+    "ts": "2026-10-23T21:47:58.985591",
     "canales": {
-      "whatsapp": "2026-10-22T12:52:37.012143"
+      "whatsapp": "2026-10-23T21:47:58.985591"
     },
-    "precio": 4599.0,
+    "precio": 4499.0,
     "precios_publicados": [
-      4599.0
-    ]
+      4599.0,
+      4499.0
+    ],
+    "precio_min_publicado": 4599.0
   },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-10-22T13:02:29.732893",
