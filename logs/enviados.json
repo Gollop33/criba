@@ -976,16 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
-    "ts": "2026-10-21T20:58:48.000819",
-    "canales": {
-      "whatsapp": "2026-10-21T20:58:48.000819"
-    },
-    "precio": 2806.0,
-    "precios_publicados": [
-      2806.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
     "ts": "2026-10-21T21:11:35.238101",
     "canales": {
@@ -2646,6 +2636,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
+    "ts": "2026-10-23T21:01:10.931528",
+    "canales": {
+      "whatsapp": "2026-10-23T21:01:10.931528"
+    },
+    "precio": 2778.0,
+    "precios_publicados": [
+      2778.0
     ]
   }
 }
