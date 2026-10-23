@@ -964,16 +964,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-10-21T23:14:50.365957",
-    "canales": {
-      "whatsapp": "2026-10-21T23:14:50.365957"
-    },
-    "precio": 2774.0,
-    "precios_publicados": [
-      2774.0
-    ]
-  },
   "amz-smartphone-motorola-edge-70-5g-crystals-by-sw": {
     "ts": "2026-10-21T23:20:24.605298",
     "canales": {
@@ -2620,6 +2610,16 @@
     "precio": 2299.0,
     "precios_publicados": [
       2299.0
+    ]
+  },
+  "amz-apple-iphone-16-512-gb-preto": {
+    "ts": "2026-10-23T23:16:44.285024",
+    "canales": {
+      "whatsapp": "2026-10-23T23:16:44.285024"
+    },
+    "precio": 5499.0,
+    "precios_publicados": [
+      5499.0
     ]
   }
 }
