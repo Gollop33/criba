@@ -785,16 +785,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-10-21T13:26:36.773188",
-    "canales": {
-      "whatsapp": "2026-10-21T13:26:36.773188"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-10-21T13:39:29.227350",
     "canales": {
@@ -2553,6 +2543,16 @@
     "precio": 143.0,
     "precios_publicados": [
       143.0
+    ]
+  },
+  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
+    "ts": "2026-10-23T13:26:53.741749",
+    "canales": {
+      "whatsapp": "2026-10-23T13:26:53.741749"
+    },
+    "precio": 111.0,
+    "precios_publicados": [
+      111.0
     ]
   }
 }
