@@ -952,16 +952,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
-    "ts": "2026-10-21T20:39:15.267403",
-    "canales": {
-      "whatsapp": "2026-10-21T20:39:15.267403"
-    },
-    "precio": 1917.0,
-    "precios_publicados": [
-      1917.0
-    ]
-  },
   "amz-philco-fritadeira-air-fryer-12l-pt-pfr2200p-2": {
     "ts": "2026-10-23T00:28:39.867625",
     "canales": {
@@ -2652,6 +2642,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-predator-rgb-m612rgb-pre": {
+    "ts": "2026-10-23T20:45:12.556075",
+    "canales": {
+      "whatsapp": "2026-10-23T20:45:12.556075"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
