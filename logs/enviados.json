@@ -964,16 +964,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-motorola-edge-70-5g-crystals-by-sw": {
-    "ts": "2026-10-21T23:20:24.605298",
-    "canales": {
-      "whatsapp": "2026-10-21T23:20:24.605298"
-    },
-    "precio": 3399.0,
-    "precios_publicados": [
-      3399.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-256gb-8gb-ram-p": {
     "ts": "2026-10-23T21:39:47.955759",
     "canales": {
@@ -2640,6 +2630,16 @@
     "precio": 2199.0,
     "precios_publicados": [
       2199.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-10-23T23:23:30.577911",
+    "canales": {
+      "whatsapp": "2026-10-23T23:23:30.577911"
+    },
+    "precio": 489.0,
+    "precios_publicados": [
+      489.0
     ]
   }
 }
