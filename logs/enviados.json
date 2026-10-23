@@ -824,16 +824,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-10-21T16:17:30.403181",
-    "canales": {
-      "whatsapp": "2026-10-21T16:17:30.403181"
-    },
-    "precio": 119.0,
-    "precios_publicados": [
-      119.0
-    ]
-  },
   "amz-fralda-pampers-supersequinha-tamanho-g-80-uni": {
     "ts": "2026-10-23T12:01:30.638691",
     "canales": {
@@ -2632,6 +2622,16 @@
     "precio": 445.0,
     "precios_publicados": [
       445.0
+    ]
+  },
+  "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
+    "ts": "2026-10-23T16:18:15.411208",
+    "canales": {
+      "whatsapp": "2026-10-23T16:18:15.411208"
+    },
+    "precio": 1174.0,
+    "precios_publicados": [
+      1174.0
     ]
   }
 }
