@@ -1231,14 +1231,16 @@
     "precio_min_publicado": 63.0
   },
   "amz-bolsa-termica-marmita-lancheira-grande-alca-o": {
-    "ts": "2026-10-21T19:52:27.061313",
+    "ts": "2026-10-23T13:17:25.720789",
     "canales": {
-      "whatsapp": "2026-10-21T19:52:27.061313"
+      "whatsapp": "2026-10-23T13:17:25.720789"
     },
     "precio": 26.0,
     "precios_publicados": [
+      26.0,
       26.0
-    ]
+    ],
+    "precio_min_publicado": 26.0
   },
   "amz-chaleira-eletrica-18-litros-220v-1200w-em-aco": {
     "ts": "2026-10-22T23:10:29.203563",
