@@ -1783,14 +1783,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-15-m1502ya-amd-ryzen-7": {
-    "ts": "2026-10-22T20:57:35.182528",
+    "ts": "2026-10-23T22:08:43.427873",
     "canales": {
-      "whatsapp": "2026-10-22T20:57:35.182528"
+      "whatsapp": "2026-10-23T22:08:43.427873"
     },
     "precio": 3702.0,
     "precios_publicados": [
+      3702.0,
       3702.0
-    ]
+    ],
+    "precio_min_publicado": 3702.0
   },
   "amz-samsung-galaxy-book4-intel-coretm-i31315u-win": {
     "ts": "2026-10-22T21:03:07.690469",
