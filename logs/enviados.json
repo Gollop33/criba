@@ -976,16 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-xiaomi-poco-x7-pro-5g-nfc-black-pr": {
-    "ts": "2026-10-21T22:31:07.524060",
-    "canales": {
-      "whatsapp": "2026-10-21T22:31:07.524060"
-    },
-    "precio": 2326.0,
-    "precios_publicados": [
-      2326.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
     "ts": "2026-10-21T22:37:10.150720",
     "canales": {
@@ -1691,14 +1681,16 @@
     ]
   },
   "amz-notebook-acer-aspire-go-15-ag1551p34kt-intel-": {
-    "ts": "2026-10-22T20:25:35.302595",
+    "ts": "2026-10-23T22:33:18.229531",
     "canales": {
-      "whatsapp": "2026-10-22T20:25:35.302595"
+      "whatsapp": "2026-10-23T22:33:18.229531"
     },
     "precio": 3399.0,
     "precios_publicados": [
+      3399.0,
       3399.0
-    ]
+    ],
+    "precio_min_publicado": 3399.0
   },
   "amz-notebook-samsung-galaxy-book4-intel-core-3100": {
     "ts": "2026-10-22T20:30:04.112845",
