@@ -52,21 +52,6 @@
     ],
     "precio_min_publicado": 20.0
   },
-  "amz-protetor-solar-facial-neutrogena-sun-fresh-de": {
-    "ts": "2026-10-21T15:31:31.143714",
-    "canales": {
-      "whatsapp": "2026-10-21T15:31:31.143714"
-    },
-    "precio": 46.0,
-    "precios_publicados": [
-      47.0,
-      47.0,
-      47.0,
-      46.0,
-      46.0
-    ],
-    "precio_min_publicado": 46.0
-  },
   "amz-algodao-quadrado-para-bebe-bellacotton-100-un": {
     "ts": "2026-10-23T10:23:23.064093",
     "canales": {
@@ -1628,14 +1613,16 @@
     ]
   },
   "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
-    "ts": "2026-10-22T12:10:56.844157",
+    "ts": "2026-10-23T15:37:07.274064",
     "canales": {
-      "whatsapp": "2026-10-22T12:10:56.844157"
+      "whatsapp": "2026-10-23T15:37:07.274064"
     },
     "precio": 303.0,
     "precios_publicados": [
+      303.0,
       303.0
-    ]
+    ],
+    "precio_min_publicado": 303.0
   },
   "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
     "ts": "2026-10-22T12:20:52.975710",
