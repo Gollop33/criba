@@ -1143,14 +1143,16 @@
     ]
   },
   "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
-    "ts": "2026-10-22T00:20:10.846806",
+    "ts": "2026-10-23T21:43:17.678822",
     "canales": {
-      "whatsapp": "2026-10-22T00:20:10.846806"
+      "whatsapp": "2026-10-23T21:43:17.678822"
     },
-    "precio": 3299.0,
+    "precio": 3109.0,
     "precios_publicados": [
-      3299.0
-    ]
+      3299.0,
+      3109.0
+    ],
+    "precio_min_publicado": 3299.0
   },
   "amz-smartphone-motorola-moto-g06128gb-12gb-4gb-ra": {
     "ts": "2026-10-22T00:29:18.203329",
