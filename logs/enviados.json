@@ -976,26 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
-    "ts": "2026-10-21T22:37:10.150720",
-    "canales": {
-      "whatsapp": "2026-10-21T22:37:10.150720"
-    },
-    "precio": 1410.0,
-    "precios_publicados": [
-      1410.0
-    ]
-  },
-  "amz-smartphone-motorola-moto-g77-5g-256gb-24gb-8g": {
-    "ts": "2026-10-21T22:38:43.568625",
-    "canales": {
-      "whatsapp": "2026-10-21T22:38:43.568625"
-    },
-    "precio": 1642.0,
-    "precios_publicados": [
-      1642.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-c85-nfc-preto-8gb-ram-": {
     "ts": "2026-10-21T22:48:39.852371",
     "canales": {
@@ -1429,14 +1409,16 @@
     ]
   },
   "amz-havit-headphone-fone-de-ouvido-h2002d-gamer-c": {
-    "ts": "2026-10-22T13:23:41.702137",
+    "ts": "2026-10-23T22:42:06.375989",
     "canales": {
-      "whatsapp": "2026-10-22T13:23:41.702137"
+      "whatsapp": "2026-10-23T22:42:06.375989"
     },
-    "precio": 172.0,
+    "precio": 171.0,
     "precios_publicados": [
-      172.0
-    ]
+      172.0,
+      171.0
+    ],
+    "precio_min_publicado": 172.0
   },
   "amz-hyperx-teclado-gamer-hyperx-alloy-core-rgb-ab": {
     "ts": "2026-10-22T13:29:47.006655",
