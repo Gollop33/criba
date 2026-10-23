@@ -464,18 +464,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-10-21T07:40:04.421608",
-    "canales": {
-      "whatsapp": "2026-10-21T07:40:04.421608"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0,
-      25.0
-    ],
-    "precio_min_publicado": 25.0
-  },
   "cupom-ml-198fc957e6": {
     "ts": "2026-10-23T00:14:11.686492",
     "canales": {
@@ -710,14 +698,16 @@
     }
   },
   "amz-huggies-fralda-descartavel-premium-natural-ca": {
-    "ts": "2026-10-21T08:10:09.946287",
+    "ts": "2026-10-23T07:52:39.763445",
     "canales": {
-      "whatsapp": "2026-10-21T08:10:09.946287"
+      "whatsapp": "2026-10-23T07:52:39.763445"
     },
     "precio": 33.0,
     "precios_publicados": [
+      33.0,
       33.0
-    ]
+    ],
+    "precio_min_publicado": 33.0
   },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-10-22T18:15:29.914373",
