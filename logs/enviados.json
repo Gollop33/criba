@@ -1219,14 +1219,16 @@
     ]
   },
   "amz-console-nintendo-switch-2-modelo-internaciona": {
-    "ts": "2026-10-22T11:56:32.797748",
+    "ts": "2026-10-23T23:38:04.597367",
     "canales": {
-      "whatsapp": "2026-10-22T11:56:32.797748"
+      "whatsapp": "2026-10-23T23:38:04.597367"
     },
     "precio": 3880.0,
     "precios_publicados": [
+      3880.0,
       3880.0
-    ]
+    ],
+    "precio_min_publicado": 3880.0
   },
   "amz-controle-sem-fio-playstation-dualsensetm-midn": {
     "ts": "2026-10-23T23:26:13.420288",
