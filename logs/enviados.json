@@ -952,16 +952,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "amz-apple-iphone-16-512-gb-preto": {
-    "ts": "2026-10-21T20:25:37.716269",
-    "canales": {
-      "whatsapp": "2026-10-21T20:25:37.716269"
-    },
-    "precio": 5499.0,
-    "precios_publicados": [
-      5499.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-10-21T20:32:43.292851",
     "canales": {
@@ -2652,6 +2642,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "amz-street-fighter-6-year-1-2-fighters-edition-pl": {
+    "ts": "2026-10-23T20:29:50.336163",
+    "canales": {
+      "whatsapp": "2026-10-23T20:29:50.336163"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
