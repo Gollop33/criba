@@ -1199,14 +1199,16 @@
     ]
   },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-10-22T11:48:21.354456",
+    "ts": "2026-10-23T23:45:59.106215",
     "canales": {
-      "whatsapp": "2026-10-22T11:48:21.354456"
+      "whatsapp": "2026-10-23T23:45:59.106215"
     },
     "precio": 4999.0,
     "precios_publicados": [
+      4999.0,
       4999.0
-    ]
+    ],
+    "precio_min_publicado": 4999.0
   },
   "amz-playstation5-slim-edicao-digital": {
     "ts": "2026-10-22T11:49:30.312901",
