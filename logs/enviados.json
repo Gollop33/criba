@@ -448,18 +448,6 @@
     ],
     "precio_min_publicado": 53.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-220v": {
-    "ts": "2026-10-21T23:03:47.829411",
-    "canales": {
-      "whatsapp": "2026-10-21T23:03:47.829411"
-    },
-    "precio": 96.0,
-    "precios_publicados": [
-      89.0,
-      96.0
-    ],
-    "precio_min_publicado": 89.0
-  },
   "amz-mondial-liquidificador-turbo-power-preto-550w": {
     "ts": "2026-10-23T00:00:20.339670",
     "canales": {
@@ -2622,6 +2610,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-be-place-kids-tablet-infantil-android-13-128g": {
+    "ts": "2026-10-23T23:05:26.496546",
+    "canales": {
+      "whatsapp": "2026-10-23T23:05:26.496546"
+    },
+    "precio": 385.0,
+    "precios_publicados": [
+      385.0
     ]
   }
 }
