@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-23T19:14:42+00:00",
+  "actualizado": "2026-10-23T19:21:36+00:00",
   "total": 24,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "espatula para confeitar mimo style aco inox 15",
@@ -17,23 +17,7 @@
       "precio_ref": 6.39,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
-    },
-    {
-      "busqueda": "chaleira eletrica 1 8 litros 220v 1200w em",
-      "nombre": "Chaleira Elétrica 1,8 Litros 220V 1200W em Aço Inox, Base Giratória 360°, Desligamento Automático, Proteção Contra Superaquec",
-      "precio_ref": 30.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
-    },
-    {
-      "busqueda": "chaleira eletrica inox 110v 1 8l aquecimento rapido",
-      "nombre": "Chaleira Elétrica Inox 110V 1,8L Aquecimento Rápido Desligamento Automático | Aquecimento Rápido, Aço Inoxidável, Antiqueimad",
-      "precio_ref": 28.99,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "kit 10 potes hermeticos de vidro 640ml com",
@@ -41,7 +25,7 @@
       "precio_ref": 84.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "sanduicheira eletrica cadence click 127v",
@@ -49,15 +33,15 @@
       "precio_ref": 95.95,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
-      "busqueda": "filtro refil original de agua para purificador electrolux",
-      "nombre": "Filtro/Refil Original de Água para Purificador Electrolux PE11B/PE11X/PC41B/PC41X/PH41B/PH41X",
-      "precio_ref": 53.9,
+      "busqueda": "chaleira eletrica inox 110v 1 8l aquecimento rapido",
+      "nombre": "Chaleira Elétrica Inox 110V 1,8L Aquecimento Rápido Desligamento Automático | Aquecimento Rápido, Aço Inoxidável, Antiqueimad",
+      "precio_ref": 28.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "kit 10 potes de vidro borossilicato 640ml hermeticos",
@@ -65,7 +49,7 @@
       "precio_ref": 87.88,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "kit 6 copos de vidro canelado 420 ml",
@@ -73,7 +57,7 @@
       "precio_ref": 32.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "wolff conjunto 7 pecas bowl com 6 tacas",
@@ -81,7 +65,7 @@
       "precio_ref": 63.52,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "filtro refil original de agua acqua pure para",
@@ -89,7 +73,7 @@
       "precio_ref": 71.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
@@ -97,7 +81,7 @@
       "precio_ref": 89.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "brinox frigideira 20x4cm 0 8l ceramic life suprema",
@@ -105,7 +89,7 @@
       "precio_ref": 54.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "mondial liquidificador turbo power preto 550w 110v l",
@@ -113,7 +97,7 @@
       "precio_ref": 97.79,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "chaleira eletrica 1 8 litros inox desligamento automatico",
@@ -121,7 +105,7 @@
       "precio_ref": 35.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "faqueiro tramontina buzios em aco inox com detalhe",
@@ -129,7 +113,23 @@
       "precio_ref": 57.75,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
+    },
+    {
+      "busqueda": "chaleira eletrica 1 8 litros 220v 1200w em",
+      "nombre": "Chaleira Elétrica 1,8 Litros 220V 1200W em Aço Inox, Base Giratória 360°, Desligamento Automático, Proteção Contra Superaquec",
+      "precio_ref": 30.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
+    },
+    {
+      "busqueda": "filtro refil original de agua para purificador electrolux",
+      "nombre": "Filtro/Refil Original de Água para Purificador Electrolux PE11B/PE11X/PC41B/PC41X/PH41B/PH41X",
+      "precio_ref": 53.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "panela de pressao tramontina vancouver effect em aluminio",
@@ -137,7 +137,7 @@
       "precio_ref": 182.7,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "britania fritadeira air fryer bfr37 revestimento dura mais",
@@ -145,7 +145,7 @@
       "precio_ref": 159.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "stanley garrafa termica quick flip black 710ml",
@@ -153,7 +153,7 @@
       "precio_ref": 160.65,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
@@ -161,7 +161,7 @@
       "precio_ref": 349.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "mondial micro ondas espelhado 1400w 127v mo 02",
@@ -169,7 +169,7 @@
       "precio_ref": 497.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
@@ -177,7 +177,7 @@
       "precio_ref": 178.5,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "philco fritadeira air fryer 12l pt pfr2200p 220v",
@@ -185,7 +185,7 @@
       "precio_ref": 419.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     },
     {
       "busqueda": "electrolux cafeteira eletrica inox filtro permanente removivel corta",
@@ -193,7 +193,7 @@
       "precio_ref": 118.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-23T19:14:42+00:00"
+      "monitorizado_desde": "2026-10-23T19:21:36+00:00"
     }
   ]
 }
