@@ -1000,16 +1000,6 @@
     ],
     "precio_min_publicado": 349.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-256gb-8gb-ram-c": {
-    "ts": "2026-10-21T23:49:36.628648",
-    "canales": {
-      "whatsapp": "2026-10-21T23:49:36.628648"
-    },
-    "precio": 2479.0,
-    "precios_publicados": [
-      2479.0
-    ]
-  },
   "amz-apple-iphone-16-128-gb-branco": {
     "ts": "2026-10-22T00:00:53.057532",
     "canales": {
@@ -2656,6 +2646,16 @@
     "precio": 2369.0,
     "precios_publicados": [
       2369.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
+    "ts": "2026-10-23T23:49:59.452397",
+    "canales": {
+      "whatsapp": "2026-10-23T23:49:59.452397"
+    },
+    "precio": 1420.0,
+    "precios_publicados": [
+      1420.0
     ]
   }
 }
