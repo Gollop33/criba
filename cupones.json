@@ -1133,7 +1133,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-22T17:09:51+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SUPEROFERTA",
@@ -1503,7 +1504,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-22T13:00:09+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-23T00:00:52-03:00"
 }
