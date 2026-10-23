@@ -66,23 +66,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "ml-bicicleta-ergometrica-bike-spinning-6kg-sensa": {
-    "ts": "2026-10-21T00:33:35.480494",
-    "canales": {
-      "whatsapp": "2026-10-21T00:33:35.480494"
-    },
-    "precio": 455.0,
-    "precios_publicados": [
-      519.0,
-      474.0,
-      460.0,
-      460.0,
-      460.0,
-      460.0,
-      455.0
-    ],
-    "precio_min_publicado": 460.0
-  },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
     "ts": "2026-10-22T01:26:36.083775",
     "canales": {
@@ -1779,14 +1762,16 @@
     "precio_min_publicado": 419.0
   },
   "amz-panela-de-pressao-tramontina-vancouver-effect": {
-    "ts": "2026-10-21T20:45:43.414660",
+    "ts": "2026-10-23T00:39:20.254019",
     "canales": {
-      "whatsapp": "2026-10-21T20:45:43.414660"
+      "whatsapp": "2026-10-23T00:39:20.254019"
     },
-    "precio": 184.0,
+    "precio": 182.0,
     "precios_publicados": [
-      184.0
-    ]
+      184.0,
+      182.0
+    ],
+    "precio_min_publicado": 184.0
   },
   "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
     "ts": "2026-10-21T20:51:06.803414",
