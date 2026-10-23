@@ -770,16 +770,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
-    "ts": "2026-10-21T13:39:29.227350",
-    "canales": {
-      "whatsapp": "2026-10-21T13:39:29.227350"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0
-    ]
-  },
   "amz-scalibor-19g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-10-22T16:25:31.353138",
     "canales": {
@@ -2558,6 +2548,16 @@
     "precio": 148.0,
     "precios_publicados": [
       148.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
+    "ts": "2026-10-23T13:39:53.224393",
+    "canales": {
+      "whatsapp": "2026-10-23T13:39:53.224393"
+    },
+    "precio": 569.0,
+    "precios_publicados": [
+      569.0
     ]
   }
 }
