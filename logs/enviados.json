@@ -1229,14 +1229,16 @@
     ]
   },
   "amz-controle-sem-fio-playstation-dualsensetm-midn": {
-    "ts": "2026-10-22T12:07:06.304715",
+    "ts": "2026-10-23T23:26:13.420288",
     "canales": {
-      "whatsapp": "2026-10-22T12:07:06.304715"
+      "whatsapp": "2026-10-23T23:26:13.420288"
     },
-    "precio": 414.0,
+    "precio": 409.0,
     "precios_publicados": [
-      414.0
-    ]
+      414.0,
+      409.0
+    ],
+    "precio_min_publicado": 414.0
   },
   "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
     "ts": "2026-10-23T15:37:07.274064",
