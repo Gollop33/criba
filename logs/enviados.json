@@ -647,18 +647,6 @@
       "whatsapp": "2026-10-22T12:31:40.605047"
     }
   },
-  "ml-patinete-eletrico-dobravel-400w-30kmh-suporta": {
-    "ts": "2026-10-21T00:47:35.334727",
-    "canales": {
-      "whatsapp": "2026-10-21T00:47:35.334727"
-    },
-    "precio": 956.0,
-    "precios_publicados": [
-      956.0,
-      956.0
-    ],
-    "precio_min_publicado": 956.0
-  },
   "ml-cartao-de-memoria-128-gb-para-cameras-wifi-dr": {
     "ts": "2026-10-21T01:57:19.765135",
     "canales": {
@@ -1954,14 +1942,16 @@
     ]
   },
   "amz-philips-walita-fritadeira-airfryer-serie-1000": {
-    "ts": "2026-10-21T23:41:21.858442",
+    "ts": "2026-10-23T00:51:35.856907",
     "canales": {
-      "whatsapp": "2026-10-21T23:41:21.858442"
+      "whatsapp": "2026-10-23T00:51:35.856907"
     },
     "precio": 349.0,
     "precios_publicados": [
+      349.0,
       349.0
-    ]
+    ],
+    "precio_min_publicado": 349.0
   },
   "amz-celular-samsung-galaxy-a57-5g-256gb-8gb-ram-c": {
     "ts": "2026-10-21T23:49:36.628648",
