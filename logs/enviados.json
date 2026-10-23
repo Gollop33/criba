@@ -721,16 +721,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-10-21T09:27:01.257938",
-    "canales": {
-      "whatsapp": "2026-10-21T09:27:01.257938"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-10-21T09:49:57.455060",
     "canales": {
@@ -2449,6 +2439,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-ype-detergente-em-po-para-maquina-1kg-formula": {
+    "ts": "2026-10-23T09:28:16.059665",
+    "canales": {
+      "whatsapp": "2026-10-23T09:28:16.059665"
+    },
+    "precio": 48.0,
+    "precios_publicados": [
+      48.0
     ]
   }
 }
