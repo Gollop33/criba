@@ -964,16 +964,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-10-21T23:05:32.293167",
-    "canales": {
-      "whatsapp": "2026-10-21T23:05:32.293167"
-    },
-    "precio": 3665.0,
-    "precios_publicados": [
-      3665.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-10-21T23:14:50.365957",
     "canales": {
@@ -2620,6 +2610,16 @@
     "precio": 385.0,
     "precios_publicados": [
       385.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
+    "ts": "2026-10-23T23:06:46.405127",
+    "canales": {
+      "whatsapp": "2026-10-23T23:06:46.405127"
+    },
+    "precio": 2299.0,
+    "precios_publicados": [
+      2299.0
     ]
   }
 }
