@@ -976,16 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
-    "ts": "2026-10-21T21:49:25.973320",
-    "canales": {
-      "whatsapp": "2026-10-21T21:49:25.973320"
-    },
-    "precio": 1989.0,
-    "precios_publicados": [
-      1989.0
-    ]
-  },
   "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
     "ts": "2026-10-21T22:12:49.738022",
     "canales": {
@@ -2656,6 +2646,16 @@
     "precio": 215.0,
     "precios_publicados": [
       215.0
+    ]
+  },
+  "amz-smartphone-poco-x8-pro-512gb-12gb-ram-branco-": {
+    "ts": "2026-10-23T21:50:04.511781",
+    "canales": {
+      "whatsapp": "2026-10-23T21:50:04.511781"
+    },
+    "precio": 2720.0,
+    "precios_publicados": [
+      2720.0
     ]
   }
 }
