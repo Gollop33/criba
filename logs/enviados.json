@@ -976,16 +976,6 @@
     ],
     "precio_min_publicado": 184.0
   },
-  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
-    "ts": "2026-10-21T20:51:06.803414",
-    "canales": {
-      "whatsapp": "2026-10-21T20:51:06.803414"
-    },
-    "precio": 1445.0,
-    "precios_publicados": [
-      1445.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
     "ts": "2026-10-21T20:58:48.000819",
     "canales": {
@@ -1331,14 +1321,16 @@
     "precio_min_publicado": 164.0
   },
   "amz-mouse-gamer-redragon-astrolabe-lite-preto-paw": {
-    "ts": "2026-10-22T11:12:35.748921",
+    "ts": "2026-10-23T20:54:25.591586",
     "canales": {
-      "whatsapp": "2026-10-22T11:12:35.748921"
+      "whatsapp": "2026-10-23T20:54:25.591586"
     },
     "precio": 83.0,
     "precios_publicados": [
+      83.0,
       83.0
-    ]
+    ],
+    "precio_min_publicado": 83.0
   },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
     "ts": "2026-10-22T11:39:35.926858",
