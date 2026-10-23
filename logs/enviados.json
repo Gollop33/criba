@@ -83,21 +83,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
-    "ts": "2026-10-21T15:15:26.083849",
-    "canales": {
-      "whatsapp": "2026-10-21T15:15:26.083849"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0,
-      29.0,
-      29.0,
-      29.0,
-      29.0
-    ],
-    "precio_min_publicado": 29.0
-  },
   "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
     "ts": "2026-10-22T10:53:02.990658",
     "canales": {
@@ -2590,6 +2575,16 @@
     "precio": 789.0,
     "precios_publicados": [
       789.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-10-23T15:16:40.335211",
+    "canales": {
+      "whatsapp": "2026-10-23T15:16:40.335211"
+    },
+    "precio": 1342.0,
+    "precios_publicados": [
+      1342.0
     ]
   }
 }
