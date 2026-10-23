@@ -952,16 +952,6 @@
     ],
     "precio_min_publicado": 169.0
   },
-  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-10-21T20:32:43.292851",
-    "canales": {
-      "whatsapp": "2026-10-21T20:32:43.292851"
-    },
-    "precio": 6043.0,
-    "precios_publicados": [
-      6043.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
     "ts": "2026-10-21T20:39:15.267403",
     "canales": {
@@ -2652,6 +2642,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
+    "ts": "2026-10-23T20:37:15.846426",
+    "canales": {
+      "whatsapp": "2026-10-23T20:37:15.846426"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
