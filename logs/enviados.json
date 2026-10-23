@@ -1,20 +1,4 @@
 {
-  "amz-skin-care-hidratante-facial-garnier-uniform-m": {
-    "ts": "2026-10-21T13:49:16.104195",
-    "canales": {
-      "whatsapp": "2026-10-21T13:49:16.104195"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0,
-      26.0,
-      27.0,
-      27.0,
-      28.0,
-      26.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-10-21T14:39:59.583589",
     "canales": {
@@ -83,21 +67,6 @@
       32.0
     ],
     "precio_min_publicado": 20.0
-  },
-  "amz-kit-sabonete-phebo-amarelo-720g": {
-    "ts": "2026-10-21T13:54:28.333861",
-    "canales": {
-      "whatsapp": "2026-10-21T13:54:28.333861"
-    },
-    "precio": 34.0,
-    "precios_publicados": [
-      32.0,
-      32.0,
-      32.0,
-      34.0,
-      34.0
-    ],
-    "precio_min_publicado": 32.0
   },
   "amz-protetor-solar-facial-neutrogena-sun-fresh-de": {
     "ts": "2026-10-21T15:31:31.143714",
@@ -2568,6 +2537,16 @@
     "precio": 735.0,
     "precios_publicados": [
       735.0
+    ]
+  },
+  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
+    "ts": "2026-10-23T13:55:49.498835",
+    "canales": {
+      "whatsapp": "2026-10-23T13:55:49.498835"
+    },
+    "precio": 219.0,
+    "precios_publicados": [
+      219.0
     ]
   }
 }
