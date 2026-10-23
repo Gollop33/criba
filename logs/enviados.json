@@ -872,26 +872,6 @@
     ],
     "precio_min_publicado": 97.0
   },
-  "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-10-21T17:43:42.219326",
-    "canales": {
-      "whatsapp": "2026-10-21T17:43:42.219326"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
-  "amz-isdin-protetor-solar-facial-fusion-water-5-st": {
-    "ts": "2026-10-21T17:46:51.469473",
-    "canales": {
-      "whatsapp": "2026-10-21T17:46:51.469473"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-10-21T17:55:10.753546",
     "canales": {
@@ -2692,6 +2672,16 @@
     "precio": 2117.0,
     "precios_publicados": [
       2117.0
+    ]
+  },
+  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
+    "ts": "2026-10-23T17:47:53.654855",
+    "canales": {
+      "whatsapp": "2026-10-23T17:47:53.654855"
+    },
+    "precio": 337.0,
+    "precios_publicados": [
+      337.0
     ]
   }
 }
