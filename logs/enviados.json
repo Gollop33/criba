@@ -724,16 +724,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
-    "ts": "2026-10-21T10:31:25.793725",
-    "canales": {
-      "whatsapp": "2026-10-21T10:31:25.793725"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-tamanho-p-40-unid": {
     "ts": "2026-10-23T08:14:19.445011",
     "canales": {
@@ -2452,6 +2442,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-veja-limpador-para-limpeza-pesada-cloro-ativo": {
+    "ts": "2026-10-23T10:36:42.898129",
+    "canales": {
+      "whatsapp": "2026-10-23T10:36:42.898129"
+    },
+    "precio": 10.0,
+    "precios_publicados": [
+      10.0
     ]
   }
 }
