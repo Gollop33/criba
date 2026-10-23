@@ -1133,14 +1133,16 @@
     ]
   },
   "amz-piracanjuba-proforce-bebida-proteica-liquida-": {
-    "ts": "2026-10-21T16:53:31.881961",
+    "ts": "2026-10-23T12:05:55.332263",
     "canales": {
-      "whatsapp": "2026-10-21T16:53:31.881961"
+      "whatsapp": "2026-10-23T12:05:55.332263"
     },
-    "precio": 97.0,
+    "precio": 91.0,
     "precios_publicados": [
-      97.0
-    ]
+      97.0,
+      91.0
+    ],
+    "precio_min_publicado": 97.0
   },
   "amz-cerave-locao-hidratante-corporal-com-textura-": {
     "ts": "2026-10-21T16:55:46.429043",
