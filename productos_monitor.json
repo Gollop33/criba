@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-24T13:28:43+00:00",
+  "actualizado": "2026-10-24T13:35:38+00:00",
   "total": 29,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,39 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "scott duramax pano reutilizavel em rolo branco 174",
-      "nombre": "Scott Duramax Pano Reutilizável em Rolo, Branco, 174 Folhas (3 Unidades de 58 Folhas)",
-      "precio_ref": 33.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
-      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
-      "precio_ref": 26.7,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "detergente para lava loucas em pastilhas jimo 25",
-      "nombre": "Detergente para Lava-Louças em Pastilhas JIMO, 25 Pastilhas | Multicamadas, Concentrado, Desengordurante, Mais Brilho e Prote",
-      "precio_ref": 29.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "detergente neutro ype 500ml pack com 6 unidades",
-      "nombre": "Detergente Neutro Ypê, 500ml, Pack com 6 Unidades",
-      "precio_ref": 14.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
@@ -49,7 +17,31 @@
       "precio_ref": 23.39,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "scott duramax pano reutilizavel em rolo branco 174",
+      "nombre": "Scott Duramax Pano Reutilizável em Rolo, Branco, 174 Folhas (3 Unidades de 58 Folhas)",
+      "precio_ref": 33.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
+      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
+      "precio_ref": 26.7,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "detergente para lava loucas em pastilhas jimo 25",
+      "nombre": "Detergente para Lava-Louças em Pastilhas JIMO, 25 Pastilhas | Multicamadas, Concentrado, Desengordurante, Mais Brilho e Prote",
+      "precio_ref": 29.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
@@ -57,15 +49,7 @@
       "precio_ref": 21.07,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "vonixx toalha de microfibra para secagem 50 x",
-      "nombre": "vonixx Toalha de Microfibra para Secagem 50 x 90cm 350GSM 80% Poliéster 20% Poliamida",
-      "precio_ref": 37.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "limpador perfumado veja banho de cheiro 2l",
@@ -73,7 +57,15 @@
       "precio_ref": 14.39,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "detergente neutro ype 500ml pack com 6 unidades",
+      "nombre": "Detergente Neutro Ypê, 500ml, Pack com 6 Unidades",
+      "precio_ref": 14.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "sanremo rodo plastico para pia de 14cm cor",
@@ -81,7 +73,7 @@
       "precio_ref": 6.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "cif limpador especialista derrete gordura 500 ml",
@@ -89,7 +81,7 @@
       "precio_ref": 15.74,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "ype detergente clear 5l detergente liquido",
@@ -97,7 +89,7 @@
       "precio_ref": 24.24,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "esponja esfrelux com formato protetor de unha",
@@ -105,7 +97,7 @@
       "precio_ref": 2.53,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "lysoform original desinfetante liquido limpeza casa 5l",
@@ -113,55 +105,7 @@
       "precio_ref": 50.47,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "hepta world ventilador de coluna resfriamento silencioso design",
-      "nombre": "HEPTA WORLD Ventilador de Coluna, Resfriamento, Silencioso, Design Slim para Casa Escritório (PRETO, 110V, 101)",
-      "precio_ref": 99.99,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "finish detergente para lava loucas em po 700g",
-      "nombre": "Finish Detergente para Lava Louças em pó 700g",
-      "precio_ref": 43.42,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "flash limp mop giratorio fit balde 8 litros",
-      "nombre": "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010 - ABS Cinza",
-      "precio_ref": 60.51,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "finish powerball detergente para lava loucas em tabletes",
-      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
-      "precio_ref": 50.55,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "ype detergente em po para maquina 1kg formula",
-      "nombre": "Ypê Detergente em Pó para Máquina 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
-      "precio_ref": 48.28,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "kit shampoo v floc cera tok final revitalizador",
-      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
-      "precio_ref": 92.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "finish advanced detergente para lava loucas em po",
@@ -169,15 +113,7 @@
       "precio_ref": 45.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
-      "nombre": "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
-      "precio_ref": 81.05,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "detergente limpador para extratoras concentrado wap limpa e",
@@ -185,15 +121,71 @@
       "precio_ref": 49.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
-      "busqueda": "mondial ventilador de mesa 30cm super power preto",
-      "nombre": "MONDIAL Ventilador de Mesa 30cm Super Power, Preto, 60W, 220V - VSP-30-B",
-      "precio_ref": 122.55,
+      "busqueda": "hepta world ventilador de coluna resfriamento silencioso design",
+      "nombre": "HEPTA WORLD Ventilador de Coluna, Resfriamento, Silencioso, Design Slim para Casa Escritório (PRETO, 110V, 101)",
+      "precio_ref": 99.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "ype detergente em po para maquina 1kg formula",
+      "nombre": "Ypê Detergente em Pó para Máquina 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
+      "precio_ref": 48.28,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "flash limp mop giratorio fit balde 8 litros",
+      "nombre": "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010 - ABS Cinza",
+      "precio_ref": 60.51,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "finish powerball detergente para lava loucas em tabletes",
+      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
+      "precio_ref": 50.55,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "vonixx toalha de microfibra para secagem 50 x",
+      "nombre": "vonixx Toalha de Microfibra para Secagem 50 x 90cm 350GSM 80% Poliéster 20% Poliamida",
+      "precio_ref": 37.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "kit shampoo v floc cera tok final revitalizador",
+      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
+      "precio_ref": 92.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
+      "nombre": "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
+      "precio_ref": 81.05,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "finish detergente para lava loucas em po 700g",
+      "nombre": "Finish Detergente para Lava Louças em pó 700g",
+      "precio_ref": 43.42,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -201,23 +193,7 @@
       "precio_ref": 126.49,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
-      "nombre": "Electrolux Aspirador pó vertical 2 em 1 1450W HEPA STK15 Cinza Urban 127V | Com fio, portátil de mão, potente, cabo de 6m e c",
-      "precio_ref": 209.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
-    },
-    {
-      "busqueda": "kit lavagem completa shampoo cera tok final intense",
-      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
-      "precio_ref": 134.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "aspirador de po portatil sem fio 15000pa usb",
@@ -225,7 +201,15 @@
       "precio_ref": 159.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
+      "nombre": "Electrolux Aspirador pó vertical 2 em 1 1450W HEPA STK15 Cinza Urban 127V | Com fio, portátil de mão, potente, cabo de 6m e c",
+      "precio_ref": 209.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     },
     {
       "busqueda": "mondial ventilador de mesa 40cm super power preto",
@@ -233,7 +217,23 @@
       "precio_ref": 122.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T13:28:43+00:00"
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "kit lavagem completa shampoo cera tok final intense",
+      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
+      "precio_ref": 134.79,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
+    },
+    {
+      "busqueda": "mondial ventilador de mesa 30cm super power preto",
+      "nombre": "MONDIAL Ventilador de Mesa 30cm Super Power, Preto, 60W, 220V - VSP-30-B",
+      "precio_ref": 122.55,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T13:35:38+00:00"
     }
   ]
 }
