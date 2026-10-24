@@ -1237,14 +1237,16 @@
     "precio_min_publicado": 303.0
   },
   "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
-    "ts": "2026-10-22T12:20:52.975710",
+    "ts": "2026-10-24T00:25:39.439057",
     "canales": {
-      "whatsapp": "2026-10-22T12:20:52.975710"
+      "whatsapp": "2026-10-24T00:25:39.439057"
     },
-    "precio": 1999.0,
+    "precio": 2149.0,
     "precios_publicados": [
-      1999.0
-    ]
+      1999.0,
+      2149.0
+    ],
+    "precio_min_publicado": 1999.0
   },
   "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
     "ts": "2026-10-23T21:57:29.691153",
