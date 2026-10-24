@@ -1471,14 +1471,16 @@
     "precio_min_publicado": 3499.0
   },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
-    "ts": "2026-10-22T20:33:53.243064",
+    "ts": "2026-10-24T05:46:17.267921",
     "canales": {
-      "whatsapp": "2026-10-22T20:33:53.243064"
+      "whatsapp": "2026-10-24T05:46:17.267921"
     },
     "precio": 3999.0,
     "precios_publicados": [
+      3999.0,
       3999.0
-    ]
+    ],
+    "precio_min_publicado": 3999.0
   },
   "amz-notebook-asus-vivobook-go-e1504ga-intel-core-": {
     "ts": "2026-10-22T20:39:19.743476",
