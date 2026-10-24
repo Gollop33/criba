@@ -1012,16 +1012,6 @@
     ],
     "precio_min_publicado": 3299.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-10-22T00:38:14.876076",
-    "canales": {
-      "whatsapp": "2026-10-22T00:38:14.876076"
-    },
-    "precio": 874.0,
-    "precios_publicados": [
-      874.0
-    ]
-  },
   "amz-adaptador-bluetooth-50-usb-receptor-dongle-pa": {
     "ts": "2026-10-22T01:01:22.343614",
     "canales": {
@@ -1529,14 +1519,16 @@
     ]
   },
   "amz-acer-notebook-aspire-5-amd-ryzen-5-5500u-16gb": {
-    "ts": "2026-10-22T19:50:52.715459",
+    "ts": "2026-10-24T00:40:41.003651",
     "canales": {
-      "whatsapp": "2026-10-22T19:50:52.715459"
+      "whatsapp": "2026-10-24T00:40:41.003651"
     },
-    "precio": 3837.0,
+    "precio": 3796.0,
     "precios_publicados": [
-      3837.0
-    ]
+      3837.0,
+      3796.0
+    ],
+    "precio_min_publicado": 3837.0
   },
   "amz-notebook-asus-vivobook-go-15-e510kabr1375ws-s": {
     "ts": "2026-10-22T19:57:53.054709",
