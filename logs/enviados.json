@@ -199,20 +199,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-switch-gigabit-ms105g-mercusys-de-5-portas-et": {
-    "ts": "2026-10-22T01:39:37.862680",
-    "canales": {
-      "whatsapp": "2026-10-22T01:39:37.862680"
-    },
-    "precio": 57.0,
-    "precios_publicados": [
-      57.0,
-      57.0,
-      57.0,
-      57.0
-    ],
-    "precio_min_publicado": 57.0
-  },
   "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
     "ts": "2026-10-23T12:37:50.779458",
     "canales": {
@@ -2733,6 +2719,16 @@
     "precio": 62.0,
     "precios_publicados": [
       62.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
+    "ts": "2026-10-24T01:39:38.459096",
+    "canales": {
+      "whatsapp": "2026-10-24T01:39:38.459096"
+    },
+    "precio": 73.0,
+    "precios_publicados": [
+      73.0
     ]
   }
 }
