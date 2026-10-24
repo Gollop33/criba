@@ -287,19 +287,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
-    "ts": "2026-10-22T01:52:36.106129",
-    "canales": {
-      "whatsapp": "2026-10-22T01:52:36.106129"
-    },
-    "precio": 85.0,
-    "precios_publicados": [
-      85.0,
-      85.0,
-      85.0
-    ],
-    "precio_min_publicado": 85.0
-  },
   "amz-switch-gigabit-de-mesa-tplink-ls1005g-com-5-p": {
     "ts": "2026-10-23T13:24:57.558856",
     "canales": {
@@ -2739,6 +2726,16 @@
     "precio": 20.0,
     "precios_publicados": [
       20.0
+    ]
+  },
+  "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
+    "ts": "2026-10-24T01:53:03.541686",
+    "canales": {
+      "whatsapp": "2026-10-24T01:53:03.541686"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
