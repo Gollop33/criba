@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-24T17:14:49+00:00",
+  "actualizado": "2026-10-24T17:21:48+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,215 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 26.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
-      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
-      "precio_ref": 15.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "papel toalha scala plus multipicote 2 rolos 100",
-      "nombre": "Papel Toalha Scala Plus Multipicote, 2 Rolos | 100 Toalhas Cada Rolo, Reciclável",
-      "precio_ref": 7.09,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "omo lava roupas liquido ultra power frasco 1",
-      "nombre": "OMO Lava-Roupas Líquido Ultra Power Frasco 1,8L",
-      "precio_ref": 29.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
-      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
-      "precio_ref": 26.7,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "ype amaciante tradicional ultra aconchego 5l embalagem pode",
-      "nombre": "Ypê Amaciante Tradicional Ultra Aconchego 5L (Embalagem pode variar)",
-      "precio_ref": 21.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "lava roupas liquido omo ciclo rapido acao antiodor",
-      "nombre": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
-      "precio_ref": 19.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "adaptador usb wifi 6 bluetooth 5 3 1300mbps",
-      "nombre": "Adaptador USB WiFi 6 Bluetooth 5.3 1300Mbps Dual Band 2.4GHz 5GHz 2 Antenas Alta Velocidade Wireless para PC Notebook Desktop",
-      "precio_ref": 41.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "esponja esfrelux com formato protetor de unha",
-      "nombre": "Esponja Esfrelux com Formato Protetor de Unha",
-      "precio_ref": 2.53,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
-      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
-      "precio_ref": 42.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "controle remoto compativel samsung para smart tv teclas",
-      "nombre": "Controle Remoto Compatível Samsung para Smart TV — Teclas de Atalho para Netflix, Prime Video e + 2 - Funciona em Modelos 4K,",
-      "precio_ref": 16.13,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "downy amaciante concentrado liquido brisa intenso 3l rende",
-      "nombre": "Downy Amaciante Concentrado Líquido Brisa Intenso 3L – Rende 12L | Fabric Softener com Perfume Intenso de Rosas e Frutas Verm",
-      "precio_ref": 46.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "vonixx toalha de microfibra para secagem 50 x",
-      "nombre": "vonixx Toalha de Microfibra para Secagem 50 x 90cm 350GSM 80% Poliéster 20% Poliamida",
-      "precio_ref": 37.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
-      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
-      "precio_ref": 15.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
-      "nombre": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
-      "precio_ref": 39.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
-      "nombre": "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
-      "precio_ref": 45.36,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "personal papel higienico vip folha dupla 16 unidades",
-      "nombre": "Personal Papel Higiênico Vip Folha Dupla, 16 Unidades Branco (Embalagem Pode Variar)",
-      "precio_ref": 20.5,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
-      "nombre": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
-      "precio_ref": 21.07,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "snob papel toalha multiuso folha dupla branca hiper",
-      "nombre": "Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",
-      "precio_ref": 18.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
-      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
-      "precio_ref": 36.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 41.2,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
-      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
-      "precio_ref": 31.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
-      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
-      "precio_ref": 17.91,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
-      "precio_ref": 25.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "brilhante limpeza total lava roupas liquido 3l",
-      "nombre": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
-      "precio_ref": 23.98,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 42.49,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "boni natural creme dental com oleos naturais de",
@@ -225,15 +17,143 @@
       "precio_ref": 13.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "adaptador usb wifi wireless dual band ac1200 5ghz",
-      "nombre": "Adaptador Usb Wifi Wireless Dual Band Ac1200 5ghz e 2.4ghz 1200mbps Duas Antena",
+      "busqueda": "controle remoto compativel samsung para smart tv teclas",
+      "nombre": "Controle Remoto Compatível Samsung para Smart TV — Teclas de Atalho para Netflix, Prime Video e + 2 - Funciona em Modelos 4K,",
+      "precio_ref": 16.13,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
+      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
+      "precio_ref": 42.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi 6 bluetooth 5 3 1300mbps",
+      "nombre": "Adaptador USB WiFi 6 Bluetooth 5.3 1300Mbps Dual Band 2.4GHz 5GHz 2 Antenas Alta Velocidade Wireless para PC Notebook Desktop",
+      "precio_ref": 41.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
+      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
+      "precio_ref": 15.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 26.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "omo lava roupas liquido ultra power frasco 1",
+      "nombre": "OMO Lava-Roupas Líquido Ultra Power Frasco 1,8L",
+      "precio_ref": 29.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "vonixx toalha de microfibra para secagem 50 x",
+      "nombre": "vonixx Toalha de Microfibra para Secagem 50 x 90cm 350GSM 80% Poliéster 20% Poliamida",
+      "precio_ref": 37.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
+      "nombre": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
       "precio_ref": 39.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
+      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
+      "precio_ref": 26.7,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "ype amaciante tradicional ultra aconchego 5l embalagem pode",
+      "nombre": "Ypê Amaciante Tradicional Ultra Aconchego 5L (Embalagem pode variar)",
+      "precio_ref": 21.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "lava roupas liquido omo ciclo rapido acao antiodor",
+      "nombre": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
+      "precio_ref": 19.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "snob papel toalha multiuso folha dupla branca hiper",
+      "nombre": "Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",
+      "precio_ref": 18.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
+      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
+      "precio_ref": 15.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 41.2,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "personal papel higienico vip folha dupla 16 unidades",
+      "nombre": "Personal Papel Higiênico Vip Folha Dupla, 16 Unidades Branco (Embalagem Pode Variar)",
+      "precio_ref": 20.5,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "esponja esfrelux com formato protetor de unha",
+      "nombre": "Esponja Esfrelux com Formato Protetor de Unha",
+      "precio_ref": 2.53,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
+      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
+      "precio_ref": 36.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "omo sabao em po lavagem perfeita 2 2kg",
@@ -241,71 +161,71 @@
       "precio_ref": 34.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "switch gigabit 5 portas tenda divisor ethernet de",
-      "nombre": "Switch Gigabit 5 Portas Tenda, Divisor Ethernet de Mesa Plug & Play | Hub Switch Não Gerenciável, LED, Montagem em Parede, Si",
-      "precio_ref": 53.99,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
-      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
-      "precio_ref": 119.84,
+      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
+      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
+      "precio_ref": 31.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "omega 3 epa dha 1g 120 caps vitafor",
-      "nombre": "Ômega 3 EPA DHA 1g (120 Caps), VitaFor",
-      "precio_ref": 91.4,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
+      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
+      "precio_ref": 17.91,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "switch gigabit de mesa tp link ls1005g com",
-      "nombre": "Switch Gigabit de Mesa TP-Link LS1005G com 5 portas para cabear SmartTVs, Videogames, Desktopts, Notebooks Porta RJ45",
-      "precio_ref": 78.09,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "kit shampoo v floc cera tok final revitalizador",
-      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
-      "precio_ref": 92.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "vitafor omegafor plus 120 capsulas",
-      "nombre": "Vitafor - Omegafor Plus- 120 Cápsulas",
-      "precio_ref": 123.18,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "papel higienico neve supreme folha tripla leve 24",
-      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 24 Pague 21 20 Metros",
-      "precio_ref": 54.99,
+      "busqueda": "papel toalha scala plus multipicote 2 rolos 100",
+      "nombre": "Papel Toalha Scala Plus Multipicote, 2 Rolos | 100 Toalhas Cada Rolo, Reciclável",
+      "precio_ref": 7.09,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
-      "nombre": "Creatina Pura Dark Lab, Monohidratada 100% de Pureza, Sem Glúten, Sem Sabor (500g)",
-      "precio_ref": 48.9,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "brilhante limpeza total lava roupas liquido 3l",
+      "nombre": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
+      "precio_ref": 23.98,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 42.49,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
+      "nombre": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
+      "precio_ref": 21.07,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi wireless dual band ac1200 5ghz",
+      "nombre": "Adaptador Usb Wifi Wireless Dual Band Ac1200 5ghz e 2.4ghz 1200mbps Duas Antena",
+      "precio_ref": 39.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
+      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
+      "precio_ref": 25.79,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
@@ -313,23 +233,55 @@
       "precio_ref": 53.0,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
-      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
-      "precio_ref": 76.21,
+      "busqueda": "switch gigabit 5 portas tenda divisor ethernet de",
+      "nombre": "Switch Gigabit 5 Portas Tenda, Divisor Ethernet de Mesa Plug & Play | Hub Switch Não Gerenciável, LED, Montagem em Parede, Si",
+      "precio_ref": 53.99,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "kit shampoo v floc cera tok final revitalizador",
+      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
+      "precio_ref": 92.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
+      "nombre": "Creatina Pura Dark Lab, Monohidratada 100% de Pureza, Sem Glúten, Sem Sabor (500g)",
+      "precio_ref": 48.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "omega 3 epa dha 1g 120 caps vitafor",
+      "nombre": "Ômega 3 EPA DHA 1g (120 Caps), VitaFor",
+      "precio_ref": 91.4,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
+      "nombre": "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
+      "precio_ref": 45.36,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
-      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
-      "precio_ref": 109.9,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "papel higienico neve supreme folha tripla leve 24",
+      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 24 Pague 21 20 Metros",
+      "precio_ref": 54.99,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
@@ -337,15 +289,15 @@
       "precio_ref": 50.31,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
-      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
-      "precio_ref": 58.9,
-      "categoria": "Notebooks & PCs",
+      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
+      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
+      "precio_ref": 76.21,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
@@ -353,7 +305,31 @@
       "precio_ref": 82.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
+      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
+      "precio_ref": 58.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "switch gigabit de mesa tp link ls1005g com",
+      "nombre": "Switch Gigabit de Mesa TP-Link LS1005G com 5 portas para cabear SmartTVs, Videogames, Desktopts, Notebooks Porta RJ45",
+      "precio_ref": 78.09,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
+      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
+      "precio_ref": 109.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -361,79 +337,55 @@
       "precio_ref": 81.05,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "notebook asus vivobook 15 intel core i5 16",
-      "nombre": "Notebook ASUS Vivobook 15, Intel Core i5, 16 GB, 512 GB SSD W11 Home, 15.6'' FHD, Quiet Blue -X1504VA-NJ1745W",
-      "precio_ref": 4599.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
+      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
+      "precio_ref": 119.84,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "galaxy tab s10 256 gb tela 12 4",
-      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
-      "precio_ref": 5199.0,
+      "busqueda": "downy amaciante concentrado liquido brisa intenso 3l rende",
+      "nombre": "Downy Amaciante Concentrado Líquido Brisa Intenso 3L – Rende 12L | Fabric Softener com Perfume Intenso de Rosas e Frutas Verm",
+      "precio_ref": 46.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
+      "nombre": "XIAOMI Redmi Pad 2 8GB + 256GB Tablet com tela de 11 polegadas 2.5K 90Hz, Mediatek Helio G100 Ultra, Roxo (Carregador incluíd",
+      "precio_ref": 1549.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
-      "precio_ref": 1420.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1543.85,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "acer notebook aspire 5 amd ryzen 5 5500u",
-      "nombre": "Acer Notebook Aspire 5 AMD Ryzen 5 5500U 16GB SSD 512GB 15.6\" Full HD Linux Preto Alimentação CA Compatível c/ Mouse USB - A5",
-      "precio_ref": 3796.11,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "oral b escova de dente sensitive purification gold",
+      "nombre": "Oral-B Escova de Dente Sensitive Purification Gold Extra Macia 4 Unidades",
+      "precio_ref": 7504.0,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Preto",
-      "precio_ref": 815.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "kit lavagem completa shampoo cera tok final intense",
+      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
+      "precio_ref": 134.79,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "tab samsung galaxy s11 cinza 256gb 12gb 11",
-      "nombre": "Tab Samsung Galaxy S11 Cinza, 256GB, 12GB 11\" Camera 12MP, 5G",
-      "precio_ref": 5699.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
-      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
-      "precio_ref": 3039.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "echo dot geracao mais recente smart speaker com",
-      "nombre": "Echo Dot (Geração mais recente) | Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso",
-      "precio_ref": 649.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
-      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
-      "precio_ref": 146.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -441,15 +393,47 @@
       "precio_ref": 2599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 758.09,
+      "busqueda": "tablet xiaomi poco pad m1 wifi 8 256gb",
+      "nombre": "Tablet Xiaomi POCO Pad M1 WiFi 8+256GB, tela de 12,1\" e 120 Hz, bateria de grande capacidade de 12000 mAh, processador Snapdr",
+      "precio_ref": 1940.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "tp link switch gigabit de mesa com 8",
+      "nombre": "TP-Link Switch Gigabit De Mesa Com 8 Portas 10/100/1000 Ls1008G Smb, Preto",
+      "precio_ref": 143.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "acer aspire go 15 notebook 15 6 intel",
+      "nombre": "Acer Aspire Go 15 Notebook 15.6\" Intel Core i5 13ª Geração 16GB Windows",
+      "precio_ref": 4515.05,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "xiaomi tablet pad 7 de 11 2 polegadas",
+      "nombre": "XIAOMI Tablet Pad 7 de 11,2 polegadas, 8 GB de RAM + 256 GB de armazenamento, tela 3.2K de 144 Hz, Snapdragon 7+ de 3ª geraçã",
+      "precio_ref": 2120.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
+      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
+      "precio_ref": 3039.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
@@ -457,31 +441,47 @@
       "precio_ref": 3371.55,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
-      "nombre": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Azul",
-      "precio_ref": 999.0,
+      "busqueda": "notebook asus vivobook 15 intel core i5 16",
+      "nombre": "Notebook ASUS Vivobook 15, Intel Core i5, 16 GB, 512 GB SSD W11 Home, 15.6'' FHD, Quiet Blue -X1504VA-NJ1745W",
+      "precio_ref": 4599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "vitafor omegafor plus 240 capsulas",
+      "nombre": "Vitafor - Omegafor Plus - 240 Cápsulas",
+      "precio_ref": 231.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 899.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
+      "precio_ref": 5999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 899.9,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi + Cellular, 256 GB) - Cinzento sideral (M3)",
-      "precio_ref": 5999.98,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
-      "precio_ref": 4099.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T17:14:49+00:00"
+      "monitorizado_desde": "2026-10-24T17:21:48+00:00"
     }
   ]
 }
