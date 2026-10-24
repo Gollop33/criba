@@ -986,16 +986,6 @@
     ],
     "precio_min_publicado": 3299.0
   },
-  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
-    "ts": "2026-10-22T04:00:09.126047",
-    "canales": {
-      "whatsapp": "2026-10-22T04:00:09.126047"
-    },
-    "precio": 207.0,
-    "precios_publicados": [
-      207.0
-    ]
-  },
   "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
     "ts": "2026-10-22T04:38:52.362377",
     "canales": {
@@ -2726,6 +2716,16 @@
     "precio": 127.0,
     "precios_publicados": [
       127.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
+    "ts": "2026-10-24T04:04:06.358151",
+    "canales": {
+      "whatsapp": "2026-10-24T04:04:06.358151"
+    },
+    "precio": 115.0,
+    "precios_publicados": [
+      115.0
     ]
   }
 }
