@@ -3,7 +3,7 @@
   "codigos": {
     "OFERTAAQUI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-24T06:42:53+00:00",
+      "publicado_em": "2026-10-24T12:23:13+00:00",
       "motivo": "tanda"
     },
     "BATEDESCONTO": {
@@ -53,7 +53,7 @@
     },
     "FOIBARATO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
-      "publicado_em": "2026-10-24T06:49:53+00:00",
+      "publicado_em": "2026-10-24T12:23:13+00:00",
       "motivo": "tanda"
     },
     "VICHYNOMELI": {
@@ -238,7 +238,7 @@
     },
     "MEUVALE": {
       "detectado_em": "2026-10-02T13:01:41+00:00",
-      "publicado_em": "2026-10-24T06:49:53+00:00",
+      "publicado_em": "2026-10-24T12:23:13+00:00",
       "motivo": "tanda"
     },
     "DESCONTOAQUI": {
@@ -728,7 +728,7 @@
     },
     "PEGUEISEU": {
       "detectado_em": "2026-10-11T04:02:57+00:00",
-      "publicado_em": "2026-10-24T06:49:53+00:00",
+      "publicado_em": "2026-10-24T12:23:13+00:00",
       "motivo": "tanda"
     },
     "PROMODEHOJE": {
@@ -1050,7 +1050,22 @@
       "detectado_em": "2026-10-23T13:11:01+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "BEAUTY15": {
+      "detectado_em": "2026-10-24T12:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SPORTS15": {
+      "detectado_em": "2026-10-24T12:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DF1PDESCONTO": {
+      "detectado_em": "2026-10-24T12:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-10-24T07:46:30+00:00"
+  "actualizado": "2026-10-24T12:23:13+00:00"
 }

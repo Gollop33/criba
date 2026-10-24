@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-24T10:49:59+00:00",
-  "total": 116,
+  "actualizado": "2026-10-24T12:20:48+00:00",
+  "total": 119,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -1625,6 +1625,45 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-23T13:11:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "BEAUTY15",
+      "desconto": "15% OFF",
+      "compra_minima": "R$5",
+      "limite": "R$145",
+      "hasta": "",
+      "categoria": "Beleza",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-24T12:01:02+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "SPORTS15",
+      "desconto": "15% OFF",
+      "compra_minima": "R$20",
+      "limite": "R$100",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-24T12:01:02+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "DF1PDESCONTO",
+      "desconto": "5% OFF",
+      "compra_minima": "R$50",
+      "limite": "R$100",
+      "hasta": "2026-10-25",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-24T12:01:02+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
