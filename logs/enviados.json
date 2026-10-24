@@ -1617,14 +1617,16 @@
     ]
   },
   "amz-esponja-esfrelux-leve-4-pague-3": {
-    "ts": "2026-10-23T11:07:52.779083",
+    "ts": "2026-10-24T12:24:44.590638",
     "canales": {
-      "whatsapp": "2026-10-23T11:07:52.779083"
+      "whatsapp": "2026-10-24T12:24:44.590638"
     },
     "precio": 3.0,
     "precios_publicados": [
+      3.0,
       3.0
-    ]
+    ],
+    "precio_min_publicado": 3.0
   },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-10-23T11:15:57.954591",
