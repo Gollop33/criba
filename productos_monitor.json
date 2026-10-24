@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-24T07:00:55+00:00",
+  "actualizado": "2026-10-24T07:07:45+00:00",
   "total": 3,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-24T07:00:55+00:00"
+      "monitorizado_desde": "2026-10-24T07:07:45+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -17,7 +17,7 @@
       "precio_ref": 599.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T07:00:55+00:00"
+      "monitorizado_desde": "2026-10-24T07:07:45+00:00"
     },
     {
       "busqueda": "jbl fone de ouvido com fio quantum 100m2",
@@ -25,7 +25,7 @@
       "precio_ref": 161.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-24T07:00:55+00:00"
+      "monitorizado_desde": "2026-10-24T07:07:45+00:00"
     }
   ]
 }
