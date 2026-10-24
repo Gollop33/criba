@@ -1012,26 +1012,6 @@
     ],
     "precio_min_publicado": 3299.0
   },
-  "amz-smartphone-motorola-moto-g06128gb-12gb-4gb-ra": {
-    "ts": "2026-10-22T00:29:18.203329",
-    "canales": {
-      "whatsapp": "2026-10-22T00:29:18.203329"
-    },
-    "precio": 865.0,
-    "precios_publicados": [
-      865.0
-    ]
-  },
-  "amz-quatree-supreme-racao-para-gatos-castrados-sa": {
-    "ts": "2026-10-22T00:33:20.937470",
-    "canales": {
-      "whatsapp": "2026-10-22T00:33:20.937470"
-    },
-    "precio": 195.0,
-    "precios_publicados": [
-      195.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
     "ts": "2026-10-22T00:38:14.876076",
     "canales": {
@@ -2678,6 +2658,16 @@
     "precio": 1419.0,
     "precios_publicados": [
       1419.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-moana-processado": {
+    "ts": "2026-10-24T00:35:23.733025",
+    "canales": {
+      "whatsapp": "2026-10-24T00:35:23.733025"
+    },
+    "precio": 531.0,
+    "precios_publicados": [
+      531.0
     ]
   }
 }
