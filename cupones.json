@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-24T01:02:09+00:00",
+  "actualizado": "2026-10-24T06:14:22+00:00",
   "total": 116,
   "fuentes": [
     "ML Oficial",
@@ -1174,7 +1174,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-23T17:00:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "ESPECIALDESCONTOS",
@@ -1518,7 +1519,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-23T17:00:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MOVEIS200",
@@ -1531,7 +1533,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-23T17:00:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CLUBEDECUPONS",
@@ -1583,7 +1586,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-23T13:37:44+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "TECHPROMO",
@@ -1624,5 +1628,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-24T03:13:57-03:00"
 }
