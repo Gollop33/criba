@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-10-25T13:29:01+00:00",
-  "total": 119,
+  "actualizado": "2026-10-25T14:41:13+00:00",
+  "total": 120,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -1667,6 +1667,19 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "PROMOISDIN20",
+      "desconto": "15% OFF",
+      "compra_minima": "R$5",
+      "limite": "R$145",
+      "hasta": "2026-10-31",
+      "categoria": "Beleza",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-25T12:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }

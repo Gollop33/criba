@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-25T14:35:45+00:00",
-  "total": 29,
+  "actualizado": "2026-10-25T14:43:33+00:00",
+  "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,39 +9,223 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
-      "nombre": "Tablet Xiaomi Redmi Pad 2 Pro Tela 12.1\" WiFi 256GB 8GB RAM - Cinza Grafite (Caixa Slim)",
-      "precio_ref": 1955.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
+      "nombre": "UGREEN Adaptador Bluetooth USB para PC, dongle Bluetooth 5.3 para laptop, mouse, teclado, impressoras, fones de ouvido, alto-",
+      "precio_ref": 51.37,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
-      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
-      "precio_ref": 511.25,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "controle remoto compativel samsung para smart tv teclas",
+      "nombre": "Controle Remoto Compatível Samsung para Smart TV — Teclas de Atalho para Netflix, Prime Video e + 2 - Funciona em Modelos 4K,",
+      "precio_ref": 16.13,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
-      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 24GB RAM, Tela 120Hz, Octa-Core, Câmera 13MP + 5MP, Bateria 8000mAh, Kit c",
-      "precio_ref": 759.05,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
+      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
+      "precio_ref": 15.9,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "galaxy tab a9 5g grafite tela 11 64",
-      "nombre": "Galaxy Tab A9+ 5G, Grafite, Tela 11\", 64 GB, 4GB RAM, Câmera Frontal 5 MP Câmera Principal 8 MP",
-      "precio_ref": 210000.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
+      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
+      "precio_ref": 17.91,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 42.49,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "adaptador usb bluetooth 5 0 para pc e",
+      "nombre": "Adaptador USB Bluetooth 5.0 para PC e Notebook, Receptor sem fio, Plug play | Mais praticidade e liberdade para conectar seus",
+      "precio_ref": 13.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
+      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
+      "precio_ref": 58.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "switch gigabit ms105g mercusys de 5 portas ethernet",
+      "nombre": "Switch Gigabit MS105G Mercusys de 5 portas Ethernet RJ45 LAN 10/100/1000 Mbps, Plug & Play para conectar SmartTVs, Notebooks,",
+      "precio_ref": 57.0,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
+      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
+      "precio_ref": 28.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
+      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
+      "precio_ref": 36.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "controle usb com fio para xbox 360 computador",
+      "nombre": "Controle Usb Com Fio Para Xbox 360 Computador Notebook Preto",
+      "precio_ref": 44.47,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi 6 bluetooth 5 3 1300mbps",
+      "nombre": "Adaptador USB WiFi 6 Bluetooth 5.3 1300Mbps Dual Band 2.4GHz 5GHz 2 Antenas Alta Velocidade Wireless para PC Notebook Desktop",
+      "precio_ref": 41.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
+      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
+      "precio_ref": 119.84,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "switch gigabit de mesa tp link ls1005g com",
+      "nombre": "Switch Gigabit de Mesa TP-Link LS1005G com 5 portas para cabear SmartTVs, Videogames, Desktopts, Notebooks Porta RJ45",
+      "precio_ref": 78.09,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
+      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
+      "precio_ref": 82.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "32 in1 case estojo para nintendo switch oled",
+      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
+      "precio_ref": 89.99,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
+      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
+      "precio_ref": 109.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "mouse gamer redragon astrolabe lite preto paw3313 10000",
+      "nombre": "Mouse Gamer Redragon Astrolabe Lite Preto PAW3313 10000 DPI Sem Fio Tri-Mode USB 2.4GHz Bluetooth, USB Tipo-C Estrutura Perfu",
+      "precio_ref": 83.11,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "street fighter 6 year 1 2 fighters edition",
+      "nombre": "Street Fighter 6 - Year 1 - 2 | Fighters Edition - PlayStation 5",
+      "precio_ref": 149.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "fone bluetooth redmi buds 6 play xiaomi preto",
+      "nombre": "Fone Bluetooth Redmi Buds 6 Play Xiaomi, Preto (XM812PRE)",
+      "precio_ref": 85.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
+      "nombre": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
+      "precio_ref": 79.98,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
+      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
+      "precio_ref": 146.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tp link switch gigabit de mesa com 5",
+      "nombre": "TP-Link Switch Gigabit De Mesa Com 5 Portas 10/100/1000 Ls1005G Smb",
+      "precio_ref": 85.0,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "nintendo switch sports resort nintendo switch 2",
+      "nombre": "Nintendo Switch Sports Resort – Nintendo Switch 2",
+      "precio_ref": 379.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "apple iphone 17 de 256 gb preto",
+      "nombre": "Apple iPhone 17 de 256 GB — Preto",
+      "precio_ref": 6332.22,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "final fantasy resonance playstation 5 exclusivo amazon",
+      "nombre": "Final Fantasy Resonance - PlayStation 5 (Exclusivo Amazon)",
+      "precio_ref": 299.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "base de carregamento do dualsense playstation 5",
+      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
+      "precio_ref": 181.71,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
       "busqueda": "xiaomi tablet pad 7 de 11 2 polegadas",
@@ -49,167 +233,31 @@
       "precio_ref": 2120.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
-      "precio_ref": 2284.1,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "tp link archer t3u adaptador wi fi usb",
+      "nombre": "TP-Link Archer T3U Adaptador Wi-Fi USB 3.0 AC1300 para PC e Notebook, Dual Band, até 867 Mbps em 5 GHz, MU-MIMO e Design Mini",
+      "precio_ref": 164.69,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
-      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
-      "precio_ref": 1479.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
-      "precio_ref": 3199.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 11 8 256gb wifi",
-      "nombre": "Xiaomi Redmi Pad 2 11\" 8+256GB WiFi Grafite Cinza EU",
-      "precio_ref": 1480.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM, WiFi",
-      "precio_ref": 1489.49,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 processador octa core",
-      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
-      "precio_ref": 489.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 256 gb tela 12 4",
-      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
-      "precio_ref": 5199.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tab samsung galaxy s11 cinza 256gb 12gb 11",
-      "nombre": "Tab Samsung Galaxy S11 Cinza, 256GB, 12GB 11\" Camera 12MP, 5G",
-      "precio_ref": 5699.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
-      "precio_ref": 4099.0,
+      "busqueda": "jbl fone de ouvido bluetooth over ear tune",
+      "nombre": "JBL, Fone de Ouvido Bluetooth Over-Ear, Tune 530BT, Sem Fio, Até 76 Horas de Bateria - Preto",
+      "precio_ref": 201.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
-      "precio_ref": 1420.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "pro controller nintendo switch 2",
+      "nombre": "Pro Controller Nintendo Switch 2",
+      "precio_ref": 529.61,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
-      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
-      "precio_ref": 1649.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11, 64GB, 4GB RAM, Tela de 8.7\", Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, WiFi,",
-      "precio_ref": 1032.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab octa core 8gb ramb",
-      "nombre": "Tablet Lenovo Idea Tab Octa Core 8GB RAMB 128GB Com Capa Teclado e Caneta - ZAFR0857BR Luna Grey",
-      "precio_ref": 1994.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet xiaomi poco pad m1 wifi 8 256gb",
-      "nombre": "Tablet Xiaomi POCO Pad M1 WiFi 8+256GB, tela de 12,1\" e 120 Hz, bateria de grande capacidade de 12000 mAh, processador Snapdr",
-      "precio_ref": 1940.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
-      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
-      "precio_ref": 3039.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
-      "precio_ref": 2599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "be place kids tablet infantil android 13 128gb",
-      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
-      "precio_ref": 385.95,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
-      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
-      "precio_ref": 989.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
-      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
-      "precio_ref": 999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
-    },
-    {
-      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
-      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
-      "precio_ref": 1543.85,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
       "busqueda": "tablet positivo vision tab 7 moana processador octa",
@@ -217,23 +265,223 @@
       "precio_ref": 531.13,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
-      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
-      "precio_ref": 1949.0,
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 899.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     },
     {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 758.09,
+      "busqueda": "sony control inalambrico ps5 dualsense midnight black",
+      "nombre": "Sony Control Inalámbrico PS5 DualSense Midnight Black",
+      "precio_ref": 419.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 256GB, 8GB RAM, Câmera Tripla de até 50MP, Selfie de 12MP, Tela Super AMOLED 6.7\", NFC, Recurso",
+      "precio_ref": 2519.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-25T14:35:45+00:00"
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "volante e pedais logitech g29 driving force com",
+      "nombre": "Volante e Pedais Logitech G29 Driving Force com Force Feedback para PS5, PS4, PS3 e PC",
+      "precio_ref": 1590.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "ea sports fc 27 playstation 5",
+      "nombre": "EA Sports FC 27 - PlayStation 5",
+      "precio_ref": 364.97,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "marvel s wolverine playstation 5",
+      "nombre": "Marvel's Wolverine - PlayStation 5",
+      "precio_ref": 339.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
+      "precio_ref": 1499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 5199.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "havit headphone fone de ouvido h2002d gamer com",
+      "nombre": "Havit Headphone Fone de Ouvido H2002d, Gamer, com Microfone, Falante 53mm, Plug 3, 5mm: compatível com XBOX ONE e PS4, HAVIT,",
+      "precio_ref": 172.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
+      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
+      "precio_ref": 2284.1,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido headset havit h2015 pro black",
+      "nombre": "Fone de Ouvido Headset Havit H2015 Pro, Black | 5 Modos de Conexão, 2.4GHz, Bluetooth, Cabo USB e 3,5mm",
+      "precio_ref": 261.5,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "amazon fire tv stick hd modelo mais recente",
+      "nombre": "Amazon Fire TV Stick HD (modelo mais recente), Controle Remoto por Voz com Alexa, alimentado pela TV, com configuração simple",
+      "precio_ref": 479.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Preto",
+      "precio_ref": 815.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "galaxy tab a9 5g grafite tela 11 64",
+      "nombre": "Galaxy Tab A9+ 5G, Grafite, Tela 11\", 64 GB, 4GB RAM, Câmera Frontal 5 MP Câmera Principal 8 MP",
+      "precio_ref": 210000.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "console nintendo switch 2 modelo internacional",
+      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
+      "precio_ref": 3880.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "cambio logitech g driving force compativel com volantes",
+      "nombre": "Câmbio Logitech G Driving Force - Compatível com Volantes Logitech G29, G920 e G923 para PS5, PS4, Xbox Series X|S, Xbox One",
+      "precio_ref": 279.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi poco pad m1 wifi 8 256gb",
+      "nombre": "Tablet Xiaomi POCO Pad M1 WiFi 8+256GB, tela de 12,1\" e 120 Hz, bateria de grande capacidade de 12000 mAh, processador Snapdr",
+      "precio_ref": 1940.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "kingdom hearts collection i iii nintendo switch 2",
+      "nombre": "Kingdom Hearts: Collection [I-III] - Nintendo Switch 2 (Exclusivo Amazon)",
+      "precio_ref": 439.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 Pro Tela 12.1\" WiFi 256GB 8GB RAM - Cinza Grafite (Caixa Slim)",
+      "precio_ref": 1955.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "sony playstation 5 edicao digital 825gb 1 controle",
+      "nombre": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
+      "precio_ref": 4337.51,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
+      "precio_ref": 3199.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 7 processador octa core",
+      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
+      "precio_ref": 489.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "be place kids tablet infantil android 13 128gb",
+      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
+      "precio_ref": 385.95,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
+      "nombre": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Cinza | 128GB, 4GB, 50MP, Tela 6.7\"",
+      "precio_ref": 999.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
+      "nombre": "Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo, trocas de página rápidas, luz frontal ajustável e bateri",
+      "precio_ref": 799.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab octa core 8gb ramb",
+      "nombre": "Tablet Lenovo Idea Tab Octa Core 8GB RAMB 128GB Com Capa Teclado e Caneta - ZAFR0857BR Luna Grey",
+      "precio_ref": 1994.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm midnight black",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
+      "precio_ref": 409.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-25T14:43:33+00:00"
     }
   ]
 }
