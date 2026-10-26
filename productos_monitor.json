@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T09:07:37+00:00",
+  "actualizado": "2026-10-26T09:14:44+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,39 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "cabo carregador usb c tipo c turbo 60w",
-      "nombre": "Cabo Carregador USB-C Tipo C Turbo 60W 1 Metro Nylon Trançado | Carga Rápida, Premium Reforçado Resistente, Compatível Samsun",
-      "precio_ref": 17.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "adaptador usb bluetooth 5 0 para pc e",
-      "nombre": "Adaptador USB Bluetooth 5.0 para PC e Notebook, Receptor sem fio, Plug play | Mais praticidade e liberdade para conectar seus",
-      "precio_ref": 13.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
-      "nombre": "UGREEN Adaptador Bluetooth USB para PC, dongle Bluetooth 5.3 para laptop, mouse, teclado, impressoras, fones de ouvido, alto-",
-      "precio_ref": 50.35,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
-      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
-      "precio_ref": 15.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
@@ -49,63 +17,7 @@
       "precio_ref": 17.91,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
-      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
-      "precio_ref": 58.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "cabo carregador turbo usb c 1 metro trancado",
-      "nombre": "Cabo Carregador Turbo USB-C 1 Metro Trançado De Nylon Branco Compativel Com Iphone 14,13,12,11,X e XR",
-      "precio_ref": 22.98,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "cabo de carregador de iphone fast carga rapida",
-      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
-      "precio_ref": 7.7,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 42.49,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
-      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
-      "precio_ref": 62.11,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "suporte para notebook e macbook em aluminio com",
-      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
-      "precio_ref": 12.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "mouse pad grande 90x40 cm preto com base",
-      "nombre": "Mouse Pad Grande 90x40 cm Preto com Base Antiderrapante para Teclado e Mouse, Tapete de Mesa Extra Grande para Escritório, Ho",
-      "precio_ref": 20.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
@@ -113,7 +25,7 @@
       "precio_ref": 19.99,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "adaptador usb wifi 6 bluetooth 5 3 1300mbps",
@@ -121,7 +33,7 @@
       "precio_ref": 41.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "adaptador usb wifi wireless 3 0 dual band",
@@ -129,15 +41,47 @@
       "precio_ref": 36.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "mouse com fio multi classic box usb 1200",
-      "nombre": "Mouse com Fio Multi Classic Box USB 1200 DPI com Design Compacto e Cabo de 1,2m – Preto MO300",
-      "precio_ref": 9.89,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "cabo de carregador de iphone fast carga rapida",
+      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
+      "precio_ref": 7.7,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
+      "nombre": "UGREEN Adaptador Bluetooth USB para PC, dongle Bluetooth 5.3 para laptop, mouse, teclado, impressoras, fones de ouvido, alto-",
+      "precio_ref": 50.35,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "suporte para notebook e macbook em aluminio com",
+      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
+      "precio_ref": 12.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "cabo carregador turbo usb c 1 metro trancado",
+      "nombre": "Cabo Carregador Turbo USB-C 1 Metro Trançado De Nylon Branco Compativel Com Iphone 14,13,12,11,X e XR",
+      "precio_ref": 22.98,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "cabo carregador usb c tipo c turbo 60w",
+      "nombre": "Cabo Carregador USB-C Tipo C Turbo 60W 1 Metro Nylon Trançado | Carga Rápida, Premium Reforçado Resistente, Compatível Samsun",
+      "precio_ref": 17.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "mouse pad azul",
@@ -145,7 +89,15 @@
       "precio_ref": 5.4,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "mouse pad grande 90x40 cm preto com base",
+      "nombre": "Mouse Pad Grande 90x40 cm Preto com Base Antiderrapante para Teclado e Mouse, Tapete de Mesa Extra Grande para Escritório, Ho",
+      "precio_ref": 20.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "garrafa de tinta original epson ecotank t544 preto",
@@ -153,15 +105,55 @@
       "precio_ref": 37.73,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
-      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
-      "precio_ref": 73.62,
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 42.49,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "adaptador usb bluetooth 5 0 para pc e",
+      "nombre": "Adaptador USB Bluetooth 5.0 para PC e Notebook, Receptor sem fio, Plug play | Mais praticidade e liberdade para conectar seus",
+      "precio_ref": 13.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
+      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
+      "precio_ref": 15.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "mouse com fio multi classic box usb 1200",
+      "nombre": "Mouse com Fio Multi Classic Box USB 1200 DPI com Design Compacto e Cabo de 1,2m – Preto MO300",
+      "precio_ref": 9.89,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
+      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
+      "precio_ref": 62.11,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
+      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
+      "precio_ref": 58.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "switch gigabit de mesa tp link ls1005g com",
@@ -169,15 +161,15 @@
       "precio_ref": 78.09,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "elg suporte articulado para monitor 17 a 35",
-      "nombre": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pistão a Gás Preto | Monitores de 2 a 9kg, VESA 75x75 e 100x100mm, Altu",
-      "precio_ref": 127.0,
-      "categoria": "Monitores & Displays",
+      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
+      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
+      "precio_ref": 73.62,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "tp link switch gigabit de mesa com 5",
@@ -185,63 +177,23 @@
       "precio_ref": 85.0,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "notebook lenovo ideapad slim 3i 15 3 intel",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3i 15.3\" - Intel Core i5-13420H, 8GB RAM, 256GB SSD, Intel UHD Graphics, Windows 11",
-      "precio_ref": 3710.97,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto g06-128GB 4GB RAM + 8GB Ram Boost e Camera 50MP com AI Bateria de 5200 mAh Tela 6.9\" - Azul Marinho",
-      "precio_ref": 764.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola edge 70 5g 256gb 24gb 8gb",
-      "nombre": "Smartphone Motorola Edge 70 5G - 256GB 24GB (8GB RAM + 16GB RAM Boost), Ultrafino, 3 Câmeras 50MP, Tela 1.5K Extreme Amoled 1",
-      "precio_ref": 2564.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "monitor uhd samsung 32 4k hdmi display port",
-      "nombre": "Monitor UHD Samsung 32\", 4K, HDMI, Display Port, Freesync, Preto, Série UJ59",
-      "precio_ref": 1239.0,
+      "busqueda": "elg suporte articulado para monitor 17 a 35",
+      "nombre": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pistão a Gás Preto | Monitores de 2 a 9kg, VESA 75x75 e 100x100mm, Altu",
+      "precio_ref": 127.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
-      "nombre": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Cinza | 128GB, 4GB, 50MP, Tela 6.7\"",
-      "precio_ref": 999.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
-      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
-      "precio_ref": 689.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
-      "precio_ref": 2774.9,
+      "busqueda": "smartphone xiaomi redmi note 15 preto 8gb ram",
+      "nombre": "Smartphone Xiaomi Redmi Note 15 Preto 8GB RAM 256GB ROM (2510DRA23L) | 2510DRA23L",
+      "precio_ref": 1457.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "monitor gamer alienware 25 full hd 1920 x",
@@ -249,111 +201,7 @@
       "precio_ref": 2117.64,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung 24 fhd 100 hz hdmi",
-      "nombre": "Monitor Gamer Samsung 24\" FHD,100 Hz, HDMI, VGA,Preto, S3",
-      "precio_ref": 569.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "monitor gamer lg 20 20u401a b 75hz 2ms",
-      "nombre": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
-      "precio_ref": 337.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 intel core i5 16",
-      "nombre": "Notebook ASUS Vivobook 15, Intel Core i5, 16 GB, 512 GB SSD W11 Home, 15.6'' FHD, Quiet Blue -X1504VA-NJ1745W",
-      "precio_ref": 5266.08,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
-      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
-      "precio_ref": 1799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 dc15 c3100 a20 intel core",
-      "nombre": "Notebook Dell 15 DC15-C3100-A20, Intel Core 3 100U, Windows 11 Home | 15,6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SSD, Int",
-      "precio_ref": 3636.4,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "ssd kingston nv3 1tb m 2 2280 nvme",
-      "nombre": "SSD Kingston NV3 1TB M.2 2280 NVMe Gen4, Desempenho e Eficiência para Upgrade de PC – SNV3S/1000G",
-      "precio_ref": 988.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "combo teclado e mouse sem fio logitech mk250",
-      "nombre": "Combo Teclado e Mouse Sem Fio Logitech MK250 Bluetooth com Conectividade Rápida e Fácil, Design Compacto, Mouse Ambidestro, L",
-      "precio_ref": 137.5,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "apple iphone 16 128 gb branco",
-      "nombre": "Apple iPhone 16 (128 GB) – Branco",
-      "precio_ref": 5221.11,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
-      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
-      "precio_ref": 779.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
-      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
-      "precio_ref": 6033.01,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "epson kit de garrafas de tintas originais epson",
-      "nombre": "EPSON, Kit de garrafas de tintas originais Epson , Magenta, Amarelo, Ciano, Compacto, T544520-BR",
-      "precio_ref": 189.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "notebook intel g6500y ram 16gb ssd 512gb win11",
-      "nombre": "Notebook intel G6500Y RAM 16GB SSD 512GB Win11 Pro 15.6in",
-      "precio_ref": 2899.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "apple iphone 15 128 gb preto",
-      "nombre": "Apple iPhone 15 (128 GB) — Preto",
-      "precio_ref": 4332.22,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "apple iphone 16e de 128 gb preto",
@@ -361,87 +209,55 @@
       "precio_ref": 3665.56,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "monitor gamer samsung 27 fhd 120 hz hdmi",
-      "nombre": "Monitor Gamer Samsung 27\" FHD, 120 Hz, HDMI, Preto, S3",
-      "precio_ref": 657.46,
+      "busqueda": "smartphone motorola edge 70 5g 256gb 24gb 8gb",
+      "nombre": "Smartphone Motorola Edge 70 5G - 256GB 24GB (8GB RAM + 16GB RAM Boost), Ultrafino, 3 Câmeras 50MP, Tela 1.5K Extreme Amoled 1",
+      "precio_ref": 2564.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 24 fhd 100 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 24\" FHD,100 Hz, HDMI, VGA,Preto, S3",
+      "precio_ref": 569.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "smartphone xiaomi poco x8 pro 256gb 8gb ram",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro 256GB / 8GB Ram (Preto) | Tela AMOLED 6,59'' 120Hz, câmera 50MP e bateria 6500mAh com carga ráp",
-      "precio_ref": 2469.95,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "lg ultrawide monitor curvo 34 va 100hz 5ms",
-      "nombre": "LG UltraWide Monitor Curvo 34\" VA 100Hz 5ms (GtG) WQHD 2K (3440x1440) HDR10 PBP sRGB 99% Proporção 21:9, Preto - 34WR50QK",
-      "precio_ref": 1599.0,
+      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
+      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
+      "precio_ref": 779.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
-      "precio_ref": 1451.57,
+      "busqueda": "smartphone motorola moto g35 5g 256gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 256GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Cinza Vega",
+      "precio_ref": 1099.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "smartphone xiaomi poco x7 pro 5g nfc black",
-      "nombre": "Smartphone Xiaomi Poco X7 Pro 5G NFC Black (Preto) 12GB RAM 512GB ROM [2412DPC0AG]",
-      "precio_ref": 2379.0,
+      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
+      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Preto)",
+      "precio_ref": 1767.3,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Verde",
-      "precio_ref": 759.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
-      "nombre": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
-      "precio_ref": 1324.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
-      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 256GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ731",
-      "precio_ref": 2999.0,
+      "busqueda": "smartphone motorola moto g17 4g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G17 4G - 128GB 4GB Ram + 8GB Ram Boost - Roxo",
+      "precio_ref": 943.96,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
-      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
-      "precio_ref": 1208.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
-    },
-    {
-      "busqueda": "notebook samsung galaxy book go windows 11 home",
-      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
-      "precio_ref": 2199.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s25 fe 5g 128gb 8gb",
@@ -449,7 +265,167 @@
       "precio_ref": 3332.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3i 15 3 intel",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3i 15.3\" - Intel Core i5-13420H, 8GB RAM, 256GB SSD, Intel UHD Graphics, Windows 11",
+      "precio_ref": 3710.97,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "smartphone poco x8 pro 512gb 12gb ram branco",
+      "nombre": "Smartphone Poco X8 Pro 512GB 12GB RAM - Branco | Mediatek Dimensity 8500 Ultra",
+      "precio_ref": 2720.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
+      "precio_ref": 1799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
+      "precio_ref": 1999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
+      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
+      "precio_ref": 1208.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
+      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 256GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ731",
+      "precio_ref": 2999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
+      "precio_ref": 1451.57,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "monitor uhd samsung 32 4k hdmi display port",
+      "nombre": "Monitor UHD Samsung 32\", 4K, HDMI, Display Port, Freesync, Preto, Série UJ59",
+      "precio_ref": 1239.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 925.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 27 fhd 120 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 27\" FHD, 120 Hz, HDMI, Preto, S3",
+      "precio_ref": 657.46,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "notebook samsung galaxy book go windows 11 home",
+      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
+      "precio_ref": 2199.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "lg ultrawide monitor curvo 34 va 100hz 5ms",
+      "nombre": "LG UltraWide Monitor Curvo 34\" VA 100Hz 5ms (GtG) WQHD 2K (3440x1440) HDR10 PBP sRGB 99% Proporção 21:9, Preto - 34WR50QK",
+      "precio_ref": 1599.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5g 256GB, 8GB RAM, Câmera Tripla de até 50MP Ois, Selfie de 12MP Video Hdr, Ip68, Tela Super AMOLE",
+      "precio_ref": 2509.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 dc15 c3100 a20 intel core",
+      "nombre": "Notebook Dell 15 DC15-C3100-A20, Intel Core 3 100U, Windows 11 Home | 15,6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SSD, Int",
+      "precio_ref": 3636.4,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "ssd kingston nv3 1tb m 2 2280 nvme",
+      "nombre": "SSD Kingston NV3 1TB M.2 2280 NVMe Gen4, Desempenho e Eficiência para Upgrade de PC – SNV3S/1000G",
+      "precio_ref": 988.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "apple iphone 15 128 gb preto",
+      "nombre": "Apple iPhone 15 (128 GB) — Preto",
+      "precio_ref": 4332.22,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "monitor gamer lg 20 20u401a b 75hz 2ms",
+      "nombre": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
+      "precio_ref": 337.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "epson kit de garrafas de tintas originais epson",
+      "nombre": "EPSON, Kit de garrafas de tintas originais Epson , Magenta, Amarelo, Ciano, Compacto, T544520-BR",
+      "precio_ref": 189.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
+      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
+      "precio_ref": 3702.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
+      "nombre": "Celular Samsung Galaxy A17 5G, 128GB, 4GB, 50MP Tela 6.7\" - Cinza | 128GB, 4GB, 50MP, Tela 6.7\"",
+      "precio_ref": 999.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "notebook dell 15 15 i1300 a30p intel core",
@@ -457,7 +433,7 @@
       "precio_ref": 3999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -465,15 +441,15 @@
       "precio_ref": 753.52,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g77 5g 256gb 24gb 8gb",
-      "nombre": "Smartphone Motorola Moto G77 5g - 256GB 24GB (8GB RAM + 16GB RAM Boost) camera 108MP Ultra-Pixel, tela 1.5k extreme Amoled 12",
-      "precio_ref": 1642.55,
+      "busqueda": "notebook intel g6500y ram 16gb ssd 512gb win11",
+      "nombre": "Notebook intel G6500Y RAM 16GB SSD 512GB Win11 Pro 15.6in",
+      "precio_ref": 2899.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     },
     {
       "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
@@ -481,7 +457,31 @@
       "precio_ref": 5374.15,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T09:07:37+00:00"
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
+      "precio_ref": 599.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "acer aspire go 15 notebook 15 6 intel",
+      "nombre": "Acer Aspire Go 15 Notebook 15.6\" Intel Core i5 13ª Geração 16GB Windows",
+      "precio_ref": 4515.05,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Verde",
+      "precio_ref": 759.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T09:14:44+00:00"
     }
   ]
 }
