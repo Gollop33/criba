@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-26T05:14:46+00:00",
+  "actualizado": "2026-10-26T05:21:44+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,63 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 41.2,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "cooler fan c3tech storm f7 100bk 120mm silencioso",
-      "nombre": "Cooler Fan C3Tech Storm F7-100BK 120mm Silencioso para PC Gamer | Fluxo de ar 43,2 CFM, 25,4 dBA, rolamento FDB, 1200 RPM, co",
-      "precio_ref": 16.03,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
-      "nombre": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
-      "precio_ref": 39.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "ype amaciante tradicional ultra aconchego 5l embalagem pode",
-      "nombre": "Ypê Amaciante Tradicional Ultra Aconchego 5L (Embalagem pode variar)",
-      "precio_ref": 21.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
-      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
-      "precio_ref": 42.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 27.56,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "fralda turma da monica baby mega p 62",
-      "nombre": "Fralda Turma da Mônica Baby Mega P 62 Unidades",
-      "precio_ref": 36.62,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "tapete higienico para caes 50 unidades premium slim",
@@ -73,119 +17,23 @@
       "precio_ref": 32.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
-      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
-      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
-      "precio_ref": 33.44,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "cooler fan c3tech storm f7 100bk 120mm silencioso",
+      "nombre": "Cooler Fan C3Tech Storm F7-100BK 120mm Silencioso para PC Gamer | Fluxo de ar 43,2 CFM, 25,4 dBA, rolamento FDB, 1200 RPM, co",
+      "precio_ref": 16.03,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
-      "busqueda": "boni natural creme dental com oleos naturais de",
-      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g",
-      "precio_ref": 13.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "purina friskies carne ao molho racao umida 85g",
-      "nombre": "PURINA FRISKIES Carne ao Molho Ração Úmida 85g Pack 15un Gatos Filhotes",
-      "precio_ref": 37.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "pack nestle purina friskies racao umida para gatos",
-      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
-      "precio_ref": 34.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "snob papel toalha multiuso folha dupla branca hiper",
-      "nombre": "Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",
-      "precio_ref": 18.99,
+      "busqueda": "ype amaciante tradicional ultra aconchego 5l embalagem pode",
+      "nombre": "Ypê Amaciante Tradicional Ultra Aconchego 5L (Embalagem pode variar)",
+      "precio_ref": 21.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "lava roupas liquido omo ciclo rapido acao antiodor",
-      "nombre": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
-      "precio_ref": 19.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "absorvente noturno com abas sempre livre cobertura suave",
-      "nombre": "Absorvente Noturno com Abas Sempre Livre, Cobertura Suave, 32 Unidades | Cobertura Seca, Com Abas, Neutralizador de Odor",
-      "precio_ref": 22.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "dreamies petisco carne tentadora gatos adultos 150g",
-      "nombre": "Dreamies Petisco Carne Tentadora Gatos Adultos 150G",
-      "precio_ref": 12.55,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "pcyes pasta termica nitrogen basic 1 5g 5",
-      "nombre": "PCYES Pasta Termica Nitrogen Basic 1,5G 5,5W/Mk | PCYNB1555",
-      "precio_ref": 16.46,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "brilhante limpeza total lava roupas liquido 3l",
-      "nombre": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
-      "precio_ref": 23.98,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "algodao quadrado para bebe bellacotton 100 unidades 100",
-      "nombre": "Algodão Quadrado para Bebê Bellacotton, 100 Unidades | 100% Algodão, Macio",
-      "precio_ref": 26.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
-      "precio_ref": 25.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "papel toalha scala plus multipicote 2 rolos 100",
-      "nombre": "Papel Toalha Scala Plus Multipicote, 2 Rolos | 100 Toalhas Cada Rolo, Reciclável",
-      "precio_ref": 7.09,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
-      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
-      "precio_ref": 15.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "bionature areia higienica para gatos biodegradavel wisecat 4kg",
@@ -193,7 +41,79 @@
       "precio_ref": 38.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "pack nestle purina friskies racao umida para gatos",
+      "nombre": "Pack Nestlé Purina Friskies Ração Úmida Para Gatos Adultos Frango Ao Molho - Com 15 Sachês 85g",
+      "precio_ref": 34.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "fralda turma da monica baby mega p 62",
+      "nombre": "Fralda Turma da Mônica Baby Mega P 62 Unidades",
+      "precio_ref": 36.62,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
+      "nombre": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
+      "precio_ref": 39.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
+      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
+      "precio_ref": 33.44,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "purina friskies carne ao molho racao umida 85g",
+      "nombre": "PURINA FRISKIES Carne ao Molho Ração Úmida 85g Pack 15un Gatos Filhotes",
+      "precio_ref": 37.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
+      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
+      "precio_ref": 25.79,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "snob papel toalha multiuso folha dupla branca hiper",
+      "nombre": "Snob Papel toalha multiuso folha dupla branca hiper 360fls, 3 rolos",
+      "precio_ref": 18.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "lava roupas liquido omo ciclo rapido acao antiodor",
+      "nombre": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
+      "precio_ref": 19.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 27.56,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "omo lava roupas liquido ultra power frasco 1",
@@ -201,7 +121,71 @@
       "precio_ref": 29.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "papel toalha scala plus multipicote 2 rolos 100",
+      "nombre": "Papel Toalha Scala Plus Multipicote, 2 Rolos | 100 Toalhas Cada Rolo, Reciclável",
+      "precio_ref": 7.09,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "pcyes pasta termica nitrogen basic 1 5g 5",
+      "nombre": "PCYES Pasta Termica Nitrogen Basic 1,5G 5,5W/Mk | PCYNB1555",
+      "precio_ref": 16.46,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "brilhante limpeza total lava roupas liquido 3l",
+      "nombre": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
+      "precio_ref": 23.98,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "dreamies petisco carne tentadora gatos adultos 150g",
+      "nombre": "Dreamies Petisco Carne Tentadora Gatos Adultos 150G",
+      "precio_ref": 12.55,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "boni natural creme dental com oleos naturais de",
+      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g",
+      "precio_ref": 13.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "algodao quadrado para bebe bellacotton 100 unidades 100",
+      "nombre": "Algodão Quadrado para Bebê Bellacotton, 100 Unidades | 100% Algodão, Macio",
+      "precio_ref": 26.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
+      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
+      "precio_ref": 15.39,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "absorvente noturno com abas sempre livre cobertura suave",
+      "nombre": "Absorvente Noturno com Abas Sempre Livre, Cobertura Suave, 32 Unidades | Cobertura Seca, Com Abas, Neutralizador de Odor",
+      "precio_ref": 22.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "personal papel higienico vip folha dupla 16 unidades",
@@ -209,7 +193,7 @@
       "precio_ref": 20.5,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
@@ -217,119 +201,7 @@
       "precio_ref": 79.98,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "downy amaciante concentrado liquido brisa intenso 3l rende",
-      "nombre": "Downy Amaciante Concentrado Líquido Brisa Intenso 3L – Rende 12L | Fabric Softener com Perfume Intenso de Rosas e Frutas Verm",
-      "precio_ref": 50.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "fralda pampers premium care tamanho p 40 unidades",
-      "nombre": "Fralda Pampers Premium Care Tamanho P 40 Unidades",
-      "precio_ref": 54.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "fralda huggies supreme care roupinha xg 64 fraldas",
-      "nombre": "Fralda Huggies Supreme Care Roupinha XG - 64 fraldas",
-      "precio_ref": 104.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "ola bebe sabao liquido para roupas finas e",
-      "nombre": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
-      "precio_ref": 56.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "kingston flash drive exodia m 64b usb usb",
-      "nombre": "Kingston Flash Drive Exodia M 64B USB | USB 3.2 Geração 1 com tampa móvel e capacidade de 256 GB para laptops, monitores e PC",
-      "precio_ref": 61.45,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
-      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
-      "precio_ref": 58.81,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "tapete higienico premium para caes petlike ultrapads aroma",
-      "nombre": "Tapete Higiênico Premium para cães Petlike Ultrapads Aroma Lavanda 80cmx60cm 30 unid.",
-      "precio_ref": 49.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
-      "nombre": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
-      "precio_ref": 45.17,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "fralda pants huggies supreme care tamanho g 9",
-      "nombre": "Fralda Pants Huggies Supreme Care, Tamanho G, 9-12,5 kg, 60 Unidades, Estilo Roupinha com Cintura Acolchoada",
-      "precio_ref": 83.8,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
-      "nombre": "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
-      "precio_ref": 46.27,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "bepantol baby lenco umedecido hipoalergenico 192 unidades 192",
-      "nombre": "Bepantol Baby Lenço Umedecido Hipoalergênico, 192 Unidades | 192 unidades, Com Pró-Vitamina B5, Hipoalergênico, Dermatologica",
-      "precio_ref": 51.51,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "bepantol baby pomada assadura bebe hipoalergenica 100g 100g",
-      "nombre": "Bepantol Baby Pomada Assadura Bebe, Hipoalergênica, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente test",
-      "precio_ref": 43.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "mouse gamer redragon astrolabe lite preto paw3313 10000",
-      "nombre": "Mouse Gamer Redragon Astrolabe Lite Preto PAW3313 10000 DPI Sem Fio Tri-Mode USB 2.4GHz Bluetooth, USB Tipo-C Estrutura Perfu",
-      "precio_ref": 83.11,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
-      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
-      "precio_ref": 58.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
@@ -337,135 +209,15 @@
       "precio_ref": 74.94,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
-      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
-      "nombre": "Creatina Pura Dark Lab, Monohidratada 100% de Pureza, Sem Glúten, Sem Sabor (500g)",
-      "precio_ref": 49.89,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "fralda pampers confort sec tamanho g 92 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho G, 92 Unidades",
-      "precio_ref": 102.37,
+      "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
+      "nombre": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
+      "precio_ref": 45.17,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "hd interno 500 gb sata iii 6 gb",
-      "nombre": "HD Interno 500 GB SATA III 6 Gb/s 7200 RPM 3,5″ Compatível com Desktop, PC Gamer, DVR/CFTV Armazenamento de Fotos/Vídeos/Back",
-      "precio_ref": 106.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "scalibor 19g coleira antiparasitaria contra mosquitos vetores da",
-      "nombre": "Scalibor® 19g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte médio 48cm - MSD Saúde Animal",
-      "precio_ref": 48.14,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "papel higienico neve supreme folha tripla leve 24",
-      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 24 Pague 21 20 Metros",
-      "precio_ref": 54.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "tapete higienico descartavel para caes blue premium 30",
-      "nombre": "Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades",
-      "precio_ref": 64.8,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 107.2,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "lencos umedecidos huggies recem nascido sem fragrancia 6x48u",
-      "nombre": "Lenços Umedecidos Huggies Recém-Nascido Sem Fragrância 6x48U",
-      "precio_ref": 55.49,
-      "categoria": "Perfumes & Fragrâncias",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "controle usb com fio para xbox 360 computador",
-      "nombre": "Controle Usb Com Fio Para Xbox 360 Computador Notebook Preto",
-      "precio_ref": 44.47,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
-      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
-      "precio_ref": 54.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "whiskas racao carne gatos adultos 2 7 kg",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos 2,7 kg",
-      "precio_ref": 49.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
-      "nombre": "Tapete Higiênico para Cães Good Pad 60cmx60cm 50 Unidades",
-      "precio_ref": 51.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "omega 3 epa dha 1g 120 caps vitafor",
-      "nombre": "Ômega 3 EPA DHA 1g (120 Caps), VitaFor",
-      "precio_ref": 91.47,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
-      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
-      "precio_ref": 59.49,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "32 in1 case estojo para nintendo switch oled",
-      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
-      "precio_ref": 89.99,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
-    },
-    {
-      "busqueda": "pack racao umida pedigree sache carne ao molho",
-      "nombre": "Pack Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas - Leve 18 Pague 15",
-      "precio_ref": 48.65,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
@@ -473,7 +225,199 @@
       "precio_ref": 50.87,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
+      "nombre": "Viva Verde Areia Higiênica Biodegradável para Gatos Grãos Finos 4kg",
+      "precio_ref": 59.49,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "kingston flash drive exodia m 64b usb usb",
+      "nombre": "Kingston Flash Drive Exodia M 64B USB | USB 3.2 Geração 1 com tampa móvel e capacidade de 256 GB para laptops, monitores e PC",
+      "precio_ref": 61.45,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
+      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
+      "precio_ref": 58.81,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "fralda pants huggies supreme care tamanho g 9",
+      "nombre": "Fralda Pants Huggies Supreme Care, Tamanho G, 9-12,5 kg, 60 Unidades, Estilo Roupinha com Cintura Acolchoada",
+      "precio_ref": 83.8,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "lencos umedecidos huggies recem nascido sem fragrancia 6x48u",
+      "nombre": "Lenços Umedecidos Huggies Recém-Nascido Sem Fragrância 6x48U",
+      "precio_ref": 55.49,
+      "categoria": "Perfumes & Fragrâncias",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 41.2,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
+      "nombre": "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
+      "precio_ref": 46.27,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "bepantol baby pomada assadura bebe hipoalergenica 100g 100g",
+      "nombre": "Bepantol Baby Pomada Assadura Bebe, Hipoalergênica, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente test",
+      "precio_ref": 43.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "fralda pampers premium care tamanho p 40 unidades",
+      "nombre": "Fralda Pampers Premium Care Tamanho P 40 Unidades",
+      "precio_ref": 54.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "tapete higienico premium para caes petlike ultrapads aroma",
+      "nombre": "Tapete Higiênico Premium para cães Petlike Ultrapads Aroma Lavanda 80cmx60cm 30 unid.",
+      "precio_ref": 49.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "mouse gamer redragon astrolabe lite preto paw3313 10000",
+      "nombre": "Mouse Gamer Redragon Astrolabe Lite Preto PAW3313 10000 DPI Sem Fio Tri-Mode USB 2.4GHz Bluetooth, USB Tipo-C Estrutura Perfu",
+      "precio_ref": 83.11,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho g 92 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G, 92 Unidades",
+      "precio_ref": 102.37,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "32 in1 case estojo para nintendo switch oled",
+      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
+      "precio_ref": 89.99,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "papel higienico neve supreme folha tripla leve 24",
+      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 24 Pague 21 20 Metros",
+      "precio_ref": 54.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "bepantol baby lenco umedecido hipoalergenico 192 unidades 192",
+      "nombre": "Bepantol Baby Lenço Umedecido Hipoalergênico, 192 Unidades | 192 unidades, Com Pró-Vitamina B5, Hipoalergênico, Dermatologica",
+      "precio_ref": 51.51,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "hd interno 500 gb sata iii 6 gb",
+      "nombre": "HD Interno 500 GB SATA III 6 Gb/s 7200 RPM 3,5″ Compatível com Desktop, PC Gamer, DVR/CFTV Armazenamento de Fotos/Vídeos/Back",
+      "precio_ref": 106.0,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "scalibor 19g coleira antiparasitaria contra mosquitos vetores da",
+      "nombre": "Scalibor® 19g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte médio 48cm - MSD Saúde Animal",
+      "precio_ref": 48.14,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
+      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
+      "precio_ref": 54.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "chalesco tapete higienico premium para caes 90 x",
+      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
+      "precio_ref": 107.2,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
+      "nombre": "Creatina Pura Dark Lab, Monohidratada 100% de Pureza, Sem Glúten, Sem Sabor (500g)",
+      "precio_ref": 49.89,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "ola bebe sabao liquido para roupas finas e",
+      "nombre": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
+      "precio_ref": 56.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "tapete higienico descartavel para caes blue premium 30",
+      "nombre": "Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades",
+      "precio_ref": 64.8,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "controle usb com fio para xbox 360 computador",
+      "nombre": "Controle Usb Com Fio Para Xbox 360 Computador Notebook Preto",
+      "precio_ref": 44.47,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
+      "nombre": "Max Titanium Creatina Pote Monohidratada (300g) 100% Pura | Creatina Pote com 300g da Max Titanium é a escolha ideal para que",
+      "precio_ref": 42.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     },
     {
       "busqueda": "pack racao umida whiskas sache carne ao molho",
@@ -481,7 +425,63 @@
       "precio_ref": 51.8,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-26T05:14:46+00:00"
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "nexgard antipulgas e carrapatos para caes de 4",
+      "nombre": "NexGard Antipulgas e Carrapatos para Cães de 4,1 a 10kg, 1 tablete | Antipulgas",
+      "precio_ref": 58.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "tapete higienico para caes good pad 60cmx60cm 50",
+      "nombre": "Tapete Higiênico para Cães Good Pad 60cmx60cm 50 Unidades",
+      "precio_ref": 51.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "fralda huggies supreme care roupinha xg 64 fraldas",
+      "nombre": "Fralda Huggies Supreme Care Roupinha XG - 64 fraldas",
+      "precio_ref": 104.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "downy amaciante concentrado liquido brisa intenso 3l rende",
+      "nombre": "Downy Amaciante Concentrado Líquido Brisa Intenso 3L – Rende 12L | Fabric Softener com Perfume Intenso de Rosas e Frutas Verm",
+      "precio_ref": 50.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "pack racao umida pedigree sache carne ao molho",
+      "nombre": "Pack Ração Úmida Pedigree Sachê Carne ao Molho para Cães Adultos de Raças Pequenas - Leve 18 Pague 15",
+      "precio_ref": 48.65,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "omega 3 epa dha 1g 120 caps vitafor",
+      "nombre": "Ômega 3 EPA DHA 1g (120 Caps), VitaFor",
+      "precio_ref": 91.47,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
+    },
+    {
+      "busqueda": "whiskas racao carne gatos adultos 2 7 kg",
+      "nombre": "WHISKAS Ração Carne Gatos Adultos 2,7 kg",
+      "precio_ref": 49.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-26T05:21:44+00:00"
     }
   ]
 }
