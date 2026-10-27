@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-27T13:45:35+00:00",
-  "total": 128,
+  "actualizado": "2026-10-27T16:09:59+00:00",
+  "total": 129,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -1783,6 +1783,19 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-27T13:00:25+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MELHORPROMO",
+      "desconto": "R$250 OFF",
+      "compra_minima": "R$1.699",
+      "limite": "",
+      "hasta": "2026-69-01",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-27T16:04:32+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
