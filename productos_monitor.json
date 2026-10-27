@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-27T17:56:49+00:00",
+  "actualizado": "2026-10-27T18:01:03+00:00",
   "total": 58,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "adaptador bluetooth usb 5 0 para pc e",
@@ -17,7 +17,7 @@
       "precio_ref": 15.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "adaptador usb bluetooth 5 0 para pc e",
@@ -25,7 +25,7 @@
       "precio_ref": 15.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
@@ -33,23 +33,7 @@
       "precio_ref": 17.91,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "switch gigabit de mesa tp link ls1005g com",
-      "nombre": "Switch Gigabit de Mesa TP-Link LS1005G com 5 portas para cabear SmartTVs, Videogames, Desktopts, Notebooks Porta RJ45",
-      "precio_ref": 78.0,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "mouse gamer redragon cobra v3 preto rgb pmw3327",
-      "nombre": "Mouse Gamer Redragon Cobra V3 Preto RGB PMW3327 10000DPI M711 V3",
-      "precio_ref": 94.11,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "philips fone de ouvido com microfone taue101bk 00",
@@ -57,55 +41,7 @@
       "precio_ref": 28.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "32 in1 case estojo para nintendo switch oled",
-      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
-      "precio_ref": 89.99,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
-      "nombre": "UGREEN Adaptador Bluetooth USB para PC, dongle Bluetooth 5.3 para laptop, mouse, teclado, impressoras, fones de ouvido, alto-",
-      "precio_ref": 50.85,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 42.49,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "controle remoto compativel samsung para smart tv teclas",
-      "nombre": "Controle Remoto Compatível Samsung para Smart TV — Teclas de Atalho para Netflix, Prime Video e + 2 - Funciona em Modelos 4K,",
-      "precio_ref": 21.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
-      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
-      "precio_ref": 58.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
-    },
-    {
-      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
-      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
-      "precio_ref": 82.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "mouse gamer redragon astrolabe lite preto paw3313 10000",
@@ -113,7 +49,63 @@
       "precio_ref": 83.11,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
+      "nombre": "UGREEN Adaptador Bluetooth USB para PC, dongle Bluetooth 5.3 para laptop, mouse, teclado, impressoras, fones de ouvido, alto-",
+      "precio_ref": 50.85,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "switch gigabit de mesa tp link ls1005g com",
+      "nombre": "Switch Gigabit de Mesa TP-Link LS1005G com 5 portas para cabear SmartTVs, Videogames, Desktopts, Notebooks Porta RJ45",
+      "precio_ref": 78.0,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "controle remoto compativel samsung para smart tv teclas",
+      "nombre": "Controle Remoto Compatível Samsung para Smart TV — Teclas de Atalho para Netflix, Prime Video e + 2 - Funciona em Modelos 4K,",
+      "precio_ref": 21.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
+      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
+      "precio_ref": 58.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 42.49,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
+      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
+      "precio_ref": 82.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "32 in1 case estojo para nintendo switch oled",
+      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
+      "precio_ref": 89.99,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
@@ -121,7 +113,7 @@
       "precio_ref": 79.98,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "tp link switch gigabit de mesa com 5",
@@ -129,7 +121,7 @@
       "precio_ref": 85.0,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "adaptador usb wifi wireless 3 0 dual band",
@@ -137,7 +129,7 @@
       "precio_ref": 36.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "controle usb com fio para xbox 360 computador",
@@ -145,7 +137,7 @@
       "precio_ref": 44.47,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "grand theft auto vi playstation 5",
@@ -153,7 +145,7 @@
       "precio_ref": 449.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "ea sports fc 27 playstation 5",
@@ -161,7 +153,7 @@
       "precio_ref": 339.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "playstation5 slim disk pacote astro bot e gran",
@@ -169,7 +161,7 @@
       "precio_ref": 4999.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "apple iphone 17 de 256 gb preto",
@@ -177,7 +169,7 @@
       "precio_ref": 5979.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "the legend of zelda ocarina of time nintendo",
@@ -185,7 +177,7 @@
       "precio_ref": 439.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
@@ -193,7 +185,7 @@
       "precio_ref": 2665.56,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "controle sem fio dualsense edicao limitada gran turismo",
@@ -201,7 +193,7 @@
       "precio_ref": 599.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
@@ -209,7 +201,7 @@
       "precio_ref": 940.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "cambio logitech g driving force compativel com volantes",
@@ -217,7 +209,7 @@
       "precio_ref": 340.54,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
@@ -225,7 +217,7 @@
       "precio_ref": 764.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "marvel s wolverine playstation 5",
@@ -233,7 +225,7 @@
       "precio_ref": 339.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "controle sem fio playstation dualsensetm midnight black",
@@ -241,7 +233,7 @@
       "precio_ref": 409.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
@@ -249,7 +241,7 @@
       "precio_ref": 785.11,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -257,15 +249,15 @@
       "precio_ref": 4499.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
-      "busqueda": "controle dualsense playstation 5",
-      "nombre": "Controle DualSense - PlayStation 5",
-      "precio_ref": 424.0,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "mouse gamer redragon cobra v3 preto rgb pmw3327",
+      "nombre": "Mouse Gamer Redragon Cobra V3 Preto RGB PMW3327 10000DPI M711 V3",
+      "precio_ref": 94.11,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "base de carregamento do dualsense playstation 5",
@@ -273,7 +265,7 @@
       "precio_ref": 181.71,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "console nintendo switch 2 modelo nacional de tomada",
@@ -281,7 +273,7 @@
       "precio_ref": 3963.99,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "echo dot geracao mais recente smart speaker com",
@@ -289,7 +281,7 @@
       "precio_ref": 649.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "tp link archer t3u adaptador wi fi usb",
@@ -297,7 +289,7 @@
       "precio_ref": 164.69,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "controle sem fio dualsense midnight black",
@@ -305,7 +297,7 @@
       "precio_ref": 426.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "final fantasy resonance nintendo switch 2 exclusivo amazon",
@@ -313,7 +305,7 @@
       "precio_ref": 299.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "jbl fone de ouvido bluetooth over ear tune",
@@ -321,7 +313,7 @@
       "precio_ref": 194.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
@@ -329,7 +321,7 @@
       "precio_ref": 259.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 5g 128gb 4gb 50mp",
@@ -337,7 +329,7 @@
       "precio_ref": 999.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "street fighter 6 year 1 2 fighters edition",
@@ -345,7 +337,7 @@
       "precio_ref": 149.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "smart tv 32 philco roku tv dolby audio",
@@ -353,7 +345,7 @@
       "precio_ref": 894.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "fone de ouvido headset havit h2015 pro black",
@@ -361,7 +353,7 @@
       "precio_ref": 262.73,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
@@ -369,7 +361,7 @@
       "precio_ref": 162.87,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -377,7 +369,7 @@
       "precio_ref": 887.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "8bitdo ultimate 2c wired controller for windows pc",
@@ -385,15 +377,15 @@
       "precio_ref": 157.88,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
-      "busqueda": "bundle nintendo switch oled super mario bros wonder",
-      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
-      "precio_ref": 2047.0,
+      "busqueda": "controle dualsense playstation 5",
+      "nombre": "Controle DualSense - PlayStation 5",
+      "precio_ref": 424.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "havit headphone fone de ouvido h2002d gamer com",
@@ -401,7 +393,7 @@
       "precio_ref": 161.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
@@ -409,7 +401,7 @@
       "precio_ref": 146.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
@@ -417,7 +409,7 @@
       "precio_ref": 899.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "sony control inalambrico ps5 dualsense midnight black",
@@ -425,7 +417,7 @@
       "precio_ref": 419.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "amazon fire tv stick hd modelo mais recente",
@@ -433,7 +425,7 @@
       "precio_ref": 479.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "sony playstation 5 edicao digital 825gb 1 controle",
@@ -441,7 +433,7 @@
       "precio_ref": 4237.41,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
@@ -449,7 +441,7 @@
       "precio_ref": 115.67,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -457,7 +449,7 @@
       "precio_ref": 208.2,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     },
     {
       "busqueda": "nintendo switch sports resort nintendo switch 2",
@@ -465,7 +457,15 @@
       "precio_ref": 379.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-27T17:56:49+00:00"
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
+      "precio_ref": 2047.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-27T18:01:03+00:00"
     }
   ]
 }
