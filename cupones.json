@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-27T16:09:59+00:00",
-  "total": 129,
+  "actualizado": "2026-10-27T19:04:45+00:00",
+  "total": 130,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -1796,6 +1796,19 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-27T16:04:32+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFERTADEHOJE",
+      "desconto": "R$300 OFF",
+      "compra_minima": "R$1.999",
+      "limite": "",
+      "hasta": "2026-99-01",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-10-27T19:00:12+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
