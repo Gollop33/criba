@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-28T23:28:36+00:00",
+  "actualizado": "2026-10-28T23:35:36+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "adaptador bluetooth usb 5 0 para pc e",
@@ -17,39 +17,7 @@
       "precio_ref": 15.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 39.95,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "lava roupas liquido omo ciclo rapido acao antiodor",
-      "nombre": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
-      "precio_ref": 19.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
-      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
-      "precio_ref": 36.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
-      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
-      "precio_ref": 15.39,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "protetor diario carefree com fragrancia 80 unidades almofada",
@@ -57,39 +25,31 @@
       "precio_ref": 18.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
-      "busqueda": "boni natural creme dental com oleos naturais de",
-      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g",
-      "precio_ref": 13.99,
+      "busqueda": "lava roupas liquido omo ciclo rapido acao antiodor",
+      "nombre": "Lava-Roupas Líquido Omo Ciclo Rápido Ação Antiodor Frasco 1,4l",
+      "precio_ref": 19.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "adaptador usb wifi wireless 3 0 dual band",
+      "nombre": "Adaptador Usb Wifi Wireless, 3.0 Dual Band 1300Mbps Adaptador, Wireless Portátil 2.4GHz e 5GHz, Duas Antena, Qualidade Premiu",
+      "precio_ref": 36.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
+      "nombre": "NIVEA Sabonete Líquido Íntimo Suave 250ml, Limpeza Delicada, Mantém pH Natural, Extrato de Camomila, Cuidado Calmante, Uso Di",
+      "precio_ref": 15.39,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "cif limpador especialista derrete gordura 500 ml",
-      "nombre": "Cif Limpador Especialista Derrete Gordura 500 Ml",
-      "precio_ref": 15.74,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
-      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
-      "precio_ref": 17.91,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "esponja esfrelux com formato protetor de unha",
-      "nombre": "Esponja Esfrelux com Formato Protetor de Unha",
-      "precio_ref": 2.53,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
@@ -97,7 +57,31 @@
       "precio_ref": 25.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "esponja esfrelux com formato protetor de unha",
+      "nombre": "Esponja Esfrelux com Formato Protetor de Unha",
+      "precio_ref": 2.53,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "cif limpador especialista derrete gordura 500 ml",
+      "nombre": "Cif Limpador Especialista Derrete Gordura 500 Ml",
+      "precio_ref": 15.74,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
+      "nombre": "Adaptador Bluetooth para PC, receptor de dongle Bluetooth 5.0 para transferência sem fio para laptop, suporta Windows 10/8.1/",
+      "precio_ref": 17.91,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "colgate slim soft black escova de dente macia",
@@ -105,23 +89,15 @@
       "precio_ref": 29.01,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
-      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
-      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
-      "precio_ref": 82.9,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "boni natural creme dental com oleos naturais de",
+      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g",
+      "precio_ref": 13.99,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "switch gigabit ms105g mercusys de 5 portas ethernet",
-      "nombre": "Switch Gigabit MS105G Mercusys de 5 portas Ethernet RJ45 LAN 10/100/1000 Mbps, Plug & Play para conectar SmartTVs, Notebooks,",
-      "precio_ref": 57.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "max titanium creatina pote monohidratada 300g 100 pura",
@@ -129,63 +105,15 @@
       "precio_ref": 42.0,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
-      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
-      "nombre": "Creatina Pura, Dark Lab, Monohidratada, 100% de Pureza, Refil - 500g | A mais vendida da América Latina (Euromonitor). certif",
-      "precio_ref": 44.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
-      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
-      "precio_ref": 42.49,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
-      "nombre": "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
-      "precio_ref": 90.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
-      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
-      "precio_ref": 115.67,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
-      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
-      "precio_ref": 52.0,
+      "busqueda": "switch gigabit ms105g mercusys de 5 portas ethernet",
+      "nombre": "Switch Gigabit MS105G Mercusys de 5 portas Ethernet RJ45 LAN 10/100/1000 Mbps, Plug & Play para conectar SmartTVs, Notebooks,",
+      "precio_ref": 57.0,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
-      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
-      "precio_ref": 55.57,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "switch gigabit 5 portas tenda divisor ethernet de",
-      "nombre": "Switch Gigabit 5 Portas Tenda, Divisor Ethernet de Mesa Plug & Play | Hub Switch Não Gerenciável, LED, Montagem em Parede, Si",
-      "precio_ref": 53.99,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "papel higienico neve supreme folha tripla leve 24",
@@ -193,15 +121,79 @@
       "precio_ref": 54.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
-      "busqueda": "panela de pressao tramontina vancouver effect em aluminio",
-      "nombre": "Panela de Pressão Tramontina Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
-      "precio_ref": 182.7,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 39.95,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 42.49,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
+      "nombre": "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
+      "precio_ref": 90.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
+      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
+      "precio_ref": 82.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "tp link ub500 adaptador bluetooth para pc e",
+      "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
+      "precio_ref": 52.0,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
+      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
+      "precio_ref": 55.57,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "switch gigabit 5 portas tenda divisor ethernet de",
+      "nombre": "Switch Gigabit 5 Portas Tenda, Divisor Ethernet de Mesa Plug & Play | Hub Switch Não Gerenciável, LED, Montagem em Parede, Si",
+      "precio_ref": 53.99,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
+      "nombre": "Creatina Pura, Dark Lab, Monohidratada, 100% de Pureza, Refil - 500g | A mais vendida da América Latina (Euromonitor). certif",
+      "precio_ref": 44.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "monitor portatil 15 6 full hd 1080p ips",
+      "nombre": "Monitor Portátil 15.6” Full HD 1080P IPS 60Hz, USB-C e Mini HDMI, Tela Extensora com Capa Suporte e Alto-falantes para Notebo",
+      "precio_ref": 369.99,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "wap aspirador de po e agua barril gtw",
@@ -209,7 +201,7 @@
       "precio_ref": 313.81,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "tablet positivo vision tab 7 processador octa core",
@@ -217,7 +209,7 @@
       "precio_ref": 499.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "tab samsung galaxy s11 cinza 256gb 12gb 11",
@@ -225,7 +217,7 @@
       "precio_ref": 5599.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
@@ -233,7 +225,7 @@
       "precio_ref": 759.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
@@ -241,7 +233,7 @@
       "precio_ref": 599.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "monitor gamer aoc 24 full hd 100hz 1ms",
@@ -249,7 +241,7 @@
       "precio_ref": 502.55,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "monitor brx 20 led 75hz hdmi vga preto",
@@ -257,7 +249,7 @@
       "precio_ref": 196.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -265,39 +257,7 @@
       "precio_ref": 209.9,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "controle sem fio dualsense midnight black",
-      "nombre": "Controle sem fio DualSense Midnight Black",
-      "precio_ref": 419.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "monitor led 20 hq widescreen vga hdmi vesa",
-      "nombre": "MONITOR LED 20\" HQ WIDESCREEN VGA HDMI VESA C/AJUSTE DE INCLINAÇÃO",
-      "precio_ref": 199.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 256 gb tela 12 4",
-      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
-      "precio_ref": 4799.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 798.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "bundle nintendo switch oled super mario bros wonder",
@@ -305,7 +265,39 @@
       "precio_ref": 1999.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "monitor led 20 hq widescreen vga hdmi vesa",
+      "nombre": "MONITOR LED 20\" HQ WIDESCREEN VGA HDMI VESA C/AJUSTE DE INCLINAÇÃO",
+      "precio_ref": 199.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4799.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 798.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "controle sem fio dualsense edicao limitada gran turismo",
+      "nombre": "Controle sem fio DualSense® – Edição Limitada Gran Turismo",
+      "precio_ref": 599.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "apple 2025 ipad air de 13 polegadas wi",
@@ -313,79 +305,7 @@
       "precio_ref": 9999.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "final fantasy resonance nintendo switch 2 exclusivo amazon",
-      "nombre": "Final Fantasy Resonance - Nintendo Switch 2 (Exclusivo Amazon)",
-      "precio_ref": 299.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
-      "nombre": "soundcore P20i da Anker, Fone de Ouvido Bluetooth 5.3 Sem Fio, 2 Mics IA | Bass UP, Graves Potentes, Drivers de 10mm, 30H, Re",
-      "precio_ref": 129.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
-      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
-      "precio_ref": 1186.92,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
-      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
-      "precio_ref": 511.25,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
-      "precio_ref": 598.97,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "tablet xiaomi pad 7 28 4 cm 11",
-      "nombre": "Tablet Xiaomi Pad 7, 28,4 cm (11,2 polegadas), 8 + 256 GB, tela 3.2K 144Hz, processador Snapdragon 7+ Gen 3, bateria de 8850",
-      "precio_ref": 2229.95,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
-      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
-      "precio_ref": 619.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
-      "nombre": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 110V | Até 90% Menos Óleo – tecnologia RapidAir, 12 modos de pr",
-      "precio_ref": 312.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
-    },
-    {
-      "busqueda": "roteador wi fi 6 dual band w6 1500",
-      "nombre": "Roteador Wi-Fi 6 Dual band W6-1500 Intelbras",
-      "precio_ref": 197.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -393,7 +313,79 @@
       "precio_ref": 4299.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "smart tv 32 philco roku tv dolby audio",
+      "nombre": "Smart TV 32\" Philco Roku TV Dolby Áudio HDR10 P32CRB | Dolby Áudio, HDR10",
+      "precio_ref": 894.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
+      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
+      "precio_ref": 1186.92,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
+      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
+      "precio_ref": 511.25,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
+      "precio_ref": 598.97,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi pad 7 28 4 cm 11",
+      "nombre": "Tablet Xiaomi Pad 7, 28,4 cm (11,2 polegadas), 8 + 256 GB, tela 3.2K 144Hz, processador Snapdragon 7+ Gen 3, bateria de 8850",
+      "precio_ref": 2229.95,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
+      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
+      "precio_ref": 619.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
+      "nombre": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 110V | Até 90% Menos Óleo – tecnologia RapidAir, 12 modos de pr",
+      "precio_ref": 312.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "roteador wi fi 6 dual band w6 1500",
+      "nombre": "Roteador Wi-Fi 6 Dual band W6-1500 Intelbras",
+      "precio_ref": 197.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "smart tv tcl 65 polegadas qd mini led",
+      "nombre": "Smart TV TCL 65 Polegadas QD-Mini LED 4K C6K WiFi Bluetooth Google TV 4 HDMI 144Hz HDR10+ 65C6K",
+      "precio_ref": 4009.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 11 90hz octa core",
@@ -401,7 +393,7 @@
       "precio_ref": 1649.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
@@ -409,7 +401,7 @@
       "precio_ref": 1287.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "apple iphone 17 de 256 gb preto",
@@ -417,7 +409,7 @@
       "precio_ref": 5979.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -425,7 +417,7 @@
       "precio_ref": 797.95,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "bundle marvel s spider man 2 miles morales",
@@ -433,7 +425,7 @@
       "precio_ref": 259.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
@@ -441,15 +433,15 @@
       "precio_ref": 1999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
-      "busqueda": "hepta world ventilador de coluna resfriamento silencioso design",
-      "nombre": "HEPTA WORLD Ventilador de Coluna, Resfriamento, Silencioso, Design Slim para Casa Escritório (PRETO, 220V, 101)",
-      "precio_ref": 9999.0,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "gamesir nova lite controle bluetooth e sem fio",
+      "nombre": "GameSir Nova Lite Controle Bluetooth e Sem Fio 2.4G para PC Windows, Celular Android iPhone, Nintendo Switch e Steam Deck, Ga",
+      "precio_ref": 160.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -457,7 +449,7 @@
       "precio_ref": 887.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -465,7 +457,7 @@
       "precio_ref": 269900.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "tp link archer t3u adaptador wi fi usb",
@@ -473,7 +465,7 @@
       "precio_ref": 164.69,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     },
     {
       "busqueda": "monitor lg fhd home office 22u403a b 22",
@@ -481,7 +473,15 @@
       "precio_ref": 419.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T23:28:36+00:00"
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto g06-128GB 4GB RAM + 8GB Ram Boost e Camera 50MP com AI Bateria de 5200 mAh Tela 6.9\" - Azul Marinho",
+      "precio_ref": 887.78,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T23:35:36+00:00"
     }
   ]
 }
