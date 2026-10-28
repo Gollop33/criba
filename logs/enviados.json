@@ -50,14 +50,16 @@
     ]
   },
   "amz-pneu-pretinho-15l": {
-    "ts": "2026-10-27T19:26:32.743974",
+    "ts": "2026-10-28T19:26:41.265837",
     "canales": {
-      "whatsapp": "2026-10-27T19:26:32.743974"
+      "whatsapp": "2026-10-28T19:26:41.265837"
     },
     "precio": 19.0,
     "precios_publicados": [
+      19.0,
       19.0
-    ]
+    ],
+    "precio_min_publicado": 19.0
   },
   "amz-ype-detergente-clear-5l-detergente-liquido": {
     "ts": "2026-10-27T19:33:33.100245",
