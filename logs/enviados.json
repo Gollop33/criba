@@ -232,14 +232,16 @@
     "precio_min_publicado": 23.0
   },
   "amz-lampada-osram-standard-7528-p215-original": {
-    "ts": "2026-10-27T20:53:40.534964",
+    "ts": "2026-10-28T20:53:44.275052",
     "canales": {
-      "whatsapp": "2026-10-27T20:53:40.534964"
+      "whatsapp": "2026-10-28T20:53:44.275052"
     },
     "precio": 10.0,
     "precios_publicados": [
+      10.0,
       10.0
-    ]
+    ],
+    "precio_min_publicado": 10.0
   },
   "amz-finish-detergente-para-lava-loucas-em-po-700g": {
     "ts": "2026-10-27T21:00:22.804605",
