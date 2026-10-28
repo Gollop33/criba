@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-28T02:42:47+00:00",
+  "actualizado": "2026-10-28T02:49:51+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,335 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet tcl a1 plus 128gb 16gb ram 6gb",
-      "nombre": "Tablet TCL A1 Plus 128GB, 16GB RAM (6GB + 10GB), Tela 12.2\" 2.4K 120Hz, Bateria 8000mAh, Android 16, Snapdragon - Com Capa Te",
-      "precio_ref": 1574.33,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a17 5g 256gb 8gb 50mp",
-      "nombre": "Celular Samsung Galaxy A17 5G, 256GB, 8GB, 50MP Tela 6.7\" - Cinza",
-      "precio_ref": 1499.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "iphone 16e apple 128gb camera 48mp tela super",
-      "nombre": "iPhone 16e Apple 128GB, Câmera 48MP, Tela Super Retina XDR 6,1\", Branco",
-      "precio_ref": 3554.44,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
-      "precio_ref": 5999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tab samsung galaxy s11 cinza 256gb 12gb 11",
-      "nombre": "Tab Samsung Galaxy S11 Cinza, 256GB, 12GB 11\" Camera 12MP, 5G",
-      "precio_ref": 5236.55,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
-      "nombre": "PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (Turbo 4.6GHz) 36MB Cache AM4 100-100000926WOF, Cerâmica Cinza",
-      "precio_ref": 1176.46,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "placa de video msi rtx 5060 shadow 2x",
-      "nombre": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037 | 8GB GDDR7 (28Gbps/128-bit), PCIe 5.0 - HDMI 2.1b, 3 x Dis",
-      "precio_ref": 3049.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
-      "precio_ref": 1441.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
-      "precio_ref": 2238.42,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet infantil patrulha canina skye com controle parental",
-      "nombre": "Tablet Infantil Patrulha Canina Skye com Controle Parental 4GB RAM + 64GB + Tela 7 pol + Case + Wi-fi + Android 13 + Quad Cor",
-      "precio_ref": 599.89,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
-      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
-      "precio_ref": 3702.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook hp 256r g9 intel core i5 13o",
-      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
-      "precio_ref": 3999.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 dc15 i51334u a50 intel i5",
-      "nombre": "Notebook Dell 15 DC15-I51334U-A50, Intel i5-1334U, Windows 11 Home | 15,6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SSD, Inte",
-      "precio_ref": 4811.1,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "kit de garrafas de tinta original epson magenta",
-      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
-      "precio_ref": 189.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book4 intel coretm i3 1315u windows",
-      "nombre": "Samsung Galaxy Book4 Intel® Core™ i3-1315U, Windows 11 Home, 8GB, 256GB SSD, UHD Graphics, 15.6'' Full HD LED, 1.55kg*.",
-      "precio_ref": 3374.1,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
-      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
-      "precio_ref": 2199.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "placa mae asus tuf gaming b550m plus am4",
-      "nombre": "Placa-Mãe ASUS TUF Gaming B550M-PLUS AM4 mATX — Suporte Ryzen, PCIe 4.0, M.2 NVMe, DDR4, HDMI/DP, LAN Gigabit, Durabilidade M",
-      "precio_ref": 835.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "fonte gamer rise mode zeus 500w pfc ativo",
-      "nombre": "Fonte Gamer Rise Mode Zeus, 500W, PFC Ativo, Selo Teclab, Preto - RM-PSU-01-WT-500",
-      "precio_ref": 222.21,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
-      "nombre": "Notebook Dell 15 I15-I1300-A60P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz antirreflexo, 16 GB de RAM, SSD",
-      "precio_ref": 5749.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 695.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 798.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
-      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
-      "precio_ref": 582.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "apple iphone 17 de 256 gb azul nevoa",
-      "nombre": "Apple iPhone 17 de 256 GB — Azul-névoa",
-      "precio_ref": 5979.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
-      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
-      "precio_ref": 2994.97,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
-      "nombre": "Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo, trocas de página rápidas, luz frontal ajustável e bateri",
-      "precio_ref": 785.11,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 processador octa core",
-      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
-      "precio_ref": 489.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
-      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
-      "precio_ref": 3621.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "acer aspire go 15 notebook 15 6 intel",
-      "nombre": "Acer Aspire Go 15 Notebook 15.6\" Intel Core i5 13ª Geração 16GB Windows",
-      "precio_ref": 4515.05,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
-      "precio_ref": 4099.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Roxo (M3)",
-      "precio_ref": 5555.54,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
-      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
-      "precio_ref": 1539.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
-      "nombre": "Processador AMD Ryzen 7 9800X3D (AM5/ 8 Cores/ 16 Threads/ 5.2 GHz/ 104Mb Cache/Radeon Graphics/Sem Cooler)",
-      "precio_ref": 2588.22,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "apple iphone 15 128 gb preto",
-      "nombre": "Apple iPhone 15 (128 GB) — Preto",
-      "precio_ref": 4199.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
-      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
-      "precio_ref": 999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 amd ryzen 7 16",
-      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 16 GB, 512 GB SSD, W11 Home, 15.6'' FHD, Cool Silver - M1502YA-NJ655W",
-      "precio_ref": 4490.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
-      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
-      "precio_ref": 511.25,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
-      "nombre": "Tablet Samsung Galaxy Tab A11, 64GB, 4GB RAM, Tela de 8,7\" | Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, Wi-Fi",
-      "precio_ref": 999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3i 15 3 intel",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3i 15.3\" - Intel Core i5-13420H, 8GB RAM, 256GB SSD, Intel UHD Graphics, Windows 11",
-      "precio_ref": 3710.97,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
-      "precio_ref": 1420.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire 5 ryzen 5 5500u 16gb",
-      "nombre": "Notebook Acer Aspire 5, Ryzen 5 5500U, 16GB, SSD 512GB, 15,6\" | Full HD, Linux, Preto, Alimentação CA, Compatível com Mouse U",
-      "precio_ref": 3837.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
-      "precio_ref": 269900.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -345,119 +17,39 @@
       "precio_ref": 208.7,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
-      "busqueda": "galaxy tab s10 256 gb tela 12 4",
-      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
-      "precio_ref": 5199.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
-      "precio_ref": 3249.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "wap aspirador de po e agua barril gtw",
-      "nombre": "WAP Aspirador de Pó e Água Barril GTW INOX 12, Compacto, 12 Litros, com Filtro Lavável, 160mbar 1400W 127V",
-      "precio_ref": 313.81,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
-      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
-      "precio_ref": 989.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
-      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Preto",
-      "precio_ref": 824.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 11 8 256gb wifi",
-      "nombre": "Xiaomi Redmi Pad 2 11\" 8+256GB WiFi Grafite Cinza EU",
-      "precio_ref": 1480.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
-      "nombre": "Celular Samsung Galaxy A57 5g 256GB, 8GB RAM, Câmera Tripla de até 50MP Ois, Selfie de 12MP Video Hdr, Ip68, Tela Super AMOLE",
-      "precio_ref": 2665.56,
+      "busqueda": "notebook asus vivobook go 15 intel celeron dual",
+      "nombre": "Notebook ASUS Vivobook GO 15, Intel Celeron Dual Core N4500, 4 GB, 128 GB SSD, W11 Home, 15,60\" LED, Rose Pink - E510KA-BR833",
+      "precio_ref": 2199.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
-      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
-      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
-      "precio_ref": 1649.0,
+      "busqueda": "kit de garrafas de tinta original epson magenta",
+      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
+      "precio_ref": 189.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
+      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
+      "precio_ref": 3702.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
-      "busqueda": "kingston kf432c16bbk2 16 kit de memorias de 16gb",
-      "nombre": "Kingston, KF432C16BBK2/16 - Kit de memórias de 16GB (2 x 8GB) DIMM DDR4 3200Mhz FURY Beast Black 1,35V 1Rx8 288 pinos para de",
-      "precio_ref": 961.3,
+      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
+      "precio_ref": 5999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "placa mae asus tuf gaming a520m plus ii",
-      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
-      "precio_ref": 597.54,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "roku streaming stick hd 2025 dispositivo de streaming",
-      "nombre": "Roku Streaming Stick HD 2025 | Dispositivo de streaming para TV HD/FHD com controle remoto por comando de voz compatível com",
-      "precio_ref": 259.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "notebook samsung galaxy book go windows 11 home",
-      "nombre": "Notebook Samsung Galaxy Book Go, Windows 11 Home, Snapdragon | Windows 11 Home, 4GB RAM, 128GB UFS, 1.38kg",
-      "precio_ref": 2299.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
-      "precio_ref": 899.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
-    },
-    {
-      "busqueda": "galaxy tab a9 5g grafite tela 11 64",
-      "nombre": "Galaxy Tab A9+ 5G, Grafite, Tela 11\", 64 GB, 4GB RAM, Câmera Frontal 5 MP Câmera Principal 8 MP",
-      "precio_ref": 210000.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
       "busqueda": "jbl fone de ouvido bluetooth over ear tune",
@@ -465,15 +57,383 @@
       "precio_ref": 194.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
-      "precio_ref": 3276.55,
+      "busqueda": "notebook dell 15 dc15 i51334u a50 intel i5",
+      "nombre": "Notebook Dell 15 DC15-I51334U-A50, Intel i5-1334U, Windows 11 Home | 15,6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SSD, Inte",
+      "precio_ref": 4811.1,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook hp 256r g9 intel core i5 13o",
+      "nombre": "Notebook HP 256R G9 Intel Core i5 13º Geração. Memoria RAM 16GB. SSD 256GB. Tela de 15,6\" LCD. Windows 11 - Home SL - Cinza E",
+      "precio_ref": 3999.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
+      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
+      "precio_ref": 582.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
+      "nombre": "Processador AMD Ryzen 7 9800X3D (AM5/ 8 Cores/ 16 Threads/ 5.2 GHz/ 104Mb Cache/Radeon Graphics/Sem Cooler)",
+      "precio_ref": 2588.22,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book4 intel coretm i3 1315u windows",
+      "nombre": "Samsung Galaxy Book4 Intel® Core™ i3-1315U, Windows 11 Home, 8GB, 256GB SSD, UHD Graphics, 15.6'' Full HD LED, 1.55kg*.",
+      "precio_ref": 3374.1,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "placa de video msi rtx 5060 shadow 2x",
+      "nombre": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037 | 8GB GDDR7 (28Gbps/128-bit), PCIe 5.0 - HDMI 2.1b, 3 x Dis",
+      "precio_ref": 3049.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1539.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
+      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
+      "precio_ref": 2020.06,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "iphone 16e apple 128gb camera 48mp tela super",
+      "nombre": "iPhone 16e Apple 128GB, Câmera 48MP, Tela Super Retina XDR 6,1\", Branco",
+      "precio_ref": 3554.44,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
+      "nombre": "Notebook Dell 15 I15-I1300-A60P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz antirreflexo, 16 GB de RAM, SSD",
+      "precio_ref": 5749.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
+      "nombre": "PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (Turbo 4.6GHz) 36MB Cache AM4 100-100000926WOF, Cerâmica Cinza",
+      "precio_ref": 1176.46,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Roxo (M3)",
+      "precio_ref": 5555.54,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g 256gb 8gb 50mp",
+      "nombre": "Celular Samsung Galaxy A17 5G, 256GB, 8GB, 50MP Tela 6.7\" - Cinza",
+      "precio_ref": 1499.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
+      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
+      "precio_ref": 999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
+      "nombre": "Electrolux Aspirador pó vertical 2 em 1 1450W HEPA STK15 Cinza Urban 127V | Com fio, portátil de mão, potente, cabo de 6m e c",
+      "precio_ref": 191.68,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "fonte gamer rise mode zeus 500w pfc ativo",
+      "nombre": "Fonte Gamer Rise Mode Zeus, 500W, PFC Ativo, Selo Teclab, Preto - RM-PSU-01-WT-500",
+      "precio_ref": 222.21,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
+      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
+      "precio_ref": 3621.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "acer aspire go 15 notebook 15 6 intel",
+      "nombre": "Acer Aspire Go 15 Notebook 15.6\" Intel Core i5 13ª Geração 16GB Windows",
+      "precio_ref": 4515.05,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "smart tv 32 philco roku tv dolby audio",
+      "nombre": "Smart TV 32\" Philco Roku TV Dolby Áudio HDR10 P32CRB | Dolby Áudio, HDR10",
+      "precio_ref": 894.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "apple iphone 15 128 gb preto",
+      "nombre": "Apple iPhone 15 (128 GB) — Preto",
+      "precio_ref": 4199.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "galaxy tab a9 5g grafite tela 11 64",
+      "nombre": "Galaxy Tab A9+ 5G, Grafite, Tela 11\", 64 GB, 4GB RAM, Câmera Frontal 5 MP Câmera Principal 8 MP",
+      "precio_ref": 210000.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 695.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
+      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
+      "precio_ref": 2238.42,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
+      "precio_ref": 1441.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "placa mae asus tuf gaming b550m plus am4",
+      "nombre": "Placa-Mãe ASUS TUF Gaming B550M-PLUS AM4 mATX — Suporte Ryzen, PCIe 4.0, M.2 NVMe, DDR4, HDMI/DP, LAN Gigabit, Durabilidade M",
+      "precio_ref": 835.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
+      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
+      "precio_ref": 2994.97,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 amd ryzen 7 16",
+      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 16 GB, 512 GB SSD, W11 Home, 15.6'' FHD, Cool Silver - M1502YA-NJ655W",
+      "precio_ref": 4490.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "be place kids tablet infantil android 13 128gb",
+      "nombre": "BE PLACE KIDS Tablet Infantil Android 13 128GB 8GB RAM Controle Parental",
+      "precio_ref": 385.95,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
+      "nombre": "Tablet Samsung Galaxy Tab A11, 64GB, 4GB RAM, Tela de 8,7\" | Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, Wi-Fi",
+      "precio_ref": 999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3i 15 3 intel",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3i 15.3\" - Intel Core i5-13420H, 8GB RAM, 256GB SSD, Intel UHD Graphics, Windows 11",
+      "precio_ref": 3710.97,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
+      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
+      "precio_ref": 1420.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire 5 ryzen 5 5500u 16gb",
+      "nombre": "Notebook Acer Aspire 5, Ryzen 5 5500U, 16GB, SSD 512GB, 15,6\" | Full HD, Linux, Preto, Alimentação CA, Compatível com Mouse U",
+      "precio_ref": 3837.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
+      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 24GB RAM, Tela 120Hz, Octa-Core, Câmera 13MP + 5MP, Bateria 8000mAh, Kit c",
+      "precio_ref": 759.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tab samsung galaxy s11 cinza 256gb 12gb 11",
+      "nombre": "Tab Samsung Galaxy S11 Cinza, 256GB, 12GB 11\" Camera 12MP, 5G",
+      "precio_ref": 5236.55,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 7 processador octa core",
+      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
+      "precio_ref": 489.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
+      "precio_ref": 3249.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "kit lavagem completa shampoo cera tok final intense",
+      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
+      "precio_ref": 165.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet infantil patrulha canina skye com controle parental",
+      "nombre": "Tablet Infantil Patrulha Canina Skye com Controle Parental 4GB RAM + 64GB + Tela 7 pol + Case + Wi-fi + Android 13 + Quad Cor",
+      "precio_ref": 599.89,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 5199.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
+      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
+      "precio_ref": 989.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "apple iphone 17 de 256 gb azul nevoa",
+      "nombre": "Apple iPhone 17 de 256 GB — Azul-névoa",
+      "precio_ref": 5979.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 269900.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "kingston kf432c16bbk2 16 kit de memorias de 16gb",
+      "nombre": "Kingston, KF432C16BBK2/16 - Kit de memórias de 16GB (2 x 8GB) DIMM DDR4 3200Mhz FURY Beast Black 1,35V 1Rx8 288 pinos para de",
+      "precio_ref": 961.3,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "placa mae asus tuf gaming a520m plus ii",
+      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
+      "precio_ref": 597.54,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
+      "nombre": "Kindle 16 GB (modelo 2024) - Leve e compacto, com tela antirreflexo, trocas de página rápidas, luz frontal ajustável e bateri",
+      "precio_ref": 785.11,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5g 256GB, 8GB RAM, Câmera Tripla de até 50MP Ois, Selfie de 12MP Video Hdr, Ip68, Tela Super AMOLE",
+      "precio_ref": 2665.56,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 899.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     },
     {
       "busqueda": "echo dot geracao mais recente smart speaker com",
@@ -481,7 +441,47 @@
       "precio_ref": 649.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T02:42:47+00:00"
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
+      "precio_ref": 3276.55,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 940.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 798.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
+      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
+      "precio_ref": 511.25,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
+      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
+      "precio_ref": 1649.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T02:49:51+00:00"
     }
   ]
 }
