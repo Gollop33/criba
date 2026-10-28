@@ -76,11 +76,6 @@
       "publicado_em": "2026-10-27T19:11:58+00:00",
       "motivo": "tanda"
     },
-    "MLVANTAGENS": {
-      "detectado_em": "2026-09-28T13:30:06+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
     "OFFNOMELI": {
       "detectado_em": "2026-09-29T13:00:17+00:00",
       "publicado_em": null,
@@ -1085,7 +1080,12 @@
       "detectado_em": "2026-10-27T16:04:32+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "ECONOMIATOTAL": {
+      "detectado_em": "2026-10-22T13:00:09+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 144h (> 24h)"
     }
   },
-  "actualizado": "2026-10-28T13:23:05+00:00"
+  "actualizado": "2026-10-28T13:30:06+00:00"
 }
