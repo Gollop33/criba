@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-28T10:01:02+00:00",
+  "actualizado": "2026-10-28T10:07:49+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,23 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
-      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
-      "precio_ref": 28.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 27.56,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "controle remoto compativel samsung para smart tv teclas",
@@ -33,7 +17,7 @@
       "precio_ref": 21.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "pasta termica pcyes nitrogen basic 1 5g condutividade",
@@ -41,39 +25,7 @@
       "precio_ref": 16.46,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "32 in1 case estojo para nintendo switch oled",
-      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
-      "precio_ref": 89.99,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "fralda turma da monica baby mega p 62",
-      "nombre": "Fralda Turma da Mônica Baby Mega P 62 Unidades",
-      "precio_ref": 36.62,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
-      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition",
-      "precio_ref": 64.85,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
-      "nombre": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
-      "precio_ref": 39.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "tp link switch gigabit de mesa com 5",
@@ -81,23 +33,7 @@
       "precio_ref": 85.0,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
-      "nombre": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
-      "precio_ref": 79.98,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "fralda pampers confort sec tamanho g 92 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho G, 92 Unidades",
-      "precio_ref": 102.37,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "mouse gamer sem fio redragon astrolabe lite preto",
@@ -105,23 +41,31 @@
       "precio_ref": 83.11,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
-      "busqueda": "tp link tl wn823n adaptador wi fi usb",
-      "nombre": "TP-Link TL-WN823N Adaptador Wi-Fi USB 300 Mbps, N300 2,4 GHz para PC e Notebook, Mini Receptor Wireless USB 2.0, Antena Inter",
-      "precio_ref": 68.9,
-      "categoria": "Notebooks & PCs",
+      "busqueda": "mouse gamer redragon predator rgb m612 rgb preto",
+      "nombre": "Mouse Gamer Redragon Predator RGB M612-RGB, Preto",
+      "precio_ref": 79.98,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
-      "busqueda": "fralda pampers premium care tamanho p 40 unidades",
-      "nombre": "Fralda Pampers Premium Care Tamanho P 40 Unidades",
-      "precio_ref": 54.99,
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 27.56,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
+      "nombre": "Growth Supplements - Creatina Monohidratada 250g - Growth Supplements - Sem sabor em pó",
+      "precio_ref": 39.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
@@ -129,7 +73,31 @@
       "precio_ref": 45.17,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "32 in1 case estojo para nintendo switch oled",
+      "nombre": "32 in1 Case Estojo Para Nintendo Switch Oled Acessórios Capa Protetora Para Com Compartimentos Bolsa Perfeita Para Viagens Es",
+      "precio_ref": 89.99,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "tp link tl wn823n adaptador wi fi usb",
+      "nombre": "TP-Link TL-WN823N Adaptador Wi-Fi USB 300 Mbps, N300 2,4 GHz para PC e Notebook, Mini Receptor Wireless USB 2.0, Antena Inter",
+      "precio_ref": 68.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "fralda turma da monica baby mega p 62",
+      "nombre": "Fralda Turma da Mônica Baby Mega P 62 Unidades",
+      "precio_ref": 36.62,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "pasta termica snowdog husky 1g 12 8w m",
@@ -137,7 +105,31 @@
       "precio_ref": 58.81,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
+      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
+      "precio_ref": 28.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
+      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition",
+      "precio_ref": 64.85,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "fralda pampers premium care tamanho p 40 unidades",
+      "nombre": "Fralda Pampers Premium Care Tamanho P 40 Unidades",
+      "precio_ref": 54.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
@@ -145,7 +137,7 @@
       "precio_ref": 695.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a57 5g 256gb 8gb ram",
@@ -153,7 +145,7 @@
       "precio_ref": 2665.56,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "notebook hp 256r g9 intel core i5 13o",
@@ -161,7 +153,7 @@
       "precio_ref": 3999.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "volante e pedais logitech g29 driving force com",
@@ -169,7 +161,7 @@
       "precio_ref": 1669.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "fralda pampers premium care pants tamanho xg facil",
@@ -177,7 +169,7 @@
       "precio_ref": 140.85,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "notebook dell 15 15 i1300 a80p intel core",
@@ -185,7 +177,7 @@
       "precio_ref": 5999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "samsung galaxy book4 intel coretm i3 1315u windows",
@@ -193,7 +185,7 @@
       "precio_ref": 3374.1,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "fralda descartavel huggies maxima protecao tamanho g 160",
@@ -201,7 +193,7 @@
       "precio_ref": 226.07,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "placa mae asus tuf gaming b550m plus am4",
@@ -209,31 +201,7 @@
       "precio_ref": 835.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 intel core i5 16",
-      "nombre": "Notebook ASUS Vivobook 15, Intel Core i5, 16 GB, 512 GB SSD W11 Home, 15.6'' FHD, Quiet Blue -X1504VA-NJ1745W",
-      "precio_ref": 4299.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
-      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
-      "precio_ref": 161.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
-      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
-      "precio_ref": 3702.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "adaptogen tasty whey original 900g embalagem pode mudar",
@@ -241,7 +209,31 @@
       "precio_ref": 227.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
+      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
+      "precio_ref": 161.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
+      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
+      "precio_ref": 3702.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho g 92 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G, 92 Unidades",
+      "precio_ref": 102.37,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
@@ -249,7 +241,7 @@
       "precio_ref": 899.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "placa mae asus tuf gaming a520m plus ii",
@@ -257,7 +249,7 @@
       "precio_ref": 597.54,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "controle sem fio dualsense edicao limitada gran turismo",
@@ -265,7 +257,7 @@
       "precio_ref": 599.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
@@ -273,7 +265,7 @@
       "precio_ref": 582.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "notebook dell 15 dc15 i51334u a50 intel i5",
@@ -281,7 +273,7 @@
       "precio_ref": 4811.1,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -289,7 +281,7 @@
       "precio_ref": 824.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "console nintendo switch 2 modelo nacional de tomada",
@@ -297,7 +289,7 @@
       "precio_ref": 4325.26,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "jbl fone de ouvido bluetooth over ear tune",
@@ -305,7 +297,7 @@
       "precio_ref": 194.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "playstation5 slim disk pacote astro bot e gran",
@@ -313,7 +305,7 @@
       "precio_ref": 4999.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "dispositivo de streaming para tv stick roku 2025",
@@ -321,7 +313,7 @@
       "precio_ref": 259.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 5g 256gb 8gb 50mp",
@@ -329,7 +321,7 @@
       "precio_ref": 1499.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "base de carregamento do dualsense playstation 5",
@@ -337,7 +329,7 @@
       "precio_ref": 181.71,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "apple iphone 17 de 256 gb azul nevoa",
@@ -345,7 +337,7 @@
       "precio_ref": 6332.22,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "acer aspire go 15 notebook 15 6 intel",
@@ -353,7 +345,7 @@
       "precio_ref": 4515.05,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "final fantasy resonance nintendo switch 2 exclusivo amazon",
@@ -361,7 +353,7 @@
       "precio_ref": 299.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "kindle 16 gb modelo 2024 leve e compacto",
@@ -369,7 +361,7 @@
       "precio_ref": 799.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "nintendo switch sports resort nintendo switch 2",
@@ -377,7 +369,7 @@
       "precio_ref": 379.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "controle sem fio playstation dualsensetm midnight black",
@@ -385,7 +377,7 @@
       "precio_ref": 409.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "kingston kf432c16bbk2 16 kit de memorias de 16gb",
@@ -393,7 +385,7 @@
       "precio_ref": 958.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "sandisk ssd portatil de 1 tb ate 800",
@@ -401,7 +393,7 @@
       "precio_ref": 1029.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
@@ -409,7 +401,7 @@
       "precio_ref": 452.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "placa de video msi rtx 5060 shadow 2x",
@@ -417,7 +409,7 @@
       "precio_ref": 3049.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "apple iphone 15 128 gb preto",
@@ -425,7 +417,7 @@
       "precio_ref": 4199.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 intel celeron dual",
@@ -433,7 +425,7 @@
       "precio_ref": 2199.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -441,7 +433,7 @@
       "precio_ref": 4299.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
@@ -449,7 +441,7 @@
       "precio_ref": 3621.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "notebook dell 15 i15 i1300 a60p intel core",
@@ -457,7 +449,7 @@
       "precio_ref": 5749.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "fonte gamer rise mode zeus 500w pfc ativo",
@@ -465,7 +457,7 @@
       "precio_ref": 222.21,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "street fighter 6 year 1 2 fighters edition",
@@ -473,7 +465,7 @@
       "precio_ref": 149.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     },
     {
       "busqueda": "sony playstation 5 edicao digital 825gb 1 controle",
@@ -481,7 +473,15 @@
       "precio_ref": 4237.41,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-10-28T10:01:02+00:00"
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 amd ryzen 7 16",
+      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 16 GB, 512 GB SSD, W11 Home, 15.6'' FHD, Cool Silver - M1502YA-NJ655W",
+      "precio_ref": 4490.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-10-28T10:07:49+00:00"
     }
   ]
 }
