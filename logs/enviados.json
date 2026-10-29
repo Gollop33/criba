@@ -828,14 +828,16 @@
     ]
   },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-10-28T03:26:50.767412",
+    "ts": "2026-10-29T07:35:50.908982",
     "canales": {
-      "whatsapp": "2026-10-28T03:26:50.767412"
+      "whatsapp": "2026-10-29T07:35:50.908982"
     },
     "precio": 25.0,
     "precios_publicados": [
+      25.0,
       25.0
-    ]
+    ],
+    "precio_min_publicado": 25.0
   },
   "amz-cotonetes-de-algodao-com-hastes-flexiveis-ret": {
     "ts": "2026-10-29T04:04:01.045878",
