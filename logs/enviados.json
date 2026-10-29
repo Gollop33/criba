@@ -984,14 +984,16 @@
     ]
   },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
-    "ts": "2026-10-28T08:50:00.651863",
+    "ts": "2026-10-29T12:06:33.872029",
     "canales": {
-      "whatsapp": "2026-10-28T08:50:00.651863"
+      "whatsapp": "2026-10-29T12:06:33.872029"
     },
-    "precio": 53.0,
+    "precio": 55.0,
     "precios_publicados": [
-      53.0
-    ]
+      53.0,
+      55.0
+    ],
+    "precio_min_publicado": 53.0
   },
   "amz-switch-gigabit-5-portas-tenda-divisor-etherne": {
     "ts": "2026-10-29T11:02:26.688417",
