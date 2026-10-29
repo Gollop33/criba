@@ -952,14 +952,16 @@
     ]
   },
   "amz-switch-gigabit-ms105g-mercusys-de-5-portas-et": {
-    "ts": "2026-10-28T08:03:16.748297",
+    "ts": "2026-10-29T14:59:40.464775",
     "canales": {
-      "whatsapp": "2026-10-28T08:03:16.748297"
+      "whatsapp": "2026-10-29T14:59:40.464775"
     },
-    "precio": 57.0,
+    "precio": 65.0,
     "precios_publicados": [
-      57.0
-    ]
+      57.0,
+      65.0
+    ],
+    "precio_min_publicado": 57.0
   },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
     "ts": "2026-10-29T08:51:53.190894",
