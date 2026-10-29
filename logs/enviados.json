@@ -882,14 +882,16 @@
     "precio_min_publicado": 51.0
   },
   "amz-huggies-fralda-descartavel-premium-natural-ca": {
-    "ts": "2026-10-28T05:24:12.131507",
+    "ts": "2026-10-29T10:55:17.873473",
     "canales": {
-      "whatsapp": "2026-10-28T05:24:12.131507"
+      "whatsapp": "2026-10-29T10:55:17.873473"
     },
-    "precio": 33.0,
+    "precio": 39.0,
     "precios_publicados": [
-      33.0
-    ]
+      33.0,
+      39.0
+    ],
+    "precio_min_publicado": 33.0
   },
   "amz-max-titanium-creatina-pote-monohidratada-300g": {
     "ts": "2026-10-29T06:35:22.195857",
