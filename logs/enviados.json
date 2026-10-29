@@ -1178,14 +1178,16 @@
     "precio_min_publicado": 3.0
   },
   "amz-colgate-slim-soft-black-escova-de-dente-macia": {
-    "ts": "2026-10-28T10:45:11.123824",
+    "ts": "2026-10-29T16:06:47.327579",
     "canales": {
-      "whatsapp": "2026-10-28T10:45:11.123824"
+      "whatsapp": "2026-10-29T16:06:47.327579"
     },
-    "precio": 27.0,
+    "precio": 29.0,
     "precios_publicados": [
-      27.0
-    ]
+      27.0,
+      29.0
+    ],
+    "precio_min_publicado": 27.0
   },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-10-29T14:08:02.218118",
