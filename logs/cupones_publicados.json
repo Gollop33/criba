@@ -1115,7 +1115,32 @@
       "detectado_em": "2026-10-11T13:10:46+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 432h (> 24h)"
+    },
+    "BONUSML": {
+      "detectado_em": "2026-10-29T14:04:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MEUDESCONTO": {
+      "detectado_em": "2026-10-29T14:04:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SUPERDESCONTOS": {
+      "detectado_em": "2026-10-29T14:04:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SUPERPROMOS": {
+      "detectado_em": "2026-10-29T14:04:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAPRATECH": {
+      "detectado_em": "2026-10-29T13:06:03+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-10-29T13:12:43+00:00"
+  "actualizado": "2026-10-29T14:49:09+00:00"
 }
