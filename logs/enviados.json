@@ -1048,14 +1048,16 @@
     "precio_min_publicado": 42.0
   },
   "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
-    "ts": "2026-10-28T09:28:45.666979",
+    "ts": "2026-10-29T15:50:41.825847",
     "canales": {
-      "whatsapp": "2026-10-28T09:28:45.666979"
+      "whatsapp": "2026-10-29T15:50:41.825847"
     },
     "precio": 36.0,
     "precios_publicados": [
+      36.0,
       36.0
-    ]
+    ],
+    "precio_min_publicado": 36.0
   },
   "amz-adaptador-usb-bluetooth-50-para-pc-e-notebook": {
     "ts": "2026-10-28T09:35:56.881482",
