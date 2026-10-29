@@ -1256,14 +1256,16 @@
     ]
   },
   "amz-mouse-pad-azul": {
-    "ts": "2026-10-28T11:33:20.781295",
+    "ts": "2026-10-29T11:34:20.612975",
     "canales": {
-      "whatsapp": "2026-10-28T11:33:20.781295"
+      "whatsapp": "2026-10-29T11:34:20.612975"
     },
     "precio": 5.0,
     "precios_publicados": [
+      5.0,
       5.0
-    ]
+    ],
+    "precio_min_publicado": 5.0
   },
   "amz-snob-papel-toalha-multiuso-folha-dupla-branca": {
     "ts": "2026-10-28T11:42:47.248687",
