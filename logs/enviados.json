@@ -40,14 +40,16 @@
     ]
   },
   "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
-    "ts": "2026-10-27T19:20:44.659089",
+    "ts": "2026-10-29T07:28:56.590338",
     "canales": {
-      "whatsapp": "2026-10-27T19:20:44.659089"
+      "whatsapp": "2026-10-29T07:28:56.590338"
     },
-    "precio": 19.0,
+    "precio": 14.0,
     "precios_publicados": [
-      19.0
-    ]
+      19.0,
+      14.0
+    ],
+    "precio_min_publicado": 19.0
   },
   "amz-pneu-pretinho-15l": {
     "ts": "2026-10-28T19:26:41.265837",
