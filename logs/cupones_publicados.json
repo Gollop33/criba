@@ -1105,7 +1105,17 @@
       "detectado_em": "2026-10-28T17:31:45+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFNOMELI": {
+      "detectado_em": "2026-10-10T17:31:01+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 452h (> 24h)"
+    },
+    "SONOMELI": {
+      "detectado_em": "2026-10-11T13:10:46+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 432h (> 24h)"
     }
   },
-  "actualizado": "2026-10-29T13:03:49+00:00"
+  "actualizado": "2026-10-29T13:12:43+00:00"
 }

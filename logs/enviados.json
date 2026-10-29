@@ -1454,14 +1454,16 @@
     "precio_min_publicado": 21.0
   },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-10-28T13:09:11.873789",
+    "ts": "2026-10-29T13:12:47.219364",
     "canales": {
-      "whatsapp": "2026-10-28T13:09:11.873789"
+      "whatsapp": "2026-10-29T13:12:47.219364"
     },
     "precio": 46.0,
     "precios_publicados": [
+      46.0,
       46.0
-    ]
+    ],
+    "precio_min_publicado": 46.0
   },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-10-28T13:15:25.922646",
