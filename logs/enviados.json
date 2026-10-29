@@ -580,14 +580,16 @@
     ]
   },
   "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
-    "ts": "2026-10-27T23:50:03.509732",
+    "ts": "2026-10-29T16:54:47.004740",
     "canales": {
-      "whatsapp": "2026-10-27T23:50:03.509732"
+      "whatsapp": "2026-10-29T16:54:47.004740"
     },
     "precio": 120.0,
     "precios_publicados": [
+      120.0,
       120.0
-    ]
+    ],
+    "precio_min_publicado": 120.0
   },
   "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
     "ts": "2026-10-27T23:57:27.745624",
