@@ -294,14 +294,16 @@
     "precio_min_publicado": 50.0
   },
   "amz-cabo-carregador-turbo-usbc-1-metro-trancado-d": {
-    "ts": "2026-10-27T21:30:06.720243",
+    "ts": "2026-10-29T05:56:00.025254",
     "canales": {
-      "whatsapp": "2026-10-27T21:30:06.720243"
+      "whatsapp": "2026-10-29T05:56:00.025254"
     },
     "precio": 22.0,
     "precios_publicados": [
+      22.0,
       22.0
-    ]
+    ],
+    "precio_min_publicado": 22.0
   },
   "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
     "ts": "2026-10-29T01:27:21.051918",
