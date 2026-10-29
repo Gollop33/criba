@@ -440,14 +440,16 @@
     ]
   },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
-    "ts": "2026-10-27T22:57:12.698284",
+    "ts": "2026-10-29T01:24:41.150023",
     "canales": {
-      "whatsapp": "2026-10-27T22:57:12.698284"
+      "whatsapp": "2026-10-29T01:24:41.150023"
     },
-    "precio": 16.0,
+    "precio": 15.0,
     "precios_publicados": [
-      16.0
-    ]
+      16.0,
+      15.0
+    ],
+    "precio_min_publicado": 16.0
   },
   "amz-cabo-carregador-usbc-tipo-c-turbo-60w-1-metro": {
     "ts": "2026-10-27T23:05:21.156095",
