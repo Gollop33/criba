@@ -1348,14 +1348,16 @@
     ]
   },
   "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
-    "ts": "2026-10-28T12:15:15.094732",
+    "ts": "2026-10-29T12:15:49.327694",
     "canales": {
-      "whatsapp": "2026-10-28T12:15:15.094732"
+      "whatsapp": "2026-10-29T12:15:49.327694"
     },
-    "precio": 42.0,
+    "precio": 54.0,
     "precios_publicados": [
-      42.0
-    ]
+      42.0,
+      54.0
+    ],
+    "precio_min_publicado": 42.0
   },
   "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
     "ts": "2026-10-28T12:16:37.448414",
