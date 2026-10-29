@@ -1192,14 +1192,16 @@
     ]
   },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
-    "ts": "2026-10-28T11:04:16.873260",
+    "ts": "2026-10-29T13:57:03.221354",
     "canales": {
-      "whatsapp": "2026-10-28T11:04:16.873260"
+      "whatsapp": "2026-10-29T13:57:03.221354"
     },
-    "precio": 15.0,
+    "precio": 13.0,
     "precios_publicados": [
-      15.0
-    ]
+      15.0,
+      13.0
+    ],
+    "precio_min_publicado": 15.0
   },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
     "ts": "2026-10-29T11:10:47.502055",
