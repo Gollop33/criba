@@ -1112,14 +1112,16 @@
     ]
   },
   "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
-    "ts": "2026-10-28T10:22:31.283638",
+    "ts": "2026-10-29T10:32:07.421039",
     "canales": {
-      "whatsapp": "2026-10-28T10:22:31.283638"
+      "whatsapp": "2026-10-29T10:32:07.421039"
     },
-    "precio": 37.0,
+    "precio": 43.0,
     "precios_publicados": [
-      37.0
-    ]
+      37.0,
+      43.0
+    ],
+    "precio_min_publicado": 37.0
   },
   "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
     "ts": "2026-10-28T10:30:58.315670",
