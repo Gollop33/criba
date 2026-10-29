@@ -992,14 +992,16 @@
     ]
   },
   "amz-switch-gigabit-5-portas-tenda-divisor-etherne": {
-    "ts": "2026-10-28T08:56:57.969211",
+    "ts": "2026-10-29T11:02:26.688417",
     "canales": {
-      "whatsapp": "2026-10-28T08:56:57.969211"
+      "whatsapp": "2026-10-29T11:02:26.688417"
     },
-    "precio": 59.0,
+    "precio": 53.0,
     "precios_publicados": [
-      59.0
-    ]
+      59.0,
+      53.0
+    ],
+    "precio_min_publicado": 59.0
   },
   "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
     "ts": "2026-10-28T09:07:50.586666",
