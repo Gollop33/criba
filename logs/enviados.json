@@ -1142,14 +1142,16 @@
     ]
   },
   "amz-esponja-esfrelux-leve-4-pague-3": {
-    "ts": "2026-10-28T10:40:58.535636",
+    "ts": "2026-10-29T11:42:27.901136",
     "canales": {
-      "whatsapp": "2026-10-28T10:40:58.535636"
+      "whatsapp": "2026-10-29T11:42:27.901136"
     },
     "precio": 3.0,
     "precios_publicados": [
+      3.0,
       3.0
-    ]
+    ],
+    "precio_min_publicado": 3.0
   },
   "amz-colgate-slim-soft-black-escova-de-dente-macia": {
     "ts": "2026-10-28T10:45:11.123824",
