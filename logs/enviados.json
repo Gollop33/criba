@@ -493,16 +493,6 @@
     ],
     "precio_min_publicado": 81.0
   },
-  "amz-kit-shampoo-vfloc-cera-tok-final-limpador-sin": {
-    "ts": "2026-10-27T23:40:27.790406",
-    "canales": {
-      "whatsapp": "2026-10-27T23:40:27.790406"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
     "ts": "2026-10-29T16:54:47.004740",
     "canales": {
@@ -1776,14 +1766,16 @@
     ]
   },
   "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
-    "ts": "2026-10-28T15:57:08.540954",
+    "ts": "2026-10-29T23:41:35.096960",
     "canales": {
-      "whatsapp": "2026-10-28T15:57:08.540954"
+      "whatsapp": "2026-10-29T23:41:35.096960"
     },
-    "precio": 189.0,
+    "precio": 125.0,
     "precios_publicados": [
-      189.0
-    ]
+      189.0,
+      125.0
+    ],
+    "precio_min_publicado": 189.0
   },
   "amz-vitafor-omegafor-plus-240-capsulas": {
     "ts": "2026-10-28T16:08:20.903423",
