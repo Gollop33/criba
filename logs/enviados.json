@@ -1,10 +1,4 @@
 {
-  "cupom-ml-dd028bc1f3": {
-    "ts": "2026-10-27T18:56:48.080411",
-    "canales": {
-      "whatsapp": "2026-10-27T18:56:48.080411"
-    }
-  },
   "cupom-ml-615e6a1e00": {
     "ts": "2026-10-28T19:09:21.326138",
     "canales": {
@@ -1600,14 +1594,16 @@
     ]
   },
   "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-10-28T14:04:34.895381",
+    "ts": "2026-10-29T18:57:31.982490",
     "canales": {
-      "whatsapp": "2026-10-28T14:04:34.895381"
+      "whatsapp": "2026-10-29T18:57:31.982490"
     },
     "precio": 89.0,
     "precios_publicados": [
+      89.0,
       89.0
-    ]
+    ],
+    "precio_min_publicado": 89.0
   },
   "amz-cerave-locao-hidratante-corporal-com-textura-": {
     "ts": "2026-10-29T16:45:18.253443",
