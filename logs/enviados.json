@@ -1882,14 +1882,16 @@
     ]
   },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-10-28T16:56:02.842107",
+    "ts": "2026-10-29T17:01:35.174689",
     "canales": {
-      "whatsapp": "2026-10-28T16:56:02.842107"
+      "whatsapp": "2026-10-29T17:01:35.174689"
     },
     "precio": 32.0,
     "precios_publicados": [
+      32.0,
       32.0
-    ]
+    ],
+    "precio_min_publicado": 32.0
   },
   "amz-bolsa-termica-marmita-lancheira-grande-alca-o": {
     "ts": "2026-10-28T17:00:45.731802",
