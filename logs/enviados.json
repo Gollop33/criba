@@ -396,14 +396,16 @@
     ]
   },
   "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-10-27T22:36:05.370316",
+    "ts": "2026-10-29T00:07:56.824046",
     "canales": {
-      "whatsapp": "2026-10-27T22:36:05.370316"
+      "whatsapp": "2026-10-29T00:07:56.824046"
     },
     "precio": 15.0,
     "precios_publicados": [
+      15.0,
       15.0
-    ]
+    ],
+    "precio_min_publicado": 15.0
   },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-10-29T00:01:11.428332",
