@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-28T22:23:58+00:00",
-  "total": 132,
+  "actualizado": "2026-10-29T01:10:41+00:00",
+  "total": 131,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -1802,41 +1802,28 @@
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "codigo": "VALETECH",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-10-28",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-28T13:00:33+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "OFFCONSTRUIR",
-      "desconto": "15% OFF",
+      "codigo": "PROMOCONSTRUIR",
+      "desconto": "18% OFF",
       "compra_minima": "R$79",
-      "limite": "R$60",
-      "hasta": "2026-10-28",
+      "limite": "R$80",
+      "hasta": "",
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-28T13:00:33+00:00",
+      "detectado_em": "2026-10-28T17:31:45+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "codigo": "OFERTA",
-      "desconto": "10% OFF",
+      "codigo": "PROMOAGORA",
+      "desconto": "20% OFF",
       "compra_minima": "R$99",
       "limite": "R$50",
-      "hasta": "2026-10-28",
+      "hasta": "",
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-28T13:00:33+00:00",
+      "detectado_em": "2026-10-28T17:31:45+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
