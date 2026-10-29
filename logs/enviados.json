@@ -1190,14 +1190,16 @@
     ]
   },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-10-28T11:08:30.427968",
+    "ts": "2026-10-29T11:10:47.502055",
     "canales": {
-      "whatsapp": "2026-10-28T11:08:30.427968"
+      "whatsapp": "2026-10-29T11:10:47.502055"
     },
     "precio": 33.0,
     "precios_publicados": [
+      33.0,
       33.0
-    ]
+    ],
+    "precio_min_publicado": 33.0
   },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-10-28T11:11:51.589551",
