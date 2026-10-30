@@ -303,18 +303,6 @@
     ],
     "precio_min_publicado": 19.0
   },
-  "amz-detergente-neutro-ype-500ml-pack-com-6-unidad": {
-    "ts": "2026-10-28T22:22:43.362537",
-    "canales": {
-      "whatsapp": "2026-10-28T22:22:43.362537"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0,
-      14.0
-    ],
-    "precio_min_publicado": 14.0
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-10-30T11:11:01.493861",
     "canales": {
@@ -2810,6 +2798,16 @@
     "precio": 4237.0,
     "precios_publicados": [
       4237.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
+    "ts": "2026-10-30T22:24:45.860248",
+    "canales": {
+      "whatsapp": "2026-10-30T22:24:45.860248"
+    },
+    "precio": 759.0,
+    "precios_publicados": [
+      759.0
     ]
   }
 }
