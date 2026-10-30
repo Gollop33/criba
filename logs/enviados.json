@@ -1690,26 +1690,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
-    "ts": "2026-10-28T22:07:55.173484",
-    "canales": {
-      "whatsapp": "2026-10-28T22:07:55.173484"
-    },
-    "precio": 2379.0,
-    "precios_publicados": [
-      2379.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-10-28T22:13:32.020352",
-    "canales": {
-      "whatsapp": "2026-10-28T22:13:32.020352"
-    },
-    "precio": 1489.0,
-    "precios_publicados": [
-      1489.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
     "ts": "2026-10-29T00:28:53.678690",
     "canales": {
@@ -2810,6 +2790,16 @@
     "precio": 189.0,
     "precios_publicados": [
       189.0
+    ]
+  },
+  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
+    "ts": "2026-10-30T22:14:20.284747",
+    "canales": {
+      "whatsapp": "2026-10-30T22:14:20.284747"
+    },
+    "precio": 9999.0,
+    "precios_publicados": [
+      9999.0
     ]
   }
 }
