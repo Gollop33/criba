@@ -544,12 +544,6 @@
     ],
     "precio_min_publicado": 122.0
   },
-  "cupom-ml-916d5d860a": {
-    "ts": "2026-10-28T00:42:49.679662",
-    "canales": {
-      "whatsapp": "2026-10-28T00:42:49.679662"
-    }
-  },
   "cupom-ml-6f43bd9469": {
     "ts": "2026-10-28T00:49:54.672375",
     "canales": {
@@ -2800,6 +2794,16 @@
     "precio": 2499.0,
     "precios_publicados": [
       2499.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
+    "ts": "2026-10-30T00:46:56.719236",
+    "canales": {
+      "whatsapp": "2026-10-30T00:46:56.719236"
+    },
+    "precio": 3332.0,
+    "precios_publicados": [
+      3332.0
     ]
   }
 }
