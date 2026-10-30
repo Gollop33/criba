@@ -108,18 +108,6 @@
     ],
     "precio_min_publicado": 50.0
   },
-  "amz-ype-detergente-em-po-para-maquina-1kg-formula": {
-    "ts": "2026-10-28T20:26:53.560965",
-    "canales": {
-      "whatsapp": "2026-10-28T20:26:53.560965"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0,
-      43.0
-    ],
-    "precio_min_publicado": 43.0
-  },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-10-30T14:04:56.311867",
     "canales": {
@@ -1714,16 +1702,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
-    "ts": "2026-10-28T20:21:14.277500",
-    "canales": {
-      "whatsapp": "2026-10-28T20:21:14.277500"
-    },
-    "precio": 407.0,
-    "precios_publicados": [
-      407.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-octa-core-8gb-ramb-128": {
     "ts": "2026-10-28T20:30:21.176628",
     "canales": {
@@ -2734,6 +2712,16 @@
     "precio": 2337.0,
     "precios_publicados": [
       2337.0
+    ]
+  },
+  "amz-panela-de-arroz-eletrica-3l-preta-midea": {
+    "ts": "2026-10-30T20:29:36.846694",
+    "canales": {
+      "whatsapp": "2026-10-30T20:29:36.846694"
+    },
+    "precio": 17900.0,
+    "precios_publicados": [
+      17900.0
     ]
   }
 }
