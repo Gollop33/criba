@@ -577,46 +577,6 @@
       "whatsapp": "2026-10-29T06:49:59.758969"
     }
   },
-  "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
-    "ts": "2026-10-28T02:07:59.781822",
-    "canales": {
-      "whatsapp": "2026-10-28T02:07:59.781822"
-    },
-    "precio": 5098.0,
-    "precios_publicados": [
-      5098.0
-    ]
-  },
-  "amz-notebook-positivo-vision-c15m-intel-celeron-n": {
-    "ts": "2026-10-28T02:15:04.804443",
-    "canales": {
-      "whatsapp": "2026-10-28T02:15:04.804443"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0
-    ]
-  },
-  "amz-notebook-intel-g6500y-ram-16gb-ssd-512gb-win1": {
-    "ts": "2026-10-28T02:22:00.554820",
-    "canales": {
-      "whatsapp": "2026-10-28T02:22:00.554820"
-    },
-    "precio": 2899.0,
-    "precios_publicados": [
-      2899.0
-    ]
-  },
-  "amz-tablet-xiaomi-pad-7-284-cm-112-polegadas-8-25": {
-    "ts": "2026-10-28T02:28:51.266768",
-    "canales": {
-      "whatsapp": "2026-10-28T02:28:51.266768"
-    },
-    "precio": 2240.0,
-    "precios_publicados": [
-      2240.0
-    ]
-  },
   "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
     "ts": "2026-10-28T02:35:53.150436",
     "canales": {
@@ -2038,14 +1998,16 @@
     ]
   },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-10-28T19:11:14.109552",
+    "ts": "2026-10-30T02:34:41.533857",
     "canales": {
-      "whatsapp": "2026-10-28T19:11:14.109552"
+      "whatsapp": "2026-10-30T02:34:41.533857"
     },
     "precio": 999.0,
     "precios_publicados": [
+      999.0,
       999.0
-    ]
+    ],
+    "precio_min_publicado": 999.0
   },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-10-28T19:16:33.088703",
