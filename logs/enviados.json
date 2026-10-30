@@ -544,12 +544,6 @@
     ],
     "precio_min_publicado": 122.0
   },
-  "cupom-ml-6f43bd9469": {
-    "ts": "2026-10-28T00:49:54.672375",
-    "canales": {
-      "whatsapp": "2026-10-28T00:49:54.672375"
-    }
-  },
   "cupom-ml-483066715b": {
     "ts": "2026-10-29T01:07:56.405285",
     "canales": {
@@ -2804,6 +2798,16 @@
     "precio": 3332.0,
     "precios_publicados": [
       3332.0
+    ]
+  },
+  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
+    "ts": "2026-10-30T00:53:47.913358",
+    "canales": {
+      "whatsapp": "2026-10-30T00:53:47.913358"
+    },
+    "precio": 1490.0,
+    "precios_publicados": [
+      1490.0
     ]
   }
 }
