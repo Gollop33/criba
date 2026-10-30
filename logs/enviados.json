@@ -577,16 +577,6 @@
       "whatsapp": "2026-10-29T06:49:59.758969"
     }
   },
-  "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
-    "ts": "2026-10-28T01:36:05.317737",
-    "canales": {
-      "whatsapp": "2026-10-28T01:36:05.317737"
-    },
-    "precio": 1901.0,
-    "precios_publicados": [
-      1901.0
-    ]
-  },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-10-28T01:43:08.130353",
     "canales": {
@@ -1694,14 +1684,16 @@
     ]
   },
   "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
-    "ts": "2026-10-28T15:37:39.420457",
+    "ts": "2026-10-30T01:39:17.418301",
     "canales": {
-      "whatsapp": "2026-10-28T15:37:39.420457"
+      "whatsapp": "2026-10-30T01:39:17.418301"
     },
     "precio": 161.0,
     "precios_publicados": [
+      161.0,
       161.0
-    ]
+    ],
+    "precio_min_publicado": 161.0
   },
   "amz-grand-theft-auto-vi-playstation-5": {
     "ts": "2026-10-28T15:49:48.039861",
