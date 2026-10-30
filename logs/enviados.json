@@ -1690,16 +1690,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-10-28T21:24:16.062358",
-    "canales": {
-      "whatsapp": "2026-10-28T21:24:16.062358"
-    },
-    "precio": 178.0,
-    "precios_publicados": [
-      178.0
-    ]
-  },
   "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
     "ts": "2026-10-28T21:34:50.288154",
     "canales": {
@@ -2770,6 +2760,16 @@
     "precio": 449.0,
     "precios_publicados": [
       449.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
+    "ts": "2026-10-30T21:33:21.447718",
+    "canales": {
+      "whatsapp": "2026-10-30T21:33:21.447718"
+    },
+    "precio": 2199.0,
+    "precios_publicados": [
+      2199.0
     ]
   }
 }
