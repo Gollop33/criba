@@ -199,18 +199,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
-    "ts": "2026-10-28T21:02:35.017844",
-    "canales": {
-      "whatsapp": "2026-10-28T21:02:35.017844"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0,
-      43.0
-    ],
-    "precio_min_publicado": 43.0
-  },
   "amz-detergente-para-lavaloucas-em-pastilhas-jimo-": {
     "ts": "2026-10-30T10:37:18.006217",
     "canales": {
@@ -2772,6 +2760,16 @@
     "precio": 3134.0,
     "precios_publicados": [
       3134.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-10-30T21:03:08.377187",
+    "canales": {
+      "whatsapp": "2026-10-30T21:03:08.377187"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
