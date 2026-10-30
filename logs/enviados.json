@@ -2281,14 +2281,16 @@
     "precio_min_publicado": 69.0
   },
   "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-10-29T16:31:50.209784",
+    "ts": "2026-10-30T16:36:01.075525",
     "canales": {
-      "whatsapp": "2026-10-29T16:31:50.209784"
+      "whatsapp": "2026-10-30T16:36:01.075525"
     },
     "precio": 110.0,
     "precios_publicados": [
+      110.0,
       110.0
-    ]
+    ],
+    "precio_min_publicado": 110.0
   },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-10-29T16:36:19.858892",
