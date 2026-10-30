@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-29T21:50:59+00:00",
-  "total": 138,
+  "actualizado": "2026-10-30T03:14:11+00:00",
+  "total": 137,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -1878,20 +1878,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-29T14:04:11+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "OFERTAPRATECH",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-10-29",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-29T13:06:03+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELINOVALE",
@@ -1917,7 +1905,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-29T20:12:23+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-30T00:13:47-03:00"
 }
