@@ -1690,26 +1690,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-10-28T21:15:10.322127",
-    "canales": {
-      "whatsapp": "2026-10-28T21:15:10.322127"
-    },
-    "precio": 1400.0,
-    "precios_publicados": [
-      1400.0
-    ]
-  },
-  "amz-console-nintendo-switch-2-modelo-nacional-de-": {
-    "ts": "2026-10-28T21:17:46.042931",
-    "canales": {
-      "whatsapp": "2026-10-28T21:17:46.042931"
-    },
-    "precio": 4013.0,
-    "precios_publicados": [
-      4013.0
-    ]
-  },
   "amz-liquidificador-1400-full-oster-preto-32l-127v": {
     "ts": "2026-10-28T21:24:16.062358",
     "canales": {
@@ -2770,6 +2750,16 @@
     "precio": 4515.0,
     "precios_publicados": [
       4515.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
+    "ts": "2026-10-30T21:19:30.602439",
+    "canales": {
+      "whatsapp": "2026-10-30T21:19:30.602439"
+    },
+    "precio": 619.0,
+    "precios_publicados": [
+      619.0
     ]
   }
 }
