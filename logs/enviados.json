@@ -1702,16 +1702,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-tablet-lenovo-idea-tab-octa-core-8gb-ramb-128": {
-    "ts": "2026-10-28T20:30:21.176628",
-    "canales": {
-      "whatsapp": "2026-10-28T20:30:21.176628"
-    },
-    "precio": 1994.0,
-    "precios_publicados": [
-      1994.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-11-8256gb-wifi-grafite-cin": {
     "ts": "2026-10-28T21:07:19.880366",
     "canales": {
@@ -2722,6 +2712,16 @@
     "precio": 17900.0,
     "precios_publicados": [
       17900.0
+    ]
+  },
+  "amz-apple-iphone-16-512-gb-preto": {
+    "ts": "2026-10-30T20:36:57.738006",
+    "canales": {
+      "whatsapp": "2026-10-30T20:36:57.738006"
+    },
+    "precio": 5499.0,
+    "precios_publicados": [
+      5499.0
     ]
   }
 }
