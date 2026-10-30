@@ -1382,26 +1382,6 @@
     ],
     "precio_min_publicado": 122.0
   },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-10-28T14:50:32.338030",
-    "canales": {
-      "whatsapp": "2026-10-28T14:50:32.338030"
-    },
-    "precio": 940.0,
-    "precios_publicados": [
-      940.0
-    ]
-  },
-  "amz-nintendo-switch-sports-resort-nintendo-switch": {
-    "ts": "2026-10-28T14:54:00.717984",
-    "canales": {
-      "whatsapp": "2026-10-28T14:54:00.717984"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
     "ts": "2026-10-28T15:01:31.181158",
     "canales": {
@@ -2349,14 +2329,16 @@
     ]
   },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-10-29T14:50:28.620851",
+    "ts": "2026-10-30T14:56:32.373596",
     "canales": {
-      "whatsapp": "2026-10-29T14:50:28.620851"
+      "whatsapp": "2026-10-30T14:56:32.373596"
     },
-    "precio": 72.0,
+    "precio": 63.0,
     "precios_publicados": [
-      72.0
-    ]
+      72.0,
+      63.0
+    ],
+    "precio_min_publicado": 72.0
   },
   "amz-limpador-especialista-cif-derrete-gordura-450": {
     "ts": "2026-10-29T15:52:58.240070",
