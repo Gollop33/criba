@@ -2182,14 +2182,16 @@
     "precio_min_publicado": 49.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-10-29T01:50:03.095834",
+    "ts": "2026-10-30T08:56:55.326175",
     "canales": {
-      "whatsapp": "2026-10-29T01:50:03.095834"
+      "whatsapp": "2026-10-30T08:56:55.326175"
     },
-    "precio": 32.0,
+    "precio": 36.0,
     "precios_publicados": [
-      32.0
-    ]
+      32.0,
+      36.0
+    ],
+    "precio_min_publicado": 32.0
   },
   "amz-desodorante-bozzano-aerossol-antitranspirante": {
     "ts": "2026-10-29T01:52:06.714680",
