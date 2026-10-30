@@ -544,26 +544,6 @@
     ],
     "precio_min_publicado": 122.0
   },
-  "amz-notebook-dell-15-dc15c3100a20-intel-core-3-10": {
-    "ts": "2026-10-28T00:28:45.198922",
-    "canales": {
-      "whatsapp": "2026-10-28T00:28:45.198922"
-    },
-    "precio": 3658.0,
-    "precios_publicados": [
-      3658.0
-    ]
-  },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-10-28T00:33:32.821461",
-    "canales": {
-      "whatsapp": "2026-10-28T00:33:32.821461"
-    },
-    "precio": 162.0,
-    "precios_publicados": [
-      162.0
-    ]
-  },
   "cupom-ml-916d5d860a": {
     "ts": "2026-10-28T00:42:49.679662",
     "canales": {
@@ -2800,6 +2780,16 @@
     "precio": 521.0,
     "precios_publicados": [
       521.0
+    ]
+  },
+  "amz-smartphone-poco-x8-pro-512gb-12gb-ram-branco-": {
+    "ts": "2026-10-30T00:35:45.153816",
+    "canales": {
+      "whatsapp": "2026-10-30T00:35:45.153816"
+    },
+    "precio": 2757.0,
+    "precios_publicados": [
+      2757.0
     ]
   }
 }
