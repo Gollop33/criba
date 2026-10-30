@@ -1021,16 +1021,6 @@
     ],
     "precio_min_publicado": 5.0
   },
-  "amz-snob-papel-toalha-multiuso-folha-dupla-branca": {
-    "ts": "2026-10-28T11:42:47.248687",
-    "canales": {
-      "whatsapp": "2026-10-28T11:42:47.248687"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-morte-subita-mascara-super-hidratante-450g-lo": {
     "ts": "2026-10-29T15:19:40.108575",
     "canales": {
@@ -2330,14 +2320,16 @@
     "precio_min_publicado": 48.0
   },
   "amz-sabonete-em-barra-nivea-creme-care-90g-pack-c": {
-    "ts": "2026-10-29T11:40:44.168250",
+    "ts": "2026-10-30T11:43:06.397508",
     "canales": {
-      "whatsapp": "2026-10-29T11:40:44.168250"
+      "whatsapp": "2026-10-30T11:43:06.397508"
     },
     "precio": 19.0,
     "precios_publicados": [
+      19.0,
       19.0
-    ]
+    ],
+    "precio_min_publicado": 19.0
   },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-10-29T11:46:07.655801",
