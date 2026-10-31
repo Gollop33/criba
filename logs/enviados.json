@@ -563,18 +563,6 @@
     ],
     "precio_min_publicado": 16.0
   },
-  "amz-lencos-umedecidos-huggies-recemnascido-sem-fr": {
-    "ts": "2026-10-29T16:09:27.477593",
-    "canales": {
-      "whatsapp": "2026-10-29T16:09:27.477593"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0,
-      55.0
-    ],
-    "precio_min_publicado": 55.0
-  },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-10-30T15:56:50.697154",
     "canales": {
@@ -2200,14 +2188,16 @@
     "precio_min_publicado": 14.0
   },
   "amz-detergente-ype-clear-5l-detergente-liquido": {
-    "ts": "2026-10-30T09:49:46.282580",
+    "ts": "2026-10-31T16:09:52.749210",
     "canales": {
-      "whatsapp": "2026-10-30T09:49:46.282580"
+      "whatsapp": "2026-10-31T16:09:52.749210"
     },
-    "precio": 24.0,
+    "precio": 27.0,
     "precios_publicados": [
-      24.0
-    ]
+      24.0,
+      27.0
+    ],
+    "precio_min_publicado": 24.0
   },
   "amz-detergente-neutro-ype-pack-com-6-unidades": {
     "ts": "2026-10-31T14:04:55.471576",
