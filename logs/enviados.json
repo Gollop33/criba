@@ -2033,14 +2033,16 @@
     ]
   },
   "amz-creme-dental-colgate-sensitive-pro-alivio-ime": {
-    "ts": "2026-10-29T21:53:40.287956",
+    "ts": "2026-10-31T01:05:10.085204",
     "canales": {
-      "whatsapp": "2026-10-29T21:53:40.287956"
+      "whatsapp": "2026-10-31T01:05:10.085204"
     },
-    "precio": 25.0,
+    "precio": 19.0,
     "precios_publicados": [
-      25.0
-    ]
+      25.0,
+      19.0
+    ],
+    "precio_min_publicado": 25.0
   },
   "amz-escova-de-dente-macia-colgate-slim-soft-black": {
     "ts": "2026-10-31T00:50:03.498530",
