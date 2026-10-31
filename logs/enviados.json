@@ -1683,16 +1683,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "amz-bionature-areia-higienica-para-gatos-biodegra": {
-    "ts": "2026-10-29T01:37:42.627175",
-    "canales": {
-      "whatsapp": "2026-10-29T01:37:42.627175"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-case-externo-para-ssd-m2-nvme-usbc-31-10gbps-": {
     "ts": "2026-10-30T01:42:56.518842",
     "canales": {
@@ -2122,14 +2112,16 @@
     ]
   },
   "amz-fralda-descartavel-huggies-premium-natural-ca": {
-    "ts": "2026-10-29T22:44:11.815687",
+    "ts": "2026-10-31T01:41:20.575770",
     "canales": {
-      "whatsapp": "2026-10-29T22:44:11.815687"
+      "whatsapp": "2026-10-31T01:41:20.575770"
     },
     "precio": 33.0,
     "precios_publicados": [
+      33.0,
       33.0
-    ]
+    ],
+    "precio_min_publicado": 33.0
   },
   "amz-personal-papel-higienico-vip-folha-tripla-com": {
     "ts": "2026-10-29T22:53:42.430871",
