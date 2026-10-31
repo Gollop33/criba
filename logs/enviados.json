@@ -948,18 +948,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-omo-sabao-liquido-puro-cuidado-5l-tampa-pode-": {
-    "ts": "2026-10-29T22:17:39.184041",
-    "canales": {
-      "whatsapp": "2026-10-29T22:17:39.184041"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      54.0,
-      54.0
-    ],
-    "precio_min_publicado": 54.0
-  },
   "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
     "ts": "2026-10-31T12:14:35.124865",
     "canales": {
@@ -2806,6 +2794,16 @@
     "precio": 2792.0,
     "precios_publicados": [
       2792.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
+    "ts": "2026-10-31T22:18:45.594829",
+    "canales": {
+      "whatsapp": "2026-10-31T22:18:45.594829"
+    },
+    "precio": 1789.0,
+    "precios_publicados": [
+      1789.0
     ]
   }
 }
