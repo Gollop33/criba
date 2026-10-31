@@ -2035,14 +2035,16 @@
     ]
   },
   "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
-    "ts": "2026-10-30T00:53:47.913358",
+    "ts": "2026-10-31T23:12:06.343735",
     "canales": {
-      "whatsapp": "2026-10-30T00:53:47.913358"
+      "whatsapp": "2026-10-31T23:12:06.343735"
     },
-    "precio": 1490.0,
+    "precio": 1508.0,
     "precios_publicados": [
-      1490.0
-    ]
+      1490.0,
+      1508.0
+    ],
+    "precio_min_publicado": 1490.0
   },
   "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
     "ts": "2026-10-30T01:02:35.224186",
