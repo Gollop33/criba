@@ -1976,14 +1976,16 @@
     ]
   },
   "amz-fralda-pampers-supersequinha-tamanho-g-80-uni": {
-    "ts": "2026-10-29T20:18:17.470793",
+    "ts": "2026-10-31T06:50:04.061531",
     "canales": {
-      "whatsapp": "2026-10-29T20:18:17.470793"
+      "whatsapp": "2026-10-31T06:50:04.061531"
     },
-    "precio": 80.0,
+    "precio": 94.0,
     "precios_publicados": [
-      80.0
-    ]
+      80.0,
+      94.0
+    ],
+    "precio_min_publicado": 80.0
   },
   "amz-creme-dental-colgate-sensitive-pro-alivio-ime": {
     "ts": "2026-10-31T01:05:10.085204",
