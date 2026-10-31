@@ -76,33 +76,8 @@
       "publicado_em": "2026-10-27T19:11:58+00:00",
       "motivo": "tanda"
     },
-    "PROMOCERTA": {
-      "detectado_em": "2026-10-01T13:31:02+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "OFFAQUI": {
-      "detectado_em": "2026-10-01T13:31:02+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "ECONOMIA": {
-      "detectado_em": "2026-10-01T13:31:02+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "MELIOFF20": {
-      "detectado_em": "2026-10-01T13:31:02+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
     "BRINCAR": {
       "detectado_em": "2026-10-02T21:12:01+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "PROMOAQU": {
-      "detectado_em": "2026-10-01T13:16:01+00:00",
       "publicado_em": null,
       "motivo": "bootstrap: ya existía cuando se activó el vigía"
     },
@@ -1130,7 +1105,12 @@
       "detectado_em": "2026-10-30T18:00:10+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFNOTECH": {
+      "detectado_em": "2026-10-31T12:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-10-31T13:10:43+00:00"
+  "actualizado": "2026-10-31T14:04:51+00:00"
 }
