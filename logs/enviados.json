@@ -2285,14 +2285,16 @@
     "precio_min_publicado": 50.0
   },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-10-30T12:21:15.123796",
+    "ts": "2026-10-31T12:24:01.120038",
     "canales": {
-      "whatsapp": "2026-10-30T12:21:15.123796"
+      "whatsapp": "2026-10-31T12:24:01.120038"
     },
-    "precio": 47.0,
+    "precio": 49.0,
     "precios_publicados": [
-      47.0
-    ]
+      47.0,
+      49.0
+    ],
+    "precio_min_publicado": 47.0
   },
   "amz-finish-power-powder-advanced-detergente-para-": {
     "ts": "2026-10-30T16:15:03.820933",
