@@ -1682,16 +1682,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
-    "ts": "2026-10-29T00:28:53.678690",
-    "canales": {
-      "whatsapp": "2026-10-29T00:28:53.678690"
-    },
-    "precio": 2994.0,
-    "precios_publicados": [
-      2994.0
-    ]
-  },
   "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
     "ts": "2026-10-29T00:36:02.646595",
     "canales": {
@@ -2217,14 +2207,16 @@
     ]
   },
   "amz-fralda-turma-da-monica-baby-p-62-unidades": {
-    "ts": "2026-10-29T23:27:02.264021",
+    "ts": "2026-10-31T00:36:02.106967",
     "canales": {
-      "whatsapp": "2026-10-29T23:27:02.264021"
+      "whatsapp": "2026-10-31T00:36:02.106967"
     },
     "precio": 36.0,
     "precios_publicados": [
+      36.0,
       36.0
-    ]
+    ],
+    "precio_min_publicado": 36.0
   },
   "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
     "ts": "2026-10-30T00:00:10.143539",
