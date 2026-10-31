@@ -1682,16 +1682,6 @@
     ],
     "precio_min_publicado": 418.0
   },
-  "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-10-29T00:36:02.646595",
-    "canales": {
-      "whatsapp": "2026-10-29T00:36:02.646595"
-    },
-    "precio": 1287.0,
-    "precios_publicados": [
-      1287.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-10-29T00:42:58.857602",
     "canales": {
@@ -2197,14 +2187,16 @@
     ]
   },
   "amz-sabonete-liquido-nivea-oleo-de-banho": {
-    "ts": "2026-10-29T23:23:43.543581",
+    "ts": "2026-10-31T00:42:45.213118",
     "canales": {
-      "whatsapp": "2026-10-29T23:23:43.543581"
+      "whatsapp": "2026-10-31T00:42:45.213118"
     },
     "precio": 63.0,
     "precios_publicados": [
+      63.0,
       63.0
-    ]
+    ],
+    "precio_min_publicado": 63.0
   },
   "amz-fralda-turma-da-monica-baby-p-62-unidades": {
     "ts": "2026-10-31T00:36:02.106967",
