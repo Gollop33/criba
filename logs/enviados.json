@@ -1902,14 +1902,16 @@
     "precio_min_publicado": 27.0
   },
   "amz-sabao-liquido-ola-bebe-38l": {
-    "ts": "2026-10-29T22:29:46.075641",
+    "ts": "2026-10-31T20:46:34.864149",
     "canales": {
-      "whatsapp": "2026-10-29T22:29:46.075641"
+      "whatsapp": "2026-10-31T20:46:34.864149"
     },
-    "precio": 56.0,
+    "precio": 64.0,
     "precios_publicados": [
-      56.0
-    ]
+      56.0,
+      64.0
+    ],
+    "precio_min_publicado": 56.0
   },
   "amz-fralda-pants-huggies-supreme-care-tamanho-g-6": {
     "ts": "2026-10-31T06:22:00.671069",
