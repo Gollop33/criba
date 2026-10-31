@@ -2338,14 +2338,16 @@
     ]
   },
   "amz-ventilador-de-coluna-hepta-world-design-slim-": {
-    "ts": "2026-10-30T19:14:02.535776",
+    "ts": "2026-10-31T21:43:12.146497",
     "canales": {
-      "whatsapp": "2026-10-30T19:14:02.535776"
+      "whatsapp": "2026-10-31T21:43:12.146497"
     },
-    "precio": 99.0,
+    "precio": 149.0,
     "precios_publicados": [
-      99.0
-    ]
+      99.0,
+      149.0
+    ],
+    "precio_min_publicado": 99.0
   },
   "amz-wap-aspirador-automotivo-portatil-12v-420ml-s": {
     "ts": "2026-10-31T19:17:45.890910",
