@@ -2263,14 +2263,16 @@
     "precio_min_publicado": 36.0
   },
   "amz-areia-higienica-para-gatos-bionature-biodegra": {
-    "ts": "2026-10-30T04:12:44.635142",
+    "ts": "2026-10-31T04:34:52.879620",
     "canales": {
-      "whatsapp": "2026-10-30T04:12:44.635142"
+      "whatsapp": "2026-10-31T04:34:52.879620"
     },
-    "precio": 39.0,
+    "precio": 40.0,
     "precios_publicados": [
-      39.0
-    ]
+      39.0,
+      40.0
+    ],
+    "precio_min_publicado": 39.0
   },
   "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
     "ts": "2026-10-30T04:45:57.916420",
