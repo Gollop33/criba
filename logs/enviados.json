@@ -557,18 +557,6 @@
       "whatsapp": "2026-10-31T07:21:48.172156"
     }
   },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-10-29T07:35:50.908982",
-    "canales": {
-      "whatsapp": "2026-10-29T07:35:50.908982"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0,
-      25.0
-    ],
-    "precio_min_publicado": 25.0
-  },
   "amz-cotonetes-de-algodao-com-hastes-flexiveis-ret": {
     "ts": "2026-10-30T10:28:52.719186",
     "canales": {
@@ -2785,6 +2773,16 @@
     "precio": 3599.0,
     "precios_publicados": [
       3599.0
+    ]
+  },
+  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
+    "ts": "2026-10-31T07:36:00.553456",
+    "canales": {
+      "whatsapp": "2026-10-31T07:36:00.553456"
+    },
+    "precio": 419.0,
+    "precios_publicados": [
+      419.0
     ]
   }
 }
