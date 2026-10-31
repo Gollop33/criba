@@ -2447,14 +2447,16 @@
     ]
   },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
-    "ts": "2026-10-30T20:41:00.610273",
+    "ts": "2026-10-31T22:06:16.136849",
     "canales": {
-      "whatsapp": "2026-10-30T20:41:00.610273"
+      "whatsapp": "2026-10-31T22:06:16.136849"
     },
-    "precio": 1599.0,
+    "precio": 1706.0,
     "precios_publicados": [
-      1599.0
-    ]
+      1599.0,
+      1706.0
+    ],
+    "precio_min_publicado": 1599.0
   },
   "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
     "ts": "2026-10-30T20:43:30.946025",
