@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-31T00:53:10+00:00",
+  "actualizado": "2026-10-31T05:59:11+00:00",
   "total": 142,
   "fuentes": [
     "ML Oficial",
@@ -694,7 +694,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-30T17:02:57+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "HOJENOMELI",
@@ -1773,7 +1774,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-30T17:02:57+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "ESPECIAL",
@@ -1945,7 +1947,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-30T13:00:39+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "COMPRAS",
@@ -1973,5 +1976,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-10-31T02:58:45-03:00"
 }
