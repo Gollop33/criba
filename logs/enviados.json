@@ -1169,18 +1169,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-nivea-kit-sabonete-liquido-oleo-de-banho-200m": {
-    "ts": "2026-10-29T15:39:33.800781",
-    "canales": {
-      "whatsapp": "2026-10-29T15:39:33.800781"
-    },
-    "precio": 63.0,
-    "precios_publicados": [
-      63.0,
-      63.0
-    ],
-    "precio_min_publicado": 63.0
-  },
   "amz-coala-sabonete-liquido-maos-e-corpo-limpa-hid": {
     "ts": "2026-10-31T00:08:06.025582",
     "canales": {
@@ -1681,12 +1669,13 @@
     "precio_min_publicado": 15.0
   },
   "amz-absorvente-noturno-com-abas-sempre-livre-cobe": {
-    "ts": "2026-10-30T15:40:25.496786",
+    "ts": "2026-10-31T15:43:56.568103",
     "canales": {
-      "whatsapp": "2026-10-30T15:40:25.496786"
+      "whatsapp": "2026-10-31T15:43:56.568103"
     },
     "precio": 18.0,
     "precios_publicados": [
+      18.0,
       18.0,
       18.0
     ],
