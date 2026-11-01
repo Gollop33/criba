@@ -3,7 +3,7 @@
   "codigos": {
     "OFERTAAQUI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-31T06:57:00+00:00",
+      "publicado_em": "2026-11-01T01:15:10+00:00",
       "motivo": "tanda"
     },
     "BATEDESCONTO": {
@@ -28,7 +28,7 @@
     },
     "OFERTASMELI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-31T06:57:00+00:00",
+      "publicado_em": "2026-11-01T01:15:10+00:00",
       "motivo": "tanda"
     },
     "BARRATINHOJA": {
@@ -103,7 +103,7 @@
     },
     "MEUVALE": {
       "detectado_em": "2026-10-02T13:01:41+00:00",
-      "publicado_em": "2026-10-31T07:21:48+00:00",
+      "publicado_em": "2026-11-01T01:15:10+00:00",
       "motivo": "tanda"
     },
     "DESCONTOAQUI": {
@@ -351,7 +351,7 @@
     },
     "ACHEINOMELI": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
-      "publicado_em": "2026-10-31T07:21:48+00:00",
+      "publicado_em": "2026-11-01T01:15:10+00:00",
       "descuento": "25% OFF",
       "link_corto": true,
       "motivo": "tanda"
@@ -1112,5 +1112,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-01T01:06:28+00:00"
+  "actualizado": "2026-11-01T01:15:10+00:00"
 }
