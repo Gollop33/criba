@@ -1817,16 +1817,17 @@
     "precio_min_publicado": 80.0
   },
   "amz-creme-dental-colgate-sensitive-pro-alivio-ime": {
-    "ts": "2026-10-31T01:05:10.085204",
+    "ts": "2026-11-01T01:06:33.375207",
     "canales": {
-      "whatsapp": "2026-10-31T01:05:10.085204"
+      "whatsapp": "2026-11-01T01:06:33.375207"
     },
-    "precio": 19.0,
+    "precio": 32.0,
     "precios_publicados": [
       25.0,
-      19.0
+      19.0,
+      32.0
     ],
-    "precio_min_publicado": 25.0
+    "precio_min_publicado": 19.0
   },
   "amz-escova-de-dente-macia-colgate-slim-soft-black": {
     "ts": "2026-11-01T00:52:01.869428",
@@ -1998,16 +1999,6 @@
       1508.0
     ],
     "precio_min_publicado": 1490.0
-  },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-10-30T01:02:35.224186",
-    "canales": {
-      "whatsapp": "2026-10-30T01:02:35.224186"
-    },
-    "precio": 887.0,
-    "precios_publicados": [
-      887.0
-    ]
   },
   "amz-philips-walita-fritadeira-airfryer-serie-1000": {
     "ts": "2026-10-30T01:50:42.758929",
