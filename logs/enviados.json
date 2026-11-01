@@ -1237,18 +1237,6 @@
     ],
     "precio_min_publicado": 125.0
   },
-  "amz-kindle-16-gb-modelo-2024-leve-e-compacto-com-": {
-    "ts": "2026-10-30T01:23:00.948977",
-    "canales": {
-      "whatsapp": "2026-10-30T01:23:00.948977"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      785.0,
-      799.0
-    ],
-    "precio_min_publicado": 785.0
-  },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
     "ts": "2026-10-31T19:49:56.878150",
     "canales": {
@@ -2975,6 +2963,12 @@
     "ts": "2026-11-01T01:21:58.490021",
     "canales": {
       "whatsapp": "2026-11-01T01:21:58.490021"
+    }
+  },
+  "cupom-ml-41c89d8554": {
+    "ts": "2026-11-01T01:28:46.805062",
+    "canales": {
+      "whatsapp": "2026-11-01T01:28:46.805062"
     }
   }
 }
