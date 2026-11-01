@@ -203,19 +203,6 @@
     ],
     "precio_min_publicado": 71.0
   },
-  "amz-cabo-carregador-turbo-usbc-1-metro-trancado-d": {
-    "ts": "2026-10-30T09:42:49.745913",
-    "canales": {
-      "whatsapp": "2026-10-30T09:42:49.745913"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0,
-      22.0,
-      22.0
-    ],
-    "precio_min_publicado": 22.0
-  },
   "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
     "ts": "2026-11-01T02:29:51.849857",
     "canales": {
@@ -1484,15 +1471,16 @@
     "precio_min_publicado": 48.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-10-31T09:27:58.208780",
+    "ts": "2026-11-01T09:47:57.149721",
     "canales": {
-      "whatsapp": "2026-10-31T09:27:58.208780"
+      "whatsapp": "2026-11-01T09:47:57.149721"
     },
-    "precio": 35.0,
+    "precio": 32.0,
     "precios_publicados": [
       32.0,
       36.0,
-      35.0
+      35.0,
+      32.0
     ],
     "precio_min_publicado": 32.0
   },
