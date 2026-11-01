@@ -1994,16 +1994,6 @@
     ],
     "precio_min_publicado": 109.0
   },
-  "amz-tablet-infantil-patrulha-canina-chase-4gb-ram": {
-    "ts": "2026-10-30T00:13:13.035895",
-    "canales": {
-      "whatsapp": "2026-10-30T00:13:13.035895"
-    },
-    "precio": 521.0,
-    "precios_publicados": [
-      521.0
-    ]
-  },
   "amz-smartphone-poco-x8-pro-512gb-12gb-ram-branco-": {
     "ts": "2026-10-30T00:35:45.153816",
     "canales": {
@@ -2986,6 +2976,16 @@
     "precio": 999.0,
     "precios_publicados": [
       999.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-i5-8gb-256gb-": {
+    "ts": "2026-11-01T00:13:31.519698",
+    "canales": {
+      "whatsapp": "2026-11-01T00:13:31.519698"
+    },
+    "precio": 5423.0,
+    "precios_publicados": [
+      5423.0
     ]
   }
 }
