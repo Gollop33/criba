@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-01T23:00:53+00:00",
+  "actualizado": "2026-11-01T23:07:54+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,15 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "detergente neutro ype pack com 6 unidades",
-      "nombre": "Detergente Neutro Ypê, Pack com 6 Unidades",
-      "precio_ref": 14.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "pack nestle purina friskies racao umida para gatos",
@@ -25,31 +17,15 @@
       "precio_ref": 32.79,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "console nintendo switch 2 modelo nacional de tomada",
-      "nombre": "Console Nintendo Switch 2 - Modelo Nacional de Tomada | Bateria de até 9 Horas, Inclui Joy-Con com Suporte e Alças, 1 ano de",
-      "precio_ref": 3999.0,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "detergente neutro ype pack com 6 unidades",
+      "nombre": "Detergente Neutro Ypê, Pack com 6 Unidades",
+      "precio_ref": 14.99,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "suporte para notebook e macbook em aluminio com",
-      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
-      "precio_ref": 15.4,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "cabo de carregador de iphone fast carga rapida",
-      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
-      "precio_ref": 7.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "espatula para confeitar mimo style aco inox 15",
@@ -57,31 +33,7 @@
       "precio_ref": 11.32,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "cabo usb para lightning reforcado 1m compativel com",
-      "nombre": "Cabo USB para Lightning Reforçado 1M, Compatível com iPhone 6 7 8 X Xs 11 Se 12 Xr 13 14 Pro Max – Carregamento Turbo e Trans",
-      "precio_ref": 4.5,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "oral b pasta de dente 3d white brilliant",
-      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
-      "precio_ref": 15.57,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
-      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
-      "precio_ref": 14.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "monange sabonete liquido frutas vermelhas 240ml",
@@ -89,111 +41,31 @@
       "precio_ref": 9.49,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "la roche posay ultra cover protetor solar com",
-      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
-      "precio_ref": 69.93,
+      "busqueda": "cabo usb para lightning reforcado 1m compativel com",
+      "nombre": "Cabo USB para Lightning Reforçado 1M, Compatível com iPhone 6 7 8 X Xs 11 Se 12 Xr 13 14 Pro Max – Carregamento Turbo e Trans",
+      "precio_ref": 4.5,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "cabo de carregador de iphone fast carga rapida",
+      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
+      "precio_ref": 7.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "oral b pasta de dente 3d white brilliant",
+      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
+      "precio_ref": 15.57,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
-      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
-      "precio_ref": 28.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "algodao quadrado para bebe bellacotton 100 algodao 100",
-      "nombre": "Algodão Quadrado para Bebê Bellacotton, 100% Algodão, 100 Unidades | 100% Algodão, Macio",
-      "precio_ref": 26.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "fralda pom pom protek xg 60 unidades",
-      "nombre": "Fralda Pom Pom Protek XG, 60 Unidades",
-      "precio_ref": 61.45,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
-      "nombre": "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, 12 Discos",
-      "precio_ref": 23.39,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "areia higienica para gatos bionature biodegradavel 4kg",
-      "nombre": "Areia Higiênica para Gatos Bionature Biodegradável 4kg",
-      "precio_ref": 40.29,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "tapete higienico good pad 80cmx60cm 30 unidades",
-      "nombre": "Tapete Higiênico Good Pad 80cmx60cm 30 Unidades",
-      "precio_ref": 37.5,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "pomada bepantol baby com pro vitamina b5 100g",
-      "nombre": "Pomada Bepantol Baby com Pró-Vitamina B5, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente testado, Barre",
-      "precio_ref": 43.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "skin care hidratante facial garnier uniform matte toque",
-      "nombre": "Skin Care Hidratante Facial Garnier Uniform & Matte Toque Seco 85g | Creme com vitamina C e ácido hialurônico, reduz poros e",
-      "precio_ref": 26.61,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "hidratante corporal neutrogena body care hidrata repara 400ml",
-      "nombre": "Hidratante Corporal Neutrogena Body Care Hidrata&Repara, 400ml | Aroma Aloe Vera",
-      "precio_ref": 29.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
-      "nombre": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
-      "precio_ref": 21.29,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "detergente em po ype 1kg formula 3 em",
-      "nombre": "Detergente em Pó Ypê 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
-      "precio_ref": 36.84,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
-      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
-      "precio_ref": 32.33,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
@@ -201,111 +73,39 @@
       "precio_ref": 49.89,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
-      "nombre": "Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas | Marmitas Reutilizáveis | Vedação Total | Refratário para Forno,",
-      "precio_ref": 83.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
-      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
-      "precio_ref": 37.73,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "fralda pants huggies supreme care tamanho g 60",
-      "nombre": "Fralda Pants Huggies Supreme Care, Tamanho G, 60 Unidades",
-      "precio_ref": 75.85,
+      "busqueda": "la roche posay ultra cover protetor solar com",
+      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
+      "precio_ref": 69.93,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
-      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
-      "precio_ref": 82.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "sabonete liquido nivea oleo de banho",
-      "nombre": "Sabonete Líquido NIVEA Óleo de Banho",
-      "precio_ref": 55.43,
+      "busqueda": "algodao quadrado para bebe bellacotton 100 algodao 100",
+      "nombre": "Algodão Quadrado para Bebê Bellacotton, 100% Algodão, 100 Unidades | 100% Algodão, Macio",
+      "precio_ref": 26.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "creme dental colgate sensitive pro alivio imediato",
-      "nombre": "Creme Dental Colgate Sensitive Pro Alívio Imediato",
-      "precio_ref": 29.98,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "skin care hidratante facial garnier uniform matte toque",
+      "nombre": "Skin Care Hidratante Facial Garnier Uniform & Matte Toque Seco 85g | Creme com vitamina C e ácido hialurônico, reduz poros e",
+      "precio_ref": 26.61,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "cetaphil creme hidratante",
-      "nombre": "Cetaphil Creme Hidratante",
-      "precio_ref": 85.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "fralda descartavel huggies premium natural care hipoalergenica",
-      "nombre": "Fralda Descartável Huggies Premium Natural Care Hipoalergênica",
-      "precio_ref": 29.4,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "kit 10 potes de vidro borossilicato 640ml hermeticos",
-      "nombre": "Kit 10 Potes de Vidro Borossilicato 640ml Herméticos com 4 Travas Ideal para Marmitas e Conservação de Alimentos, Vedação Tot",
-      "precio_ref": 87.88,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "cerave locao hidratante corporal com textura fluida e",
-      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-      "precio_ref": 90.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "cif limpador especialista derrete gordura 500 ml",
-      "nombre": "Cif Limpador Especialista Derrete Gordura 500 Ml",
-      "precio_ref": 18.28,
+      "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
+      "nombre": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
+      "precio_ref": 21.29,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "scott duramax pano reutilizavel em rolo branco 174",
-      "nombre": "Scott Duramax Pano Reutilizável em Rolo, Branco, 174 Folhas (3 Unidades de 58 Folhas)",
-      "precio_ref": 36.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
-    },
-    {
-      "busqueda": "fralda turma da monica baby p 62 unidades",
-      "nombre": "Fralda Turma da Mônica Baby P, 62 Unidades",
-      "precio_ref": 42.94,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "adaptador bluetooth tp link ub500 5 3 nano",
@@ -313,7 +113,183 @@
       "precio_ref": 62.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
+      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
+      "precio_ref": 32.33,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "kit 10 potes de vidro hermeticos 640ml com",
+      "nombre": "Kit 10 Potes de Vidro Herméticos 640ml com Tampa e 4 Travas | Marmitas Reutilizáveis | Vedação Total | Refratário para Forno,",
+      "precio_ref": 83.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "fralda pom pom protek xg 60 unidades",
+      "nombre": "Fralda Pom Pom Protek XG, 60 Unidades",
+      "precio_ref": 61.45,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "hidratante corporal neutrogena body care hidrata repara 400ml",
+      "nombre": "Hidratante Corporal Neutrogena Body Care Hidrata&Repara, 400ml | Aroma Aloe Vera",
+      "precio_ref": 29.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "philips fone de ouvido com microfone taue101bk 00",
+      "nombre": "PHILIPS, Fone de Ouvido com Microfone, TAUE101BK/00, Com fio de 1,2 metros, intra-auricular, Preto",
+      "precio_ref": 28.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
+      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
+      "precio_ref": 14.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "cif limpador especialista derrete gordura 500 ml",
+      "nombre": "Cif Limpador Especialista Derrete Gordura 500 Ml",
+      "precio_ref": 18.28,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "pomada bepantol baby com pro vitamina b5 100g",
+      "nombre": "Pomada Bepantol Baby com Pró-Vitamina B5, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente testado, Barre",
+      "precio_ref": 43.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "areia higienica para gatos bionature biodegradavel 4kg",
+      "nombre": "Areia Higiênica para Gatos Bionature Biodegradável 4kg",
+      "precio_ref": 40.29,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
+      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
+      "precio_ref": 37.73,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "sabonete liquido nivea oleo de banho",
+      "nombre": "Sabonete Líquido NIVEA Óleo de Banho",
+      "precio_ref": 55.43,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "creme dental colgate sensitive pro alivio imediato",
+      "nombre": "Creme Dental Colgate Sensitive Pro Alívio Imediato",
+      "precio_ref": 29.98,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "cetaphil creme hidratante",
+      "nombre": "Cetaphil Creme Hidratante",
+      "precio_ref": 85.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "fralda pants huggies supreme care tamanho g 60",
+      "nombre": "Fralda Pants Huggies Supreme Care, Tamanho G, 60 Unidades",
+      "precio_ref": 75.85,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "duracell pilha alcalina aa pequena com 16 unidades",
+      "nombre": "Duracell Pilha Alcalina AA Pequena Com 16 Unidades – Dura até 10x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
+      "precio_ref": 82.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
+      "nombre": "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, 12 Discos",
+      "precio_ref": 23.39,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "scott duramax pano reutilizavel em rolo branco 174",
+      "nombre": "Scott Duramax Pano Reutilizável em Rolo, Branco, 174 Folhas (3 Unidades de 58 Folhas)",
+      "precio_ref": 36.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "detergente em po ype 1kg formula 3 em",
+      "nombre": "Detergente em Pó Ypê 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
+      "precio_ref": 36.84,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "fralda turma da monica baby p 62 unidades",
+      "nombre": "Fralda Turma da Mônica Baby P, 62 Unidades",
+      "precio_ref": 42.94,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "tapete higienico good pad 80cmx60cm 30 unidades",
+      "nombre": "Tapete Higiênico Good Pad 80cmx60cm 30 Unidades",
+      "precio_ref": 37.5,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "suporte para notebook e macbook em aluminio com",
+      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
+      "precio_ref": 15.4,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "fralda descartavel huggies premium natural care hipoalergenica",
+      "nombre": "Fralda Descartável Huggies Premium Natural Care Hipoalergênica",
+      "precio_ref": 29.4,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -321,7 +297,7 @@
       "precio_ref": 779.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -329,15 +305,15 @@
       "precio_ref": 2599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "jsaux split protective grip case for switch 2",
-      "nombre": "JSAUX Split Protective Grip Case for Switch 2 with Front Cover | Proteção contra quedas, encaixável, aderência ergonômica ant",
-      "precio_ref": 230.36,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "fone de ouvido headset havit h2015 pro black",
+      "nombre": "Fone de Ouvido Headset Havit H2015 Pro, Black | 5 Modos de Conexão, 2.4GHz, Bluetooth, Cabo USB e 3,5mm",
+      "precio_ref": 299.0,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
@@ -345,7 +321,7 @@
       "precio_ref": 1829.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "monitor portatil ips 15 6 full hd 1080p",
@@ -353,7 +329,7 @@
       "precio_ref": 379.99,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
@@ -361,7 +337,7 @@
       "precio_ref": 799.89,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
@@ -369,23 +345,23 @@
       "precio_ref": 529.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "whey protein concentrado pote 900g chocolate branco dux",
-      "nombre": "Whey Protein Concentrado Pote (900g), Chocolate Branco, Dux Human Health",
-      "precio_ref": 220.0,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "camesa edredom ecopluma toque de pluma queen 240x260cm",
+      "nombre": "Camesa Edredom Ecopluma Toque de Pluma Queen 240x260cm - Rosé",
+      "precio_ref": 225.47,
+      "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "electrolux liquidificador 3 em 1 1300w 3 2l",
-      "nombre": "Electrolux Liquidificador 3 em 1 1300W 3,2L TriForce EBL1300 127V Preto | 2,1L capacidade útil 12 velocidades 6 lâminas funçã",
-      "precio_ref": 179.9,
+      "busqueda": "sanduicheira eletrica cadence click 127v",
+      "nombre": "Sanduicheira Elétrica Cadence Click - 127V",
+      "precio_ref": 94.55,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
@@ -393,7 +369,7 @@
       "precio_ref": 1487.06,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
@@ -401,7 +377,7 @@
       "precio_ref": 1703.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
@@ -409,15 +385,15 @@
       "precio_ref": 3447.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "controle sem fio 8bitdo ultimate 2c para pc",
-      "nombre": "Controle sem fio 8BitDo Ultimate 2C para PC Windows e Android - 1000 Hz, joysticks Hall Effect, Hortelã",
-      "precio_ref": 195.0,
+      "busqueda": "playstation 5 slim disk 1tb 1 controle branco",
+      "nombre": "PlayStation 5 Slim Disk 1TB 1 Controle Branco Sony",
+      "precio_ref": 4999.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "roteador wi fi 6 dual band w6 1500",
@@ -425,7 +401,7 @@
       "precio_ref": 196.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "adaptador bluetooth 5 0 usb para pc e",
@@ -433,7 +409,7 @@
       "precio_ref": 1990.0,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "smartphone xiaomi poco x8 pro 512gb 12gb ram",
@@ -441,15 +417,15 @@
       "precio_ref": 2802.3,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
-      "busqueda": "vitafor omegafor plus 120 capsulas",
-      "nombre": "Vitafor - Omegafor Plus- 120 Cápsulas",
-      "precio_ref": 124.9,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "papel higienico neve toque de seda folha dupla",
+      "nombre": "Papel Higiênico Neve Toque de Seda Folha Dupla 40 rolos 30M",
+      "precio_ref": 91.99,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
@@ -457,7 +433,7 @@
       "precio_ref": 5999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
@@ -465,7 +441,7 @@
       "precio_ref": 1999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "playstation5 slim disk",
@@ -473,7 +449,7 @@
       "precio_ref": 4880.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     },
     {
       "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
@@ -481,7 +457,31 @@
       "precio_ref": 395.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-01T23:00:53+00:00"
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "grand theft auto vi playstation 5",
+      "nombre": "Grand Theft Auto VI - PlayStation 5",
+      "precio_ref": 449.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "air fryer oven philco 12l 1800w 4 em",
+      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
+      "precio_ref": 644.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
+    },
+    {
+      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
+      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
+      "precio_ref": 159.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-01T23:07:54+00:00"
     }
   ]
 }
