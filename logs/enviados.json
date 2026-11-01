@@ -2163,26 +2163,6 @@
     ],
     "precio_min_publicado": 91.0
   },
-  "amz-ventilador-de-mesa-mondial-vsp40w-super-power": {
-    "ts": "2026-10-30T20:16:31.269986",
-    "canales": {
-      "whatsapp": "2026-10-30T20:16:31.269986"
-    },
-    "precio": 158.0,
-    "precios_publicados": [
-      158.0
-    ]
-  },
-  "amz-smart-tv-lg-55-4k-uhd-nano-ai-55un85cbpsabwz": {
-    "ts": "2026-10-30T20:20:12.020364",
-    "canales": {
-      "whatsapp": "2026-10-30T20:20:12.020364"
-    },
-    "precio": 2337.0,
-    "precios_publicados": [
-      2337.0
-    ]
-  },
   "amz-panela-de-arroz-eletrica-3l-preta-midea": {
     "ts": "2026-10-30T20:29:36.846694",
     "canales": {
@@ -2516,14 +2496,16 @@
     "precio_min_publicado": 23.0
   },
   "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
-    "ts": "2026-10-31T20:21:39.880670",
+    "ts": "2026-11-01T20:23:01.303118",
     "canales": {
-      "whatsapp": "2026-10-31T20:21:39.880670"
+      "whatsapp": "2026-11-01T20:23:01.303118"
     },
-    "precio": 26.0,
+    "precio": 20.0,
     "precios_publicados": [
-      26.0
-    ]
+      26.0,
+      20.0
+    ],
+    "precio_min_publicado": 26.0
   },
   "amz-chaleira-eletrica-18-litros-220v-1200w-em-aco": {
     "ts": "2026-10-31T20:42:28.722747",
