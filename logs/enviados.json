@@ -1212,18 +1212,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
-    "ts": "2026-10-30T01:39:17.418301",
-    "canales": {
-      "whatsapp": "2026-10-30T01:39:17.418301"
-    },
-    "precio": 161.0,
-    "precios_publicados": [
-      161.0,
-      161.0
-    ],
-    "precio_min_publicado": 161.0
-  },
   "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
     "ts": "2026-10-31T06:43:04.950348",
     "canales": {
@@ -2976,5 +2964,15 @@
     "canales": {
       "whatsapp": "2026-11-01T01:35:47.397172"
     }
+  },
+  "amz-monange-sabonete-liquido-frutas-vermelhas-240": {
+    "ts": "2026-11-01T01:42:04.043546",
+    "canales": {
+      "whatsapp": "2026-11-01T01:42:04.043546"
+    },
+    "precio": 9.0,
+    "precios_publicados": [
+      9.0
+    ]
   }
 }
