@@ -1986,16 +1986,6 @@
     ],
     "precio_min_publicado": 109.0
   },
-  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
-    "ts": "2026-10-30T00:46:56.719236",
-    "canales": {
-      "whatsapp": "2026-10-30T00:46:56.719236"
-    },
-    "precio": 3332.0,
-    "precios_publicados": [
-      3332.0
-    ]
-  },
   "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
     "ts": "2026-10-31T23:12:06.343735",
     "canales": {
@@ -2958,6 +2948,16 @@
     "precio": 5423.0,
     "precios_publicados": [
       5423.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
+    "ts": "2026-11-01T00:47:45.090674",
+    "canales": {
+      "whatsapp": "2026-11-01T00:47:45.090674"
+    },
+    "precio": 2845.0,
+    "precios_publicados": [
+      2845.0
     ]
   }
 }
