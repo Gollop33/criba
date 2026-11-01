@@ -1488,18 +1488,6 @@
     ],
     "precio_min_publicado": 139.0
   },
-  "amz-controle-dualsense-playstation-5": {
-    "ts": "2026-10-30T03:29:10.601334",
-    "canales": {
-      "whatsapp": "2026-10-30T03:29:10.601334"
-    },
-    "precio": 418.0,
-    "precios_publicados": [
-      418.0,
-      418.0
-    ],
-    "precio_min_publicado": 418.0
-  },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
     "ts": "2026-10-31T05:33:46.227233",
     "canales": {
@@ -2953,6 +2941,16 @@
     "precio": 55.0,
     "precios_publicados": [
       55.0
+    ]
+  },
+  "amz-tapete-higienico-good-pad-80cmx60cm-30-unidad": {
+    "ts": "2026-11-01T03:34:11.215618",
+    "canales": {
+      "whatsapp": "2026-11-01T03:34:11.215618"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
