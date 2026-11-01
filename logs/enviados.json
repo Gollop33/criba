@@ -2404,14 +2404,16 @@
     ]
   },
   "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-10-30T21:58:11.709278",
+    "ts": "2026-11-01T13:56:49.779810",
     "canales": {
-      "whatsapp": "2026-10-30T21:58:11.709278"
+      "whatsapp": "2026-11-01T13:56:49.779810"
     },
     "precio": 3499.0,
     "precios_publicados": [
+      3499.0,
       3499.0
-    ]
+    ],
+    "precio_min_publicado": 3499.0
   },
   "amz-lg-ultrawide-monitor-curvo-34-va-100hz-5ms-gt": {
     "ts": "2026-10-30T21:59:16.170236",
