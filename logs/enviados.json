@@ -2541,14 +2541,16 @@
     ]
   },
   "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
-    "ts": "2026-10-31T14:38:17.207472",
+    "ts": "2026-11-01T14:42:58.628247",
     "canales": {
-      "whatsapp": "2026-10-31T14:38:17.207472"
+      "whatsapp": "2026-11-01T14:42:58.628247"
     },
     "precio": 40.0,
     "precios_publicados": [
+      40.0,
       40.0
-    ]
+    ],
+    "precio_min_publicado": 40.0
   },
   "amz-cooler-fan-c3tech-storm-f7100bk-120mm-silenci": {
     "ts": "2026-10-31T18:08:33.154617",
