@@ -91,11 +91,6 @@
       "publicado_em": null,
       "motivo": "bootstrap: ya existía cuando se activó el vigía"
     },
-    "DESCONTO": {
-      "detectado_em": "2026-10-02T13:01:41+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
     "VALEPROMO": {
       "detectado_em": "2026-10-02T13:01:41+00:00",
       "publicado_em": "2026-11-01T01:28:46+00:00",
@@ -1112,5 +1107,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-01T12:58:12+00:00"
+  "actualizado": "2026-11-01T13:06:35+00:00"
 }
