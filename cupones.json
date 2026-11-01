@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-10-31T19:41:26+00:00",
-  "total": 143,
+  "actualizado": "2026-11-01T01:09:32+00:00",
+  "total": 140,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -1484,20 +1484,6 @@
       "estado": "ativo"
     },
     {
-      "codigo": "MOVEIS100",
-      "desconto": "R$100 OFF",
-      "compra_minima": "R$399",
-      "limite": "R$100",
-      "hasta": "2026-10-31",
-      "categoria": "Casa",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-23T17:00:19+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
-    },
-    {
       "codigo": "MOVEIS200",
       "desconto": "R$200 OFF",
       "compra_minima": "R$1.599",
@@ -1628,20 +1614,6 @@
       "detectado_em": "2026-10-24T12:01:02+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "PROMOISDIN20",
-      "desconto": "15% OFF",
-      "compra_minima": "R$5",
-      "limite": "R$145",
-      "hasta": "2026-10-31",
-      "categoria": "Beleza",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-25T12:01:01+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
     },
     {
       "codigo": "VANTAGEMMELI",
@@ -1973,19 +1945,6 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-30T18:00:10+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "OFFNOTECH",
-      "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "2026-10-31",
-      "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-31T12:01:02+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
