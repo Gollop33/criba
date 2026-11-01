@@ -76,11 +76,6 @@
       "publicado_em": "2026-10-27T19:11:58+00:00",
       "motivo": "tanda"
     },
-    "BRINCAR": {
-      "detectado_em": "2026-10-02T21:12:01+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
     "VALEPROMO": {
       "detectado_em": "2026-10-02T13:01:41+00:00",
       "publicado_em": "2026-11-01T01:28:46+00:00",
@@ -1122,5 +1117,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-01T21:06:24+00:00"
+  "actualizado": "2026-11-01T23:25:29+00:00"
 }

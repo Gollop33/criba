@@ -2194,76 +2194,6 @@
     ],
     "precio_min_publicado": 4084.0
   },
-  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
-    "ts": "2026-10-30T21:12:27.184560",
-    "canales": {
-      "whatsapp": "2026-10-30T21:12:27.184560"
-    },
-    "precio": 4515.0,
-    "precios_publicados": [
-      4515.0
-    ]
-  },
-  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
-    "ts": "2026-10-30T21:19:30.602439",
-    "canales": {
-      "whatsapp": "2026-10-30T21:19:30.602439"
-    },
-    "precio": 619.0,
-    "precios_publicados": [
-      619.0
-    ]
-  },
-  "amz-grand-theft-auto-vi-playstation-5": {
-    "ts": "2026-10-30T21:24:01.431599",
-    "canales": {
-      "whatsapp": "2026-10-30T21:24:01.431599"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
-    "ts": "2026-10-30T21:33:21.447718",
-    "canales": {
-      "whatsapp": "2026-10-30T21:33:21.447718"
-    },
-    "precio": 2199.0,
-    "precios_publicados": [
-      2199.0
-    ]
-  },
-  "amz-panela-de-pressao-tramontina-vancouver-effect": {
-    "ts": "2026-10-30T21:37:11.810082",
-    "canales": {
-      "whatsapp": "2026-10-30T21:37:11.810082"
-    },
-    "precio": 174.0,
-    "precios_publicados": [
-      174.0
-    ]
-  },
-  "amz-notebook-positivo-vision-c14-celeron-4gb-ram-": {
-    "ts": "2026-10-30T21:46:10.856766",
-    "canales": {
-      "whatsapp": "2026-10-30T21:46:10.856766"
-    },
-    "precio": 1648.0,
-    "precios_publicados": [
-      1648.0
-    ]
-  },
-  "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
-    "ts": "2026-10-30T21:52:54.298834",
-    "canales": {
-      "whatsapp": "2026-10-30T21:52:54.298834"
-    },
-    "precio": 572.0,
-    "precios_publicados": [
-      572.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-01T13:56:49.779810",
     "canales": {
@@ -2275,66 +2205,6 @@
       3499.0
     ],
     "precio_min_publicado": 3499.0
-  },
-  "amz-lg-ultrawide-monitor-curvo-34-va-100hz-5ms-gt": {
-    "ts": "2026-10-30T21:59:16.170236",
-    "canales": {
-      "whatsapp": "2026-10-30T21:59:16.170236"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
-  },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-10-30T22:02:20.140745",
-    "canales": {
-      "whatsapp": "2026-10-30T22:02:20.140745"
-    },
-    "precio": 5979.0,
-    "precios_publicados": [
-      5979.0
-    ]
-  },
-  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
-    "ts": "2026-10-30T22:07:26.977171",
-    "canales": {
-      "whatsapp": "2026-10-30T22:07:26.977171"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0
-    ]
-  },
-  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
-    "ts": "2026-10-30T22:14:20.284747",
-    "canales": {
-      "whatsapp": "2026-10-30T22:14:20.284747"
-    },
-    "precio": 9999.0,
-    "precios_publicados": [
-      9999.0
-    ]
-  },
-  "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
-    "ts": "2026-10-30T22:16:42.600895",
-    "canales": {
-      "whatsapp": "2026-10-30T22:16:42.600895"
-    },
-    "precio": 4237.0,
-    "precios_publicados": [
-      4237.0
-    ]
-  },
-  "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
-    "ts": "2026-10-30T22:24:45.860248",
-    "canales": {
-      "whatsapp": "2026-10-30T22:24:45.860248"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
   },
   "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
     "ts": "2026-10-31T07:07:51.680258",
@@ -2946,6 +2816,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-pelicula-de-vidro-temperado-premium-9h-compat": {
+    "ts": "2026-11-01T23:25:32.848817",
+    "canales": {
+      "whatsapp": "2026-11-01T23:25:32.848817"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
