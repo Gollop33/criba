@@ -2382,14 +2382,16 @@
     "precio_min_publicado": 1599.0
   },
   "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
-    "ts": "2026-10-30T20:43:30.946025",
+    "ts": "2026-11-01T00:57:17.124831",
     "canales": {
-      "whatsapp": "2026-10-30T20:43:30.946025"
+      "whatsapp": "2026-11-01T00:57:17.124831"
     },
     "precio": 4084.0,
     "precios_publicados": [
+      4084.0,
       4084.0
-    ]
+    ],
+    "precio_min_publicado": 4084.0
   },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-10-30T20:44:48.786026",
