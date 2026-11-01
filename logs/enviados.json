@@ -2504,14 +2504,16 @@
     ]
   },
   "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
-    "ts": "2026-10-31T20:04:04.663098",
+    "ts": "2026-11-01T20:15:15.349681",
     "canales": {
-      "whatsapp": "2026-10-31T20:04:04.663098"
+      "whatsapp": "2026-11-01T20:15:15.349681"
     },
-    "precio": 23.0,
+    "precio": 26.0,
     "precios_publicados": [
-      23.0
-    ]
+      23.0,
+      26.0
+    ],
+    "precio_min_publicado": 23.0
   },
   "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
     "ts": "2026-10-31T20:21:39.880670",
