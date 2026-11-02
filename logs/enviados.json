@@ -2602,14 +2602,16 @@
     ]
   },
   "amz-premier-pet-golden-special-racao-seca-para-ga": {
-    "ts": "2026-11-01T10:58:15.545990",
+    "ts": "2026-11-02T15:04:44.191935",
     "canales": {
-      "whatsapp": "2026-11-01T10:58:15.545990"
+      "whatsapp": "2026-11-02T15:04:44.191935"
     },
-    "precio": 145.0,
+    "precio": 146.0,
     "precios_publicados": [
-      145.0
-    ]
+      145.0,
+      146.0
+    ],
+    "precio_min_publicado": 145.0
   },
   "amz-console-nintendo-switch-2-modelo-nacional-de-": {
     "ts": "2026-11-01T11:02:19.559400",
