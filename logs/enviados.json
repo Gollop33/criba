@@ -50,15 +50,16 @@
     "precio_min_publicado": 59.0
   },
   "amz-scott-duramax-pano-reutilizavel-em-rolo-branc": {
-    "ts": "2026-11-01T06:26:09.471166",
+    "ts": "2026-11-02T07:38:12.393572",
     "canales": {
-      "whatsapp": "2026-11-01T06:26:09.471166"
+      "whatsapp": "2026-11-02T07:38:12.393572"
     },
     "precio": 36.0,
     "precios_publicados": [
       33.0,
       33.0,
       33.0,
+      36.0,
       36.0,
       36.0
     ],
@@ -469,12 +470,6 @@
       120.0
     ],
     "precio_min_publicado": 120.0
-  },
-  "cupom-ml-26602c9dee": {
-    "ts": "2026-10-31T07:21:48.172156",
-    "canales": {
-      "whatsapp": "2026-10-31T07:21:48.172156"
-    }
   },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-11-01T16:14:31.449159",
@@ -2115,46 +2110,6 @@
       3499.0
     ],
     "precio_min_publicado": 3499.0
-  },
-  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
-    "ts": "2026-10-31T07:07:51.680258",
-    "canales": {
-      "whatsapp": "2026-10-31T07:07:51.680258"
-    },
-    "precio": 1498.0,
-    "precios_publicados": [
-      1498.0
-    ]
-  },
-  "amz-apple-iphone-16-128-gb-branco": {
-    "ts": "2026-10-31T07:15:00.412572",
-    "canales": {
-      "whatsapp": "2026-10-31T07:15:00.412572"
-    },
-    "precio": 5063.0,
-    "precios_publicados": [
-      5063.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-go-15-e1504fa-amd-ryze": {
-    "ts": "2026-10-31T07:29:01.807701",
-    "canales": {
-      "whatsapp": "2026-10-31T07:29:01.807701"
-    },
-    "precio": 3599.0,
-    "precios_publicados": [
-      3599.0
-    ]
-  },
-  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
-    "ts": "2026-10-31T07:36:00.553456",
-    "canales": {
-      "whatsapp": "2026-10-31T07:36:00.553456"
-    },
-    "precio": 419.0,
-    "precios_publicados": [
-      419.0
-    ]
   },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-10-31T07:42:47.212380",
