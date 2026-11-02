@@ -1864,15 +1864,16 @@
     "precio_min_publicado": 23.0
   },
   "amz-detergente-neutro-ype-pack-com-6-unidades": {
-    "ts": "2026-11-01T14:08:03.847943",
+    "ts": "2026-11-02T22:37:58.868410",
     "canales": {
-      "whatsapp": "2026-11-01T14:08:03.847943"
+      "whatsapp": "2026-11-02T22:37:58.868410"
     },
-    "precio": 17.0,
+    "precio": 14.0,
     "precios_publicados": [
       14.0,
       17.0,
-      17.0
+      17.0,
+      14.0
     ],
     "precio_min_publicado": 14.0
   },
@@ -2145,16 +2146,6 @@
       111.0
     ],
     "precio_min_publicado": 107.0
-  },
-  "amz-apple-iphone-15-128-gb-preto": {
-    "ts": "2026-10-31T22:29:00.592958",
-    "canales": {
-      "whatsapp": "2026-10-31T22:29:00.592958"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
   },
   "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
     "ts": "2026-10-31T22:38:27.840699",
