@@ -1062,19 +1062,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-coala-sabonete-liquido-maos-e-corpo-limpa-hid": {
-    "ts": "2026-10-31T00:08:06.025582",
-    "canales": {
-      "whatsapp": "2026-10-31T00:08:06.025582"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      10.0,
-      10.0,
-      17.0
-    ],
-    "precio_min_publicado": 10.0
-  },
   "amz-vitafor-omegafor-plus-120-capsulas": {
     "ts": "2026-11-01T07:22:01.324823",
     "canales": {
@@ -2314,14 +2301,16 @@
     "precio_min_publicado": 26.0
   },
   "amz-chaleira-eletrica-18-litros-220v-1200w-em-aco": {
-    "ts": "2026-10-31T20:42:28.722747",
+    "ts": "2026-11-02T00:09:11.316696",
     "canales": {
-      "whatsapp": "2026-10-31T20:42:28.722747"
+      "whatsapp": "2026-11-02T00:09:11.316696"
     },
     "precio": 30.0,
     "precios_publicados": [
+      30.0,
       30.0
-    ]
+    ],
+    "precio_min_publicado": 30.0
   },
   "amz-stanley-garrafa-termica-quick-flip-black-710m": {
     "ts": "2026-10-31T21:16:14.803157",
