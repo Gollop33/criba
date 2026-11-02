@@ -469,12 +469,6 @@
     ],
     "precio_min_publicado": 120.0
   },
-  "cupom-ml-1cc92ec111": {
-    "ts": "2026-10-31T06:07:45.790082",
-    "canales": {
-      "whatsapp": "2026-10-31T06:07:45.790082"
-    }
-  },
   "cupom-ml-e51ab19ee8": {
     "ts": "2026-10-31T06:57:00.340471",
     "canales": {
@@ -1794,17 +1788,18 @@
     "precio_min_publicado": 26.0
   },
   "amz-pomada-bepantol-baby-com-provitamina-b5-100g-": {
-    "ts": "2026-11-01T05:58:14.990169",
+    "ts": "2026-11-02T06:35:55.534727",
     "canales": {
-      "whatsapp": "2026-11-01T05:58:14.990169"
+      "whatsapp": "2026-11-02T06:35:55.534727"
     },
     "precio": 43.0,
     "precios_publicados": [
       44.0,
       44.0,
+      43.0,
       43.0
     ],
-    "precio_min_publicado": 44.0
+    "precio_min_publicado": 43.0
   },
   "amz-sabonete-liquido-nivea-oleo-de-banho": {
     "ts": "2026-11-01T00:44:55.305957",
