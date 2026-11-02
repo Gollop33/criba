@@ -292,17 +292,18 @@
     "precio_min_publicado": 62.0
   },
   "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-01T06:48:17.129741",
+    "ts": "2026-11-02T07:03:59.307692",
     "canales": {
-      "whatsapp": "2026-11-01T06:48:17.129741"
+      "whatsapp": "2026-11-02T07:03:59.307692"
     },
-    "precio": 15.0,
+    "precio": 18.0,
     "precios_publicados": [
       15.0,
       15.0,
       15.0,
       15.0,
-      15.0
+      15.0,
+      18.0
     ],
     "precio_min_publicado": 15.0
   },
@@ -468,12 +469,6 @@
       120.0
     ],
     "precio_min_publicado": 120.0
-  },
-  "cupom-ml-e51ab19ee8": {
-    "ts": "2026-10-31T06:57:00.340471",
-    "canales": {
-      "whatsapp": "2026-10-31T06:57:00.340471"
-    }
   },
   "cupom-ml-26602c9dee": {
     "ts": "2026-10-31T07:21:48.172156",
@@ -1093,19 +1088,6 @@
     ],
     "precio_min_publicado": 91.0
   },
-  "amz-mouse-gamer-sem-fio-redragon-astrolabe-lite-p": {
-    "ts": "2026-10-31T06:36:03.755435",
-    "canales": {
-      "whatsapp": "2026-10-31T06:36:03.755435"
-    },
-    "precio": 102.0,
-    "precios_publicados": [
-      83.0,
-      83.0,
-      102.0
-    ],
-    "precio_min_publicado": 83.0
-  },
   "amz-cetaphil-creme-hidratante": {
     "ts": "2026-11-02T05:15:07.548785",
     "canales": {
@@ -1666,18 +1648,6 @@
       108.0
     ],
     "precio_min_publicado": 110.0
-  },
-  "amz-fralda-pampers-supersequinha-tamanho-g-80-uni": {
-    "ts": "2026-10-31T06:50:04.061531",
-    "canales": {
-      "whatsapp": "2026-10-31T06:50:04.061531"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      80.0,
-      94.0
-    ],
-    "precio_min_publicado": 80.0
   },
   "amz-creme-dental-colgate-sensitive-pro-alivio-ime": {
     "ts": "2026-11-02T01:07:59.151951",
