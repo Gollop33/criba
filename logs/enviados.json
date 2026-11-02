@@ -2153,16 +2153,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-smartphone-xiaomi-poco-x7-pro-5g-nfc-black-pr": {
-    "ts": "2026-10-31T23:37:11.319843",
-    "canales": {
-      "whatsapp": "2026-10-31T23:37:11.319843"
-    },
-    "precio": 2455.0,
-    "precios_publicados": [
-      2455.0
-    ]
-  },
   "amz-tablet-tcl-a1-plus-128gb-16gb-de-ram6gb-ram10": {
     "ts": "2026-10-31T23:39:03.236699",
     "canales": {
@@ -2474,14 +2464,16 @@
     "precio_min_publicado": 34.0
   },
   "amz-kit-cronograma-capilar-lola-cosmetics-bem-dit": {
-    "ts": "2026-11-01T23:35:20.068972",
+    "ts": "2026-11-02T23:37:18.140799",
     "canales": {
-      "whatsapp": "2026-11-01T23:35:20.068972"
+      "whatsapp": "2026-11-02T23:37:18.140799"
     },
     "precio": 37.0,
     "precios_publicados": [
+      37.0,
       37.0
-    ]
+    ],
+    "precio_min_publicado": 37.0
   },
   "amz-boni-natural-creme-dental-com-oleos-naturais-": {
     "ts": "2026-11-01T23:42:05.378174",
