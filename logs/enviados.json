@@ -1827,18 +1827,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-adaptador-bluetooth-50-usb-para-pc-e-notebook": {
-    "ts": "2026-10-31T00:01:18.548938",
-    "canales": {
-      "whatsapp": "2026-10-31T00:01:18.548938"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0,
-      13.0
-    ],
-    "precio_min_publicado": 13.0
-  },
   "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
     "ts": "2026-11-01T01:08:08.435876",
     "canales": {
@@ -2867,6 +2855,16 @@
     "precio": 50.0,
     "precios_publicados": [
       50.0
+    ]
+  },
+  "amz-sabonete-liquido-corporal-protex-enriquecido-": {
+    "ts": "2026-11-02T00:02:06.122137",
+    "canales": {
+      "whatsapp": "2026-11-02T00:02:06.122137"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
