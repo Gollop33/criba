@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-01T23:22:47+00:00",
-  "total": 145,
+  "actualizado": "2026-11-02T04:43:23+00:00",
+  "total": 144,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -1999,19 +1999,7 @@
       "detectado_em": "2026-11-01T12:05:18+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "CASAML",
-      "desconto": "15% OFF",
-      "compra_minima": "R$79",
-      "limite": "R$70",
-      "hasta": "2026-11-01",
-      "categoria": "Casa",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-01T12:05:18+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-02T01:42:57-03:00"
 }
