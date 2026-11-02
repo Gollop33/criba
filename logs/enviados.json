@@ -2152,26 +2152,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-8gb": {
-    "ts": "2026-10-31T23:22:38.618428",
-    "canales": {
-      "whatsapp": "2026-10-31T23:22:38.618428"
-    },
-    "precio": 4063.0,
-    "precios_publicados": [
-      4063.0
-    ]
-  },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-10-31T23:29:05.583152",
-    "canales": {
-      "whatsapp": "2026-10-31T23:29:05.583152"
-    },
-    "precio": 798.0,
-    "precios_publicados": [
-      798.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x7-pro-5g-nfc-black-pr": {
     "ts": "2026-10-31T23:37:11.319843",
     "canales": {
@@ -2481,14 +2461,16 @@
     ]
   },
   "amz-pelicula-de-vidro-temperado-premium-9h-compat": {
-    "ts": "2026-11-01T23:25:32.848817",
+    "ts": "2026-11-02T23:29:43.116201",
     "canales": {
-      "whatsapp": "2026-11-01T23:25:32.848817"
+      "whatsapp": "2026-11-02T23:29:43.116201"
     },
     "precio": 34.0,
     "precios_publicados": [
+      34.0,
       34.0
-    ]
+    ],
+    "precio_min_publicado": 34.0
   },
   "amz-kit-cronograma-capilar-lola-cosmetics-bem-dit": {
     "ts": "2026-11-01T23:35:20.068972",
