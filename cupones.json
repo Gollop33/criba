@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-02T20:29:24+00:00",
-  "total": 144,
+  "actualizado": "2026-11-02T20:37:13+00:00",
+  "total": 148,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -821,14 +821,14 @@
     },
     {
       "codigo": "COMPRAPREFERIDA",
-      "desconto": "15% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$150",
+      "desconto": "10% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$100",
       "hasta": "",
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-10T16:01:57+00:00",
+      "detectado_em": "2026-11-02T12:03:21+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
@@ -1997,6 +1997,58 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-01T12:05:18+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "EXCLUSIVO",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-02T12:03:21+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "SEMPRECONSTRU",
+      "desconto": "12% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-02T12:03:21+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "SEMPREAUTO",
+      "desconto": "10% OFF",
+      "compra_minima": "R$99",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-02T12:03:21+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "SEMPRECASA",
+      "desconto": "15% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$60",
+      "hasta": "2026-11-02",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-02T12:03:21+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
