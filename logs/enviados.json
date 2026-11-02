@@ -1464,15 +1464,16 @@
     "precio_min_publicado": 45.0
   },
   "amz-fralda-pampers-premium-care-tamanho-p-40-unid": {
-    "ts": "2026-11-01T13:14:33.218389",
+    "ts": "2026-11-02T22:01:25.001575",
     "canales": {
-      "whatsapp": "2026-11-01T13:14:33.218389"
+      "whatsapp": "2026-11-02T22:01:25.001575"
     },
     "precio": 65.0,
     "precios_publicados": [
       58.0,
       58.0,
       58.0,
+      65.0,
       65.0
     ],
     "precio_min_publicado": 58.0
@@ -2151,26 +2152,6 @@
       111.0
     ],
     "precio_min_publicado": 107.0
-  },
-  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-10-31T21:54:53.348534",
-    "canales": {
-      "whatsapp": "2026-10-31T21:54:53.348534"
-    },
-    "precio": 5299.0,
-    "precios_publicados": [
-      5299.0
-    ]
-  },
-  "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
-    "ts": "2026-10-31T21:56:35.604331",
-    "canales": {
-      "whatsapp": "2026-10-31T21:56:35.604331"
-    },
-    "precio": 2529.0,
-    "precios_publicados": [
-      2529.0
-    ]
   },
   "amz-smartphone-xiaomi-poco-x8-pro-512gb-12gb-ram-": {
     "ts": "2026-10-31T22:15:10.810472",
