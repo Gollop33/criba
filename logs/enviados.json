@@ -2148,16 +2148,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-10-31T23:01:00.311607",
-    "canales": {
-      "whatsapp": "2026-10-31T23:01:00.311607"
-    },
-    "precio": 598.0,
-    "precios_publicados": [
-      598.0
-    ]
-  },
   "amz-microondas-electrolux-23l-cor-inox-efficient-": {
     "ts": "2026-10-31T23:06:59.617676",
     "canales": {
@@ -2824,6 +2814,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-appel-home-toalha-velvet-flower-aveludada-100": {
+    "ts": "2026-11-02T23:02:14.286744",
+    "canales": {
+      "whatsapp": "2026-11-02T23:02:14.286744"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
