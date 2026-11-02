@@ -879,20 +879,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-growth-supplements-creatina-monohidratada-250": {
-    "ts": "2026-10-31T13:28:55.327616",
-    "canales": {
-      "whatsapp": "2026-10-31T13:28:55.327616"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0,
-      39.0,
-      39.0,
-      39.0
-    ],
-    "precio_min_publicado": 39.0
-  },
   "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
     "ts": "2026-11-01T16:52:17.555021",
     "canales": {
@@ -1911,15 +1897,16 @@
     "precio_min_publicado": 50.0
   },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-11-01T12:28:19.008577",
+    "ts": "2026-11-02T13:35:00.090305",
     "canales": {
-      "whatsapp": "2026-11-01T12:28:19.008577"
+      "whatsapp": "2026-11-02T13:35:00.090305"
     },
-    "precio": 49.0,
+    "precio": 44.0,
     "precios_publicados": [
       47.0,
       49.0,
-      49.0
+      49.0,
+      44.0
     ],
     "precio_min_publicado": 47.0
   },
