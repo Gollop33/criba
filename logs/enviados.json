@@ -1602,19 +1602,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-limpador-especialista-cif-derrete-gordura-450": {
-    "ts": "2026-10-31T20:40:09.226447",
-    "canales": {
-      "whatsapp": "2026-10-31T20:40:09.226447"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      7.0,
-      7.0,
-      12.0
-    ],
-    "precio_min_publicado": 7.0
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-11-01T18:51:28.331381",
     "canales": {
@@ -1697,18 +1684,6 @@
       29.0
     ],
     "precio_min_publicado": 27.0
-  },
-  "amz-sabao-liquido-ola-bebe-38l": {
-    "ts": "2026-10-31T20:46:34.864149",
-    "canales": {
-      "whatsapp": "2026-10-31T20:46:34.864149"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      56.0,
-      64.0
-    ],
-    "precio_min_publicado": 56.0
   },
   "amz-fralda-pants-huggies-supreme-care-tamanho-g-6": {
     "ts": "2026-11-01T07:15:06.701040",
@@ -2872,6 +2847,16 @@
     "precio": 9899.0,
     "precios_publicados": [
       9899.0
+    ]
+  },
+  "amz-cerave-gel-de-limpeza-facial-para-pele-oleosa": {
+    "ts": "2026-11-02T20:47:22.210634",
+    "canales": {
+      "whatsapp": "2026-11-02T20:47:22.210634"
+    },
+    "precio": 66.0,
+    "precios_publicados": [
+      66.0
     ]
   }
 }
