@@ -2153,16 +2153,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-tablet-tcl-a1-plus-128gb-16gb-de-ram6gb-ram10": {
-    "ts": "2026-10-31T23:39:03.236699",
-    "canales": {
-      "whatsapp": "2026-10-31T23:39:03.236699"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0
-    ]
-  },
   "amz-tablet-xiaomi-pad-7-284-cm-112-polegadas-8-25": {
     "ts": "2026-10-31T23:48:00.934791",
     "canales": {
@@ -2476,14 +2466,16 @@
     "precio_min_publicado": 37.0
   },
   "amz-boni-natural-creme-dental-com-oleos-naturais-": {
-    "ts": "2026-11-01T23:42:05.378174",
+    "ts": "2026-11-02T23:46:14.068099",
     "canales": {
-      "whatsapp": "2026-11-01T23:42:05.378174"
+      "whatsapp": "2026-11-02T23:46:14.068099"
     },
     "precio": 13.0,
     "precios_publicados": [
+      13.0,
       13.0
-    ]
+    ],
+    "precio_min_publicado": 13.0
   },
   "amz-mouse-com-fio-multi-classic-box-usb-1200-dpi-": {
     "ts": "2026-11-01T23:46:31.601797",
