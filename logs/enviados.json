@@ -2147,16 +2147,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
-    "ts": "2026-10-31T22:38:27.840699",
-    "canales": {
-      "whatsapp": "2026-10-31T22:38:27.840699"
-    },
-    "precio": 5749.0,
-    "precios_publicados": [
-      5749.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-11-8256gb-wifi-grafite-cin": {
     "ts": "2026-10-31T22:40:53.374553",
     "canales": {
@@ -2833,6 +2823,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "amz-dove-shampoo-reconstrucao-aminoacido-370ml": {
+    "ts": "2026-11-02T22:39:37.701261",
+    "canales": {
+      "whatsapp": "2026-11-02T22:39:37.701261"
+    },
+    "precio": 22.0,
+    "precios_publicados": [
+      22.0
     ]
   }
 }
