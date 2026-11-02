@@ -771,20 +771,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-kit-sabonete-phebo-amarelo-720g": {
-    "ts": "2026-10-31T16:31:25.982381",
-    "canales": {
-      "whatsapp": "2026-10-31T16:31:25.982381"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      35.0,
-      41.0,
-      41.0,
-      41.0
-    ],
-    "precio_min_publicado": 35.0
-  },
   "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
     "ts": "2026-11-02T15:35:43.171221",
     "canales": {
@@ -2550,14 +2536,16 @@
     "precio_min_publicado": 113.0
   },
   "amz-galaxy-tab-s10-lite-128gb-tela-109": {
-    "ts": "2026-11-01T07:56:52.019597",
+    "ts": "2026-11-02T16:31:46.986346",
     "canales": {
-      "whatsapp": "2026-11-01T07:56:52.019597"
+      "whatsapp": "2026-11-02T16:31:46.986346"
     },
-    "precio": 2200.0,
+    "precio": 2015.0,
     "precios_publicados": [
-      2200.0
-    ]
+      2200.0,
+      2015.0
+    ],
+    "precio_min_publicado": 2200.0
   },
   "amz-controle-sem-fio-dualsense-edicao-limitada-gr": {
     "ts": "2026-11-01T08:07:47.076738",
