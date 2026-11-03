@@ -2023,18 +2023,6 @@
     ],
     "precio_min_publicado": 91.0
   },
-  "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
-    "ts": "2026-11-01T14:42:58.628247",
-    "canales": {
-      "whatsapp": "2026-11-01T14:42:58.628247"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0,
-      40.0
-    ],
-    "precio_min_publicado": 40.0
-  },
   "amz-cooler-fan-c3tech-storm-f7100bk-120mm-silenci": {
     "ts": "2026-11-01T19:13:00.862210",
     "canales": {
@@ -2839,6 +2827,16 @@
     "precio": 894.0,
     "precios_publicados": [
       894.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g35-5g-256gb-4gb-ram": {
+    "ts": "2026-11-03T14:50:26.946674",
+    "canales": {
+      "whatsapp": "2026-11-03T14:50:26.946674"
+    },
+    "precio": 1332.0,
+    "precios_publicados": [
+      1332.0
     ]
   }
 }
