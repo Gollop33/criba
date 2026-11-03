@@ -1761,19 +1761,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-sabonete-liquido-nivea-oleo-de-banho": {
-    "ts": "2026-11-01T00:44:55.305957",
-    "canales": {
-      "whatsapp": "2026-11-01T00:44:55.305957"
-    },
-    "precio": 63.0,
-    "precios_publicados": [
-      63.0,
-      63.0,
-      63.0
-    ],
-    "precio_min_publicado": 63.0
-  },
   "amz-fralda-turma-da-monica-baby-p-62-unidades": {
     "ts": "2026-11-02T00:49:53.538200",
     "canales": {
@@ -2156,16 +2143,6 @@
       111.0
     ],
     "precio_min_publicado": 107.0
-  },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-11-01T00:47:45.090674",
-    "canales": {
-      "whatsapp": "2026-11-01T00:47:45.090674"
-    },
-    "precio": 2845.0,
-    "precios_publicados": [
-      2845.0
-    ]
   },
   "amz-notebook-positivo-vision-c15m-intel-celeron-n": {
     "ts": "2026-11-01T01:00:35.939045",
@@ -2747,6 +2724,16 @@
     "precio": 75.0,
     "precios_publicados": [
       75.0
+    ]
+  },
+  "amz-petix-tapete-higienico-supersecao-para-caes-3": {
+    "ts": "2026-11-03T00:49:40.185432",
+    "canales": {
+      "whatsapp": "2026-11-03T00:49:40.185432"
+    },
+    "precio": 84.0,
+    "precios_publicados": [
+      84.0
     ]
   }
 }
