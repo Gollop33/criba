@@ -1693,19 +1693,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
-    "ts": "2026-11-01T08:21:49.938553",
-    "canales": {
-      "whatsapp": "2026-11-01T08:21:49.938553"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0,
-      26.0,
-      26.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "amz-hidratante-corporal-neutrogena-body-care-hidr": {
     "ts": "2026-11-02T01:56:06.038311",
     "canales": {
@@ -2477,14 +2464,16 @@
     ]
   },
   "amz-lavaroupas-liquido-omo-lavagem-perfeita-frasc": {
-    "ts": "2026-11-02T08:16:47.400527",
+    "ts": "2026-11-03T08:22:11.401939",
     "canales": {
-      "whatsapp": "2026-11-02T08:16:47.400527"
+      "whatsapp": "2026-11-03T08:22:11.401939"
     },
     "precio": 23.0,
     "precios_publicados": [
+      23.0,
       23.0
-    ]
+    ],
+    "precio_min_publicado": 23.0
   },
   "amz-pneu-pretinho-15l": {
     "ts": "2026-11-02T11:56:17.312218",
