@@ -2214,26 +2214,6 @@
     ],
     "precio_min_publicado": 2200.0
   },
-  "amz-controle-sem-fio-dualsense-edicao-limitada-gr": {
-    "ts": "2026-11-01T08:07:47.076738",
-    "canales": {
-      "whatsapp": "2026-11-01T08:07:47.076738"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
-  "amz-playstation5-pro": {
-    "ts": "2026-11-01T08:15:06.076119",
-    "canales": {
-      "whatsapp": "2026-11-01T08:15:06.076119"
-    },
-    "precio": 7599.0,
-    "precios_publicados": [
-      7599.0
-    ]
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-11-02T09:19:36.401856",
     "canales": {
@@ -2764,6 +2744,16 @@
     "precio": 89.0,
     "precios_publicados": [
       89.0
+    ]
+  },
+  "amz-fralda-pampers-pants-ajuste-total-tamanho-g-9": {
+    "ts": "2026-11-03T08:15:07.991518",
+    "canales": {
+      "whatsapp": "2026-11-03T08:15:07.991518"
+    },
+    "precio": 108.0,
+    "precios_publicados": [
+      108.0
     ]
   }
 }
