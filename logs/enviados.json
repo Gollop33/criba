@@ -2037,18 +2037,6 @@
     ],
     "precio_min_publicado": 91.0
   },
-  "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
-    "ts": "2026-11-01T00:57:17.124831",
-    "canales": {
-      "whatsapp": "2026-11-01T00:57:17.124831"
-    },
-    "precio": 4084.0,
-    "precios_publicados": [
-      4084.0,
-      4084.0
-    ],
-    "precio_min_publicado": 4084.0
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-01T13:56:49.779810",
     "canales": {
@@ -2144,16 +2132,6 @@
       111.0
     ],
     "precio_min_publicado": 107.0
-  },
-  "amz-notebook-positivo-vision-c15m-intel-celeron-n": {
-    "ts": "2026-11-01T01:00:35.939045",
-    "canales": {
-      "whatsapp": "2026-11-01T01:00:35.939045"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0
-    ]
   },
   "cupom-ml-18e34d18ed": {
     "ts": "2026-11-01T01:15:10.092312",
@@ -2364,14 +2342,16 @@
     ]
   },
   "amz-arvore-de-natal-luxo-pinheiro-180m-800-galhos": {
-    "ts": "2026-11-01T19:21:55.571344",
+    "ts": "2026-11-03T01:01:11.671749",
     "canales": {
-      "whatsapp": "2026-11-01T19:21:55.571344"
+      "whatsapp": "2026-11-03T01:01:11.671749"
     },
     "precio": 140.0,
     "precios_publicados": [
+      140.0,
       140.0
-    ]
+    ],
+    "precio_min_publicado": 140.0
   },
   "amz-pelicula-de-vidro-temperado-premium-9h-compat": {
     "ts": "2026-11-02T23:29:43.116201",
