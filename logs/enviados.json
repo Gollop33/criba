@@ -2498,14 +2498,16 @@
     ]
   },
   "amz-dove-hidratante-serum-corporal-glicolico-repa": {
-    "ts": "2026-11-02T00:34:37.812222",
+    "ts": "2026-11-03T00:39:45.685329",
     "canales": {
-      "whatsapp": "2026-11-02T00:34:37.812222"
+      "whatsapp": "2026-11-03T00:39:45.685329"
     },
-    "precio": 28.0,
+    "precio": 21.0,
     "precios_publicados": [
-      28.0
-    ]
+      28.0,
+      21.0
+    ],
+    "precio_min_publicado": 28.0
   },
   "amz-kit-com-3-ventoinhas-gamer-rise-mode-aura-pro": {
     "ts": "2026-11-02T01:03:55.736623",
