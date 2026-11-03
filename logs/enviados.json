@@ -129,18 +129,19 @@
     "precio_min_publicado": 45.0
   },
   "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-11-02T11:00:19.748965",
+    "ts": "2026-11-03T11:08:37.691455",
     "canales": {
-      "whatsapp": "2026-11-02T11:00:19.748965"
+      "whatsapp": "2026-11-03T11:08:37.691455"
     },
-    "precio": 7.0,
+    "precio": 5.0,
     "precios_publicados": [
       7.0,
       7.0,
       7.0,
       7.0,
       7.0,
-      7.0
+      7.0,
+      5.0
     ],
     "precio_min_publicado": 7.0
   },
@@ -2237,16 +2238,6 @@
       146.0
     ],
     "precio_min_publicado": 145.0
-  },
-  "amz-console-nintendo-switch-2-modelo-nacional-de-": {
-    "ts": "2026-11-01T11:02:19.559400",
-    "canales": {
-      "whatsapp": "2026-11-01T11:02:19.559400"
-    },
-    "precio": 4325.0,
-    "precios_publicados": [
-      4325.0
-    ]
   },
   "amz-pro-controller-nintendo-switch-2": {
     "ts": "2026-11-01T13:20:35.796995",
