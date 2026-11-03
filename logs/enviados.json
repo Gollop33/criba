@@ -288,9 +288,9 @@
     "precio_min_publicado": 62.0
   },
   "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-02T07:03:59.307692",
+    "ts": "2026-11-03T07:24:59.688886",
     "canales": {
-      "whatsapp": "2026-11-02T07:03:59.307692"
+      "whatsapp": "2026-11-03T07:24:59.688886"
     },
     "precio": 18.0,
     "precios_publicados": [
@@ -299,6 +299,7 @@
       15.0,
       15.0,
       15.0,
+      18.0,
       18.0
     ],
     "precio_min_publicado": 15.0
@@ -1717,19 +1718,6 @@
       29.0
     ],
     "precio_min_publicado": 27.0
-  },
-  "amz-fralda-pants-huggies-supreme-care-tamanho-g-6": {
-    "ts": "2026-11-01T07:15:06.701040",
-    "canales": {
-      "whatsapp": "2026-11-01T07:15:06.701040"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      65.0,
-      89.0,
-      89.0
-    ],
-    "precio_min_publicado": 65.0
   },
   "amz-fralda-descartavel-huggies-premium-natural-ca": {
     "ts": "2026-11-02T03:03:15.522223",
