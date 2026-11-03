@@ -1294,17 +1294,18 @@
     "precio_min_publicado": 44.0
   },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-02T14:58:28.767603",
+    "ts": "2026-11-03T20:29:16.370777",
     "canales": {
-      "whatsapp": "2026-11-02T14:58:28.767603"
+      "whatsapp": "2026-11-03T20:29:16.370777"
     },
-    "precio": 99.0,
+    "precio": 75.0,
     "precios_publicados": [
       94.0,
       94.0,
       94.0,
       99.0,
-      99.0
+      99.0,
+      75.0
     ],
     "precio_min_publicado": 94.0
   },
@@ -2012,18 +2013,6 @@
       91.0
     ],
     "precio_min_publicado": 91.0
-  },
-  "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
-    "ts": "2026-11-01T20:23:01.303118",
-    "canales": {
-      "whatsapp": "2026-11-01T20:23:01.303118"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      26.0,
-      20.0
-    ],
-    "precio_min_publicado": 26.0
   },
   "amz-chaleira-eletrica-18-litros-220v-1200w-em-aco": {
     "ts": "2026-11-02T00:09:11.316696",
