@@ -632,21 +632,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-protetor-diario-carefree-com-fragrancia-80-un": {
-    "ts": "2026-11-01T12:04:39.062999",
-    "canales": {
-      "whatsapp": "2026-11-01T12:04:39.062999"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      18.0,
-      18.0,
-      26.0,
-      26.0,
-      22.0
-    ],
-    "precio_min_publicado": 18.0
-  },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-11-02T15:12:30.607063",
     "canales": {
@@ -2803,6 +2788,16 @@
     "precio": 185.0,
     "precios_publicados": [
       185.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
+    "ts": "2026-11-03T12:05:54.721340",
+    "canales": {
+      "whatsapp": "2026-11-03T12:05:54.721340"
+    },
+    "precio": 5999.0,
+    "precios_publicados": [
+      5999.0
     ]
   }
 }
