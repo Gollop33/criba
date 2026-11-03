@@ -2154,26 +2154,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
-    "ts": "2026-11-01T00:10:12.214438",
-    "canales": {
-      "whatsapp": "2026-11-01T00:10:12.214438"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
-  "amz-notebook-acer-aspire-go-15-core-i5-8gb-256gb-": {
-    "ts": "2026-11-01T00:13:31.519698",
-    "canales": {
-      "whatsapp": "2026-11-01T00:13:31.519698"
-    },
-    "precio": 5423.0,
-    "precios_publicados": [
-      5423.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-11-01T00:47:45.090674",
     "canales": {
@@ -2483,14 +2463,16 @@
     ]
   },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
-    "ts": "2026-11-02T00:12:43.808011",
+    "ts": "2026-11-03T00:14:34.535814",
     "canales": {
-      "whatsapp": "2026-11-02T00:12:43.808011"
+      "whatsapp": "2026-11-03T00:14:34.535814"
     },
     "precio": 52.0,
     "precios_publicados": [
+      52.0,
       52.0
-    ]
+    ],
+    "precio_min_publicado": 52.0
   },
   "amz-isdin-sabonete-liquido-corporal-ureadin-bath-": {
     "ts": "2026-11-02T00:19:40.801884",
