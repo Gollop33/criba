@@ -87,22 +87,6 @@
     ],
     "precio_min_publicado": 5.0
   },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-11-02T21:45:24.381186",
-    "canales": {
-      "whatsapp": "2026-11-02T21:45:24.381186"
-    },
-    "precio": 60.0,
-    "precios_publicados": [
-      47.0,
-      47.0,
-      47.0,
-      60.0,
-      47.0,
-      60.0
-    ],
-    "precio_min_publicado": 47.0
-  },
   "amz-finish-advanced-detergente-para-lava-loucas-e": {
     "ts": "2026-11-03T21:53:51.791110",
     "canales": {
@@ -3292,6 +3276,16 @@
     "precio": 759.0,
     "precios_publicados": [
       759.0
+    ]
+  },
+  "amz-corsair-memoria-vengeance-ddr5-ram-16gb-1x16g": {
+    "ts": "2026-11-04T21:49:37.772360",
+    "canales": {
+      "whatsapp": "2026-11-04T21:49:37.772360"
+    },
+    "precio": 1468.0,
+    "precios_publicados": [
+      1468.0
     ]
   }
 }
