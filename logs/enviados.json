@@ -2253,16 +2253,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-dove-shampoo-reconstrucao-aminoacido-370ml": {
-    "ts": "2026-11-02T22:39:37.701261",
-    "canales": {
-      "whatsapp": "2026-11-02T22:39:37.701261"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "amz-desodorante-nivea-aerosol-men": {
     "ts": "2026-11-03T22:53:02.757069",
     "canales": {
@@ -3325,6 +3315,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-water-cooler-arctic-liquid-freezer-iii-pro-36": {
+    "ts": "2026-11-04T22:40:09.856885",
+    "canales": {
+      "whatsapp": "2026-11-04T22:40:09.856885"
+    },
+    "precio": 988.0,
+    "precios_publicados": [
+      988.0
     ]
   }
 }
