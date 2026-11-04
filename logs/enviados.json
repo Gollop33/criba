@@ -2022,18 +2022,6 @@
       "whatsapp": "2026-11-04T01:40:24.848322"
     }
   },
-  "amz-monange-sabonete-liquido-frutas-vermelhas-240": {
-    "ts": "2026-11-02T01:45:18.796691",
-    "canales": {
-      "whatsapp": "2026-11-02T01:45:18.796691"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0,
-      9.0
-    ],
-    "precio_min_publicado": 9.0
-  },
   "amz-fralda-pom-pom-protek-xg-60-unidades": {
     "ts": "2026-11-03T02:14:58.928117",
     "canales": {
@@ -2507,14 +2495,16 @@
     ]
   },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
-    "ts": "2026-11-03T01:25:15.616301",
+    "ts": "2026-11-04T01:49:00.068958",
     "canales": {
-      "whatsapp": "2026-11-03T01:25:15.616301"
+      "whatsapp": "2026-11-04T01:49:00.068958"
     },
-    "precio": 89.0,
+    "precio": 69.0,
     "precios_publicados": [
-      89.0
-    ]
+      89.0,
+      69.0
+    ],
+    "precio_min_publicado": 89.0
   },
   "amz-fralda-pom-pom-protek-g-42-unidades": {
     "ts": "2026-11-03T02:40:47.087721",
