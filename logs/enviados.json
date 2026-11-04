@@ -1792,17 +1792,18 @@
     "precio_min_publicado": 39.0
   },
   "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
-    "ts": "2026-11-03T08:43:12.718968",
+    "ts": "2026-11-04T11:59:20.289565",
     "canales": {
-      "whatsapp": "2026-11-03T08:43:12.718968"
+      "whatsapp": "2026-11-04T11:59:20.289565"
     },
-    "precio": 63.0,
+    "precio": 62.0,
     "precios_publicados": [
       63.0,
       63.0,
       63.0,
       63.0,
-      63.0
+      63.0,
+      62.0
     ],
     "precio_min_publicado": 63.0
   },
@@ -2238,16 +2239,6 @@
       33.0
     ],
     "precio_min_publicado": 23.0
-  },
-  "amz-pneu-pretinho-15l": {
-    "ts": "2026-11-02T11:56:17.312218",
-    "canales": {
-      "whatsapp": "2026-11-02T11:56:17.312218"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
   },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
     "ts": "2026-11-02T12:01:48.950888",
