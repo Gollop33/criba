@@ -2519,14 +2519,16 @@
     "precio_min_publicado": 33.0
   },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-11-03T03:07:41.303397",
+    "ts": "2026-11-04T10:10:58.107827",
     "canales": {
-      "whatsapp": "2026-11-03T03:07:41.303397"
+      "whatsapp": "2026-11-04T10:10:58.107827"
     },
-    "precio": 50.0,
+    "precio": 39.0,
     "precios_publicados": [
-      50.0
-    ]
+      50.0,
+      39.0
+    ],
+    "precio_min_publicado": 50.0
   },
   "amz-fralda-huggies-supreme-care-roupinha-xg": {
     "ts": "2026-11-03T03:39:27.552719",
