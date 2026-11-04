@@ -1755,19 +1755,6 @@
     ],
     "precio_min_publicado": 96.0
   },
-  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
-    "ts": "2026-11-02T17:13:47.966581",
-    "canales": {
-      "whatsapp": "2026-11-02T17:13:47.966581"
-    },
-    "precio": 1518.0,
-    "precios_publicados": [
-      1490.0,
-      1508.0,
-      1518.0
-    ],
-    "precio_min_publicado": 1490.0
-  },
   "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
     "ts": "2026-11-04T10:01:04.263387",
     "canales": {
@@ -2270,16 +2257,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-apple-iphone-17-pro-256-gb-azul-intenso": {
-    "ts": "2026-11-02T17:19:19.145518",
-    "canales": {
-      "whatsapp": "2026-11-02T17:19:19.145518"
-    },
-    "precio": 9899.0,
-    "precios_publicados": [
-      9899.0
-    ]
-  },
   "amz-cerave-gel-de-limpeza-facial-para-pele-oleosa": {
     "ts": "2026-11-03T21:01:30.149899",
     "canales": {
@@ -2697,14 +2674,16 @@
     ]
   },
   "amz-celular-samsung-galaxy-a17-256gb-8gb-50mp-tel": {
-    "ts": "2026-11-03T14:56:31.819803",
+    "ts": "2026-11-04T17:22:14.549792",
     "canales": {
-      "whatsapp": "2026-11-03T14:56:31.819803"
+      "whatsapp": "2026-11-04T17:22:14.549792"
     },
     "precio": 1199.0,
     "precios_publicados": [
+      1199.0,
       1199.0
-    ]
+    ],
+    "precio_min_publicado": 1199.0
   },
   "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
     "ts": "2026-11-03T15:33:01.771784",
