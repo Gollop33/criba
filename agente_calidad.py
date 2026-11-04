@@ -33,6 +33,12 @@ import sys
 import unicodedata
 from pathlib import Path
 
+# Log auditable del curador (definido en ia.py). Nunca debe tumbar el portero.
+try:
+    from ia import registrar_decision_curador
+except Exception:
+    registrar_decision_curador = lambda *a, **k: None
+
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     try:
         sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding="utf-8", errors="replace")
@@ -210,6 +216,9 @@ def evaluar_post(post, hist=None, verificar_links=True):
     res["detalle_precio"] = dp
     if vp == "sospechoso":
         res["avisos"].append(f"precio: {dp}")
+        registrar_decision_curador("aviso", f"precio sospechoso: {dp}",
+                                   post.get("id_post") or (post.get("titulo") or "")[:50],
+                                   "agente_calidad")
 
     if verificar_links:
         ok, det = verificar_link(post.get("url"))
@@ -217,6 +226,9 @@ def evaluar_post(post, hist=None, verificar_links=True):
         res["detalle_link"] = det
         if ok is False:
             res["bloqueos"].append(f"link roto: {det}")
+            registrar_decision_curador("bloqueo", f"link roto: {det}",
+                                       post.get("id_post") or (post.get("titulo") or "")[:50],
+                                       "agente_calidad")
 
     if res["bloqueos"]:
         res["apto"] = False

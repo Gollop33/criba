@@ -324,6 +324,8 @@ def cosechar_api(token=None):
                     "cuota_valor": cuota_valor,
                     "cuotas_sin_interes": sin_interes,
                     "envio_gratis": envio_gratis,
+                    # Señal de ventas: la lee gerar_fila_posts.py (piso VENTAS_MIN)
+                    "ventas": res.get("sold_quantity") or 0,
                 })
         except Exception as e:
             continue
