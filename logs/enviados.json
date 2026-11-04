@@ -2544,14 +2544,16 @@
     ]
   },
   "amz-bebida-proteica-liquida-piracanjuba-proforce-": {
-    "ts": "2026-11-03T08:50:05.337885",
+    "ts": "2026-11-04T10:51:37.996716",
     "canales": {
-      "whatsapp": "2026-11-03T08:50:05.337885"
+      "whatsapp": "2026-11-04T10:51:37.996716"
     },
     "precio": 91.0,
     "precios_publicados": [
+      91.0,
       91.0
-    ]
+    ],
+    "precio_min_publicado": 91.0
   },
   "amz-monitor-gamer-aoc-24-full-hd-100hz-1ms-adapti": {
     "ts": "2026-11-03T09:28:47.799588",
