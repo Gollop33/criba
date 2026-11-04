@@ -2270,16 +2270,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-monitor-gamer-philips-evnia-27-ips-fhd-144hz-": {
-    "ts": "2026-11-02T17:09:56.614363",
-    "canales": {
-      "whatsapp": "2026-11-02T17:09:56.614363"
-    },
-    "precio": 699.0,
-    "precios_publicados": [
-      699.0
-    ]
-  },
   "amz-apple-iphone-17-pro-256-gb-azul-intenso": {
     "ts": "2026-11-02T17:19:19.145518",
     "canales": {
@@ -3094,6 +3084,16 @@
     "precio": 735.0,
     "precios_publicados": [
       735.0
+    ]
+  },
+  "amz-grand-theft-auto-vi-playstation-5": {
+    "ts": "2026-11-04T17:12:35.669393",
+    "canales": {
+      "whatsapp": "2026-11-04T17:12:35.669393"
+    },
+    "precio": 449.0,
+    "precios_publicados": [
+      449.0
     ]
   }
 }
