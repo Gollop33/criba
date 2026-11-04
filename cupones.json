@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-04T11:45:11+00:00",
+  "actualizado": "2026-11-04T15:44:01+00:00",
   "total": 159,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -20,7 +20,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-11-03T19:40:45+00:00"
+      "capturado_em": "2026-11-04T15:44:01+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -36,7 +36,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-11-03T19:40:45+00:00"
+      "capturado_em": "2026-11-04T15:44:01+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -152,7 +152,7 @@
       "fonte": "ML Oficial",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "capturado_em": "2026-11-03T19:40:45+00:00"
+      "capturado_em": "2026-11-04T15:44:01+00:00"
     },
     {
       "tienda": "Mercado Livre",
@@ -398,9 +398,11 @@
       "detectado_em": "2026-10-09T13:36:08+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo",
+      "estado": {
+        "id": "ACTIVE"
+      },
       "titulo": "30% OFF com MEUVALE",
-      "capturado_em": "2026-11-03T19:40:45+00:00"
+      "capturado_em": "2026-11-04T15:44:01+00:00"
     },
     {
       "codigo": "MELIOFFAQUI",
