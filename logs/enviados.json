@@ -2798,14 +2798,16 @@
     ]
   },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-03T18:45:56.300439",
+    "ts": "2026-11-04T18:46:42.288461",
     "canales": {
-      "whatsapp": "2026-11-03T18:45:56.300439"
+      "whatsapp": "2026-11-04T18:46:42.288461"
     },
     "precio": 20.0,
     "precios_publicados": [
+      20.0,
       20.0
-    ]
+    ],
+    "precio_min_publicado": 20.0
   },
   "amz-esponja-esfrelux-leve-4-pague-3": {
     "ts": "2026-11-03T18:51:53.746892",
