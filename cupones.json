@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-03T23:47:54+00:00",
-  "total": 160,
+  "actualizado": "2026-11-04T05:07:41+00:00",
+  "total": 159,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -398,9 +398,7 @@
       "detectado_em": "2026-10-09T13:36:08+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": {
-        "id": "ACTIVE"
-      },
+      "estado": "ativo",
       "titulo": "30% OFF com MEUVALE",
       "capturado_em": "2026-11-03T19:40:45+00:00"
     },
@@ -1712,7 +1710,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-03T19:03:42+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MEUMIMO",
@@ -2113,19 +2112,6 @@
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "codigo": "CASAMELI",
-      "desconto": "20% OFF",
-      "compra_minima": "R$79",
-      "limite": "R$80",
-      "hasta": "2026-11-03",
-      "categoria": "Casa",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-03T12:32:44+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
       "codigo": "COMPRAAGORA",
       "desconto": "25% OFF",
       "compra_minima": "R$1",
@@ -2136,7 +2122,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-03T12:15:32+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "PROMOIMPERDIVEL",
@@ -2149,7 +2136,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-03T12:15:32+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "GANHEDESCONTO",
@@ -2162,7 +2150,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-03T12:15:32+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MOMENTOPROMO",
@@ -2175,7 +2164,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-03T12:15:32+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SEMPREPROMO",
@@ -2214,7 +2204,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-03T19:03:42+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-04T02:07:15-03:00"
 }
