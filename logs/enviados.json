@@ -1982,19 +1982,6 @@
     ],
     "precio_min_publicado": 97.0
   },
-  "amz-papel-higienico-neve-toque-de-seda-folha-dupl": {
-    "ts": "2026-11-02T01:00:39.343064",
-    "canales": {
-      "whatsapp": "2026-11-02T01:00:39.343064"
-    },
-    "precio": 91.0,
-    "precios_publicados": [
-      91.0,
-      91.0,
-      91.0
-    ],
-    "precio_min_publicado": 91.0
-  },
   "amz-stanley-garrafa-termica-quick-flip-black-710m": {
     "ts": "2026-11-03T21:56:51.065602",
     "canales": {
@@ -3043,6 +3030,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-tota": {
+    "ts": "2026-11-04T01:01:17.307680",
+    "canales": {
+      "whatsapp": "2026-11-04T01:01:17.307680"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
