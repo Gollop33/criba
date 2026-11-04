@@ -111,26 +111,6 @@
       "publicado_em": "2026-10-08T08:40:13+00:00",
       "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
-    "ACHADOSMELI": {
-      "detectado_em": "2026-10-05T13:19:05+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "TUDOMELI": {
-      "detectado_em": "2026-10-05T13:19:05+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "TODOSEU": {
-      "detectado_em": "2026-10-05T13:19:05+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "OFERTASJA": {
-      "detectado_em": "2026-10-05T13:19:05+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
     "SAINDOBARRATO": {
       "detectado_em": "2026-10-06T14:00:05+00:00",
       "publicado_em": null,
@@ -1187,5 +1167,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-04T13:14:34+00:00"
+  "actualizado": "2026-11-04T13:21:57+00:00"
 }
