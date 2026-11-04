@@ -2843,14 +2843,16 @@
     ]
   },
   "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
-    "ts": "2026-11-03T19:40:47.306535",
+    "ts": "2026-11-04T19:44:15.229695",
     "canales": {
-      "whatsapp": "2026-11-03T19:40:47.306535"
+      "whatsapp": "2026-11-04T19:44:15.229695"
     },
     "precio": 16.0,
     "precios_publicados": [
+      16.0,
       16.0
-    ]
+    ],
+    "precio_min_publicado": 16.0
   },
   "amz-adaptador-bluetooth-usb-54-para-pc-e-notebook": {
     "ts": "2026-11-03T19:42:23.788006",
