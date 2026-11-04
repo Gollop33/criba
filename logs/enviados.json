@@ -2526,14 +2526,16 @@
     "precio_min_publicado": 50.0
   },
   "amz-fralda-huggies-supreme-care-roupinha-xg": {
-    "ts": "2026-11-03T03:39:27.552719",
+    "ts": "2026-11-04T11:02:19.034862",
     "canales": {
-      "whatsapp": "2026-11-03T03:39:27.552719"
+      "whatsapp": "2026-11-04T11:02:19.034862"
     },
-    "precio": 89.0,
+    "precio": 94.0,
     "precios_publicados": [
-      89.0
-    ]
+      89.0,
+      94.0
+    ],
+    "precio_min_publicado": 89.0
   },
   "amz-fralda-pampers-pants-ajuste-total-tamanho-g-9": {
     "ts": "2026-11-03T08:15:07.991518",
