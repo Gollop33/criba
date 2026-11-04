@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-04T18:25:45+00:00",
+  "actualizado": "2026-11-04T23:50:19+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,151 +9,15 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "cabo de carregador de iphone fast carga rapida",
-      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
-      "precio_ref": 5.81,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
-      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition | Creatina",
-      "precio_ref": 68.9,
+      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
+      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
+      "precio_ref": 25.45,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "tapete higienico good pad 80cmx60cm 30 unidades",
-      "nombre": "Tapete Higiênico Good Pad 80cmx60cm 30 Unidades",
-      "precio_ref": 42.65,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "pasta termica pcyes nitrogen basic 1 5g condutividade",
-      "nombre": "Pasta Térmica PCYES Nitrogen Basic, 1,5g | Condutividade de 5,5W/mK",
-      "precio_ref": 13.71,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "cerave gel de limpeza facial para pele oleosa",
-      "nombre": "CeraVe, Gel de Limpeza Facial para pele oleosa, com Ácido Hialurônico e Niacinamida",
-      "precio_ref": 66.17,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "serum leave in cabelos finos elseve l oreal",
-      "nombre": "Sérum Leave-in Cabelos Finos Elseve L'Oréal Paris Colágeno Encorpador 100ml | Injeção de massa, 7% de peptídeos, alta concent",
-      "precio_ref": 25.19,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "cabo usb para tipo c usb c 60w",
-      "nombre": "Cabo USB para Tipo-C (USB-C) 60W 3.1A Carregamento Rápido Reforçado 2 Metros Nylon Trançado – Compatível com Celulares Androi",
-      "precio_ref": 16.89,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "pantene pro v oleo capilar queratina milagroso finalizador",
-      "nombre": "Pantene Pro-V Óleo Capilar Queratina Milagroso Finalizador Leave-in 95 ml",
-      "precio_ref": 17.61,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "oral b pasta de dente 3d white brilliant",
-      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
-      "precio_ref": 15.57,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "boni natural creme dental com oleos naturais de",
-      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g",
-      "precio_ref": 11.3,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "mouse pad azul",
-      "nombre": "Mouse Pad Azul",
-      "precio_ref": 5.4,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "secret desodorante antitranspirante em gel protecao de algodao",
-      "nombre": "Secret Desodorante Antitranspirante em Gel Proteção de Algodão 45g",
-      "precio_ref": 23.01,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
-      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
-      "precio_ref": 47.49,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "keldog bifinho evolutivo criadores churrasco 500g para caes",
-      "nombre": "Keldog Bifinho Evolutivo Criadores Churrasco 500G | Para cães adultos, Deliciosamente suculento, Ingredientes naturais e sele",
-      "precio_ref": 20.11,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
-      "precio_ref": 20.38,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "bendita canfora pote com 30 tabletes multiuso odorizante",
-      "nombre": "Bendita Cânfora Pote Com 30 Tabletes Multiuso Odorizante Natural | Traças, Mofo, Casa",
-      "precio_ref": 29.89,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "cooler para processador gamdias boreas e1 410 led",
-      "nombre": "Cooler para Processador GAMDIAS Boreas E1-410, LED Azul",
-      "precio_ref": 45.94,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "la roche posay effaclar gel alta tolerancia limpeza",
-      "nombre": "La Roche-posay Effaclar Gel Alta Tolerância. Limpeza Facial. Limpa a Pele Suavemente Reduzindo a Oleosidade e Eliminando o Br",
-      "precio_ref": 64.41,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
       "busqueda": "mouse com fio multi classic box usb 1200",
@@ -161,39 +25,7 @@
       "precio_ref": 9.89,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "hada labo demaquilante cleansing oil refil limpador facial",
-      "nombre": "Hada Labo Demaquilante Cleansing Oil Refil - Limpador Facial 180 ml - Remove Maquiagem Resistente à Água - Limpeza Eficaz sem",
-      "precio_ref": 37.09,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
-      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
-      "precio_ref": 14.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
-      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
-      "precio_ref": 52.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "eliminador de odores liquido para pets wap cereja",
-      "nombre": "Eliminador de Odores Líquido para Pets WAP, Cereja e Avelã, 1 litro | Neutralizador de Odores com fragrância",
-      "precio_ref": 37.59,
-      "categoria": "Perfumes & Fragrâncias",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
       "busqueda": "suporte para notebook e macbook em aluminio com",
@@ -201,39 +33,55 @@
       "precio_ref": 14.8,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "desodorante nivea aerosol men",
-      "nombre": "Desodorante NIVEA Aerosol Men",
-      "precio_ref": 18.89,
+      "busqueda": "fio dental reach essencial 100m menta 1 unidade",
+      "nombre": "Fio Dental Reach Essencial, 100m, Menta, 1 Unidade | Higiene Bucal Diária, Alcança Onde a Escova Não Chega",
+      "precio_ref": 14.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "pinga cenoura e oliva oleo 50ml lola cosmetics",
-      "nombre": "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics",
-      "precio_ref": 17.64,
-      "categoria": "Automotivo",
+      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
+      "nombre": "Creatina Pura, Dark Lab, Monohidratada, 100% de Pureza, Refil - 500g | A mais vendida da América Latina (Euromonitor). certif",
+      "precio_ref": 44.9,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "dove desodorante antitranspirante aerossol original 250 ml leve",
-      "nombre": "Dove Desodorante Antitranspirante Aerossol Original 250 ML, Leve Mais e Pague Menos",
-      "precio_ref": 18.9,
+      "busqueda": "fralda pom pom protek xg 60 unidades",
+      "nombre": "Fralda Pom Pom Protek XG, 60 Unidades",
+      "precio_ref": 55.31,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "oleo capilar koleston poderoso 9 em 1 100ml",
-      "nombre": "Óleo Capilar Koleston Poderoso 9 em 1-100ml",
-      "precio_ref": 23.35,
-      "categoria": "Automotivo",
+      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
+      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
+      "precio_ref": 47.49,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "boni natural creme dental com oleos naturais de",
+      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g",
+      "precio_ref": 11.3,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "cabo de carregador de iphone fast carga rapida",
+      "nombre": "Cabo de carregador de iPhone Fast/Carga Rápida USB C Lightning Cabo Certificação MFi Tipo C Cabo de Carregamento para iPhone",
+      "precio_ref": 5.81,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
       "busqueda": "enxaguante bucal listerine cool mint sem alcool 1l",
@@ -241,55 +89,39 @@
       "precio_ref": 26.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "petisco para gatos wanpy creamy sabores sortidos pacote",
-      "nombre": "Petisco para gatos Wanpy Creamy Sabores Sortidos Pacote com 25 tubos de 14g - 350g",
-      "precio_ref": 41.9,
-      "categoria": "Pet Shop",
+      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
+      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition | Creatina",
+      "precio_ref": 68.9,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
-      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
-      "precio_ref": 60.95,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "kit sabonete phebo amarelo 720g",
-      "nombre": "Kit Sabonete, PHEBO, Amarelo, 720g",
-      "precio_ref": 31.33,
+      "busqueda": "fralda descartavel huggies premium natural care hipoalergenica",
+      "nombre": "Fralda Descartável Huggies Premium Natural Care Hipoalergênica",
+      "precio_ref": 35.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
-      "nombre": "L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios para cabelos secos e danificados | Repara e Promove Bril",
-      "precio_ref": 53.99,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
-      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
-      "precio_ref": 59.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "whiskas racao carne gatos adultos 2 7 kg",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos 2,7 kg",
-      "precio_ref": 33.36,
+      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
+      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
+      "precio_ref": 52.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
+      "nombre": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
+      "precio_ref": 21.29,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
       "busqueda": "algodao quadrado para bebe bellacotton 100 algodao 100",
@@ -297,95 +129,63 @@
       "precio_ref": 26.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "sabonete liquido nivea oleo de banho",
-      "nombre": "Sabonete Líquido NIVEA Óleo de Banho",
-      "precio_ref": 55.43,
+      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
+      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
+      "precio_ref": 14.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "fralda descartavel huggies maxima protecao tamanho p 48",
+      "nombre": "Fralda Descartável Huggies Máxima Proteção Tamanho P 48 unidades – com absorção especial para cocô líquido e indicador de tro",
+      "precio_ref": 39.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "pantene pro v shampoo biotinamina b3 antiqueda e",
-      "nombre": "Pantene Pro-V Shampoo Biotinamina B3 Antiqueda e Nutrição 510 ml",
-      "precio_ref": 18.48,
+      "busqueda": "oral b pasta de dente 3d white brilliant",
+      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
+      "precio_ref": 15.57,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "chalesco tapete higienico premium para caes 90 x",
-      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
-      "precio_ref": 89.99,
+      "busqueda": "escova de dente macia colgate slim soft black",
+      "nombre": "Escova de Dente Macia Colgate Slim Soft Black, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 25.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "pomada bepantol baby com pro vitamina b5 100g",
+      "nombre": "Pomada Bepantol Baby com Pró-Vitamina B5, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente testado, Barre",
+      "precio_ref": 43.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "tapete higienico good pad 80cmx60cm 30 unidades",
+      "nombre": "Tapete Higiênico Good Pad 80cmx60cm 30 Unidades",
+      "precio_ref": 42.65,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
-      "nombre": "Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa - Compatível com PC, Mac, Chro",
-      "precio_ref": 149.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "havit fone de ouvido headset gamer fuxi h3",
-      "nombre": "Havit Fone de Ouvido Headset Gamer Fuxi-H3 Black Com Fio e Sem Fio, Wireless 2,4GHz, Bluetooth, Cabo USB-C",
-      "precio_ref": 149.88,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "l oreal professionnel inforcer shampoo fortificante antiqueda por",
-      "nombre": "L'Oréal Professionnel Inforcer Shampoo Fortificante Antiqueda por Quebra, Crescimento Saudável Para Cabelos Frágeis e Quebrad",
-      "precio_ref": 79.0,
+      "busqueda": "fralda huggies supreme care roupinha xg",
+      "nombre": "Fralda Huggies Supreme Care Roupinha XG",
+      "precio_ref": 94.26,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "vichy dercos energy shampoo antiqueda estimulante com aminexil",
-      "nombre": "Vichy Dercos Energy+ Shampoo Antiqueda Estimulante com Aminexil 1.5%, 400g",
-      "precio_ref": 94.6,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "cerave locao hidratante corporal com textura fluida e",
-      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
-      "precio_ref": 90.91,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech pebble 2 m350s com",
-      "nombre": "Mouse sem fio Logitech Pebble 2 M350s com Clique Silencioso, Design Slim Ambidestro, Conexão Bluetooth e Pilha Inclusa - Graf",
-      "precio_ref": 79.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "elg suporte articulado para monitor 17 a 35",
-      "nombre": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pistão a Gás Preto | Monitores de 2 a 9kg, VESA 75x75 e 100x100mm, Altu",
-      "precio_ref": 114.37,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
-      "nombre": "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
-      "precio_ref": 81.05,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
       "busqueda": "petix tapete higienico supersecao para caes 30 unidades",
@@ -393,47 +193,15 @@
       "precio_ref": 78.89,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "combo teclado e mouse sem fio logitech mk250",
-      "nombre": "Combo Teclado e Mouse Sem Fio Logitech MK250 Bluetooth com Conectividade Rápida e Fácil, Design Compacto, Mouse Ambidestro, L",
-      "precio_ref": 119.9,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "bebida proteica liquida piracanjuba proforce sabor cacau 23g",
+      "nombre": "Bebida Proteica Líquida Piracanjuba ProForce Sabor Cacau, 23g Proteínas",
+      "precio_ref": 91.51,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "whiskas racao whiskas para gatos adultos castrados sabor",
-      "nombre": "whiskas Ração Whiskas Para Gatos Adultos Castrados Sabor Carne - 10,1Kg",
-      "precio_ref": 138.8,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "air cooler gamerstorm x redragon ak400 rd preto",
-      "nombre": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
-      "precio_ref": 140.6,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "fralda pampers premium care pants tamanho xg facil",
-      "nombre": "Fralda Pampers Premium Care Pants Tamanho XG, Fácil de Vestir, 96 Unidades",
-      "precio_ref": 140.83,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "combo teclado e mouse sem fio dell km3322w",
-      "nombre": "Combo Teclado e Mouse Sem Fio Dell KM3322W 1858, Receptor USB 2,4 GHz | 2 pilhas AAA para o teclado e 1 AA para o mouse, DPI",
-      "precio_ref": 119.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
       "busqueda": "vichy dercos shampoo anticaspa para cabelos normais a",
@@ -441,47 +209,279 @@
       "precio_ref": 81.19,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "redragon water cooler gamerstorm le240 rd 240mm rgb",
-      "nombre": "Redragon Water Cooler GamerStorm LE240 RD 240mm RGB Compatível c/ Intel LGA 1851/1700/1200/1151 e AMD AM4/AM5 Preto - R-LE240",
-      "precio_ref": 341.16,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "vichy dercos energy shampoo antiqueda estimulante com aminexil",
+      "nombre": "Vichy Dercos Energy+ Shampoo Antiqueda Estimulante com Aminexil 1.5%, 400g",
+      "precio_ref": 94.6,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
-      "precio_ref": 1453.0,
+      "busqueda": "cerave locao hidratante corporal com textura fluida e",
+      "nombre": "CeraVe, Loção Hidratante Corporal, com textura Fluida e Ácido Hialurônico",
+      "precio_ref": 90.91,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "chalesco tapete higienico premium para caes 90 x",
+      "nombre": "Chalesco Tapete Higiênico Premium para Cães 90 x 60 cm – Super Absorção, Controle de Odores e Base Antivazamento | 50 Unidade",
+      "precio_ref": 89.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
+      "nombre": "PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (Turbo 4.6GHz) 36MB Cache AM4 100-100000926WOF, Cerâmica Cinza",
+      "precio_ref": 1152.93,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4799.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     },
     {
-      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
-      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 24GB RAM, Tela 120Hz, Octa-Core, Câmera 13MP + 5MP, Bateria 8000mAh, Kit c",
-      "precio_ref": 759.04,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "corsair memoria vengeance ddr5 ram 16gb 1x16gb 5200mhz",
-      "nombre": "CORSAIR Memória Vengeance DDR5 RAM 16GB (1x16GB) 5200MHz CL40-40-40-77 1,25V AMD Expo Intel XMP 3.0 Desktop Computer Memory –",
-      "precio_ref": 1468.47,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
-    },
-    {
-      "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
-      "nombre": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
-      "precio_ref": 1230.0,
+      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
+      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
+      "precio_ref": 633.32,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-04T18:25:45+00:00"
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "tablet tcl a1 plus 128gb 16gb ram 6gb",
+      "nombre": "Tablet TCL A1 Plus 128GB, 16GB RAM (6GB + 10GB), Tela 12.2\" 2.4K 120Hz, Bateria 8000mAh, Android 16, Snapdragon - Com Capa Te",
+      "precio_ref": 1825.91,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer philips evnia 27 ips fhd 144hz",
+      "nombre": "Monitor Gamer Philips EVNIA 27\" IPS FHD, 144Hz, 0,5ms, NVIDIA G-Sync - 27M2N3200NF",
+      "precio_ref": 679.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 269900.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer lg ultragear 24 ips full hd",
+      "nombre": "Monitor Gamer LG UltraGear 24” IPS, Full HD, 180Hz, 1ms (GtG), HDMI, DisplayPort, HDR10, sRGB 99%, NVIDIA® G-SYNC®, AMD FreeS",
+      "precio_ref": 778.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "gabinete gamer redragon wideload pro ca 604b pro",
+      "nombre": "Gabinete Gamer Redragon Wideload Pro CA-604B-PRO",
+      "precio_ref": 318.97,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
+      "nombre": "Monitor AOC 21\" 22B30HM23 FHD, 120Hz, 1MS, Preto",
+      "precio_ref": 408.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
+      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
+      "precio_ref": 402.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
+      "nombre": "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
+      "precio_ref": 419.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi + Cellular, 128 GB) - Cinzento sideral (M3)",
+      "precio_ref": 7222.21,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "kit de garrafas de tinta original epson magenta",
+      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
+      "precio_ref": 159.93,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer alienware 25 full hd 1920 x",
+      "nombre": "Monitor Gamer Alienware 25\", Full Hd (1920 x 1080), 320 Hz | NVIDIA G-SYNC, Tempo de Resposta 0,5 ms, 400 nits, 1000:1 de con",
+      "precio_ref": 1589.98,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer lg 20 20u401a b 75hz 2ms",
+      "nombre": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
+      "precio_ref": 327.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
+      "nombre": "XIAOMI Redmi Pad 2 8GB + 256GB Tablet com tela de 11 polegadas 2.5K 90Hz, Mediatek Helio G100 Ultra, Roxo (Carregador incluíd",
+      "precio_ref": 1597.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 11 8 256gb wifi",
+      "nombre": "Xiaomi Redmi Pad 2 11\" 8+256GB WiFi Grafite Cinza EU",
+      "precio_ref": 1580.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer curvo aoc agon g4z 27 300hz",
+      "nombre": "Monitor Gamer Curvo AOC AGON G4Z 27\" 300Hz 0,3ms HDR10 Base Ajustável C27G4Z/P",
+      "precio_ref": 999.99,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 7 processador octa core",
+      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
+      "precio_ref": 479.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 27 fhd 120 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 27\" FHD, 120 Hz, HDMI, Preto, S3",
+      "precio_ref": 649.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech lift vertical com design",
+      "nombre": "Mouse Sem Fio Logitech Lift Vertical com Design Ergonômico para Redução de Tensão Muscular, Cliques Silenciosos, Conexão Blue",
+      "precio_ref": 249.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
+      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
+      "precio_ref": 939.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi pad 7 28 4 cm 11",
+      "nombre": "Tablet Xiaomi Pad 7, 28,4 cm (11,2 polegadas), 8 + 256 GB, tela 3.2K 144Hz, processador Snapdragon 7+ Gen 3, bateria de 8850",
+      "precio_ref": 2199.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g42 27 200hz 0",
+      "nombre": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE",
+      "precio_ref": 894.73,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor dell pro 24 plus 1080p 1920 x",
+      "nombre": "Monitor Dell Pro 24 Plus, 1080p (1920 x 1080), 100 Hz, LED, 5 ms, P2425H | Tela de 23,8 proporção 16:9, contraste de 1500:1,",
+      "precio_ref": 1189.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor led 20 hq widescreen vga hdmi vesa",
+      "nombre": "MONITOR LED 20\" HQ WIDESCREEN VGA HDMI VESA C/AJUSTE DE INCLINAÇÃO",
+      "precio_ref": 274.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "amd processador ryzen 7 5800x3d de 8 nucleos",
+      "nombre": "AMD Processador Ryzen 7 5800X3D de 8 núcleos e 16 threads para desktop com tecnologia AMD 3D V-Cache",
+      "precio_ref": 2384.69,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
+      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
+      "precio_ref": 779.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 24 fhd 100 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 24\" FHD,100 Hz, HDMI, VGA,Preto, S3",
+      "precio_ref": 569.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
+      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
+      "precio_ref": 1599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
+    },
+    {
+      "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
+      "nombre": "MEMÓRIA KINGSTON FURY BEAST DIMM DDR4 8GB 3200 MHZ KF432C16BB/8 1,35V 1Rx* 288 pinos Desktop Gamer",
+      "precio_ref": 499.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-04T23:50:19+00:00"
     }
   ]
 }
