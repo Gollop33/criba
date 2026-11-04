@@ -1145,7 +1145,22 @@
       "detectado_em": "2026-11-03T19:03:42+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MEUACHADO": {
+      "detectado_em": "2026-10-09T22:25:11+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 615h (> 24h)"
+    },
+    "DESCONTOAQUI": {
+      "detectado_em": "2026-10-10T17:50:13+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 596h (> 24h)"
+    },
+    "DESCONTOU": {
+      "detectado_em": "2026-10-11T13:20:43+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 576h (> 24h)"
     }
   },
-  "actualizado": "2026-11-04T13:35:59+00:00"
+  "actualizado": "2026-11-04T13:43:46+00:00"
 }
