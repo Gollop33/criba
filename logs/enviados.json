@@ -2505,14 +2505,16 @@
     ]
   },
   "amz-tablet-s7p-android-15-101-polegadas-ips-full-": {
-    "ts": "2026-11-03T12:29:20.981179",
+    "ts": "2026-11-04T23:04:19.750302",
     "canales": {
-      "whatsapp": "2026-11-03T12:29:20.981179"
+      "whatsapp": "2026-11-04T23:04:19.750302"
     },
     "precio": 709.0,
     "precios_publicados": [
+      709.0,
       709.0
-    ]
+    ],
+    "precio_min_publicado": 709.0
   },
   "amz-tablet-positivo-vision-tab-7-processador-octa": {
     "ts": "2026-11-03T12:42:10.688568",
