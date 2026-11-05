@@ -1940,18 +1940,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-appel-home-toalha-velvet-flower-aveludada-100": {
-    "ts": "2026-11-03T23:15:27.619162",
-    "canales": {
-      "whatsapp": "2026-11-03T23:15:27.619162"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0,
-      59.0
-    ],
-    "precio_min_publicado": 59.0
-  },
   "amz-omo-sabao-liquido-puro-cuidado-5l-tampa-pode-": {
     "ts": "2026-11-04T10:22:05.318135",
     "canales": {
@@ -4104,6 +4092,16 @@
     "precio": 3624.0,
     "precios_publicados": [
       3624.0
+    ]
+  },
+  "amz-apple-iphone-16e-de-128-gb-preto": {
+    "ts": "2026-11-05T23:20:47.006703",
+    "canales": {
+      "whatsapp": "2026-11-05T23:20:47.006703"
+    },
+    "precio": 3499.0,
+    "precios_publicados": [
+      3499.0
     ]
   }
 }
