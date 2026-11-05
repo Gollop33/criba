@@ -2387,16 +2387,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "amz-cabo-carregador-turbo-2-metros-compativel-com": {
-    "ts": "2026-11-03T18:36:39.563327",
-    "canales": {
-      "whatsapp": "2026-11-03T18:36:39.563327"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-11-04T18:46:42.288461",
     "canales": {
@@ -3951,6 +3941,16 @@
     "precio": 314900.0,
     "precios_publicados": [
       314900.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
+    "ts": "2026-11-05T18:37:14.665321",
+    "canales": {
+      "whatsapp": "2026-11-05T18:37:14.665321"
+    },
+    "precio": 5008.0,
+    "precios_publicados": [
+      5008.0
     ]
   }
 }
