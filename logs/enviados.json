@@ -2363,16 +2363,6 @@
     ],
     "precio_min_publicado": 709.0
   },
-  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
-    "ts": "2026-11-03T13:59:35.762430",
-    "canales": {
-      "whatsapp": "2026-11-03T13:59:35.762430"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0
-    ]
-  },
   "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
     "ts": "2026-11-05T05:08:14.464290",
     "canales": {
@@ -3721,6 +3711,16 @@
     "precio": 1152.0,
     "precios_publicados": [
       1152.0
+    ]
+  },
+  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
+    "ts": "2026-11-05T14:08:11.599862",
+    "canales": {
+      "whatsapp": "2026-11-05T14:08:11.599862"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
