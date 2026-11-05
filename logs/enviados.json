@@ -1428,22 +1428,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-tapete-higienico-para-cachorro-pipi-slim-50-u": {
-    "ts": "2026-11-03T20:05:55.493495",
-    "canales": {
-      "whatsapp": "2026-11-03T20:05:55.493495"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      36.0,
-      36.0,
-      36.0,
-      36.0,
-      36.0,
-      39.0
-    ],
-    "precio_min_publicado": 36.0
-  },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-11-05T16:15:46.846471",
     "canales": {
@@ -4040,6 +4024,16 @@
     "precio": 1580.0,
     "precios_publicados": [
       1580.0
+    ]
+  },
+  "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
+    "ts": "2026-11-05T20:07:21.607513",
+    "canales": {
+      "whatsapp": "2026-11-05T20:07:21.607513"
+    },
+    "precio": 579.0,
+    "precios_publicados": [
+      579.0
     ]
   }
 }
