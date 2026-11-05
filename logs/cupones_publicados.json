@@ -1250,7 +1250,22 @@
       "detectado_em": "2026-11-05T13:05:52+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DESCONTOSUPREMO": {
+      "detectado_em": "2026-10-11T13:15:40+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 603h (> 24h)"
+    },
+    "OPAECONOMIZEI": {
+      "detectado_em": "2026-10-11T13:01:23+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 603h (> 24h)"
+    },
+    "SAINDOBARRATO": {
+      "detectado_em": "2026-10-12T13:10:45+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 579h (> 24h)"
     }
   },
-  "actualizado": "2026-11-05T15:58:50+00:00"
+  "actualizado": "2026-11-05T16:08:45+00:00"
 }
