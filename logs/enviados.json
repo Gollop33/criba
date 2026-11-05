@@ -876,23 +876,6 @@
     ],
     "precio_min_publicado": 22.0
   },
-  "amz-papel-toalha-scala-plus-multipicote-2-rolos-1": {
-    "ts": "2026-11-03T23:50:37.045266",
-    "canales": {
-      "whatsapp": "2026-11-03T23:50:37.045266"
-    },
-    "precio": 7.0,
-    "precios_publicados": [
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      6.0,
-      7.0,
-      7.0
-    ],
-    "precio_min_publicado": 6.0
-  },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-11-04T13:02:10.882623",
     "canales": {
@@ -4106,6 +4089,16 @@
     "precio": 376.0,
     "precios_publicados": [
       376.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-05T23:53:35.663063",
+    "canales": {
+      "whatsapp": "2026-11-05T23:53:35.663063"
+    },
+    "precio": 1457.0,
+    "precios_publicados": [
+      1457.0
     ]
   }
 }
