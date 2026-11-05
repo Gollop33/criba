@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-05T15:01:06+00:00",
+  "actualizado": "2026-11-05T15:08:04+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "pack racao umida whiskas sache carne ao molho",
@@ -17,15 +17,7 @@
       "precio_ref": 39.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
-      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
-      "precio_ref": 59.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "mouse gamer redragon cobra v3 preto rgb pmw3327",
@@ -33,7 +25,15 @@
       "precio_ref": 79.53,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
+      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
+      "precio_ref": 59.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "smartphone motorola edge 60 fusion 5g 256gb 8gb",
@@ -41,7 +41,7 @@
       "precio_ref": 1999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
@@ -49,7 +49,7 @@
       "precio_ref": 2109.29,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "panela de pressao tramontina vancouver effect em aluminio",
@@ -57,7 +57,7 @@
       "precio_ref": 161.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
@@ -65,7 +65,7 @@
       "precio_ref": 521.16,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "tablet xiaomi pad 7 28 4 cm 11",
@@ -73,7 +73,7 @@
       "precio_ref": 2199.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor uhd samsung 32 4k hdmi display port",
@@ -81,7 +81,7 @@
       "precio_ref": 1174.89,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
@@ -89,7 +89,7 @@
       "precio_ref": 779.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "sony control inalambrico ps5 dualsense midnight black",
@@ -97,7 +97,7 @@
       "precio_ref": 409.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -105,7 +105,7 @@
       "precio_ref": 269900.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -113,7 +113,7 @@
       "precio_ref": 798.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g42 27 200hz 0",
@@ -121,7 +121,7 @@
       "precio_ref": 894.73,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "samsung galaxy book4 intel coretm i5 1335u 8gb",
@@ -129,7 +129,7 @@
       "precio_ref": 4063.35,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook acer aspire go 15 core i5 16gb",
@@ -137,7 +137,7 @@
       "precio_ref": 5199.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "echo dot smart speaker com alexa som vibrante",
@@ -145,7 +145,7 @@
       "precio_ref": 649.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
@@ -153,7 +153,7 @@
       "precio_ref": 3988.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
@@ -161,7 +161,7 @@
       "precio_ref": 6459.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
@@ -169,7 +169,7 @@
       "precio_ref": 3698.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "8bitdo ultimate 2c wired controller for windows pc",
@@ -177,7 +177,7 @@
       "precio_ref": 157.88,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook dell 15 15 i1300 a80p intel core",
@@ -185,7 +185,7 @@
       "precio_ref": 5999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
@@ -193,7 +193,7 @@
       "precio_ref": 1441.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor gamer oled lg ultragear 27gx704a 27 polegadas",
@@ -201,7 +201,7 @@
       "precio_ref": 3588.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "apple iphone 15 128 gb preto",
@@ -209,7 +209,7 @@
       "precio_ref": 4199.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor aoc 27 4k ips 106 ntsc 97",
@@ -217,7 +217,7 @@
       "precio_ref": 998.99,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "ea sports fc 27 playstation 5",
@@ -225,7 +225,7 @@
       "precio_ref": 333.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "playstation5 pro",
@@ -233,7 +233,7 @@
       "precio_ref": 7399.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "007 first light specialist edition exclusivo amazon playstation",
@@ -241,7 +241,7 @@
       "precio_ref": 239.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon quad 27 qhd 180hz",
@@ -249,7 +249,7 @@
       "precio_ref": 1179.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g67 5g 256gb 4gb ram",
@@ -257,7 +257,7 @@
       "precio_ref": 1471.55,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
@@ -265,7 +265,7 @@
       "precio_ref": 402.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 amd ryzen 7 16",
@@ -273,7 +273,7 @@
       "precio_ref": 4999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook acer aspire 5 ryzen 5 5500u 16gb",
@@ -281,7 +281,7 @@
       "precio_ref": 3869.1,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech lift vertical com design",
@@ -289,7 +289,7 @@
       "precio_ref": 249.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -297,7 +297,7 @@
       "precio_ref": 4459.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "base de carregamento do dualsense playstation 5",
@@ -305,7 +305,7 @@
       "precio_ref": 165.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook 2 em 1 positivo duo intel celeron",
@@ -313,7 +313,7 @@
       "precio_ref": 1532.52,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab s10 fe 128gb 8gb",
@@ -321,7 +321,7 @@
       "precio_ref": 3248.97,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook s14 intel core ultra 5",
@@ -329,7 +329,7 @@
       "precio_ref": 5299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "whey protein concentrado pote 900g chocolate branco dux",
@@ -337,7 +337,7 @@
       "precio_ref": 220.0,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor 19 5 led widescreen 75hz 2ms hd",
@@ -345,7 +345,7 @@
       "precio_ref": 23890.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 intel celeron dual",
@@ -353,7 +353,7 @@
       "precio_ref": 2189.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor dell pro 24 plus 1080p 1920 x",
@@ -361,7 +361,7 @@
       "precio_ref": 1223.25,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "smartphone xiaomi poco x8 pro 512gb 12gb ram",
@@ -369,7 +369,7 @@
       "precio_ref": 2840.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
@@ -377,7 +377,7 @@
       "precio_ref": 314900.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
@@ -385,7 +385,7 @@
       "precio_ref": 1186.92,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -393,7 +393,7 @@
       "precio_ref": 599.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
@@ -401,7 +401,7 @@
       "precio_ref": 4515.52,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "monitor led 20 hq widescreen vga hdmi vesa",
@@ -409,7 +409,7 @@
       "precio_ref": 274.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
@@ -417,7 +417,7 @@
       "precio_ref": 3624.79,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
@@ -425,7 +425,7 @@
       "precio_ref": 419.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "fralda pampers confort sec tamanho xg 148 unidades",
@@ -433,7 +433,7 @@
       "precio_ref": 212.06,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "creme para assaduras weleda baby de calendula 120ml",
@@ -441,7 +441,7 @@
       "precio_ref": 7899.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 11 90hz octa core",
@@ -449,7 +449,7 @@
       "precio_ref": 1599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
@@ -457,7 +457,7 @@
       "precio_ref": 1033.06,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "controle dualsense playstation 5",
@@ -465,7 +465,7 @@
       "precio_ref": 419.49,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "be place kids tablet infantil android 13 128gb",
@@ -473,7 +473,7 @@
       "precio_ref": 385.95,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 intel core 5 8",
@@ -481,7 +481,7 @@
       "precio_ref": 3999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-05T15:01:06+00:00"
+      "monitorizado_desde": "2026-11-05T15:08:04+00:00"
     }
   ]
 }
