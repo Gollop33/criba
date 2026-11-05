@@ -2346,16 +2346,6 @@
     ],
     "precio_min_publicado": 499.0
   },
-  "amz-quatree-supreme-racao-para-gatos-castrados-sa": {
-    "ts": "2026-11-03T10:22:05.598085",
-    "canales": {
-      "whatsapp": "2026-11-03T10:22:05.598085"
-    },
-    "precio": 185.0,
-    "precios_publicados": [
-      185.0
-    ]
-  },
   "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
     "ts": "2026-11-03T12:05:54.721340",
     "canales": {
@@ -3526,6 +3516,16 @@
     "precio": 133.0,
     "precios_publicados": [
       133.0
+    ]
+  },
+  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
+    "ts": "2026-11-05T10:29:53.410529",
+    "canales": {
+      "whatsapp": "2026-11-05T10:29:53.410529"
+    },
+    "precio": 139.0,
+    "precios_publicados": [
+      139.0
     ]
   }
 }
