@@ -1731,19 +1731,6 @@
     ],
     "precio_min_publicado": 140.0
   },
-  "amz-kit-cronograma-capilar-lola-cosmetics-bem-dit": {
-    "ts": "2026-11-03T23:39:44.901448",
-    "canales": {
-      "whatsapp": "2026-11-03T23:39:44.901448"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      37.0,
-      37.0,
-      36.0
-    ],
-    "precio_min_publicado": 37.0
-  },
   "amz-boni-natural-creme-dental-com-oleos-naturais-": {
     "ts": "2026-11-05T01:09:29.006417",
     "canales": {
@@ -4109,6 +4096,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
+    "ts": "2026-11-05T23:46:21.279158",
+    "canales": {
+      "whatsapp": "2026-11-05T23:46:21.279158"
+    },
+    "precio": 376.0,
+    "precios_publicados": [
+      376.0
     ]
   }
 }
