@@ -2389,16 +2389,6 @@
     ],
     "precio_min_publicado": 1199.0
   },
-  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
-    "ts": "2026-11-03T15:33:01.771784",
-    "canales": {
-      "whatsapp": "2026-11-03T15:33:01.771784"
-    },
-    "precio": 5749.0,
-    "precios_publicados": [
-      5749.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-11-03T15:44:40.510596",
     "canales": {
@@ -3793,6 +3783,16 @@
     "precio": 657.0,
     "precios_publicados": [
       657.0
+    ]
+  },
+  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
+    "ts": "2026-11-05T15:36:19.743985",
+    "canales": {
+      "whatsapp": "2026-11-05T15:36:19.743985"
+    },
+    "precio": 998.0,
+    "precios_publicados": [
+      998.0
     ]
   }
 }
