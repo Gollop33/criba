@@ -1048,23 +1048,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-balanca-de-cozinha-digital-premium-gourmet-re": {
-    "ts": "2026-11-03T22:58:02.246204",
-    "canales": {
-      "whatsapp": "2026-11-03T22:58:02.246204"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      9.0,
-      9.0,
-      9.0,
-      9.0,
-      9.0,
-      15.0,
-      15.0
-    ],
-    "precio_min_publicado": 9.0
-  },
   "amz-tplink-tlwn823n-adaptador-wifi-usb-300-mbps-n": {
     "ts": "2026-11-05T00:14:32.287139",
     "canales": {
@@ -4120,6 +4103,16 @@
     "precio": 5099.0,
     "precios_publicados": [
       5099.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
+    "ts": "2026-11-05T22:58:13.388473",
+    "canales": {
+      "whatsapp": "2026-11-05T22:58:13.388473"
+    },
+    "precio": 3699.0,
+    "precios_publicados": [
+      3699.0
     ]
   }
 }
