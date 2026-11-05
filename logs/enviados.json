@@ -2347,16 +2347,6 @@
     ],
     "precio_min_publicado": 499.0
   },
-  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
-    "ts": "2026-11-03T12:05:54.721340",
-    "canales": {
-      "whatsapp": "2026-11-03T12:05:54.721340"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
   "amz-tablet-s7p-android-15-101-polegadas-ips-full-": {
     "ts": "2026-11-04T23:04:19.750302",
     "canales": {
@@ -3667,6 +3657,16 @@
     "precio": 4499.0,
     "precios_publicados": [
       4499.0
+    ]
+  },
+  "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
+    "ts": "2026-11-05T12:07:53.111621",
+    "canales": {
+      "whatsapp": "2026-11-05T12:07:53.111621"
+    },
+    "precio": 860.0,
+    "precios_publicados": [
+      860.0
     ]
   }
 }
