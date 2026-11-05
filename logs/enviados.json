@@ -1169,23 +1169,6 @@
     ],
     "precio_min_publicado": 57.0
   },
-  "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
-    "ts": "2026-11-03T20:45:26.442662",
-    "canales": {
-      "whatsapp": "2026-11-03T20:45:26.442662"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      49.0,
-      49.0,
-      44.0,
-      44.0,
-      44.0,
-      44.0,
-      44.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
     "ts": "2026-11-05T05:01:35.868804",
     "canales": {
@@ -4084,6 +4067,16 @@
     "precio": 633.0,
     "precios_publicados": [
       633.0
+    ]
+  },
+  "amz-bettdow-monitor-portatil-156-fhd-1080p-monito": {
+    "ts": "2026-11-05T20:46:42.919441",
+    "canales": {
+      "whatsapp": "2026-11-05T20:46:42.919441"
+    },
+    "precio": 402.0,
+    "precios_publicados": [
+      402.0
     ]
   }
 }
