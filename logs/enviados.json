@@ -1623,21 +1623,6 @@
     ],
     "precio_min_publicado": 126.0
   },
-  "amz-pano-reutilizavel-em-rolo-scott-duramax-48-fo": {
-    "ts": "2026-11-03T22:31:03.696964",
-    "canales": {
-      "whatsapp": "2026-11-03T22:31:03.696964"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0,
-      17.0,
-      17.0,
-      17.0,
-      17.0
-    ],
-    "precio_min_publicado": 17.0
-  },
   "amz-comfort-boom-odorizador-de-roupas-cristais-de": {
     "ts": "2026-11-04T13:05:21.105000",
     "canales": {
@@ -4095,6 +4080,16 @@
     "precio": 18.0,
     "precios_publicados": [
       18.0
+    ]
+  },
+  "amz-detergente-ype-clear-5l-detergente-liquido": {
+    "ts": "2026-11-05T22:34:14.705871",
+    "canales": {
+      "whatsapp": "2026-11-05T22:34:14.705871"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
