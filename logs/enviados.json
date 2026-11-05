@@ -1731,19 +1731,6 @@
     ],
     "precio_min_publicado": 140.0
   },
-  "amz-pelicula-de-vidro-temperado-premium-9h-compat": {
-    "ts": "2026-11-03T23:32:49.793574",
-    "canales": {
-      "whatsapp": "2026-11-03T23:32:49.793574"
-    },
-    "precio": 34.0,
-    "precios_publicados": [
-      34.0,
-      34.0,
-      34.0
-    ],
-    "precio_min_publicado": 34.0
-  },
   "amz-kit-cronograma-capilar-lola-cosmetics-bem-dit": {
     "ts": "2026-11-03T23:39:44.901448",
     "canales": {
@@ -4112,6 +4099,16 @@
     "precio": 5776.0,
     "precios_publicados": [
       5776.0
+    ]
+  },
+  "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
+    "ts": "2026-11-05T23:37:56.181040",
+    "canales": {
+      "whatsapp": "2026-11-05T23:37:56.181040"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
