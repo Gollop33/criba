@@ -747,23 +747,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
-    "ts": "2026-11-03T15:39:43.509163",
-    "canales": {
-      "whatsapp": "2026-11-03T15:39:43.509163"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      33.0,
-      33.0,
-      33.0,
-      39.0,
-      39.0,
-      39.0,
-      39.0
-    ],
-    "precio_min_publicado": 33.0
-  },
   "amz-mouse-pad-azul": {
     "ts": "2026-11-04T22:14:30.910070",
     "canales": {
@@ -3793,6 +3776,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
+    "ts": "2026-11-05T15:43:05.982868",
+    "canales": {
+      "whatsapp": "2026-11-05T15:43:05.982868"
+    },
+    "precio": 569.0,
+    "precios_publicados": [
+      569.0
     ]
   }
 }
