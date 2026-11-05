@@ -2387,26 +2387,6 @@
     ],
     "precio_min_publicado": 20.0
   },
-  "amz-esponja-esfrelux-leve-4-pague-3": {
-    "ts": "2026-11-03T18:51:53.746892",
-    "canales": {
-      "whatsapp": "2026-11-03T18:51:53.746892"
-    },
-    "precio": 3.0,
-    "precios_publicados": [
-      3.0
-    ]
-  },
-  "amz-nivea-hidratante-labial-torta-de-amora-ed-lim": {
-    "ts": "2026-11-03T18:53:04.114804",
-    "canales": {
-      "whatsapp": "2026-11-03T18:53:04.114804"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      12.0
-    ]
-  },
   "amz-controle-remoto-compativel-samsung-para-smart": {
     "ts": "2026-11-03T19:14:50.866973",
     "canales": {
@@ -3969,6 +3949,16 @@
     "precio": 7899.0,
     "precios_publicados": [
       7899.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-05T18:53:46.544064",
+    "canales": {
+      "whatsapp": "2026-11-05T18:53:46.544064"
+    },
+    "precio": 1019.0,
+    "precios_publicados": [
+      1019.0
     ]
   }
 }
