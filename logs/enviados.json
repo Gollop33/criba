@@ -303,23 +303,6 @@
     ],
     "precio_min_publicado": 15.0
   },
-  "amz-cabo-carregador-usbc-tipo-c-turbo-60w-1-metro": {
-    "ts": "2026-11-03T19:10:29.018925",
-    "canales": {
-      "whatsapp": "2026-11-03T19:10:29.018925"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      17.0,
-      17.0,
-      17.0,
-      17.0,
-      21.0,
-      21.0,
-      21.0
-    ],
-    "precio_min_publicado": 17.0
-  },
   "amz-combo-de-teclado-e-mouse-sem-fio-logitech-mk2": {
     "ts": "2026-11-05T14:29:10.586359",
     "canales": {
@@ -3987,6 +3970,16 @@
     "precio": 209.0,
     "precios_publicados": [
       209.0
+    ]
+  },
+  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
+    "ts": "2026-11-05T19:13:48.361759",
+    "canales": {
+      "whatsapp": "2026-11-05T19:13:48.361759"
+    },
+    "precio": 1589.0,
+    "precios_publicados": [
+      1589.0
     ]
   }
 }
