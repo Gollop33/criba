@@ -2362,26 +2362,6 @@
     ],
     "precio_min_publicado": 709.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-11-03T13:01:58.287979",
-    "canales": {
-      "whatsapp": "2026-11-03T13:01:58.287979"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-03T13:05:19.136517",
-    "canales": {
-      "whatsapp": "2026-11-03T13:05:19.136517"
-    },
-    "precio": 2184.0,
-    "precios_publicados": [
-      2184.0
-    ]
-  },
   "amz-tab-samsung-galaxy-s11-256gb-12gb-11": {
     "ts": "2026-11-03T13:21:56.108946",
     "canales": {
@@ -3690,6 +3670,16 @@
     "precio": 1579.0,
     "precios_publicados": [
       1579.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-256gb-4gb-ram-8g": {
+    "ts": "2026-11-05T13:08:06.834797",
+    "canales": {
+      "whatsapp": "2026-11-05T13:08:06.834797"
+    },
+    "precio": 1091.0,
+    "precios_publicados": [
+      1091.0
     ]
   }
 }
