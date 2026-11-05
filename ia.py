@@ -35,6 +35,7 @@ import io
 import json
 import os
 import sys
+from datetime import datetime, timezone
 from pathlib import Path
 
 try:
@@ -285,6 +286,42 @@ def preguntar_json(prompt, sistema=None, timeout=60):
         return json.loads(txt[inicio:fin + 1])
     except Exception:
         return None
+
+
+# ─── LOG AUDITABLE DEL CURADOR ─────────────────────────────────────────────────
+# Cada decisión del curador (agente_autonomo.py / agente_calidad.py) queda en un
+# JSONL con: qué se bloqueó, qué se dejó pasar y por qué. Es la trazabilidad del
+# piloto anti-repetición (2026-11-04).
+_LOG_CURADOR = Path(__file__).parent / "logs" / "curador.jsonl"
+
+
+def registrar_decision_curador(accion, motivo, entidad="", origen="", extra=None):
+    """
+    Añade una línea al log auditable del curador (logs/curador.jsonl).
+
+    accion  : 'bloqueo' | 'aprobado' | 'aviso' | 'readmitido' ...
+    motivo  : por qué (texto corto)
+    entidad : producto/id/título implicado
+    origen  : módulo que decide ('agente_autonomo', 'agente_calidad', 'ia')
+    extra   : dict opcional con más contexto (precio, ventas, descuento...)
+
+    Nunca lanza: si no se puede escribir, el bot sigue publicando igual.
+    """
+    try:
+        _LOG_CURADOR.parent.mkdir(parents=True, exist_ok=True)
+        reg = {
+            "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+            "accion": accion,
+            "motivo": motivo,
+            "entidad": entidad,
+            "origen": origen,
+        }
+        if extra:
+            reg["extra"] = extra
+        with open(_LOG_CURADOR, "a", encoding="utf-8") as f:
+            f.write(json.dumps(reg, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
 
 
 if __name__ == "__main__":

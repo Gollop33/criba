@@ -372,13 +372,13 @@ def cargar_enviados_recientes(horas=48):
 # precio y mañana más barato, o estar más barato que en otras tiendas. Un canal
 # de ofertas vive de eso ("¡bajó de precio!").
 #
-# Regla de tres niveles:
-#   1. Enviado hace menos de HORAS_MIN_REPETIR (3h)  -> vetado (suelo anti-spam)
-#   2. Dentro de HORAS_ENFRIAMIENTO pero el precio BAJÓ >= MEJORA_MIN_PCT -> PERMITIDO
-#   3. Dentro de HORAS_ENFRIAMIENTO y sin mejora de precio -> vetado (no aporta nada)
-#   > HORAS_ENFRIAMIENTO                            -> permitido
-HORAS_MIN_REPETIR = float(os.environ.get("HORAS_MIN_REPETIR", "3"))
-MEJORA_MIN_PCT = float(os.environ.get("MEJORA_MIN_PCT", "3")) / 100.0
+# Regla del freno (piloto 1 semana, 2026-11-04):
+#   1. Dentro de HORAS_MIN_REPETIR (120h)  -> solo se readmite si el precio BAJÓ
+#      >= MEJORA_MIN_PCT (10%) por debajo del MÍNIMO histórico publicado
+#      (precio_min_publicado), NO contra el último precio publicado.
+#   2. Pasadas HORAS_MIN_REPETIR           -> se readmite libremente (rotación).
+HORAS_MIN_REPETIR = float(os.environ.get("HORAS_MIN_REPETIR", "120"))
+MEJORA_MIN_PCT = float(os.environ.get("MEJORA_MIN_PCT", "10")) / 100.0
 
 # ─── FRESCURA (regla del usuario, 2026-10-07) ─────────────────────────────────
 # "cada cosa que consigas actualizada de menos de 12 h, publicas".
@@ -388,6 +388,28 @@ MEJORA_MIN_PCT = float(os.environ.get("MEJORA_MIN_PCT", "3")) / 100.0
 # las retira SOLO en vez de seguir publicándolas como si fueran de hoy.
 # Se puede subir/bajar con MAX_EDAD_HORAS.
 MAX_EDAD_HORAS = float(os.environ.get("MAX_EDAD_HORAS", "12"))
+
+# ─── SEÑAL DE VENTAS (piloto 2026-11-04) ──────────────────────────────────────
+# Piso de ventas: un producto con pocas ventas demostradas no es una "oferta
+# caliente", es stock parado. Mercado Livre expone sold_quantity en su API; si
+# el item trae ese dato (sold_quantity/ventas/vendidos) y está por debajo de
+# VENTAS_MIN, no entra en la fila. Si el item NO trae el dato (Amazon, o ML por
+# scraping sin API), no se bloquea: sin señal no se inventa una.
+VENTAS_MIN = int(os.environ.get("VENTAS_MIN", "50"))
+
+
+def _ventas_de(item):
+    """Ventas demostradas del item (sold_quantity/ventas/vendidos), o None si no hay dato."""
+    for campo in ("sold_quantity", "ventas", "vendidos"):
+        try:
+            v = item.get(campo)
+            if v is None:
+                continue
+            v = int(float(v))
+            return v if v >= 0 else None
+        except (TypeError, ValueError):
+            continue
+    return None
 
 
 def cargar_enviados_raw():
@@ -466,6 +488,7 @@ def puntaje_oferta(item):
       · cupón CONFIRMADO por la tienda -> +20
       · precio bajo                    -> hasta +10 (R$ 0 suma 10, R$ 150+ suma 0)
       · readmitida porque BAJÓ          -> +15
+      · ventas demostradas             -> hasta +20 (señal de demanda)
     Nada de esto inventa datos: solo ordena lo que ya viene verificado.
     """
     desc = float(item.get("desc_pct") or 0)
@@ -480,13 +503,24 @@ def puntaje_oferta(item):
         precio = 0.0
     barato = 10.0 * max(0.0, (150.0 - precio) / 150.0) if precio > 0 else 0.0
     bajada = 15.0 if item.get("_bajada") else 0.0
-    return desc + frescura + cupon + barato + bajada
+    # Señal de ventas: +0..+20. Con VENTAS_MIN (50) ventas suma 0; con ~1000+ suma
+    # el tope. Así la fila ordena por "ventas + descuento" y no solo por descuento.
+    ventas = _ventas_de(item)
+    ventas_bonus = 0.0
+    if ventas is not None:
+        ventas_bonus = min(20.0, max(0.0, (ventas - VENTAS_MIN) / 50.0))
+    return desc + frescura + cupon + barato + bajada + ventas_bonus
 
 
 def repeticion_permitida(pid, precio_actual, enviados_raw):
     """
     (permitido, motivo). Decide si vale la pena volver a publicar un producto
-    que ya se envió, basándose en si el precio mejoró.
+    que ya se envió.
+
+    Freno nuevo (piloto): dentro de HORAS_MIN_REPETIR (120h) solo se readmite si
+    el precio cayó >= MEJORA_MIN_PCT (10%) por debajo del MÍNIMO histórico
+    publicado (precio_min_publicado), no contra el último precio. Pasadas 120h
+    se readmite sin más (rotación normal).
     """
     e = enviados_raw.get(pid)
     if not isinstance(e, dict):
@@ -496,24 +530,26 @@ def repeticion_permitida(pid, precio_actual, enviados_raw):
     if horas is None:
         return False, "fecha ilegible"
 
-    if horas < HORAS_MIN_REPETIR:
-        return False, f"enviado hace {horas:.1f}h (< {HORAS_MIN_REPETIR:.0f}h)"
+    if horas >= HORAS_MIN_REPETIR:
+        return True, f"enviado hace {horas:.0f}h (>= {HORAS_MIN_REPETIR:.0f}h): readmitido"
 
-    previo = e.get("precio")
+    # Base de comparación: el MÍNIMO histórico publicado, no el último precio.
+    # Si la entrada no lo trae (historial antiguo), se cae al último precio.
+    minimo = e.get("precio_min_publicado")
     try:
-        previo = float(previo)
+        minimo = float(minimo) if minimo is not None else float(e.get("precio"))
         actual = float(precio_actual)
     except (TypeError, ValueError):
         return False, "sin precios comparables"
 
-    if previo <= 0 or actual <= 0:
+    if minimo <= 0 or actual <= 0:
         return False, "precio no válido"
 
-    if actual <= previo * (1 - MEJORA_MIN_PCT):
-        ahorro = (previo - actual) / previo * 100
-        return True, f"BAJÓ R$ {previo:.0f} -> R$ {actual:.0f} (-{ahorro:.0f}%)"
+    if actual <= minimo * (1 - MEJORA_MIN_PCT):
+        ahorro = (minimo - actual) / minimo * 100
+        return True, f"BAJÓ R$ {minimo:.0f} -> R$ {actual:.0f} (-{ahorro:.0f}%) vs mínimo publicado"
 
-    return False, f"sin mejora (R$ {previo:.0f} -> R$ {actual:.0f})"
+    return False, f"sin mejora (mín R$ {minimo:.0f} -> R$ {actual:.0f})"
 
 # ─── ROTACIÓN Y CADUCIDAD DE CUPONES (2026-10-08) ────────────────────────────
 # El usuario lo vio en el grupo: "el bot está estancado con un cupón antiguo".
@@ -1193,10 +1229,10 @@ def armar_fila_rotativa():
     items_esp = [x for x in items_esp if _especifica_confiable(x)]
 
     cupones = cargar_cupones_reales()
-    # Ventana de enfriamiento anti-repetición (horas). Configurable porque es
-    # el factor que MÁS limita cuántos posts/día se pueden publicar: con 48 h el
-    # catálogo se agota enseguida, con 24 h se duplica el material disponible.
-    horas_enfriamiento = int(os.environ.get("HORAS_ENFRIAMIENTO", "24"))
+    # Ventana de enfriamiento anti-repetición (horas). Freno del piloto: 120h.
+    # Un producto vuelve a la fila solo si pasaron 120h o si bajó >= 10% frente
+    # a su mínimo publicado (lo decide repeticion_permitida).
+    horas_enfriamiento = int(os.environ.get("HORAS_ENFRIAMIENTO", "120"))
     bloqueados_48h = cargar_enviados_recientes(horas_enfriamiento)
     enviados_raw = cargar_enviados_raw()
     ahora_iso = datetime.now(timezone.utc).isoformat(timespec="seconds")
@@ -1215,6 +1251,7 @@ def armar_fila_rotativa():
     reingresos = []   # productos readmitidos porque BAJARON de precio
     descartados_viejos = 0   # ofertas sin confirmar en las últimas MAX_EDAD_HORAS
     descartados_anuncio = 0  # enlaces de anuncio de ML (no son el producto)
+    descartados_pocas_ventas = 0  # ofertas con < VENTAS_MIN ventas demostradas
 
     for item in (items_esp + items_achados + items_ml + items_amz):
         pid = item.get("id") or item.get("nombre", "")[:40]
@@ -1268,6 +1305,13 @@ def armar_fila_rotativa():
         if not es_producto_del_canal(nombre_prod):
             continue
 
+        # FILTRO DE SEÑAL DE VENTAS: piso de VENTAS_MIN para los items que traen
+        # el dato. Sin dato (Amazon / ML por scraping) no se bloquea.
+        ventas_item = _ventas_de(item)
+        if ventas_item is not None and ventas_item < VENTAS_MIN:
+            descartados_pocas_ventas += 1
+            continue
+
         # FILTRO DE FRESCURA: "solo lo actualizado en menos de 12 h" (regla del
         # usuario). Protege al grupo de publicar material que ya no es oferta.
         edad = edad_horas(item)
@@ -1281,6 +1325,7 @@ def armar_fila_rotativa():
 
     print(f"  • Descartadas por ANTIGUAS (> {MAX_EDAD_HORAS:.0f}h sin confirmar): {descartados_viejos}")
     print(f"  • Descartadas por ENLACE DE ANUNCIO (no es el producto): {descartados_anuncio}")
+    print(f"  • Descartadas por POCAS VENTAS (< {VENTAS_MIN}): {descartados_pocas_ventas}")
 
     # Dividir candidatos por tienda
     cola_ml = [x for x in todos_candidatos if "Mercado Livre" in x.get("loja", "")]

@@ -247,20 +247,23 @@ jobs:
         continue-on-error: true
         run: python gerar_fila_posts.py
         env:
-          # 12h (antes 24): el mismo producto no vuelve al grupo hasta 12h
-          # después, y solo antes si BAJÓ de precio (ver HORAS_MIN_REPETIR).
-          # Es la regla que evita el "4 veces la misma creatina" que reportó el
-          # usuario el 2026-10-07.
-          HORAS_ENFRIAMIENTO: "12"
+          # FRENO anti-repetición (piloto): 120h. El mismo producto no vuelve al
+          # grupo hasta pasadas 120h, salvo que BAJE >= 10% frente a su mínimo
+          # publicado (lo decide repeticion_permitida con precio_min_publicado).
+          HORAS_ENFRIAMIENTO: "120"
           # FRESCURA: solo se publica lo confirmado hace menos de 12 h. Si la
           # cosecha de una tienda se rompe, sus ofertas caducan aquí solas en
           # vez de seguir publicándose como si fueran de hoy.
           MAX_EDAD_HORAS: "12"
           # REPETICIÓN POR PRECIO: repetir un producto NO es spam si el precio
-          # bajó. 3h de suelo anti-spam + 3% de mejora mínima para readmitirlo.
+          # bajó DE VERDAD. Freno nuevo: 120h y mejora mínima del 10% contra el
+          # MÍNIMO publicado (precio_min_publicado), no contra el último precio.
           # El post sale con el sello "📉 BAJÓ DE PRECIO: antes R$ X".
-          HORAS_MIN_REPETIR: "3"
-          MEJORA_MIN_PCT: "3"
+          HORAS_MIN_REPETIR: "120"
+          MEJORA_MIN_PCT: "10"
+          # SEÑAL DE VENTAS: solo productos con >= 50 ventas demostradas (ML API).
+          # Sin señal (Amazon / ML por scraping) no se bloquea.
+          VENTAS_MIN: "50"
           # VIGENCIA DE CUPONES: 72 h desde que se detectan, no 10 días.
           # El 2026-10-08 salió al grupo una tanda con ECONOMIATOTAL,
           # MIMODODIA, BARATINHO y TODEBOA — códigos de 10 días prometiendo

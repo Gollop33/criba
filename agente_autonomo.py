@@ -39,6 +39,12 @@ from pathlib import Path
 import urllib.parse
 import requests
 
+# Log auditable del curador (definido en ia.py). Nunca debe tumbar el agente.
+try:
+    from ia import registrar_decision_curador
+except Exception:
+    registrar_decision_curador = lambda *a, **k: None
+
 # Fix encoding en Windows
 if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
     try:
@@ -466,6 +472,9 @@ def ejecutar_agente_autonomo(forzar_simulacion=False):
         # Filtro estricto por tiendas_que_pagan
         if tienda_key not in TIENDAS_PERMITIDAS:
             print(f"  [X] Ignorada loja não autorizada: '{norm['loja']}' ({norm['nombre'][:30]})")
+            registrar_decision_curador("bloqueo", "tienda no autorizada",
+                                       norm["nombre"][:50], "agente_autonomo",
+                                       {"tienda": norm["loja"]})
             continue
 
         # 3. Aplicar Tag de Afiliado Garantido y Enlace Corto
@@ -496,6 +505,17 @@ def ejecutar_agente_autonomo(forzar_simulacion=False):
         })
 
         print(f"  -> [{analise['qualidade']}] {norm['loja']}: {norm['nombre'][:45]} | R$ {norm['precio']} (-{norm['desc_pct']}%)")
+
+        # Log auditable del curador: cada decisión queda trazada (qué pasó y por qué).
+        extra_calidad = {"loja": norm["loja"], "precio": norm["precio"], "desc_pct": norm["desc_pct"]}
+        if analise["qualidade"] in ("BOA", "MEDIA"):
+            registrar_decision_curador("aprobado",
+                                       f"calidad {analise['qualidade']}: {analise['motivo']}",
+                                       norm["nombre"][:50], "agente_autonomo", extra_calidad)
+        else:
+            registrar_decision_curador("bloqueo",
+                                       f"calidad {analise['qualidade']}: {analise['motivo']}",
+                                       norm["nombre"][:50], "agente_autonomo", extra_calidad)
 
         # Solo guardar si es BOA o MEDIA (filtro de calidad estricto)
         if analise["qualidade"] in ("BOA", "MEDIA"):
