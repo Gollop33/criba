@@ -2553,14 +2553,16 @@
     ]
   },
   "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
-    "ts": "2026-11-03T14:14:25.866911",
+    "ts": "2026-11-05T05:08:14.464290",
     "canales": {
-      "whatsapp": "2026-11-03T14:14:25.866911"
+      "whatsapp": "2026-11-05T05:08:14.464290"
     },
-    "precio": 2443.0,
+    "precio": 1999.0,
     "precios_publicados": [
-      2443.0
-    ]
+      2443.0,
+      1999.0
+    ],
+    "precio_min_publicado": 2443.0
   },
   "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
     "ts": "2026-11-03T14:33:27.181787",
