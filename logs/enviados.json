@@ -248,23 +248,6 @@
     ],
     "precio_min_publicado": 60.0
   },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-03T07:24:59.688886",
-    "canales": {
-      "whatsapp": "2026-11-03T07:24:59.688886"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      15.0,
-      15.0,
-      15.0,
-      15.0,
-      15.0,
-      18.0,
-      18.0
-    ],
-    "precio_min_publicado": 15.0
-  },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-11-04T12:10:56.178244",
     "canales": {
@@ -3571,6 +3554,16 @@
     "precio": 55.0,
     "precios_publicados": [
       55.0
+    ]
+  },
+  "amz-stanley-copo-quencher-frost-887ml": {
+    "ts": "2026-11-05T07:37:17.827816",
+    "canales": {
+      "whatsapp": "2026-11-05T07:37:17.827816"
+    },
+    "precio": 131.0,
+    "precios_publicados": [
+      131.0
     ]
   }
 }
