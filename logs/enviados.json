@@ -1612,21 +1612,6 @@
     ],
     "precio_min_publicado": 107.0
   },
-  "amz-creme-dental-colgate-sensitive-pro-alivio-ime": {
-    "ts": "2026-11-03T01:14:07.336106",
-    "canales": {
-      "whatsapp": "2026-11-03T01:14:07.336106"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      25.0,
-      19.0,
-      32.0,
-      29.0,
-      29.0
-    ],
-    "precio_min_publicado": 19.0
-  },
   "amz-escova-de-dente-macia-colgate-slim-soft-black": {
     "ts": "2026-11-04T10:13:58.213312",
     "canales": {
@@ -2891,14 +2876,16 @@
     ]
   },
   "amz-enxaguante-bucal-listerine-cool-mint-sem-alco": {
-    "ts": "2026-11-04T01:10:28.137609",
+    "ts": "2026-11-05T01:15:40.810734",
     "canales": {
-      "whatsapp": "2026-11-04T01:10:28.137609"
+      "whatsapp": "2026-11-05T01:15:40.810734"
     },
-    "precio": 26.0,
+    "precio": 32.0,
     "precios_publicados": [
-      26.0
-    ]
+      26.0,
+      32.0
+    ],
+    "precio_min_publicado": 26.0
   },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-11-04T05:47:59.344791",
