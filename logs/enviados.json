@@ -1013,23 +1013,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-11-03T23:12:51.884698",
-    "canales": {
-      "whatsapp": "2026-11-03T23:12:51.884698"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      32.0,
-      32.0,
-      32.0,
-      32.0,
-      32.0,
-      32.0,
-      33.0
-    ],
-    "precio_min_publicado": 32.0
-  },
   "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
     "ts": "2026-11-05T00:39:01.166744",
     "canales": {
@@ -4111,6 +4094,16 @@
     "precio": 263.0,
     "precios_publicados": [
       263.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3i-i513420h-8gb-": {
+    "ts": "2026-11-05T23:15:17.973173",
+    "canales": {
+      "whatsapp": "2026-11-05T23:15:17.973173"
+    },
+    "precio": 3624.0,
+    "precios_publicados": [
+      3624.0
     ]
   }
 }
