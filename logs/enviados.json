@@ -2362,16 +2362,6 @@
     ],
     "precio_min_publicado": 709.0
   },
-  "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-03T12:42:10.688568",
-    "canales": {
-      "whatsapp": "2026-11-03T12:42:10.688568"
-    },
-    "precio": 479.0,
-    "precios_publicados": [
-      479.0
-    ]
-  },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
     "ts": "2026-11-03T12:44:53.660581",
     "canales": {
@@ -3680,6 +3670,16 @@
     "precio": 3099.0,
     "precios_publicados": [
       3099.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
+    "ts": "2026-11-05T12:43:13.175750",
+    "canales": {
+      "whatsapp": "2026-11-05T12:43:13.175750"
+    },
+    "precio": 1999.0,
+    "precios_publicados": [
+      1999.0
     ]
   }
 }
