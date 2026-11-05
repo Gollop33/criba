@@ -2358,16 +2358,6 @@
     ],
     "precio_min_publicado": 20.0
   },
-  "amz-controle-remoto-compativel-samsung-para-smart": {
-    "ts": "2026-11-03T19:14:50.866973",
-    "canales": {
-      "whatsapp": "2026-11-03T19:14:50.866973"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
     "ts": "2026-11-04T19:44:15.229695",
     "canales": {
@@ -3980,6 +3970,16 @@
     "precio": 1589.0,
     "precios_publicados": [
       1589.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-s14-intel-core-ultra-5": {
+    "ts": "2026-11-05T19:16:03.515188",
+    "canales": {
+      "whatsapp": "2026-11-05T19:16:03.515188"
+    },
+    "precio": 5299.0,
+    "precios_publicados": [
+      5299.0
     ]
   }
 }
