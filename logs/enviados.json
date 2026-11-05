@@ -2362,16 +2362,6 @@
     ],
     "precio_min_publicado": 709.0
   },
-  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-11-03T12:44:53.660581",
-    "canales": {
-      "whatsapp": "2026-11-03T12:44:53.660581"
-    },
-    "precio": 1033.0,
-    "precios_publicados": [
-      1033.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-11-03T13:01:58.287979",
     "canales": {
@@ -3680,6 +3670,16 @@
     "precio": 1999.0,
     "precios_publicados": [
       1999.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-05T12:50:14.481518",
+    "canales": {
+      "whatsapp": "2026-11-05T12:50:14.481518"
+    },
+    "precio": 1652.0,
+    "precios_publicados": [
+      1652.0
     ]
   }
 }
