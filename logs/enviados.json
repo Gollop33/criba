@@ -2348,16 +2348,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-switch-gigabit-de-mesa-tplink-ls1005g-5-porta": {
-    "ts": "2026-11-03T20:20:43.491451",
-    "canales": {
-      "whatsapp": "2026-11-03T20:20:43.491451"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xg-": {
     "ts": "2026-11-04T21:22:50.683729",
     "canales": {
@@ -4034,6 +4024,16 @@
     "precio": 1599.0,
     "precios_publicados": [
       1599.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-11-05T20:24:04.898658",
+    "canales": {
+      "whatsapp": "2026-11-05T20:24:04.898658"
+    },
+    "precio": 489.0,
+    "precios_publicados": [
+      489.0
     ]
   }
 }
