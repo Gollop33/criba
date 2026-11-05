@@ -91,36 +91,6 @@
       "publicado_em": "2026-10-08T08:40:13+00:00",
       "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
-    "SAINDOBARRATO": {
-      "detectado_em": "2026-10-06T14:00:05+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "OPAECONOMIZEI": {
-      "detectado_em": "2026-10-06T14:00:05+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "MEUVALEMELI": {
-      "detectado_em": "2026-10-06T13:00:08+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "VALEAPENA": {
-      "detectado_em": "2026-10-06T13:00:08+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "DESCONTOSUPREMO": {
-      "detectado_em": "2026-10-06T13:00:08+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
-    "VAIBARATO": {
-      "detectado_em": "2026-10-06T13:00:08+00:00",
-      "publicado_em": null,
-      "motivo": "bootstrap: ya existía cuando se activó el vigía"
-    },
     "MODANOMELI": {
       "detectado_em": "2026-10-06T17:11:26+00:00",
       "publicado_em": null,
@@ -1220,7 +1190,67 @@
       "detectado_em": "2026-11-04T13:01:55+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MODAMELI": {
+      "detectado_em": "2026-11-05T13:35:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CONSTRUIRAQUI": {
+      "detectado_em": "2026-11-05T13:35:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "AUTOAQUI": {
+      "detectado_em": "2026-11-05T13:35:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SEMPRESAUDE": {
+      "detectado_em": "2026-11-05T13:35:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CASAAQUI": {
+      "detectado_em": "2026-11-05T13:35:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "GARANTAJA": {
+      "detectado_em": "2026-11-05T13:19:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "ECONOMIZAML": {
+      "detectado_em": "2026-11-05T13:19:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DESCONTONAHORA": {
+      "detectado_em": "2026-11-05T13:19:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTABOA": {
+      "detectado_em": "2026-11-05T13:19:13+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DESCONTOSESPECIAIS": {
+      "detectado_em": "2026-11-05T13:05:52+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOSML": {
+      "detectado_em": "2026-11-05T13:05:52+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CLIENTESTOP": {
+      "detectado_em": "2026-11-05T13:05:52+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-05T11:28:06+00:00"
+  "actualizado": "2026-11-05T15:58:50+00:00"
 }

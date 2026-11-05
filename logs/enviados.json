@@ -1657,20 +1657,21 @@
     "precio_min_publicado": 39.0
   },
   "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
-    "ts": "2026-11-04T11:59:20.289565",
+    "ts": "2026-11-05T15:58:54.128143",
     "canales": {
-      "whatsapp": "2026-11-04T11:59:20.289565"
+      "whatsapp": "2026-11-05T15:58:54.128143"
     },
-    "precio": 62.0,
+    "precio": 49.0,
     "precios_publicados": [
       63.0,
       63.0,
       63.0,
       63.0,
       63.0,
-      62.0
+      62.0,
+      49.0
     ],
-    "precio_min_publicado": 63.0
+    "precio_min_publicado": 62.0
   },
   "amz-detergente-ype-clear-5l-detergente-liquido": {
     "ts": "2026-11-03T21:16:06.526735",
@@ -2372,26 +2373,6 @@
       1199.0
     ],
     "precio_min_publicado": 1199.0
-  },
-  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
-    "ts": "2026-11-03T15:50:57.197257",
-    "canales": {
-      "whatsapp": "2026-11-03T15:50:57.197257"
-    },
-    "precio": 5199.0,
-    "precios_publicados": [
-      5199.0
-    ]
-  },
-  "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
-    "ts": "2026-11-03T15:52:22.633658",
-    "canales": {
-      "whatsapp": "2026-11-03T15:52:22.633658"
-    },
-    "precio": 3134.0,
-    "precios_publicados": [
-      3134.0
-    ]
   },
   "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
     "ts": "2026-11-03T16:33:35.779270",
