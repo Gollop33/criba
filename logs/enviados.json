@@ -1750,21 +1750,6 @@
     ],
     "precio_min_publicado": 12.0
   },
-  "amz-max-titanium-top-whey-bar-12-unidades-de-41g-": {
-    "ts": "2026-11-03T19:51:21.859009",
-    "canales": {
-      "whatsapp": "2026-11-03T19:51:21.859009"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      74.0,
-      74.0,
-      69.0,
-      69.0,
-      69.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
     "ts": "2026-11-05T11:57:03.607210",
     "canales": {
@@ -4035,6 +4020,16 @@
     "precio": 5199.0,
     "precios_publicados": [
       5199.0
+    ]
+  },
+  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
+    "ts": "2026-11-05T19:56:44.552491",
+    "canales": {
+      "whatsapp": "2026-11-05T19:56:44.552491"
+    },
+    "precio": 419.0,
+    "precios_publicados": [
+      419.0
     ]
   }
 }
