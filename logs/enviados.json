@@ -2354,16 +2354,6 @@
     ],
     "precio_min_publicado": 16.0
   },
-  "amz-adaptador-bluetooth-usb-54-para-pc-e-notebook": {
-    "ts": "2026-11-03T19:42:23.788006",
-    "canales": {
-      "whatsapp": "2026-11-03T19:42:23.788006"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-pinga-cenoura-e-oliva-oleo-50ml-lola-cosmetic": {
     "ts": "2026-11-04T19:58:06.582309",
     "canales": {
@@ -4034,6 +4024,16 @@
     "precio": 679.0,
     "precios_publicados": [
       679.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
+    "ts": "2026-11-05T19:44:21.051139",
+    "canales": {
+      "whatsapp": "2026-11-05T19:44:21.051139"
+    },
+    "precio": 5199.0,
+    "precios_publicados": [
+      5199.0
     ]
   }
 }
