@@ -2375,16 +2375,6 @@
     ],
     "precio_min_publicado": 1199.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-03T16:33:35.779270",
-    "canales": {
-      "whatsapp": "2026-11-03T16:33:35.779270"
-    },
-    "precio": 3778.0,
-    "precios_publicados": [
-      3778.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g06128gb-12gb-4gb-ra": {
     "ts": "2026-11-03T16:41:06.505468",
     "canales": {
@@ -3789,6 +3779,16 @@
     "precio": 779.0,
     "precios_publicados": [
       779.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-05T16:36:11.907013",
+    "canales": {
+      "whatsapp": "2026-11-05T16:36:11.907013"
+    },
+    "precio": 1089.0,
+    "precios_publicados": [
+      1089.0
     ]
   }
 }
