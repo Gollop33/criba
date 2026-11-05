@@ -1957,18 +1957,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-clear-men-shampoo-anticaspa-turbo-max-power-3": {
-    "ts": "2026-11-03T23:05:51.716149",
-    "canales": {
-      "whatsapp": "2026-11-03T23:05:51.716149"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      30.0,
-      36.0
-    ],
-    "precio_min_publicado": 30.0
-  },
   "amz-appel-home-toalha-velvet-flower-aveludada-100": {
     "ts": "2026-11-03T23:15:27.619162",
     "canales": {
@@ -4113,6 +4101,16 @@
     "precio": 3699.0,
     "precios_publicados": [
       3699.0
+    ]
+  },
+  "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
+    "ts": "2026-11-05T23:07:25.758911",
+    "canales": {
+      "whatsapp": "2026-11-05T23:07:25.758911"
+    },
+    "precio": 263.0,
+    "precios_publicados": [
+      263.0
     ]
   }
 }
