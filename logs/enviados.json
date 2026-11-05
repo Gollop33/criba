@@ -1990,18 +1990,6 @@
     ],
     "precio_min_publicado": 9.0
   },
-  "amz-sabonete-liquido-corporal-protex-enriquecido-": {
-    "ts": "2026-11-03T19:04:47.880086",
-    "canales": {
-      "whatsapp": "2026-11-03T19:04:47.880086"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0,
-      19.0
-    ],
-    "precio_min_publicado": 19.0
-  },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-11-05T01:39:59.474838",
     "canales": {
@@ -3979,6 +3967,16 @@
     "precio": 206.0,
     "precios_publicados": [
       206.0
+    ]
+  },
+  "amz-jbl-fone-de-ouvido-com-fio-quantum-100m2-head": {
+    "ts": "2026-11-05T19:05:32.439173",
+    "canales": {
+      "whatsapp": "2026-11-05T19:05:32.439173"
+    },
+    "precio": 154.0,
+    "precios_publicados": [
+      154.0
     ]
   }
 }
