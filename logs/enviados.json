@@ -2377,16 +2377,6 @@
     ],
     "precio_min_publicado": 2443.0
   },
-  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
-    "ts": "2026-11-03T14:33:27.181787",
-    "canales": {
-      "whatsapp": "2026-11-03T14:33:27.181787"
-    },
-    "precio": 894.0,
-    "precios_publicados": [
-      894.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g35-5g-256gb-4gb-ram": {
     "ts": "2026-11-03T14:50:26.946674",
     "canales": {
@@ -3733,6 +3723,16 @@
     "precio": 1100.0,
     "precios_publicados": [
       1100.0
+    ]
+  },
+  "amz-wap-ventilador-de-coluna-50cm-flow-turbo-com-": {
+    "ts": "2026-11-05T14:36:39.174148",
+    "canales": {
+      "whatsapp": "2026-11-05T14:36:39.174148"
+    },
+    "precio": 229.0,
+    "precios_publicados": [
+      229.0
     ]
   }
 }
