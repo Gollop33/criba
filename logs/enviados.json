@@ -2081,18 +2081,6 @@
     ],
     "precio_min_publicado": 13.0
   },
-  "amz-case-externo-para-ssd-m2-nvme-usbc-31-10gbps-": {
-    "ts": "2026-11-03T18:43:36.755351",
-    "canales": {
-      "whatsapp": "2026-11-03T18:43:36.755351"
-    },
-    "precio": 51.0,
-    "precios_publicados": [
-      51.0,
-      51.0
-    ],
-    "precio_min_publicado": 51.0
-  },
   "amz-cerave-gel-de-limpeza-facial-para-pele-oleosa": {
     "ts": "2026-11-04T21:06:28.012577",
     "canales": {
@@ -3971,6 +3959,16 @@
     "precio": 385.0,
     "precios_publicados": [
       385.0
+    ]
+  },
+  "amz-creme-para-assaduras-weleda-baby-de-calendula": {
+    "ts": "2026-11-05T18:44:21.426987",
+    "canales": {
+      "whatsapp": "2026-11-05T18:44:21.426987"
+    },
+    "precio": 7899.0,
+    "precios_publicados": [
+      7899.0
     ]
   }
 }
