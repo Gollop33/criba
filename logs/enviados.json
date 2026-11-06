@@ -893,16 +893,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-secret-desodorante-antitranspirante-em-gel-pr": {
-    "ts": "2026-11-04T18:29:46.717270",
-    "canales": {
-      "whatsapp": "2026-11-04T18:29:46.717270"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-keldog-bifinho-evolutivo-criadores-churrasco-": {
     "ts": "2026-11-04T18:38:34.273395",
     "canales": {
@@ -2140,14 +2130,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-11-05T18:30:35.687423",
+    "ts": "2026-11-06T18:33:22.212117",
     "canales": {
-      "whatsapp": "2026-11-05T18:30:35.687423"
+      "whatsapp": "2026-11-06T18:33:22.212117"
     },
-    "precio": 314900.0,
+    "precio": 3239.0,
     "precios_publicados": [
-      314900.0
-    ]
+      314900.0,
+      3239.0
+    ],
+    "precio_min_publicado": 314900.0
   },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-11-05T18:37:14.665321",
