@@ -270,24 +270,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-11-04T15:18:44.795882",
-    "canales": {
-      "whatsapp": "2026-11-04T15:18:44.795882"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      15.0,
-      15.0,
-      15.0,
-      15.0,
-      15.0,
-      17.0,
-      15.0,
-      17.0
-    ],
-    "precio_min_publicado": 15.0
-  },
   "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
     "ts": "2026-11-05T21:52:41.730234",
     "canales": {
@@ -3880,6 +3862,16 @@
     "precio": 1590.0,
     "precios_publicados": [
       1590.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
+    "ts": "2026-11-06T15:22:17.073516",
+    "canales": {
+      "whatsapp": "2026-11-06T15:22:17.073516"
+    },
+    "precio": 2899.0,
+    "precios_publicados": [
+      2899.0
     ]
   }
 }
