@@ -163,23 +163,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-sanol-desinfetante-liquido-para-uso-geral-lav": {
-    "ts": "2026-11-04T07:34:42.727993",
-    "canales": {
-      "whatsapp": "2026-11-04T07:34:42.727993"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      18.0,
-      18.0,
-      18.0,
-      18.0,
-      18.0,
-      18.0,
-      16.0
-    ],
-    "precio_min_publicado": 18.0
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-04T19:26:35.644699",
     "canales": {
@@ -4179,6 +4162,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
+    "ts": "2026-11-06T07:55:08.417625",
+    "canales": {
+      "whatsapp": "2026-11-06T07:55:08.417625"
+    },
+    "precio": 135.0,
+    "precios_publicados": [
+      135.0
     ]
   }
 }
