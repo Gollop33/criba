@@ -905,16 +905,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-grand-theft-auto-vi-playstation-5": {
-    "ts": "2026-11-04T17:12:35.669393",
-    "canales": {
-      "whatsapp": "2026-11-04T17:12:35.669393"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
     "ts": "2026-11-04T18:25:55.330515",
     "canales": {
@@ -3749,6 +3739,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
+    "ts": "2026-11-06T17:14:14.481522",
+    "canales": {
+      "whatsapp": "2026-11-06T17:14:14.481522"
+    },
+    "precio": 13.0,
+    "precios_publicados": [
+      13.0
     ]
   }
 }
