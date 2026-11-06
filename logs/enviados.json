@@ -128,24 +128,6 @@
     ],
     "precio_min_publicado": 119.0
   },
-  "amz-duracell-pilha-alcalina-aa-pequena-com-16-uni": {
-    "ts": "2026-11-04T15:09:28.107404",
-    "canales": {
-      "whatsapp": "2026-11-04T15:09:28.107404"
-    },
-    "precio": 82.0,
-    "precios_publicados": [
-      82.0,
-      82.0,
-      82.0,
-      82.0,
-      82.0,
-      82.0,
-      78.0,
-      82.0
-    ],
-    "precio_min_publicado": 78.0
-  },
   "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
     "ts": "2026-11-04T21:26:29.323752",
     "canales": {
@@ -3888,6 +3870,16 @@
     "precio": 2599.0,
     "precios_publicados": [
       2599.0
+    ]
+  },
+  "amz-comfort-boom-odorizador-de-roupas-cristais-de": {
+    "ts": "2026-11-06T15:15:28.254281",
+    "canales": {
+      "whatsapp": "2026-11-06T15:15:28.254281"
+    },
+    "precio": 1590.0,
+    "precios_publicados": [
+      1590.0
     ]
   }
 }
