@@ -2427,7 +2427,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-05T13:19:13+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "PROMOSML",
@@ -2453,7 +2454,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-05T19:24:24+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-06T00:01:12-03:00"
 }
