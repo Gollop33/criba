@@ -639,19 +639,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-cerave-gel-de-limpeza-facial-para-pele-oleosa": {
-    "ts": "2026-11-04T21:06:28.012577",
-    "canales": {
-      "whatsapp": "2026-11-04T21:06:28.012577"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0,
-      66.0,
-      66.0
-    ],
-    "precio_min_publicado": 66.0
-  },
   "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
     "ts": "2026-11-05T21:57:31.854221",
     "canales": {
@@ -3883,6 +3870,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-pantene-prov-shampoo-biotinamina-b3-antiqueda": {
+    "ts": "2026-11-06T21:06:52.305282",
+    "canales": {
+      "whatsapp": "2026-11-06T21:06:52.305282"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
