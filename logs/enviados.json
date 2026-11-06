@@ -684,18 +684,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
-    "ts": "2026-11-04T18:51:30.581835",
-    "canales": {
-      "whatsapp": "2026-11-04T18:51:30.581835"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0,
-      29.0
-    ],
-    "precio_min_publicado": 29.0
-  },
   "amz-la-rocheposay-effaclar-gel-alta-tolerancia-li": {
     "ts": "2026-11-04T22:18:55.305253",
     "canales": {
@@ -868,16 +856,6 @@
       161.0
     ],
     "precio_min_publicado": 161.0
-  },
-  "amz-cooler-para-processador-gamdias-boreas-e1410-": {
-    "ts": "2026-11-04T18:58:49.589849",
-    "canales": {
-      "whatsapp": "2026-11-04T18:58:49.589849"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
   },
   "amz-hada-labo-demaquilante-cleansing-oil-refil-li": {
     "ts": "2026-11-04T19:08:06.205687",
@@ -3847,6 +3825,16 @@
     "precio": 1829.0,
     "precios_publicados": [
       1829.0
+    ]
+  },
+  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
+    "ts": "2026-11-06T19:00:08.452753",
+    "canales": {
+      "whatsapp": "2026-11-06T19:00:08.452753"
+    },
+    "precio": 312.0,
+    "precios_publicados": [
+      312.0
     ]
   }
 }
