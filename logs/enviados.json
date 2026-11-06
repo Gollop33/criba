@@ -860,22 +860,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-vitafor-omegafor-plus-120-capsulas": {
-    "ts": "2026-11-04T05:22:07.114800",
-    "canales": {
-      "whatsapp": "2026-11-04T05:22:07.114800"
-    },
-    "precio": 118.0,
-    "precios_publicados": [
-      124.0,
-      124.0,
-      125.0,
-      124.0,
-      124.0,
-      118.0
-    ],
-    "precio_min_publicado": 124.0
-  },
   "amz-omega-3-epa-dha-1g-120-caps-vitafor": {
     "ts": "2026-11-04T10:35:03.336828",
     "canales": {
@@ -892,23 +876,6 @@
       99.0
     ],
     "precio_min_publicado": 91.0
-  },
-  "amz-cerave-locao-hidratante-corporal-com-textura-": {
-    "ts": "2026-11-04T05:29:05.769704",
-    "canales": {
-      "whatsapp": "2026-11-04T05:29:05.769704"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      97.0,
-      100.0,
-      100.0,
-      100.0,
-      90.0,
-      89.0,
-      90.0
-    ],
-    "precio_min_publicado": 89.0
   },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
     "ts": "2026-11-05T03:23:59.467913",
@@ -1643,19 +1610,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-vichy-dercos-shampoo-anticaspa-para-cabelos-n": {
-    "ts": "2026-11-04T05:42:59.801216",
-    "canales": {
-      "whatsapp": "2026-11-04T05:42:59.801216"
-    },
-    "precio": 81.0,
-    "precios_publicados": [
-      81.0,
-      81.0,
-      81.0
-    ],
-    "precio_min_publicado": 81.0
-  },
   "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
     "ts": "2026-11-04T10:54:37.898994",
     "canales": {
@@ -1795,18 +1749,6 @@
       75.0
     ],
     "precio_min_publicado": 75.0
-  },
-  "amz-petix-tapete-higienico-supersecao-para-caes-3": {
-    "ts": "2026-11-04T05:36:02.303099",
-    "canales": {
-      "whatsapp": "2026-11-04T05:36:02.303099"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      84.0,
-      78.0
-    ],
-    "precio_min_publicado": 84.0
   },
   "amz-mondial-ventilador-de-mesa-40cm-super-power-p": {
     "ts": "2026-11-05T14:22:15.732606",
@@ -4242,6 +4184,16 @@
     "precio": 18.0,
     "precios_publicados": [
       18.0
+    ]
+  },
+  "amz-switch-gigabit-5-portas-tenda-divisor-etherne": {
+    "ts": "2026-11-06T05:47:43.506361",
+    "canales": {
+      "whatsapp": "2026-11-06T05:47:43.506361"
+    },
+    "precio": 53.0,
+    "precios_publicados": [
+      53.0
     ]
   }
 }
