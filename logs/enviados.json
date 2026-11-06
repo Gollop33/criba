@@ -893,16 +893,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
-    "ts": "2026-11-04T18:25:55.330515",
-    "canales": {
-      "whatsapp": "2026-11-04T18:25:55.330515"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-secret-desodorante-antitranspirante-em-gel-pr": {
     "ts": "2026-11-04T18:29:46.717270",
     "canales": {
@@ -3877,6 +3867,16 @@
     "precio": 5999.0,
     "precios_publicados": [
       5999.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
+    "ts": "2026-11-06T18:29:42.256197",
+    "canales": {
+      "whatsapp": "2026-11-06T18:29:42.256197"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
