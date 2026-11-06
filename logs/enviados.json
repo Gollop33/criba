@@ -1119,22 +1119,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-fralda-descartavel-huggies-premium-natural-ca": {
-    "ts": "2026-11-04T11:36:04.322768",
-    "canales": {
-      "whatsapp": "2026-11-04T11:36:04.322768"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      33.0,
-      33.0,
-      33.0,
-      29.0,
-      39.0,
-      35.0
-    ],
-    "precio_min_publicado": 29.0
-  },
   "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
     "ts": "2026-11-05T01:50:37.366620",
     "canales": {
@@ -4138,6 +4122,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
+    "ts": "2026-11-06T11:36:11.433429",
+    "canales": {
+      "whatsapp": "2026-11-06T11:36:11.433429"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
