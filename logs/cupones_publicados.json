@@ -91,13 +91,6 @@
       "publicado_em": "2026-10-08T08:40:13+00:00",
       "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
-    "SEMPREMELI": {
-      "detectado_em": "2026-10-07T13:10:54+00:00",
-      "publicado_em": "2026-10-07T16:32:28+00:00",
-      "descuento": "30% OFF",
-      "link_corto": true,
-      "motivo": "publicado"
-    },
     "PROMOVALE": {
       "detectado_em": "2026-10-07T13:10:54+00:00",
       "publicado_em": "2026-10-07T16:41:40+00:00",
@@ -1255,7 +1248,57 @@
       "detectado_em": "2026-11-05T19:24:24+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "QUEROOFERTA": {
+      "detectado_em": "2026-11-06T13:31:40+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "APROVEITAMAIS": {
+      "detectado_em": "2026-11-06T13:31:40+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "BARATOAGORA": {
+      "detectado_em": "2026-11-06T13:31:40+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFPRACONSTRU": {
+      "detectado_em": "2026-11-06T13:00:50+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFPRAAUTO": {
+      "detectado_em": "2026-11-06T13:00:50+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SAUDEMELI": {
+      "detectado_em": "2026-11-06T13:00:50+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "FAVORITO": {
+      "detectado_em": "2026-11-06T12:47:46+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFNOML": {
+      "detectado_em": "2026-11-06T12:47:46+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MODASEMPRE": {
+      "detectado_em": "2026-11-06T12:47:46+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFPRACASA": {
+      "detectado_em": "2026-11-06T12:47:46+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-06T09:04:52+00:00"
+  "actualizado": "2026-11-06T16:32:41+00:00"
 }

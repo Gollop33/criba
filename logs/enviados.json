@@ -162,24 +162,6 @@
     ],
     "precio_min_publicado": 114.0
   },
-  "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
-    "ts": "2026-11-04T16:30:28.109781",
-    "canales": {
-      "whatsapp": "2026-11-04T16:30:28.109781"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      51.0,
-      51.0,
-      51.0,
-      54.0,
-      54.0,
-      54.0,
-      54.0,
-      54.0
-    ],
-    "precio_min_publicado": 51.0
-  },
   "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
     "ts": "2026-11-05T00:32:35.954216",
     "canales": {
@@ -3768,6 +3750,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
+    "ts": "2026-11-06T16:32:45.454528",
+    "canales": {
+      "whatsapp": "2026-11-06T16:32:45.454528"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
