@@ -1587,18 +1587,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-omo-sabao-liquido-puro-cuidado-5l-tampa-pode-": {
-    "ts": "2026-11-04T10:22:05.318135",
-    "canales": {
-      "whatsapp": "2026-11-04T10:22:05.318135"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      54.0,
-      54.0
-    ],
-    "precio_min_publicado": 54.0
-  },
   "amz-cerave-creme-hidratante-corporal-para-pele-se": {
     "ts": "2026-11-04T16:18:57.644836",
     "canales": {
@@ -4191,6 +4179,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
+    "ts": "2026-11-06T10:22:10.597195",
+    "canales": {
+      "whatsapp": "2026-11-06T10:22:10.597195"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
