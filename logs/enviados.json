@@ -820,23 +820,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-nexgard-antipulgas-e-carrapatos-para-caes-de-": {
-    "ts": "2026-11-04T13:52:23.943360",
-    "canales": {
-      "whatsapp": "2026-11-04T13:52:23.943360"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      58.0,
-      59.0,
-      59.0,
-      59.0,
-      58.0,
-      59.0,
-      62.0
-    ],
-    "precio_min_publicado": 58.0
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-05T12:21:53.517557",
     "canales": {
@@ -1392,16 +1375,6 @@
       32.0
     ],
     "precio_min_publicado": 26.0
-  },
-  "amz-placa-de-captura-4k-hdmi-usb30-hdcp22-ultrahd": {
-    "ts": "2026-11-04T13:50:25.473158",
-    "canales": {
-      "whatsapp": "2026-11-04T13:50:25.473158"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
   },
   "amz-pneu-pretinho-15l": {
     "ts": "2026-11-04T14:04:04.186184",
@@ -4039,6 +4012,16 @@
     "precio": 303.0,
     "precios_publicados": [
       303.0
+    ]
+  },
+  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
+    "ts": "2026-11-06T13:57:06.295111",
+    "canales": {
+      "whatsapp": "2026-11-06T13:57:06.295111"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
