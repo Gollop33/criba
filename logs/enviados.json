@@ -754,18 +754,6 @@
     ],
     "precio_min_publicado": 2443.0
   },
-  "amz-pinga-cenoura-e-oliva-oleo-50ml-lola-cosmetic": {
-    "ts": "2026-11-04T19:58:06.582309",
-    "canales": {
-      "whatsapp": "2026-11-04T19:58:06.582309"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0,
-      17.0
-    ],
-    "precio_min_publicado": 17.0
-  },
   "amz-lysoform-suave-odor-desinfetante-liquido-limp": {
     "ts": "2026-11-05T02:40:24.811601",
     "canales": {
@@ -3855,6 +3843,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-oleo-capilar-koleston-poderoso-9-em-1100ml": {
+    "ts": "2026-11-06T20:00:25.156451",
+    "canales": {
+      "whatsapp": "2026-11-06T20:00:25.156451"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
