@@ -198,23 +198,6 @@
     ],
     "precio_min_publicado": 114.0
   },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-11-04T14:23:12.350327",
-    "canales": {
-      "whatsapp": "2026-11-04T14:23:12.350327"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0,
-      120.0,
-      120.0,
-      120.0,
-      149.0,
-      120.0,
-      120.0
-    ],
-    "precio_min_publicado": 120.0
-  },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-11-04T16:30:28.109781",
     "canales": {
@@ -3962,6 +3945,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
+    "ts": "2026-11-06T14:28:53.618479",
+    "canales": {
+      "whatsapp": "2026-11-06T14:28:53.618479"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
