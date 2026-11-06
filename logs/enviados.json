@@ -269,24 +269,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-04T12:50:04.846739",
-    "canales": {
-      "whatsapp": "2026-11-04T12:50:04.846739"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      15.0,
-      15.0,
-      14.0,
-      14.0,
-      14.0,
-      14.0,
-      14.0,
-      14.0
-    ],
-    "precio_min_publicado": 14.0
-  },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-11-04T15:31:49.278729",
     "canales": {
@@ -1287,19 +1269,6 @@
       52.0
     ],
     "precio_min_publicado": 52.0
-  },
-  "amz-pipicat-granulado-sanitario-classic-4-kg-grao": {
-    "ts": "2026-11-04T12:44:09.531919",
-    "canales": {
-      "whatsapp": "2026-11-04T12:44:09.531919"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      13.0,
-      13.0,
-      12.0
-    ],
-    "precio_min_publicado": 13.0
   },
   "amz-cerave-gel-de-limpeza-facial-para-pele-oleosa": {
     "ts": "2026-11-04T21:06:28.012577",
@@ -4116,6 +4085,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "amz-microondas-philco-20l-branco-pintura-limpa-fa": {
+    "ts": "2026-11-06T12:50:10.906613",
+    "canales": {
+      "whatsapp": "2026-11-06T12:50:10.906613"
+    },
+    "precio": 370.0,
+    "precios_publicados": [
+      370.0
     ]
   }
 }
