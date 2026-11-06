@@ -35,24 +35,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
-    "ts": "2026-11-04T11:47:51.116368",
-    "canales": {
-      "whatsapp": "2026-11-04T11:47:51.116368"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      23.0,
-      25.0,
-      28.0,
-      21.0,
-      21.0,
-      21.0,
-      21.0,
-      21.0
-    ],
-    "precio_min_publicado": 21.0
-  },
   "amz-detergente-para-lavaloucas-em-pastilhas-jimo-": {
     "ts": "2026-11-05T00:11:53.440619",
     "canales": {
@@ -537,24 +519,6 @@
       29.0
     ],
     "precio_min_publicado": 29.0
-  },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-04T11:43:16.168197",
-    "canales": {
-      "whatsapp": "2026-11-04T11:43:16.168197"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      26.0,
-      26.0,
-      26.0,
-      26.0,
-      28.0,
-      35.0,
-      35.0,
-      25.0
-    ],
-    "precio_min_publicado": 26.0
   },
   "amz-mouse-pad-azul": {
     "ts": "2026-11-04T22:14:30.910070",
@@ -4142,6 +4106,16 @@
     "precio": 113.0,
     "precios_publicados": [
       113.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-11-06T11:50:21.928697",
+    "canales": {
+      "whatsapp": "2026-11-06T11:50:21.928697"
+    },
+    "precio": 1179.0,
+    "precios_publicados": [
+      1179.0
     ]
   }
 }
