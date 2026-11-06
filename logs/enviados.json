@@ -770,23 +770,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
-    "ts": "2026-11-03T23:57:46.910795",
-    "canales": {
-      "whatsapp": "2026-11-03T23:57:46.910795"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      24.0,
-      24.0,
-      24.0,
-      27.0,
-      27.0,
-      26.0,
-      23.0
-    ],
-    "precio_min_publicado": 24.0
-  },
   "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
     "ts": "2026-11-04T01:18:35.619638",
     "canales": {
@@ -4109,6 +4092,16 @@
     "precio": 3999.0,
     "precios_publicados": [
       3999.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-s14-ia-pc-core-ultra-7": {
+    "ts": "2026-11-06T00:01:35.946982",
+    "canales": {
+      "whatsapp": "2026-11-06T00:01:35.946982"
+    },
+    "precio": 5399.0,
+    "precios_publicados": [
+      5399.0
     ]
   }
 }
