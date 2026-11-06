@@ -555,23 +555,6 @@
     ],
     "precio_min_publicado": 82.0
   },
-  "amz-mondial-liquidificador-turbo-power-preto-550w": {
-    "ts": "2026-11-04T15:23:40.543247",
-    "canales": {
-      "whatsapp": "2026-11-04T15:23:40.543247"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      99.0,
-      99.0,
-      99.0,
-      99.0,
-      94.0,
-      99.0,
-      94.0
-    ],
-    "precio_min_publicado": 94.0
-  },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
     "ts": "2026-11-05T12:15:12.465766",
     "canales": {
@@ -3872,6 +3855,16 @@
     "precio": 2899.0,
     "precios_publicados": [
       2899.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
+    "ts": "2026-11-06T15:28:52.142345",
+    "canales": {
+      "whatsapp": "2026-11-06T15:28:52.142345"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
