@@ -719,16 +719,6 @@
     ],
     "precio_min_publicado": 2399.0
   },
-  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
-    "ts": "2026-11-04T22:47:08.445903",
-    "canales": {
-      "whatsapp": "2026-11-04T22:47:08.445903"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "amz-teclado-sem-fio-logitech-mx-keys-s-com-clique": {
     "ts": "2026-11-04T22:52:57.593285",
     "canales": {
@@ -3825,6 +3815,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-havit-mouse-pad-grande-70-x-30-cm-gamer-hvmp8": {
+    "ts": "2026-11-06T22:48:17.305642",
+    "canales": {
+      "whatsapp": "2026-11-06T22:48:17.305642"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
