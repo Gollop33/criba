@@ -107,23 +107,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-lampada-osram-standard-7528-p215-original": {
-    "ts": "2026-11-04T02:24:04.666888",
-    "canales": {
-      "whatsapp": "2026-11-04T02:24:04.666888"
-    },
-    "precio": 10.0,
-    "precios_publicados": [
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0,
-      10.0
-    ],
-    "precio_min_publicado": 10.0
-  },
   "amz-detergente-para-lavaloucas-em-pastilhas-jimo-": {
     "ts": "2026-11-05T00:11:53.440619",
     "canales": {
@@ -4193,6 +4176,16 @@
     "precio": 299.0,
     "precios_publicados": [
       299.0
+    ]
+  },
+  "amz-memoria-corsair-vengeance-32gb-2x16gb-ddr5-52": {
+    "ts": "2026-11-06T02:25:36.116578",
+    "canales": {
+      "whatsapp": "2026-11-06T02:25:36.116578"
+    },
+    "precio": 2893.0,
+    "precios_publicados": [
+      2893.0
     ]
   }
 }
