@@ -910,16 +910,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-smart-tv-43-philco-roku-tv-hdr10-dolby-audio": {
-    "ts": "2026-11-04T16:49:24.101666",
-    "canales": {
-      "whatsapp": "2026-11-04T16:49:24.101666"
-    },
-    "precio": 1394.0,
-    "precios_publicados": [
-      1394.0
-    ]
-  },
   "amz-panela-de-pressao-tramontina-vancouver-effect": {
     "ts": "2026-11-05T16:55:41.011156",
     "canales": {
@@ -3766,6 +3756,16 @@
     "precio": 22.0,
     "precios_publicados": [
       22.0
+    ]
+  },
+  "amz-fralda-descartavel-huggies-premium-natural-ca": {
+    "ts": "2026-11-06T16:51:45.500265",
+    "canales": {
+      "whatsapp": "2026-11-06T16:51:45.500265"
+    },
+    "precio": 35.0,
+    "precios_publicados": [
+      35.0
     ]
   }
 }
