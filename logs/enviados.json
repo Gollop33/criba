@@ -484,23 +484,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-absorvente-noturno-com-abas-sempre-livre-cobe": {
-    "ts": "2026-11-04T16:28:13.190020",
-    "canales": {
-      "whatsapp": "2026-11-04T16:28:13.190020"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      18.0,
-      18.0,
-      18.0,
-      18.0,
-      18.0,
-      18.0,
-      19.0
-    ],
-    "precio_min_publicado": 18.0
-  },
   "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
     "ts": "2026-11-05T13:36:13.836803",
     "canales": {
@@ -3775,6 +3758,16 @@
     "precio": 177.0,
     "precios_publicados": [
       177.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-11-06T16:28:55.333217",
+    "canales": {
+      "whatsapp": "2026-11-06T16:28:55.333217"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
