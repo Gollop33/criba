@@ -765,18 +765,6 @@
     ],
     "precio_min_publicado": 140.0
   },
-  "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
-    "ts": "2026-11-04T21:15:40.432849",
-    "canales": {
-      "whatsapp": "2026-11-04T21:15:40.432849"
-    },
-    "precio": 140.0,
-    "precios_publicados": [
-      140.0,
-      140.0
-    ],
-    "precio_min_publicado": 140.0
-  },
   "amz-enxaguante-bucal-listerine-cool-mint-sem-alco": {
     "ts": "2026-11-05T01:15:40.810734",
     "canales": {
@@ -3880,6 +3868,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
+    "ts": "2026-11-06T21:17:08.228576",
+    "canales": {
+      "whatsapp": "2026-11-06T21:17:08.228576"
+    },
+    "precio": 53.0,
+    "precios_publicados": [
+      53.0
     ]
   }
 }
