@@ -750,20 +750,6 @@
     ],
     "precio_min_publicado": 19.0
   },
-  "amz-premier-pet-golden-special-racao-seca-para-ga": {
-    "ts": "2026-11-04T15:53:55.013277",
-    "canales": {
-      "whatsapp": "2026-11-04T15:53:55.013277"
-    },
-    "precio": 148.0,
-    "precios_publicados": [
-      145.0,
-      146.0,
-      146.0,
-      148.0
-    ],
-    "precio_min_publicado": 145.0
-  },
   "amz-boni-natural-creme-dental-com-oleos-naturais-": {
     "ts": "2026-11-05T01:09:29.006417",
     "canales": {
@@ -3827,6 +3813,16 @@
     "precio": 97.0,
     "precios_publicados": [
       97.0
+    ]
+  },
+  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
+    "ts": "2026-11-06T15:57:06.769675",
+    "canales": {
+      "whatsapp": "2026-11-06T15:57:06.769675"
+    },
+    "precio": 64.0,
+    "precios_publicados": [
+      64.0
     ]
   }
 }
