@@ -815,16 +815,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
-    "ts": "2026-11-04T20:32:26.534302",
-    "canales": {
-      "whatsapp": "2026-11-04T20:32:26.534302"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
     "ts": "2026-11-04T20:41:02.757161",
     "canales": {
@@ -3853,6 +3843,16 @@
     "precio": 449.0,
     "precios_publicados": [
       449.0
+    ]
+  },
+  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
+    "ts": "2026-11-06T20:36:54.664977",
+    "canales": {
+      "whatsapp": "2026-11-06T20:36:54.664977"
+    },
+    "precio": 776.0,
+    "precios_publicados": [
+      776.0
     ]
   }
 }
