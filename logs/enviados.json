@@ -1738,19 +1738,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-dove-hidratante-serum-corporal-glicolico-repa": {
-    "ts": "2026-11-04T00:48:04.431948",
-    "canales": {
-      "whatsapp": "2026-11-04T00:48:04.431948"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      28.0,
-      21.0,
-      21.0
-    ],
-    "precio_min_publicado": 21.0
-  },
   "amz-vichy-dercos-shampoo-anticaspa-para-cabelos-n": {
     "ts": "2026-11-04T05:42:59.801216",
     "canales": {
@@ -4172,6 +4159,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-11-06T00:52:46.094676",
+    "canales": {
+      "whatsapp": "2026-11-06T00:52:46.094676"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
