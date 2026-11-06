@@ -1273,22 +1273,6 @@
     ],
     "precio_min_publicado": 96.0
   },
-  "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
-    "ts": "2026-11-04T10:01:04.263387",
-    "canales": {
-      "whatsapp": "2026-11-04T10:01:04.263387"
-    },
-    "precio": 50.0,
-    "precios_publicados": [
-      36.0,
-      36.0,
-      36.0,
-      36.0,
-      36.0,
-      50.0
-    ],
-    "precio_min_publicado": 36.0
-  },
   "amz-areia-higienica-para-gatos-bionature-biodegra": {
     "ts": "2026-11-04T12:03:11.022131",
     "canales": {
@@ -4215,6 +4199,16 @@
     "precio": 7127.0,
     "precios_publicados": [
       7127.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-2": {
+    "ts": "2026-11-06T10:08:15.456002",
+    "canales": {
+      "whatsapp": "2026-11-06T10:08:15.456002"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
