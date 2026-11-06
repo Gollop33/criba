@@ -609,23 +609,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-04T15:44:05.520144",
-    "canales": {
-      "whatsapp": "2026-11-04T15:44:05.520144"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      72.0,
-      63.0,
-      61.0,
-      61.0,
-      61.0,
-      61.0,
-      69.0
-    ],
-    "precio_min_publicado": 61.0
-  },
   "amz-chalesco-tapete-higienico-premium-para-caes-9": {
     "ts": "2026-11-05T05:15:20.390172",
     "canales": {
@@ -3834,6 +3817,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
+    "ts": "2026-11-06T15:49:51.899002",
+    "canales": {
+      "whatsapp": "2026-11-06T15:49:51.899002"
+    },
+    "precio": 97.0,
+    "precios_publicados": [
+      97.0
     ]
   }
 }
