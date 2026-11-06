@@ -1208,22 +1208,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-escova-de-dente-macia-colgate-slim-soft-black": {
-    "ts": "2026-11-04T10:13:58.213312",
-    "canales": {
-      "whatsapp": "2026-11-04T10:13:58.213312"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      29.0,
-      29.0,
-      29.0,
-      27.0,
-      26.0,
-      25.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "amz-fralda-descartavel-huggies-premium-natural-ca": {
     "ts": "2026-11-04T11:36:04.322768",
     "canales": {
@@ -1652,18 +1636,6 @@
       69.0
     ],
     "precio_min_publicado": 69.0
-  },
-  "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
-    "ts": "2026-11-04T10:10:58.107827",
-    "canales": {
-      "whatsapp": "2026-11-04T10:10:58.107827"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      50.0,
-      39.0
-    ],
-    "precio_min_publicado": 50.0
   },
   "amz-fralda-huggies-supreme-care-roupinha-xg": {
     "ts": "2026-11-04T11:02:19.034862",
@@ -4209,6 +4181,16 @@
     "precio": 3999.0,
     "precios_publicados": [
       3999.0
+    ]
+  },
+  "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
+    "ts": "2026-11-06T10:14:58.290297",
+    "canales": {
+      "whatsapp": "2026-11-06T10:14:58.290297"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
