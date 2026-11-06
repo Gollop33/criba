@@ -1311,22 +1311,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
-    "ts": "2026-11-04T02:01:23.593141",
-    "canales": {
-      "whatsapp": "2026-11-04T02:01:23.593141"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0,
-      69.0,
-      61.0,
-      61.0,
-      74.0,
-      69.0
-    ],
-    "precio_min_publicado": 61.0
-  },
   "amz-chalesco-tapete-higienico-premium-para-caes-9": {
     "ts": "2026-11-05T05:15:20.390172",
     "canales": {
@@ -4199,6 +4183,16 @@
     "precio": 649.0,
     "precios_publicados": [
       649.0
+    ]
+  },
+  "amz-final-fantasy-resonance-playstation-5-exclusi": {
+    "ts": "2026-11-06T02:04:58.912839",
+    "canales": {
+      "whatsapp": "2026-11-06T02:04:58.912839"
+    },
+    "precio": 299.0,
+    "precios_publicados": [
+      299.0
     ]
   }
 }
