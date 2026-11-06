@@ -620,20 +620,6 @@
     ],
     "precio_min_publicado": 37.0
   },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-11-04T16:34:47.116241",
-    "canales": {
-      "whatsapp": "2026-11-04T16:34:47.116241"
-    },
-    "precio": 105.0,
-    "precios_publicados": [
-      107.0,
-      111.0,
-      119.0,
-      105.0
-    ],
-    "precio_min_publicado": 107.0
-  },
   "cupom-ml-1b171720da": {
     "ts": "2026-11-06T01:42:12.633418",
     "canales": {
@@ -923,16 +909,6 @@
       32.0
     ],
     "precio_min_publicado": 26.0
-  },
-  "amz-kit-lavagem-completa-shampoo-cera-tok-final-i": {
-    "ts": "2026-11-04T16:41:09.495619",
-    "canales": {
-      "whatsapp": "2026-11-04T16:41:09.495619"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
   },
   "amz-smart-tv-43-philco-roku-tv-hdr10-dolby-audio": {
     "ts": "2026-11-04T16:49:24.101666",
@@ -3760,6 +3736,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-sabonete-em-barra-nivea-creme-care-90g-pack-c": {
+    "ts": "2026-11-06T16:41:14.184932",
+    "canales": {
+      "whatsapp": "2026-11-06T16:41:14.184932"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }

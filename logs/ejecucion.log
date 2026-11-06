@@ -45006,3 +45006,9 @@
 [2026-11-06 16:32:41] [CUPONES] Descartado MODASEMPRE: no está ACTIVADO en la cuenta del usuario
 [2026-11-06 16:32:41] [CUPONES] Descartado OFFPRACASA: no está ACTIVADO en la cuenta del usuario
 [2026-11-06 16:32:41] [CUPONES] Sin cupones nuevos (251 códigos ya vistos).
+[2026-11-06 16:41:08] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-11-06 16:41:09] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-11-06 16:41:09] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-11-06 16:41:09] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-11-06 16:41:09] [CUPONES] Descartado SEMPREMELI: detectado hace 666h (> 24h)
+[2026-11-06 16:41:09] [CUPONES] Sin cupones nuevos (251 códigos ya vistos).
