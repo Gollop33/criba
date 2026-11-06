@@ -305,24 +305,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
-    "ts": "2026-11-04T11:29:02.731686",
-    "canales": {
-      "whatsapp": "2026-11-04T11:29:02.731686"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      49.0,
-      44.0,
-      49.0,
-      49.0,
-      49.0,
-      49.0,
-      49.0,
-      44.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
     "ts": "2026-11-04T12:50:04.846739",
     "canales": {
@@ -4146,6 +4128,16 @@
     "precio": 10.0,
     "precios_publicados": [
       10.0
+    ]
+  },
+  "amz-armazem-brasil-monitor-portatil-156-fhd-1080p": {
+    "ts": "2026-11-06T11:29:19.570718",
+    "canales": {
+      "whatsapp": "2026-11-06T11:29:19.570718"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
