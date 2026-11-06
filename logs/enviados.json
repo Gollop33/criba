@@ -784,18 +784,6 @@
     ],
     "precio_min_publicado": 2443.0
   },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-04T18:46:42.288461",
-    "canales": {
-      "whatsapp": "2026-11-04T18:46:42.288461"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0,
-      20.0
-    ],
-    "precio_min_publicado": 20.0
-  },
   "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
     "ts": "2026-11-04T19:44:15.229695",
     "canales": {
@@ -3849,6 +3837,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
+    "ts": "2026-11-06T18:50:07.463358",
+    "canales": {
+      "whatsapp": "2026-11-06T18:50:07.463358"
+    },
+    "precio": 1829.0,
+    "precios_publicados": [
+      1829.0
     ]
   }
 }
