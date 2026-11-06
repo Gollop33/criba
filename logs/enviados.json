@@ -216,24 +216,6 @@
     ],
     "precio_min_publicado": 2.0
   },
-  "amz-cabo-usb-para-lightning-reforcado-1m-compativ": {
-    "ts": "2026-11-04T05:06:22.010361",
-    "canales": {
-      "whatsapp": "2026-11-04T05:06:22.010361"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      5.0,
-      5.0,
-      5.0,
-      4.0,
-      4.0,
-      4.0,
-      4.0,
-      8.0
-    ],
-    "precio_min_publicado": 4.0
-  },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-11-05T02:01:54.492538",
     "canales": {
@@ -4250,6 +4232,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-protetor-diario-carefree-com-fragrancia-80-un": {
+    "ts": "2026-11-06T05:20:03.091207",
+    "canales": {
+      "whatsapp": "2026-11-06T05:20:03.091207"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
