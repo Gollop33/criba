@@ -815,36 +815,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-sabonete-liquido-nivea-oleo-de-banho": {
-    "ts": "2026-11-04T20:11:12.817803",
-    "canales": {
-      "whatsapp": "2026-11-04T20:11:12.817803"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0
-    ]
-  },
-  "amz-pantene-prov-shampoo-biotinamina-b3-antiqueda": {
-    "ts": "2026-11-04T20:13:55.977875",
-    "canales": {
-      "whatsapp": "2026-11-04T20:13:55.977875"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
-  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
-    "ts": "2026-11-04T20:17:50.552150",
-    "canales": {
-      "whatsapp": "2026-11-04T20:17:50.552150"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-havit-fone-de-ouvido-headset-gamer-fuxih3-bla": {
     "ts": "2026-11-04T20:26:43.606695",
     "canales": {
@@ -3863,6 +3833,16 @@
     "precio": 114.0,
     "precios_publicados": [
       114.0
+    ]
+  },
+  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
+    "ts": "2026-11-06T20:18:27.516364",
+    "canales": {
+      "whatsapp": "2026-11-06T20:18:27.516364"
+    },
+    "precio": 105.0,
+    "precios_publicados": [
+      105.0
     ]
   }
 }
