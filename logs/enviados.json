@@ -905,16 +905,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-11-04T17:08:37.935356",
-    "canales": {
-      "whatsapp": "2026-11-04T17:08:37.935356"
-    },
-    "precio": 735.0,
-    "precios_publicados": [
-      735.0
-    ]
-  },
   "amz-grand-theft-auto-vi-playstation-5": {
     "ts": "2026-11-04T17:12:35.669393",
     "canales": {
@@ -3749,6 +3739,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
+    "ts": "2026-11-06T17:08:49.496980",
+    "canales": {
+      "whatsapp": "2026-11-06T17:08:49.496980"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
