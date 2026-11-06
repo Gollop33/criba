@@ -467,24 +467,6 @@
     ],
     "precio_min_publicado": 15.0
   },
-  "amz-skin-care-hidratante-facial-garnier-uniform-m": {
-    "ts": "2026-11-04T10:41:30.750102",
-    "canales": {
-      "whatsapp": "2026-11-04T10:41:30.750102"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      26.0,
-      26.0,
-      26.0,
-      26.0,
-      26.0,
-      26.0,
-      24.0,
-      24.0
-    ],
-    "precio_min_publicado": 24.0
-  },
   "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
     "ts": "2026-11-04T13:43:49.763853",
     "canales": {
@@ -4174,6 +4156,16 @@
     "precio": 327.0,
     "precios_publicados": [
       327.0
+    ]
+  },
+  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
+    "ts": "2026-11-06T10:43:04.819295",
+    "canales": {
+      "whatsapp": "2026-11-06T10:43:04.819295"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
