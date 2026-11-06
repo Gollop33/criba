@@ -773,26 +773,6 @@
     ],
     "precio_min_publicado": 81.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-04T21:39:31.783490",
-    "canales": {
-      "whatsapp": "2026-11-04T21:39:31.783490"
-    },
-    "precio": 1453.0,
-    "precios_publicados": [
-      1453.0
-    ]
-  },
-  "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
-    "ts": "2026-11-04T21:41:18.198929",
-    "canales": {
-      "whatsapp": "2026-11-04T21:41:18.198929"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
-  },
   "amz-corsair-memoria-vengeance-ddr5-ram-16gb-1x16g": {
     "ts": "2026-11-04T21:49:37.772360",
     "canales": {
@@ -3891,6 +3871,16 @@
     "precio": 138.0,
     "precios_publicados": [
       138.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
+    "ts": "2026-11-06T21:48:20.011536",
+    "canales": {
+      "whatsapp": "2026-11-06T21:48:20.011536"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
