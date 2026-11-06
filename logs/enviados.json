@@ -1544,18 +1544,6 @@
     ],
     "precio_min_publicado": 69.0
   },
-  "amz-fralda-huggies-supreme-care-roupinha-xg": {
-    "ts": "2026-11-04T11:02:19.034862",
-    "canales": {
-      "whatsapp": "2026-11-04T11:02:19.034862"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      89.0,
-      94.0
-    ],
-    "precio_min_publicado": 89.0
-  },
   "amz-fralda-pampers-pants-ajuste-total-tamanho-g-9": {
     "ts": "2026-11-04T15:57:59.442413",
     "canales": {
@@ -4146,6 +4134,16 @@
     "precio": 761.0,
     "precios_publicados": [
       761.0
+    ]
+  },
+  "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
+    "ts": "2026-11-06T11:08:13.799203",
+    "canales": {
+      "whatsapp": "2026-11-06T11:08:13.799203"
+    },
+    "precio": 80.0,
+    "precios_publicados": [
+      80.0
     ]
   }
 }
