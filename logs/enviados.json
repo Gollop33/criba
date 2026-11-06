@@ -450,24 +450,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
-    "ts": "2026-11-04T14:33:48.564314",
-    "canales": {
-      "whatsapp": "2026-11-04T14:33:48.564314"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      37.0,
-      37.0,
-      37.0,
-      28.0,
-      28.0,
-      28.0,
-      28.0,
-      27.0
-    ],
-    "precio_min_publicado": 28.0
-  },
   "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
     "ts": "2026-11-04T15:03:41.316333",
     "canales": {
@@ -3955,6 +3937,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-predator-m612rgb-preto": {
+    "ts": "2026-11-06T14:36:02.145393",
+    "canales": {
+      "whatsapp": "2026-11-06T14:36:02.145393"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
