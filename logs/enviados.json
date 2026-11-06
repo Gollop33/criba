@@ -609,18 +609,6 @@
     ],
     "precio_min_publicado": 69.0
   },
-  "amz-monitor-gamer-aoc-24-full-hd-100hz-1ms-adapti": {
-    "ts": "2026-11-04T23:48:48.593072",
-    "canales": {
-      "whatsapp": "2026-11-04T23:48:48.593072"
-    },
-    "precio": 499.0,
-    "precios_publicados": [
-      499.0,
-      499.0
-    ],
-    "precio_min_publicado": 499.0
-  },
   "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
     "ts": "2026-11-05T05:08:14.464290",
     "canales": {
@@ -693,16 +681,6 @@
       2109.0
     ],
     "precio_min_publicado": 2399.0
-  },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram": {
-    "ts": "2026-11-04T23:41:18.931907",
-    "canales": {
-      "whatsapp": "2026-11-04T23:41:18.931907"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0
-    ]
   },
   "amz-sensodyne-creme-dental-branqueador-extra-fres": {
     "ts": "2026-11-04T23:55:15.481366",
@@ -3840,6 +3818,16 @@
     "precio": 4699.0,
     "precios_publicados": [
       4699.0
+    ]
+  },
+  "amz-filtro-de-linha-com-5-tomadas-epe-205-branco-": {
+    "ts": "2026-11-06T23:49:13.297222",
+    "canales": {
+      "whatsapp": "2026-11-06T23:49:13.297222"
+    },
+    "precio": 4490.0,
+    "precios_publicados": [
+      4490.0
     ]
   }
 }
