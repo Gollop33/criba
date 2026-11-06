@@ -583,19 +583,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-desodorante-nivea-aerosol-men": {
-    "ts": "2026-11-04T22:57:19.482104",
-    "canales": {
-      "whatsapp": "2026-11-04T22:57:19.482104"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0,
-      18.0,
-      18.0
-    ],
-    "precio_min_publicado": 18.0
-  },
   "amz-mondial-ventilador-de-mesa-40cm-super-power-p": {
     "ts": "2026-11-05T14:22:15.732606",
     "canales": {
@@ -3825,6 +3812,16 @@
     "precio": 54.0,
     "precios_publicados": [
       54.0
+    ]
+  },
+  "amz-pelicula-de-vidro-temperado-premium-9h-compat": {
+    "ts": "2026-11-06T23:01:36.628910",
+    "canales": {
+      "whatsapp": "2026-11-06T23:01:36.628910"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
