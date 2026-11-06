@@ -815,16 +815,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
-    "ts": "2026-11-04T20:07:09.098218",
-    "canales": {
-      "whatsapp": "2026-11-04T20:07:09.098218"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "amz-sabonete-liquido-nivea-oleo-de-banho": {
     "ts": "2026-11-04T20:11:12.817803",
     "canales": {
@@ -3863,6 +3853,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-cooler-para-processador-gamdias-boreas-e1410-": {
+    "ts": "2026-11-06T20:08:21.412488",
+    "canales": {
+      "whatsapp": "2026-11-06T20:08:21.412488"
+    },
+    "precio": 114.0,
+    "precios_publicados": [
+      114.0
     ]
   }
 }
