@@ -784,18 +784,6 @@
     ],
     "precio_min_publicado": 2443.0
   },
-  "amz-pasta-termica-pcyes-nitrogen-basic-15g-condut": {
-    "ts": "2026-11-04T18:37:13.555633",
-    "canales": {
-      "whatsapp": "2026-11-04T18:37:13.555633"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0,
-      13.0
-    ],
-    "precio_min_publicado": 13.0
-  },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-11-04T18:46:42.288461",
     "canales": {
@@ -892,16 +880,6 @@
       161.0
     ],
     "precio_min_publicado": 161.0
-  },
-  "amz-keldog-bifinho-evolutivo-criadores-churrasco-": {
-    "ts": "2026-11-04T18:38:34.273395",
-    "canales": {
-      "whatsapp": "2026-11-04T18:38:34.273395"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
   },
   "amz-cooler-para-processador-gamdias-boreas-e1410-": {
     "ts": "2026-11-04T18:58:49.589849",
@@ -2142,14 +2120,16 @@
     "precio_min_publicado": 314900.0
   },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
-    "ts": "2026-11-05T18:37:14.665321",
+    "ts": "2026-11-06T18:41:08.750351",
     "canales": {
-      "whatsapp": "2026-11-05T18:37:14.665321"
+      "whatsapp": "2026-11-06T18:41:08.750351"
     },
-    "precio": 5008.0,
+    "precio": 4279.0,
     "precios_publicados": [
-      5008.0
-    ]
+      5008.0,
+      4279.0
+    ],
+    "precio_min_publicado": 5008.0
   },
   "amz-mouse-sem-fio-logitech-lift-vertical-com-desi": {
     "ts": "2026-11-05T18:38:30.792807",
