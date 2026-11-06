@@ -1591,20 +1591,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "amz-tapete-higienico-good-pad-80cmx60cm-30-unidad": {
-    "ts": "2026-11-04T04:32:08.271767",
-    "canales": {
-      "whatsapp": "2026-11-04T04:32:08.271767"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      37.0,
-      37.0,
-      37.0,
-      41.0
-    ],
-    "precio_min_publicado": 37.0
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-11-05T12:36:07.637441",
     "canales": {
@@ -4254,6 +4240,16 @@
     "precio": 42.0,
     "precios_publicados": [
       42.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
+    "ts": "2026-11-06T04:50:37.879770",
+    "canales": {
+      "whatsapp": "2026-11-06T04:50:37.879770"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
