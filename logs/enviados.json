@@ -216,24 +216,6 @@
     ],
     "precio_min_publicado": 36.0
   },
-  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
-    "ts": "2026-11-04T16:16:51.366157",
-    "canales": {
-      "whatsapp": "2026-11-04T16:16:51.366157"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      17.0,
-      17.0,
-      17.0,
-      17.0,
-      17.0,
-      19.0,
-      19.0,
-      19.0
-    ],
-    "precio_min_publicado": 17.0
-  },
   "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
     "ts": "2026-11-05T21:52:41.730234",
     "canales": {
@@ -806,18 +788,6 @@
       18.0
     ],
     "precio_min_publicado": 18.0
-  },
-  "amz-cerave-creme-hidratante-corporal-para-pele-se": {
-    "ts": "2026-11-04T16:18:57.644836",
-    "canales": {
-      "whatsapp": "2026-11-04T16:18:57.644836"
-    },
-    "precio": 75.0,
-    "precios_publicados": [
-      75.0,
-      75.0
-    ],
-    "precio_min_publicado": 75.0
   },
   "amz-mondial-ventilador-de-mesa-40cm-super-power-p": {
     "ts": "2026-11-05T14:22:15.732606",
@@ -3795,6 +3765,16 @@
     "precio": 1660.0,
     "precios_publicados": [
       1660.0
+    ]
+  },
+  "amz-base-de-carregamento-do-dualsense-playstation": {
+    "ts": "2026-11-06T16:22:07.461013",
+    "canales": {
+      "whatsapp": "2026-11-06T16:22:07.461013"
+    },
+    "precio": 177.0,
+    "precios_publicados": [
+      177.0
     ]
   }
 }
