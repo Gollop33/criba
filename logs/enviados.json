@@ -1541,19 +1541,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-lavaroupas-liquido-omo-lavagem-perfeita-frasc": {
-    "ts": "2026-11-04T09:22:47.621918",
-    "canales": {
-      "whatsapp": "2026-11-04T09:22:47.621918"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      23.0,
-      23.0,
-      33.0
-    ],
-    "precio_min_publicado": 23.0
-  },
   "amz-pipicat-granulado-sanitario-classic-4-kg-grao": {
     "ts": "2026-11-04T12:44:09.531919",
     "canales": {
@@ -4178,6 +4165,16 @@
     "precio": 43.0,
     "precios_publicados": [
       43.0
+    ]
+  },
+  "amz-sanol-desinfetante-liquido-para-uso-geral-lav": {
+    "ts": "2026-11-06T09:29:11.428484",
+    "canales": {
+      "whatsapp": "2026-11-06T09:29:11.428484"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
