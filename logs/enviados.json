@@ -694,16 +694,6 @@
     ],
     "precio_min_publicado": 2399.0
   },
-  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
-    "ts": "2026-11-04T23:09:48.097164",
-    "canales": {
-      "whatsapp": "2026-11-04T23:09:48.097164"
-    },
-    "precio": 1549.0,
-    "precios_publicados": [
-      1549.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-mx-master-4-com-o-dese": {
     "ts": "2026-11-04T23:13:36.527899",
     "canales": {
@@ -3830,6 +3820,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "amz-escova-de-dente-macia-colgate-slim-soft-black": {
+    "ts": "2026-11-06T23:13:15.132979",
+    "canales": {
+      "whatsapp": "2026-11-06T23:13:15.132979"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
