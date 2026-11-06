@@ -110,23 +110,6 @@
     ],
     "precio_min_publicado": 119.0
   },
-  "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
-    "ts": "2026-11-04T22:06:33.757485",
-    "canales": {
-      "whatsapp": "2026-11-04T22:06:33.757485"
-    },
-    "precio": 114.0,
-    "precios_publicados": [
-      120.0,
-      120.0,
-      116.0,
-      120.0,
-      140.0,
-      114.0,
-      114.0
-    ],
-    "precio_min_publicado": 114.0
-  },
   "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
     "ts": "2026-11-05T00:32:35.954216",
     "canales": {
@@ -162,42 +145,6 @@
       47.0
     ],
     "precio_min_publicado": 34.0
-  },
-  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
-    "ts": "2026-11-04T22:28:40.465489",
-    "canales": {
-      "whatsapp": "2026-11-04T22:28:40.465489"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      32.0,
-      32.0,
-      32.0,
-      32.0,
-      34.0,
-      34.0,
-      25.0,
-      25.0
-    ],
-    "precio_min_publicado": 25.0
-  },
-  "amz-mouse-pad-azul": {
-    "ts": "2026-11-04T22:14:30.910070",
-    "canales": {
-      "whatsapp": "2026-11-04T22:14:30.910070"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0,
-      5.0
-    ],
-    "precio_min_publicado": 5.0
   },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-05T01:56:13.207864",
@@ -635,19 +582,6 @@
       41.0
     ],
     "precio_min_publicado": 41.0
-  },
-  "amz-la-rocheposay-effaclar-gel-alta-tolerancia-li": {
-    "ts": "2026-11-04T22:18:55.305253",
-    "canales": {
-      "whatsapp": "2026-11-04T22:18:55.305253"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0,
-      64.0,
-      64.0
-    ],
-    "precio_min_publicado": 64.0
   },
   "amz-desodorante-nivea-aerosol-men": {
     "ts": "2026-11-04T22:57:19.482104",
@@ -3881,6 +3815,16 @@
     "precio": 411.0,
     "precios_publicados": [
       411.0
+    ]
+  },
+  "amz-kingston-flash-drive-exodia-m-64b-usb-usb-32-": {
+    "ts": "2026-11-06T22:29:46.193644",
+    "canales": {
+      "whatsapp": "2026-11-06T22:29:46.193644"
+    },
+    "precio": 58.0,
+    "precios_publicados": [
+      58.0
     ]
   }
 }
