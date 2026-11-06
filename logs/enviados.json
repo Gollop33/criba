@@ -73,24 +73,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
-    "ts": "2026-11-04T19:26:35.644699",
-    "canales": {
-      "whatsapp": "2026-11-04T19:26:35.644699"
-    },
-    "precio": 60.0,
-    "precios_publicados": [
-      62.0,
-      62.0,
-      62.0,
-      62.0,
-      62.0,
-      60.0,
-      60.0,
-      60.0
-    ],
-    "precio_min_publicado": 60.0
-  },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-11-05T02:01:54.492538",
     "canales": {
@@ -3825,6 +3807,16 @@
     "precio": 3199.0,
     "precios_publicados": [
       3199.0
+    ]
+  },
+  "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
+    "ts": "2026-11-06T19:27:36.692678",
+    "canales": {
+      "whatsapp": "2026-11-06T19:27:36.692678"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
