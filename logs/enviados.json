@@ -180,24 +180,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
-    "ts": "2026-11-04T16:13:25.461753",
-    "canales": {
-      "whatsapp": "2026-11-04T16:13:25.461753"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      53.0,
-      55.0,
-      55.0,
-      55.0,
-      55.0,
-      55.0,
-      49.0,
-      49.0
-    ],
-    "precio_min_publicado": 49.0
-  },
   "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
     "ts": "2026-11-05T00:32:35.954216",
     "canales": {
@@ -3803,6 +3785,16 @@
     "precio": 1669.0,
     "precios_publicados": [
       1669.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
+    "ts": "2026-11-06T16:15:08.594938",
+    "canales": {
+      "whatsapp": "2026-11-06T16:15:08.594938"
+    },
+    "precio": 1660.0,
+    "precios_publicados": [
+      1660.0
     ]
   }
 }
