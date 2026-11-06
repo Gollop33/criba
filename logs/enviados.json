@@ -754,18 +754,6 @@
     ],
     "precio_min_publicado": 2443.0
   },
-  "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
-    "ts": "2026-11-04T19:44:15.229695",
-    "canales": {
-      "whatsapp": "2026-11-04T19:44:15.229695"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0,
-      16.0
-    ],
-    "precio_min_publicado": 16.0
-  },
   "amz-pinga-cenoura-e-oliva-oleo-50ml-lola-cosmetic": {
     "ts": "2026-11-04T19:58:06.582309",
     "canales": {
@@ -3837,6 +3825,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-keldog-bifinho-evolutivo-criadores-churrasco-": {
+    "ts": "2026-11-06T19:47:10.994754",
+    "canales": {
+      "whatsapp": "2026-11-06T19:47:10.994754"
+    },
+    "precio": 20.0,
+    "precios_publicados": [
+      20.0
     ]
   }
 }
