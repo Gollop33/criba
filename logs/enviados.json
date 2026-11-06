@@ -784,18 +784,6 @@
     ],
     "precio_min_publicado": 2443.0
   },
-  "amz-celular-samsung-galaxy-a17-256gb-8gb-50mp-tel": {
-    "ts": "2026-11-04T17:22:14.549792",
-    "canales": {
-      "whatsapp": "2026-11-04T17:22:14.549792"
-    },
-    "precio": 1199.0,
-    "precios_publicados": [
-      1199.0,
-      1199.0
-    ],
-    "precio_min_publicado": 1199.0
-  },
   "amz-pasta-termica-pcyes-nitrogen-basic-15g-condut": {
     "ts": "2026-11-04T18:37:13.555633",
     "canales": {
@@ -3769,6 +3757,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
+    "ts": "2026-11-06T17:24:08.801038",
+    "canales": {
+      "whatsapp": "2026-11-06T17:24:08.801038"
+    },
+    "precio": 44.0,
+    "precios_publicados": [
+      44.0
     ]
   }
 }
