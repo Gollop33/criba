@@ -694,16 +694,6 @@
     ],
     "precio_min_publicado": 2399.0
   },
-  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
-    "ts": "2026-11-04T23:16:41.257660",
-    "canales": {
-      "whatsapp": "2026-11-04T23:16:41.257660"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-11-04T23:24:08.646551",
     "canales": {
@@ -3830,6 +3820,16 @@
     "precio": 81.0,
     "precios_publicados": [
       81.0
+    ]
+  },
+  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
+    "ts": "2026-11-06T23:23:12.018362",
+    "canales": {
+      "whatsapp": "2026-11-06T23:23:12.018362"
+    },
+    "precio": 138.0,
+    "precios_publicados": [
+      138.0
     ]
   }
 }
