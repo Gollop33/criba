@@ -231,6 +231,13 @@ def aplicar_tag(url):
     return f"{u}{ML_TAG}"
 
 def cargar_token_ml():
+    # 1. Variable de entorno (GitHub Secrets: ML_ACCESS_TOKEN). Es la vía real
+    #    en el runner: el token OAuth llega por aquí, no por un archivo local
+    #    (el runner no tiene config_afiliados.json con el token).
+    tok = os.environ.get("ML_ACCESS_TOKEN", "").strip()
+    if tok and not tok.startswith("PON_"):
+        return tok
+    # 2. Archivo de config local (respaldo para desarrollo en el PC).
     if CONFIG_FILE.exists():
         try:
             cfg = json.loads(CONFIG_FILE.read_text(encoding="utf-8"))
@@ -240,6 +247,17 @@ def cargar_token_ml():
         except Exception:
             pass
     return None
+
+
+def _estructura_cookie():
+    """Estructura de ML_PORTAL_COOKIE para diagnóstico: número de cookies,
+    sus nombres y la longitud total. NUNCA registra los valores (son secretos)."""
+    c = ML_PORTAL_COOKIE
+    if not c:
+        return "0 cookies, 0 chars (sin cookie)"
+    partes = [p.strip() for p in c.split(";") if "=" in p]
+    nombres = [p.split("=", 1)[0].strip() for p in partes]
+    return f"{len(partes)} cookies, {len(c)} chars | {', '.join(nombres)}"
 
 # ─── FUENTE 1: API OFICIAL MERCADO LIBRE ───────────────────────────────────────
 
@@ -341,6 +359,7 @@ def cosechar_scraping():
     anuncios_descartados = 0
     log("Consultando scraping de ofertas en Mercado Livre..."
         + ("" if ML_PORTAL_COOKIE else " [AVISO: sin cookie de sesión]"))
+    log(f"  [COOKIE-ESTRUCTURA] {_estructura_cookie()}")
 
     scrape_targets = list(ML_CATEGORIAS)
     # Las búsquedas por texto están DESACTIVADAS por defecto: /ofertas?q=...
@@ -531,11 +550,13 @@ def cosechar_scraping():
     if not items:
         if not ML_PORTAL_COOKIE:
             log("  [DIAGNÓSTICO] ML_PORTAL_COOKIE no está configurada. Sin esa cookie "
-                "Mercado Livre devuelve una página vacía: ESA es la causa del 0.")
+                "Mercado Livre devuelve una página vacía (la API oficial ML_ACCESS_TOKEN "
+                "es el respaldo).")
         elif sin_sesion:
-            log(f"  [DIAGNÓSTICO] {sin_sesion} categoría(s) devolvieron la cáscara "
-                "anti-bot de ML: la cookie ML_PORTAL_COOKIE caducó. "
-                "Renuévala con REAUTORIZAR_ML.bat y vuelve a correr.")
+            log(f"  [DIAGNÓSTICO] {sin_sesion} categoría(s) devolvieron la cáscara anti-bot. "
+                "La API oficial (ML_ACCESS_TOKEN) es el respaldo. Si tampoco cubre, renueva "
+                "ML_PORTAL_COOKIE: exporta las cookies del navegador, actualízala en .env y "
+                "súbela con 'python subir_secrets.py' (GH_PAT).")
         else:
             log("  [DIAGNÓSTICO] ML respondió páginas con contenido pero 0 ofertas "
                 "pasaron el filtro: revisa ML_DESC_MIN o los selectores .poly-card.")

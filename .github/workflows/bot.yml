@@ -151,6 +151,9 @@ jobs:
           # 400 ofertas a 0 y el grupo se queda sin material (pasó el 5-6 de
           # octubre). Es la sesión del portal del usuario.
           ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
+          # Respaldo: API oficial de ML. Si la cookie falla, cosechar_api usa
+          # este token OAuth (Bearer) y la cosecha deja de depender del portal.
+          ML_ACCESS_TOKEN: ${{ secrets.ML_ACCESS_TOKEN }}
 
       # Amazon bloquea las IPs de GitHub: aquí la cosecha devuelve 0 ofertas.
       # Desde el PC del usuario la misma cosecha trae ~300, así que Amazon se
@@ -241,6 +244,9 @@ jobs:
         run: python cosechar_si_viejo.py
         env:
           ML_PORTAL_COOKIE: ${{ secrets.ML_PORTAL_COOKIE }}
+          # cosechar_si_viejo.py lanza agente_ml.py por subprocess (hereda este
+          # entorno), así que también hay que pasarle el respaldo de la API.
+          ML_ACCESS_TOKEN: ${{ secrets.ML_ACCESS_TOKEN }}
 
       # ── Pipeline LIGERO: siempre (también en modo publicar) ───────────────
       - name: generar fila rotativa de posts (gerar_fila_posts)
