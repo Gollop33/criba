@@ -360,24 +360,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
-    "ts": "2026-11-04T14:36:14.805608",
-    "canales": {
-      "whatsapp": "2026-11-04T14:36:14.805608"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      15.0,
-      13.0,
-      13.0,
-      12.0,
-      12.0,
-      13.0,
-      17.0,
-      14.0
-    ],
-    "precio_min_publicado": 12.0
-  },
   "amz-mouse-pad-azul": {
     "ts": "2026-11-04T22:14:30.910070",
     "canales": {
@@ -3947,6 +3929,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
+    "ts": "2026-11-06T14:43:14.154048",
+    "canales": {
+      "whatsapp": "2026-11-06T14:43:14.154048"
+    },
+    "precio": 120.0,
+    "precios_publicados": [
+      120.0
     ]
   }
 }
