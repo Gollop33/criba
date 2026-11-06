@@ -1853,18 +1853,6 @@
     ],
     "precio_min_publicado": 119.0
   },
-  "amz-vichy-dercos-energy-shampoo-antiqueda-estimul": {
-    "ts": "2026-11-04T03:53:03.750740",
-    "canales": {
-      "whatsapp": "2026-11-04T03:53:03.750740"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0,
-      94.0
-    ],
-    "precio_min_publicado": 94.0
-  },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-11-05T03:52:31.031899",
     "canales": {
@@ -4256,6 +4244,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-copo-termico-118l-em-aco-inoxidavel-com-canud": {
+    "ts": "2026-11-06T04:20:18.586188",
+    "canales": {
+      "whatsapp": "2026-11-06T04:20:18.586188"
+    },
+    "precio": 42.0,
+    "precios_publicados": [
+      42.0
     ]
   }
 }
