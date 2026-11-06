@@ -785,23 +785,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
-    "ts": "2026-11-04T14:10:44.294005",
-    "canales": {
-      "whatsapp": "2026-11-04T14:10:44.294005"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      38.0,
-      39.0,
-      38.0,
-      34.0,
-      39.0,
-      38.0,
-      37.0
-    ],
-    "precio_min_publicado": 34.0
-  },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-11-05T16:15:46.846471",
     "canales": {
@@ -3969,6 +3952,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-pneu-pretinho-15l": {
+    "ts": "2026-11-06T14:15:13.017519",
+    "canales": {
+      "whatsapp": "2026-11-06T14:15:13.017519"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
