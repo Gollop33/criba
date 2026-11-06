@@ -1759,18 +1759,6 @@
     ],
     "precio_min_publicado": 69.0
   },
-  "amz-fralda-pom-pom-protek-g-42-unidades": {
-    "ts": "2026-11-04T06:41:11.393478",
-    "canales": {
-      "whatsapp": "2026-11-04T06:41:11.393478"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0,
-      33.0
-    ],
-    "precio_min_publicado": 33.0
-  },
   "amz-fralda-descartavel-huggies-maxima-protecao-ta": {
     "ts": "2026-11-04T10:10:58.107827",
     "canales": {
@@ -4187,6 +4175,16 @@
     "precio": 9.0,
     "precios_publicados": [
       9.0
+    ]
+  },
+  "amz-stanley-copo-termico-stacking-coastal-teal-35": {
+    "ts": "2026-11-06T06:55:47.547279",
+    "canales": {
+      "whatsapp": "2026-11-06T06:55:47.547279"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
