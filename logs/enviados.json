@@ -770,23 +770,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
-    "ts": "2026-11-04T01:18:35.619638",
-    "canales": {
-      "whatsapp": "2026-11-04T01:18:35.619638"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      42.0,
-      54.0,
-      42.0,
-      54.0,
-      42.0,
-      42.0,
-      39.0
-    ],
-    "precio_min_publicado": 42.0
-  },
   "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
     "ts": "2026-11-04T14:33:48.564314",
     "canales": {
@@ -4179,6 +4162,16 @@
     "precio": 293.0,
     "precios_publicados": [
       293.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-5g-cinza-128": {
+    "ts": "2026-11-06T01:21:26.822328",
+    "canales": {
+      "whatsapp": "2026-11-06T01:21:26.822328"
+    },
+    "precio": 3149.0,
+    "precios_publicados": [
+      3149.0
     ]
   }
 }
