@@ -773,16 +773,6 @@
     ],
     "precio_min_publicado": 81.0
   },
-  "amz-redragon-water-cooler-gamerstorm-le240-rd-240": {
-    "ts": "2026-11-04T21:29:24.844277",
-    "canales": {
-      "whatsapp": "2026-11-04T21:29:24.844277"
-    },
-    "precio": 341.0,
-    "precios_publicados": [
-      341.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-11-04T21:39:31.783490",
     "canales": {
@@ -3871,6 +3861,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-sabonete-liquido-nivea-oleo-de-banho": {
+    "ts": "2026-11-06T21:31:25.992245",
+    "canales": {
+      "whatsapp": "2026-11-06T21:31:25.992245"
+    },
+    "precio": 8598.0,
+    "precios_publicados": [
+      8598.0
     ]
   }
 }
