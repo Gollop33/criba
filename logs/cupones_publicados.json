@@ -91,13 +91,6 @@
       "publicado_em": "2026-10-08T08:40:13+00:00",
       "motivo": "migracion: ya salio en tandas antes de la rotacion"
     },
-    "BRINCADEIRASML": {
-      "detectado_em": "2026-10-07T13:00:11+00:00",
-      "publicado_em": "2026-10-07T17:56:25+00:00",
-      "descuento": "20% OFF",
-      "link_corto": true,
-      "motivo": "publicado"
-    },
     "VIPNOML": {
       "detectado_em": "2026-10-07T13:00:11+00:00",
       "publicado_em": "2026-10-07T18:42:39+00:00",
@@ -1275,7 +1268,17 @@
       "detectado_em": "2026-10-09T22:30:43+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 666h (> 24h)"
+    },
+    "TUDOEMPROMO": {
+      "detectado_em": "2026-10-14T16:59:58+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 553h (> 24h)"
+    },
+    "GARANTAMEUDESCONTO": {
+      "detectado_em": "2026-10-14T16:59:58+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 553h (> 24h)"
     }
   },
-  "actualizado": "2026-11-06T17:51:41+00:00"
+  "actualizado": "2026-11-06T18:04:30+00:00"
 }
