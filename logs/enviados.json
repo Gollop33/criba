@@ -35,24 +35,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-cabo-de-carregador-de-iphone-fastcarga-rapida": {
-    "ts": "2026-11-04T11:10:01.659459",
-    "canales": {
-      "whatsapp": "2026-11-04T11:10:01.659459"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      7.0,
-      7.0,
-      7.0,
-      7.0,
-      7.0,
-      7.0,
-      5.0,
-      8.0
-    ],
-    "precio_min_publicado": 5.0
-  },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
     "ts": "2026-11-04T11:47:51.116368",
     "canales": {
@@ -4144,6 +4126,16 @@
     "precio": 80.0,
     "precios_publicados": [
       80.0
+    ]
+  },
+  "amz-antuvi-monitor-portatil-156-1080p-mini-segund": {
+    "ts": "2026-11-06T11:15:14.981835",
+    "canales": {
+      "whatsapp": "2026-11-06T11:15:14.981835"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
