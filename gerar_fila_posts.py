@@ -22,6 +22,7 @@ import json
 import os
 import re
 import hashlib
+import math
 import random
 import sqlite3
 import unicodedata
@@ -1008,6 +1009,79 @@ def clasificar_categoria(nombre):
         return "Smartphones & Celulares"
     return "Ofertas Gerais"
 
+# ─── NICHO 1: ELECTRÓNICA (piloto, 2026-11-06) ────────────────────────────────
+# Etiqueta cada producto en uno de 4 nichos: electronica / iphone / perfumes / otros.
+# La cuota (NICHO_ENFOQUE + CUOTA_NICHO_PCT) prioriza electrónica SIN cortar el resto.
+NICHO_ENFOQUE = os.environ.get("NICHO_ENFOQUE", "").strip().lower()
+CUOTA_NICHO_PCT = int(os.environ.get("CUOTA_NICHO_PCT", "60"))
+
+# Categorías YA existentes en clasificar_categoria que son electrónica (nicho 1).
+_CAT_ELECTRONICA = {
+    "Monitores & Displays", "Hardware & Componentes", "Notebooks & PCs",
+    "Periféricos & Setup Gamer", "Games & Gift Cards", "Smartphones & Celulares",
+}
+
+# Palabras de electrónica EXTENDIDA (categorías sin `return` propio en
+# clasificar_categoria): Gadgets & Smart Tech, TVs & Áudio, Eletrodomésticos &
+# Linha Branca. Se usan con \b (borde de palabra) para no caer en subcadenas:
+# "ram" dentro de "programa", "pc" dentro de otra palabra, "tv" dentro de "atv".
+_ELEC_EXTRA = re.compile(
+    r"\b(?:monitor|ultrawide|144hz|165hz|180hz|240hz|ssd|nvme|m\.2|ram|memoria|memória|"
+    r"placa de video|placa de vídeo|rtx|gtx|geforce|radeon|gpu|placa mae|placa-mãe|"
+    r"gabinete|cooler|fonte|ryzen|intel|notebook|laptop|macbook|pc|computador|computadora|"
+    r"teclado|mouse|headset|fone|microfone|webcam|mousepad|cadeira gamer|mesa gamer|"
+    r"playstation|ps5|xbox|nintendo|switch|gift card|steam|controle|smartphone|celular|"
+    r"galaxy|xiaomi|redmi|poco|motorola|tablet|ipad|kindle|alexa|echo|fire tv|firetv|"
+    r"chromecast|roku|power bank|carregador|bluetooth|earbud|soundbar|caixa de som|"
+    r"headphone|tv|televisor|smart tv|geladeira|nevera|refrigerador|frost free|lavadora|"
+    r"máquina de lavar|maquina de lavar|lava e seca|freidora|airfryer|air fryer|fritadeira)\b",
+    re.IGNORECASE,
+)
+
+
+def nicho_de(nombre):
+    """Etiqueta de nicho: electronica / iphone / perfumes / otros."""
+    n = (nombre or "").lower()
+    # iPhone es nicho 2, aunque sea celular (exclusión que gana).
+    if "iphone" in n:
+        return "iphone"
+    # Perfume es nicho 3 (exclusión que gana sobre casa/limpieza, p. ej.
+    # "suavizante com perfume").
+    if re.search(r"perfume|fragrancia|fragrância|colonia|colônia|parfum|toilette|malbec|\bzaad\b", n):
+        return "perfumes"
+    cat = clasificar_categoria(n)
+    if cat in _CAT_ELECTRONICA:
+        return "electronica"
+    if cat == "Relógios & Smartwatches":
+        return "otros"
+    if _ELEC_EXTRA.search(n):
+        return "electronica"
+    return "otros"
+
+
+def _intercalar_nicho(elec, otros, pct):
+    """Intercala elec y otros para que ~pct% del frente sea elec, sin cortar nada."""
+    if not elec:
+        return otros
+    if not otros:
+        return elec
+    g = math.gcd(pct, 100 - pct)
+    n_elec = pct // g
+    n_otros = (100 - pct) // g
+    out = []
+    i = j = 0
+    while i < len(elec) or j < len(otros):
+        for _ in range(n_elec):
+            if i < len(elec):
+                out.append(elec[i])
+                i += 1
+        for _ in range(n_otros):
+            if j < len(otros):
+                out.append(otros[j])
+                j += 1
+    return out
+
+
 def _link_cupones_con_afiliado():
     """
     (link, es_corto) para la página de cupones de Mercado Livre.
@@ -1321,6 +1395,7 @@ def armar_fila_rotativa():
 
         cat = clasificar_categoria(nombre_prod)
         item["categoria_canal"] = cat
+        item["nicho"] = nicho_de(nombre_prod)
         todos_candidatos.append(item)
 
     print(f"  • Descartadas por ANTIGUAS (> {MAX_EDAD_HORAS:.0f}h sin confirmar): {descartados_viejos}")
@@ -1356,6 +1431,23 @@ def armar_fila_rotativa():
     cola_amz = _ordenar_por_valor(cola_amz)
     cola_shp = _ordenar_por_valor(cola_shp)
 
+    # ── CUOTA DE NICHO: electrónica primero, relleno com el resto (sin cortar) ─
+    # Con NICHO_ENFOQUE="electronica", cada cola se reordena para que ~CUOTA_NICHO_PCT%
+    # del frente sea electrónica y el resto sea lo mejor del demás. La fila nunca
+    # queda vacía por falta de electrónica: si no hay, sale el resto igual.
+    if NICHO_ENFOQUE and CUOTA_NICHO_PCT and 0 < CUOTA_NICHO_PCT < 100:
+        def _es_electronica(it):
+            return it.get("nicho") == "electronica"
+        cola_ml = _intercalar_nicho([x for x in cola_ml if _es_electronica(x)],
+                                    [x for x in cola_ml if not _es_electronica(x)],
+                                    CUOTA_NICHO_PCT)
+        cola_amz = _intercalar_nicho([x for x in cola_amz if _es_electronica(x)],
+                                     [x for x in cola_amz if not _es_electronica(x)],
+                                     CUOTA_NICHO_PCT)
+        cola_shp = _intercalar_nicho([x for x in cola_shp if _es_electronica(x)],
+                                     [x for x in cola_shp if not _es_electronica(x)],
+                                     CUOTA_NICHO_PCT)
+
     # Crear posts de cupones
     posts_cupones = generar_posts_cupones(cupones)
 
@@ -1382,6 +1474,7 @@ def armar_fila_rotativa():
                 "tipo": "producto",
                 "loja": esp.get("loja", "Mercado Livre"),
                 "categoria": esp.get("categoria_canal") or clasificar_categoria(esp.get("nombre", "")),
+                "nicho": esp.get("nicho") or nicho_de(esp.get("nombre", "")),
                 "titulo": esp.get("nombre"),
                 "precio": esp.get("precio"),
                 "precio_anterior": esp.get("precio_anterior"),
@@ -1438,6 +1531,7 @@ def armar_fila_rotativa():
                 "tipo": "producto",
                 "loja": "Shopee",
                 "categoria": candidato.get("categoria_canal", "Shopee Ofertas"),
+                "nicho": candidato.get("nicho", "otros"),
                 "titulo": candidato.get("nombre"),
                 "precio": candidato.get("precio"),
                 "precio_anterior": candidato.get("precio_anterior"),
@@ -1472,6 +1566,7 @@ def armar_fila_rotativa():
                 "tipo": "producto",
                 "loja": "Mercado Livre",
                 "categoria": candidato.get("categoria_canal", "Tech"),
+                "nicho": candidato.get("nicho", "otros"),
                 "titulo": candidato.get("nombre"),
                 "precio": candidato.get("precio"),
                 "precio_anterior": candidato.get("precio_anterior"),
@@ -1507,6 +1602,7 @@ def armar_fila_rotativa():
                     "tipo": "producto",
                     "loja": "Amazon",
                     "categoria": candidato.get("categoria_canal", "Tech"),
+                    "nicho": candidato.get("nicho", "otros"),
                     "titulo": candidato.get("nombre"),
                     "precio": candidato.get("precio"),
                     "precio_anterior": candidato.get("precio_anterior"),
@@ -1557,6 +1653,7 @@ def armar_fila_rotativa():
             "tipo": "producto",
             "loja": loja,
             "categoria": c.get("categoria_canal", "Tech"),
+            "nicho": c.get("nicho", "otros"),
             "titulo": c.get("nombre"),
             "precio": c.get("precio"),
             "precio_anterior": c.get("precio_anterior"),
