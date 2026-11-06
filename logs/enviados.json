@@ -694,16 +694,6 @@
     ],
     "precio_min_publicado": 2399.0
   },
-  "amz-monitor-gamer-samsung-24-fhd-120-hz-hdmi-pret": {
-    "ts": "2026-11-04T23:32:50.094716",
-    "canales": {
-      "whatsapp": "2026-11-04T23:32:50.094716"
-    },
-    "precio": 529.0,
-    "precios_publicados": [
-      529.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram": {
     "ts": "2026-11-04T23:41:18.931907",
     "canales": {
@@ -3830,6 +3820,16 @@
     "precio": 439.0,
     "precios_publicados": [
       439.0
+    ]
+  },
+  "amz-corsair-memoria-vengeance-ddr5-ram-16gb-1x16g": {
+    "ts": "2026-11-06T23:36:40.656057",
+    "canales": {
+      "whatsapp": "2026-11-06T23:36:40.656057"
+    },
+    "precio": 1753.0,
+    "precios_publicados": [
+      1753.0
     ]
   }
 }
