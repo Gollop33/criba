@@ -306,24 +306,6 @@
     ],
     "precio_min_publicado": 5.0
   },
-  "amz-morte-subita-mascara-super-hidratante-450g-lo": {
-    "ts": "2026-11-04T16:08:06.619157",
-    "canales": {
-      "whatsapp": "2026-11-04T16:08:06.619157"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      33.0,
-      34.0,
-      32.0,
-      28.0,
-      28.0,
-      28.0,
-      28.0,
-      27.0
-    ],
-    "precio_min_publicado": 28.0
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-05T01:56:13.207864",
     "canales": {
@@ -880,18 +862,6 @@
       69.0
     ],
     "precio_min_publicado": 69.0
-  },
-  "amz-fralda-pampers-pants-ajuste-total-tamanho-g-9": {
-    "ts": "2026-11-04T15:57:59.442413",
-    "canales": {
-      "whatsapp": "2026-11-04T15:57:59.442413"
-    },
-    "precio": 98.0,
-    "precios_publicados": [
-      108.0,
-      98.0
-    ],
-    "precio_min_publicado": 108.0
   },
   "amz-monitor-gamer-aoc-24-full-hd-100hz-1ms-adapti": {
     "ts": "2026-11-04T23:48:48.593072",
@@ -3823,6 +3793,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
+    "ts": "2026-11-06T16:08:18.019505",
+    "canales": {
+      "whatsapp": "2026-11-06T16:08:18.019505"
+    },
+    "precio": 1669.0,
+    "precios_publicados": [
+      1669.0
     ]
   }
 }
