@@ -839,16 +839,6 @@
     ],
     "precio_min_publicado": 161.0
   },
-  "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
-    "ts": "2026-11-04T19:37:36.181322",
-    "canales": {
-      "whatsapp": "2026-11-04T19:37:36.181322"
-    },
-    "precio": 53.0,
-    "precios_publicados": [
-      53.0
-    ]
-  },
   "amz-whiskas-racao-carne-gatos-adultos-27-kg": {
     "ts": "2026-11-04T20:07:09.098218",
     "canales": {
@@ -3827,6 +3817,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-dove-desodorante-antitranspirante-aerossol-or": {
+    "ts": "2026-11-06T19:39:06.900354",
+    "canales": {
+      "whatsapp": "2026-11-06T19:39:06.900354"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
