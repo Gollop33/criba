@@ -1476,20 +1476,6 @@
       "whatsapp": "2026-11-06T01:48:48.167096"
     }
   },
-  "amz-fralda-pom-pom-protek-xg-60-unidades": {
-    "ts": "2026-11-04T07:58:57.123997",
-    "canales": {
-      "whatsapp": "2026-11-04T07:58:57.123997"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0,
-      61.0,
-      55.0,
-      55.0
-    ],
-    "precio_min_publicado": 55.0
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-11-05T12:36:07.637441",
     "canales": {
@@ -4172,6 +4158,16 @@
     "precio": 135.0,
     "precios_publicados": [
       135.0
+    ]
+  },
+  "amz-liquidificador-ph900-3l-preto-220v-philco": {
+    "ts": "2026-11-06T08:19:43.769330",
+    "canales": {
+      "whatsapp": "2026-11-06T08:19:43.769330"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
