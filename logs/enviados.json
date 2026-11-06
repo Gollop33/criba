@@ -180,24 +180,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-04T15:31:49.278729",
-    "canales": {
-      "whatsapp": "2026-11-04T15:31:49.278729"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      39.0,
-      39.0,
-      39.0,
-      39.0,
-      39.0,
-      39.0,
-      39.0,
-      35.0
-    ],
-    "precio_min_publicado": 39.0
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-11-04T16:13:25.461753",
     "canales": {
@@ -694,22 +676,6 @@
       26.0
     ],
     "precio_min_publicado": 26.0
-  },
-  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
-    "ts": "2026-11-04T15:34:15.293981",
-    "canales": {
-      "whatsapp": "2026-11-04T15:34:15.293981"
-    },
-    "precio": 107.0,
-    "precios_publicados": [
-      109.0,
-      107.0,
-      106.0,
-      106.0,
-      96.0,
-      107.0
-    ],
-    "precio_min_publicado": 96.0
   },
   "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
     "ts": "2026-11-05T15:58:54.128143",
@@ -3865,6 +3831,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-mondial-liquidificador-turbo-power-preto-550w": {
+    "ts": "2026-11-06T15:36:15.081183",
+    "canales": {
+      "whatsapp": "2026-11-06T15:36:15.081183"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
