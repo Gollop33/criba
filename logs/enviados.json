@@ -1286,21 +1286,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-finish-power-powder-advanced-detergente-para-": {
-    "ts": "2026-11-04T10:56:55.398664",
-    "canales": {
-      "whatsapp": "2026-11-04T10:56:55.398664"
-    },
-    "precio": 113.0,
-    "precios_publicados": [
-      126.0,
-      126.0,
-      126.0,
-      126.0,
-      113.0
-    ],
-    "precio_min_publicado": 126.0
-  },
   "amz-comfort-boom-odorizador-de-roupas-cristais-de": {
     "ts": "2026-11-04T13:05:21.105000",
     "canales": {
@@ -1443,19 +1428,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
-    "ts": "2026-11-04T10:54:37.898994",
-    "canales": {
-      "whatsapp": "2026-11-04T10:54:37.898994"
-    },
-    "precio": 80.0,
-    "precios_publicados": [
-      89.0,
-      89.0,
-      80.0
-    ],
-    "precio_min_publicado": 89.0
-  },
   "amz-pipicat-granulado-sanitario-classic-4-kg-grao": {
     "ts": "2026-11-04T12:44:09.531919",
     "canales": {
@@ -1595,18 +1567,6 @@
       98.0
     ],
     "precio_min_publicado": 108.0
-  },
-  "amz-bebida-proteica-liquida-piracanjuba-proforce-": {
-    "ts": "2026-11-04T10:51:37.996716",
-    "canales": {
-      "whatsapp": "2026-11-04T10:51:37.996716"
-    },
-    "precio": 91.0,
-    "precios_publicados": [
-      91.0,
-      91.0
-    ],
-    "precio_min_publicado": 91.0
   },
   "amz-monitor-gamer-aoc-24-full-hd-100hz-1ms-adapti": {
     "ts": "2026-11-04T23:48:48.593072",
@@ -4176,6 +4136,16 @@
     "precio": 1079.0,
     "precios_publicados": [
       1079.0
+    ]
+  },
+  "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
+    "ts": "2026-11-06T10:57:16.181542",
+    "canales": {
+      "whatsapp": "2026-11-06T10:57:16.181542"
+    },
+    "precio": 761.0,
+    "precios_publicados": [
+      761.0
     ]
   }
 }

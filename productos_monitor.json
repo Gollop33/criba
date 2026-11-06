@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-06T10:50:01+00:00",
-  "total": 39,
+  "actualizado": "2026-11-06T10:57:05+00:00",
+  "total": 38,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -17,7 +17,7 @@
       "precio_ref": 69.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "headset sem fio playstation pulse elitetm midnight black",
@@ -25,7 +25,7 @@
       "precio_ref": 768.68,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "philco fritadeira air fryer 12l pt pfr2200p 220v",
@@ -33,7 +33,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "panela de pressao tramontina vancouver effect em aluminio",
@@ -41,7 +41,7 @@
       "precio_ref": 161.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
@@ -49,71 +49,7 @@
       "precio_ref": 2109.29,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "monitor gamer curvo aoc agon g4z 27 300hz",
-      "nombre": "Monitor Gamer Curvo AOC AGON G4Z 27\" 300Hz 0,3ms HDR10 Base Ajustável C27G4Z/P",
-      "precio_ref": 1079.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "amd processador ryzen 7 5800x3d de 8 nucleos",
-      "nombre": "AMD Processador Ryzen 7 5800X3D de 8 núcleos e 16 threads para desktop com tecnologia AMD 3D V-Cache",
-      "precio_ref": 2384.69,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 256 gb tela 12 4",
-      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
-      "precio_ref": 4799.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
-      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
-      "precio_ref": 1829.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
-      "nombre": "Mini Rack Montado Intelbras 3U 370mm MRM 337 Preto",
-      "precio_ref": 303.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "gillette desodorante antitranspirante em gel antibacterial 82 g",
-      "nombre": "Gillette Desodorante Antitranspirante em Gel Antibacterial 82 g",
-      "precio_ref": 2599.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g77 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto G77 5G - 256GB 8GB RAM + 16GB RAM Boost camera 108MP Ultra-Pixel, tela 1.5K extreme Amoled 120hz, ul",
-      "precio_ref": 1660.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "monitor lg fhd home office 22u403a b 22",
-      "nombre": "Monitor LG FHD Home & Office 22U403A-B 22”, 1ms (MBR), 120Hz (O/C), Modo leitura, Flicker Safe, HDMI, Switch, Black Stabilize",
-      "precio_ref": 419.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -121,15 +57,7 @@
       "precio_ref": 761.26,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "micro ondas philco 20l branco pintura limpa facil",
-      "nombre": "Micro-ondas Philco 20L Branco Pintura Limpa Fácil PMO24B 127v",
-      "precio_ref": 370.64,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "cafeteira eletrica electrolux inox filtro permanente removivel capacidade",
@@ -137,175 +65,15 @@
       "precio_ref": 249.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
-      "busqueda": "controle sem fio dualsense midnight black",
-      "nombre": "Controle sem fio DualSense Midnight Black",
-      "precio_ref": 420.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
-      "precio_ref": 2899.99,
+      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
+      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
+      "precio_ref": 1829.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "playstation5 pro",
-      "nombre": "PlayStation®5 Pro",
-      "precio_ref": 7399.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 lite 5g 256gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 Lite 5G, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
-      "precio_ref": 2799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "apple iphone 17 de 256 gb preto",
-      "nombre": "Apple iPhone 17 de 256 GB — Preto",
-      "precio_ref": 5949.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
-      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 8 GB, 512 GB SSD, KeepOS/Linux, 15.6'' FHD, Cool Silver - M1502YA-NJ611",
-      "precio_ref": 3199.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon quad 27 qhd 180hz",
-      "nombre": "Monitor Gamer AOC AGON QUAD 27\" QHD 180Hz 0.5ms IPS HDR10 Base Ajustável Q27G4F",
-      "precio_ref": 1179.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "armazem brasil monitor portatil 15 6 fhd 1080p",
-      "nombre": "Armazém Brasil, Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para",
-      "precio_ref": 379.97,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "bundle nintendo switch oled super mario bros wonder",
-      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
-      "precio_ref": 2150.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g4s 25 310hz 0",
-      "nombre": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR10 IPS Base Ajustável 25G4S/P",
-      "precio_ref": 1052.61,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "antuvi monitor portatil 15 6 1080p mini segunda",
-      "nombre": "ANTUVI Monitor Portátil 15.6'', 1080P, MINI Segunda de Notebook Extensor De Tela, Ultra-Slim e portátil, com alto-falante de",
-      "precio_ref": 399.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "base de carregamento do dualsense playstation 5",
-      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
-      "precio_ref": 177.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
-      "precio_ref": 1441.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
-      "nombre": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 110V | Até 90% Menos Óleo – tecnologia RapidAir, 12 modos de pr",
-      "precio_ref": 312.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
-      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
-      "precio_ref": 1669.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book4 intel coretm i5 1335u 8gb",
-      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, 8GB, 15.6'' Full HD LED",
-      "precio_ref": 3999.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
-      "nombre": "MEMÓRIA KINGSTON FURY BEAST DIMM DDR4 8GB 3200 MHZ KF432C16BB/8 1,35V 1Rx* 288 pinos Desktop Gamer",
-      "precio_ref": 499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
-      "precio_ref": 5999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "resident evil requiem playstation 5",
-      "nombre": "Resident Evil Requiem - PlayStation 5",
-      "precio_ref": 249.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "smart tv lg qned mini led ai 4k",
-      "nombre": "Smart TV LG QNED Mini LED AI 4K QNED70 55 polegadas 2026",
-      "precio_ref": 2779.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 24 ips 144hz nativo",
-      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync sRGB, Pre",
-      "precio_ref": 599.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     },
     {
       "busqueda": "tablet xiaomi pad 7 28 4 cm 11",
@@ -313,7 +81,231 @@
       "precio_ref": 2277.99,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-06T10:50:01+00:00"
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "resident evil requiem playstation 5",
+      "nombre": "Resident Evil Requiem - PlayStation 5",
+      "precio_ref": 249.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "apple iphone 17 de 256 gb preto",
+      "nombre": "Apple iPhone 17 de 256 GB — Preto",
+      "precio_ref": 5949.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book4 intel coretm i5 1335u 8gb",
+      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, 8GB, 15.6'' Full HD LED",
+      "precio_ref": 3999.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
+      "nombre": "MEMÓRIA KINGSTON FURY BEAST DIMM DDR4 8GB 3200 MHZ KF432C16BB/8 1,35V 1Rx* 288 pinos Desktop Gamer",
+      "precio_ref": 499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "smart tv lg qned mini led ai 4k",
+      "nombre": "Smart TV LG QNED Mini LED AI 4K QNED70 55 polegadas 2026",
+      "precio_ref": 2779.9,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g77 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto G77 5G - 256GB 8GB RAM + 16GB RAM Boost camera 108MP Ultra-Pixel, tela 1.5K extreme Amoled 120hz, ul",
+      "precio_ref": 1660.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "controle sem fio dualsense midnight black",
+      "nombre": "Controle sem fio DualSense Midnight Black",
+      "precio_ref": 420.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "micro ondas philco 20l branco pintura limpa facil",
+      "nombre": "Micro-ondas Philco 20L Branco Pintura Limpa Fácil PMO24B 127v",
+      "precio_ref": 370.64,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite 5g 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite 5G, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 2799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "antuvi monitor portatil 15 6 1080p mini segunda",
+      "nombre": "ANTUVI Monitor Portátil 15.6'', 1080P, MINI Segunda de Notebook Extensor De Tela, Ultra-Slim e portátil, com alto-falante de",
+      "precio_ref": 399.99,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "gillette desodorante antitranspirante em gel antibacterial 82 g",
+      "nombre": "Gillette Desodorante Antitranspirante em Gel Antibacterial 82 g",
+      "precio_ref": 2599.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 15 i1300 a80p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD 1 TB,",
+      "precio_ref": 5999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g4s 25 310hz 0",
+      "nombre": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR10 IPS Base Ajustável 25G4S/P",
+      "precio_ref": 1052.61,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon quad 27 qhd 180hz",
+      "nombre": "Monitor Gamer AOC AGON QUAD 27\" QHD 180Hz 0.5ms IPS HDR10 Base Ajustável Q27G4F",
+      "precio_ref": 1179.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
+      "precio_ref": 2150.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "monitor lg fhd home office 22u403a b 22",
+      "nombre": "Monitor LG FHD Home & Office 22U403A-B 22”, 1ms (MBR), 120Hz (O/C), Modo leitura, Flicker Safe, HDMI, Switch, Black Stabilize",
+      "precio_ref": 419.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "armazem brasil monitor portatil 15 6 fhd 1080p",
+      "nombre": "Armazém Brasil, Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para",
+      "precio_ref": 379.97,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "base de carregamento do dualsense playstation 5",
+      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
+      "precio_ref": 177.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
+      "precio_ref": 1669.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
+      "nombre": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 110V | Até 90% Menos Óleo – tecnologia RapidAir, 12 modos de pr",
+      "precio_ref": 312.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
+      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
+      "precio_ref": 2899.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
+      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 8 GB, 512 GB SSD, KeepOS/Linux, 15.6'' FHD, Cool Silver - M1502YA-NJ611",
+      "precio_ref": 3199.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
+      "nombre": "Mini Rack Montado Intelbras 3U 370mm MRM 337 Preto",
+      "precio_ref": 303.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "amd processador ryzen 7 5800x3d de 8 nucleos",
+      "nombre": "AMD Processador Ryzen 7 5800X3D de 8 núcleos e 16 threads para desktop com tecnologia AMD 3D V-Cache",
+      "precio_ref": 2384.69,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "playstation5 pro",
+      "nombre": "PlayStation®5 Pro",
+      "precio_ref": 7399.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
+      "precio_ref": 1441.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 24 ips 144hz nativo",
+      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync sRGB, Pre",
+      "precio_ref": 599.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4799.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-06T10:57:05+00:00"
     }
   ]
 }
