@@ -1070,23 +1070,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
-    "ts": "2026-11-04T06:12:57.147627",
-    "canales": {
-      "whatsapp": "2026-11-04T06:12:57.147627"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0,
-      15.0,
-      17.0,
-      17.0,
-      17.0,
-      17.0,
-      15.0
-    ],
-    "precio_min_publicado": 15.0
-  },
   "amz-absorvente-noturno-com-abas-sempre-livre-cobe": {
     "ts": "2026-11-04T16:28:13.190020",
     "canales": {
@@ -4194,6 +4177,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "amz-mouse-com-fio-multi-classic-box-usb-1200-dpi-": {
+    "ts": "2026-11-06T06:33:30.686742",
+    "canales": {
+      "whatsapp": "2026-11-06T06:33:30.686742"
+    },
+    "precio": 9.0,
+    "precios_publicados": [
+      9.0
     ]
   }
 }
