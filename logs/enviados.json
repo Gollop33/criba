@@ -169,26 +169,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-jbl-fone-de-ouvido-com-fio-quantum-100m2-head": {
-    "ts": "2026-11-05T19:05:32.439173",
-    "canales": {
-      "whatsapp": "2026-11-05T19:05:32.439173"
-    },
-    "precio": 154.0,
-    "precios_publicados": [
-      154.0
-    ]
-  },
-  "amz-controle-sem-fio-playstation-dualshock-4tm-pr": {
-    "ts": "2026-11-05T19:07:21.479790",
-    "canales": {
-      "whatsapp": "2026-11-05T19:07:21.479790"
-    },
-    "precio": 209.0,
-    "precios_publicados": [
-      209.0
-    ]
-  },
   "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
     "ts": "2026-11-05T19:13:48.361759",
     "canales": {
@@ -3571,6 +3551,16 @@
     "precio": 1532.0,
     "precios_publicados": [
       1532.0
+    ]
+  },
+  "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
+    "ts": "2026-11-07T19:07:39.307696",
+    "canales": {
+      "whatsapp": "2026-11-07T19:07:39.307696"
+    },
+    "precio": 1174.0,
+    "precios_publicados": [
+      1174.0
     ]
   }
 }
