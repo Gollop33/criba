@@ -72,24 +72,6 @@
     ],
     "precio_min_publicado": 84.0
   },
-  "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-11-05T12:15:12.465766",
-    "canales": {
-      "whatsapp": "2026-11-05T12:15:12.465766"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      32.0,
-      36.0,
-      35.0,
-      32.0,
-      35.0,
-      32.0,
-      28.0,
-      28.0
-    ],
-    "precio_min_publicado": 28.0
-  },
   "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
     "ts": "2026-11-05T13:36:13.836803",
     "canales": {
@@ -3553,6 +3535,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
+    "ts": "2026-11-07T12:15:25.150348",
+    "canales": {
+      "whatsapp": "2026-11-07T12:15:25.150348"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
