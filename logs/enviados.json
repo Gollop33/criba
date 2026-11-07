@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
-    "ts": "2026-11-05T08:16:53.761504",
-    "canales": {
-      "whatsapp": "2026-11-05T08:16:53.761504"
-    },
-    "precio": 137.0,
-    "precios_publicados": [
-      137.0
-    ]
-  },
   "amz-oster-cafeteira-oster-inox-compacta-075l-ocaf": {
     "ts": "2026-11-05T08:38:46.262687",
     "canales": {
@@ -3585,6 +3575,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
+    "ts": "2026-11-07T08:35:03.851532",
+    "canales": {
+      "whatsapp": "2026-11-07T08:35:03.851532"
+    },
+    "precio": 44.0,
+    "precios_publicados": [
+      44.0
     ]
   }
 }
