@@ -287,26 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
-    "ts": "2026-11-05T11:01:53.323287",
-    "canales": {
-      "whatsapp": "2026-11-05T11:01:53.323287"
-    },
-    "precio": 1825.0,
-    "precios_publicados": [
-      1825.0
-    ]
-  },
-  "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
-    "ts": "2026-11-05T11:03:24.817068",
-    "canales": {
-      "whatsapp": "2026-11-05T11:03:24.817068"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
     "ts": "2026-11-05T11:12:53.277203",
     "canales": {
@@ -3567,6 +3547,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "amz-lysoform-original-desinfetante-liquido-limpez": {
+    "ts": "2026-11-07T11:08:01.943957",
+    "canales": {
+      "whatsapp": "2026-11-07T11:08:01.943957"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
