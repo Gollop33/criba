@@ -169,26 +169,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
-    "ts": "2026-11-05T19:25:59.511996",
-    "canales": {
-      "whatsapp": "2026-11-05T19:25:59.511996"
-    },
-    "precio": 2189.0,
-    "precios_publicados": [
-      2189.0
-    ]
-  },
-  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
-    "ts": "2026-11-05T19:27:09.781800",
-    "canales": {
-      "whatsapp": "2026-11-05T19:27:09.781800"
-    },
-    "precio": 1186.0,
-    "precios_publicados": [
-      1186.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-11-05T19:35:05.399714",
     "canales": {
@@ -3541,6 +3521,16 @@
     "precio": 569.0,
     "precios_publicados": [
       569.0
+    ]
+  },
+  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
+    "ts": "2026-11-07T19:32:33.301862",
+    "canales": {
+      "whatsapp": "2026-11-07T19:32:33.301862"
+    },
+    "precio": 998.0,
+    "precios_publicados": [
+      998.0
     ]
   }
 }
