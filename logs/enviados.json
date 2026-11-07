@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-apple-iphone-16-128-gb-branco": {
-    "ts": "2026-11-05T18:25:48.038475",
-    "canales": {
-      "whatsapp": "2026-11-05T18:25:48.038475"
-    },
-    "precio": 5054.0,
-    "precios_publicados": [
-      5054.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-11-06T18:33:22.212117",
     "canales": {
@@ -3579,6 +3569,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
+    "ts": "2026-11-07T18:25:48.377264",
+    "canales": {
+      "whatsapp": "2026-11-07T18:25:48.377264"
+    },
+    "precio": 1499.0,
+    "precios_publicados": [
+      1499.0
     ]
   }
 }
