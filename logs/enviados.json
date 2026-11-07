@@ -92,24 +92,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-11-05T01:56:13.207864",
-    "canales": {
-      "whatsapp": "2026-11-05T01:56:13.207864"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0,
-      23.0,
-      23.0,
-      23.0,
-      23.0,
-      23.0,
-      23.0,
-      23.0
-    ],
-    "precio_min_publicado": 23.0
-  },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
     "ts": "2026-11-05T03:23:59.467913",
     "canales": {
@@ -3735,6 +3717,16 @@
     "precio": 499.0,
     "precios_publicados": [
       499.0
+    ]
+  },
+  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
+    "ts": "2026-11-07T01:59:01.294451",
+    "canales": {
+      "whatsapp": "2026-11-07T01:59:01.294451"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
