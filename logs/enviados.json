@@ -1,21 +1,4 @@
 {
-  "amz-tapete-higienico-petlike-ultrapads-80cmx60cm-": {
-    "ts": "2026-11-05T22:03:38.828122",
-    "canales": {
-      "whatsapp": "2026-11-05T22:03:38.828122"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      50.0,
-      50.0,
-      50.0,
-      50.0,
-      50.0,
-      47.0,
-      42.0
-    ],
-    "precio_min_publicado": 47.0
-  },
   "cupom-ml-1b171720da": {
     "ts": "2026-11-07T01:43:54.075121",
     "canales": {
@@ -3528,6 +3511,16 @@
     "precio": 131.0,
     "precios_publicados": [
       131.0
+    ]
+  },
+  "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
+    "ts": "2026-11-07T22:06:18.727764",
+    "canales": {
+      "whatsapp": "2026-11-07T22:06:18.727764"
+    },
+    "precio": 1149.0,
+    "precios_publicados": [
+      1149.0
     ]
   }
 }
