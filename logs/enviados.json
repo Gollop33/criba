@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-05T17:19:41.166333",
-    "canales": {
-      "whatsapp": "2026-11-05T17:19:41.166333"
-    },
-    "precio": 2199.0,
-    "precios_publicados": [
-      2199.0
-    ]
-  },
   "amz-kindle-16-gb-modelo-2024-leve-e-compacto-com-": {
     "ts": "2026-11-05T17:20:51.551748",
     "canales": {
@@ -1880,14 +1870,16 @@
     ]
   },
   "amz-morte-subita-mascara-super-hidratante-450g-lo": {
-    "ts": "2026-11-06T17:19:31.517161",
+    "ts": "2026-11-07T17:19:44.894905",
     "canales": {
-      "whatsapp": "2026-11-06T17:19:31.517161"
+      "whatsapp": "2026-11-07T17:19:44.894905"
     },
-    "precio": 31.0,
+    "precio": 27.0,
     "precios_publicados": [
-      31.0
-    ]
+      31.0,
+      27.0
+    ],
+    "precio_min_publicado": 31.0
   },
   "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
     "ts": "2026-11-06T17:24:08.801038",
