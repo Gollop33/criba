@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-05T11:36:14.866954",
-    "canales": {
-      "whatsapp": "2026-11-05T11:36:14.866954"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-playstation-dualsense-controle-sem-fio-branco": {
     "ts": "2026-11-05T11:43:13.645908",
     "canales": {
@@ -3567,6 +3557,16 @@
     "precio": 13.0,
     "precios_publicados": [
       13.0
+    ]
+  },
+  "amz-detergente-limpador-para-extratoras-concentra": {
+    "ts": "2026-11-07T11:42:54.323675",
+    "canales": {
+      "whatsapp": "2026-11-07T11:42:54.323675"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
