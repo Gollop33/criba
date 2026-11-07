@@ -397,20 +397,6 @@
     ],
     "precio_min_publicado": 19.0
   },
-  "amz-boni-natural-creme-dental-com-oleos-naturais-": {
-    "ts": "2026-11-05T01:09:29.006417",
-    "canales": {
-      "whatsapp": "2026-11-05T01:09:29.006417"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      13.0,
-      13.0,
-      11.0,
-      27.0
-    ],
-    "precio_min_publicado": 11.0
-  },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-11-05T01:39:59.474838",
     "canales": {
@@ -488,18 +474,6 @@
       45.0
     ],
     "precio_min_publicado": 45.0
-  },
-  "amz-enxaguante-bucal-listerine-cool-mint-sem-alco": {
-    "ts": "2026-11-05T01:15:40.810734",
-    "canales": {
-      "whatsapp": "2026-11-05T01:15:40.810734"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      26.0,
-      32.0
-    ],
-    "precio_min_publicado": 26.0
   },
   "amz-panela-de-pressao-tramontina-vancouver-effect": {
     "ts": "2026-11-06T17:01:16.023969",
@@ -3784,6 +3758,16 @@
     "precio": 74.0,
     "precios_publicados": [
       74.0
+    ]
+  },
+  "amz-sensodyne-creme-dental-branqueador-extra-fres": {
+    "ts": "2026-11-07T01:18:21.312834",
+    "canales": {
+      "whatsapp": "2026-11-07T01:18:21.312834"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
