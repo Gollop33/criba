@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-oster-cafeteira-oster-inox-compacta-075l-ocaf": {
-    "ts": "2026-11-05T08:38:46.262687",
-    "canales": {
-      "whatsapp": "2026-11-05T08:38:46.262687"
-    },
-    "precio": 103.0,
-    "precios_publicados": [
-      103.0
-    ]
-  },
   "amz-electrolux-kit-16-potes-hermeticos-plastico-m": {
     "ts": "2026-11-05T09:11:24.939545",
     "canales": {
@@ -3585,6 +3575,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-lampada-osram-standard-7528-p215-original": {
+    "ts": "2026-11-07T09:10:19.134970",
+    "canales": {
+      "whatsapp": "2026-11-07T09:10:19.134970"
+    },
+    "precio": 9.0,
+    "precios_publicados": [
+      9.0
     ]
   }
 }
