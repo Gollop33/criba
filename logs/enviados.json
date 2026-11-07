@@ -150,26 +150,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
-    "ts": "2026-11-05T19:56:44.552491",
-    "canales": {
-      "whatsapp": "2026-11-05T19:56:44.552491"
-    },
-    "precio": 419.0,
-    "precios_publicados": [
-      419.0
-    ]
-  },
-  "amz-xiaomi-redmi-pad-2-11-8256gb-wifi-grafite-cin": {
-    "ts": "2026-11-05T19:59:29.368725",
-    "canales": {
-      "whatsapp": "2026-11-05T19:59:29.368725"
-    },
-    "precio": 1580.0,
-    "precios_publicados": [
-      1580.0
-    ]
-  },
   "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
     "ts": "2026-11-05T20:07:21.607513",
     "canales": {
@@ -3524,6 +3504,16 @@
     "precio": 1019.0,
     "precios_publicados": [
       1019.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
+    "ts": "2026-11-07T20:02:21.988686",
+    "canales": {
+      "whatsapp": "2026-11-07T20:02:21.988686"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
