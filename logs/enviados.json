@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-playstation-dualsense-controle-sem-fio-branco": {
-    "ts": "2026-11-05T11:43:13.645908",
-    "canales": {
-      "whatsapp": "2026-11-05T11:43:13.645908"
-    },
-    "precio": 422.0,
-    "precios_publicados": [
-      422.0
-    ]
-  },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-11-05T11:50:16.869620",
     "canales": {
@@ -1930,14 +1920,16 @@
     ]
   },
   "amz-finish-power-powder-advanced-detergente-para-": {
-    "ts": "2026-11-06T11:43:07.925375",
+    "ts": "2026-11-07T11:50:06.551069",
     "canales": {
-      "whatsapp": "2026-11-06T11:43:07.925375"
+      "whatsapp": "2026-11-07T11:50:06.551069"
     },
-    "precio": 113.0,
+    "precio": 99.0,
     "precios_publicados": [
-      113.0
-    ]
+      113.0,
+      99.0
+    ],
+    "precio_min_publicado": 113.0
   },
   "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
     "ts": "2026-11-06T11:50:21.928697",
