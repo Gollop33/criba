@@ -162,26 +162,6 @@
     ],
     "precio_min_publicado": 269900.0
   },
-  "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
-    "ts": "2026-11-05T21:01:57.098301",
-    "canales": {
-      "whatsapp": "2026-11-05T21:01:57.098301"
-    },
-    "precio": 819.0,
-    "precios_publicados": [
-      819.0
-    ]
-  },
-  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
-    "ts": "2026-11-05T21:04:36.636446",
-    "canales": {
-      "whatsapp": "2026-11-05T21:04:36.636446"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
   "amz-fralda-pampers-confort-sec-tamanho-xg-148-uni": {
     "ts": "2026-11-05T21:13:13.341993",
     "canales": {
@@ -1831,14 +1811,16 @@
     ]
   },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
-    "ts": "2026-11-06T21:00:16.642924",
+    "ts": "2026-11-07T21:05:55.664494",
     "canales": {
-      "whatsapp": "2026-11-06T21:00:16.642924"
+      "whatsapp": "2026-11-07T21:05:55.664494"
     },
-    "precio": 60.0,
+    "precio": 51.0,
     "precios_publicados": [
-      60.0
-    ]
+      60.0,
+      51.0
+    ],
+    "precio_min_publicado": 60.0
   },
   "amz-kit-sabonete-phebo-amarelo-720g": {
     "ts": "2026-11-06T21:02:23.343624",
