@@ -1184,7 +1184,22 @@
       "detectado_em": "2026-11-07T16:01:05+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "VALEMUITO": {
+      "detectado_em": "2026-10-18T15:08:32+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 486h (> 24h)"
+    },
+    "BATEDESCONTO": {
+      "detectado_em": "2026-10-12T00:09:05+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 645h (> 24h)"
+    },
+    "PRECINHOBOM": {
+      "detectado_em": "2026-10-12T00:09:05+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 645h (> 24h)"
     }
   },
-  "actualizado": "2026-11-07T20:36:21+00:00"
+  "actualizado": "2026-11-07T20:41:23+00:00"
 }
