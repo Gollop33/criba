@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-cell": {
-    "ts": "2026-11-05T13:29:14.167671",
-    "canales": {
-      "whatsapp": "2026-11-05T13:29:14.167671"
-    },
-    "precio": 11999.0,
-    "precios_publicados": [
-      11999.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-8gb-256gb-tablet-com-tela-": {
     "ts": "2026-11-05T13:42:59.532078",
     "canales": {
@@ -3534,6 +3524,16 @@
     "precio": 137.0,
     "precios_publicados": [
       137.0
+    ]
+  },
+  "amz-stanley-copo-quencher-cream-887ml": {
+    "ts": "2026-11-07T13:36:11.471513",
+    "canales": {
+      "whatsapp": "2026-11-07T13:36:11.471513"
+    },
+    "precio": 136.0,
+    "precios_publicados": [
+      136.0
     ]
   }
 }
