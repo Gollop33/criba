@@ -162,16 +162,6 @@
     ],
     "precio_min_publicado": 269900.0
   },
-  "amz-fralda-pampers-confort-sec-tamanho-xg-148-uni": {
-    "ts": "2026-11-05T21:13:13.341993",
-    "canales": {
-      "whatsapp": "2026-11-05T21:13:13.341993"
-    },
-    "precio": 212.0,
-    "precios_publicados": [
-      212.0
-    ]
-  },
   "amz-philco-fritadeira-air-fryer-12l-pt-pfr2200p-2": {
     "ts": "2026-11-06T21:21:33.877322",
     "canales": {
@@ -3490,6 +3480,16 @@
     "precio": 8.0,
     "precios_publicados": [
       8.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
+    "ts": "2026-11-07T21:19:50.186137",
+    "canales": {
+      "whatsapp": "2026-11-07T21:19:50.186137"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
