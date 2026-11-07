@@ -1,23 +1,4 @@
 {
-  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-11-05T19:50:57.218202",
-    "canales": {
-      "whatsapp": "2026-11-05T19:50:57.218202"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      71.0,
-      71.0,
-      71.0,
-      71.0,
-      76.0,
-      76.0,
-      69.0,
-      59.0,
-      59.0
-    ],
-    "precio_min_publicado": 59.0
-  },
   "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
     "ts": "2026-11-05T21:52:41.730234",
     "canales": {
@@ -3533,6 +3514,16 @@
     "precio": 208.0,
     "precios_publicados": [
       208.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-07T19:53:26.277825",
+    "canales": {
+      "whatsapp": "2026-11-07T19:53:26.277825"
+    },
+    "precio": 1019.0,
+    "precios_publicados": [
+      1019.0
     ]
   }
 }
