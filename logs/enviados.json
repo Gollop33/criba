@@ -232,26 +232,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-smartphone-motorola-moto-g17-256gb-4gb-ram-8g": {
-    "ts": "2026-11-05T13:08:06.834797",
-    "canales": {
-      "whatsapp": "2026-11-05T13:08:06.834797"
-    },
-    "precio": 1091.0,
-    "precios_publicados": [
-      1091.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-s25-ultra-5g-512gb-12g": {
-    "ts": "2026-11-05T13:14:59.620902",
-    "canales": {
-      "whatsapp": "2026-11-05T13:14:59.620902"
-    },
-    "precio": 711000.0,
-    "precios_publicados": [
-      711000.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
     "ts": "2026-11-05T13:22:14.410554",
     "canales": {
@@ -3534,6 +3514,16 @@
     "precio": 45.0,
     "precios_publicados": [
       45.0
+    ]
+  },
+  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
+    "ts": "2026-11-07T13:15:12.934851",
+    "canales": {
+      "whatsapp": "2026-11-07T13:15:12.934851"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
