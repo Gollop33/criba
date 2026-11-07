@@ -1819,14 +1819,16 @@
     ]
   },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-11-06T20:36:54.664977",
+    "ts": "2026-11-07T20:39:53.457554",
     "canales": {
-      "whatsapp": "2026-11-06T20:36:54.664977"
+      "whatsapp": "2026-11-07T20:39:53.457554"
     },
-    "precio": 776.0,
+    "precio": 689.0,
     "precios_publicados": [
-      776.0
-    ]
+      776.0,
+      689.0
+    ],
+    "precio_min_publicado": 776.0
   },
   "amz-pinga-cenoura-e-oliva-oleo-50ml-lola-cosmetic": {
     "ts": "2026-11-06T20:41:18.475009",
