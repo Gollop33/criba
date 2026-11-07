@@ -1189,7 +1189,12 @@
       "detectado_em": "2026-11-07T12:01:01+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SALVAMEUBOLSO": {
+      "detectado_em": "2026-10-15T18:38:45+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 548h (> 24h)"
     }
   },
-  "actualizado": "2026-11-07T14:47:16+00:00"
+  "actualizado": "2026-11-07T14:52:55+00:00"
 }
