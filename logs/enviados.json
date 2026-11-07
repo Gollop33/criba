@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-11-05T23:20:47.006703",
-    "canales": {
-      "whatsapp": "2026-11-05T23:20:47.006703"
-    },
-    "precio": 3499.0,
-    "precios_publicados": [
-      3499.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-11-05T23:28:17.025094",
     "canales": {
@@ -3511,6 +3501,16 @@
     "precio": 170.0,
     "precios_publicados": [
       170.0
+    ]
+  },
+  "amz-quatree-supreme-racao-para-gatos-castrados-sa": {
+    "ts": "2026-11-07T23:20:51.742989",
+    "canales": {
+      "whatsapp": "2026-11-07T23:20:51.742989"
+    },
+    "precio": 185.0,
+    "precios_publicados": [
+      185.0
     ]
   }
 }
