@@ -247,16 +247,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-smartphone-motorola-edge-70-5g-crystals-by-sw": {
-    "ts": "2026-11-05T12:29:12.058777",
-    "canales": {
-      "whatsapp": "2026-11-05T12:29:12.058777"
-    },
-    "precio": 3099.0,
-    "precios_publicados": [
-      3099.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
     "ts": "2026-11-05T12:43:13.175750",
     "canales": {
@@ -3537,6 +3527,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "amz-sanduicheira-eletrica-cadence-click-127v": {
+    "ts": "2026-11-07T12:29:13.731246",
+    "canales": {
+      "whatsapp": "2026-11-07T12:29:13.731246"
+    },
+    "precio": 75.0,
+    "precios_publicados": [
+      75.0
     ]
   }
 }
