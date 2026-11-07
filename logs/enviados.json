@@ -54,23 +54,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
-    "ts": "2026-11-05T15:58:54.128143",
-    "canales": {
-      "whatsapp": "2026-11-05T15:58:54.128143"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      63.0,
-      63.0,
-      63.0,
-      63.0,
-      63.0,
-      62.0,
-      49.0
-    ],
-    "precio_min_publicado": 62.0
-  },
   "amz-tapete-higienico-petlike-ultrapads-80cmx60cm-": {
     "ts": "2026-11-05T22:03:38.828122",
     "canales": {
@@ -3542,6 +3525,16 @@
     "precio": 545.0,
     "precios_publicados": [
       545.0
+    ]
+  },
+  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
+    "ts": "2026-11-07T16:05:04.794222",
+    "canales": {
+      "whatsapp": "2026-11-07T16:05:04.794222"
+    },
+    "precio": 718.0,
+    "precios_publicados": [
+      718.0
     ]
   }
 }
