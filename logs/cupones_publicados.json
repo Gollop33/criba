@@ -36,16 +36,6 @@
       "publicado_em": "2026-10-24T12:31:00+00:00",
       "motivo": "tanda"
     },
-    "DESCONTOESPECIAL": {
-      "detectado_em": "2026-09-25T13:00:16+00:00",
-      "publicado_em": "2026-10-08T14:26:39+00:00",
-      "motivo": "tanda"
-    },
-    "CUSTOUPOUQUINHO": {
-      "detectado_em": "2026-09-25T13:00:16+00:00",
-      "publicado_em": "2026-10-08T14:26:39+00:00",
-      "motivo": "tanda"
-    },
     "VALEMUITO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
       "publicado_em": "2026-10-08T20:24:29+00:00",
@@ -54,21 +44,6 @@
     "FOIBARATO": {
       "detectado_em": "2026-09-25T13:35:57+00:00",
       "publicado_em": "2026-10-24T12:23:13+00:00",
-      "motivo": "tanda"
-    },
-    "VICHYNOMELI": {
-      "detectado_em": "2026-09-25T19:00:14+00:00",
-      "publicado_em": "2026-10-08T14:35:58+00:00",
-      "motivo": "tanda"
-    },
-    "MELIGARANTE": {
-      "detectado_em": "2026-09-28T13:30:06+00:00",
-      "publicado_em": "2026-10-08T14:35:58+00:00",
-      "motivo": "tanda"
-    },
-    "MELISALVA": {
-      "detectado_em": "2026-09-28T13:30:06+00:00",
-      "publicado_em": "2026-10-08T14:35:58+00:00",
       "motivo": "tanda"
     },
     "MELICOMPRA": {
@@ -92,13 +67,6 @@
       "descuento": "30% OFF",
       "link_corto": true,
       "motivo": "tanda"
-    },
-    "SALVAMEUBOLSO": {
-      "detectado_em": "2026-10-08T13:31:11+00:00",
-      "publicado_em": "2026-10-08T14:15:11+00:00",
-      "descuento": "30% OFF",
-      "link_corto": true,
-      "motivo": "publicado"
     },
     "ACHEINOMELI": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
@@ -1196,7 +1164,32 @@
       "detectado_em": "2026-10-14T16:59:58+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 553h (> 24h)"
+    },
+    "AMIGOVIP": {
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MODAAQUI": {
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUPOMPRACONSTRU": {
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUPOMPRAAUTO": {
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUPOMPRACASA": {
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-07T11:01:37+00:00"
+  "actualizado": "2026-11-07T14:47:16+00:00"
 }

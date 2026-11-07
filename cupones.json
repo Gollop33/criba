@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-07T14:08:41+00:00",
-  "total": 188,
+  "actualizado": "2026-11-07T14:44:24+00:00",
+  "total": 193,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -2586,6 +2586,71 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-06T12:47:46+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "AMIGOVIP",
+      "desconto": "10% OFF",
+      "compra_minima": "",
+      "limite": "R$200",
+      "hasta": "",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MODAAQUI",
+      "desconto": "12% OFF",
+      "compra_minima": "",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "CUPOMPRACONSTRU",
+      "desconto": "15% OFF",
+      "compra_minima": "",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "CUPOMPRAAUTO",
+      "desconto": "18% OFF",
+      "compra_minima": "",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-07T12:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "CUPOMPRACASA",
+      "desconto": "18% OFF",
+      "compra_minima": "",
+      "limite": "R$70",
+      "hasta": "",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-07T12:01:01+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
