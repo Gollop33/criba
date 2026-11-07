@@ -287,26 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-electrolux-kit-16-potes-hermeticos-plastico-m": {
-    "ts": "2026-11-05T09:11:24.939545",
-    "canales": {
-      "whatsapp": "2026-11-05T09:11:24.939545"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
-  "amz-britania-sanduicheira-e-grill-press-127v-bgr2": {
-    "ts": "2026-11-05T09:47:34.256564",
-    "canales": {
-      "whatsapp": "2026-11-05T09:47:34.256564"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
     "ts": "2026-11-05T10:21:26.030044",
     "canales": {
@@ -1888,14 +1868,16 @@
     ]
   },
   "amz-personal-vip-papel-higienico-folha-dupla-bran": {
-    "ts": "2026-11-06T09:15:13.169222",
+    "ts": "2026-11-07T09:48:07.984560",
     "canales": {
-      "whatsapp": "2026-11-06T09:15:13.169222"
+      "whatsapp": "2026-11-07T09:48:07.984560"
     },
-    "precio": 55.0,
+    "precio": 28.0,
     "precios_publicados": [
-      55.0
-    ]
+      55.0,
+      28.0
+    ],
+    "precio_min_publicado": 55.0
   },
   "amz-pomada-bepantol-baby-com-provitamina-b5-100g-": {
     "ts": "2026-11-06T09:22:14.049902",
