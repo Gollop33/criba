@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-mustela-creme-preventivo-de-assaduras-vitamin": {
-    "ts": "2026-11-05T07:01:43.787614",
-    "canales": {
-      "whatsapp": "2026-11-05T07:01:43.787614"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0
-    ]
-  },
   "amz-stanley-copo-quencher-frost-887ml": {
     "ts": "2026-11-05T07:37:17.827816",
     "canales": {
@@ -3585,6 +3575,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
+    "ts": "2026-11-07T07:28:21.068831",
+    "canales": {
+      "whatsapp": "2026-11-07T07:28:21.068831"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
