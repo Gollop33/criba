@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-11-05T23:28:17.025094",
-    "canales": {
-      "whatsapp": "2026-11-05T23:28:17.025094"
-    },
-    "precio": 5776.0,
-    "precios_publicados": [
-      5776.0
-    ]
-  },
   "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
     "ts": "2026-11-05T23:37:56.181040",
     "canales": {
@@ -3511,6 +3501,16 @@
     "precio": 185.0,
     "precios_publicados": [
       185.0
+    ]
+  },
+  "amz-the-legend-of-zelda-ocarina-of-time-nintendo-": {
+    "ts": "2026-11-07T23:29:28.574483",
+    "canales": {
+      "whatsapp": "2026-11-07T23:29:28.574483"
+    },
+    "precio": 439.0,
+    "precios_publicados": [
+      439.0
     ]
   }
 }
