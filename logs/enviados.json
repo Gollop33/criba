@@ -664,16 +664,6 @@
     ],
     "precio_min_publicado": 2399.0
   },
-  "amz-veja-limpador-para-limpeza-pesada-cloro-ativo": {
-    "ts": "2026-11-05T00:10:06.336534",
-    "canales": {
-      "whatsapp": "2026-11-05T00:10:06.336534"
-    },
-    "precio": 10.0,
-    "precios_publicados": [
-      10.0
-    ]
-  },
   "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
     "ts": "2026-11-05T00:20:17.353510",
     "canales": {
@@ -3820,6 +3810,16 @@
     "precio": 419900.0,
     "precios_publicados": [
       419900.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
+    "ts": "2026-11-07T00:10:52.478347",
+    "canales": {
+      "whatsapp": "2026-11-07T00:10:52.478347"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
