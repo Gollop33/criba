@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
-    "ts": "2026-11-05T23:46:21.279158",
-    "canales": {
-      "whatsapp": "2026-11-05T23:46:21.279158"
-    },
-    "precio": 376.0,
-    "precios_publicados": [
-      376.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
     "ts": "2026-11-05T23:53:35.663063",
     "canales": {
@@ -3531,6 +3521,16 @@
     "precio": 457.0,
     "precios_publicados": [
       457.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
+    "ts": "2026-11-07T23:51:10.775015",
+    "canales": {
+      "whatsapp": "2026-11-07T23:51:10.775015"
+    },
+    "precio": 3079.0,
+    "precios_publicados": [
+      3079.0
     ]
   }
 }
