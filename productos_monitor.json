@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-07T05:29:06+00:00",
-  "total": 10,
+  "actualizado": "2026-11-07T05:33:01+00:00",
+  "total": 49,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,23 +9,15 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
-      "busqueda": "comfort boom odorizador de roupas cristais de perfume",
-      "nombre": "Comfort Boom Odorizador de Roupas Cristais de Perfume Euforia Floral 275gr",
-      "precio_ref": 16.56,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
+      "precio_ref": 27.5,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
-    },
-    {
-      "busqueda": "detergente em po ype 1kg formula 3 em",
-      "nombre": "Detergente em Pó Ypê 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
-      "precio_ref": 35.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
       "busqueda": "secret desodorante antitranspirante em gel protecao de algodao",
@@ -33,15 +25,47 @@
       "precio_ref": 19.81,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
-      "busqueda": "headset sem fio playstation pulse elitetm midnight black",
-      "nombre": "Headset sem fio PlayStation PULSE Elite™ – Midnight Black",
-      "precio_ref": 768.68,
+      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
+      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
+      "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
+      "nombre": "WAP Aspirador de Pó Automotivo Car 12V2, Portátil, 420ml, com Recipiente Removível e Filtro Lavável, 180W 12VDC",
+      "precio_ref": 69.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "personal vip papel higienico folha dupla branco 24",
+      "nombre": "Personal VIP - Papel Higiênico Folha Dupla, Branco 24 unidades (Embalagem pode variar)",
+      "precio_ref": 28.5,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "comfort boom odorizador de roupas cristais de perfume",
+      "nombre": "Comfort Boom Odorizador de Roupas Cristais de Perfume Euforia Floral 275gr",
+      "precio_ref": 16.56,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "amaciante ype ultra aconchego 5l",
+      "nombre": "Amaciante Ypê Ultra Aconchego 5L",
+      "precio_ref": 18.19,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -49,15 +73,7 @@
       "precio_ref": 99.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
-    },
-    {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 689.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
@@ -65,7 +81,15 @@
       "precio_ref": 3099.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 689.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
       "busqueda": "notebook dell 15 15 i1300 a30p intel core",
@@ -73,15 +97,303 @@
       "precio_ref": 4279.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     },
     {
-      "busqueda": "celular samsung galaxy a17 256gb 8gb 50mp tela",
-      "nombre": "Celular Samsung Galaxy A17, 256GB, 8GB, 50MP Tela 6.7\", IP54 - Cinza",
-      "precio_ref": 1199.9,
+      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
+      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\"",
+      "precio_ref": 2109.29,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T05:29:06+00:00"
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
+      "nombre": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
+      "precio_ref": 455.8,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
+      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
+      "precio_ref": 33.36,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "algodao quadrado para bebe bellacotton 100 algodao 100",
+      "nombre": "Algodão Quadrado para Bebê Bellacotton, 100% Algodão, 100 Unidades | 100% Algodão, Macio",
+      "precio_ref": 23.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
+      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition | Creatina",
+      "precio_ref": 68.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
+      "nombre": "Scalibor® 25g - Coleira Antiparasitária contra mosquitos vetores da Leishmaniose - Cães porte grande 65cm - MSD Saúde Animal",
+      "precio_ref": 44.55,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "lampada osram standard 7528 p21 5 original",
+      "nombre": "Lâmpada Osram Standard 7528 P21/5 - Original",
+      "precio_ref": 9.71,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "ugreen adaptador usb bluetooth 5 4 para pc",
+      "nombre": "UGREEN Adaptador USB Bluetooth 5.4 para PC, Plug & Play para Windows 11/10/8.1, Receptor e Transmissor para Teclado/Mouse/Fon",
+      "precio_ref": 41.5,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada sem sabor pote 300g suplementacao treino",
+      "nombre": "Creatina Monohidratada Sem Sabor - Pote 300g - Suplementação Treino Academia, Ganho Muscular Hipertrofia, Força Energia Resis",
+      "precio_ref": 48.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "filtro refil original de agua para purificador electrolux",
+      "nombre": "Filtro/Refil Original de Água para Purificador Electrolux PE11B/PE11X/PC41B/PC41X/PH41B/PH41X",
+      "precio_ref": 51.2,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "faqueiro tramontina buzios em aco inox com detalhe",
+      "nombre": "Faqueiro Tramontina Búzios em Aço Inox com Detalhe 24 Peças | com Detalhe, 24 Peças",
+      "precio_ref": 54.85,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
+      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
+      "precio_ref": 26.7,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "frigideira rochedo stone pro 20cm preta com efeito",
+      "nombre": "Frigideira Rochedo Stone Pro 20cm Preta com Efeito Pedra e Antiaderente Minerium, Alta Resistência e Durabilidade, Cabos Ergo",
+      "precio_ref": 42.89,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "pipicat granulado sanitario classic 4 kg graos mais",
+      "nombre": "Pipicat Granulado Sanitario Classic 4 kg | Grãos mais finos, Torrões firmes, Melhor absorção, Controle de odores, Sem perfume",
+      "precio_ref": 12.87,
+      "categoria": "Perfumes & Fragrâncias",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "filtro refil original de agua acqua pure para",
+      "nombre": "Filtro/Refil Original de Água Acqua Pure para Purificador Electrolux PE12A/PE12B/PE12G/PE12V/PE12P",
+      "precio_ref": 64.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "bendita canfora pote com 30 tabletes multiuso odorizante",
+      "nombre": "Bendita Cânfora Pote Com 30 Tabletes Multiuso Odorizante Natural | Traças, Mofo, Casa",
+      "precio_ref": 29.89,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "kit lavagem completa shampoo cera tok final intense",
+      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
+      "precio_ref": 139.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tp link switch gigabit de mesa com 5",
+      "nombre": "TP-Link Switch Gigabit De Mesa Com 5 Portas 10/100/1000 Ls1005G Smb",
+      "precio_ref": 84.0,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "granplus choice racao para gatos adultos frango e",
+      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
+      "precio_ref": 110.1,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "liquidificador turbo blq1300p 1400w 3l chumbo 127v britania",
+      "nombre": "Liquidificador Turbo, Blq1300p, 1400W, 3L, Chumbo, 127v, Britânia",
+      "precio_ref": 108.93,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "stanley copo quencher cream 887ml",
+      "nombre": "Stanley Copo Quencher Cream 887ml",
+      "precio_ref": 136.74,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "coleira seresto anti carrapatos e pulgas para caes",
+      "nombre": "Coleira Seresto® anti-carrapatos e pulgas para cães e gatos de até 8kg | Segurança",
+      "precio_ref": 123.98,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "fralda pampers pants ajuste total tamanho xg facil",
+      "nombre": "Fralda Pampers Pants Ajuste Total Tamanho XG, Fácil de Vestir, 132 Unidades",
+      "precio_ref": 221.94,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
+      "nombre": "Tablet VAIO TL10 4GB RAM 64GB, 4G, Teclado Magnético, Tela 10.4” 2K PRETO",
+      "precio_ref": 989.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1499.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
+      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 24GB RAM, Câmera 13MP + 5MP, Bateria 8000mAh, Kit com Teclado, Mouse e Can",
+      "precio_ref": 719.09,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad wi fi 128 gb azul",
+      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Azul (A16)",
+      "precio_ref": 4299.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "air fryer oven philco 12l 1800w 4 em",
+      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
+      "precio_ref": 377.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Azul (M3)",
+      "precio_ref": 6111.1,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
+      "precio_ref": 156499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
+      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM",
+      "precio_ref": 1487.06,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
+      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
+      "precio_ref": 1579.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet s7p android 15 10 1 polegadas ips",
+      "nombre": "Tablet S7P Android 15 10.1 Polegadas IPS Full HD 24GB RAM(12GB+12GB Expansão) 128GB ROM Processador A523, Câmera 13MP+5MP Bat",
+      "precio_ref": 709.98,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tramontina panela de pressao vancouver effect em aluminio",
+      "nombre": "Tramontina Panela de Pressão Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
+      "precio_ref": 161.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab s11 256gb 12gb ram",
+      "nombre": "Tablet Samsung Galaxy Tab S11, 256GB, 12GB RAM, Tela 11\"",
+      "precio_ref": 5599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
+      "precio_ref": 158.69,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
+    },
+    {
+      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
+      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
+      "precio_ref": 899.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T05:33:01+00:00"
     }
   ]
 }
