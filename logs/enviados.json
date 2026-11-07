@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-05T17:09:16.846332",
-    "canales": {
-      "whatsapp": "2026-11-05T17:09:16.846332"
-    },
-    "precio": 4879.0,
-    "precios_publicados": [
-      4879.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
     "ts": "2026-11-05T17:10:39.428320",
     "canales": {
@@ -3557,6 +3547,16 @@
     "precio": 318.0,
     "precios_publicados": [
       318.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram": {
+    "ts": "2026-11-07T17:09:30.887110",
+    "canales": {
+      "whatsapp": "2026-11-07T17:09:30.887110"
+    },
+    "precio": 1487.0,
+    "precios_publicados": [
+      1487.0
     ]
   }
 }
