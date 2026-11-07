@@ -95,11 +95,6 @@
       "link_corto": true,
       "motivo": "publicado"
     },
-    "MODANOML": {
-      "detectado_em": "2026-10-08T20:42:58+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "OFERTAJAML": {
       "detectado_em": "2026-10-09T13:36:08+00:00",
       "publicado_em": null,
@@ -1201,5 +1196,5 @@
       "motivo": "detectado hace 645h (> 24h)"
     }
   },
-  "actualizado": "2026-11-07T20:41:23+00:00"
+  "actualizado": "2026-11-07T20:51:06+00:00"
 }
