@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
-    "ts": "2026-11-05T23:37:56.181040",
-    "canales": {
-      "whatsapp": "2026-11-05T23:37:56.181040"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
     "ts": "2026-11-05T23:46:21.279158",
     "canales": {
@@ -3521,6 +3511,16 @@
     "precio": 540.0,
     "precios_publicados": [
       540.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3-ryzen-7-8840hs": {
+    "ts": "2026-11-07T23:38:35.198664",
+    "canales": {
+      "whatsapp": "2026-11-07T23:38:35.198664"
+    },
+    "precio": 5263.0,
+    "precios_publicados": [
+      5263.0
     ]
   }
 }
