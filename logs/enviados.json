@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
-    "ts": "2026-11-05T16:25:17.384063",
-    "canales": {
-      "whatsapp": "2026-11-05T16:25:17.384063"
-    },
-    "precio": 1471.0,
-    "precios_publicados": [
-      1471.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
     "ts": "2026-11-05T16:30:22.946495",
     "canales": {
@@ -3547,6 +3537,16 @@
     "precio": 434.0,
     "precios_publicados": [
       434.0
+    ]
+  },
+  "amz-monitor-dell-pro-27-plus-full-hd-1920-x-1080-": {
+    "ts": "2026-11-07T16:28:57.052782",
+    "canales": {
+      "whatsapp": "2026-11-07T16:28:57.052782"
+    },
+    "precio": 1299.0,
+    "precios_publicados": [
+      1299.0
     ]
   }
 }
