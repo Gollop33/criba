@@ -72,24 +72,6 @@
     ],
     "precio_min_publicado": 84.0
   },
-  "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
-    "ts": "2026-11-05T13:36:13.836803",
-    "canales": {
-      "whatsapp": "2026-11-05T13:36:13.836803"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      45.0,
-      45.0,
-      45.0,
-      45.0,
-      45.0,
-      45.0,
-      39.0,
-      39.0
-    ],
-    "precio_min_publicado": 39.0
-  },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-11-05T16:15:46.846471",
     "canales": {
@@ -231,16 +213,6 @@
       768.0
     ],
     "precio_min_publicado": 860.0
-  },
-  "amz-xiaomi-redmi-pad-2-8gb-256gb-tablet-com-tela-": {
-    "ts": "2026-11-05T13:42:59.532078",
-    "canales": {
-      "whatsapp": "2026-11-05T13:42:59.532078"
-    },
-    "precio": 1597.0,
-    "precios_publicados": [
-      1597.0
-    ]
   },
   "amz-tablet-positivo-vision-tab-10-4gb-ram-128gb-a": {
     "ts": "2026-11-05T13:50:17.562315",
@@ -3534,6 +3506,16 @@
     "precio": 136.0,
     "precios_publicados": [
       136.0
+    ]
+  },
+  "amz-granplus-choice-racao-para-gatos-adultos-fran": {
+    "ts": "2026-11-07T13:43:10.651412",
+    "canales": {
+      "whatsapp": "2026-11-07T13:43:10.651412"
+    },
+    "precio": 110.0,
+    "precios_publicados": [
+      110.0
     ]
   }
 }
