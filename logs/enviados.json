@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-stanley-copo-quencher-frost-887ml": {
-    "ts": "2026-11-05T07:37:17.827816",
-    "canales": {
-      "whatsapp": "2026-11-05T07:37:17.827816"
-    },
-    "precio": 131.0,
-    "precios_publicados": [
-      131.0
-    ]
-  },
   "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
     "ts": "2026-11-05T08:16:53.761504",
     "canales": {
@@ -3585,6 +3575,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-creatina-monohidratada-1kg-100-pura-importada": {
+    "ts": "2026-11-07T08:00:38.068270",
+    "canales": {
+      "whatsapp": "2026-11-07T08:00:38.068270"
+    },
+    "precio": 68.0,
+    "precios_publicados": [
+      68.0
     ]
   }
 }
