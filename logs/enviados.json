@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3i-i513420h-8gb-": {
-    "ts": "2026-11-05T23:15:17.973173",
-    "canales": {
-      "whatsapp": "2026-11-05T23:15:17.973173"
-    },
-    "precio": 3624.0,
-    "precios_publicados": [
-      3624.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-05T23:20:47.006703",
     "canales": {
@@ -3501,6 +3491,16 @@
     "precio": 2037.0,
     "precios_publicados": [
       2037.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
+    "ts": "2026-11-07T23:17:50.325165",
+    "canales": {
+      "whatsapp": "2026-11-07T23:17:50.325165"
+    },
+    "precio": 2149.0,
+    "precios_publicados": [
+      2149.0
     ]
   }
 }
