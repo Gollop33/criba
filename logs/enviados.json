@@ -169,36 +169,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-notebook-asus-vivobook-s14-intel-core-ultra-5": {
-    "ts": "2026-11-05T19:16:03.515188",
-    "canales": {
-      "whatsapp": "2026-11-05T19:16:03.515188"
-    },
-    "precio": 5299.0,
-    "precios_publicados": [
-      5299.0
-    ]
-  },
-  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
-    "ts": "2026-11-05T19:19:14.700540",
-    "canales": {
-      "whatsapp": "2026-11-05T19:19:14.700540"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
-  },
-  "amz-the-legend-of-zelda-ocarina-of-time-nintendo-": {
-    "ts": "2026-11-05T19:21:50.718877",
-    "canales": {
-      "whatsapp": "2026-11-05T19:21:50.718877"
-    },
-    "precio": 439.0,
-    "precios_publicados": [
-      439.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
     "ts": "2026-11-05T19:25:59.511996",
     "canales": {
@@ -3561,6 +3531,16 @@
     "precio": 711.0,
     "precios_publicados": [
       711.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
+    "ts": "2026-11-07T19:22:43.404098",
+    "canales": {
+      "whatsapp": "2026-11-07T19:22:43.404098"
+    },
+    "precio": 569.0,
+    "precios_publicados": [
+      569.0
     ]
   }
 }
