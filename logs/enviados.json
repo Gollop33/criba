@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
-    "ts": "2026-11-05T12:43:13.175750",
-    "canales": {
-      "whatsapp": "2026-11-05T12:43:13.175750"
-    },
-    "precio": 1999.0,
-    "precios_publicados": [
-      1999.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
     "ts": "2026-11-05T12:50:14.481518",
     "canales": {
@@ -1905,14 +1895,16 @@
     ]
   },
   "amz-amaciante-ype-ultra-aconchego-5l": {
-    "ts": "2026-11-06T12:43:10.029330",
+    "ts": "2026-11-07T12:50:06.054676",
     "canales": {
-      "whatsapp": "2026-11-06T12:43:10.029330"
+      "whatsapp": "2026-11-07T12:50:06.054676"
     },
-    "precio": 21.0,
+    "precio": 18.0,
     "precios_publicados": [
-      21.0
-    ]
+      21.0,
+      18.0
+    ],
+    "precio_min_publicado": 21.0
   },
   "amz-microondas-philco-20l-branco-pintura-limpa-fa": {
     "ts": "2026-11-06T12:50:10.906613",
