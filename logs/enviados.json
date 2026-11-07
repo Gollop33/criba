@@ -145,24 +145,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
-    "ts": "2026-11-05T01:24:24.292567",
-    "canales": {
-      "whatsapp": "2026-11-05T01:24:24.292567"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      57.0,
-      60.0,
-      63.0,
-      63.0,
-      63.0,
-      61.0,
-      61.0,
-      54.0
-    ],
-    "precio_min_publicado": 57.0
-  },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
     "ts": "2026-11-05T05:01:35.868804",
     "canales": {
@@ -3778,6 +3760,16 @@
     "precio": 45.0,
     "precios_publicados": [
       45.0
+    ]
+  },
+  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
+    "ts": "2026-11-07T01:28:13.899927",
+    "canales": {
+      "whatsapp": "2026-11-07T01:28:13.899927"
+    },
+    "precio": 1703.0,
+    "precios_publicados": [
+      1703.0
     ]
   }
 }
