@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-07T13:22:02+00:00",
-  "total": 48,
+  "actualizado": "2026-11-07T13:28:54+00:00",
+  "total": 47,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
@@ -17,7 +17,7 @@
       "precio_ref": 27.5,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "secret desodorante antitranspirante em gel protecao de algodao",
@@ -25,7 +25,7 @@
       "precio_ref": 19.81,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -33,7 +33,7 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "comfort boom odorizador de roupas cristais de perfume",
@@ -41,7 +41,7 @@
       "precio_ref": 16.56,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "personal vip papel higienico folha dupla branco 24",
@@ -49,7 +49,7 @@
       "precio_ref": 28.5,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "amaciante ype ultra aconchego 5l",
@@ -57,39 +57,7 @@
       "precio_ref": 18.19,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
-      "nombre": "Notebook ASUS VivoBook Go, 15 AMD Ryzen 5 7520U, 8 GB, 256 GB SSD, W11 Home Tela 15,6\" FHD, Mixed Black - E1504FA-NJ825W",
-      "precio_ref": 3099.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
-      "nombre": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
-      "precio_ref": 455.8,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
-      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
-      "precio_ref": 4279.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 689.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -97,103 +65,39 @@
       "precio_ref": 99.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
-      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 24GB RAM, Câmera 13MP + 5MP, Bateria 8000mAh, Kit com Teclado, Mouse e Can",
-      "precio_ref": 719.09,
+      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
+      "nombre": "Notebook ASUS VivoBook Go, 15 AMD Ryzen 5 7520U, 8 GB, 256 GB SSD, W11 Home Tela 15,6\" FHD, Mixed Black - E1504FA-NJ825W",
+      "precio_ref": 3099.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "air fryer oven philco 12l 1800w 4 em",
-      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
-      "precio_ref": 377.9,
+      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
+      "nombre": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
+      "precio_ref": 455.8,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "apple 2025 ipad wi fi 128 gb azul",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Azul (A16)",
-      "precio_ref": 4299.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g17 256gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto g17 256GB 4GB RAM + 8GB RAM Boost, camera 50MP Sony Lytia 600, tela FHD+ 60hz, bateria 5200 mAh - Ro",
-      "precio_ref": 1292.94,
+      "busqueda": "notebook dell 15 15 i1300 a30p intel core",
+      "nombre": "Notebook Dell 15 15-I1300-A30P, Intel Core i5-1334U, Windows 11 Home | Tela 15.6 FHD 120 Hz Antirreflexo, 8 GB RAM, 512 GB SS",
+      "precio_ref": 4279.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "liquidificador turbo blq1300p 1400w 3l chumbo 127v britania",
-      "nombre": "Liquidificador Turbo, Blq1300p, 1400W, 3L, Chumbo, 127v, Britânia",
-      "precio_ref": 108.93,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire 5 15 ryzen 5 5500u",
-      "nombre": "Notebook Acer Aspire 5 15 Ryzen 5 5500U 16GB 512GB Win 11 A515-45-R043 | Tela de 15.6\" Full HD 60Hz, processador AMD Ryzen 5",
-      "precio_ref": 4199.99,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "granplus choice racao para gatos adultos frango e",
-      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
-      "precio_ref": 110.1,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Azul (M3)",
-      "precio_ref": 6111.1,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "fralda pampers premium care pants tamanho xxg facil",
-      "nombre": "Fralda Pampers Premium Care Pants Tamanho XXG, Fácil de Vestir, 90 Unidades | Material respirável",
-      "precio_ref": 133.95,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
-      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM",
-      "precio_ref": 1487.06,
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 689.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tp link archer t3u adaptador wi fi usb",
-      "nombre": "TP-Link Archer T3U Adaptador Wi-Fi USB 3.0 AC1300 para PC e Notebook, Dual Band, até 867 Mbps em 5 GHz, MU-MIMO e Design Mini",
-      "precio_ref": 139.9,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
-      "precio_ref": 1950.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
@@ -201,63 +105,23 @@
       "precio_ref": 137.75,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "coleira seresto anti carrapatos e pulgas para caes",
-      "nombre": "Coleira Seresto® anti-carrapatos e pulgas para cães e gatos de até 8kg | Segurança",
-      "precio_ref": 123.98,
+      "busqueda": "granplus choice racao para gatos adultos frango e",
+      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
+      "precio_ref": 110.1,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
-      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
-      "precio_ref": 599.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi redmi note 15 preto 8gb ram",
-      "nombre": "Smartphone Xiaomi Redmi Note 15 Preto 8GB RAM 256GB ROM (2510DRA23L) | 2510DRA23L",
-      "precio_ref": 1629.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet s7p android 15 10 1 polegadas ips",
-      "nombre": "Tablet S7P Android 15 10.1 Polegadas IPS Full HD 24GB RAM(12GB+12GB Expansão) 128GB ROM Processador A523, Câmera 13MP+5MP Bat",
-      "precio_ref": 709.98,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
-      "precio_ref": 158.69,
+      "busqueda": "fralda pampers premium care pants tamanho xxg facil",
+      "nombre": "Fralda Pampers Premium Care Pants Tamanho XXG, Fácil de Vestir, 90 Unidades | Material respirável",
+      "precio_ref": 133.95,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "samsung notebook galaxy book4 windows 11 home intel",
-      "nombre": "Samsung Notebook Galaxy Book4, Windows 11 Home, Intel® Core™ i5, 16GB, 512GB SSD, 15.6'' Full HD LED, 1.55 kg - Grafite",
-      "precio_ref": 4499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "fralda descartavel huggies tamanho g 160 unidades aberta",
-      "nombre": "Fralda Descartável Huggies Tamanho G, 160 Unidades | Aberta, Tecnologia Xtra-Flex, Canais em X que se adaptam aos movimentos",
-      "precio_ref": 168.52,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "stanley copo quencher cream 887ml",
@@ -265,103 +129,15 @@
       "precio_ref": 136.74,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
-      "busqueda": "personal papel higienico vip folha tripla com 12",
-      "nombre": "Personal Papel Higiênico Vip Folha Tripla Com 12 Rolos De 20M",
-      "precio_ref": 1790.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
-      "precio_ref": 1579.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab s11 256gb 12gb ram",
-      "nombre": "Tablet Samsung Galaxy Tab S11, 256GB, 12GB RAM, Tela 11\"",
-      "precio_ref": 5599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tramontina panela de pressao vancouver effect em aluminio",
-      "nombre": "Tramontina Panela de Pressão Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
-      "precio_ref": 161.9,
+      "busqueda": "liquidificador turbo blq1300p 1400w 3l chumbo 127v britania",
+      "nombre": "Liquidificador Turbo, Blq1300p, 1400W, 3L, Chumbo, 127v, Britânia",
+      "precio_ref": 108.93,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
-      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
-      "precio_ref": 156499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "conjunto de roteador sem fio wi fi 6",
-      "nombre": "Conjunto de Roteador Sem Fio WI-FI 6 Twibi Force AX Branco Intelbras",
-      "precio_ref": 339.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "britania sanduicheira e grill press 127v bgr27i classico",
-      "nombre": "Britânia Sanduicheira e Grill Press 127V, BGR27I classico/moderno Plástico e Metal",
-      "precio_ref": 90.14,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "fralda pampers pants ajuste total tamanho xg facil",
-      "nombre": "Fralda Pampers Pants Ajuste Total Tamanho XG, Fácil de Vestir, 132 Unidades",
-      "precio_ref": 221.94,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "kit de garrafas de tinta original epson magenta",
-      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
-      "precio_ref": 159.93,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
-      "nombre": "Tablet VAIO TL10 4GB RAM 64GB, 4G, Teclado Magnético, Tela 10.4” 2K PRETO",
-      "precio_ref": 989.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 718.18,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
-      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
-      "precio_ref": 1499.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "kit lavagem completa shampoo cera tok final intense",
@@ -369,15 +145,7 @@
       "precio_ref": 139.92,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
-      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Verde)",
-      "precio_ref": 1652.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     },
     {
       "busqueda": "tp link switch gigabit de mesa com 5",
@@ -385,7 +153,231 @@
       "precio_ref": 84.0,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-07T13:22:02+00:00"
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "britania sanduicheira e grill press 127v bgr27i classico",
+      "nombre": "Britânia Sanduicheira e Grill Press 127V, BGR27I classico/moderno Plástico e Metal",
+      "precio_ref": 90.14,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "coleira seresto anti carrapatos e pulgas para caes",
+      "nombre": "Coleira Seresto® anti-carrapatos e pulgas para cães e gatos de até 8kg | Segurança",
+      "precio_ref": 123.98,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tp link archer t3u adaptador wi fi usb",
+      "nombre": "TP-Link Archer T3U Adaptador Wi-Fi USB 3.0 AC1300 para PC e Notebook, Dual Band, até 867 Mbps em 5 GHz, MU-MIMO e Design Mini",
+      "precio_ref": 139.9,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
+      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Verde)",
+      "precio_ref": 1652.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "smartphone xiaomi redmi note 15 preto 8gb ram",
+      "nombre": "Smartphone Xiaomi Redmi Note 15 Preto 8GB RAM 256GB ROM (2510DRA23L) | 2510DRA23L",
+      "precio_ref": 1629.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire 5 15 ryzen 5 5500u",
+      "nombre": "Notebook Acer Aspire 5 15 Ryzen 5 5500U 16GB 512GB Win 11 A515-45-R043 | Tela de 15.6\" Full HD 60Hz, processador AMD Ryzen 5",
+      "precio_ref": 4199.99,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tramontina panela de pressao vancouver effect em aluminio",
+      "nombre": "Tramontina Panela de Pressão Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
+      "precio_ref": 161.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
+      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM",
+      "precio_ref": 1487.06,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 718.18,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "conjunto de roteador sem fio wi fi 6",
+      "nombre": "Conjunto de Roteador Sem Fio WI-FI 6 Twibi Force AX Branco Intelbras",
+      "precio_ref": 339.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g17 256gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto g17 256GB 4GB RAM + 8GB RAM Boost, camera 50MP Sony Lytia 600, tela FHD+ 60hz, bateria 5200 mAh - Ro",
+      "precio_ref": 1292.94,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "air fryer oven philco 12l 1800w 4 em",
+      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
+      "precio_ref": 377.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
+      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
+      "precio_ref": 599.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Azul (M3)",
+      "precio_ref": 6111.1,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab s11 256gb 12gb ram",
+      "nombre": "Tablet Samsung Galaxy Tab S11, 256GB, 12GB RAM, Tela 11\"",
+      "precio_ref": 5599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
+      "precio_ref": 156499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "fralda descartavel huggies tamanho g 160 unidades aberta",
+      "nombre": "Fralda Descartável Huggies Tamanho G, 160 Unidades | Aberta, Tecnologia Xtra-Flex, Canais em X que se adaptam aos movimentos",
+      "precio_ref": 168.52,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "personal papel higienico vip folha tripla com 12",
+      "nombre": "Personal Papel Higiênico Vip Folha Tripla Com 12 Rolos De 20M",
+      "precio_ref": 1790.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "kit de garrafas de tinta original epson magenta",
+      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
+      "precio_ref": 159.93,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "samsung notebook galaxy book4 windows 11 home intel",
+      "nombre": "Samsung Notebook Galaxy Book4, Windows 11 Home, Intel® Core™ i5, 16GB, 512GB SSD, 15.6'' Full HD LED, 1.55 kg - Grafite",
+      "precio_ref": 4499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet s7p android 15 10 1 polegadas ips",
+      "nombre": "Tablet S7P Android 15 10.1 Polegadas IPS Full HD 24GB RAM(12GB+12GB Expansão) 128GB ROM Processador A523, Câmera 13MP+5MP Bat",
+      "precio_ref": 709.98,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
+      "precio_ref": 158.69,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad wi fi 128 gb azul",
+      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Azul (A16)",
+      "precio_ref": 4299.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1499.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
+      "precio_ref": 1950.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "fralda pampers pants ajuste total tamanho xg facil",
+      "nombre": "Fralda Pampers Pants Ajuste Total Tamanho XG, Fácil de Vestir, 132 Unidades",
+      "precio_ref": 221.94,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
+      "nombre": "Tablet VAIO TL10 4GB RAM 64GB, 4G, Teclado Magnético, Tela 10.4” 2K PRETO",
+      "precio_ref": 989.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
+      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
+      "precio_ref": 1579.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-07T13:28:54+00:00"
     }
   ]
 }

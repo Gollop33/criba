@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
-    "ts": "2026-11-05T13:22:14.410554",
-    "canales": {
-      "whatsapp": "2026-11-05T13:22:14.410554"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
   "amz-apple-2025-ipad-air-de-13-polegadas-wifi-cell": {
     "ts": "2026-11-05T13:29:14.167671",
     "canales": {
@@ -3534,6 +3524,16 @@
     "precio": 719.0,
     "precios_publicados": [
       719.0
+    ]
+  },
+  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
+    "ts": "2026-11-07T13:29:06.580751",
+    "canales": {
+      "whatsapp": "2026-11-07T13:29:06.580751"
+    },
+    "precio": 137.0,
+    "precios_publicados": [
+      137.0
     ]
   }
 }
