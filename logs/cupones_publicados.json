@@ -6,11 +6,6 @@
       "publicado_em": "2026-11-07T01:53:49+00:00",
       "motivo": "tanda"
     },
-    "BATEDESCONTO": {
-      "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T20:24:29+00:00",
-      "motivo": "tanda"
-    },
     "ACHEIOFF": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
       "publicado_em": "2026-10-31T19:15:18+00:00",
@@ -21,11 +16,6 @@
       "publicado_em": "2026-10-31T07:21:48+00:00",
       "motivo": "tanda"
     },
-    "PRECINHOBOM": {
-      "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-10-08T20:24:29+00:00",
-      "motivo": "tanda"
-    },
     "OFERTASMELI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
       "publicado_em": "2026-11-07T01:53:49+00:00",
@@ -34,11 +24,6 @@
     "BARRATINHOJA": {
       "detectado_em": "2026-09-25T13:00:16+00:00",
       "publicado_em": "2026-10-24T12:31:00+00:00",
-      "motivo": "tanda"
-    },
-    "VALEMUITO": {
-      "detectado_em": "2026-09-25T13:35:57+00:00",
-      "publicado_em": "2026-10-08T20:24:29+00:00",
       "motivo": "tanda"
     },
     "FOIBARATO": {
@@ -1194,7 +1179,12 @@
       "detectado_em": "2026-10-15T18:38:45+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 548h (> 24h)"
+    },
+    "MELIOFERTAS": {
+      "detectado_em": "2026-11-07T16:01:05+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-07T20:10:03+00:00"
+  "actualizado": "2026-11-07T20:36:21+00:00"
 }
