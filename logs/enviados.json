@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
-    "ts": "2026-11-05T19:13:48.361759",
-    "canales": {
-      "whatsapp": "2026-11-05T19:13:48.361759"
-    },
-    "precio": 1589.0,
-    "precios_publicados": [
-      1589.0
-    ]
-  },
   "amz-notebook-asus-vivobook-s14-intel-core-ultra-5": {
     "ts": "2026-11-05T19:16:03.515188",
     "canales": {
@@ -3561,6 +3551,16 @@
     "precio": 1174.0,
     "precios_publicados": [
       1174.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-27-fhd-120-hz-hdmi-pret": {
+    "ts": "2026-11-07T19:13:53.667296",
+    "canales": {
+      "whatsapp": "2026-11-07T19:13:53.667296"
+    },
+    "precio": 711.0,
+    "precios_publicados": [
+      711.0
     ]
   }
 }
