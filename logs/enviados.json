@@ -90,24 +90,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-viva-verde-areia-higienica-biodegradavel-para": {
-    "ts": "2026-11-05T12:21:53.517557",
-    "canales": {
-      "whatsapp": "2026-11-05T12:21:53.517557"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      55.0,
-      55.0,
-      55.0,
-      55.0,
-      59.0,
-      54.0,
-      45.0,
-      45.0
-    ],
-    "precio_min_publicado": 45.0
-  },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-11-05T16:15:46.846471",
     "canales": {
@@ -3545,6 +3527,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
+    "ts": "2026-11-07T12:21:54.299291",
+    "canales": {
+      "whatsapp": "2026-11-07T12:21:54.299291"
+    },
+    "precio": 28.0,
+    "precios_publicados": [
+      28.0
     ]
   }
 }
