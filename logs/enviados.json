@@ -36,24 +36,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-11-05T16:15:46.846471",
-    "canales": {
-      "whatsapp": "2026-11-05T16:15:46.846471"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      47.0,
-      47.0,
-      47.0,
-      48.0,
-      51.0,
-      47.0,
-      39.0,
-      39.0
-    ],
-    "precio_min_publicado": 39.0
-  },
   "amz-tapete-higienico-petlike-ultrapads-80cmx60cm-": {
     "ts": "2026-11-05T22:03:38.828122",
     "canales": {
@@ -3535,6 +3517,16 @@
     "precio": 1478.0,
     "precios_publicados": [
       1478.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
+    "ts": "2026-11-07T16:16:06.136006",
+    "canales": {
+      "whatsapp": "2026-11-07T16:16:06.136006"
+    },
+    "precio": 1950.0,
+    "precios_publicados": [
+      1950.0
     ]
   }
 }
