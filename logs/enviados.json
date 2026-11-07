@@ -143,26 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
-    "ts": "2026-11-05T17:03:44.411082",
-    "canales": {
-      "whatsapp": "2026-11-05T17:03:44.411082"
-    },
-    "precio": 1532.0,
-    "precios_publicados": [
-      1532.0
-    ]
-  },
-  "amz-ea-sports-fc-27-playstation-5": {
-    "ts": "2026-11-05T17:05:14.459212",
-    "canales": {
-      "whatsapp": "2026-11-05T17:05:14.459212"
-    },
-    "precio": 333.0,
-    "precios_publicados": [
-      333.0
-    ]
-  },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
     "ts": "2026-11-05T17:09:16.846332",
     "canales": {
@@ -3557,6 +3537,16 @@
     "precio": 1629.0,
     "precios_publicados": [
       1629.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
+    "ts": "2026-11-07T17:06:06.267748",
+    "canales": {
+      "whatsapp": "2026-11-07T17:06:06.267748"
+    },
+    "precio": 1499.0,
+    "precios_publicados": [
+      1499.0
     ]
   }
 }
