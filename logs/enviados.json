@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-apple-iphone-16-512-gb-preto": {
-    "ts": "2026-11-05T18:22:37.219043",
-    "canales": {
-      "whatsapp": "2026-11-05T18:22:37.219043"
-    },
-    "precio": 5499.0,
-    "precios_publicados": [
-      5499.0
-    ]
-  },
   "amz-apple-iphone-16-128-gb-branco": {
     "ts": "2026-11-05T18:25:48.038475",
     "canales": {
@@ -3579,6 +3569,16 @@
     "precio": 966.0,
     "precios_publicados": [
       966.0
+    ]
+  },
+  "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
+    "ts": "2026-11-07T18:22:44.750194",
+    "canales": {
+      "whatsapp": "2026-11-07T18:22:44.750194"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
