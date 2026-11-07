@@ -110,24 +110,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-11-05T01:00:22.163611",
-    "canales": {
-      "whatsapp": "2026-11-05T01:00:22.163611"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      46.0,
-      46.0,
-      46.0,
-      46.0,
-      46.0,
-      46.0,
-      44.0,
-      41.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
     "ts": "2026-11-05T03:23:59.467913",
     "canales": {
@@ -3792,6 +3774,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "amz-headset-gamer-havit-h2232d-rgb-com-microfone-": {
+    "ts": "2026-11-07T01:08:25.209784",
+    "canales": {
+      "whatsapp": "2026-11-07T01:08:25.209784"
+    },
+    "precio": 74.0,
+    "precios_publicados": [
+      74.0
     ]
   }
 }
