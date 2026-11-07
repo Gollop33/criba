@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-06T22:27:01+00:00",
+  "actualizado": "2026-11-07T03:42:28+00:00",
   "total": 188,
   "fuentes": [
     "ML Oficial",
@@ -635,7 +635,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-06T15:00:28+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CLIENTESVIPS",
@@ -1939,7 +1940,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-06T15:00:28+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "ESPECIALMELI",
@@ -2587,5 +2589,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-07T00:41:54-03:00"
 }
