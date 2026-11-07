@@ -282,19 +282,6 @@
     ],
     "precio_min_publicado": 119.0
   },
-  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
-    "ts": "2026-11-05T03:52:31.031899",
-    "canales": {
-      "whatsapp": "2026-11-05T03:52:31.031899"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      89.0,
-      69.0,
-      69.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
     "ts": "2026-11-05T05:08:14.464290",
     "canales": {
@@ -3710,6 +3697,16 @@
     "precio": 47.0,
     "precios_publicados": [
       47.0
+    ]
+  },
+  "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
+    "ts": "2026-11-07T03:57:13.808338",
+    "canales": {
+      "whatsapp": "2026-11-07T03:57:13.808338"
+    },
+    "precio": 53.0,
+    "precios_publicados": [
+      53.0
     ]
   }
 }
