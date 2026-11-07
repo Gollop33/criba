@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
-    "ts": "2026-11-05T15:43:05.982868",
-    "canales": {
-      "whatsapp": "2026-11-05T15:43:05.982868"
-    },
-    "precio": 569.0,
-    "precios_publicados": [
-      569.0
-    ]
-  },
   "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
     "ts": "2026-11-05T16:08:50.865223",
     "canales": {
@@ -3540,6 +3530,16 @@
     "precio": 1545.0,
     "precios_publicados": [
       1545.0
+    ]
+  },
+  "amz-fralda-descartavel-huggies-tamanho-g-160-unid": {
+    "ts": "2026-11-07T15:48:51.032741",
+    "canales": {
+      "whatsapp": "2026-11-07T15:48:51.032741"
+    },
+    "precio": 168.0,
+    "precios_publicados": [
+      168.0
     ]
   }
 }
