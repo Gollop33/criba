@@ -110,42 +110,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-creatina-monohidratada-1kg-100-pura-importada": {
-    "ts": "2026-11-05T00:45:45.481899",
-    "canales": {
-      "whatsapp": "2026-11-05T00:45:45.481899"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      64.0,
-      68.0,
-      68.0,
-      67.0,
-      68.0,
-      68.0,
-      68.0,
-      68.0
-    ],
-    "precio_min_publicado": 64.0
-  },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-11-05T00:41:47.824856",
-    "canales": {
-      "whatsapp": "2026-11-05T00:41:47.824856"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      46.0,
-      46.0,
-      46.0,
-      47.0,
-      47.0,
-      46.0,
-      44.0,
-      41.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-11-05T01:00:22.163611",
     "canales": {
@@ -3798,6 +3762,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "amz-la-rocheposay-effaclar-gel-alta-tolerancia-li": {
+    "ts": "2026-11-07T00:49:24.131310",
+    "canales": {
+      "whatsapp": "2026-11-07T00:49:24.131310"
+    },
+    "precio": 64.0,
+    "precios_publicados": [
+      64.0
     ]
   }
 }
