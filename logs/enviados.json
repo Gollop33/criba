@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
-    "ts": "2026-11-05T20:07:21.607513",
-    "canales": {
-      "whatsapp": "2026-11-05T20:07:21.607513"
-    },
-    "precio": 579.0,
-    "precios_publicados": [
-      579.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
     "ts": "2026-11-05T20:15:59.082747",
     "canales": {
@@ -3524,6 +3514,16 @@
     "precio": 265.0,
     "precios_publicados": [
       265.0
+    ]
+  },
+  "amz-apple-iphone-16-128-gb-branco": {
+    "ts": "2026-11-07T20:10:06.476640",
+    "canales": {
+      "whatsapp": "2026-11-07T20:10:06.476640"
+    },
+    "precio": 5054.0,
+    "precios_publicados": [
+      5054.0
     ]
   }
 }
