@@ -178,22 +178,6 @@
     ],
     "precio_min_publicado": 47.0
   },
-  "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
-    "ts": "2026-11-05T11:57:03.607210",
-    "canales": {
-      "whatsapp": "2026-11-05T11:57:03.607210"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      50.0,
-      45.0,
-      45.0,
-      45.0,
-      37.0,
-      37.0
-    ],
-    "precio_min_publicado": 37.0
-  },
   "cupom-ml-1b171720da": {
     "ts": "2026-11-07T01:43:54.075121",
     "canales": {
@@ -3559,6 +3543,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-electrolux-kit-16-potes-hermeticos-plastico-m": {
+    "ts": "2026-11-07T12:08:18.364291",
+    "canales": {
+      "whatsapp": "2026-11-07T12:08:18.364291"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
