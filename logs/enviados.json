@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-11-05T06:30:09.248871",
-    "canales": {
-      "whatsapp": "2026-11-05T06:30:09.248871"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "amz-mustela-creme-preventivo-de-assaduras-vitamin": {
     "ts": "2026-11-05T07:01:43.787614",
     "canales": {
@@ -700,14 +690,16 @@
     ]
   },
   "amz-mondial-fritadeira-air-fryer-forno-oven-12l-p": {
-    "ts": "2026-11-05T15:08:14.022970",
+    "ts": "2026-11-07T06:32:39.459700",
     "canales": {
-      "whatsapp": "2026-11-05T15:08:14.022970"
+      "whatsapp": "2026-11-07T06:32:39.459700"
     },
-    "precio": 521.0,
+    "precio": 455.0,
     "precios_publicados": [
-      521.0
-    ]
+      521.0,
+      455.0
+    ],
+    "precio_min_publicado": 521.0
   },
   "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
     "ts": "2026-11-05T15:15:14.305503",
