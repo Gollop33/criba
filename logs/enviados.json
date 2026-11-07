@@ -214,26 +214,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
-    "ts": "2026-11-05T13:57:12.825825",
-    "canales": {
-      "whatsapp": "2026-11-05T13:57:12.825825"
-    },
-    "precio": 1152.0,
-    "precios_publicados": [
-      1152.0
-    ]
-  },
-  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
-    "ts": "2026-11-05T14:08:11.599862",
-    "canales": {
-      "whatsapp": "2026-11-05T14:08:11.599862"
-    },
-    "precio": 318.0,
-    "precios_publicados": [
-      318.0
-    ]
-  },
   "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
     "ts": "2026-11-05T14:14:56.691148",
     "canales": {
@@ -3526,6 +3506,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
+    "ts": "2026-11-07T14:08:51.537819",
+    "canales": {
+      "whatsapp": "2026-11-07T14:08:51.537819"
+    },
+    "precio": 139.0,
+    "precios_publicados": [
+      139.0
     ]
   }
 }
