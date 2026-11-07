@@ -664,16 +664,6 @@
     ],
     "precio_min_publicado": 2399.0
   },
-  "amz-veja-gotas-de-perfume-citrino-alecrim-limpado": {
-    "ts": "2026-11-05T00:05:59.922601",
-    "canales": {
-      "whatsapp": "2026-11-05T00:05:59.922601"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-headset-gamer-havit-h2232d-rgb-com-microfone-": {
     "ts": "2026-11-05T00:07:29.788105",
     "canales": {
@@ -3820,6 +3810,16 @@
     "precio": 150.0,
     "precios_publicados": [
       150.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
+    "ts": "2026-11-07T00:06:59.392857",
+    "canales": {
+      "whatsapp": "2026-11-07T00:06:59.392857"
+    },
+    "precio": 2387.0,
+    "precios_publicados": [
+      2387.0
     ]
   }
 }
