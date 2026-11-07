@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-monitor-gamer-samsung-27-fhd-120-hz-hdmi-pret": {
-    "ts": "2026-11-05T15:29:20.256039",
-    "canales": {
-      "whatsapp": "2026-11-05T15:29:20.256039"
-    },
-    "precio": 657.0,
-    "precios_publicados": [
-      657.0
-    ]
-  },
   "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
     "ts": "2026-11-05T15:36:19.743985",
     "canales": {
@@ -3530,6 +3520,16 @@
     "precio": 161.0,
     "precios_publicados": [
       161.0
+    ]
+  },
+  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
+    "ts": "2026-11-07T15:34:01.685673",
+    "canales": {
+      "whatsapp": "2026-11-07T15:34:01.685673"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
