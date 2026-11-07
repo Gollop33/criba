@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
-    "ts": "2026-11-05T17:10:39.428320",
-    "canales": {
-      "whatsapp": "2026-11-05T17:10:39.428320"
-    },
-    "precio": 3988.0,
-    "precios_publicados": [
-      3988.0
-    ]
-  },
   "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
     "ts": "2026-11-05T17:19:41.166333",
     "canales": {
@@ -3557,6 +3547,16 @@
     "precio": 1487.0,
     "precios_publicados": [
       1487.0
+    ]
+  },
+  "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
+    "ts": "2026-11-07T17:15:34.488351",
+    "canales": {
+      "whatsapp": "2026-11-07T17:15:34.488351"
+    },
+    "precio": 158.0,
+    "precios_publicados": [
+      158.0
     ]
   }
 }
