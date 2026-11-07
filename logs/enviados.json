@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-05T11:50:16.869620",
-    "canales": {
-      "whatsapp": "2026-11-05T11:50:16.869620"
-    },
-    "precio": 4499.0,
-    "precios_publicados": [
-      4499.0
-    ]
-  },
   "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
     "ts": "2026-11-06T12:08:40.687704",
     "canales": {
@@ -3559,6 +3549,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-cif-limpador-especialista-derrete-gordura-500": {
+    "ts": "2026-11-07T11:56:54.714971",
+    "canales": {
+      "whatsapp": "2026-11-07T11:56:54.714971"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
