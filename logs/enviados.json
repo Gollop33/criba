@@ -181,24 +181,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
-    "ts": "2026-11-05T00:39:01.166744",
-    "canales": {
-      "whatsapp": "2026-11-05T00:39:01.166744"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      69.0,
-      64.0,
-      64.0,
-      69.0,
-      69.0,
-      64.0,
-      64.0,
-      64.0
-    ],
-    "precio_min_publicado": 64.0
-  },
   "amz-filtrorefil-original-de-agua-para-purificador": {
     "ts": "2026-11-05T01:52:19.353406",
     "canales": {
@@ -3806,6 +3788,16 @@
     "precio": 6554.0,
     "precios_publicados": [
       6554.0
+    ]
+  },
+  "amz-mouse-pad-azul": {
+    "ts": "2026-11-07T00:41:17.950412",
+    "canales": {
+      "whatsapp": "2026-11-07T00:41:17.950412"
+    },
+    "precio": 5.0,
+    "precios_publicados": [
+      5.0
     ]
   }
 }
