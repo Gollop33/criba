@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
-    "ts": "2026-11-05T17:49:46.535504",
-    "canales": {
-      "whatsapp": "2026-11-05T17:49:46.535504"
-    },
-    "precio": 3588.0,
-    "precios_publicados": [
-      3588.0
-    ]
-  },
   "amz-fralda-pampers-pants-ajuste-total-tamanho-xxg": {
     "ts": "2026-11-05T17:56:40.875080",
     "canales": {
@@ -3589,6 +3579,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
+    "ts": "2026-11-07T17:55:03.605297",
+    "canales": {
+      "whatsapp": "2026-11-07T17:55:03.605297"
+    },
+    "precio": 62.0,
+    "precios_publicados": [
+      62.0
     ]
   }
 }
