@@ -169,26 +169,6 @@
     ],
     "precio_min_publicado": 4279.0
   },
-  "amz-monitor-gamer-philips-evnia-27-ips-fhd-144hz-": {
-    "ts": "2026-11-05T19:41:57.429258",
-    "canales": {
-      "whatsapp": "2026-11-05T19:41:57.429258"
-    },
-    "precio": 679.0,
-    "precios_publicados": [
-      679.0
-    ]
-  },
-  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
-    "ts": "2026-11-05T19:44:21.051139",
-    "canales": {
-      "whatsapp": "2026-11-05T19:44:21.051139"
-    },
-    "precio": 5199.0,
-    "precios_publicados": [
-      5199.0
-    ]
-  },
   "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
     "ts": "2026-11-05T19:56:44.552491",
     "canales": {
@@ -3513,6 +3493,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-07T19:44:46.173441",
+    "canales": {
+      "whatsapp": "2026-11-07T19:44:46.173441"
+    },
+    "precio": 1044.0,
+    "precios_publicados": [
+      1044.0
     ]
   }
 }
