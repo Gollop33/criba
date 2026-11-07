@@ -125,26 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-detergente-ype-clear-5l-detergente-liquido": {
-    "ts": "2026-11-05T22:34:14.705871",
-    "canales": {
-      "whatsapp": "2026-11-05T22:34:14.705871"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
-  "amz-colgate-total-original-mint-creme-dental-prev": {
-    "ts": "2026-11-05T22:36:34.054102",
-    "canales": {
-      "whatsapp": "2026-11-05T22:36:34.054102"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "amz-ariel-sabao-liquido-toque-de-downy-concentrad": {
     "ts": "2026-11-05T22:39:49.945935",
     "canales": {
@@ -3531,6 +3511,16 @@
     "precio": 2240.0,
     "precios_publicados": [
       2240.0
+    ]
+  },
+  "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
+    "ts": "2026-11-07T22:37:08.919094",
+    "canales": {
+      "whatsapp": "2026-11-07T22:37:08.919094"
+    },
+    "precio": 818.0,
+    "precios_publicados": [
+      818.0
     ]
   }
 }
