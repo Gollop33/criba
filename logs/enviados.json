@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 768.0
   },
-  "amz-neve-papel-higienico-ultracomfort-folha-quadr": {
-    "ts": "2026-11-05T14:50:12.512571",
-    "canales": {
-      "whatsapp": "2026-11-05T14:50:12.512571"
-    },
-    "precio": 4830.0,
-    "precios_publicados": [
-      4830.0
-    ]
-  },
   "amz-mondial-microondas-preto-1200w-110v-mo0121b-t": {
     "ts": "2026-11-05T14:57:17.275215",
     "canales": {
@@ -1789,14 +1779,16 @@
     ]
   },
   "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
-    "ts": "2026-11-06T13:36:13.639773",
+    "ts": "2026-11-07T14:51:05.261128",
     "canales": {
-      "whatsapp": "2026-11-06T13:36:13.639773"
+      "whatsapp": "2026-11-07T14:51:05.261128"
     },
-    "precio": 499.0,
+    "precio": 440.0,
     "precios_publicados": [
-      499.0
-    ]
+      499.0,
+      440.0
+    ],
+    "precio_min_publicado": 499.0
   },
   "amz-max-titanium-creatina-pote-monohidratada-300g": {
     "ts": "2026-11-06T13:43:08.028906",
