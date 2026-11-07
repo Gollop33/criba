@@ -287,16 +287,6 @@
     ],
     "precio_min_publicado": 2109.0
   },
-  "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
-    "ts": "2026-11-05T11:12:53.277203",
-    "canales": {
-      "whatsapp": "2026-11-05T11:12:53.277203"
-    },
-    "precio": 4599.0,
-    "precios_publicados": [
-      4599.0
-    ]
-  },
   "amz-notebook-acer-nitro-v-15-rtx-4060-i9-16gb-512": {
     "ts": "2026-11-05T11:21:33.737933",
     "canales": {
@@ -3557,6 +3547,16 @@
     "precio": 43.0,
     "precios_publicados": [
       43.0
+    ]
+  },
+  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
+    "ts": "2026-11-07T11:15:14.665549",
+    "canales": {
+      "whatsapp": "2026-11-07T11:15:14.665549"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
