@@ -196,26 +196,6 @@
     ],
     "precio_min_publicado": 521.0
   },
-  "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
-    "ts": "2026-11-05T15:15:14.305503",
-    "canales": {
-      "whatsapp": "2026-11-05T15:15:14.305503"
-    },
-    "precio": 3869.0,
-    "precios_publicados": [
-      3869.0
-    ]
-  },
-  "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
-    "ts": "2026-11-05T15:22:07.604414",
-    "canales": {
-      "whatsapp": "2026-11-05T15:22:07.604414"
-    },
-    "precio": 1174.0,
-    "precios_publicados": [
-      1174.0
-    ]
-  },
   "amz-monitor-gamer-samsung-27-fhd-120-hz-hdmi-pret": {
     "ts": "2026-11-05T15:29:20.256039",
     "canales": {
@@ -1901,14 +1881,16 @@
     ]
   },
   "amz-comfort-boom-odorizador-de-roupas-cristais-de": {
-    "ts": "2026-11-06T15:15:28.254281",
+    "ts": "2026-11-07T15:22:59.344828",
     "canales": {
-      "whatsapp": "2026-11-06T15:15:28.254281"
+      "whatsapp": "2026-11-07T15:22:59.344828"
     },
-    "precio": 1590.0,
+    "precio": 16.0,
     "precios_publicados": [
-      1590.0
-    ]
+      1590.0,
+      16.0
+    ],
+    "precio_min_publicado": 1590.0
   },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-11-06T15:22:17.073516",
