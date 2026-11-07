@@ -214,16 +214,6 @@
     ],
     "precio_min_publicado": 860.0
   },
-  "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
-    "ts": "2026-11-05T14:14:56.691148",
-    "canales": {
-      "whatsapp": "2026-11-05T14:14:56.691148"
-    },
-    "precio": 1100.0,
-    "precios_publicados": [
-      1100.0
-    ]
-  },
   "amz-wap-ventilador-de-coluna-50cm-flow-turbo-com-": {
     "ts": "2026-11-05T14:36:39.174148",
     "canales": {
@@ -3516,6 +3506,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "amz-liquidificador-turbo-blq1300p-1400w-3l-chumbo": {
+    "ts": "2026-11-07T14:15:02.648865",
+    "canales": {
+      "whatsapp": "2026-11-07T14:15:02.648865"
+    },
+    "precio": 108.0,
+    "precios_publicados": [
+      108.0
     ]
   }
 }
