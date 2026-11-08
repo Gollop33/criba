@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T02:29:01+00:00",
+  "actualizado": "2026-11-08T02:36:10+00:00",
   "total": 28,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -17,7 +17,7 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
@@ -25,7 +25,7 @@
       "precio_ref": 27.5,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -33,7 +33,7 @@
       "precio_ref": 99.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -41,7 +41,7 @@
       "precio_ref": 2699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
@@ -49,7 +49,7 @@
       "precio_ref": 689.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
@@ -57,15 +57,15 @@
       "precio_ref": 440.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
-      "busqueda": "tablet samsung galaxy tab s10 fe 128gb 8gb",
-      "nombre": "Tablet Samsung Galaxy Tab S10 FE, 128GB, 8GB RAM",
-      "precio_ref": 2999.0,
+      "busqueda": "memoria corsair vengeance 32gb 2x16gb ddr5 5200mhz c40",
+      "nombre": "Memória Corsair Vengeance - 32GB (2x16GB), DDR5, 5200Mhz, C40, Preto - CMK32GX5M2B5200C40",
+      "precio_ref": 3449.62,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
@@ -73,7 +73,7 @@
       "precio_ref": 178.5,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "fone de ouvido headset havit h2015 pro black",
@@ -81,7 +81,7 @@
       "precio_ref": 262.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
@@ -89,7 +89,7 @@
       "precio_ref": 2999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "samsung combo galaxy a57 5g 256gb cinza galaxy",
@@ -97,7 +97,7 @@
       "precio_ref": 2902.79,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
@@ -105,7 +105,7 @@
       "precio_ref": 3699.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook gamer lenovo loq irx9 15 6 144hz",
@@ -113,7 +113,7 @@
       "precio_ref": 5099.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
@@ -121,7 +121,7 @@
       "precio_ref": 4515.52,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook hp 256r g9 intel core i5 13o",
@@ -129,7 +129,7 @@
       "precio_ref": 3999.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook asus vivobook s14 ia pc core ultra",
@@ -137,7 +137,7 @@
       "precio_ref": 5399.0,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "final fantasy resonance playstation 5 exclusivo amazon",
@@ -145,7 +145,7 @@
       "precio_ref": 299.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
@@ -153,7 +153,7 @@
       "precio_ref": 3134.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
@@ -161,7 +161,7 @@
       "precio_ref": 829.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
@@ -169,7 +169,7 @@
       "precio_ref": 3698.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -177,7 +177,7 @@
       "precio_ref": 4459.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
@@ -185,7 +185,7 @@
       "precio_ref": 3459.93,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
@@ -193,7 +193,7 @@
       "precio_ref": 887.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
@@ -201,7 +201,7 @@
       "precio_ref": 402.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "console nintendo switch 2 modelo internacional",
@@ -209,7 +209,7 @@
       "precio_ref": 4299.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "apple iphone 16e de 128 gb preto",
@@ -217,7 +217,7 @@
       "precio_ref": 3499.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     },
     {
       "busqueda": "echo dot smart speaker com alexa som vibrante",
@@ -225,7 +225,7 @@
       "precio_ref": 649.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:29:01+00:00"
+      "monitorizado_desde": "2026-11-08T02:36:10+00:00"
     }
   ]
 }
