@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-08T09:57:05+00:00",
-  "total": 22,
+  "actualizado": "2026-11-08T10:01:18+00:00",
+  "total": 21,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,15 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "detergente em po ype 1kg formula 3 em",
-      "nombre": "Detergente em Pó Ypê 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
-      "precio_ref": 35.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
@@ -25,7 +17,7 @@
       "precio_ref": 27.5,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -33,7 +25,15 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "detergente em po ype 1kg formula 3 em",
+      "nombre": "Detergente em Pó Ypê 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
+      "precio_ref": 35.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -41,7 +41,7 @@
       "precio_ref": 99.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -49,7 +49,7 @@
       "precio_ref": 2699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
@@ -57,7 +57,7 @@
       "precio_ref": 440.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
@@ -65,111 +65,7 @@
       "precio_ref": 689.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "samsung combo galaxy a57 5g 256gb cinza galaxy",
-      "nombre": "Samsung Combo Galaxy A57 5G (256GB) - Cinza + Galaxy Buds Core - Preto",
-      "precio_ref": 2902.79,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 intel core i3",
-      "nombre": "Notebook Asus Vivobook Go 15 Intel Core i3 N305 8GB, 512GB SSD KeepOS/Linux Tela 15,6\" FHD Cool Silver - E1504GA NJ438",
-      "precio_ref": 2799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "controle sem fio playstation dualsensetm midnight black",
-      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
-      "precio_ref": 429.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3i, i5-13420H, 8GB RAM, 256GB SSD | Tela IPS WUXGA antirreflexo de 15,3\", Intel UHD Graphics, Wi",
-      "precio_ref": 3459.93,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
-      "nombre": "Smartphone Motorola Razr 60-256GB 12GB RAM+12GB Ram Boost Tela dobrável 6,9\" pOLED e externa 3,6” Moto AI camera IP48 - Azul",
-      "precio_ref": 2999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "console nintendo switch 2 modelo internacional",
-      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
-      "precio_ref": 3989.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
-      "precio_ref": 829.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
-      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
-      "precio_ref": 152.95,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
-      "precio_ref": 3134.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
-      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
-      "precio_ref": 178.5,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "stanley garrafa termica quick flip frost 710ml",
-      "nombre": "Stanley Garrafa Térmica Quick Flip Frost 710ml",
-      "precio_ref": 135.85,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
-      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
-      "precio_ref": 402.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
-    },
-    {
-      "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
-      "nombre": "PlayStation®5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
-      "precio_ref": 4459.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     },
     {
       "busqueda": "apple iphone 16e de 128 gb preto",
@@ -177,7 +73,103 @@
       "precio_ref": 3499.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T09:57:05+00:00"
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3i, i5-13420H, 8GB RAM, 256GB SSD | Tela IPS WUXGA antirreflexo de 15,3\", Intel UHD Graphics, Wi",
+      "precio_ref": 3459.93,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
+      "nombre": "PlayStation®5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
+      "precio_ref": 4459.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 829.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "console nintendo switch 2 modelo internacional",
+      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
+      "precio_ref": 3989.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go 15 intel core i3",
+      "nombre": "Notebook Asus Vivobook Go 15 Intel Core i3 N305 8GB, 512GB SSD KeepOS/Linux Tela 15,6\" FHD Cool Silver - E1504GA NJ438",
+      "precio_ref": 2799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm midnight black",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
+      "precio_ref": 429.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
+      "precio_ref": 3134.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
+      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
+      "precio_ref": 178.5,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "stanley garrafa termica quick flip frost 710ml",
+      "nombre": "Stanley Garrafa Térmica Quick Flip Frost 710ml",
+      "precio_ref": 135.85,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
+      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
+      "precio_ref": 402.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
+      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
+      "precio_ref": 152.95,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
+      "nombre": "Smartphone Motorola Razr 60-256GB 12GB RAM+12GB Ram Boost Tela dobrável 6,9\" pOLED e externa 3,6” Moto AI camera IP48 - Azul",
+      "precio_ref": 2999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:01:18+00:00"
     }
   ]
 }
