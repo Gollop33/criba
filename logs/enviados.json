@@ -237,26 +237,6 @@
     ],
     "precio_min_publicado": 60.0
   },
-  "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
-    "ts": "2026-11-06T21:17:08.228576",
-    "canales": {
-      "whatsapp": "2026-11-06T21:17:08.228576"
-    },
-    "precio": 53.0,
-    "precios_publicados": [
-      53.0
-    ]
-  },
-  "amz-havit-fone-de-ouvido-headset-gamer-fuxih3-bla": {
-    "ts": "2026-11-06T21:18:25.594959",
-    "canales": {
-      "whatsapp": "2026-11-06T21:18:25.594959"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
     "ts": "2026-11-06T21:27:20.635776",
     "canales": {
@@ -3615,6 +3595,16 @@
     "precio": 2384.0,
     "precios_publicados": [
       2384.0
+    ]
+  },
+  "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
+    "ts": "2026-11-08T21:19:47.220849",
+    "canales": {
+      "whatsapp": "2026-11-08T21:19:47.220849"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
