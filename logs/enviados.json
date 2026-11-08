@@ -199,26 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
-    "ts": "2026-11-06T19:27:36.692678",
-    "canales": {
-      "whatsapp": "2026-11-06T19:27:36.692678"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-06T19:29:23.091361",
-    "canales": {
-      "whatsapp": "2026-11-06T19:29:23.091361"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "amz-secret-desodorante-antitranspirante-em-gel-pr": {
     "ts": "2026-11-07T19:40:34.222292",
     "canales": {
@@ -3613,6 +3593,16 @@
     "precio": 5999.0,
     "precios_publicados": [
       5999.0
+    ]
+  },
+  "amz-samsung-galaxy-book4-intel-coretm-i51335u-8gb": {
+    "ts": "2026-11-08T19:32:18.815876",
+    "canales": {
+      "whatsapp": "2026-11-08T19:32:18.815876"
+    },
+    "precio": 3779.0,
+    "precios_publicados": [
+      3779.0
     ]
   }
 }
