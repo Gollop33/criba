@@ -149,16 +149,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-lg-ultragear-monitor-gamer-27-ips-200hz-1ms-g": {
-    "ts": "2026-11-06T10:29:10.999484",
-    "canales": {
-      "whatsapp": "2026-11-06T10:29:10.999484"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0
-    ]
-  },
   "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
     "ts": "2026-11-06T10:35:57.952547",
     "canales": {
@@ -3563,6 +3553,16 @@
     "precio": 4459.0,
     "precios_publicados": [
       4459.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
+    "ts": "2026-11-08T10:29:13.127417",
+    "canales": {
+      "whatsapp": "2026-11-08T10:29:13.127417"
+    },
+    "precio": 829.0,
+    "precios_publicados": [
+      829.0
     ]
   }
 }
