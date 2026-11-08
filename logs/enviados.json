@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-cooler-para-processador-gamdias-boreas-e1410-": {
-    "ts": "2026-11-06T20:08:21.412488",
-    "canales": {
-      "whatsapp": "2026-11-06T20:08:21.412488"
-    },
-    "precio": 114.0,
-    "precios_publicados": [
-      114.0
-    ]
-  },
   "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
     "ts": "2026-11-06T20:18:27.516364",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 1776.0,
     "precios_publicados": [
       1776.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
+    "ts": "2026-11-08T20:17:49.643957",
+    "canales": {
+      "whatsapp": "2026-11-08T20:17:49.643957"
+    },
+    "precio": 1441.0,
+    "precios_publicados": [
+      1441.0
     ]
   }
 }
