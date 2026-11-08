@@ -187,16 +187,6 @@
     ],
     "precio_min_publicado": 499.0
   },
-  "amz-pneu-pretinho-15l": {
-    "ts": "2026-11-06T14:15:13.017519",
-    "canales": {
-      "whatsapp": "2026-11-06T14:15:13.017519"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-11-06T14:22:10.549499",
     "canales": {
@@ -3675,6 +3665,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
+    "ts": "2026-11-08T14:16:01.293834",
+    "canales": {
+      "whatsapp": "2026-11-08T14:16:01.293834"
+    },
+    "precio": 20.0,
+    "precios_publicados": [
+      20.0
     ]
   }
 }
