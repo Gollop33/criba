@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
-    "ts": "2026-11-06T09:36:20.047521",
-    "canales": {
-      "whatsapp": "2026-11-06T09:36:20.047521"
-    },
-    "precio": 5667.0,
-    "precios_publicados": [
-      5667.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-intel-core-i3-n3": {
     "ts": "2026-11-06T09:43:05.993754",
     "canales": {
@@ -3553,6 +3543,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-sanol-desinfetante-liquido-para-uso-geral-lav": {
+    "ts": "2026-11-08T09:36:28.559050",
+    "canales": {
+      "whatsapp": "2026-11-08T09:36:28.559050"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
