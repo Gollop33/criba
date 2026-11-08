@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-oleo-capilar-koleston-poderoso-9-em-1100ml": {
-    "ts": "2026-11-06T20:00:25.156451",
-    "canales": {
-      "whatsapp": "2026-11-06T20:00:25.156451"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-pasta-termica-pcyes-nitrogen-basic-15g-condut": {
     "ts": "2026-11-06T20:01:41.148204",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
+    "ts": "2026-11-08T20:01:25.850568",
+    "canales": {
+      "whatsapp": "2026-11-08T20:01:25.850568"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
