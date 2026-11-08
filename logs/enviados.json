@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-hada-labo-demaquilante-cleansing-oil-refil-li": {
-    "ts": "2026-11-06T19:56:51.544949",
-    "canales": {
-      "whatsapp": "2026-11-06T19:56:51.544949"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
   "amz-oleo-capilar-koleston-poderoso-9-em-1100ml": {
     "ts": "2026-11-06T20:00:25.156451",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 177.0,
     "precios_publicados": [
       177.0
+    ]
+  },
+  "amz-mondial-liquidificador-turbo-power-preto-550w": {
+    "ts": "2026-11-08T19:57:33.466046",
+    "canales": {
+      "whatsapp": "2026-11-08T19:57:33.466046"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
