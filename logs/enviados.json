@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
-    "ts": "2026-11-06T18:50:07.463358",
-    "canales": {
-      "whatsapp": "2026-11-06T18:50:07.463358"
-    },
-    "precio": 1829.0,
-    "precios_publicados": [
-      1829.0
-    ]
-  },
   "amz-philips-walita-fritadeira-airfryer-serie-1000": {
     "ts": "2026-11-06T19:00:08.452753",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 486.0,
     "precios_publicados": [
       486.0
+    ]
+  },
+  "amz-controle-sem-fio-para-xbox-series-x-s-xbox-on": {
+    "ts": "2026-11-08T18:55:26.777279",
+    "canales": {
+      "whatsapp": "2026-11-08T18:55:26.777279"
+    },
+    "precio": 377.0,
+    "precios_publicados": [
+      377.0
     ]
   }
 }
