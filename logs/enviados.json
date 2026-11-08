@@ -175,16 +175,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-controle-sem-fio-dualsense-midnight-black": {
-    "ts": "2026-11-06T13:22:12.451646",
-    "canales": {
-      "whatsapp": "2026-11-06T13:22:12.451646"
-    },
-    "precio": 420.0,
-    "precios_publicados": [
-      420.0
-    ]
-  },
   "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
     "ts": "2026-11-06T13:29:11.751910",
     "canales": {
@@ -3645,6 +3635,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-11-08T13:25:29.138304",
+    "canales": {
+      "whatsapp": "2026-11-08T13:25:29.138304"
+    },
+    "precio": 1179.0,
+    "precios_publicados": [
+      1179.0
     ]
   }
 }

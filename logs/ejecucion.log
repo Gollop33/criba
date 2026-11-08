@@ -46912,3 +46912,15 @@
 [2026-11-08 13:18:42] [CUPONES] Descartado CUPOMEXCLUSIVO: detectado hace 720h (> 24h)
 [2026-11-08 13:18:42] [CUPONES] Descartado BOLSOCHEIO: detectado hace 717h (> 24h)
 [2026-11-08 13:18:42] [CUPONES] Sin cupones nuevos (232 códigos ya vistos).
+[2026-11-08 13:25:25] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-11-08 13:25:25] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-11-08 13:25:25] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-11-08 13:25:25] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-11-08 13:25:25] [CUPONES] Descartado MELIOFFAQUI: detectado hace 711h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Descartado CORREAQUINOML: detectado hace 692h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Descartado VEJAESSAPROMO: detectado hace 711h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Descartado PROMOCERTAML: detectado hace 648h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Descartado SEMDEMORAML: detectado hace 720h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Descartado MELIMAIS: detectado hace 720h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Descartado CUPOMEXCLUSIVO: detectado hace 720h (> 24h)
+[2026-11-08 13:25:25] [CUPONES] Sin cupones nuevos (232 códigos ya vistos).
