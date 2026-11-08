@@ -162,16 +162,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "amz-monitor-gamer-aoc-agon-g4s-25-310hz-03ms-hdr1": {
-    "ts": "2026-11-06T12:28:55.686355",
-    "canales": {
-      "whatsapp": "2026-11-06T12:28:55.686355"
-    },
-    "precio": 1052.0,
-    "precios_publicados": [
-      1052.0
-    ]
-  },
   "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
     "ts": "2026-11-06T12:35:58.631406",
     "canales": {
@@ -3624,6 +3614,16 @@
     "precio": 1079.0,
     "precios_publicados": [
       1079.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
+    "ts": "2026-11-08T12:32:27.510604",
+    "canales": {
+      "whatsapp": "2026-11-08T12:32:27.510604"
+    },
+    "precio": 3134.0,
+    "precios_publicados": [
+      3134.0
     ]
   }
 }
