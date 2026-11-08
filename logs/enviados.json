@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
-    "ts": "2026-11-06T19:00:08.452753",
-    "canales": {
-      "whatsapp": "2026-11-06T19:00:08.452753"
-    },
-    "precio": 312.0,
-    "precios_publicados": [
-      312.0
-    ]
-  },
   "amz-apple-iphone-17-de-256-gb-preto": {
     "ts": "2026-11-06T19:09:32.647397",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 377.0,
     "precios_publicados": [
       377.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
+    "ts": "2026-11-08T19:02:16.268235",
+    "canales": {
+      "whatsapp": "2026-11-08T19:02:16.268235"
+    },
+    "precio": 4499.0,
+    "precios_publicados": [
+      4499.0
     ]
   }
 }
