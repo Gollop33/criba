@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
-    "ts": "2026-11-06T18:24:50.303364",
-    "canales": {
-      "whatsapp": "2026-11-06T18:24:50.303364"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
     "ts": "2026-11-06T18:29:42.256197",
     "canales": {
@@ -3583,6 +3573,16 @@
     "precio": 2888.0,
     "precios_publicados": [
       2888.0
+    ]
+  },
+  "amz-monitor-portatil-156-full-hd-1080p-60hz-usbc-": {
+    "ts": "2026-11-08T18:25:37.607104",
+    "canales": {
+      "whatsapp": "2026-11-08T18:25:37.607104"
+    },
+    "precio": 339.0,
+    "precios_publicados": [
+      339.0
     ]
   }
 }
