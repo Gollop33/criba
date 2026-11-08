@@ -149,16 +149,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-gamer-curvo-aoc-agon-g4z-27-300hz-03m": {
-    "ts": "2026-11-06T10:50:10.850354",
-    "canales": {
-      "whatsapp": "2026-11-06T10:50:10.850354"
-    },
-    "precio": 1079.0,
-    "precios_publicados": [
-      1079.0
-    ]
-  },
   "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
     "ts": "2026-11-06T10:57:16.181542",
     "canales": {
@@ -3563,6 +3553,16 @@
     "precio": 3459.0,
     "precios_publicados": [
       3459.0
+    ]
+  },
+  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
+    "ts": "2026-11-08T10:50:13.832235",
+    "canales": {
+      "whatsapp": "2026-11-08T10:50:13.832235"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
