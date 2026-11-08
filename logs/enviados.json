@@ -175,16 +175,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
-    "ts": "2026-11-06T13:29:11.751910",
-    "canales": {
-      "whatsapp": "2026-11-06T13:29:11.751910"
-    },
-    "precio": 2150.0,
-    "precios_publicados": [
-      2150.0
-    ]
-  },
   "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
     "ts": "2026-11-07T14:51:05.261128",
     "canales": {
@@ -3645,6 +3635,16 @@
     "precio": 1179.0,
     "precios_publicados": [
       1179.0
+    ]
+  },
+  "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
+    "ts": "2026-11-08T13:35:04.856109",
+    "canales": {
+      "whatsapp": "2026-11-08T13:35:04.856109"
+    },
+    "precio": 695.0,
+    "precios_publicados": [
+      695.0
     ]
   }
 }
