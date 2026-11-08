@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-lite-5g-256gb-8": {
-    "ts": "2026-11-06T18:04:33.565650",
-    "canales": {
-      "whatsapp": "2026-11-06T18:04:33.565650"
-    },
-    "precio": 2799.0,
-    "precios_publicados": [
-      2799.0
-    ]
-  },
   "amz-resident-evil-requiem-playstation-5": {
     "ts": "2026-11-06T18:12:15.170832",
     "canales": {
@@ -3593,6 +3583,16 @@
     "precio": 3299.0,
     "precios_publicados": [
       3299.0
+    ]
+  },
+  "amz-radio-portatil-amfm-2-bandas-recarregavel-usb": {
+    "ts": "2026-11-08T18:09:16.441290",
+    "canales": {
+      "whatsapp": "2026-11-08T18:09:16.441290"
+    },
+    "precio": 4390.0,
+    "precios_publicados": [
+      4390.0
     ]
   }
 }
