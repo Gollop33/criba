@@ -187,16 +187,6 @@
     ],
     "precio_min_publicado": 499.0
   },
-  "amz-nexgard-antipulgas-e-carrapatos-para-caes-de-": {
-    "ts": "2026-11-06T14:08:12.244474",
-    "canales": {
-      "whatsapp": "2026-11-06T14:08:12.244474"
-    },
-    "precio": 58.0,
-    "precios_publicados": [
-      58.0
-    ]
-  },
   "amz-pneu-pretinho-15l": {
     "ts": "2026-11-06T14:15:13.017519",
     "canales": {
@@ -3665,6 +3655,16 @@
     "precio": 420.0,
     "precios_publicados": [
       420.0
+    ]
+  },
+  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
+    "ts": "2026-11-08T14:09:31.968687",
+    "canales": {
+      "whatsapp": "2026-11-08T14:09:31.968687"
+    },
+    "precio": 2199.0,
+    "precios_publicados": [
+      2199.0
     ]
   }
 }
