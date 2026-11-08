@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-2": {
-    "ts": "2026-11-06T10:08:15.456002",
-    "canales": {
-      "whatsapp": "2026-11-06T10:08:15.456002"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
   "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
     "ts": "2026-11-08T03:23:36.468377",
     "canales": {
@@ -3563,6 +3553,16 @@
     "precio": 3499.0,
     "precios_publicados": [
       3499.0
+    ]
+  },
+  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
+    "ts": "2026-11-08T10:15:11.749459",
+    "canales": {
+      "whatsapp": "2026-11-08T10:15:11.749459"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
