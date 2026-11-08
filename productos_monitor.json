@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-08T10:50:03+00:00",
-  "total": 19,
+  "actualizado": "2026-11-08T10:56:53+00:00",
+  "total": 29,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,15 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "amaciante ype ultra aconchego 5l",
+      "nombre": "Amaciante Ypê Ultra Aconchego 5L",
+      "precio_ref": 18.09,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -17,15 +25,7 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
-      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
-      "precio_ref": 27.5,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
       "busqueda": "detergente em po ype 1kg formula 3 em",
@@ -33,23 +33,15 @@
       "precio_ref": 35.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 689.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
+      "precio_ref": 27.5,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
-      "precio_ref": 2699.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -57,7 +49,23 @@
       "precio_ref": 99.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 689.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 2699.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
       "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
@@ -65,87 +73,39 @@
       "precio_ref": 440.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
-      "busqueda": "mouse sem fio recarregavel wireless bluetooth optico led",
-      "nombre": "Mouse Sem Fio Recarregável Wireless Bluetooth Optico Led Rgb Colorido Ergonômico Usb 2.4 Ghz Notebook Computador Pc Desktop L",
-      "precio_ref": 14.9,
-      "categoria": "Notebooks & PCs",
+      "busqueda": "oral b iconic premium escova de dentes 3",
+      "nombre": "Oral B Iconic Premium, escova de dentes, 3 unidades",
+      "precio_ref": 23.72,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
-      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
-      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
-      "precio_ref": 152.95,
-      "categoria": "Periféricos & Setup Gamer",
+      "busqueda": "pomada bepantol baby com pro vitamina b5 100g",
+      "nombre": "Pomada Bepantol Baby com Pró-Vitamina B5, 100g | 100g, Com Pró-Vitamina B5, Hipoalergênico, Dermatologicamente testado, Barre",
+      "precio_ref": 42.58,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
-      "busqueda": "monitor gamer lg 20 20u401a b 75hz 2ms",
-      "nombre": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
-      "precio_ref": 327.0,
-      "categoria": "Monitores & Displays",
+      "busqueda": "fralda pampers pants ajuste total tamanho g 144",
+      "nombre": "Fralda Pampers Pants Ajuste Total Tamanho G, 144 Unidades",
+      "precio_ref": 148.9,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
-      "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
-      "nombre": "Monitor AOC 21\" 22B30HM23 FHD, 120Hz, 1MS, Preto",
-      "precio_ref": 397.9,
-      "categoria": "Monitores & Displays",
+      "busqueda": "fralda descartavel huggies tamanho xg 140 unidades tecnologia",
+      "nombre": "Fralda Descartável Huggies, Tamanho XG, 140 Unidades | Tecnologia Xtra-Flex, Canais em X Adaptáveis aos Movimentos, Máxima Pr",
+      "precio_ref": 149.9,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
-      "precio_ref": 3134.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "console nintendo switch 2 modelo internacional",
-      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
-      "precio_ref": 3989.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
-      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
-      "precio_ref": 402.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
-      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
-      "precio_ref": 178.5,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "controle sem fio playstation dualsensetm midnight black",
-      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
-      "precio_ref": 429.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 27 ips 200hz 1ms",
-      "nombre": "LG UltraGear Monitor Gamer 27\" IPS 200Hz, 1ms (GtG), Full HD (1920x1080), HDR10, NVIDIA G-SYNC AMD, FreeSync Premium, sRGB 99",
-      "precio_ref": 799.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     },
     {
       "busqueda": "stanley garrafa termica quick flip frost 710ml",
@@ -153,7 +113,127 @@
       "precio_ref": 135.85,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T10:50:03+00:00"
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "bebida proteica liquida piracanjuba proforce sabor cacau 23g",
+      "nombre": "Bebida Proteica Líquida Piracanjuba ProForce Sabor Cacau, 23g Proteínas",
+      "precio_ref": 79.99,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
+      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
+      "precio_ref": 152.95,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
+      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
+      "precio_ref": 178.5,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "apple iphone 15 128 gb preto",
+      "nombre": "Apple iPhone 15 (128 GB) — Preto",
+      "precio_ref": 4199.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
+      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
+      "precio_ref": 402.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm midnight black",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
+      "precio_ref": 429.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "monitor gamer lg 20 20u401a b 75hz 2ms",
+      "nombre": "Monitor Gamer LG 20\" 20U401A-B - 75hz, 2ms, UHD, LED, TN HD+",
+      "precio_ref": 327.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "detergente ype clear 5l detergente liquido",
+      "nombre": "Detergente Ypê Clear 5L | Detergente Líquido",
+      "precio_ref": 3478.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "placa mae asus tuf gaming a520m plus ii",
+      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
+      "precio_ref": 517.32,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "kingston kf432c16bbk2 16 kit de memorias de 16gb",
+      "nombre": "Kingston, KF432C16BBK2/16 - Kit de memórias de 16GB (2 x 8GB) DIMM DDR4 3200Mhz FURY Beast Black 1,35V 1Rx8 288 pinos para de",
+      "precio_ref": 949.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "monitor gamer curvo aoc agon g4z 27 300hz",
+      "nombre": "Monitor Gamer Curvo AOC AGON G4Z 27\" 300Hz 0,3ms HDR10 Base Ajustável C27G4Z/P",
+      "precio_ref": 1079.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
+      "precio_ref": 3134.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 27 ips 200hz 1ms",
+      "nombre": "LG UltraGear Monitor Gamer 27\" IPS 200Hz, 1ms (GtG), Full HD (1920x1080), HDR10, NVIDIA G-SYNC AMD, FreeSync Premium, sRGB 99",
+      "precio_ref": 799.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
+      "nombre": "Monitor AOC 21\" 22B30HM23 FHD, 120Hz, 1MS, Preto",
+      "precio_ref": 397.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
+    },
+    {
+      "busqueda": "console nintendo switch 2 modelo internacional",
+      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
+      "precio_ref": 4199.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T10:56:53+00:00"
     }
   ]
 }
