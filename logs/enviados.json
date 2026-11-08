@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-memoria-corsair-vengeance-32gb-2x16gb-ddr5-52": {
-    "ts": "2026-11-06T02:25:36.116578",
-    "canales": {
-      "whatsapp": "2026-11-06T02:25:36.116578"
-    },
-    "precio": 2893.0,
-    "precios_publicados": [
-      2893.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
     "ts": "2026-11-06T02:57:41.624719",
     "canales": {
@@ -3531,6 +3521,16 @@
     "precio": 844.0,
     "precios_publicados": [
       844.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-128gb-8gb-ra": {
+    "ts": "2026-11-08T02:29:10.534358",
+    "canales": {
+      "whatsapp": "2026-11-08T02:29:10.534358"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
