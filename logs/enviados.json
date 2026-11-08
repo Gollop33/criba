@@ -125,26 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
-    "ts": "2026-11-06T02:57:41.624719",
-    "canales": {
-      "whatsapp": "2026-11-06T02:57:41.624719"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
-  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
-    "ts": "2026-11-06T03:08:04.148765",
-    "canales": {
-      "whatsapp": "2026-11-06T03:08:04.148765"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
     "ts": "2026-11-06T03:15:16.776754",
     "canales": {
@@ -3571,6 +3551,16 @@
     "precio": 5399.0,
     "precios_publicados": [
       5399.0
+    ]
+  },
+  "amz-notebook-hp-256r-g9-intel-core-i5-13o-geracao": {
+    "ts": "2026-11-08T03:08:16.067273",
+    "canales": {
+      "whatsapp": "2026-11-08T03:08:16.067273"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
