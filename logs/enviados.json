@@ -200,16 +200,6 @@
     ],
     "precio_min_publicado": 1590.0
   },
-  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-11-06T15:28:52.142345",
-    "canales": {
-      "whatsapp": "2026-11-06T15:28:52.142345"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "amz-mondial-liquidificador-turbo-power-preto-550w": {
     "ts": "2026-11-06T15:36:15.081183",
     "canales": {
@@ -3676,6 +3666,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
+    "ts": "2026-11-08T15:28:55.550458",
+    "canales": {
+      "whatsapp": "2026-11-08T15:28:55.550458"
+    },
+    "precio": 2920.0,
+    "precios_publicados": [
+      2920.0
     ]
   }
 }
