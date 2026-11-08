@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-06T19:09:32.647397",
-    "canales": {
-      "whatsapp": "2026-11-06T19:09:32.647397"
-    },
-    "precio": 5949.0,
-    "precios_publicados": [
-      5949.0
-    ]
-  },
   "amz-amd-processador-ryzen-7-5800x3d-de-8-nucleos-": {
     "ts": "2026-11-06T19:18:03.109675",
     "canales": {
@@ -3613,6 +3603,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
+    "ts": "2026-11-08T19:11:51.802746",
+    "canales": {
+      "whatsapp": "2026-11-08T19:11:51.802746"
+    },
+    "precio": 61.0,
+    "precios_publicados": [
+      61.0
     ]
   }
 }
