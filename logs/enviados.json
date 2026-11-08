@@ -162,16 +162,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "amz-areia-higienica-para-gatos-bionature-biodegra": {
-    "ts": "2026-11-06T12:14:57.735111",
-    "canales": {
-      "whatsapp": "2026-11-06T12:14:57.735111"
-    },
-    "precio": 38.0,
-    "precios_publicados": [
-      38.0
-    ]
-  },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-11-06T12:21:55.417200",
     "canales": {
@@ -3604,6 +3594,16 @@
     "precio": 327.0,
     "precios_publicados": [
       327.0
+    ]
+  },
+  "amz-detergente-ype-clear-5l-detergente-liquido": {
+    "ts": "2026-11-08T12:15:04.277240",
+    "canales": {
+      "whatsapp": "2026-11-08T12:15:04.277240"
+    },
+    "precio": 3478.0,
+    "precios_publicados": [
+      3478.0
     ]
   }
 }
