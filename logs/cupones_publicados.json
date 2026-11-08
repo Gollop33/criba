@@ -72,26 +72,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "MELIOFFAQUI": {
-      "detectado_em": "2026-10-09T13:15:05+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CORREAQUINOML": {
-      "detectado_em": "2026-10-09T13:15:05+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "VEJAESSAPROMO": {
-      "detectado_em": "2026-10-09T13:15:05+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PROMOCERTAML": {
-      "detectado_em": "2026-10-09T13:15:05+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "TECNOML": {
       "detectado_em": "2026-10-09T19:00:08+00:00",
       "publicado_em": null,
@@ -1146,7 +1126,12 @@
       "detectado_em": "2026-10-12T00:09:05+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 645h (> 24h)"
+    },
+    "BOLSOCHEIO": {
+      "detectado_em": "2026-10-09T16:04:57+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 717h (> 24h)"
     }
   },
-  "actualizado": "2026-11-08T13:11:17+00:00"
+  "actualizado": "2026-11-08T13:18:42+00:00"
 }
