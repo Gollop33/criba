@@ -125,26 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-11-06T00:17:44.084776",
-    "canales": {
-      "whatsapp": "2026-11-06T00:17:44.084776"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
-  },
-  "amz-cartao-nintendo-switch-2-samsung-microsd-expr": {
-    "ts": "2026-11-06T00:19:03.813911",
-    "canales": {
-      "whatsapp": "2026-11-06T00:19:03.813911"
-    },
-    "precio": 444.0,
-    "precios_publicados": [
-      444.0
-    ]
-  },
   "amz-limpador-multiuso-power-fusion-limao-veja-500": {
     "ts": "2026-11-06T00:29:00.368581",
     "canales": {
@@ -3521,6 +3501,16 @@
     "precio": 525.0,
     "precios_publicados": [
       525.0
+    ]
+  },
+  "amz-be-place-kids-tablet-infantil-android-13-128g": {
+    "ts": "2026-11-08T00:21:54.142538",
+    "canales": {
+      "whatsapp": "2026-11-08T00:21:54.142538"
+    },
+    "precio": 395.0,
+    "precios_publicados": [
+      395.0
     ]
   }
 }
