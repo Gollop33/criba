@@ -162,16 +162,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
-    "ts": "2026-11-06T12:35:58.631406",
-    "canales": {
-      "whatsapp": "2026-11-06T12:35:58.631406"
-    },
-    "precio": 419.0,
-    "precios_publicados": [
-      419.0
-    ]
-  },
   "amz-amaciante-ype-ultra-aconchego-5l": {
     "ts": "2026-11-07T12:50:06.054676",
     "canales": {
@@ -3624,6 +3614,16 @@
     "precio": 3134.0,
     "precios_publicados": [
       3134.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-27-ips-200hz-1ms-g": {
+    "ts": "2026-11-08T12:42:08.911056",
+    "canales": {
+      "whatsapp": "2026-11-08T12:42:08.911056"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
