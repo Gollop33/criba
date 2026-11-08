@@ -175,16 +175,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-playstation5-pro": {
-    "ts": "2026-11-06T13:08:19.782876",
-    "canales": {
-      "whatsapp": "2026-11-06T13:08:19.782876"
-    },
-    "precio": 7399.0,
-    "precios_publicados": [
-      7399.0
-    ]
-  },
   "amz-cafeteira-eletrica-electrolux-inox-filtro-per": {
     "ts": "2026-11-06T13:15:10.486766",
     "canales": {
@@ -3645,6 +3635,16 @@
     "precio": 80.0,
     "precios_publicados": [
       80.0
+    ]
+  },
+  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
+    "ts": "2026-11-08T13:11:20.944390",
+    "canales": {
+      "whatsapp": "2026-11-08T13:11:20.944390"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
