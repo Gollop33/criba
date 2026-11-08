@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-fe-5g-cinza-128": {
-    "ts": "2026-11-06T01:21:26.822328",
-    "canales": {
-      "whatsapp": "2026-11-06T01:21:26.822328"
-    },
-    "precio": 3149.0,
-    "precios_publicados": [
-      3149.0
-    ]
-  },
   "amz-samsung-combo-galaxy-a57-5g-256gb-cinza-galax": {
     "ts": "2026-11-06T01:30:43.607534",
     "canales": {
@@ -3511,6 +3501,16 @@
     "precio": 1457.0,
     "precios_publicados": [
       1457.0
+    ]
+  },
+  "amz-cartao-nintendo-switch-2-samsung-microsd-expr": {
+    "ts": "2026-11-08T01:29:14.702412",
+    "canales": {
+      "whatsapp": "2026-11-08T01:29:14.702412"
+    },
+    "precio": 429.0,
+    "precios_publicados": [
+      429.0
     ]
   }
 }
