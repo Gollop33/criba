@@ -199,26 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
-    "ts": "2026-11-06T17:24:08.801038",
-    "canales": {
-      "whatsapp": "2026-11-06T17:24:08.801038"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0
-    ]
-  },
-  "amz-cerave-locao-hidratante-corporal-com-textura-": {
-    "ts": "2026-11-06T17:27:47.376043",
-    "canales": {
-      "whatsapp": "2026-11-06T17:27:47.376043"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "amz-britania-blq1300p-liquidificador-turbo-1400w-": {
     "ts": "2026-11-06T17:30:22.645764",
     "canales": {
@@ -3593,6 +3573,16 @@
     "precio": 144.0,
     "precios_publicados": [
       144.0
+    ]
+  },
+  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
+    "ts": "2026-11-08T17:28:58.463647",
+    "canales": {
+      "whatsapp": "2026-11-08T17:28:58.463647"
+    },
+    "precio": 120.0,
+    "precios_publicados": [
+      120.0
     ]
   }
 }
