@@ -101,18 +101,6 @@
     ],
     "precio_min_publicado": 2699.0
   },
-  "amz-philco-fritadeira-air-fryer-12l-pt-pfr2200p-2": {
-    "ts": "2026-11-06T21:21:33.877322",
-    "canales": {
-      "whatsapp": "2026-11-06T21:21:33.877322"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      530.0,
-      399.0
-    ],
-    "precio_min_publicado": 530.0
-  },
   "amz-personal-vip-papel-higienico-folha-dupla-bran": {
     "ts": "2026-11-07T09:48:07.984560",
     "canales": {
@@ -3605,6 +3593,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-grand-theft-auto-vi-playstation-5": {
+    "ts": "2026-11-08T21:25:39.401748",
+    "canales": {
+      "whatsapp": "2026-11-08T21:25:39.401748"
+    },
+    "precio": 449.0,
+    "precios_publicados": [
+      449.0
     ]
   }
 }
