@@ -237,16 +237,6 @@
     ],
     "precio_min_publicado": 60.0
   },
-  "amz-kit-sabonete-phebo-amarelo-720g": {
-    "ts": "2026-11-06T21:02:23.343624",
-    "canales": {
-      "whatsapp": "2026-11-06T21:02:23.343624"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
   "amz-pantene-prov-shampoo-biotinamina-b3-antiqueda": {
     "ts": "2026-11-06T21:06:52.305282",
     "canales": {
@@ -3615,6 +3605,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-apple-iphone-17-de-256-gb-preto": {
+    "ts": "2026-11-08T21:02:30.460316",
+    "canales": {
+      "whatsapp": "2026-11-08T21:02:30.460316"
+    },
+    "precio": 5887.0,
+    "precios_publicados": [
+      5887.0
     ]
   }
 }
