@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-britania-blq1300p-liquidificador-turbo-1400w-": {
-    "ts": "2026-11-06T17:30:22.645764",
-    "canales": {
-      "whatsapp": "2026-11-06T17:30:22.645764"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "amz-vichy-dercos-energy-shampoo-antiqueda-estimul": {
     "ts": "2026-11-06T17:39:58.779004",
     "canales": {
@@ -3583,6 +3573,16 @@
     "precio": 120.0,
     "precios_publicados": [
       120.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
+    "ts": "2026-11-08T17:32:00.746009",
+    "canales": {
+      "whatsapp": "2026-11-08T17:32:00.746009"
+    },
+    "precio": 959.0,
+    "precios_publicados": [
+      959.0
     ]
   }
 }
