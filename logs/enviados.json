@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-mondial-ventilador-de-mesa-30cm-super-power-p": {
-    "ts": "2026-11-06T03:22:22.768407",
-    "canales": {
-      "whatsapp": "2026-11-06T03:22:22.768407"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
     "ts": "2026-11-06T03:29:08.570065",
     "canales": {
@@ -368,14 +358,16 @@
     ]
   },
   "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
-    "ts": "2026-11-06T10:14:58.290297",
+    "ts": "2026-11-08T03:23:36.468377",
     "canales": {
-      "whatsapp": "2026-11-06T10:14:58.290297"
+      "whatsapp": "2026-11-08T03:23:36.468377"
     },
-    "precio": 52.0,
+    "precio": 35.0,
     "precios_publicados": [
-      52.0
-    ]
+      52.0,
+      35.0
+    ],
+    "precio_min_publicado": 52.0
   },
   "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
     "ts": "2026-11-06T10:22:10.597195",
