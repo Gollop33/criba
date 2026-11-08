@@ -199,26 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-amd-processador-ryzen-7-5800x3d-de-8-nucleos-": {
-    "ts": "2026-11-06T19:18:03.109675",
-    "canales": {
-      "whatsapp": "2026-11-06T19:18:03.109675"
-    },
-    "precio": 2384.0,
-    "precios_publicados": [
-      2384.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
-    "ts": "2026-11-06T19:22:18.673991",
-    "canales": {
-      "whatsapp": "2026-11-06T19:22:18.673991"
-    },
-    "precio": 3199.0,
-    "precios_publicados": [
-      3199.0
-    ]
-  },
   "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
     "ts": "2026-11-06T19:27:36.692678",
     "canales": {
@@ -3623,6 +3603,16 @@
     "precio": 2279.0,
     "precios_publicados": [
       2279.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
+    "ts": "2026-11-08T19:27:19.481216",
+    "canales": {
+      "whatsapp": "2026-11-08T19:27:19.481216"
+    },
+    "precio": 5999.0,
+    "precios_publicados": [
+      5999.0
     ]
   }
 }
