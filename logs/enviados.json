@@ -149,16 +149,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
-    "ts": "2026-11-06T10:35:57.952547",
-    "canales": {
-      "whatsapp": "2026-11-06T10:35:57.952547"
-    },
-    "precio": 327.0,
-    "precios_publicados": [
-      327.0
-    ]
-  },
   "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
     "ts": "2026-11-06T10:43:04.819295",
     "canales": {
@@ -3563,6 +3553,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-15-intel-core-i3-n3": {
+    "ts": "2026-11-08T10:36:12.059881",
+    "canales": {
+      "whatsapp": "2026-11-08T10:36:12.059881"
+    },
+    "precio": 2799.0,
+    "precios_publicados": [
+      2799.0
     ]
   }
 }
