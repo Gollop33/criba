@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-08T02:56:45+00:00",
-  "total": 25,
+  "actualizado": "2026-11-08T03:01:29+00:00",
+  "total": 24,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
@@ -17,7 +17,7 @@
       "precio_ref": 27.5,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -25,7 +25,7 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -33,7 +33,7 @@
       "precio_ref": 99.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -41,7 +41,7 @@
       "precio_ref": 2699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
@@ -49,7 +49,7 @@
       "precio_ref": 689.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
@@ -57,31 +57,7 @@
       "precio_ref": 440.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook s14 ia pc core ultra",
-      "nombre": "Notebook ASUS Vivobook S14 IA PC, Core Ultra 7, 16 GB, 512 GB, KeepOS/Linux, 14'' Nivel IPS 60Hz, Matte Gray - S3407CA-LY121",
-      "precio_ref": 5399.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "console nintendo switch 2 modelo internacional",
-      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
-      "precio_ref": 4299.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "samsung combo galaxy a57 5g 256gb cinza galaxy",
-      "nombre": "Samsung Combo Galaxy A57 5G (256GB) - Cinza + Galaxy Buds Core - Preto",
-      "precio_ref": 2902.79,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "notebook hp 256r g9 intel core i5 13o",
@@ -89,79 +65,7 @@
       "precio_ref": 3999.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
-      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
-      "precio_ref": 3699.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
-      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
-      "precio_ref": 178.5,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3i, i5-13420H, 8GB RAM, 256GB SSD | Tela IPS WUXGA antirreflexo de 15,3\", Intel UHD Graphics, Wi",
-      "precio_ref": 3459.93,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "final fantasy resonance playstation 5 exclusivo amazon",
-      "nombre": "Final Fantasy Resonance - PlayStation 5 (Exclusivo Amazon)",
-      "precio_ref": 299.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
-      "nombre": "PlayStation®5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
-      "precio_ref": 4459.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
-      "nombre": "Celular Samsung Galaxy S26 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.3\" - Azul",
-      "precio_ref": 4515.52,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
-      "precio_ref": 3134.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
-      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
-      "precio_ref": 3698.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto g06-128GB 4GB RAM + 8GB Ram Boost e Camera 50MP com AI Bateria de 5200 mAh Tela 6.9\" - Azul Marinho",
-      "precio_ref": 887.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "fone de ouvido headset havit h2015 pro black",
@@ -169,7 +73,7 @@
       "precio_ref": 262.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
@@ -177,15 +81,47 @@
       "precio_ref": 829.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
-      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
-      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
-      "precio_ref": 402.9,
-      "categoria": "Monitores & Displays",
+      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
+      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
+      "precio_ref": 3699.0,
+      "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
+      "nombre": "Notebook Asus Vivobook 15 M1502ya Amd Ryzen 7 5825u 8gb Ram 512 Gb Ssd Windows 11 Home 15,6\" Lcd Led Fhd nível Ips Cool Silve",
+      "precio_ref": 3698.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3i, i5-13420H, 8GB RAM, 256GB SSD | Tela IPS WUXGA antirreflexo de 15,3\", Intel UHD Graphics, Wi",
+      "precio_ref": 3459.93,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "console nintendo switch 2 modelo internacional",
+      "nombre": "Console Nintendo Switch 2 - Modelo Internacional",
+      "precio_ref": 4299.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
+      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
+      "precio_ref": 178.5,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
@@ -193,7 +129,47 @@
       "precio_ref": 2999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Luna Grey - Intel Core 3 100U, 8GB RAM, 256GB SSD, Windows 11",
+      "precio_ref": 3134.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "samsung combo galaxy a57 5g 256gb cinza galaxy",
+      "nombre": "Samsung Combo Galaxy A57 5G (256GB) - Cinza + Galaxy Buds Core - Preto",
+      "precio_ref": 2902.79,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
+      "nombre": "Celular Samsung Galaxy S26 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.3\" - Azul",
+      "precio_ref": 4515.52,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "final fantasy resonance playstation 5 exclusivo amazon",
+      "nombre": "Final Fantasy Resonance - PlayStation 5 (Exclusivo Amazon)",
+      "precio_ref": 299.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
+      "nombre": "Bettdow Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para Noteboo",
+      "precio_ref": 402.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     },
     {
       "busqueda": "apple iphone 16e de 128 gb preto",
@@ -201,7 +177,23 @@
       "precio_ref": 3499.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T02:56:45+00:00"
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
+      "nombre": "PlayStation®5 Slim Digital 825GB – Pacote ASTRO BOT e Gran Turismo 7",
+      "precio_ref": 4459.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g06 128gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto g06-128GB 4GB RAM + 8GB Ram Boost e Camera 50MP com AI Bateria de 5200 mAh Tela 6.9\" - Azul Marinho",
+      "precio_ref": 887.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T03:01:29+00:00"
     }
   ]
 }
