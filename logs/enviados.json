@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
-    "ts": "2026-11-06T18:29:42.256197",
-    "canales": {
-      "whatsapp": "2026-11-06T18:29:42.256197"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
     "ts": "2026-11-06T18:50:07.463358",
     "canales": {
@@ -3583,6 +3573,16 @@
     "precio": 339.0,
     "precios_publicados": [
       339.0
+    ]
+  },
+  "amz-pro-controller-nintendo-switch-2": {
+    "ts": "2026-11-08T18:33:56.605340",
+    "canales": {
+      "whatsapp": "2026-11-08T18:33:56.605340"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
