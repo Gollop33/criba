@@ -237,16 +237,6 @@
     ],
     "precio_min_publicado": 60.0
   },
-  "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
-    "ts": "2026-11-06T21:12:25.727249",
-    "canales": {
-      "whatsapp": "2026-11-06T21:12:25.727249"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
     "ts": "2026-11-06T21:17:08.228576",
     "canales": {
@@ -3615,6 +3605,16 @@
     "precio": 3199.0,
     "precios_publicados": [
       3199.0
+    ]
+  },
+  "amz-amd-processador-ryzen-7-5800x3d-de-8-nucleos-": {
+    "ts": "2026-11-08T21:14:35.840063",
+    "canales": {
+      "whatsapp": "2026-11-08T21:14:35.840063"
+    },
+    "precio": 2384.0,
+    "precios_publicados": [
+      2384.0
     ]
   }
 }
