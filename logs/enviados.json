@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-11-06T20:18:27.516364",
-    "canales": {
-      "whatsapp": "2026-11-06T20:18:27.516364"
-    },
-    "precio": 105.0,
-    "precios_publicados": [
-      105.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-256gb-8gb-50mp-tel": {
     "ts": "2026-11-06T20:25:54.759519",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 1441.0,
     "precios_publicados": [
       1441.0
+    ]
+  },
+  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
+    "ts": "2026-11-08T20:19:02.685574",
+    "canales": {
+      "whatsapp": "2026-11-08T20:19:02.685574"
+    },
+    "precio": 4799.0,
+    "precios_publicados": [
+      4799.0
     ]
   }
 }
