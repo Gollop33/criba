@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-vichy-dercos-energy-shampoo-antiqueda-estimul": {
-    "ts": "2026-11-06T17:39:58.779004",
-    "canales": {
-      "whatsapp": "2026-11-06T17:39:58.779004"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-11-06T17:42:26.774720",
     "canales": {
@@ -3593,6 +3583,16 @@
     "precio": 5603.0,
     "precios_publicados": [
       5603.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
+    "ts": "2026-11-08T17:41:19.892635",
+    "canales": {
+      "whatsapp": "2026-11-08T17:41:19.892635"
+    },
+    "precio": 2027.0,
+    "precios_publicados": [
+      2027.0
     ]
   }
 }
