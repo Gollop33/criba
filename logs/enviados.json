@@ -162,16 +162,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
-    "ts": "2026-11-06T12:21:55.417200",
-    "canales": {
-      "whatsapp": "2026-11-06T12:21:55.417200"
-    },
-    "precio": 2.0,
-    "precios_publicados": [
-      2.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g4s-25-310hz-03ms-hdr1": {
     "ts": "2026-11-06T12:28:55.686355",
     "canales": {
@@ -3624,6 +3614,16 @@
     "precio": 949.0,
     "precios_publicados": [
       949.0
+    ]
+  },
+  "amz-monitor-gamer-curvo-aoc-agon-g4z-27-300hz-03m": {
+    "ts": "2026-11-08T12:25:53.772899",
+    "canales": {
+      "whatsapp": "2026-11-08T12:25:53.772899"
+    },
+    "precio": 1079.0,
+    "precios_publicados": [
+      1079.0
     ]
   }
 }
