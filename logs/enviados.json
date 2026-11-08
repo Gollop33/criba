@@ -125,26 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-samsung-combo-galaxy-a57-5g-256gb-cinza-galax": {
-    "ts": "2026-11-06T01:30:43.607534",
-    "canales": {
-      "whatsapp": "2026-11-06T01:30:43.607534"
-    },
-    "precio": 2902.0,
-    "precios_publicados": [
-      2902.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-128gb-8gb-ra": {
-    "ts": "2026-11-06T01:34:17.804138",
-    "canales": {
-      "whatsapp": "2026-11-06T01:34:17.804138"
-    },
-    "precio": 3119.0,
-    "precios_publicados": [
-      3119.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-moana-processado": {
     "ts": "2026-11-06T01:46:43.344031",
     "canales": {
@@ -3511,6 +3491,16 @@
     "precio": 429.0,
     "precios_publicados": [
       429.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
+    "ts": "2026-11-08T01:39:19.869227",
+    "canales": {
+      "whatsapp": "2026-11-08T01:39:19.869227"
+    },
+    "precio": 1599.0,
+    "precios_publicados": [
+      1599.0
     ]
   }
 }
