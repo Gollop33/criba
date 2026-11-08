@@ -125,16 +125,6 @@
     ],
     "precio_min_publicado": 530.0
   },
-  "amz-final-fantasy-resonance-playstation-5-exclusi": {
-    "ts": "2026-11-06T02:04:58.912839",
-    "canales": {
-      "whatsapp": "2026-11-06T02:04:58.912839"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
   "amz-memoria-corsair-vengeance-32gb-2x16gb-ddr5-52": {
     "ts": "2026-11-06T02:25:36.116578",
     "canales": {
@@ -3511,6 +3501,16 @@
     "precio": 2665.0,
     "precios_publicados": [
       2665.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-11-08T02:08:12.933101",
+    "canales": {
+      "whatsapp": "2026-11-08T02:08:12.933101"
+    },
+    "precio": 479.0,
+    "precios_publicados": [
+      479.0
     ]
   }
 }
