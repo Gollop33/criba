@@ -199,26 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-resident-evil-requiem-playstation-5": {
-    "ts": "2026-11-06T18:12:15.170832",
-    "canales": {
-      "whatsapp": "2026-11-06T18:12:15.170832"
-    },
-    "precio": 249.0,
-    "precios_publicados": [
-      249.0
-    ]
-  },
-  "amz-tablet-xiaomi-pad-7-284-cm-8-256-gb-tela-32k-": {
-    "ts": "2026-11-06T18:15:28.381466",
-    "canales": {
-      "whatsapp": "2026-11-06T18:15:28.381466"
-    },
-    "precio": 2277.0,
-    "precios_publicados": [
-      2277.0
-    ]
-  },
   "amz-smart-tv-lg-qned-mini-led-ai-4k-qned70-55-pol": {
     "ts": "2026-11-06T18:21:53.162331",
     "canales": {
@@ -3593,6 +3573,16 @@
     "precio": 4390.0,
     "precios_publicados": [
       4390.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-109-128gb-8g": {
+    "ts": "2026-11-08T18:16:47.591428",
+    "canales": {
+      "whatsapp": "2026-11-08T18:16:47.591428"
+    },
+    "precio": 2899.0,
+    "precios_publicados": [
+      2899.0
     ]
   }
 }
