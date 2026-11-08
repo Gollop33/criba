@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-grand-theft-auto-vi-playstation-5": {
-    "ts": "2026-11-06T20:30:36.315935",
-    "canales": {
-      "whatsapp": "2026-11-06T20:30:36.315935"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-11-07T20:39:53.457554",
     "canales": {
@@ -3613,6 +3603,16 @@
     "precio": 20.0,
     "precios_publicados": [
       20.0
+    ]
+  },
+  "amz-pasta-termica-pcyes-nitrogen-basic-15g-condut": {
+    "ts": "2026-11-08T20:33:13.806624",
+    "canales": {
+      "whatsapp": "2026-11-08T20:33:13.806624"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
