@@ -997,11 +997,6 @@
       "publicado_em": null,
       "motivo": "detectado hace 579h (> 24h)"
     },
-    "COMPRASML": {
-      "detectado_em": "2026-10-09T16:04:57+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 649h (> 24h)"
-    },
     "HOJECOMCUPOM": {
       "detectado_em": "2026-11-05T19:24:24+00:00",
       "publicado_em": null,
@@ -1122,11 +1117,6 @@
       "publicado_em": null,
       "motivo": "detectado hace 645h (> 24h)"
     },
-    "BOLSOCHEIO": {
-      "detectado_em": "2026-10-09T16:04:57+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 717h (> 24h)"
-    },
     "MELIOFFAQUI": {
       "detectado_em": "2026-10-09T22:16:22+00:00",
       "publicado_em": null,
@@ -1146,7 +1136,32 @@
       "detectado_em": "2026-10-12T13:20:41+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 648h (> 24h)"
+    },
+    "CARRINHOML": {
+      "detectado_em": "2026-11-08T16:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "TAMOSJUNTO": {
+      "detectado_em": "2026-11-08T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "HOJECONSTRU": {
+      "detectado_em": "2026-11-08T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOAQUI": {
+      "detectado_em": "2026-11-08T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "COMPRAHOJE": {
+      "detectado_em": "2026-11-08T12:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-08T14:32:01+00:00"
+  "actualizado": "2026-11-08T16:54:39+00:00"
 }
