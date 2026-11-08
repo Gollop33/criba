@@ -175,16 +175,6 @@
     ],
     "precio_min_publicado": 18.0
   },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-06T12:56:50.378929",
-    "canales": {
-      "whatsapp": "2026-11-06T12:56:50.378929"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-playstation5-pro": {
     "ts": "2026-11-06T13:08:19.782876",
     "canales": {
@@ -3635,6 +3625,16 @@
     "precio": 4199.0,
     "precios_publicados": [
       4199.0
+    ]
+  },
+  "amz-areia-higienica-para-gatos-bionature-biodegra": {
+    "ts": "2026-11-08T12:59:17.815241",
+    "canales": {
+      "whatsapp": "2026-11-08T12:59:17.815241"
+    },
+    "precio": 38.0,
+    "precios_publicados": [
+      38.0
     ]
   }
 }
