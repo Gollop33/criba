@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-keldog-bifinho-evolutivo-criadores-churrasco-": {
-    "ts": "2026-11-06T19:47:10.994754",
-    "canales": {
-      "whatsapp": "2026-11-06T19:47:10.994754"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
     "ts": "2026-11-06T19:52:30.092451",
     "canales": {
@@ -3593,6 +3583,16 @@
     "precio": 312.0,
     "precios_publicados": [
       312.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
+    "ts": "2026-11-08T19:48:56.293735",
+    "canales": {
+      "whatsapp": "2026-11-08T19:48:56.293735"
+    },
+    "precio": 1579.0,
+    "precios_publicados": [
+      1579.0
     ]
   }
 }
