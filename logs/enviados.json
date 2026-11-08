@@ -199,26 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-8gb": {
-    "ts": "2026-11-06T17:51:45.506521",
-    "canales": {
-      "whatsapp": "2026-11-06T17:51:45.506521"
-    },
-    "precio": 3779.0,
-    "precios_publicados": [
-      3779.0
-    ]
-  },
-  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
-    "ts": "2026-11-06T17:55:18.668522",
-    "canales": {
-      "whatsapp": "2026-11-06T17:55:18.668522"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-5g-256gb-8": {
     "ts": "2026-11-06T18:04:33.565650",
     "canales": {
@@ -3593,6 +3573,16 @@
     "precio": 157.0,
     "precios_publicados": [
       157.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g67-5g-128gb-4gb-ram": {
+    "ts": "2026-11-08T17:57:46.485998",
+    "canales": {
+      "whatsapp": "2026-11-08T17:57:46.485998"
+    },
+    "precio": 1164.0,
+    "precios_publicados": [
+      1164.0
     ]
   }
 }
