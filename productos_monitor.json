@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-08T16:01:15+00:00",
+  "actualizado": "2026-11-08T16:08:04+00:00",
   "total": 6,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,15 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-08T16:01:15+00:00"
-    },
-    {
-      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
-      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
-      "precio_ref": 27.5,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T16:01:15+00:00"
+      "monitorizado_desde": "2026-11-08T16:08:04+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -25,7 +17,15 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T16:01:15+00:00"
+      "monitorizado_desde": "2026-11-08T16:08:04+00:00"
+    },
+    {
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
+      "precio_ref": 27.5,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T16:08:04+00:00"
     },
     {
       "busqueda": "detergente em po ype 1kg formula 3 em",
@@ -33,15 +33,7 @@
       "precio_ref": 35.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T16:01:15+00:00"
-    },
-    {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 689.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T16:01:15+00:00"
+      "monitorizado_desde": "2026-11-08T16:08:04+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -49,7 +41,15 @@
       "precio_ref": 2699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-08T16:01:15+00:00"
+      "monitorizado_desde": "2026-11-08T16:08:04+00:00"
+    },
+    {
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 689.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-08T16:08:04+00:00"
     }
   ]
 }
