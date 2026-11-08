@@ -199,16 +199,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-smart-tv-lg-qned-mini-led-ai-4k-qned70-55-pol": {
-    "ts": "2026-11-06T18:21:53.162331",
-    "canales": {
-      "whatsapp": "2026-11-06T18:21:53.162331"
-    },
-    "precio": 2779.0,
-    "precios_publicados": [
-      2779.0
-    ]
-  },
   "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
     "ts": "2026-11-06T18:24:50.303364",
     "canales": {
@@ -3583,6 +3573,16 @@
     "precio": 2899.0,
     "precios_publicados": [
       2899.0
+    ]
+  },
+  "amz-tablet-vaio-tl12-8gb-256gb-octacore-tela-amol": {
+    "ts": "2026-11-08T18:22:04.815613",
+    "canales": {
+      "whatsapp": "2026-11-08T18:22:04.815613"
+    },
+    "precio": 2888.0,
+    "precios_publicados": [
+      2888.0
     ]
   }
 }
