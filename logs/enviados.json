@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-pasta-termica-pcyes-nitrogen-basic-15g-condut": {
-    "ts": "2026-11-06T20:01:41.148204",
-    "canales": {
-      "whatsapp": "2026-11-06T20:01:41.148204"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-cooler-para-processador-gamdias-boreas-e1410-": {
     "ts": "2026-11-06T20:08:21.412488",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
+    "ts": "2026-11-08T20:07:43.704183",
+    "canales": {
+      "whatsapp": "2026-11-08T20:07:43.704183"
+    },
+    "precio": 1776.0,
+    "precios_publicados": [
+      1776.0
     ]
   }
 }
