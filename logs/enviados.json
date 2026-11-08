@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 55.0
   },
-  "amz-notebook-asus-vivobook-go-15-intel-core-i3-n3": {
-    "ts": "2026-11-06T09:43:05.993754",
-    "canales": {
-      "whatsapp": "2026-11-06T09:43:05.993754"
-    },
-    "precio": 2788.0,
-    "precios_publicados": [
-      2788.0
-    ]
-  },
   "amz-persona-4-revival-playstation-5": {
     "ts": "2026-11-06T09:49:56.228472",
     "canales": {
@@ -3553,6 +3543,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
+    "ts": "2026-11-08T09:43:16.486583",
+    "canales": {
+      "whatsapp": "2026-11-08T09:43:16.486583"
+    },
+    "precio": 999.0,
+    "precios_publicados": [
+      999.0
     ]
   }
 }
