@@ -211,16 +211,6 @@
     ],
     "precio_min_publicado": 23.0
   },
-  "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
-    "ts": "2026-11-06T19:52:30.092451",
-    "canales": {
-      "whatsapp": "2026-11-06T19:52:30.092451"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-hada-labo-demaquilante-cleansing-oil-refil-li": {
     "ts": "2026-11-06T19:56:51.544949",
     "canales": {
@@ -3603,6 +3593,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-base-de-carregamento-do-dualsense-playstation": {
+    "ts": "2026-11-08T19:56:18.090124",
+    "canales": {
+      "whatsapp": "2026-11-08T19:56:18.090124"
+    },
+    "precio": 177.0,
+    "precios_publicados": [
+      177.0
     ]
   }
 }
