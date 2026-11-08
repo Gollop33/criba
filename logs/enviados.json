@@ -187,16 +187,6 @@
     ],
     "precio_min_publicado": 1590.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-06T17:08:49.496980",
-    "canales": {
-      "whatsapp": "2026-11-06T17:08:49.496980"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
     "ts": "2026-11-06T17:14:14.481522",
     "canales": {
@@ -3593,6 +3583,16 @@
     "precio": 38.0,
     "precios_publicados": [
       38.0
+    ]
+  },
+  "amz-stanley-copo-termico-stacking-ash-354ml": {
+    "ts": "2026-11-08T17:10:46.097119",
+    "canales": {
+      "whatsapp": "2026-11-08T17:10:46.097119"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
