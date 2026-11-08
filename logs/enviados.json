@@ -149,16 +149,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
-    "ts": "2026-11-06T10:43:04.819295",
-    "canales": {
-      "whatsapp": "2026-11-06T10:43:04.819295"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-monitor-gamer-curvo-aoc-agon-g4z-27-300hz-03m": {
     "ts": "2026-11-06T10:50:10.850354",
     "canales": {
@@ -3563,6 +3553,16 @@
     "precio": 2799.0,
     "precios_publicados": [
       2799.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3i-i513420h-8gb-": {
+    "ts": "2026-11-08T10:43:13.666880",
+    "canales": {
+      "whatsapp": "2026-11-08T10:43:13.666880"
+    },
+    "precio": 3459.0,
+    "precios_publicados": [
+      3459.0
     ]
   }
 }
