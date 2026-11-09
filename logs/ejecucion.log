@@ -48294,3 +48294,22 @@
 [2026-11-09 09:15:56] [CUPONES] Descartado MEUACHADO: detectado hace 731h (> 24h)
 [2026-11-09 09:15:56] [CUPONES] Descartado BOLSOCHEIO: detectado hace 737h (> 24h)
 [2026-11-09 09:15:56] [CUPONES] Sin cupones nuevos (234 códigos ya vistos).
+[2026-11-09 09:50:21] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-11-09 09:50:21] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-11-09 09:50:21] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-11-09 09:50:21] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-11-09 09:50:21] [CUPONES] Descartado MELIOFFAQUI: detectado hace 732h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado VEJAESSAPROMO: detectado hace 732h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado SEMDEMORAML: detectado hace 741h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado MELIMAIS: detectado hace 741h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado CUPOMEXCLUSIVO: detectado hace 741h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado TECNOML: detectado hace 735h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado COMPRASML: detectado hace 738h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado REFORMA15: detectado hace 727h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado MODA10DO10: detectado hace 727h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado VALEMAIS: detectado hace 727h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado NATAL1010: detectado hace 727h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado SEMPREMELI: detectado hace 731h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado MEUACHADO: detectado hace 731h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Descartado BOLSOCHEIO: detectado hace 738h (> 24h)
+[2026-11-09 09:50:21] [CUPONES] Sin cupones nuevos (234 códigos ya vistos).

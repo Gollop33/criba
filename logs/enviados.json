@@ -63,18 +63,6 @@
     ],
     "precio_min_publicado": 2699.0
   },
-  "amz-personal-vip-papel-higienico-folha-dupla-bran": {
-    "ts": "2026-11-07T09:48:07.984560",
-    "canales": {
-      "whatsapp": "2026-11-07T09:48:07.984560"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      55.0,
-      28.0
-    ],
-    "precio_min_publicado": 55.0
-  },
   "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
     "ts": "2026-11-08T03:23:36.468377",
     "canales": {
@@ -3247,6 +3235,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
+    "ts": "2026-11-09T09:50:24.681386",
+    "canales": {
+      "whatsapp": "2026-11-09T09:50:24.681386"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
