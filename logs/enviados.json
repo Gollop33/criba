@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-07T11:56:54.714971",
-    "canales": {
-      "whatsapp": "2026-11-07T11:56:54.714971"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-electrolux-kit-16-potes-hermeticos-plastico-m": {
     "ts": "2026-11-07T12:08:18.364291",
     "canales": {
@@ -3245,6 +3235,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
+    "ts": "2026-11-09T11:57:18.681154",
+    "canales": {
+      "whatsapp": "2026-11-09T11:57:18.681154"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
