@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-07T23:17:50.325165",
-    "canales": {
-      "whatsapp": "2026-11-07T23:17:50.325165"
-    },
-    "precio": 2149.0,
-    "precios_publicados": [
-      2149.0
-    ]
-  },
   "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
     "ts": "2026-11-07T23:19:42.748629",
     "canales": {
@@ -3208,6 +3198,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
+    "ts": "2026-11-09T23:19:12.868512",
+    "canales": {
+      "whatsapp": "2026-11-09T23:19:12.868512"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
