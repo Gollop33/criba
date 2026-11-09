@@ -227,26 +227,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
-    "ts": "2026-11-07T00:56:05.918097",
-    "canales": {
-      "whatsapp": "2026-11-07T00:56:05.918097"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
-  "amz-detergente-para-lavaloucas-em-pastilhas-jimo-": {
-    "ts": "2026-11-07T00:59:54.033811",
-    "canales": {
-      "whatsapp": "2026-11-07T00:59:54.033811"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-headset-gamer-havit-h2232d-rgb-com-microfone-": {
     "ts": "2026-11-07T01:08:25.209784",
     "canales": {
@@ -3295,6 +3275,16 @@
     "precio": 54.0,
     "precios_publicados": [
       54.0
+    ]
+  },
+  "amz-sabonete-em-barra-nivea-creme-care-90g-pack-c": {
+    "ts": "2026-11-09T01:03:48.623505",
+    "canales": {
+      "whatsapp": "2026-11-09T01:03:48.623505"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
