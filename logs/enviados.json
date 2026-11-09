@@ -227,26 +227,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
-    "ts": "2026-11-07T00:36:22.539860",
-    "canales": {
-      "whatsapp": "2026-11-07T00:36:22.539860"
-    },
-    "precio": 6554.0,
-    "precios_publicados": [
-      6554.0
-    ]
-  },
-  "amz-mouse-pad-azul": {
-    "ts": "2026-11-07T00:41:17.950412",
-    "canales": {
-      "whatsapp": "2026-11-07T00:41:17.950412"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
   "amz-la-rocheposay-effaclar-gel-alta-tolerancia-li": {
     "ts": "2026-11-07T00:49:24.131310",
     "canales": {
@@ -3295,6 +3275,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-kit-sabonete-phebo-amarelo-720g": {
+    "ts": "2026-11-09T00:41:25.983000",
+    "canales": {
+      "whatsapp": "2026-11-09T00:41:25.983000"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
