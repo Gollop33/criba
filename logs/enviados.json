@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 4299.0
   },
-  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
-    "ts": "2026-11-07T19:32:33.301862",
-    "canales": {
-      "whatsapp": "2026-11-07T19:32:33.301862"
-    },
-    "precio": 998.0,
-    "precios_publicados": [
-      998.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-11-07T19:44:46.173441",
     "canales": {
@@ -3150,6 +3140,16 @@
     "precio": 85.0,
     "precios_publicados": [
       85.0
+    ]
+  },
+  "amz-cafeteira-oster-inox-compacta-07l-ocaf300127": {
+    "ts": "2026-11-09T19:35:10.110116",
+    "canales": {
+      "whatsapp": "2026-11-09T19:35:10.110116"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
