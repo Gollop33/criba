@@ -225,36 +225,6 @@
     ],
     "precio_min_publicado": 60.0
   },
-  "amz-sony-playstation-5-slim-digital-console-825gb": {
-    "ts": "2026-11-07T00:08:33.134556",
-    "canales": {
-      "whatsapp": "2026-11-07T00:08:33.134556"
-    },
-    "precio": 419900.0,
-    "precios_publicados": [
-      419900.0
-    ]
-  },
-  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-11-07T00:10:52.478347",
-    "canales": {
-      "whatsapp": "2026-11-07T00:10:52.478347"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
-  "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-11-07T00:12:03.321334",
-    "canales": {
-      "whatsapp": "2026-11-07T00:12:03.321334"
-    },
-    "precio": 1260.0,
-    "precios_publicados": [
-      1260.0
-    ]
-  },
   "amz-webcam-full-hd-logitech-c920s-1080p30fps-com-": {
     "ts": "2026-11-07T00:16:49.517476",
     "canales": {
@@ -3343,6 +3313,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
+    "ts": "2026-11-09T00:15:17.629610",
+    "canales": {
+      "whatsapp": "2026-11-09T00:15:17.629610"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
