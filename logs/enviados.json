@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-kit-lavagem-completa-shampoo-cera-tok-final-i": {
-    "ts": "2026-11-07T14:22:03.020825",
-    "canales": {
-      "whatsapp": "2026-11-07T14:22:03.020825"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
     "ts": "2026-11-07T14:29:11.961592",
     "canales": {
@@ -3255,6 +3245,16 @@
     "precio": 54.0,
     "precios_publicados": [
       54.0
+    ]
+  },
+  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
+    "ts": "2026-11-09T14:22:05.635692",
+    "canales": {
+      "whatsapp": "2026-11-09T14:22:05.635692"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
