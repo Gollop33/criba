@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-smartphone-poco-x8-pro-512gb-12gb-ram-branco-": {
-    "ts": "2026-11-07T22:20:56.971695",
-    "canales": {
-      "whatsapp": "2026-11-07T22:20:56.971695"
-    },
-    "precio": 2900.0,
-    "precios_publicados": [
-      2900.0
-    ]
-  },
   "amz-notebook-acer-nitro-v-15-rtx-4050-i5-16gb-512": {
     "ts": "2026-11-07T22:29:39.245027",
     "canales": {
@@ -3178,6 +3168,16 @@
     "precio": 529900.0,
     "precios_publicados": [
       529900.0
+    ]
+  },
+  "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
+    "ts": "2026-11-09T22:23:51.438719",
+    "canales": {
+      "whatsapp": "2026-11-09T22:23:51.438719"
+    },
+    "precio": 4199.0,
+    "precios_publicados": [
+      4199.0
     ]
   }
 }
