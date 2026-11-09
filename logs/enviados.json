@@ -189,16 +189,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-lampada-osram-standard-7528-p215-original": {
-    "ts": "2026-11-07T09:10:19.134970",
-    "canales": {
-      "whatsapp": "2026-11-07T09:10:19.134970"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0
-    ]
-  },
   "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
     "ts": "2026-11-07T10:19:06.315374",
     "canales": {
@@ -3247,6 +3237,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-mouse-pad-azul": {
+    "ts": "2026-11-09T09:15:59.887411",
+    "canales": {
+      "whatsapp": "2026-11-09T09:15:59.887411"
+    },
+    "precio": 5.0,
+    "precios_publicados": [
+      5.0
     ]
   }
 }
