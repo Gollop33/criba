@@ -102,18 +102,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-secret-desodorante-antitranspirante-em-gel-pr": {
-    "ts": "2026-11-07T19:40:34.222292",
-    "canales": {
-      "whatsapp": "2026-11-07T19:40:34.222292"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      23.0,
-      19.0
-    ],
-    "precio_min_publicado": 23.0
-  },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-11-08T20:46:42.725775",
     "canales": {
@@ -3150,6 +3138,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-liquidificador-turbo-blq1300p-1400w-3l-chumbo": {
+    "ts": "2026-11-09T19:43:28.717111",
+    "canales": {
+      "whatsapp": "2026-11-09T19:43:28.717111"
+    },
+    "precio": 108.0,
+    "precios_publicados": [
+      108.0
     ]
   }
 }
