@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-11-07T16:05:04.794222",
-    "canales": {
-      "whatsapp": "2026-11-07T16:05:04.794222"
-    },
-    "precio": 718.0,
-    "precios_publicados": [
-      718.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-11-07T16:12:55.057772",
     "canales": {
@@ -3210,6 +3200,16 @@
     "precio": 499.0,
     "precios_publicados": [
       499.0
+    ]
+  },
+  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
+    "ts": "2026-11-09T16:08:15.319578",
+    "canales": {
+      "whatsapp": "2026-11-09T16:08:15.319578"
+    },
+    "precio": 4499.0,
+    "precios_publicados": [
+      4499.0
     ]
   }
 }
