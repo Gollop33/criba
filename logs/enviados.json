@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
-    "ts": "2026-11-07T15:34:01.685673",
-    "canales": {
-      "whatsapp": "2026-11-07T15:34:01.685673"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
   "amz-personal-papel-higienico-vip-folha-tripla-com": {
     "ts": "2026-11-07T15:38:43.556912",
     "canales": {
@@ -3230,6 +3220,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
+    "ts": "2026-11-09T15:36:13.902207",
+    "canales": {
+      "whatsapp": "2026-11-09T15:36:13.902207"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
