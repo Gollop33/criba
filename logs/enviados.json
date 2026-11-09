@@ -227,36 +227,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
-    "ts": "2026-11-07T03:49:53.874433",
-    "canales": {
-      "whatsapp": "2026-11-07T03:49:53.874433"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
-  "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
-    "ts": "2026-11-07T03:57:13.808338",
-    "canales": {
-      "whatsapp": "2026-11-07T03:57:13.808338"
-    },
-    "precio": 53.0,
-    "precios_publicados": [
-      53.0
-    ]
-  },
-  "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
-    "ts": "2026-11-07T04:08:08.265671",
-    "canales": {
-      "whatsapp": "2026-11-07T04:08:08.265671"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
     "ts": "2026-11-07T07:01:00.547740",
     "canales": {
@@ -1868,14 +1838,16 @@
     ]
   },
   "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
-    "ts": "2026-11-08T04:01:16.960992",
+    "ts": "2026-11-09T04:19:58.337825",
     "canales": {
-      "whatsapp": "2026-11-08T04:01:16.960992"
+      "whatsapp": "2026-11-09T04:19:58.337825"
     },
-    "precio": 52.0,
+    "precio": 35.0,
     "precios_publicados": [
-      52.0
-    ]
+      52.0,
+      35.0
+    ],
+    "precio_min_publicado": 52.0
   },
   "amz-downy-amaciante-concentrado-perfume-collectio": {
     "ts": "2026-11-08T04:34:03.466187",
