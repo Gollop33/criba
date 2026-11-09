@@ -164,16 +164,6 @@
     ],
     "precio_min_publicado": 4299.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-11-07T19:44:46.173441",
-    "canales": {
-      "whatsapp": "2026-11-07T19:44:46.173441"
-    },
-    "precio": 1044.0,
-    "precios_publicados": [
-      1044.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-lift-vertical-com-desi": {
     "ts": "2026-11-07T19:46:23.931731",
     "canales": {
@@ -3148,6 +3138,16 @@
     "precio": 108.0,
     "precios_publicados": [
       108.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-cobra-v3-preto-rgb-pmw33": {
+    "ts": "2026-11-09T19:45:16.445388",
+    "canales": {
+      "whatsapp": "2026-11-09T19:45:16.445388"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
