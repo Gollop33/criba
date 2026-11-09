@@ -1096,7 +1096,37 @@
       "detectado_em": "2026-11-09T13:00:09+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PNEUS": {
+      "detectado_em": "2026-10-10T20:40:49+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 718h (> 24h)"
+    },
+    "SEMPREOFF": {
+      "detectado_em": "2026-11-06T15:00:28+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 75h (> 24h)"
+    },
+    "CLIENTEVIP": {
+      "detectado_em": "2026-10-30T17:02:57+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 241h (> 24h)"
+    },
+    "HOJENOMELI": {
+      "detectado_em": "2026-10-20T18:44:30+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 479h (> 24h)"
+    },
+    "CUPOMDEHOJE": {
+      "detectado_em": "2026-10-20T18:44:30+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 479h (> 24h)"
+    },
+    "COMPRAPREFERIDA": {
+      "detectado_em": "2026-11-02T12:03:21+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 174h (> 24h)"
     }
   },
-  "actualizado": "2026-11-09T18:01:43+00:00"
+  "actualizado": "2026-11-09T18:13:11+00:00"
 }

@@ -1864,14 +1864,16 @@
     ]
   },
   "amz-radio-portatil-amfm-2-bandas-recarregavel-usb": {
-    "ts": "2026-11-08T18:09:16.441290",
+    "ts": "2026-11-09T18:13:13.789775",
     "canales": {
-      "whatsapp": "2026-11-08T18:09:16.441290"
+      "whatsapp": "2026-11-09T18:13:13.789775"
     },
-    "precio": 4390.0,
+    "precio": 47.0,
     "precios_publicados": [
-      4390.0
-    ]
+      4390.0,
+      47.0
+    ],
+    "precio_min_publicado": 4390.0
   },
   "amz-tablet-samsung-galaxy-tab-s10-fe-109-128gb-8g": {
     "ts": "2026-11-08T18:16:47.591428",
