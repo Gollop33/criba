@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
-    "ts": "2026-11-07T22:50:10.966229",
-    "canales": {
-      "whatsapp": "2026-11-07T22:50:10.966229"
-    },
-    "precio": 419.0,
-    "precios_publicados": [
-      419.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
     "ts": "2026-11-07T23:00:08.139129",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 1776.0,
     "precios_publicados": [
       1776.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
+    "ts": "2026-11-09T22:53:18.990329",
+    "canales": {
+      "whatsapp": "2026-11-09T22:53:18.990329"
+    },
+    "precio": 1594.0,
+    "precios_publicados": [
+      1594.0
     ]
   }
 }
