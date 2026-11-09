@@ -176,26 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-notebook-acer-nitro-v-15-rtx-4050-i5-16gb-512": {
-    "ts": "2026-11-07T22:29:39.245027",
-    "canales": {
-      "whatsapp": "2026-11-07T22:29:39.245027"
-    },
-    "precio": 6459.0,
-    "precios_publicados": [
-      6459.0
-    ]
-  },
-  "amz-smartphone-xiaomi-redmi-note-15-pro-5g-512gb-": {
-    "ts": "2026-11-07T22:31:20.687049",
-    "canales": {
-      "whatsapp": "2026-11-07T22:31:20.687049"
-    },
-    "precio": 2240.0,
-    "precios_publicados": [
-      2240.0
-    ]
-  },
   "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
     "ts": "2026-11-07T22:37:08.919094",
     "canales": {
@@ -3188,6 +3168,16 @@
     "precio": 197.0,
     "precios_publicados": [
       197.0
+    ]
+  },
+  "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
+    "ts": "2026-11-09T22:34:42.102719",
+    "canales": {
+      "whatsapp": "2026-11-09T22:34:42.102719"
+    },
+    "precio": 239.0,
+    "precios_publicados": [
+      239.0
     ]
   }
 }
