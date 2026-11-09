@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-09T00:21:30+00:00",
-  "total": 41,
+  "actualizado": "2026-11-09T05:32:30+00:00",
+  "total": 43,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,15 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
-      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
-      "precio_ref": 27.5,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "lava roupas em po omo todo ciclo tamanho",
@@ -25,7 +17,7 @@
       "precio_ref": 35.91,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -33,175 +25,23 @@
       "precio_ref": 44.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
-      "busqueda": "personal papel higienico vip folha dupla 16 unidades",
-      "nombre": "Personal Papel Higiênico Vip Folha Dupla, 16 Unidades Branco (Embalagem Pode Variar)",
-      "precio_ref": 35.48,
+      "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
+      "nombre": "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
+      "precio_ref": 41.83,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
-      "busqueda": "kit sabonete phebo amarelo 720g",
-      "nombre": "Kit Sabonete, PHEBO, Amarelo, 720g",
-      "precio_ref": 43.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 35.8,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "dove desodorante antitranspirante aerossol original 250 ml leve",
-      "nombre": "Dove Desodorante Antitranspirante Aerossol Original 250 ML, Leve Mais e Pague Menos",
-      "precio_ref": 18.71,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "omo sabao liquido puro cuidado 5l tampa pode",
-      "nombre": "Omo Sabão Líquido Puro Cuidado 5L - Tampa pode Variar",
-      "precio_ref": 54.48,
+      "busqueda": "finish advanced detergente para lava loucas em po",
+      "nombre": "Finish Advanced Detergente para Lava Louças em Pó, Sabão Limpeza Profunda, 1kg",
+      "precio_ref": 45.27,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "sabonete em barra nivea creme care 90g pack",
-      "nombre": "Sabonete em Barra NIVEA Creme Care, 90g, Pack com 6 Unidades | Com Glicerina, Fragrância NIVEA Creme, Com Eucerit",
-      "precio_ref": 19.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "oral b pasta de dente 3d white brilliant",
-      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
-      "precio_ref": 12.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "lava roupas em po omo puro cuidado 2kg",
-      "nombre": "Lava-Roupas em Pó Omo Puro Cuidado, 2kg | Caixa",
-      "precio_ref": 23.73,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "mantecorp hidratante epidrat calm b5 hidrata e acalma",
-      "nombre": "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol",
-      "precio_ref": 42.36,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
-      "precio_ref": 20.38,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "la roche posay ultra cover protetor solar com",
-      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
-      "precio_ref": 56.94,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
-      "nombre": "Kit Morte Súbita (Shampoo + Condicionador + Spray Reparaçao) - Lola From Rio",
-      "precio_ref": 44.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
-      "nombre": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml",
-      "precio_ref": 32.49,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "argan oleo reparador 50ml lola cosmetics",
-      "nombre": "Argan Óleo Reparador 50ml , Lola Cosmetics",
-      "precio_ref": 13.16,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "escova de dente macia colgate slim soft black",
-      "nombre": "Escova de Dente Macia Colgate Slim Soft Black, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 28.48,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "pantene pro v oleo capilar queratina milagroso finalizador",
-      "nombre": "Pantene Pro-V Óleo Capilar Queratina Milagroso Finalizador Leave-in 95 ml",
-      "precio_ref": 24.99,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
-      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
-      "precio_ref": 29.9,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "clear sports men shampoo anticaspa limpeza profunda 400ml",
-      "nombre": "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml",
-      "precio_ref": 21.72,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "pinga cenoura e oliva oleo 50ml lola cosmetics",
-      "nombre": "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics",
-      "precio_ref": 16.84,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "cerave gel de limpeza facial para pele oleosa",
-      "nombre": "CeraVe, Gel de Limpeza Facial para pele oleosa, com Ácido Hialurônico e Niacinamida",
-      "precio_ref": 66.17,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "serum hidratante corporal para pele com tom irregular",
-      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
-      "precio_ref": 27.45,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "lava roupas liquido omo ciclo rapido acao total",
@@ -209,15 +49,7 @@
       "precio_ref": 19.79,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
-      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
-      "precio_ref": 24.99,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "skin care hidratante facial garnier uniform matte toque",
@@ -225,7 +57,119 @@
       "precio_ref": 24.99,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "brilhante limpeza total lava roupas liquido 3l",
+      "nombre": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
+      "precio_ref": 23.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
+      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
+      "precio_ref": 74.95,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "serum hidratante corporal para pele com tom irregular",
+      "nombre": "Sérum Hidratante Corporal Para Pele com Tom Irregular 48h de Hidratação Regenerativa Dove Dermo Renovador Niacinamida Redutor",
+      "precio_ref": 27.45,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
+      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
+      "precio_ref": 52.98,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "serum leave in cabelos finos elseve l oreal",
+      "nombre": "Sérum Leave-in Cabelos Finos Elseve L'Oréal Paris Colágeno Encorpador 100ml | Injeção de massa, 7% de peptídeos, alta concent",
+      "precio_ref": 25.19,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "suporte para notebook e macbook em aluminio com",
+      "nombre": "Suporte Para Notebook E MacBook em Alumínio com Altura Ajustável",
+      "precio_ref": 14.0,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "downy amaciante concentrado liquido brisa intenso 3l rende",
+      "nombre": "Downy Amaciante Concentrado Líquido Brisa Intenso 3L – Rende 12L | Fabric Softener com Perfume Intenso de Rosas e Frutas Verm",
+      "precio_ref": 41.94,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "flash limp mop giratorio fit balde 8 litros",
+      "nombre": "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010 - ABS Cinza",
+      "precio_ref": 52.67,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "detergente para lava loucas em pastilhas jimo 25",
+      "nombre": "Detergente para Lava-Louças em Pastilhas JIMO, 25 Pastilhas | Multicamadas, Concentrado, Desengordurante, Mais Brilho e Prote",
+      "precio_ref": 27.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "mouse pad azul",
+      "nombre": "Mouse Pad Azul",
+      "precio_ref": 5.4,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "sensodyne creme dental branqueador extra fresh com fluor",
+      "nombre": "Sensodyne Creme Dental Branqueador Extra Fresh com Flúor, Leve 3 e Pague 2, Anti Tártaro, Contra Sensibilidade, 90g cada",
+      "precio_ref": 24.64,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
+      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Fórmula reconstrutora, efeito teia, reposição de massa,",
+      "precio_ref": 24.99,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "boni natural creme dental com oleos naturais de",
+      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g, 3 unidad",
+      "precio_ref": 27.54,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "garrafa de tinta original epson ecotank t544 preto",
+      "nombre": "Garrafa De Tinta Original Epson Ecotank T544 Preto - T544122",
+      "precio_ref": 47.49,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "vichy dercos energy shampoo antiqueda estimulante com aminexil",
@@ -233,7 +177,7 @@
       "precio_ref": 94.6,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
@@ -241,31 +185,7 @@
       "precio_ref": 149.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "air cooler gamerstorm x redragon ak400 rd preto",
-      "nombre": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
-      "precio_ref": 140.6,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "mondial ventilador de mesa super power vsp 30",
-      "nombre": "Mondial Ventilador de Mesa Super Power VSP-30-B 30cm, 6 Pás, Preto, 110V",
-      "precio_ref": 99.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
-      "nombre": "L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios para cabelos secos e danificados | Repara e Promove Bril",
-      "precio_ref": 81.68,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "cerave locao hidratante corporal com textura fluida e",
@@ -273,7 +193,15 @@
       "precio_ref": 88.18,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "air cooler gamerstorm x redragon ak400 rd preto",
+      "nombre": "Air Cooler GamerStorm X Redragon AK400 RD Preto 4 Heatpipes Fan 120 mm R-AK400-BKNNMD-AJG",
+      "precio_ref": 140.6,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "combo teclado e mouse sem fio dell km3322w",
@@ -281,31 +209,39 @@
       "precio_ref": 119.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
-      "busqueda": "gigabyte rtx 5060 eagle max oc placa de",
-      "nombre": "Gigabyte RTX 5060 Eagle Max OC Placa de Vídeo 8GB GDDR7 NVIDIA GeForce | Placa de vídeo com 8GB de memória GDDR7 e versão OC,",
-      "precio_ref": 431840.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "bundle gta vi playstation 5 slim digital 825",
-      "nombre": "Bundle GTA VI + PlayStation 5 Slim Digital 825 GB - Pacote Astro Bot e Gran Turismo 7",
-      "precio_ref": 4699.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
-      "nombre": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
-      "precio_ref": 1230.0,
+      "busqueda": "elg suporte articulado para monitor 17 a 35",
+      "nombre": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pistão a Gás Preto | Monitores de 2 a 9kg, VESA 75x75 e 100x100mm, Altu",
+      "precio_ref": 114.37,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
+      "nombre": "L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios para cabelos secos e danificados | Repara e Promove Bril",
+      "precio_ref": 81.68,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "mondial ventilador de mesa super power vsp 30",
+      "nombre": "Mondial Ventilador de Mesa Super Power VSP-30-B 30cm, 6 Pás, Preto, 110V",
+      "precio_ref": 99.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 24\" FHD, 120 Hz, HDMI, Preto, S3",
+      "precio_ref": 576.05,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
@@ -313,15 +249,7 @@
       "precio_ref": 2387.78,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
-    },
-    {
-      "busqueda": "wap ventilador de mesa e parede 50cm flow",
-      "nombre": "WAP Ventilador de Mesa e Parede 50cm FLOW TURBO, com Tecnologia Silenciosa e Econômica, 8 Pás e 3 Velocidades, 180W 127V",
-      "precio_ref": 150.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     },
     {
       "busqueda": "notebook dell 15 dc15 i51334u a50 intel i5",
@@ -329,7 +257,95 @@
       "precio_ref": 4299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T00:21:30+00:00"
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "bundle gta vi playstation 5 slim digital 825",
+      "nombre": "Bundle GTA VI + PlayStation 5 Slim Digital 825 GB - Pacote Astro Bot e Gran Turismo 7",
+      "precio_ref": 4699.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "wap ventilador de mesa e parede 50cm flow",
+      "nombre": "WAP Ventilador de Mesa e Parede 50cm FLOW TURBO, com Tecnologia Silenciosa e Econômica, 8 Pás e 3 Velocidades, 180W 127V",
+      "precio_ref": 150.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "webcam full hd logitech c920s 1080p 30fps com",
+      "nombre": "Webcam Full HD Logitech C920s 1080p/30fps com Microfone Embutido e Tampa de Privacidade para Zoom/Teams/Meet ou Até Criação d",
+      "precio_ref": 299.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "dispositivo de streaming para tv hd fhd roku",
+      "nombre": "Dispositivo de Streaming para TV HD/FHD Roku Streaming Stick HD 2025 | Controle remoto por comando de voz, Compatível com Ale",
+      "precio_ref": 239.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc 24 full hd 100hz 1ms",
+      "nombre": "Monitor Gamer Aoc 24\", Full Hd, 100hz, 1ms, Adaptive-Sync, Hdr, Preto - 24b35hm2",
+      "precio_ref": 499.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
+      "nombre": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
+      "precio_ref": 1230.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
+      "nombre": "Monitor Gamer Curvo Samsung Odyssey 34’’, Ultra WQHD, 165Hz, 1ms, tela ultrawide, HDMI, Display Port, Freesync Premium, preto",
+      "precio_ref": 1549.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "monitor portatil ips 15 6 full hd 1080p",
+      "nombre": "Monitor Portátil IPS 15.6\" Full HD 1080p, Ultrafino, USB-C/HDMI, Capa Inteligente e Alto-falantes - Extensor de Tela para Lap",
+      "precio_ref": 379.99,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "notebook gamer lenovo loq 15irx9 intel core i7",
+      "nombre": "Notebook Gamer Lenovo LOQ 15IRX9 Intel Core i7-13645HX 16GB 512GB SSD RTX 4050 Linux 15.6\" - 83KHS00600 Luna Grey",
+      "precio_ref": 6554.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "whey protein concentrado pote 900g sabor morango dux",
+      "nombre": "Whey Protein Concentrado Pote (900G) - Sabor Morango, Dux Nutrition, multi-colored",
+      "precio_ref": 220.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
+    },
+    {
+      "busqueda": "gigabyte rtx 5060 eagle max oc placa de",
+      "nombre": "Gigabyte RTX 5060 Eagle Max OC Placa de Vídeo 8GB GDDR7 NVIDIA GeForce | Placa de vídeo com 8GB de memória GDDR7 e versão OC,",
+      "precio_ref": 431840.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T05:32:30+00:00"
     }
   ]
 }
