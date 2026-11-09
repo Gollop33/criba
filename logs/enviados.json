@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
-    "ts": "2026-11-07T11:01:41.455232",
-    "canales": {
-      "whatsapp": "2026-11-07T11:01:41.455232"
-    },
-    "precio": 64.0,
-    "precios_publicados": [
-      64.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-11-07T11:08:01.943957",
     "canales": {
@@ -3235,6 +3225,16 @@
     "precio": 47.0,
     "precios_publicados": [
       47.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-11-09T11:03:16.959169",
+    "canales": {
+      "whatsapp": "2026-11-09T11:03:16.959169"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
