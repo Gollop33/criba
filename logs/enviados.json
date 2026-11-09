@@ -164,16 +164,6 @@
     ],
     "precio_min_publicado": 434.0
   },
-  "amz-fralda-pampers-pants-ajuste-total-tamanho-xg-": {
-    "ts": "2026-11-07T17:35:29.486078",
-    "canales": {
-      "whatsapp": "2026-11-07T17:35:29.486078"
-    },
-    "precio": 221.0,
-    "precios_publicados": [
-      221.0
-    ]
-  },
   "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
     "ts": "2026-11-07T17:38:09.858629",
     "canales": {
@@ -3160,6 +3150,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-tab-samsung-galaxy-s11-ultra-146-512gb-12gb-c": {
+    "ts": "2026-11-09T17:36:12.841194",
+    "canales": {
+      "whatsapp": "2026-11-09T17:36:12.841194"
+    },
+    "precio": 739900.0,
+    "precios_publicados": [
+      739900.0
     ]
   }
 }
