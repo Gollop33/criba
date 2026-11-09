@@ -67,61 +67,6 @@
       "link_corto": true,
       "motivo": "tanda"
     },
-    "PNEUS": {
-      "detectado_em": "2026-10-10T13:11:40+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "SEMPREOFF": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CLIENTESVIPS": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CARRINHOMELI": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "LOOKPRAVC": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CORREPROMELI": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "OFFMELI": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "TUDODEBOM": {
-      "detectado_em": "2026-10-10T14:06:17+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CLIENTEVIP": {
-      "detectado_em": "2026-10-10T13:03:13+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "HOJENOMELI": {
-      "detectado_em": "2026-10-10T12:00:21+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CUPOMDEHOJE": {
-      "detectado_em": "2026-10-10T12:00:21+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "BELEZA15": {
       "detectado_em": "2026-10-10T19:03:33+00:00",
       "publicado_em": null,
@@ -129,26 +74,6 @@
     },
     "CICALFATE15": {
       "detectado_em": "2026-10-10T19:03:33+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MELIMAISBRINQUEDOS": {
-      "detectado_em": "2026-10-10T16:17:34+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "HOJEPROMO20": {
-      "detectado_em": "2026-10-10T16:17:34+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "QUINZEOFF": {
-      "detectado_em": "2026-10-10T16:17:34+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "COMPRAPREFERIDA": {
-      "detectado_em": "2026-10-10T16:01:57+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
@@ -612,11 +537,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "OFFNOMELI": {
-      "detectado_em": "2026-10-10T17:31:01+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 452h (> 24h)"
-    },
     "SONOMELI": {
       "detectado_em": "2026-10-11T13:10:46+00:00",
       "publicado_em": null,
@@ -801,11 +721,6 @@
       "detectado_em": "2026-11-03T19:03:42+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
-    },
-    "DESCONTOAQUI": {
-      "detectado_em": "2026-10-10T17:50:13+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 596h (> 24h)"
     },
     "DESCONTOU": {
       "detectado_em": "2026-10-11T13:20:43+00:00",
@@ -1062,11 +977,6 @@
       "publicado_em": null,
       "motivo": "detectado hace 645h (> 24h)"
     },
-    "CORREAQUINOML": {
-      "detectado_em": "2026-10-10T17:40:11+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 692h (> 24h)"
-    },
     "PROMOCERTAML": {
       "detectado_em": "2026-10-12T13:20:41+00:00",
       "publicado_em": null,
@@ -1101,7 +1011,92 @@
       "detectado_em": "2026-10-23T20:07:32+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 384h (> 24h)"
+    },
+    "SUPERDESCONTO": {
+      "detectado_em": "2026-11-04T19:02:24+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 119h (> 24h)"
+    },
+    "MELIOFF22": {
+      "detectado_em": "2026-11-09T16:46:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIOFF25": {
+      "detectado_em": "2026-11-09T16:46:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOFLASH25": {
+      "detectado_em": "2026-11-09T16:46:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIVIP20": {
+      "detectado_em": "2026-11-09T16:46:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELHORDOML": {
+      "detectado_em": "2026-11-09T16:35:59+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OLHAOARABE20": {
+      "detectado_em": "2026-11-09T16:35:59+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "AUTO70OFF": {
+      "detectado_em": "2026-11-09T16:35:59+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MAISCUPONS25": {
+      "detectado_em": "2026-11-09T16:35:59+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFNAMODA": {
+      "detectado_em": "2026-11-09T13:20:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "NOMELI": {
+      "detectado_em": "2026-11-09T13:20:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SAUDESEMPRE": {
+      "detectado_em": "2026-11-09T13:20:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CORREAQUI": {
+      "detectado_em": "2026-11-09T13:20:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "HOJEMESMO": {
+      "detectado_em": "2026-11-09T13:00:09+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "BELEZAMELI": {
+      "detectado_em": "2026-11-09T13:00:09+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFSEMPRE": {
+      "detectado_em": "2026-11-09T13:00:09+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PRESENTE": {
+      "detectado_em": "2026-11-09T13:00:09+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-09T11:07:22+00:00"
+  "actualizado": "2026-11-09T18:01:43+00:00"
 }
