@@ -67,36 +67,6 @@
       "link_corto": true,
       "motivo": "tanda"
     },
-    "REFORMA15": {
-      "detectado_em": "2026-10-10T03:03:02+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MODA10DO10": {
-      "detectado_em": "2026-10-10T03:03:02+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "INSTRUMENTO15": {
-      "detectado_em": "2026-10-10T03:03:02+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "VALEMAIS": {
-      "detectado_em": "2026-10-10T03:01:11+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "NATAL1010": {
-      "detectado_em": "2026-10-10T03:01:11+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PETSHOP10D10": {
-      "detectado_em": "2026-10-10T03:01:11+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "PNEUS": {
       "detectado_em": "2026-10-10T13:11:40+00:00",
       "publicado_em": null,
@@ -1138,5 +1108,5 @@
       "motivo": "detectado hace 384h (> 24h)"
     }
   },
-  "actualizado": "2026-11-09T02:32:40+00:00"
+  "actualizado": "2026-11-09T03:07:57+00:00"
 }

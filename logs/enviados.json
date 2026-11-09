@@ -227,16 +227,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-11-07T02:33:49.359220",
-    "canales": {
-      "whatsapp": "2026-11-07T02:33:49.359220"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
     "ts": "2026-11-07T03:12:10.913917",
     "canales": {
@@ -3295,6 +3285,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
+    "ts": "2026-11-09T03:08:01.403870",
+    "canales": {
+      "whatsapp": "2026-11-09T03:08:01.403870"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
