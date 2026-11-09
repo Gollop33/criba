@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-britania-sanduicheira-e-grill-press-127v-bgr2": {
-    "ts": "2026-11-07T13:56:54.290657",
-    "canales": {
-      "whatsapp": "2026-11-07T13:56:54.290657"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
     "ts": "2026-11-07T14:08:51.537819",
     "canales": {
@@ -3255,6 +3245,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
+    "ts": "2026-11-09T13:56:54.571815",
+    "canales": {
+      "whatsapp": "2026-11-09T13:56:54.571815"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
