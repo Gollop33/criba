@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-secret-clinical-desodorante-antitranspirante-": {
-    "ts": "2026-11-07T21:45:56.256415",
-    "canales": {
-      "whatsapp": "2026-11-07T21:45:56.256415"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-reparador-de-pneu-instantaneo-luxcar-400-ml": {
     "ts": "2026-11-07T21:51:55.475314",
     "canales": {
@@ -3198,6 +3188,16 @@
     "precio": 729.0,
     "precios_publicados": [
       729.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
+    "ts": "2026-11-09T21:48:52.828357",
+    "canales": {
+      "whatsapp": "2026-11-09T21:48:52.828357"
+    },
+    "precio": 989.0,
+    "precios_publicados": [
+      989.0
     ]
   }
 }
