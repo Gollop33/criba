@@ -122,11 +122,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "SUPERDESCONTO": {
-      "detectado_em": "2026-10-10T11:01:29+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "BELEZA15": {
       "detectado_em": "2026-10-10T19:03:33+00:00",
       "publicado_em": null,
@@ -1108,5 +1103,5 @@
       "motivo": "detectado hace 384h (> 24h)"
     }
   },
-  "actualizado": "2026-11-09T11:01:14+00:00"
+  "actualizado": "2026-11-09T11:07:22+00:00"
 }
