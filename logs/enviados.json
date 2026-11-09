@@ -189,16 +189,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-11-07T07:01:00.547740",
-    "canales": {
-      "whatsapp": "2026-11-07T07:01:00.547740"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
     "ts": "2026-11-07T07:28:21.068831",
     "canales": {
@@ -982,14 +972,16 @@
     ]
   },
   "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
-    "ts": "2026-11-07T18:11:47.362496",
+    "ts": "2026-11-09T07:10:12.124774",
     "canales": {
-      "whatsapp": "2026-11-07T18:11:47.362496"
+      "whatsapp": "2026-11-09T07:10:12.124774"
     },
-    "precio": 894.0,
+    "precio": 799.0,
     "precios_publicados": [
-      894.0
-    ]
+      894.0,
+      799.0
+    ],
+    "precio_min_publicado": 894.0
   },
   "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
     "ts": "2026-11-07T18:18:05.672057",
