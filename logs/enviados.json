@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
-    "ts": "2026-11-07T22:06:18.727764",
-    "canales": {
-      "whatsapp": "2026-11-07T22:06:18.727764"
-    },
-    "precio": 1149.0,
-    "precios_publicados": [
-      1149.0
-    ]
-  },
   "amz-apple-iphone-15-128-gb-azul": {
     "ts": "2026-11-07T22:13:33.432124",
     "canales": {
@@ -3178,6 +3168,16 @@
     "precio": 193.0,
     "precios_publicados": [
       193.0
+    ]
+  },
+  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
+    "ts": "2026-11-09T22:07:59.397545",
+    "canales": {
+      "whatsapp": "2026-11-09T22:07:59.397545"
+    },
+    "precio": 6934.0,
+    "precios_publicados": [
+      6934.0
     ]
   }
 }
