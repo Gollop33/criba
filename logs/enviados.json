@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-11-07T21:19:50.186137",
-    "canales": {
-      "whatsapp": "2026-11-07T21:19:50.186137"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-dove-sabonete-em-barra-branco-90g-8-unidades": {
     "ts": "2026-11-07T21:29:02.291561",
     "canales": {
@@ -3178,6 +3168,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram": {
+    "ts": "2026-11-09T21:23:06.811312",
+    "canales": {
+      "whatsapp": "2026-11-09T21:23:06.811312"
+    },
+    "precio": 1487.0,
+    "precios_publicados": [
+      1487.0
     ]
   }
 }
