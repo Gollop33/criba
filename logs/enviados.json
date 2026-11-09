@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-stanley-copo-quencher-frost-887ml": {
-    "ts": "2026-11-07T22:01:54.057485",
-    "canales": {
-      "whatsapp": "2026-11-07T22:01:54.057485"
-    },
-    "precio": 131.0,
-    "precios_publicados": [
-      131.0
-    ]
-  },
   "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
     "ts": "2026-11-07T22:06:18.727764",
     "canales": {
@@ -3178,6 +3168,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "amz-dux-human-health-whey-protein-concentrado-900": {
+    "ts": "2026-11-09T22:03:53.541605",
+    "canales": {
+      "whatsapp": "2026-11-09T22:03:53.541605"
+    },
+    "precio": 193.0,
+    "precios_publicados": [
+      193.0
     ]
   }
 }
