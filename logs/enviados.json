@@ -11,19 +11,6 @@
       "whatsapp": "2026-11-09T02:01:21.079414"
     }
   },
-  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
-    "ts": "2026-11-07T05:33:12.129973",
-    "canales": {
-      "whatsapp": "2026-11-07T05:33:12.129973"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      81.0,
-      69.0,
-      69.0
-    ],
-    "precio_min_publicado": 69.0
-  },
   "amz-galaxy-tab-s10-lite-128gb-tela-109": {
     "ts": "2026-11-07T06:09:05.383627",
     "canales": {
@@ -1038,14 +1025,16 @@
     ]
   },
   "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
-    "ts": "2026-11-07T18:22:44.750194",
+    "ts": "2026-11-09T05:44:34.194696",
     "canales": {
-      "whatsapp": "2026-11-07T18:22:44.750194"
+      "whatsapp": "2026-11-09T05:44:34.194696"
     },
-    "precio": 4299.0,
+    "precio": 3799.0,
     "precios_publicados": [
-      4299.0
-    ]
+      4299.0,
+      3799.0
+    ],
+    "precio_min_publicado": 4299.0
   },
   "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
     "ts": "2026-11-07T18:25:48.377264",
