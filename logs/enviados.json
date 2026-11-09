@@ -164,36 +164,6 @@
     ],
     "precio_min_publicado": 434.0
   },
-  "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
-    "ts": "2026-11-07T16:50:56.394035",
-    "canales": {
-      "whatsapp": "2026-11-07T16:50:56.394035"
-    },
-    "precio": 339.0,
-    "precios_publicados": [
-      339.0
-    ]
-  },
-  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
-    "ts": "2026-11-07T16:52:47.917444",
-    "canales": {
-      "whatsapp": "2026-11-07T16:52:47.917444"
-    },
-    "precio": 6111.0,
-    "precios_publicados": [
-      6111.0
-    ]
-  },
-  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
-    "ts": "2026-11-07T16:57:03.269077",
-    "canales": {
-      "whatsapp": "2026-11-07T16:57:03.269077"
-    },
-    "precio": 1629.0,
-    "precios_publicados": [
-      1629.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-11-07T17:06:06.267748",
     "canales": {
@@ -3200,6 +3170,16 @@
     "precio": 119.0,
     "precios_publicados": [
       119.0
+    ]
+  },
+  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
+    "ts": "2026-11-09T16:57:13.285767",
+    "canales": {
+      "whatsapp": "2026-11-09T16:57:13.285767"
+    },
+    "precio": 139.0,
+    "precios_publicados": [
+      139.0
     ]
   }
 }
