@@ -152,26 +152,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
-    "ts": "2026-11-07T16:16:06.136006",
-    "canales": {
-      "whatsapp": "2026-11-07T16:16:06.136006"
-    },
-    "precio": 1950.0,
-    "precios_publicados": [
-      1950.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
-    "ts": "2026-11-07T16:20:39.385968",
-    "canales": {
-      "whatsapp": "2026-11-07T16:20:39.385968"
-    },
-    "precio": 1652.0,
-    "precios_publicados": [
-      1652.0
-    ]
-  },
   "amz-playstation-dualsense-controle-sem-fio-branco": {
     "ts": "2026-11-09T06:13:04.343228",
     "canales": {
@@ -3210,6 +3190,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
+    "ts": "2026-11-09T16:22:26.268077",
+    "canales": {
+      "whatsapp": "2026-11-09T16:22:26.268077"
+    },
+    "precio": 114.0,
+    "precios_publicados": [
+      114.0
     ]
   }
 }
