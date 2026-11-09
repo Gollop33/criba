@@ -227,16 +227,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-sensodyne-creme-dental-branqueador-extra-fres": {
-    "ts": "2026-11-07T01:18:21.312834",
-    "canales": {
-      "whatsapp": "2026-11-07T01:18:21.312834"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-finish-advanced-detergente-para-lava-loucas-e": {
     "ts": "2026-11-07T01:23:35.036782",
     "canales": {
@@ -3295,6 +3285,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-mantecorp-hidratante-epidrat-calm-b5-hidrata-": {
+    "ts": "2026-11-09T01:20:00.694761",
+    "canales": {
+      "whatsapp": "2026-11-09T01:20:00.694761"
+    },
+    "precio": 42.0,
+    "precios_publicados": [
+      42.0
     ]
   }
 }
