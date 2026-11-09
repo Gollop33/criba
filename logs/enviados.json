@@ -189,16 +189,6 @@
     ],
     "precio_min_publicado": 4299.0
   },
-  "amz-smartphone-motorola-moto-g67-5g-256gb-4gb-ram": {
-    "ts": "2026-11-07T18:25:48.377264",
-    "canales": {
-      "whatsapp": "2026-11-07T18:25:48.377264"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0
-    ]
-  },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-11-07T18:47:13.348363",
     "canales": {
@@ -3133,6 +3123,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-desinfetante-pinho-sol-lavanda-e-melaleuca-1-": {
+    "ts": "2026-11-09T18:28:42.480028",
+    "canales": {
+      "whatsapp": "2026-11-09T18:28:42.480028"
+    },
+    "precio": 18.0,
+    "precios_publicados": [
+      18.0
     ]
   }
 }
