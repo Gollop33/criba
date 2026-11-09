@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-09T17:08:04+00:00",
-  "total": 37,
+  "actualizado": "2026-11-09T17:15:11+00:00",
+  "total": 38,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -17,7 +17,7 @@
       "precio_ref": 44.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "notebook acer aspire 5 ryzen 5 5500u 16gb",
@@ -25,7 +25,7 @@
       "precio_ref": 3799.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "playstation dualsense controle sem fio branco",
@@ -33,7 +33,7 @@
       "precio_ref": 389.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -41,7 +41,7 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g42 27 200hz 0",
@@ -49,39 +49,7 @@
       "precio_ref": 799.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "fralda pampers premium care pants tamanho xxg facil",
-      "nombre": "Fralda Pampers Premium Care Pants Tamanho XXG, Fácil de Vestir, 90 Unidades | Material respirável",
-      "precio_ref": 133.95,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "monitor dell pro 27 plus full hd 1920",
-      "nombre": "Monitor Dell Pro 27\" Plus, Full Hd (1920 x 1080), 100 Hz, Led, 5 ms, P2725h | 1500:1 contraste, 300 nits de brilho, ComfortVi",
-      "precio_ref": 1299.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 10 4gb ram 128gb",
-      "nombre": "Tablet Positivo Vision TAB 10 4GB RAM 128GB Armazenamento, Octa-Core, 13MP + Selfie 5MP, Bateria 6000mAh, Tela 10.1“ HD, Wifi",
-      "precio_ref": 909.48,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
-      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Verde)",
-      "precio_ref": 1652.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
@@ -89,87 +57,7 @@
       "precio_ref": 1990.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
-      "nombre": "Processador AMD Ryzen 7 9800X3D (AM5/ 8 Cores/ 16 Threads/ 5.2 GHz/ 104Mb Cache/Radeon Graphics/Sem Cooler)",
-      "precio_ref": 2387.78,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "conjunto de roteador sem fio wi fi 6",
-      "nombre": "Conjunto de Roteador Sem Fio WI-FI 6 Twibi Force AX Branco Intelbras",
-      "precio_ref": 339.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
-      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
-      "precio_ref": 899.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 fe 5g 128gb 8gb",
-      "nombre": "Celular Samsung Galaxy S25 FE 5G, 128GB, 8GB, Câmera Tripla - Azul Marinho",
-      "precio_ref": 2999.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "whey protein concentrado pote 900g sabor morango dux",
-      "nombre": "Whey Protein Concentrado Pote (900G) - Sabor Morango, Dux Nutrition, multi-colored",
-      "precio_ref": 220.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Luz das estrelas (M3)",
-      "precio_ref": 6444.43,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
-      "nombre": "XIAOMI Redmi Pad 2 8GB + 256GB Tablet com tela de 11 polegadas 2.5K 90Hz, Mediatek Helio G100 Ultra, Roxo (Carregador incluíd",
-      "precio_ref": 1629.9,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
-      "nombre": "Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa - Compatível com PC, Mac, Chro",
-      "precio_ref": 149.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
-      "nombre": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
-      "precio_ref": 496.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "tramontina panela de pressao vancouver effect em aluminio",
-      "nombre": "Tramontina Panela de Pressão Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
-      "precio_ref": 161.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "wap ventilador de mesa e parede 50cm flow",
@@ -177,47 +65,39 @@
       "precio_ref": 150.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
-      "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
-      "nombre": "Tablet VAIO TL10 4GB RAM 64GB, 4G, Teclado Magnético, Tela 10.4” 2K PRETO",
-      "precio_ref": 989.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "controle dualshock 4 playstation 4 preto modelo dualshock",
-      "nombre": "Controle Dualshock 4 - PlayStation 4 - Preto | Modelo DualShock 4",
-      "precio_ref": 209.99,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "air fryer oven philco 12l 1800w 4 em",
-      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
-      "precio_ref": 549.0,
+      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
+      "nombre": "MONDIAL Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 110V - AFON-12L-BI",
+      "precio_ref": 496.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
-      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
-      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
-      "precio_ref": 137.75,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "celular samsung galaxy a37 5g 128gb 6gb ram",
+      "nombre": "Celular Samsung Galaxy A37 5G 128GB, 6GB RAM, Câmera 50MP (Verde)",
+      "precio_ref": 1652.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
-      "busqueda": "tab samsung galaxy s11 ultra 14 6 512gb",
-      "nombre": "Tab Samsung Galaxy S11 Ultra 14.6\" 512GB 12GB | Câmera 12MP, WiFi",
-      "precio_ref": 739900.0,
-      "categoria": "Smartphones & Celulares",
+      "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
+      "nombre": "Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa - Compatível com PC, Mac, Chro",
+      "precio_ref": 149.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
+      "nombre": "Processador AMD Ryzen 7 9800X3D (AM5/ 8 Cores/ 16 Threads/ 5.2 GHz/ 104Mb Cache/Radeon Graphics/Sem Cooler)",
+      "precio_ref": 2387.78,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "air cooler gamerstorm x redragon ak400 rd preto",
@@ -225,15 +105,31 @@
       "precio_ref": 140.6,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
-      "busqueda": "kit de garrafas de tinta original epson magenta",
-      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
-      "precio_ref": 155.0,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "monitor dell pro 27 plus full hd 1920",
+      "nombre": "Monitor Dell Pro 27\" Plus, Full Hd (1920 x 1080), 100 Hz, Led, 5 ms, P2725h | 1500:1 contraste, 300 nits de brilho, ComfortVi",
+      "precio_ref": 1299.0,
+      "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1499.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tab samsung galaxy s11 ultra 14 6 512gb",
+      "nombre": "Tab Samsung Galaxy S11 Ultra 14.6\" 512GB 12GB | Câmera 12MP, WiFi",
+      "precio_ref": 739900.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
@@ -241,47 +137,31 @@
       "precio_ref": 759.04,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
-      "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
-      "nombre": "Monitor Gamer Samsung 24\" FHD, 120 Hz, HDMI, Preto, S3",
-      "precio_ref": 576.02,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "webcam full hd logitech c920s 1080p 30fps com",
-      "nombre": "Webcam Full HD Logitech C920s 1080p/30fps com Microfone Embutido e Tampa de Privacidade para Zoom/Teams/Meet ou Até Criação d",
-      "precio_ref": 299.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb azul",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Azul (A16)",
-      "precio_ref": 4299.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
-      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
-      "precio_ref": 718.18,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\"",
-      "precio_ref": 2373.04,
+      "busqueda": "celular samsung galaxy s25 fe 5g 128gb 8gb",
+      "nombre": "Celular Samsung Galaxy S25 FE 5G, 128GB, 8GB, Câmera Tripla - Azul Marinho",
+      "precio_ref": 2999.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tramontina panela de pressao vancouver effect em aluminio",
+      "nombre": "Tramontina Panela de Pressão Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
+      "precio_ref": 161.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Luz das estrelas (M3)",
+      "precio_ref": 6444.43,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "dispositivo de streaming para tv hd fhd roku",
@@ -289,7 +169,23 @@
       "precio_ref": 239.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "whey protein concentrado pote 900g sabor morango dux",
+      "nombre": "Whey Protein Concentrado Pote (900G) - Sabor Morango, Dux Nutrition, multi-colored",
+      "precio_ref": 220.0,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "conjunto de roteador sem fio wi fi 6",
+      "nombre": "Conjunto de Roteador Sem Fio WI-FI 6 Twibi Force AX Branco Intelbras",
+      "precio_ref": 339.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -297,7 +193,119 @@
       "precio_ref": 1594.8,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-09T17:08:04+00:00"
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "controle dualshock 4 playstation 4 preto modelo dualshock",
+      "nombre": "Controle Dualshock 4 - PlayStation 4 - Preto | Modelo DualShock 4",
+      "precio_ref": 209.99,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "air fryer oven philco 12l 1800w 4 em",
+      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
+      "precio_ref": 549.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "duracell carregador de pilhas recarregaveis aa e aaa",
+      "nombre": "Duracell Carregador de Pilhas Recarregáveis AA e AAA Com 4 Pilhas AA Inclusas – Bivolt",
+      "precio_ref": 137.75,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 718.18,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "gabinete gamer redragon wideload pro ca 604b pro",
+      "nombre": "Gabinete Gamer Redragon Wideload Pro CA-604B-PRO",
+      "precio_ref": 318.97,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "kit de garrafas de tinta original epson magenta",
+      "nombre": "Kit de Garrafas de Tinta Original Epson, Magenta, Amarelo, Ciano | Compacto",
+      "precio_ref": 155.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
+      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
+      "precio_ref": 899.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 24\" FHD, 120 Hz, HDMI, Preto, S3",
+      "precio_ref": 576.02,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "webcam full hd logitech c920s 1080p 30fps com",
+      "nombre": "Webcam Full HD Logitech C920s 1080p/30fps com Microfone Embutido e Tampa de Privacidade para Zoom/Teams/Meet ou Até Criação d",
+      "precio_ref": 299.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
+      "nombre": "Tablet VAIO TL10 4GB RAM 64GB, 4G, Teclado Magnético, Tela 10.4” 2K PRETO",
+      "precio_ref": 989.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad wi fi 128 gb azul",
+      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Azul (A16)",
+      "precio_ref": 4299.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
+      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\"",
+      "precio_ref": 2373.04,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 10 4gb ram 128gb",
+      "nombre": "Tablet Positivo Vision TAB 10 4GB RAM 128GB Armazenamento, Octa-Core, 13MP + Selfie 5MP, Bateria 6000mAh, Tela 10.1“ HD, Wifi",
+      "precio_ref": 909.48,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
+      "nombre": "XIAOMI Redmi Pad 2 8GB + 256GB Tablet com tela de 11 polegadas 2.5K 90Hz, Mediatek Helio G100 Ultra, Roxo (Carregador incluíd",
+      "precio_ref": 1629.9,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-09T17:15:11+00:00"
     }
   ]
 }
