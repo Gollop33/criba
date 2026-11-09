@@ -25,19 +25,6 @@
     ],
     "precio_min_publicado": 3099.0
   },
-  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
-    "ts": "2026-11-07T18:42:51.275171",
-    "canales": {
-      "whatsapp": "2026-11-07T18:42:51.275171"
-    },
-    "precio": 4279.0,
-    "precios_publicados": [
-      5008.0,
-      4279.0,
-      4279.0
-    ],
-    "precio_min_publicado": 4279.0
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
     "ts": "2026-11-08T20:39:23.982459",
     "canales": {
@@ -3153,6 +3140,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
+    "ts": "2026-11-09T18:46:01.056107",
+    "canales": {
+      "whatsapp": "2026-11-09T18:46:01.056107"
+    },
+    "precio": 63.0,
+    "precios_publicados": [
+      63.0
     ]
   }
 }
