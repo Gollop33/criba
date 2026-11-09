@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-sache-aromatizante-england-interbrilho": {
-    "ts": "2026-11-07T21:12:07.929949",
-    "canales": {
-      "whatsapp": "2026-11-07T21:12:07.929949"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
     "ts": "2026-11-07T21:19:50.186137",
     "canales": {
@@ -3168,6 +3158,16 @@
     "precio": 150.0,
     "precios_publicados": [
       150.0
+    ]
+  },
+  "amz-notebook-dell-inspiron-15i1300a80p-intel-core": {
+    "ts": "2026-11-09T21:13:01.938984",
+    "canales": {
+      "whatsapp": "2026-11-09T21:13:01.938984"
+    },
+    "precio": 5999.0,
+    "precios_publicados": [
+      5999.0
     ]
   }
 }
