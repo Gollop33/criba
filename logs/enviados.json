@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-11-07T12:56:54.657655",
-    "canales": {
-      "whatsapp": "2026-11-07T12:56:54.657655"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-07T13:07:56.330416",
     "canales": {
@@ -3255,6 +3245,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-finish-advanced-detergente-para-lava-loucas-e": {
+    "ts": "2026-11-09T12:57:16.028820",
+    "canales": {
+      "whatsapp": "2026-11-09T12:57:16.028820"
+    },
+    "precio": 45.0,
+    "precios_publicados": [
+      45.0
     ]
   }
 }
