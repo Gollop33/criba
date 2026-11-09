@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-07T13:15:12.934851",
-    "canales": {
-      "whatsapp": "2026-11-07T13:15:12.934851"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
     "ts": "2026-11-07T13:22:11.166348",
     "canales": {
@@ -3255,6 +3245,16 @@
     "precio": 42.0,
     "precios_publicados": [
       42.0
+    ]
+  },
+  "amz-lysoform-original-desinfetante-liquido-limpez": {
+    "ts": "2026-11-09T13:15:20.646376",
+    "canales": {
+      "whatsapp": "2026-11-09T13:15:20.646376"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
