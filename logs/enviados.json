@@ -164,16 +164,6 @@
     ],
     "precio_min_publicado": 434.0
   },
-  "amz-monitor-dell-pro-27-plus-full-hd-1920-x-1080-": {
-    "ts": "2026-11-07T16:28:57.052782",
-    "canales": {
-      "whatsapp": "2026-11-07T16:28:57.052782"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1299.0
-    ]
-  },
   "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
     "ts": "2026-11-07T16:38:49.895682",
     "canales": {
@@ -3200,6 +3190,16 @@
     "precio": 114.0,
     "precios_publicados": [
       114.0
+    ]
+  },
+  "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
+    "ts": "2026-11-09T16:29:18.961676",
+    "canales": {
+      "whatsapp": "2026-11-09T16:29:18.961676"
+    },
+    "precio": 768.0,
+    "precios_publicados": [
+      768.0
     ]
   }
 }
