@@ -189,16 +189,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
-    "ts": "2026-11-07T07:28:21.068831",
-    "canales": {
-      "whatsapp": "2026-11-07T07:28:21.068831"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-creatina-monohidratada-1kg-100-pura-importada": {
     "ts": "2026-11-07T08:00:38.068270",
     "canales": {
@@ -3237,6 +3227,16 @@
     "precio": 66.0,
     "precios_publicados": [
       66.0
+    ]
+  },
+  "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
+    "ts": "2026-11-09T07:30:19.303848",
+    "canales": {
+      "whatsapp": "2026-11-09T07:30:19.303848"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
