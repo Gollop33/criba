@@ -176,16 +176,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
-    "ts": "2026-11-07T22:41:36.139317",
-    "canales": {
-      "whatsapp": "2026-11-07T22:41:36.139317"
-    },
-    "precio": 3588.0,
-    "precios_publicados": [
-      3588.0
-    ]
-  },
   "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
     "ts": "2026-11-07T22:50:10.966229",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 203.0,
     "precios_publicados": [
       203.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-09T22:43:43.320536",
+    "canales": {
+      "whatsapp": "2026-11-09T22:43:43.320536"
+    },
+    "precio": 1776.0,
+    "precios_publicados": [
+      1776.0
     ]
   }
 }
