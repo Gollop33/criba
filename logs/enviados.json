@@ -152,16 +152,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-07T16:12:55.057772",
-    "canales": {
-      "whatsapp": "2026-11-07T16:12:55.057772"
-    },
-    "precio": 1478.0,
-    "precios_publicados": [
-      1478.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
     "ts": "2026-11-07T16:16:06.136006",
     "canales": {
@@ -3210,6 +3200,16 @@
     "precio": 4499.0,
     "precios_publicados": [
       4499.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
+    "ts": "2026-11-09T16:15:06.818047",
+    "canales": {
+      "whatsapp": "2026-11-09T16:15:06.818047"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
