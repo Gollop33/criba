@@ -837,11 +837,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "MEUACHADO": {
-      "detectado_em": "2026-10-09T22:25:11+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 615h (> 24h)"
-    },
     "DESCONTOAQUI": {
       "detectado_em": "2026-10-10T17:50:13+00:00",
       "publicado_em": null,
@@ -1042,11 +1037,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "SEMPREMELI": {
-      "detectado_em": "2026-10-09T22:30:43+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 666h (> 24h)"
-    },
     "TUDOEMPROMO": {
       "detectado_em": "2026-10-14T16:59:58+00:00",
       "publicado_em": null,
@@ -1107,20 +1097,10 @@
       "publicado_em": null,
       "motivo": "detectado hace 645h (> 24h)"
     },
-    "MELIOFFAQUI": {
-      "detectado_em": "2026-10-09T22:16:22+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 711h (> 24h)"
-    },
     "CORREAQUINOML": {
       "detectado_em": "2026-10-10T17:40:11+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 692h (> 24h)"
-    },
-    "VEJAESSAPROMO": {
-      "detectado_em": "2026-10-09T22:20:16+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 711h (> 24h)"
     },
     "PROMOCERTAML": {
       "detectado_em": "2026-10-12T13:20:41+00:00",
@@ -1158,5 +1138,5 @@
       "motivo": "detectado hace 384h (> 24h)"
     }
   },
-  "actualizado": "2026-11-08T21:25:35+00:00"
+  "actualizado": "2026-11-09T00:21:37+00:00"
 }
