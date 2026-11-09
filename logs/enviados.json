@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 51.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-07T11:42:54.323675",
-    "canales": {
-      "whatsapp": "2026-11-07T11:42:54.323675"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-cif-limpador-especialista-derrete-gordura-500": {
     "ts": "2026-11-07T11:56:54.714971",
     "canales": {
@@ -3235,6 +3225,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
+    "ts": "2026-11-09T11:43:04.888510",
+    "canales": {
+      "whatsapp": "2026-11-09T11:43:04.888510"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
