@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 894.0
   },
-  "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
-    "ts": "2026-11-07T18:18:05.672057",
-    "canales": {
-      "whatsapp": "2026-11-07T18:18:05.672057"
-    },
-    "precio": 966.0,
-    "precios_publicados": [
-      966.0
-    ]
-  },
   "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
     "ts": "2026-11-09T05:44:34.194696",
     "canales": {
@@ -3133,6 +3123,16 @@
     "precio": 48.0,
     "precios_publicados": [
       48.0
+    ]
+  },
+  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
+    "ts": "2026-11-09T18:18:41.895764",
+    "canales": {
+      "whatsapp": "2026-11-09T18:18:41.895764"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
