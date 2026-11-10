@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-tablet-infantil-positivo-vision-tab-7-minions": {
-    "ts": "2026-11-08T18:47:55.524385",
-    "canales": {
-      "whatsapp": "2026-11-08T18:47:55.524385"
-    },
-    "precio": 486.0,
-    "precios_publicados": [
-      486.0
-    ]
-  },
   "amz-controle-sem-fio-para-xbox-series-x-s-xbox-on": {
     "ts": "2026-11-08T18:55:26.777279",
     "canales": {
@@ -3041,6 +3031,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-armazem-brasil-monitor-portatil-156-fhd-1080p": {
+    "ts": "2026-11-10T18:51:04.715218",
+    "canales": {
+      "whatsapp": "2026-11-10T18:51:04.715218"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
