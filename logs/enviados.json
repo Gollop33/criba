@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
-    "ts": "2026-11-08T17:39:49.908120",
-    "canales": {
-      "whatsapp": "2026-11-08T17:39:49.908120"
-    },
-    "precio": 5603.0,
-    "precios_publicados": [
-      5603.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-11-08T17:41:19.892635",
-    "canales": {
-      "whatsapp": "2026-11-08T17:41:19.892635"
-    },
-    "precio": 2027.0,
-    "precios_publicados": [
-      2027.0
-    ]
-  },
   "amz-radio-manivela-manual-de-emergencia-com-lante": {
     "ts": "2026-11-08T17:50:48.150308",
     "canales": {
@@ -1416,14 +1396,16 @@
     ]
   },
   "amz-tab-samsung-galaxy-s11-ultra-146-512gb-12gb-c": {
-    "ts": "2026-11-09T17:36:12.841194",
+    "ts": "2026-11-10T17:43:29.382052",
     "canales": {
-      "whatsapp": "2026-11-09T17:36:12.841194"
+      "whatsapp": "2026-11-10T17:43:29.382052"
     },
-    "precio": 739900.0,
+    "precio": 665910.0,
     "precios_publicados": [
-      739900.0
-    ]
+      739900.0,
+      665910.0
+    ],
+    "precio_min_publicado": 739900.0
   },
   "amz-controle-dualshock-4-playstation-4-preto-mode": {
     "ts": "2026-11-09T17:43:28.687282",
