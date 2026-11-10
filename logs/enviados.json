@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-cartao-nintendo-switch-2-samsung-microsd-expr": {
-    "ts": "2026-11-08T01:29:14.702412",
-    "canales": {
-      "whatsapp": "2026-11-08T01:29:14.702412"
-    },
-    "precio": 429.0,
-    "precios_publicados": [
-      429.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
     "ts": "2026-11-08T01:39:19.869227",
     "canales": {
@@ -3165,6 +3155,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-fralda-pampers-recem-nascido-tamanho-rn-ate-5": {
+    "ts": "2026-11-10T01:29:48.395362",
+    "canales": {
+      "whatsapp": "2026-11-10T01:29:48.395362"
+    },
+    "precio": 45.0,
+    "precios_publicados": [
+      45.0
     ]
   }
 }
