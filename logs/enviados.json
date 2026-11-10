@@ -130,16 +130,17 @@
     "precio_min_publicado": 434.0
   },
   "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
-    "ts": "2026-11-09T07:10:12.124774",
+    "ts": "2026-11-10T07:26:40.120597",
     "canales": {
-      "whatsapp": "2026-11-09T07:10:12.124774"
+      "whatsapp": "2026-11-10T07:26:40.120597"
     },
     "precio": 799.0,
     "precios_publicados": [
       894.0,
+      799.0,
       799.0
     ],
-    "precio_min_publicado": 894.0
+    "precio_min_publicado": 799.0
   },
   "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
     "ts": "2026-11-10T05:46:05.249668",
@@ -177,16 +178,6 @@
       35.0
     ],
     "precio_min_publicado": 52.0
-  },
-  "amz-personal-vip-papel-higienico-folha-dupla-12-u": {
-    "ts": "2026-11-08T07:03:16.256315",
-    "canales": {
-      "whatsapp": "2026-11-08T07:03:16.256315"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
   },
   "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
     "ts": "2026-11-08T07:29:50.976476",
