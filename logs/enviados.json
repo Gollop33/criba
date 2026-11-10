@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
-    "ts": "2026-11-08T13:25:29.138304",
-    "canales": {
-      "whatsapp": "2026-11-08T13:25:29.138304"
-    },
-    "precio": 1179.0,
-    "precios_publicados": [
-      1179.0
-    ]
-  },
   "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
     "ts": "2026-11-08T13:35:04.856109",
     "canales": {
@@ -2951,6 +2941,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-15-intel-core-i3-n3": {
+    "ts": "2026-11-10T13:29:22.578323",
+    "canales": {
+      "whatsapp": "2026-11-10T13:29:22.578323"
+    },
+    "precio": 2799.0,
+    "precios_publicados": [
+      2799.0
     ]
   }
 }
