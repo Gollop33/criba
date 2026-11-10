@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-celular-samsung-galaxy-s25-fe-5g-256gb-8gb-ca": {
-    "ts": "2026-11-08T18:39:31.545107",
-    "canales": {
-      "whatsapp": "2026-11-08T18:39:31.545107"
-    },
-    "precio": 3484.0,
-    "precios_publicados": [
-      3484.0
-    ]
-  },
   "amz-tablet-infantil-positivo-vision-tab-7-minions": {
     "ts": "2026-11-08T18:47:55.524385",
     "canales": {
@@ -3041,6 +3031,16 @@
     "precio": 265.0,
     "precios_publicados": [
       265.0
+    ]
+  },
+  "amz-monitor-gamer-lg-ultragear-27-27gs60fb-ips-fu": {
+    "ts": "2026-11-10T18:45:03.427670",
+    "canales": {
+      "whatsapp": "2026-11-10T18:45:03.427670"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
