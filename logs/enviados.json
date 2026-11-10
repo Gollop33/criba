@@ -140,16 +140,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-11-08T15:36:09.037365",
-    "canales": {
-      "whatsapp": "2026-11-08T15:36:09.037365"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
     "ts": "2026-11-08T16:54:43.608378",
     "canales": {
@@ -2928,6 +2918,16 @@
     "precio": 94.0,
     "precios_publicados": [
       94.0
+    ]
+  },
+  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
+    "ts": "2026-11-10T15:43:26.141995",
+    "canales": {
+      "whatsapp": "2026-11-10T15:43:26.141995"
+    },
+    "precio": 440.0,
+    "precios_publicados": [
+      440.0
     ]
   }
 }
