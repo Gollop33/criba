@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-08T01:39:19.869227",
-    "canales": {
-      "whatsapp": "2026-11-08T01:39:19.869227"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
-  },
   "amz-coleira-antipulgas-e-carrapatos-para-caes-aci": {
     "ts": "2026-11-08T01:48:12.352238",
     "canales": {
@@ -3175,6 +3165,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-stanley-copo-quencher-frost-887ml": {
+    "ts": "2026-11-10T01:44:21.858797",
+    "canales": {
+      "whatsapp": "2026-11-10T01:44:21.858797"
+    },
+    "precio": 131.0,
+    "precios_publicados": [
+      131.0
     ]
   }
 }
