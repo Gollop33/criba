@@ -1481,14 +1481,16 @@
     ]
   },
   "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
-    "ts": "2026-11-09T01:42:06.033500",
+    "ts": "2026-11-10T06:54:01.378500",
     "canales": {
-      "whatsapp": "2026-11-09T01:42:06.033500"
+      "whatsapp": "2026-11-10T06:54:01.378500"
     },
-    "precio": 32.0,
+    "precio": 26.0,
     "precios_publicados": [
-      32.0
-    ]
+      32.0,
+      26.0
+    ],
+    "precio_min_publicado": 32.0
   },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
     "ts": "2026-11-09T01:52:52.710432",
