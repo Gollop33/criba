@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-11-08T17:28:58.463647",
-    "canales": {
-      "whatsapp": "2026-11-08T17:28:58.463647"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-11-08T17:32:00.746009",
-    "canales": {
-      "whatsapp": "2026-11-08T17:32:00.746009"
-    },
-    "precio": 959.0,
-    "precios_publicados": [
-      959.0
-    ]
-  },
   "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
     "ts": "2026-11-08T17:39:49.908120",
     "canales": {
@@ -3019,6 +2999,16 @@
     "precio": 5054.0,
     "precios_publicados": [
       5054.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-10T17:35:30.698262",
+    "canales": {
+      "whatsapp": "2026-11-10T17:35:30.698262"
+    },
+    "precio": 1089.0,
+    "precios_publicados": [
+      1089.0
     ]
   }
 }
