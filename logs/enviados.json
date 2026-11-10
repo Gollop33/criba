@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
-    "ts": "2026-11-08T13:35:04.856109",
-    "canales": {
-      "whatsapp": "2026-11-08T13:35:04.856109"
-    },
-    "precio": 695.0,
-    "precios_publicados": [
-      695.0
-    ]
-  },
   "amz-armazem-brasil-monitor-portatil-156-fhd-1080p": {
     "ts": "2026-11-08T13:38:04.545366",
     "canales": {
@@ -2951,6 +2941,16 @@
     "precio": 2799.0,
     "precios_publicados": [
       2799.0
+    ]
+  },
+  "amz-notebook-acer-nitro-v-15-rtx-4050-i5-16gb-512": {
+    "ts": "2026-11-10T13:36:20.463429",
+    "canales": {
+      "whatsapp": "2026-11-10T13:36:20.463429"
+    },
+    "precio": 6459.0,
+    "precios_publicados": [
+      6459.0
     ]
   }
 }
