@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-10T00:08:13+00:00",
-  "total": 46,
+  "actualizado": "2026-11-10T00:15:05+00:00",
+  "total": 45,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "radio portatil am fm 2 bandas recarregavel usb",
@@ -17,7 +17,7 @@
       "precio_ref": 47.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -25,7 +25,7 @@
       "precio_ref": 44.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "mantecorp hidratante epidrat calm b5 hidrata e acalma",
@@ -33,7 +33,7 @@
       "precio_ref": 14.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
@@ -41,7 +41,7 @@
       "precio_ref": 26.48,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g42 27 200hz 0",
@@ -49,7 +49,7 @@
       "precio_ref": 799.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "notebook acer aspire 5 ryzen 5 5500u 16gb",
@@ -57,15 +57,7 @@
       "precio_ref": 3799.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "mondial ventilador de mesa 40cm super power preto",
-      "nombre": "MONDIAL Ventilador de Mesa 40cm Super Power, Preto/Prata, 140W, 110V - VSP-40-B",
-      "precio_ref": 119.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
@@ -73,55 +65,7 @@
       "precio_ref": 64.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
-      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
-      "precio_ref": 1129.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "stanley copo quencher frost 887ml",
-      "nombre": "Stanley Copo Quencher Frost 887ml",
-      "precio_ref": 131.67,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook s14 intel core ultra 5",
-      "nombre": "Notebook ASUS Vivobook S14, Intel Core Ultra 5, 16 GB, 512 GB SSD, W 11 Home, 14.0'' FHD, Matte Gray - S3407CA-LY113W",
-      "precio_ref": 5299.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
-      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
-      "precio_ref": 203.0,
-      "categoria": "Relógios & Smartwatches",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "sony playstation 5 edicao digital 825gb 1 controle",
-      "nombre": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
-      "precio_ref": 4599.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "notebook 2 em 1 positivo duo intel celeron",
-      "nombre": "Notebook 2 em 1 Positivo Duo Intel Celeron N4500 4GB RAM 128GB de Armazenamento Tela 11\" HD IPS touch com caneta capacitiva,",
-      "precio_ref": 1532.52,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "notebook dell 15 15 i1300 a30p intel core",
@@ -129,31 +73,15 @@
       "precio_ref": 4279.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
-      "nombre": "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
-      "precio_ref": 398.05,
-      "categoria": "Monitores & Displays",
+      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
+      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
+      "precio_ref": 203.0,
+      "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "the legend of zelda ocarina of time nintendo",
-      "nombre": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 (Capa Padrão)",
-      "precio_ref": 439.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech lift vertical com design",
-      "nombre": "Mouse Sem Fio Logitech Lift Vertical com Design Ergonômico para Redução de Tensão Muscular, Cliques Silenciosos, Conexão Blue",
-      "precio_ref": 249.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "smartphone poco x8 pro 512gb 12gb ram branco",
@@ -161,23 +89,23 @@
       "precio_ref": 2998.47,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "monitor gamer samsung 24 fhd 100 hz hdmi",
-      "nombre": "Monitor Gamer Samsung 24\" FHD,100 Hz, HDMI, VGA,Preto, S3",
-      "precio_ref": 569.0,
-      "categoria": "Monitores & Displays",
+      "busqueda": "mouse sem fio logitech lift vertical com design",
+      "nombre": "Mouse Sem Fio Logitech Lift Vertical com Design Ergonômico para Redução de Tensão Muscular, Cliques Silenciosos, Conexão Blue",
+      "precio_ref": 249.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "playstation5 slim disk pacote astro bot e gran",
-      "nombre": "PlayStation®5 Slim Disk - Pacote ASTRO BOT e Gran Turismo 7",
-      "precio_ref": 5099.0,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "notebook asus vivobook s14 intel core ultra 5",
+      "nombre": "Notebook ASUS Vivobook S14, Intel Core Ultra 5, 16 GB, 512 GB SSD, W 11 Home, 14.0'' FHD, Matte Gray - S3407CA-LY113W",
+      "precio_ref": 5299.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
@@ -185,15 +113,23 @@
       "precio_ref": 1044.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "monitor gamer oled lg ultragear 27gx704a 27 polegadas",
-      "nombre": "Monitor Gamer OLED LG UltraGear 27GX704A, 27 polegadas, 240Hz | QHD 2560x1440, 0,03ms, HDR True Black 400, G-SYNC, FreeSync P",
-      "precio_ref": 3588.0,
+      "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
+      "nombre": "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
+      "precio_ref": 398.05,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "sony playstation 5 edicao digital 825gb 1 controle",
+      "nombre": "Sony PlayStation 5 Edição Digital 825GB 1 Controle | Branco",
+      "precio_ref": 4599.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "smart tv tcl 50 polegadas qled 4k p7l",
@@ -201,127 +137,23 @@
       "precio_ref": 2037.93,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "ea sports fc 27 playstation 5",
-      "nombre": "EA Sports FC 27 - PlayStation 5",
-      "precio_ref": 328.58,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "notebook 2 em 1 positivo duo intel celeron",
+      "nombre": "Notebook 2 em 1 Positivo Duo Intel Celeron N4500 4GB RAM 128GB de Armazenamento Tela 11\" HD IPS touch com caneta capacitiva,",
+      "precio_ref": 1532.52,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "monitor aoc 27 4k ips 106 ntsc 97",
-      "nombre": "Monitor AOC 27\" 4K IPS 106% NTSC 97% DCI-P3 Speakers U27B3A",
-      "precio_ref": 998.99,
+      "busqueda": "monitor gamer samsung 24 fhd 100 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 24\" FHD,100 Hz, HDMI, VGA,Preto, S3",
+      "precio_ref": 569.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "gamesir g7 se controle com fio para pc",
-      "nombre": "GameSir G7 SE Controle com Fio para PC, Xbox One, Xbox Series X|S, Gamepad para Jogos Plug and Play (Cinza)",
-      "precio_ref": 265.03,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB 8GB Tela 13.1 Azul | Samsung Tablet Galaxy Tab S10 FE+ WiFi Azul",
-      "precio_ref": 3079.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
-      "nombre": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.2\", Azul Marinho",
-      "precio_ref": 4115.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "monitor uhd samsung 32 4k hdmi display port",
-      "nombre": "Monitor UHD Samsung 32\", 4K, HDMI, Display Port, Freesync, Preto, Série UJ59",
-      "precio_ref": 1174.89,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
-      "nombre": "Notebook Acer Nitro V 15 RTX 4050 i5 16GB 512GB SSD Win 11 ANV15-52-51E4",
-      "precio_ref": 6459.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 ryzen 7 8840hs",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 Ryzen 7 8840HS 16GB 512GB SSD 15,3\" W11 83TY000JBO",
-      "precio_ref": 5105.17,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g17 4g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto G17 4G - 128GB 4GB Ram + 8GB Ram Boost - Roxo",
-      "precio_ref": 875.86,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "panela de pressao eletrica electrolux por rita lobo",
-      "nombre": "Panela de Pressão Elétrica Electrolux por Rita Lobo 6L Preta Experience Digital (pcc20) 127v",
-      "precio_ref": 520.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "tablet com caneta e teclado xixaomiro s12 10",
-      "nombre": "Tablet com Caneta e Teclado Xixaomiro S12 10.1\" 12GB+ 256GB Laranja | CPU-A523 Câmera 13MP, Bateria 8000mAh, 5G Wi-Fi Tablet",
-      "precio_ref": 818.98,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "apple iphone 16 128 gb branco",
-      "nombre": "Apple iPhone 16 (128 GB) – Branco",
-      "precio_ref": 5054.44,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
-      "nombre": "Electrolux Aspirador pó vertical 2 em 1 1450W HEPA STK15 Cinza Urban 127V | Com fio, portátil de mão, potente, cabo de 6m e c",
-      "precio_ref": 170.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "monitor gamer curvo aoc agon quad 32 180hz",
-      "nombre": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E",
-      "precio_ref": 1148.97,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
-      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
-      "precio_ref": 1039.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "smartphone xiaomi redmi note 15 pro 5g 512gb",
@@ -329,23 +161,55 @@
       "precio_ref": 2240.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "fritadeira eletrica sem oleo forno oven airfryer 12l",
-      "nombre": "Fritadeira Elétrica sem oleo Forno Oven Airfryer 12L digital receita programada 2 bandejas espeto giratório 1700W Electrolux",
-      "precio_ref": 540.81,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "the legend of zelda ocarina of time nintendo",
+      "nombre": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 (Capa Padrão)",
+      "precio_ref": 439.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
-      "busqueda": "ssd kingston nv3 1tb m 2 2280 nvme",
-      "nombre": "SSD Kingston NV3 1TB M.2 2280 NVMe Gen4, Desempenho e Eficiência para Upgrade de PC – SNV3S/1000G",
-      "precio_ref": 963.0,
+      "busqueda": "monitor gamer oled lg ultragear 27gx704a 27 polegadas",
+      "nombre": "Monitor Gamer OLED LG UltraGear 27GX704A, 27 polegadas, 240Hz | QHD 2560x1440, 0,03ms, HDR True Black 400, G-SYNC, FreeSync P",
+      "precio_ref": 3588.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
+      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
+      "precio_ref": 1129.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
+      "nombre": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.2\", Azul Marinho",
+      "precio_ref": 4115.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "monitor aoc 27 4k ips 106 ntsc 97",
+      "nombre": "Monitor AOC 27\" 4K IPS 106% NTSC 97% DCI-P3 Speakers U27B3A",
+      "precio_ref": 998.99,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB 8GB Tela 13.1 Azul | Samsung Tablet Galaxy Tab S10 FE+ WiFi Azul",
+      "precio_ref": 3079.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "quatree supreme racao para gatos castrados salmao 10",
@@ -353,7 +217,127 @@
       "precio_ref": 189.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "monitor uhd samsung 32 4k hdmi display port",
+      "nombre": "Monitor UHD Samsung 32\", 4K, HDMI, Display Port, Freesync, Preto, Série UJ59",
+      "precio_ref": 1174.89,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
+      "nombre": "Notebook Acer Nitro V 15 RTX 4050 i5 16GB 512GB SSD Win 11 ANV15-52-51E4",
+      "precio_ref": 6459.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "playstation5 slim disk pacote astro bot e gran",
+      "nombre": "PlayStation®5 Slim Disk - Pacote ASTRO BOT e Gran Turismo 7",
+      "precio_ref": 5099.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "stanley copo quencher frost 887ml",
+      "nombre": "Stanley Copo Quencher Frost 887ml",
+      "precio_ref": 131.67,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "tablet com caneta e teclado xixaomiro s12 10",
+      "nombre": "Tablet com Caneta e Teclado Xixaomiro S12 10.1\" 12GB+ 256GB Laranja | CPU-A523 Câmera 13MP, Bateria 8000mAh, 5G Wi-Fi Tablet",
+      "precio_ref": 818.98,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "apple iphone 16 128 gb branco",
+      "nombre": "Apple iPhone 16 (128 GB) – Branco",
+      "precio_ref": 5054.44,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "fritadeira eletrica sem oleo forno oven airfryer 12l",
+      "nombre": "Fritadeira Elétrica sem oleo Forno Oven Airfryer 12L digital receita programada 2 bandejas espeto giratório 1700W Electrolux",
+      "precio_ref": 540.81,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "monitor gamer curvo aoc agon quad 32 180hz",
+      "nombre": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E",
+      "precio_ref": 1148.97,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "ea sports fc 27 playstation 5",
+      "nombre": "EA Sports FC 27 - PlayStation 5",
+      "precio_ref": 328.58,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 ryzen 7 8840hs",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 Ryzen 7 8840HS 16GB 512GB SSD 15,3\" W11 83TY000JBO",
+      "precio_ref": 5105.17,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "gamesir g7 se controle com fio para pc",
+      "nombre": "GameSir G7 SE Controle com Fio para PC, Xbox One, Xbox Series X|S, Gamepad para Jogos Plug and Play (Cinza)",
+      "precio_ref": 265.03,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
+      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
+      "precio_ref": 1039.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "panela de pressao eletrica electrolux por rita lobo",
+      "nombre": "Panela de Pressão Elétrica Electrolux por Rita Lobo 6L Preta Experience Digital (pcc20) 127v",
+      "precio_ref": 520.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "ssd kingston nv3 1tb m 2 2280 nvme",
+      "nombre": "SSD Kingston NV3 1TB M.2 2280 NVMe Gen4, Desempenho e Eficiência para Upgrade de PC – SNV3S/1000G",
+      "precio_ref": 963.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
+      "nombre": "Electrolux Aspirador pó vertical 2 em 1 1450W HEPA STK15 Cinza Urban 127V | Com fio, portátil de mão, potente, cabo de 6m e c",
+      "precio_ref": 170.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "notebook samsung galaxy book go windows 11 home",
@@ -361,7 +345,7 @@
       "precio_ref": 2149.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     },
     {
       "busqueda": "jbl fone de ouvido bluetooth over ear tune",
@@ -369,7 +353,15 @@
       "precio_ref": 189.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T00:08:13+00:00"
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g17 4g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G17 4G - 128GB 4GB Ram + 8GB Ram Boost - Roxo",
+      "precio_ref": 875.86,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-10T00:15:05+00:00"
     }
   ]
 }
