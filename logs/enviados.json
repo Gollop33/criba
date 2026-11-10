@@ -179,16 +179,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-11-08T10:07:53.912339",
-    "canales": {
-      "whatsapp": "2026-11-08T10:07:53.912339"
-    },
-    "precio": 3499.0,
-    "precios_publicados": [
-      3499.0
-    ]
-  },
   "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
     "ts": "2026-11-08T10:15:11.749459",
     "canales": {
@@ -3017,6 +3007,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-tramontina-jogo-de-facas-inox-4-pecas-plenus-": {
+    "ts": "2026-11-10T10:08:08.916871",
+    "canales": {
+      "whatsapp": "2026-11-10T10:08:08.916871"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
