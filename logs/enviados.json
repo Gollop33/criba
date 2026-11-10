@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
-    "ts": "2026-11-08T12:44:24.643017",
-    "canales": {
-      "whatsapp": "2026-11-08T12:44:24.643017"
-    },
-    "precio": 397.0,
-    "precios_publicados": [
-      397.0
-    ]
-  },
-  "amz-console-nintendo-switch-2-modelo-internaciona": {
-    "ts": "2026-11-08T12:47:16.493211",
-    "canales": {
-      "whatsapp": "2026-11-08T12:47:16.493211"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "amz-areia-higienica-para-gatos-bionature-biodegra": {
     "ts": "2026-11-08T12:59:17.815241",
     "canales": {
@@ -2974,6 +2954,16 @@
     "precio": 5332.0,
     "precios_publicados": [
       5332.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-10T12:50:14.230904",
+    "canales": {
+      "whatsapp": "2026-11-10T12:50:14.230904"
+    },
+    "precio": 1457.0,
+    "precios_publicados": [
+      1457.0
     ]
   }
 }
