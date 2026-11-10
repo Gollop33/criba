@@ -127,16 +127,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-11-08T20:56:00.823017",
-    "canales": {
-      "whatsapp": "2026-11-08T20:56:00.823017"
-    },
-    "precio": 105.0,
-    "precios_publicados": [
-      105.0
-    ]
-  },
   "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
     "ts": "2026-11-08T21:00:36.293822",
     "canales": {
@@ -3045,6 +3035,16 @@
     "precio": 150.0,
     "precios_publicados": [
       150.0
+    ]
+  },
+  "amz-ea-sports-fc-27-playstation-5": {
+    "ts": "2026-11-10T21:00:01.379051",
+    "canales": {
+      "whatsapp": "2026-11-10T21:00:01.379051"
+    },
+    "precio": 328.0,
+    "precios_publicados": [
+      328.0
     ]
   }
 }
