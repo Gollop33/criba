@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-radio-manivela-manual-de-emergencia-com-lante": {
-    "ts": "2026-11-08T17:50:48.150308",
-    "canales": {
-      "whatsapp": "2026-11-08T17:50:48.150308"
-    },
-    "precio": 157.0,
-    "precios_publicados": [
-      157.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g67-5g-128gb-4gb-ram": {
     "ts": "2026-11-08T17:57:46.485998",
     "canales": {
@@ -3001,6 +2991,16 @@
     "precio": 1374.0,
     "precios_publicados": [
       1374.0
+    ]
+  },
+  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
+    "ts": "2026-11-10T17:53:52.298256",
+    "canales": {
+      "whatsapp": "2026-11-10T17:53:52.298256"
+    },
+    "precio": 5099.0,
+    "precios_publicados": [
+      5099.0
     ]
   }
 }
