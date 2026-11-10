@@ -153,26 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
-    "ts": "2026-11-08T19:27:19.481216",
-    "canales": {
-      "whatsapp": "2026-11-08T19:27:19.481216"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-8gb": {
-    "ts": "2026-11-08T19:32:18.815876",
-    "canales": {
-      "whatsapp": "2026-11-08T19:32:18.815876"
-    },
-    "precio": 3779.0,
-    "precios_publicados": [
-      3779.0
-    ]
-  },
   "amz-philips-walita-fritadeira-airfryer-serie-1000": {
     "ts": "2026-11-08T19:42:02.251003",
     "canales": {
@@ -3081,6 +3061,16 @@
     "precio": 429.0,
     "precios_publicados": [
       429.0
+    ]
+  },
+  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
+    "ts": "2026-11-10T19:34:53.284162",
+    "canales": {
+      "whatsapp": "2026-11-10T19:34:53.284162"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
