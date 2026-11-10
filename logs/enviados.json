@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
-    "ts": "2026-11-08T20:07:43.704183",
-    "canales": {
-      "whatsapp": "2026-11-08T20:07:43.704183"
-    },
-    "precio": 1776.0,
-    "precios_publicados": [
-      1776.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-11-08T20:17:49.643957",
     "canales": {
@@ -3061,6 +3051,16 @@
     "precio": 175.0,
     "precios_publicados": [
       175.0
+    ]
+  },
+  "amz-microondas-philco-20l-branco-pintura-limpa-fa": {
+    "ts": "2026-11-10T20:14:48.724758",
+    "canales": {
+      "whatsapp": "2026-11-10T20:14:48.724758"
+    },
+    "precio": 370.0,
+    "precios_publicados": [
+      370.0
     ]
   }
 }
