@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-08T19:11:51.802746",
-    "canales": {
-      "whatsapp": "2026-11-08T19:11:51.802746"
-    },
-    "precio": 61.0,
-    "precios_publicados": [
-      61.0
-    ]
-  },
   "amz-tablet-xiaomi-pad-7-284-cm-8-256-gb-tela-32k-": {
     "ts": "2026-11-08T19:17:48.415114",
     "canales": {
@@ -3061,6 +3051,16 @@
     "precio": 3588.0,
     "precios_publicados": [
       3588.0
+    ]
+  },
+  "amz-fralda-descartavel-huggies-tamanho-xg-140-uni": {
+    "ts": "2026-11-10T19:16:47.337547",
+    "canales": {
+      "whatsapp": "2026-11-10T19:16:47.337547"
+    },
+    "precio": 229.0,
+    "precios_publicados": [
+      229.0
     ]
   }
 }
