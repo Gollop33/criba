@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-tapete-higienico-petlike-ultrapads-80cmx60cm-": {
-    "ts": "2026-11-08T00:44:15.285972",
-    "canales": {
-      "whatsapp": "2026-11-08T00:44:15.285972"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
     "ts": "2026-11-08T00:53:10.732795",
     "canales": {
@@ -3155,6 +3145,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
+    "ts": "2026-11-10T00:50:20.934973",
+    "canales": {
+      "whatsapp": "2026-11-10T00:50:20.934973"
+    },
+    "precio": 4279.0,
+    "precios_publicados": [
+      4279.0
     ]
   }
 }
