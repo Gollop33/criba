@@ -38,19 +38,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-11-08T20:46:42.725775",
-    "canales": {
-      "whatsapp": "2026-11-08T20:46:42.725775"
-    },
-    "precio": 689.0,
-    "precios_publicados": [
-      776.0,
-      689.0,
-      689.0
-    ],
-    "precio_min_publicado": 689.0
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-10T00:28:58.826971",
     "canales": {
@@ -139,16 +126,6 @@
       47.0
     ],
     "precio_min_publicado": 4390.0
-  },
-  "amz-adaptador-usb-wifi-wireless-30-dual-band-1300": {
-    "ts": "2026-11-08T20:52:57.897832",
-    "canales": {
-      "whatsapp": "2026-11-08T20:52:57.897832"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
   },
   "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
     "ts": "2026-11-08T20:56:00.823017",
@@ -3058,6 +3035,16 @@
     "precio": 887.0,
     "precios_publicados": [
       887.0
+    ]
+  },
+  "amz-fralda-pampers-pants-ajuste-total-tamanho-g-1": {
+    "ts": "2026-11-10T20:54:44.122293",
+    "canales": {
+      "whatsapp": "2026-11-10T20:54:44.122293"
+    },
+    "precio": 150.0,
+    "precios_publicados": [
+      150.0
     ]
   }
 }
