@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
-    "ts": "2026-11-08T04:54:40.217486",
-    "canales": {
-      "whatsapp": "2026-11-08T04:54:40.217486"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-ariel-sabao-liquido-toque-de-downy-concentrad": {
     "ts": "2026-11-08T05:20:12.851166",
     "canales": {
@@ -3113,6 +3103,16 @@
     "precio": 2269.0,
     "precios_publicados": [
       2269.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
+    "ts": "2026-11-10T05:12:05.250268",
+    "canales": {
+      "whatsapp": "2026-11-10T05:12:05.250268"
+    },
+    "precio": 4115.0,
+    "precios_publicados": [
+      4115.0
     ]
   }
 }
