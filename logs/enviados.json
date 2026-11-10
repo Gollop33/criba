@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-smartphone-motorola-moto-g67-5g-128gb-4gb-ram": {
-    "ts": "2026-11-08T17:57:46.485998",
-    "canales": {
-      "whatsapp": "2026-11-08T17:57:46.485998"
-    },
-    "precio": 1164.0,
-    "precios_publicados": [
-      1164.0
-    ]
-  },
   "amz-notebook-acer-aspire-go-15-ag1551p34kt-intel-": {
     "ts": "2026-11-08T18:02:41.626316",
     "canales": {
@@ -3001,6 +2991,16 @@
     "precio": 5099.0,
     "precios_publicados": [
       5099.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
+    "ts": "2026-11-10T17:58:29.441234",
+    "canales": {
+      "whatsapp": "2026-11-10T17:58:29.441234"
+    },
+    "precio": 579.0,
+    "precios_publicados": [
+      579.0
     ]
   }
 }
