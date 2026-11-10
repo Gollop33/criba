@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-detergente-ype-clear-5l-detergente-liquido": {
-    "ts": "2026-11-08T12:15:04.277240",
-    "canales": {
-      "whatsapp": "2026-11-08T12:15:04.277240"
-    },
-    "precio": 3478.0,
-    "precios_publicados": [
-      3478.0
-    ]
-  },
   "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
     "ts": "2026-11-08T12:19:40.017660",
     "canales": {
@@ -2984,6 +2974,16 @@
     "precio": 796.0,
     "precios_publicados": [
       796.0
+    ]
+  },
+  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
+    "ts": "2026-11-10T12:15:14.232727",
+    "canales": {
+      "whatsapp": "2026-11-10T12:15:14.232727"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
