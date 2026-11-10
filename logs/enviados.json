@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1551p34kt-intel-": {
-    "ts": "2026-11-08T18:02:41.626316",
-    "canales": {
-      "whatsapp": "2026-11-08T18:02:41.626316"
-    },
-    "precio": 3299.0,
-    "precios_publicados": [
-      3299.0
-    ]
-  },
   "amz-radio-portatil-amfm-2-bandas-recarregavel-usb": {
     "ts": "2026-11-09T18:13:13.789775",
     "canales": {
@@ -3011,6 +3001,16 @@
     "precio": 157.0,
     "precios_publicados": [
       157.0
+    ]
+  },
+  "amz-controle-sem-fio-dualsense-midnight-black": {
+    "ts": "2026-11-10T18:08:30.836876",
+    "canales": {
+      "whatsapp": "2026-11-10T18:08:30.836876"
+    },
+    "precio": 420.0,
+    "precios_publicados": [
+      420.0
     ]
   }
 }
