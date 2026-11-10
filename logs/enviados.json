@@ -25,19 +25,6 @@
     ],
     "precio_min_publicado": 3099.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
-    "ts": "2026-11-08T20:39:23.982459",
-    "canales": {
-      "whatsapp": "2026-11-08T20:39:23.982459"
-    },
-    "precio": 2699.0,
-    "precios_publicados": [
-      269900.0,
-      2699.0,
-      2699.0
-    ],
-    "precio_min_publicado": 2699.0
-  },
   "amz-morte-subita-mascara-super-hidratante-450g-lo": {
     "ts": "2026-11-09T00:21:41.405985",
     "canales": {
@@ -3061,6 +3048,16 @@
     "precio": 7399.0,
     "precios_publicados": [
       7399.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g06128gb-4gb-ram-8gb": {
+    "ts": "2026-11-10T20:45:48.362686",
+    "canales": {
+      "whatsapp": "2026-11-10T20:45:48.362686"
+    },
+    "precio": 887.0,
+    "precios_publicados": [
+      887.0
     ]
   }
 }
