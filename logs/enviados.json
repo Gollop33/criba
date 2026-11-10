@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-lg-ultragear-monitor-gamer-27-ips-200hz-1ms-g": {
-    "ts": "2026-11-08T12:42:08.911056",
-    "canales": {
-      "whatsapp": "2026-11-08T12:42:08.911056"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0
-    ]
-  },
   "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
     "ts": "2026-11-08T12:44:24.643017",
     "canales": {
@@ -2974,6 +2964,16 @@
     "precio": 2902.0,
     "precios_publicados": [
       2902.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
+    "ts": "2026-11-10T12:42:59.042041",
+    "canales": {
+      "whatsapp": "2026-11-10T12:42:59.042041"
+    },
+    "precio": 5332.0,
+    "precios_publicados": [
+      5332.0
     ]
   }
 }
