@@ -67,21 +67,6 @@
       "link_corto": true,
       "motivo": "tanda"
     },
-    "OFERTADEHOJE": {
-      "detectado_em": "2026-10-11T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "ACTINE15": {
-      "detectado_em": "2026-10-11T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CLEANANCE15": {
-      "detectado_em": "2026-10-11T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "PEGUEISEU": {
       "detectado_em": "2026-10-11T04:02:57+00:00",
       "publicado_em": "2026-10-31T19:15:18+00:00",
@@ -522,11 +507,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "SONOMELI": {
-      "detectado_em": "2026-10-11T13:10:46+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 432h (> 24h)"
-    },
     "BONUSML": {
       "detectado_em": "2026-10-29T14:04:11+00:00",
       "publicado_em": null,
@@ -707,11 +687,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "DESCONTOU": {
-      "detectado_em": "2026-10-11T13:20:43+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 576h (> 24h)"
-    },
     "SUPERVANTAGEM": {
       "detectado_em": "2026-11-04T14:04:07+00:00",
       "publicado_em": null,
@@ -831,16 +806,6 @@
       "detectado_em": "2026-11-05T13:05:52+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
-    },
-    "DESCONTOSUPREMO": {
-      "detectado_em": "2026-10-11T13:15:40+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 603h (> 24h)"
-    },
-    "OPAECONOMIZEI": {
-      "detectado_em": "2026-10-11T13:01:23+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 603h (> 24h)"
     },
     "SAINDOBARRATO": {
       "detectado_em": "2026-10-12T13:10:45+00:00",
@@ -1106,7 +1071,67 @@
       "detectado_em": "2026-11-02T12:03:21+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 174h (> 24h)"
+    },
+    "OFFAGORA": {
+      "detectado_em": "2026-11-10T16:30:07+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAJA30": {
+      "detectado_em": "2026-11-10T15:01:04+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "LEVEAGORA25": {
+      "detectado_em": "2026-11-10T15:01:04+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "LEVEAGORA30": {
+      "detectado_em": "2026-11-10T15:01:04+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "POUPAAGORA30": {
+      "detectado_em": "2026-11-10T15:01:04+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CHEGOUCUPOM30": {
+      "detectado_em": "2026-11-10T15:01:04+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "ULTIMASCHANCES": {
+      "detectado_em": "2026-11-10T14:02:22+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOBELEZA": {
+      "detectado_em": "2026-11-10T13:01:59+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUPOMPRAMODA": {
+      "detectado_em": "2026-11-10T13:01:59+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUPOMTECH": {
+      "detectado_em": "2026-11-10T11:02:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOPRACONSTRU": {
+      "detectado_em": "2026-11-10T11:02:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SEMPRENOMELI": {
+      "detectado_em": "2026-11-10T11:02:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-10T08:49:21+00:00"
+  "actualizado": "2026-11-10T16:48:04+00:00"
 }
