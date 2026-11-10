@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-controle-sem-fio-dualsense-midnight-black": {
-    "ts": "2026-11-08T14:00:48.433832",
-    "canales": {
-      "whatsapp": "2026-11-08T14:00:48.433832"
-    },
-    "precio": 420.0,
-    "precios_publicados": [
-      420.0
-    ]
-  },
   "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
     "ts": "2026-11-08T14:09:31.968687",
     "canales": {
@@ -2941,6 +2931,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
+    "ts": "2026-11-10T14:08:23.445373",
+    "canales": {
+      "whatsapp": "2026-11-10T14:08:23.445373"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
