@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-tablet-xiaomi-pad-7-284-cm-8-256-gb-tela-32k-": {
-    "ts": "2026-11-08T19:17:48.415114",
-    "canales": {
-      "whatsapp": "2026-11-08T19:17:48.415114"
-    },
-    "precio": 2279.0,
-    "precios_publicados": [
-      2279.0
-    ]
-  },
   "amz-notebook-dell-15-15i1300a80p-intel-core-i7135": {
     "ts": "2026-11-08T19:27:19.481216",
     "canales": {
@@ -3061,6 +3051,16 @@
     "precio": 229.0,
     "precios_publicados": [
       229.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-11-10T19:19:30.839796",
+    "canales": {
+      "whatsapp": "2026-11-10T19:19:30.839796"
+    },
+    "precio": 1139.0,
+    "precios_publicados": [
+      1139.0
     ]
   }
 }
