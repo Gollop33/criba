@@ -140,16 +140,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-mouse-gamer-redragon-predator-m612rgb-preto": {
-    "ts": "2026-11-08T15:22:19.649743",
-    "canales": {
-      "whatsapp": "2026-11-08T15:22:19.649743"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-11-08T15:28:55.550458",
     "canales": {
@@ -2918,6 +2908,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-smartphone-xiaomi-redmi-note-15-pro-5g-512gb-": {
+    "ts": "2026-11-10T15:22:25.776522",
+    "canales": {
+      "whatsapp": "2026-11-10T15:22:25.776522"
+    },
+    "precio": 2240.0,
+    "precios_publicados": [
+      2240.0
     ]
   }
 }
