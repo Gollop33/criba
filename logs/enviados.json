@@ -179,16 +179,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-fralda-pampers-pants-ajuste-total-tamanho-g-1": {
-    "ts": "2026-11-08T11:10:00.277982",
-    "canales": {
-      "whatsapp": "2026-11-08T11:10:00.277982"
-    },
-    "precio": 148.0,
-    "precios_publicados": [
-      148.0
-    ]
-  },
   "amz-fralda-descartavel-huggies-tamanho-xg-140-uni": {
     "ts": "2026-11-08T11:17:43.336516",
     "canales": {
@@ -3017,6 +3007,16 @@
     "precio": 1152.0,
     "precios_publicados": [
       1152.0
+    ]
+  },
+  "amz-oral-b-iconic-premium-escova-de-dentes-3-unid": {
+    "ts": "2026-11-10T11:15:17.645779",
+    "canales": {
+      "whatsapp": "2026-11-10T11:15:17.645779"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
