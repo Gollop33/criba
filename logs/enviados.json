@@ -153,26 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-11-08T20:17:49.643957",
-    "canales": {
-      "whatsapp": "2026-11-08T20:17:49.643957"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
-  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
-    "ts": "2026-11-08T20:19:02.685574",
-    "canales": {
-      "whatsapp": "2026-11-08T20:19:02.685574"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
     "ts": "2026-11-08T20:25:42.155243",
     "canales": {
@@ -3061,6 +3041,16 @@
     "precio": 370.0,
     "precios_publicados": [
       370.0
+    ]
+  },
+  "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
+    "ts": "2026-11-10T20:21:37.143439",
+    "canales": {
+      "whatsapp": "2026-11-10T20:21:37.143439"
+    },
+    "precio": 274.0,
+    "precios_publicados": [
+      274.0
     ]
   }
 }
