@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-downy-amaciante-concentrado-perfume-collectio": {
-    "ts": "2026-11-08T04:34:03.466187",
-    "canales": {
-      "whatsapp": "2026-11-08T04:34:03.466187"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
     "ts": "2026-11-08T04:54:40.217486",
     "canales": {
@@ -3113,6 +3103,16 @@
     "precio": 1148.0,
     "precios_publicados": [
       1148.0
+    ]
+  },
+  "amz-smart-tv-tcl-50-polegadas-qled-4k-p7l-wifi-bl": {
+    "ts": "2026-11-10T04:45:48.367204",
+    "canales": {
+      "whatsapp": "2026-11-10T04:45:48.367204"
+    },
+    "precio": 2269.0,
+    "precios_publicados": [
+      2269.0
     ]
   }
 }
