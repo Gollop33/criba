@@ -38,19 +38,6 @@
     ],
     "precio_min_publicado": 2699.0
   },
-  "amz-amaciante-ype-ultra-aconchego-5l": {
-    "ts": "2026-11-08T12:52:17.668368",
-    "canales": {
-      "whatsapp": "2026-11-08T12:52:17.668368"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      21.0,
-      18.0,
-      18.0
-    ],
-    "precio_min_publicado": 18.0
-  },
   "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
     "ts": "2026-11-08T14:57:23.172603",
     "canales": {
@@ -2964,6 +2951,16 @@
     "precio": 1457.0,
     "precios_publicados": [
       1457.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-s14-intel-core-ultra-5": {
+    "ts": "2026-11-10T12:57:11.148087",
+    "canales": {
+      "whatsapp": "2026-11-10T12:57:11.148087"
+    },
+    "precio": 5299.0,
+    "precios_publicados": [
+      5299.0
     ]
   }
 }
