@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-gamer-curvo-aoc-agon-g4z-27-300hz-03m": {
-    "ts": "2026-11-08T12:25:53.772899",
-    "canales": {
-      "whatsapp": "2026-11-08T12:25:53.772899"
-    },
-    "precio": 1079.0,
-    "precios_publicados": [
-      1079.0
-    ]
-  },
   "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
     "ts": "2026-11-08T12:32:27.510604",
     "canales": {
@@ -2974,6 +2964,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
+    "ts": "2026-11-10T12:29:08.825656",
+    "canales": {
+      "whatsapp": "2026-11-10T12:29:08.825656"
+    },
+    "precio": 135.0,
+    "precios_publicados": [
+      135.0
     ]
   }
 }
