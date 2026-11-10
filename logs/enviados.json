@@ -127,16 +127,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-amd-processador-ryzen-7-5800x3d-de-8-nucleos-": {
-    "ts": "2026-11-08T21:14:35.840063",
-    "canales": {
-      "whatsapp": "2026-11-08T21:14:35.840063"
-    },
-    "precio": 2384.0,
-    "precios_publicados": [
-      2384.0
-    ]
-  },
   "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
     "ts": "2026-11-08T21:19:47.220849",
     "canales": {
@@ -3055,6 +3045,16 @@
     "precio": 2199.0,
     "precios_publicados": [
       2199.0
+    ]
+  },
+  "amz-monitor-aoc-185-led-vga-e-hdmi": {
+    "ts": "2026-11-10T21:14:50.069147",
+    "canales": {
+      "whatsapp": "2026-11-10T21:14:50.069147"
+    },
+    "precio": 332.0,
+    "precios_publicados": [
+      332.0
     ]
   }
 }
