@@ -177,26 +177,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-256gb-8gb-ram-c": {
-    "ts": "2026-11-08T02:01:21.868566",
-    "canales": {
-      "whatsapp": "2026-11-08T02:01:21.868566"
-    },
-    "precio": 2665.0,
-    "precios_publicados": [
-      2665.0
-    ]
-  },
-  "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-08T02:08:12.933101",
-    "canales": {
-      "whatsapp": "2026-11-08T02:08:12.933101"
-    },
-    "precio": 479.0,
-    "precios_publicados": [
-      479.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
     "ts": "2026-11-08T02:15:07.805729",
     "canales": {
@@ -3185,6 +3165,16 @@
     "precio": 1532.0,
     "precios_publicados": [
       1532.0
+    ]
+  },
+  "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
+    "ts": "2026-11-10T02:09:02.197436",
+    "canales": {
+      "whatsapp": "2026-11-10T02:09:02.197436"
+    },
+    "precio": 818.0,
+    "precios_publicados": [
+      818.0
     ]
   }
 }
