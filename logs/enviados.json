@@ -300,14 +300,16 @@
     ]
   },
   "amz-escova-de-dente-macia-colgate-slim-soft-black": {
-    "ts": "2026-11-09T01:59:30.920129",
+    "ts": "2026-11-10T23:50:06.425733",
     "canales": {
-      "whatsapp": "2026-11-09T01:59:30.920129"
+      "whatsapp": "2026-11-10T23:50:06.425733"
     },
-    "precio": 28.0,
+    "precio": 24.0,
     "precios_publicados": [
-      28.0
-    ]
+      28.0,
+      24.0
+    ],
+    "precio_min_publicado": 28.0
   },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
     "ts": "2026-11-09T02:32:43.988601",
