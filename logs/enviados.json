@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
-    "ts": "2026-11-08T19:42:02.251003",
-    "canales": {
-      "whatsapp": "2026-11-08T19:42:02.251003"
-    },
-    "precio": 312.0,
-    "precios_publicados": [
-      312.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
     "ts": "2026-11-08T19:48:56.293735",
     "canales": {
@@ -3081,6 +3071,16 @@
     "precio": 569.0,
     "precios_publicados": [
       569.0
+    ]
+  },
+  "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
+    "ts": "2026-11-10T19:46:01.797488",
+    "canales": {
+      "whatsapp": "2026-11-10T19:46:01.797488"
+    },
+    "precio": 779.0,
+    "precios_publicados": [
+      779.0
     ]
   }
 }
