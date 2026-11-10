@@ -177,46 +177,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-11-08T02:15:07.805729",
-    "canales": {
-      "whatsapp": "2026-11-08T02:15:07.805729"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
-  },
-  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
-    "ts": "2026-11-08T02:22:14.837923",
-    "canales": {
-      "whatsapp": "2026-11-08T02:22:14.837923"
-    },
-    "precio": 844.0,
-    "precios_publicados": [
-      844.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-128gb-8gb-ra": {
-    "ts": "2026-11-08T02:29:10.534358",
-    "canales": {
-      "whatsapp": "2026-11-08T02:29:10.534358"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
-  "amz-memoria-corsair-vengeance-32gb-2x16gb-ddr5-52": {
-    "ts": "2026-11-08T02:36:19.757851",
-    "canales": {
-      "whatsapp": "2026-11-08T02:36:19.757851"
-    },
-    "precio": 3449.0,
-    "precios_publicados": [
-      3449.0
-    ]
-  },
   "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
     "ts": "2026-11-08T02:43:29.313961",
     "canales": {
@@ -3175,6 +3135,16 @@
     "precio": 818.0,
     "precios_publicados": [
       818.0
+    ]
+  },
+  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
+    "ts": "2026-11-10T02:38:38.311056",
+    "canales": {
+      "whatsapp": "2026-11-10T02:38:38.311056"
+    },
+    "precio": 170.0,
+    "precios_publicados": [
+      170.0
     ]
   }
 }
