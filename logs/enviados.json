@@ -38,18 +38,6 @@
     ],
     "precio_min_publicado": 2699.0
   },
-  "amz-detergente-em-po-ype-1kg-formula-3-em-1-com-a": {
-    "ts": "2026-11-08T03:23:36.468377",
-    "canales": {
-      "whatsapp": "2026-11-08T03:23:36.468377"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      52.0,
-      35.0
-    ],
-    "precio_min_publicado": 52.0
-  },
   "amz-finish-power-powder-advanced-detergente-para-": {
     "ts": "2026-11-08T11:53:02.444721",
     "canales": {
@@ -176,16 +164,6 @@
       537.0
     ],
     "precio_min_publicado": 599.0
-  },
-  "amz-notebook-asus-vivobook-15-m1502ya-amd-ryzen-7": {
-    "ts": "2026-11-08T03:15:22.722903",
-    "canales": {
-      "whatsapp": "2026-11-08T03:15:22.722903"
-    },
-    "precio": 3698.0,
-    "precios_publicados": [
-      3698.0
-    ]
   },
   "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
     "ts": "2026-11-09T04:19:58.337825",
@@ -3115,6 +3093,16 @@
     "precio": 2149.0,
     "precios_publicados": [
       2149.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
+    "ts": "2026-11-10T03:37:02.388703",
+    "canales": {
+      "whatsapp": "2026-11-10T03:37:02.388703"
+    },
+    "precio": 887.0,
+    "precios_publicados": [
+      887.0
     ]
   }
 }
