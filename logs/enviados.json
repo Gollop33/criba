@@ -153,26 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
-    "ts": "2026-11-08T19:48:56.293735",
-    "canales": {
-      "whatsapp": "2026-11-08T19:48:56.293735"
-    },
-    "precio": 1579.0,
-    "precios_publicados": [
-      1579.0
-    ]
-  },
-  "amz-britania-blq1300p-liquidificador-turbo-1400w-": {
-    "ts": "2026-11-08T19:51:43.536488",
-    "canales": {
-      "whatsapp": "2026-11-08T19:51:43.536488"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "amz-base-de-carregamento-do-dualsense-playstation": {
     "ts": "2026-11-08T19:56:18.090124",
     "canales": {
@@ -3081,6 +3061,16 @@
     "precio": 779.0,
     "precios_publicados": [
       779.0
+    ]
+  },
+  "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
+    "ts": "2026-11-10T19:54:22.819551",
+    "canales": {
+      "whatsapp": "2026-11-10T19:54:22.819551"
+    },
+    "precio": 1174.0,
+    "precios_publicados": [
+      1174.0
     ]
   }
 }
