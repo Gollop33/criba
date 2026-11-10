@@ -140,16 +140,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-11-08T15:28:55.550458",
-    "canales": {
-      "whatsapp": "2026-11-08T15:28:55.550458"
-    },
-    "precio": 2920.0,
-    "precios_publicados": [
-      2920.0
-    ]
-  },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-11-08T15:36:09.037365",
     "canales": {
@@ -2918,6 +2908,16 @@
     "precio": 2240.0,
     "precios_publicados": [
       2240.0
+    ]
+  },
+  "amz-mouse-gamer-redragon-predator-m612rgb-preto": {
+    "ts": "2026-11-10T15:29:20.770442",
+    "canales": {
+      "whatsapp": "2026-11-10T15:29:20.770442"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
