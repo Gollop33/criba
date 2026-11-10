@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-controle-sem-fio-para-xbox-series-x-s-xbox-on": {
-    "ts": "2026-11-08T18:55:26.777279",
-    "canales": {
-      "whatsapp": "2026-11-08T18:55:26.777279"
-    },
-    "precio": 377.0,
-    "precios_publicados": [
-      377.0
-    ]
-  },
   "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
     "ts": "2026-11-08T19:02:16.268235",
     "canales": {
@@ -3061,6 +3051,16 @@
     "precio": 3499.0,
     "precios_publicados": [
       3499.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
+    "ts": "2026-11-10T18:56:57.800260",
+    "canales": {
+      "whatsapp": "2026-11-10T18:56:57.800260"
+    },
+    "precio": 692.0,
+    "precios_publicados": [
+      692.0
     ]
   }
 }
