@@ -127,16 +127,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-08T21:02:30.460316",
-    "canales": {
-      "whatsapp": "2026-11-08T21:02:30.460316"
-    },
-    "precio": 5887.0,
-    "precios_publicados": [
-      5887.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
     "ts": "2026-11-08T21:10:45.388443",
     "canales": {
@@ -3045,6 +3035,16 @@
     "precio": 525.0,
     "precios_publicados": [
       525.0
+    ]
+  },
+  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
+    "ts": "2026-11-10T21:05:32.518341",
+    "canales": {
+      "whatsapp": "2026-11-10T21:05:32.518341"
+    },
+    "precio": 959.0,
+    "precios_publicados": [
+      959.0
     ]
   }
 }
