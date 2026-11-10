@@ -179,26 +179,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-08T09:49:52.424059",
-    "canales": {
-      "whatsapp": "2026-11-08T09:49:52.424059"
-    },
-    "precio": 3699.0,
-    "precios_publicados": [
-      3699.0
-    ]
-  },
-  "amz-samsung-combo-galaxy-a57-5g-256gb-cinza-galax": {
-    "ts": "2026-11-08T09:57:15.582165",
-    "canales": {
-      "whatsapp": "2026-11-08T09:57:15.582165"
-    },
-    "precio": 2902.0,
-    "precios_publicados": [
-      2902.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-08T10:07:53.912339",
     "canales": {
@@ -3027,6 +3007,16 @@
     "precio": 49.0,
     "precios_publicados": [
       49.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
+    "ts": "2026-11-10T09:57:43.775121",
+    "canales": {
+      "whatsapp": "2026-11-10T09:57:43.775121"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
