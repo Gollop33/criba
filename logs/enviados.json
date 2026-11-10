@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-109-128gb-8g": {
-    "ts": "2026-11-08T18:16:47.591428",
-    "canales": {
-      "whatsapp": "2026-11-08T18:16:47.591428"
-    },
-    "precio": 2899.0,
-    "precios_publicados": [
-      2899.0
-    ]
-  },
   "amz-tablet-vaio-tl12-8gb-256gb-octacore-tela-amol": {
     "ts": "2026-11-08T18:22:04.815613",
     "canales": {
@@ -3041,6 +3031,16 @@
     "precio": 5332.0,
     "precios_publicados": [
       5332.0
+    ]
+  },
+  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
+    "ts": "2026-11-10T18:21:44.324749",
+    "canales": {
+      "whatsapp": "2026-11-10T18:21:44.324749"
+    },
+    "precio": 394.0,
+    "precios_publicados": [
+      394.0
     ]
   }
 }
