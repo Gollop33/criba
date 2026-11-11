@@ -78,18 +78,6 @@
     ],
     "precio_min_publicado": 599.0
   },
-  "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
-    "ts": "2026-11-09T04:19:58.337825",
-    "canales": {
-      "whatsapp": "2026-11-09T04:19:58.337825"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      52.0,
-      35.0
-    ],
-    "precio_min_publicado": 52.0
-  },
   "amz-radio-portatil-amfm-2-bandas-recarregavel-usb": {
     "ts": "2026-11-09T18:13:13.789775",
     "canales": {
@@ -3208,6 +3196,16 @@
     "precio": 503.0,
     "precios_publicados": [
       503.0
+    ]
+  },
+  "amz-stanley-copo-quencher-rose-quartz-887ml": {
+    "ts": "2026-11-11T04:38:11.824169",
+    "canales": {
+      "whatsapp": "2026-11-11T04:38:11.824169"
+    },
+    "precio": 147.0,
+    "precios_publicados": [
+      147.0
     ]
   }
 }
