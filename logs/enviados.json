@@ -126,16 +126,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
-    "ts": "2026-11-09T15:36:13.902207",
-    "canales": {
-      "whatsapp": "2026-11-09T15:36:13.902207"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
     "ts": "2026-11-11T00:32:21.637690",
     "canales": {
@@ -3260,6 +3250,16 @@
     "precio": 105.0,
     "precios_publicados": [
       105.0
+    ]
+  },
+  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
+    "ts": "2026-11-11T15:36:24.494029",
+    "canales": {
+      "whatsapp": "2026-11-11T15:36:24.494029"
+    },
+    "precio": 95.0,
+    "precios_publicados": [
+      95.0
     ]
   }
 }
