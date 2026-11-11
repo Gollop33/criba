@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-fralda-turma-da-monica-baby-p-62-unidades": {
-    "ts": "2026-11-09T18:58:27.080577",
-    "canales": {
-      "whatsapp": "2026-11-09T18:58:27.080577"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-cetaphil-creme-hidratante": {
     "ts": "2026-11-09T19:01:21.440029",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-sanduicheira-eletrica-cadence-click-127v": {
+    "ts": "2026-11-11T18:59:18.577341",
+    "canales": {
+      "whatsapp": "2026-11-11T18:59:18.577341"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
