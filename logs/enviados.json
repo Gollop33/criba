@@ -126,16 +126,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
-    "ts": "2026-11-09T02:32:43.988601",
-    "canales": {
-      "whatsapp": "2026-11-09T02:32:43.988601"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
     "ts": "2026-11-09T03:08:01.403870",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "ml-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
+    "ts": "2026-11-11T02:33:27.665071",
+    "canales": {
+      "whatsapp": "2026-11-11T02:33:27.665071"
+    },
+    "precio": 670.0,
+    "precios_publicados": [
+      670.0
     ]
   }
 }
