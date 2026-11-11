@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-notebook-dell-inspiron-15i1300a80p-intel-core": {
-    "ts": "2026-11-09T21:13:01.938984",
-    "canales": {
-      "whatsapp": "2026-11-09T21:13:01.938984"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
   "amz-mondial-fritadeira-air-fryer-forno-oven-analo": {
     "ts": "2026-11-09T21:18:27.506030",
     "canales": {
@@ -3268,6 +3258,16 @@
     "precio": 2743.0,
     "precios_publicados": [
       2743.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
+    "ts": "2026-11-11T21:16:15.125498",
+    "canales": {
+      "whatsapp": "2026-11-11T21:16:15.125498"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
