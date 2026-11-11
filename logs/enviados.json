@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
-    "ts": "2026-11-09T18:49:47.347328",
-    "canales": {
-      "whatsapp": "2026-11-09T18:49:47.347328"
-    },
-    "precio": 46.0,
-    "precios_publicados": [
-      46.0
-    ]
-  },
   "amz-fralda-turma-da-monica-baby-p-62-unidades": {
     "ts": "2026-11-09T18:58:27.080577",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 93.0,
     "precios_publicados": [
       93.0
+    ]
+  },
+  "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
+    "ts": "2026-11-11T18:55:44.235066",
+    "canales": {
+      "whatsapp": "2026-11-11T18:55:44.235066"
+    },
+    "precio": 140.0,
+    "precios_publicados": [
+      140.0
     ]
   }
 }
