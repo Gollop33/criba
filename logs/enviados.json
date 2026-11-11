@@ -150,26 +150,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-11-09T17:50:18.832167",
-    "canales": {
-      "whatsapp": "2026-11-09T17:50:18.832167"
-    },
-    "precio": 718.0,
-    "precios_publicados": [
-      718.0
-    ]
-  },
-  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-11-09T17:57:02.210420",
-    "canales": {
-      "whatsapp": "2026-11-09T17:57:02.210420"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-11-09T18:04:44.155614",
     "canales": {
@@ -1615,14 +1595,16 @@
     ]
   },
   "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-10T16:36:26.244294",
+    "ts": "2026-11-11T17:57:30.636628",
     "canales": {
-      "whatsapp": "2026-11-10T16:36:26.244294"
+      "whatsapp": "2026-11-11T17:57:30.636628"
     },
-    "precio": 479.0,
+    "precio": 422.0,
     "precios_publicados": [
-      479.0
-    ]
+      479.0,
+      422.0
+    ],
+    "precio_min_publicado": 479.0
   },
   "amz-be-place-kids-tablet-infantil-android-13-128g": {
     "ts": "2026-11-10T16:43:22.710638",
