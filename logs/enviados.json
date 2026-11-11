@@ -102,16 +102,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-09T11:50:16.852915",
-    "canales": {
-      "whatsapp": "2026-11-09T11:50:16.852915"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-finish-detergente-para-lava-loucas-em-po-700g": {
     "ts": "2026-11-09T11:57:18.681154",
     "canales": {
@@ -3248,6 +3238,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "amz-scotchbrite-3m-esponja-para-loucas-delicadas-": {
+    "ts": "2026-11-11T11:50:23.731889",
+    "canales": {
+      "whatsapp": "2026-11-11T11:50:23.731889"
+    },
+    "precio": 6.0,
+    "precios_publicados": [
+      6.0
     ]
   }
 }
