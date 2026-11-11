@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-tablet-positivo-vision-tab-10-4gb-ram-128gb-a": {
-    "ts": "2026-11-09T20:34:55.705783",
-    "canales": {
-      "whatsapp": "2026-11-09T20:34:55.705783"
-    },
-    "precio": 909.0,
-    "precios_publicados": [
-      909.0
-    ]
-  },
   "amz-monitor-gamer-samsung-24-fhd-120-hz-hdmi-pret": {
     "ts": "2026-11-09T20:39:19.155747",
     "canales": {
@@ -3276,6 +3266,16 @@
     "precio": 2999.0,
     "precios_publicados": [
       2999.0
+    ]
+  },
+  "amz-resident-evil-requiem-playstation-5": {
+    "ts": "2026-11-11T20:38:31.779517",
+    "canales": {
+      "whatsapp": "2026-11-11T20:38:31.779517"
+    },
+    "precio": 249.0,
+    "precios_publicados": [
+      249.0
     ]
   }
 }
