@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-tablet-s7p-android-15-101-polegadas-ips-full-": {
-    "ts": "2026-11-09T20:08:22.374715",
-    "canales": {
-      "whatsapp": "2026-11-09T20:08:22.374715"
-    },
-    "precio": 709.0,
-    "precios_publicados": [
-      709.0
-    ]
-  },
   "amz-electrolux-kit-16-potes-hermeticos-plastico-m": {
     "ts": "2026-11-09T20:17:44.730488",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 309.0,
     "precios_publicados": [
       309.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
+    "ts": "2026-11-11T20:08:29.792186",
+    "canales": {
+      "whatsapp": "2026-11-11T20:08:29.792186"
+    },
+    "precio": 3877.0,
+    "precios_publicados": [
+      3877.0
     ]
   }
 }
