@@ -124,26 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
-    "ts": "2026-11-09T21:58:18.727023",
-    "canales": {
-      "whatsapp": "2026-11-09T21:58:18.727023"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
-  "amz-dux-human-health-whey-protein-concentrado-900": {
-    "ts": "2026-11-09T22:03:53.541605",
-    "canales": {
-      "whatsapp": "2026-11-09T22:03:53.541605"
-    },
-    "precio": 193.0,
-    "precios_publicados": [
-      193.0
-    ]
-  },
   "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
     "ts": "2026-11-09T22:07:59.397545",
     "canales": {
@@ -3268,6 +3248,16 @@
     "precio": 1349.0,
     "precios_publicados": [
       1349.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
+    "ts": "2026-11-11T22:04:02.197075",
+    "canales": {
+      "whatsapp": "2026-11-11T22:04:02.197075"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
