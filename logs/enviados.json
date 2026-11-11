@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
-    "ts": "2026-11-09T18:46:01.056107",
-    "canales": {
-      "whatsapp": "2026-11-09T18:46:01.056107"
-    },
-    "precio": 63.0,
-    "precios_publicados": [
-      63.0
-    ]
-  },
   "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
     "ts": "2026-11-09T18:49:47.347328",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 77.0,
     "precios_publicados": [
       77.0
+    ]
+  },
+  "amz-britania-sanduicheira-e-grill-bgr27i-press-2-": {
+    "ts": "2026-11-11T18:48:38.754909",
+    "canales": {
+      "whatsapp": "2026-11-11T18:48:38.754909"
+    },
+    "precio": 93.0,
+    "precios_publicados": [
+      93.0
     ]
   }
 }
