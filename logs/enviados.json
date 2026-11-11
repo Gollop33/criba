@@ -148,16 +148,6 @@
     ],
     "precio_min_publicado": 203.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-09T22:53:18.990329",
-    "canales": {
-      "whatsapp": "2026-11-09T22:53:18.990329"
-    },
-    "precio": 1594.0,
-    "precios_publicados": [
-      1594.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
     "ts": "2026-11-09T23:01:48.377637",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 1899.0,
     "precios_publicados": [
       1899.0
+    ]
+  },
+  "amz-pcyes-placa-de-video-rx-550-4gb-gddr5-128-bit": {
+    "ts": "2026-11-11T22:55:39.719383",
+    "canales": {
+      "whatsapp": "2026-11-11T22:55:39.719383"
+    },
+    "precio": 527.0,
+    "precios_publicados": [
+      527.0
     ]
   }
 }
