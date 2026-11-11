@@ -126,16 +126,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-11-09T14:50:12.043379",
-    "canales": {
-      "whatsapp": "2026-11-09T14:50:12.043379"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
   "amz-vichy-dercos-energy-shampoo-antiqueda-estimul": {
     "ts": "2026-11-09T14:57:17.150869",
     "canales": {
@@ -3270,6 +3260,16 @@
     "precio": 43.0,
     "precios_publicados": [
       43.0
+    ]
+  },
+  "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
+    "ts": "2026-11-11T14:57:11.638595",
+    "canales": {
+      "whatsapp": "2026-11-11T14:57:11.638595"
+    },
+    "precio": 28.0,
+    "precios_publicados": [
+      28.0
     ]
   }
 }
