@@ -102,26 +102,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
-    "ts": "2026-11-09T13:50:20.731100",
-    "canales": {
-      "whatsapp": "2026-11-09T13:50:20.731100"
-    },
-    "precio": 37.0,
-    "precios_publicados": [
-      37.0
-    ]
-  },
-  "amz-ugreen-adaptador-usb-bluetooth-54-para-pc-plu": {
-    "ts": "2026-11-09T13:56:54.571815",
-    "canales": {
-      "whatsapp": "2026-11-09T13:56:54.571815"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "amz-filtrorefil-original-de-agua-para-purificador": {
     "ts": "2026-11-09T14:08:15.110950",
     "canales": {
@@ -1671,14 +1651,16 @@
     ]
   },
   "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
-    "ts": "2026-11-10T13:50:22.850705",
+    "ts": "2026-11-11T13:57:20.841135",
     "canales": {
-      "whatsapp": "2026-11-10T13:50:22.850705"
+      "whatsapp": "2026-11-11T13:57:20.841135"
     },
-    "precio": 3389.0,
+    "precio": 2999.0,
     "precios_publicados": [
-      3389.0
-    ]
+      3389.0,
+      2999.0
+    ],
+    "precio_min_publicado": 3389.0
   },
   "amz-mouse-sem-fio-logitech-lift-vertical-com-desi": {
     "ts": "2026-11-10T13:57:03.835370",
