@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-monitor-gamer-samsung-24-fhd-120-hz-hdmi-pret": {
-    "ts": "2026-11-09T20:39:19.155747",
-    "canales": {
-      "whatsapp": "2026-11-09T20:39:19.155747"
-    },
-    "precio": 549.0,
-    "precios_publicados": [
-      549.0
-    ]
-  },
   "amz-monitor-dell-pro-27-plus-full-hd-1920-x-1080-": {
     "ts": "2026-11-09T20:44:32.262795",
     "canales": {
@@ -3276,6 +3266,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
+    "ts": "2026-11-11T20:42:36.506471",
+    "canales": {
+      "whatsapp": "2026-11-11T20:42:36.506471"
+    },
+    "precio": 4499.0,
+    "precios_publicados": [
+      4499.0
     ]
   }
 }
