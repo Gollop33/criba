@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 529900.0
   },
-  "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
-    "ts": "2026-11-09T22:34:42.102719",
-    "canales": {
-      "whatsapp": "2026-11-09T22:34:42.102719"
-    },
-    "precio": 239.0,
-    "precios_publicados": [
-      239.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-8gb-256gb-tablet-com-tela-": {
     "ts": "2026-11-09T22:36:13.225071",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 928.0,
     "precios_publicados": [
       928.0
+    ]
+  },
+  "amz-metroid-ravenous-nintendo-switch-2": {
+    "ts": "2026-11-11T22:34:57.981720",
+    "canales": {
+      "whatsapp": "2026-11-11T22:34:57.981720"
+    },
+    "precio": 439.0,
+    "precios_publicados": [
+      439.0
     ]
   }
 }
