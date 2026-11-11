@@ -66,18 +66,6 @@
     ],
     "precio_min_publicado": 3799.0
   },
-  "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
-    "ts": "2026-11-09T06:42:55.293542",
-    "canales": {
-      "whatsapp": "2026-11-09T06:42:55.293542"
-    },
-    "precio": 537.0,
-    "precios_publicados": [
-      599.0,
-      537.0
-    ],
-    "precio_min_publicado": 599.0
-  },
   "amz-radio-portatil-amfm-2-bandas-recarregavel-usb": {
     "ts": "2026-11-09T18:13:13.789775",
     "canales": {
@@ -3260,6 +3248,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-mantecorp-hidratante-epidrat-calm-b5-hidrata-": {
+    "ts": "2026-11-11T07:03:23.908441",
+    "canales": {
+      "whatsapp": "2026-11-11T07:03:23.908441"
+    },
+    "precio": 42.0,
+    "precios_publicados": [
+      42.0
     ]
   }
 }
