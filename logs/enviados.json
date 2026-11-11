@@ -148,16 +148,6 @@
     ],
     "precio_min_publicado": 203.0
   },
-  "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
-    "ts": "2026-11-09T23:01:48.377637",
-    "canales": {
-      "whatsapp": "2026-11-09T23:01:48.377637"
-    },
-    "precio": 699.0,
-    "precios_publicados": [
-      699.0
-    ]
-  },
   "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
     "ts": "2026-11-09T23:04:07.789205",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 527.0,
     "precios_publicados": [
       527.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
+    "ts": "2026-11-11T23:03:53.180807",
+    "canales": {
+      "whatsapp": "2026-11-11T23:03:53.180807"
+    },
+    "precio": 2699.0,
+    "precios_publicados": [
+      2699.0
     ]
   }
 }
