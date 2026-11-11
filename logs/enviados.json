@@ -114,26 +114,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-mantecorp-hidratante-epidrat-calm-b5-hidrata-": {
-    "ts": "2026-11-09T01:20:00.694761",
-    "canales": {
-      "whatsapp": "2026-11-09T01:20:00.694761"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-09T01:21:12.972732",
-    "canales": {
-      "whatsapp": "2026-11-09T01:21:12.972732"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "amz-la-rocheposay-ultra-cover-protetor-solar-com-": {
     "ts": "2026-11-09T01:26:40.305182",
     "canales": {
@@ -3180,6 +3160,16 @@
     "precio": 2159.0,
     "precios_publicados": [
       2159.0
+    ]
+  },
+  "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
+    "ts": "2026-11-11T01:25:57.601516",
+    "canales": {
+      "whatsapp": "2026-11-11T01:25:57.601516"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
