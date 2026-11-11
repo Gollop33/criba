@@ -114,16 +114,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
-    "ts": "2026-11-09T00:35:17.980674",
-    "canales": {
-      "whatsapp": "2026-11-09T00:35:17.980674"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-kit-sabonete-phebo-amarelo-720g": {
     "ts": "2026-11-09T00:41:25.983000",
     "canales": {
@@ -3178,6 +3168,16 @@
     "precio": 1098.0,
     "precios_publicados": [
       1098.0
+    ]
+  },
+  "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
+    "ts": "2026-11-11T00:37:24.638416",
+    "canales": {
+      "whatsapp": "2026-11-11T00:37:24.638416"
+    },
+    "precio": 181.0,
+    "precios_publicados": [
+      181.0
     ]
   }
 }
