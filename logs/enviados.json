@@ -114,26 +114,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-kit-sabonete-phebo-amarelo-720g": {
-    "ts": "2026-11-09T00:41:25.983000",
-    "canales": {
-      "whatsapp": "2026-11-09T00:41:25.983000"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-09T00:43:51.370040",
-    "canales": {
-      "whatsapp": "2026-11-09T00:43:51.370040"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-dove-desodorante-antitranspirante-aerossol-or": {
     "ts": "2026-11-09T00:52:00.980134",
     "canales": {
@@ -1435,14 +1415,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-5": {
-    "ts": "2026-11-09T22:19:44.133445",
+    "ts": "2026-11-11T00:46:52.073824",
     "canales": {
-      "whatsapp": "2026-11-09T22:19:44.133445"
+      "whatsapp": "2026-11-11T00:46:52.073824"
     },
-    "precio": 529900.0,
+    "precio": 5299.0,
     "precios_publicados": [
-      529900.0
-    ]
+      529900.0,
+      5299.0
+    ],
+    "precio_min_publicado": 529900.0
   },
   "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
     "ts": "2026-11-09T22:23:51.438719",
