@@ -1295,14 +1295,16 @@
     ]
   },
   "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
-    "ts": "2026-11-09T22:38:35.289756",
+    "ts": "2026-11-11T06:06:01.590096",
     "canales": {
-      "whatsapp": "2026-11-09T22:38:35.289756"
+      "whatsapp": "2026-11-11T06:06:01.590096"
     },
-    "precio": 203.0,
+    "precio": 158.0,
     "precios_publicados": [
-      203.0
-    ]
+      203.0,
+      158.0
+    ],
+    "precio_min_publicado": 203.0
   },
   "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
     "ts": "2026-11-09T22:43:43.320536",
