@@ -72,31 +72,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "PROMODEHOJE": {
-      "detectado_em": "2026-10-12T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MELIOFFHJ": {
-      "detectado_em": "2026-10-12T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MELITEMCUPOM": {
-      "detectado_em": "2026-10-12T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PARAVC": {
-      "detectado_em": "2026-10-12T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "CARE15": {
-      "detectado_em": "2026-10-12T12:01:01+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "MELHORDEHJ": {
       "detectado_em": "2026-10-13T13:07:17+00:00",
       "publicado_em": null,
@@ -807,11 +782,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "SAINDOBARRATO": {
-      "detectado_em": "2026-10-12T13:10:45+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 579h (> 24h)"
-    },
     "HOJECOMCUPOM": {
       "detectado_em": "2026-11-05T19:24:24+00:00",
       "publicado_em": null,
@@ -916,11 +886,6 @@
       "detectado_em": "2026-10-18T15:08:32+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 486h (> 24h)"
-    },
-    "PROMOCERTAML": {
-      "detectado_em": "2026-10-12T13:20:41+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 648h (> 24h)"
     },
     "CARRINHOML": {
       "detectado_em": "2026-11-08T16:01:02+00:00",
@@ -1151,7 +1116,87 @@
       "detectado_em": "2026-11-11T03:01:28+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUPOMEXCLUSIVO": {
+      "detectado_em": "2026-11-11T15:00:26+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CORREPROMELI": {
+      "detectado_em": "2026-11-11T11:03:08+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DESCONTOJA": {
+      "detectado_em": "2026-11-11T17:01:19+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOCOMTECH": {
+      "detectado_em": "2026-11-11T16:36:15+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "APROVEITAAGORA": {
+      "detectado_em": "2026-11-11T16:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OPORTUNIDADEML": {
+      "detectado_em": "2026-11-11T14:00:15+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DESCONTODOML30": {
+      "detectado_em": "2026-11-11T13:05:51+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTASML30": {
+      "detectado_em": "2026-11-11T13:05:51+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "VALEAGORA30": {
+      "detectado_em": "2026-11-11T13:05:51+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SEMPREAQUI": {
+      "detectado_em": "2026-11-11T13:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "VALEAGORA25": {
+      "detectado_em": "2026-11-11T13:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAJA22": {
+      "detectado_em": "2026-11-11T13:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MODASEMPREML": {
+      "detectado_em": "2026-11-11T11:03:08+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFSEMPRENOML": {
+      "detectado_em": "2026-11-11T11:03:08+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CORREPROCUPOM": {
+      "detectado_em": "2026-11-11T11:03:08+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOPRACASA": {
+      "detectado_em": "2026-11-11T11:03:08+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-11T11:05:35+00:00"
+  "actualizado": "2026-11-11T17:48:54+00:00"
 }
