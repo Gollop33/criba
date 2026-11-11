@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-11T05:01:44+00:00",
-  "total": 225,
+  "actualizado": "2026-11-11T05:39:39+00:00",
+  "total": 227,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -3072,7 +3072,32 @@
       "detectado_em": "2026-11-10T19:15:25+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "NOMELITEM",
+      "desconto": "12% OFF",
+      "compra_minima": "",
+      "limite": "R$300",
+      "hasta": "",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-11T03:01:28+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "BELEZALUXO",
+      "desconto": "10% OFF",
+      "compra_minima": "",
+      "limite": "R$50",
+      "hasta": "",
+      "categoria": "Beleza",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-11T03:01:28+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ],
-  "revisado_em": "2026-11-11T02:01:09-03:00"
+  ]
 }
