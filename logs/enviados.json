@@ -752,14 +752,16 @@
     ]
   },
   "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
-    "ts": "2026-11-09T14:29:07.316765",
+    "ts": "2026-11-11T00:07:38.796349",
     "canales": {
-      "whatsapp": "2026-11-09T14:29:07.316765"
+      "whatsapp": "2026-11-11T00:07:38.796349"
     },
-    "precio": 64.0,
+    "precio": 54.0,
     "precios_publicados": [
-      64.0
-    ]
+      64.0,
+      54.0
+    ],
+    "precio_min_publicado": 64.0
   },
   "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
     "ts": "2026-11-09T14:36:21.623069",
