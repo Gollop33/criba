@@ -124,26 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-monitor-dell-pro-27-plus-full-hd-1920-x-1080-": {
-    "ts": "2026-11-09T20:44:32.262795",
-    "canales": {
-      "whatsapp": "2026-11-09T20:44:32.262795"
-    },
-    "precio": 1299.0,
-    "precios_publicados": [
-      1299.0
-    ]
-  },
-  "amz-philco-fritadeira-air-fryer-12l-pt-pfr2200p-2": {
-    "ts": "2026-11-09T20:48:34.918003",
-    "canales": {
-      "whatsapp": "2026-11-09T20:48:34.918003"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
   "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
     "ts": "2026-11-09T20:56:32.509410",
     "canales": {
@@ -3286,6 +3266,16 @@
     "precio": 1579.0,
     "precios_publicados": [
       1579.0
+    ]
+  },
+  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
+    "ts": "2026-11-11T20:48:54.375799",
+    "canales": {
+      "whatsapp": "2026-11-11T20:48:54.375799"
+    },
+    "precio": 998.0,
+    "precios_publicados": [
+      998.0
     ]
   }
 }
