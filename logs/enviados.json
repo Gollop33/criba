@@ -138,16 +138,6 @@
     ],
     "precio_min_publicado": 1230.0
   },
-  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-11-09T16:57:13.285767",
-    "canales": {
-      "whatsapp": "2026-11-09T16:57:13.285767"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
     "ts": "2026-11-09T17:08:14.004024",
     "canales": {
@@ -3270,6 +3260,16 @@
     "precio": 130.0,
     "precios_publicados": [
       130.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
+    "ts": "2026-11-11T16:57:25.601763",
+    "canales": {
+      "whatsapp": "2026-11-11T16:57:25.601763"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
