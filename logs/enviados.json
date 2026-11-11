@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-arvore-de-natal-luxo-pinheiro-180m-800-galhos": {
-    "ts": "2026-11-09T19:53:29.808800",
-    "canales": {
-      "whatsapp": "2026-11-09T19:53:29.808800"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0
-    ]
-  },
   "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
     "ts": "2026-11-09T20:03:05.739096",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 4599.0,
     "precios_publicados": [
       4599.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g67-5g-128gb-4gb-ram": {
+    "ts": "2026-11-11T20:00:45.612588",
+    "canales": {
+      "whatsapp": "2026-11-11T20:00:45.612588"
+    },
+    "precio": 1442.0,
+    "precios_publicados": [
+      1442.0
     ]
   }
 }
