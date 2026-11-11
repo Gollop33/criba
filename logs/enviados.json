@@ -126,16 +126,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-09T03:08:01.403870",
-    "canales": {
-      "whatsapp": "2026-11-09T03:08:01.403870"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-clear-sports-men-shampoo-anticaspa-limpeza-pr": {
     "ts": "2026-11-09T03:47:55.575898",
     "canales": {
@@ -3198,6 +3188,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "ml-monitor-lg-ultrawide-tela-ips-de-29-219-hdr10": {
+    "ts": "2026-11-11T03:28:17.720342",
+    "canales": {
+      "whatsapp": "2026-11-11T03:28:17.720342"
+    },
+    "precio": 978.0,
+    "precios_publicados": [
+      978.0
     ]
   }
 }
