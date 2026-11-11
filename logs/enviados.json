@@ -138,16 +138,6 @@
     ],
     "precio_min_publicado": 1230.0
   },
-  "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
-    "ts": "2026-11-09T17:08:14.004024",
-    "canales": {
-      "whatsapp": "2026-11-09T17:08:14.004024"
-    },
-    "precio": 133.0,
-    "precios_publicados": [
-      133.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
     "ts": "2026-11-09T17:15:21.129938",
     "canales": {
@@ -1733,14 +1723,16 @@
     ]
   },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
-    "ts": "2026-11-10T17:12:55.448548",
+    "ts": "2026-11-11T17:15:12.763367",
     "canales": {
-      "whatsapp": "2026-11-10T17:12:55.448548"
+      "whatsapp": "2026-11-11T17:15:12.763367"
     },
-    "precio": 4599.0,
+    "precio": 3999.0,
     "precios_publicados": [
-      4599.0
-    ]
+      4599.0,
+      3999.0
+    ],
+    "precio_min_publicado": 4599.0
   },
   "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
     "ts": "2026-11-10T17:19:58.107516",
