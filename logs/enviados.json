@@ -102,16 +102,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
-    "ts": "2026-11-09T12:43:18.880659",
-    "canales": {
-      "whatsapp": "2026-11-09T12:43:18.880659"
-    },
-    "precio": 81.0,
-    "precios_publicados": [
-      81.0
-    ]
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-11-09T12:50:24.069890",
     "canales": {
@@ -3248,6 +3238,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-cif-limpador-especialista-derrete-gordura-500": {
+    "ts": "2026-11-11T12:43:23.540954",
+    "canales": {
+      "whatsapp": "2026-11-11T12:43:23.540954"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
