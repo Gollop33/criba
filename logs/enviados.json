@@ -160,36 +160,6 @@
     ],
     "precio_min_publicado": 19.0
   },
-  "amz-secret-clinical-desodorante-antitranspirante-": {
-    "ts": "2026-11-09T23:20:21.434005",
-    "canales": {
-      "whatsapp": "2026-11-09T23:20:21.434005"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
-  "amz-lyor-bandeja-de-bambu-hire-marrom-natural-28c": {
-    "ts": "2026-11-09T23:22:24.391836",
-    "canales": {
-      "whatsapp": "2026-11-09T23:22:24.391836"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      12.0
-    ]
-  },
-  "amz-dove-sabonete-em-barra-branco-90g-8-unidades": {
-    "ts": "2026-11-09T23:29:00.977316",
-    "canales": {
-      "whatsapp": "2026-11-09T23:29:00.977316"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "cupom-ml-ccf5a2930e": {
     "ts": "2026-11-11T00:02:25.930313",
     "canales": {
@@ -3258,6 +3228,16 @@
     "precio": 4495.0,
     "precios_publicados": [
       4495.0
+    ]
+  },
+  "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
+    "ts": "2026-11-11T23:54:53.825078",
+    "canales": {
+      "whatsapp": "2026-11-11T23:54:53.825078"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
