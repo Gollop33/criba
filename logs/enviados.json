@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
-    "ts": "2026-11-09T21:48:52.828357",
-    "canales": {
-      "whatsapp": "2026-11-09T21:48:52.828357"
-    },
-    "precio": 989.0,
-    "precios_publicados": [
-      989.0
-    ]
-  },
   "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
     "ts": "2026-11-09T21:58:18.727023",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 1776.0,
     "precios_publicados": [
       1776.0
+    ]
+  },
+  "amz-base-de-carregamento-do-dualsense-playstation": {
+    "ts": "2026-11-11T21:50:29.785831",
+    "canales": {
+      "whatsapp": "2026-11-11T21:50:29.785831"
+    },
+    "precio": 181.0,
+    "precios_publicados": [
+      181.0
     ]
   }
 }
