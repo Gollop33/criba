@@ -102,26 +102,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-11-09T13:15:20.646376",
-    "canales": {
-      "whatsapp": "2026-11-09T13:15:20.646376"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-11-09T13:22:09.945448",
-    "canales": {
-      "whatsapp": "2026-11-09T13:22:09.945448"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      41.0
-    ]
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-09T13:29:21.552953",
     "canales": {
@@ -3258,6 +3238,16 @@
     "precio": 49.0,
     "precios_publicados": [
       49.0
+    ]
+  },
+  "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
+    "ts": "2026-11-11T13:22:16.744592",
+    "canales": {
+      "whatsapp": "2026-11-11T13:22:16.744592"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
