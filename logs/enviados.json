@@ -138,16 +138,6 @@
     ],
     "precio_min_publicado": 1230.0
   },
-  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-09T16:08:15.319578",
-    "canales": {
-      "whatsapp": "2026-11-09T16:08:15.319578"
-    },
-    "precio": 4499.0,
-    "precios_publicados": [
-      4499.0
-    ]
-  },
   "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
     "ts": "2026-11-09T16:15:06.818047",
     "canales": {
@@ -3270,6 +3260,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-creatina-monohidratada-1kg-100-pura-importada": {
+    "ts": "2026-11-11T16:08:28.109579",
+    "canales": {
+      "whatsapp": "2026-11-11T16:08:28.109579"
+    },
+    "precio": 68.0,
+    "precios_publicados": [
+      68.0
     ]
   }
 }
