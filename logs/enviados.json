@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
-    "ts": "2026-11-09T22:07:59.397545",
-    "canales": {
-      "whatsapp": "2026-11-09T22:07:59.397545"
-    },
-    "precio": 6934.0,
-    "precios_publicados": [
-      6934.0
-    ]
-  },
   "amz-tramontina-panela-de-pressao-vancouver-effect": {
     "ts": "2026-11-09T22:18:03.041134",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-apple-iphone-17-de-256-gb-preto": {
+    "ts": "2026-11-11T22:11:10.391015",
+    "canales": {
+      "whatsapp": "2026-11-11T22:11:10.391015"
+    },
+    "precio": 5859.0,
+    "precios_publicados": [
+      5859.0
     ]
   }
 }
