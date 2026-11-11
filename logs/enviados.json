@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-tramontina-panela-de-pressao-vancouver-effect": {
-    "ts": "2026-11-09T22:18:03.041134",
-    "canales": {
-      "whatsapp": "2026-11-09T22:18:03.041134"
-    },
-    "precio": 161.0,
-    "precios_publicados": [
-      161.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-5": {
     "ts": "2026-11-11T00:46:52.073824",
     "canales": {
@@ -3268,6 +3258,16 @@
     "precio": 2252.0,
     "precios_publicados": [
       2252.0
+    ]
+  },
+  "amz-apple-iphone-16-128-gb-preto": {
+    "ts": "2026-11-11T22:23:18.610785",
+    "canales": {
+      "whatsapp": "2026-11-11T22:23:18.610785"
+    },
+    "precio": 5054.0,
+    "precios_publicados": [
+      5054.0
     ]
   }
 }
