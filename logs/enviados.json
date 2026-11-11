@@ -114,16 +114,6 @@
     ],
     "precio_min_publicado": 4390.0
   },
-  "amz-lavaroupas-em-po-omo-puro-cuidado-2kg-caixa": {
-    "ts": "2026-11-09T01:17:15.392838",
-    "canales": {
-      "whatsapp": "2026-11-09T01:17:15.392838"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-mantecorp-hidratante-epidrat-calm-b5-hidrata-": {
     "ts": "2026-11-09T01:20:00.694761",
     "canales": {
@@ -3180,6 +3170,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "ml-notebook-positivo-vision-n15m-intel-n100-8gb-": {
+    "ts": "2026-11-11T01:18:37.670588",
+    "canales": {
+      "whatsapp": "2026-11-11T01:18:37.670588"
+    },
+    "precio": 2159.0,
+    "precios_publicados": [
+      2159.0
     ]
   }
 }
