@@ -124,26 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-tablet-xiaomi-mi-pad-8-de-112-polegadas-8-gb-": {
-    "ts": "2026-11-09T21:05:29.096047",
-    "canales": {
-      "whatsapp": "2026-11-09T21:05:29.096047"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
-  "amz-wap-ventilador-de-mesa-e-parede-50cm-flow-tur": {
-    "ts": "2026-11-09T21:09:43.718607",
-    "canales": {
-      "whatsapp": "2026-11-09T21:09:43.718607"
-    },
-    "precio": 150.0,
-    "precios_publicados": [
-      150.0
-    ]
-  },
   "amz-notebook-dell-inspiron-15i1300a80p-intel-core": {
     "ts": "2026-11-09T21:13:01.938984",
     "canales": {
@@ -1829,14 +1809,16 @@
     ]
   },
   "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
-    "ts": "2026-11-10T21:11:27.220246",
+    "ts": "2026-11-11T21:12:14.958763",
     "canales": {
-      "whatsapp": "2026-11-10T21:11:27.220246"
+      "whatsapp": "2026-11-11T21:12:14.958763"
     },
-    "precio": 2199.0,
+    "precio": 1899.0,
     "precios_publicados": [
-      2199.0
-    ]
+      2199.0,
+      1899.0
+    ],
+    "precio_min_publicado": 2199.0
   },
   "amz-monitor-aoc-185-led-vga-e-hdmi": {
     "ts": "2026-11-10T21:14:50.069147",
