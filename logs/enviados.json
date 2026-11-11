@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-electrolux-kit-16-potes-hermeticos-plastico-m": {
-    "ts": "2026-11-09T20:17:44.730488",
-    "canales": {
-      "whatsapp": "2026-11-09T20:17:44.730488"
-    },
-    "precio": 9900.0,
-    "precios_publicados": [
-      9900.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-11-09T20:23:50.934490",
     "canales": {
@@ -3256,6 +3246,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-sony-playstation-5-slim-digital-console-825gb": {
+    "ts": "2026-11-11T20:18:49.484794",
+    "canales": {
+      "whatsapp": "2026-11-11T20:18:49.484794"
+    },
+    "precio": 4249.0,
+    "precios_publicados": [
+      4249.0
     ]
   }
 }
