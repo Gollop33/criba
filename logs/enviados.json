@@ -1,18 +1,4 @@
 {
-  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-11-09T18:01:46.695682",
-    "canales": {
-      "whatsapp": "2026-11-09T18:01:46.695682"
-    },
-    "precio": 2899.0,
-    "precios_publicados": [
-      314900.0,
-      3239.0,
-      3099.0,
-      2899.0
-    ],
-    "precio_min_publicado": 3099.0
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-10T00:28:58.826971",
     "canales": {
@@ -149,16 +135,6 @@
       665910.0
     ],
     "precio_min_publicado": 739900.0
-  },
-  "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
-    "ts": "2026-11-09T18:04:44.155614",
-    "canales": {
-      "whatsapp": "2026-11-09T18:04:44.155614"
-    },
-    "precio": 48.0,
-    "precios_publicados": [
-      48.0
-    ]
   },
   "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
     "ts": "2026-11-09T18:18:41.895764",
@@ -1731,14 +1707,16 @@
     ]
   },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-10T17:53:52.298256",
+    "ts": "2026-11-11T18:05:02.622899",
     "canales": {
-      "whatsapp": "2026-11-10T17:53:52.298256"
+      "whatsapp": "2026-11-11T18:05:02.622899"
     },
-    "precio": 5099.0,
+    "precio": 4499.0,
     "precios_publicados": [
-      5099.0
-    ]
+      5099.0,
+      4499.0
+    ],
+    "precio_min_publicado": 5099.0
   },
   "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
     "ts": "2026-11-10T17:58:29.441234",
