@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-10T23:41:10+00:00",
+  "actualizado": "2026-11-11T05:01:45+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,55 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15iwc11 intel core",
-      "nombre": "Notebook Lenovo Ideapad Slim 3 15iwc11 Intel Core 5 320 16gb 512gb Ssd Windows 11 Home - 83wa0003bo",
-      "precio_ref": 4290.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "monitor lg fhd home office 22 1ms mbr",
-      "nombre": "Monitor LG FHD Home & Office 22”, 1ms (MBR), 120Hz (O/C), Modo leitura, Flicker Safe, HDMI, LG Switch, Black Stabilizer, Dynamic Action Sync, Preto- 22U403A",
-      "precio_ref": 377.1,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "escova de dente macia colgate slim soft black",
-      "nombre": "Escova de Dente Macia Colgate Slim Soft Black, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
-      "precio_ref": 24.99,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "projetor smart portatil full hd 4k android 11",
-      "nombre": "Projetor Smart Portátil Full Hd 4k Android 11 Wi-fi Bluetooth Mini Projetor Home Theater Cinema Em Casa Imagem Nítida Som Potente Compatível Com Diversos Dispositivos Branco 127/220",
-      "precio_ref": 170.2,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
-      "nombre": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml",
-      "precio_ref": 26.48,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "suporte articulado para monitor 13 a 32 pistao",
-      "nombre": "Suporte Articulado Para Monitor 13 a 32 Pistão a Gás Ajustável Zinnia Nimbo 110 Preto",
-      "precio_ref": 89.89,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "filtro refil original de agua acqua pure para",
@@ -65,15 +17,15 @@
       "precio_ref": 54.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "smart tv samsung 32 hd tizen hdr wi",
-      "nombre": "Smart Tv Samsung 32'' Hd Tizen Hdr Wi-fi Hdmi Monitor Bivolt Preta Preto",
-      "precio_ref": 928.28,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
+      "nombre": "Dove Óleo de Banho Hidratação Intensa e Limpeza Delicada, Glicerinado com 96% Ingredientes de Origem Natural 240 ml",
+      "precio_ref": 26.48,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "detergente em po ype 1kg formula 3 em",
@@ -81,31 +33,15 @@
       "precio_ref": 35.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor gamer aoc agon g4s 25 310hz 0",
-      "nombre": "Monitor Gamer AOC AGON G4S 25\" 310Hz 0.3ms HDR400 IPS Base Ajustável 25G4S/P Preto",
-      "precio_ref": 1099.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "echo dot smart speaker com alexa som vibrante",
-      "nombre": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+",
-      "precio_ref": 371.28,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "escova de dente macia colgate slim soft black",
+      "nombre": "Escova de Dente Macia Colgate Slim Soft Black, 4 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, Conjunto com 4",
+      "precio_ref": 24.99,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 32 va 165hz 1ms",
-      "nombre": "LG UltraGear Monitor Gamer 32\"- VA 165Hz 1ms (MBR) QHD 2K (2560x1440) HDR10 AMD FreeSync, Preto - 32GN600",
-      "precio_ref": 1098.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
@@ -113,15 +49,23 @@
       "precio_ref": 999.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "projetor portatil 4k hd android 11 0 smart",
-      "nombre": "Projetor Portátil 4k Hd Android 11.0 Smart Wifi 5g Bluetooth Branco 127/220v",
-      "precio_ref": 181.99,
+      "busqueda": "tablet positivo vision tab 7 processador octa core",
+      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
+      "precio_ref": 422.35,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "echo dot smart speaker com alexa som vibrante",
+      "nombre": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+",
+      "precio_ref": 371.28,
       "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 intel core 5 8",
@@ -129,207 +73,127 @@
       "precio_ref": 5299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor gamer portatil 15 6 1080p fhd ips",
-      "nombre": "Monitor Gamer Portátil 15.6 1080p Fhd Ips Com Hdmi Usb Preto 127/220v",
-      "precio_ref": 372.92,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "keldog bifinho evolutivo criadores churrasco 500g para caes",
-      "nombre": "Keldog Bifinho Evolutivo Criadores Churrasco 500G | Para cães adultos, Deliciosamente suculento, Ingredientes naturais e sele",
-      "precio_ref": 20.11,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung odyssey g40 27 240 hz",
-      "nombre": "Monitor Gamer Samsung Odyssey G40 27\", 240 Hz, 1ms, ajuste de altura, Gsync, Freesync,HDMI, DP, FHD, Preto",
-      "precio_ref": 975.57,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "vonixx sintra fast multilimpador flotador universal bactericida e",
-      "nombre": "Vonixx SINTRA FAST - Multilimpador flotador universal, bactericida e germicida de pH balanceado, 500ML",
-      "precio_ref": 21.07,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire go 15 com processador intel",
-      "nombre": "Notebook Acer Aspire Go 15 com Processador Intel Core i5 13ª Geração 8GB de Memória RAM DDR5 Armazenamento 256GB SSD Tela 15.6\" Full HD Windows 11 AG15-71P-5939",
-      "precio_ref": 3329.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "areia higienica para gatos bionature biodegradavel 4kg",
-      "nombre": "Areia Higiênica para Gatos Bionature Biodegradável 4kg",
-      "precio_ref": 34.67,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "notebook positivo vision n15m intel n100 8gb ram",
-      "nombre": "Notebook Positivo Vision N15M Intel N100 8GB RAM 128GB SSD, Windows 11 Home e Tela 15.6\" Full HD IPS Antirreflexo",
-      "precio_ref": 2159.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "eliminador de odores liquido para pets wap cereja",
-      "nombre": "Eliminador de Odores Líquido para Pets WAP, Cereja e Avelã, 1 litro | Neutralizador de Odores com fragrância",
-      "precio_ref": 37.59,
-      "categoria": "Perfumes & Fragrâncias",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "monitor aoc 22 120hz 1ms gaming hdmi 22b35hm23",
-      "nombre": "Monitor AOC 22\" 120Hz 1ms Gaming HDMI 22B35HM23 Preto",
-      "precio_ref": 395.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "adaptador usb wi fi 6 bluetooth 1300mbps internet",
-      "nombre": "Adaptador USB Wi-Fi 6 + Bluetooth 1300Mbps | Internet Ultra Rápida 2.4/5GHz, 2 Antenas.",
-      "precio_ref": 44.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 processador octa core",
-      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento Tela 7” IPS Bateria 3100mAh, Android 14 Go, Wi-fi - Preto",
-      "precio_ref": 394.68,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "tapete higienico descartavel para caes blue premium 30",
-      "nombre": "Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades",
-      "precio_ref": 56.3,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "monitor lg fhd gamer office com telaips 24",
-      "nombre": "Monitor LG FHD Gamer & Office com telaIPS 24”, 1ms (MBR), 144Hz nativo, FreeSync, HDR10, sRGB, Modo leitura, Flicker Safe, HDMI, Black Stabilizer, Dynamic Action Sync, Preto -24U411B",
-      "precio_ref": 559.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "max titanium creatina monohidratada pote 300g 100 pura",
-      "nombre": "Max Titanium Creatina Monohidratada Pote 300g | 100% Pura",
-      "precio_ref": 40.0,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
-      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto - 27G411B",
-      "precio_ref": 670.68,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "nivea kit locao hidratante milk pele seca a",
-      "nombre": "NIVEA Kit Loção Hidratante Milk Pele Seca a Extrasseca 400ml (2 unidades)",
-      "precio_ref": 35.9,
+      "busqueda": "sabonete em barra nivea creme care 90g pack",
+      "nombre": "Sabonete em Barra NIVEA Creme Care, 90g, Pack com 6 Unidades | Com Glicerina, Fragrância NIVEA Creme, Com Eucerit",
+      "precio_ref": 19.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor lg ultrawide tela ips de 29 21",
-      "nombre": "Monitor LG UltraWide - Tela IPS de 29\", 21:9, HDR10, sRGB 99%, 100Hz, Preto- 29WQ500B",
-      "precio_ref": 978.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "buddemeyer jogo de toalhas melissa extra soft banho",
-      "nombre": "Buddemeyer Jogo de Toalhas Melissa Extra Soft Banho Branco 5 pçs",
-      "precio_ref": 144.41,
-      "categoria": "Casa & Móveis",
+      "busqueda": "clear sports men shampoo anticaspa limpeza profunda 400ml",
+      "nombre": "Clear Sports Men - Shampoo Anticaspa Limpeza Profunda 400Ml",
+      "precio_ref": 21.72,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "processador amd ryzen 5 5500 3 6ghz 4",
-      "nombre": "Processador AMD Ryzen 5 5500 3.6GHz 4.2GHz Max Turbo Cache 16MB AM4",
-      "precio_ref": 503.91,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "stanley copo quencher rose quartz 887ml",
-      "nombre": "Stanley Copo Quencher Rose Quartz 887ml",
-      "precio_ref": 147.19,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "la roche posay ultra cover protetor solar com",
+      "nombre": "La Roche-Posay, Ultra Cover, Protetor Solar com Cor e Performance de Maquiagem, 12h de cobertura de base em uma única camada,",
+      "precio_ref": 74.85,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "notebook positivo vision c15m minitela celeron 8gb 128gb",
-      "nombre": "Notebook Positivo Vision C15M Minitela Celeron, 8GB 128GB eMMC, Tela 15.6\" HD Antirreflexo, Windows 11, Tecla Link, Cinza 1",
-      "precio_ref": 1799.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "kingston flash drive exodia m 128gb usb pen",
-      "nombre": "Kingston Flash Drive Exodia M 128GB USB | Pen drive USB 3.2 Geração 1 com tampa móvel e laço de chaveiro para documentos, mús",
-      "precio_ref": 95.99,
-      "categoria": "Pet Shop",
+      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
+      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
+      "precio_ref": 25.65,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor gamer lg ultragear curvo 34 quadhd 2k",
-      "nombre": "Monitor Gamer LG UltraGear Curvo 34\"- QuadHD 2K, UltraWide 1800R, 160Hz, 1ms (MBR), AMD FreeSync Premium, HDR10, MaxxAudio, Preto -34G600A",
-      "precio_ref": 1655.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "mondial liquidificador turbo power preto 550w 110v l",
-      "nombre": "MONDIAL Liquidificador Turbo Power, Preto, 550W, 110V - L-99 FB | 3 Velocidades",
-      "precio_ref": 99.89,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "pinga cenoura e oliva oleo 50ml lola cosmetics",
+      "nombre": "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics",
+      "precio_ref": 16.83,
+      "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor lg ultrafine tela ips de 27 4k",
-      "nombre": "Monitor LG UltraFine - Tela IPS de 27” 4K UHD , HDR10 & DCI-P3 90% , 60Hz, 5ms (GtG), Super Resolution+, HDMI, DisplayPort, Preto - 27U711B",
-      "precio_ref": 1199.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "busqueda": "mantecorp hidratante epidrat calm b5 hidrata e acalma",
+      "nombre": "MANTECORP - Hidratante Epidrat Calm B5 - Hidrata e Acalma a Pele, Conforto Imediato, D-Pantenol",
+      "precio_ref": 42.36,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
+      "nombre": "L'Oréal Paris Elseve Óleo Extraordinário Finalizador Capilar, Nutrição Profunda com 6 Óleos Preciosos, Anti-Frizz, Proteção T",
+      "precio_ref": 29.9,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "lava roupas em po omo puro cuidado 2kg",
+      "nombre": "Lava-Roupas em Pó Omo Puro Cuidado, 2kg | Caixa",
+      "precio_ref": 23.73,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics",
+      "precio_ref": 30.93,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "argan oleo reparador 50ml lola cosmetics",
+      "nombre": "Argan Óleo Reparador 50ml , Lola Cosmetics",
+      "precio_ref": 13.16,
+      "categoria": "Automotivo",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
+      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
+      "precio_ref": 35.8,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "oral b pasta de dente 3d white brilliant",
+      "nombre": "Oral-B Pasta de Dente 3D White Brilliant Fresh, 3 Unidades de 70 g",
+      "precio_ref": 12.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "omo sabao liquido puro cuidado 5l tampa pode",
+      "nombre": "Omo Sabão Líquido Puro Cuidado 5L - Tampa pode Variar",
+      "precio_ref": 54.48,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech pebble 2 m350s com",
+      "nombre": "Mouse sem fio Logitech Pebble 2 M350s com Clique Silencioso, Design Slim Ambidestro, Conexão Bluetooth e Pilha Inclusa - Graf",
+      "precio_ref": 79.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
+      "nombre": "Kit Morte Súbita (Shampoo + Condicionador + Spray Reparaçao) - Lola From Rio",
+      "precio_ref": 94.7,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
@@ -337,7 +201,7 @@
       "precio_ref": 105.72,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "coleira antipulgas e carrapatos para caes acima de",
@@ -345,63 +209,39 @@
       "precio_ref": 130.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "notebook positivo vision c15m intel celeron n4500 windows",
-      "nombre": "Notebook Positivo Vision C15M Intel Celeron N4500 Windows 11 Home 4GB RAM 128GB eMMC Tela 15\" Full HD IPS Antirreflexo - Minitela e Tecla Copilot - Cinza",
-      "precio_ref": 1839.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
-      "nombre": "Tablet Xiaomi Redmi Pad 2 Pro Tela 12.1\" WiFi 256GB 8GB RAM - Cinza Grafite (Caixa Slim)",
-      "precio_ref": 2099.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "mondial liquidificador turbo power preto 550w 110v l",
+      "nombre": "MONDIAL Liquidificador Turbo Power, Preto, 550W, 110V - L-99 FB | 3 Velocidades",
+      "precio_ref": 99.89,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor pc gamer lg 27 ips 100hz full",
-      "nombre": "Monitor PC Gamer LG 27” - IPS, 100Hz Full HD, HDMI 2x, Preto-27MS500",
-      "precio_ref": 677.18,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 dc15 i51334u a80 intel i5",
-      "nombre": "Notebook Dell 15 DC15-I51334U-A80, Intel i5-1334U, Windows 11 Home | Tela 15,6 FHD 120 Hz Antirreflexo, 16 GB RAM, 1 TB SSD,",
-      "precio_ref": 5584.78,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "havit fone de ouvido headset gamer fuxi h3",
+      "nombre": "Havit Fone de Ouvido Headset Gamer Fuxi-H3 Black Com Fio e Sem Fio, Wireless 2,4GHz, Bluetooth, Cabo USB-C",
+      "precio_ref": 149.88,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "monitor lg oled ultragear 27gx704a b 27 240hz",
-      "nombre": "Monitor LG OLED UltraGear 27GX704A-B 27\", 240Hz, QuadHD 2K, 0.03ms (GtG), NVIDIA G-SYNC, AMD FreeSync Premium Pro, Vesa AdaptiveSync, HDR True Black 400",
-      "precio_ref": 3372.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
-      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
-      "precio_ref": 1784.66,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "kingston flash drive exodia m 128gb usb pen",
+      "nombre": "Kingston Flash Drive Exodia M 128GB USB | Pen drive USB 3.2 Geração 1 com tampa móvel e laço de chaveiro para documentos, mús",
+      "precio_ref": 95.99,
+      "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "placa mae asus tuf gaming b550m plus ddr4",
-      "nombre": "Placa Mãe Asus Tuf Gaming B550m-plus Ddr4 AMD Am4 mATX RGB",
-      "precio_ref": 749.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "busqueda": "resident evil requiem playstation 5",
+      "nombre": "Resident Evil Requiem - PlayStation 5",
+      "precio_ref": 249.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
@@ -409,31 +249,31 @@
       "precio_ref": 312.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "notebook gamer acer predator helios neo 16 ia",
-      "nombre": "Notebook Gamer Acer Predator Helios Neo 16 IA com Placa NVIDIA GeForce RTX 5070 8GB Processador Intel Core Ultra 7 32GB RAM DDR5 512GB SSD Tela 16\" WQXGA 240Hz IPS Windows 11 PHN16-73-76H8",
-      "precio_ref": 11159.0,
+      "busqueda": "monitor portatil 15 6 full hd 1080p 60hz",
+      "nombre": "Monitor Portátil 15.6\" Full HD 1080P 60Hz | USB-C e Mini HDMI, Tela Extensora com Capa Suporte e Alto-falantes para Notebook,",
+      "precio_ref": 339.98,
       "categoria": "Monitores & Displays",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "echo pop geracao mais recente smart speaker compacto",
-      "nombre": "Echo Pop (Geração mais recente) | Smart speaker compacto com som envolvente e Alexa | Cor Branca, com Acesso Antecipado à Ale",
-      "precio_ref": 399.0,
+      "busqueda": "quatree supreme racao para gatos castrados salmao 10",
+      "nombre": "Quatree Supreme Ração para Gatos Castrados Salmao 10.1kg",
+      "precio_ref": 176.48,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "notebook acer aspire 16 com processador intel core",
-      "nombre": "Notebook Acer Aspire 16 com Processador Intel Core Ultra 5 16GB de Memória RAM LPDDR5 Armazenamento 512GB SSD Tela 16\" WUXGA IPS Windows 11 A16-71M-55H0",
-      "precio_ref": 4409.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "busqueda": "apple 2025 ipad air de 13 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 13 polegadas (Wi-Fi, 128 GB) - Azul (M3)",
+      "precio_ref": 6111.1,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "samsung galaxy book4 intel coretm i5 1335u 8gb",
@@ -441,31 +281,167 @@
       "precio_ref": 3997.09,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "notebook vaio fe16 amd ryzen 7 5825u linux",
-      "nombre": "Notebook Vaio Fe16 Amd Ryzen 7-5825u Linux 16gb RAM 512gb Ssd Wi-Fi 6 Tela 16\" Ips Wuxga Antirreflexo Cinza Grafite Vjfe69f11xb0121h - Permite upgrade de memória RAM e SSD",
-      "precio_ref": 3999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "busqueda": "apple iphone 17 de 256 gb preto",
+      "nombre": "Apple iPhone 17 de 256 GB — Preto",
+      "precio_ref": 5859.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "notebook acer aspire go 15 core i5 16gb",
-      "nombre": "Notebook Acer Aspire Go 15 Core i5 16GB 512GB SSD Win 11 AG15-71P-53R6 | Tela de 15.6\" Full HD, processador Intel Core i5 13ª",
-      "precio_ref": 4499.9,
+      "busqueda": "notebook acer aspire go 15 ag15 51p 34kt",
+      "nombre": "Notebook Acer Aspire Go 15 AG15-51P-34KT, Intel Core i3-1215U, 15.3\" WUXGA IPS, 8GB RAM DDR5, 256GB SSD NVMe Cinza Aço",
+      "precio_ref": 3299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "headphones havit h668bt anc 80h reproducao bluetooth 5",
-      "nombre": "Headphones Havit H668BT ANC, 80h Reprodução, Bluetooth 5.4, Conexão multiponto, Design dobrável, Cor Preto",
-      "precio_ref": 155.32,
+      "busqueda": "radio manivela manual de emergencia com lanterna led",
+      "nombre": "Rádio manivela manual de emergência com lanterna LED para emergência, Rádio meteorológico portátil AM/FM NOAA com carregador",
+      "precio_ref": 189.0,
       "categoria": "Ofertas Gerais",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera 50MP, IP68, Super AMOLED 6.7\", Recursos AI (Azul Escuro)",
+      "precio_ref": 1998.89,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "grand theft auto vi playstation 5",
+      "nombre": "Grand Theft Auto VI - PlayStation 5",
+      "precio_ref": 449.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "dove desodorante antitranspirante aerossol original 250 ml leve",
+      "nombre": "Dove Desodorante Antitranspirante Aerossol Original 250 ML, Leve Mais e Pague Menos",
+      "precio_ref": 2199.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "echo pop geracao mais recente smart speaker compacto",
+      "nombre": "Echo Pop (Geração mais recente) | Smart speaker compacto com som envolvente e Alexa | Cor Branca, com Acesso Antecipado à Ale",
+      "precio_ref": 399.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "metroid ravenous nintendo switch 2",
+      "nombre": "Metroid Ravenous – Nintendo Switch 2",
+      "precio_ref": 439.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "base de carregamento do dualsense playstation 5",
+      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
+      "precio_ref": 177.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 Pro Tela 12.1\" WiFi 256GB 8GB RAM - Cinza Grafite (Caixa Slim)",
+      "precio_ref": 2099.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi pad 7 28 4 cm 8",
+      "nombre": "Tablet Xiaomi Pad 7, 28,4 cm, 8 + 256 GB, tela 3,2K 144Hz, Snapdragon 7+ Gen 3, bateria de 8850 mAh, carregamento rápido de 4",
+      "precio_ref": 2370.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "volante e pedais logitech g29 driving force com",
+      "nombre": "Volante e Pedais Logitech G29 Driving Force com Force Feedback para PS5, PS4, PS3 e PC",
+      "precio_ref": 1569.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 766.72,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook go e1504ga intel core i3",
+      "nombre": "Notebook Asus Vivobook Go E1504ga Intel Core i3 N305 8gb Ram 512gb Ssd Windows 11 Tela 15,6\" Fhd Silver - Nj435w",
+      "precio_ref": 2799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 dc15 i51334u a80 intel i5",
+      "nombre": "Notebook Dell 15 DC15-I51334U-A80, Intel i5-1334U, Windows 11 Home | Tela 15,6 FHD 120 Hz Antirreflexo, 16 GB RAM, 1 TB SSD,",
+      "precio_ref": 5584.78,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "controle sem fio para xbox series x s",
+      "nombre": "Controle Sem Fio para Xbox Series X S Xbox One e PC Preto",
+      "precio_ref": 384.8,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4799.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 2699.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "pro controller nintendo switch 2",
+      "nombre": "Pro Controller Nintendo Switch 2",
+      "precio_ref": 599.87,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
+      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 8 GB, 512 GB SSD, KeepOS/Linux, 15.6'' FHD, Cool Silver - M1502YA-NJ611",
+      "precio_ref": 3199.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab s10 fe 10 9",
@@ -473,15 +449,39 @@
       "precio_ref": 2895.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     },
     {
-      "busqueda": "zotac rtx 5060 twin edge placa video 8gb",
-      "nombre": "Zotac Rtx 5060 Twin Edge Placa Vídeo 8gb Gddr7 Cooling Ar",
-      "precio_ref": 3099.0,
+      "busqueda": "jsaux protective case for switch 2 split grip",
+      "nombre": "JSAUX Protective Case for Switch 2, Split Grip Case with Front Cover | Proteção contra quedas, encaixável, aderência ergonômi",
+      "precio_ref": 180.64,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
+      "nombre": "Celular Samsung Galaxy A17, 128GB, 4GB, 50MP Tela 6.7\", IP54 - Preto",
+      "precio_ref": 949.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a17 5g 256gb 8gb 50mp",
+      "nombre": "Celular Samsung Galaxy A17 5G, 256GB, 8GB, 50MP Tela 6.7\" - Cinza",
+      "precio_ref": 1398.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
+    },
+    {
+      "busqueda": "tablet tcl a1 plus 128gb 16gb ram 6gb",
+      "nombre": "Tablet TCL A1 Plus 128GB, 16GB RAM (6GB + 10GB), Tela 12.2\" 2.4K 120Hz, Bateria 8000mAh, Android 16, Snapdragon - Com Capa Te",
+      "precio_ref": 1665.47,
       "categoria": "Hardware & Componentes",
-      "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-10T23:41:10+00:00"
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T05:01:45+00:00"
     }
   ]
 }
