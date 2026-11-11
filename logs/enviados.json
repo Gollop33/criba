@@ -148,16 +148,6 @@
     ],
     "precio_min_publicado": 203.0
   },
-  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-11-09T23:17:05.639715",
-    "canales": {
-      "whatsapp": "2026-11-09T23:17:05.639715"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-11-11T17:48:56.926467",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 3799.0,
     "precios_publicados": [
       3799.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
+    "ts": "2026-11-11T23:18:33.536307",
+    "canales": {
+      "whatsapp": "2026-11-11T23:18:33.536307"
+    },
+    "precio": 4495.0,
+    "precios_publicados": [
+      4495.0
     ]
   }
 }
