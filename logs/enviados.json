@@ -138,16 +138,6 @@
     ],
     "precio_min_publicado": 1230.0
   },
-  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-11-09T16:15:06.818047",
-    "canales": {
-      "whatsapp": "2026-11-09T16:15:06.818047"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
   "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
     "ts": "2026-11-09T16:22:26.268077",
     "canales": {
@@ -3270,6 +3260,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
+    "ts": "2026-11-11T16:15:19.182057",
+    "canales": {
+      "whatsapp": "2026-11-11T16:15:19.182057"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
