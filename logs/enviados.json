@@ -102,16 +102,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
-    "ts": "2026-11-09T11:57:18.681154",
-    "canales": {
-      "whatsapp": "2026-11-09T11:57:18.681154"
-    },
-    "precio": 32.0,
-    "precios_publicados": [
-      32.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-11-09T12:07:55.308280",
     "canales": {
@@ -3248,6 +3238,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
+    "ts": "2026-11-11T11:57:22.363871",
+    "canales": {
+      "whatsapp": "2026-11-11T11:57:22.363871"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
