@@ -102,16 +102,6 @@
     ],
     "precio_min_publicado": 28.0
   },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-09T12:35:58.475753",
-    "canales": {
-      "whatsapp": "2026-11-09T12:35:58.475753"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
     "ts": "2026-11-09T12:43:18.880659",
     "canales": {
@@ -3248,6 +3238,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
+    "ts": "2026-11-11T12:36:20.763478",
+    "canales": {
+      "whatsapp": "2026-11-11T12:36:20.763478"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
