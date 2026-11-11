@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 529900.0
   },
-  "amz-xiaomi-redmi-pad-2-8gb-256gb-tablet-com-tela-": {
-    "ts": "2026-11-09T22:36:13.225071",
-    "canales": {
-      "whatsapp": "2026-11-09T22:36:13.225071"
-    },
-    "precio": 1594.0,
-    "precios_publicados": [
-      1594.0
-    ]
-  },
   "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
     "ts": "2026-11-11T06:06:01.590096",
     "canales": {
@@ -157,16 +147,6 @@
       158.0
     ],
     "precio_min_publicado": 203.0
-  },
-  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
-    "ts": "2026-11-09T22:43:43.320536",
-    "canales": {
-      "whatsapp": "2026-11-09T22:43:43.320536"
-    },
-    "precio": 1776.0,
-    "precios_publicados": [
-      1776.0
-    ]
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-11-09T22:53:18.990329",
@@ -3258,6 +3238,16 @@
     "precio": 439.0,
     "precios_publicados": [
       439.0
+    ]
+  },
+  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
+    "ts": "2026-11-11T22:43:45.367348",
+    "canales": {
+      "whatsapp": "2026-11-11T22:43:45.367348"
+    },
+    "precio": 6444.0,
+    "precios_publicados": [
+      6444.0
     ]
   }
 }
