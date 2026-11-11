@@ -821,14 +821,16 @@
     ]
   },
   "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-11-09T15:43:12.248957",
+    "ts": "2026-11-11T00:32:21.637690",
     "canales": {
-      "whatsapp": "2026-11-09T15:43:12.248957"
+      "whatsapp": "2026-11-11T00:32:21.637690"
     },
-    "precio": 1230.0,
+    "precio": 999.0,
     "precios_publicados": [
-      1230.0
-    ]
+      1230.0,
+      999.0
+    ],
+    "precio_min_publicado": 1230.0
   },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-09T15:50:16.516330",
