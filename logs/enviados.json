@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-desinfetante-pinho-sol-lavanda-e-melaleuca-1-": {
-    "ts": "2026-11-09T18:28:42.480028",
-    "canales": {
-      "whatsapp": "2026-11-09T18:28:42.480028"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-lysoform-original-lenco-umedecido-desinfetant": {
     "ts": "2026-11-09T18:34:16.285487",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 11.0,
     "precios_publicados": [
       11.0
+    ]
+  },
+  "amz-combo-de-teclado-e-mouse-sem-fio-logitech-mk2": {
+    "ts": "2026-11-11T18:32:47.449099",
+    "canales": {
+      "whatsapp": "2026-11-11T18:32:47.449099"
+    },
+    "precio": 119.0,
+    "precios_publicados": [
+      119.0
     ]
   }
 }
