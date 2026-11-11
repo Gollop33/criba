@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
-    "ts": "2026-11-09T21:34:36.423180",
-    "canales": {
-      "whatsapp": "2026-11-09T21:34:36.423180"
-    },
-    "precio": 155.0,
-    "precios_publicados": [
-      155.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
     "ts": "2026-11-09T21:42:38.923949",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 23900.0,
     "precios_publicados": [
       23900.0
+    ]
+  },
+  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
+    "ts": "2026-11-11T21:35:48.090850",
+    "canales": {
+      "whatsapp": "2026-11-11T21:35:48.090850"
+    },
+    "precio": 5722.0,
+    "precios_publicados": [
+      5722.0
     ]
   }
 }
