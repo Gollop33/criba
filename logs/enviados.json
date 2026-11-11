@@ -138,16 +138,6 @@
     ],
     "precio_min_publicado": 1230.0
   },
-  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
-    "ts": "2026-11-09T17:15:21.129938",
-    "canales": {
-      "whatsapp": "2026-11-09T17:15:21.129938"
-    },
-    "precio": 1990.0,
-    "precios_publicados": [
-      1990.0
-    ]
-  },
   "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
     "ts": "2026-11-09T17:22:46.779452",
     "canales": {
@@ -1735,14 +1725,16 @@
     "precio_min_publicado": 4599.0
   },
   "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
-    "ts": "2026-11-10T17:19:58.107516",
+    "ts": "2026-11-11T17:22:35.705990",
     "canales": {
-      "whatsapp": "2026-11-10T17:19:58.107516"
+      "whatsapp": "2026-11-11T17:22:35.705990"
     },
-    "precio": 429.0,
+    "precio": 379.0,
     "precios_publicados": [
-      429.0
-    ]
+      429.0,
+      379.0
+    ],
+    "precio_min_publicado": 429.0
   },
   "amz-bettdow-monitor-portatil-156-fhd-1080p-monito": {
     "ts": "2026-11-10T17:21:27.477269",
