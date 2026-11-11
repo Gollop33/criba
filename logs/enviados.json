@@ -148,26 +148,6 @@
     ],
     "precio_min_publicado": 203.0
   },
-  "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
-    "ts": "2026-11-09T23:04:07.789205",
-    "canales": {
-      "whatsapp": "2026-11-09T23:04:07.789205"
-    },
-    "precio": 2299.0,
-    "precios_publicados": [
-      2299.0
-    ]
-  },
-  "amz-finish-powerball-detergente-para-lava-loucas-": {
-    "ts": "2026-11-09T23:11:08.783172",
-    "canales": {
-      "whatsapp": "2026-11-09T23:11:08.783172"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
     "ts": "2026-11-09T23:17:05.639715",
     "canales": {
@@ -3258,6 +3238,16 @@
     "precio": 2699.0,
     "precios_publicados": [
       2699.0
+    ]
+  },
+  "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
+    "ts": "2026-11-11T23:11:33.272019",
+    "canales": {
+      "whatsapp": "2026-11-11T23:11:33.272019"
+    },
+    "precio": 93000.0,
+    "precios_publicados": [
+      93000.0
     ]
   }
 }
