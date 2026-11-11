@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
-    "ts": "2026-11-09T21:42:38.923949",
-    "canales": {
-      "whatsapp": "2026-11-09T21:42:38.923949"
-    },
-    "precio": 729.0,
-    "precios_publicados": [
-      729.0
-    ]
-  },
   "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
     "ts": "2026-11-09T21:48:52.828357",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 5722.0,
     "precios_publicados": [
       5722.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
+    "ts": "2026-11-11T21:44:53.325643",
+    "canales": {
+      "whatsapp": "2026-11-11T21:44:53.325643"
+    },
+    "precio": 1776.0,
+    "precios_publicados": [
+      1776.0
     ]
   }
 }
