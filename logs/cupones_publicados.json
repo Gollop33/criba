@@ -3,7 +3,7 @@
   "codigos": {
     "OFERTAAQUI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-11-10T00:01:22+00:00",
+      "publicado_em": "2026-11-11T00:02:25+00:00",
       "motivo": "tanda"
     },
     "ACHEIOFF": {
@@ -18,7 +18,7 @@
     },
     "OFERTASMELI": {
       "detectado_em": "2026-10-07T05:26:15+00:00",
-      "publicado_em": "2026-11-10T00:01:22+00:00",
+      "publicado_em": "2026-11-11T00:02:25+00:00",
       "motivo": "tanda"
     },
     "BARRATINHOJA": {
@@ -55,14 +55,14 @@
     },
     "ACHEINOMELI": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
-      "publicado_em": "2026-11-10T00:01:22+00:00",
+      "publicado_em": "2026-11-11T00:02:25+00:00",
       "descuento": "25% OFF",
       "link_corto": true,
       "motivo": "tanda"
     },
     "MUITOBARATO": {
       "detectado_em": "2026-10-08T13:31:11+00:00",
-      "publicado_em": "2026-11-10T00:01:22+00:00",
+      "publicado_em": "2026-11-11T00:02:25+00:00",
       "descuento": "22% OFF",
       "link_corto": true,
       "motivo": "tanda"
@@ -1153,5 +1153,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-10T23:50:02+00:00"
+  "actualizado": "2026-11-11T00:02:25+00:00"
 }
