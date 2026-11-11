@@ -126,26 +126,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-vichy-dercos-energy-shampoo-antiqueda-estimul": {
-    "ts": "2026-11-09T14:57:17.150869",
-    "canales": {
-      "whatsapp": "2026-11-09T14:57:17.150869"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
-  "amz-mondial-ventilador-de-mesa-super-power-vsp30b": {
-    "ts": "2026-11-09T15:08:03.972075",
-    "canales": {
-      "whatsapp": "2026-11-09T15:08:03.972075"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-11-09T15:15:11.155104",
     "canales": {
@@ -3270,6 +3250,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
+    "ts": "2026-11-11T15:08:22.361488",
+    "canales": {
+      "whatsapp": "2026-11-11T15:08:22.361488"
+    },
+    "precio": 41.0,
+    "precios_publicados": [
+      41.0
     ]
   }
 }
