@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 739900.0
   },
-  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
-    "ts": "2026-11-09T20:56:32.509410",
-    "canales": {
-      "whatsapp": "2026-11-09T20:56:32.509410"
-    },
-    "precio": 1589.0,
-    "precios_publicados": [
-      1589.0
-    ]
-  },
   "amz-tablet-xiaomi-mi-pad-8-de-112-polegadas-8-gb-": {
     "ts": "2026-11-09T21:05:29.096047",
     "canales": {
@@ -3286,6 +3276,16 @@
     "precio": 1569.0,
     "precios_publicados": [
       1569.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-128gb-8gb-ra": {
+    "ts": "2026-11-11T21:04:22.265259",
+    "canales": {
+      "whatsapp": "2026-11-11T21:04:22.265259"
+    },
+    "precio": 2743.0,
+    "precios_publicados": [
+      2743.0
     ]
   }
 }
