@@ -126,16 +126,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-09T15:29:17.581362",
-    "canales": {
-      "whatsapp": "2026-11-09T15:29:17.581362"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
     "ts": "2026-11-09T15:36:13.902207",
     "canales": {
@@ -3260,6 +3250,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
+    "ts": "2026-11-11T15:29:27.353978",
+    "canales": {
+      "whatsapp": "2026-11-11T15:29:27.353978"
+    },
+    "precio": 105.0,
+    "precios_publicados": [
+      105.0
     ]
   }
 }

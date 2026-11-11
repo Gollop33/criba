@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-11T15:21:55+00:00",
+  "actualizado": "2026-11-11T15:29:19+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "nivea kit locao hidratante milk pele seca a",
@@ -17,15 +17,7 @@
       "precio_ref": 29.88,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
-      "nombre": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
-      "precio_ref": 39.98,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "escova de dente macia colgate slim soft black",
@@ -33,7 +25,7 @@
       "precio_ref": 19.98,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "filtro refil original de agua acqua pure para",
@@ -41,7 +33,15 @@
       "precio_ref": 54.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "fralda pampers primeiros dias tamanho rn ate 4",
+      "nombre": "Fralda Pampers Primeiros Dias Tamanho RN (Até 4 kg), 36 Unidades",
+      "precio_ref": 39.98,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
@@ -49,7 +49,7 @@
       "precio_ref": 2999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "sony control inalambrico ps5 dualsense midnight black",
@@ -57,7 +57,7 @@
       "precio_ref": 379.49,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "echo dot smart speaker com alexa som vibrante",
@@ -65,7 +65,7 @@
       "precio_ref": 371.28,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
@@ -73,7 +73,7 @@
       "precio_ref": 999.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
@@ -81,7 +81,7 @@
       "precio_ref": 4696.54,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
@@ -89,7 +89,7 @@
       "precio_ref": 158.69,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "bundle nintendo switch oled super mario bros wonder",
@@ -97,7 +97,7 @@
       "precio_ref": 1899.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "playstation5 slim disk pacote astro bot e gran",
@@ -105,7 +105,7 @@
       "precio_ref": 4499.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 intel core 5 8",
@@ -113,7 +113,7 @@
       "precio_ref": 4099.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -121,15 +121,7 @@
       "precio_ref": 3999.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "ugreen adaptador bluetooth usb para pc dongle bluetooth",
-      "nombre": "UGREEN Adaptador Bluetooth USB para PC, dongle Bluetooth 5.3 para laptop, mouse, teclado, impressoras, fones de ouvido, alto-",
-      "precio_ref": 37.0,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
@@ -137,7 +129,7 @@
       "precio_ref": 105.72,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "cerave locao hidratante corporal com textura fluida e",
@@ -145,7 +137,7 @@
       "precio_ref": 90.91,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "kit shampoo v floc cera tok final revitalizador",
@@ -153,7 +145,7 @@
       "precio_ref": 94.92,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "chalesco tapete higienico premium para caes 90 x",
@@ -161,7 +153,7 @@
       "precio_ref": 109.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "scalibor 25g coleira antiparasitaria contra mosquitos vetores da",
@@ -169,7 +161,7 @@
       "precio_ref": 61.98,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
@@ -177,7 +169,7 @@
       "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "vichy dercos energy shampoo antiqueda estimulante com aminexil",
@@ -185,7 +177,7 @@
       "precio_ref": 94.6,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "kingston flash drive exodia m 128gb usb pen",
@@ -193,7 +185,7 @@
       "precio_ref": 95.99,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "filtro refil original de agua para purificador electrolux",
@@ -201,7 +193,7 @@
       "precio_ref": 51.2,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
@@ -209,7 +201,7 @@
       "precio_ref": 59.47,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "tp link switch gigabit de mesa com 5",
@@ -217,7 +209,7 @@
       "precio_ref": 84.0,
       "categoria": "Casa & Móveis",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "headset gamer havit h2232d rgb com microfone falante",
@@ -225,7 +217,7 @@
       "precio_ref": 74.95,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -233,7 +225,7 @@
       "precio_ref": 69.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
@@ -241,7 +233,7 @@
       "precio_ref": 94.7,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech pebble 2 m350s com",
@@ -249,55 +241,7 @@
       "precio_ref": 79.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "quatree supreme racao para gatos castrados salmao 10",
-      "nombre": "Quatree Supreme Ração para Gatos Castrados Salmao 10.1kg",
-      "precio_ref": 191.99,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "resident evil requiem playstation 5",
-      "nombre": "Resident Evil Requiem - PlayStation 5",
-      "precio_ref": 249.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "grand theft auto vi playstation 5",
-      "nombre": "Grand Theft Auto VI - PlayStation 5",
-      "precio_ref": 449.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
-      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
-      "precio_ref": 2252.04,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
-      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
-      "precio_ref": 1776.67,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "metroid ravenous nintendo switch 2",
-      "nombre": "Metroid Ravenous – Nintendo Switch 2",
-      "precio_ref": 439.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "monitor portatil 15 6 full hd 1080p 60hz",
@@ -305,79 +249,7 @@
       "precio_ref": 339.98,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
-      "precio_ref": 599.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "apple iphone 16 128 gb preto",
-      "nombre": "Apple iPhone 16 (128 GB) – Preto",
-      "precio_ref": 5054.44,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 fe 5g 256gb 8gb",
-      "nombre": "Celular Samsung Galaxy S25 FE 5G, 256GB, 8GB, Câmera Tripla - Azul Marinho",
-      "precio_ref": 3794.7,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "volante e pedais logitech g29 driving force com",
-      "nombre": "Volante e Pedais Logitech G29 Driving Force com Force Feedback para PS5, PS4, PS3 e PC",
-      "precio_ref": 1569.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "apple iphone 17 de 256 gb preto",
-      "nombre": "Apple iPhone 17 de 256 GB — Preto",
-      "precio_ref": 5859.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "base de carregamento do dualsense playstation 5",
-      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
-      "precio_ref": 177.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book4 intel coretm i5 1335u 8gb",
-      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, 8GB, 15.6'' Full HD LED",
-      "precio_ref": 3997.09,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
-      "nombre": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera 50MP, IP68, Super AMOLED 6.7\", Recursos AI (Azul Escuro)",
-      "precio_ref": 1998.89,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "controle sem fio para xbox series x s",
-      "nombre": "Controle Sem Fio para Xbox Series X S Xbox One e PC Preto",
-      "precio_ref": 384.8,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "echo pop geracao mais recente smart speaker compacto",
@@ -385,31 +257,47 @@
       "precio_ref": 399.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
-      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
-      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
-      "precio_ref": 5298.0,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "base de carregamento do dualsense playstation 5",
+      "nombre": "Base De Carregamento Do Dualsense - PlayStation 5",
+      "precio_ref": 177.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
-      "busqueda": "notebook ideapad slim 3 ryzen 7 7735hs 8gb",
-      "nombre": "Notebook IdeaPad Slim 3 Ryzen 7 7735HS, 8GB, 512GB SSD, 15.3\" FHD, Linux,",
-      "precio_ref": 3799.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
+      "nombre": "Galaxy Tab S10 Lite, 128GB, Tela 10.9\", WIFI, Cinza",
+      "precio_ref": 2252.04,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
-      "busqueda": "notebook acer aspire go 15 core i5 16gb",
-      "nombre": "Notebook Acer Aspire Go 15 Core i5 16GB 512GB SSD Win 11 AG15-71P-53R6 | Tela de 15.6\" Full HD, processador Intel Core i5 13ª",
-      "precio_ref": 4495.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "grand theft auto vi playstation 5",
+      "nombre": "Grand Theft Auto VI - PlayStation 5",
+      "precio_ref": 449.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "apple iphone 17 de 256 gb preto",
+      "nombre": "Apple iPhone 17 de 256 GB — Preto",
+      "precio_ref": 5859.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "metroid ravenous nintendo switch 2",
+      "nombre": "Metroid Ravenous – Nintendo Switch 2",
+      "precio_ref": 439.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g67 5g 128gb 4gb ram",
@@ -417,7 +305,119 @@
       "precio_ref": 1442.97,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
+      "nombre": "Monitor Gamer AOC AGON G50 24\" 144Hz 0,5ms IPS HDR10 G-SYNC 24G50F",
+      "precio_ref": 599.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "controle sem fio para xbox series x s",
+      "nombre": "Controle Sem Fio para Xbox Series X S Xbox One e PC Preto",
+      "precio_ref": 384.8,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "apple iphone 16 128 gb preto",
+      "nombre": "Apple iPhone 16 (128 GB) – Preto",
+      "precio_ref": 5054.44,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "coleira antipulgas e carrapatos para caes acima de",
+      "nombre": "Coleira Antipulgas e Carrapatos para Cães acima de 8kg Seresto",
+      "precio_ref": 130.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
+      "nombre": "Celular Samsung Galaxy A57 5G 128GB, 8GB RAM, Câmera 50MP, IP68, Super AMOLED 6.7\", Recursos AI (Azul Escuro)",
+      "precio_ref": 1998.89,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "jsaux protective case for switch 2 split grip",
+      "nombre": "JSAUX Protective Case for Switch 2, Split Grip Case with Front Cover | Proteção contra quedas, encaixável, aderência ergonômi",
+      "precio_ref": 180.64,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book4 intel coretm i5 1335u 8gb",
+      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, 8GB, 15.6'' Full HD LED",
+      "precio_ref": 3997.09,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "quatree supreme racao para gatos castrados salmao 10",
+      "nombre": "Quatree Supreme Ração para Gatos Castrados Salmao 10.1kg",
+      "precio_ref": 191.99,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "volante e pedais logitech g29 driving force com",
+      "nombre": "Volante e Pedais Logitech G29 Driving Force com Force Feedback para PS5, PS4, PS3 e PC",
+      "precio_ref": 1569.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 fe 5g 256gb 8gb",
+      "nombre": "Celular Samsung Galaxy S25 FE 5G, 256GB, 8GB, Câmera Tripla - Azul Marinho",
+      "precio_ref": 3794.7,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
+      "nombre": "Omo Sabão Líquido Lavagem Perfeita 5l - Tampa pode Variar",
+      "precio_ref": 5298.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "notebook ideapad slim 3 ryzen 7 7735hs 8gb",
+      "nombre": "Notebook IdeaPad Slim 3 Ryzen 7 7735HS, 8GB, 512GB SSD, 15.3\" FHD, Linux,",
+      "precio_ref": 3799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire go 15 core i5 16gb",
+      "nombre": "Notebook Acer Aspire Go 15 Core i5 16GB 512GB SSD Win 11 AG15-71P-53R6 | Tela de 15.6\" Full HD, processador Intel Core i5 13ª",
+      "precio_ref": 4495.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
+      "precio_ref": 1776.67,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 128gb 4gb 50mp tela",
@@ -425,7 +425,7 @@
       "precio_ref": 949.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a17 5g 256gb 8gb 50mp",
@@ -433,7 +433,7 @@
       "precio_ref": 1398.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "havit fone de ouvido headset gamer fuxi h3",
@@ -441,7 +441,7 @@
       "precio_ref": 149.88,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "notebook dell 15 dc15 i51334u a80 intel i5",
@@ -449,15 +449,15 @@
       "precio_ref": 5584.78,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
-      "busqueda": "notebook acer aspire go 15 ag15 51p 34kt",
-      "nombre": "Notebook Acer Aspire Go 15 AG15-51P-34KT, Intel Core i3-1215U, 15.3\" WUXGA IPS, 8GB RAM DDR5, 256GB SSD NVMe Cinza Aço",
-      "precio_ref": 3299.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
+      "nombre": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 220V | Até 90% Menos Óleo – tecnologia RapidAir, 12 modos de pr",
+      "precio_ref": 312.0,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "fralda huggies supreme care m 196 un",
@@ -465,7 +465,15 @@
       "precio_ref": 149.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
+    },
+    {
+      "busqueda": "resident evil requiem playstation 5",
+      "nombre": "Resident Evil Requiem - PlayStation 5",
+      "precio_ref": 249.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     },
     {
       "busqueda": "radio manivela manual de emergencia com lanterna led",
@@ -473,15 +481,7 @@
       "precio_ref": 199.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
-    },
-    {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 766.72,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-11T15:21:55+00:00"
+      "monitorizado_desde": "2026-11-11T15:29:19+00:00"
     }
   ]
 }
