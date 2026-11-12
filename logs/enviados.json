@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-nexgard-antipulgas-e-carrapatos-para-caes-de-": {
-    "ts": "2026-11-10T14:36:24.907578",
-    "canales": {
-      "whatsapp": "2026-11-10T14:36:24.907578"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
     "ts": "2026-11-10T14:42:57.592753",
     "canales": {
@@ -3363,6 +3353,16 @@
     "precio": 1152.0,
     "precios_publicados": [
       1152.0
+    ]
+  },
+  "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
+    "ts": "2026-11-12T14:38:58.183735",
+    "canales": {
+      "whatsapp": "2026-11-12T14:38:58.183735"
+    },
+    "precio": 1532.0,
+    "precios_publicados": [
+      1532.0
     ]
   }
 }
