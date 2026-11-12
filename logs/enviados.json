@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 429.0
   },
-  "amz-bettdow-monitor-portatil-156-fhd-1080p-monito": {
-    "ts": "2026-11-10T17:21:27.477269",
-    "canales": {
-      "whatsapp": "2026-11-10T17:21:27.477269"
-    },
-    "precio": 402.0,
-    "precios_publicados": [
-      402.0
-    ]
-  },
   "amz-apple-iphone-16-128-gb-branco": {
     "ts": "2026-11-10T17:26:58.678758",
     "canales": {
@@ -3412,6 +3402,16 @@
     "precio": 4908.0,
     "precios_publicados": [
       4908.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
+    "ts": "2026-11-12T17:25:14.072826",
+    "canales": {
+      "whatsapp": "2026-11-12T17:25:14.072826"
+    },
+    "precio": 989.0,
+    "precios_publicados": [
+      989.0
     ]
   }
 }
