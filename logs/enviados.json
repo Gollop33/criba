@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-11-10T16:29:23.016441",
-    "canales": {
-      "whatsapp": "2026-11-10T16:29:23.016441"
-    },
-    "precio": 1039.0,
-    "precios_publicados": [
-      1039.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-processador-octa": {
     "ts": "2026-11-11T17:57:30.636628",
     "canales": {
@@ -3393,6 +3383,16 @@
     "precio": 6934.0,
     "precios_publicados": [
       6934.0
+    ]
+  },
+  "amz-roteador-wifi-mesh-intelbras-twibi-force-ax": {
+    "ts": "2026-11-12T16:29:39.922972",
+    "canales": {
+      "whatsapp": "2026-11-12T16:29:39.922972"
+    },
+    "precio": 197.0,
+    "precios_publicados": [
+      197.0
     ]
   }
 }
