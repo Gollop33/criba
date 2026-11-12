@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-12T18:59:40+00:00",
-  "total": 251,
+  "actualizado": "2026-11-12T21:16:45+00:00",
+  "total": 256,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -3410,6 +3410,71 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-12T13:01:26+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "TECHSEMPRE",
+      "desconto": "R$300 OFF",
+      "compra_minima": "",
+      "limite": "",
+      "hasta": "2026-69-02",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T16:00:21+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MELIGARANTE25",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T14:02:33+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "PROMOFLASH22",
+      "desconto": "22% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T14:02:33+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MELIOFF18",
+      "desconto": "18% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T14:02:33+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "QUEROPROMO25",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-12-12",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T14:02:33+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
