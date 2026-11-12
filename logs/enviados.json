@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 429.0
   },
-  "amz-apple-iphone-16-128-gb-branco": {
-    "ts": "2026-11-10T17:26:58.678758",
-    "canales": {
-      "whatsapp": "2026-11-10T17:26:58.678758"
-    },
-    "precio": 5054.0,
-    "precios_publicados": [
-      5054.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-11-10T17:35:30.698262",
     "canales": {
@@ -3412,6 +3402,16 @@
     "precio": 989.0,
     "precios_publicados": [
       989.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
+    "ts": "2026-11-12T17:27:29.475379",
+    "canales": {
+      "whatsapp": "2026-11-12T17:27:29.475379"
+    },
+    "precio": 3469.0,
+    "precios_publicados": [
+      3469.0
     ]
   }
 }
