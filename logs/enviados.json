@@ -1752,14 +1752,16 @@
     ]
   },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-11T05:28:56.488956",
+    "ts": "2026-11-12T05:29:03.097451",
     "canales": {
-      "whatsapp": "2026-11-11T05:28:56.488956"
+      "whatsapp": "2026-11-12T05:29:03.097451"
     },
-    "precio": 25.0,
+    "precio": 18.0,
     "precios_publicados": [
-      25.0
-    ]
+      25.0,
+      18.0
+    ],
+    "precio_min_publicado": 25.0
   },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-11-11T05:36:38.290552",
