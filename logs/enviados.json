@@ -153,16 +153,6 @@
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
   },
-  "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
-    "ts": "2026-11-10T02:09:02.197436",
-    "canales": {
-      "whatsapp": "2026-11-10T02:09:02.197436"
-    },
-    "precio": 818.0,
-    "precios_publicados": [
-      818.0
-    ]
-  },
   "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
     "ts": "2026-11-10T02:38:38.311056",
     "canales": {
@@ -3275,6 +3265,16 @@
     "precio": 78.0,
     "precios_publicados": [
       78.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-pro-tela-121-wifi-2": {
+    "ts": "2026-11-12T02:32:46.234351",
+    "canales": {
+      "whatsapp": "2026-11-12T02:32:46.234351"
+    },
+    "precio": 212500.0,
+    "precios_publicados": [
+      212500.0
     ]
   }
 }
