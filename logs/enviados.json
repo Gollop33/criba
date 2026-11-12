@@ -1,18 +1,4 @@
 {
-  "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
-    "ts": "2026-11-10T00:28:58.826971",
-    "canales": {
-      "whatsapp": "2026-11-10T00:28:58.826971"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      60.0,
-      51.0,
-      44.0,
-      44.0
-    ],
-    "precio_min_publicado": 44.0
-  },
   "amz-playstation-dualsense-controle-sem-fio-branco": {
     "ts": "2026-11-10T16:48:07.154927",
     "canales": {
@@ -165,16 +151,6 @@
     "canales": {
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
-  },
-  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
-    "ts": "2026-11-10T00:22:13.837276",
-    "canales": {
-      "whatsapp": "2026-11-10T00:22:13.837276"
-    },
-    "precio": 1129.0,
-    "precios_publicados": [
-      1129.0
-    ]
   },
   "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
     "ts": "2026-11-10T00:36:14.267436",
@@ -3248,6 +3224,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
+    "ts": "2026-11-12T00:29:13.832876",
+    "canales": {
+      "whatsapp": "2026-11-12T00:29:13.832876"
+    },
+    "precio": 30.0,
+    "precios_publicados": [
+      30.0
     ]
   }
 }
