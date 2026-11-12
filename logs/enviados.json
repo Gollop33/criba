@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 429.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
-    "ts": "2026-11-10T17:46:22.461803",
-    "canales": {
-      "whatsapp": "2026-11-10T17:46:22.461803"
-    },
-    "precio": 1374.0,
-    "precios_publicados": [
-      1374.0
-    ]
-  },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
     "ts": "2026-11-11T18:05:02.622899",
     "canales": {
@@ -3420,6 +3410,16 @@
     "precio": 318.0,
     "precios_publicados": [
       318.0
+    ]
+  },
+  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
+    "ts": "2026-11-12T17:48:00.040068",
+    "canales": {
+      "whatsapp": "2026-11-12T17:48:00.040068"
+    },
+    "precio": 4299.0,
+    "precios_publicados": [
+      4299.0
     ]
   }
 }
