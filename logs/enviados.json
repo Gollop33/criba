@@ -180,16 +180,6 @@
     ],
     "precio_min_publicado": 5332.0
   },
-  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
-    "ts": "2026-11-10T18:21:44.324749",
-    "canales": {
-      "whatsapp": "2026-11-10T18:21:44.324749"
-    },
-    "precio": 394.0,
-    "precios_publicados": [
-      394.0
-    ]
-  },
   "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
     "ts": "2026-11-10T18:25:44.754150",
     "canales": {
@@ -3402,6 +3392,16 @@
     "precio": 719.0,
     "precios_publicados": [
       719.0
+    ]
+  },
+  "amz-samsung-galaxy-book4-intel-coretm-i51335u-8gb": {
+    "ts": "2026-11-12T18:22:01.381090",
+    "canales": {
+      "whatsapp": "2026-11-12T18:22:01.381090"
+    },
+    "precio": 3944.0,
+    "precios_publicados": [
+      3944.0
     ]
   }
 }
