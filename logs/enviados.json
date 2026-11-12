@@ -12,19 +12,6 @@
     ],
     "precio_min_publicado": 389.0
   },
-  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
-    "ts": "2026-11-10T07:26:40.120597",
-    "canales": {
-      "whatsapp": "2026-11-10T07:26:40.120597"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      894.0,
-      799.0,
-      799.0
-    ],
-    "precio_min_publicado": 799.0
-  },
   "amz-escova-de-dente-macia-colgate-slim-soft-black": {
     "ts": "2026-11-10T23:50:06.425733",
     "canales": {
@@ -3328,6 +3315,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-fralda-pampers-premium-care-pants-tamanho-xg-": {
+    "ts": "2026-11-12T07:46:06.650124",
+    "canales": {
+      "whatsapp": "2026-11-12T07:46:06.650124"
+    },
+    "precio": 140.0,
+    "precios_publicados": [
+      140.0
     ]
   }
 }
