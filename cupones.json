@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-11T23:52:14+00:00",
+  "actualizado": "2026-11-12T05:02:53+00:00",
   "total": 246,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -3188,7 +3188,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-11T13:05:51+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SEMPREAQUI",
@@ -3227,7 +3228,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-11T13:01:01+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MODASEMPREML",
@@ -3346,5 +3348,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-12T02:02:19-03:00"
 }
