@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 4696.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-11-10T18:28:41.806605",
-    "canales": {
-      "whatsapp": "2026-11-10T18:28:41.806605"
-    },
-    "precio": 759.0,
-    "precios_publicados": [
-      759.0
-    ]
-  },
   "amz-gamesir-g7-se-controle-com-fio-para-pc-xbox-o": {
     "ts": "2026-11-10T18:37:24.812809",
     "canales": {
@@ -3393,6 +3383,16 @@
     "precio": 3944.0,
     "precios_publicados": [
       3944.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
+    "ts": "2026-11-12T18:34:31.570821",
+    "canales": {
+      "whatsapp": "2026-11-12T18:34:31.570821"
+    },
+    "precio": 1241.0,
+    "precios_publicados": [
+      1241.0
     ]
   }
 }
