@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
-    "ts": "2026-11-10T15:43:26.141995",
-    "canales": {
-      "whatsapp": "2026-11-10T15:43:26.141995"
-    },
-    "precio": 440.0,
-    "precios_publicados": [
-      440.0
-    ]
-  },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-11-10T15:50:21.033467",
     "canales": {
@@ -3373,6 +3363,16 @@
     "precio": 375.0,
     "precios_publicados": [
       375.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
+    "ts": "2026-11-12T15:43:52.029546",
+    "canales": {
+      "whatsapp": "2026-11-12T15:43:52.029546"
+    },
+    "precio": 832.0,
+    "precios_publicados": [
+      832.0
     ]
   }
 }
