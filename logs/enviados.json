@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-10T16:22:16.718001",
-    "canales": {
-      "whatsapp": "2026-11-10T16:22:16.718001"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
-  },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
     "ts": "2026-11-10T16:29:23.016441",
     "canales": {
@@ -3393,6 +3383,16 @@
     "precio": 475.0,
     "precios_publicados": [
       475.0
+    ]
+  },
+  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
+    "ts": "2026-11-12T16:23:59.989394",
+    "canales": {
+      "whatsapp": "2026-11-12T16:23:59.989394"
+    },
+    "precio": 6934.0,
+    "precios_publicados": [
+      6934.0
     ]
   }
 }
