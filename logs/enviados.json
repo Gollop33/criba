@@ -168,36 +168,6 @@
     ],
     "precio_min_publicado": 5099.0
   },
-  "amz-controle-sem-fio-dualsense-midnight-black": {
-    "ts": "2026-11-10T18:08:30.836876",
-    "canales": {
-      "whatsapp": "2026-11-10T18:08:30.836876"
-    },
-    "precio": 420.0,
-    "precios_publicados": [
-      420.0
-    ]
-  },
-  "amz-console-nintendo-switch-2-modelo-internaciona": {
-    "ts": "2026-11-10T18:11:54.978958",
-    "canales": {
-      "whatsapp": "2026-11-10T18:11:54.978958"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
-  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
-    "ts": "2026-11-10T18:13:25.559332",
-    "canales": {
-      "whatsapp": "2026-11-10T18:13:25.559332"
-    },
-    "precio": 204.0,
-    "precios_publicados": [
-      204.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
     "ts": "2026-11-11T18:22:46.836346",
     "canales": {
@@ -3422,6 +3392,16 @@
     "precio": 2299.0,
     "precios_publicados": [
       2299.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-11-12T18:14:16.496999",
+    "canales": {
+      "whatsapp": "2026-11-12T18:14:16.496999"
+    },
+    "precio": 719.0,
+    "precios_publicados": [
+      719.0
     ]
   }
 }
