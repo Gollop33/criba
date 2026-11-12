@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
-    "ts": "2026-11-10T15:15:15.147849",
-    "canales": {
-      "whatsapp": "2026-11-10T15:15:15.147849"
-    },
-    "precio": 58.0,
-    "precios_publicados": [
-      58.0
-    ]
-  },
   "amz-smartphone-xiaomi-redmi-note-15-pro-5g-512gb-": {
     "ts": "2026-11-10T15:22:25.776522",
     "canales": {
@@ -3373,6 +3363,16 @@
     "precio": 999.0,
     "precios_publicados": [
       999.0
+    ]
+  },
+  "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
+    "ts": "2026-11-12T15:19:06.418650",
+    "canales": {
+      "whatsapp": "2026-11-12T15:19:06.418650"
+    },
+    "precio": 719.0,
+    "precios_publicados": [
+      719.0
     ]
   }
 }
