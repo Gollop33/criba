@@ -49,18 +49,6 @@
     ],
     "precio_min_publicado": 1230.0
   },
-  "amz-tab-samsung-galaxy-s11-ultra-146-512gb-12gb-c": {
-    "ts": "2026-11-10T17:43:29.382052",
-    "canales": {
-      "whatsapp": "2026-11-10T17:43:29.382052"
-    },
-    "precio": 665910.0,
-    "precios_publicados": [
-      739900.0,
-      665910.0
-    ],
-    "precio_min_publicado": 739900.0
-  },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-5": {
     "ts": "2026-11-12T00:52:48.037925",
     "canales": {
@@ -3422,6 +3410,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
+    "ts": "2026-11-12T17:45:19.533450",
+    "canales": {
+      "whatsapp": "2026-11-12T17:45:19.533450"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
