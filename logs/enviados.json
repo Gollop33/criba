@@ -111,16 +111,17 @@
     "precio_min_publicado": 739900.0
   },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-5": {
-    "ts": "2026-11-11T00:46:52.073824",
+    "ts": "2026-11-12T00:52:48.037925",
     "canales": {
-      "whatsapp": "2026-11-11T00:46:52.073824"
+      "whatsapp": "2026-11-12T00:52:48.037925"
     },
-    "precio": 5299.0,
+    "precio": 4099.0,
     "precios_publicados": [
       529900.0,
-      5299.0
+      5299.0,
+      4099.0
     ],
-    "precio_min_publicado": 529900.0
+    "precio_min_publicado": 5299.0
   },
   "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
     "ts": "2026-11-11T06:06:01.590096",
@@ -151,16 +152,6 @@
     "canales": {
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
-  },
-  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
-    "ts": "2026-11-10T00:50:20.934973",
-    "canales": {
-      "whatsapp": "2026-11-10T00:50:20.934973"
-    },
-    "precio": 4279.0,
-    "precios_publicados": [
-      4279.0
-    ]
   },
   "amz-tapete-higienico-petlike-ultrapads-80cmx60cm-": {
     "ts": "2026-11-10T00:57:23.392159",
