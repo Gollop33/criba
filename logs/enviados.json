@@ -153,16 +153,6 @@
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-10T03:15:03.221359",
-    "canales": {
-      "whatsapp": "2026-11-10T03:15:03.221359"
-    },
-    "precio": 2149.0,
-    "precios_publicados": [
-      2149.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
     "ts": "2026-11-10T03:37:02.388703",
     "canales": {
@@ -1708,14 +1698,16 @@
     ]
   },
   "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
-    "ts": "2026-11-11T03:05:37.239798",
+    "ts": "2026-11-12T03:31:38.690066",
     "canales": {
-      "whatsapp": "2026-11-11T03:05:37.239798"
+      "whatsapp": "2026-11-12T03:31:38.690066"
     },
-    "precio": 35.0,
+    "precio": 29.0,
     "precios_publicados": [
-      35.0
-    ]
+      35.0,
+      29.0
+    ],
+    "precio_min_publicado": 35.0
   },
   "ml-monitor-lg-ultrawide-tela-ips-de-29-219-hdr10": {
     "ts": "2026-11-11T03:28:17.720342",
