@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-12T19:36:25+00:00",
+  "actualizado": "2026-11-12T19:43:08+00:00",
   "total": 53,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,23 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
-    },
-    {
-      "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
-      "nombre": "Kit Morte Súbita (Shampoo + Condicionador + Spray Reparaçao) - Lola From Rio",
-      "precio_ref": 55.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
-      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
-      "precio_ref": 51.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "sabonete em barra nivea creme care 90g pack",
@@ -33,15 +17,15 @@
       "precio_ref": 16.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
-      "precio_ref": 18.9,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "mouse sem fio logitech m170 com design ambidestro",
+      "nombre": "Mouse sem fio Logitech M170 com Design Ambidestro Compacto, Conexão USB e Pilha Inclusa - Preto",
+      "precio_ref": 51.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "nivea kit locao hidratante milk pele seca a",
@@ -49,7 +33,15 @@
       "precio_ref": 29.88,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
+    },
+    {
+      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
+      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g",
+      "precio_ref": 18.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "ype detergente em po para maquina 1kg formula",
@@ -57,7 +49,7 @@
       "precio_ref": 35.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "mondial ventilador de mesa 30cm super power preto",
@@ -65,7 +57,7 @@
       "precio_ref": 75.05,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "sanduicheira eletrica cadence click 127v",
@@ -73,15 +65,15 @@
       "precio_ref": 82.5,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
-      "busqueda": "piracanjuba proforce 23g de proteinas zero lactose sabor",
-      "nombre": "Piracanjuba ProForce 23g de Proteínas Zero Lactose Sabor Cacau - 12 Unidades de 250ml",
-      "precio_ref": 89.9,
-      "categoria": "Suplementos & Saúde",
+      "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
+      "nombre": "Kit Morte Súbita (Shampoo + Condicionador + Spray Reparaçao) - Lola From Rio",
+      "precio_ref": 55.0,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "headset gamer havit h2232d rgb com microfone falante",
@@ -89,7 +81,15 @@
       "precio_ref": 59.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
+    },
+    {
+      "busqueda": "piracanjuba proforce 23g de proteinas zero lactose sabor",
+      "nombre": "Piracanjuba ProForce 23g de Proteínas Zero Lactose Sabor Cacau - 12 Unidades de 250ml",
+      "precio_ref": 89.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
@@ -97,7 +97,7 @@
       "precio_ref": 133.23,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 intel core 5 8",
@@ -105,7 +105,7 @@
       "precio_ref": 4099.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "headset sem fio playstation pulse elitetm midnight black",
@@ -113,7 +113,7 @@
       "precio_ref": 889.89,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "radio manivela manual de emergencia com lanterna led",
@@ -121,7 +121,7 @@
       "precio_ref": 211.08,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "bundle nintendo switch oled super mario bros wonder",
@@ -129,7 +129,7 @@
       "precio_ref": 1899.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "pack nestle purina friskies racao umida para gatos",
@@ -137,7 +137,7 @@
       "precio_ref": 32.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "nivea sabonete liquido intimo suave 250ml limpeza delicada",
@@ -145,7 +145,7 @@
       "precio_ref": 15.29,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "mochila lenovo casual b210 preta para notebook 15",
@@ -153,7 +153,7 @@
       "precio_ref": 72.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
@@ -161,7 +161,7 @@
       "precio_ref": 94.02,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "pasta termica snowdog husky 1g 12 8w m",
@@ -169,7 +169,7 @@
       "precio_ref": 58.81,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "mouse gamer redragon predator m612 rgb preto",
@@ -177,7 +177,7 @@
       "precio_ref": 79.98,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "be place kids tablet infantil android 13 128gb",
@@ -185,7 +185,7 @@
       "precio_ref": 385.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech lift vertical com design",
@@ -193,7 +193,7 @@
       "precio_ref": 249.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 27 27gs60f b ips",
@@ -201,7 +201,7 @@
       "precio_ref": 899.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "smartphone xiaomi redmi note 15 pro 5g 512gb",
@@ -209,7 +209,7 @@
       "precio_ref": 2380.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "gamesir g7 se controle com fio para pc",
@@ -217,7 +217,7 @@
       "precio_ref": 265.03,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "monitor pc gamer lg 24 ips 100hz full",
@@ -225,7 +225,7 @@
       "precio_ref": 525.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "memoria kingston fury beast dimm ddr4 8gb 3200",
@@ -233,7 +233,7 @@
       "precio_ref": 440.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -241,7 +241,7 @@
       "precio_ref": 195.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "playstation dualsense controle sem fio branco",
@@ -249,7 +249,7 @@
       "precio_ref": 449.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
@@ -257,7 +257,7 @@
       "precio_ref": 1089.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
@@ -265,7 +265,7 @@
       "precio_ref": 3199.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
@@ -273,7 +273,7 @@
       "precio_ref": 2387.78,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "echo dot smart speaker com alexa som vibrante",
@@ -281,7 +281,7 @@
       "precio_ref": 649.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "armazem brasil monitor portatil 15 6 fhd 1080p",
@@ -289,7 +289,7 @@
       "precio_ref": 379.97,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
@@ -297,7 +297,7 @@
       "precio_ref": 139.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
@@ -305,7 +305,7 @@
       "precio_ref": 303.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
@@ -313,7 +313,7 @@
       "precio_ref": 3279.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
@@ -321,7 +321,7 @@
       "precio_ref": 2999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "the legend of zelda ocarina of time nintendo",
@@ -329,7 +329,7 @@
       "precio_ref": 439.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "amaciante ype ultra aconchego 5l",
@@ -337,7 +337,7 @@
       "precio_ref": 2590.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
@@ -345,7 +345,7 @@
       "precio_ref": 999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "placa mae asus tuf gaming a520m plus ii",
@@ -353,7 +353,7 @@
       "precio_ref": 517.32,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
@@ -361,7 +361,7 @@
       "precio_ref": 402.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -369,7 +369,7 @@
       "precio_ref": 785.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
@@ -377,7 +377,7 @@
       "precio_ref": 8350.32,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "apple iphone 16e de 128 gb preto",
@@ -385,7 +385,7 @@
       "precio_ref": 3443.33,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "controle sem fio dualsense midnight black",
@@ -393,7 +393,7 @@
       "precio_ref": 420.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
@@ -401,7 +401,7 @@
       "precio_ref": 387.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "jbl fone de ouvido com fio quantum 100m2",
@@ -409,7 +409,7 @@
       "precio_ref": 139.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 11 90hz octa core",
@@ -417,7 +417,7 @@
       "precio_ref": 1599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     },
     {
       "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
@@ -425,7 +425,7 @@
       "precio_ref": 692.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-12T19:36:25+00:00"
+      "monitorizado_desde": "2026-11-12T19:43:08+00:00"
     }
   ]
 }
