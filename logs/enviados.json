@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
-    "ts": "2026-11-10T15:36:07.158355",
-    "canales": {
-      "whatsapp": "2026-11-10T15:36:07.158355"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
   "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
     "ts": "2026-11-10T15:43:26.141995",
     "canales": {
@@ -3373,6 +3363,16 @@
     "precio": 799.0,
     "precios_publicados": [
       799.0
+    ]
+  },
+  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
+    "ts": "2026-11-12T15:36:25.667722",
+    "canales": {
+      "whatsapp": "2026-11-12T15:36:25.667722"
+    },
+    "precio": 375.0,
+    "precios_publicados": [
+      375.0
     ]
   }
 }
