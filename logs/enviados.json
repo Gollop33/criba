@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 429.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-11-10T17:35:30.698262",
-    "canales": {
-      "whatsapp": "2026-11-10T17:35:30.698262"
-    },
-    "precio": 1089.0,
-    "precios_publicados": [
-      1089.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-128gb-4gb-50mp-": {
     "ts": "2026-11-10T17:46:22.461803",
     "canales": {
@@ -3422,6 +3412,16 @@
     "precio": 161.0,
     "precios_publicados": [
       161.0
+    ]
+  },
+  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
+    "ts": "2026-11-12T17:36:13.626596",
+    "canales": {
+      "whatsapp": "2026-11-12T17:36:13.626596"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
