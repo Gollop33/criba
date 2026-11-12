@@ -1,16 +1,4 @@
 {
-  "amz-escova-de-dente-macia-colgate-slim-soft-black": {
-    "ts": "2026-11-10T23:50:06.425733",
-    "canales": {
-      "whatsapp": "2026-11-10T23:50:06.425733"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      28.0,
-      24.0
-    ],
-    "precio_min_publicado": 28.0
-  },
   "amz-filtrorefil-original-de-agua-acqua-pure-para-": {
     "ts": "2026-11-12T13:30:41.402184",
     "canales": {
@@ -193,16 +181,6 @@
       1899.0
     ],
     "precio_min_publicado": 1899.0
-  },
-  "ml-projetor-smart-portatil-full-hd-4k-android-11": {
-    "ts": "2026-11-10T23:53:42.336904",
-    "canales": {
-      "whatsapp": "2026-11-10T23:53:42.336904"
-    },
-    "precio": 170.0,
-    "precios_publicados": [
-      170.0
-    ]
   },
   "ml-suporte-articulado-para-monitor-13-a-32-pista": {
     "ts": "2026-11-11T00:06:30.901257",
@@ -3250,6 +3228,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-12T23:55:31.514671",
+    "canales": {
+      "whatsapp": "2026-11-12T23:55:31.514671"
+    },
+    "precio": 999.0,
+    "precios_publicados": [
+      999.0
     ]
   }
 }
