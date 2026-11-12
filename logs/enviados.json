@@ -153,16 +153,6 @@
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
   },
-  "amz-fralda-pampers-recem-nascido-tamanho-rn-ate-5": {
-    "ts": "2026-11-10T01:29:48.395362",
-    "canales": {
-      "whatsapp": "2026-11-10T01:29:48.395362"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "amz-cooler-fan-c3tech-storm-f7100bk-120mm-silenci": {
     "ts": "2026-11-10T01:34:54.072545",
     "canales": {
@@ -3265,6 +3255,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "amz-cetaphil-creme-hidratante": {
+    "ts": "2026-11-12T01:32:11.295016",
+    "canales": {
+      "whatsapp": "2026-11-12T01:32:11.295016"
+    },
+    "precio": 85.0,
+    "precios_publicados": [
+      85.0
     ]
   }
 }
