@@ -130,36 +130,6 @@
     ],
     "precio_min_publicado": 479.0
   },
-  "amz-mochila-lenovo-casual-b210-preta-para-noteboo": {
-    "ts": "2026-11-10T16:54:04.979262",
-    "canales": {
-      "whatsapp": "2026-11-10T16:54:04.979262"
-    },
-    "precio": 72.0,
-    "precios_publicados": [
-      72.0
-    ]
-  },
-  "amz-amaciante-ype-ultra-aconchego-5l": {
-    "ts": "2026-11-10T16:58:47.102907",
-    "canales": {
-      "whatsapp": "2026-11-10T16:58:47.102907"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
-  "amz-jbl-fone-de-ouvido-com-fio-quantum-100m2-head": {
-    "ts": "2026-11-10T17:01:32.526480",
-    "canales": {
-      "whatsapp": "2026-11-10T17:01:32.526480"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-mondial-ventilador-de-mesa-30cm-super-power-p": {
     "ts": "2026-11-12T13:42:32.164131",
     "canales": {
@@ -3402,6 +3372,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
+    "ts": "2026-11-12T17:02:22.482483",
+    "canales": {
+      "whatsapp": "2026-11-12T17:02:22.482483"
+    },
+    "precio": 2799.0,
+    "precios_publicados": [
+      2799.0
     ]
   }
 }
