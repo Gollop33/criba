@@ -117,16 +117,6 @@
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
   },
-  "amz-notebook-asus-vivobook-15-m1502ya-amd-ryzen-7": {
-    "ts": "2026-11-10T11:29:02.311602",
-    "canales": {
-      "whatsapp": "2026-11-10T11:29:02.311602"
-    },
-    "precio": 3698.0,
-    "precios_publicados": [
-      3698.0
-    ]
-  },
   "amz-notebook-lenovo-ideapad-slim-3-ryzen-7-8840hs": {
     "ts": "2026-11-10T11:36:25.736348",
     "canales": {
@@ -3347,6 +3337,16 @@
     "precio": 1510.0,
     "precios_publicados": [
       1510.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
+    "ts": "2026-11-12T11:32:05.351712",
+    "canales": {
+      "whatsapp": "2026-11-12T11:32:05.351712"
+    },
+    "precio": 3899.0,
+    "precios_publicados": [
+      3899.0
     ]
   }
 }
