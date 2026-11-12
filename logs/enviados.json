@@ -131,26 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
-    "ts": "2026-11-10T14:42:57.592753",
-    "canales": {
-      "whatsapp": "2026-11-10T14:42:57.592753"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
-  "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
-    "ts": "2026-11-10T14:50:18.112426",
-    "canales": {
-      "whatsapp": "2026-11-10T14:50:18.112426"
-    },
-    "precio": 303.0,
-    "precios_publicados": [
-      303.0
-    ]
-  },
   "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
     "ts": "2026-11-10T14:57:17.824608",
     "canales": {
@@ -3373,6 +3353,16 @@
     "precio": 4776.0,
     "precios_publicados": [
       4776.0
+    ]
+  },
+  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
+    "ts": "2026-11-12T14:50:32.017381",
+    "canales": {
+      "whatsapp": "2026-11-12T14:50:32.017381"
+    },
+    "precio": 164.0,
+    "precios_publicados": [
+      164.0
     ]
   }
 }
