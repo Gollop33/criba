@@ -131,26 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-smartphone-xiaomi-redmi-note-15-pro-5g-512gb-": {
-    "ts": "2026-11-10T15:22:25.776522",
-    "canales": {
-      "whatsapp": "2026-11-10T15:22:25.776522"
-    },
-    "precio": 2240.0,
-    "precios_publicados": [
-      2240.0
-    ]
-  },
-  "amz-mouse-gamer-redragon-predator-m612rgb-preto": {
-    "ts": "2026-11-10T15:29:20.770442",
-    "canales": {
-      "whatsapp": "2026-11-10T15:29:20.770442"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-11-10T15:36:07.158355",
     "canales": {
@@ -3383,6 +3363,16 @@
     "precio": 5332.0,
     "precios_publicados": [
       5332.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
+    "ts": "2026-11-12T15:30:05.186704",
+    "canales": {
+      "whatsapp": "2026-11-12T15:30:05.186704"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
