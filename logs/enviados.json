@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-10T14:08:23.445373",
-    "canales": {
-      "whatsapp": "2026-11-10T14:08:23.445373"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
     "ts": "2026-11-10T14:15:15.195322",
     "canales": {
@@ -3363,6 +3353,16 @@
     "precio": 80.0,
     "precios_publicados": [
       80.0
+    ]
+  },
+  "amz-cafeteira-oster-inox-compacta-07l-ocaf300127": {
+    "ts": "2026-11-12T14:10:58.199499",
+    "canales": {
+      "whatsapp": "2026-11-12T14:10:58.199499"
+    },
+    "precio": 104.0,
+    "precios_publicados": [
+      104.0
     ]
   }
 }
