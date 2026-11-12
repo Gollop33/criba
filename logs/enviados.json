@@ -1731,14 +1731,16 @@
     ]
   },
   "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
-    "ts": "2026-11-11T23:11:33.272019",
+    "ts": "2026-11-12T23:12:02.054497",
     "canales": {
-      "whatsapp": "2026-11-11T23:11:33.272019"
+      "whatsapp": "2026-11-12T23:12:02.054497"
     },
-    "precio": 93000.0,
+    "precio": 889.0,
     "precios_publicados": [
-      93000.0
-    ]
+      93000.0,
+      889.0
+    ],
+    "precio_min_publicado": 93000.0
   },
   "amz-notebook-ideapad-slim-3-ryzen-7-7735hs-8gb-51": {
     "ts": "2026-11-11T23:13:35.499662",
