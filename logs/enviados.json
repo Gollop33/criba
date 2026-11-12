@@ -25,19 +25,6 @@
     ],
     "precio_min_publicado": 799.0
   },
-  "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
-    "ts": "2026-11-10T05:46:05.249668",
-    "canales": {
-      "whatsapp": "2026-11-10T05:46:05.249668"
-    },
-    "precio": 3799.0,
-    "precios_publicados": [
-      4299.0,
-      3799.0,
-      3799.0
-    ],
-    "precio_min_publicado": 3799.0
-  },
   "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
     "ts": "2026-11-10T06:54:01.378500",
     "canales": {
@@ -3292,6 +3279,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-dove-sabonete-em-barra-branco-90g-8-unidades": {
+    "ts": "2026-11-12T05:50:27.185228",
+    "canales": {
+      "whatsapp": "2026-11-12T05:50:27.185228"
+    },
+    "precio": 30.0,
+    "precios_publicados": [
+      30.0
     ]
   }
 }
