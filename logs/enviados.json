@@ -117,16 +117,6 @@
       "whatsapp": "2026-11-12T00:04:17.788182"
     }
   },
-  "amz-oral-b-iconic-premium-escova-de-dentes-3-unid": {
-    "ts": "2026-11-10T11:15:17.645779",
-    "canales": {
-      "whatsapp": "2026-11-10T11:15:17.645779"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-pomada-bepantol-baby-com-provitamina-b5-100g-": {
     "ts": "2026-11-10T11:22:19.175228",
     "canales": {
@@ -1718,14 +1708,16 @@
     ]
   },
   "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
-    "ts": "2026-11-11T11:09:29.081063",
+    "ts": "2026-11-12T11:15:58.806156",
     "canales": {
-      "whatsapp": "2026-11-11T11:09:29.081063"
+      "whatsapp": "2026-11-12T11:15:58.806156"
     },
-    "precio": 109.0,
+    "precio": 89.0,
     "precios_publicados": [
-      109.0
-    ]
+      109.0,
+      89.0
+    ],
+    "precio_min_publicado": 109.0
   },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-11-11T11:21:56.870423",
