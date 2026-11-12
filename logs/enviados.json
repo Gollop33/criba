@@ -413,14 +413,16 @@
     ]
   },
   "amz-mondial-ventilador-de-mesa-30cm-super-power-p": {
-    "ts": "2026-11-10T17:09:31.571493",
+    "ts": "2026-11-12T13:42:32.164131",
     "canales": {
-      "whatsapp": "2026-11-10T17:09:31.571493"
+      "whatsapp": "2026-11-12T13:42:32.164131"
     },
-    "precio": 99.0,
+    "precio": 75.0,
     "precios_publicados": [
-      99.0
-    ]
+      99.0,
+      75.0
+    ],
+    "precio_min_publicado": 99.0
   },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
     "ts": "2026-11-11T17:15:12.763367",
