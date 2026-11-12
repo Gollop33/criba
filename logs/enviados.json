@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-max-titanium-creatina-pote-monohidratada-300g": {
-    "ts": "2026-11-10T14:29:19.383166",
-    "canales": {
-      "whatsapp": "2026-11-10T14:29:19.383166"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      41.0
-    ]
-  },
   "amz-nexgard-antipulgas-e-carrapatos-para-caes-de-": {
     "ts": "2026-11-10T14:36:24.907578",
     "canales": {
@@ -3363,6 +3353,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-11-12T14:34:38.071782",
+    "canales": {
+      "whatsapp": "2026-11-12T14:34:38.071782"
+    },
+    "precio": 1152.0,
+    "precios_publicados": [
+      1152.0
     ]
   }
 }
