@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 2999.0
   },
-  "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
-    "ts": "2026-11-10T14:15:15.195322",
-    "canales": {
-      "whatsapp": "2026-11-10T14:15:15.195322"
-    },
-    "precio": 517.0,
-    "precios_publicados": [
-      517.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
     "ts": "2026-11-10T14:22:15.274581",
     "canales": {
@@ -3363,6 +3353,16 @@
     "precio": 104.0,
     "precios_publicados": [
       104.0
+    ]
+  },
+  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
+    "ts": "2026-11-12T14:18:43.525662",
+    "canales": {
+      "whatsapp": "2026-11-12T14:18:43.525662"
+    },
+    "precio": 135.0,
+    "precios_publicados": [
+      135.0
     ]
   }
 }
