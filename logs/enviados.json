@@ -171,26 +171,6 @@
     ],
     "precio_min_publicado": 1899.0
   },
-  "ml-monitor-aoc-22-120hz-1ms-gaming-hdmi-22b35hm2": {
-    "ts": "2026-11-11T01:34:27.960287",
-    "canales": {
-      "whatsapp": "2026-11-11T01:34:27.960287"
-    },
-    "precio": 395.0,
-    "precios_publicados": [
-      395.0
-    ]
-  },
-  "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
-    "ts": "2026-11-11T01:37:51.790782",
-    "canales": {
-      "whatsapp": "2026-11-11T01:37:51.790782"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0
-    ]
-  },
   "ml-tablet-positivo-vision-tab-7-processador-octa": {
     "ts": "2026-11-11T01:44:52.082042",
     "canales": {
@@ -3267,6 +3247,16 @@
     "precio": 499.0,
     "precios_publicados": [
       499.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
+    "ts": "2026-11-13T01:40:47.716778",
+    "canales": {
+      "whatsapp": "2026-11-13T01:40:47.716778"
+    },
+    "precio": 785.0,
+    "precios_publicados": [
+      785.0
     ]
   }
 }
