@@ -25,18 +25,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-11-11T00:32:21.637690",
-    "canales": {
-      "whatsapp": "2026-11-11T00:32:21.637690"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      1230.0,
-      999.0
-    ],
-    "precio_min_publicado": 1230.0
-  },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-5": {
     "ts": "2026-11-12T00:52:48.037925",
     "canales": {
@@ -181,16 +169,6 @@
       1899.0
     ],
     "precio_min_publicado": 1899.0
-  },
-  "ml-lg-ultragear-monitor-gamer-32-va-165hz-1ms-mb": {
-    "ts": "2026-11-11T00:30:50.913305",
-    "canales": {
-      "whatsapp": "2026-11-11T00:30:50.913305"
-    },
-    "precio": 1098.0,
-    "precios_publicados": [
-      1098.0
-    ]
   },
   "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
     "ts": "2026-11-11T00:37:24.638416",
@@ -3258,6 +3236,16 @@
     "precio": 141.0,
     "precios_publicados": [
       141.0
+    ]
+  },
+  "amz-notebook-acer-nitro-v-15-rtx-4050-i5-16gb-512": {
+    "ts": "2026-11-13T00:32:26.292678",
+    "canales": {
+      "whatsapp": "2026-11-13T00:32:26.292678"
+    },
+    "precio": 8350.0,
+    "precios_publicados": [
+      8350.0
     ]
   }
 }
