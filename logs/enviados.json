@@ -170,16 +170,6 @@
     ],
     "precio_min_publicado": 1899.0
   },
-  "ml-projetor-portatil-4k-hd-android-110-smart-wif": {
-    "ts": "2026-11-11T00:37:24.638416",
-    "canales": {
-      "whatsapp": "2026-11-11T00:37:24.638416"
-    },
-    "precio": 181.0,
-    "precios_publicados": [
-      181.0
-    ]
-  },
   "ml-monitor-gamer-portatil-156-1080p-fhd-ips-com-": {
     "ts": "2026-11-11T00:49:08.739452",
     "canales": {
@@ -3256,6 +3246,16 @@
     "precio": 135.0,
     "precios_publicados": [
       135.0
+    ]
+  },
+  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
+    "ts": "2026-11-13T00:42:42.914440",
+    "canales": {
+      "whatsapp": "2026-11-13T00:42:42.914440"
+    },
+    "precio": 199.0,
+    "precios_publicados": [
+      199.0
     ]
   }
 }
