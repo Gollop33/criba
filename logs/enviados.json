@@ -272,16 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
-    "ts": "2026-11-11T22:04:02.197075",
-    "canales": {
-      "whatsapp": "2026-11-11T22:04:02.197075"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-apple-iphone-17-de-256-gb-preto": {
     "ts": "2026-11-11T22:11:10.391015",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 402.0,
     "precios_publicados": [
       402.0
+    ]
+  },
+  "amz-monitor-gamer-lg-ultragear-27-27gs60fb-ips-fu": {
+    "ts": "2026-11-13T22:05:55.387657",
+    "canales": {
+      "whatsapp": "2026-11-13T22:05:55.387657"
+    },
+    "precio": 899.0,
+    "precios_publicados": [
+      899.0
     ]
   }
 }
