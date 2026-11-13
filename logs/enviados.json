@@ -272,26 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
-    "ts": "2026-11-11T22:32:34.289839",
-    "canales": {
-      "whatsapp": "2026-11-11T22:32:34.289839"
-    },
-    "precio": 928.0,
-    "precios_publicados": [
-      928.0
-    ]
-  },
-  "amz-metroid-ravenous-nintendo-switch-2": {
-    "ts": "2026-11-11T22:34:57.981720",
-    "canales": {
-      "whatsapp": "2026-11-11T22:34:57.981720"
-    },
-    "precio": 439.0,
-    "precios_publicados": [
-      439.0
-    ]
-  },
   "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
     "ts": "2026-11-11T22:43:45.367348",
     "canales": {
@@ -3368,6 +3348,16 @@
     "precio": 387.0,
     "precios_publicados": [
       387.0
+    ]
+  },
+  "amz-kf432c16bbk232-kit-de-memorias-de-32gb-2-x-16": {
+    "ts": "2026-11-13T22:36:32.447315",
+    "canales": {
+      "whatsapp": "2026-11-13T22:36:32.447315"
+    },
+    "precio": 1899.0,
+    "precios_publicados": [
+      1899.0
     ]
   }
 }
