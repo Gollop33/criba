@@ -260,36 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
-    "ts": "2026-11-11T20:05:41.706722",
-    "canales": {
-      "whatsapp": "2026-11-11T20:05:41.706722"
-    },
-    "precio": 309.0,
-    "precios_publicados": [
-      309.0
-    ]
-  },
-  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-11-11T20:08:29.792186",
-    "canales": {
-      "whatsapp": "2026-11-11T20:08:29.792186"
-    },
-    "precio": 3877.0,
-    "precios_publicados": [
-      3877.0
-    ]
-  },
-  "amz-wap-ventilador-de-coluna-50cm-flow-turbo-com-": {
-    "ts": "2026-11-11T20:10:26.200629",
-    "canales": {
-      "whatsapp": "2026-11-11T20:10:26.200629"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
-  },
   "amz-sony-playstation-5-slim-digital-console-825gb": {
     "ts": "2026-11-11T20:18:49.484794",
     "canales": {
@@ -3358,6 +3328,16 @@
     "precio": 985.0,
     "precios_publicados": [
       985.0
+    ]
+  },
+  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
+    "ts": "2026-11-13T20:13:08.222425",
+    "canales": {
+      "whatsapp": "2026-11-13T20:13:08.222425"
+    },
+    "precio": 3588.0,
+    "precios_publicados": [
+      3588.0
     ]
   }
 }
