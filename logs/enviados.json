@@ -235,26 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-skin-care-hidratante-facial-garnier-uniform-m": {
-    "ts": "2026-11-11T11:36:03.026994",
-    "canales": {
-      "whatsapp": "2026-11-11T11:36:03.026994"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
-  "amz-detergente-para-lavaloucas-em-pastilhas-jimo-": {
-    "ts": "2026-11-11T11:43:14.509872",
-    "canales": {
-      "whatsapp": "2026-11-11T11:43:14.509872"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-scotchbrite-3m-esponja-para-loucas-delicadas-": {
     "ts": "2026-11-11T11:50:23.731889",
     "canales": {
@@ -3331,6 +3311,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-detergente-ype-neutro-5l": {
+    "ts": "2026-11-13T11:43:15.363937",
+    "canales": {
+      "whatsapp": "2026-11-13T11:43:15.363937"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
