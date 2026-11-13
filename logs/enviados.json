@@ -235,16 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-comfort-boom-perfume-em-cristais-explosao-de-": {
-    "ts": "2026-11-11T12:57:18.462239",
-    "canales": {
-      "whatsapp": "2026-11-11T12:57:18.462239"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0
-    ]
-  },
   "amz-mouse-pad-azul": {
     "ts": "2026-11-11T13:08:19.102799",
     "canales": {
@@ -3321,6 +3311,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-sensodyne-creme-dental-branqueador-extra-fres": {
+    "ts": "2026-11-13T13:08:13.228043",
+    "canales": {
+      "whatsapp": "2026-11-13T13:08:13.228043"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
