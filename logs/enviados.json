@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-mondial-liquidificador-turbo-power-preto-550w": {
-    "ts": "2026-11-11T10:57:16.884825",
-    "canales": {
-      "whatsapp": "2026-11-11T10:57:16.884825"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-philips-aparador-e-barbeador-eletrico-serie-3": {
     "ts": "2026-11-11T11:05:39.403502",
     "canales": {
@@ -3300,6 +3290,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
+    "ts": "2026-11-13T11:04:37.275162",
+    "canales": {
+      "whatsapp": "2026-11-13T11:04:37.275162"
+    },
+    "precio": 35.0,
+    "precios_publicados": [
+      35.0
     ]
   }
 }
