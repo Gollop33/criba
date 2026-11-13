@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-mantecorp-hidratante-epidrat-calm-b5-hidrata-": {
-    "ts": "2026-11-11T07:03:23.908441",
-    "canales": {
-      "whatsapp": "2026-11-11T07:03:23.908441"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
     "ts": "2026-11-11T07:26:43.748064",
     "canales": {
@@ -1775,14 +1765,16 @@
     ]
   },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
-    "ts": "2026-11-12T06:22:36.256255",
+    "ts": "2026-11-13T07:15:25.602409",
     "canales": {
-      "whatsapp": "2026-11-12T06:22:36.256255"
+      "whatsapp": "2026-11-13T07:15:25.602409"
     },
-    "precio": 60.0,
+    "precio": 44.0,
     "precios_publicados": [
-      60.0
-    ]
+      60.0,
+      44.0
+    ],
+    "precio_min_publicado": 60.0
   },
   "amz-fralda-pampers-recem-nascido-tamanho-rn-ate-5": {
     "ts": "2026-11-12T06:29:22.777990",
