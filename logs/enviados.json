@@ -272,16 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-apple-iphone-16-128-gb-preto": {
-    "ts": "2026-11-11T22:23:18.610785",
-    "canales": {
-      "whatsapp": "2026-11-11T22:23:18.610785"
-    },
-    "precio": 5054.0,
-    "precios_publicados": [
-      5054.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
     "ts": "2026-11-11T22:32:34.289839",
     "canales": {
@@ -3358,6 +3348,16 @@
     "precio": 1659.0,
     "precios_publicados": [
       1659.0
+    ]
+  },
+  "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
+    "ts": "2026-11-13T22:25:36.877710",
+    "canales": {
+      "whatsapp": "2026-11-13T22:25:36.877710"
+    },
+    "precio": 517.0,
+    "precios_publicados": [
+      517.0
     ]
   }
 }
