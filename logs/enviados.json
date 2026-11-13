@@ -272,16 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
-    "ts": "2026-11-11T21:44:53.325643",
-    "canales": {
-      "whatsapp": "2026-11-11T21:44:53.325643"
-    },
-    "precio": 1776.0,
-    "precios_publicados": [
-      1776.0
-    ]
-  },
   "amz-base-de-carregamento-do-dualsense-playstation": {
     "ts": "2026-11-11T21:50:29.785831",
     "canales": {
@@ -3358,6 +3348,16 @@
     "precio": 3365.0,
     "precios_publicados": [
       3365.0
+    ]
+  },
+  "amz-whey-protein-concentrado-cookies-pote-900g-co": {
+    "ts": "2026-11-13T21:50:23.530988",
+    "canales": {
+      "whatsapp": "2026-11-13T21:50:23.530988"
+    },
+    "precio": 192.0,
+    "precios_publicados": [
+      192.0
     ]
   }
 }
