@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-philips-aparador-e-barbeador-eletrico-serie-3": {
-    "ts": "2026-11-11T11:05:39.403502",
-    "canales": {
-      "whatsapp": "2026-11-11T11:05:39.403502"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
   "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
     "ts": "2026-11-12T11:15:58.806156",
     "canales": {
@@ -3300,6 +3290,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-churu-petisco-para-gato-sabor-atum-4-tubos-de": {
+    "ts": "2026-11-13T11:06:07.838675",
+    "canales": {
+      "whatsapp": "2026-11-13T11:06:07.838675"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
