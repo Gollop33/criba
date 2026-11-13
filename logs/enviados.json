@@ -235,16 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-11-11T15:15:21.566922",
-    "canales": {
-      "whatsapp": "2026-11-11T15:15:21.566922"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      41.0
-    ]
-  },
   "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
     "ts": "2026-11-11T15:22:02.876467",
     "canales": {
@@ -3321,6 +3311,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
+    "ts": "2026-11-13T15:15:31.078494",
+    "canales": {
+      "whatsapp": "2026-11-13T15:15:31.078494"
+    },
+    "precio": 47.0,
+    "precios_publicados": [
+      47.0
     ]
   }
 }
