@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
-    "ts": "2026-11-11T09:05:05.128148",
-    "canales": {
-      "whatsapp": "2026-11-11T09:05:05.128148"
-    },
-    "precio": 2.0,
-    "precios_publicados": [
-      2.0
-    ]
-  },
   "amz-la-rocheposay-ultra-cover-protetor-solar-com-": {
     "ts": "2026-11-11T09:25:14.362523",
     "canales": {
@@ -1821,14 +1811,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-go-e1504ga-intel-core-": {
-    "ts": "2026-11-12T08:55:42.383805",
+    "ts": "2026-11-13T09:08:18.248315",
     "canales": {
-      "whatsapp": "2026-11-12T08:55:42.383805"
+      "whatsapp": "2026-11-13T09:08:18.248315"
     },
-    "precio": 389900.0,
+    "precio": 3259.0,
     "precios_publicados": [
-      389900.0
-    ]
+      389900.0,
+      3259.0
+    ],
+    "precio_min_publicado": 389900.0
   },
   "amz-tablet-positivo-vision-tab-10-4gb-ram-128gb-a": {
     "ts": "2026-11-12T09:22:20.610456",
