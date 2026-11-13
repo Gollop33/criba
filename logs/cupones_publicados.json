@@ -1306,7 +1306,17 @@
       "detectado_em": "2026-11-13T13:00:41+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PEGUESEUCUPOM": {
+      "detectado_em": "2026-10-21T17:00:07+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 554h (> 24h)"
+    },
+    "ECONOMIZAMELI": {
+      "detectado_em": "2026-10-21T17:00:07+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 554h (> 24h)"
     }
   },
-  "actualizado": "2026-11-13T18:21:03+00:00"
+  "actualizado": "2026-11-13T18:30:26+00:00"
 }
