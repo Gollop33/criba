@@ -235,16 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
-    "ts": "2026-11-11T11:29:17.031819",
-    "canales": {
-      "whatsapp": "2026-11-11T11:29:17.031819"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-skin-care-hidratante-facial-garnier-uniform-m": {
     "ts": "2026-11-11T11:36:03.026994",
     "canales": {
@@ -3331,6 +3321,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
+    "ts": "2026-11-13T11:32:44.347106",
+    "canales": {
+      "whatsapp": "2026-11-13T11:32:44.347106"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
