@@ -109,18 +109,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "amz-playstation5-slim-digital-825gb-pacote-astro-": {
-    "ts": "2026-11-11T17:15:12.763367",
-    "canales": {
-      "whatsapp": "2026-11-11T17:15:12.763367"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      4599.0,
-      3999.0
-    ],
-    "precio_min_publicado": 4599.0
-  },
   "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
     "ts": "2026-11-11T17:22:35.705990",
     "canales": {
@@ -259,16 +247,6 @@
       59.0
     ],
     "precio_min_publicado": 59.0
-  },
-  "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-11-11T17:08:13.932474",
-    "canales": {
-      "whatsapp": "2026-11-11T17:08:13.932474"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
   },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
     "ts": "2026-11-11T17:29:22.654677",
@@ -3342,6 +3320,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-lavaroupas-em-po-omo-puro-cuidado-2kg-caixa": {
+    "ts": "2026-11-13T17:15:24.857272",
+    "canales": {
+      "whatsapp": "2026-11-13T17:15:24.857272"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
