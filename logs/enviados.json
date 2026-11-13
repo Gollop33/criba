@@ -260,26 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-sony-playstation-5-slim-digital-console-825gb": {
-    "ts": "2026-11-11T20:18:49.484794",
-    "canales": {
-      "whatsapp": "2026-11-11T20:18:49.484794"
-    },
-    "precio": 4249.0,
-    "precios_publicados": [
-      4249.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-11-11T20:20:41.959520",
-    "canales": {
-      "whatsapp": "2026-11-11T20:20:41.959520"
-    },
-    "precio": 947.0,
-    "precios_publicados": [
-      947.0
-    ]
-  },
   "amz-mondial-fritadeira-air-fryer-forno-oven-12l-p": {
     "ts": "2026-11-11T20:28:47.795755",
     "canales": {
@@ -3358,6 +3338,16 @@
     "precio": 222.0,
     "precios_publicados": [
       222.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
+    "ts": "2026-11-13T20:27:22.084449",
+    "canales": {
+      "whatsapp": "2026-11-13T20:27:22.084449"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
