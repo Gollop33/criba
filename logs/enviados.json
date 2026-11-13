@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 29.0
   },
-  "amz-buddemeyer-jogo-de-toalhas-melissa-extra-soft": {
-    "ts": "2026-11-11T03:53:43.673922",
-    "canales": {
-      "whatsapp": "2026-11-11T03:53:43.673922"
-    },
-    "precio": 144.0,
-    "precios_publicados": [
-      144.0
-    ]
-  },
   "ml-processador-amd-ryzen-5-5500-36ghz-42ghz-max-": {
     "ts": "2026-11-11T04:13:52.636957",
     "canales": {
@@ -3358,6 +3348,16 @@
     "precio": 434.0,
     "precios_publicados": [
       434.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
+    "ts": "2026-11-13T03:57:12.309957",
+    "canales": {
+      "whatsapp": "2026-11-13T03:57:12.309957"
+    },
+    "precio": 1599.0,
+    "precios_publicados": [
+      1599.0
     ]
   }
 }
