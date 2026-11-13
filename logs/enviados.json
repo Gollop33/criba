@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
-    "ts": "2026-11-11T09:51:40.735118",
-    "canales": {
-      "whatsapp": "2026-11-11T09:51:40.735118"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      12.0
-    ]
-  },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
     "ts": "2026-11-11T10:25:37.476514",
     "canales": {
@@ -3280,6 +3270,16 @@
     "precio": 56.0,
     "precios_publicados": [
       56.0
+    ]
+  },
+  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
+    "ts": "2026-11-13T10:13:31.084426",
+    "canales": {
+      "whatsapp": "2026-11-13T10:13:31.084426"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
