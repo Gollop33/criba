@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-128gb-8gb-ra": {
-    "ts": "2026-11-11T21:04:22.265259",
-    "canales": {
-      "whatsapp": "2026-11-11T21:04:22.265259"
-    },
-    "precio": 2743.0,
-    "precios_publicados": [
-      2743.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
     "ts": "2026-11-11T21:16:15.125498",
     "canales": {
@@ -3338,6 +3328,16 @@
     "precio": 4699.0,
     "precios_publicados": [
       4699.0
+    ]
+  },
+  "amz-memoria-ddr4-xpg-gammix-d35-16gb-3200mhz-pret": {
+    "ts": "2026-11-13T21:09:02.442803",
+    "canales": {
+      "whatsapp": "2026-11-13T21:09:02.442803"
+    },
+    "precio": 867.0,
+    "precios_publicados": [
+      867.0
     ]
   }
 }
