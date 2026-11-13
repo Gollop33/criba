@@ -222,26 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-11T10:25:37.476514",
-    "canales": {
-      "whatsapp": "2026-11-11T10:25:37.476514"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
-  "amz-morte-subita-mascara-super-hidratante-450g-lo": {
-    "ts": "2026-11-11T10:29:08.355448",
-    "canales": {
-      "whatsapp": "2026-11-11T10:29:08.355448"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "amz-omo-sabao-liquido-puro-cuidado-5l-tampa-pode-": {
     "ts": "2026-11-11T10:38:48.761245",
     "canales": {
@@ -3300,6 +3280,16 @@
     "precio": 20.0,
     "precios_publicados": [
       20.0
+    ]
+  },
+  "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
+    "ts": "2026-11-13T10:33:42.303415",
+    "canales": {
+      "whatsapp": "2026-11-13T10:33:42.303415"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
