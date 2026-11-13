@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-13T05:29:46+00:00",
-  "total": 253,
+  "actualizado": "2026-11-13T06:01:00+00:00",
+  "total": 256,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -3438,7 +3438,45 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "BEAUTY5",
+      "desconto": "5% OFF",
+      "compra_minima": "",
+      "limite": "R$500",
+      "hasta": "2026-12-31",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T21:36:40+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "COZINHA5",
+      "desconto": "5% OFF",
+      "compra_minima": "",
+      "limite": "R$99",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T21:36:40+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MOP5SHARK",
+      "desconto": "5% OFF",
+      "compra_minima": "",
+      "limite": "R$39",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-12T21:36:40+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ],
-  "revisado_em": "2026-11-13T00:01:26-03:00"
+  ]
 }

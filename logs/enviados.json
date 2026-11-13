@@ -209,16 +209,6 @@
     ],
     "precio_min_publicado": 25.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-11T05:36:38.290552",
-    "canales": {
-      "whatsapp": "2026-11-11T05:36:38.290552"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-ype-detergente-em-po-para-maquina-1kg-formula": {
     "ts": "2026-11-12T13:37:11.921220",
     "canales": {
@@ -774,14 +764,16 @@
     ]
   },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
-    "ts": "2026-11-11T16:22:19.807831",
+    "ts": "2026-11-13T06:03:56.442767",
     "canales": {
-      "whatsapp": "2026-11-11T16:22:19.807831"
+      "whatsapp": "2026-11-13T06:03:56.442767"
     },
-    "precio": 59.0,
+    "precio": 45.0,
     "precios_publicados": [
-      59.0
-    ]
+      59.0,
+      45.0
+    ],
+    "precio_min_publicado": 59.0
   },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-11-11T16:29:05.243398",
