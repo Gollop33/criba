@@ -109,18 +109,6 @@
     ],
     "precio_min_publicado": 99.0
   },
-  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-11T18:05:02.622899",
-    "canales": {
-      "whatsapp": "2026-11-11T18:05:02.622899"
-    },
-    "precio": 4499.0,
-    "precios_publicados": [
-      5099.0,
-      4499.0
-    ],
-    "precio_min_publicado": 5099.0
-  },
   "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
     "ts": "2026-11-12T18:27:02.617040",
     "canales": {
@@ -235,16 +223,6 @@
       59.0
     ],
     "precio_min_publicado": 59.0
-  },
-  "amz-tplink-tlwn823n-adaptador-wifi-usb-300-mbps-n": {
-    "ts": "2026-11-11T18:08:00.709927",
-    "canales": {
-      "whatsapp": "2026-11-11T18:08:00.709927"
-    },
-    "precio": 73.0,
-    "precios_publicados": [
-      73.0
-    ]
   },
   "amz-eudora-siage-promopack-liso-intenso-shampoo-2": {
     "ts": "2026-11-11T18:11:51.805741",
@@ -3348,6 +3326,16 @@
     "precio": 119.0,
     "precios_publicados": [
       119.0
+    ]
+  },
+  "amz-romantic-crown-mochila-masculina-de-viagem-pa": {
+    "ts": "2026-11-13T18:08:30.772859",
+    "canales": {
+      "whatsapp": "2026-11-13T18:08:30.772859"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
