@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-12T21:16:45+00:00",
-  "total": 256,
+  "actualizado": "2026-11-13T02:27:25+00:00",
+  "total": 253,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -2757,34 +2757,6 @@
       "estado": "ativo"
     },
     {
-      "codigo": "OLHAOARABE20",
-      "desconto": "20% OFF",
-      "compra_minima": "R$150",
-      "limite": "R$35",
-      "hasta": "2026-11-12",
-      "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-09T16:35:59+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
-    },
-    {
-      "codigo": "AUTO70OFF",
-      "desconto": "R$70 OFF",
-      "compra_minima": "",
-      "limite": "",
-      "hasta": "2026-11-12",
-      "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-09T16:35:59+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
-    },
-    {
       "codigo": "MAISCUPONS25",
       "desconto": "25% OFF",
       "compra_minima": "R$1",
@@ -3394,19 +3366,6 @@
       "limite": "R$30",
       "hasta": "",
       "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-12T13:01:26+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "MELHORDOMELIHJ",
-      "desconto": "20% OFF",
-      "compra_minima": "R$79",
-      "limite": "R$80",
-      "hasta": "2026-11-12",
-      "categoria": "Casa",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-12T13:01:26+00:00",
