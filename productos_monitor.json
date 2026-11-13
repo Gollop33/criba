@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-13T05:29:46+00:00",
-  "total": 8,
+  "actualizado": "2026-11-13T05:36:11+00:00",
+  "total": 7,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     },
     {
       "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
@@ -17,7 +17,7 @@
       "precio_ref": 55.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     },
     {
       "busqueda": "ype detergente em po para maquina 1kg formula",
@@ -25,7 +25,7 @@
       "precio_ref": 35.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -33,7 +33,7 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     },
     {
       "busqueda": "headset gamer havit h2232d rgb com microfone falante",
@@ -41,7 +41,7 @@
       "precio_ref": 59.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     },
     {
       "busqueda": "radio manivela manual de emergencia com lanterna led",
@@ -49,7 +49,7 @@
       "precio_ref": 234.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     },
     {
       "busqueda": "headset sem fio playstation pulse elitetm midnight black",
@@ -57,15 +57,7 @@
       "precio_ref": 889.89,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
-    },
-    {
-      "busqueda": "pinga cenoura e oliva oleo 50ml lola cosmetics",
-      "nombre": "Pinga Cenoura e Oliva Óleo 50ml , Lola Cosmetics",
-      "precio_ref": 16.83,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T05:29:46+00:00"
+      "monitorizado_desde": "2026-11-13T05:36:11+00:00"
     }
   ]
 }
