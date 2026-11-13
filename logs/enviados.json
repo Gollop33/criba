@@ -235,16 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-11T11:57:22.363871",
-    "canales": {
-      "whatsapp": "2026-11-11T11:57:22.363871"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-sensodyne-creme-dental-branqueador-extra-fres": {
     "ts": "2026-11-11T12:08:22.430068",
     "canales": {
@@ -3331,6 +3321,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
+    "ts": "2026-11-13T12:08:11.235744",
+    "canales": {
+      "whatsapp": "2026-11-13T12:08:11.235744"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
