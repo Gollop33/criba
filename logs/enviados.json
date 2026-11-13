@@ -235,16 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
-    "ts": "2026-11-11T11:21:56.870423",
-    "canales": {
-      "whatsapp": "2026-11-11T11:21:56.870423"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
     "ts": "2026-11-11T11:29:17.031819",
     "canales": {
@@ -3331,6 +3321,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
+    "ts": "2026-11-13T11:26:14.514035",
+    "canales": {
+      "whatsapp": "2026-11-13T11:26:14.514035"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
