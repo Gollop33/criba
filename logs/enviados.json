@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-dove-desodorante-antitranspirante-aerossol-or": {
-    "ts": "2026-11-11T08:03:20.187757",
-    "canales": {
-      "whatsapp": "2026-11-11T08:03:20.187757"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-lavaroupas-em-po-omo-puro-cuidado-2kg-caixa": {
     "ts": "2026-11-11T08:26:14.133533",
     "canales": {
@@ -1647,14 +1637,16 @@
     ]
   },
   "amz-tablet-xiaomi-redmi-pad-2-pro-tela-121-wifi-2": {
-    "ts": "2026-11-12T02:32:46.234351",
+    "ts": "2026-11-13T08:14:42.936325",
     "canales": {
-      "whatsapp": "2026-11-12T02:32:46.234351"
+      "whatsapp": "2026-11-13T08:14:42.936325"
     },
-    "precio": 212500.0,
+    "precio": 2016.0,
     "precios_publicados": [
-      212500.0
-    ]
+      212500.0,
+      2016.0
+    ],
+    "precio_min_publicado": 212500.0
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-11-12T03:00:21.640323",
