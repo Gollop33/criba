@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-13T14:08:21+00:00",
+  "actualizado": "2026-11-13T14:15:16+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "headset gamer havit h2232d rgb com microfone falante",
@@ -17,7 +17,7 @@
       "precio_ref": 59.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "viva verde areia higienica biodegradavel para gatos graos",
@@ -25,7 +25,7 @@
       "precio_ref": 45.66,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -33,7 +33,7 @@
       "precio_ref": 44.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "sanduicheira eletrica cadence click 127v",
@@ -41,7 +41,7 @@
       "precio_ref": 82.5,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "playstation dualsense controle sem fio branco",
@@ -49,7 +49,7 @@
       "precio_ref": 389.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "tablet xiaomi redmi pad 2 pro tela 12",
@@ -57,7 +57,7 @@
       "precio_ref": 2016.59,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go e1504ga intel core i3",
@@ -65,31 +65,7 @@
       "precio_ref": 3259.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
-    },
-    {
-      "busqueda": "integralmedica creatina em po hardcore 100 pura e",
-      "nombre": "Integralmedica Creatina em Pó Hardcore 100% Pura e Monohidratada 300g | Auxilia no ganho de força",
-      "precio_ref": 35.79,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
-    },
-    {
-      "busqueda": "max titanium creatina monohidratada pote 300g 100 pura",
-      "nombre": "Max Titanium Creatina Monohidratada Pote 300g | 100% Pura",
-      "precio_ref": 38.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
-    },
-    {
-      "busqueda": "oral b iconic premium escova de dentes 3",
-      "nombre": "Oral B Iconic Premium, escova de dentes, 3 unidades",
-      "precio_ref": 28.69,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "oral b pasta de dente 3d white brilliant",
@@ -97,7 +73,31 @@
       "precio_ref": 12.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
+    },
+    {
+      "busqueda": "max titanium creatina monohidratada pote 300g 100 pura",
+      "nombre": "Max Titanium Creatina Monohidratada Pote 300g | 100% Pura",
+      "precio_ref": 38.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
+    },
+    {
+      "busqueda": "oral b iconic premium escova de dentes 3",
+      "nombre": "Oral B Iconic Premium, escova de dentes, 3 unidades",
+      "precio_ref": 28.69,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
+    },
+    {
+      "busqueda": "brilhante limpeza total lava roupas liquido 3l",
+      "nombre": "Brilhante Limpeza Total - Lava Roupas Líquido 3L",
+      "precio_ref": 23.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "boni natural creme dental com oleos naturais de",
@@ -105,7 +105,7 @@
       "precio_ref": 27.54,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "flash limp mop giratorio fit balde 8 litros",
@@ -113,7 +113,7 @@
       "precio_ref": 52.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "fralda turma da monica baby rn 36 unidades",
@@ -121,7 +121,7 @@
       "precio_ref": 19.89,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "areia higienica para gatos bionature biodegradavel 4kg",
@@ -129,7 +129,7 @@
       "precio_ref": 34.67,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "pelicula de vidro temperado premium 9h compativel com",
@@ -137,7 +137,7 @@
       "precio_ref": 34.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "lava roupas liquido omo ciclo rapido acao total",
@@ -145,7 +145,7 @@
       "precio_ref": 19.79,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "adaptador bluetooth para pc receptor de dongle bluetooth",
@@ -153,7 +153,7 @@
       "precio_ref": 19.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "lava roupas em po omo puro cuidado 2kg",
@@ -161,7 +161,7 @@
       "precio_ref": 23.73,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "garrafa de tinta original epson ecotank t544 preto",
@@ -169,7 +169,7 @@
       "precio_ref": 49.99,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "algodao quadrado para bebe bellacotton 100 algodao 100",
@@ -177,7 +177,7 @@
       "precio_ref": 26.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "cerave gel de limpeza facial para pele oleosa",
@@ -185,7 +185,7 @@
       "precio_ref": 90.98,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "romantic crown mochila masculina de viagem para notebook",
@@ -193,7 +193,7 @@
       "precio_ref": 99.16,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "philips aparador e barbeador eletrico serie 3000 all",
@@ -201,7 +201,7 @@
       "precio_ref": 129.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "mondial liquidificador turbo power preto 550w 110v l",
@@ -209,7 +209,7 @@
       "precio_ref": 89.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "street fighter 6 year 1 2 fighters edition",
@@ -217,7 +217,7 @@
       "precio_ref": 119.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "soundcore p20i da anker fone de ouvido bluetooth",
@@ -225,7 +225,7 @@
       "precio_ref": 129.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "apple iphone 16e de 128 gb preto",
@@ -233,7 +233,7 @@
       "precio_ref": 3443.33,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "notebook gamer lenovo loq irx9 15 6 144hz",
@@ -241,7 +241,7 @@
       "precio_ref": 4699.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
@@ -249,7 +249,7 @@
       "precio_ref": 3110.47,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor gamer oled lg ultragear 27gx704a 27 polegadas",
@@ -257,7 +257,7 @@
       "precio_ref": 3588.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 27 27gs60f b ips",
@@ -265,7 +265,7 @@
       "precio_ref": 899.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor gamer lg 20 20u401a b 75hz 2ms",
@@ -273,7 +273,7 @@
       "precio_ref": 315.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "tablet infantil patrulha canina skye com controle parental",
@@ -281,7 +281,7 @@
       "precio_ref": 665.56,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "fritadeira eletrica sem oleo forno oven airfryer 12l",
@@ -289,7 +289,7 @@
       "precio_ref": 540.81,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
@@ -297,7 +297,7 @@
       "precio_ref": 692.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor dell 22 full hd 1920 x 1080",
@@ -305,7 +305,7 @@
       "precio_ref": 498.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "growth supplements creatina monohidratada 250g growth supplements sem",
@@ -313,7 +313,7 @@
       "precio_ref": 5990.0,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "powera case de protecao para nintendo switch 2",
@@ -321,7 +321,7 @@
       "precio_ref": 171.42,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "smartphone xiaomi redmi note 15 pro 5g 512gb",
@@ -329,7 +329,7 @@
       "precio_ref": 2349.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -337,7 +337,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
@@ -345,7 +345,7 @@
       "precio_ref": 175.66,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor aoc 27 4k ips 106 ntsc 97",
@@ -353,7 +353,7 @@
       "precio_ref": 959.34,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
@@ -361,7 +361,7 @@
       "precio_ref": 2999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "amaciante ype ultra aconchego 5l",
@@ -369,7 +369,7 @@
       "precio_ref": 2590.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "apple iphone 16 512 gb preto",
@@ -377,7 +377,7 @@
       "precio_ref": 5499.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "bettdow monitor portatil 15 6 fhd 1080p monitor",
@@ -385,7 +385,7 @@
       "precio_ref": 402.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor uhd samsung 32 4k hdmi display port",
@@ -393,7 +393,7 @@
       "precio_ref": 1174.89,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor pc gamer lg 24 ips 100hz full",
@@ -401,7 +401,7 @@
       "precio_ref": 525.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "lg ar condicionado split lg dual inverter ai",
@@ -409,7 +409,7 @@
       "precio_ref": 2044.44,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "placa de video asrock radeon rx 7600 challenger",
@@ -417,7 +417,7 @@
       "precio_ref": 2199.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "ventilador coluna 220v 40cm 6 pas super power",
@@ -425,7 +425,7 @@
       "precio_ref": 189.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "memoria ddr4 xpg gammix d35 16gb 3200mhz preto",
@@ -433,7 +433,7 @@
       "precio_ref": 752.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "apple iphone 16 128 gb branco",
@@ -441,7 +441,7 @@
       "precio_ref": 5054.44,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
@@ -449,7 +449,7 @@
       "precio_ref": 387.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "webcam full hd logitech c920s 1080p 30fps com",
@@ -457,7 +457,7 @@
       "precio_ref": 299.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "cafeteira eletrica electrolux inox filtro permanente removivel capacidade",
@@ -465,7 +465,7 @@
       "precio_ref": 239.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
@@ -473,7 +473,7 @@
       "precio_ref": 579.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     },
     {
       "busqueda": "mouse gamer sem fio redragon invader pro hibrido",
@@ -481,7 +481,7 @@
       "precio_ref": 8522.0,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T14:08:21+00:00"
+      "monitorizado_desde": "2026-11-13T14:15:16+00:00"
     }
   ]
 }
