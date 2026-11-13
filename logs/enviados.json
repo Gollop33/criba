@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 1899.0
   },
-  "ml-smart-tv-samsung-32-hd-tizen-hdr-wifi-hdmi-mo": {
-    "ts": "2026-11-11T00:17:19.766794",
-    "canales": {
-      "whatsapp": "2026-11-11T00:17:19.766794"
-    },
-    "precio": 928.0,
-    "precios_publicados": [
-      928.0
-    ]
-  },
   "ml-monitor-gamer-aoc-agon-g4s-25-310hz-03ms-hdr4": {
     "ts": "2026-11-11T00:21:59.907060",
     "canales": {
@@ -3258,6 +3248,16 @@
     "precio": 171.0,
     "precios_publicados": [
       171.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-13T00:21:23.010661",
+    "canales": {
+      "whatsapp": "2026-11-13T00:21:23.010661"
+    },
+    "precio": 1089.0,
+    "precios_publicados": [
+      1089.0
     ]
   }
 }
