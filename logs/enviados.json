@@ -248,16 +248,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
-    "ts": "2026-11-11T19:19:17.740917",
-    "canales": {
-      "whatsapp": "2026-11-11T19:19:17.740917"
-    },
-    "precio": 114.0,
-    "precios_publicados": [
-      114.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
     "ts": "2026-11-11T19:28:15.099958",
     "canales": {
@@ -3338,6 +3328,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
+    "ts": "2026-11-13T19:24:09.233866",
+    "canales": {
+      "whatsapp": "2026-11-13T19:24:09.233866"
+    },
+    "precio": 139.0,
+    "precios_publicados": [
+      139.0
     ]
   }
 }
