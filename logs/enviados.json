@@ -272,26 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-apple-2025-ipad-air-de-13-polegadas-wifi-128-": {
-    "ts": "2026-11-11T22:43:45.367348",
-    "canales": {
-      "whatsapp": "2026-11-11T22:43:45.367348"
-    },
-    "precio": 6444.0,
-    "precios_publicados": [
-      6444.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
-    "ts": "2026-11-11T22:49:02.092816",
-    "canales": {
-      "whatsapp": "2026-11-11T22:49:02.092816"
-    },
-    "precio": 1899.0,
-    "precios_publicados": [
-      1899.0
-    ]
-  },
   "amz-pcyes-placa-de-video-rx-550-4gb-gddr5-128-bit": {
     "ts": "2026-11-11T22:55:39.719383",
     "canales": {
@@ -3368,6 +3348,16 @@
     "precio": 1205.0,
     "precios_publicados": [
       1205.0
+    ]
+  },
+  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
+    "ts": "2026-11-13T22:49:04.759387",
+    "canales": {
+      "whatsapp": "2026-11-13T22:49:04.759387"
+    },
+    "precio": 4999.0,
+    "precios_publicados": [
+      4999.0
     ]
   }
 }
