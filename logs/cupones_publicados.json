@@ -72,31 +72,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "AQUITEM": {
-      "detectado_em": "2026-10-14T13:00:53+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MEGADESCONTO": {
-      "detectado_em": "2026-10-14T13:00:53+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PEGUESEUCUPOM": {
-      "detectado_em": "2026-10-14T13:00:53+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "ECONOMIZAMELI": {
-      "detectado_em": "2026-10-14T13:00:53+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "POUPAMAIS": {
-      "detectado_em": "2026-10-14T13:00:53+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "APROVEITA": {
       "detectado_em": "2026-10-15T13:03:46+00:00",
       "publicado_em": null,
@@ -817,16 +792,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "TUDOEMPROMO": {
-      "detectado_em": "2026-10-14T16:59:58+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 553h (> 24h)"
-    },
-    "GARANTAMEUDESCONTO": {
-      "detectado_em": "2026-10-14T16:59:58+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 553h (> 24h)"
-    },
     "AMIGOVIP": {
       "detectado_em": "2026-11-07T12:01:01+00:00",
       "publicado_em": null,
@@ -1281,7 +1246,67 @@
       "detectado_em": "2026-11-12T21:36:40+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAPRATEC": {
+      "detectado_em": "2026-11-13T16:00:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAS25": {
+      "detectado_em": "2026-11-13T16:00:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAS22": {
+      "detectado_em": "2026-11-13T16:00:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "QUEROPROMOS25": {
+      "detectado_em": "2026-11-13T13:30:56+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIVIP22": {
+      "detectado_em": "2026-11-13T13:30:56+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "DESCONTODOML25": {
+      "detectado_em": "2026-11-13T13:30:56+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "QUEROPROMOS30": {
+      "detectado_em": "2026-11-13T13:30:56+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOSTECH": {
+      "detectado_em": "2026-11-13T13:00:41+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PARTIUREFORMA": {
+      "detectado_em": "2026-11-13T13:00:41+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOHOJETEM": {
+      "detectado_em": "2026-11-13T13:00:41+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PRASAUDEPROMO": {
+      "detectado_em": "2026-11-13T13:00:41+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "VEMHOJE": {
+      "detectado_em": "2026-11-13T13:00:41+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-13T11:32:41+00:00"
+  "actualizado": "2026-11-13T18:21:03+00:00"
 }

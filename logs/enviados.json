@@ -224,16 +224,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "amz-sensodyne-creme-dental-para-sensibilidade-rap": {
-    "ts": "2026-11-11T18:16:36.400970",
-    "canales": {
-      "whatsapp": "2026-11-11T18:16:36.400970"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-espatula-para-confeitar-mimo-style-aco-inox-1": {
     "ts": "2026-11-11T18:24:47.083158",
     "canales": {
@@ -369,14 +359,16 @@
     ]
   },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-11-11T19:37:37.709320",
+    "ts": "2026-11-13T18:21:06.467045",
     "canales": {
-      "whatsapp": "2026-11-11T19:37:37.709320"
+      "whatsapp": "2026-11-13T18:21:06.467045"
     },
-    "precio": 1998.0,
+    "precio": 1699.0,
     "precios_publicados": [
-      1998.0
-    ]
+      1998.0,
+      1699.0
+    ],
+    "precio_min_publicado": 1998.0
   },
   "amz-jsaux-protective-case-for-switch-2-split-grip": {
     "ts": "2026-11-11T19:43:54.690813",
