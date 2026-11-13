@@ -235,26 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-mouse-pad-azul": {
-    "ts": "2026-11-11T13:08:19.102799",
-    "canales": {
-      "whatsapp": "2026-11-11T13:08:19.102799"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
-  "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
-    "ts": "2026-11-11T13:15:08.246421",
-    "canales": {
-      "whatsapp": "2026-11-11T13:15:08.246421"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0
-    ]
-  },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-11-11T13:22:16.744592",
     "canales": {
@@ -3321,6 +3301,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
+    "ts": "2026-11-13T13:15:23.021552",
+    "canales": {
+      "whatsapp": "2026-11-13T13:15:23.021552"
+    },
+    "precio": 13.0,
+    "precios_publicados": [
+      13.0
     ]
   }
 }
