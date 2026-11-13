@@ -272,16 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-11T22:11:10.391015",
-    "canales": {
-      "whatsapp": "2026-11-11T22:11:10.391015"
-    },
-    "precio": 5859.0,
-    "precios_publicados": [
-      5859.0
-    ]
-  },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
     "ts": "2026-11-11T22:16:18.458726",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 899.0,
     "precios_publicados": [
       899.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
+    "ts": "2026-11-13T22:11:50.728841",
+    "canales": {
+      "whatsapp": "2026-11-13T22:11:50.728841"
+    },
+    "precio": 633.0,
+    "precios_publicados": [
+      633.0
     ]
   }
 }
