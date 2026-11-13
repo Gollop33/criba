@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-samsung-galaxy-book3-360-intel-coretm-i51335u": {
-    "ts": "2026-11-11T19:50:51.991727",
-    "canales": {
-      "whatsapp": "2026-11-11T19:50:51.991727"
-    },
-    "precio": 4599.0,
-    "precios_publicados": [
-      4599.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g67-5g-128gb-4gb-ram": {
     "ts": "2026-11-11T20:00:45.612588",
     "canales": {
@@ -3358,6 +3348,16 @@
     "precio": 2199.0,
     "precios_publicados": [
       2199.0
+    ]
+  },
+  "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
+    "ts": "2026-11-13T19:58:52.600627",
+    "canales": {
+      "whatsapp": "2026-11-13T19:58:52.600627"
+    },
+    "precio": 818.0,
+    "precios_publicados": [
+      818.0
     ]
   }
 }
