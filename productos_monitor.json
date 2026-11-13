@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-13T03:42:52+00:00",
-  "total": 11,
+  "actualizado": "2026-11-13T03:50:05+00:00",
+  "total": 10,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     },
     {
       "busqueda": "sabonete em barra nivea creme care 90g pack",
@@ -17,23 +17,7 @@
       "precio_ref": 16.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
-    },
-    {
-      "busqueda": "ype detergente em po para maquina 1kg formula",
-      "nombre": "Ypê Detergente em Pó para Máquina 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
-      "precio_ref": 35.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
-    },
-    {
-      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
-      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
-      "precio_ref": 59.99,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     },
     {
       "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
@@ -41,7 +25,15 @@
       "precio_ref": 55.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
+    },
+    {
+      "busqueda": "ype detergente em po para maquina 1kg formula",
+      "nombre": "Ypê Detergente em Pó para Máquina 1Kg | Fórmula 3 em 1 com ação desengordurante, secante e sontrole de odor",
+      "precio_ref": 35.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -49,7 +41,15 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
+    },
+    {
+      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
+      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
+      "precio_ref": 59.99,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     },
     {
       "busqueda": "radio manivela manual de emergencia com lanterna led",
@@ -57,7 +57,7 @@
       "precio_ref": 234.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     },
     {
       "busqueda": "headset sem fio playstation pulse elitetm midnight black",
@@ -65,23 +65,7 @@
       "precio_ref": 889.89,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
-    },
-    {
-      "busqueda": "controle sem fio playstation dualsensetm midnight black",
-      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
-      "precio_ref": 420.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
-      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
-      "precio_ref": 1599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     },
     {
       "busqueda": "cartao nintendo switch 2 samsung microsd express 256",
@@ -89,7 +73,15 @@
       "precio_ref": 434.37,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
+      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
+      "precio_ref": 1599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T03:50:05+00:00"
     }
   ]
 }
