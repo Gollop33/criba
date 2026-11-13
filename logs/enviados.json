@@ -236,16 +236,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "amz-vichy-dercos-energy-shampoo-antiqueda-estimul": {
-    "ts": "2026-11-11T17:43:02.496316",
-    "canales": {
-      "whatsapp": "2026-11-11T17:43:02.496316"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
   "amz-tplink-tlwn823n-adaptador-wifi-usb-300-mbps-n": {
     "ts": "2026-11-11T18:08:00.709927",
     "canales": {
@@ -3328,6 +3318,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-creatina-monohidratada-1kg-100-pura-importada": {
+    "ts": "2026-11-13T17:43:38.679575",
+    "canales": {
+      "whatsapp": "2026-11-13T17:43:38.679575"
+    },
+    "precio": 68.0,
+    "precios_publicados": [
+      68.0
     ]
   }
 }
