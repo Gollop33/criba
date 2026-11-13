@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-13T03:36:20+00:00",
-  "total": 12,
+  "actualizado": "2026-11-13T03:42:52+00:00",
+  "total": 11,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
       "busqueda": "sabonete em barra nivea creme care 90g pack",
@@ -17,15 +17,7 @@
       "precio_ref": 16.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
-    },
-    {
-      "busqueda": "nivea kit locao hidratante milk pele seca a",
-      "nombre": "NIVEA Kit Loção Hidratante Milk Pele Seca a Extrasseca 400ml (2 unidades)",
-      "precio_ref": 29.88,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
       "busqueda": "ype detergente em po para maquina 1kg formula",
@@ -33,15 +25,7 @@
       "precio_ref": 35.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
-    },
-    {
-      "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
-      "nombre": "Kit Morte Súbita (Shampoo + Condicionador + Spray Reparaçao) - Lola From Rio",
-      "precio_ref": 55.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
       "busqueda": "headset gamer havit h2232d rgb com microfone falante",
@@ -49,7 +33,15 @@
       "precio_ref": 59.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+    },
+    {
+      "busqueda": "kit morte subita shampoo condicionador spray reparacao lola",
+      "nombre": "Kit Morte Súbita (Shampoo + Condicionador + Spray Reparaçao) - Lola From Rio",
+      "precio_ref": 55.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -57,15 +49,7 @@
       "precio_ref": 51.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
-    },
-    {
-      "busqueda": "headset sem fio playstation pulse elitetm midnight black",
-      "nombre": "Headset sem fio PlayStation PULSE Elite™ – Midnight Black",
-      "precio_ref": 889.89,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
       "busqueda": "radio manivela manual de emergencia com lanterna led",
@@ -73,23 +57,15 @@
       "precio_ref": 234.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
-      "busqueda": "cartao nintendo switch 2 samsung microsd express 256",
-      "nombre": "Cartão Nintendo Switch 2 Samsung microSD Express 256 GB",
-      "precio_ref": 434.37,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "headset sem fio playstation pulse elitetm midnight black",
+      "nombre": "Headset sem fio PlayStation PULSE Elite™ – Midnight Black",
+      "precio_ref": 889.89,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
-      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
-      "precio_ref": 1599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     },
     {
       "busqueda": "controle sem fio playstation dualsensetm midnight black",
@@ -97,7 +73,23 @@
       "precio_ref": 420.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-13T03:36:20+00:00"
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
+      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
+      "precio_ref": 1599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
+    },
+    {
+      "busqueda": "cartao nintendo switch 2 samsung microsd express 256",
+      "nombre": "Cartão Nintendo Switch 2 Samsung microSD Express 256 GB",
+      "precio_ref": 434.37,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-13T03:42:52+00:00"
     }
   ]
 }
