@@ -272,16 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
-    "ts": "2026-11-11T22:16:18.458726",
-    "canales": {
-      "whatsapp": "2026-11-11T22:16:18.458726"
-    },
-    "precio": 2252.0,
-    "precios_publicados": [
-      2252.0
-    ]
-  },
   "amz-apple-iphone-16-128-gb-preto": {
     "ts": "2026-11-11T22:23:18.610785",
     "canales": {
@@ -3358,6 +3348,16 @@
     "precio": 389.0,
     "precios_publicados": [
       389.0
+    ]
+  },
+  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
+    "ts": "2026-11-13T22:21:43.036755",
+    "canales": {
+      "whatsapp": "2026-11-13T22:21:43.036755"
+    },
+    "precio": 1659.0,
+    "precios_publicados": [
+      1659.0
     ]
   }
 }
