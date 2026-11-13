@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-tablet-xiaomi-pad-7-284-cm-8-256-gb-tela-32k-": {
-    "ts": "2026-11-11T21:32:14.123158",
-    "canales": {
-      "whatsapp": "2026-11-11T21:32:14.123158"
-    },
-    "precio": 2370.0,
-    "precios_publicados": [
-      2370.0
-    ]
-  },
   "amz-radio-manivela-manual-de-emergencia-com-lante": {
     "ts": "2026-11-12T22:20:04.492912",
     "canales": {
@@ -281,16 +271,6 @@
       234.0
     ],
     "precio_min_publicado": 23900.0
-  },
-  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
-    "ts": "2026-11-11T21:35:48.090850",
-    "canales": {
-      "whatsapp": "2026-11-11T21:35:48.090850"
-    },
-    "precio": 5722.0,
-    "precios_publicados": [
-      5722.0
-    ]
   },
   "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
     "ts": "2026-11-11T21:44:53.325643",
@@ -3348,6 +3328,16 @@
     "precio": 2999.0,
     "precios_publicados": [
       2999.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-11-8gb256gb-wifi-cinza-cin": {
+    "ts": "2026-11-13T21:36:27.798281",
+    "canales": {
+      "whatsapp": "2026-11-13T21:36:27.798281"
+    },
+    "precio": 167900.0,
+    "precios_publicados": [
+      167900.0
     ]
   }
 }
