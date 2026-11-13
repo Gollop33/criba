@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-11T21:25:55.264161",
-    "canales": {
-      "whatsapp": "2026-11-11T21:25:55.264161"
-    },
-    "precio": 1398.0,
-    "precios_publicados": [
-      1398.0
-    ]
-  },
   "amz-monitor-portatil-156-full-hd-1080p-60hz-usbc-": {
     "ts": "2026-11-11T21:30:44.045583",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 498.0,
     "precios_publicados": [
       498.0
+    ]
+  },
+  "amz-apple-iphone-16e-de-128-gb-preto": {
+    "ts": "2026-11-13T21:26:38.579209",
+    "canales": {
+      "whatsapp": "2026-11-13T21:26:38.579209"
+    },
+    "precio": 3443.0,
+    "precios_publicados": [
+      3443.0
     ]
   }
 }
