@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
-    "ts": "2026-11-11T21:16:15.125498",
-    "canales": {
-      "whatsapp": "2026-11-11T21:16:15.125498"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
     "ts": "2026-11-11T21:25:55.264161",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 959.0,
     "precios_publicados": [
       959.0
+    ]
+  },
+  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
+    "ts": "2026-11-13T21:20:41.474413",
+    "canales": {
+      "whatsapp": "2026-11-13T21:20:41.474413"
+    },
+    "precio": 498.0,
+    "precios_publicados": [
+      498.0
     ]
   }
 }
