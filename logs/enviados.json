@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-monitor-portatil-156-full-hd-1080p-60hz-usbc-": {
-    "ts": "2026-11-11T21:30:44.045583",
-    "canales": {
-      "whatsapp": "2026-11-11T21:30:44.045583"
-    },
-    "precio": 339.0,
-    "precios_publicados": [
-      339.0
-    ]
-  },
   "amz-tablet-xiaomi-pad-7-284-cm-8-256-gb-tela-32k-": {
     "ts": "2026-11-11T21:32:14.123158",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 3443.0,
     "precios_publicados": [
       3443.0
+    ]
+  },
+  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
+    "ts": "2026-11-13T21:31:51.318826",
+    "canales": {
+      "whatsapp": "2026-11-13T21:31:51.318826"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
