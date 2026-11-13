@@ -62875,3 +62875,46 @@
 [2026-11-13 06:03:52] [CUPONES] Descartado COZINHA5: no está ACTIVADO en la cuenta del usuario
 [2026-11-13 06:03:52] [CUPONES] Descartado MOP5SHARK: no está ACTIVADO en la cuenta del usuario
 [2026-11-13 06:03:52] [CUPONES] Sin cupones nuevos (293 códigos ya vistos).
+[2026-11-13 06:38:36] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-11-13 06:38:36] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-11-13 06:38:36] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-11-13 06:38:36] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-11-13 06:38:36] [CUPONES] Descartado PECAS: detectado hace 790h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado PNEUS: detectado hace 802h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado BATEDESCONTO: detectado hace 774h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado PRECINHOBOM: detectado hace 774h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado MELIOFFAQUI: detectado hace 824h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado CORREAQUINOML: detectado hace 805h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado VEJAESSAPROMO: detectado hace 824h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado PROMOCERTAML: detectado hace 761h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado SEMDEMORAML: detectado hace 834h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado MELIMAIS: detectado hace 834h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado TECNOML: detectado hace 828h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado COMPRASML: detectado hace 831h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado REFORMA15: detectado hace 820h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado MODA10DO10: detectado hace 820h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado VALEMAIS: detectado hace 820h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado NATAL1010: detectado hace 820h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado SEMPREMELI: detectado hace 824h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado MEUACHADO: detectado hace 824h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado BOLSOCHEIO: detectado hace 831h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado CLIENTESVIPS: detectado hace 809h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado CARRINHOMELI: detectado hace 809h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado LOOKPRAVC: detectado hace 806h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado OFFMELI: detectado hace 809h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado TUDODEBOM: detectado hace 809h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado BELEZA15: detectado hace 804h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado DESCONTOAQUI: detectado hace 805h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado OFFNOMELI: detectado hace 805h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado HOJEPROMO20: detectado hace 806h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado QUINZEOFF: detectado hace 806h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado DESCONTOU: detectado hace 785h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado DESCONTOSUPREMO: detectado hace 785h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado SONOMELI: detectado hace 785h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado OPAECONOMIZEI: detectado hace 786h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado ACTINE15: detectado hace 787h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado SAINDOBARRATO: detectado hace 761h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado CUPOMON: detectado hace 738h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado SUPERCUPOM: detectado hace 738h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Descartado MELIDESCONTOS: detectado hace 738h (> 24h)
+[2026-11-13 06:38:36] [CUPONES] Sin cupones nuevos (293 códigos ya vistos).
