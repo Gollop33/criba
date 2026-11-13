@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 16.0
   },
-  "amz-clear-sports-men-shampoo-anticaspa-limpeza-pr": {
-    "ts": "2026-11-11T05:22:23.370670",
-    "canales": {
-      "whatsapp": "2026-11-11T05:22:23.370670"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-11-12T05:29:03.097451",
     "canales": {
@@ -3319,6 +3309,16 @@
     "precio": 1599.0,
     "precios_publicados": [
       1599.0
+    ]
+  },
+  "amz-pinga-cenoura-e-oliva-oleo-50ml-lola-cosmetic": {
+    "ts": "2026-11-13T05:29:56.538428",
+    "canales": {
+      "whatsapp": "2026-11-13T05:29:56.538428"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
