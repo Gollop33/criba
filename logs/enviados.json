@@ -248,16 +248,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
-    "ts": "2026-11-11T19:28:15.099958",
-    "canales": {
-      "whatsapp": "2026-11-11T19:28:15.099958"
-    },
-    "precio": 1157.0,
-    "precios_publicados": [
-      1157.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-amd-ryzen-7-16-gb-5": {
     "ts": "2026-11-11T19:30:07.390190",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 110.0,
     "precios_publicados": [
       110.0
+    ]
+  },
+  "amz-omega-3-epa-dha-1g-120-caps-vitafor": {
+    "ts": "2026-11-13T19:29:37.695600",
+    "canales": {
+      "whatsapp": "2026-11-13T19:29:37.695600"
+    },
+    "precio": 95.0,
+    "precios_publicados": [
+      95.0
     ]
   }
 }
