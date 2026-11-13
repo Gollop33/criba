@@ -171,26 +171,6 @@
     ],
     "precio_min_publicado": 1899.0
   },
-  "ml-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-11T01:44:52.082042",
-    "canales": {
-      "whatsapp": "2026-11-11T01:44:52.082042"
-    },
-    "precio": 394.0,
-    "precios_publicados": [
-      394.0
-    ]
-  },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-11T01:48:35.424083",
-    "canales": {
-      "whatsapp": "2026-11-11T01:48:35.424083"
-    },
-    "precio": 56.0,
-    "precios_publicados": [
-      56.0
-    ]
-  },
   "ml-monitor-lg-fhd-gamer-office-com-telaips-24-1m": {
     "ts": "2026-11-11T01:58:32.377463",
     "canales": {
@@ -3267,6 +3247,16 @@
     "precio": 131.0,
     "precios_publicados": [
       131.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3i-i513420h-8gb-": {
+    "ts": "2026-11-13T01:49:47.753657",
+    "canales": {
+      "whatsapp": "2026-11-13T01:49:47.753657"
+    },
+    "precio": 3279.0,
+    "precios_publicados": [
+      3279.0
     ]
   }
 }
