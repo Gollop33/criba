@@ -222,16 +222,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
-    "ts": "2026-11-11T07:26:43.748064",
-    "canales": {
-      "whatsapp": "2026-11-11T07:26:43.748064"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0
-    ]
-  },
   "amz-dove-desodorante-antitranspirante-aerossol-or": {
     "ts": "2026-11-11T08:03:20.187757",
     "canales": {
@@ -951,14 +941,16 @@
     ]
   },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-11T18:59:18.577341",
+    "ts": "2026-11-13T07:53:36.809635",
     "canales": {
-      "whatsapp": "2026-11-11T18:59:18.577341"
+      "whatsapp": "2026-11-13T07:53:36.809635"
     },
-    "precio": 94.0,
+    "precio": 82.0,
     "precios_publicados": [
-      94.0
-    ]
+      94.0,
+      82.0
+    ],
+    "precio_min_publicado": 94.0
   },
   "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
     "ts": "2026-11-11T19:01:01.190387",
