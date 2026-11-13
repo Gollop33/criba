@@ -284,26 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-notebook-ideapad-slim-3-ryzen-7-7735hs-8gb-51": {
-    "ts": "2026-11-11T23:13:35.499662",
-    "canales": {
-      "whatsapp": "2026-11-11T23:13:35.499662"
-    },
-    "precio": 3799.0,
-    "precios_publicados": [
-      3799.0
-    ]
-  },
-  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
-    "ts": "2026-11-11T23:18:33.536307",
-    "canales": {
-      "whatsapp": "2026-11-11T23:18:33.536307"
-    },
-    "precio": 4495.0,
-    "precios_publicados": [
-      4495.0
-    ]
-  },
   "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
     "ts": "2026-11-11T23:54:53.825078",
     "canales": {
@@ -3388,6 +3368,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
+    "ts": "2026-11-13T23:23:06.633864",
+    "canales": {
+      "whatsapp": "2026-11-13T23:23:06.633864"
+    },
+    "precio": 499.0,
+    "precios_publicados": [
+      499.0
     ]
   }
 }
