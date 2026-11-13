@@ -235,26 +235,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-11T13:43:13.452030",
-    "canales": {
-      "whatsapp": "2026-11-11T13:43:13.452030"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
-  "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
-    "ts": "2026-11-11T13:50:12.806984",
-    "canales": {
-      "whatsapp": "2026-11-11T13:50:12.806984"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-11T14:08:09.497606",
     "canales": {
@@ -3321,6 +3301,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
+    "ts": "2026-11-13T13:50:29.367556",
+    "canales": {
+      "whatsapp": "2026-11-13T13:50:29.367556"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
