@@ -236,16 +236,6 @@
     ],
     "precio_min_publicado": 78.0
   },
-  "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
-    "ts": "2026-11-11T18:55:44.235066",
-    "canales": {
-      "whatsapp": "2026-11-11T18:55:44.235066"
-    },
-    "precio": 140.0,
-    "precios_publicados": [
-      140.0
-    ]
-  },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
     "ts": "2026-11-13T07:53:36.809635",
     "canales": {
@@ -3328,6 +3318,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
+    "ts": "2026-11-13T18:56:46.513958",
+    "canales": {
+      "whatsapp": "2026-11-13T18:56:46.513958"
+    },
+    "precio": 140.0,
+    "precios_publicados": [
+      140.0
     ]
   }
 }
