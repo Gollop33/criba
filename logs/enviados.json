@@ -272,16 +272,6 @@
     ],
     "precio_min_publicado": 23900.0
   },
-  "amz-pcyes-placa-de-video-rx-550-4gb-gddr5-128-bit": {
-    "ts": "2026-11-11T22:55:39.719383",
-    "canales": {
-      "whatsapp": "2026-11-11T22:55:39.719383"
-    },
-    "precio": 527.0,
-    "precios_publicados": [
-      527.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
     "ts": "2026-11-11T23:03:53.180807",
     "canales": {
@@ -3368,6 +3358,16 @@
     "precio": 679900.0,
     "precios_publicados": [
       679900.0
+    ]
+  },
+  "amz-webcam-full-hd-logitech-c920s-1080p30fps-com-": {
+    "ts": "2026-11-13T22:58:24.030573",
+    "canales": {
+      "whatsapp": "2026-11-13T22:58:24.030573"
+    },
+    "precio": 299.0,
+    "precios_publicados": [
+      299.0
     ]
   }
 }
