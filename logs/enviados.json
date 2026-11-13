@@ -260,26 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-resident-evil-requiem-playstation-5": {
-    "ts": "2026-11-11T20:38:31.779517",
-    "canales": {
-      "whatsapp": "2026-11-11T20:38:31.779517"
-    },
-    "precio": 249.0,
-    "precios_publicados": [
-      249.0
-    ]
-  },
-  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-11T20:42:36.506471",
-    "canales": {
-      "whatsapp": "2026-11-11T20:42:36.506471"
-    },
-    "precio": 4499.0,
-    "precios_publicados": [
-      4499.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
     "ts": "2026-11-11T20:43:58.363333",
     "canales": {
@@ -3338,6 +3318,16 @@
     "precio": 5054.0,
     "precios_publicados": [
       5054.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15c3100a20-intel-core-3-10": {
+    "ts": "2026-11-13T20:43:23.725620",
+    "canales": {
+      "whatsapp": "2026-11-13T20:43:23.725620"
+    },
+    "precio": 3540.0,
+    "precios_publicados": [
+      3540.0
     ]
   }
 }
