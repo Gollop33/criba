@@ -248,16 +248,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
-    "ts": "2026-11-11T19:14:49.282613",
-    "canales": {
-      "whatsapp": "2026-11-11T19:14:49.282613"
-    },
-    "precio": 137.0,
-    "precios_publicados": [
-      137.0
-    ]
-  },
   "amz-elg-suporte-articulado-para-monitor-17-a-35-p": {
     "ts": "2026-11-11T19:19:17.740917",
     "canales": {
@@ -3338,6 +3328,16 @@
     "precio": 121.0,
     "precios_publicados": [
       121.0
+    ]
+  },
+  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
+    "ts": "2026-11-13T19:16:24.256641",
+    "canales": {
+      "whatsapp": "2026-11-13T19:16:24.256641"
+    },
+    "precio": 129.0,
+    "precios_publicados": [
+      129.0
     ]
   }
 }
