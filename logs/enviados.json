@@ -248,16 +248,6 @@
     ],
     "precio_min_publicado": 94.0
   },
-  "amz-notebook-asus-vivobook-15-amd-ryzen-7-16-gb-5": {
-    "ts": "2026-11-11T19:30:07.390190",
-    "canales": {
-      "whatsapp": "2026-11-11T19:30:07.390190"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
     "ts": "2026-11-13T18:21:06.467045",
     "canales": {
@@ -3348,6 +3338,16 @@
     "precio": 95.0,
     "precios_publicados": [
       95.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
+    "ts": "2026-11-13T19:35:41.851006",
+    "canales": {
+      "whatsapp": "2026-11-13T19:35:41.851006"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
