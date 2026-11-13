@@ -260,16 +260,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
-    "ts": "2026-11-11T20:48:54.375799",
-    "canales": {
-      "whatsapp": "2026-11-11T20:48:54.375799"
-    },
-    "precio": 998.0,
-    "precios_publicados": [
-      998.0
-    ]
-  },
   "amz-volante-e-pedais-logitech-g29-driving-force-c": {
     "ts": "2026-11-11T20:54:41.780785",
     "canales": {
@@ -3328,6 +3318,16 @@
     "precio": 315.0,
     "precios_publicados": [
       315.0
+    ]
+  },
+  "amz-echo-pop-geracao-mais-recente-smart-speaker-c": {
+    "ts": "2026-11-13T20:49:15.453221",
+    "canales": {
+      "whatsapp": "2026-11-13T20:49:15.453221"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
