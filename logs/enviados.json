@@ -284,16 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-fralda-turma-da-monica-baby-p-62-unidades": {
-    "ts": "2026-11-12T00:19:21.594322",
-    "canales": {
-      "whatsapp": "2026-11-12T00:19:21.594322"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
     "ts": "2026-11-12T00:29:13.832876",
     "canales": {
@@ -3448,6 +3438,16 @@
     "precio": 27.0,
     "precios_publicados": [
       27.0
+    ]
+  },
+  "ml-camera-veicular-ddpai-monitoramento-remoto-4k": {
+    "ts": "2026-11-14T00:28:13.428547",
+    "canales": {
+      "whatsapp": "2026-11-14T00:28:13.428547"
+    },
+    "precio": 1064.0,
+    "precios_publicados": [
+      1064.0
     ]
   }
 }
