@@ -12,19 +12,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
-    "ts": "2026-11-12T05:43:23.237525",
-    "canales": {
-      "whatsapp": "2026-11-12T05:43:23.237525"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      45.0,
-      39.0,
-      39.0
-    ],
-    "precio_min_publicado": 39.0
-  },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-5": {
     "ts": "2026-11-13T00:56:43.731287",
     "canales": {
@@ -295,16 +282,6 @@
       2016.0
     ],
     "precio_min_publicado": 212500.0
-  },
-  "amz-dove-sabonete-em-barra-branco-90g-8-unidades": {
-    "ts": "2026-11-12T05:50:27.185228",
-    "canales": {
-      "whatsapp": "2026-11-12T05:50:27.185228"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
   },
   "amz-enxaguante-bucal-listerine-cool-mint-sem-alco": {
     "ts": "2026-11-12T05:57:10.882682",
@@ -3458,6 +3435,16 @@
     "precio": 8.0,
     "precios_publicados": [
       8.0
+    ]
+  },
+  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
+    "ts": "2026-11-14T05:52:53.421167",
+    "canales": {
+      "whatsapp": "2026-11-14T05:52:53.421167"
+    },
+    "precio": 30.0,
+    "precios_publicados": [
+      30.0
     ]
   }
 }
