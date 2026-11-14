@@ -282,46 +282,6 @@
     ],
     "precio_min_publicado": 60.0
   },
-  "amz-fralda-pampers-recem-nascido-tamanho-rn-ate-5": {
-    "ts": "2026-11-12T06:29:22.777990",
-    "canales": {
-      "whatsapp": "2026-11-12T06:29:22.777990"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
-  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
-    "ts": "2026-11-12T06:36:24.042806",
-    "canales": {
-      "whatsapp": "2026-11-12T06:36:24.042806"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
-  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
-    "ts": "2026-11-12T06:43:20.092652",
-    "canales": {
-      "whatsapp": "2026-11-12T06:43:20.092652"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
-  "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
-    "ts": "2026-11-12T06:48:01.701061",
-    "canales": {
-      "whatsapp": "2026-11-12T06:48:01.701061"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      41.0
-    ]
-  },
   "amz-nivea-sabonete-liquido-intimo-250ml-limpeza-s": {
     "ts": "2026-11-12T07:15:22.256253",
     "canales": {
@@ -3422,6 +3382,16 @@
     "precio": 10.0,
     "precios_publicados": [
       10.0
+    ]
+  },
+  "amz-tapete-higienico-premium-para-caes-petlike-ul": {
+    "ts": "2026-11-14T06:57:29.327696",
+    "canales": {
+      "whatsapp": "2026-11-14T06:57:29.327696"
+    },
+    "precio": 51.0,
+    "precios_publicados": [
+      51.0
     ]
   }
 }
