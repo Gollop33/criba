@@ -284,16 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-wanpytruly-creamy-petisco-cremoso-para-gatos-": {
-    "ts": "2026-11-12T00:55:31.711498",
-    "canales": {
-      "whatsapp": "2026-11-12T00:55:31.711498"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0
-    ]
-  },
   "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
     "ts": "2026-11-12T01:02:58.701449",
     "canales": {
@@ -3448,6 +3438,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-lampada-osram-standard-7528-p215-original": {
+    "ts": "2026-11-14T01:01:58.312788",
+    "canales": {
+      "whatsapp": "2026-11-14T01:01:58.312788"
+    },
+    "precio": 9.0,
+    "precios_publicados": [
+      9.0
     ]
   }
 }
