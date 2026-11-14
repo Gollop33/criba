@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
-    "ts": "2026-11-12T14:59:22.194538",
-    "canales": {
-      "whatsapp": "2026-11-12T14:59:22.194538"
-    },
-    "precio": 2192.0,
-    "precios_publicados": [
-      2192.0
-    ]
-  },
   "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
     "ts": "2026-11-12T15:06:18.703315",
     "canales": {
@@ -3307,6 +3297,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-32-in1-case-estojo-para-nintendo-switch-oled-": {
+    "ts": "2026-11-14T15:00:48.340963",
+    "canales": {
+      "whatsapp": "2026-11-14T15:00:48.340963"
+    },
+    "precio": 80.0,
+    "precios_publicados": [
+      80.0
     ]
   }
 }
