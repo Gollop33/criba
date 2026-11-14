@@ -284,16 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-adaptador-bluetooth-tplink-ub500-53-nano-usb-": {
-    "ts": "2026-11-12T01:02:58.701449",
-    "canales": {
-      "whatsapp": "2026-11-12T01:02:58.701449"
-    },
-    "precio": 63.0,
-    "precios_publicados": [
-      63.0
-    ]
-  },
   "amz-desinfetante-pinho-sol-lavanda-e-melaleuca-1-": {
     "ts": "2026-11-12T01:11:09.482846",
     "canales": {
@@ -3448,6 +3438,16 @@
     "precio": 9.0,
     "precios_publicados": [
       9.0
+    ]
+  },
+  "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
+    "ts": "2026-11-14T01:07:25.065844",
+    "canales": {
+      "whatsapp": "2026-11-14T01:07:25.065844"
+    },
+    "precio": 58.0,
+    "precios_publicados": [
+      58.0
     ]
   }
 }
