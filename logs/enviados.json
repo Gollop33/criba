@@ -19,19 +19,6 @@
       "whatsapp": "2026-11-14T00:11:49.982676"
     }
   },
-  "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-12T17:58:48.511131",
-    "canales": {
-      "whatsapp": "2026-11-12T17:58:48.511131"
-    },
-    "precio": 422.0,
-    "precios_publicados": [
-      479.0,
-      422.0,
-      422.0
-    ],
-    "precio_min_publicado": 422.0
-  },
   "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
     "ts": "2026-11-12T18:27:02.617040",
     "canales": {
@@ -231,16 +218,6 @@
       3259.0
     ],
     "precio_min_publicado": 389900.0
-  },
-  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
-    "ts": "2026-11-12T18:03:53.514742",
-    "canales": {
-      "whatsapp": "2026-11-12T18:03:53.514742"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0
-    ]
   },
   "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
     "ts": "2026-11-12T18:05:08.730231",
@@ -3314,6 +3291,16 @@
     "precio": 1899.0,
     "precios_publicados": [
       1899.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
+    "ts": "2026-11-14T18:04:04.288054",
+    "canales": {
+      "whatsapp": "2026-11-14T18:04:04.288054"
+    },
+    "precio": 4191.0,
+    "precios_publicados": [
+      4191.0
     ]
   }
 }
