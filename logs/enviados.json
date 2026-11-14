@@ -26,19 +26,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
-    "ts": "2026-11-12T06:08:11.706125",
-    "canales": {
-      "whatsapp": "2026-11-12T06:08:11.706125"
-    },
-    "precio": 158.0,
-    "precios_publicados": [
-      203.0,
-      158.0,
-      158.0
-    ],
-    "precio_min_publicado": 158.0
-  },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-11-12T17:52:26.221021",
     "canales": {
@@ -282,26 +269,6 @@
       2016.0
     ],
     "precio_min_publicado": 212500.0
-  },
-  "amz-enxaguante-bucal-listerine-cool-mint-sem-alco": {
-    "ts": "2026-11-12T05:57:10.882682",
-    "canales": {
-      "whatsapp": "2026-11-12T05:57:10.882682"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
-  "amz-tapete-higienico-petlike-ultrapads-80cmx60cm-": {
-    "ts": "2026-11-12T06:15:22.357773",
-    "canales": {
-      "whatsapp": "2026-11-12T06:15:22.357773"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
   },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-13T07:15:25.602409",
@@ -3445,6 +3412,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-paixao-oleo-corporal-avela-100-ml-pele-nutrid": {
+    "ts": "2026-11-14T06:28:02.569865",
+    "canales": {
+      "whatsapp": "2026-11-14T06:28:02.569865"
+    },
+    "precio": 10.0,
+    "precios_publicados": [
+      10.0
     ]
   }
 }
