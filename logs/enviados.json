@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
-    "ts": "2026-11-12T11:05:58.500152",
-    "canales": {
-      "whatsapp": "2026-11-12T11:05:58.500152"
-    },
-    "precio": 1519.0,
-    "precios_publicados": [
-      1519.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
     "ts": "2026-11-12T11:08:50.578140",
     "canales": {
@@ -3375,6 +3365,16 @@
     "precio": 114.0,
     "precios_publicados": [
       114.0
+    ]
+  },
+  "amz-combo-de-teclado-e-mouse-sem-fio-logitech-mk2": {
+    "ts": "2026-11-14T11:07:45.815492",
+    "canales": {
+      "whatsapp": "2026-11-14T11:07:45.815492"
+    },
+    "precio": 119.0,
+    "precios_publicados": [
+      119.0
     ]
   }
 }
