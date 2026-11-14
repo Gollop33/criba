@@ -133,18 +133,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-radio-manivela-manual-de-emergencia-com-lante": {
-    "ts": "2026-11-12T22:20:04.492912",
-    "canales": {
-      "whatsapp": "2026-11-12T22:20:04.492912"
-    },
-    "precio": 234.0,
-    "precios_publicados": [
-      23900.0,
-      234.0
-    ],
-    "precio_min_publicado": 23900.0
-  },
   "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
     "ts": "2026-11-12T23:12:02.054497",
     "canales": {
@@ -193,26 +181,6 @@
       3259.0
     ],
     "precio_min_publicado": 389900.0
-  },
-  "ml-camera-de-seguranca-wifi-a28b-4k-dupla-lente-": {
-    "ts": "2026-11-12T22:22:16.160567",
-    "canales": {
-      "whatsapp": "2026-11-12T22:22:16.160567"
-    },
-    "precio": 117.0,
-    "precios_publicados": [
-      117.0
-    ]
-  },
-  "ml-kit-com-2-cameras-de-seguranca-ip-wifi-a8-ful": {
-    "ts": "2026-11-12T22:27:39.922500",
-    "canales": {
-      "whatsapp": "2026-11-12T22:27:39.922500"
-    },
-    "precio": 156.0,
-    "precios_publicados": [
-      156.0
-    ]
   },
   "ml-jogo-de-toalhas-banho-village-com-4-pecas-lil": {
     "ts": "2026-11-12T22:30:06.560430",
@@ -3470,6 +3438,16 @@
     "precio": 88.0,
     "precios_publicados": [
       88.0
+    ]
+  },
+  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
+    "ts": "2026-11-14T22:28:07.592441",
+    "canales": {
+      "whatsapp": "2026-11-14T22:28:07.592441"
+    },
+    "precio": 576.0,
+    "precios_publicados": [
+      576.0
     ]
   }
 }
