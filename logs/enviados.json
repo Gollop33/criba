@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-celular-samsung-galaxy-a37-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-12T09:46:11.756082",
-    "canales": {
-      "whatsapp": "2026-11-12T09:46:11.756082"
-    },
-    "precio": 2098.0,
-    "precios_publicados": [
-      2098.0
-    ]
-  },
   "amz-controle-dualshock-4-playstation-4-preto-mode": {
     "ts": "2026-11-12T10:13:06.482323",
     "canales": {
@@ -3393,6 +3383,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
+    "ts": "2026-11-14T10:04:54.178364",
+    "canales": {
+      "whatsapp": "2026-11-14T10:04:54.178364"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
