@@ -194,16 +194,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-jogo-de-toalhas-4-pecas-fio-cardado-100-algod": {
-    "ts": "2026-11-12T21:19:58.203496",
-    "canales": {
-      "whatsapp": "2026-11-12T21:19:58.203496"
-    },
-    "precio": 107.0,
-    "precios_publicados": [
-      107.0
-    ]
-  },
   "ml-jogo-de-toalhas-karsten-bosco-com-4-de-algoda": {
     "ts": "2026-11-12T21:28:23.092587",
     "canales": {
@@ -3420,6 +3410,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
+    "ts": "2026-11-14T21:20:57.185056",
+    "canales": {
+      "whatsapp": "2026-11-14T21:20:57.185056"
+    },
+    "precio": 53.0,
+    "precios_publicados": [
+      53.0
     ]
   }
 }
