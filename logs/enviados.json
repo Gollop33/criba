@@ -296,16 +296,6 @@
     ],
     "precio_min_publicado": 212500.0
   },
-  "amz-secret-clinical-desodorante-antitranspirante-": {
-    "ts": "2026-11-12T05:22:09.282251",
-    "canales": {
-      "whatsapp": "2026-11-12T05:22:09.282251"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-creme-para-assaduras-weleda-baby-de-calendula": {
     "ts": "2026-11-12T05:36:01.863098",
     "canales": {
@@ -3448,6 +3438,16 @@
     "precio": 309.0,
     "precios_publicados": [
       309.0
+    ]
+  },
+  "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
+    "ts": "2026-11-14T05:29:02.507122",
+    "canales": {
+      "whatsapp": "2026-11-14T05:29:02.507122"
+    },
+    "precio": 5.0,
+    "precios_publicados": [
+      5.0
     ]
   }
 }
