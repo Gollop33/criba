@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-roteador-wifi-mesh-intelbras-twibi-force-ax": {
-    "ts": "2026-11-12T16:29:39.922972",
-    "canales": {
-      "whatsapp": "2026-11-12T16:29:39.922972"
-    },
-    "precio": 197.0,
-    "precios_publicados": [
-      197.0
-    ]
-  },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-11-12T16:32:41.931921",
-    "canales": {
-      "whatsapp": "2026-11-12T16:32:41.931921"
-    },
-    "precio": 576.0,
-    "precios_publicados": [
-      576.0
-    ]
-  },
   "amz-philco-fritadeira-air-fryer-12l-pt-pfr2200p-2": {
     "ts": "2026-11-12T16:44:08.766374",
     "canales": {
@@ -3317,6 +3297,16 @@
     "precio": 209.0,
     "precios_publicados": [
       209.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
+    "ts": "2026-11-14T16:34:17.483023",
+    "canales": {
+      "whatsapp": "2026-11-14T16:34:17.483023"
+    },
+    "precio": 2979.0,
+    "precios_publicados": [
+      2979.0
     ]
   }
 }
