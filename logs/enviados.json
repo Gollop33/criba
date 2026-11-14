@@ -284,36 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
-    "ts": "2026-11-12T01:27:46.369347",
-    "canales": {
-      "whatsapp": "2026-11-12T01:27:46.369347"
-    },
-    "precio": 94.0,
-    "precios_publicados": [
-      94.0
-    ]
-  },
-  "amz-kit-lavagem-completa-shampoo-cera-tok-final-i": {
-    "ts": "2026-11-12T01:29:02.150598",
-    "canales": {
-      "whatsapp": "2026-11-12T01:29:02.150598"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
-  "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-11-12T01:32:11.295016",
-    "canales": {
-      "whatsapp": "2026-11-12T01:32:11.295016"
-    },
-    "precio": 85.0,
-    "precios_publicados": [
-      85.0
-    ]
-  },
   "amz-wap-ventilador-de-mesa-e-parede-50cm-flow-tur": {
     "ts": "2026-11-12T01:33:50.886953",
     "canales": {
@@ -3458,6 +3428,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-bionature-areia-higienica-para-gatos-biodegra": {
+    "ts": "2026-11-14T01:33:31.589084",
+    "canales": {
+      "whatsapp": "2026-11-14T01:33:31.589084"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
