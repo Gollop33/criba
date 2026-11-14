@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
-    "ts": "2026-11-12T23:38:51.183689",
-    "canales": {
-      "whatsapp": "2026-11-12T23:38:51.183689"
-    },
-    "precio": 649.0,
-    "precios_publicados": [
-      649.0
-    ]
-  },
   "ml-camera-inteligente-im3-c-black-intelbras": {
     "ts": "2026-11-12T23:48:24.578278",
     "canales": {
@@ -3443,6 +3433,16 @@
     "precio": 1449.0,
     "precios_publicados": [
       1449.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
+    "ts": "2026-11-14T23:43:09.316821",
+    "canales": {
+      "whatsapp": "2026-11-14T23:43:09.316821"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
