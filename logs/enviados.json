@@ -879,14 +879,16 @@
     ]
   },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
-    "ts": "2026-11-13T10:51:18.966379",
+    "ts": "2026-11-14T21:11:49.755545",
     "canales": {
-      "whatsapp": "2026-11-13T10:51:18.966379"
+      "whatsapp": "2026-11-14T21:11:49.755545"
     },
-    "precio": 38.0,
+    "precio": 26.0,
     "precios_publicados": [
-      38.0
-    ]
+      38.0,
+      26.0
+    ],
+    "precio_min_publicado": 38.0
   },
   "amz-escova-de-dente-macia-colgate-slim-soft-black": {
     "ts": "2026-11-13T10:56:35.740238",
