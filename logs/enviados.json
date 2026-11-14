@@ -1059,14 +1059,16 @@
     ]
   },
   "amz-lavaroupas-em-po-omo-todo-ciclo-caixa-2kg": {
-    "ts": "2026-11-13T12:57:14.357603",
+    "ts": "2026-11-14T21:02:15.417451",
     "canales": {
-      "whatsapp": "2026-11-13T12:57:14.357603"
+      "whatsapp": "2026-11-14T21:02:15.417451"
     },
-    "precio": 31.0,
+    "precio": 20.0,
     "precios_publicados": [
-      31.0
-    ]
+      31.0,
+      20.0
+    ],
+    "precio_min_publicado": 31.0
   },
   "amz-sensodyne-creme-dental-branqueador-extra-fres": {
     "ts": "2026-11-13T13:08:13.228043",
