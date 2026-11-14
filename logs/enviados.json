@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
-    "ts": "2026-11-12T17:25:14.072826",
-    "canales": {
-      "whatsapp": "2026-11-12T17:25:14.072826"
-    },
-    "precio": 989.0,
-    "precios_publicados": [
-      989.0
-    ]
-  },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-12T17:27:29.475379",
-    "canales": {
-      "whatsapp": "2026-11-12T17:27:29.475379"
-    },
-    "precio": 3469.0,
-    "precios_publicados": [
-      3469.0
-    ]
-  },
   "amz-tramontina-panela-de-pressao-vancouver-effect": {
     "ts": "2026-11-12T17:31:34.762440",
     "canales": {
@@ -3327,6 +3307,16 @@
     "precio": 4549.0,
     "precios_publicados": [
       4549.0
+    ]
+  },
+  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
+    "ts": "2026-11-14T17:31:25.149157",
+    "canales": {
+      "whatsapp": "2026-11-14T17:31:25.149157"
+    },
+    "precio": 3899.0,
+    "precios_publicados": [
+      3899.0
     ]
   }
 }
