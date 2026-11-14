@@ -120,18 +120,6 @@
     ],
     "precio_min_publicado": 1998.0
   },
-  "amz-headset-sem-fio-playstation-pulse-elitetm-mid": {
-    "ts": "2026-11-12T23:12:02.054497",
-    "canales": {
-      "whatsapp": "2026-11-12T23:12:02.054497"
-    },
-    "precio": 889.0,
-    "precios_publicados": [
-      93000.0,
-      889.0
-    ],
-    "precio_min_publicado": 93000.0
-  },
   "amz-tablet-xiaomi-redmi-pad-2-pro-tela-121-wifi-2": {
     "ts": "2026-11-13T08:14:42.936325",
     "canales": {
@@ -168,16 +156,6 @@
       3259.0
     ],
     "precio_min_publicado": 389900.0
-  },
-  "ml-camera-lampada-intelbras-im6-full-color-3mp-3": {
-    "ts": "2026-11-12T23:19:45.874818",
-    "canales": {
-      "whatsapp": "2026-11-12T23:19:45.874818"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
   },
   "amz-jbl-fone-de-ouvido-com-fio-quantum-100m2-head": {
     "ts": "2026-11-12T23:28:35.295230",
@@ -3445,6 +3423,16 @@
     "precio": 2098.0,
     "precios_publicados": [
       2098.0
+    ]
+  },
+  "amz-microondas-20l-prata-porta-espelhada-masterco": {
+    "ts": "2026-11-14T23:20:16.857527",
+    "canales": {
+      "whatsapp": "2026-11-14T23:20:16.857527"
+    },
+    "precio": 448.0,
+    "precios_publicados": [
+      448.0
     ]
   }
 }
