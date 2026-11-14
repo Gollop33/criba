@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-11-12T23:55:31.514671",
-    "canales": {
-      "whatsapp": "2026-11-12T23:55:31.514671"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
   "ml-jogo-de-panelas-ceramica-antiaderente-19-peca": {
     "ts": "2026-11-13T00:00:55.076629",
     "canales": {
@@ -3453,6 +3443,16 @@
     "precio": 1692.0,
     "precios_publicados": [
       1692.0
+    ]
+  },
+  "amz-colecao-nioh-playstation-5": {
+    "ts": "2026-11-14T23:55:58.150254",
+    "canales": {
+      "whatsapp": "2026-11-14T23:55:58.150254"
+    },
+    "precio": 179.0,
+    "precios_publicados": [
+      179.0
     ]
   }
 }
