@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-notebook-dell-15-dc15i51334ua80-intel-i51334u": {
-    "ts": "2026-11-12T15:52:43.144360",
-    "canales": {
-      "whatsapp": "2026-11-12T15:52:43.144360"
-    },
-    "precio": 5584.0,
-    "precios_publicados": [
-      5584.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
     "ts": "2026-11-12T15:56:06.955010",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 7990.0,
     "precios_publicados": [
       7990.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
+    "ts": "2026-11-14T15:53:38.259780",
+    "canales": {
+      "whatsapp": "2026-11-14T15:53:38.259780"
+    },
+    "precio": 3065.0,
+    "precios_publicados": [
+      3065.0
     ]
   }
 }
