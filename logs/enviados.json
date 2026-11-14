@@ -169,16 +169,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
-    "ts": "2026-11-12T23:09:32.442540",
-    "canales": {
-      "whatsapp": "2026-11-12T23:09:32.442540"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "ml-camera-lampada-intelbras-im6-full-color-3mp-3": {
     "ts": "2026-11-12T23:19:45.874818",
     "canales": {
@@ -3445,6 +3435,16 @@
     "precio": 4199.0,
     "precios_publicados": [
       4199.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a37-5g-256gb-8gb-50mp-": {
+    "ts": "2026-11-14T23:11:35.800796",
+    "canales": {
+      "whatsapp": "2026-11-14T23:11:35.800796"
+    },
+    "precio": 2098.0,
+    "precios_publicados": [
+      2098.0
     ]
   }
 }
