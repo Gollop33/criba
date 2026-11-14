@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
-    "ts": "2026-11-12T12:50:19.093884",
-    "canales": {
-      "whatsapp": "2026-11-12T12:50:19.093884"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-perfume-collectio": {
     "ts": "2026-11-12T12:57:23.524154",
     "canales": {
@@ -3365,6 +3355,16 @@
     "precio": 178.0,
     "precios_publicados": [
       178.0
+    ]
+  },
+  "amz-air-fryer-philco-65l-visor-glass-1700w-paf65-": {
+    "ts": "2026-11-14T12:50:25.743575",
+    "canales": {
+      "whatsapp": "2026-11-14T12:50:25.743575"
+    },
+    "precio": 319.0,
+    "precios_publicados": [
+      319.0
     ]
   }
 }
