@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-tablet-infantil-positivo-vision-tab-7-minions": {
-    "ts": "2026-11-12T16:21:10.299789",
-    "canales": {
-      "whatsapp": "2026-11-12T16:21:10.299789"
-    },
-    "precio": 475.0,
-    "precios_publicados": [
-      475.0
-    ]
-  },
-  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
-    "ts": "2026-11-12T16:23:59.989394",
-    "canales": {
-      "whatsapp": "2026-11-12T16:23:59.989394"
-    },
-    "precio": 6934.0,
-    "precios_publicados": [
-      6934.0
-    ]
-  },
   "amz-roteador-wifi-mesh-intelbras-twibi-force-ax": {
     "ts": "2026-11-12T16:29:39.922972",
     "canales": {
@@ -3317,6 +3297,16 @@
     "precio": 4249.0,
     "precios_publicados": [
       4249.0
+    ]
+  },
+  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
+    "ts": "2026-11-14T16:26:09.365699",
+    "canales": {
+      "whatsapp": "2026-11-14T16:26:09.365699"
+    },
+    "precio": 2139.0,
+    "precios_publicados": [
+      2139.0
     ]
   }
 }
