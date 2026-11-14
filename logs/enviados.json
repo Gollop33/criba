@@ -283,16 +283,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-notebook-acer-aspire-5-ryzen-5-5500u-16gb-ssd": {
-    "ts": "2026-11-12T08:23:32.620667",
-    "canales": {
-      "whatsapp": "2026-11-12T08:23:32.620667"
-    },
-    "precio": 3799.0,
-    "precios_publicados": [
-      3799.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-e1504ga-intel-core-": {
     "ts": "2026-11-13T09:08:18.248315",
     "canales": {
@@ -3383,6 +3373,16 @@
     "precio": 44.0,
     "precios_publicados": [
       44.0
+    ]
+  },
+  "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
+    "ts": "2026-11-14T08:28:42.169308",
+    "canales": {
+      "whatsapp": "2026-11-14T08:28:42.169308"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
