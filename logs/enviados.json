@@ -245,36 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-11-12T17:02:22.482483",
-    "canales": {
-      "whatsapp": "2026-11-12T17:02:22.482483"
-    },
-    "precio": 2799.0,
-    "precios_publicados": [
-      2799.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-s14-intel-core-ultra-5": {
-    "ts": "2026-11-12T17:04:44.342773",
-    "canales": {
-      "whatsapp": "2026-11-12T17:04:44.342773"
-    },
-    "precio": 5999.0,
-    "precios_publicados": [
-      5999.0
-    ]
-  },
-  "amz-arvore-de-natal-luxo-pinheiro-180m-800-galhos": {
-    "ts": "2026-11-12T17:08:52.006952",
-    "canales": {
-      "whatsapp": "2026-11-12T17:08:52.006952"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-bundle-gta-vi-playstation-5-slim-digital-825-": {
     "ts": "2026-11-12T17:15:44.792603",
     "canales": {
@@ -3327,6 +3297,16 @@
     "precio": 1519.0,
     "precios_publicados": [
       1519.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
+    "ts": "2026-11-14T17:10:28.450463",
+    "canales": {
+      "whatsapp": "2026-11-14T17:10:28.450463"
+    },
+    "precio": 1398.0,
+    "precios_publicados": [
+      1398.0
     ]
   }
 }
