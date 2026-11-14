@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
-    "ts": "2026-11-12T15:30:05.186704",
-    "canales": {
-      "whatsapp": "2026-11-12T15:30:05.186704"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0
-    ]
-  },
   "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
     "ts": "2026-11-12T15:36:25.667722",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 449900.0,
     "precios_publicados": [
       449900.0
+    ]
+  },
+  "amz-base-de-carregamento-do-dualsense-playstation": {
+    "ts": "2026-11-14T15:32:08.572073",
+    "canales": {
+      "whatsapp": "2026-11-14T15:32:08.572073"
+    },
+    "precio": 165.0,
+    "precios_publicados": [
+      165.0
     ]
   }
 }
