@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
-    "ts": "2026-11-12T15:43:52.029546",
-    "canales": {
-      "whatsapp": "2026-11-12T15:43:52.029546"
-    },
-    "precio": 832.0,
-    "precios_publicados": [
-      832.0
-    ]
-  },
   "amz-notebook-dell-15-dc15i51334ua80-intel-i51334u": {
     "ts": "2026-11-12T15:52:43.144360",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 692.0,
     "precios_publicados": [
       692.0
+    ]
+  },
+  "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
+    "ts": "2026-11-14T15:47:24.275705",
+    "canales": {
+      "whatsapp": "2026-11-14T15:47:24.275705"
+    },
+    "precio": 7990.0,
+    "precios_publicados": [
+      7990.0
     ]
   }
 }
