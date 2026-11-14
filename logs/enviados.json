@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
-    "ts": "2026-11-12T15:56:06.955010",
-    "canales": {
-      "whatsapp": "2026-11-12T15:56:06.955010"
-    },
-    "precio": 1457.0,
-    "precios_publicados": [
-      1457.0
-    ]
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-12T16:04:14.066851",
     "canales": {
@@ -3327,6 +3317,16 @@
     "precio": 499.0,
     "precios_publicados": [
       499.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-11-14T16:04:12.277319",
+    "canales": {
+      "whatsapp": "2026-11-14T16:04:12.277319"
+    },
+    "precio": 1164.0,
+    "precios_publicados": [
+      1164.0
     ]
   }
 }
