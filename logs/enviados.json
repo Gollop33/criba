@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
-    "ts": "2026-11-12T16:04:14.066851",
-    "canales": {
-      "whatsapp": "2026-11-12T16:04:14.066851"
-    },
-    "precio": 1642.0,
-    "precios_publicados": [
-      1642.0
-    ]
-  },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
     "ts": "2026-11-12T16:09:13.030294",
     "canales": {
@@ -3327,6 +3317,16 @@
     "precio": 1164.0,
     "precios_publicados": [
       1164.0
+    ]
+  },
+  "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
+    "ts": "2026-11-14T16:06:47.830065",
+    "canales": {
+      "whatsapp": "2026-11-14T16:06:47.830065"
+    },
+    "precio": 694.0,
+    "precios_publicados": [
+      694.0
     ]
   }
 }
