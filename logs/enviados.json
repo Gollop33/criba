@@ -109,18 +109,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "amz-kit-morte-subita-shampoo-condicionador-spray-": {
-    "ts": "2026-11-12T18:38:20.131938",
-    "canales": {
-      "whatsapp": "2026-11-12T18:38:20.131938"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      78.0,
-      55.0
-    ],
-    "precio_min_publicado": 78.0
-  },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
     "ts": "2026-11-13T07:53:36.809635",
     "canales": {
@@ -205,16 +193,6 @@
       3259.0
     ],
     "precio_min_publicado": 389900.0
-  },
-  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
-    "ts": "2026-11-12T18:34:31.570821",
-    "canales": {
-      "whatsapp": "2026-11-12T18:34:31.570821"
-    },
-    "precio": 1241.0,
-    "precios_publicados": [
-      1241.0
-    ]
   },
   "amz-smartphone-poco-x8-pro-512gb-12gb-ram-branco-": {
     "ts": "2026-11-12T18:43:11.335333",
@@ -3318,6 +3296,16 @@
     "precio": 1352.0,
     "precios_publicados": [
       1352.0
+    ]
+  },
+  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
+    "ts": "2026-11-14T18:39:30.864827",
+    "canales": {
+      "whatsapp": "2026-11-14T18:39:30.864827"
+    },
+    "precio": 766.0,
+    "precios_publicados": [
+      766.0
     ]
   }
 }

@@ -797,11 +797,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "SALVAMEUBOLSO": {
-      "detectado_em": "2026-10-15T18:38:45+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 548h (> 24h)"
-    },
     "MELIOFERTAS": {
       "detectado_em": "2026-11-07T16:01:05+00:00",
       "publicado_em": null,
@@ -1333,5 +1328,5 @@
       "motivo": "detectado hace 550h (> 24h)"
     }
   },
-  "actualizado": "2026-11-14T18:30:51+00:00"
+  "actualizado": "2026-11-14T18:39:26+00:00"
 }
