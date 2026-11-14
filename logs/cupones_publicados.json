@@ -1321,7 +1321,17 @@
       "detectado_em": "2026-11-14T13:01:33+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SEUCUPOM": {
+      "detectado_em": "2026-10-22T17:09:51+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 550h (> 24h)"
+    },
+    "MAISDESCONTO": {
+      "detectado_em": "2026-10-22T17:09:51+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 550h (> 24h)"
     }
   },
-  "actualizado": "2026-11-14T14:41:43+00:00"
+  "actualizado": "2026-11-14T14:50:38+00:00"
 }

@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-apple-iphone-17e-de-256-gb-preto": {
-    "ts": "2026-11-12T14:42:24.855452",
-    "canales": {
-      "whatsapp": "2026-11-12T14:42:24.855452"
-    },
-    "precio": 4776.0,
-    "precios_publicados": [
-      4776.0
-    ]
-  },
-  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
-    "ts": "2026-11-12T14:50:32.017381",
-    "canales": {
-      "whatsapp": "2026-11-12T14:50:32.017381"
-    },
-    "precio": 164.0,
-    "precios_publicados": [
-      164.0
-    ]
-  },
   "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
     "ts": "2026-11-12T14:59:22.194538",
     "canales": {
@@ -3317,6 +3297,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
+    "ts": "2026-11-14T14:50:42.214074",
+    "canales": {
+      "whatsapp": "2026-11-14T14:50:42.214074"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
