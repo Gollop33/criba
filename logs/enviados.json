@@ -194,16 +194,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-jogo-de-toalhas-karsten-bosco-com-4-de-algoda": {
-    "ts": "2026-11-12T21:28:23.092587",
-    "canales": {
-      "whatsapp": "2026-11-12T21:28:23.092587"
-    },
-    "precio": 107.0,
-    "precios_publicados": [
-      107.0
-    ]
-  },
   "ml-jogo-de-panelas-allegra-em-aco-inox-7-pecas-t": {
     "ts": "2026-11-12T21:31:09.141766",
     "canales": {
@@ -3420,6 +3410,16 @@
     "precio": 53.0,
     "precios_publicados": [
       53.0
+    ]
+  },
+  "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
+    "ts": "2026-11-14T21:30:57.865541",
+    "canales": {
+      "whatsapp": "2026-11-14T21:30:57.865541"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
