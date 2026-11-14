@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-panela-de-pressao-fechamento-externo-presscoo": {
-    "ts": "2026-11-12T23:33:58.001779",
-    "canales": {
-      "whatsapp": "2026-11-12T23:33:58.001779"
-    },
-    "precio": 179.0,
-    "precios_publicados": [
-      179.0
-    ]
-  },
   "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
     "ts": "2026-11-12T23:38:51.183689",
     "canales": {
@@ -3443,6 +3433,16 @@
     "precio": 979.0,
     "precios_publicados": [
       979.0
+    ]
+  },
+  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
+    "ts": "2026-11-14T23:37:30.428789",
+    "canales": {
+      "whatsapp": "2026-11-14T23:37:30.428789"
+    },
+    "precio": 1449.0,
+    "precios_publicados": [
+      1449.0
     ]
   }
 }
