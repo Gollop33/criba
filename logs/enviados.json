@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-downy-amaciante-concentrado-perfume-collectio": {
-    "ts": "2026-11-12T12:57:23.524154",
-    "canales": {
-      "whatsapp": "2026-11-12T12:57:23.524154"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-mochila-de-viagem-expansivel-masculina-femini": {
     "ts": "2026-11-12T13:08:26.671525",
     "canales": {
@@ -3365,6 +3355,16 @@
     "precio": 319.0,
     "precios_publicados": [
       319.0
+    ]
+  },
+  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
+    "ts": "2026-11-14T12:57:23.583663",
+    "canales": {
+      "whatsapp": "2026-11-14T12:57:23.583663"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
