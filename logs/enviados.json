@@ -284,16 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
-    "ts": "2026-11-12T01:24:22.622088",
-    "canales": {
-      "whatsapp": "2026-11-12T01:24:22.622088"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
     "ts": "2026-11-12T01:27:46.369347",
     "canales": {
@@ -3458,6 +3448,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-colgate-slim-soft-black-escova-de-dente-macia": {
+    "ts": "2026-11-14T01:27:36.121620",
+    "canales": {
+      "whatsapp": "2026-11-14T01:27:36.121620"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
