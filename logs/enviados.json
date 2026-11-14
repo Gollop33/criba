@@ -295,26 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-monitor-brx-20-led-75hz-hdmi-vga-preto": {
-    "ts": "2026-11-12T11:59:17.538836",
-    "canales": {
-      "whatsapp": "2026-11-12T11:59:17.538836"
-    },
-    "precio": 197.0,
-    "precios_publicados": [
-      197.0
-    ]
-  },
-  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-12T12:03:51.078112",
-    "canales": {
-      "whatsapp": "2026-11-12T12:03:51.078112"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "amz-pro-controller-nintendo-switch-2": {
     "ts": "2026-11-12T12:13:16.310018",
     "canales": {
@@ -3375,6 +3355,16 @@
     "precio": 91.0,
     "precios_publicados": [
       91.0
+    ]
+  },
+  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
+    "ts": "2026-11-14T12:08:22.099391",
+    "canales": {
+      "whatsapp": "2026-11-14T12:08:22.099391"
+    },
+    "precio": 120.0,
+    "precios_publicados": [
+      120.0
     ]
   }
 }
