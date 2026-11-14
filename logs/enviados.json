@@ -284,16 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-wap-ventilador-de-mesa-e-parede-50cm-flow-tur": {
-    "ts": "2026-11-12T01:33:50.886953",
-    "canales": {
-      "whatsapp": "2026-11-12T01:33:50.886953"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-teclado-mecanico-redragon-dark-avenger-preto-": {
     "ts": "2026-11-12T01:38:16.038030",
     "canales": {
@@ -3438,6 +3428,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
+    "ts": "2026-11-14T01:35:53.363584",
+    "canales": {
+      "whatsapp": "2026-11-14T01:35:53.363584"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
