@@ -219,16 +219,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-12T18:05:08.730231",
-    "canales": {
-      "whatsapp": "2026-11-12T18:05:08.730231"
-    },
-    "precio": 2299.0,
-    "precios_publicados": [
-      2299.0
-    ]
-  },
   "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
     "ts": "2026-11-12T18:14:16.496999",
     "canales": {
@@ -3301,6 +3291,16 @@
     "precio": 4191.0,
     "precios_publicados": [
       4191.0
+    ]
+  },
+  "amz-sony-control-inalambrico-ps5-dualsense-midnig": {
+    "ts": "2026-11-14T18:08:29.342529",
+    "canales": {
+      "whatsapp": "2026-11-14T18:08:29.342529"
+    },
+    "precio": 436.0,
+    "precios_publicados": [
+      436.0
     ]
   }
 }
