@@ -194,16 +194,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-motosserra-eletrica-brushless-16-polegadas-2-": {
-    "ts": "2026-11-12T21:55:48.911666",
-    "canales": {
-      "whatsapp": "2026-11-12T21:55:48.911666"
-    },
-    "precio": 329.0,
-    "precios_publicados": [
-      329.0
-    ]
-  },
   "ml-kit-10-pote-de-vidro-marmita-hermetico-370ml-": {
     "ts": "2026-11-12T22:05:25.894487",
     "canales": {
@@ -3440,6 +3430,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
+    "ts": "2026-11-14T21:59:49.348318",
+    "canales": {
+      "whatsapp": "2026-11-14T21:59:49.348318"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
