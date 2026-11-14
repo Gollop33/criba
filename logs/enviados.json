@@ -245,26 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
-    "ts": "2026-11-12T15:15:14.437342",
-    "canales": {
-      "whatsapp": "2026-11-12T15:15:14.437342"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
-  "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
-    "ts": "2026-11-12T15:19:06.418650",
-    "canales": {
-      "whatsapp": "2026-11-12T15:19:06.418650"
-    },
-    "precio": 719.0,
-    "precios_publicados": [
-      719.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-11-12T15:21:54.756581",
     "canales": {
@@ -3327,6 +3307,16 @@
     "precio": 339.0,
     "precios_publicados": [
       339.0
+    ]
+  },
+  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
+    "ts": "2026-11-14T15:19:49.039534",
+    "canales": {
+      "whatsapp": "2026-11-14T15:19:49.039534"
+    },
+    "precio": 395.0,
+    "precios_publicados": [
+      395.0
     ]
   }
 }
