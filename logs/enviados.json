@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-camera-inteligente-im3-c-black-intelbras": {
-    "ts": "2026-11-12T23:48:24.578278",
-    "canales": {
-      "whatsapp": "2026-11-12T23:48:24.578278"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
     "ts": "2026-11-12T23:55:31.514671",
     "canales": {
@@ -3453,6 +3443,16 @@
     "precio": 2799.0,
     "precios_publicados": [
       2799.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
+    "ts": "2026-11-14T23:50:10.783917",
+    "canales": {
+      "whatsapp": "2026-11-14T23:50:10.783917"
+    },
+    "precio": 1692.0,
+    "precios_publicados": [
+      1692.0
     ]
   }
 }
