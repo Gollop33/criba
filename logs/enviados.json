@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
-    "ts": "2026-11-12T15:06:18.703315",
-    "canales": {
-      "whatsapp": "2026-11-12T15:06:18.703315"
-    },
-    "precio": 155.0,
-    "precios_publicados": [
-      155.0
-    ]
-  },
   "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
     "ts": "2026-11-12T15:15:14.437342",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 135.0,
     "precios_publicados": [
       135.0
+    ]
+  },
+  "amz-elmex-sensitive-professional-escova-dental-ex": {
+    "ts": "2026-11-14T15:06:30.868626",
+    "canales": {
+      "whatsapp": "2026-11-14T15:06:30.868626"
+    },
+    "precio": 2499.0,
+    "precios_publicados": [
+      2499.0
     ]
   }
 }
