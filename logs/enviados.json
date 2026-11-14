@@ -296,16 +296,6 @@
     ],
     "precio_min_publicado": 212500.0
   },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-12T03:00:21.640323",
-    "canales": {
-      "whatsapp": "2026-11-12T03:00:21.640323"
-    },
-    "precio": 1643.0,
-    "precios_publicados": [
-      1643.0
-    ]
-  },
   "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
     "ts": "2026-11-12T04:06:12.762389",
     "canales": {
@@ -3438,6 +3428,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-cerave-locao-hidratante-corporal-com-textura-": {
+    "ts": "2026-11-14T03:05:47.162848",
+    "canales": {
+      "whatsapp": "2026-11-14T03:05:47.162848"
+    },
+    "precio": 90.0,
+    "precios_publicados": [
+      90.0
     ]
   }
 }
