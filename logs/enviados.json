@@ -194,16 +194,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-panela-de-pressao-brinox-pressure-42l-20-x-14": {
-    "ts": "2026-11-12T21:48:58.094702",
-    "canales": {
-      "whatsapp": "2026-11-12T21:48:58.094702"
-    },
-    "precio": 164.0,
-    "precios_publicados": [
-      164.0
-    ]
-  },
   "ml-motosserra-eletrica-brushless-16-polegadas-2-": {
     "ts": "2026-11-12T21:55:48.911666",
     "canales": {
@@ -3430,6 +3420,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
+    "ts": "2026-11-14T21:51:52.979489",
+    "canales": {
+      "whatsapp": "2026-11-14T21:51:52.979489"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
