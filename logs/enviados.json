@@ -284,16 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-lysoform-original-lenco-umedecido-desinfetant": {
-    "ts": "2026-11-12T01:18:45.157799",
-    "canales": {
-      "whatsapp": "2026-11-12T01:18:45.157799"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
     "ts": "2026-11-12T01:24:22.622088",
     "canales": {
@@ -3458,6 +3448,16 @@
     "precio": 18.0,
     "precios_publicados": [
       18.0
+    ]
+  },
+  "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
+    "ts": "2026-11-14T01:19:03.456571",
+    "canales": {
+      "whatsapp": "2026-11-14T01:19:03.456571"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
