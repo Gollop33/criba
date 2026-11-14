@@ -219,26 +219,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
-    "ts": "2026-11-12T18:14:16.496999",
-    "canales": {
-      "whatsapp": "2026-11-12T18:14:16.496999"
-    },
-    "precio": 719.0,
-    "precios_publicados": [
-      719.0
-    ]
-  },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-8gb": {
-    "ts": "2026-11-12T18:22:01.381090",
-    "canales": {
-      "whatsapp": "2026-11-12T18:22:01.381090"
-    },
-    "precio": 3944.0,
-    "precios_publicados": [
-      3944.0
-    ]
-  },
   "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
     "ts": "2026-11-12T18:34:31.570821",
     "canales": {
@@ -3321,6 +3301,16 @@
     "precio": 249.0,
     "precios_publicados": [
       249.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-i5-16gb-512gb": {
+    "ts": "2026-11-14T18:22:50.339700",
+    "canales": {
+      "whatsapp": "2026-11-14T18:22:50.339700"
+    },
+    "precio": 4495.0,
+    "precios_publicados": [
+      4495.0
     ]
   }
 }
