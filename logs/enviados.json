@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-11-12T15:21:54.756581",
-    "canales": {
-      "whatsapp": "2026-11-12T15:21:54.756581"
-    },
-    "precio": 5332.0,
-    "precios_publicados": [
-      5332.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
     "ts": "2026-11-12T15:30:05.186704",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 395.0,
     "precios_publicados": [
       395.0
+    ]
+  },
+  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
+    "ts": "2026-11-14T15:29:48.573376",
+    "canales": {
+      "whatsapp": "2026-11-14T15:29:48.573376"
+    },
+    "precio": 449900.0,
+    "precios_publicados": [
+      449900.0
     ]
   }
 }
