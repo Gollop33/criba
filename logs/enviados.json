@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
-    "ts": "2026-11-12T17:45:19.533450",
-    "canales": {
-      "whatsapp": "2026-11-12T17:45:19.533450"
-    },
-    "precio": 318.0,
-    "precios_publicados": [
-      318.0
-    ]
-  },
   "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
     "ts": "2026-11-12T17:48:00.040068",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 3887.0,
     "precios_publicados": [
       3887.0
+    ]
+  },
+  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
+    "ts": "2026-11-14T17:45:53.944348",
+    "canales": {
+      "whatsapp": "2026-11-14T17:45:53.944348"
+    },
+    "precio": 998.0,
+    "precios_publicados": [
+      998.0
     ]
   }
 }
