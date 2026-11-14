@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-dux-human-health-whey-protein-concentrado-900": {
-    "ts": "2026-11-12T10:35:27.706658",
-    "canales": {
-      "whatsapp": "2026-11-12T10:35:27.706658"
-    },
-    "precio": 237.0,
-    "precios_publicados": [
-      237.0
-    ]
-  },
   "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
     "ts": "2026-11-12T10:40:24.988778",
     "canales": {
@@ -3395,6 +3385,16 @@
     "precio": 7.0,
     "precios_publicados": [
       7.0
+    ]
+  },
+  "amz-weleda-babycreme-de-calendula-protecao-natura": {
+    "ts": "2026-11-14T10:36:35.163825",
+    "canales": {
+      "whatsapp": "2026-11-14T10:36:35.163825"
+    },
+    "precio": 31.0,
+    "precios_publicados": [
+      31.0
     ]
   }
 }
