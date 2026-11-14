@@ -284,26 +284,6 @@
     ],
     "precio_min_publicado": 93000.0
   },
-  "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
-    "ts": "2026-11-11T23:54:53.825078",
-    "canales": {
-      "whatsapp": "2026-11-11T23:54:53.825078"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
-  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-11-11T23:56:36.935700",
-    "canales": {
-      "whatsapp": "2026-11-11T23:56:36.935700"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-11-12T00:13:36.301550",
     "canales": {
@@ -3418,6 +3398,16 @@
     "precio": 2026.0,
     "precios_publicados": [
       2026.0
+    ]
+  },
+  "amz-sensodyne-creme-dental-para-sensibilidade-rap": {
+    "ts": "2026-11-14T00:01:38.052576",
+    "canales": {
+      "whatsapp": "2026-11-14T00:01:38.052576"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
