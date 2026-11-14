@@ -296,26 +296,6 @@
     ],
     "precio_min_publicado": 212500.0
   },
-  "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
-    "ts": "2026-11-12T05:01:28.986292",
-    "canales": {
-      "whatsapp": "2026-11-12T05:01:28.986292"
-    },
-    "precio": 699.0,
-    "precios_publicados": [
-      699.0
-    ]
-  },
-  "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
-    "ts": "2026-11-12T05:08:13.443656",
-    "canales": {
-      "whatsapp": "2026-11-12T05:08:13.443656"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
   "amz-secret-clinical-desodorante-antitranspirante-": {
     "ts": "2026-11-12T05:22:09.282251",
     "canales": {
@@ -3458,6 +3438,16 @@
     "precio": 137.0,
     "precios_publicados": [
       137.0
+    ]
+  },
+  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
+    "ts": "2026-11-14T05:18:49.837990",
+    "canales": {
+      "whatsapp": "2026-11-14T05:18:49.837990"
+    },
+    "precio": 309.0,
+    "precios_publicados": [
+      309.0
     ]
   }
 }
