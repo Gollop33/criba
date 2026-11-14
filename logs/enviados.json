@@ -295,26 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram": {
-    "ts": "2026-11-12T11:21:46.860280",
-    "canales": {
-      "whatsapp": "2026-11-12T11:21:46.860280"
-    },
-    "precio": 1487.0,
-    "precios_publicados": [
-      1487.0
-    ]
-  },
-  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
-    "ts": "2026-11-12T11:23:27.854686",
-    "canales": {
-      "whatsapp": "2026-11-12T11:23:27.854686"
-    },
-    "precio": 1510.0,
-    "precios_publicados": [
-      1510.0
-    ]
-  },
   "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
     "ts": "2026-11-12T11:32:05.351712",
     "canales": {
@@ -3385,6 +3365,16 @@
     "precio": 144.0,
     "precios_publicados": [
       144.0
+    ]
+  },
+  "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
+    "ts": "2026-11-14T11:28:58.459258",
+    "canales": {
+      "whatsapp": "2026-11-14T11:28:58.459258"
+    },
+    "precio": 45.0,
+    "precios_publicados": [
+      45.0
     ]
   }
 }
