@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-pro-controller-nintendo-switch-2": {
-    "ts": "2026-11-12T12:13:16.310018",
-    "canales": {
-      "whatsapp": "2026-11-12T12:13:16.310018"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
     "ts": "2026-11-12T12:22:03.730467",
     "canales": {
@@ -3365,6 +3355,16 @@
     "precio": 120.0,
     "precios_publicados": [
       120.0
+    ]
+  },
+  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
+    "ts": "2026-11-14T12:15:14.670095",
+    "canales": {
+      "whatsapp": "2026-11-14T12:15:14.670095"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
