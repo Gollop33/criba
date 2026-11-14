@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
-    "ts": "2026-11-12T14:38:58.183735",
-    "canales": {
-      "whatsapp": "2026-11-12T14:38:58.183735"
-    },
-    "precio": 1532.0,
-    "precios_publicados": [
-      1532.0
-    ]
-  },
   "amz-apple-iphone-17e-de-256-gb-preto": {
     "ts": "2026-11-12T14:42:24.855452",
     "canales": {
@@ -1186,14 +1176,16 @@
     ]
   },
   "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
-    "ts": "2026-11-13T02:50:13.669882",
+    "ts": "2026-11-14T14:41:47.283569",
     "canales": {
-      "whatsapp": "2026-11-13T02:50:13.669882"
+      "whatsapp": "2026-11-14T14:41:47.283569"
     },
-    "precio": 273.0,
+    "precio": 153.0,
     "precios_publicados": [
-      273.0
-    ]
+      273.0,
+      153.0
+    ],
+    "precio_min_publicado": 273.0
   },
   "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-11-13T02:57:11.226328",

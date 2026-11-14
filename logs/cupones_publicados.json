@@ -72,26 +72,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "APROVEITA": {
-      "detectado_em": "2026-10-15T13:03:46+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "SEUCUPOM": {
-      "detectado_em": "2026-10-15T13:03:46+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MAISDESCONTO": {
-      "detectado_em": "2026-10-15T13:03:46+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "SUPEROFERTA": {
-      "detectado_em": "2026-10-15T13:03:46+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "BEAUTY": {
       "detectado_em": "2026-10-16T12:22:22+00:00",
       "publicado_em": null,
@@ -1316,7 +1296,32 @@
       "detectado_em": "2026-10-21T17:00:07+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 554h (> 24h)"
+    },
+    "CUPOMPRAHOME": {
+      "detectado_em": "2026-11-14T13:01:33+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MEUPROJETO": {
+      "detectado_em": "2026-11-14T13:01:33+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOAGORAML": {
+      "detectado_em": "2026-11-14T13:01:33+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SEMPREOFERTAS": {
+      "detectado_em": "2026-11-14T13:01:33+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "ECONOMIZEI25": {
+      "detectado_em": "2026-11-14T13:01:33+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-14T11:19:16+00:00"
+  "actualizado": "2026-11-14T14:41:43+00:00"
 }
