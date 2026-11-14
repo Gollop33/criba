@@ -295,16 +295,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-mouse-sem-fio-recarregavel-wireless-bluetooth": {
-    "ts": "2026-11-12T12:22:03.730467",
-    "canales": {
-      "whatsapp": "2026-11-12T12:22:03.730467"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
     "ts": "2026-11-12T12:29:25.690739",
     "canales": {
@@ -3365,6 +3355,16 @@
     "precio": 67.0,
     "precios_publicados": [
       67.0
+    ]
+  },
+  "amz-philips-aparador-e-barbeador-eletrico-serie-3": {
+    "ts": "2026-11-14T12:22:24.491075",
+    "canales": {
+      "whatsapp": "2026-11-14T12:22:24.491075"
+    },
+    "precio": 129.0,
+    "precios_publicados": [
+      129.0
     ]
   }
 }
