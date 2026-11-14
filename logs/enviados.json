@@ -13,19 +13,6 @@
     ],
     "precio_min_publicado": 4099.0
   },
-  "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
-    "ts": "2026-11-12T17:52:26.221021",
-    "canales": {
-      "whatsapp": "2026-11-12T17:52:26.221021"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      19.0,
-      16.0,
-      16.0
-    ],
-    "precio_min_publicado": 16.0
-  },
   "cupom-ml-ccf5a2930e": {
     "ts": "2026-11-14T00:11:49.982676",
     "canales": {
@@ -244,16 +231,6 @@
       3259.0
     ],
     "precio_min_publicado": 389900.0
-  },
-  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
-    "ts": "2026-11-12T17:48:00.040068",
-    "canales": {
-      "whatsapp": "2026-11-12T17:48:00.040068"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
   },
   "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
     "ts": "2026-11-12T18:03:53.514742",
@@ -3317,6 +3294,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
+    "ts": "2026-11-14T17:55:37.564587",
+    "canales": {
+      "whatsapp": "2026-11-14T17:55:37.564587"
+    },
+    "precio": 4199.0,
+    "precios_publicados": [
+      4199.0
     ]
   }
 }
