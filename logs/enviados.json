@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-roku-streaming-stick-hd-2025-para-tv-fhd-cont": {
-    "ts": "2026-11-12T16:53:21.174223",
-    "canales": {
-      "whatsapp": "2026-11-12T16:53:21.174223"
-    },
-    "precio": 249.0,
-    "precios_publicados": [
-      249.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-11-12T17:02:22.482483",
     "canales": {
@@ -3317,6 +3307,16 @@
     "precio": 1559.0,
     "precios_publicados": [
       1559.0
+    ]
+  },
+  "amz-controle-sem-fio-dualsense-edicao-limitada-gr": {
+    "ts": "2026-11-14T16:56:22.342382",
+    "canales": {
+      "whatsapp": "2026-11-14T16:56:22.342382"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
