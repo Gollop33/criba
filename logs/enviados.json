@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-13T12:08:11.235744",
-    "canales": {
-      "whatsapp": "2026-11-13T12:08:11.235744"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-11-13T12:15:22.429484",
     "canales": {
@@ -3525,6 +3515,16 @@
     "precio": 84.0,
     "precios_publicados": [
       84.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
+    "ts": "2026-11-15T12:09:43.253634",
+    "canales": {
+      "whatsapp": "2026-11-15T12:09:43.253634"
+    },
+    "precio": 1698.0,
+    "precios_publicados": [
+      1698.0
     ]
   }
 }
