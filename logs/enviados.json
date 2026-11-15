@@ -81,26 +81,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
-    "ts": "2026-11-13T21:20:41.474413",
-    "canales": {
-      "whatsapp": "2026-11-13T21:20:41.474413"
-    },
-    "precio": 498.0,
-    "precios_publicados": [
-      498.0
-    ]
-  },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-11-13T21:26:38.579209",
-    "canales": {
-      "whatsapp": "2026-11-13T21:26:38.579209"
-    },
-    "precio": 3443.0,
-    "precios_publicados": [
-      3443.0
-    ]
-  },
   "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
     "ts": "2026-11-13T21:31:51.318826",
     "canales": {
@@ -3695,6 +3675,16 @@
     "precio": 105.0,
     "precios_publicados": [
       105.0
+    ]
+  },
+  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
+    "ts": "2026-11-15T21:29:16.477409",
+    "canales": {
+      "whatsapp": "2026-11-15T21:29:16.477409"
+    },
+    "precio": 92.0,
+    "precios_publicados": [
+      92.0
     ]
   }
 }
