@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-notebook-asus-vivobook-go-15-e1504fa-amd-ryze": {
-    "ts": "2026-11-13T21:43:56.346002",
-    "canales": {
-      "whatsapp": "2026-11-13T21:43:56.346002"
-    },
-    "precio": 3365.0,
-    "precios_publicados": [
-      3365.0
-    ]
-  },
   "amz-whey-protein-concentrado-cookies-pote-900g-co": {
     "ts": "2026-11-13T21:50:23.530988",
     "canales": {
@@ -3685,6 +3675,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
+    "ts": "2026-11-15T21:49:31.899048",
+    "canales": {
+      "whatsapp": "2026-11-15T21:49:31.899048"
+    },
+    "precio": 84.0,
+    "precios_publicados": [
+      84.0
     ]
   }
 }
