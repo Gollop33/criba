@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-13T12:36:06.757041",
-    "canales": {
-      "whatsapp": "2026-11-13T12:36:06.757041"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-skin-care-hidratante-facial-garnier-uniform-m": {
     "ts": "2026-11-13T12:50:20.193809",
     "canales": {
@@ -3545,6 +3535,16 @@
     "precio": 3279.0,
     "precios_publicados": [
       3279.0
+    ]
+  },
+  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
+    "ts": "2026-11-15T12:37:26.918775",
+    "canales": {
+      "whatsapp": "2026-11-15T12:37:26.918775"
+    },
+    "precio": 171.0,
+    "precios_publicados": [
+      171.0
     ]
   }
 }
