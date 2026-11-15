@@ -69,18 +69,6 @@
     ],
     "precio_min_publicado": 44.0
   },
-  "amz-notebook-asus-vivobook-go-e1504ga-intel-core-": {
-    "ts": "2026-11-13T09:08:18.248315",
-    "canales": {
-      "whatsapp": "2026-11-13T09:08:18.248315"
-    },
-    "precio": 3259.0,
-    "precios_publicados": [
-      389900.0,
-      3259.0
-    ],
-    "precio_min_publicado": 389900.0
-  },
   "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
     "ts": "2026-11-14T14:41:47.283569",
     "canales": {
@@ -3477,6 +3465,16 @@
     "precio": 6666.0,
     "precios_publicados": [
       6666.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-15T09:08:27.964890",
+    "canales": {
+      "whatsapp": "2026-11-15T09:08:27.964890"
+    },
+    "precio": 1005.0,
+    "precios_publicados": [
+      1005.0
     ]
   }
 }
