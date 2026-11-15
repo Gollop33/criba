@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-kit-2-cobertor-mantinha-microfibra-casal-mant": {
-    "ts": "2026-11-13T00:47:15.397938",
-    "canales": {
-      "whatsapp": "2026-11-13T00:47:15.397938"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
     "ts": "2026-11-13T00:59:39.328970",
     "canales": {
@@ -3433,6 +3423,16 @@
     "precio": 1799.0,
     "precios_publicados": [
       1799.0
+    ]
+  },
+  "amz-xbox-series-robot-white-controle-sem-fio-blue": {
+    "ts": "2026-11-15T00:48:36.226119",
+    "canales": {
+      "whatsapp": "2026-11-15T00:48:36.226119"
+    },
+    "precio": 345.0,
+    "precios_publicados": [
+      345.0
     ]
   }
 }
