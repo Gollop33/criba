@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
-    "ts": "2026-11-13T14:22:25.346130",
-    "canales": {
-      "whatsapp": "2026-11-13T14:22:25.346130"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
   "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
     "ts": "2026-11-13T14:29:19.850622",
     "canales": {
@@ -3615,6 +3605,16 @@
     "precio": 199.0,
     "precios_publicados": [
       199.0
+    ]
+  },
+  "amz-roteador-wifi-mesh-intelbras-twibi-force-ax": {
+    "ts": "2026-11-15T14:23:08.891564",
+    "canales": {
+      "whatsapp": "2026-11-15T14:23:08.891564"
+    },
+    "precio": 197.0,
+    "precios_publicados": [
+      197.0
     ]
   }
 }
