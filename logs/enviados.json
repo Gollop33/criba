@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 273.0
   },
-  "amz-playstation5-pro": {
-    "ts": "2026-11-13T03:08:22.857594",
-    "canales": {
-      "whatsapp": "2026-11-13T03:08:22.857594"
-    },
-    "precio": 7399.0,
-    "precios_publicados": [
-      7399.0
-    ]
-  },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-11-13T03:15:12.565774",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 3399.0,
     "precios_publicados": [
       3399.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
+    "ts": "2026-11-15T03:08:34.789424",
+    "canales": {
+      "whatsapp": "2026-11-15T03:08:34.789424"
+    },
+    "precio": 3469.0,
+    "precios_publicados": [
+      3469.0
     ]
   }
 }
