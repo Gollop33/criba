@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-11-13T15:08:25.273452",
-    "canales": {
-      "whatsapp": "2026-11-13T15:08:25.273452"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
     "ts": "2026-11-13T15:15:31.078494",
     "canales": {
@@ -3645,6 +3635,16 @@
     "precio": 2192.0,
     "precios_publicados": [
       2192.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
+    "ts": "2026-11-15T15:13:34.057088",
+    "canales": {
+      "whatsapp": "2026-11-15T15:13:34.057088"
+    },
+    "precio": 2699.0,
+    "precios_publicados": [
+      2699.0
     ]
   }
 }
