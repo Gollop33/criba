@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-11-13T14:57:26.138923",
-    "canales": {
-      "whatsapp": "2026-11-13T14:57:26.138923"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-13T15:08:25.273452",
     "canales": {
@@ -3645,6 +3635,16 @@
     "precio": 1428.0,
     "precios_publicados": [
       1428.0
+    ]
+  },
+  "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
+    "ts": "2026-11-15T15:04:22.214827",
+    "canales": {
+      "whatsapp": "2026-11-15T15:04:22.214827"
+    },
+    "precio": 2192.0,
+    "precios_publicados": [
+      2192.0
     ]
   }
 }
