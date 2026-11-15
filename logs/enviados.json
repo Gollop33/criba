@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "amz-serum-hidratante-corporal-para-pele-com-tom-i": {
-    "ts": "2026-11-13T12:29:21.022073",
-    "canales": {
-      "whatsapp": "2026-11-13T12:29:21.022073"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-11-13T12:36:06.757041",
     "canales": {
@@ -3535,6 +3525,16 @@
     "precio": 2132.0,
     "precios_publicados": [
       2132.0
+    ]
+  },
+  "amz-marvels-spiderman-miles-morales-playstation-4": {
+    "ts": "2026-11-15T12:31:47.215976",
+    "canales": {
+      "whatsapp": "2026-11-15T12:31:47.215976"
+    },
+    "precio": 168.0,
+    "precios_publicados": [
+      168.0
     ]
   }
 }
