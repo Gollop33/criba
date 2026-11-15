@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3i-i513420h-8gb-": {
-    "ts": "2026-11-13T01:49:47.753657",
-    "canales": {
-      "whatsapp": "2026-11-13T01:49:47.753657"
-    },
-    "precio": 3279.0,
-    "precios_publicados": [
-      3279.0
-    ]
-  },
   "ml-jogo-de-toalhas-buddemeyer-village-banho-verd": {
     "ts": "2026-11-13T01:51:44.112151",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 179.0,
     "precios_publicados": [
       179.0
+    ]
+  },
+  "amz-demons-souls-ps5padraoplaystation5": {
+    "ts": "2026-11-15T01:51:25.405845",
+    "canales": {
+      "whatsapp": "2026-11-15T01:51:25.405845"
+    },
+    "precio": 245.0,
+    "precios_publicados": [
+      245.0
     ]
   }
 }
