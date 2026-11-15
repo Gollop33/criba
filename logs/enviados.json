@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
-    "ts": "2026-11-13T14:29:19.850622",
-    "canales": {
-      "whatsapp": "2026-11-13T14:29:19.850622"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
     "ts": "2026-11-13T14:37:03.620371",
     "canales": {
@@ -3625,6 +3615,16 @@
     "precio": 3599.0,
     "precios_publicados": [
       3599.0
+    ]
+  },
+  "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
+    "ts": "2026-11-15T14:34:33.912660",
+    "canales": {
+      "whatsapp": "2026-11-15T14:34:33.912660"
+    },
+    "precio": 999.0,
+    "precios_publicados": [
+      999.0
     ]
   }
 }
