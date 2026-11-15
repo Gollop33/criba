@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-11-13T22:41:20.724781",
-    "canales": {
-      "whatsapp": "2026-11-13T22:41:20.724781"
-    },
-    "precio": 1205.0,
-    "precios_publicados": [
-      1205.0
-    ]
-  },
   "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
     "ts": "2026-11-13T22:49:04.759387",
     "canales": {
@@ -3695,6 +3685,16 @@
     "precio": 130.0,
     "precios_publicados": [
       130.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
+    "ts": "2026-11-15T22:45:31.557953",
+    "canales": {
+      "whatsapp": "2026-11-15T22:45:31.557953"
+    },
+    "precio": 3999.0,
+    "precios_publicados": [
+      3999.0
     ]
   }
 }
