@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-11-13T23:37:42.228078",
-    "canales": {
-      "whatsapp": "2026-11-13T23:37:42.228078"
-    },
-    "precio": 3100.0,
-    "precios_publicados": [
-      3100.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
     "ts": "2026-11-13T23:44:44.683357",
     "canales": {
@@ -3687,6 +3677,16 @@
     "precio": 5054.0,
     "precios_publicados": [
       5054.0
+    ]
+  },
+  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
+    "ts": "2026-11-15T23:39:49.906675",
+    "canales": {
+      "whatsapp": "2026-11-15T23:39:49.906675"
+    },
+    "precio": 959.0,
+    "precios_publicados": [
+      959.0
     ]
   }
 }
