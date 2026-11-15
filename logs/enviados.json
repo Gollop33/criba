@@ -80,16 +80,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-ariel-sabao-liquido-toque-de-downy-concentrad": {
-    "ts": "2026-11-13T18:30:29.976677",
-    "canales": {
-      "whatsapp": "2026-11-13T18:30:29.976677"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
   "amz-growth-supplements-creatina-monohidratada-250": {
     "ts": "2026-11-13T18:37:14.181985",
     "canales": {
@@ -3664,6 +3654,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
+    "ts": "2026-11-15T18:31:25.526727",
+    "canales": {
+      "whatsapp": "2026-11-15T18:31:25.526727"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
