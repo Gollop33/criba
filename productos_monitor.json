@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-14T21:02:06+00:00",
-  "total": 60,
+  "actualizado": "2026-11-15T02:25:21+00:00",
+  "total": 57,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,15 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "lava roupas em po omo todo ciclo caixa",
-      "nombre": "Lava-Roupas em Pó Omo Todo Ciclo Caixa 2kg",
-      "precio_ref": 20.5,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
       "busqueda": "colgate tripla acao menta original creme dental 6x90g",
@@ -25,7 +17,7 @@
       "precio_ref": 22.09,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
       "busqueda": "pantene pro v oleo capilar queratina milagroso finalizador",
@@ -33,7 +25,15 @@
       "precio_ref": 26.18,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "lava roupas em po omo todo ciclo caixa",
+      "nombre": "Lava-Roupas em Pó Omo Todo Ciclo Caixa 2kg",
+      "precio_ref": 20.5,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
       "busqueda": "fone de ouvido headset havit h2015 pro black",
@@ -41,7 +41,7 @@
       "precio_ref": 153.61,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
       "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
@@ -49,431 +49,39 @@
       "precio_ref": 249.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
-      "busqueda": "enxaguante bucal listerine cool mint sem alcool 1",
-      "nombre": "Enxaguante Bucal Listerine Cool Mint, Sem Álcool, 1,5L | Elimina até 99, 9% Dos Germes, 24H de Proteção, Hálito Fresco, Antib",
-      "precio_ref": 31.37,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
+      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
+      "precio_ref": 139.99,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
-      "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
-      "nombre": "L'Oréal Professionnel Óleo 10 em 1 Absolut Repair | Multi-benefícios para cabelos secos e danificados | Repara e Promove Bril",
-      "precio_ref": 53.99,
-      "categoria": "Automotivo",
+      "busqueda": "philips fone de ouvido sem fio tws tat1109bk",
+      "nombre": "PHILIPS, Fone de Ouvido Sem Fio TWS, TAT1109BK/00, Bluetooth, Com Microfone, Até 24 horas de bateria, Preto",
+      "precio_ref": 94.02,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
-      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics pontas",
-      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics | Pontas nutridas e reparação",
-      "precio_ref": 24.59,
-      "categoria": "Pet Shop",
+      "busqueda": "mouse gamer redragon predator m612 rgb preto",
+      "nombre": "Mouse Gamer Redragon Predator M612-RGB, Preto",
+      "precio_ref": 79.98,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
-      "busqueda": "stanley copo termico stacking ash 354ml",
-      "nombre": "Stanley Copo Térmico Stacking Ash 354ml",
-      "precio_ref": 67.5,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "colgate total gengiva saudavel creme dental anticarie com",
-      "nombre": "Colgate Total Gengiva Saudável Creme Dental Anticárie com Flúor, 3x90g",
-      "precio_ref": 19.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "duracell pilha optimum aa pequena com 12 unidades",
-      "nombre": "Duracell Pilha Optimum AA Pequena Com 12 Unidades – Dura até 30x Mais – Ideal para Controle Xbox™, Brinquedos e Lanternas",
-      "precio_ref": 69.89,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "clear shampoo men anticaspa ice cool menthol 400ml",
-      "nombre": "Clear Shampoo Men Anticaspa Ice Cool Menthol 400Ml | Anticaspa mentolado refrescante",
-      "precio_ref": 21.49,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "secret desodorante antitranspirante em gel berry 45g",
-      "nombre": "Secret Desodorante Antitranspirante em Gel Berry 45g",
-      "precio_ref": 16.1,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
-      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
-      "precio_ref": 25.36,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "kit lavagem completa shampoo cera tok final intense",
-      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
-      "precio_ref": 139.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "god of war hits playstation 4",
-      "nombre": "God Of War Hits - PlayStation 4",
-      "precio_ref": 89.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "oster cafeteira oster inox compacta 0 75l ocaf300",
-      "nombre": "Oster Cafeteira Oster Inox Compacta 0,75L, OCAF300, 220V",
-      "precio_ref": 79.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "shampoo invigo nutri enrich wella professionals 1000 ml",
-      "nombre": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
-      "precio_ref": 117.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "bloodborne hits playstation 4",
-      "nombre": "Bloodborne Hits - PlayStation 4",
-      "precio_ref": 88.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
-      "nombre": "Processador AMD Ryzen 5 5500 100100000457BOX, Cerâmica Cinza",
-      "precio_ref": 576.45,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "monitor gamer curvo aoc agon quad 32 180hz",
-      "nombre": "Monitor Gamer Curvo AOC AGON QUAD 32\" 180Hz 0,5ms HDR10 CQ32G4E",
-      "precio_ref": 1029.26,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a36 5g 128gb 6gb ram",
-      "nombre": "Celular Samsung Galaxy A36 5G 128GB, 6GB RAM, Câmera 50MP, IP67, Super AMOLED 6.7\", Recursos AI, Branco",
-      "precio_ref": 1449.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s26 5g 512gb 12gb ram",
-      "nombre": "Celular Samsung Galaxy S26+ 5G, 512GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.7\" - Azul",
-      "precio_ref": 5554.44,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "ssd sandisk plus 1tb nvme m 2 2280",
-      "nombre": "SSD Sandisk Plus - 1TB, NVMe, M.2 2280, Leitura até 3200MB/s, Gravação até 2500MB/s",
-      "precio_ref": 899.89,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "monitor portatil ips 15 6 full hd 1080p",
-      "nombre": "Monitor Portátil IPS 15.6\" Full HD 1080p, Ultrafino, USB-C/HDMI, Capa Inteligente e Alto-falantes - Extensor de Tela para Lap",
-      "precio_ref": 359.99,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 processador octa core",
-      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
-      "precio_ref": 422.35,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g17 128gb 4gb ram 8gb",
-      "nombre": "Smartphone Motorola Moto g17 128GB 4GB RAM + 8GB RAM Boost, camera 50MP Sony Lytia 600, tela FHD+ 60hz, bateria 5200 mAh - Az",
-      "precio_ref": 799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "apple iphone 15 128 gb azul",
-      "nombre": "Apple iPhone 15 (128 GB) — Azul",
-      "precio_ref": 4199.0,
+      "busqueda": "apple iphone 17e de 256 gb preto",
+      "nombre": "Apple iPhone 17e de 256 GB — Preto",
+      "precio_ref": 4776.67,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a37 5g 256gb 8gb 50mp",
-      "nombre": "Celular Samsung Galaxy A37 5G, 256GB, 8GB, 50MP Tela 6.7\" - Preto",
-      "precio_ref": 2098.4,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "micro ondas 20l prata porta espelhada mastercook midea",
-      "nombre": "Micro-ondas 20L Prata Porta Espelhada MasterCook Midea 110V",
-      "precio_ref": 448.97,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "air fryer oven philco 12l 1800w 4 em",
-      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
-      "precio_ref": 408.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung odyssey g5 27 resolucao qhd",
-      "nombre": "Monitor Gamer Samsung Odyssey G5 27, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
-      "precio_ref": 979.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tablet tcl a1 plus 128gb 16gb ram 6gb",
-      "nombre": "Tablet TCL A1 Plus 128GB, 16GB RAM (6GB + 10GB), Tela 12.2\" 2.4K 120Hz, Bateria 8000mAh, Android 16, Snapdragon - Com Capa Te",
-      "precio_ref": 1449.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 fe 5g 128gb 8gb",
-      "nombre": "Celular Samsung Galaxy S25 FE 5G, 128GB, 8GB, Câmera Tripla - Jet Black",
-      "precio_ref": 2999.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
-      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 512GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ732",
-      "precio_ref": 2799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
-      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
-      "precio_ref": 1692.87,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "colecao nioh playstation 5",
-      "nombre": "Coleção NIOH - PlayStation 5",
-      "precio_ref": 179.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "smart tv lg 43 4k uhd nano ai",
-      "nombre": "Smart TV LG 43\" 4K UHD NANO AI 43UN85CBPSA.AWZ",
-      "precio_ref": 1649.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "notebook gamer lenovo loq 15irx9 intel core i7",
-      "nombre": "Notebook Gamer Lenovo LOQ 15IRX9 Intel Core i7-13645HX 16GB 512GB SSD RTX 4050 Windows 11 15.6\" - 83KH000MBR Luna Grey",
-      "precio_ref": 6934.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 10 4gb ram 128gb",
-      "nombre": "Tablet Positivo Vision TAB 10 4GB RAM 128GB Armazenamento, Octa-Core, 13MP + Selfie 5MP, Bateria 6000mAh, Tela 10.1“ HD, Wifi",
-      "precio_ref": 869.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "007 first light specialist edition exclusivo amazon playstation",
-      "nombre": "007 First Light - Specialist Edition (Exclusivo Amazon) - PlayStation 5",
-      "precio_ref": 239.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "notebook vaio fe16 amd ryzen 5 5625u 16gb",
-      "nombre": "Notebook VAIO FE16 AMD Ryzen 5-5625U - 16GB RAM 512GB SSD Linux - Wi-Fi 6 - Tela 16\" IPS WUXGA - VJFE69F11X-B0711H Antirrefle",
-      "precio_ref": 3959.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
-      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
-      "precio_ref": 1799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "xbox series robot white controle sem fio bluetooth",
-      "nombre": "Xbox, Series Robot White, Controle Sem Fio, Bluetooth, USB-C, D-pad Híbrido, PC e Mobile",
-      "precio_ref": 345.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 moana processador octa",
-      "nombre": "Tablet Positivo Vision TAB 7 Moana - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android",
-      "precio_ref": 494.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
-      "nombre": "Celular Samsung Galaxy S26 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.3\" - Violeta",
-      "precio_ref": 4696.54,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "notebook acer nitro v 15 rtx 4050 ryzen",
-      "nombre": "Notebook Acer Nitro V 15 RTX 4050 Ryzen 7 8GB 512GB Linux ANV15-41-R6J0",
-      "precio_ref": 519899.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "samsung smart tv 65 crystal uhd 4k u8000h",
-      "nombre": "Samsung Smart TV 65\" Crystal UHD 4K U8000H 26/2027, Vision AI Companion, Modo Estádio, Xbox Cloud Gaming",
-      "precio_ref": 3788.42,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
-      "nombre": "Monitor Gamer Curvo Samsung Odyssey 34’’, Ultra WQHD, 165Hz, 1ms, tela ultrawide, HDMI, Display Port, Freesync Premium, preto",
-      "precio_ref": 1630.53,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "monitor gamer aoc agon g42 27 200hz 0",
-      "nombre": "Monitor Gamer AOC AGON G42 27\" 200Hz 0,3ms IPS HDR10 NVIDIA G-Sync 27G42HE",
-      "precio_ref": 799.9,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "ghost of tsushima versao do diretor playstation 5",
-      "nombre": "Ghost of Tsushima Versão Do Diretor - PlayStation 5",
-      "precio_ref": 259.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "apple 2025 ipad wi fi 128 gb azul",
-      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Azul (A16)",
-      "precio_ref": 4299.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "placa mae asus tuf gaming b550m plus am4",
-      "nombre": "Placa-Mãe ASUS TUF Gaming B550M-PLUS AM4 mATX — Suporte Ryzen, PCIe 4.0, M.2 NVMe, DDR4, HDMI/DP, LAN Gigabit, Durabilidade M",
-      "precio_ref": 749.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "death stranding versao do diretor playstation 5",
-      "nombre": "Death Stranding Versão Do Diretor - PlayStation 5",
-      "precio_ref": 179.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "demon s souls ps5 padrao playstation 5",
-      "nombre": "Demon's Souls Ps5-padrão-playstation_5",
-      "precio_ref": 245.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
-      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
-      "precio_ref": 475.18,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "gabinete gamer redragon wideload pro ca 604b pro",
-      "nombre": "Gabinete Gamer Redragon Wideload Pro CA-604B-PRO",
-      "precio_ref": 318.97,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
-    },
-    {
-      "busqueda": "tramontina panela de pressao vancouver effect em aluminio",
-      "nombre": "Tramontina Panela de Pressão Vancouver Effect em Alumínio com Revestimento Interno e Externo em Antiaderente Starflon Max Pre",
-      "precio_ref": 161.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     },
     {
       "busqueda": "notebook acer aspire go 15 core 5 8gb",
@@ -481,7 +89,375 @@
       "precio_ref": 3399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-14T21:02:06+00:00"
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4799.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
+      "nombre": "Smartwatch Samsung Galaxy Fit3 Display 1.6\" Grafite",
+      "precio_ref": 199.0,
+      "categoria": "Relógios & Smartwatches",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto g15-256GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI e Night Vision Bateria de 5200 mAh Tela FHD+ 6.",
+      "precio_ref": 928.99,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo loq 15irx9 intel core i5 13450hx",
+      "nombre": "Notebook Lenovo LOQ 15IRX9 Intel Core i5-13450HX 16GB 512GB SSD RTX 3050 Windows 11 15.6\" - 83KH0006BR Luna Grey",
+      "precio_ref": 5660.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "placa mae msi a520m a pro am4 2xddr4",
+      "nombre": "Placa Mãe MSI A520M-A PRO (AM4/2xDDR4/HDMI/DVI-D/M.2/USB 3.2)",
+      "precio_ref": 355.98,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1428.75,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "echo dot smart speaker com alexa som vibrante",
+      "nombre": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+",
+      "precio_ref": 649.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "the legend of zelda ocarina of time nintendo",
+      "nombre": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 (Capa Padrão)",
+      "precio_ref": 439.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
+      "nombre": "Tablet VAIO TL10 4GB RAM 64GB, 4G, Teclado Magnético, Tela 10.4” 2K PRETO",
+      "precio_ref": 1159.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
+      "nombre": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.2\", Azul Marinho",
+      "precio_ref": 4062.77,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "colgate total antitartaro creme dental com fluor 3x90g",
+      "nombre": "Colgate Total Antitártaro Creme Dental com Flúor, 3x90g",
+      "precio_ref": 4990.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro pad 10 1 android 15 128gb",
+      "nombre": "Tablet Xixaomiro Pad 10.1\" Android 15, 128GB ROM + 24GB RAM, Câmera 13MP + 5MP, Bateria 8000mAh, Kit com Teclado, Mouse e Can",
+      "precio_ref": 719.09,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
+      "precio_ref": 2132.33,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g77 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g77 5G 256GB - 8GB RAM + 16GB RAM Boost, camera 108MP Ultra-Pixel, tela 1.5K extreme Amoled 120hz, u",
+      "precio_ref": 1579.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
+      "precio_ref": 1889.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "antuvi monitor portatil 15 6 case 1080p mini",
+      "nombre": "ANTUVI Monitor Portátil 15.6''+ Case, 1080P, MINI Segunda de Notebook Extensor De Tela, Ultra-Slim e portátil, com alto-falan",
+      "precio_ref": 333.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
+      "nombre": "Tablet Samsung Galaxy TAB A11+, 128GB, 6GB RAM, WiFi",
+      "precio_ref": 1486.84,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet huawei matepad se 11 4 128gb tela",
+      "nombre": "Tablet, HUAWEI MatePad SE 11, 4+128GB, Tela HUAWEI FullView de 11\" para Conforto Visual，Superbateria de 7700 mAh 22,5W，Câmera",
+      "precio_ref": 89900.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3i, i5-13420H, 8GB RAM, 256GB SSD | Tela IPS WUXGA antirreflexo de 15,3\", Intel UHD Graphics, Wi",
+      "precio_ref": 3279.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
+      "nombre": "Tablet Samsung Galaxy Tab A11, 64GB, 4GB RAM, Tela de 8,7\" | Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, Wi-Fi",
+      "precio_ref": 1089.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g06 64gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto G06-64GB 4GB RAM +8GB Ram Boost, Camera 50MP com AI, Bateria de 5200 mAh e Tela 6.9\" - Azul Marinho",
+      "precio_ref": 699.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 2699.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi pad 7 28 4 cm 8",
+      "nombre": "Tablet Xiaomi Pad 7, 28,4 cm, 8 + 256 GB, tela 3,2K 144Hz, Snapdragon 7+ Gen 3, bateria de 8850 mAh, carregamento rápido de 4",
+      "precio_ref": 2450.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Prata, 128 GB)",
+      "precio_ref": 3148.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola edge 70 fusion 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Edge 70 Fusion 5G - 256GB 8GB RAM + 16GB RAM Boost, camera 50MP Sony Lytia 710, Tela 1.5K extreme Amoled",
+      "precio_ref": 2192.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
+      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
+      "precio_ref": 3469.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
+      "nombre": "Tablet xixaomiro S11, 10,1 Polegadas Android 15, 12+12GB RAM, 128GB ROM, Tela IPS Full HD 1920x1200, Bateria 8000mAh, Wi-Fi 6",
+      "precio_ref": 718.18,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
+      "nombre": "XIAOMI Redmi Pad 2 8GB + 256GB Tablet com tela de 11 polegadas 2.5K 90Hz, Mediatek Helio G100 Ultra, Roxo (Carregador incluíd",
+      "precio_ref": 1759.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smart tv 32 philco roku tv dolby audio",
+      "nombre": "Smart TV 32\" Philco Roku TV Dolby Áudio HDR10 P32CRB | Dolby Áudio, HDR10",
+      "precio_ref": 939.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
+      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
+      "precio_ref": 1005.44,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "conjunto de roteador sem fio wi fi 6",
+      "nombre": "Conjunto de Roteador Sem Fio WI-FI 6 Twibi Force AX Branco Intelbras",
+      "precio_ref": 336.39,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 5332.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "notebook dell inspiron 15 i1300 a80p intel core",
+      "nombre": "Notebook Dell Inspiron 15-I1300-A80P, Intel Core i7-1355U, Windows 11 Home | 15.6 FHD 120 Hz IPS Antirreflexo, 16 GB RAM, SSD",
+      "precio_ref": 5948.71,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "placa de video asrock rx 7600 challenger pro",
+      "nombre": "Placa de Vídeo ASRock RX 7600 Challenger Pro OC 8GB GDDR6 90-GA62ZZ-00UANF | Placa de vídeo com 8GB GDDR6, FSR e Ray Tracing",
+      "precio_ref": 2149.46,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch 2 ea sports fc 27",
+      "nombre": "Bundle Nintendo Switch 2 + EA Sports FC 27",
+      "precio_ref": 4199.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Verde",
+      "precio_ref": 785.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
+      "nombre": "Xiaomi Redmi Pad 2 Apenas WiFi (Sem Chamadas ou Mensagens) 11\" 2.5K Octa Core 4 Alto-falantes ROM Global 9000mAh Bluetooth 5.",
+      "precio_ref": 1698.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book4 intel coretm i3 1315u windows",
+      "nombre": "Samsung Galaxy Book4 Intel® Core™ i3-1315U, Windows 11 Home, 8GB, 256GB SSD, UHD Graphics, 15.6'' Full HD LED, 1.55kg*.",
+      "precio_ref": 3512.98,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "apple 2026 macbook neo 13 pol com chip",
+      "nombre": "Apple 2026 MacBook Neo (13 pol. com chip A18 Pro, pensado para IA e Apple Intelligence, tela Liquid Retina, 8 GB de memória u",
+      "precio_ref": 6666.66,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
+      "nombre": "Mini Rack Montado Intelbras 3U 370mm MRM 337 Preto",
+      "precio_ref": 303.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola edge 60 fusion 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Edge 60 Fusion 5G - 256GB 8GB RAM+8GB Ram Boost 50MP Sony AI Camera IP68 NFC - Rosa",
+      "precio_ref": 1789.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab plus 12 1 2",
+      "nombre": "Tablet Lenovo Idea Tab Plus 12.1\" 2.5K 90Hz - Octa-Core, 8GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Case",
+      "precio_ref": 2117.17,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "marvel s spider man miles morales playstation 4",
+      "nombre": "Marvel's Spider-Man: Miles Morales - PlayStation 4",
+      "precio_ref": 168.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "bundle gta vi playstation 5 slim digital 825",
+      "nombre": "Bundle GTA VI + PlayStation 5 Slim Digital 825 GB - Pacote Astro Bot e Gran Turismo 7",
+      "precio_ref": 4908.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "roteador wi fi mesh intelbras twibi force ax",
+      "nombre": "Roteador Wi-Fi Mesh Intelbras Twibi Force AX",
+      "precio_ref": 197.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
+      "precio_ref": 159900.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T02:25:21+00:00"
     }
   ]
 }
