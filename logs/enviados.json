@@ -80,16 +80,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
-    "ts": "2026-11-13T20:13:08.222425",
-    "canales": {
-      "whatsapp": "2026-11-13T20:13:08.222425"
-    },
-    "precio": 3588.0,
-    "precios_publicados": [
-      3588.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
     "ts": "2026-11-13T20:16:22.067330",
     "canales": {
@@ -3694,6 +3684,16 @@
     "precio": 1419.0,
     "precios_publicados": [
       1419.0
+    ]
+  },
+  "amz-monitor-samsung-24-fhd-ajuste-de-altura-100hz": {
+    "ts": "2026-11-15T20:13:20.533585",
+    "canales": {
+      "whatsapp": "2026-11-15T20:13:20.533585"
+    },
+    "precio": 659.0,
+    "precios_publicados": [
+      659.0
     ]
   }
 }
