@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-13T13:57:27.968507",
-    "canales": {
-      "whatsapp": "2026-11-13T13:57:27.968507"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-11-13T14:08:32.518396",
     "canales": {
@@ -3615,6 +3605,16 @@
     "precio": 1486.0,
     "precios_publicados": [
       1486.0
+    ]
+  },
+  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
+    "ts": "2026-11-15T14:02:06.373212",
+    "canales": {
+      "whatsapp": "2026-11-15T14:02:06.373212"
+    },
+    "precio": 355.0,
+    "precios_publicados": [
+      355.0
     ]
   }
 }
