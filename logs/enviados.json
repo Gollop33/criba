@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
-    "ts": "2026-11-13T14:15:26.426967",
-    "canales": {
-      "whatsapp": "2026-11-13T14:15:26.426967"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      12.0
-    ]
-  },
   "amz-algodao-quadrado-para-bebe-bellacotton-100-al": {
     "ts": "2026-11-13T14:22:25.346130",
     "canales": {
@@ -3615,6 +3605,16 @@
     "precio": 1579.0,
     "precios_publicados": [
       1579.0
+    ]
+  },
+  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
+    "ts": "2026-11-15T14:19:11.021089",
+    "canales": {
+      "whatsapp": "2026-11-15T14:19:11.021089"
+    },
+    "precio": 199.0,
+    "precios_publicados": [
+      199.0
     ]
   }
 }
