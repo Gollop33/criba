@@ -72,26 +72,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "OFFHOJE": {
-      "detectado_em": "2026-10-16T13:01:20+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "BATEUDESCONTO": {
-      "detectado_em": "2026-10-16T13:01:20+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "VEMDECUPOM": {
-      "detectado_em": "2026-10-16T13:01:20+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "ESPECIALDESCONTOS": {
-      "detectado_em": "2026-10-16T13:01:20+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "INTERNACIONAL": {
       "detectado_em": "2026-10-17T00:08:46+00:00",
       "publicado_em": null,
@@ -1333,5 +1313,5 @@
       "motivo": "detectado hace 638h (> 24h)"
     }
   },
-  "actualizado": "2026-11-15T12:57:32+00:00"
+  "actualizado": "2026-11-15T13:05:26+00:00"
 }
