@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 22.0
   },
-  "amz-limpador-perfumado-veja-jasmin-do-caribe-2l-v": {
-    "ts": "2026-11-13T10:50:13.239527",
-    "canales": {
-      "whatsapp": "2026-11-13T10:50:13.239527"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
     "ts": "2026-11-14T21:11:49.755545",
     "canales": {
@@ -3546,6 +3536,16 @@
     "precio": 15.0,
     "precios_publicados": [
       15.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
+    "ts": "2026-11-15T10:50:21.628441",
+    "canales": {
+      "whatsapp": "2026-11-15T10:50:21.628441"
+    },
+    "precio": 3148.0,
+    "precios_publicados": [
+      3148.0
     ]
   }
 }
