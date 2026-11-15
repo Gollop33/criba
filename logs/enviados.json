@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-areia-higienica-para-gatos-bionature-biodegra": {
-    "ts": "2026-11-13T15:36:34.294683",
-    "canales": {
-      "whatsapp": "2026-11-13T15:36:34.294683"
-    },
-    "precio": 34.0,
-    "precios_publicados": [
-      34.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-11-13T15:43:03.743077",
     "canales": {
@@ -3645,6 +3635,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-11-15T15:43:02.179885",
+    "canales": {
+      "whatsapp": "2026-11-15T15:43:02.179885"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
