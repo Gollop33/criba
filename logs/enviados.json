@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 273.0
   },
-  "amz-ea-sports-fc-27-playstation-5": {
-    "ts": "2026-11-13T03:15:12.565774",
-    "canales": {
-      "whatsapp": "2026-11-13T03:15:12.565774"
-    },
-    "precio": 328.0,
-    "precios_publicados": [
-      328.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
     "ts": "2026-11-13T03:22:27.624014",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 3469.0,
     "precios_publicados": [
       3469.0
+    ]
+  },
+  "amz-notebook-dell-inspiron-15i1300a80p-intel-core": {
+    "ts": "2026-11-15T03:15:27.337505",
+    "canales": {
+      "whatsapp": "2026-11-15T03:15:27.337505"
+    },
+    "precio": 5948.0,
+    "precios_publicados": [
+      5948.0
     ]
   }
 }
