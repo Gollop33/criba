@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
-    "ts": "2026-11-13T22:21:43.036755",
-    "canales": {
-      "whatsapp": "2026-11-13T22:21:43.036755"
-    },
-    "precio": 1659.0,
-    "precios_publicados": [
-      1659.0
-    ]
-  },
   "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
     "ts": "2026-11-13T22:25:36.877710",
     "canales": {
@@ -3695,6 +3685,16 @@
     "precio": 2199.0,
     "precios_publicados": [
       2199.0
+    ]
+  },
+  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
+    "ts": "2026-11-15T22:22:29.306530",
+    "canales": {
+      "whatsapp": "2026-11-15T22:22:29.306530"
+    },
+    "precio": 3588.0,
+    "precios_publicados": [
+      3588.0
     ]
   }
 }
