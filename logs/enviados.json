@@ -80,16 +80,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-11-13T20:27:22.084449",
-    "canales": {
-      "whatsapp": "2026-11-13T20:27:22.084449"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
   "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
     "ts": "2026-11-13T20:34:49.557915",
     "canales": {
@@ -3694,6 +3684,16 @@
     "precio": 1532.0,
     "precios_publicados": [
       1532.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
+    "ts": "2026-11-15T20:28:24.584520",
+    "canales": {
+      "whatsapp": "2026-11-15T20:28:24.584520"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
