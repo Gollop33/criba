@@ -93,26 +93,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "amz-detergente-ype-neutro-5l": {
-    "ts": "2026-11-13T11:43:15.363937",
-    "canales": {
-      "whatsapp": "2026-11-13T11:43:15.363937"
-    },
-    "precio": 34.0,
-    "precios_publicados": [
-      34.0
-    ]
-  },
-  "amz-detergente-para-lavaloucas-em-pastilhas-jimo-": {
-    "ts": "2026-11-13T11:50:30.563515",
-    "canales": {
-      "whatsapp": "2026-11-13T11:50:30.563515"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-scotchbrite-3m-esponja-para-loucas-delicadas-": {
     "ts": "2026-11-13T11:57:13.613351",
     "canales": {
@@ -3515,6 +3495,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
+    "ts": "2026-11-15T11:50:42.799000",
+    "canales": {
+      "whatsapp": "2026-11-15T11:50:42.799000"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
