@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-jogo-de-panelas-ceramica-antiaderente-19-peca": {
-    "ts": "2026-11-13T00:00:55.076629",
-    "canales": {
-      "whatsapp": "2026-11-13T00:00:55.076629"
-    },
-    "precio": 549.0,
-    "precios_publicados": [
-      549.0
-    ]
-  },
   "amz-be-place-kids-tablet-infantil-android-13-128g": {
     "ts": "2026-11-13T00:12:02.890437",
     "canales": {
@@ -3463,6 +3453,16 @@
     "precio": 1649.0,
     "precios_publicados": [
       1649.0
+    ]
+  },
+  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
+    "ts": "2026-11-15T00:06:11.929968",
+    "canales": {
+      "whatsapp": "2026-11-15T00:06:11.929968"
+    },
+    "precio": 6934.0,
+    "precios_publicados": [
+      6934.0
     ]
   }
 }
