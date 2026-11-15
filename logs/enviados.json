@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-11-13T01:40:47.716778",
-    "canales": {
-      "whatsapp": "2026-11-13T01:40:47.716778"
-    },
-    "precio": 785.0,
-    "precios_publicados": [
-      785.0
-    ]
-  },
   "ml-kit-5-toalhas-banho-gigante-grossa-hotel-luxo": {
     "ts": "2026-11-13T01:43:53.496289",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 4299.0,
     "precios_publicados": [
       4299.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-11-15T01:41:46.573634",
+    "canales": {
+      "whatsapp": "2026-11-15T01:41:46.573634"
+    },
+    "precio": 749.0,
+    "precios_publicados": [
+      749.0
     ]
   }
 }
