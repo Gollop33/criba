@@ -80,16 +80,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
-    "ts": "2026-11-13T20:34:49.557915",
-    "canales": {
-      "whatsapp": "2026-11-13T20:34:49.557915"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-apple-iphone-16-128-gb-branco": {
     "ts": "2026-11-13T20:38:30.911900",
     "canales": {
@@ -3694,6 +3684,16 @@
     "precio": 799.0,
     "precios_publicados": [
       799.0
+    ]
+  },
+  "amz-controle-sem-fio-xbox-cabo-usb": {
+    "ts": "2026-11-15T20:35:55.295676",
+    "canales": {
+      "whatsapp": "2026-11-15T20:35:55.295676"
+    },
+    "precio": 339.0,
+    "precios_publicados": [
+      339.0
     ]
   }
 }
