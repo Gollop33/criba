@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-fechadura-digital-de-sobrepor-fr-101-v-preta-": {
-    "ts": "2026-11-13T01:24:14.664896",
-    "canales": {
-      "whatsapp": "2026-11-13T01:24:14.664896"
-    },
-    "precio": 220.0,
-    "precios_publicados": [
-      220.0
-    ]
-  },
   "amz-playstation-dualsense-controle-sem-fio-branco": {
     "ts": "2026-11-13T01:32:48.757549",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 1630.0,
     "precios_publicados": [
       1630.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
+    "ts": "2026-11-15T01:24:32.162512",
+    "canales": {
+      "whatsapp": "2026-11-15T01:24:32.162512"
+    },
+    "precio": 799.0,
+    "precios_publicados": [
+      799.0
     ]
   }
 }
