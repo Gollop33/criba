@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-fechadura-digital-de-sobrepor-fd-1000-d-intel": {
-    "ts": "2026-11-13T02:00:50.846631",
-    "canales": {
-      "whatsapp": "2026-11-13T02:00:50.846631"
-    },
-    "precio": 233.0,
-    "precios_publicados": [
-      233.0
-    ]
-  },
   "amz-gamesir-g7-se-controle-com-fio-para-pc-xbox-o": {
     "ts": "2026-11-13T02:25:36.897334",
     "canales": {
@@ -3409,6 +3399,16 @@
     "precio": 475.0,
     "precios_publicados": [
       475.0
+    ]
+  },
+  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
+    "ts": "2026-11-15T02:03:39.512590",
+    "canales": {
+      "whatsapp": "2026-11-15T02:03:39.512590"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
