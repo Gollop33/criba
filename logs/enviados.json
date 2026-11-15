@@ -157,26 +157,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-notebook-acer-nitro-v-15-rtx-4050-i5-16gb-512": {
-    "ts": "2026-11-13T00:32:26.292678",
-    "canales": {
-      "whatsapp": "2026-11-13T00:32:26.292678"
-    },
-    "precio": 8350.0,
-    "precios_publicados": [
-      8350.0
-    ]
-  },
-  "ml-jogo-de-toalhas-buddemeyer-bella-extra-soft-b": {
-    "ts": "2026-11-13T00:36:56.519872",
-    "canales": {
-      "whatsapp": "2026-11-13T00:36:56.519872"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0
-    ]
-  },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-11-13T00:42:42.914440",
     "canales": {
@@ -3443,6 +3423,16 @@
     "precio": 239.0,
     "precios_publicados": [
       239.0
+    ]
+  },
+  "amz-notebook-vaio-fe16-amd-ryzen-55625u-16gb-ram-": {
+    "ts": "2026-11-15T00:39:21.527463",
+    "canales": {
+      "whatsapp": "2026-11-15T00:39:21.527463"
+    },
+    "precio": 3959.0,
+    "precios_publicados": [
+      3959.0
     ]
   }
 }
