@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-sensodyne-creme-dental-branqueador-extra-fres": {
-    "ts": "2026-11-13T13:08:13.228043",
-    "canales": {
-      "whatsapp": "2026-11-13T13:08:13.228043"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics": {
     "ts": "2026-11-13T13:15:23.021552",
     "canales": {
@@ -3585,6 +3575,16 @@
     "precio": 420.0,
     "precios_publicados": [
       420.0
+    ]
+  },
+  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
+    "ts": "2026-11-15T13:11:05.877220",
+    "canales": {
+      "whatsapp": "2026-11-15T13:11:05.877220"
+    },
+    "precio": 718.0,
+    "precios_publicados": [
+      718.0
     ]
   }
 }
