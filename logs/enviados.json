@@ -80,26 +80,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
-    "ts": "2026-11-13T20:16:22.067330",
-    "canales": {
-      "whatsapp": "2026-11-13T20:16:22.067330"
-    },
-    "precio": 1139.0,
-    "precios_publicados": [
-      1139.0
-    ]
-  },
-  "amz-fonte-gamer-rise-mode-zeus-500w-pfc-ativo-sel": {
-    "ts": "2026-11-13T20:18:03.035554",
-    "canales": {
-      "whatsapp": "2026-11-13T20:18:03.035554"
-    },
-    "precio": 222.0,
-    "precios_publicados": [
-      222.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
     "ts": "2026-11-13T20:27:22.084449",
     "canales": {
@@ -3694,6 +3674,16 @@
     "precio": 659.0,
     "precios_publicados": [
       659.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
+    "ts": "2026-11-15T20:21:21.030505",
+    "canales": {
+      "whatsapp": "2026-11-15T20:21:21.030505"
+    },
+    "precio": 1998.0,
+    "precios_publicados": [
+      1998.0
     ]
   }
 }
