@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-13T14:08:32.518396",
-    "canales": {
-      "whatsapp": "2026-11-13T14:08:32.518396"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
     "ts": "2026-11-13T14:15:26.426967",
     "canales": {
@@ -3615,6 +3605,16 @@
     "precio": 355.0,
     "precios_publicados": [
       355.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
+    "ts": "2026-11-15T14:09:39.420806",
+    "canales": {
+      "whatsapp": "2026-11-15T14:09:39.420806"
+    },
+    "precio": 1579.0,
+    "precios_publicados": [
+      1579.0
     ]
   }
 }
