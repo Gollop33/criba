@@ -81,16 +81,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
-    "ts": "2026-11-13T21:31:51.318826",
-    "canales": {
-      "whatsapp": "2026-11-13T21:31:51.318826"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
   "amz-xiaomi-redmi-pad-2-11-8gb256gb-wifi-cinza-cin": {
     "ts": "2026-11-15T17:44:47.210298",
     "canales": {
@@ -3685,6 +3675,16 @@
     "precio": 92.0,
     "precios_publicados": [
       92.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
+    "ts": "2026-11-15T21:34:15.039438",
+    "canales": {
+      "whatsapp": "2026-11-15T21:34:15.039438"
+    },
+    "precio": 79.0,
+    "precios_publicados": [
+      79.0
     ]
   }
 }
