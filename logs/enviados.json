@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 22.0
   },
-  "amz-keldog-bifinho-evolutivo-criadores-churrasco-": {
-    "ts": "2026-11-13T10:24:21.724270",
-    "canales": {
-      "whatsapp": "2026-11-13T10:24:21.724270"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
     "ts": "2026-11-13T10:33:42.303415",
     "canales": {
@@ -3546,6 +3536,16 @@
     "precio": 719.0,
     "precios_publicados": [
       719.0
+    ]
+  },
+  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
+    "ts": "2026-11-15T10:29:10.280803",
+    "canales": {
+      "whatsapp": "2026-11-15T10:29:10.280803"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
