@@ -3701,7 +3701,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-14T13:01:33+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "PROMOTEC",
@@ -3714,7 +3715,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-14T16:01:28+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-15T00:01:41-03:00"
 }
