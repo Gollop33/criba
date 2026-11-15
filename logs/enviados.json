@@ -5,19 +5,6 @@
       "whatsapp": "2026-11-15T00:13:04.584356"
     }
   },
-  "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
-    "ts": "2026-11-13T11:16:39.395255",
-    "canales": {
-      "whatsapp": "2026-11-13T11:16:39.395255"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      109.0,
-      89.0,
-      89.0
-    ],
-    "precio_min_publicado": 89.0
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-15T03:50:59.566914",
     "canales": {
@@ -3516,6 +3503,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
+    "ts": "2026-11-15T11:22:06.584008",
+    "canales": {
+      "whatsapp": "2026-11-15T11:22:06.584008"
+    },
+    "precio": 35.0,
+    "precios_publicados": [
+      35.0
     ]
   }
 }
