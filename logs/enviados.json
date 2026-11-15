@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
-    "ts": "2026-11-13T23:23:06.633864",
-    "canales": {
-      "whatsapp": "2026-11-13T23:23:06.633864"
-    },
-    "precio": 499.0,
-    "precios_publicados": [
-      499.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
     "ts": "2026-11-13T23:28:49.672217",
     "canales": {
@@ -3667,6 +3657,16 @@
     "precio": 402.0,
     "precios_publicados": [
       402.0
+    ]
+  },
+  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
+    "ts": "2026-11-15T23:25:45.806282",
+    "canales": {
+      "whatsapp": "2026-11-15T23:25:45.806282"
+    },
+    "precio": 389.0,
+    "precios_publicados": [
+      389.0
     ]
   }
 }
