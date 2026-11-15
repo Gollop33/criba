@@ -143,26 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
-    "ts": "2026-11-13T00:59:39.328970",
-    "canales": {
-      "whatsapp": "2026-11-13T00:59:39.328970"
-    },
-    "precio": 303.0,
-    "precios_publicados": [
-      303.0
-    ]
-  },
-  "ml-cadeira-escritorio-ergonomica-genebra-b500-nr": {
-    "ts": "2026-11-13T01:00:49.649910",
-    "canales": {
-      "whatsapp": "2026-11-13T01:00:49.649910"
-    },
-    "precio": 549.0,
-    "precios_publicados": [
-      549.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-lift-vertical-com-desi": {
     "ts": "2026-11-13T01:08:54.997270",
     "canales": {
@@ -3439,6 +3419,16 @@
     "precio": 4696.0,
     "precios_publicados": [
       4696.0
+    ]
+  },
+  "amz-notebook-acer-nitro-v-15-rtx-4050-ryzen-7-8gb": {
+    "ts": "2026-11-15T01:07:04.111563",
+    "canales": {
+      "whatsapp": "2026-11-15T01:07:04.111563"
+    },
+    "precio": 519899.0,
+    "precios_publicados": [
+      519899.0
     ]
   }
 }
