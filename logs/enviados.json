@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
-    "ts": "2026-11-13T23:28:49.672217",
-    "canales": {
-      "whatsapp": "2026-11-13T23:28:49.672217"
-    },
-    "precio": 2388.0,
-    "precios_publicados": [
-      2388.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-11-13T23:37:42.228078",
     "canales": {
@@ -3677,6 +3667,16 @@
     "precio": 4699.0,
     "precios_publicados": [
       4699.0
+    ]
+  },
+  "amz-echo-pop-geracao-mais-recente-smart-speaker-c": {
+    "ts": "2026-11-15T23:29:29.498298",
+    "canales": {
+      "whatsapp": "2026-11-15T23:29:29.498298"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
