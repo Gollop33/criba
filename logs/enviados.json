@@ -44,18 +44,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-13T07:53:36.809635",
-    "canales": {
-      "whatsapp": "2026-11-13T07:53:36.809635"
-    },
-    "precio": 82.0,
-    "precios_publicados": [
-      94.0,
-      82.0
-    ],
-    "precio_min_publicado": 94.0
-  },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
     "ts": "2026-11-13T18:21:06.467045",
     "canales": {
@@ -3441,6 +3429,16 @@
     "precio": 1889.0,
     "precios_publicados": [
       1889.0
+    ]
+  },
+  "amz-sabonete-em-barra-nivea-creme-care-90g-pack-c": {
+    "ts": "2026-11-15T08:10:14.183681",
+    "canales": {
+      "whatsapp": "2026-11-15T08:10:14.183681"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
