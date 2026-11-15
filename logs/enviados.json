@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "ml-kit-5-toalhas-banho-gigante-grossa-hotel-luxo": {
-    "ts": "2026-11-13T01:43:53.496289",
-    "canales": {
-      "whatsapp": "2026-11-13T01:43:53.496289"
-    },
-    "precio": 131.0,
-    "precios_publicados": [
-      131.0
-    ]
-  },
   "amz-notebook-lenovo-ideapad-slim-3i-i513420h-8gb-": {
     "ts": "2026-11-13T01:49:47.753657",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 749.0,
     "precios_publicados": [
       749.0
+    ]
+  },
+  "amz-death-stranding-versao-do-diretor-playstation": {
+    "ts": "2026-11-15T01:48:39.503201",
+    "canales": {
+      "whatsapp": "2026-11-15T01:48:39.503201"
+    },
+    "precio": 179.0,
+    "precios_publicados": [
+      179.0
     ]
   }
 }
