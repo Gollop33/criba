@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 273.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-11-13T02:57:11.226328",
-    "canales": {
-      "whatsapp": "2026-11-13T02:57:11.226328"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
   "amz-playstation5-pro": {
     "ts": "2026-11-13T03:08:22.857594",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 94.0,
     "precios_publicados": [
       94.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-5-8gb-ssd-512": {
+    "ts": "2026-11-15T02:57:44.921418",
+    "canales": {
+      "whatsapp": "2026-11-15T02:57:44.921418"
+    },
+    "precio": 3399.0,
+    "precios_publicados": [
+      3399.0
     ]
   }
 }
