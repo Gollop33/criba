@@ -105,26 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-11-13T15:15:31.078494",
-    "canales": {
-      "whatsapp": "2026-11-13T15:15:31.078494"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
-  "amz-fralda-turma-da-monica-baby-rn-36-unidades": {
-    "ts": "2026-11-13T15:22:20.887597",
-    "canales": {
-      "whatsapp": "2026-11-13T15:22:20.887597"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-max-titanium-creatina-monohidratada-pote-300g": {
     "ts": "2026-11-13T15:29:25.406980",
     "canales": {
@@ -3645,6 +3625,16 @@
     "precio": 2699.0,
     "precios_publicados": [
       2699.0
+    ]
+  },
+  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
+    "ts": "2026-11-15T15:23:44.715947",
+    "canales": {
+      "whatsapp": "2026-11-15T15:23:44.715947"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
