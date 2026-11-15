@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 389900.0
   },
-  "amz-controle-sem-fio-dualsense-midnight-black": {
-    "ts": "2026-11-13T02:43:21.669676",
-    "canales": {
-      "whatsapp": "2026-11-13T02:43:21.669676"
-    },
-    "precio": 420.0,
-    "precios_publicados": [
-      420.0
-    ]
-  },
   "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
     "ts": "2026-11-14T14:41:47.283569",
     "canales": {
@@ -3419,6 +3409,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
+    "ts": "2026-11-15T02:50:17.586540",
+    "canales": {
+      "whatsapp": "2026-11-15T02:50:17.586540"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
