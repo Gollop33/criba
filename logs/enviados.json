@@ -92,26 +92,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-cerave-gel-de-limpeza-facial-para-pele-oleosa": {
-    "ts": "2026-11-13T17:36:25.551732",
-    "canales": {
-      "whatsapp": "2026-11-13T17:36:25.551732"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
-  "amz-creatina-monohidratada-1kg-100-pura-importada": {
-    "ts": "2026-11-13T17:43:38.679575",
-    "canales": {
-      "whatsapp": "2026-11-13T17:43:38.679575"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
     "ts": "2026-11-13T17:50:11.465119",
     "canales": {
@@ -483,14 +463,16 @@
     ]
   },
   "amz-xiaomi-redmi-pad-2-11-8gb256gb-wifi-cinza-cin": {
-    "ts": "2026-11-13T21:36:27.798281",
+    "ts": "2026-11-15T17:44:47.210298",
     "canales": {
-      "whatsapp": "2026-11-13T21:36:27.798281"
+      "whatsapp": "2026-11-15T17:44:47.210298"
     },
-    "precio": 167900.0,
+    "precio": 1680.0,
     "precios_publicados": [
-      167900.0
-    ]
+      167900.0,
+      1680.0
+    ],
+    "precio_min_publicado": 167900.0
   },
   "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
     "ts": "2026-11-13T21:40:33.523018",
