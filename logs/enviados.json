@@ -105,16 +105,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-13T13:43:02.340825",
-    "canales": {
-      "whatsapp": "2026-11-13T13:43:02.340825"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-finish-detergente-para-lava-loucas-em-po-700g": {
     "ts": "2026-11-13T13:50:29.367556",
     "canales": {
@@ -3605,6 +3595,16 @@
     "precio": 2117.0,
     "precios_publicados": [
       2117.0
+    ]
+  },
+  "amz-smart-tv-32-philco-roku-tv-dolby-audio-hdr10-": {
+    "ts": "2026-11-15T13:43:45.865346",
+    "canales": {
+      "whatsapp": "2026-11-15T13:43:45.865346"
+    },
+    "precio": 939.0,
+    "precios_publicados": [
+      939.0
     ]
   }
 }
