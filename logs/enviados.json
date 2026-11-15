@@ -93,36 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-apple-iphone-16-512-gb-preto": {
-    "ts": "2026-11-13T23:03:33.617875",
-    "canales": {
-      "whatsapp": "2026-11-13T23:03:33.617875"
-    },
-    "precio": 5499.0,
-    "precios_publicados": [
-      5499.0
-    ]
-  },
-  "amz-escova-dental-elmex-extra-macia-2-unidades-te": {
-    "ts": "2026-11-13T23:09:48.857912",
-    "canales": {
-      "whatsapp": "2026-11-13T23:09:48.857912"
-    },
-    "precio": 4750.0,
-    "precios_publicados": [
-      4750.0
-    ]
-  },
-  "amz-armazem-brasil-monitor-portatil-156-fhd-1080p": {
-    "ts": "2026-11-13T23:13:25.461818",
-    "canales": {
-      "whatsapp": "2026-11-13T23:13:25.461818"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
     "ts": "2026-11-13T23:23:06.633864",
     "canales": {
@@ -1028,14 +998,16 @@
     ]
   },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-14T15:29:48.573376",
+    "ts": "2026-11-15T23:18:58.312598",
     "canales": {
-      "whatsapp": "2026-11-14T15:29:48.573376"
+      "whatsapp": "2026-11-15T23:18:58.312598"
     },
-    "precio": 449900.0,
+    "precio": 4499.0,
     "precios_publicados": [
-      449900.0
-    ]
+      449900.0,
+      4499.0
+    ],
+    "precio_min_publicado": 449900.0
   },
   "amz-base-de-carregamento-do-dualsense-playstation": {
     "ts": "2026-11-14T15:32:08.572073",
