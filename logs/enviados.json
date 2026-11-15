@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
-    "ts": "2026-11-13T11:26:14.514035",
-    "canales": {
-      "whatsapp": "2026-11-13T11:26:14.514035"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
     "ts": "2026-11-13T11:32:44.347106",
     "canales": {
@@ -3513,6 +3503,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
+    "ts": "2026-11-15T11:29:32.598194",
+    "canales": {
+      "whatsapp": "2026-11-15T11:29:32.598194"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
