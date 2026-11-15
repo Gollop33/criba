@@ -18,18 +18,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-11-13T18:21:06.467045",
-    "canales": {
-      "whatsapp": "2026-11-13T18:21:06.467045"
-    },
-    "precio": 1699.0,
-    "precios_publicados": [
-      1998.0,
-      1699.0
-    ],
-    "precio_min_publicado": 1998.0
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-14T07:24:49.450633",
     "canales": {
@@ -3646,6 +3634,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-filtrorefil-original-de-agua-para-purificador": {
+    "ts": "2026-11-15T18:21:33.060776",
+    "canales": {
+      "whatsapp": "2026-11-15T18:21:33.060776"
+    },
+    "precio": 49.0,
+    "precios_publicados": [
+      49.0
     ]
   }
 }
