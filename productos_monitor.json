@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T11:29:24+00:00",
+  "actualizado": "2026-11-15T11:36:09+00:00",
   "total": 42,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "lava roupas em po omo todo ciclo caixa",
@@ -17,7 +17,7 @@
       "precio_ref": 20.5,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "pantene pro v oleo capilar queratina milagroso finalizador",
@@ -25,7 +25,7 @@
       "precio_ref": 26.18,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics pontas",
@@ -33,7 +33,7 @@
       "precio_ref": 16.89,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "papel higienico neve supreme folha tripla leve 32",
@@ -41,7 +41,7 @@
       "precio_ref": 49.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
@@ -49,23 +49,7 @@
       "precio_ref": 249.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
-    },
-    {
-      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
-      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
-      "precio_ref": 40.59,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
-    },
-    {
-      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
-      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
-      "precio_ref": 58.81,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "eliminador de odores liquido para pets wap cereja",
@@ -73,7 +57,23 @@
       "precio_ref": 37.59,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
+    },
+    {
+      "busqueda": "pasta termica snowdog husky 1g 12 8w m",
+      "nombre": "Pasta Térmica Snowdog Husky 1g 12,8w/m.k Alto Desempenho Prata Alta Condutividade para Processador CPU GPU PC Gamer Notebook",
+      "precio_ref": 58.81,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
+    },
+    {
+      "busqueda": "l oreal professionnel inforcer shampoo fortificante antiqueda por",
+      "nombre": "L'Oréal Professionnel Inforcer Shampoo Fortificante Antiqueda por Quebra, Crescimento Saudável Para Cabelos Frágeis e Quebrad",
+      "precio_ref": 78.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "the legend of zelda ocarina of time nintendo",
@@ -81,7 +81,7 @@
       "precio_ref": 439.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
@@ -89,7 +89,7 @@
       "precio_ref": 5332.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
@@ -97,7 +97,7 @@
       "precio_ref": 2132.33,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "antuvi monitor portatil 15 6 case 1080p mini",
@@ -105,7 +105,7 @@
       "precio_ref": 333.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g77 5g 256gb 8gb ram",
@@ -113,7 +113,7 @@
       "precio_ref": 1579.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "tablet xixaomiro s11 10 1 polegadas android 15",
@@ -121,7 +121,7 @@
       "precio_ref": 718.18,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "marvel s spider man miles morales playstation 4",
@@ -129,7 +129,7 @@
       "precio_ref": 168.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -137,7 +137,7 @@
       "precio_ref": 1640.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartphone motorola edge 60 fusion 5g 256gb 8gb",
@@ -145,7 +145,7 @@
       "precio_ref": 1789.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -153,7 +153,7 @@
       "precio_ref": 2699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smart tv 32 philco roku tv dolby audio",
@@ -161,7 +161,7 @@
       "precio_ref": 939.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "wap aspirador de po e agua gtw 10",
@@ -169,7 +169,7 @@
       "precio_ref": 23147.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
@@ -177,7 +177,7 @@
       "precio_ref": 303.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "tablet xiaomi pad 7 28 4 cm 8",
@@ -185,7 +185,7 @@
       "precio_ref": 2450.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
@@ -193,7 +193,7 @@
       "precio_ref": 785.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab plus 12 1 2",
@@ -201,7 +201,7 @@
       "precio_ref": 2117.17,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "samsung galaxy book4 intel coretm i3 1315u windows",
@@ -209,7 +209,7 @@
       "precio_ref": 3599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "ssd kingston nv3 1tb m 2 2280 nvme",
@@ -217,7 +217,7 @@
       "precio_ref": 999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab a11 128gb 6gb ram",
@@ -225,7 +225,7 @@
       "precio_ref": 1486.84,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartwatch samsung galaxy fit3 display 1 6 grafite",
@@ -233,7 +233,7 @@
       "precio_ref": 199.0,
       "categoria": "Relógios & Smartwatches",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "placa de video asrock rx 7600 challenger pro",
@@ -241,7 +241,7 @@
       "precio_ref": 2149.46,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3i i5 13420h 8gb",
@@ -249,7 +249,7 @@
       "precio_ref": 3279.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech lift vertical com design",
@@ -257,7 +257,7 @@
       "precio_ref": 249.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
@@ -265,7 +265,7 @@
       "precio_ref": 928.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "placa mae msi a520m a pro am4 2xddr4",
@@ -273,7 +273,7 @@
       "precio_ref": 355.98,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g06 64gb 4gb ram 8gb",
@@ -281,7 +281,7 @@
       "precio_ref": 699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
@@ -289,7 +289,7 @@
       "precio_ref": 1759.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "apple iphone 17e de 256 gb preto",
@@ -297,7 +297,7 @@
       "precio_ref": 4776.67,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
@@ -305,7 +305,7 @@
       "precio_ref": 4062.77,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "electrolux aspirador po vertical 2 em 1 1450w",
@@ -313,7 +313,7 @@
       "precio_ref": 171.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "colgate total antitartaro creme dental com fluor 3x90g",
@@ -321,7 +321,7 @@
       "precio_ref": 4990.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
@@ -329,7 +329,7 @@
       "precio_ref": 1428.75,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     },
     {
       "busqueda": "smartphone motorola edge 70 fusion 5g 256gb 8gb",
@@ -337,7 +337,7 @@
       "precio_ref": 2192.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-15T11:29:24+00:00"
+      "monitorizado_desde": "2026-11-15T11:36:09+00:00"
     }
   ]
 }
