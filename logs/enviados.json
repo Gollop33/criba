@@ -143,16 +143,6 @@
     ],
     "precio_min_publicado": 273.0
   },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-13T03:57:12.309957",
-    "canales": {
-      "whatsapp": "2026-11-13T03:57:12.309957"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
-  },
   "amz-pinga-cenoura-e-oliva-oleo-50ml-lola-cosmetic": {
     "ts": "2026-11-13T05:29:56.538428",
     "canales": {
@@ -3407,6 +3397,16 @@
     "precio": 89900.0,
     "precios_publicados": [
       89900.0
+    ]
+  },
+  "amz-pinho-sol-desinfetante-original-3-8l": {
+    "ts": "2026-11-15T04:26:36.110921",
+    "canales": {
+      "whatsapp": "2026-11-15T04:26:36.110921"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
