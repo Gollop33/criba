@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 38.0
   },
-  "amz-skin-care-hidratante-facial-garnier-uniform-m": {
-    "ts": "2026-11-13T12:50:20.193809",
-    "canales": {
-      "whatsapp": "2026-11-13T12:50:20.193809"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-lavaroupas-em-po-omo-todo-ciclo-caixa-2kg": {
     "ts": "2026-11-14T21:02:15.417451",
     "canales": {
@@ -3555,6 +3545,16 @@
     "precio": 23147.0,
     "precios_publicados": [
       23147.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
+    "ts": "2026-11-15T12:52:01.474640",
+    "canales": {
+      "whatsapp": "2026-11-15T12:52:01.474640"
+    },
+    "precio": 5332.0,
+    "precios_publicados": [
+      5332.0
     ]
   }
 }
