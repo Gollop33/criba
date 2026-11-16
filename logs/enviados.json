@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-stanley-garrafa-termica-aerolight-transit-ros": {
-    "ts": "2026-11-14T02:42:12.521095",
-    "canales": {
-      "whatsapp": "2026-11-14T02:42:12.521095"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
   "amz-cerave-locao-hidratante-corporal-com-textura-": {
     "ts": "2026-11-14T03:05:47.162848",
     "canales": {
@@ -3677,6 +3667,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
+    "ts": "2026-11-16T03:02:28.797085",
+    "canales": {
+      "whatsapp": "2026-11-16T03:02:28.797085"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
