@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
-    "ts": "2026-11-14T11:43:26.555470",
-    "canales": {
-      "whatsapp": "2026-11-14T11:43:26.555470"
-    },
-    "precio": 53.0,
-    "precios_publicados": [
-      53.0
-    ]
-  },
   "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
     "ts": "2026-11-14T11:50:28.268944",
     "canales": {
@@ -3659,6 +3649,16 @@
     "precio": 125.0,
     "precios_publicados": [
       125.0
+    ]
+  },
+  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
+    "ts": "2026-11-16T11:50:21.351183",
+    "canales": {
+      "whatsapp": "2026-11-16T11:50:21.351183"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
