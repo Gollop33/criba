@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-stanley-copo-quencher-rose-quartz-887ml": {
-    "ts": "2026-11-14T02:02:40.421854",
-    "canales": {
-      "whatsapp": "2026-11-14T02:02:40.421854"
-    },
-    "precio": 147.0,
-    "precios_publicados": [
-      147.0
-    ]
-  },
   "amz-stanley-garrafa-termica-aerolight-transit-ros": {
     "ts": "2026-11-14T02:42:12.521095",
     "canales": {
@@ -3677,6 +3667,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-bionature-areia-higienica-para-gatos-biodegra": {
+    "ts": "2026-11-16T02:22:26.197001",
+    "canales": {
+      "whatsapp": "2026-11-16T02:22:26.197001"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
