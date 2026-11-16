@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-ssd-sandisk-plus-1tb-nvme-m2-2280-leitura-ate": {
-    "ts": "2026-11-14T22:50:57.609251",
-    "canales": {
-      "whatsapp": "2026-11-14T22:50:57.609251"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
     "ts": "2026-11-14T22:56:28.886631",
     "canales": {
@@ -3380,6 +3370,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-colgate-total-gengiva-saudavel-creme-dental-a": {
+    "ts": "2026-11-16T22:52:45.472704",
+    "canales": {
+      "whatsapp": "2026-11-16T22:52:45.472704"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
