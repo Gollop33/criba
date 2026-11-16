@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "ml-camera-veicular-ddpai-monitoramento-remoto-4k": {
-    "ts": "2026-11-14T00:28:13.428547",
-    "canales": {
-      "whatsapp": "2026-11-14T00:28:13.428547"
-    },
-    "precio": 1064.0,
-    "precios_publicados": [
-      1064.0
-    ]
-  },
   "amz-dove-sabonete-em-barra-branco-90g-8-unidades-": {
     "ts": "2026-11-14T00:29:51.066551",
     "canales": {
@@ -3687,6 +3677,16 @@
     "precio": 867.0,
     "precios_publicados": [
       867.0
+    ]
+  },
+  "amz-apple-iphone-16e-de-128-gb-preto": {
+    "ts": "2026-11-16T00:28:25.309191",
+    "canales": {
+      "whatsapp": "2026-11-16T00:28:25.309191"
+    },
+    "precio": 3443.0,
+    "precios_publicados": [
+      3443.0
     ]
   }
 }
