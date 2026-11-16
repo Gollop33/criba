@@ -107,26 +107,6 @@
     ],
     "precio_min_publicado": 449900.0
   },
-  "amz-notebook-samsung-galaxy-book4-intel-core-5120": {
-    "ts": "2026-11-14T18:30:54.985521",
-    "canales": {
-      "whatsapp": "2026-11-14T18:30:54.985521"
-    },
-    "precio": 3887.0,
-    "precios_publicados": [
-      3887.0
-    ]
-  },
-  "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
-    "ts": "2026-11-14T18:34:23.757607",
-    "canales": {
-      "whatsapp": "2026-11-14T18:34:23.757607"
-    },
-    "precio": 1352.0,
-    "precios_publicados": [
-      1352.0
-    ]
-  },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-11-14T18:39:30.864827",
     "canales": {
@@ -3353,6 +3333,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-fritadeira-eletrica-sem-oleo-forno-oven-airfr": {
+    "ts": "2026-11-16T18:36:44.014829",
+    "canales": {
+      "whatsapp": "2026-11-16T18:36:44.014829"
+    },
+    "precio": 540.0,
+    "precios_publicados": [
+      540.0
     ]
   }
 }
