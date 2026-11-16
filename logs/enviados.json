@@ -92,16 +92,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-secret-clinical-desodorante-antitranspirante-": {
-    "ts": "2026-11-14T09:30:10.966454",
-    "canales": {
-      "whatsapp": "2026-11-14T09:30:10.966454"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
   "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
     "ts": "2026-11-14T10:04:54.178364",
     "canales": {
@@ -3638,6 +3628,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-sache-aromatizante-england-interbrilho": {
+    "ts": "2026-11-16T09:31:52.813553",
+    "canales": {
+      "whatsapp": "2026-11-16T09:31:52.813553"
+    },
+    "precio": 8.0,
+    "precios_publicados": [
+      8.0
     ]
   }
 }
