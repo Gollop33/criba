@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-shampoo-invigo-nutri-enrich-wella-professiona": {
-    "ts": "2026-11-14T22:18:28.333265",
-    "canales": {
-      "whatsapp": "2026-11-14T22:18:28.333265"
-    },
-    "precio": 117.0,
-    "precios_publicados": [
-      117.0
-    ]
-  },
   "amz-bloodborne-hits-playstation-4": {
     "ts": "2026-11-14T22:19:52.208821",
     "canales": {
@@ -3398,6 +3388,16 @@
     "precio": 692.0,
     "precios_publicados": [
       692.0
+    ]
+  },
+  "amz-resident-evil-requiem-playstation-5": {
+    "ts": "2026-11-16T22:19:24.154762",
+    "canales": {
+      "whatsapp": "2026-11-16T22:19:24.154762"
+    },
+    "precio": 249.0,
+    "precios_publicados": [
+      249.0
     ]
   }
 }
