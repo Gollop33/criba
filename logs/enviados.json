@@ -120,26 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-duracell-pilha-optimum-aa-pequena-com-12-unid": {
-    "ts": "2026-11-14T21:48:08.562701",
-    "canales": {
-      "whatsapp": "2026-11-14T21:48:08.562701"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
-  "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
-    "ts": "2026-11-14T21:51:52.979489",
-    "canales": {
-      "whatsapp": "2026-11-14T21:51:52.979489"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-secret-desodorante-antitranspirante-em-gel-be": {
     "ts": "2026-11-14T21:54:25.837175",
     "canales": {
@@ -3396,6 +3376,16 @@
     "precio": 1519.0,
     "precios_publicados": [
       1519.0
+    ]
+  },
+  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
+    "ts": "2026-11-16T21:52:46.904289",
+    "canales": {
+      "whatsapp": "2026-11-16T21:52:46.904289"
+    },
+    "precio": 5099.0,
+    "precios_publicados": [
+      5099.0
     ]
   }
 }
