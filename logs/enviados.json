@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-oster-cafeteira-oster-inox-compacta-075l-ocaf": {
-    "ts": "2026-11-14T22:16:07.868311",
-    "canales": {
-      "whatsapp": "2026-11-14T22:16:07.868311"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-shampoo-invigo-nutri-enrich-wella-professiona": {
     "ts": "2026-11-14T22:18:28.333265",
     "canales": {
@@ -3398,6 +3388,16 @@
     "precio": 339.0,
     "precios_publicados": [
       339.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
+    "ts": "2026-11-16T22:16:38.734046",
+    "canales": {
+      "whatsapp": "2026-11-16T22:16:38.734046"
+    },
+    "precio": 692.0,
+    "precios_publicados": [
+      692.0
     ]
   }
 }
