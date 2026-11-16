@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
-    "ts": "2026-11-14T12:15:14.670095",
-    "canales": {
-      "whatsapp": "2026-11-14T12:15:14.670095"
-    },
-    "precio": 67.0,
-    "precios_publicados": [
-      67.0
-    ]
-  },
   "amz-philips-aparador-e-barbeador-eletrico-serie-3": {
     "ts": "2026-11-14T12:22:24.491075",
     "canales": {
@@ -1892,14 +1882,16 @@
     ]
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-15T12:09:43.253634",
+    "ts": "2026-11-16T12:19:19.707355",
     "canales": {
-      "whatsapp": "2026-11-15T12:09:43.253634"
+      "whatsapp": "2026-11-16T12:19:19.707355"
     },
-    "precio": 1698.0,
+    "precio": 1474.0,
     "precios_publicados": [
-      1698.0
-    ]
+      1698.0,
+      1474.0
+    ],
+    "precio_min_publicado": 1698.0
   },
   "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
     "ts": "2026-11-15T12:15:03.555663",
