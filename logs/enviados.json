@@ -121,36 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
-    "ts": "2026-11-14T23:37:30.428789",
-    "canales": {
-      "whatsapp": "2026-11-14T23:37:30.428789"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
-    "ts": "2026-11-14T23:43:09.316821",
-    "canales": {
-      "whatsapp": "2026-11-14T23:43:09.316821"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-11-14T23:45:40.065969",
-    "canales": {
-      "whatsapp": "2026-11-14T23:45:40.065969"
-    },
-    "precio": 2799.0,
-    "precios_publicados": [
-      2799.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
     "ts": "2026-11-14T23:50:10.783917",
     "canales": {
@@ -3371,6 +3341,16 @@
     "precio": 117.0,
     "precios_publicados": [
       117.0
+    ]
+  },
+  "amz-oster-cafeteira-oster-inox-compacta-075l-ocaf": {
+    "ts": "2026-11-16T23:45:44.070316",
+    "canales": {
+      "whatsapp": "2026-11-16T23:45:44.070316"
+    },
+    "precio": 109.0,
+    "precios_publicados": [
+      109.0
     ]
   }
 }
