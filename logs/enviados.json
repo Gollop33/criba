@@ -92,16 +92,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
-    "ts": "2026-11-14T10:04:54.178364",
-    "canales": {
-      "whatsapp": "2026-11-14T10:04:54.178364"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-wanpytruly-creamy-petisco-cremoso-para-gatos-": {
     "ts": "2026-11-14T10:11:05.986462",
     "canales": {
@@ -3648,6 +3638,16 @@
     "precio": 50.0,
     "precios_publicados": [
       50.0
+    ]
+  },
+  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
+    "ts": "2026-11-16T10:04:56.185073",
+    "canales": {
+      "whatsapp": "2026-11-16T10:04:56.185073"
+    },
+    "precio": 137.0,
+    "precios_publicados": [
+      137.0
     ]
   }
 }
