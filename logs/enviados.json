@@ -107,16 +107,6 @@
     ],
     "precio_min_publicado": 449900.0
   },
-  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-11-14T18:39:30.864827",
-    "canales": {
-      "whatsapp": "2026-11-14T18:39:30.864827"
-    },
-    "precio": 766.0,
-    "precios_publicados": [
-      766.0
-    ]
-  },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
     "ts": "2026-11-14T18:46:26.671590",
     "canales": {
@@ -3343,6 +3333,16 @@
     "precio": 540.0,
     "precios_publicados": [
       540.0
+    ]
+  },
+  "amz-base-de-carregamento-do-dualsense-playstation": {
+    "ts": "2026-11-16T18:43:19.334862",
+    "canales": {
+      "whatsapp": "2026-11-16T18:43:19.334862"
+    },
+    "precio": 165.0,
+    "precios_publicados": [
+      165.0
     ]
   }
 }
