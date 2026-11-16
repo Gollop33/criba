@@ -107,16 +107,6 @@
     ],
     "precio_min_publicado": 449900.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-14T18:57:17.441768",
-    "canales": {
-      "whatsapp": "2026-11-14T18:57:17.441768"
-    },
-    "precio": 5859.0,
-    "precios_publicados": [
-      5859.0
-    ]
-  },
   "amz-mondial-fritadeira-air-fryer-forno-oven-analo": {
     "ts": "2026-11-14T19:05:32.598465",
     "canales": {
@@ -3333,6 +3323,16 @@
     "precio": 4599.0,
     "precios_publicados": [
       4599.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
+    "ts": "2026-11-16T18:57:21.630852",
+    "canales": {
+      "whatsapp": "2026-11-16T18:57:21.630852"
+    },
+    "precio": 4191.0,
+    "precios_publicados": [
+      4191.0
     ]
   }
 }
