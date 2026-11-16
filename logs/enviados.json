@@ -120,26 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-stanley-copo-termico-stacking-ash-354ml": {
-    "ts": "2026-11-14T21:36:06.401587",
-    "canales": {
-      "whatsapp": "2026-11-14T21:36:06.401587"
-    },
-    "precio": 67.0,
-    "precios_publicados": [
-      67.0
-    ]
-  },
-  "amz-colgate-total-gengiva-saudavel-creme-dental-a": {
-    "ts": "2026-11-14T21:38:15.236261",
-    "canales": {
-      "whatsapp": "2026-11-14T21:38:15.236261"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-duracell-pilha-optimum-aa-pequena-com-12-unid": {
     "ts": "2026-11-14T21:48:08.562701",
     "canales": {
@@ -3396,6 +3376,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
+    "ts": "2026-11-16T21:40:18.921237",
+    "canales": {
+      "whatsapp": "2026-11-16T21:40:18.921237"
+    },
+    "precio": 947.0,
+    "precios_publicados": [
+      947.0
     ]
   }
 }
