@@ -107,26 +107,6 @@
     ],
     "precio_min_publicado": 449900.0
   },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-11-14T19:26:29.134608",
-    "canales": {
-      "whatsapp": "2026-11-14T19:26:29.134608"
-    },
-    "precio": 947.0,
-    "precios_publicados": [
-      947.0
-    ]
-  },
-  "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
-    "ts": "2026-11-14T19:27:46.702811",
-    "canales": {
-      "whatsapp": "2026-11-14T19:27:46.702811"
-    },
-    "precio": 525.0,
-    "precios_publicados": [
-      525.0
-    ]
-  },
   "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
     "ts": "2026-11-14T19:32:45.109515",
     "canales": {
@@ -3323,6 +3303,16 @@
     "precio": 766.0,
     "precios_publicados": [
       766.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-ag1551p34kt-intel-": {
+    "ts": "2026-11-16T19:29:35.105435",
+    "canales": {
+      "whatsapp": "2026-11-16T19:29:35.105435"
+    },
+    "precio": 3299.0,
+    "precios_publicados": [
+      3299.0
     ]
   }
 }
