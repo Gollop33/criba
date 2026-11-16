@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-paixao-oleo-corporal-avela-100-ml-pele-nutrid": {
-    "ts": "2026-11-14T06:28:02.569865",
-    "canales": {
-      "whatsapp": "2026-11-14T06:28:02.569865"
-    },
-    "precio": 10.0,
-    "precios_publicados": [
-      10.0
-    ]
-  },
   "amz-tapete-higienico-premium-para-caes-petlike-ul": {
     "ts": "2026-11-14T06:57:29.327696",
     "canales": {
@@ -3631,6 +3621,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
+    "ts": "2026-11-16T06:51:28.901386",
+    "canales": {
+      "whatsapp": "2026-11-16T06:51:28.901386"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
