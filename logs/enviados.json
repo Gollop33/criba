@@ -97,16 +97,17 @@
     "precio_min_publicado": 249.0
   },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-15T23:18:58.312598",
+    "ts": "2026-11-16T23:19:06.250558",
     "canales": {
-      "whatsapp": "2026-11-15T23:18:58.312598"
+      "whatsapp": "2026-11-16T23:19:06.250558"
     },
-    "precio": 4499.0,
+    "precio": 4498.0,
     "precios_publicados": [
       449900.0,
-      4499.0
+      4499.0,
+      4498.0
     ],
-    "precio_min_publicado": 449900.0
+    "precio_min_publicado": 4499.0
   },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
     "ts": "2026-11-16T05:54:27.993825",
@@ -119,16 +120,6 @@
       16.0
     ],
     "precio_min_publicado": 24.0
-  },
-  "amz-celular-samsung-galaxy-a37-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-14T23:11:35.800796",
-    "canales": {
-      "whatsapp": "2026-11-14T23:11:35.800796"
-    },
-    "precio": 2098.0,
-    "precios_publicados": [
-      2098.0
-    ]
   },
   "amz-microondas-20l-prata-porta-espelhada-masterco": {
     "ts": "2026-11-14T23:20:16.857527",
