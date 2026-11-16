@@ -107,26 +107,6 @@
     ],
     "precio_min_publicado": 449900.0
   },
-  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-14T18:46:26.671590",
-    "canales": {
-      "whatsapp": "2026-11-14T18:46:26.671590"
-    },
-    "precio": 5099.0,
-    "precios_publicados": [
-      5099.0
-    ]
-  },
-  "amz-stellar-blade-ps5": {
-    "ts": "2026-11-14T18:47:34.943766",
-    "canales": {
-      "whatsapp": "2026-11-14T18:47:34.943766"
-    },
-    "precio": 259.0,
-    "precios_publicados": [
-      259.0
-    ]
-  },
   "amz-apple-iphone-17-de-256-gb-preto": {
     "ts": "2026-11-14T18:57:17.441768",
     "canales": {
@@ -3343,6 +3323,16 @@
     "precio": 165.0,
     "precios_publicados": [
       165.0
+    ]
+  },
+  "amz-playstation5-slim-digital-825gb-pacote-astro-": {
+    "ts": "2026-11-16T18:50:27.022640",
+    "canales": {
+      "whatsapp": "2026-11-16T18:50:27.022640"
+    },
+    "precio": 4599.0,
+    "precios_publicados": [
+      4599.0
     ]
   }
 }
