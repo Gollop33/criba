@@ -121,16 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-microondas-20l-prata-porta-espelhada-masterco": {
-    "ts": "2026-11-14T23:20:16.857527",
-    "canales": {
-      "whatsapp": "2026-11-14T23:20:16.857527"
-    },
-    "precio": 448.0,
-    "precios_publicados": [
-      448.0
-    ]
-  },
   "amz-air-fryer-oven-philco-12l-1800w-4-em-1-pfr220": {
     "ts": "2026-11-14T23:27:09.893811",
     "canales": {
@@ -3361,6 +3351,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "amz-bloodborne-hits-playstation-4": {
+    "ts": "2026-11-16T23:24:11.382403",
+    "canales": {
+      "whatsapp": "2026-11-16T23:24:11.382403"
+    },
+    "precio": 88.0,
+    "precios_publicados": [
+      88.0
     ]
   }
 }
