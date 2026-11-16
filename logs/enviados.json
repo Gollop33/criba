@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 33.0
   },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-11-14T12:08:22.099391",
-    "canales": {
-      "whatsapp": "2026-11-14T12:08:22.099391"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0
-    ]
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-11-14T12:15:14.670095",
     "canales": {
@@ -3659,6 +3649,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-philips-oneblade-qp22051-laminas-de-reposicao": {
+    "ts": "2026-11-16T12:15:10.612417",
+    "canales": {
+      "whatsapp": "2026-11-16T12:15:10.612417"
+    },
+    "precio": 91.0,
+    "precios_publicados": [
+      91.0
     ]
   }
 }
