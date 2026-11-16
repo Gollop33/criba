@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-hidratante-corporal-neutrogena-norwegian-inte": {
-    "ts": "2026-11-14T03:52:28.885508",
-    "canales": {
-      "whatsapp": "2026-11-14T03:52:28.885508"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-cerave-creme-hidratante-corporal-para-pele-se": {
     "ts": "2026-11-14T04:19:32.023475",
     "canales": {
@@ -1810,14 +1800,16 @@
     ]
   },
   "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-15T03:43:36.355489",
+    "ts": "2026-11-16T04:04:30.768238",
     "canales": {
-      "whatsapp": "2026-11-15T03:43:36.355489"
+      "whatsapp": "2026-11-16T04:04:30.768238"
     },
-    "precio": 89900.0,
+    "precio": 899.0,
     "precios_publicados": [
-      89900.0
-    ]
+      89900.0,
+      899.0
+    ],
+    "precio_min_publicado": 89900.0
   },
   "amz-pinho-sol-desinfetante-original-3-8l": {
     "ts": "2026-11-15T04:26:36.110921",
