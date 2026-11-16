@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-16T16:15:22+00:00",
-  "total": 27,
+  "actualizado": "2026-11-16T16:22:12+00:00",
+  "total": 26,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
@@ -17,7 +17,7 @@
       "precio_ref": 24.99,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "granplus choice racao para gatos adultos frango e",
@@ -25,7 +25,7 @@
       "precio_ref": 104.58,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 11 8gb 256gb wifi",
@@ -33,7 +33,7 @@
       "precio_ref": 1730.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
@@ -41,7 +41,7 @@
       "precio_ref": 249.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -49,7 +49,7 @@
       "precio_ref": 1474.99,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "tablet huawei matepad se 11 4 128gb tela",
@@ -57,15 +57,7 @@
       "precio_ref": 899.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "mochila de viagem expansivel masculina feminina para notebook",
-      "nombre": "Mochila de Viagem Expansivel Masculina Feminina Para Notebook",
-      "precio_ref": 99.97,
-      "categoria": "Notebooks & PCs",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m330 silent com clique",
@@ -73,23 +65,7 @@
       "precio_ref": 69.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "finish power powder advanced detergente para lava loucas",
-      "nombre": "Finish Power Powder Advanced Detergente para Lava Louças em Pó 2,5kg",
-      "precio_ref": 99.99,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
-      "nombre": "Creatina Pura, Dark Lab, Monohidratada, 100% de Pureza, Refil - 1kg | A mais vendida da América Latina (Euromonitor). certifi",
-      "precio_ref": 69.89,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "32 in1 case estojo para nintendo switch oled",
@@ -97,79 +73,23 @@
       "precio_ref": 80.99,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
-      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
-      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
-      "precio_ref": 178.84,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
+      "nombre": "Creatina Pura, Dark Lab, Monohidratada, 100% de Pureza, Refil - 1kg | A mais vendida da América Latina (Euromonitor). certifi",
+      "precio_ref": 69.89,
+      "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
-      "busqueda": "monitor gamer lg ultragear 24 ips full hd",
-      "nombre": "Monitor Gamer LG UltraGear 24” IPS, Full HD, 180Hz, 1ms (GtG), HDMI, DisplayPort, HDR10, sRGB 99%, NVIDIA® G-SYNC®, AMD FreeS",
-      "precio_ref": 694.08,
-      "categoria": "Monitores & Displays",
+      "busqueda": "finish power powder advanced detergente para lava loucas",
+      "nombre": "Finish Power Powder Advanced Detergente para Lava Louças em Pó 2,5kg",
+      "precio_ref": 99.99,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "fone de ouvido headset havit h2015 pro black",
-      "nombre": "Fone de Ouvido Headset Havit H2015 Pro, Black | 5 Modos de Conexão, 2.4GHz, Bluetooth, Cabo USB e 3,5mm",
-      "precio_ref": 271.25,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
-      "nombre": "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
-      "precio_ref": 395.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
-      "nombre": "PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (Turbo 4.6GHz) 36MB Cache AM4 100-100000926WOF, Cerâmica Cinza",
-      "precio_ref": 1097.39,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
-      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
-      "precio_ref": 3039.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
-      "nombre": "Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa - Compatível com PC, Mac, Chro",
-      "precio_ref": 149.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "cafeteira eletrica electrolux inox filtro permanente removivel capacidade",
-      "nombre": "Cafeteira Elétrica Electrolux inox filtro permanente removivel capacidade 1,5L 38 xicaras função timer painel digital desliga",
-      "precio_ref": 239.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
-    },
-    {
-      "busqueda": "combo teclado e mouse sem fio logitech mk235",
-      "nombre": "Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout ABNT2",
-      "precio_ref": 149.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "stanley garrafa termica quick flip frost 710ml",
@@ -177,23 +97,23 @@
       "precio_ref": 135.76,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
-      "busqueda": "papel higienico neve supreme folha tripla leve 32",
-      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 32 Pague 28 20 Metros",
-      "precio_ref": 7990.0,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
+      "nombre": "PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (Turbo 4.6GHz) 36MB Cache AM4 100-100000926WOF, Cerâmica Cinza",
+      "precio_ref": 1097.39,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
-      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
-      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
-      "precio_ref": 692.0,
+      "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
+      "nombre": "AOC, Monitor 22” 120Hz, 22B35HM23, 1ms Gaming, HDMI",
+      "precio_ref": 395.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "panela de pressao ceramic life pressure 4 2l",
@@ -201,7 +121,63 @@
       "precio_ref": 159.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
+      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
+      "precio_ref": 3039.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "monitor gamer lg ultragear 24 ips full hd",
+      "nombre": "Monitor Gamer LG UltraGear 24” IPS, Full HD, 180Hz, 1ms (GtG), HDMI, DisplayPort, HDR10, sRGB 99%, NVIDIA® G-SYNC®, AMD FreeS",
+      "precio_ref": 694.08,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
+      "nombre": "Teclado sem fio Logitech Pebble Keys 2 K380s com Conexão Bluetooth Easy-Switch e Pilha Inclusa - Compatível com PC, Mac, Chro",
+      "precio_ref": 149.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "combo teclado e mouse sem fio logitech mk235",
+      "nombre": "Combo Teclado e Mouse sem fio Logitech MK235 com Conexão USB, Pilhas Inclusas e Layout ABNT2",
+      "precio_ref": 149.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "papel higienico neve supreme folha tripla leve 32",
+      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 32 Pague 28 20 Metros",
+      "precio_ref": 7990.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
+      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
+      "precio_ref": 178.84,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "cafeteira eletrica electrolux inox filtro permanente removivel capacidade",
+      "nombre": "Cafeteira Elétrica Electrolux inox filtro permanente removivel capacidade 1,5L 38 xicaras função timer painel digital desliga",
+      "precio_ref": 239.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "monitor portatil 15 6 full hd 1080p ips",
@@ -209,7 +185,7 @@
       "precio_ref": 339.98,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     },
     {
       "busqueda": "base de carregamento do dualsense playstation 5",
@@ -217,7 +193,23 @@
       "precio_ref": 165.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:15:22+00:00"
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
+      "nombre": "LG UltraGear Monitor Gamer 27\" IPS, 144Hz Nativo, 1ms (MBR), Full HD (1920x1080), HDR10, NVIDIA G-SYNC, AMD FreeSync, Preto -",
+      "precio_ref": 692.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
+    },
+    {
+      "busqueda": "fone de ouvido headset havit h2015 pro black",
+      "nombre": "Fone de Ouvido Headset Havit H2015 Pro, Black | 5 Modos de Conexão, 2.4GHz, Bluetooth, Cabo USB e 3,5mm",
+      "precio_ref": 271.25,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:22:12+00:00"
     }
   ]
 }
