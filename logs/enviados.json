@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-apple-iphone-15-128-gb-azul": {
-    "ts": "2026-11-14T23:08:51.024738",
-    "canales": {
-      "whatsapp": "2026-11-14T23:08:51.024738"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a37-5g-256gb-8gb-50mp-": {
     "ts": "2026-11-14T23:11:35.800796",
     "canales": {
@@ -3370,6 +3360,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
+    "ts": "2026-11-16T23:10:08.956227",
+    "canales": {
+      "whatsapp": "2026-11-16T23:10:08.956227"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
