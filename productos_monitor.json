@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-16T13:42:57+00:00",
+  "actualizado": "2026-11-16T13:50:22+00:00",
   "total": 7,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
     },
     {
       "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
@@ -17,31 +17,7 @@
       "precio_ref": 24.99,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
-    },
-    {
-      "busqueda": "granplus choice racao para gatos adultos frango e",
-      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
-      "precio_ref": 104.58,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 11 8gb 256gb wifi",
-      "nombre": "Xiaomi Redmi Pad 2 11'' 8GB-256GB WiFi Cinza (Cinza Grafite)",
-      "precio_ref": 1730.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
-    },
-    {
-      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
-      "precio_ref": 249.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -49,7 +25,31 @@
       "precio_ref": 1474.99,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
+      "precio_ref": 249.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 11 8gb 256gb wifi",
+      "nombre": "Xiaomi Redmi Pad 2 11'' 8GB-256GB WiFi Cinza (Cinza Grafite)",
+      "precio_ref": 1730.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
+    },
+    {
+      "busqueda": "granplus choice racao para gatos adultos frango e",
+      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
+      "precio_ref": 104.58,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
     },
     {
       "busqueda": "tablet huawei matepad se 11 4 128gb tela",
@@ -57,7 +57,7 @@
       "precio_ref": 899.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T13:42:57+00:00"
+      "monitorizado_desde": "2026-11-16T13:50:22+00:00"
     }
   ]
 }
