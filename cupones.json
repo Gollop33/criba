@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-15T23:16:23+00:00",
+  "actualizado": "2026-11-16T04:32:46+00:00",
   "total": 281,
   "fuentes": [
     "ML Oficial",
@@ -3729,7 +3729,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-15T16:01:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFERTASML25",
@@ -3742,7 +3743,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-15T16:01:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "VIPNOML",
@@ -3809,5 +3811,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-16T01:32:13-03:00"
 }
