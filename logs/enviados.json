@@ -521,14 +521,16 @@
     ]
   },
   "amz-notebook-acer-nitro-v-15-rtx-4050-ryzen-7-8gb": {
-    "ts": "2026-11-15T01:07:04.111563",
+    "ts": "2026-11-16T20:56:42.239496",
     "canales": {
-      "whatsapp": "2026-11-15T01:07:04.111563"
+      "whatsapp": "2026-11-16T20:56:42.239496"
     },
-    "precio": 519899.0,
+    "precio": 5198.0,
     "precios_publicados": [
-      519899.0
-    ]
+      519899.0,
+      5198.0
+    ],
+    "precio_min_publicado": 519899.0
   },
   "amz-samsung-smart-tv-65-crystal-uhd-4k-u8000h-262": {
     "ts": "2026-11-15T01:13:48.428865",
