@@ -93,66 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
-    "ts": "2026-11-14T04:54:40.646088",
-    "canales": {
-      "whatsapp": "2026-11-14T04:54:40.646088"
-    },
-    "precio": 137.0,
-    "precios_publicados": [
-      137.0
-    ]
-  },
-  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
-    "ts": "2026-11-14T05:18:49.837990",
-    "canales": {
-      "whatsapp": "2026-11-14T05:18:49.837990"
-    },
-    "precio": 309.0,
-    "precios_publicados": [
-      309.0
-    ]
-  },
-  "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
-    "ts": "2026-11-14T05:29:02.507122",
-    "canales": {
-      "whatsapp": "2026-11-14T05:29:02.507122"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
-  "amz-lysoform-original-lenco-umedecido-desinfetant": {
-    "ts": "2026-11-14T05:36:47.369701",
-    "canales": {
-      "whatsapp": "2026-11-14T05:36:47.369701"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
-  "amz-sache-aromatizante-england-interbrilho": {
-    "ts": "2026-11-14T05:42:59.007277",
-    "canales": {
-      "whatsapp": "2026-11-14T05:42:59.007277"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0
-    ]
-  },
-  "amz-bendita-canfora-pote-com-30-tabletes-multiuso": {
-    "ts": "2026-11-14T05:52:53.421167",
-    "canales": {
-      "whatsapp": "2026-11-14T05:52:53.421167"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "amz-paixao-oleo-corporal-avela-100-ml-pele-nutrid": {
     "ts": "2026-11-14T06:28:02.569865",
     "canales": {
@@ -1190,14 +1130,16 @@
     ]
   },
   "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
-    "ts": "2026-11-14T21:30:57.865541",
+    "ts": "2026-11-16T05:54:27.993825",
     "canales": {
-      "whatsapp": "2026-11-14T21:30:57.865541"
+      "whatsapp": "2026-11-16T05:54:27.993825"
     },
-    "precio": 24.0,
+    "precio": 16.0,
     "precios_publicados": [
-      24.0
-    ]
+      24.0,
+      16.0
+    ],
+    "precio_min_publicado": 24.0
   },
   "amz-stanley-copo-termico-stacking-ash-354ml": {
     "ts": "2026-11-14T21:36:06.401587",
