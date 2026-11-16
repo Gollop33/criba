@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
-    "ts": "2026-11-14T22:56:28.886631",
-    "canales": {
-      "whatsapp": "2026-11-14T22:56:28.886631"
-    },
-    "precio": 359.0,
-    "precios_publicados": [
-      359.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-processador-octa": {
     "ts": "2026-11-14T22:59:46.739060",
     "canales": {
@@ -3380,6 +3370,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-god-of-war-hits-playstation-4": {
+    "ts": "2026-11-16T22:59:44.049187",
+    "canales": {
+      "whatsapp": "2026-11-16T22:59:44.049187"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
