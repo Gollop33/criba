@@ -82,16 +82,17 @@
     "precio_min_publicado": 33.0
   },
   "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
-    "ts": "2026-11-15T17:35:32.898934",
+    "ts": "2026-11-16T17:36:34.260226",
     "canales": {
-      "whatsapp": "2026-11-15T17:35:32.898934"
+      "whatsapp": "2026-11-16T17:36:34.260226"
     },
     "precio": 249.0,
     "precios_publicados": [
       24990.0,
+      249.0,
       249.0
     ],
-    "precio_min_publicado": 24990.0
+    "precio_min_publicado": 249.0
   },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-11-15T23:18:58.312598",
@@ -104,26 +105,6 @@
       4499.0
     ],
     "precio_min_publicado": 449900.0
-  },
-  "amz-notebook-dell-15-15i1300a30p-intel-core-i5133": {
-    "ts": "2026-11-14T17:31:25.149157",
-    "canales": {
-      "whatsapp": "2026-11-14T17:31:25.149157"
-    },
-    "precio": 3899.0,
-    "precios_publicados": [
-      3899.0
-    ]
-  },
-  "amz-powera-case-de-protecao-para-nintendo-switch-": {
-    "ts": "2026-11-14T17:36:18.890425",
-    "canales": {
-      "whatsapp": "2026-11-14T17:36:18.890425"
-    },
-    "precio": 171.0,
-    "precios_publicados": [
-      171.0
-    ]
   },
   "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
     "ts": "2026-11-14T17:44:44.619795",
