@@ -93,26 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-sensodyne-creme-dental-para-sensibilidade-rap": {
-    "ts": "2026-11-14T00:01:38.052576",
-    "canales": {
-      "whatsapp": "2026-11-14T00:01:38.052576"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
-  "ml-camera-veicular-4k-hdr-3-canais-70mai-t800e1-": {
-    "ts": "2026-11-14T00:06:45.608585",
-    "canales": {
-      "whatsapp": "2026-11-14T00:06:45.608585"
-    },
-    "precio": 1215.0,
-    "precios_publicados": [
-      1215.0
-    ]
-  },
   "ml-camera-veicular-70mai-4k-dual-sony-hdr-a810s-": {
     "ts": "2026-11-14T00:08:12.827131",
     "canales": {
@@ -3717,6 +3697,16 @@
     "precio": 315.0,
     "precios_publicados": [
       315.0
+    ]
+  },
+  "amz-notebook-dell-15-dc15c3100a20-intel-core-3-10": {
+    "ts": "2026-11-16T00:07:29.361260",
+    "canales": {
+      "whatsapp": "2026-11-16T00:07:29.361260"
+    },
+    "precio": 4240.0,
+    "precios_publicados": [
+      4240.0
     ]
   }
 }
