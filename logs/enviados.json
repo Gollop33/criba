@@ -121,16 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
-    "ts": "2026-11-14T23:50:10.783917",
-    "canales": {
-      "whatsapp": "2026-11-14T23:50:10.783917"
-    },
-    "precio": 1692.0,
-    "precios_publicados": [
-      1692.0
-    ]
-  },
   "amz-colecao-nioh-playstation-5": {
     "ts": "2026-11-14T23:55:58.150254",
     "canales": {
@@ -3351,6 +3341,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-odyssey-g5-27-resolucao": {
+    "ts": "2026-11-16T23:52:47.141331",
+    "canales": {
+      "whatsapp": "2026-11-16T23:52:47.141331"
+    },
+    "precio": 1039.0,
+    "precios_publicados": [
+      1039.0
     ]
   }
 }
