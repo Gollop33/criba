@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-16T16:43:13+00:00",
-  "total": 27,
+  "actualizado": "2026-11-16T16:50:30+00:00",
+  "total": 26,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
@@ -17,31 +17,7 @@
       "precio_ref": 24.99,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
-    },
-    {
-      "busqueda": "granplus choice racao para gatos adultos frango e",
-      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
-      "precio_ref": 104.58,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 11 8gb 256gb wifi",
-      "nombre": "Xiaomi Redmi Pad 2 11'' 8GB-256GB WiFi Cinza (Cinza Grafite)",
-      "precio_ref": 1730.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
-    },
-    {
-      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
-      "precio_ref": 249.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
@@ -49,7 +25,31 @@
       "precio_ref": 1474.99,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
+    },
+    {
+      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
+      "precio_ref": 249.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 11 8gb 256gb wifi",
+      "nombre": "Xiaomi Redmi Pad 2 11'' 8GB-256GB WiFi Cinza (Cinza Grafite)",
+      "precio_ref": 1730.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
+    },
+    {
+      "busqueda": "granplus choice racao para gatos adultos frango e",
+      "nombre": "GranPlus Choice - Ração para Gatos Adultos Frango e Carne, 10.1 kg (Pacote de 1), Roxo",
+      "precio_ref": 104.58,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "tablet huawei matepad se 11 4 128gb tela",
@@ -57,15 +57,7 @@
       "precio_ref": 899.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
-    },
-    {
-      "busqueda": "creatina pura dark lab monohidratada 100 de pureza",
-      "nombre": "Creatina Pura, Dark Lab, Monohidratada, 100% de Pureza, Refil - 1kg | A mais vendida da América Latina (Euromonitor). certifi",
-      "precio_ref": 69.89,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "controle dualshock 4 playstation 4 preto modelo dualshock",
@@ -73,7 +65,7 @@
       "precio_ref": 209.99,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -81,7 +73,7 @@
       "precio_ref": 694.08,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
@@ -89,7 +81,7 @@
       "precio_ref": 1097.39,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "aoc monitor 22 120hz 22b35hm23 1ms gaming hdmi",
@@ -97,7 +89,7 @@
       "precio_ref": 395.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "combo teclado e mouse sem fio logitech mk235",
@@ -105,7 +97,7 @@
       "precio_ref": 149.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "teclado sem fio logitech pebble keys 2 k380s",
@@ -113,7 +105,7 @@
       "precio_ref": 149.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3 15 3 luna",
@@ -121,7 +113,7 @@
       "precio_ref": 3199.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "sony playstation 5 edicao digital 825gb 1 controle",
@@ -129,7 +121,7 @@
       "precio_ref": 4599.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
@@ -137,7 +129,7 @@
       "precio_ref": 2421.46,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "cafeteira eletrica electrolux inox filtro permanente removivel capacidade",
@@ -145,7 +137,7 @@
       "precio_ref": 239.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "stanley garrafa termica quick flip frost 710ml",
@@ -153,7 +145,7 @@
       "precio_ref": 135.76,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "panela de pressao ceramic life pressure 4 2l",
@@ -161,7 +153,7 @@
       "precio_ref": 159.9,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "fone de ouvido headset havit h2015 pro black",
@@ -169,7 +161,7 @@
       "precio_ref": 271.25,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "monitor portatil 15 6 full hd 1080p ips",
@@ -177,7 +169,7 @@
       "precio_ref": 339.98,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
@@ -185,7 +177,7 @@
       "precio_ref": 3039.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "lg ultragear monitor gamer 27 ips 144hz nativo",
@@ -193,7 +185,7 @@
       "precio_ref": 692.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "papel higienico neve supreme folha tripla leve 32",
@@ -201,7 +193,7 @@
       "precio_ref": 7990.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
@@ -209,7 +201,7 @@
       "precio_ref": 178.84,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     },
     {
       "busqueda": "base de carregamento do dualsense playstation 5",
@@ -217,7 +209,7 @@
       "precio_ref": 165.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-16T16:43:13+00:00"
+      "monitorizado_desde": "2026-11-16T16:50:30+00:00"
     }
   ]
 }
