@@ -57,16 +57,17 @@
     "precio_min_publicado": 31.0
   },
   "amz-xiaomi-redmi-pad-2-11-8gb256gb-wifi-cinza-cin": {
-    "ts": "2026-11-15T17:44:47.210298",
+    "ts": "2026-11-16T17:50:25.932993",
     "canales": {
-      "whatsapp": "2026-11-15T17:44:47.210298"
+      "whatsapp": "2026-11-16T17:50:25.932993"
     },
-    "precio": 1680.0,
+    "precio": 1730.0,
     "precios_publicados": [
       167900.0,
-      1680.0
+      1680.0,
+      1730.0
     ],
-    "precio_min_publicado": 167900.0
+    "precio_min_publicado": 1680.0
   },
   "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
     "ts": "2026-11-16T11:43:15.272278",
@@ -105,26 +106,6 @@
       4499.0
     ],
     "precio_min_publicado": 449900.0
-  },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-11-14T17:44:44.619795",
-    "canales": {
-      "whatsapp": "2026-11-14T17:44:44.619795"
-    },
-    "precio": 3887.0,
-    "precios_publicados": [
-      3887.0
-    ]
-  },
-  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
-    "ts": "2026-11-14T17:45:53.944348",
-    "canales": {
-      "whatsapp": "2026-11-14T17:45:53.944348"
-    },
-    "precio": 998.0,
-    "precios_publicados": [
-      998.0
-    ]
   },
   "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
     "ts": "2026-11-14T17:55:37.564587",
