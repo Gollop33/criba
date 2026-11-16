@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-11-14T22:28:07.592441",
-    "canales": {
-      "whatsapp": "2026-11-14T22:28:07.592441"
-    },
-    "precio": 576.0,
-    "precios_publicados": [
-      576.0
-    ]
-  },
   "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
     "ts": "2026-11-14T22:33:55.024006",
     "canales": {
@@ -3398,6 +3388,16 @@
     "precio": 299.0,
     "precios_publicados": [
       299.0
+    ]
+  },
+  "amz-notebook-dell-inspiron-i15i1300a30p-156-full-": {
+    "ts": "2026-11-16T22:32:11.136801",
+    "canales": {
+      "whatsapp": "2026-11-16T22:32:11.136801"
+    },
+    "precio": 3899.0,
+    "precios_publicados": [
+      3899.0
     ]
   }
 }
