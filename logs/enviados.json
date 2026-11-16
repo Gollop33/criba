@@ -93,16 +93,6 @@
     ],
     "precio_min_publicado": 167900.0
   },
-  "amz-lampada-osram-standard-7528-p215-original": {
-    "ts": "2026-11-14T01:01:58.312788",
-    "canales": {
-      "whatsapp": "2026-11-14T01:01:58.312788"
-    },
-    "precio": 9.0,
-    "precios_publicados": [
-      9.0
-    ]
-  },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
     "ts": "2026-11-14T01:07:25.065844",
     "canales": {
@@ -3687,6 +3677,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-ype-detergente-neutro-5l": {
+    "ts": "2026-11-16T01:04:54.755810",
+    "canales": {
+      "whatsapp": "2026-11-16T01:04:54.755810"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
