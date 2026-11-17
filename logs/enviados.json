@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-max-titanium-creatina-monohidratada-pote-300g": {
-    "ts": "2026-11-15T18:08:33.901570",
-    "canales": {
-      "whatsapp": "2026-11-15T18:08:33.901570"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
     "ts": "2026-11-15T18:16:13.566193",
     "canales": {
@@ -3093,6 +3083,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-11-17T18:12:25.950495",
+    "canales": {
+      "whatsapp": "2026-11-17T18:12:25.950495"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
