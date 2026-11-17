@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-11-15T17:58:19.352381",
-    "canales": {
-      "whatsapp": "2026-11-15T17:58:19.352381"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-mouse-pad-azul": {
     "ts": "2026-11-15T18:05:58.393438",
     "canales": {
@@ -3083,6 +3073,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
+    "ts": "2026-11-17T17:59:14.657294",
+    "canales": {
+      "whatsapp": "2026-11-17T17:59:14.657294"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
