@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-monitor-samsung-24-fhd-ajuste-de-altura-100hz": {
-    "ts": "2026-11-15T20:13:20.533585",
-    "canales": {
-      "whatsapp": "2026-11-15T20:13:20.533585"
-    },
-    "precio": 659.0,
-    "precios_publicados": [
-      659.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
     "ts": "2026-11-15T20:21:21.030505",
     "canales": {
@@ -3073,6 +3063,16 @@
     "precio": 4763.0,
     "precios_publicados": [
       4763.0
+    ]
+  },
+  "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
+    "ts": "2026-11-17T20:14:02.502643",
+    "canales": {
+      "whatsapp": "2026-11-17T20:14:02.502643"
+    },
+    "precio": 1999.0,
+    "precios_publicados": [
+      1999.0
     ]
   }
 }
