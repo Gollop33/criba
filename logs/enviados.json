@@ -121,26 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
-    "ts": "2026-11-15T00:44:44.029312",
-    "canales": {
-      "whatsapp": "2026-11-15T00:44:44.029312"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0
-    ]
-  },
-  "amz-xbox-series-robot-white-controle-sem-fio-blue": {
-    "ts": "2026-11-15T00:48:36.226119",
-    "canales": {
-      "whatsapp": "2026-11-15T00:48:36.226119"
-    },
-    "precio": 345.0,
-    "precios_publicados": [
-      345.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-moana-processado": {
     "ts": "2026-11-15T00:51:13.236201",
     "canales": {
@@ -3371,6 +3351,16 @@
     "precio": 1029.0,
     "precios_publicados": [
       1029.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s26-5g-512gb-12gb-ram-": {
+    "ts": "2026-11-17T00:49:42.537907",
+    "canales": {
+      "whatsapp": "2026-11-17T00:49:42.537907"
+    },
+    "precio": 5554.0,
+    "precios_publicados": [
+      5554.0
     ]
   }
 }
