@@ -121,16 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
-    "ts": "2026-11-15T00:06:11.929968",
-    "canales": {
-      "whatsapp": "2026-11-15T00:06:11.929968"
-    },
-    "precio": 6934.0,
-    "precios_publicados": [
-      6934.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-10-4gb-ram-128gb-a": {
     "ts": "2026-11-15T00:22:28.111478",
     "canales": {
@@ -3361,6 +3351,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-ssd-sandisk-plus-1tb-nvme-m2-2280-leitura-ate": {
+    "ts": "2026-11-17T00:07:57.930458",
+    "canales": {
+      "whatsapp": "2026-11-17T00:07:57.930458"
+    },
+    "precio": 929.0,
+    "precios_publicados": [
+      929.0
     ]
   }
 }
