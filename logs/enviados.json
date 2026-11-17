@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-11-15T09:08:27.964890",
-    "canales": {
-      "whatsapp": "2026-11-15T09:08:27.964890"
-    },
-    "precio": 1005.0,
-    "precios_publicados": [
-      1005.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
     "ts": "2026-11-15T09:15:24.012684",
     "canales": {
@@ -3321,6 +3311,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-lysoform-original-desinfetante-aerosol-para-s": {
+    "ts": "2026-11-17T09:08:33.738343",
+    "canales": {
+      "whatsapp": "2026-11-17T09:08:33.738343"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
