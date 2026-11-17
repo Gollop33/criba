@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-apple-iphone-16-128-gb-branco": {
-    "ts": "2026-11-15T23:34:06.539728",
-    "canales": {
-      "whatsapp": "2026-11-15T23:34:06.539728"
-    },
-    "precio": 5054.0,
-    "precios_publicados": [
-      5054.0
-    ]
-  },
   "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
     "ts": "2026-11-15T23:39:49.906675",
     "canales": {
@@ -3067,6 +3057,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
+    "ts": "2026-11-17T23:38:30.008675",
+    "canales": {
+      "whatsapp": "2026-11-17T23:38:30.008675"
+    },
+    "precio": 818.0,
+    "precios_publicados": [
+      818.0
     ]
   }
 }
