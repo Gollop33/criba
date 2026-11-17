@@ -181,26 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
-    "ts": "2026-11-15T23:39:49.906675",
-    "canales": {
-      "whatsapp": "2026-11-15T23:39:49.906675"
-    },
-    "precio": 959.0,
-    "precios_publicados": [
-      959.0
-    ]
-  },
-  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
-    "ts": "2026-11-15T23:41:08.317702",
-    "canales": {
-      "whatsapp": "2026-11-15T23:41:08.317702"
-    },
-    "precio": 543.0,
-    "precios_publicados": [
-      543.0
-    ]
-  },
   "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
     "ts": "2026-11-15T23:43:14.298027",
     "canales": {
@@ -3067,6 +3047,16 @@
     "precio": 818.0,
     "precios_publicados": [
       818.0
+    ]
+  },
+  "amz-bettdow-monitor-portatil-156-fhd-1080p-monito": {
+    "ts": "2026-11-17T23:41:34.510318",
+    "canales": {
+      "whatsapp": "2026-11-17T23:41:34.510318"
+    },
+    "precio": 49900.0,
+    "precios_publicados": [
+      49900.0
     ]
   }
 }
