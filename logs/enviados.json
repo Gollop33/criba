@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
-    "ts": "2026-11-15T20:21:21.030505",
-    "canales": {
-      "whatsapp": "2026-11-15T20:21:21.030505"
-    },
-    "precio": 1998.0,
-    "precios_publicados": [
-      1998.0
-    ]
-  },
   "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
     "ts": "2026-11-15T20:26:03.063128",
     "canales": {
@@ -3073,6 +3063,16 @@
     "precio": 1999.0,
     "precios_publicados": [
       1999.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
+    "ts": "2026-11-17T20:23:08.391295",
+    "canales": {
+      "whatsapp": "2026-11-17T20:23:08.391295"
+    },
+    "precio": 776.0,
+    "precios_publicados": [
+      776.0
     ]
   }
 }
