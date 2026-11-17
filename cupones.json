@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-17T11:50:46+00:00",
-  "total": 287,
+  "actualizado": "2026-11-17T13:59:33+00:00",
+  "total": 292,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -1238,13 +1238,13 @@
     {
       "codigo": "OFFHOJENOML",
       "desconto": "10% OFF",
-      "compra_minima": "R$149",
-      "limite": "R$200",
-      "hasta": "",
-      "categoria": "Tecnologia",
+      "compra_minima": "R$79",
+      "limite": "R$100",
+      "hasta": "2026-11-17",
+      "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-19T13:02:41+00:00",
+      "detectado_em": "2026-11-17T13:07:33+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
@@ -3887,6 +3887,71 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-16T13:00:30+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MLOFERTAS",
+      "desconto": "18% OFF",
+      "compra_minima": "R$99",
+      "limite": "R$60",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-17T13:15:52+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MLSAUDE",
+      "desconto": "10% OFF",
+      "compra_minima": "R$99",
+      "limite": "R$30",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-17T13:15:52+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "CARRINHONOML",
+      "desconto": "20% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$80",
+      "hasta": "",
+      "categoria": "Casa",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-17T13:15:52+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFFHOJEMELI",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-17T13:07:33+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MEUDESCONTOOBRA",
+      "desconto": "20% OFF",
+      "compra_minima": "R$79",
+      "limite": "R$80",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-17T13:07:33+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
