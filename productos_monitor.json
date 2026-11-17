@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-17T09:36:13+00:00",
-  "total": 10,
+  "actualizado": "2026-11-17T09:42:54+00:00",
+  "total": 11,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -17,7 +17,7 @@
       "precio_ref": 76.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     },
     {
       "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
@@ -25,7 +25,7 @@
       "precio_ref": 69.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -33,7 +33,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -41,15 +41,7 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
-    },
-    {
-      "busqueda": "sanduicheira eletrica cadence click 127v",
-      "nombre": "Sanduicheira Elétrica Cadence Click - 127V",
-      "precio_ref": 94.63,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
@@ -57,23 +49,7 @@
       "precio_ref": 59.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
-    },
-    {
-      "busqueda": "bundle nintendo switch oled super mario bros wonder",
-      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
-      "precio_ref": 1889.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
-    },
-    {
-      "busqueda": "bundle gta vi playstation 5 slim digital 825",
-      "nombre": "Bundle GTA VI + PlayStation 5 Slim Digital 825 GB - Pacote Astro Bot e Gran Turismo 7",
-      "precio_ref": 4908.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
@@ -81,7 +57,39 @@
       "precio_ref": 1441.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T09:36:13+00:00"
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
+      "precio_ref": 1889.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 829.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
+    },
+    {
+      "busqueda": "bundle gta vi playstation 5 slim digital 825",
+      "nombre": "Bundle GTA VI + PlayStation 5 Slim Digital 825 GB - Pacote Astro Bot e Gran Turismo 7",
+      "precio_ref": 4908.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
+    },
+    {
+      "busqueda": "echo dot smart speaker com alexa som vibrante",
+      "nombre": "Echo Dot Smart speaker com Alexa, som vibrante e potente, Wi-Fi e Bluetooth | Cor Preta, com Acesso Antecipado à Alexa+",
+      "precio_ref": 649.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T09:42:54+00:00"
     }
   ]
 }
