@@ -747,11 +747,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "VALEMUITO": {
-      "detectado_em": "2026-10-18T15:08:32+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 486h (> 24h)"
-    },
     "CARRINHOML": {
       "detectado_em": "2026-11-08T16:01:02+00:00",
       "publicado_em": null,
@@ -1393,5 +1388,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-17T15:04:38+00:00"
+  "actualizado": "2026-11-17T15:13:03+00:00"
 }
