@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 1698.0
   },
-  "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
-    "ts": "2026-11-15T15:04:22.214827",
-    "canales": {
-      "whatsapp": "2026-11-15T15:04:22.214827"
-    },
-    "precio": 2192.0,
-    "precios_publicados": [
-      2192.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
     "ts": "2026-11-15T15:13:34.057088",
     "canales": {
@@ -2983,6 +2973,16 @@
     "precio": 3148.0,
     "precios_publicados": [
       3148.0
+    ]
+  },
+  "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
+    "ts": "2026-11-17T15:04:39.897297",
+    "canales": {
+      "whatsapp": "2026-11-17T15:04:39.897297"
+    },
+    "precio": 829.0,
+    "precios_publicados": [
+      829.0
     ]
   }
 }
