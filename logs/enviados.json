@@ -5,19 +5,6 @@
       "whatsapp": "2026-11-17T00:17:31.475220"
     }
   },
-  "amz-colgate-tripla-acao-menta-original-creme-dent": {
-    "ts": "2026-11-15T10:22:01.836420",
-    "canales": {
-      "whatsapp": "2026-11-15T10:22:01.836420"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      36.0,
-      22.0,
-      22.0
-    ],
-    "precio_min_publicado": 22.0
-  },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
     "ts": "2026-11-15T21:11:54.932416",
     "canales": {
@@ -132,26 +119,6 @@
       899.0
     ],
     "precio_min_publicado": 89900.0
-  },
-  "amz-bundle-nintendo-switch-2-ea-sports-fc-27": {
-    "ts": "2026-11-15T10:08:38.696424",
-    "canales": {
-      "whatsapp": "2026-11-15T10:08:38.696424"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
-  "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
-    "ts": "2026-11-15T10:15:16.130639",
-    "canales": {
-      "whatsapp": "2026-11-15T10:15:16.130639"
-    },
-    "precio": 719.0,
-    "precios_publicados": [
-      719.0
-    ]
   },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-11-15T10:29:10.280803",
@@ -3331,6 +3298,16 @@
     "precio": 649.0,
     "precios_publicados": [
       649.0
+    ]
+  },
+  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
+    "ts": "2026-11-17T10:22:29.721089",
+    "canales": {
+      "whatsapp": "2026-11-17T10:22:29.721089"
+    },
+    "precio": 1889.0,
+    "precios_publicados": [
+      1889.0
     ]
   }
 }
