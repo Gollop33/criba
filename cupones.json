@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-16T20:47:21+00:00",
-  "total": 290,
+  "actualizado": "2026-11-17T02:05:52+00:00",
+  "total": 287,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -1083,20 +1083,6 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-10-14T13:00:53+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
-      "estado": "ativo"
-    },
-    {
-      "codigo": "GARANTAMEUDESCONTO",
-      "desconto": "25% OFF",
-      "compra_minima": "R$1",
-      "limite": "R$500.",
-      "hasta": "2026-11-16",
-      "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-10-14T16:59:58+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
@@ -3890,38 +3876,12 @@
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
     {
-      "codigo": "HOJETEM",
-      "desconto": "10% OFF",
-      "compra_minima": "R$79",
-      "limite": "R$100",
-      "hasta": "2026-11-16",
-      "categoria": "Geral",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-16T13:00:30+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
       "codigo": "HOJEPRATEC",
       "desconto": "10% OFF",
       "compra_minima": "R$149",
       "limite": "R$200",
       "hasta": "",
       "categoria": "Tecnologia",
-      "tienda": "Mercado Livre",
-      "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-16T13:00:30+00:00",
-      "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
-    },
-    {
-      "codigo": "PESOPESADO",
-      "desconto": "15% OFF",
-      "compra_minima": "R$79",
-      "limite": "R$60",
-      "hasta": "2026-11-16",
-      "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-16T13:00:30+00:00",
