@@ -121,16 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-notebook-vaio-fe16-amd-ryzen-55625u-16gb-ram-": {
-    "ts": "2026-11-15T00:39:21.527463",
-    "canales": {
-      "whatsapp": "2026-11-15T00:39:21.527463"
-    },
-    "precio": 3959.0,
-    "precios_publicados": [
-      3959.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
     "ts": "2026-11-15T00:44:44.029312",
     "canales": {
@@ -3371,6 +3361,16 @@
     "precio": 2799.0,
     "precios_publicados": [
       2799.0
+    ]
+  },
+  "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
+    "ts": "2026-11-17T00:39:53.572284",
+    "canales": {
+      "whatsapp": "2026-11-17T00:39:53.572284"
+    },
+    "precio": 1029.0,
+    "precios_publicados": [
+      1029.0
     ]
   }
 }
