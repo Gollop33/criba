@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 519899.0
   },
-  "amz-notebook-acer-aspire-go-15-core-5-8gb-ssd-512": {
-    "ts": "2026-11-15T02:57:44.921418",
-    "canales": {
-      "whatsapp": "2026-11-15T02:57:44.921418"
-    },
-    "precio": 3399.0,
-    "precios_publicados": [
-      3399.0
-    ]
-  },
   "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
     "ts": "2026-11-15T03:08:34.789424",
     "canales": {
@@ -3411,6 +3401,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
+    "ts": "2026-11-17T03:08:31.373232",
+    "canales": {
+      "whatsapp": "2026-11-17T03:08:31.373232"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
