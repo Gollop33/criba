@@ -121,26 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-tablet-positivo-vision-tab-10-4gb-ram-128gb-a": {
-    "ts": "2026-11-15T00:22:28.111478",
-    "canales": {
-      "whatsapp": "2026-11-15T00:22:28.111478"
-    },
-    "precio": 869.0,
-    "precios_publicados": [
-      869.0
-    ]
-  },
-  "amz-007-first-light-specialist-edition-exclusivo-": {
-    "ts": "2026-11-15T00:30:09.882411",
-    "canales": {
-      "whatsapp": "2026-11-15T00:30:09.882411"
-    },
-    "precio": 239.0,
-    "precios_publicados": [
-      239.0
-    ]
-  },
   "amz-notebook-vaio-fe16-amd-ryzen-55625u-16gb-ram-": {
     "ts": "2026-11-15T00:39:21.527463",
     "canales": {
@@ -3371,6 +3351,16 @@
     "precio": 448.0,
     "precios_publicados": [
       448.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-17T00:31:14.459556",
+    "canales": {
+      "whatsapp": "2026-11-17T00:31:14.459556"
+    },
+    "precio": 1449.0,
+    "precios_publicados": [
+      1449.0
     ]
   }
 }
