@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-kingston-kf432c16bbk216-kit-de-memorias-de-16": {
-    "ts": "2026-11-15T22:48:09.511874",
-    "canales": {
-      "whatsapp": "2026-11-15T22:48:09.511874"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
     "ts": "2026-11-15T22:57:28.326508",
     "canales": {
@@ -3055,6 +3045,16 @@
     "precio": 119.0,
     "precios_publicados": [
       119.0
+    ]
+  },
+  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
+    "ts": "2026-11-17T22:51:56.330519",
+    "canales": {
+      "whatsapp": "2026-11-17T22:51:56.330519"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
