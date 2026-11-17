@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-15T09:15:24.012684",
-    "canales": {
-      "whatsapp": "2026-11-15T09:15:24.012684"
-    },
-    "precio": 1599.0,
-    "precios_publicados": [
-      1599.0
-    ]
-  },
   "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
     "ts": "2026-11-15T09:22:19.001111",
     "canales": {
@@ -3321,6 +3311,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
+    "ts": "2026-11-17T09:15:33.179559",
+    "canales": {
+      "whatsapp": "2026-11-17T09:15:33.179559"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
