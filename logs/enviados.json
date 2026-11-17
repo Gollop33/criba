@@ -109,16 +109,17 @@
     "precio_min_publicado": 519899.0
   },
   "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-16T04:04:30.768238",
+    "ts": "2026-11-17T14:13:11.777433",
     "canales": {
-      "whatsapp": "2026-11-16T04:04:30.768238"
+      "whatsapp": "2026-11-17T14:13:11.777433"
     },
     "precio": 899.0,
     "precios_publicados": [
       89900.0,
+      899.0,
       899.0
     ],
-    "precio_min_publicado": 89900.0
+    "precio_min_publicado": 899.0
   },
   "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
     "ts": "2026-11-16T12:19:19.707355",
@@ -131,16 +132,6 @@
       1474.0
     ],
     "precio_min_publicado": 1698.0
-  },
-  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
-    "ts": "2026-11-15T14:09:39.420806",
-    "canales": {
-      "whatsapp": "2026-11-15T14:09:39.420806"
-    },
-    "precio": 1579.0,
-    "precios_publicados": [
-      1579.0
-    ]
   },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-11-15T14:19:11.021089",
