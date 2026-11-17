@@ -157,26 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-notebook-2-em-1-positivo-duo-intel-celeron-n4": {
-    "ts": "2026-11-15T20:26:03.063128",
-    "canales": {
-      "whatsapp": "2026-11-15T20:26:03.063128"
-    },
-    "precio": 1532.0,
-    "precios_publicados": [
-      1532.0
-    ]
-  },
-  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
-    "ts": "2026-11-15T20:28:24.584520",
-    "canales": {
-      "whatsapp": "2026-11-15T20:28:24.584520"
-    },
-    "precio": 799.0,
-    "precios_publicados": [
-      799.0
-    ]
-  },
   "amz-controle-sem-fio-xbox-cabo-usb": {
     "ts": "2026-11-15T20:35:55.295676",
     "canales": {
@@ -3083,6 +3063,16 @@
     "precio": 420.0,
     "precios_publicados": [
       420.0
+    ]
+  },
+  "amz-the-legend-of-zelda-ocarina-of-time-nintendo-": {
+    "ts": "2026-11-17T20:32:57.040306",
+    "canales": {
+      "whatsapp": "2026-11-17T20:32:57.040306"
+    },
+    "precio": 439.0,
+    "precios_publicados": [
+      439.0
     ]
   }
 }
