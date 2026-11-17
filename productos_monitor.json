@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-17T03:16:55+00:00",
-  "total": 15,
+  "actualizado": "2026-11-17T08:46:50+00:00",
+  "total": 14,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
       "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
@@ -17,15 +17,7 @@
       "precio_ref": 69.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
-    },
-    {
-      "busqueda": "danos vorazes oleo reparador 50ml lola cosmetics pontas",
-      "nombre": "Danos Vorazes Óleo Reparador 50ml , Lola Cosmetics | Pontas nutridas e reparação",
-      "precio_ref": 16.89,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -33,7 +25,7 @@
       "precio_ref": 76.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -41,7 +33,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -49,79 +41,79 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
-      "busqueda": "esponja esfrelux com formato protetor de unha",
-      "nombre": "Esponja Esfrelux com Formato Protetor de Unha",
-      "precio_ref": 2.53,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
+      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
+      "precio_ref": 59.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
-      "busqueda": "lampada osram standard 7528 p21 5 original",
-      "nombre": "Lâmpada Osram Standard 7528 P21/5 - Original",
-      "precio_ref": 10.8,
+      "busqueda": "sabonete em barra nivea creme care 90g pack",
+      "nombre": "Sabonete em Barra NIVEA Creme Care, 90g, Pack com 6 Unidades | Com Glicerina, Fragrância NIVEA Creme, Com Eucerit",
+      "precio_ref": 16.79,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+    },
+    {
+      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
+      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g | Alívio imediato da sensibilidade",
+      "precio_ref": 29.99,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+    },
+    {
+      "busqueda": "mochila lenovo casual b210 preta para notebook 15",
+      "nombre": "Mochila Lenovo Casual B210 Preta para Notebook 15,6\" - GX40Q17225",
+      "precio_ref": 74.26,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+    },
+    {
+      "busqueda": "mondial ventilador de mesa 30cm super power preto",
+      "nombre": "MONDIAL Ventilador de Mesa 30cm Super Power, Preto, 60W, 220V - VSP-30-B",
+      "precio_ref": 79.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+    },
+    {
+      "busqueda": "sanduicheira eletrica cadence click 127v",
+      "nombre": "Sanduicheira Elétrica Cadence Click - 127V",
+      "precio_ref": 94.63,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
+      "precio_ref": 1441.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
-      "busqueda": "delet 500ml remove pretinho antigo devolve originalidade da",
-      "nombre": "DELET 500ML | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação Rápida em Sujeira Severa, Prepara Pneu para Nov",
-      "precio_ref": 25.36,
-      "categoria": "Automotivo",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
-    },
-    {
-      "busqueda": "kit lavagem completa shampoo cera tok final intense",
-      "nombre": "Kit Lavagem Completa Shampoo Cera Tok Final Intense Sintra Fast Pneu Pretinho Acessórios",
-      "precio_ref": 139.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
-    },
-    {
-      "busqueda": "aspirador de po portatil sem fio 120w alta",
-      "nombre": "Aspirador de Pó Portátil Sem Fio, 120W Alta Potência com Sucção Poderosa, Uso Seco/Úmido, Recarregável, para Carros e Casa, F",
-      "precio_ref": 120.29,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
-    },
-    {
-      "busqueda": "kit shampoo v floc cera tok final revitalizador",
-      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
-      "precio_ref": 94.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
-    },
-    {
-      "busqueda": "ghost of tsushima versao do diretor playstation 5",
-      "nombre": "Ghost of Tsushima Versão Do Diretor - PlayStation 5",
-      "precio_ref": 267.99,
+      "busqueda": "bundle gta vi playstation 5 slim digital 825",
+      "nombre": "Bundle GTA VI + PlayStation 5 Slim Digital 825 GB - Pacote Astro Bot e Gran Turismo 7",
+      "precio_ref": 4908.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     },
     {
-      "busqueda": "placa mae asus tuf gaming b550m plus am4",
-      "nombre": "Placa-Mãe ASUS TUF Gaming B550M-PLUS AM4 mATX — Suporte Ryzen, PCIe 4.0, M.2 NVMe, DDR4, HDMI/DP, LAN Gigabit, Durabilidade M",
-      "precio_ref": 782.1,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
+      "precio_ref": 1889.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
-    },
-    {
-      "busqueda": "gabinete gamer redragon wideload pro ca 604b pro",
-      "nombre": "Gabinete Gamer Redragon Wideload Pro CA-604B-PRO",
-      "precio_ref": 318.97,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T03:16:55+00:00"
+      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
     }
   ]
 }
