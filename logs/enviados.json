@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
-    "ts": "2026-11-15T19:33:30.456008",
-    "canales": {
-      "whatsapp": "2026-11-15T19:33:30.456008"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
     "ts": "2026-11-15T19:38:55.860213",
     "canales": {
@@ -3083,6 +3073,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-11-17T19:35:57.058488",
+    "canales": {
+      "whatsapp": "2026-11-17T19:35:57.058488"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
