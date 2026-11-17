@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 1698.0
   },
-  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
-    "ts": "2026-11-15T14:54:36.553258",
-    "canales": {
-      "whatsapp": "2026-11-15T14:54:36.553258"
-    },
-    "precio": 1428.0,
-    "precios_publicados": [
-      1428.0
-    ]
-  },
   "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
     "ts": "2026-11-15T15:04:22.214827",
     "canales": {
@@ -2983,6 +2973,16 @@
     "precio": 1499.0,
     "precios_publicados": [
       1499.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
+    "ts": "2026-11-17T14:55:01.328844",
+    "canales": {
+      "whatsapp": "2026-11-17T14:55:01.328844"
+    },
+    "precio": 3148.0,
+    "precios_publicados": [
+      3148.0
     ]
   }
 }
