@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
-    "ts": "2026-11-15T09:43:11.291086",
-    "canales": {
-      "whatsapp": "2026-11-15T09:43:11.291086"
-    },
-    "precio": 5660.0,
-    "precios_publicados": [
-      5660.0
-    ]
-  },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
     "ts": "2026-11-15T09:50:28.340746",
     "canales": {
@@ -3331,6 +3321,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
+    "ts": "2026-11-17T09:50:22.011494",
+    "canales": {
+      "whatsapp": "2026-11-17T09:50:22.011494"
+    },
+    "precio": 1441.0,
+    "precios_publicados": [
+      1441.0
     ]
   }
 }
