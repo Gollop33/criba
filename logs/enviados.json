@@ -133,26 +133,6 @@
     ],
     "precio_min_publicado": 519899.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-15T03:08:34.789424",
-    "canales": {
-      "whatsapp": "2026-11-15T03:08:34.789424"
-    },
-    "precio": 3469.0,
-    "precios_publicados": [
-      3469.0
-    ]
-  },
-  "amz-notebook-dell-inspiron-15i1300a80p-intel-core": {
-    "ts": "2026-11-15T03:15:27.337505",
-    "canales": {
-      "whatsapp": "2026-11-15T03:15:27.337505"
-    },
-    "precio": 5948.0,
-    "precios_publicados": [
-      5948.0
-    ]
-  },
   "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
     "ts": "2026-11-15T03:22:30.957407",
     "canales": {
@@ -1550,14 +1530,16 @@
     ]
   },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
-    "ts": "2026-11-15T21:29:16.477409",
+    "ts": "2026-11-17T03:17:07.710775",
     "canales": {
-      "whatsapp": "2026-11-15T21:29:16.477409"
+      "whatsapp": "2026-11-17T03:17:07.710775"
     },
-    "precio": 92.0,
+    "precio": 76.0,
     "precios_publicados": [
-      92.0
-    ]
+      92.0,
+      76.0
+    ],
+    "precio_min_publicado": 92.0
   },
   "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
     "ts": "2026-11-15T21:34:15.039438",
