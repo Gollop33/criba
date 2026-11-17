@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-11-15T19:38:55.860213",
-    "canales": {
-      "whatsapp": "2026-11-15T19:38:55.860213"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "amz-dove-oleo-serum-bifasico-bond-intense-repair-": {
     "ts": "2026-11-15T19:42:00.621446",
     "canales": {
@@ -3083,6 +3073,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-esponja-scotch-brite-nao-risca-c3-azul-nao-ri": {
+    "ts": "2026-11-17T19:39:22.207199",
+    "canales": {
+      "whatsapp": "2026-11-17T19:39:22.207199"
+    },
+    "precio": 6.0,
+    "precios_publicados": [
+      6.0
     ]
   }
 }
