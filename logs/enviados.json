@@ -133,26 +133,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
-    "ts": "2026-11-15T09:29:26.042676",
-    "canales": {
-      "whatsapp": "2026-11-15T09:29:26.042676"
-    },
-    "precio": 649.0,
-    "precios_publicados": [
-      649.0
-    ]
-  },
-  "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
-    "ts": "2026-11-15T09:36:22.448423",
-    "canales": {
-      "whatsapp": "2026-11-15T09:36:22.448423"
-    },
-    "precio": 829.0,
-    "precios_publicados": [
-      829.0
-    ]
-  },
   "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
     "ts": "2026-11-15T09:43:11.291086",
     "canales": {
@@ -3331,6 +3311,16 @@
     "precio": 74.0,
     "precios_publicados": [
       74.0
+    ]
+  },
+  "amz-sanduicheira-eletrica-cadence-click-127v": {
+    "ts": "2026-11-17T09:36:25.219860",
+    "canales": {
+      "whatsapp": "2026-11-17T09:36:25.219860"
+    },
+    "precio": 94.0,
+    "precios_publicados": [
+      94.0
     ]
   }
 }
