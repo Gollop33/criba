@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-celular-galaxy-a27-5g-128gb-camera-tripla-de-": {
-    "ts": "2026-11-15T20:08:30.714770",
-    "canales": {
-      "whatsapp": "2026-11-15T20:08:30.714770"
-    },
-    "precio": 1419.0,
-    "precios_publicados": [
-      1419.0
-    ]
-  },
   "amz-monitor-samsung-24-fhd-ajuste-de-altura-100hz": {
     "ts": "2026-11-15T20:13:20.533585",
     "canales": {
@@ -3073,6 +3063,16 @@
     "precio": 73.0,
     "precios_publicados": [
       73.0
+    ]
+  },
+  "amz-apple-iphone-17e-de-256-gb-preto": {
+    "ts": "2026-11-17T20:12:34.367148",
+    "canales": {
+      "whatsapp": "2026-11-17T20:12:34.367148"
+    },
+    "precio": 4763.0,
+    "precios_publicados": [
+      4763.0
     ]
   }
 }
