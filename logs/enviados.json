@@ -145,16 +145,6 @@
     ],
     "precio_min_publicado": 29.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-15T16:35:18.400361",
-    "canales": {
-      "whatsapp": "2026-11-15T16:35:18.400361"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-11-15T16:43:28.243210",
     "canales": {
@@ -2993,6 +2983,16 @@
     "precio": 303.0,
     "precios_publicados": [
       303.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
+    "ts": "2026-11-17T16:38:14.240487",
+    "canales": {
+      "whatsapp": "2026-11-17T16:38:14.240487"
+    },
+    "precio": 887.0,
+    "precios_publicados": [
+      887.0
     ]
   }
 }
