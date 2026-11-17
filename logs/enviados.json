@@ -145,26 +145,6 @@
     ],
     "precio_min_publicado": 29.0
   },
-  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-11-15T15:29:48.677394",
-    "canales": {
-      "whatsapp": "2026-11-15T15:29:48.677394"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
-  "amz-morte-subita-mascara-super-hidratante-450g-lo": {
-    "ts": "2026-11-15T15:33:16.259709",
-    "canales": {
-      "whatsapp": "2026-11-15T15:33:16.259709"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-11-15T15:43:02.179885",
     "canales": {
@@ -3013,6 +2993,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
+    "ts": "2026-11-17T15:35:36.359973",
+    "canales": {
+      "whatsapp": "2026-11-17T15:35:36.359973"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
