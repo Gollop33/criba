@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-17T10:29:12+00:00",
-  "total": 9,
+  "actualizado": "2026-11-17T10:36:22+00:00",
+  "total": 8,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -17,7 +17,7 @@
       "precio_ref": 76.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
@@ -25,7 +25,7 @@
       "precio_ref": 69.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -33,7 +33,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -41,15 +41,7 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
-    },
-    {
-      "busqueda": "colgate tripla acao menta original creme dental 6x90g",
-      "nombre": "Colgate Tripla Ação Menta Original Creme Dental, 6x90g",
-      "precio_ref": 22.09,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "bundle nintendo switch 2 ea sports fc 27",
@@ -57,7 +49,7 @@
       "precio_ref": 4199.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "playstation5 pro",
@@ -65,7 +57,7 @@
       "precio_ref": 7399.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
@@ -73,7 +65,7 @@
       "precio_ref": 829.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T10:29:12+00:00"
+      "monitorizado_desde": "2026-11-17T10:36:22+00:00"
     }
   ]
 }

@@ -120,16 +120,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-keldog-bifinho-evolutivo-criadores-churrasco-": {
-    "ts": "2026-11-15T10:36:27.262828",
-    "canales": {
-      "whatsapp": "2026-11-15T10:36:27.262828"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
     "ts": "2026-11-15T10:43:37.577295",
     "canales": {
@@ -3308,6 +3298,16 @@
     "precio": 22.0,
     "precios_publicados": [
       22.0
+    ]
+  },
+  "amz-bundle-nintendo-switch-2-ea-sports-fc-27": {
+    "ts": "2026-11-17T10:36:31.139109",
+    "canales": {
+      "whatsapp": "2026-11-17T10:36:31.139109"
+    },
+    "precio": 4199.0,
+    "precios_publicados": [
+      4199.0
     ]
   }
 }
