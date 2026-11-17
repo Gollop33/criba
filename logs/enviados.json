@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-11-15T17:06:58.210644",
-    "canales": {
-      "whatsapp": "2026-11-15T17:06:58.210644"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-lirios-do-campo-3": {
     "ts": "2026-11-15T17:50:08.356524",
     "canales": {
@@ -2983,6 +2973,16 @@
     "precio": 336.0,
     "precios_publicados": [
       336.0
+    ]
+  },
+  "amz-roteador-wifi-mesh-intelbras-twibi-force-ax": {
+    "ts": "2026-11-17T17:07:31.465308",
+    "canales": {
+      "whatsapp": "2026-11-17T17:07:31.465308"
+    },
+    "precio": 197.0,
+    "precios_publicados": [
+      197.0
     ]
   }
 }
