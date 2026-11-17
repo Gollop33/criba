@@ -157,26 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-tota": {
-    "ts": "2026-11-15T18:23:05.162390",
-    "canales": {
-      "whatsapp": "2026-11-15T18:23:05.162390"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
-  "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-11-15T18:26:43.008002",
-    "canales": {
-      "whatsapp": "2026-11-15T18:26:43.008002"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-liquido-brisa-int": {
     "ts": "2026-11-15T18:31:25.526727",
     "canales": {
@@ -3083,6 +3063,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
+    "ts": "2026-11-17T18:30:19.684044",
+    "canales": {
+      "whatsapp": "2026-11-17T18:30:19.684044"
+    },
+    "precio": 31.0,
+    "precios_publicados": [
+      31.0
     ]
   }
 }
