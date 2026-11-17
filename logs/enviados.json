@@ -168,26 +168,6 @@
     ],
     "precio_min_publicado": 7490.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
-    "ts": "2026-11-15T22:12:49.270324",
-    "canales": {
-      "whatsapp": "2026-11-15T22:12:49.270324"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
-  "amz-placa-de-video-asrock-radeon-rx-7600-challeng": {
-    "ts": "2026-11-15T22:16:10.356903",
-    "canales": {
-      "whatsapp": "2026-11-15T22:16:10.356903"
-    },
-    "precio": 2199.0,
-    "precios_publicados": [
-      2199.0
-    ]
-  },
   "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
     "ts": "2026-11-15T22:22:29.306530",
     "canales": {
@@ -3054,6 +3034,16 @@
     "precio": 1419.0,
     "precios_publicados": [
       1419.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
+    "ts": "2026-11-17T22:18:28.238177",
+    "canales": {
+      "whatsapp": "2026-11-17T22:18:28.238177"
+    },
+    "precio": 998.0,
+    "precios_publicados": [
+      998.0
     ]
   }
 }
