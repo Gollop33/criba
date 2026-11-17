@@ -5,19 +5,6 @@
       "whatsapp": "2026-11-17T00:17:31.475220"
     }
   },
-  "amz-viva-verde-areia-higienica-biodegradavel-para": {
-    "ts": "2026-11-15T03:50:59.566914",
-    "canales": {
-      "whatsapp": "2026-11-15T03:50:59.566914"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      59.0,
-      45.0,
-      45.0
-    ],
-    "precio_min_publicado": 45.0
-  },
   "amz-colgate-tripla-acao-menta-original-creme-dent": {
     "ts": "2026-11-15T10:22:01.836420",
     "canales": {
@@ -3373,6 +3360,16 @@
     "precio": 2.0,
     "precios_publicados": [
       2.0
+    ]
+  },
+  "amz-lampada-osram-standard-7528-p215-original": {
+    "ts": "2026-11-17T04:15:36.572941",
+    "canales": {
+      "whatsapp": "2026-11-17T04:15:36.572941"
+    },
+    "precio": 10.0,
+    "precios_publicados": [
+      10.0
     ]
   }
 }
