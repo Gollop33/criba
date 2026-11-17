@@ -121,16 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-smart-tv-lg-43-4k-uhd-nano-ai-43un85cbpsaawz": {
-    "ts": "2026-11-15T00:00:24.012969",
-    "canales": {
-      "whatsapp": "2026-11-15T00:00:24.012969"
-    },
-    "precio": 1649.0,
-    "precios_publicados": [
-      1649.0
-    ]
-  },
   "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
     "ts": "2026-11-15T00:06:11.929968",
     "canales": {
@@ -3351,6 +3341,16 @@
     "precio": 408.0,
     "precios_publicados": [
       408.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
+    "ts": "2026-11-17T00:03:06.935430",
+    "canales": {
+      "whatsapp": "2026-11-17T00:03:06.935430"
+    },
+    "precio": 3332.0,
+    "precios_publicados": [
+      3332.0
     ]
   }
 }
