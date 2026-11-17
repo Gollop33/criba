@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 7490.0
   },
-  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
-    "ts": "2026-11-15T22:22:29.306530",
-    "canales": {
-      "whatsapp": "2026-11-15T22:22:29.306530"
-    },
-    "precio": 3588.0,
-    "precios_publicados": [
-      3588.0
-    ]
-  },
   "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
     "ts": "2026-11-15T22:31:34.887894",
     "canales": {
@@ -3044,6 +3034,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
+    "ts": "2026-11-17T22:23:37.464680",
+    "canales": {
+      "whatsapp": "2026-11-17T22:23:37.464680"
+    },
+    "precio": 2110.0,
+    "precios_publicados": [
+      2110.0
     ]
   }
 }
