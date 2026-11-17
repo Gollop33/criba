@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-11-15T18:31:25.526727",
-    "canales": {
-      "whatsapp": "2026-11-15T18:31:25.526727"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-colgate-total-original-mint-creme-dental-com-": {
     "ts": "2026-11-15T18:40:13.348504",
     "canales": {
@@ -3073,6 +3063,16 @@
     "precio": 31.0,
     "precios_publicados": [
       31.0
+    ]
+  },
+  "amz-cif-limpador-especialista-derrete-gordura-500": {
+    "ts": "2026-11-17T18:36:09.730218",
+    "canales": {
+      "whatsapp": "2026-11-17T18:36:09.730218"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
