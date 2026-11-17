@@ -156,26 +156,6 @@
     ],
     "precio_min_publicado": 92.0
   },
-  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
-    "ts": "2026-11-15T22:00:13.072244",
-    "canales": {
-      "whatsapp": "2026-11-15T22:00:13.072244"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
-  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
-    "ts": "2026-11-15T22:02:45.928607",
-    "canales": {
-      "whatsapp": "2026-11-15T22:02:45.928607"
-    },
-    "precio": 1139.0,
-    "precios_publicados": [
-      1139.0
-    ]
-  },
   "amz-creatina-monohidratada-1kg-100-pura-importada": {
     "ts": "2026-11-16T22:10:28.197557",
     "canales": {
@@ -1495,14 +1475,16 @@
     ]
   },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
-    "ts": "2026-11-16T22:01:58.548512",
+    "ts": "2026-11-17T22:06:38.481148",
     "canales": {
-      "whatsapp": "2026-11-16T22:01:58.548512"
+      "whatsapp": "2026-11-17T22:06:38.481148"
     },
-    "precio": 599.0,
+    "precio": 537.0,
     "precios_publicados": [
-      599.0
-    ]
+      599.0,
+      537.0
+    ],
+    "precio_min_publicado": 599.0
   },
   "amz-monitor-portatil-156-full-hd-1080p-ips-60hz-u": {
     "ts": "2026-11-16T22:08:03.558174",
