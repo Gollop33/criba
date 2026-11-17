@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 7490.0
   },
-  "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
-    "ts": "2026-11-15T22:31:34.887894",
-    "canales": {
-      "whatsapp": "2026-11-15T22:31:34.887894"
-    },
-    "precio": 818.0,
-    "precios_publicados": [
-      818.0
-    ]
-  },
   "amz-air-cooler-gamerstorm-x-redragon-ak400-rd-pre": {
     "ts": "2026-11-15T22:36:14.300905",
     "canales": {
@@ -3064,6 +3054,16 @@
     "precio": 27900.0,
     "precios_publicados": [
       27900.0
+    ]
+  },
+  "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
+    "ts": "2026-11-17T22:35:55.898821",
+    "canales": {
+      "whatsapp": "2026-11-17T22:35:55.898821"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
