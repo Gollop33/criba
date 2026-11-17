@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-11-15T22:45:31.557953",
-    "canales": {
-      "whatsapp": "2026-11-15T22:45:31.557953"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
   "amz-kingston-kf432c16bbk216-kit-de-memorias-de-16": {
     "ts": "2026-11-15T22:48:09.511874",
     "canales": {
@@ -3055,6 +3045,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-street-fighter-6-year-1-2-fighters-edition-pl": {
+    "ts": "2026-11-17T22:46:20.376463",
+    "canales": {
+      "whatsapp": "2026-11-17T22:46:20.376463"
+    },
+    "precio": 119.0,
+    "precios_publicados": [
+      119.0
     ]
   }
 }
