@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-17T08:46:50+00:00",
+  "actualizado": "2026-11-17T08:50:07+00:00",
   "total": 14,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
@@ -17,7 +17,7 @@
       "precio_ref": 69.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "wap aspirador de po automotivo car 12v2 portatil",
@@ -25,7 +25,7 @@
       "precio_ref": 76.67,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -33,7 +33,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -41,15 +41,7 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
-      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
-      "precio_ref": 59.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "sabonete em barra nivea creme care 90g pack",
@@ -57,7 +49,7 @@
       "precio_ref": 16.79,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
@@ -65,23 +57,15 @@
       "precio_ref": 29.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
-      "busqueda": "mochila lenovo casual b210 preta para notebook 15",
-      "nombre": "Mochila Lenovo Casual B210 Preta para Notebook 15,6\" - GX40Q17225",
-      "precio_ref": 74.26,
-      "categoria": "Notebooks & PCs",
+      "busqueda": "mouse sem fio logitech m240 com conexao bluetooth",
+      "nombre": "Mouse Sem Fio Logitech M240 com Conexão Bluetooth, Clique Silencioso, Design Ambidestro Compacto, Bateria de 18 Meses, Compat",
+      "precio_ref": 59.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
-    },
-    {
-      "busqueda": "mondial ventilador de mesa 30cm super power preto",
-      "nombre": "MONDIAL Ventilador de Mesa 30cm Super Power, Preto, 60W, 220V - VSP-30-B",
-      "precio_ref": 79.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "sanduicheira eletrica cadence click 127v",
@@ -89,7 +73,23 @@
       "precio_ref": 94.63,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
+    },
+    {
+      "busqueda": "mondial ventilador de mesa 30cm super power preto",
+      "nombre": "MONDIAL Ventilador de Mesa 30cm Super Power, Preto, 60W, 220V - VSP-30-B",
+      "precio_ref": 79.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
+    },
+    {
+      "busqueda": "mochila lenovo casual b210 preta para notebook 15",
+      "nombre": "Mochila Lenovo Casual B210 Preta para Notebook 15,6\" - GX40Q17225",
+      "precio_ref": 74.26,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
@@ -97,7 +97,7 @@
       "precio_ref": 1441.05,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "bundle gta vi playstation 5 slim digital 825",
@@ -105,7 +105,7 @@
       "precio_ref": 4908.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     },
     {
       "busqueda": "bundle nintendo switch oled super mario bros wonder",
@@ -113,7 +113,7 @@
       "precio_ref": 1889.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-17T08:46:50+00:00"
+      "monitorizado_desde": "2026-11-17T08:50:07+00:00"
     }
   ]
 }
