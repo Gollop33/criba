@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 519899.0
   },
-  "amz-samsung-smart-tv-65-crystal-uhd-4k-u8000h-262": {
-    "ts": "2026-11-15T01:13:48.428865",
-    "canales": {
-      "whatsapp": "2026-11-15T01:13:48.428865"
-    },
-    "precio": 3788.0,
-    "precios_publicados": [
-      3788.0
-    ]
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-15T01:23:24.321948",
     "canales": {
@@ -3391,6 +3381,16 @@
     "precio": 199.0,
     "precios_publicados": [
       199.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
+    "ts": "2026-11-17T01:18:06.930971",
+    "canales": {
+      "whatsapp": "2026-11-17T01:18:06.930971"
+    },
+    "precio": 1799.0,
+    "precios_publicados": [
+      1799.0
     ]
   }
 }
