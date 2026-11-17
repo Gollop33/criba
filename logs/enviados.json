@@ -120,26 +120,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
-    "ts": "2026-11-15T10:50:21.628441",
-    "canales": {
-      "whatsapp": "2026-11-15T10:50:21.628441"
-    },
-    "precio": 3148.0,
-    "precios_publicados": [
-      3148.0
-    ]
-  },
-  "amz-limpador-perfumado-veja-jasmin-do-caribe-2l-v": {
-    "ts": "2026-11-15T10:57:03.516999",
-    "canales": {
-      "whatsapp": "2026-11-15T10:57:03.516999"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-controle-sem-fio-playstation-dualsensetm-midn": {
     "ts": "2026-11-15T11:08:00.882043",
     "canales": {
@@ -3318,6 +3298,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
+    "ts": "2026-11-17T10:57:31.822010",
+    "canales": {
+      "whatsapp": "2026-11-17T10:57:31.822010"
+    },
+    "precio": 2304.0,
+    "precios_publicados": [
+      2304.0
     ]
   }
 }
