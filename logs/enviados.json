@@ -133,26 +133,6 @@
     ],
     "precio_min_publicado": 1698.0
   },
-  "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
-    "ts": "2026-11-15T14:38:12.343340",
-    "canales": {
-      "whatsapp": "2026-11-15T14:38:12.343340"
-    },
-    "precio": 928.0,
-    "precios_publicados": [
-      928.0
-    ]
-  },
-  "amz-conjunto-de-roteador-sem-fio-wifi-6-twibi-for": {
-    "ts": "2026-11-15T14:39:25.495879",
-    "canales": {
-      "whatsapp": "2026-11-15T14:39:25.495879"
-    },
-    "precio": 336.0,
-    "precios_publicados": [
-      336.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
     "ts": "2026-11-15T14:46:04.063123",
     "canales": {
@@ -2993,6 +2973,16 @@
     "precio": 939.0,
     "precios_publicados": [
       939.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-17T14:40:08.040604",
+    "canales": {
+      "whatsapp": "2026-11-17T14:40:08.040604"
+    },
+    "precio": 1174.0,
+    "precios_publicados": [
+      1174.0
     ]
   }
 }
