@@ -133,26 +133,6 @@
     ],
     "precio_min_publicado": 1698.0
   },
-  "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
-    "ts": "2026-11-15T14:46:04.063123",
-    "canales": {
-      "whatsapp": "2026-11-15T14:46:04.063123"
-    },
-    "precio": 699.0,
-    "precios_publicados": [
-      699.0
-    ]
-  },
-  "amz-the-legend-of-zelda-ocarina-of-time-nintendo-": {
-    "ts": "2026-11-15T14:47:30.024253",
-    "canales": {
-      "whatsapp": "2026-11-15T14:47:30.024253"
-    },
-    "precio": 439.0,
-    "precios_publicados": [
-      439.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-11-15T14:54:36.553258",
     "canales": {
@@ -2983,6 +2963,16 @@
     "precio": 1174.0,
     "precios_publicados": [
       1174.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
+    "ts": "2026-11-17T14:48:37.270938",
+    "canales": {
+      "whatsapp": "2026-11-17T14:48:37.270938"
+    },
+    "precio": 1717.0,
+    "precios_publicados": [
+      1717.0
     ]
   }
 }
