@@ -144,16 +144,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-11-15T21:20:39.004954",
-    "canales": {
-      "whatsapp": "2026-11-15T21:20:39.004954"
-    },
-    "precio": 105.0,
-    "precios_publicados": [
-      105.0
-    ]
-  },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
     "ts": "2026-11-17T03:17:07.710775",
     "canales": {
@@ -3062,6 +3052,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
+    "ts": "2026-11-17T21:29:12.958110",
+    "canales": {
+      "whatsapp": "2026-11-17T21:29:12.958110"
+    },
+    "precio": 46.0,
+    "precios_publicados": [
+      46.0
     ]
   }
 }
