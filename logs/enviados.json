@@ -145,16 +145,6 @@
     ],
     "precio_min_publicado": 29.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-15T16:17:45.730563",
-    "canales": {
-      "whatsapp": "2026-11-15T16:17:45.730563"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-finish-detergente-para-lava-loucas-em-po-700g": {
     "ts": "2026-11-15T16:21:19.506567",
     "canales": {
@@ -3013,6 +3003,16 @@
     "precio": 2353.0,
     "precios_publicados": [
       2353.0
+    ]
+  },
+  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
+    "ts": "2026-11-17T16:18:59.787080",
+    "canales": {
+      "whatsapp": "2026-11-17T16:18:59.787080"
+    },
+    "precio": 4799.0,
+    "precios_publicados": [
+      4799.0
     ]
   }
 }
