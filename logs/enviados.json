@@ -121,16 +121,6 @@
     ],
     "precio_min_publicado": 24.0
   },
-  "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
-    "ts": "2026-11-15T00:58:23.269492",
-    "canales": {
-      "whatsapp": "2026-11-15T00:58:23.269492"
-    },
-    "precio": 4696.0,
-    "precios_publicados": [
-      4696.0
-    ]
-  },
   "amz-notebook-acer-nitro-v-15-rtx-4050-ryzen-7-8gb": {
     "ts": "2026-11-16T20:56:42.239496",
     "canales": {
@@ -3371,6 +3361,16 @@
     "precio": 1449.0,
     "precios_publicados": [
       1449.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-11-17T00:58:38.384239",
+    "canales": {
+      "whatsapp": "2026-11-17T00:58:38.384239"
+    },
+    "precio": 422.0,
+    "precios_publicados": [
+      422.0
     ]
   }
 }
