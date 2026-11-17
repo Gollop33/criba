@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-playstation5-pro": {
-    "ts": "2026-11-15T09:57:16.771936",
-    "canales": {
-      "whatsapp": "2026-11-15T09:57:16.771936"
-    },
-    "precio": 7399.0,
-    "precios_publicados": [
-      7399.0
-    ]
-  },
   "amz-bundle-nintendo-switch-2-ea-sports-fc-27": {
     "ts": "2026-11-15T10:08:38.696424",
     "canales": {
@@ -3331,6 +3321,16 @@
     "precio": 4908.0,
     "precios_publicados": [
       4908.0
+    ]
+  },
+  "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
+    "ts": "2026-11-17T10:08:03.379323",
+    "canales": {
+      "whatsapp": "2026-11-17T10:08:03.379323"
+    },
+    "precio": 649.0,
+    "precios_publicados": [
+      649.0
     ]
   }
 }
