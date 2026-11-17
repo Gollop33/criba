@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-lavaroupas-em-po-omo-puro-cuidado-2kg-caixa": {
-    "ts": "2026-11-15T20:45:56.415919",
-    "canales": {
-      "whatsapp": "2026-11-15T20:45:56.415919"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
     "ts": "2026-11-15T20:49:15.228691",
     "canales": {
@@ -3085,6 +3075,16 @@
     "precio": 1529.0,
     "precios_publicados": [
       1529.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
+    "ts": "2026-11-17T20:47:34.843200",
+    "canales": {
+      "whatsapp": "2026-11-17T20:47:34.843200"
+    },
+    "precio": 928.0,
+    "precios_publicados": [
+      928.0
     ]
   }
 }
