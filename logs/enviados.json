@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 1800.0
   },
-  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-11-15T18:56:28.253194",
-    "canales": {
-      "whatsapp": "2026-11-15T18:56:28.253194"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
     "ts": "2026-11-15T19:01:10.335455",
     "canales": {
@@ -3093,6 +3083,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
+    "ts": "2026-11-17T18:57:03.982291",
+    "canales": {
+      "whatsapp": "2026-11-17T18:57:03.982291"
+    },
+    "precio": 2699.0,
+    "precios_publicados": [
+      2699.0
     ]
   }
 }
