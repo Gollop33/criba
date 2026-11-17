@@ -133,16 +133,6 @@
     ],
     "precio_min_publicado": 89900.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-15T09:50:28.340746",
-    "canales": {
-      "whatsapp": "2026-11-15T09:50:28.340746"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0
-    ]
-  },
   "amz-playstation5-pro": {
     "ts": "2026-11-15T09:57:16.771936",
     "canales": {
@@ -3331,6 +3321,16 @@
     "precio": 1441.0,
     "precios_publicados": [
       1441.0
+    ]
+  },
+  "amz-bundle-gta-vi-playstation-5-slim-digital-825-": {
+    "ts": "2026-11-17T09:57:02.774737",
+    "canales": {
+      "whatsapp": "2026-11-17T09:57:02.774737"
+    },
+    "precio": 4908.0,
+    "precios_publicados": [
+      4908.0
     ]
   }
 }
