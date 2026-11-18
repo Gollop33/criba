@@ -183,16 +183,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
-    "ts": "2026-11-16T06:51:28.901386",
-    "canales": {
-      "whatsapp": "2026-11-16T06:51:28.901386"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
     "ts": "2026-11-16T07:22:40.492084",
     "canales": {
@@ -3127,6 +3117,16 @@
     "precio": 118.0,
     "precios_publicados": [
       118.0
+    ]
+  },
+  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
+    "ts": "2026-11-18T07:14:17.862155",
+    "canales": {
+      "whatsapp": "2026-11-18T07:14:17.862155"
+    },
+    "precio": 699.0,
+    "precios_publicados": [
+      699.0
     ]
   }
 }
