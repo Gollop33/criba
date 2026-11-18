@@ -144,16 +144,6 @@
     ],
     "precio_min_publicado": 7990.0
   },
-  "amz-monitor-uhd-samsung-32-4k-hdmi-display-port-f": {
-    "ts": "2026-11-16T21:22:02.640119",
-    "canales": {
-      "whatsapp": "2026-11-16T21:22:02.640119"
-    },
-    "precio": 1185.0,
-    "precios_publicados": [
-      1185.0
-    ]
-  },
   "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
     "ts": "2026-11-16T21:28:19.448583",
     "canales": {
@@ -3256,6 +3246,16 @@
     "precio": 4297.0,
     "precios_publicados": [
       4297.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-24-fhd-120-hz-hdmi-pret": {
+    "ts": "2026-11-18T21:26:01.306486",
+    "canales": {
+      "whatsapp": "2026-11-18T21:26:01.306486"
+    },
+    "precio": 539.0,
+    "precios_publicados": [
+      539.0
     ]
   }
 }
