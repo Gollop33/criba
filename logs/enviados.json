@@ -18,19 +18,6 @@
     ],
     "precio_min_publicado": 20.0
   },
-  "amz-xiaomi-redmi-pad-2-11-8gb256gb-wifi-cinza-cin": {
-    "ts": "2026-11-16T17:50:25.932993",
-    "canales": {
-      "whatsapp": "2026-11-16T17:50:25.932993"
-    },
-    "precio": 1730.0,
-    "precios_publicados": [
-      167900.0,
-      1680.0,
-      1730.0
-    ],
-    "precio_min_publicado": 1680.0
-  },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-11-16T23:19:06.250558",
     "canales": {
@@ -146,46 +133,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
-    "ts": "2026-11-16T17:43:38.336763",
-    "canales": {
-      "whatsapp": "2026-11-16T17:43:38.336763"
-    },
-    "precio": 1097.0,
-    "precios_publicados": [
-      1097.0
-    ]
-  },
-  "amz-cafeteira-eletrica-electrolux-inox-filtro-per": {
-    "ts": "2026-11-16T17:57:32.147338",
-    "canales": {
-      "whatsapp": "2026-11-16T17:57:32.147338"
-    },
-    "precio": 239.0,
-    "precios_publicados": [
-      239.0
-    ]
-  },
-  "amz-powera-case-de-protecao-para-nintendo-switch-": {
-    "ts": "2026-11-16T18:08:32.855975",
-    "canales": {
-      "whatsapp": "2026-11-16T18:08:32.855975"
-    },
-    "precio": 171.0,
-    "precios_publicados": [
-      171.0
-    ]
-  },
-  "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
-    "ts": "2026-11-16T18:15:31.261979",
-    "canales": {
-      "whatsapp": "2026-11-16T18:15:31.261979"
-    },
-    "precio": 271.0,
-    "precios_publicados": [
-      271.0
-    ]
-  },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
     "ts": "2026-11-18T12:37:42.322661",
     "canales": {
@@ -197,76 +144,6 @@
       2168.0
     ],
     "precio_min_publicado": 2421.0
-  },
-  "amz-combo-teclado-e-mouse-sem-fio-logitech-mk235-": {
-    "ts": "2026-11-16T18:29:56.875685",
-    "canales": {
-      "whatsapp": "2026-11-16T18:29:56.875685"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
-  "amz-fritadeira-eletrica-sem-oleo-forno-oven-airfr": {
-    "ts": "2026-11-16T18:36:44.014829",
-    "canales": {
-      "whatsapp": "2026-11-16T18:36:44.014829"
-    },
-    "precio": 540.0,
-    "precios_publicados": [
-      540.0
-    ]
-  },
-  "amz-base-de-carregamento-do-dualsense-playstation": {
-    "ts": "2026-11-16T18:43:19.334862",
-    "canales": {
-      "whatsapp": "2026-11-16T18:43:19.334862"
-    },
-    "precio": 165.0,
-    "precios_publicados": [
-      165.0
-    ]
-  },
-  "amz-playstation5-slim-digital-825gb-pacote-astro-": {
-    "ts": "2026-11-16T18:50:27.022640",
-    "canales": {
-      "whatsapp": "2026-11-16T18:50:27.022640"
-    },
-    "precio": 4599.0,
-    "precios_publicados": [
-      4599.0
-    ]
-  },
-  "amz-notebook-dell-15-dc15i51334ua50-intel-i51334u": {
-    "ts": "2026-11-16T18:57:21.630852",
-    "canales": {
-      "whatsapp": "2026-11-16T18:57:21.630852"
-    },
-    "precio": 4191.0,
-    "precios_publicados": [
-      4191.0
-    ]
-  },
-  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
-    "ts": "2026-11-16T19:08:07.795755",
-    "canales": {
-      "whatsapp": "2026-11-16T19:08:07.795755"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
-    "ts": "2026-11-16T19:15:46.391802",
-    "canales": {
-      "whatsapp": "2026-11-16T19:15:46.391802"
-    },
-    "precio": 3039.0,
-    "precios_publicados": [
-      3039.0
-    ]
   },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-11-16T19:22:07.801840",
@@ -1267,14 +1144,16 @@
     ]
   },
   "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
-    "ts": "2026-11-17T10:57:31.822010",
+    "ts": "2026-11-18T19:16:48.542497",
     "canales": {
-      "whatsapp": "2026-11-17T10:57:31.822010"
+      "whatsapp": "2026-11-18T19:16:48.542497"
     },
-    "precio": 2304.0,
+    "precio": 15.0,
     "precios_publicados": [
-      2304.0
-    ]
+      2304.0,
+      15.0
+    ],
+    "precio_min_publicado": 2304.0
   },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-17T14:15:23.556590",
