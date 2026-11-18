@@ -144,16 +144,6 @@
     ],
     "precio_min_publicado": 7990.0
   },
-  "amz-grand-theft-auto-vi-playstation-5": {
-    "ts": "2026-11-16T21:56:00.131340",
-    "canales": {
-      "whatsapp": "2026-11-16T21:56:00.131340"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
     "ts": "2026-11-16T21:58:32.798970",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 220.0,
     "precios_publicados": [
       220.0
+    ]
+  },
+  "amz-apple-iphone-16-512-gb-preto": {
+    "ts": "2026-11-18T21:57:02.349151",
+    "canales": {
+      "whatsapp": "2026-11-18T21:57:02.349151"
+    },
+    "precio": 5499.0,
+    "precios_publicados": [
+      5499.0
     ]
   }
 }
