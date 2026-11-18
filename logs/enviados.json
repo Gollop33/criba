@@ -159,16 +159,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-panela-de-pressao-ceramic-life-pressure-42l-c": {
-    "ts": "2026-11-16T17:08:31.753025",
-    "canales": {
-      "whatsapp": "2026-11-16T17:08:31.753025"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
-  },
   "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
     "ts": "2026-11-16T17:15:01.241449",
     "canales": {
@@ -3283,6 +3273,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
+    "ts": "2026-11-18T17:11:47.905832",
+    "canales": {
+      "whatsapp": "2026-11-18T17:11:47.905832"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
