@@ -156,26 +156,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-11-16T23:30:31.084286",
-    "canales": {
-      "whatsapp": "2026-11-16T23:30:31.084286"
-    },
-    "precio": 576.0,
-    "precios_publicados": [
-      576.0
-    ]
-  },
-  "amz-shampoo-invigo-nutri-enrich-wella-professiona": {
-    "ts": "2026-11-16T23:36:13.430477",
-    "canales": {
-      "whatsapp": "2026-11-16T23:36:13.430477"
-    },
-    "precio": 117.0,
-    "precios_publicados": [
-      117.0
-    ]
-  },
   "amz-oster-cafeteira-oster-inox-compacta-075l-ocaf": {
     "ts": "2026-11-16T23:45:44.070316",
     "canales": {
@@ -3246,6 +3226,16 @@
     "precio": 2399.0,
     "precios_publicados": [
       2399.0
+    ]
+  },
+  "amz-stellar-blade-ps5": {
+    "ts": "2026-11-18T23:38:27.503018",
+    "canales": {
+      "whatsapp": "2026-11-18T23:38:27.503018"
+    },
+    "precio": 369.0,
+    "precios_publicados": [
+      369.0
     ]
   }
 }
