@@ -95,18 +95,6 @@
     ],
     "precio_min_publicado": 899.0
   },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-16T15:29:25.721868",
-    "canales": {
-      "whatsapp": "2026-11-16T15:29:25.721868"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      29.0,
-      24.0
-    ],
-    "precio_min_publicado": 29.0
-  },
   "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
     "ts": "2026-11-17T14:03:33.254841",
     "canales": {
@@ -3255,6 +3243,16 @@
     "precio": 4799.0,
     "precios_publicados": [
       4799.0
+    ]
+  },
+  "amz-fone-de-ouvido-headset-havit-fuxih3-plus-blac": {
+    "ts": "2026-11-18T15:33:39.828726",
+    "canales": {
+      "whatsapp": "2026-11-18T15:33:39.828726"
+    },
+    "precio": 169.0,
+    "precios_publicados": [
+      169.0
     ]
   }
 }
