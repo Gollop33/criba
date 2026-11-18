@@ -145,16 +145,6 @@
     ],
     "precio_min_publicado": 2421.0
   },
-  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-11-16T19:22:07.801840",
-    "canales": {
-      "whatsapp": "2026-11-16T19:22:07.801840"
-    },
-    "precio": 766.0,
-    "precios_publicados": [
-      766.0
-    ]
-  },
   "amz-notebook-acer-aspire-go-15-ag1551p34kt-intel-": {
     "ts": "2026-11-16T19:29:35.105435",
     "canales": {
@@ -1626,14 +1616,16 @@
     ]
   },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
-    "ts": "2026-11-17T18:49:13.266365",
+    "ts": "2026-11-18T19:25:01.949803",
     "canales": {
-      "whatsapp": "2026-11-17T18:49:13.266365"
+      "whatsapp": "2026-11-18T19:25:01.949803"
     },
-    "precio": 23.0,
+    "precio": 17.0,
     "precios_publicados": [
-      23.0
-    ]
+      23.0,
+      17.0
+    ],
+    "precio_min_publicado": 23.0
   },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-11-17T18:51:01.918204",
