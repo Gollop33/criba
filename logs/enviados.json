@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-oster-cafeteira-oster-inox-compacta-075l-ocaf": {
-    "ts": "2026-11-16T23:45:44.070316",
-    "canales": {
-      "whatsapp": "2026-11-16T23:45:44.070316"
-    },
-    "precio": 109.0,
-    "precios_publicados": [
-      109.0
-    ]
-  },
   "amz-monitor-gamer-samsung-odyssey-g5-27-resolucao": {
     "ts": "2026-11-16T23:52:47.141331",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 1685.0,
     "precios_publicados": [
       1685.0
+    ]
+  },
+  "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
+    "ts": "2026-11-18T23:48:13.371840",
+    "canales": {
+      "whatsapp": "2026-11-18T23:48:13.371840"
+    },
+    "precio": 525.0,
+    "precios_publicados": [
+      525.0
     ]
   }
 }
