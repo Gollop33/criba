@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-monitor-gamer-samsung-odyssey-g5-27-resolucao": {
-    "ts": "2026-11-16T23:52:47.141331",
-    "canales": {
-      "whatsapp": "2026-11-16T23:52:47.141331"
-    },
-    "precio": 1039.0,
-    "precios_publicados": [
-      1039.0
-    ]
-  },
   "amz-air-fryer-oven-philco-12l-1800w-4-em-1-pfr220": {
     "ts": "2026-11-16T23:59:07.997753",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 525.0,
     "precios_publicados": [
       525.0
+    ]
+  },
+  "amz-monitor-portatil-156-full-hd-1080p-ips-60hz-u": {
+    "ts": "2026-11-18T23:53:53.628883",
+    "canales": {
+      "whatsapp": "2026-11-18T23:53:53.628883"
+    },
+    "precio": 379.0,
+    "precios_publicados": [
+      379.0
     ]
   }
 }
