@@ -183,16 +183,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
-    "ts": "2026-11-16T07:43:30.792735",
-    "canales": {
-      "whatsapp": "2026-11-16T07:43:30.792735"
-    },
-    "precio": 84.0,
-    "precios_publicados": [
-      84.0
-    ]
-  },
   "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
     "ts": "2026-11-16T08:21:05.824492",
     "canales": {
@@ -3127,6 +3117,16 @@
     "precio": 2199.0,
     "precios_publicados": [
       2199.0
+    ]
+  },
+  "amz-electrolux-purificador-de-agua-gelada-fria-e-": {
+    "ts": "2026-11-18T07:59:44.480868",
+    "canales": {
+      "whatsapp": "2026-11-18T07:59:44.480868"
+    },
+    "precio": 557.0,
+    "precios_publicados": [
+      557.0
     ]
   }
 }
