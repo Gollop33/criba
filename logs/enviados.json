@@ -157,26 +157,6 @@
     ],
     "precio_min_publicado": 537.0
   },
-  "amz-duracell-pilha-optimum-aa-pequena-com-12-unid": {
-    "ts": "2026-11-16T23:08:38.627284",
-    "canales": {
-      "whatsapp": "2026-11-16T23:08:38.627284"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
-  "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
-    "ts": "2026-11-16T23:10:08.956227",
-    "canales": {
-      "whatsapp": "2026-11-16T23:10:08.956227"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-bloodborne-hits-playstation-4": {
     "ts": "2026-11-16T23:24:11.382403",
     "canales": {
@@ -3259,6 +3239,16 @@
     "precio": 3949.0,
     "precios_publicados": [
       3949.0
+    ]
+  },
+  "amz-apple-iphone-17-de-256-gb-preto": {
+    "ts": "2026-11-18T23:12:42.348358",
+    "canales": {
+      "whatsapp": "2026-11-18T23:12:42.348358"
+    },
+    "precio": 5859.0,
+    "precios_publicados": [
+      5859.0
     ]
   }
 }
