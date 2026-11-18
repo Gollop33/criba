@@ -31,19 +31,6 @@
     ],
     "precio_min_publicado": 1680.0
   },
-  "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
-    "ts": "2026-11-16T17:36:34.260226",
-    "canales": {
-      "whatsapp": "2026-11-16T17:36:34.260226"
-    },
-    "precio": 249.0,
-    "precios_publicados": [
-      24990.0,
-      249.0,
-      249.0
-    ],
-    "precio_min_publicado": 249.0
-  },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-11-16T23:19:06.250558",
     "canales": {
@@ -3313,6 +3300,16 @@
     "precio": 109.0,
     "precios_publicados": [
       109.0
+    ]
+  },
+  "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
+    "ts": "2026-11-18T17:38:21.936146",
+    "canales": {
+      "whatsapp": "2026-11-18T17:38:21.936146"
+    },
+    "precio": 4169.0,
+    "precios_publicados": [
+      4169.0
     ]
   }
 }
