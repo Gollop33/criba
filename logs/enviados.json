@@ -144,26 +144,6 @@
     ],
     "precio_min_publicado": 7990.0
   },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-11-16T21:40:18.921237",
-    "canales": {
-      "whatsapp": "2026-11-16T21:40:18.921237"
-    },
-    "precio": 947.0,
-    "precios_publicados": [
-      947.0
-    ]
-  },
-  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
-    "ts": "2026-11-16T21:44:19.032960",
-    "canales": {
-      "whatsapp": "2026-11-16T21:44:19.032960"
-    },
-    "precio": 1519.0,
-    "precios_publicados": [
-      1519.0
-    ]
-  },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
     "ts": "2026-11-16T21:52:46.904289",
     "canales": {
@@ -3256,6 +3236,16 @@
     "precio": 749.0,
     "precios_publicados": [
       749.0
+    ]
+  },
+  "amz-monitor-philips-27-120hz-1ms-gaming-altofalan": {
+    "ts": "2026-11-18T21:47:02.218609",
+    "canales": {
+      "whatsapp": "2026-11-18T21:47:02.218609"
+    },
+    "precio": 589.0,
+    "precios_publicados": [
+      589.0
     ]
   }
 }
