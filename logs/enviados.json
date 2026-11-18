@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
-    "ts": "2026-11-16T00:10:11.434437",
-    "canales": {
-      "whatsapp": "2026-11-16T00:10:11.434437"
-    },
-    "precio": 498.0,
-    "precios_publicados": [
-      498.0
-    ]
-  },
   "amz-memoria-ddr4-xpg-gammix-d35-16gb-3200mhz-pret": {
     "ts": "2026-11-16T00:19:10.100368",
     "canales": {
@@ -3023,6 +3013,16 @@
     "precio": 959.0,
     "precios_publicados": [
       959.0
+    ]
+  },
+  "amz-echo-pop-geracao-mais-recente-smart-speaker-c": {
+    "ts": "2026-11-18T00:15:37.893364",
+    "canales": {
+      "whatsapp": "2026-11-18T00:15:37.893364"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
