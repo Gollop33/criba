@@ -159,16 +159,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-11-16T16:57:17.576071",
-    "canales": {
-      "whatsapp": "2026-11-16T16:57:17.576071"
-    },
-    "precio": 178.0,
-    "precios_publicados": [
-      178.0
-    ]
-  },
   "amz-panela-de-pressao-ceramic-life-pressure-42l-c": {
     "ts": "2026-11-16T17:08:31.753025",
     "canales": {
@@ -3283,6 +3273,16 @@
     "precio": 64.0,
     "precios_publicados": [
       64.0
+    ]
+  },
+  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
+    "ts": "2026-11-18T17:01:57.107391",
+    "canales": {
+      "whatsapp": "2026-11-18T17:01:57.107391"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
