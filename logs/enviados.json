@@ -181,46 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-notebook-dell-15-i15i1300a60p-intel-core-i513": {
-    "ts": "2026-11-15T23:43:14.298027",
-    "canales": {
-      "whatsapp": "2026-11-15T23:43:14.298027"
-    },
-    "precio": 4999.0,
-    "precios_publicados": [
-      4999.0
-    ]
-  },
-  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
-    "ts": "2026-11-15T23:50:16.627195",
-    "canales": {
-      "whatsapp": "2026-11-15T23:50:16.627195"
-    },
-    "precio": 663.0,
-    "precios_publicados": [
-      663.0
-    ]
-  },
-  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
-    "ts": "2026-11-15T23:53:47.418115",
-    "canales": {
-      "whatsapp": "2026-11-15T23:53:47.418115"
-    },
-    "precio": 387.0,
-    "precios_publicados": [
-      387.0
-    ]
-  },
-  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
-    "ts": "2026-11-15T23:58:27.357410",
-    "canales": {
-      "whatsapp": "2026-11-15T23:58:27.357410"
-    },
-    "precio": 315.0,
-    "precios_publicados": [
-      315.0
-    ]
-  },
   "amz-notebook-dell-15-dc15c3100a20-intel-core-3-10": {
     "ts": "2026-11-16T00:07:29.361260",
     "canales": {
@@ -3058,5 +3018,11 @@
     "precios_publicados": [
       49900.0
     ]
+  },
+  "cupom-ml-6e562d9ff7": {
+    "ts": "2026-11-18T00:01:51.968196",
+    "canales": {
+      "whatsapp": "2026-11-18T00:01:51.968196"
+    }
   }
 }
