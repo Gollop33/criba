@@ -145,16 +145,6 @@
     ],
     "precio_min_publicado": 2421.0
   },
-  "amz-notebook-samsung-galaxy-book4-intel-core-5120": {
-    "ts": "2026-11-16T19:43:35.432899",
-    "canales": {
-      "whatsapp": "2026-11-16T19:43:35.432899"
-    },
-    "precio": 3887.0,
-    "precios_publicados": [
-      3887.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
     "ts": "2026-11-16T19:50:32.866540",
     "canales": {
@@ -3191,6 +3181,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
+    "ts": "2026-11-18T19:44:54.324660",
+    "canales": {
+      "whatsapp": "2026-11-18T19:44:54.324660"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
