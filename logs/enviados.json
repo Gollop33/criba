@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-notebook-dell-15-dc15c3100a20-intel-core-3-10": {
-    "ts": "2026-11-16T00:07:29.361260",
-    "canales": {
-      "whatsapp": "2026-11-16T00:07:29.361260"
-    },
-    "precio": 4240.0,
-    "precios_publicados": [
-      4240.0
-    ]
-  },
   "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
     "ts": "2026-11-16T00:10:11.434437",
     "canales": {
@@ -3024,5 +3014,15 @@
     "canales": {
       "whatsapp": "2026-11-18T00:01:51.968196"
     }
+  },
+  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
+    "ts": "2026-11-18T00:08:42.449116",
+    "canales": {
+      "whatsapp": "2026-11-18T00:08:42.449116"
+    },
+    "precio": 959.0,
+    "precios_publicados": [
+      959.0
+    ]
   }
 }
