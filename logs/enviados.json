@@ -183,16 +183,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-stanley-copo-quencher-rose-quartz-887ml": {
-    "ts": "2026-11-16T03:40:21.616003",
-    "canales": {
-      "whatsapp": "2026-11-16T03:40:21.616003"
-    },
-    "precio": 147.0,
-    "precios_publicados": [
-      147.0
-    ]
-  },
   "amz-mondial-liquidificador-turbo-power-preto-550w": {
     "ts": "2026-11-16T04:32:55.543242",
     "canales": {
@@ -3077,6 +3067,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-colgate-total-antitartaro-creme-dental-com-fl": {
+    "ts": "2026-11-18T03:43:02.730826",
+    "canales": {
+      "whatsapp": "2026-11-18T03:43:02.730826"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
