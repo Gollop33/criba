@@ -159,16 +159,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-downy-amaciante-concentrado-perfume-collectio": {
-    "ts": "2026-11-16T15:57:22.182157",
-    "canales": {
-      "whatsapp": "2026-11-16T15:57:22.182157"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
     "ts": "2026-11-16T16:08:18.530139",
     "canales": {
@@ -3263,6 +3253,16 @@
     "precio": 299.0,
     "precios_publicados": [
       299.0
+    ]
+  },
+  "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
+    "ts": "2026-11-18T15:59:32.001814",
+    "canales": {
+      "whatsapp": "2026-11-18T15:59:32.001814"
+    },
+    "precio": 4699.0,
+    "precios_publicados": [
+      4699.0
     ]
   }
 }
