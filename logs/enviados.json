@@ -144,16 +144,6 @@
     ],
     "precio_min_publicado": 7990.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
-    "ts": "2026-11-16T21:05:41.203789",
-    "canales": {
-      "whatsapp": "2026-11-16T21:05:41.203789"
-    },
-    "precio": 2979.0,
-    "precios_publicados": [
-      2979.0
-    ]
-  },
   "amz-monitor-pc-gamer-lg-24-ips-100hz-full-hd-hdmi": {
     "ts": "2026-11-16T21:13:24.604353",
     "canales": {
@@ -3236,6 +3226,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
+    "ts": "2026-11-18T21:06:15.687355",
+    "canales": {
+      "whatsapp": "2026-11-18T21:06:15.687355"
+    },
+    "precio": 791.0,
+    "precios_publicados": [
+      791.0
     ]
   }
 }
