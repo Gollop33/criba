@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-memoria-ddr4-xpg-gammix-d35-16gb-3200mhz-pret": {
-    "ts": "2026-11-16T00:19:10.100368",
-    "canales": {
-      "whatsapp": "2026-11-16T00:19:10.100368"
-    },
-    "precio": 867.0,
-    "precios_publicados": [
-      867.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-16T00:28:25.309191",
     "canales": {
@@ -3023,6 +3013,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
+    "ts": "2026-11-18T00:22:21.722349",
+    "canales": {
+      "whatsapp": "2026-11-18T00:22:21.722349"
+    },
+    "precio": 498.0,
+    "precios_publicados": [
+      498.0
     ]
   }
 }
