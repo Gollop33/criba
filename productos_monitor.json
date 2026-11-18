@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T01:43:13+00:00",
+  "actualizado": "2026-11-18T01:50:17+00:00",
   "total": 11,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
@@ -17,7 +17,7 @@
       "precio_ref": 26.48,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
@@ -25,7 +25,7 @@
       "precio_ref": 17.56,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "petisco para gatos wanpy creamy sabores sortidos pacote",
@@ -33,7 +33,7 @@
       "precio_ref": 41.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
@@ -41,7 +41,7 @@
       "precio_ref": 5399.0,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -49,7 +49,7 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -57,31 +57,7 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
-      "precio_ref": 3134.95,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
-      "nombre": "Smartphone Motorola Razr 60-256GB 12GB RAM+12GB Ram Boost Tela dobrável 6,9\" pOLED e externa 3,6” Moto AI camera IP48 - Azul",
-      "precio_ref": 2999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
-    },
-    {
-      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
-      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
-      "precio_ref": 4770.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
@@ -89,7 +65,31 @@
       "precio_ref": 663.53,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
+      "nombre": "Smartphone Motorola Razr 60-256GB 12GB RAM+12GB Ram Boost Tela dobrável 6,9\" pOLED e externa 3,6” Moto AI camera IP48 - Azul",
+      "precio_ref": 2999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
+    },
+    {
+      "busqueda": "protetor solar facial neutrogena sun fresh derm care",
+      "nombre": "Protetor Solar Facial Neutrogena Sun Fresh Derm Care, Sem Cor, FPS 70, 40g | Pele Oleosa, Não Comedogênico, Antioxidante, Res",
+      "precio_ref": 4770.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
+      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
+      "precio_ref": 579.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-18T01:50:17+00:00"
     }
   ]
 }

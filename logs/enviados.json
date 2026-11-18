@@ -181,26 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-apple-iphone-16-512-gb-preto": {
-    "ts": "2026-11-16T01:44:57.440830",
-    "canales": {
-      "whatsapp": "2026-11-16T01:44:57.440830"
-    },
-    "precio": 5499.0,
-    "precios_publicados": [
-      5499.0
-    ]
-  },
-  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
-    "ts": "2026-11-16T01:47:46.955190",
-    "canales": {
-      "whatsapp": "2026-11-16T01:47:46.955190"
-    },
-    "precio": 499.0,
-    "precios_publicados": [
-      499.0
-    ]
-  },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
     "ts": "2026-11-16T01:52:18.957032",
     "canales": {
@@ -3013,6 +2993,16 @@
     "precio": 3134.0,
     "precios_publicados": [
       3134.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
+    "ts": "2026-11-18T01:50:26.813914",
+    "canales": {
+      "whatsapp": "2026-11-18T01:50:26.813914"
+    },
+    "precio": 663.0,
+    "precios_publicados": [
+      663.0
     ]
   }
 }
