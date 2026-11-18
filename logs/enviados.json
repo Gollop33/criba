@@ -157,16 +157,6 @@
     ],
     "precio_min_publicado": 537.0
   },
-  "amz-colgate-total-gengiva-saudavel-creme-dental-a": {
-    "ts": "2026-11-16T22:52:45.472704",
-    "canales": {
-      "whatsapp": "2026-11-16T22:52:45.472704"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-god-of-war-hits-playstation-4": {
     "ts": "2026-11-16T22:59:44.049187",
     "canales": {
@@ -1744,14 +1734,16 @@
     ]
   },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
-    "ts": "2026-11-17T22:56:40.156923",
+    "ts": "2026-11-18T22:58:26.288919",
     "canales": {
-      "whatsapp": "2026-11-17T22:56:40.156923"
+      "whatsapp": "2026-11-18T22:58:26.288919"
     },
-    "precio": 61.0,
+    "precio": 54.0,
     "precios_publicados": [
-      61.0
-    ]
+      61.0,
+      54.0
+    ],
+    "precio_min_publicado": 61.0
   },
   "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
     "ts": "2026-11-17T23:00:12.678591",
