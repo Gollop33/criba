@@ -182,16 +182,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-colgate-slim-soft-black-escova-de-dente-macia": {
-    "ts": "2026-11-16T02:01:23.075767",
-    "canales": {
-      "whatsapp": "2026-11-16T02:01:23.075767"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-bionature-areia-higienica-para-gatos-biodegra": {
     "ts": "2026-11-16T02:22:26.197001",
     "canales": {
@@ -967,14 +957,16 @@
     "precio_min_publicado": 579.0
   },
   "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
-    "ts": "2026-11-16T20:43:20.162056",
+    "ts": "2026-11-18T02:08:38.203936",
     "canales": {
-      "whatsapp": "2026-11-16T20:43:20.162056"
+      "whatsapp": "2026-11-18T02:08:38.203936"
     },
-    "precio": 7990.0,
+    "precio": 49.0,
     "precios_publicados": [
-      7990.0
-    ]
+      7990.0,
+      49.0
+    ],
+    "precio_min_publicado": 7990.0
   },
   "amz-notebook-asus-vivobook-15-amd-ryzen-7-16-gb-5": {
     "ts": "2026-11-16T21:01:16.970093",
