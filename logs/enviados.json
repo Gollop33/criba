@@ -181,16 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-11-16T00:28:25.309191",
-    "canales": {
-      "whatsapp": "2026-11-16T00:28:25.309191"
-    },
-    "precio": 3443.0,
-    "precios_publicados": [
-      3443.0
-    ]
-  },
   "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
     "ts": "2026-11-16T00:36:24.394509",
     "canales": {
@@ -3023,6 +3013,16 @@
     "precio": 498.0,
     "precios_publicados": [
       498.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
+    "ts": "2026-11-18T00:29:28.913587",
+    "canales": {
+      "whatsapp": "2026-11-18T00:29:28.913587"
+    },
+    "precio": 543.0,
+    "precios_publicados": [
+      543.0
     ]
   }
 }
