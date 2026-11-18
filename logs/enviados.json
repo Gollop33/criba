@@ -181,26 +181,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
-    "ts": "2026-11-16T00:36:24.394509",
-    "canales": {
-      "whatsapp": "2026-11-16T00:36:24.394509"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
-  "amz-whey-protein-concentrado-cookies-pote-900g-co": {
-    "ts": "2026-11-16T00:39:13.965098",
-    "canales": {
-      "whatsapp": "2026-11-16T00:39:13.965098"
-    },
-    "precio": 192.0,
-    "precios_publicados": [
-      192.0
-    ]
-  },
   "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
     "ts": "2026-11-16T00:48:36.481982",
     "canales": {
@@ -3033,6 +3013,16 @@
     "precio": 3443.0,
     "precios_publicados": [
       3443.0
+    ]
+  },
+  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
+    "ts": "2026-11-18T00:43:28.738068",
+    "canales": {
+      "whatsapp": "2026-11-18T00:43:28.738068"
+    },
+    "precio": 389.0,
+    "precios_publicados": [
+      389.0
     ]
   }
 }
