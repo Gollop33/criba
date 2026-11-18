@@ -183,16 +183,6 @@
     ],
     "precio_min_publicado": 104.0
   },
-  "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
-    "ts": "2026-11-16T07:22:40.492084",
-    "canales": {
-      "whatsapp": "2026-11-16T07:22:40.492084"
-    },
-    "precio": 140.0,
-    "precios_publicados": [
-      140.0
-    ]
-  },
   "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
     "ts": "2026-11-16T07:43:30.792735",
     "canales": {
@@ -3127,6 +3117,16 @@
     "precio": 699.0,
     "precios_publicados": [
       699.0
+    ]
+  },
+  "amz-placa-de-video-asrock-radeon-rx-7600-challeng": {
+    "ts": "2026-11-18T07:35:20.236943",
+    "canales": {
+      "whatsapp": "2026-11-18T07:35:20.236943"
+    },
+    "precio": 2199.0,
+    "precios_publicados": [
+      2199.0
     ]
   }
 }
