@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-18T01:36:20+00:00",
+  "actualizado": "2026-11-18T01:43:13+00:00",
   "total": 11,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,23 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
-    },
-    {
-      "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
-      "nombre": "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, 12 Discos",
-      "precio_ref": 17.56,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
-    },
-    {
-      "busqueda": "petisco para gatos wanpy creamy sabores sortidos pacote",
-      "nombre": "Petisco para gatos Wanpy Creamy Sabores Sortidos Pacote com 25 tubos de 14g - 350g",
-      "precio_ref": 41.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "dove oleo de banho hidratacao intensa e limpeza",
@@ -33,7 +17,23 @@
       "precio_ref": 26.48,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+    },
+    {
+      "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
+      "nombre": "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, 12 Discos",
+      "precio_ref": 17.56,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
+    },
+    {
+      "busqueda": "petisco para gatos wanpy creamy sabores sortidos pacote",
+      "nombre": "Petisco para gatos Wanpy Creamy Sabores Sortidos Pacote com 25 tubos de 14g - 350g",
+      "precio_ref": 41.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "l oreal professionnel oleo 10 em 1 absolut",
@@ -41,7 +41,7 @@
       "precio_ref": 5399.0,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 24 144hz 0",
@@ -49,7 +49,7 @@
       "precio_ref": 537.9,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven analogica 12l",
@@ -57,15 +57,15 @@
       "precio_ref": 399.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
-      "busqueda": "seca sem frizz leave in finalizador 180ml amend",
-      "nombre": "Seca Sem Frizz Leave-In Finalizador 180ml | Amend Essencial | Alinha cutículas e elimina o frizz na secagem natural sem uso d",
-      "precio_ref": 35.9,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
+      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
+      "precio_ref": 3134.95,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "smartphone motorola razr 60 256gb 12gb ram 12gb",
@@ -73,7 +73,7 @@
       "precio_ref": 2999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "protetor solar facial neutrogena sun fresh derm care",
@@ -81,7 +81,7 @@
       "precio_ref": 4770.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
@@ -89,7 +89,7 @@
       "precio_ref": 663.53,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T01:36:20+00:00"
+      "monitorizado_desde": "2026-11-18T01:43:13+00:00"
     }
   ]
 }
