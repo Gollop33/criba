@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-18T09:29:26+00:00",
-  "total": 8,
+  "actualizado": "2026-11-18T09:36:15+00:00",
+  "total": 7,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     },
     {
       "busqueda": "faqueiro tramontina buzios em aco inox com detalhe",
@@ -17,15 +17,7 @@
       "precio_ref": 54.85,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
-    },
-    {
-      "busqueda": "mondial liquidificador turbo power preto 550w 110v l",
-      "nombre": "MONDIAL Liquidificador Turbo Power, Preto, 550W, 110V - L-99 FB | 3 Velocidades",
-      "precio_ref": 99.89,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     },
     {
       "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
@@ -33,7 +25,7 @@
       "precio_ref": 455.8,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     },
     {
       "busqueda": "filtro de linha com 5 tomadas epe 205",
@@ -41,7 +33,7 @@
       "precio_ref": 4490.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     },
     {
       "busqueda": "placa mae asus tuf gaming a520m plus ii",
@@ -49,7 +41,7 @@
       "precio_ref": 623.52,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     },
     {
       "busqueda": "celular samsung galaxy a57 5g 128gb 8gb ram",
@@ -57,7 +49,7 @@
       "precio_ref": 2110.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     },
     {
       "busqueda": "adata memoria p notebook ddr4 16gb 3200mhz so",
@@ -65,7 +57,7 @@
       "precio_ref": 681.91,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-18T09:29:26+00:00"
+      "monitorizado_desde": "2026-11-18T09:36:15+00:00"
     }
   ]
 }
