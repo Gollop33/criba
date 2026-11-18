@@ -159,16 +159,6 @@
     ],
     "precio_min_publicado": 41.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-16T17:29:28.212368",
-    "canales": {
-      "whatsapp": "2026-11-16T17:29:28.212368"
-    },
-    "precio": 1398.0,
-    "precios_publicados": [
-      1398.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
     "ts": "2026-11-16T17:43:38.336763",
     "canales": {
@@ -3303,6 +3293,16 @@
     "precio": 144.0,
     "precios_publicados": [
       144.0
+    ]
+  },
+  "amz-combo-de-teclado-e-mouse-sem-fio-logitech-mk2": {
+    "ts": "2026-11-18T17:32:14.807315",
+    "canales": {
+      "whatsapp": "2026-11-18T17:32:14.807315"
+    },
+    "precio": 119.0,
+    "precios_publicados": [
+      119.0
     ]
   }
 }
