@@ -144,16 +144,6 @@
     ],
     "precio_min_publicado": 537.0
   },
-  "amz-bloodborne-hits-playstation-4": {
-    "ts": "2026-11-16T23:24:11.382403",
-    "canales": {
-      "whatsapp": "2026-11-16T23:24:11.382403"
-    },
-    "precio": 88.0,
-    "precios_publicados": [
-      88.0
-    ]
-  },
   "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
     "ts": "2026-11-17T23:33:38.349852",
     "canales": {
@@ -3246,6 +3236,16 @@
     "precio": 258.0,
     "precios_publicados": [
       258.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
+    "ts": "2026-11-18T23:29:59.774684",
+    "canales": {
+      "whatsapp": "2026-11-18T23:29:59.774684"
+    },
+    "precio": 2399.0,
+    "precios_publicados": [
+      2399.0
     ]
   }
 }
