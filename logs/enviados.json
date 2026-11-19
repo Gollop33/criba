@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
-    "ts": "2026-11-17T01:20:40.567651",
-    "canales": {
-      "whatsapp": "2026-11-17T01:20:40.567651"
-    },
-    "precio": 5332.0,
-    "precios_publicados": [
-      5332.0
-    ]
-  },
   "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
     "ts": "2026-11-17T01:27:16.557712",
     "canales": {
@@ -1387,14 +1377,16 @@
     ]
   },
   "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-11-17T21:50:05.958504",
+    "ts": "2026-11-19T01:21:48.098624",
     "canales": {
-      "whatsapp": "2026-11-17T21:50:05.958504"
+      "whatsapp": "2026-11-19T01:21:48.098624"
     },
-    "precio": 115.0,
+    "precio": 89.0,
     "precios_publicados": [
-      115.0
-    ]
+      115.0,
+      89.0
+    ],
+    "precio_min_publicado": 115.0
   },
   "amz-monitor-samsung-24-fhd-ajuste-de-altura-100hz": {
     "ts": "2026-11-17T21:57:15.211671",
