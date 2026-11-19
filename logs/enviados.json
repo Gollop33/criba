@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-colgate-tripla-acao-menta-original-creme-dent": {
-    "ts": "2026-11-17T10:29:21.349251",
-    "canales": {
-      "whatsapp": "2026-11-17T10:29:21.349251"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "amz-bundle-nintendo-switch-2-ea-sports-fc-27": {
     "ts": "2026-11-17T10:36:31.139109",
     "canales": {
@@ -3077,6 +3067,16 @@
     "precio": 838.0,
     "precios_publicados": [
       838.0
+    ]
+  },
+  "amz-notebook-dell-inspiron-i15i1300a30p-156-full-": {
+    "ts": "2026-11-19T10:30:33.616497",
+    "canales": {
+      "whatsapp": "2026-11-19T10:30:33.616497"
+    },
+    "precio": 3899.0,
+    "precios_publicados": [
+      3899.0
     ]
   }
 }
