@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-17T17:51:33.369376",
-    "canales": {
-      "whatsapp": "2026-11-17T17:51:33.369376"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-11-17T17:59:14.657294",
     "canales": {
@@ -3138,6 +3128,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-lift-vertical-com-desi": {
+    "ts": "2026-11-19T17:57:41.536205",
+    "canales": {
+      "whatsapp": "2026-11-19T17:57:41.536205"
+    },
+    "precio": 305.0,
+    "precios_publicados": [
+      305.0
     ]
   }
 }
