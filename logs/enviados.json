@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 2304.0
   },
-  "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
-    "ts": "2026-11-17T15:14:02.955431",
-    "canales": {
-      "whatsapp": "2026-11-17T15:14:02.955431"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
     "ts": "2026-11-17T15:23:36.907308",
     "canales": {
@@ -3206,6 +3196,16 @@
     "precio": 1005.0,
     "precios_publicados": [
       1005.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
+    "ts": "2026-11-19T15:15:44.978936",
+    "canales": {
+      "whatsapp": "2026-11-19T15:15:44.978936"
+    },
+    "precio": 1499.0,
+    "precios_publicados": [
+      1499.0
     ]
   }
 }
