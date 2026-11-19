@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
-    "ts": "2026-11-17T15:50:12.940338",
-    "canales": {
-      "whatsapp": "2026-11-17T15:50:12.940338"
-    },
-    "precio": 1349.0,
-    "precios_publicados": [
-      1349.0
-    ]
-  },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-11-17T15:55:35.136056",
     "canales": {
@@ -1819,14 +1809,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-go-15-e1504fa-amd-ryze": {
-    "ts": "2026-11-18T15:44:58.085383",
+    "ts": "2026-11-19T15:50:39.820406",
     "canales": {
-      "whatsapp": "2026-11-18T15:44:58.085383"
+      "whatsapp": "2026-11-19T15:50:39.820406"
     },
-    "precio": 359900.0,
+    "precio": 3599.0,
     "precios_publicados": [
-      359900.0
-    ]
+      359900.0,
+      3599.0
+    ],
+    "precio_min_publicado": 359900.0
   },
   "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
     "ts": "2026-11-18T15:51:50.249291",
