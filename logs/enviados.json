@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-17T17:59:14.657294",
-    "canales": {
-      "whatsapp": "2026-11-17T17:59:14.657294"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-morte-subita-mascara-super-hidratante-450g-lo": {
     "ts": "2026-11-19T01:19:38.429543",
     "canales": {
@@ -157,16 +147,6 @@
       24.0
     ],
     "precio_min_publicado": 30.0
-  },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-11-17T18:07:34.949435",
-    "canales": {
-      "whatsapp": "2026-11-17T18:07:34.949435"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
   },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-11-17T18:12:25.950495",
@@ -3138,6 +3118,16 @@
     "precio": 305.0,
     "precios_publicados": [
       305.0
+    ]
+  },
+  "amz-detergente-limpador-para-extratoras-concentra": {
+    "ts": "2026-11-19T18:08:37.933454",
+    "canales": {
+      "whatsapp": "2026-11-19T18:08:37.933454"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
