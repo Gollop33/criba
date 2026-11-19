@@ -161,16 +161,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-downy-amaciante-concentrado-lirios-do-campo-3": {
-    "ts": "2026-11-17T19:29:05.920123",
-    "canales": {
-      "whatsapp": "2026-11-17T19:29:05.920123"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-mouse-pad-azul": {
     "ts": "2026-11-17T19:31:46.405792",
     "canales": {
@@ -3099,6 +3089,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "amz-colgate-total-original-mint-creme-dental-com-": {
+    "ts": "2026-11-19T19:31:18.823409",
+    "canales": {
+      "whatsapp": "2026-11-19T19:31:18.823409"
+    },
+    "precio": 38.0,
+    "precios_publicados": [
+      38.0
     ]
   }
 }
