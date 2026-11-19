@@ -161,16 +161,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-tplink-tlwn823n-adaptador-wifi-usb-300-mbps-n": {
-    "ts": "2026-11-17T20:05:35.225018",
-    "canales": {
-      "whatsapp": "2026-11-17T20:05:35.225018"
-    },
-    "precio": 73.0,
-    "precios_publicados": [
-      73.0
-    ]
-  },
   "amz-apple-iphone-17e-de-256-gb-preto": {
     "ts": "2026-11-17T20:12:34.367148",
     "canales": {
@@ -3079,6 +3069,16 @@
     "precio": 20.0,
     "precios_publicados": [
       20.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
+    "ts": "2026-11-19T20:07:25.802403",
+    "canales": {
+      "whatsapp": "2026-11-19T20:07:25.802403"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
