@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-ssd-sandisk-plus-1tb-nvme-m2-2280-leitura-ate": {
-    "ts": "2026-11-17T00:07:57.930458",
-    "canales": {
-      "whatsapp": "2026-11-17T00:07:57.930458"
-    },
-    "precio": 929.0,
-    "precios_publicados": [
-      929.0
-    ]
-  },
   "amz-microondas-20l-prata-porta-espelhada-masterco": {
     "ts": "2026-11-17T00:22:00.912228",
     "canales": {
@@ -3226,6 +3216,16 @@
     "precio": 947.0,
     "precios_publicados": [
       947.0
+    ]
+  },
+  "amz-playstation5-slim-digital-825gb-pacote-astro-": {
+    "ts": "2026-11-19T00:12:11.516301",
+    "canales": {
+      "whatsapp": "2026-11-19T00:12:11.516301"
+    },
+    "precio": 4499.0,
+    "precios_publicados": [
+      4499.0
     ]
   }
 }
