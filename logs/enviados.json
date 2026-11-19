@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
-    "ts": "2026-11-17T01:42:28.280325",
-    "canales": {
-      "whatsapp": "2026-11-17T01:42:28.280325"
-    },
-    "precio": 1692.0,
-    "precios_publicados": [
-      1692.0
-    ]
-  },
   "amz-notebook-vaio-fe16-amd-ryzen-55625u-16gb-ram-": {
     "ts": "2026-11-17T01:51:03.978587",
     "canales": {
@@ -3226,6 +3216,16 @@
     "precio": 53.0,
     "precios_publicados": [
       53.0
+    ]
+  },
+  "amz-duracell-pilha-optimum-aa-pequena-com-12-unid": {
+    "ts": "2026-11-19T01:51:02.694205",
+    "canales": {
+      "whatsapp": "2026-11-19T01:51:02.694205"
+    },
+    "precio": 87.0,
+    "precios_publicados": [
+      87.0
     ]
   }
 }
