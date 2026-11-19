@@ -470,14 +470,16 @@
     ]
   },
   "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
-    "ts": "2026-11-17T15:35:36.359973",
+    "ts": "2026-11-19T06:56:42.277326",
     "canales": {
-      "whatsapp": "2026-11-17T15:35:36.359973"
+      "whatsapp": "2026-11-19T06:56:42.277326"
     },
-    "precio": 40.0,
+    "precio": 34.0,
     "precios_publicados": [
-      40.0
-    ]
+      40.0,
+      34.0
+    ],
+    "precio_min_publicado": 40.0
   },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-11-17T15:40:57.625231",
