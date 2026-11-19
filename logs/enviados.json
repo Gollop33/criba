@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-notebook-vaio-fe16-amd-ryzen-55625u-16gb-ram-": {
-    "ts": "2026-11-17T01:51:03.978587",
-    "canales": {
-      "whatsapp": "2026-11-17T01:51:03.978587"
-    },
-    "precio": 3959.0,
-    "precios_publicados": [
-      3959.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-moana-processado": {
     "ts": "2026-11-17T01:57:03.378687",
     "canales": {
@@ -3226,6 +3216,16 @@
     "precio": 87.0,
     "precios_publicados": [
       87.0
+    ]
+  },
+  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
+    "ts": "2026-11-19T01:56:11.196774",
+    "canales": {
+      "whatsapp": "2026-11-19T01:56:11.196774"
+    },
+    "precio": 569.0,
+    "precios_publicados": [
+      569.0
     ]
   }
 }
