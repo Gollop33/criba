@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 2304.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
-    "ts": "2026-11-17T14:55:01.328844",
-    "canales": {
-      "whatsapp": "2026-11-17T14:55:01.328844"
-    },
-    "precio": 3148.0,
-    "precios_publicados": [
-      3148.0
-    ]
-  },
   "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
     "ts": "2026-11-17T15:04:39.897297",
     "canales": {
@@ -1777,14 +1767,16 @@
     ]
   },
   "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-11-18T14:54:34.102503",
+    "ts": "2026-11-19T14:57:39.354152",
     "canales": {
-      "whatsapp": "2026-11-18T14:54:34.102503"
+      "whatsapp": "2026-11-19T14:57:39.354152"
     },
-    "precio": 3998.0,
+    "precio": 3459.0,
     "precios_publicados": [
-      3998.0
-    ]
+      3998.0,
+      3459.0
+    ],
+    "precio_min_publicado": 3998.0
   },
   "amz-ea-sports-fc-27-playstation-5": {
     "ts": "2026-11-18T14:59:10.498723",
