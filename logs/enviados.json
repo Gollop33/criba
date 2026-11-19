@@ -137,26 +137,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
-    "ts": "2026-11-17T10:08:03.379323",
-    "canales": {
-      "whatsapp": "2026-11-17T10:08:03.379323"
-    },
-    "precio": 649.0,
-    "precios_publicados": [
-      649.0
-    ]
-  },
-  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
-    "ts": "2026-11-17T10:22:29.721089",
-    "canales": {
-      "whatsapp": "2026-11-17T10:22:29.721089"
-    },
-    "precio": 1889.0,
-    "precios_publicados": [
-      1889.0
-    ]
-  },
   "amz-colgate-tripla-acao-menta-original-creme-dent": {
     "ts": "2026-11-17T10:29:21.349251",
     "canales": {
@@ -1718,14 +1698,16 @@
     ]
   },
   "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
-    "ts": "2026-11-18T10:22:21.236640",
+    "ts": "2026-11-19T10:23:33.776595",
     "canales": {
-      "whatsapp": "2026-11-18T10:22:21.236640"
+      "whatsapp": "2026-11-19T10:23:33.776595"
     },
-    "precio": 623.0,
+    "precio": 517.0,
     "precios_publicados": [
-      623.0
-    ]
+      623.0,
+      517.0
+    ],
+    "precio_min_publicado": 623.0
   },
   "amz-darrow-actine-kit-gel-de-limpeza-facial-pele-": {
     "ts": "2026-11-18T12:46:27.602170",
