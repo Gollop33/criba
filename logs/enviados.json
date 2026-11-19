@@ -160,26 +160,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
-    "ts": "2026-11-17T23:20:37.963465",
-    "canales": {
-      "whatsapp": "2026-11-17T23:20:37.963465"
-    },
-    "precio": 3588.0,
-    "precios_publicados": [
-      3588.0
-    ]
-  },
-  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-11-17T23:24:06.462871",
-    "canales": {
-      "whatsapp": "2026-11-17T23:24:06.462871"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-tablet-com-caneta-e-teclado-xixaomiro-s12-101": {
     "ts": "2026-11-17T23:38:30.008675",
     "canales": {
@@ -3086,6 +3066,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "amz-mouse-pad-azul": {
+    "ts": "2026-11-19T23:25:22.404278",
+    "canales": {
+      "whatsapp": "2026-11-19T23:25:22.404278"
+    },
+    "precio": 5.0,
+    "precios_publicados": [
+      5.0
     ]
   }
 }
