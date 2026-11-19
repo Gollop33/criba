@@ -150,26 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-tablet-positivo-vision-tab-7-moana-processado": {
-    "ts": "2026-11-17T01:57:03.378687",
-    "canales": {
-      "whatsapp": "2026-11-17T01:57:03.378687"
-    },
-    "precio": 494.0,
-    "precios_publicados": [
-      494.0
-    ]
-  },
-  "amz-smart-tv-lg-43-4k-uhd-nano-ai-43un85cbpsaawz": {
-    "ts": "2026-11-17T01:59:20.907244",
-    "canales": {
-      "whatsapp": "2026-11-17T01:59:20.907244"
-    },
-    "precio": 1649.0,
-    "precios_publicados": [
-      1649.0
-    ]
-  },
   "amz-xbox-series-robot-white-controle-sem-fio-blue": {
     "ts": "2026-11-17T02:03:46.544058",
     "canales": {
@@ -3226,6 +3206,16 @@
     "precio": 569.0,
     "precios_publicados": [
       569.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-19T01:59:28.560231",
+    "canales": {
+      "whatsapp": "2026-11-19T01:59:28.560231"
+    },
+    "precio": 1449.0,
+    "precios_publicados": [
+      1449.0
     ]
   }
 }
