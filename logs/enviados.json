@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
-    "ts": "2026-11-17T10:50:16.996494",
-    "canales": {
-      "whatsapp": "2026-11-17T10:50:16.996494"
-    },
-    "precio": 829.0,
-    "precios_publicados": [
-      829.0
-    ]
-  },
   "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
     "ts": "2026-11-18T19:16:48.542497",
     "canales": {
@@ -3097,6 +3087,16 @@
     "precio": 2899.0,
     "precios_publicados": [
       2899.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book4-intel-core-5120": {
+    "ts": "2026-11-19T10:51:41.031308",
+    "canales": {
+      "whatsapp": "2026-11-19T10:51:41.031308"
+    },
+    "precio": 3887.0,
+    "precios_publicados": [
+      3887.0
     ]
   }
 }
