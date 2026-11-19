@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-playstation5-pro": {
-    "ts": "2026-11-17T10:43:33.830680",
-    "canales": {
-      "whatsapp": "2026-11-17T10:43:33.830680"
-    },
-    "precio": 7399.0,
-    "precios_publicados": [
-      7399.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
     "ts": "2026-11-17T10:50:16.996494",
     "canales": {
@@ -3087,6 +3077,16 @@
     "precio": 2599.0,
     "precios_publicados": [
       2599.0
+    ]
+  },
+  "amz-air-fryer-oven-philco-12l-1800w-4-em-1-pfr220": {
+    "ts": "2026-11-19T10:45:34.890096",
+    "canales": {
+      "whatsapp": "2026-11-19T10:45:34.890096"
+    },
+    "precio": 36720.0,
+    "precios_publicados": [
+      36720.0
     ]
   }
 }
