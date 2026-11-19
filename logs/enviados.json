@@ -124,26 +124,6 @@
     ],
     "precio_min_publicado": 2304.0
   },
-  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
-    "ts": "2026-11-17T14:48:37.270938",
-    "canales": {
-      "whatsapp": "2026-11-17T14:48:37.270938"
-    },
-    "precio": 1717.0,
-    "precios_publicados": [
-      1717.0
-    ]
-  },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-17T14:49:44.869049",
-    "canales": {
-      "whatsapp": "2026-11-17T14:49:44.869049"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
     "ts": "2026-11-17T14:55:01.328844",
     "canales": {
@@ -3224,6 +3204,16 @@
     "precio": 65.0,
     "precios_publicados": [
       65.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-19T14:50:22.069993",
+    "canales": {
+      "whatsapp": "2026-11-19T14:50:22.069993"
+    },
+    "precio": 1128.0,
+    "precios_publicados": [
+      1128.0
     ]
   }
 }
