@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
-    "ts": "2026-11-17T16:38:14.240487",
-    "canales": {
-      "whatsapp": "2026-11-17T16:38:14.240487"
-    },
-    "precio": 887.0,
-    "precios_publicados": [
-      887.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
     "ts": "2026-11-17T16:45:26.800216",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 1717.0,
     "precios_publicados": [
       1717.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
+    "ts": "2026-11-19T16:43:30.819446",
+    "canales": {
+      "whatsapp": "2026-11-19T16:43:30.819446"
+    },
+    "precio": 1428.0,
+    "precios_publicados": [
+      1428.0
     ]
   }
 }
