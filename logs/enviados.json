@@ -1,29 +1,4 @@
 {
-  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-17T14:13:11.777433",
-    "canales": {
-      "whatsapp": "2026-11-17T14:13:11.777433"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      89900.0,
-      899.0,
-      899.0
-    ],
-    "precio_min_publicado": 899.0
-  },
-  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
-    "ts": "2026-11-17T14:03:33.254841",
-    "canales": {
-      "whatsapp": "2026-11-17T14:03:33.254841"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      1800.0,
-      14.0
-    ],
-    "precio_min_publicado": 1800.0
-  },
   "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
     "ts": "2026-11-18T03:22:41.597701",
     "canales": {
@@ -148,26 +123,6 @@
       15.0
     ],
     "precio_min_publicado": 2304.0
-  },
-  "amz-viva-verde-areia-higienica-biodegradavel-para": {
-    "ts": "2026-11-17T14:15:23.556590",
-    "canales": {
-      "whatsapp": "2026-11-17T14:15:23.556590"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-17T14:19:37.451775",
-    "canales": {
-      "whatsapp": "2026-11-17T14:19:37.451775"
-    },
-    "precio": 66.0,
-    "precios_publicados": [
-      66.0
-    ]
   },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-11-17T14:26:56.387906",
@@ -1800,14 +1755,16 @@
     ]
   },
   "amz-notebook-dell-15-intel-core-i51334u-13a-gerac": {
-    "ts": "2026-11-18T14:18:21.086660",
+    "ts": "2026-11-19T14:22:34.552650",
     "canales": {
-      "whatsapp": "2026-11-18T14:18:21.086660"
+      "whatsapp": "2026-11-19T14:22:34.552650"
     },
-    "precio": 4191.0,
+    "precio": 3499.0,
     "precios_publicados": [
-      4191.0
-    ]
+      4191.0,
+      3499.0
+    ],
+    "precio_min_publicado": 4191.0
   },
   "amz-pro-controller-nintendo-switch-2": {
     "ts": "2026-11-18T14:22:09.572919",
