@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
-    "ts": "2026-11-17T16:34:52.072179",
-    "canales": {
-      "whatsapp": "2026-11-17T16:34:52.072179"
-    },
-    "precio": 303.0,
-    "precios_publicados": [
-      303.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a07-128gb-4gb-cam-50mp": {
     "ts": "2026-11-17T16:38:14.240487",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 4799.0,
     "precios_publicados": [
       4799.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
+    "ts": "2026-11-19T16:36:39.288309",
+    "canales": {
+      "whatsapp": "2026-11-19T16:36:39.288309"
+    },
+    "precio": 1717.0,
+    "precios_publicados": [
+      1717.0
     ]
   }
 }
