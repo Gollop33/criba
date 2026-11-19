@@ -148,26 +148,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-11-17T18:30:19.684044",
-    "canales": {
-      "whatsapp": "2026-11-17T18:30:19.684044"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
-  "amz-cif-limpador-especialista-derrete-gordura-500": {
-    "ts": "2026-11-17T18:36:09.730218",
-    "canales": {
-      "whatsapp": "2026-11-17T18:36:09.730218"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-finish-advanced-detergente-para-lava-loucas-e": {
     "ts": "2026-11-17T18:45:55.517879",
     "canales": {
@@ -3138,6 +3118,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
+    "ts": "2026-11-19T18:37:23.510590",
+    "canales": {
+      "whatsapp": "2026-11-19T18:37:23.510590"
+    },
+    "precio": 1493.0,
+    "precios_publicados": [
+      1493.0
     ]
   }
 }
