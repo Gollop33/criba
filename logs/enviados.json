@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-11-17T00:32:48.793793",
-    "canales": {
-      "whatsapp": "2026-11-17T00:32:48.793793"
-    },
-    "precio": 2799.0,
-    "precios_publicados": [
-      2799.0
-    ]
-  },
   "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
     "ts": "2026-11-17T00:39:53.572284",
     "canales": {
@@ -3250,6 +3240,16 @@
     "precio": 389.0,
     "precios_publicados": [
       389.0
+    ]
+  },
+  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
+    "ts": "2026-11-19T00:37:36.893933",
+    "canales": {
+      "whatsapp": "2026-11-19T00:37:36.893933"
+    },
+    "precio": 766.0,
+    "precios_publicados": [
+      766.0
     ]
   }
 }
