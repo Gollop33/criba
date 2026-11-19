@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-19T13:36:31+00:00",
+  "actualizado": "2026-11-19T13:43:21+00:00",
   "total": 15,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,31 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
-      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics | Hidratação profunda para fios – 450g",
-      "precio_ref": 24.9,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
-      "nombre": "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, 12 Discos",
-      "precio_ref": 17.56,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
-      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
-      "precio_ref": 34.79,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     },
     {
       "busqueda": "nivea sabonete vegetal nutricao da natureza manteiga de",
@@ -41,7 +17,23 @@
       "precio_ref": 15.96,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
+      "nombre": "Pato Desodorizador Sanitário Gel Adesivo 2 Refis Marine, 12 Discos",
+      "precio_ref": 17.56,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "morte subita mascara super hidratante 450g lola cosmetics",
+      "nombre": "Morte Súbita Máscara Super Hidratante 450g , Lola Cosmetics | Hidratação profunda para fios – 450g",
+      "precio_ref": 24.9,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     },
     {
       "busqueda": "chalesco tapete higienico premium para caes 90 x",
@@ -49,7 +41,15 @@
       "precio_ref": 89.99,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "hidratante facial neutrogena hydro boost water gel refil",
+      "nombre": "Hidratante Facial Neutrogena Hydro Boost Water Gel, Refil, 50g | Controle de Oleosidade, Textura Ultraleve, Hidratação Intens",
+      "precio_ref": 34.79,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     },
     {
       "busqueda": "faqueiro tramontina buzios em aco inox com detalhe",
@@ -57,15 +57,7 @@
       "precio_ref": 54.85,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "placa mae asus tuf gaming a520m plus ii",
-      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
-      "precio_ref": 517.32,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     },
     {
       "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
@@ -73,23 +65,7 @@
       "precio_ref": 1079.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
-      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
-      "precio_ref": 579.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "samsung galaxy book4 intel coretm i5 1335u windows",
-      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, Windows 11 Home, 8GB, 512GB SSD, Iris Xe, 15.6'' Full HD LED, 1.55kg*.",
-      "precio_ref": 3459.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 intel celeron dual",
@@ -97,23 +73,7 @@
       "precio_ref": 2096.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "notebook dell 15 intel core i5 1334u 13a",
-      "nombre": "Notebook Dell 15, Intel Core i5-1334U 13ª Geração, 8 GB RAM DDR5, 512 GB SSD NVMe, Tela 15.6\" Full HD 120 Hz Antirreflexo, Wi",
-      "precio_ref": 3499.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
-    },
-    {
-      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
-      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
-      "precio_ref": 155.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 e1504fa amd ryzen",
@@ -121,7 +81,47 @@
       "precio_ref": 3599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-19T13:36:31+00:00"
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 intel core i5 1334u 13a",
+      "nombre": "Notebook Dell 15, Intel Core i5-1334U 13ª Geração, 8 GB RAM DDR5, 512 GB SSD NVMe, Tela 15.6\" Full HD 120 Hz Antirreflexo, Wi",
+      "precio_ref": 3499.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "placa mae asus tuf gaming a520m plus ii",
+      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
+      "precio_ref": 517.32,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "lg ultragear monitor gamer 24 ips 144hz o",
+      "nombre": "LG UltraGear Monitor Gamer 24\" IPS 144Hz (O/C) 1ms (MBR) Full HD (1920x1080) HDR10 NVIDIA G-SYNC AMD FreeSync, Preto - 24G411",
+      "precio_ref": 579.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "samsung galaxy book4 intel coretm i5 1335u windows",
+      "nombre": "Samsung Galaxy Book4 Intel® Core™ i5-1335U, Windows 11 Home, 8GB, 512GB SSD, Iris Xe, 15.6'' Full HD LED, 1.55kg*.",
+      "precio_ref": 3459.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
+    },
+    {
+      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
+      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
+      "precio_ref": 155.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-19T13:43:21+00:00"
     }
   ]
 }
