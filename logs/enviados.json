@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 2304.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-11-17T14:40:08.040604",
-    "canales": {
-      "whatsapp": "2026-11-17T14:40:08.040604"
-    },
-    "precio": 1174.0,
-    "precios_publicados": [
-      1174.0
-    ]
-  },
   "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
     "ts": "2026-11-17T14:48:37.270938",
     "canales": {
@@ -3224,6 +3214,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
+    "ts": "2026-11-19T14:43:27.082979",
+    "canales": {
+      "whatsapp": "2026-11-19T14:43:27.082979"
+    },
+    "precio": 65.0,
+    "precios_publicados": [
+      65.0
     ]
   }
 }
