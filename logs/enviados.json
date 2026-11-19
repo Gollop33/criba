@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 2304.0
   },
-  "amz-tablet-xixaomiro-pad-101-android-15-128gb-rom": {
-    "ts": "2026-11-17T15:04:39.897297",
-    "canales": {
-      "whatsapp": "2026-11-17T15:04:39.897297"
-    },
-    "precio": 829.0,
-    "precios_publicados": [
-      829.0
-    ]
-  },
   "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
     "ts": "2026-11-17T15:14:02.955431",
     "canales": {
@@ -3206,6 +3196,16 @@
     "precio": 1128.0,
     "precios_publicados": [
       1128.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-19T15:08:21.575140",
+    "canales": {
+      "whatsapp": "2026-11-19T15:08:21.575140"
+    },
+    "precio": 1005.0,
+    "precios_publicados": [
+      1005.0
     ]
   }
 }
