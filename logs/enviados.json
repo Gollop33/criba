@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-11-17T16:45:26.800216",
-    "canales": {
-      "whatsapp": "2026-11-17T16:45:26.800216"
-    },
-    "precio": 1486.0,
-    "precios_publicados": [
-      1486.0
-    ]
-  },
   "amz-tablet-xiaomi-pad-7-284-cm-8-256-gb-tela-32k-": {
     "ts": "2026-11-17T16:53:52.311449",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 1428.0,
     "precios_publicados": [
       1428.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
+    "ts": "2026-11-19T16:50:35.243395",
+    "canales": {
+      "whatsapp": "2026-11-19T16:50:35.243395"
+    },
+    "precio": 3149.0,
+    "precios_publicados": [
+      3149.0
     ]
   }
 }
