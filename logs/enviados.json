@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
-    "ts": "2026-11-17T17:46:10.034946",
-    "canales": {
-      "whatsapp": "2026-11-17T17:46:10.034946"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0
-    ]
-  },
   "amz-detergente-limpador-para-extratoras-concentra": {
     "ts": "2026-11-17T17:51:33.369376",
     "canales": {
@@ -3138,6 +3128,16 @@
     "precio": 1049.0,
     "precios_publicados": [
       1049.0
+    ]
+  },
+  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
+    "ts": "2026-11-19T17:50:36.453213",
+    "canales": {
+      "whatsapp": "2026-11-19T17:50:36.453213"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
