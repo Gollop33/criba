@@ -148,16 +148,6 @@
     ],
     "precio_min_publicado": 115.0
   },
-  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
-    "ts": "2026-11-17T22:51:56.330519",
-    "canales": {
-      "whatsapp": "2026-11-17T22:51:56.330519"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
     "ts": "2026-11-18T22:58:26.288919",
     "canales": {
@@ -1687,14 +1677,16 @@
     ]
   },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-18T22:51:35.141847",
+    "ts": "2026-11-19T22:54:23.922867",
     "canales": {
-      "whatsapp": "2026-11-18T22:51:35.141847"
+      "whatsapp": "2026-11-19T22:54:23.922867"
     },
-    "precio": 5099.0,
+    "precio": 4499.0,
     "precios_publicados": [
-      5099.0
-    ]
+      5099.0,
+      4499.0
+    ],
+    "precio_min_publicado": 5099.0
   },
   "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
     "ts": "2026-11-18T23:06:51.015455",
