@@ -150,56 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
-    "ts": "2026-11-17T02:15:21.758916",
-    "canales": {
-      "whatsapp": "2026-11-17T02:15:21.758916"
-    },
-    "precio": 4299.0,
-    "precios_publicados": [
-      4299.0
-    ]
-  },
-  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
-    "ts": "2026-11-17T02:22:23.212835",
-    "canales": {
-      "whatsapp": "2026-11-17T02:22:23.212835"
-    },
-    "precio": 1554.0,
-    "precios_publicados": [
-      1554.0
-    ]
-  },
-  "amz-tablet-positivo-vision-tab-10-4gb-ram-128gb-a": {
-    "ts": "2026-11-17T02:29:36.638755",
-    "canales": {
-      "whatsapp": "2026-11-17T02:29:36.638755"
-    },
-    "precio": 838.0,
-    "precios_publicados": [
-      838.0
-    ]
-  },
-  "amz-tablet-infantil-positivo-vision-tab-7-minions": {
-    "ts": "2026-11-17T02:36:24.490560",
-    "canales": {
-      "whatsapp": "2026-11-17T02:36:24.490560"
-    },
-    "precio": 475.0,
-    "precios_publicados": [
-      475.0
-    ]
-  },
-  "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
-    "ts": "2026-11-17T02:43:06.185131",
-    "canales": {
-      "whatsapp": "2026-11-17T02:43:06.185131"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-tramontina-panela-de-pressao-vancouver-effect": {
     "ts": "2026-11-17T02:50:04.644740",
     "canales": {
@@ -3216,6 +3166,16 @@
     "precio": 4199.0,
     "precios_publicados": [
       4199.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-11-19T02:47:59.110899",
+    "canales": {
+      "whatsapp": "2026-11-19T02:47:59.110899"
+    },
+    "precio": 1164.0,
+    "precios_publicados": [
+      1164.0
     ]
   }
 }
