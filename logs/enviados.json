@@ -75,18 +75,6 @@
     ],
     "precio_min_publicado": 537.0
   },
-  "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
-    "ts": "2026-11-17T23:33:38.349852",
-    "canales": {
-      "whatsapp": "2026-11-17T23:33:38.349852"
-    },
-    "precio": 5399.0,
-    "precios_publicados": [
-      8390.0,
-      5399.0
-    ],
-    "precio_min_publicado": 8390.0
-  },
   "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
     "ts": "2026-11-18T19:16:48.542497",
     "canales": {
@@ -3086,6 +3074,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
+    "ts": "2026-11-19T23:35:01.093161",
+    "canales": {
+      "whatsapp": "2026-11-19T23:35:01.093161"
+    },
+    "precio": 129.0,
+    "precios_publicados": [
+      129.0
     ]
   }
 }
