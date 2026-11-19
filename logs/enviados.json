@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
-    "ts": "2026-11-17T16:18:59.787080",
-    "canales": {
-      "whatsapp": "2026-11-17T16:18:59.787080"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
     "ts": "2026-11-17T16:27:41.239854",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 1159.0,
     "precios_publicados": [
       1159.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
+    "ts": "2026-11-19T16:22:24.266367",
+    "canales": {
+      "whatsapp": "2026-11-19T16:22:24.266367"
+    },
+    "precio": 2353.0,
+    "precios_publicados": [
+      2353.0
     ]
   }
 }
