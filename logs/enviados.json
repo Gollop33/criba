@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-xbox-series-robot-white-controle-sem-fio-blue": {
-    "ts": "2026-11-17T02:03:46.544058",
-    "canales": {
-      "whatsapp": "2026-11-17T02:03:46.544058"
-    },
-    "precio": 345.0,
-    "precios_publicados": [
-      345.0
-    ]
-  },
   "amz-apple-2025-ipad-wifi-128-gb-azul-a16": {
     "ts": "2026-11-17T02:15:21.758916",
     "canales": {
@@ -3216,6 +3206,16 @@
     "precio": 1449.0,
     "precios_publicados": [
       1449.0
+    ]
+  },
+  "amz-apple-iphone-15-128-gb-azul": {
+    "ts": "2026-11-19T02:08:07.373979",
+    "canales": {
+      "whatsapp": "2026-11-19T02:08:07.373979"
+    },
+    "precio": 4199.0,
+    "precios_publicados": [
+      4199.0
     ]
   }
 }
