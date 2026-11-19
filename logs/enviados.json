@@ -161,26 +161,6 @@
     ],
     "precio_min_publicado": 115.0
   },
-  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
-    "ts": "2026-11-17T22:18:28.238177",
-    "canales": {
-      "whatsapp": "2026-11-17T22:18:28.238177"
-    },
-    "precio": 998.0,
-    "precios_publicados": [
-      998.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
-    "ts": "2026-11-17T22:23:37.464680",
-    "canales": {
-      "whatsapp": "2026-11-17T22:23:37.464680"
-    },
-    "precio": 2110.0,
-    "precios_publicados": [
-      2110.0
-    ]
-  },
   "amz-controle-sem-fio-xbox-cabo-usb": {
     "ts": "2026-11-17T22:27:32.339757",
     "canales": {
@@ -3087,6 +3067,16 @@
     "precio": 345.0,
     "precios_publicados": [
       345.0
+    ]
+  },
+  "amz-gamesir-nova-2-lite-controle-sem-fio-para-pc-": {
+    "ts": "2026-11-19T22:26:25.366797",
+    "canales": {
+      "whatsapp": "2026-11-19T22:26:25.366797"
+    },
+    "precio": 198.0,
+    "precios_publicados": [
+      198.0
     ]
   }
 }
