@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-colecao-nioh-playstation-5": {
-    "ts": "2026-11-17T01:13:34.145428",
-    "canales": {
-      "whatsapp": "2026-11-17T01:13:34.145428"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
     "ts": "2026-11-17T01:18:06.930971",
     "canales": {
@@ -3222,6 +3212,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-colgate-total-gengiva-saudavel-creme-dental-a": {
+    "ts": "2026-11-19T01:15:33.868275",
+    "canales": {
+      "whatsapp": "2026-11-19T01:15:33.868275"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
