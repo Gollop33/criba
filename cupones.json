@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-19T01:16:57+00:00",
+  "actualizado": "2026-11-19T06:37:40+00:00",
   "total": 306,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -2161,7 +2161,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-18T21:06:52+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MEUDESCONTAO",
@@ -4029,7 +4030,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-18T14:01:35+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CORREHOJEPROML",
@@ -4135,5 +4137,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-19T03:37:13-03:00"
 }
