@@ -124,16 +124,6 @@
     ],
     "precio_min_publicado": 2304.0
   },
-  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
-    "ts": "2026-11-17T14:34:58.114588",
-    "canales": {
-      "whatsapp": "2026-11-17T14:34:58.114588"
-    },
-    "precio": 939.0,
-    "precios_publicados": [
-      939.0
-    ]
-  },
   "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
     "ts": "2026-11-17T14:40:08.040604",
     "canales": {
@@ -3224,6 +3214,16 @@
     "precio": 63.0,
     "precios_publicados": [
       63.0
+    ]
+  },
+  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
+    "ts": "2026-11-19T14:36:26.535416",
+    "canales": {
+      "whatsapp": "2026-11-19T14:36:26.535416"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
