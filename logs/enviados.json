@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
-    "ts": "2026-11-17T16:27:41.239854",
-    "canales": {
-      "whatsapp": "2026-11-17T16:27:41.239854"
-    },
-    "precio": 355.0,
-    "precios_publicados": [
-      355.0
-    ]
-  },
   "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
     "ts": "2026-11-17T16:34:52.072179",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 2353.0,
     "precios_publicados": [
       2353.0
+    ]
+  },
+  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
+    "ts": "2026-11-19T16:29:36.779297",
+    "canales": {
+      "whatsapp": "2026-11-19T16:29:36.779297"
+    },
+    "precio": 4799.0,
+    "precios_publicados": [
+      4799.0
     ]
   }
 }
