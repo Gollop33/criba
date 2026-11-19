@@ -148,16 +148,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-17T18:22:19.587394",
-    "canales": {
-      "whatsapp": "2026-11-17T18:22:19.587394"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
     "ts": "2026-11-17T18:30:19.684044",
     "canales": {
@@ -3128,6 +3118,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
+    "ts": "2026-11-19T18:22:40.211283",
+    "canales": {
+      "whatsapp": "2026-11-19T18:22:40.211283"
+    },
+    "precio": 31.0,
+    "precios_publicados": [
+      31.0
     ]
   }
 }
