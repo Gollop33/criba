@@ -137,16 +137,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-bundle-nintendo-switch-2-ea-sports-fc-27": {
-    "ts": "2026-11-17T10:36:31.139109",
-    "canales": {
-      "whatsapp": "2026-11-17T10:36:31.139109"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "amz-playstation5-pro": {
     "ts": "2026-11-17T10:43:33.830680",
     "canales": {
@@ -3087,6 +3077,16 @@
     "precio": 3959.0,
     "precios_publicados": [
       3959.0
+    ]
+  },
+  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
+    "ts": "2026-11-19T10:40:16.993609",
+    "canales": {
+      "whatsapp": "2026-11-19T10:40:16.993609"
+    },
+    "precio": 2599.0,
+    "precios_publicados": [
+      2599.0
     ]
   }
 }
