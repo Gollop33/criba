@@ -148,16 +148,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
-    "ts": "2026-11-17T18:12:25.950495",
-    "canales": {
-      "whatsapp": "2026-11-17T18:12:25.950495"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
     "ts": "2026-11-17T18:22:19.587394",
     "canales": {
@@ -3128,6 +3118,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-lysoform-original-desinfetante-liquido-limpez": {
+    "ts": "2026-11-19T18:15:26.922501",
+    "canales": {
+      "whatsapp": "2026-11-19T18:15:26.922501"
+    },
+    "precio": 40.0,
+    "precios_publicados": [
+      40.0
     ]
   }
 }
