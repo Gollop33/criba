@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-11-17T05:32:19.132276",
-    "canales": {
-      "whatsapp": "2026-11-17T05:32:19.132276"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0
-    ]
-  },
   "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
     "ts": "2026-11-17T06:22:17.465450",
     "canales": {
@@ -3166,6 +3156,16 @@
     "precio": 749.0,
     "precios_publicados": [
       749.0
+    ]
+  },
+  "amz-jbl-tune-530bt-fone-bluetooth-overear-sem-fio": {
+    "ts": "2026-11-19T05:57:39.958678",
+    "canales": {
+      "whatsapp": "2026-11-19T05:57:39.958678"
+    },
+    "precio": 185.0,
+    "precios_publicados": [
+      185.0
     ]
   }
 }
