@@ -150,26 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-17T00:58:38.384239",
-    "canales": {
-      "whatsapp": "2026-11-17T00:58:38.384239"
-    },
-    "precio": 422.0,
-    "precios_publicados": [
-      422.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a37-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-17T01:04:27.520930",
-    "canales": {
-      "whatsapp": "2026-11-17T01:04:27.520930"
-    },
-    "precio": 2090.0,
-    "precios_publicados": [
-      2090.0
-    ]
-  },
   "amz-colecao-nioh-playstation-5": {
     "ts": "2026-11-17T01:13:34.145428",
     "canales": {
@@ -1693,14 +1673,16 @@
     ]
   },
   "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-11-18T01:08:10.769184",
+    "ts": "2026-11-19T01:08:44.184251",
     "canales": {
-      "whatsapp": "2026-11-18T01:08:10.769184"
+      "whatsapp": "2026-11-19T01:08:44.184251"
     },
-    "precio": 1259.0,
+    "precio": 1079.0,
     "precios_publicados": [
-      1259.0
-    ]
+      1259.0,
+      1079.0
+    ],
+    "precio_min_publicado": 1259.0
   },
   "amz-dove-sabonete-em-barra-branco-90g-8-unidades-": {
     "ts": "2026-11-18T01:15:38.838489",
