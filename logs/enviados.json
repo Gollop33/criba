@@ -136,16 +136,6 @@
     ],
     "precio_min_publicado": 40.0
   },
-  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
-    "ts": "2026-11-17T16:12:26.453756",
-    "canales": {
-      "whatsapp": "2026-11-17T16:12:26.453756"
-    },
-    "precio": 2353.0,
-    "precios_publicados": [
-      2353.0
-    ]
-  },
   "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
     "ts": "2026-11-17T16:18:59.787080",
     "canales": {
@@ -3188,6 +3178,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
+    "ts": "2026-11-19T16:15:34.948489",
+    "canales": {
+      "whatsapp": "2026-11-19T16:15:34.948489"
+    },
+    "precio": 1159.0,
+    "precios_publicados": [
+      1159.0
     ]
   }
 }
