@@ -150,16 +150,6 @@
     ],
     "precio_min_publicado": 8390.0
   },
-  "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
-    "ts": "2026-11-17T00:39:53.572284",
-    "canales": {
-      "whatsapp": "2026-11-17T00:39:53.572284"
-    },
-    "precio": 1029.0,
-    "precios_publicados": [
-      1029.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s26-5g-512gb-12gb-ram-": {
     "ts": "2026-11-17T00:49:42.537907",
     "canales": {
@@ -3250,6 +3240,16 @@
     "precio": 766.0,
     "precios_publicados": [
       766.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
+    "ts": "2026-11-19T00:42:38.720136",
+    "canales": {
+      "whatsapp": "2026-11-19T00:42:38.720136"
+    },
+    "precio": 2893.0,
+    "precios_publicados": [
+      2893.0
     ]
   }
 }
