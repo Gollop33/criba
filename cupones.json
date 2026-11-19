@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-19T00:44:08+00:00",
-  "total": 304,
+  "actualizado": "2026-11-19T01:16:57+00:00",
+  "total": 306,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -2105,7 +2105,7 @@
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-06T15:00:28+00:00",
+      "detectado_em": "2026-11-18T21:06:52+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
@@ -2153,13 +2153,13 @@
     {
       "codigo": "SUPERVANTAGEM",
       "desconto": "30% OFF",
-      "compra_minima": "R$ 1",
-      "limite": "",
-      "hasta": "",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-12-31",
       "categoria": "Geral",
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
-      "detectado_em": "2026-11-04T14:04:07+00:00",
+      "detectado_em": "2026-11-18T21:06:52+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     },
@@ -4106,6 +4106,32 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-18T13:02:42+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "BELEZAVERAO",
+      "desconto": "12% OFF",
+      "compra_minima": "",
+      "limite": "R$120",
+      "hasta": "",
+      "categoria": "Beleza",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-18T22:01:45+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "PLAYER1",
+      "desconto": "8% OFF",
+      "compra_minima": "",
+      "limite": "R$70",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-18T20:07:04+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
