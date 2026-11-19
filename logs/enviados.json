@@ -161,16 +161,6 @@
     ],
     "precio_min_publicado": 115.0
   },
-  "amz-monitor-samsung-24-fhd-ajuste-de-altura-100hz": {
-    "ts": "2026-11-17T21:57:15.211671",
-    "canales": {
-      "whatsapp": "2026-11-17T21:57:15.211671"
-    },
-    "precio": 79200.0,
-    "precios_publicados": [
-      79200.0
-    ]
-  },
   "amz-celular-galaxy-a27-5g-128gb-camera-tripla-de-": {
     "ts": "2026-11-17T22:08:56.468953",
     "canales": {
@@ -3067,6 +3057,16 @@
     "precio": 42000.0,
     "precios_publicados": [
       42000.0
+    ]
+  },
+  "amz-cartao-nintendo-switch-2-samsung-microsd-expr": {
+    "ts": "2026-11-19T22:05:09.776472",
+    "canales": {
+      "whatsapp": "2026-11-19T22:05:09.776472"
+    },
+    "precio": 427.0,
+    "precios_publicados": [
+      427.0
     ]
   }
 }
