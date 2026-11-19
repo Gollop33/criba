@@ -72,41 +72,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "ACHADOINCRIVEL": {
-      "detectado_em": "2026-10-20T14:11:03+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PEGAESSEDESCONTO": {
-      "detectado_em": "2026-10-20T14:11:03+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "SUPERVALEMELI": {
-      "detectado_em": "2026-10-20T14:11:03+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "BOAESCOLHAMELI": {
-      "detectado_em": "2026-10-20T14:11:03+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "OFFSOHJ": {
-      "detectado_em": "2026-10-20T13:01:39+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "OFERTASHJ": {
-      "detectado_em": "2026-10-20T13:01:39+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "OFFHOJEML": {
-      "detectado_em": "2026-10-20T13:01:39+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "TOPOFERTA": {
       "detectado_em": "2026-10-21T19:00:24+00:00",
       "publicado_em": null,
@@ -837,16 +802,6 @@
       "publicado_em": null,
       "motivo": "detectado hace 241h (> 24h)"
     },
-    "HOJENOMELI": {
-      "detectado_em": "2026-10-20T18:44:30+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 479h (> 24h)"
-    },
-    "CUPOMDEHOJE": {
-      "detectado_em": "2026-10-20T18:44:30+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 479h (> 24h)"
-    },
     "COMPRAPREFERIDA": {
       "detectado_em": "2026-11-02T12:03:21+00:00",
       "publicado_em": null,
@@ -1426,7 +1381,42 @@
       "detectado_em": "2026-11-18T20:07:04+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MAISCUPONS30": {
+      "detectado_em": "2026-11-19T14:00:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELHORESPROMOS30": {
+      "detectado_em": "2026-11-19T14:00:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SOUVIP25": {
+      "detectado_em": "2026-11-19T14:00:58+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "ELETROTECHML": {
+      "detectado_em": "2026-11-19T13:04:12+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "ECONOMIAEMDOBRO": {
+      "detectado_em": "2026-11-19T13:04:12+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAVEIC": {
+      "detectado_em": "2026-11-19T13:04:12+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFFSAUDE": {
+      "detectado_em": "2026-11-19T13:04:12+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-19T12:23:44+00:00"
+  "actualizado": "2026-11-19T19:19:54+00:00"
 }
