@@ -161,26 +161,6 @@
     ],
     "precio_min_publicado": 115.0
   },
-  "amz-controle-sem-fio-xbox-cabo-usb": {
-    "ts": "2026-11-17T22:27:32.339757",
-    "canales": {
-      "whatsapp": "2026-11-17T22:27:32.339757"
-    },
-    "precio": 339.0,
-    "precios_publicados": [
-      339.0
-    ]
-  },
-  "amz-stanley-copo-quencher-protour-flip-straw-rose": {
-    "ts": "2026-11-17T22:29:37.630086",
-    "canales": {
-      "whatsapp": "2026-11-17T22:29:37.630086"
-    },
-    "precio": 27900.0,
-    "precios_publicados": [
-      27900.0
-    ]
-  },
   "amz-pantene-prov-oleo-capilar-queratina-milagroso": {
     "ts": "2026-11-17T22:35:55.898821",
     "canales": {
@@ -3077,6 +3057,16 @@
     "precio": 198.0,
     "precios_publicados": [
       198.0
+    ]
+  },
+  "amz-playstation5-pro": {
+    "ts": "2026-11-19T22:30:24.581074",
+    "canales": {
+      "whatsapp": "2026-11-19T22:30:24.581074"
+    },
+    "precio": 7599.0,
+    "precios_publicados": [
+      7599.0
     ]
   }
 }
