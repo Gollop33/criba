@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-secret-clinical-desodorante-antitranspirante-": {
-    "ts": "2026-11-18T16:41:20.182093",
-    "canales": {
-      "whatsapp": "2026-11-18T16:41:20.182093"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
-  },
   "amz-loreal-paris-elseve-oleo-extraordinario-final": {
     "ts": "2026-11-18T16:50:06.096625",
     "canales": {
@@ -2908,6 +2898,16 @@
     "precio": 473.0,
     "precios_publicados": [
       473.0
+    ]
+  },
+  "amz-argan-oleo-reparador-50ml-lola-cosmetics-fios": {
+    "ts": "2026-11-20T16:43:15.888922",
+    "canales": {
+      "whatsapp": "2026-11-20T16:43:15.888922"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
