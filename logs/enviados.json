@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 3499.0
   },
-  "amz-notebook-predator-helios-neo-16-ia-5070-ultra": {
-    "ts": "2026-11-18T14:34:44.847485",
-    "canales": {
-      "whatsapp": "2026-11-18T14:34:44.847485"
-    },
-    "precio": 13299.0,
-    "precios_publicados": [
-      13299.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
     "ts": "2026-11-18T14:39:16.061851",
     "canales": {
@@ -2968,6 +2958,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
+    "ts": "2026-11-20T14:36:39.464417",
+    "canales": {
+      "whatsapp": "2026-11-20T14:36:39.464417"
+    },
+    "precio": 2599.0,
+    "precios_publicados": [
+      2599.0
     ]
   }
 }
