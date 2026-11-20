@@ -129,46 +129,6 @@
     ],
     "precio_min_publicado": 1079.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-11-18T09:50:24.665604",
-    "canales": {
-      "whatsapp": "2026-11-18T09:50:24.665604"
-    },
-    "precio": 2110.0,
-    "precios_publicados": [
-      2110.0
-    ]
-  },
-  "amz-adata-memoria-p-notebook-ddr4-16gb-3200mhz-so": {
-    "ts": "2026-11-18T09:57:27.176963",
-    "canales": {
-      "whatsapp": "2026-11-18T09:57:27.176963"
-    },
-    "precio": 681.0,
-    "precios_publicados": [
-      681.0
-    ]
-  },
-  "amz-filtro-de-linha-com-5-tomadas-epe-205-branco-": {
-    "ts": "2026-11-18T10:08:34.353737",
-    "canales": {
-      "whatsapp": "2026-11-18T10:08:34.353737"
-    },
-    "precio": 4490.0,
-    "precios_publicados": [
-      4490.0
-    ]
-  },
-  "amz-duracell-carregador-de-pilhas-recarregaveis-a": {
-    "ts": "2026-11-18T10:15:32.241882",
-    "canales": {
-      "whatsapp": "2026-11-18T10:15:32.241882"
-    },
-    "precio": 137.0,
-    "precios_publicados": [
-      137.0
-    ]
-  },
   "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
     "ts": "2026-11-19T10:23:33.776595",
     "canales": {
@@ -2839,6 +2799,16 @@
     "precio": 18.0,
     "precios_publicados": [
       18.0
+    ]
+  },
+  "amz-colgate-slim-soft-black-escova-de-dente-macia": {
+    "ts": "2026-11-20T10:18:57.509371",
+    "canales": {
+      "whatsapp": "2026-11-20T10:18:57.509371"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
