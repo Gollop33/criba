@@ -154,26 +154,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-18T16:19:15.562762",
-    "canales": {
-      "whatsapp": "2026-11-18T16:19:15.562762"
-    },
-    "precio": 3469.0,
-    "precios_publicados": [
-      3469.0
-    ]
-  },
-  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
-    "ts": "2026-11-18T16:21:32.561254",
-    "canales": {
-      "whatsapp": "2026-11-18T16:21:32.561254"
-    },
-    "precio": 5660.0,
-    "precios_publicados": [
-      5660.0
-    ]
-  },
   "amz-gamesir-g7-se-controle-com-fio-para-pc-xbox-o": {
     "ts": "2026-11-18T16:27:29.529511",
     "canales": {
@@ -2918,6 +2898,16 @@
     "precio": 4699.0,
     "precios_publicados": [
       4699.0
+    ]
+  },
+  "amz-headset-gamer-sem-fio-redragon-zeus-pro-preto": {
+    "ts": "2026-11-20T16:22:37.708265",
+    "canales": {
+      "whatsapp": "2026-11-20T16:22:37.708265"
+    },
+    "precio": 299.0,
+    "precios_publicados": [
+      299.0
     ]
   }
 }
