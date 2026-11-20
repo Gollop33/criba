@@ -37,18 +37,6 @@
     ],
     "precio_min_publicado": 2421.0
   },
-  "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
-    "ts": "2026-11-18T02:08:38.203936",
-    "canales": {
-      "whatsapp": "2026-11-18T02:08:38.203936"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      7990.0,
-      49.0
-    ],
-    "precio_min_publicado": 7990.0
-  },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-11-18T22:09:39.190015",
     "canales": {
@@ -152,26 +140,6 @@
       1079.0
     ],
     "precio_min_publicado": 1259.0
-  },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-11-18T02:15:05.965313",
-    "canales": {
-      "whatsapp": "2026-11-18T02:15:05.965313"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
-  "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-11-18T02:22:28.344610",
-    "canales": {
-      "whatsapp": "2026-11-18T02:22:28.344610"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
   },
   "amz-bosch-palheta-dianteira-aerofit-af26-limpador": {
     "ts": "2026-11-18T02:29:30.463402",
@@ -3053,6 +3021,16 @@
     "precio": 22.0,
     "precios_publicados": [
       22.0
+    ]
+  },
+  "amz-colgate-total-original-mint-creme-dental-prev": {
+    "ts": "2026-11-20T02:28:31.263074",
+    "canales": {
+      "whatsapp": "2026-11-20T02:28:31.263074"
+    },
+    "precio": 62.0,
+    "precios_publicados": [
+      62.0
     ]
   }
 }
