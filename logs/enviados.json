@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-11-18T22:20:09.442294",
-    "canales": {
-      "whatsapp": "2026-11-18T22:20:09.442294"
-    },
-    "precio": 178.0,
-    "precios_publicados": [
-      178.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
     "ts": "2026-11-18T22:25:49.370732",
     "canales": {
@@ -3009,6 +2999,16 @@
     "precio": 5054.0,
     "precios_publicados": [
       5054.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
+    "ts": "2026-11-20T22:21:02.569862",
+    "canales": {
+      "whatsapp": "2026-11-20T22:21:02.569862"
+    },
+    "precio": 1589.0,
+    "precios_publicados": [
+      1589.0
     ]
   }
 }
