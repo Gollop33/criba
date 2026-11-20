@@ -128,26 +128,6 @@
     ],
     "precio_min_publicado": 1259.0
   },
-  "amz-switch-gigabit-de-mesa-com-8-portas-tplink-ls": {
-    "ts": "2026-11-18T06:48:05.133362",
-    "canales": {
-      "whatsapp": "2026-11-18T06:48:05.133362"
-    },
-    "precio": 118.0,
-    "precios_publicados": [
-      118.0
-    ]
-  },
-  "amz-memoria-kingston-fury-beast-dimm-ddr4-8gb-320": {
-    "ts": "2026-11-18T07:14:17.862155",
-    "canales": {
-      "whatsapp": "2026-11-18T07:14:17.862155"
-    },
-    "precio": 699.0,
-    "precios_publicados": [
-      699.0
-    ]
-  },
   "amz-placa-de-video-asrock-radeon-rx-7600-challeng": {
     "ts": "2026-11-18T07:35:20.236943",
     "canales": {
@@ -1007,14 +987,16 @@
     ]
   },
   "amz-sabao-liquido-brilhante-5l": {
-    "ts": "2026-11-18T20:55:01.017809",
+    "ts": "2026-11-20T07:19:56.477229",
     "canales": {
-      "whatsapp": "2026-11-18T20:55:01.017809"
+      "whatsapp": "2026-11-20T07:19:56.477229"
     },
-    "precio": 7897.0,
+    "precio": 33.0,
     "precios_publicados": [
-      7897.0
-    ]
+      7897.0,
+      33.0
+    ],
+    "precio_min_publicado": 7897.0
   },
   "amz-panela-de-pressao-ceramic-life-pressure-42l-c": {
     "ts": "2026-11-18T21:03:26.210456",
