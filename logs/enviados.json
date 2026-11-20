@@ -142,26 +142,6 @@
     ],
     "precio_min_publicado": 3998.0
   },
-  "amz-apple-2026-macbook-neo-13-pol-com-chip-a18-pr": {
-    "ts": "2026-11-18T15:19:16.654209",
-    "canales": {
-      "whatsapp": "2026-11-18T15:19:16.654209"
-    },
-    "precio": 6666.0,
-    "precios_publicados": [
-      6666.0
-    ]
-  },
-  "amz-tablet-infantil-minnie-7-wifi-4gb-ram-64gb-an": {
-    "ts": "2026-11-18T15:21:34.864319",
-    "canales": {
-      "whatsapp": "2026-11-18T15:21:34.864319"
-    },
-    "precio": 365.0,
-    "precios_publicados": [
-      365.0
-    ]
-  },
   "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
     "ts": "2026-11-18T15:26:23.457955",
     "canales": {
@@ -2948,6 +2928,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-apple-2025-ipad-wifi-128-gb-amarelo-a16": {
+    "ts": "2026-11-20T15:23:18.219010",
+    "canales": {
+      "whatsapp": "2026-11-20T15:23:18.219010"
+    },
+    "precio": 4159.0,
+    "precios_publicados": [
+      4159.0
     ]
   }
 }
