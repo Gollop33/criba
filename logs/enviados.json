@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 1259.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-11-18T01:43:22.732975",
-    "canales": {
-      "whatsapp": "2026-11-18T01:43:22.732975"
-    },
-    "precio": 3134.0,
-    "precios_publicados": [
-      3134.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
     "ts": "2026-11-18T01:50:26.813914",
     "canales": {
@@ -3026,6 +3016,16 @@
     "precio": 55.0,
     "precios_publicados": [
       55.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-11-20T01:43:36.904469",
+    "canales": {
+      "whatsapp": "2026-11-20T01:43:36.904469"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
