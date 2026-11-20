@@ -142,36 +142,6 @@
     ],
     "precio_min_publicado": 3998.0
   },
-  "amz-ea-sports-fc-27-playstation-5": {
-    "ts": "2026-11-18T14:59:10.498723",
-    "canales": {
-      "whatsapp": "2026-11-18T14:59:10.498723"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
-  "amz-notebook-acer-aspire-go-15-core-5-8gb-ssd-512": {
-    "ts": "2026-11-18T15:02:27.907594",
-    "canales": {
-      "whatsapp": "2026-11-18T15:02:27.907594"
-    },
-    "precio": 3399.0,
-    "precios_publicados": [
-      3399.0
-    ]
-  },
-  "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
-    "ts": "2026-11-18T15:04:14.192538",
-    "canales": {
-      "whatsapp": "2026-11-18T15:04:14.192538"
-    },
-    "precio": 155.0,
-    "precios_publicados": [
-      155.0
-    ]
-  },
   "amz-galaxy-book4-intel-inside-u300-windows-11-hom": {
     "ts": "2026-11-18T15:10:58.651946",
     "canales": {
@@ -2978,6 +2948,16 @@
     "precio": 3999.0,
     "precios_publicados": [
       3999.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
+    "ts": "2026-11-20T15:08:35.801474",
+    "canales": {
+      "whatsapp": "2026-11-20T15:08:35.801474"
+    },
+    "precio": 2999.0,
+    "precios_publicados": [
+      2999.0
     ]
   }
 }
