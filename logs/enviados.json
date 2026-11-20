@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-tablet-m8-wifi-6gb-ram-64gb-tela-8-pol-androi": {
-    "ts": "2026-11-18T16:13:15.758488",
-    "canales": {
-      "whatsapp": "2026-11-18T16:13:15.758488"
-    },
-    "precio": 473.0,
-    "precios_publicados": [
-      473.0
-    ]
-  },
   "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
     "ts": "2026-11-18T16:19:15.562762",
     "canales": {
@@ -2918,6 +2908,16 @@
     "precio": 3399.0,
     "precios_publicados": [
       3399.0
+    ]
+  },
+  "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
+    "ts": "2026-11-20T16:15:40.797582",
+    "canales": {
+      "whatsapp": "2026-11-20T16:15:40.797582"
+    },
+    "precio": 4699.0,
+    "precios_publicados": [
+      4699.0
     ]
   }
 }
