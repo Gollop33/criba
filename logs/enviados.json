@@ -1,17 +1,4 @@
 {
-  "amz-petisco-para-gatos-wanpy-creamy-sabores-sorti": {
-    "ts": "2026-11-18T14:04:16.184556",
-    "canales": {
-      "whatsapp": "2026-11-18T14:04:16.184556"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      52.0,
-      41.0,
-      41.0
-    ],
-    "precio_min_publicado": 41.0
-  },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-11-18T22:09:39.190015",
     "canales": {
@@ -2990,6 +2977,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-notebook-asus-vivobook-15-m1502ya-amd-ryzen-7": {
+    "ts": "2026-11-20T14:08:41.121374",
+    "canales": {
+      "whatsapp": "2026-11-20T14:08:41.121374"
+    },
+    "precio": 4099.0,
+    "precios_publicados": [
+      4099.0
     ]
   }
 }
