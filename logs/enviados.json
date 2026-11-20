@@ -154,26 +154,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
-    "ts": "2026-11-18T20:40:27.953913",
-    "canales": {
-      "whatsapp": "2026-11-18T20:40:27.953913"
-    },
-    "precio": 130.0,
-    "precios_publicados": [
-      130.0
-    ]
-  },
-  "amz-hepta-world-ventilador-de-coluna-resfriamento": {
-    "ts": "2026-11-18T20:46:05.215992",
-    "canales": {
-      "whatsapp": "2026-11-18T20:46:05.215992"
-    },
-    "precio": 98.0,
-    "precios_publicados": [
-      98.0
-    ]
-  },
   "amz-sabao-liquido-brilhante-5l": {
     "ts": "2026-11-20T07:19:56.477229",
     "canales": {
@@ -2992,6 +2972,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-monitor-brx-20-led-75hz-hdmi-vga-preto": {
+    "ts": "2026-11-20T20:47:28.866596",
+    "canales": {
+      "whatsapp": "2026-11-20T20:47:28.866596"
+    },
+    "precio": 187.0,
+    "precios_publicados": [
+      187.0
     ]
   }
 }
