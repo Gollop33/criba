@@ -871,14 +871,16 @@
     "precio_min_publicado": 154.0
   },
   "amz-celular-samsung-galaxy-s26-5g-512gb-12gb-ram-": {
-    "ts": "2026-11-19T04:38:38.792582",
+    "ts": "2026-11-20T18:15:53.533948",
     "canales": {
-      "whatsapp": "2026-11-19T04:38:38.792582"
+      "whatsapp": "2026-11-20T18:15:53.533948"
     },
-    "precio": 666556.0,
+    "precio": 5554.0,
     "precios_publicados": [
-      666556.0
-    ]
+      666556.0,
+      5554.0
+    ],
+    "precio_min_publicado": 666556.0
   },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-11-19T05:06:38.969641",
