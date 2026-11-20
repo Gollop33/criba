@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-panela-de-pressao-ceramic-life-pressure-42l-c": {
-    "ts": "2026-11-18T21:03:26.210456",
-    "canales": {
-      "whatsapp": "2026-11-18T21:03:26.210456"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
     "ts": "2026-11-18T21:06:15.687355",
     "canales": {
@@ -3002,6 +2992,16 @@
     "precio": 4830.0,
     "precios_publicados": [
       4830.0
+    ]
+  },
+  "amz-smartphone-motorola-edge-70-fusion-5g-256gb-8": {
+    "ts": "2026-11-20T21:05:55.089696",
+    "canales": {
+      "whatsapp": "2026-11-20T21:05:55.089696"
+    },
+    "precio": 2776.0,
+    "precios_publicados": [
+      2776.0
     ]
   }
 }
