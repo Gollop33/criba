@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-20T01:20:52+00:00",
+  "actualizado": "2026-11-20T06:28:06+00:00",
   "total": 313,
   "fuentes": [
     "ML Oficial",
@@ -4147,7 +4147,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-19T14:00:58+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SOUVIP25",
@@ -4227,5 +4228,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-20T03:27:28-03:00"
 }
