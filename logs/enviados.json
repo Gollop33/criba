@@ -128,26 +128,6 @@
     ],
     "precio_min_publicado": 1259.0
   },
-  "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
-    "ts": "2026-11-18T03:57:39.204713",
-    "canales": {
-      "whatsapp": "2026-11-18T03:57:39.204713"
-    },
-    "precio": 57.0,
-    "precios_publicados": [
-      57.0
-    ]
-  },
-  "amz-adaptador-usb-wifi-wireless-dual-band-ac1200-": {
-    "ts": "2026-11-18T04:01:26.882178",
-    "canales": {
-      "whatsapp": "2026-11-18T04:01:26.882178"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-cooler-master-hyper-212-spectrum-v3-argb-cpu-": {
     "ts": "2026-11-18T04:37:50.166908",
     "canales": {
@@ -1613,14 +1593,16 @@
     "precio_min_publicado": 3332.0
   },
   "amz-shampoo-invigo-nutri-enrich-wella-professiona": {
-    "ts": "2026-11-19T04:18:08.693397",
+    "ts": "2026-11-20T04:21:06.229354",
     "canales": {
-      "whatsapp": "2026-11-19T04:18:08.693397"
+      "whatsapp": "2026-11-20T04:21:06.229354"
     },
-    "precio": 154.0,
+    "precio": 117.0,
     "precios_publicados": [
-      154.0
-    ]
+      154.0,
+      117.0
+    ],
+    "precio_min_publicado": 154.0
   },
   "amz-celular-samsung-galaxy-s26-5g-512gb-12gb-ram-": {
     "ts": "2026-11-19T04:38:38.792582",
