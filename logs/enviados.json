@@ -129,16 +129,6 @@
     ],
     "precio_min_publicado": 1079.0
   },
-  "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
-    "ts": "2026-11-18T08:23:26.648718",
-    "canales": {
-      "whatsapp": "2026-11-18T08:23:26.648718"
-    },
-    "precio": 1073.0,
-    "precios_publicados": [
-      1073.0
-    ]
-  },
   "amz-philips-walita-fritadeira-airfryer-forno-12-l": {
     "ts": "2026-11-18T08:45:09.121142",
     "canales": {
@@ -2889,6 +2879,16 @@
     "precio": 22.0,
     "precios_publicados": [
       22.0
+    ]
+  },
+  "amz-lavaroupas-em-po-omo-todo-ciclo-tamanho-famil": {
+    "ts": "2026-11-20T08:44:08.376551",
+    "canales": {
+      "whatsapp": "2026-11-20T08:44:08.376551"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
