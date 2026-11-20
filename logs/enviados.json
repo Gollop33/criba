@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "amz-ype-detergente-em-po-para-maquina-1kg-formula": {
-    "ts": "2026-11-18T20:21:17.264559",
-    "canales": {
-      "whatsapp": "2026-11-18T20:21:17.264559"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-personal-papel-higienico-vip-folha-dupla-16-u": {
     "ts": "2026-11-18T20:28:18.963666",
     "canales": {
@@ -2992,6 +2982,16 @@
     "precio": 1999.0,
     "precios_publicados": [
       1999.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
+    "ts": "2026-11-20T20:24:36.886142",
+    "canales": {
+      "whatsapp": "2026-11-20T20:24:36.886142"
+    },
+    "precio": 945.0,
+    "precios_publicados": [
+      945.0
     ]
   }
 }
