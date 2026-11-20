@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 5099.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-18T23:12:42.348358",
-    "canales": {
-      "whatsapp": "2026-11-18T23:12:42.348358"
-    },
-    "precio": 5859.0,
-    "precios_publicados": [
-      5859.0
-    ]
-  },
   "amz-fone-de-ouvido-headset-havit-h2015-pro-black-": {
     "ts": "2026-11-18T23:22:30.914148",
     "canales": {
@@ -3027,6 +3017,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
+    "ts": "2026-11-20T23:19:27.857616",
+    "canales": {
+      "whatsapp": "2026-11-20T23:19:27.857616"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
