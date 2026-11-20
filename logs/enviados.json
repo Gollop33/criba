@@ -1713,14 +1713,16 @@
     ]
   },
   "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
-    "ts": "2026-11-19T12:03:04.370271",
+    "ts": "2026-11-20T12:06:43.445494",
     "canales": {
-      "whatsapp": "2026-11-19T12:03:04.370271"
+      "whatsapp": "2026-11-20T12:06:43.445494"
     },
-    "precio": 36.0,
+    "precio": 29.0,
     "precios_publicados": [
-      36.0
-    ]
+      36.0,
+      29.0
+    ],
+    "precio_min_publicado": 36.0
   },
   "amz-mondial-ventilador-de-mesa-30cm-super-power-p": {
     "ts": "2026-11-19T12:07:59.828040",
