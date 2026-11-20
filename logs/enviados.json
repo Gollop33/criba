@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
-    "ts": "2026-11-18T20:36:20.142966",
-    "canales": {
-      "whatsapp": "2026-11-18T20:36:20.142966"
-    },
-    "precio": 84.0,
-    "precios_publicados": [
-      84.0
-    ]
-  },
   "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
     "ts": "2026-11-18T20:40:27.953913",
     "canales": {
@@ -2992,6 +2982,16 @@
     "precio": 179.0,
     "precios_publicados": [
       179.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
+    "ts": "2026-11-20T20:38:57.870859",
+    "canales": {
+      "whatsapp": "2026-11-20T20:38:57.870859"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
