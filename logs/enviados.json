@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
-    "ts": "2026-11-18T19:44:54.324660",
-    "canales": {
-      "whatsapp": "2026-11-18T19:44:54.324660"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
     "ts": "2026-11-18T19:54:27.148304",
     "canales": {
@@ -2992,6 +2982,16 @@
     "precio": 5800.0,
     "precios_publicados": [
       5800.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
+    "ts": "2026-11-20T19:49:44.329143",
+    "canales": {
+      "whatsapp": "2026-11-20T19:49:44.329143"
+    },
+    "precio": 2110.0,
+    "precios_publicados": [
+      2110.0
     ]
   }
 }
