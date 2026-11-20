@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-18T21:13:09.593884",
-    "canales": {
-      "whatsapp": "2026-11-18T21:13:09.593884"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
-  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-oc-1m": {
-    "ts": "2026-11-18T21:14:33.881681",
-    "canales": {
-      "whatsapp": "2026-11-18T21:14:33.881681"
-    },
-    "precio": 649.0,
-    "precios_publicados": [
-      649.0
-    ]
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-18T21:17:49.148035",
     "canales": {
@@ -3002,6 +2982,16 @@
     "precio": 1638.0,
     "precios_publicados": [
       1638.0
+    ]
+  },
+  "amz-samsung-galaxy-watch8-smartwatch-44mm-lte-gal": {
+    "ts": "2026-11-20T21:17:42.650473",
+    "canales": {
+      "whatsapp": "2026-11-20T21:17:42.650473"
+    },
+    "precio": 199900.0,
+    "precios_publicados": [
+      199900.0
     ]
   }
 }
