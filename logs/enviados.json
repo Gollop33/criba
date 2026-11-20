@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-monitor-dell-pro-24-plus-1080p-1920-x-1080-10": {
-    "ts": "2026-11-18T22:28:16.135454",
-    "canales": {
-      "whatsapp": "2026-11-18T22:28:16.135454"
-    },
-    "precio": 998.0,
-    "precios_publicados": [
-      998.0
-    ]
-  },
   "amz-grand-theft-auto-vi-playstation-5": {
     "ts": "2026-11-18T22:31:57.033874",
     "canales": {
@@ -3019,6 +3009,16 @@
     "precio": 399.0,
     "precios_publicados": [
       399.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
+    "ts": "2026-11-20T22:31:14.632411",
+    "canales": {
+      "whatsapp": "2026-11-20T22:31:14.632411"
+    },
+    "precio": 776.0,
+    "precios_publicados": [
+      776.0
     ]
   }
 }
