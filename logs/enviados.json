@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
-    "ts": "2026-11-18T19:38:45.356793",
-    "canales": {
-      "whatsapp": "2026-11-18T19:38:45.356793"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
   "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
     "ts": "2026-11-18T19:44:54.324660",
     "canales": {
@@ -2992,6 +2982,16 @@
     "precio": 3588.0,
     "precios_publicados": [
       3588.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
+    "ts": "2026-11-20T19:40:49.058568",
+    "canales": {
+      "whatsapp": "2026-11-20T19:40:49.058568"
+    },
+    "precio": 5800.0,
+    "precios_publicados": [
+      5800.0
     ]
   }
 }
