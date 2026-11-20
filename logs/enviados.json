@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 5099.0
   },
-  "amz-notebook-asus-vivobook-go-15-intel-celeron-du": {
-    "ts": "2026-11-18T23:29:59.774684",
-    "canales": {
-      "whatsapp": "2026-11-18T23:29:59.774684"
-    },
-    "precio": 2399.0,
-    "precios_publicados": [
-      2399.0
-    ]
-  },
   "amz-stellar-blade-ps5": {
     "ts": "2026-11-20T07:54:43.485472",
     "canales": {
@@ -3037,6 +3027,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-monitor-lg-ultragear-tela-ips-de-25-200hz-1ms": {
+    "ts": "2026-11-20T23:32:02.782846",
+    "canales": {
+      "whatsapp": "2026-11-20T23:32:02.782846"
+    },
+    "precio": 749.0,
+    "precios_publicados": [
+      749.0
     ]
   }
 }
