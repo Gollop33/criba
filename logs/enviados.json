@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 3998.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
-    "ts": "2026-11-18T15:26:23.457955",
-    "canales": {
-      "whatsapp": "2026-11-18T15:26:23.457955"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-fone-de-ouvido-headset-havit-fuxih3-plus-blac": {
     "ts": "2026-11-18T15:33:39.828726",
     "canales": {
@@ -2938,6 +2928,16 @@
     "precio": 4159.0,
     "precios_publicados": [
       4159.0
+    ]
+  },
+  "amz-tablet-infantil-minnie-7-wifi-4gb-ram-64gb-an": {
+    "ts": "2026-11-20T15:29:40.371452",
+    "canales": {
+      "whatsapp": "2026-11-20T15:29:40.371452"
+    },
+    "precio": 365.0,
+    "precios_publicados": [
+      365.0
     ]
   }
 }
