@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-18T16:50:06.096625",
-    "canales": {
-      "whatsapp": "2026-11-18T16:50:06.096625"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-11-18T16:53:22.812090",
     "canales": {
@@ -2908,6 +2898,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
+    "ts": "2026-11-20T16:50:29.481849",
+    "canales": {
+      "whatsapp": "2026-11-20T16:50:29.481849"
+    },
+    "precio": 5660.0,
+    "precios_publicados": [
+      5660.0
     ]
   }
 }
