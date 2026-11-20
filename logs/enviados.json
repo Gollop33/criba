@@ -153,16 +153,6 @@
     ],
     "precio_min_publicado": 5099.0
   },
-  "amz-notebook-acer-aspire-5-15-ryzen-5-5500u-16gb-": {
-    "ts": "2026-11-18T23:06:51.015455",
-    "canales": {
-      "whatsapp": "2026-11-18T23:06:51.015455"
-    },
-    "precio": 3949.0,
-    "precios_publicados": [
-      3949.0
-    ]
-  },
   "amz-apple-iphone-17-de-256-gb-preto": {
     "ts": "2026-11-18T23:12:42.348358",
     "canales": {
@@ -3027,6 +3017,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-omo-lavaroupas-liquido-ultra-power-frasco-18l": {
+    "ts": "2026-11-20T23:10:23.572726",
+    "canales": {
+      "whatsapp": "2026-11-20T23:10:23.572726"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
