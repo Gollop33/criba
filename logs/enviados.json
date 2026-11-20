@@ -128,16 +128,6 @@
     ],
     "precio_min_publicado": 1259.0
   },
-  "amz-placa-de-video-asrock-radeon-rx-7600-challeng": {
-    "ts": "2026-11-18T07:35:20.236943",
-    "canales": {
-      "whatsapp": "2026-11-18T07:35:20.236943"
-    },
-    "precio": 2199.0,
-    "precios_publicados": [
-      2199.0
-    ]
-  },
   "amz-electrolux-purificador-de-agua-gelada-fria-e-": {
     "ts": "2026-11-18T07:59:44.480868",
     "canales": {
@@ -1251,14 +1241,16 @@
     ]
   },
   "amz-stellar-blade-ps5": {
-    "ts": "2026-11-18T23:38:27.503018",
+    "ts": "2026-11-20T07:54:43.485472",
     "canales": {
-      "whatsapp": "2026-11-18T23:38:27.503018"
+      "whatsapp": "2026-11-20T07:54:43.485472"
     },
-    "precio": 369.0,
+    "precio": 169.0,
     "precios_publicados": [
-      369.0
-    ]
+      369.0,
+      169.0
+    ],
+    "precio_min_publicado": 369.0
   },
   "amz-processador-amd-ryzen-7-5700g-box-am4-8-cores": {
     "ts": "2026-11-18T23:41:03.431565",
