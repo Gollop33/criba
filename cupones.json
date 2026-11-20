@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-20T15:23:09+00:00",
-  "total": 313,
+  "actualizado": "2026-11-20T18:09:54+00:00",
+  "total": 318,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -4225,6 +4225,71 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-19T13:04:12+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "BLACKDELUXO",
+      "desconto": "10% OFF",
+      "compra_minima": "",
+      "limite": "R$150",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-20T18:00:05+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "INOVATECHML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$149",
+      "limite": "R$200",
+      "hasta": "",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-20T13:01:54+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFERTAPARASAUDE",
+      "desconto": "10% OFF",
+      "compra_minima": "R$99",
+      "limite": "R$30",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-20T13:01:54+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "AQUITEMCUPOM30",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2027-01-11",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-20T13:01:54+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFERTAS18",
+      "desconto": "18% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2027-01-11",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-20T13:01:54+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
