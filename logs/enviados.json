@@ -1401,14 +1401,16 @@
     ]
   },
   "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
-    "ts": "2026-11-19T00:50:32.540028",
+    "ts": "2026-11-20T06:47:43.725567",
     "canales": {
-      "whatsapp": "2026-11-19T00:50:32.540028"
+      "whatsapp": "2026-11-20T06:47:43.725567"
     },
-    "precio": 21.0,
+    "precio": 17.0,
     "precios_publicados": [
-      21.0
-    ]
+      21.0,
+      17.0
+    ],
+    "precio_min_publicado": 21.0
   },
   "amz-secret-desodorante-antitranspirante-em-gel-be": {
     "ts": "2026-11-19T00:57:24.454526",
