@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 48.0
   },
-  "amz-downy-amaciante-concentrado-perfume-collectio": {
-    "ts": "2026-11-18T20:15:08.078018",
-    "canales": {
-      "whatsapp": "2026-11-18T20:15:08.078018"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-ype-detergente-em-po-para-maquina-1kg-formula": {
     "ts": "2026-11-18T20:21:17.264559",
     "canales": {
@@ -2992,6 +2982,16 @@
     "precio": 3443.0,
     "precios_publicados": [
       3443.0
+    ]
+  },
+  "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
+    "ts": "2026-11-20T20:16:22.979617",
+    "canales": {
+      "whatsapp": "2026-11-20T20:16:22.979617"
+    },
+    "precio": 1999.0,
+    "precios_publicados": [
+      1999.0
     ]
   }
 }
