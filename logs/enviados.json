@@ -1687,14 +1687,16 @@
     ]
   },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
-    "ts": "2026-11-19T00:12:11.516301",
+    "ts": "2026-11-20T00:15:25.858229",
     "canales": {
-      "whatsapp": "2026-11-19T00:12:11.516301"
+      "whatsapp": "2026-11-20T00:15:25.858229"
     },
-    "precio": 4499.0,
+    "precio": 3999.0,
     "precios_publicados": [
-      4499.0
-    ]
+      4499.0,
+      3999.0
+    ],
+    "precio_min_publicado": 4499.0
   },
   "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
     "ts": "2026-11-19T00:14:39.589244",
