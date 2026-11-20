@@ -1431,7 +1431,17 @@
       "detectado_em": "2026-11-18T13:02:42+00:00",
       "publicado_em": null,
       "motivo": "detectado hace 30h (> 24h)"
+    },
+    "MELITEMCUPOM": {
+      "detectado_em": "2026-11-19T20:16:16+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PARAVC": {
+      "detectado_em": "2026-11-19T20:16:16+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-20T00:08:42+00:00"
+  "actualizado": "2026-11-20T01:23:32+00:00"
 }
