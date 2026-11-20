@@ -12,18 +12,6 @@
     ],
     "precio_min_publicado": 537.0
   },
-  "amz-nivea-sabonete-vegetal-nutricao-da-natureza-m": {
-    "ts": "2026-11-18T19:16:48.542497",
-    "canales": {
-      "whatsapp": "2026-11-18T19:16:48.542497"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      2304.0,
-      15.0
-    ],
-    "precio_min_publicado": 2304.0
-  },
   "amz-hidratante-facial-neutrogena-hydro-boost-wate": {
     "ts": "2026-11-19T06:56:42.277326",
     "canales": {
@@ -2964,6 +2952,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-bebedouro-para-gatos-3l-fonte-gato-inox-comed": {
+    "ts": "2026-11-20T19:17:14.536500",
+    "canales": {
+      "whatsapp": "2026-11-20T19:17:14.536500"
+    },
+    "precio": 95.0,
+    "precios_publicados": [
+      95.0
     ]
   }
 }
