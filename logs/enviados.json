@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-monitor-gamer-aoc-agon-g42-27-200hz-03ms-ips-": {
-    "ts": "2026-11-18T21:06:15.687355",
-    "canales": {
-      "whatsapp": "2026-11-18T21:06:15.687355"
-    },
-    "precio": 791.0,
-    "precios_publicados": [
-      791.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
     "ts": "2026-11-18T21:13:09.593884",
     "canales": {
@@ -3002,6 +2992,16 @@
     "precio": 2776.0,
     "precios_publicados": [
       2776.0
+    ]
+  },
+  "amz-smartphone-xiaomi-redmi-note-15-preto-8gb-ram": {
+    "ts": "2026-11-20T21:09:11.852173",
+    "canales": {
+      "whatsapp": "2026-11-20T21:09:11.852173"
+    },
+    "precio": 1638.0,
+    "precios_publicados": [
+      1638.0
     ]
   }
 }
