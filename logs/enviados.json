@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-smartphone-motorola-edge-70-5g-crystals-by-sw": {
-    "ts": "2026-11-18T21:34:59.774200",
-    "canales": {
-      "whatsapp": "2026-11-18T21:34:59.774200"
-    },
-    "precio": 3776.0,
-    "precios_publicados": [
-      3776.0
-    ]
-  },
-  "amz-monitor-lg-ultragear-tela-ips-de-25-200hz-1ms": {
-    "ts": "2026-11-18T21:37:35.110635",
-    "canales": {
-      "whatsapp": "2026-11-18T21:37:35.110635"
-    },
-    "precio": 749.0,
-    "precios_publicados": [
-      749.0
-    ]
-  },
   "amz-monitor-philips-27-120hz-1ms-gaming-altofalan": {
     "ts": "2026-11-18T21:47:02.218609",
     "canales": {
@@ -3002,6 +2982,16 @@
     "precio": 928.0,
     "precios_publicados": [
       928.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-24-fhd100-hz-hdmi-vgapr": {
+    "ts": "2026-11-20T21:39:42.806622",
+    "canales": {
+      "whatsapp": "2026-11-20T21:39:42.806622"
+    },
+    "precio": 529.0,
+    "precios_publicados": [
+      529.0
     ]
   }
 }
