@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-monitor-philips-27-120hz-1ms-gaming-altofalan": {
-    "ts": "2026-11-18T21:47:02.218609",
-    "canales": {
-      "whatsapp": "2026-11-18T21:47:02.218609"
-    },
-    "precio": 589.0,
-    "precios_publicados": [
-      589.0
-    ]
-  },
-  "amz-monitor-gamer-aoc-agon-g4s-25-310hz-03ms-hdr1": {
-    "ts": "2026-11-18T21:50:35.673228",
-    "canales": {
-      "whatsapp": "2026-11-18T21:50:35.673228"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
   "amz-whey-protein-concentrado-pote-900g-chocolate-": {
     "ts": "2026-11-18T21:55:38.438428",
     "canales": {
@@ -3022,6 +3002,16 @@
     "precio": 389.0,
     "precios_publicados": [
       389.0
+    ]
+  },
+  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
+    "ts": "2026-11-20T21:53:12.177442",
+    "canales": {
+      "whatsapp": "2026-11-20T21:53:12.177442"
+    },
+    "precio": 199.0,
+    "precios_publicados": [
+      199.0
     ]
   }
 }
