@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 7897.0
   },
-  "amz-whey-protein-concentrado-pote-900g-chocolate-": {
-    "ts": "2026-11-18T21:55:38.438428",
-    "canales": {
-      "whatsapp": "2026-11-18T21:55:38.438428"
-    },
-    "precio": 220.0,
-    "precios_publicados": [
-      220.0
-    ]
-  },
-  "amz-apple-iphone-16-512-gb-preto": {
-    "ts": "2026-11-18T21:57:02.349151",
-    "canales": {
-      "whatsapp": "2026-11-18T21:57:02.349151"
-    },
-    "precio": 5499.0,
-    "precios_publicados": [
-      5499.0
-    ]
-  },
   "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
     "ts": "2026-11-18T22:03:38.433553",
     "canales": {
@@ -3022,6 +3002,16 @@
     "precio": 849.0,
     "precios_publicados": [
       849.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
+    "ts": "2026-11-20T22:01:05.607253",
+    "canales": {
+      "whatsapp": "2026-11-20T22:01:05.607253"
+    },
+    "precio": 2132.0,
+    "precios_publicados": [
+      2132.0
     ]
   }
 }
