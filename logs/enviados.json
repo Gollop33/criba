@@ -154,26 +154,6 @@
     ],
     "precio_min_publicado": 359900.0
   },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-11-18T15:51:50.249291",
-    "canales": {
-      "whatsapp": "2026-11-18T15:51:50.249291"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
-  "amz-headset-gamer-sem-fio-redragon-zeus-pro-preto": {
-    "ts": "2026-11-18T15:53:40.642856",
-    "canales": {
-      "whatsapp": "2026-11-18T15:53:40.642856"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
   "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
     "ts": "2026-11-18T15:59:32.001814",
     "canales": {
@@ -2938,6 +2918,16 @@
     "precio": 494.0,
     "precios_publicados": [
       494.0
+    ]
+  },
+  "amz-tablet-mirage-7-pol-wifi-28-mah-bateria-64gb-": {
+    "ts": "2026-11-20T15:57:04.661997",
+    "canales": {
+      "whatsapp": "2026-11-20T15:57:04.661997"
+    },
+    "precio": 349.0,
+    "precios_publicados": [
+      349.0
     ]
   }
 }
