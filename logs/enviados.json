@@ -191,16 +191,6 @@
     ],
     "precio_min_publicado": 666556.0
   },
-  "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
-    "ts": "2026-11-19T07:30:33.667636",
-    "canales": {
-      "whatsapp": "2026-11-19T07:30:33.667636"
-    },
-    "precio": 2.0,
-    "precios_publicados": [
-      2.0
-    ]
-  },
   "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
     "ts": "2026-11-19T08:01:09.506277",
     "canales": {
@@ -282,14 +272,16 @@
     ]
   },
   "amz-air-fryer-oven-philco-12l-1800w-4-em-1-pfr220": {
-    "ts": "2026-11-19T10:45:34.890096",
+    "ts": "2026-11-21T07:37:36.586278",
     "canales": {
-      "whatsapp": "2026-11-19T10:45:34.890096"
+      "whatsapp": "2026-11-21T07:37:36.586278"
     },
-    "precio": 36720.0,
+    "precio": 545.0,
     "precios_publicados": [
-      36720.0
-    ]
+      36720.0,
+      545.0
+    ],
+    "precio_min_publicado": 36720.0
   },
   "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-11-19T10:46:45.410241",
