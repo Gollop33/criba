@@ -203,26 +203,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
-    "ts": "2026-11-19T11:04:07.131645",
-    "canales": {
-      "whatsapp": "2026-11-19T11:04:07.131645"
-    },
-    "precio": 2979.0,
-    "precios_publicados": [
-      2979.0
-    ]
-  },
-  "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-19T11:07:39.118934",
-    "canales": {
-      "whatsapp": "2026-11-19T11:07:39.118934"
-    },
-    "precio": 429.0,
-    "precios_publicados": [
-      429.0
-    ]
-  },
   "amz-tramontina-panela-de-pressao-vancouver-effect": {
     "ts": "2026-11-19T11:15:17.328888",
     "canales": {
@@ -3049,6 +3029,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
+    "ts": "2026-11-21T11:08:42.130309",
+    "canales": {
+      "whatsapp": "2026-11-21T11:08:42.130309"
+    },
+    "precio": 56.0,
+    "precios_publicados": [
+      56.0
     ]
   }
 }
