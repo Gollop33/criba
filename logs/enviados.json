@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
-    "ts": "2026-11-19T03:21:13.498077",
-    "canales": {
-      "whatsapp": "2026-11-19T03:21:13.498077"
-    },
-    "precio": 1029.0,
-    "precios_publicados": [
-      1029.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
     "ts": "2026-11-20T03:53:44.991040",
     "canales": {
@@ -3006,6 +2996,16 @@
     "precio": 169.0,
     "precios_publicados": [
       169.0
+    ]
+  },
+  "amz-xbox-carbon-black-controle-sem-fio-bluetooth-": {
+    "ts": "2026-11-21T03:28:16.452460",
+    "canales": {
+      "whatsapp": "2026-11-21T03:28:16.452460"
+    },
+    "precio": 332.0,
+    "precios_publicados": [
+      332.0
     ]
   }
 }
