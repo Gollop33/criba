@@ -191,16 +191,6 @@
     ],
     "precio_min_publicado": 666556.0
   },
-  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
-    "ts": "2026-11-19T10:40:16.993609",
-    "canales": {
-      "whatsapp": "2026-11-19T10:40:16.993609"
-    },
-    "precio": 2599.0,
-    "precios_publicados": [
-      2599.0
-    ]
-  },
   "amz-air-fryer-oven-philco-12l-1800w-4-em-1-pfr220": {
     "ts": "2026-11-21T07:37:36.586278",
     "canales": {
@@ -3059,6 +3049,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "amz-sache-aromatizante-england-interbrilho": {
+    "ts": "2026-11-21T10:45:48.778334",
+    "canales": {
+      "whatsapp": "2026-11-21T10:45:48.778334"
+    },
+    "precio": 8.0,
+    "precios_publicados": [
+      8.0
     ]
   }
 }
