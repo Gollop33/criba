@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-ssd-kingston-nv3-1tb-m2-2280-nvme-gen4-desemp": {
-    "ts": "2026-11-19T17:43:24.487670",
-    "canales": {
-      "whatsapp": "2026-11-19T17:43:24.487670"
-    },
-    "precio": 1049.0,
-    "precios_publicados": [
-      1049.0
-    ]
-  },
   "amz-finish-detergente-para-lava-loucas-em-po-700g": {
     "ts": "2026-11-19T17:50:36.453213",
     "canales": {
@@ -3207,6 +3197,16 @@
     "precio": 1832.0,
     "precios_publicados": [
       1832.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-21T17:46:55.459134",
+    "canales": {
+      "whatsapp": "2026-11-21T17:46:55.459134"
+    },
+    "precio": 989.0,
+    "precios_publicados": [
+      989.0
     ]
   }
 }
