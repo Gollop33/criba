@@ -190,16 +190,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-secret-desodorante-antitranspirante-em-gel-be": {
-    "ts": "2026-11-19T00:57:24.454526",
-    "canales": {
-      "whatsapp": "2026-11-19T00:57:24.454526"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-colgate-total-gengiva-saudavel-creme-dental-a": {
     "ts": "2026-11-19T01:15:33.868275",
     "canales": {
@@ -2990,6 +2980,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-colgate-total-whitening-fresh-mint-creme-dent": {
+    "ts": "2026-11-21T00:59:31.589738",
+    "canales": {
+      "whatsapp": "2026-11-21T00:59:31.589738"
+    },
+    "precio": 32.0,
+    "precios_publicados": [
+      32.0
     ]
   }
 }
