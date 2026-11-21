@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
-    "ts": "2026-11-19T18:22:40.211283",
-    "canales": {
-      "whatsapp": "2026-11-19T18:22:40.211283"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-11-19T18:29:33.064266",
     "canales": {
@@ -3237,6 +3227,16 @@
     "precio": 429.0,
     "precios_publicados": [
       429.0
+    ]
+  },
+  "amz-tablet-tcl-a1-plus-128gb-16gb-ram-6gb-10gb-te": {
+    "ts": "2026-11-21T18:29:05.066691",
+    "canales": {
+      "whatsapp": "2026-11-21T18:29:05.066691"
+    },
+    "precio": 2439.0,
+    "precios_publicados": [
+      2439.0
     ]
   }
 }
