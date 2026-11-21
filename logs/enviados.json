@@ -131,16 +131,17 @@
     "precio_min_publicado": 3332.0
   },
   "amz-shampoo-invigo-nutri-enrich-wella-professiona": {
-    "ts": "2026-11-20T04:21:06.229354",
+    "ts": "2026-11-21T21:23:03.823140",
     "canales": {
-      "whatsapp": "2026-11-20T04:21:06.229354"
+      "whatsapp": "2026-11-21T21:23:03.823140"
     },
     "precio": 117.0,
     "precios_publicados": [
       154.0,
+      117.0,
       117.0
     ],
-    "precio_min_publicado": 154.0
+    "precio_min_publicado": 117.0
   },
   "amz-celular-samsung-galaxy-s26-5g-512gb-12gb-ram-": {
     "ts": "2026-11-20T18:15:53.533948",
@@ -201,76 +202,6 @@
       244.0
     ],
     "precio_min_publicado": 305.0
-  },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-19T20:32:24.004397",
-    "canales": {
-      "whatsapp": "2026-11-19T20:32:24.004397"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
-  "amz-fralda-pom-pom-protek-protecao-de-mae-hiper-g": {
-    "ts": "2026-11-19T20:37:30.779929",
-    "canales": {
-      "whatsapp": "2026-11-19T20:37:30.779929"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
-  "amz-quadrados-de-algodao-johnsons-baby-recemnasci": {
-    "ts": "2026-11-19T20:45:30.771800",
-    "canales": {
-      "whatsapp": "2026-11-19T20:45:30.771800"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
-  "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
-    "ts": "2026-11-19T20:52:49.304798",
-    "canales": {
-      "whatsapp": "2026-11-19T20:52:49.304798"
-    },
-    "precio": 31.0,
-    "precios_publicados": [
-      31.0
-    ]
-  },
-  "amz-kit-com-3-ventoinhas-gamer-rise-mode-x-120mm-": {
-    "ts": "2026-11-19T21:02:50.323945",
-    "canales": {
-      "whatsapp": "2026-11-19T21:02:50.323945"
-    },
-    "precio": 44.0,
-    "precios_publicados": [
-      44.0
-    ]
-  },
-  "amz-mondial-ventilador-de-mesa-30cm-110v-brancoaz": {
-    "ts": "2026-11-19T21:10:59.483262",
-    "canales": {
-      "whatsapp": "2026-11-19T21:10:59.483262"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
-  "amz-placa-de-captura-de-video-hdmi-4k-usb-30-full": {
-    "ts": "2026-11-19T21:20:59.315779",
-    "canales": {
-      "whatsapp": "2026-11-19T21:20:59.315779"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
   },
   "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
     "ts": "2026-11-19T21:30:07.010835",
