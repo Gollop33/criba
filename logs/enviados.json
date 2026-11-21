@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-11-19T01:56:11.196774",
-    "canales": {
-      "whatsapp": "2026-11-19T01:56:11.196774"
-    },
-    "precio": 569.0,
-    "precios_publicados": [
-      569.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
     "ts": "2026-11-19T01:59:28.560231",
     "canales": {
@@ -3006,6 +2996,16 @@
     "precio": 165.0,
     "precios_publicados": [
       165.0
+    ]
+  },
+  "amz-hd-externo-portatil-500gb-unionsine-disco-rig": {
+    "ts": "2026-11-21T01:59:05.401262",
+    "canales": {
+      "whatsapp": "2026-11-21T01:59:05.401262"
+    },
+    "precio": 211.0,
+    "precios_publicados": [
+      211.0
     ]
   }
 }
