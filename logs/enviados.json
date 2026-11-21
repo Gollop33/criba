@@ -57,18 +57,6 @@
     ],
     "precio_min_publicado": 3499.0
   },
-  "amz-notebook-asus-vivobook-go-15-e1504fa-amd-ryze": {
-    "ts": "2026-11-19T15:50:39.820406",
-    "canales": {
-      "whatsapp": "2026-11-19T15:50:39.820406"
-    },
-    "precio": 3599.0,
-    "precios_publicados": [
-      359900.0,
-      3599.0
-    ],
-    "precio_min_publicado": 359900.0
-  },
   "amz-creatina-monohidratada-sem-sabor-pote-300g-su": {
     "ts": "2026-11-20T18:12:32.679787",
     "canales": {
@@ -3189,6 +3177,16 @@
     "precio": 37.0,
     "precios_publicados": [
       37.0
+    ]
+  },
+  "amz-mouse-sem-fio-1600-dpi-vermelho": {
+    "ts": "2026-11-21T15:55:32.663080",
+    "canales": {
+      "whatsapp": "2026-11-21T15:55:32.663080"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
