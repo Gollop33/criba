@@ -202,26 +202,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-suporte-para-gabinete-modelo-sc20bk-preto-c3-": {
-    "ts": "2026-11-19T19:53:16.534367",
-    "canales": {
-      "whatsapp": "2026-11-19T19:53:16.534367"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
-  "amz-colgate-tripla-acao-menta-original-creme-dent": {
-    "ts": "2026-11-19T19:56:25.189630",
-    "canales": {
-      "whatsapp": "2026-11-19T19:56:25.189630"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
     "ts": "2026-11-19T20:00:10.013050",
     "canales": {
@@ -3264,6 +3244,16 @@
     "precio": 1443.0,
     "precios_publicados": [
       1443.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
+    "ts": "2026-11-21T19:59:36.642511",
+    "canales": {
+      "whatsapp": "2026-11-21T19:59:36.642511"
+    },
+    "precio": 1424.0,
+    "precios_publicados": [
+      1424.0
     ]
   }
 }
