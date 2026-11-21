@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-21T06:08:04+00:00",
-  "total": 7,
+  "actualizado": "2026-11-21T06:15:31+00:00",
+  "total": 6,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
+      "monitorizado_desde": "2026-11-21T06:15:31+00:00"
     },
     {
       "busqueda": "bundle gta vi playstation 5 slim digital 825",
@@ -17,31 +17,7 @@
       "precio_ref": 4948.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
-    },
-    {
-      "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
-      "nombre": "PROCESSADOR AMD RYZEN 7 5700X 3.4GHz (Turbo 4.6GHz) 36MB Cache AM4 100-100000926WOF, Cerâmica Cinza",
-      "precio_ref": 1252.99,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
-    },
-    {
-      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
-      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
-      "precio_ref": 758.59,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
-    },
-    {
-      "busqueda": "controle dualshock 4 playstation 4 preto modelo dualshock",
-      "nombre": "Controle Dualshock 4 - PlayStation 4 - Preto | Modelo DualShock 4",
-      "precio_ref": 209.99,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
+      "monitorizado_desde": "2026-11-21T06:15:31+00:00"
     },
     {
       "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
@@ -49,7 +25,15 @@
       "precio_ref": 569.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
+      "monitorizado_desde": "2026-11-21T06:15:31+00:00"
+    },
+    {
+      "busqueda": "controle dualshock 4 playstation 4 preto modelo dualshock",
+      "nombre": "Controle Dualshock 4 - PlayStation 4 - Preto | Modelo DualShock 4",
+      "precio_ref": 209.99,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-21T06:15:31+00:00"
     },
     {
       "busqueda": "whey protein concentrado pote 900g chocolate branco dux",
@@ -57,7 +41,15 @@
       "precio_ref": 192.68,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T06:08:04+00:00"
+      "monitorizado_desde": "2026-11-21T06:15:31+00:00"
+    },
+    {
+      "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
+      "nombre": "Placa Mãe Gigabyte B550M AORUS ELITE (AM4/DDR4/HDMI/M.2(PCIe,NVMe,SATA3)/VRM Solution/USB3.2) - B550M AORUS ELITE",
+      "precio_ref": 758.59,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-21T06:15:31+00:00"
     }
   ]
 }
