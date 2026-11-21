@@ -215,26 +215,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-playstation5-pro": {
-    "ts": "2026-11-19T22:30:24.581074",
-    "canales": {
-      "whatsapp": "2026-11-19T22:30:24.581074"
-    },
-    "precio": 7599.0,
-    "precios_publicados": [
-      7599.0
-    ]
-  },
-  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
-    "ts": "2026-11-19T22:33:09.930228",
-    "canales": {
-      "whatsapp": "2026-11-19T22:33:09.930228"
-    },
-    "precio": 1859.0,
-    "precios_publicados": [
-      1859.0
-    ]
-  },
   "amz-memoria-ram-rise-mode-z-series-16gb-3200mhz-d": {
     "ts": "2026-11-19T22:40:11.899546",
     "canales": {
@@ -3245,6 +3225,16 @@
     "precio": 46.0,
     "precios_publicados": [
       46.0
+    ]
+  },
+  "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
+    "ts": "2026-11-21T22:37:39.939886",
+    "canales": {
+      "whatsapp": "2026-11-21T22:37:39.939886"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
