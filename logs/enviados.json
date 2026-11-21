@@ -203,26 +203,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-19T11:20:45.114347",
-    "canales": {
-      "whatsapp": "2026-11-19T11:20:45.114347"
-    },
-    "precio": 4498.0,
-    "precios_publicados": [
-      4498.0
-    ]
-  },
-  "amz-notebook-gamer-lenovo-loq-15irx9-intel-core-i": {
-    "ts": "2026-11-19T11:21:52.287479",
-    "canales": {
-      "whatsapp": "2026-11-19T11:21:52.287479"
-    },
-    "precio": 7349.0,
-    "precios_publicados": [
-      7349.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
     "ts": "2026-11-19T11:30:04.880695",
     "canales": {
@@ -3049,6 +3029,16 @@
     "precio": 57.0,
     "precios_publicados": [
       57.0
+    ]
+  },
+  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
+    "ts": "2026-11-21T11:24:25.962047",
+    "canales": {
+      "whatsapp": "2026-11-21T11:24:25.962047"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
