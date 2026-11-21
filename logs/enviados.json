@@ -202,16 +202,6 @@
     ],
     "precio_min_publicado": 666556.0
   },
-  "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
-    "ts": "2026-11-19T06:35:46.819501",
-    "canales": {
-      "whatsapp": "2026-11-19T06:35:46.819501"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "ml-samsung-smart-tv-50-mini-led-4k-m75h-262027": {
     "ts": "2026-11-19T06:43:37.485915",
     "canales": {
@@ -3086,6 +3076,16 @@
     "precio": 192.0,
     "precios_publicados": [
       192.0
+    ]
+  },
+  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
+    "ts": "2026-11-21T06:36:29.505511",
+    "canales": {
+      "whatsapp": "2026-11-21T06:36:29.505511"
+    },
+    "precio": 758.0,
+    "precios_publicados": [
+      758.0
     ]
   }
 }
