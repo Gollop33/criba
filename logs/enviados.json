@@ -215,26 +215,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-19T18:29:33.064266",
-    "canales": {
-      "whatsapp": "2026-11-19T18:29:33.064266"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-a11-128gb-6gb-ram-w": {
-    "ts": "2026-11-19T18:37:23.510590",
-    "canales": {
-      "whatsapp": "2026-11-19T18:37:23.510590"
-    },
-    "precio": 1493.0,
-    "precios_publicados": [
-      1493.0
-    ]
-  },
   "amz-cif-limpador-especialista-derrete-gordura-500": {
     "ts": "2026-11-19T18:50:41.398806",
     "canales": {
@@ -3237,6 +3217,16 @@
     "precio": 2439.0,
     "precios_publicados": [
       2439.0
+    ]
+  },
+  "amz-galaxy-book4-intel-inside-u300-windows-11-hom": {
+    "ts": "2026-11-21T18:38:14.490031",
+    "canales": {
+      "whatsapp": "2026-11-21T18:38:14.490031"
+    },
+    "precio": 3279.0,
+    "precios_publicados": [
+      3279.0
     ]
   }
 }
