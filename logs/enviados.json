@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-lysoform-original-desinfetante-liquido-limpez": {
-    "ts": "2026-11-19T18:15:26.922501",
-    "canales": {
-      "whatsapp": "2026-11-19T18:15:26.922501"
-    },
-    "precio": 40.0,
-    "precios_publicados": [
-      40.0
-    ]
-  },
   "amz-serum-leavein-cabelos-finos-elseve-loreal-par": {
     "ts": "2026-11-19T18:22:40.211283",
     "canales": {
@@ -3237,6 +3227,16 @@
     "precio": 1499.0,
     "precios_publicados": [
       1499.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-processador-octa": {
+    "ts": "2026-11-21T18:21:10.845227",
+    "canales": {
+      "whatsapp": "2026-11-21T18:21:10.845227"
+    },
+    "precio": 429.0,
+    "precios_publicados": [
+      429.0
     ]
   }
 }
