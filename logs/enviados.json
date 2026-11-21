@@ -515,14 +515,16 @@
     ]
   },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
-    "ts": "2026-11-19T14:29:35.692709",
+    "ts": "2026-11-21T06:40:28.527621",
     "canales": {
-      "whatsapp": "2026-11-19T14:29:35.692709"
+      "whatsapp": "2026-11-21T06:40:28.527621"
     },
-    "precio": 63.0,
+    "precio": 45.0,
     "precios_publicados": [
-      63.0
-    ]
+      63.0,
+      45.0
+    ],
+    "precio_min_publicado": 63.0
   },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-11-19T14:36:26.535416",
