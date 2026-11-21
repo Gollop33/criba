@@ -203,26 +203,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
-    "ts": "2026-11-19T10:46:45.410241",
-    "canales": {
-      "whatsapp": "2026-11-19T10:46:45.410241"
-    },
-    "precio": 2899.0,
-    "precios_publicados": [
-      2899.0
-    ]
-  },
-  "amz-notebook-samsung-galaxy-book4-intel-core-5120": {
-    "ts": "2026-11-19T10:51:41.031308",
-    "canales": {
-      "whatsapp": "2026-11-19T10:51:41.031308"
-    },
-    "precio": 3887.0,
-    "precios_publicados": [
-      3887.0
-    ]
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-19T11:01:41.913540",
     "canales": {
@@ -3059,6 +3039,16 @@
     "precio": 8.0,
     "precios_publicados": [
       8.0
+    ]
+  },
+  "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
+    "ts": "2026-11-21T10:53:43.699837",
+    "canales": {
+      "whatsapp": "2026-11-21T10:53:43.699837"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
