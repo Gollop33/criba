@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-smart-lampada-wifi-positivo-casa-inteligente-": {
-    "ts": "2026-11-19T19:19:56.119431",
-    "canales": {
-      "whatsapp": "2026-11-19T19:19:56.119431"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-colgate-total-original-mint-creme-dental-com-": {
     "ts": "2026-11-19T19:31:18.823409",
     "canales": {
@@ -3257,6 +3247,16 @@
     "precio": 296121.0,
     "precios_publicados": [
       296121.0
+    ]
+  },
+  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
+    "ts": "2026-11-21T19:21:12.539121",
+    "canales": {
+      "whatsapp": "2026-11-21T19:21:12.539121"
+    },
+    "precio": 4799.0,
+    "precios_publicados": [
+      4799.0
     ]
   }
 }
