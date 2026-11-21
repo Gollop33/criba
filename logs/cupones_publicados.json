@@ -1087,16 +1087,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "SEUCUPOM": {
-      "detectado_em": "2026-10-22T17:09:51+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 550h (> 24h)"
-    },
-    "MAISDESCONTO": {
-      "detectado_em": "2026-10-22T17:09:51+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 550h (> 24h)"
-    },
     "PROMOTEC": {
       "detectado_em": "2026-11-14T16:01:28+00:00",
       "publicado_em": null,
@@ -1398,5 +1388,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-21T17:00:57+00:00"
+  "actualizado": "2026-11-21T17:12:05+00:00"
 }

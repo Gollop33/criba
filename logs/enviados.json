@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-19T17:08:39.845328",
-    "canales": {
-      "whatsapp": "2026-11-19T17:08:39.845328"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "amz-headset-gamer-redragon-zeus-lite-preto-p3-h51": {
     "ts": "2026-11-19T17:15:09.772894",
     "canales": {
@@ -3207,6 +3197,16 @@
     "precio": 3423.0,
     "precios_publicados": [
       3423.0
+    ]
+  },
+  "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
+    "ts": "2026-11-21T17:12:08.265613",
+    "canales": {
+      "whatsapp": "2026-11-21T17:12:08.265613"
+    },
+    "precio": 245.0,
+    "precios_publicados": [
+      245.0
     ]
   }
 }
