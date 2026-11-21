@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
-    "ts": "2026-11-19T16:43:30.819446",
-    "canales": {
-      "whatsapp": "2026-11-19T16:43:30.819446"
-    },
-    "precio": 1428.0,
-    "precios_publicados": [
-      1428.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
     "ts": "2026-11-19T16:50:35.243395",
     "canales": {
@@ -3197,6 +3187,16 @@
     "precio": 1991.0,
     "precios_publicados": [
       1991.0
+    ]
+  },
+  "amz-notebook-dell-inspiron-i15i1300a30p-156-full-": {
+    "ts": "2026-11-21T16:48:27.208594",
+    "canales": {
+      "whatsapp": "2026-11-21T16:48:27.208594"
+    },
+    "precio": 3899.0,
+    "precios_publicados": [
+      3899.0
     ]
   }
 }
