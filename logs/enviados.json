@@ -142,16 +142,17 @@
     "precio_min_publicado": 7897.0
   },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-19T22:54:23.922867",
+    "ts": "2026-11-21T00:42:24.105223",
     "canales": {
-      "whatsapp": "2026-11-19T22:54:23.922867"
+      "whatsapp": "2026-11-21T00:42:24.105223"
     },
     "precio": 4499.0,
     "precios_publicados": [
       5099.0,
+      4499.0,
       4499.0
     ],
-    "precio_min_publicado": 5099.0
+    "precio_min_publicado": 4499.0
   },
   "amz-stellar-blade-ps5": {
     "ts": "2026-11-20T07:54:43.485472",
@@ -176,16 +177,6 @@
       3999.0
     ],
     "precio_min_publicado": 4499.0
-  },
-  "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
-    "ts": "2026-11-19T00:37:36.893933",
-    "canales": {
-      "whatsapp": "2026-11-19T00:37:36.893933"
-    },
-    "precio": 766.0,
-    "precios_publicados": [
-      766.0
-    ]
   },
   "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
     "ts": "2026-11-19T00:42:38.720136",
