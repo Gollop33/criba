@@ -227,26 +227,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-19T14:43:27.082979",
-    "canales": {
-      "whatsapp": "2026-11-19T14:43:27.082979"
-    },
-    "precio": 65.0,
-    "precios_publicados": [
-      65.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-11-19T14:50:22.069993",
-    "canales": {
-      "whatsapp": "2026-11-19T14:50:22.069993"
-    },
-    "precio": 1128.0,
-    "precios_publicados": [
-      1128.0
-    ]
-  },
   "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
     "ts": "2026-11-19T15:08:21.575140",
     "canales": {
@@ -3211,6 +3191,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
+    "ts": "2026-11-21T14:50:37.535340",
+    "canales": {
+      "whatsapp": "2026-11-21T14:50:37.535340"
+    },
+    "precio": 120.0,
+    "precios_publicados": [
+      120.0
     ]
   }
 }
