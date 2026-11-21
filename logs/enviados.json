@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
-    "ts": "2026-11-19T19:15:25.102020",
-    "canales": {
-      "whatsapp": "2026-11-19T19:15:25.102020"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
   "amz-smart-lampada-wifi-positivo-casa-inteligente-": {
     "ts": "2026-11-19T19:19:56.119431",
     "canales": {
@@ -3257,6 +3247,16 @@
     "precio": 1099.0,
     "precios_publicados": [
       1099.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
+    "ts": "2026-11-21T19:18:04.037292",
+    "canales": {
+      "whatsapp": "2026-11-21T19:18:04.037292"
+    },
+    "precio": 296121.0,
+    "precios_publicados": [
+      296121.0
     ]
   }
 }
