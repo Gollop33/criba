@@ -202,16 +202,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-pelicula-de-vidro-temperado-premium-9h-compat": {
-    "ts": "2026-11-19T19:43:40.072879",
-    "canales": {
-      "whatsapp": "2026-11-19T19:43:40.072879"
-    },
-    "precio": 34.0,
-    "precios_publicados": [
-      34.0
-    ]
-  },
   "amz-suporte-para-gabinete-modelo-sc20bk-preto-c3-": {
     "ts": "2026-11-19T19:53:16.534367",
     "canales": {
@@ -3264,6 +3254,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
+    "ts": "2026-11-21T19:52:59.984898",
+    "canales": {
+      "whatsapp": "2026-11-21T19:52:59.984898"
+    },
+    "precio": 1443.0,
+    "precios_publicados": [
+      1443.0
     ]
   }
 }
