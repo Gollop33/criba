@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-21T15:16:20+00:00",
-  "total": 318,
+  "actualizado": "2026-11-21T15:47:24+00:00",
+  "total": 319,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -4294,6 +4294,19 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "MELIGARANTE22",
+      "desconto": "22% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2027-01-10",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-21T13:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }
