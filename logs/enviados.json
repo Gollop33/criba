@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
-    "ts": "2026-11-19T02:47:59.110899",
-    "canales": {
-      "whatsapp": "2026-11-19T02:47:59.110899"
-    },
-    "precio": 1164.0,
-    "precios_publicados": [
-      1164.0
-    ]
-  },
   "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
     "ts": "2026-11-19T03:21:13.498077",
     "canales": {
@@ -3006,6 +2996,16 @@
     "precio": 4260.0,
     "precios_publicados": [
       4260.0
+    ]
+  },
+  "amz-fone-de-ouvido-headset-havit-fuxih3-plus-blac": {
+    "ts": "2026-11-21T02:57:23.990051",
+    "canales": {
+      "whatsapp": "2026-11-21T02:57:23.990051"
+    },
+    "precio": 169.0,
+    "precios_publicados": [
+      169.0
     ]
   }
 }
