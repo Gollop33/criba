@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
-    "ts": "2026-11-19T16:50:35.243395",
-    "canales": {
-      "whatsapp": "2026-11-19T16:50:35.243395"
-    },
-    "precio": 3149.0,
-    "precios_publicados": [
-      3149.0
-    ]
-  },
   "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
     "ts": "2026-11-19T16:57:25.996649",
     "canales": {
@@ -3197,6 +3187,16 @@
     "precio": 3899.0,
     "precios_publicados": [
       3899.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
+    "ts": "2026-11-21T16:53:44.989965",
+    "canales": {
+      "whatsapp": "2026-11-21T16:53:44.989965"
+    },
+    "precio": 2136.0,
+    "precios_publicados": [
+      2136.0
     ]
   }
 }
