@@ -215,26 +215,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-esponja-scotch-brite-nao-risca-c3-azul-nao-ri": {
-    "ts": "2026-11-19T23:20:33.309505",
-    "canales": {
-      "whatsapp": "2026-11-19T23:20:33.309505"
-    },
-    "precio": 6.0,
-    "precios_publicados": [
-      6.0
-    ]
-  },
-  "amz-mouse-pad-azul": {
-    "ts": "2026-11-19T23:25:22.404278",
-    "canales": {
-      "whatsapp": "2026-11-19T23:25:22.404278"
-    },
-    "precio": 5.0,
-    "precios_publicados": [
-      5.0
-    ]
-  },
   "amz-headset-gamer-havit-h2232d-rgb-com-microfone-": {
     "ts": "2026-11-19T23:27:08.771220",
     "canales": {
@@ -3225,6 +3205,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
+    "ts": "2026-11-21T23:26:55.167519",
+    "canales": {
+      "whatsapp": "2026-11-21T23:26:55.167519"
+    },
+    "precio": 355.0,
+    "precios_publicados": [
+      355.0
     ]
   }
 }
