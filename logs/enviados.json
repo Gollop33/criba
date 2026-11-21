@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-19T15:15:44.978936",
-    "canales": {
-      "whatsapp": "2026-11-19T15:15:44.978936"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0
-    ]
-  },
   "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
     "ts": "2026-11-19T15:22:07.089990",
     "canales": {
@@ -3199,6 +3189,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-echo-spot-com-alexa-geracao-mais-recente-desp": {
+    "ts": "2026-11-21T15:16:28.959809",
+    "canales": {
+      "whatsapp": "2026-11-21T15:16:28.959809"
+    },
+    "precio": 409.0,
+    "precios_publicados": [
+      409.0
     ]
   }
 }
