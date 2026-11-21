@@ -166,26 +166,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
-    "ts": "2026-11-19T01:27:39.761433",
-    "canales": {
-      "whatsapp": "2026-11-19T01:27:39.761433"
-    },
-    "precio": 41.0,
-    "precios_publicados": [
-      41.0
-    ]
-  },
-  "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
-    "ts": "2026-11-19T01:32:49.183700",
-    "canales": {
-      "whatsapp": "2026-11-19T01:32:49.183700"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "amz-nexgard-antipulgas-e-carrapatos-para-caes-de-": {
     "ts": "2026-11-19T01:41:30.890810",
     "canales": {
@@ -3016,6 +2996,16 @@
     "precio": 11.0,
     "precios_publicados": [
       11.0
+    ]
+  },
+  "amz-controle-sem-fio-dualsense-midnight-black": {
+    "ts": "2026-11-21T01:36:10.223597",
+    "canales": {
+      "whatsapp": "2026-11-21T01:36:10.223597"
+    },
+    "precio": 40000.0,
+    "precios_publicados": [
+      40000.0
     ]
   }
 }
