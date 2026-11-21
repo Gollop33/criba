@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-controle-dualsense-playstation-5": {
-    "ts": "2026-11-19T21:57:14.399451",
-    "canales": {
-      "whatsapp": "2026-11-19T21:57:14.399451"
-    },
-    "precio": 42000.0,
-    "precios_publicados": [
-      42000.0
-    ]
-  },
   "amz-cartao-nintendo-switch-2-samsung-microsd-expr": {
     "ts": "2026-11-19T22:05:09.776472",
     "canales": {
@@ -3205,6 +3195,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
+    "ts": "2026-11-21T21:58:53.662270",
+    "canales": {
+      "whatsapp": "2026-11-21T21:58:53.662270"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
