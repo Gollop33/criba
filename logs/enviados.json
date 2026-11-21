@@ -166,16 +166,6 @@
     ],
     "precio_min_publicado": 21.0
   },
-  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
-    "ts": "2026-11-19T01:59:28.560231",
-    "canales": {
-      "whatsapp": "2026-11-19T01:59:28.560231"
-    },
-    "precio": 1449.0,
-    "precios_publicados": [
-      1449.0
-    ]
-  },
   "amz-apple-iphone-15-128-gb-azul": {
     "ts": "2026-11-19T02:08:07.373979",
     "canales": {
@@ -3006,6 +2996,16 @@
     "precio": 211.0,
     "precios_publicados": [
       211.0
+    ]
+  },
+  "amz-vitafor-omegafor-plus-240-capsulas-pureza-e-q": {
+    "ts": "2026-11-21T02:02:34.539568",
+    "canales": {
+      "whatsapp": "2026-11-21T02:02:34.539568"
+    },
+    "precio": 229.0,
+    "precios_publicados": [
+      229.0
     ]
   }
 }
