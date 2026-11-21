@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-21T05:57:16+00:00",
+  "actualizado": "2026-11-21T06:01:12+00:00",
   "total": 8,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "bundle gta vi playstation 5 slim digital 825",
@@ -17,7 +17,7 @@
       "precio_ref": 4948.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "grand theft auto vi playstation 5",
@@ -25,7 +25,7 @@
       "precio_ref": 449.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "processador amd ryzen 7 5700x 3 4ghz turbo",
@@ -33,7 +33,7 @@
       "precio_ref": 1252.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "whey protein concentrado pote 900g chocolate branco dux",
@@ -41,7 +41,7 @@
       "precio_ref": 192.68,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "placa mae gigabyte b550m aorus elite am4 ddr4",
@@ -49,7 +49,7 @@
       "precio_ref": 758.59,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "processador amd ryzen 5 5500 100100000457box ceramica cinza",
@@ -57,7 +57,7 @@
       "precio_ref": 569.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     },
     {
       "busqueda": "controle dualshock 4 playstation 4 preto modelo dualshock",
@@ -65,7 +65,7 @@
       "precio_ref": 209.99,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-21T05:57:16+00:00"
+      "monitorizado_desde": "2026-11-21T06:01:12+00:00"
     }
   ]
 }
