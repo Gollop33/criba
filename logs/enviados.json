@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
-    "ts": "2026-11-19T11:01:41.913540",
-    "canales": {
-      "whatsapp": "2026-11-19T11:01:41.913540"
-    },
-    "precio": 1630.0,
-    "precios_publicados": [
-      1630.0
-    ]
-  },
   "amz-notebook-lenovo-ideapad-slim-3-153-luna-grey-": {
     "ts": "2026-11-19T11:04:07.131645",
     "canales": {
@@ -3049,6 +3039,16 @@
     "precio": 21.0,
     "precios_publicados": [
       21.0
+    ]
+  },
+  "amz-faqueiro-tramontina-leme-aco-inox-preto-20-pe": {
+    "ts": "2026-11-21T11:02:48.846212",
+    "canales": {
+      "whatsapp": "2026-11-21T11:02:48.846212"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
