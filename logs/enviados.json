@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-controle-sem-fio-dualsense-edicao-limitada-gr": {
-    "ts": "2026-11-19T21:53:01.093270",
-    "canales": {
-      "whatsapp": "2026-11-19T21:53:01.093270"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-controle-dualsense-playstation-5": {
     "ts": "2026-11-19T21:57:14.399451",
     "canales": {
@@ -3205,6 +3195,16 @@
     "precio": 40.0,
     "precios_publicados": [
       40.0
+    ]
+  },
+  "amz-detergente-limpador-para-extratoras-concentra": {
+    "ts": "2026-11-21T21:56:20.238725",
+    "canales": {
+      "whatsapp": "2026-11-21T21:56:20.238725"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
