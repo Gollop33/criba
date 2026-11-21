@@ -203,26 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
-    "ts": "2026-11-19T16:29:36.779297",
-    "canales": {
-      "whatsapp": "2026-11-19T16:29:36.779297"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
-  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
-    "ts": "2026-11-19T16:36:39.288309",
-    "canales": {
-      "whatsapp": "2026-11-19T16:36:39.288309"
-    },
-    "precio": 1717.0,
-    "precios_publicados": [
-      1717.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-11-19T16:43:30.819446",
     "canales": {
@@ -3207,6 +3187,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
+    "ts": "2026-11-21T16:38:59.706908",
+    "canales": {
+      "whatsapp": "2026-11-21T16:38:59.706908"
+    },
+    "precio": 1991.0,
+    "precios_publicados": [
+      1991.0
     ]
   }
 }
