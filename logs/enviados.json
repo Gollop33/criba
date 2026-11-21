@@ -202,16 +202,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-19T20:00:10.013050",
-    "canales": {
-      "whatsapp": "2026-11-19T20:00:10.013050"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-11-19T20:07:25.802403",
     "canales": {
@@ -3254,6 +3244,16 @@
     "precio": 1424.0,
     "precios_publicados": [
       1424.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
+    "ts": "2026-11-21T20:02:00.633416",
+    "canales": {
+      "whatsapp": "2026-11-21T20:02:00.633416"
+    },
+    "precio": 1720.0,
+    "precios_publicados": [
+      1720.0
     ]
   }
 }
