@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
-    "ts": "2026-11-19T11:30:04.880695",
-    "canales": {
-      "whatsapp": "2026-11-19T11:30:04.880695"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-aerosol-para-s": {
     "ts": "2026-11-19T11:37:26.468100",
     "canales": {
@@ -3039,6 +3029,16 @@
     "precio": 14.0,
     "precios_publicados": [
       14.0
+    ]
+  },
+  "amz-cetaphil-locao-hidratante": {
+    "ts": "2026-11-21T11:31:35.013909",
+    "canales": {
+      "whatsapp": "2026-11-21T11:31:35.013909"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
