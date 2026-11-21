@@ -57,18 +57,6 @@
     ],
     "precio_min_publicado": 3499.0
   },
-  "amz-samsung-galaxy-book4-intel-coretm-i51335u-win": {
-    "ts": "2026-11-19T14:57:39.354152",
-    "canales": {
-      "whatsapp": "2026-11-19T14:57:39.354152"
-    },
-    "precio": 3459.0,
-    "precios_publicados": [
-      3998.0,
-      3459.0
-    ],
-    "precio_min_publicado": 3998.0
-  },
   "amz-notebook-asus-vivobook-go-15-e1504fa-amd-ryze": {
     "ts": "2026-11-19T15:50:39.820406",
     "canales": {
@@ -3201,6 +3189,16 @@
     "precio": 120.0,
     "precios_publicados": [
       120.0
+    ]
+  },
+  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
+    "ts": "2026-11-21T14:57:41.048384",
+    "canales": {
+      "whatsapp": "2026-11-21T14:57:41.048384"
+    },
+    "precio": 62.0,
+    "precios_publicados": [
+      62.0
     ]
   }
 }
