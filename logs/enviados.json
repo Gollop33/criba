@@ -177,16 +177,6 @@
     ],
     "precio_min_publicado": 4499.0
   },
-  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
-    "ts": "2026-11-19T00:31:37.237546",
-    "canales": {
-      "whatsapp": "2026-11-19T00:31:37.237546"
-    },
-    "precio": 389.0,
-    "precios_publicados": [
-      389.0
-    ]
-  },
   "amz-placa-mae-gigabyte-b550m-aorus-elite-am4ddr4h": {
     "ts": "2026-11-19T00:37:36.893933",
     "canales": {
@@ -1340,14 +1330,16 @@
     ]
   },
   "amz-bundle-gta-vi-playstation-5-slim-digital-825-": {
-    "ts": "2026-11-19T22:11:49.908537",
+    "ts": "2026-11-21T00:33:32.924249",
     "canales": {
-      "whatsapp": "2026-11-19T22:11:49.908537"
+      "whatsapp": "2026-11-21T00:33:32.924249"
     },
-    "precio": 504890.0,
+    "precio": 4948.0,
     "precios_publicados": [
-      504890.0
-    ]
+      504890.0,
+      4948.0
+    ],
+    "precio_min_publicado": 504890.0
   },
   "amz-fralda-pampers-confort-sec-tamanho-m-196-unid": {
     "ts": "2026-11-19T22:16:14.359269",
