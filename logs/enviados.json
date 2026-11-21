@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-controle-sem-fio-playstation-dualsensetm-midn": {
-    "ts": "2026-11-19T23:39:07.249216",
-    "canales": {
-      "whatsapp": "2026-11-19T23:39:07.249216"
-    },
-    "precio": 420.0,
-    "precios_publicados": [
-      420.0
-    ]
-  },
   "amz-street-fighter-6-year-1-2-fighters-edition-pl": {
     "ts": "2026-11-19T23:48:39.693687",
     "canales": {
@@ -3225,6 +3215,16 @@
     "precio": 318.0,
     "precios_publicados": [
       318.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
+    "ts": "2026-11-21T23:41:46.615950",
+    "canales": {
+      "whatsapp": "2026-11-21T23:41:46.615950"
+    },
+    "precio": 2221.0,
+    "precios_publicados": [
+      2221.0
     ]
   }
 }
