@@ -24,18 +24,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-chalesco-tapete-higienico-premium-para-caes-9": {
-    "ts": "2026-11-19T01:21:48.098624",
-    "canales": {
-      "whatsapp": "2026-11-19T01:21:48.098624"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      115.0,
-      89.0
-    ],
-    "precio_min_publicado": 115.0
-  },
   "cupom-ml-6e562d9ff7": {
     "ts": "2026-11-21T00:15:17.154128",
     "canales": {
@@ -177,16 +165,6 @@
       17.0
     ],
     "precio_min_publicado": 21.0
-  },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-19T01:23:11.571790",
-    "canales": {
-      "whatsapp": "2026-11-19T01:23:11.571790"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
   },
   "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
     "ts": "2026-11-19T01:27:39.761433",
@@ -3018,6 +2996,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-protetor-diario-carefree-todo-dia-80-unidades": {
+    "ts": "2026-11-21T01:26:09.417854",
+    "canales": {
+      "whatsapp": "2026-11-21T01:26:09.417854"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
