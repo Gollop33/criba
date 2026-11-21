@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-tramontina-panela-de-pressao-vancouver-effect": {
-    "ts": "2026-11-19T11:15:17.328888",
-    "canales": {
-      "whatsapp": "2026-11-19T11:15:17.328888"
-    },
-    "precio": 161.0,
-    "precios_publicados": [
-      161.0
-    ]
-  },
   "amz-samsung-notebook-galaxy-book4-windows-11-home": {
     "ts": "2026-11-19T11:20:45.114347",
     "canales": {
@@ -3049,6 +3039,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
+    "ts": "2026-11-21T11:18:33.641278",
+    "canales": {
+      "whatsapp": "2026-11-21T11:18:33.641278"
+    },
+    "precio": 57.0,
+    "precios_publicados": [
+      57.0
     ]
   }
 }
