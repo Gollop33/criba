@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
-    "ts": "2026-11-19T17:22:34.602463",
-    "canales": {
-      "whatsapp": "2026-11-19T17:22:34.602463"
-    },
-    "precio": 164.0,
-    "precios_publicados": [
-      164.0
-    ]
-  },
   "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
     "ts": "2026-11-19T17:29:30.204776",
     "canales": {
@@ -3217,6 +3207,16 @@
     "precio": 4498.0,
     "precios_publicados": [
       4498.0
+    ]
+  },
+  "amz-notebook-lenovo-ideapad-slim-3-153-touch-scre": {
+    "ts": "2026-11-21T17:28:29.486538",
+    "canales": {
+      "whatsapp": "2026-11-21T17:28:29.486538"
+    },
+    "precio": 3799.0,
+    "precios_publicados": [
+      3799.0
     ]
   }
 }
