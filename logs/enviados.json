@@ -215,16 +215,6 @@
     ],
     "precio_min_publicado": 305.0
   },
-  "amz-detergente-limpador-para-extratoras-concentra": {
-    "ts": "2026-11-19T18:08:37.933454",
-    "canales": {
-      "whatsapp": "2026-11-19T18:08:37.933454"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-11-19T18:15:26.922501",
     "canales": {
@@ -3237,6 +3227,16 @@
     "precio": 3887.0,
     "precios_publicados": [
       3887.0
+    ]
+  },
+  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
+    "ts": "2026-11-21T18:14:47.085865",
+    "canales": {
+      "whatsapp": "2026-11-21T18:14:47.085865"
+    },
+    "precio": 1499.0,
+    "precios_publicados": [
+      1499.0
     ]
   }
 }
