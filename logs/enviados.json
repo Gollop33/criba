@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 63.0
   },
-  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
-    "ts": "2026-11-19T16:22:24.266367",
-    "canales": {
-      "whatsapp": "2026-11-19T16:22:24.266367"
-    },
-    "precio": 2353.0,
-    "precios_publicados": [
-      2353.0
-    ]
-  },
   "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
     "ts": "2026-11-19T16:29:36.779297",
     "canales": {
@@ -3207,6 +3197,16 @@
     "precio": 74.0,
     "precios_publicados": [
       74.0
+    ]
+  },
+  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
+    "ts": "2026-11-21T16:28:55.588320",
+    "canales": {
+      "whatsapp": "2026-11-21T16:28:55.588320"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
