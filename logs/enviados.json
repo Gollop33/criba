@@ -118,16 +118,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-bebedouro-para-gatos-3l-fonte-gato-inox-comed": {
-    "ts": "2026-11-20T19:17:14.536500",
-    "canales": {
-      "whatsapp": "2026-11-20T19:17:14.536500"
-    },
-    "precio": 95.0,
-    "precios_publicados": [
-      95.0
-    ]
-  },
   "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
     "ts": "2026-11-20T19:25:20.027205",
     "canales": {
@@ -1785,14 +1775,16 @@
     ]
   },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
-    "ts": "2026-11-21T19:18:04.037292",
+    "ts": "2026-11-22T19:25:03.573222",
     "canales": {
-      "whatsapp": "2026-11-21T19:18:04.037292"
+      "whatsapp": "2026-11-22T19:25:03.573222"
     },
-    "precio": 296121.0,
+    "precio": 3148.0,
     "precios_publicados": [
-      296121.0
-    ]
+      296121.0,
+      3148.0
+    ],
+    "precio_min_publicado": 296121.0
   },
   "amz-galaxy-tab-s10-256-gb-tela-124-wifi-cinza-cam": {
     "ts": "2026-11-21T19:21:12.539121",
