@@ -203,26 +203,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-copo-termico-118l-em-aco-inoxidavel-com-canud": {
-    "ts": "2026-11-20T01:57:24.853126",
-    "canales": {
-      "whatsapp": "2026-11-20T01:57:24.853126"
-    },
-    "precio": 42.0,
-    "precios_publicados": [
-      42.0
-    ]
-  },
-  "amz-dove-sabonete-em-barra-original-90g-6-unidade": {
-    "ts": "2026-11-20T02:01:00.758290",
-    "canales": {
-      "whatsapp": "2026-11-20T02:01:00.758290"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "amz-colgate-total-original-mint-creme-dental-prev": {
     "ts": "2026-11-20T02:28:31.263074",
     "canales": {
@@ -3333,6 +3313,16 @@
     "precio": 35.0,
     "precios_publicados": [
       35.0
+    ]
+  },
+  "amz-cetaphil-creme-hidratante": {
+    "ts": "2026-11-22T02:07:04.380969",
+    "canales": {
+      "whatsapp": "2026-11-22T02:07:04.380969"
+    },
+    "precio": 74.0,
+    "precios_publicados": [
+      74.0
     ]
   }
 }
