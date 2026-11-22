@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
-    "ts": "2026-11-20T14:30:18.736014",
-    "canales": {
-      "whatsapp": "2026-11-20T14:30:18.736014"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
   "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
     "ts": "2026-11-20T14:36:39.464417",
     "canales": {
@@ -3454,6 +3444,16 @@
     "precio": 7549.0,
     "precios_publicados": [
       7549.0
+    ]
+  },
+  "amz-tablet-com-caneta-e-teclado-xixaomiro-s8-andr": {
+    "ts": "2026-11-22T14:30:37.661974",
+    "canales": {
+      "whatsapp": "2026-11-22T14:30:37.661974"
+    },
+    "precio": 766.0,
+    "precios_publicados": [
+      766.0
     ]
   }
 }
