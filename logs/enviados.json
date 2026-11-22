@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
-    "ts": "2026-11-20T22:01:05.607253",
-    "canales": {
-      "whatsapp": "2026-11-20T22:01:05.607253"
-    },
-    "precio": 2132.0,
-    "precios_publicados": [
-      2132.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
     "ts": "2026-11-20T22:10:00.857246",
     "canales": {
@@ -1687,14 +1677,16 @@
     ]
   },
   "amz-pato-desodorizador-sanitario-gel-adesivo-2-re": {
-    "ts": "2026-11-21T21:58:53.662270",
+    "ts": "2026-11-22T22:04:29.050756",
     "canales": {
-      "whatsapp": "2026-11-21T21:58:53.662270"
+      "whatsapp": "2026-11-22T22:04:29.050756"
     },
-    "precio": 23.0,
+    "precio": 17.0,
     "precios_publicados": [
-      23.0
-    ]
+      23.0,
+      17.0
+    ],
+    "precio_min_publicado": 23.0
   },
   "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
     "ts": "2026-11-21T22:07:58.108843",
