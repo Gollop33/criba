@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-colgate-total-original-mint-creme-dental-prev": {
-    "ts": "2026-11-20T02:28:31.263074",
-    "canales": {
-      "whatsapp": "2026-11-20T02:28:31.263074"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "amz-switch-5-portas-de-rede-gigabit-rj45-10100100": {
     "ts": "2026-11-20T03:01:42.082570",
     "canales": {
@@ -3333,6 +3323,16 @@
     "precio": 129.0,
     "precios_publicados": [
       129.0
+    ]
+  },
+  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
+    "ts": "2026-11-22T02:36:37.831694",
+    "canales": {
+      "whatsapp": "2026-11-22T02:36:37.831694"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
