@@ -154,26 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-notebook-hp-256r-g9-intel-core-i5-13o-geracao": {
-    "ts": "2026-11-20T14:57:41.772421",
-    "canales": {
-      "whatsapp": "2026-11-20T14:57:41.772421"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
-    "ts": "2026-11-20T15:08:35.801474",
-    "canales": {
-      "whatsapp": "2026-11-20T15:08:35.801474"
-    },
-    "precio": 2999.0,
-    "precios_publicados": [
-      2999.0
-    ]
-  },
   "amz-kit-de-garrafas-de-tinta-original-epson-magen": {
     "ts": "2026-11-20T15:15:13.532987",
     "canales": {
@@ -3464,6 +3444,16 @@
     "precio": 13299.0,
     "precios_publicados": [
       13299.0
+    ]
+  },
+  "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
+    "ts": "2026-11-22T15:08:46.641648",
+    "canales": {
+      "whatsapp": "2026-11-22T15:08:46.641648"
+    },
+    "precio": 1081.0,
+    "precios_publicados": [
+      1081.0
     ]
   }
 }
