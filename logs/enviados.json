@@ -69,18 +69,6 @@
     ],
     "precio_min_publicado": 4499.0
   },
-  "amz-stellar-blade-ps5": {
-    "ts": "2026-11-20T07:54:43.485472",
-    "canales": {
-      "whatsapp": "2026-11-20T07:54:43.485472"
-    },
-    "precio": 169.0,
-    "precios_publicados": [
-      369.0,
-      169.0
-    ],
-    "precio_min_publicado": 369.0
-  },
   "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
     "ts": "2026-11-21T07:16:21.674468",
     "canales": {
@@ -3342,6 +3330,16 @@
     "precio": 4199.0,
     "precios_publicados": [
       4199.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
+    "ts": "2026-11-22T08:13:30.062295",
+    "canales": {
+      "whatsapp": "2026-11-22T08:13:30.062295"
+    },
+    "precio": 1441.0,
+    "precios_publicados": [
+      1441.0
     ]
   }
 }
