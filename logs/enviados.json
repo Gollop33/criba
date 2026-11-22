@@ -167,16 +167,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
-    "ts": "2026-11-20T13:29:07.740677",
-    "canales": {
-      "whatsapp": "2026-11-20T13:29:07.740677"
-    },
-    "precio": 2414.0,
-    "precios_publicados": [
-      2414.0
-    ]
-  },
   "amz-notebook-acer-nitro-v-15-rtx-4050-i7-16gb-512": {
     "ts": "2026-11-20T13:36:45.239323",
     "canales": {
@@ -3417,6 +3407,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-monitor-portatil-aoc-156-fhd-ips-usbc-capa-ma": {
+    "ts": "2026-11-22T13:32:27.572877",
+    "canales": {
+      "whatsapp": "2026-11-22T13:32:27.572877"
+    },
+    "precio": 469.0,
+    "precios_publicados": [
+      469.0
     ]
   }
 }
