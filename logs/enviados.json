@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-samsung-galaxy-watch8-smartwatch-44mm-lte-gal": {
-    "ts": "2026-11-20T21:17:42.650473",
-    "canales": {
-      "whatsapp": "2026-11-20T21:17:42.650473"
-    },
-    "precio": 199900.0,
-    "precios_publicados": [
-      199900.0
-    ]
-  },
   "amz-apple-iphone-17e-de-256-gb-preto": {
     "ts": "2026-11-20T21:25:36.666488",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-bionature-areia-higienica-para-gatos-biodegra": {
+    "ts": "2026-11-22T21:20:20.375277",
+    "canales": {
+      "whatsapp": "2026-11-22T21:20:20.375277"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
