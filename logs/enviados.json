@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
-    "ts": "2026-11-20T16:15:40.797582",
-    "canales": {
-      "whatsapp": "2026-11-20T16:15:40.797582"
-    },
-    "precio": 4699.0,
-    "precios_publicados": [
-      4699.0
-    ]
-  },
   "amz-headset-gamer-sem-fio-redragon-zeus-pro-preto": {
     "ts": "2026-11-20T16:22:37.708265",
     "canales": {
@@ -3464,6 +3454,16 @@
     "precio": 494.0,
     "precios_publicados": [
       494.0
+    ]
+  },
+  "amz-notebook-acer-aspire-go-15-core-5-8gb-ssd-512": {
+    "ts": "2026-11-22T16:15:55.211471",
+    "canales": {
+      "whatsapp": "2026-11-22T16:15:55.211471"
+    },
+    "precio": 3399.0,
+    "precios_publicados": [
+      3399.0
     ]
   }
 }
