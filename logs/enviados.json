@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 4948.0
   },
-  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
-    "ts": "2026-11-20T11:08:05.099990",
-    "canales": {
-      "whatsapp": "2026-11-20T11:08:05.099990"
-    },
-    "precio": 47.0,
-    "precios_publicados": [
-      47.0
-    ]
-  },
   "amz-dove-oleo-serum-bifasico-bond-intense-repair-": {
     "ts": "2026-11-20T11:16:08.560569",
     "canales": {
@@ -3359,6 +3349,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "amz-street-fighter-6-year-1-2-fighters-edition-pl": {
+    "ts": "2026-11-22T11:10:29.431823",
+    "canales": {
+      "whatsapp": "2026-11-22T11:10:29.431823"
+    },
+    "precio": 119.0,
+    "precios_publicados": [
+      119.0
     ]
   }
 }
