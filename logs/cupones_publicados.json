@@ -72,16 +72,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "MOVEIS100": {
-      "detectado_em": "2026-10-23T17:00:19+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "MOVEIS200": {
-      "detectado_em": "2026-10-23T17:00:19+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "BEAUTY15": {
       "detectado_em": "2026-10-24T12:01:02+00:00",
       "publicado_em": null,
@@ -1057,16 +1047,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "VEMDECUPOM": {
-      "detectado_em": "2026-10-23T17:00:19+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 548h (> 24h)"
-    },
-    "ESPECIALDESCONTOS": {
-      "detectado_em": "2026-10-23T17:00:19+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 548h (> 24h)"
-    },
     "OFFHOJE": {
       "detectado_em": "2026-11-10T11:02:11+00:00",
       "publicado_em": null,
@@ -1351,7 +1331,12 @@
       "detectado_em": "2026-11-21T13:01:01+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIACHA25": {
+      "detectado_em": "2026-11-22T13:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-22T14:28:40+00:00"
+  "actualizado": "2026-11-22T17:33:57+00:00"
 }

@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-22T14:32:30+00:00",
-  "total": 319,
+  "actualizado": "2026-11-22T17:31:23+00:00",
+  "total": 320,
   "fuentes": [
     "ML Oficial",
     "Telegram ML Afiliados"
@@ -4308,6 +4308,19 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
       "estado": "ativo"
+    },
+    {
+      "codigo": "MELIACHA25",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2027-01-10",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-22T13:01:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
   ]
 }

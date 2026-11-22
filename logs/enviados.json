@@ -154,86 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-20T16:29:39.365360",
-    "canales": {
-      "whatsapp": "2026-11-20T16:29:39.365360"
-    },
-    "precio": 3469.0,
-    "precios_publicados": [
-      3469.0
-    ]
-  },
-  "amz-tablet-m8-wifi-6gb-ram-64gb-tela-8-pol-androi": {
-    "ts": "2026-11-20T16:36:11.417614",
-    "canales": {
-      "whatsapp": "2026-11-20T16:36:11.417614"
-    },
-    "precio": 473.0,
-    "precios_publicados": [
-      473.0
-    ]
-  },
-  "amz-argan-oleo-reparador-50ml-lola-cosmetics-fios": {
-    "ts": "2026-11-20T16:43:15.888922",
-    "canales": {
-      "whatsapp": "2026-11-20T16:43:15.888922"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
-  },
-  "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
-    "ts": "2026-11-20T16:50:29.481849",
-    "canales": {
-      "whatsapp": "2026-11-20T16:50:29.481849"
-    },
-    "precio": 5660.0,
-    "precios_publicados": [
-      5660.0
-    ]
-  },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-20T16:57:45.167833",
-    "canales": {
-      "whatsapp": "2026-11-20T16:57:45.167833"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
-  "amz-notebook-asus-vivobook-15-intel-core-i5-16-gb": {
-    "ts": "2026-11-20T17:15:23.788136",
-    "canales": {
-      "whatsapp": "2026-11-20T17:15:23.788136"
-    },
-    "precio": 3999.0,
-    "precios_publicados": [
-      3999.0
-    ]
-  },
-  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
-    "ts": "2026-11-20T17:22:25.293340",
-    "canales": {
-      "whatsapp": "2026-11-20T17:22:25.293340"
-    },
-    "precio": 125.0,
-    "precios_publicados": [
-      125.0
-    ]
-  },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-20T17:29:12.770238",
-    "canales": {
-      "whatsapp": "2026-11-20T17:29:12.770238"
-    },
-    "precio": 1690.0,
-    "precios_publicados": [
-      1690.0
-    ]
-  },
   "amz-havit-fone-de-ouvido-headset-gamer-fuxih3-bla": {
     "ts": "2026-11-20T17:36:41.939397",
     "canales": {
@@ -405,14 +325,16 @@
     ]
   },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-11-20T19:40:49.058568",
+    "ts": "2026-11-22T17:33:58.702066",
     "canales": {
-      "whatsapp": "2026-11-20T19:40:49.058568"
+      "whatsapp": "2026-11-22T17:33:58.702066"
     },
-    "precio": 5800.0,
+    "precio": 5189.0,
     "precios_publicados": [
-      5800.0
-    ]
+      5800.0,
+      5189.0
+    ],
+    "precio_min_publicado": 5800.0
   },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
     "ts": "2026-11-20T19:49:44.329143",
