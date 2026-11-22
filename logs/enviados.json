@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 4948.0
   },
-  "amz-kit-nivea-desodorante-aerosol-men-blackwhite-": {
-    "ts": "2026-11-20T10:58:21.075187",
-    "canales": {
-      "whatsapp": "2026-11-20T10:58:21.075187"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-11-20T11:01:08.891882",
     "canales": {
@@ -3359,6 +3349,16 @@
     "precio": 79.0,
     "precios_publicados": [
       79.0
+    ]
+  },
+  "amz-the-last-of-us-part-ii-playstation-4": {
+    "ts": "2026-11-22T11:00:49.567426",
+    "canales": {
+      "whatsapp": "2026-11-22T11:00:49.567426"
+    },
+    "precio": 88.0,
+    "precios_publicados": [
+      88.0
     ]
   }
 }
