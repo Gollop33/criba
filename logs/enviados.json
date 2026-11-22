@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 5800.0
   },
-  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
-    "ts": "2026-11-20T20:08:56.397787",
-    "canales": {
-      "whatsapp": "2026-11-20T20:08:56.397787"
-    },
-    "precio": 1776.0,
-    "precios_publicados": [
-      1776.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-20T20:13:55.577318",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 394.0,
     "precios_publicados": [
       394.0
+    ]
+  },
+  "amz-apple-iphone-15-128-gb-preto": {
+    "ts": "2026-11-22T20:10:19.308570",
+    "canales": {
+      "whatsapp": "2026-11-22T20:10:19.308570"
+    },
+    "precio": 3887.0,
+    "precios_publicados": [
+      3887.0
     ]
   }
 }
