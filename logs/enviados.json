@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
-    "ts": "2026-11-20T22:21:02.569862",
-    "canales": {
-      "whatsapp": "2026-11-20T22:21:02.569862"
-    },
-    "precio": 1589.0,
-    "precios_publicados": [
-      1589.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
     "ts": "2026-11-20T22:26:33.078184",
     "canales": {
@@ -3356,6 +3346,16 @@
     "precio": 48.0,
     "precios_publicados": [
       48.0
+    ]
+  },
+  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
+    "ts": "2026-11-22T22:24:09.322735",
+    "canales": {
+      "whatsapp": "2026-11-22T22:24:09.322735"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
