@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-smartphone-motorola-moto-g0664gb-4gb-ram-8gb-": {
-    "ts": "2026-11-20T22:31:14.632411",
-    "canales": {
-      "whatsapp": "2026-11-20T22:31:14.632411"
-    },
-    "precio": 776.0,
-    "precios_publicados": [
-      776.0
-    ]
-  },
   "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
     "ts": "2026-11-20T22:39:45.969024",
     "canales": {
@@ -3346,6 +3336,16 @@
     "precio": 114.0,
     "precios_publicados": [
       114.0
+    ]
+  },
+  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
+    "ts": "2026-11-22T22:35:15.395459",
+    "canales": {
+      "whatsapp": "2026-11-22T22:35:15.395459"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
