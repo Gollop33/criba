@@ -167,16 +167,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
-    "ts": "2026-11-20T13:57:08.123119",
-    "canales": {
-      "whatsapp": "2026-11-20T13:57:08.123119"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-m1502ya-amd-ryzen-7": {
     "ts": "2026-11-20T14:08:41.121374",
     "canales": {
@@ -3427,6 +3417,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-placa-mae-asus-tuf-gaming-a520mplus-ii-am44xd": {
+    "ts": "2026-11-22T13:57:29.873917",
+    "canales": {
+      "whatsapp": "2026-11-22T13:57:29.873917"
+    },
+    "precio": 517.0,
+    "precios_publicados": [
+      517.0
     ]
   }
 }
