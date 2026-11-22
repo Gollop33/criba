@@ -204,16 +204,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-fralda-turma-da-monica-baby-jumbo-rn-36-unida": {
-    "ts": "2026-11-20T04:45:58.252274",
-    "canales": {
-      "whatsapp": "2026-11-20T04:45:58.252274"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-nivea-hidratante-labial-amora-shine-48g-hidra": {
     "ts": "2026-11-20T05:25:06.662641",
     "canales": {
@@ -3354,6 +3344,16 @@
     "precio": 47.0,
     "precios_publicados": [
       47.0
+    ]
+  },
+  "amz-mondial-ventilador-de-mesa-30cm-110v-brancoaz": {
+    "ts": "2026-11-22T04:53:58.842540",
+    "canales": {
+      "whatsapp": "2026-11-22T04:53:58.842540"
+    },
+    "precio": 89.0,
+    "precios_publicados": [
+      89.0
     ]
   }
 }
