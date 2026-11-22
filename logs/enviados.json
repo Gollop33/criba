@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 5800.0
   },
-  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
-    "ts": "2026-11-20T19:59:56.940248",
-    "canales": {
-      "whatsapp": "2026-11-20T19:59:56.940248"
-    },
-    "precio": 498.0,
-    "precios_publicados": [
-      498.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
     "ts": "2026-11-20T20:08:56.397787",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-microondas-20l-branco-mastercook-midea-110v": {
+    "ts": "2026-11-22T20:08:00.030378",
+    "canales": {
+      "whatsapp": "2026-11-22T20:08:00.030378"
+    },
+    "precio": 394.0,
+    "precios_publicados": [
+      394.0
     ]
   }
 }

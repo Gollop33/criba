@@ -592,11 +592,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "COMPRANOML": {
-      "detectado_em": "2026-10-23T20:07:32+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 384h (> 24h)"
-    },
     "SUPERDESCONTO": {
       "detectado_em": "2026-11-04T19:02:24+00:00",
       "publicado_em": null,
@@ -1338,5 +1333,5 @@
       "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-22T19:58:31+00:00"
+  "actualizado": "2026-11-22T20:07:58+00:00"
 }
