@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-downy-amaciante-concentrado-perfume-collectio": {
-    "ts": "2026-11-20T22:50:52.539067",
-    "canales": {
-      "whatsapp": "2026-11-20T22:50:52.539067"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-finish-powerball-detergente-para-lava-loucas-": {
     "ts": "2026-11-20T23:00:20.572962",
     "canales": {
@@ -3366,6 +3356,16 @@
     "precio": 187.0,
     "precios_publicados": [
       187.0
+    ]
+  },
+  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
+    "ts": "2026-11-22T22:55:07.829100",
+    "canales": {
+      "whatsapp": "2026-11-22T22:55:07.829100"
+    },
+    "precio": 2959.0,
+    "precios_publicados": [
+      2959.0
     ]
   }
 }
