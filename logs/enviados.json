@@ -142,26 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-apple-iphone-17e-de-256-gb-preto": {
-    "ts": "2026-11-20T21:25:36.666488",
-    "canales": {
-      "whatsapp": "2026-11-20T21:25:36.666488"
-    },
-    "precio": 4763.0,
-    "precios_publicados": [
-      4763.0
-    ]
-  },
-  "amz-smart-tv-lg-43-4k-uhd-nano-ai-43un85cbpsaawz": {
-    "ts": "2026-11-20T21:29:14.666015",
-    "canales": {
-      "whatsapp": "2026-11-20T21:29:14.666015"
-    },
-    "precio": 1728.0,
-    "precios_publicados": [
-      1728.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
     "ts": "2026-11-20T21:32:14.996135",
     "canales": {
@@ -3394,6 +3374,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
+    "ts": "2026-11-22T21:29:36.114667",
+    "canales": {
+      "whatsapp": "2026-11-22T21:29:36.114667"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
