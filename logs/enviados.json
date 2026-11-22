@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-cremer-algodao-quadrado-sem-perfume-pacote-10": {
-    "ts": "2026-11-20T01:51:10.544548",
-    "canales": {
-      "whatsapp": "2026-11-20T01:51:10.544548"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "amz-copo-termico-118l-em-aco-inoxidavel-com-canud": {
     "ts": "2026-11-20T01:57:24.853126",
     "canales": {
@@ -3313,6 +3303,16 @@
     "precio": 6.0,
     "precios_publicados": [
       6.0
+    ]
+  },
+  "amz-kit-com-3-ventoinhas-gamer-rise-mode-x-120mm-": {
+    "ts": "2026-11-22T01:51:56.890824",
+    "canales": {
+      "whatsapp": "2026-11-22T01:51:56.890824"
+    },
+    "precio": 44.0,
+    "precios_publicados": [
+      44.0
     ]
   }
 }
