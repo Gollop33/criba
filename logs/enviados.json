@@ -167,16 +167,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-notebook-acer-nitro-v-15-rtx-4050-i7-16gb-512": {
-    "ts": "2026-11-20T13:36:45.239323",
-    "canales": {
-      "whatsapp": "2026-11-20T13:36:45.239323"
-    },
-    "precio": 7549.0,
-    "precios_publicados": [
-      7549.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-20T13:43:08.138126",
     "canales": {
@@ -3427,6 +3417,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-11-22T13:38:29.604117",
+    "canales": {
+      "whatsapp": "2026-11-22T13:38:29.604117"
+    },
+    "precio": 1048.0,
+    "precios_publicados": [
+      1048.0
     ]
   }
 }
