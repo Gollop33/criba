@@ -130,26 +130,6 @@
     ],
     "precio_min_publicado": 5800.0
   },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-11-20T20:13:55.577318",
-    "canales": {
-      "whatsapp": "2026-11-20T20:13:55.577318"
-    },
-    "precio": 3443.0,
-    "precios_publicados": [
-      3443.0
-    ]
-  },
-  "amz-smartphone-motorola-edge-60-fusion-5g-256gb-8": {
-    "ts": "2026-11-20T20:16:22.979617",
-    "canales": {
-      "whatsapp": "2026-11-20T20:16:22.979617"
-    },
-    "precio": 1999.0,
-    "precios_publicados": [
-      1999.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
     "ts": "2026-11-22T17:38:02.373005",
     "canales": {
@@ -3394,6 +3374,16 @@
     "precio": 3887.0,
     "precios_publicados": [
       3887.0
+    ]
+  },
+  "amz-electrolux-purificador-de-agua-gelada-fria-e-": {
+    "ts": "2026-11-22T20:17:37.290740",
+    "canales": {
+      "whatsapp": "2026-11-22T20:17:37.290740"
+    },
+    "precio": 557.0,
+    "precios_publicados": [
+      557.0
     ]
   }
 }
