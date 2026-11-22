@@ -203,16 +203,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-11-20T01:36:36.333937",
-    "canales": {
-      "whatsapp": "2026-11-20T01:36:36.333937"
-    },
-    "precio": 74.0,
-    "precios_publicados": [
-      74.0
-    ]
-  },
   "amz-protetor-solar-facial-minesol-oil-control-sem": {
     "ts": "2026-11-20T01:40:41.594487",
     "canales": {
@@ -3343,6 +3333,16 @@
     "precio": 18960.0,
     "precios_publicados": [
       18960.0
+    ]
+  },
+  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
+    "ts": "2026-11-22T01:40:29.122768",
+    "canales": {
+      "whatsapp": "2026-11-22T01:40:29.122768"
+    },
+    "precio": 1519.0,
+    "precios_publicados": [
+      1519.0
     ]
   }
 }
