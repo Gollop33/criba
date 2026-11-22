@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-smartphone-motorola-moto-g35-5g-128gb-4gb-ram": {
-    "ts": "2026-11-20T22:10:00.857246",
-    "canales": {
-      "whatsapp": "2026-11-20T22:10:00.857246"
-    },
-    "precio": 899.0,
-    "precios_publicados": [
-      899.0
-    ]
-  },
   "amz-kindle-16-gb-modelo-2024-leve-e-compacto-com-": {
     "ts": "2026-11-20T22:17:07.079366",
     "canales": {
@@ -3356,6 +3346,16 @@
     "precio": 95.0,
     "precios_publicados": [
       95.0
+    ]
+  },
+  "amz-tapete-higienico-premium-para-caes-petlike-ul": {
+    "ts": "2026-11-22T22:14:28.197378",
+    "canales": {
+      "whatsapp": "2026-11-22T22:14:28.197378"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
