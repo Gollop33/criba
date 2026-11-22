@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
-    "ts": "2026-11-20T21:46:40.833189",
-    "canales": {
-      "whatsapp": "2026-11-20T21:46:40.833189"
-    },
-    "precio": 389.0,
-    "precios_publicados": [
-      389.0
-    ]
-  },
   "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
     "ts": "2026-11-20T21:53:12.177442",
     "canales": {
@@ -3364,6 +3354,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
+    "ts": "2026-11-22T21:47:12.515840",
+    "canales": {
+      "whatsapp": "2026-11-22T21:47:12.515840"
+    },
+    "precio": 105.0,
+    "precios_publicados": [
+      105.0
     ]
   }
 }
