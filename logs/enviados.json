@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-headset-gamer-sem-fio-redragon-zeus-pro-preto": {
-    "ts": "2026-11-20T16:22:37.708265",
-    "canales": {
-      "whatsapp": "2026-11-20T16:22:37.708265"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
   "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
     "ts": "2026-11-20T16:29:39.365360",
     "canales": {
@@ -3474,6 +3464,16 @@
     "precio": 4699.0,
     "precios_publicados": [
       4699.0
+    ]
+  },
+  "amz-fralda-pampers-premium-care-tamanho-g-136-uni": {
+    "ts": "2026-11-22T16:29:27.905647",
+    "canales": {
+      "whatsapp": "2026-11-22T16:29:27.905647"
+    },
+    "precio": 205.0,
+    "precios_publicados": [
+      205.0
     ]
   }
 }
