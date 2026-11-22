@@ -203,26 +203,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-mor-tabua-retangular-bamboo-35cm-x-25cm": {
-    "ts": "2026-11-20T01:25:26.888829",
-    "canales": {
-      "whatsapp": "2026-11-20T01:25:26.888829"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
-  "amz-bosch-palheta-dianteira-aerofit-af16-limpador": {
-    "ts": "2026-11-20T01:33:00.619244",
-    "canales": {
-      "whatsapp": "2026-11-20T01:33:00.619244"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
   "amz-cetaphil-creme-hidratante": {
     "ts": "2026-11-20T01:36:36.333937",
     "canales": {
@@ -3353,6 +3333,16 @@
     "precio": 1019.0,
     "precios_publicados": [
       1019.0
+    ]
+  },
+  "amz-apple-2025-macbook-pro-de-14-polegadas-chip-m": {
+    "ts": "2026-11-22T01:34:45.927886",
+    "canales": {
+      "whatsapp": "2026-11-22T01:34:45.927886"
+    },
+    "precio": 18960.0,
+    "precios_publicados": [
+      18960.0
     ]
   }
 }
