@@ -167,16 +167,6 @@
     ],
     "precio_min_publicado": 98.0
   },
-  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
-    "ts": "2026-11-20T11:52:24.892102",
-    "canales": {
-      "whatsapp": "2026-11-20T11:52:24.892102"
-    },
-    "precio": 639.0,
-    "precios_publicados": [
-      639.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
     "ts": "2026-11-20T11:58:03.875586",
     "canales": {
@@ -3369,6 +3359,16 @@
     "precio": 439.0,
     "precios_publicados": [
       439.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a36-5g-128gb-6gb-ram-c": {
+    "ts": "2026-11-22T11:53:56.795739",
+    "canales": {
+      "whatsapp": "2026-11-22T11:53:56.795739"
+    },
+    "precio": 1429.0,
+    "precios_publicados": [
+      1429.0
     ]
   }
 }
