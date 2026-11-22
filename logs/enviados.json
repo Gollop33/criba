@@ -167,16 +167,6 @@
     ],
     "precio_min_publicado": 98.0
   },
-  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
-    "ts": "2026-11-20T11:58:03.875586",
-    "canales": {
-      "whatsapp": "2026-11-20T11:58:03.875586"
-    },
-    "precio": 1049.0,
-    "precios_publicados": [
-      1049.0
-    ]
-  },
   "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
     "ts": "2026-11-20T12:16:33.686006",
     "canales": {
@@ -3369,6 +3359,16 @@
     "precio": 1429.0,
     "precios_publicados": [
       1429.0
+    ]
+  },
+  "amz-playstation5-pro": {
+    "ts": "2026-11-22T11:59:49.699699",
+    "canales": {
+      "whatsapp": "2026-11-22T11:59:49.699699"
+    },
+    "precio": 7699.0,
+    "precios_publicados": [
+      7699.0
     ]
   }
 }
