@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-notebook-acer-aspire-go-15-core-5-8gb-ssd-512": {
-    "ts": "2026-11-20T16:08:28.103613",
-    "canales": {
-      "whatsapp": "2026-11-20T16:08:28.103613"
-    },
-    "precio": 3399.0,
-    "precios_publicados": [
-      3399.0
-    ]
-  },
   "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
     "ts": "2026-11-20T16:15:40.797582",
     "canales": {
@@ -3464,6 +3454,16 @@
     "precio": 2599.0,
     "precios_publicados": [
       2599.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-moana-processado": {
+    "ts": "2026-11-22T16:08:41.159279",
+    "canales": {
+      "whatsapp": "2026-11-22T16:08:41.159279"
+    },
+    "precio": 494.0,
+    "precios_publicados": [
+      494.0
     ]
   }
 }
