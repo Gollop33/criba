@@ -204,16 +204,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-11-20T03:24:02.163861",
-    "canales": {
-      "whatsapp": "2026-11-20T03:24:02.163861"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-fralda-turma-da-monica-baby-jumbo-rn-36-unida": {
     "ts": "2026-11-20T04:45:58.252274",
     "canales": {
@@ -3334,6 +3324,16 @@
     "precio": 55.0,
     "precios_publicados": [
       55.0
+    ]
+  },
+  "amz-dove-sabonete-em-barra-original-90g-6-unidade": {
+    "ts": "2026-11-22T03:43:43.804567",
+    "canales": {
+      "whatsapp": "2026-11-22T03:43:43.804567"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
