@@ -167,16 +167,6 @@
     ],
     "precio_min_publicado": 504890.0
   },
-  "amz-brilhante-limpeza-total-sabao-em-po-2-2kg": {
-    "ts": "2026-11-20T09:16:44.037797",
-    "canales": {
-      "whatsapp": "2026-11-20T09:16:44.037797"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-sanol-desinfetante-liquido-para-uso-geral-lav": {
     "ts": "2026-11-20T09:46:06.452567",
     "canales": {
@@ -1652,14 +1642,16 @@
     ]
   },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-11-21T05:50:32.813426",
+    "ts": "2026-11-22T09:41:54.353630",
     "canales": {
-      "whatsapp": "2026-11-21T05:50:32.813426"
+      "whatsapp": "2026-11-22T09:41:54.353630"
     },
-    "precio": 4297.0,
+    "precio": 26.0,
     "precios_publicados": [
-      4297.0
-    ]
+      4297.0,
+      26.0
+    ],
+    "precio_min_publicado": 4297.0
   },
   "amz-grand-theft-auto-vi-playstation-5": {
     "ts": "2026-11-21T06:01:19.976060",
