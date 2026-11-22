@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 98.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3-ryzen-7-8840hs": {
-    "ts": "2026-11-20T12:29:28.976973",
-    "canales": {
-      "whatsapp": "2026-11-20T12:29:28.976973"
-    },
-    "precio": 5105.0,
-    "precios_publicados": [
-      5105.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-tamanho-g-136-uni": {
     "ts": "2026-11-20T12:36:33.742356",
     "canales": {
@@ -3397,6 +3387,16 @@
     "precio": 4499.0,
     "precios_publicados": [
       4499.0
+    ]
+  },
+  "amz-colgate-total-antitartaro-creme-dental-com-fl": {
+    "ts": "2026-11-22T12:30:36.095675",
+    "canales": {
+      "whatsapp": "2026-11-22T12:30:36.095675"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
