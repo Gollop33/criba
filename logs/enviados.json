@@ -154,26 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-apple-2025-ipad-wifi-128-gb-amarelo-a16": {
-    "ts": "2026-11-20T15:23:18.219010",
-    "canales": {
-      "whatsapp": "2026-11-20T15:23:18.219010"
-    },
-    "precio": 4159.0,
-    "precios_publicados": [
-      4159.0
-    ]
-  },
-  "amz-tablet-infantil-minnie-7-wifi-4gb-ram-64gb-an": {
-    "ts": "2026-11-20T15:29:40.371452",
-    "canales": {
-      "whatsapp": "2026-11-20T15:29:40.371452"
-    },
-    "precio": 365.0,
-    "precios_publicados": [
-      365.0
-    ]
-  },
   "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
     "ts": "2026-11-20T15:43:11.316594",
     "canales": {
@@ -3464,6 +3444,16 @@
     "precio": 3499.0,
     "precios_publicados": [
       3499.0
+    ]
+  },
+  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
+    "ts": "2026-11-22T15:29:44.973152",
+    "canales": {
+      "whatsapp": "2026-11-22T15:29:44.973152"
+    },
+    "precio": 389.0,
+    "precios_publicados": [
+      389.0
     ]
   }
 }
