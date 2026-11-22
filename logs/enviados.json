@@ -106,18 +106,6 @@
     ],
     "precio_min_publicado": 36720.0
   },
-  "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
-    "ts": "2026-11-20T12:06:43.445494",
-    "canales": {
-      "whatsapp": "2026-11-20T12:06:43.445494"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      36.0,
-      29.0
-    ],
-    "precio_min_publicado": 36.0
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-21T06:40:28.527621",
     "canales": {
@@ -3379,6 +3367,16 @@
     "precio": 1859.0,
     "precios_publicados": [
       1859.0
+    ]
+  },
+  "amz-controle-sem-fio-playstation-dualsensetm-midn": {
+    "ts": "2026-11-22T12:10:00.957304",
+    "canales": {
+      "whatsapp": "2026-11-22T12:10:00.957304"
+    },
+    "precio": 399.0,
+    "precios_publicados": [
+      399.0
     ]
   }
 }
