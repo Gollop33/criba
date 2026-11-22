@@ -154,16 +154,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
-    "ts": "2026-11-20T15:43:11.316594",
-    "canales": {
-      "whatsapp": "2026-11-20T15:43:11.316594"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-moana-processado": {
     "ts": "2026-11-20T15:50:47.869419",
     "canales": {
@@ -3464,6 +3454,16 @@
     "precio": 4159.0,
     "precios_publicados": [
       4159.0
+    ]
+  },
+  "amz-tablet-infantil-minnie-7-wifi-4gb-ram-64gb-an": {
+    "ts": "2026-11-22T15:43:34.794638",
+    "canales": {
+      "whatsapp": "2026-11-22T15:43:34.794638"
+    },
+    "precio": 347.0,
+    "precios_publicados": [
+      347.0
     ]
   }
 }
