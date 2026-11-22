@@ -118,36 +118,6 @@
     ],
     "precio_min_publicado": 46.0
   },
-  "amz-philips-headphone-bluetooth-tah2300bk00-com-m": {
-    "ts": "2026-11-20T19:31:20.214063",
-    "canales": {
-      "whatsapp": "2026-11-20T19:31:20.214063"
-    },
-    "precio": 105.0,
-    "precios_publicados": [
-      105.0
-    ]
-  },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-11-20T19:33:22.938859",
-    "canales": {
-      "whatsapp": "2026-11-20T19:33:22.938859"
-    },
-    "precio": 3148.0,
-    "precios_publicados": [
-      3148.0
-    ]
-  },
-  "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
-    "ts": "2026-11-20T19:36:00.670542",
-    "canales": {
-      "whatsapp": "2026-11-20T19:36:00.670542"
-    },
-    "precio": 3588.0,
-    "precios_publicados": [
-      3588.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-11-22T17:33:58.702066",
     "canales": {
@@ -3404,6 +3374,16 @@
     "precio": 2945.0,
     "precios_publicados": [
       2945.0
+    ]
+  },
+  "amz-memoria-ram-rise-mode-z-series-8gb-3200mhz-dd": {
+    "ts": "2026-11-22T19:39:58.983799",
+    "canales": {
+      "whatsapp": "2026-11-22T19:39:58.983799"
+    },
+    "precio": 63500.0,
+    "precios_publicados": [
+      63500.0
     ]
   }
 }
