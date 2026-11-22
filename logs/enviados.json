@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-11-20T20:57:06.403879",
-    "canales": {
-      "whatsapp": "2026-11-20T20:57:06.403879"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
   "amz-neve-papel-higienico-ultracomfort-folha-quadr": {
     "ts": "2026-11-20T21:02:00.491540",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 496.0,
     "precios_publicados": [
       496.0
+    ]
+  },
+  "amz-ar-condicionado-portatil-hisense-com-wifi-120": {
+    "ts": "2026-11-22T20:59:01.861233",
+    "canales": {
+      "whatsapp": "2026-11-22T20:59:01.861233"
+    },
+    "precio": 2096.0,
+    "precios_publicados": [
+      2096.0
     ]
   }
 }
