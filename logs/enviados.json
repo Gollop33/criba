@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 5800.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-c": {
-    "ts": "2026-11-20T19:49:44.329143",
-    "canales": {
-      "whatsapp": "2026-11-20T19:49:44.329143"
-    },
-    "precio": 2110.0,
-    "precios_publicados": [
-      2110.0
-    ]
-  },
   "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
     "ts": "2026-11-20T19:55:32.154546",
     "canales": {
@@ -3394,6 +3384,16 @@
     "precio": 463.0,
     "precios_publicados": [
       463.0
+    ]
+  },
+  "amz-climatizador-de-ar-frio-60w-45l-midea-branco-": {
+    "ts": "2026-11-22T19:51:29.226836",
+    "canales": {
+      "whatsapp": "2026-11-22T19:51:29.226836"
+    },
+    "precio": 449.0,
+    "precios_publicados": [
+      449.0
     ]
   }
 }
