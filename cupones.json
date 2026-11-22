@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-22T02:41:52+00:00",
+  "actualizado": "2026-11-22T08:15:31+00:00",
   "total": 319,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -4306,7 +4306,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-21T13:01:01+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-22T05:15:04-03:00"
 }
