@@ -155,16 +155,6 @@
     ],
     "precio_min_publicado": 4948.0
   },
-  "amz-sensodyne-creme-dental-branqueador-extra-fres": {
-    "ts": "2026-11-20T10:45:14.794576",
-    "canales": {
-      "whatsapp": "2026-11-20T10:45:14.794576"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-colgate-total-antitartaro-creme-dental-com-fl": {
     "ts": "2026-11-20T10:49:22.829701",
     "canales": {
@@ -3369,6 +3359,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
+    "ts": "2026-11-22T10:45:33.692397",
+    "canales": {
+      "whatsapp": "2026-11-22T10:45:33.692397"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
