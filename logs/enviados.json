@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-jbl-tune-530bt-fone-bluetooth-overear-sem-fio": {
-    "ts": "2026-11-21T13:57:43.096241",
-    "canales": {
-      "whatsapp": "2026-11-21T13:57:43.096241"
-    },
-    "precio": 175.0,
-    "precios_publicados": [
-      175.0
-    ]
-  },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
     "ts": "2026-11-21T14:08:38.517261",
     "canales": {
@@ -823,14 +813,16 @@
     ]
   },
   "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
-    "ts": "2026-11-21T22:25:22.924577",
+    "ts": "2026-11-23T14:02:04.498925",
     "canales": {
-      "whatsapp": "2026-11-21T22:25:22.924577"
+      "whatsapp": "2026-11-23T14:02:04.498925"
     },
-    "precio": 45.0,
+    "precio": 37.0,
     "precios_publicados": [
-      45.0
-    ]
+      45.0,
+      37.0
+    ],
+    "precio_min_publicado": 45.0
   },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-11-21T22:28:13.787857",
