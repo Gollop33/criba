@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 945.0
   },
-  "amz-hepta-world-ventilador-de-coluna-resfriamento": {
-    "ts": "2026-11-21T00:01:43.683195",
-    "canales": {
-      "whatsapp": "2026-11-21T00:01:43.683195"
-    },
-    "precio": 98.0,
-    "precios_publicados": [
-      98.0
-    ]
-  },
   "amz-piracanjuba-proforce-23g-de-proteinas-zero-la": {
     "ts": "2026-11-21T00:08:13.243388",
     "canales": {
@@ -3336,6 +3326,16 @@
     "precio": 744300.0,
     "precios_publicados": [
       744300.0
+    ]
+  },
+  "amz-tablet-m8-wifi-6gb-ram-64gb-tela-8-pol-androi": {
+    "ts": "2026-11-23T00:02:04.529414",
+    "canales": {
+      "whatsapp": "2026-11-23T00:02:04.529414"
+    },
+    "precio": 672.0,
+    "precios_publicados": [
+      672.0
     ]
   }
 }
