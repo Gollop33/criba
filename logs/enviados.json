@@ -106,16 +106,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
-    "ts": "2026-11-21T11:44:19.027827",
-    "canales": {
-      "whatsapp": "2026-11-21T11:44:19.027827"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0
-    ]
-  },
   "amz-liquidificador-1400-full-oster-preto-32l-127v": {
     "ts": "2026-11-21T11:51:22.463404",
     "canales": {
@@ -3140,6 +3130,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "amz-bellacotton-algodao-quadrado-baby-100-algodao": {
+    "ts": "2026-11-23T11:50:45.382869",
+    "canales": {
+      "whatsapp": "2026-11-23T11:50:45.382869"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
