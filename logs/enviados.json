@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-papel-toalha-em-rolo-scala-plus-mega-360-toal": {
-    "ts": "2026-11-21T23:08:42.245365",
-    "canales": {
-      "whatsapp": "2026-11-21T23:08:42.245365"
-    },
-    "precio": 11.0,
-    "precios_publicados": [
-      11.0
-    ]
-  },
   "amz-loreal-professionnel-oleo-10-em-1-absolut-rep": {
     "ts": "2026-11-21T23:18:42.517063",
     "canales": {
@@ -2801,6 +2791,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g86-5g-256gb-8gb-ram": {
+    "ts": "2026-11-23T23:15:35.175329",
+    "canales": {
+      "whatsapp": "2026-11-23T23:15:35.175329"
+    },
+    "precio": 2132.0,
+    "precios_publicados": [
+      2132.0
     ]
   }
 }
