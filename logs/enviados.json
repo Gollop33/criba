@@ -94,26 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-pelicula-para-kindle-paperwhite-12a-geracao-e": {
-    "ts": "2026-11-21T16:16:02.532559",
-    "canales": {
-      "whatsapp": "2026-11-21T16:16:02.532559"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
-  "amz-mochila-lenovo-casual-b210-preta-para-noteboo": {
-    "ts": "2026-11-21T16:19:40.063911",
-    "canales": {
-      "whatsapp": "2026-11-21T16:19:40.063911"
-    },
-    "precio": 74.0,
-    "precios_publicados": [
-      74.0
-    ]
-  },
   "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
     "ts": "2026-11-21T16:28:55.588320",
     "canales": {
@@ -3202,6 +3182,16 @@
     "precio": 120.0,
     "precios_publicados": [
       120.0
+    ]
+  },
+  "amz-tramontina-panela-de-pressao-vancouver-effect": {
+    "ts": "2026-11-23T16:22:56.833113",
+    "canales": {
+      "whatsapp": "2026-11-23T16:22:56.833113"
+    },
+    "precio": 161.0,
+    "precios_publicados": [
+      161.0
     ]
   }
 }
