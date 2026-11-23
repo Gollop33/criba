@@ -106,26 +106,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-11-21T11:51:22.463404",
-    "canales": {
-      "whatsapp": "2026-11-21T11:51:22.463404"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
-  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
-    "ts": "2026-11-21T11:57:23.537533",
-    "canales": {
-      "whatsapp": "2026-11-21T11:57:23.537533"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "amz-antipulgas-e-vermifugo-em-tablete-para-caes-n": {
     "ts": "2026-11-21T12:01:06.480804",
     "canales": {
@@ -3140,6 +3120,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-cetaphil-locao-hidratante": {
+    "ts": "2026-11-23T11:58:04.559234",
+    "canales": {
+      "whatsapp": "2026-11-23T11:58:04.559234"
+    },
+    "precio": 74.0,
+    "precios_publicados": [
+      74.0
     ]
   }
 }
