@@ -94,26 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-echo-show-5-geracao-mais-recente-smart-displa": {
-    "ts": "2026-11-21T17:01:00.847235",
-    "canales": {
-      "whatsapp": "2026-11-21T17:01:00.847235"
-    },
-    "precio": 649.0,
-    "precios_publicados": [
-      649.0
-    ]
-  },
-  "amz-notebook-lenovo-ideapad-slim-3-amd-ryzen-5-75": {
-    "ts": "2026-11-21T17:03:27.538695",
-    "canales": {
-      "whatsapp": "2026-11-21T17:03:27.538695"
-    },
-    "precio": 3423.0,
-    "precios_publicados": [
-      3423.0
-    ]
-  },
   "amz-amazon-fire-tv-stick-hd-modelo-mais-recente-c": {
     "ts": "2026-11-21T17:12:08.265613",
     "canales": {
@@ -3212,6 +3192,16 @@
     "precio": 409.0,
     "precios_publicados": [
       409.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
+    "ts": "2026-11-23T17:05:16.158251",
+    "canales": {
+      "whatsapp": "2026-11-23T17:05:16.158251"
+    },
+    "precio": 1999.0,
+    "precios_publicados": [
+      1999.0
     ]
   }
 }
