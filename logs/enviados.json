@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-21T16:53:44.989965",
-    "canales": {
-      "whatsapp": "2026-11-21T16:53:44.989965"
-    },
-    "precio": 2136.0,
-    "precios_publicados": [
-      2136.0
-    ]
-  },
   "amz-echo-show-5-geracao-mais-recente-smart-displa": {
     "ts": "2026-11-21T17:01:00.847235",
     "canales": {
@@ -3212,6 +3202,16 @@
     "precio": 139.0,
     "precios_publicados": [
       139.0
+    ]
+  },
+  "amz-echo-spot-com-alexa-geracao-mais-recente-desp": {
+    "ts": "2026-11-23T16:59:42.125572",
+    "canales": {
+      "whatsapp": "2026-11-23T16:59:42.125572"
+    },
+    "precio": 409.0,
+    "precios_publicados": [
+      409.0
     ]
   }
 }
