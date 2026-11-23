@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
-    "ts": "2026-11-21T16:28:55.588320",
-    "canales": {
-      "whatsapp": "2026-11-21T16:28:55.588320"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
     "ts": "2026-11-21T16:38:59.706908",
     "canales": {
@@ -3202,6 +3192,16 @@
     "precio": 5859.0,
     "precios_publicados": [
       5859.0
+    ]
+  },
+  "amz-amazon-echo-dot-max-geracao-mais-recente-smar": {
+    "ts": "2026-11-23T16:30:19.402413",
+    "canales": {
+      "whatsapp": "2026-11-23T16:30:19.402413"
+    },
+    "precio": 599.0,
+    "precios_publicados": [
+      599.0
     ]
   }
 }
