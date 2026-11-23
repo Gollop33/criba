@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
-    "ts": "2026-11-21T16:01:36.013109",
-    "canales": {
-      "whatsapp": "2026-11-21T16:01:36.013109"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
     "ts": "2026-11-21T16:07:17.218983",
     "canales": {
@@ -3202,6 +3192,16 @@
     "precio": 62.0,
     "precios_publicados": [
       62.0
+    ]
+  },
+  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
+    "ts": "2026-11-23T16:05:01.347313",
+    "canales": {
+      "whatsapp": "2026-11-23T16:05:01.347313"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
