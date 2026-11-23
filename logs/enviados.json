@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
-    "ts": "2026-11-21T22:46:33.447788",
-    "canales": {
-      "whatsapp": "2026-11-21T22:46:33.447788"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-11-21T22:52:33.608829",
     "canales": {
@@ -2801,6 +2791,16 @@
     "precio": 1589.0,
     "precios_publicados": [
       1589.0
+    ]
+  },
+  "amz-celular-galaxy-a27-5g-128gb-camera-tripla-de-": {
+    "ts": "2026-11-23T22:47:54.821586",
+    "canales": {
+      "whatsapp": "2026-11-23T22:47:54.821586"
+    },
+    "precio": 1419.0,
+    "precios_publicados": [
+      1419.0
     ]
   }
 }
