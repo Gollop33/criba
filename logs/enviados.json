@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
-    "ts": "2026-11-21T22:52:33.608829",
-    "canales": {
-      "whatsapp": "2026-11-21T22:52:33.608829"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
   "amz-smart-lampada-wifi-positivo-casa-inteligente-": {
     "ts": "2026-11-21T22:55:15.100120",
     "canales": {
@@ -2801,6 +2791,16 @@
     "precio": 1419.0,
     "precios_publicados": [
       1419.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
+    "ts": "2026-11-23T22:54:39.353432",
+    "canales": {
+      "whatsapp": "2026-11-23T22:54:39.353432"
+    },
+    "precio": 1132.0,
+    "precios_publicados": [
+      1132.0
     ]
   }
 }
