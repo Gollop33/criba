@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-21T13:50:26.200401",
-    "canales": {
-      "whatsapp": "2026-11-21T13:50:26.200401"
-    },
-    "precio": 84.0,
-    "precios_publicados": [
-      84.0
-    ]
-  },
   "amz-jbl-tune-530bt-fone-bluetooth-overear-sem-fio": {
     "ts": "2026-11-21T13:57:43.096241",
     "canales": {
@@ -3128,6 +3118,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
+    "ts": "2026-11-23T13:50:31.519872",
+    "canales": {
+      "whatsapp": "2026-11-23T13:50:31.519872"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
