@@ -106,16 +106,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-sache-aromatizante-england-interbrilho": {
-    "ts": "2026-11-21T10:45:48.778334",
-    "canales": {
-      "whatsapp": "2026-11-21T10:45:48.778334"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0
-    ]
-  },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
     "ts": "2026-11-21T10:53:43.699837",
     "canales": {
@@ -3170,6 +3160,16 @@
     "precio": 61.0,
     "precios_publicados": [
       61.0
+    ]
+  },
+  "amz-viva-verde-areia-higienica-biodegradavel-para": {
+    "ts": "2026-11-23T10:50:49.264880",
+    "canales": {
+      "whatsapp": "2026-11-23T10:50:49.264880"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
