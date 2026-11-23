@@ -106,16 +106,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-stanley-copo-termico-stacking-black-20-354ml": {
-    "ts": "2026-11-21T10:30:03.433337",
-    "canales": {
-      "whatsapp": "2026-11-21T10:30:03.433337"
-    },
-    "precio": 67.0,
-    "precios_publicados": [
-      67.0
-    ]
-  },
   "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
     "ts": "2026-11-21T10:37:01.834005",
     "canales": {
@@ -3170,6 +3160,16 @@
     "precio": 16.0,
     "precios_publicados": [
       16.0
+    ]
+  },
+  "amz-colgate-total-whitening-fresh-mint-creme-dent": {
+    "ts": "2026-11-23T10:36:50.839981",
+    "canales": {
+      "whatsapp": "2026-11-23T10:36:50.839981"
+    },
+    "precio": 55.0,
+    "precios_publicados": [
+      55.0
     ]
   }
 }
