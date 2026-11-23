@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-21T14:57:41.048384",
-    "canales": {
-      "whatsapp": "2026-11-21T14:57:41.048384"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "amz-amazon-echo-dot-max-geracao-mais-recente-smar": {
     "ts": "2026-11-21T15:08:26.871752",
     "canales": {
@@ -3172,6 +3162,16 @@
     "precio": 519.0,
     "precios_publicados": [
       519.0
+    ]
+  },
+  "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
+    "ts": "2026-11-23T15:01:49.852563",
+    "canales": {
+      "whatsapp": "2026-11-23T15:01:49.852563"
+    },
+    "precio": 289.0,
+    "precios_publicados": [
+      289.0
     ]
   }
 }
