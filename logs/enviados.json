@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
-    "ts": "2026-11-21T15:29:42.530164",
-    "canales": {
-      "whatsapp": "2026-11-21T15:29:42.530164"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-bepantol-baby-lenco-umedecido-hipoalergenico-": {
     "ts": "2026-11-21T15:50:06.567411",
     "canales": {
@@ -3192,6 +3182,16 @@
     "precio": 569.0,
     "precios_publicados": [
       569.0
+    ]
+  },
+  "amz-hd-externo-portatil-500gb-unionsine-disco-rig": {
+    "ts": "2026-11-23T15:31:35.257159",
+    "canales": {
+      "whatsapp": "2026-11-23T15:31:35.257159"
+    },
+    "precio": 211.0,
+    "precios_publicados": [
+      211.0
     ]
   }
 }
