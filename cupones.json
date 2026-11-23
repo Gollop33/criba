@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-23T20:15:54+00:00",
-  "total": 320,
+  "actualizado": "2026-11-23T22:24:51+00:00",
+  "total": 325,
   "fuentes": [
-    "Telegram ML Afiliados",
-    "ML Oficial"
+    "ML Oficial",
+    "Telegram ML Afiliados"
   ],
   "cupones": [
     {
@@ -4318,6 +4318,71 @@
       "tienda": "Mercado Livre",
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-23T13:06:01+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFERTASEMPREML",
+      "desconto": "10% OFF",
+      "compra_minima": "R$199",
+      "limite": "R$200",
+      "hasta": "2026-11-23",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-23T19:05:21+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "OFFPRATECH",
+      "desconto": "R$250 OFF",
+      "compra_minima": "R$2.499",
+      "limite": "",
+      "hasta": "2026-49-02",
+      "categoria": "Tecnologia",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-23T16:00:11+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "DESCONTEI25",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-23T14:00:09+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "CUPOMDEHOJE25",
+      "desconto": "25% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-12-19",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-23T14:00:09+00:00",
+      "vigente": true,
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+    },
+    {
+      "codigo": "MELIACHA30",
+      "desconto": "30% OFF",
+      "compra_minima": "R$1",
+      "limite": "R$500",
+      "hasta": "2026-12-20",
+      "categoria": "Geral",
+      "tienda": "Mercado Livre",
+      "fonte": "Telegram ML Afiliados",
+      "detectado_em": "2026-11-23T14:00:09+00:00",
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }

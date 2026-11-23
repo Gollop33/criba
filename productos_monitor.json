@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-23T22:22:45+00:00",
-  "total": 4,
+  "actualizado": "2026-11-23T22:27:06+00:00",
+  "total": 22,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,31 +9,175 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-23T22:22:45+00:00"
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
     },
     {
-      "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
-      "nombre": "Colgate Sensitive Pro Alívio Imediato Creme Dental, 3x90g | Alívio imediato da sensibilidade",
-      "precio_ref": 17.99,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "adaptador bluetooth usb 5 0 para pc e",
+      "nombre": "Adaptador Bluetooth USB 5.0 para PC e Notebook, Plug and Play, Conexão Sem Fio Estável para Fones de Ouvido, Caixa de Som, Te",
+      "precio_ref": 10.9,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-23T22:22:45+00:00"
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
     },
     {
-      "busqueda": "eliminador de odores liquido para pets wap cereja",
-      "nombre": "Eliminador de Odores Líquido para Pets WAP, Cereja e Avelã, 1 litro | Neutralizador de Odores com fragrância",
-      "precio_ref": 37.59,
-      "categoria": "Perfumes & Fragrâncias",
+      "busqueda": "adaptador bluetooth usb 5 4 para pc e",
+      "nombre": "Adaptador Bluetooth USB 5.4 para PC e Notebook – Receptor USB Plug and Play, Alcance de Até 10 m, Compatível com Fone, Mouse,",
+      "precio_ref": 14.9,
+      "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-23T22:22:45+00:00"
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
     },
     {
-      "busqueda": "memoria ram rise mode z series 8gb 3200mhz",
-      "nombre": "Memória RAM Rise Mode Z Series 8GB 3200Mhz DDR4 para Desktop 1.35v, CL19, Preto - RM-D4-8G-3200Z",
-      "precio_ref": 438.14,
+      "busqueda": "switch gigabit ms105g mercusys de 5 portas ethernet",
+      "nombre": "Switch Gigabit MS105G Mercusys de 5 portas Ethernet RJ45 LAN 10/100/1000 Mbps, Plug & Play para conectar SmartTVs, Notebooks,",
+      "precio_ref": 54.0,
+      "categoria": "Notebooks & PCs",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "limpador liquido de pneus e borrachas vonixx delet",
+      "nombre": "Limpador Líquido de Pneus e Borrachas Vonixx Delet, 500ml | Remove Pretinho Antigo, Devolve Originalidade da Borracha, Ação R",
+      "precio_ref": 25.36,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "armazem brasil monitor portatil 15 6 fhd 1080p",
+      "nombre": "Armazém Brasil, Monitor Portatil 15,6'', FHD 1080P Monitor Portátil Conectado Com USB C Dupla/HDMI, IPS Extensor De Tela para",
+      "precio_ref": 379.97,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g77 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g77 5G 256GB - 8GB RAM + 16GB RAM Boost, camera 108MP Ultra-Pixel, tela 1.5K extreme Amoled 120hz, u",
+      "precio_ref": 1589.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-23T22:22:45+00:00"
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "celular galaxy a27 5g 128gb camera tripla de",
+      "nombre": "Celular Galaxy A27 5G 128GB, câmera tripla de 50MP - Preto",
+      "precio_ref": 1419.32,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung odyssey g5 32 resolucao qhd",
+      "nombre": "Monitor Gamer Samsung Odyssey G5 32, Resolução QHD, Taxa de atualização de 165Hz & 1ms de tempo de resposta (MPRT), Curvatura",
+      "precio_ref": 1132.92,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g06 64gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto G06-64GB 4GB RAM +8GB Ram Boost, Camera 50MP com AI, Bateria de 5200 mAh e Tela 6.9\" - Azul Marinho",
+      "precio_ref": 665.56,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g35 5g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto g35 5G - 128GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI NFC Tela 6.7\" com Superbrilho - Verde",
+      "precio_ref": 829.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g86 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g86 5G - 256GB 8GB RAM+16GB Ram Boost Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, I",
+      "precio_ref": 2132.33,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
+      "nombre": "Monitor AOC 21\" 22B30HM23 FHD, 120Hz, 1MS, Preto",
+      "precio_ref": 379.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "monitor dell pro 24 plus 1080p 1920 x",
+      "nombre": "Monitor Dell Pro 24 Plus, 1080p (1920 x 1080), 100 Hz, LED, 5 ms, P2425H | Tela de 23,8 proporção 16:9, contraste de 1500:1,",
+      "precio_ref": 998.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "apple iphone 17e de 256 gb preto",
+      "nombre": "Apple iPhone 17e de 256 GB — Preto",
+      "precio_ref": 4554.44,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a07 128gb 4gb cam 50mp",
+      "nombre": "Celular Samsung Galaxy A07 128GB, 4GB, Câm. 50MP, Tela 6.7\"- Verde",
+      "precio_ref": 799.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 5g 256gb 12gb ram",
+      "nombre": "Celular Samsung Galaxy S25 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.2\", Azul Marinho",
+      "precio_ref": 3888.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "monitor lg fhd home office 22u403a b 22",
+      "nombre": "Monitor LG FHD Home & Office 22U403A-B 22”, 1ms (MBR), 120Hz (O/C), Modo leitura, Flicker Safe, HDMI, Switch, Black Stabilize",
+      "precio_ref": 389.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
+      "nombre": "Smartphone Motorola Moto g15-256GB 4GB RAM+8GB Ram Boost e Camera 50MP com AI e Night Vision Bateria de 5200 mAh Tela FHD+ 6.",
+      "precio_ref": 1069.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g max 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Moto G Max 5G - 256GB 8GB RAM + 16GB RAM Boost, câmera 200MP, OIS, Tela 1.5K extreme AMOLED 120hz, IP68 e",
+      "precio_ref": 1776.67,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "smartphone xiaomi redmi 15c midnight black preto 8gb",
+      "nombre": "Smartphone Xiaomi Redmi 15C Midnight Black (Preto) 8GB RAM 256GB ROM | Midnight Black",
+      "precio_ref": 1250.24,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
+    },
+    {
+      "busqueda": "monitor dell 22 full hd 1920 x 1080",
+      "nombre": "Monitor Dell 22\", Full Hd (1920 x 1080), 100 Hz, Va, Se2225hm | 3000:1 de contraste, brilho 250 nits , Ângulo de visão 178°,",
+      "precio_ref": 498.9,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T22:27:06+00:00"
     }
   ]
 }
