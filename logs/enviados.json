@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-aoc-monitor-22-120hz-22b35hm23-1ms-gaming-hdm": {
-    "ts": "2026-11-21T23:48:33.381686",
-    "canales": {
-      "whatsapp": "2026-11-21T23:48:33.381686"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-21T23:56:55.093365",
     "canales": {
@@ -2781,6 +2771,16 @@
     "precio": 389.0,
     "precios_publicados": [
       389.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
+    "ts": "2026-11-23T23:56:07.661365",
+    "canales": {
+      "whatsapp": "2026-11-23T23:56:07.661365"
+    },
+    "precio": 1069.0,
+    "precios_publicados": [
+      1069.0
     ]
   }
 }
