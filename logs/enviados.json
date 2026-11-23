@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-celular-samsung-galaxy-a57-5g-128gb-8gb-ram-r": {
-    "ts": "2026-11-21T16:38:59.706908",
-    "canales": {
-      "whatsapp": "2026-11-21T16:38:59.706908"
-    },
-    "precio": 1991.0,
-    "precios_publicados": [
-      1991.0
-    ]
-  },
   "amz-notebook-dell-inspiron-i15i1300a30p-156-full-": {
     "ts": "2026-11-21T16:48:27.208594",
     "canales": {
@@ -3212,6 +3202,16 @@
     "precio": 150.0,
     "precios_publicados": [
       150.0
+    ]
+  },
+  "amz-jbl-tune-530bt-fone-bluetooth-overear-sem-fio": {
+    "ts": "2026-11-23T16:42:56.017063",
+    "canales": {
+      "whatsapp": "2026-11-23T16:42:56.017063"
+    },
+    "precio": 175.0,
+    "precios_publicados": [
+      175.0
     ]
   }
 }
