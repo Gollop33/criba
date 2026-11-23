@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-23T19:43:28+00:00",
-  "total": 4,
+  "actualizado": "2026-11-23T19:50:54+00:00",
+  "total": 5,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-23T19:43:28+00:00"
+      "monitorizado_desde": "2026-11-23T19:50:54+00:00"
     },
     {
       "busqueda": "colgate sensitive pro alivio imediato creme dental 3x90g",
@@ -17,7 +17,7 @@
       "precio_ref": 17.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-23T19:43:28+00:00"
+      "monitorizado_desde": "2026-11-23T19:50:54+00:00"
     },
     {
       "busqueda": "eliminador de odores liquido para pets wap cereja",
@@ -25,7 +25,7 @@
       "precio_ref": 37.59,
       "categoria": "Perfumes & Fragrâncias",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-23T19:43:28+00:00"
+      "monitorizado_desde": "2026-11-23T19:50:54+00:00"
     },
     {
       "busqueda": "memoria ram rise mode z series 8gb 3200mhz",
@@ -33,7 +33,15 @@
       "precio_ref": 438.14,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-23T19:43:28+00:00"
+      "monitorizado_desde": "2026-11-23T19:50:54+00:00"
+    },
+    {
+      "busqueda": "amazon fire tv stick hd modelo mais recente",
+      "nombre": "Amazon Fire TV Stick HD (modelo mais recente), Controle Remoto por Voz com Alexa, alimentado pela TV, com configuração simple",
+      "precio_ref": 245.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-23T19:50:54+00:00"
     }
   ]
 }
