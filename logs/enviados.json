@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-placa-mae-msi-a520ma-pro-am42xddr4hdmidvidm2u": {
-    "ts": "2026-11-21T23:26:55.167519",
-    "canales": {
-      "whatsapp": "2026-11-21T23:26:55.167519"
-    },
-    "precio": 355.0,
-    "precios_publicados": [
-      355.0
-    ]
-  },
-  "amz-mondial-ventilador-coluna-110v-40cm-6-pas-sup": {
-    "ts": "2026-11-21T23:29:24.415701",
-    "canales": {
-      "whatsapp": "2026-11-21T23:29:24.415701"
-    },
-    "precio": 189.0,
-    "precios_publicados": [
-      189.0
-    ]
-  },
   "amz-mini-rack-montado-intelbras-3u-370mm-mrm-337-": {
     "ts": "2026-11-21T23:34:55.839065",
     "canales": {
@@ -2811,6 +2791,16 @@
     "precio": 998.0,
     "precios_publicados": [
       998.0
+    ]
+  },
+  "amz-apple-iphone-17e-de-256-gb-preto": {
+    "ts": "2026-11-23T23:31:03.947365",
+    "canales": {
+      "whatsapp": "2026-11-23T23:31:03.947365"
+    },
+    "precio": 4554.0,
+    "precios_publicados": [
+      4554.0
     ]
   }
 }
