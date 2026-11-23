@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-echo-spot-com-alexa-geracao-mais-recente-desp": {
-    "ts": "2026-11-21T15:16:28.959809",
-    "canales": {
-      "whatsapp": "2026-11-21T15:16:28.959809"
-    },
-    "precio": 409.0,
-    "precios_publicados": [
-      409.0
-    ]
-  },
   "amz-apple-iphone-17-de-256-gb-preto": {
     "ts": "2026-11-21T15:22:35.733227",
     "canales": {
@@ -3182,6 +3172,16 @@
     "precio": 401.0,
     "precios_publicados": [
       401.0
+    ]
+  },
+  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
+    "ts": "2026-11-23T15:18:20.676126",
+    "canales": {
+      "whatsapp": "2026-11-23T15:18:20.676126"
+    },
+    "precio": 1252.0,
+    "precios_publicados": [
+      1252.0
     ]
   }
 }
