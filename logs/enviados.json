@@ -57,18 +57,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-protetor-solar-facial-neutrogena-sun-fresh-de": {
-    "ts": "2026-11-21T13:22:45.670142",
-    "canales": {
-      "whatsapp": "2026-11-21T13:22:45.670142"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      46.0,
-      39.0
-    ],
-    "precio_min_publicado": 46.0
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-11-22T17:33:58.702066",
     "canales": {
@@ -105,16 +93,6 @@
       23.0
     ],
     "precio_min_publicado": 26.0
-  },
-  "amz-mondial-liquidificador-turbo-power-preto-550w": {
-    "ts": "2026-11-21T13:15:16.723333",
-    "canales": {
-      "whatsapp": "2026-11-21T13:15:16.723333"
-    },
-    "precio": 79.0,
-    "precios_publicados": [
-      79.0
-    ]
   },
   "amz-kit-shampoo-vfloc-cera-tok-final-revitalizado": {
     "ts": "2026-11-21T13:29:43.222229",
@@ -3140,6 +3118,16 @@
     "precio": 76.0,
     "precios_publicados": [
       76.0
+    ]
+  },
+  "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
+    "ts": "2026-11-23T13:22:48.154528",
+    "canales": {
+      "whatsapp": "2026-11-23T13:22:48.154528"
+    },
+    "precio": 4309.0,
+    "precios_publicados": [
+      4309.0
     ]
   }
 }
