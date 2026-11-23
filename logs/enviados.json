@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-adaptador-usb-wifi-6-bluetooth-1300mbps-inter": {
-    "ts": "2026-11-21T22:29:51.322959",
-    "canales": {
-      "whatsapp": "2026-11-21T22:29:51.322959"
-    },
-    "precio": 46.0,
-    "precios_publicados": [
-      46.0
-    ]
-  },
-  "amz-flash-limp-mop-giratorio-fit-balde-8-litros-m": {
-    "ts": "2026-11-21T22:37:39.939886",
-    "canales": {
-      "whatsapp": "2026-11-21T22:37:39.939886"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
     "ts": "2026-11-21T22:46:33.447788",
     "canales": {
@@ -2791,6 +2771,16 @@
     "precio": 54.0,
     "precios_publicados": [
       54.0
+    ]
+  },
+  "amz-limpador-liquido-de-pneus-e-borrachas-vonixx-": {
+    "ts": "2026-11-23T22:37:51.863808",
+    "canales": {
+      "whatsapp": "2026-11-23T22:37:51.863808"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
