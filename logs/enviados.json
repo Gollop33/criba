@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-amazon-echo-dot-max-geracao-mais-recente-smar": {
-    "ts": "2026-11-21T15:08:26.871752",
-    "canales": {
-      "whatsapp": "2026-11-21T15:08:26.871752"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-echo-spot-com-alexa-geracao-mais-recente-desp": {
     "ts": "2026-11-21T15:16:28.959809",
     "canales": {
@@ -3182,6 +3172,16 @@
     "precio": 199.0,
     "precios_publicados": [
       199.0
+    ]
+  },
+  "amz-whey-protein-concentrado-chocolate-refil-18kg": {
+    "ts": "2026-11-23T15:12:23.629660",
+    "canales": {
+      "whatsapp": "2026-11-23T15:12:23.629660"
+    },
+    "precio": 401.0,
+    "precios_publicados": [
+      401.0
     ]
   }
 }
