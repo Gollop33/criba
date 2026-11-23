@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
-    "ts": "2026-11-21T23:41:46.615950",
-    "canales": {
-      "whatsapp": "2026-11-21T23:41:46.615950"
-    },
-    "precio": 2221.0,
-    "precios_publicados": [
-      2221.0
-    ]
-  },
-  "amz-monitor-bluecase-bm19k4hvw-19-polegadas-hd-14": {
-    "ts": "2026-11-21T23:43:27.380804",
-    "canales": {
-      "whatsapp": "2026-11-21T23:43:27.380804"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-27-ips-144hz-nativ": {
     "ts": "2026-11-21T23:46:16.801928",
     "canales": {
@@ -2791,6 +2771,16 @@
     "precio": 799.0,
     "precios_publicados": [
       799.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-5g-256gb-12gb-ram-": {
+    "ts": "2026-11-23T23:44:52.430960",
+    "canales": {
+      "whatsapp": "2026-11-23T23:44:52.430960"
+    },
+    "precio": 3888.0,
+    "precios_publicados": [
+      3888.0
     ]
   }
 }
