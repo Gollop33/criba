@@ -21,16 +21,6 @@
       "publicado_em": "2026-11-23T00:22:15+00:00",
       "motivo": "tanda"
     },
-    "BARRATINHOJA": {
-      "detectado_em": "2026-09-25T13:00:16+00:00",
-      "publicado_em": "2026-10-24T12:31:00+00:00",
-      "motivo": "tanda"
-    },
-    "FOIBARATO": {
-      "detectado_em": "2026-09-25T13:35:57+00:00",
-      "publicado_em": "2026-10-24T12:23:13+00:00",
-      "motivo": "tanda"
-    },
     "MELICOMPRA": {
       "detectado_em": "2026-09-28T13:30:06+00:00",
       "publicado_em": "2026-10-27T19:11:58+00:00",
@@ -71,21 +61,6 @@
       "detectado_em": "2026-10-11T04:02:57+00:00",
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
-    },
-    "BEAUTY15": {
-      "detectado_em": "2026-10-24T12:01:02+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "SPORTS15": {
-      "detectado_em": "2026-10-24T12:01:02+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "DF1PDESCONTO": {
-      "detectado_em": "2026-10-24T12:01:02+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
     },
     "PROMOISDIN20": {
       "detectado_em": "2026-10-25T12:01:01+00:00",
@@ -1331,7 +1306,17 @@
       "detectado_em": "2026-11-22T13:01:01+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "OFERTAML": {
+      "detectado_em": "2026-11-23T13:06:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIGARANTE": {
+      "detectado_em": "2026-11-23T13:06:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-23T08:48:49+00:00"
+  "actualizado": "2026-11-23T13:54:46+00:00"
 }

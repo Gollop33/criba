@@ -659,14 +659,16 @@
     ]
   },
   "amz-colgate-sensitive-pro-alivio-imediato-creme-d": {
-    "ts": "2026-11-21T20:17:28.904054",
+    "ts": "2026-11-23T13:54:48.195947",
     "canales": {
-      "whatsapp": "2026-11-21T20:17:28.904054"
+      "whatsapp": "2026-11-23T13:54:48.195947"
     },
-    "precio": 20.0,
+    "precio": 17.0,
     "precios_publicados": [
-      20.0
-    ]
+      20.0,
+      17.0
+    ],
+    "precio_min_publicado": 20.0
   },
   "amz-max-titanium-creatina-monohidratada-pote-300g": {
     "ts": "2026-11-21T20:21:51.144485",
