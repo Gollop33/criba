@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-21T15:22:35.733227",
-    "canales": {
-      "whatsapp": "2026-11-21T15:22:35.733227"
-    },
-    "precio": 5859.0,
-    "precios_publicados": [
-      5859.0
-    ]
-  },
   "amz-eucerin-pomada-reparadora-aquaphor-duopack-10": {
     "ts": "2026-11-21T15:29:42.530164",
     "canales": {
@@ -3182,6 +3172,16 @@
     "precio": 1252.0,
     "precios_publicados": [
       1252.0
+    ]
+  },
+  "amz-apple-iphone-16-128-gb-branco": {
+    "ts": "2026-11-23T15:24:47.794072",
+    "canales": {
+      "whatsapp": "2026-11-23T15:24:47.794072"
+    },
+    "precio": 4776.0,
+    "precios_publicados": [
+      4776.0
     ]
   }
 }
