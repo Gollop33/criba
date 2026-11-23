@@ -106,16 +106,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-21T11:24:25.962047",
-    "canales": {
-      "whatsapp": "2026-11-21T11:24:25.962047"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-cetaphil-locao-hidratante": {
     "ts": "2026-11-21T11:31:35.013909",
     "canales": {
@@ -3160,6 +3150,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-stanley-copo-termico-stacking-black-20-354ml": {
+    "ts": "2026-11-23T11:29:13.911691",
+    "canales": {
+      "whatsapp": "2026-11-23T11:29:13.911691"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
