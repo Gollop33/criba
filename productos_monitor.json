@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-22T23:41:50+00:00",
-  "total": 10,
+  "actualizado": "2026-11-23T00:12:30+00:00",
+  "total": 3,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
+      "monitorizado_desde": "2026-11-23T00:12:30+00:00"
     },
     {
       "busqueda": "pato desodorizador sanitario gel adesivo 2 refis marine",
@@ -17,7 +17,7 @@
       "precio_ref": 19.33,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
+      "monitorizado_desde": "2026-11-23T00:12:30+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
@@ -25,63 +25,7 @@
       "precio_ref": 3148.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "sanremo rodo plastico para pia de 14cm cor",
-      "nombre": "Sanremo - Rodo Plástico para Pia de 14cm, Cor Preta Linha Casar",
-      "precio_ref": 5.23,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "finish powerball detergente para lava loucas em tabletes",
-      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
-      "precio_ref": 41.61,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
-      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
-      "precio_ref": 3469.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo loq 15irx9 intel core i5 13450hx",
-      "nombre": "Notebook Lenovo LOQ 15IRX9 Intel Core i5-13450HX 16GB 512GB SSD RTX 3050 Windows 11 15.6\" - 83KH0006BR Luna Grey",
-      "precio_ref": 744300.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "tablet m8 wi fi 6gb ram 64gb tela",
-      "nombre": "Tablet M8 Wi-fi 6GB RAM + 64GB + Tela 8 Pol + Android 13 + Octa-Core Multi - NB426",
-      "precio_ref": 672.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 intel core i5 16",
-      "nombre": "Notebook ASUS Vivobook 15, Intel Core i5, 16 GB, 512 GB SSD W11 Home, 15.6'' FHD, Quiet Blue -X1504VA-NJ1745W",
-      "precio_ref": 5280.58,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
-      "nombre": "Xiaomi Redmi Pad 2 apenas WiFi (sem chamadas ou texto) 27.9 cm 2.5K Octa Core 4 alto-falantes ROM global 9000mAh Bluetooth 5.",
-      "precio_ref": 1690.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-22T23:41:50+00:00"
+      "monitorizado_desde": "2026-11-23T00:12:30+00:00"
     }
   ]
 }
