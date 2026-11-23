@@ -94,16 +94,6 @@
     ],
     "precio_min_publicado": 26.0
   },
-  "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
-    "ts": "2026-11-21T16:07:17.218983",
-    "canales": {
-      "whatsapp": "2026-11-21T16:07:17.218983"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-pelicula-para-kindle-paperwhite-12a-geracao-e": {
     "ts": "2026-11-21T16:16:02.532559",
     "canales": {
@@ -3202,6 +3192,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
+    "ts": "2026-11-23T16:13:29.480166",
+    "canales": {
+      "whatsapp": "2026-11-23T16:13:29.480166"
+    },
+    "precio": 120.0,
+    "precios_publicados": [
+      120.0
     ]
   }
 }
