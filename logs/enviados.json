@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
-    "ts": "2026-11-22T06:42:33.351095",
-    "canales": {
-      "whatsapp": "2026-11-22T06:42:33.351095"
-    },
-    "precio": 4998.0,
-    "precios_publicados": [
-      4998.0
-    ]
-  },
   "amz-apple-iphone-16-256-gb-ultramarino": {
     "ts": "2026-11-22T07:07:43.051116",
     "canales": {
@@ -2707,6 +2697,16 @@
     "precio": 269.0,
     "precios_publicados": [
       269.0
+    ]
+  },
+  "amz-smart-lampada-wifi-positivo-casa-inteligente-": {
+    "ts": "2026-11-24T06:50:32.180311",
+    "canales": {
+      "whatsapp": "2026-11-24T06:50:32.180311"
+    },
+    "precio": 25.0,
+    "precios_publicados": [
+      25.0
     ]
   }
 }
