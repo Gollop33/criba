@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 3449.0
   },
-  "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-11-22T13:12:52.586908",
-    "canales": {
-      "whatsapp": "2026-11-22T13:12:52.586908"
-    },
-    "precio": 54.0,
-    "precios_publicados": [
-      54.0
-    ]
-  },
   "amz-creatina-monohidratada-1kg-100-pura-importada": {
     "ts": "2026-11-22T13:19:58.394901",
     "canales": {
@@ -2788,6 +2778,16 @@
     "precio": 1765.0,
     "precios_publicados": [
       1765.0
+    ]
+  },
+  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
+    "ts": "2026-11-24T13:14:16.659999",
+    "canales": {
+      "whatsapp": "2026-11-24T13:14:16.659999"
+    },
+    "precio": 4498.0,
+    "precios_publicados": [
+      4498.0
     ]
   }
 }
