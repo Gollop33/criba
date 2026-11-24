@@ -18,30 +18,6 @@
     ],
     "precio_min_publicado": 34.0
   },
-  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-11-22T17:33:58.702066",
-    "canales": {
-      "whatsapp": "2026-11-22T17:33:58.702066"
-    },
-    "precio": 5189.0,
-    "precios_publicados": [
-      5800.0,
-      5189.0
-    ],
-    "precio_min_publicado": 5800.0
-  },
-  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
-    "ts": "2026-11-22T17:38:02.373005",
-    "canales": {
-      "whatsapp": "2026-11-22T17:38:02.373005"
-    },
-    "precio": 843.0,
-    "precios_publicados": [
-      945.0,
-      843.0
-    ],
-    "precio_min_publicado": 945.0
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-23T09:43:43.556539",
     "canales": {
@@ -168,186 +144,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-11-22T17:47:34.157913",
-    "canales": {
-      "whatsapp": "2026-11-22T17:47:34.157913"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
-  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
-    "ts": "2026-11-22T17:53:55.946501",
-    "canales": {
-      "whatsapp": "2026-11-22T17:53:55.946501"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
-  "amz-tramontina-lampada-smart-led-inteligente-e27-": {
-    "ts": "2026-11-22T17:57:10.695204",
-    "canales": {
-      "whatsapp": "2026-11-22T17:57:10.695204"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
-  "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
-    "ts": "2026-11-22T18:04:23.606992",
-    "canales": {
-      "whatsapp": "2026-11-22T18:04:23.606992"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
-  "amz-nivea-sun-protetor-solar-facial-toque-seco-an": {
-    "ts": "2026-11-22T18:09:36.335004",
-    "canales": {
-      "whatsapp": "2026-11-22T18:09:36.335004"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
-  "amz-filtrorefil-original-de-agua-para-purificador": {
-    "ts": "2026-11-22T18:12:24.369077",
-    "canales": {
-      "whatsapp": "2026-11-22T18:12:24.369077"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0
-    ]
-  },
-  "amz-frigideira-grande-em-ceramica-cabo-de-madeira": {
-    "ts": "2026-11-22T18:21:02.505624",
-    "canales": {
-      "whatsapp": "2026-11-22T18:21:02.505624"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
-  "amz-protetor-solar-parabrisa-quebra-sol-portatil-": {
-    "ts": "2026-11-22T18:26:12.399894",
-    "canales": {
-      "whatsapp": "2026-11-22T18:26:12.399894"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
-  "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
-    "ts": "2026-11-22T18:28:46.418616",
-    "canales": {
-      "whatsapp": "2026-11-22T18:28:46.418616"
-    },
-    "precio": 48.0,
-    "precios_publicados": [
-      48.0
-    ]
-  },
-  "amz-monitor-gamer-alienware-27-qhd-2560-x-1440-28": {
-    "ts": "2026-11-22T18:37:52.510954",
-    "canales": {
-      "whatsapp": "2026-11-22T18:37:52.510954"
-    },
-    "precio": 1799.0,
-    "precios_publicados": [
-      1799.0
-    ]
-  },
-  "amz-novante-monitor-portatil-14-tela-portatil-fhd": {
-    "ts": "2026-11-22T18:40:14.842116",
-    "canales": {
-      "whatsapp": "2026-11-22T18:40:14.842116"
-    },
-    "precio": 323.0,
-    "precios_publicados": [
-      323.0
-    ]
-  },
-  "amz-stanley-copo-quencher-cream-118l": {
-    "ts": "2026-11-22T18:50:04.630917",
-    "canales": {
-      "whatsapp": "2026-11-22T18:50:04.630917"
-    },
-    "precio": 160.0,
-    "precios_publicados": [
-      160.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a37-5g-128gb-6gb-ram-c": {
-    "ts": "2026-11-22T18:54:11.936060",
-    "canales": {
-      "whatsapp": "2026-11-22T18:54:11.936060"
-    },
-    "precio": 1679.0,
-    "precios_publicados": [
-      1679.0
-    ]
-  },
-  "amz-mondial-microondas-branco-1200w-220v-mo0121w": {
-    "ts": "2026-11-22T18:59:21.820615",
-    "canales": {
-      "whatsapp": "2026-11-22T18:59:21.820615"
-    },
-    "precio": 401.0,
-    "precios_publicados": [
-      401.0
-    ]
-  },
-  "amz-headset-gamer-sem-fio-redragon-zeus-pro-preto": {
-    "ts": "2026-11-22T19:05:48.716264",
-    "canales": {
-      "whatsapp": "2026-11-22T19:05:48.716264"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
-  "amz-xiaomi-redmi-pad-2-8gb-256gb-tablet-com-tela-": {
-    "ts": "2026-11-22T19:09:26.846961",
-    "canales": {
-      "whatsapp": "2026-11-22T19:09:26.846961"
-    },
-    "precio": 1789.0,
-    "precios_publicados": [
-      1789.0
-    ]
-  },
-  "amz-samsung-monitor-odyssey-oled-g5-27-qhd-180hz-": {
-    "ts": "2026-11-22T19:15:22.963368",
-    "canales": {
-      "whatsapp": "2026-11-22T19:15:22.963368"
-    },
-    "precio": 3051.0,
-    "precios_publicados": [
-      3051.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-prata-128gb-": {
-    "ts": "2026-11-22T19:30:11.222922",
-    "canales": {
-      "whatsapp": "2026-11-22T19:30:11.222922"
-    },
-    "precio": 2945.0,
-    "precios_publicados": [
-      2945.0
-    ]
-  },
   "amz-memoria-ram-rise-mode-z-series-8gb-3200mhz-dd": {
     "ts": "2026-11-23T19:43:35.552312",
     "canales": {
@@ -359,136 +155,6 @@
       438.0
     ],
     "precio_min_publicado": 63500.0
-  },
-  "amz-microondas-philco-20l-branco-pintura-limpa-fa": {
-    "ts": "2026-11-22T19:42:25.341571",
-    "canales": {
-      "whatsapp": "2026-11-22T19:42:25.341571"
-    },
-    "precio": 463.0,
-    "precios_publicados": [
-      463.0
-    ]
-  },
-  "amz-climatizador-de-ar-frio-60w-45l-midea-branco-": {
-    "ts": "2026-11-22T19:51:29.226836",
-    "canales": {
-      "whatsapp": "2026-11-22T19:51:29.226836"
-    },
-    "precio": 449.0,
-    "precios_publicados": [
-      449.0
-    ]
-  },
-  "amz-midea-panela-de-pressao-eletrica-6l-com-12-re": {
-    "ts": "2026-11-22T19:52:58.465883",
-    "canales": {
-      "whatsapp": "2026-11-22T19:52:58.465883"
-    },
-    "precio": 399.0,
-    "precios_publicados": [
-      399.0
-    ]
-  },
-  "amz-panela-de-pressao-ceramic-life-pressure-42l-c": {
-    "ts": "2026-11-22T19:58:33.149771",
-    "canales": {
-      "whatsapp": "2026-11-22T19:58:33.149771"
-    },
-    "precio": 159.0,
-    "precios_publicados": [
-      159.0
-    ]
-  },
-  "amz-microondas-20l-branco-mastercook-midea-110v": {
-    "ts": "2026-11-22T20:08:00.030378",
-    "canales": {
-      "whatsapp": "2026-11-22T20:08:00.030378"
-    },
-    "precio": 394.0,
-    "precios_publicados": [
-      394.0
-    ]
-  },
-  "amz-apple-iphone-15-128-gb-preto": {
-    "ts": "2026-11-22T20:10:19.308570",
-    "canales": {
-      "whatsapp": "2026-11-22T20:10:19.308570"
-    },
-    "precio": 3887.0,
-    "precios_publicados": [
-      3887.0
-    ]
-  },
-  "amz-electrolux-purificador-de-agua-gelada-fria-e-": {
-    "ts": "2026-11-22T20:17:37.290740",
-    "canales": {
-      "whatsapp": "2026-11-22T20:17:37.290740"
-    },
-    "precio": 557.0,
-    "precios_publicados": [
-      557.0
-    ]
-  },
-  "amz-philips-walita-fritadeira-airfryer-serie-1000": {
-    "ts": "2026-11-22T20:24:11.129682",
-    "canales": {
-      "whatsapp": "2026-11-22T20:24:11.129682"
-    },
-    "precio": 299.0,
-    "precios_publicados": [
-      299.0
-    ]
-  },
-  "amz-apple-iphone-18-pro-de-256-gb-preto": {
-    "ts": "2026-11-22T20:31:20.162338",
-    "canales": {
-      "whatsapp": "2026-11-22T20:31:20.162338"
-    },
-    "precio": 9999.0,
-    "precios_publicados": [
-      9999.0
-    ]
-  },
-  "amz-smartphone-oppo-a5-256gb-6gb-ram-bateria-6000": {
-    "ts": "2026-11-22T20:41:19.909768",
-    "canales": {
-      "whatsapp": "2026-11-22T20:41:19.909768"
-    },
-    "precio": 1099.0,
-    "precios_publicados": [
-      1099.0
-    ]
-  },
-  "amz-tablet-vaio-tl12-8gb-256gb-octacore-tela-amol": {
-    "ts": "2026-11-22T20:43:29.934826",
-    "canales": {
-      "whatsapp": "2026-11-22T20:43:29.934826"
-    },
-    "precio": 2749.0,
-    "precios_publicados": [
-      2749.0
-    ]
-  },
-  "amz-mondial-fritadeira-air-fryer-forno-oven-12l-p": {
-    "ts": "2026-11-22T20:50:31.040238",
-    "canales": {
-      "whatsapp": "2026-11-22T20:50:31.040238"
-    },
-    "precio": 496.0,
-    "precios_publicados": [
-      496.0
-    ]
-  },
-  "amz-ar-condicionado-portatil-hisense-com-wifi-120": {
-    "ts": "2026-11-22T20:59:01.861233",
-    "canales": {
-      "whatsapp": "2026-11-22T20:59:01.861233"
-    },
-    "precio": 2096.0,
-    "precios_publicados": [
-      2096.0
-    ]
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
     "ts": "2026-11-22T21:01:57.780081",
@@ -2872,6 +2538,16 @@
     "precio": 24900.0,
     "precios_publicados": [
       24900.0
+    ]
+  },
+  "amz-secret-desodorante-antitranspirante-em-gel-pr": {
+    "ts": "2026-11-24T21:01:51.818851",
+    "canales": {
+      "whatsapp": "2026-11-24T21:01:51.818851"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
