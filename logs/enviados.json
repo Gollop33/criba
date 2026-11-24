@@ -168,26 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-notebook-acer-aspire-go-15-core-5-8gb-ssd-512": {
-    "ts": "2026-11-22T16:15:55.211471",
-    "canales": {
-      "whatsapp": "2026-11-22T16:15:55.211471"
-    },
-    "precio": 3399.0,
-    "precios_publicados": [
-      3399.0
-    ]
-  },
-  "amz-notebook-gamer-lenovo-loq-irx9-156-144hz-inte": {
-    "ts": "2026-11-22T16:22:26.772175",
-    "canales": {
-      "whatsapp": "2026-11-22T16:22:26.772175"
-    },
-    "precio": 4699.0,
-    "precios_publicados": [
-      4699.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-tamanho-g-136-uni": {
     "ts": "2026-11-22T16:29:27.905647",
     "canales": {
@@ -2822,6 +2802,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-headset-gamer-havit-h2232d-rgb-com-microfone-": {
+    "ts": "2026-11-24T16:22:48.602608",
+    "canales": {
+      "whatsapp": "2026-11-24T16:22:48.602608"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
