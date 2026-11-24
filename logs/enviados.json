@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
-    "ts": "2026-11-21T23:56:55.093365",
-    "canales": {
-      "whatsapp": "2026-11-21T23:56:55.093365"
-    },
-    "precio": 1630.0,
-    "precios_publicados": [
-      1630.0
-    ]
-  },
-  "amz-monitor-gamer-samsung-odyssey-g5-27-resolucao": {
-    "ts": "2026-11-21T23:58:26.108168",
-    "canales": {
-      "whatsapp": "2026-11-21T23:58:26.108168"
-    },
-    "precio": 1060.0,
-    "precios_publicados": [
-      1060.0
-    ]
-  },
   "amz-notebook-gamer-acer-nitro-v16-anv16i31541m-in": {
     "ts": "2026-11-22T00:06:55.862819",
     "canales": {
@@ -2781,6 +2761,16 @@
     "precio": 1069.0,
     "precios_publicados": [
       1069.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
+    "ts": "2026-11-24T00:04:37.333684",
+    "canales": {
+      "whatsapp": "2026-11-24T00:04:37.333684"
+    },
+    "precio": 1776.0,
+    "precios_publicados": [
+      1776.0
     ]
   }
 }
