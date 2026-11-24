@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-11-22T21:01:57.780081",
-    "canales": {
-      "whatsapp": "2026-11-22T21:01:57.780081"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "amz-argan-oleo-reparador-50ml-lola-cosmetics-fios": {
     "ts": "2026-11-22T21:11:38.979172",
     "canales": {
@@ -2548,6 +2538,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-veja-limpador-para-limpeza-pesada-cloro-ativo": {
+    "ts": "2026-11-24T21:03:30.628886",
+    "canales": {
+      "whatsapp": "2026-11-24T21:03:30.628886"
+    },
+    "precio": 8.0,
+    "precios_publicados": [
+      8.0
     ]
   }
 }
