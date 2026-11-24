@@ -168,26 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
-    "ts": "2026-11-22T15:50:43.812151",
-    "canales": {
-      "whatsapp": "2026-11-22T15:50:43.812151"
-    },
-    "precio": 4799.0,
-    "precios_publicados": [
-      4799.0
-    ]
-  },
-  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
-    "ts": "2026-11-22T15:57:09.338604",
-    "canales": {
-      "whatsapp": "2026-11-22T15:57:09.338604"
-    },
-    "precio": 2599.0,
-    "precios_publicados": [
-      2599.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-moana-processado": {
     "ts": "2026-11-22T16:08:41.159279",
     "canales": {
@@ -2822,6 +2802,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-ghost-of-tsushima-edicao-padrao-playstation-4": {
+    "ts": "2026-11-24T15:57:50.925566",
+    "canales": {
+      "whatsapp": "2026-11-24T15:57:50.925566"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
