@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-smartphone-xiaomi-redmi-note-15-pro-5g-512gb-": {
-    "ts": "2026-11-22T06:03:34.693311",
-    "canales": {
-      "whatsapp": "2026-11-22T06:03:34.693311"
-    },
-    "precio": 2404.0,
-    "precios_publicados": [
-      2404.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
     "ts": "2026-11-22T06:42:33.351095",
     "canales": {
@@ -2697,6 +2687,16 @@
     "precio": 1043.0,
     "precios_publicados": [
       1043.0
+    ]
+  },
+  "amz-copo-termico-stanley-stacking-ash-354ml": {
+    "ts": "2026-11-24T06:14:30.815789",
+    "canales": {
+      "whatsapp": "2026-11-24T06:14:30.815789"
+    },
+    "precio": 67.0,
+    "precios_publicados": [
+      67.0
     ]
   }
 }
