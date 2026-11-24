@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
-    "ts": "2026-11-22T22:55:07.829100",
-    "canales": {
-      "whatsapp": "2026-11-22T22:55:07.829100"
-    },
-    "precio": 2959.0,
-    "precios_publicados": [
-      2959.0
-    ]
-  },
   "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
     "ts": "2026-11-22T23:01:32.485989",
     "canales": {
@@ -2578,6 +2568,16 @@
     "precio": 2999.0,
     "precios_publicados": [
       2999.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-11-24T22:57:27.999499",
+    "canales": {
+      "whatsapp": "2026-11-24T22:57:27.999499"
+    },
+    "precio": 789.0,
+    "precios_publicados": [
+      789.0
     ]
   }
 }
