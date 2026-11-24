@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-loreal-paris-elseve-oleo-extraordinario-final": {
-    "ts": "2026-11-22T21:29:36.114667",
-    "canales": {
-      "whatsapp": "2026-11-22T21:29:36.114667"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
     "ts": "2026-11-22T21:36:47.186239",
     "canales": {
@@ -2558,6 +2548,16 @@
     "precio": 28.0,
     "precios_publicados": [
       28.0
+    ]
+  },
+  "amz-lysoform-original-desinfetante-aerosol-para-s": {
+    "ts": "2026-11-24T21:30:33.284740",
+    "canales": {
+      "whatsapp": "2026-11-24T21:30:33.284740"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
