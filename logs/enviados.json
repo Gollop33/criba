@@ -142,26 +142,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-apple-2025-macbook-pro-de-14-polegadas-chip-m": {
-    "ts": "2026-11-22T01:34:45.927886",
-    "canales": {
-      "whatsapp": "2026-11-22T01:34:45.927886"
-    },
-    "precio": 18960.0,
-    "precios_publicados": [
-      18960.0
-    ]
-  },
-  "amz-monitor-gamer-alienware-25-full-hd-1920-x-108": {
-    "ts": "2026-11-22T01:40:29.122768",
-    "canales": {
-      "whatsapp": "2026-11-22T01:40:29.122768"
-    },
-    "precio": 1519.0,
-    "precios_publicados": [
-      1519.0
-    ]
-  },
   "amz-esponja-scotch-brite-nao-risca-c3-azul-nao-ri": {
     "ts": "2026-11-22T01:47:11.252083",
     "canales": {
@@ -2782,6 +2762,16 @@
     "precio": 169.0,
     "precios_publicados": [
       169.0
+    ]
+  },
+  "ml-projetor-pfl5211-full-hd-5200lm-branco-intelb": {
+    "ts": "2026-11-24T01:41:52.653779",
+    "canales": {
+      "whatsapp": "2026-11-24T01:41:52.653779"
+    },
+    "precio": 1088.0,
+    "precios_publicados": [
+      1088.0
     ]
   }
 }
