@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 3449.0
   },
-  "amz-colgate-slim-soft-black-escova-de-dente-macia": {
-    "ts": "2026-11-22T12:54:31.895074",
-    "canales": {
-      "whatsapp": "2026-11-22T12:54:31.895074"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-sensodyne-creme-dental-branqueador-extra-fres": {
     "ts": "2026-11-22T13:03:05.626263",
     "canales": {
@@ -2788,6 +2778,16 @@
     "precio": 4776.0,
     "precios_publicados": [
       4776.0
+    ]
+  },
+  "amz-ventilador-de-coluna-britania-6-pas-de-40cm-1": {
+    "ts": "2026-11-24T12:55:58.643291",
+    "canales": {
+      "whatsapp": "2026-11-24T12:55:58.643291"
+    },
+    "precio": 222.0,
+    "precios_publicados": [
+      222.0
     ]
   }
 }
