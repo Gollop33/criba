@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-tapete-higienico-premium-para-caes-petlike-ul": {
-    "ts": "2026-11-22T22:14:28.197378",
-    "canales": {
-      "whatsapp": "2026-11-22T22:14:28.197378"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-11-22T22:16:34.579702",
     "canales": {
@@ -2578,6 +2568,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-shampoo-invigo-nutri-enrich-wella-professiona": {
+    "ts": "2026-11-24T22:15:12.661421",
+    "canales": {
+      "whatsapp": "2026-11-24T22:15:12.661421"
+    },
+    "precio": 117.0,
+    "precios_publicados": [
+      117.0
     ]
   }
 }
