@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-24T01:15:06+00:00",
-  "total": 3,
+  "actualizado": "2026-11-24T01:22:29+00:00",
+  "total": 2,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-24T01:15:06+00:00"
+      "monitorizado_desde": "2026-11-24T01:22:29+00:00"
     },
     {
       "busqueda": "adaptador bluetooth usb 5 0 para pc e",
@@ -17,15 +17,7 @@
       "precio_ref": 10.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T01:15:06+00:00"
-    },
-    {
-      "busqueda": "monitor gamer lg ultragear 24 ips full hd",
-      "nombre": "Monitor Gamer LG UltraGear 24” IPS, Full HD, 180Hz, 1ms (GtG), HDMI, DisplayPort, HDR10, sRGB 99%, NVIDIA® G-SYNC®, AMD FreeS",
-      "precio_ref": 84990.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T01:15:06+00:00"
+      "monitorizado_desde": "2026-11-24T01:22:29+00:00"
     }
   ]
 }
