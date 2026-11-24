@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 3449.0
   },
-  "amz-sensodyne-creme-dental-branqueador-extra-fres": {
-    "ts": "2026-11-22T13:03:05.626263",
-    "canales": {
-      "whatsapp": "2026-11-22T13:03:05.626263"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      23.0
-    ]
-  },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
     "ts": "2026-11-22T13:12:52.586908",
     "canales": {
@@ -2788,6 +2778,16 @@
     "precio": 222.0,
     "precios_publicados": [
       222.0
+    ]
+  },
+  "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
+    "ts": "2026-11-24T13:05:38.397010",
+    "canales": {
+      "whatsapp": "2026-11-24T13:05:38.397010"
+    },
+    "precio": 1765.0,
+    "precios_publicados": [
+      1765.0
     ]
   }
 }
