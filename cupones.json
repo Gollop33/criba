@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-24T01:24:07+00:00",
+  "actualizado": "2026-11-24T06:43:25+00:00",
   "total": 323,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -2735,7 +2735,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-23T13:06:01+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFFAGORA",
@@ -4318,7 +4319,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-23T16:00:11+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "DESCONTEI25",
@@ -4344,7 +4346,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-23T14:00:09+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELIACHA30",
@@ -4357,7 +4360,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-23T14:00:09+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-24T03:42:52-03:00"
 }
