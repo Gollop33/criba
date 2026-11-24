@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-monitor-brx-20-led-75hz-hdmi-vga-preto": {
-    "ts": "2026-11-22T22:47:38.000724",
-    "canales": {
-      "whatsapp": "2026-11-22T22:47:38.000724"
-    },
-    "precio": 187.0,
-    "precios_publicados": [
-      187.0
-    ]
-  },
   "amz-smartphone-xiaomi-poco-x8-pro-preto-512gb-12g": {
     "ts": "2026-11-22T22:55:07.829100",
     "canales": {
@@ -2568,6 +2558,16 @@
     "precio": 883.0,
     "precios_publicados": [
       883.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
+    "ts": "2026-11-24T22:49:37.690022",
+    "canales": {
+      "whatsapp": "2026-11-24T22:49:37.690022"
+    },
+    "precio": 616.0,
+    "precios_publicados": [
+      616.0
     ]
   }
 }
