@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-tablet-infantil-patrulha-canina-chase-4gb-ram": {
-    "ts": "2026-11-22T14:50:45.418041",
-    "canales": {
-      "whatsapp": "2026-11-22T14:50:45.418041"
-    },
-    "precio": 375.0,
-    "precios_publicados": [
-      375.0
-    ]
-  },
   "amz-notebook-predator-helios-neo-16-ia-5070-ultra": {
     "ts": "2026-11-22T14:57:31.450933",
     "canales": {
@@ -2812,6 +2802,16 @@
     "precio": 838.0,
     "precios_publicados": [
       838.0
+    ]
+  },
+  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
+    "ts": "2026-11-24T14:54:11.429358",
+    "canales": {
+      "whatsapp": "2026-11-24T14:54:11.429358"
+    },
+    "precio": 829.0,
+    "precios_publicados": [
+      829.0
     ]
   }
 }
