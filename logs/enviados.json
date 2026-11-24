@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 57.0
   },
-  "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
-    "ts": "2026-11-22T14:22:49.611573",
-    "canales": {
-      "whatsapp": "2026-11-22T14:22:49.611573"
-    },
-    "precio": 103.0,
-    "precios_publicados": [
-      103.0
-    ]
-  },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
     "ts": "2026-11-24T02:53:21.766998",
     "canales": {
@@ -2820,6 +2810,16 @@
     "precio": 164.0,
     "precios_publicados": [
       164.0
+    ]
+  },
+  "amz-notebook-dell-15-intel-core-3-100u-13a-geraca": {
+    "ts": "2026-11-24T14:28:07.398648",
+    "canales": {
+      "whatsapp": "2026-11-24T14:28:07.398648"
+    },
+    "precio": 3199.0,
+    "precios_publicados": [
+      3199.0
     ]
   }
 }
