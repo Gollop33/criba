@@ -546,14 +546,16 @@
     "precio_min_publicado": 2990.0
   },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
-    "ts": "2026-11-22T14:15:43.648238",
+    "ts": "2026-11-24T09:26:41.301576",
     "canales": {
-      "whatsapp": "2026-11-22T14:15:43.648238"
+      "whatsapp": "2026-11-24T09:26:41.301576"
     },
-    "precio": 57.0,
+    "precio": 44.0,
     "precios_publicados": [
-      57.0
-    ]
+      57.0,
+      44.0
+    ],
+    "precio_min_publicado": 57.0
   },
   "amz-mouse-sem-fio-logitech-pebble-2-m350s-com-cli": {
     "ts": "2026-11-22T14:22:49.611573",
