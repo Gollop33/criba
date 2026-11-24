@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-argan-oleo-reparador-50ml-lola-cosmetics-fios": {
-    "ts": "2026-11-22T21:11:38.979172",
-    "canales": {
-      "whatsapp": "2026-11-22T21:11:38.979172"
-    },
-    "precio": 18.0,
-    "precios_publicados": [
-      18.0
-    ]
-  },
   "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
     "ts": "2026-11-22T21:16:46.981605",
     "canales": {
@@ -2568,6 +2558,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-cetaphil-creme-hidratante": {
+    "ts": "2026-11-24T21:14:59.477933",
+    "canales": {
+      "whatsapp": "2026-11-24T21:14:59.477933"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
