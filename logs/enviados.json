@@ -783,14 +783,16 @@
     ]
   },
   "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
-    "ts": "2026-11-22T14:10:24.250722",
+    "ts": "2026-11-24T01:43:35.788991",
     "canales": {
-      "whatsapp": "2026-11-22T14:10:24.250722"
+      "whatsapp": "2026-11-24T01:43:35.788991"
     },
-    "precio": 2990.0,
+    "precio": 29.0,
     "precios_publicados": [
-      2990.0
-    ]
+      2990.0,
+      29.0
+    ],
+    "precio_min_publicado": 2990.0
   },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-22T14:15:43.648238",
