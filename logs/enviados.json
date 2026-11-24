@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-samsung-tablet-galaxy-tab-s12-ultra-512gb-12g": {
-    "ts": "2026-11-22T05:29:48.822832",
-    "canales": {
-      "whatsapp": "2026-11-22T05:29:48.822832"
-    },
-    "precio": 11999.0,
-    "precios_publicados": [
-      11999.0
-    ]
-  },
   "amz-smartphone-xiaomi-redmi-note-15-pro-5g-512gb-": {
     "ts": "2026-11-22T06:03:34.693311",
     "canales": {
@@ -2697,6 +2687,16 @@
     "precio": 591.0,
     "precios_publicados": [
       591.0
+    ]
+  },
+  "ml-tablet-samsung-galaxy-tab-a11-64gb-prata-eboo": {
+    "ts": "2026-11-24T05:37:42.621948",
+    "canales": {
+      "whatsapp": "2026-11-24T05:37:42.621948"
+    },
+    "precio": 1043.0,
+    "precios_publicados": [
+      1043.0
     ]
   }
 }
