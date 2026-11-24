@@ -142,26 +142,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-integralmedica-creatina-em-po-hardcore-100-pu": {
-    "ts": "2026-11-22T01:53:35.856333",
-    "canales": {
-      "whatsapp": "2026-11-22T01:53:35.856333"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
-  "amz-kit-cronograma-capilar-lola-cosmetics-bem-dit": {
-    "ts": "2026-11-22T01:57:20.856279",
-    "canales": {
-      "whatsapp": "2026-11-22T01:57:20.856279"
-    },
-    "precio": 35.0,
-    "precios_publicados": [
-      35.0
-    ]
-  },
   "amz-cetaphil-creme-hidratante": {
     "ts": "2026-11-22T02:07:04.380969",
     "canales": {
@@ -513,14 +493,16 @@
     ]
   },
   "amz-ype-detergente-clear-5l-detergente-liquido": {
-    "ts": "2026-11-22T11:40:50.073187",
+    "ts": "2026-11-24T02:01:51.552185",
     "canales": {
-      "whatsapp": "2026-11-22T11:40:50.073187"
+      "whatsapp": "2026-11-24T02:01:51.552185"
     },
-    "precio": 3449.0,
+    "precio": 22.0,
     "precios_publicados": [
-      3449.0
-    ]
+      3449.0,
+      22.0
+    ],
+    "precio_min_publicado": 3449.0
   },
   "amz-the-legend-of-zelda-ocarina-of-time-nintendo-": {
     "ts": "2026-11-22T11:44:28.752796",
