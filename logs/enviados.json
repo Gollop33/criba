@@ -118,16 +118,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-headset-gamer-com-microfone-havit-h2002d-53mm": {
-    "ts": "2026-11-22T11:19:50.382052",
-    "canales": {
-      "whatsapp": "2026-11-22T11:19:50.382052"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
     "ts": "2026-11-22T11:22:22.381359",
     "canales": {
@@ -2796,6 +2786,16 @@
     "precio": 46.0,
     "precios_publicados": [
       46.0
+    ]
+  },
+  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
+    "ts": "2026-11-24T11:20:14.938222",
+    "canales": {
+      "whatsapp": "2026-11-24T11:20:14.938222"
+    },
+    "precio": 15.0,
+    "precios_publicados": [
+      15.0
     ]
   }
 }
