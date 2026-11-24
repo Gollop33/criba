@@ -141,16 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-notebook-gamer-acer-nitro-v16-anv16i31541m-in": {
-    "ts": "2026-11-22T00:06:55.862819",
-    "canales": {
-      "whatsapp": "2026-11-22T00:06:55.862819"
-    },
-    "precio": 7999.0,
-    "precios_publicados": [
-      7999.0
-    ]
-  },
   "amz-monitor-gamer-aoc-agon-g50-24-144hz-05ms-ips-": {
     "ts": "2026-11-22T00:14:02.416581",
     "canales": {
@@ -2781,6 +2771,16 @@
     "precio": 1250.0,
     "precios_publicados": [
       1250.0
+    ]
+  },
+  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
+    "ts": "2026-11-24T00:13:21.244286",
+    "canales": {
+      "whatsapp": "2026-11-24T00:13:21.244286"
+    },
+    "precio": 498.0,
+    "precios_publicados": [
+      498.0
     ]
   }
 }
