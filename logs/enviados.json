@@ -156,26 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-11-22T22:37:55.643025",
-    "canales": {
-      "whatsapp": "2026-11-22T22:37:55.643025"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
-  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
-    "ts": "2026-11-22T22:42:38.757097",
-    "canales": {
-      "whatsapp": "2026-11-22T22:42:38.757097"
-    },
-    "precio": 137.0,
-    "precios_publicados": [
-      137.0
-    ]
-  },
   "amz-havit-fone-de-ouvido-headset-gamer-fuxih3-bla": {
     "ts": "2026-11-22T22:44:12.889879",
     "canales": {
@@ -2578,6 +2558,16 @@
     "precio": 984.0,
     "precios_publicados": [
       984.0
+    ]
+  },
+  "amz-ea-sports-fc-27-playstation-5": {
+    "ts": "2026-11-24T22:43:20.754139",
+    "canales": {
+      "whatsapp": "2026-11-24T22:43:20.754139"
+    },
+    "precio": 279.0,
+    "precios_publicados": [
+      279.0
     ]
   }
 }
