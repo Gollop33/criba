@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 3449.0
   },
-  "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
-    "ts": "2026-11-22T13:23:28.664540",
-    "canales": {
-      "whatsapp": "2026-11-22T13:23:28.664540"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "amz-monitor-portatil-aoc-156-fhd-ips-usbc-capa-ma": {
     "ts": "2026-11-22T13:32:27.572877",
     "canales": {
@@ -2798,6 +2788,16 @@
     "precio": 5349.0,
     "precios_publicados": [
       5349.0
+    ]
+  },
+  "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
+    "ts": "2026-11-24T13:32:02.403281",
+    "canales": {
+      "whatsapp": "2026-11-24T13:32:02.403281"
+    },
+    "precio": 1469.0,
+    "precios_publicados": [
+      1469.0
     ]
   }
 }
