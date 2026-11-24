@@ -5,19 +5,6 @@
       "whatsapp": "2026-11-24T00:24:36.205175"
     }
   },
-  "amz-celular-samsung-galaxy-s25-fe-5g-128gb-8gb-ca": {
-    "ts": "2026-11-22T02:44:29.127368",
-    "canales": {
-      "whatsapp": "2026-11-22T02:44:29.127368"
-    },
-    "precio": 2837.0,
-    "precios_publicados": [
-      3332.0,
-      2869.0,
-      2837.0
-    ],
-    "precio_min_publicado": 2869.0
-  },
   "amz-bundle-gta-vi-playstation-5-slim-digital-825-": {
     "ts": "2026-11-22T10:09:03.168795",
     "canales": {
@@ -141,26 +128,6 @@
       37.0
     ],
     "precio_min_publicado": 45.0
-  },
-  "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
-    "ts": "2026-11-22T02:28:10.956457",
-    "canales": {
-      "whatsapp": "2026-11-22T02:28:10.956457"
-    },
-    "precio": 129.0,
-    "precios_publicados": [
-      129.0
-    ]
-  },
-  "amz-adaptador-bluetooth-para-pc-receptor-de-dongl": {
-    "ts": "2026-11-22T02:36:37.831694",
-    "canales": {
-      "whatsapp": "2026-11-22T02:36:37.831694"
-    },
-    "precio": 17.0,
-    "precios_publicados": [
-      17.0
-    ]
   },
   "amz-protetor-solar-facial-minesol-oil-control-sem": {
     "ts": "2026-11-22T03:12:10.514402",
@@ -767,14 +734,16 @@
     ]
   },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
-    "ts": "2026-11-22T14:26:11.658292",
+    "ts": "2026-11-24T02:53:21.766998",
     "canales": {
-      "whatsapp": "2026-11-22T14:26:11.658292"
+      "whatsapp": "2026-11-24T02:53:21.766998"
     },
-    "precio": 2414.0,
+    "precio": 2129.0,
     "precios_publicados": [
-      2414.0
-    ]
+      2414.0,
+      2129.0
+    ],
+    "precio_min_publicado": 2414.0
   },
   "amz-notebook-acer-nitro-v-15-rtx-4050-i7-16gb-512": {
     "ts": "2026-11-22T14:28:42.747247",
