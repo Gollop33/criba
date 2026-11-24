@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-11-22T21:36:47.186239",
-    "canales": {
-      "whatsapp": "2026-11-22T21:36:47.186239"
-    },
-    "precio": 30.0,
-    "precios_publicados": [
-      30.0
-    ]
-  },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
     "ts": "2026-11-22T21:45:55.506214",
     "canales": {
@@ -2568,6 +2558,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-dove-oleo-serum-bifasico-bond-intense-repair-": {
+    "ts": "2026-11-24T21:37:46.657406",
+    "canales": {
+      "whatsapp": "2026-11-24T21:37:46.657406"
+    },
+    "precio": 19.0,
+    "precios_publicados": [
+      19.0
     ]
   }
 }
