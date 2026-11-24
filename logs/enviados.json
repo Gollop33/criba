@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-tablet-infantil-minnie-7-wifi-4gb-ram-64gb-an": {
-    "ts": "2026-11-22T15:43:34.794638",
-    "canales": {
-      "whatsapp": "2026-11-22T15:43:34.794638"
-    },
-    "precio": 347.0,
-    "precios_publicados": [
-      347.0
-    ]
-  },
   "amz-notebook-asus-vivobook-16-intel-core-i7-16-gb": {
     "ts": "2026-11-22T15:50:43.812151",
     "canales": {
@@ -2812,6 +2802,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-the-last-of-us-part-ii-playstation-4": {
+    "ts": "2026-11-24T15:44:05.513865",
+    "canales": {
+      "whatsapp": "2026-11-24T15:44:05.513865"
+    },
+    "precio": 88.0,
+    "precios_publicados": [
+      88.0
     ]
   }
 }
