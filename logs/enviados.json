@@ -118,26 +118,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-marvels-spiderman-2-ps5": {
-    "ts": "2026-11-22T11:31:20.542254",
-    "canales": {
-      "whatsapp": "2026-11-22T11:31:20.542254"
-    },
-    "precio": 155.0,
-    "precios_publicados": [
-      155.0
-    ]
-  },
-  "amz-memoria-ram-rise-mode-z-series-16gb-3200mhz-d": {
-    "ts": "2026-11-22T11:33:59.690309",
-    "canales": {
-      "whatsapp": "2026-11-22T11:33:59.690309"
-    },
-    "precio": 927.0,
-    "precios_publicados": [
-      927.0
-    ]
-  },
   "amz-ype-detergente-clear-5l-detergente-liquido": {
     "ts": "2026-11-24T02:01:51.552185",
     "canales": {
@@ -1539,14 +1519,16 @@
     ]
   },
   "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-23T11:36:46.366503",
+    "ts": "2026-11-24T11:40:15.967429",
     "canales": {
-      "whatsapp": "2026-11-23T11:36:46.366503"
+      "whatsapp": "2026-11-24T11:40:15.967429"
     },
-    "precio": 14.0,
+    "precio": 10.0,
     "precios_publicados": [
-      14.0
-    ]
+      14.0,
+      10.0
+    ],
+    "precio_min_publicado": 14.0
   },
   "amz-delet-500ml-remove-pretinho-antigo-devolve-or": {
     "ts": "2026-11-23T11:43:28.284738",
