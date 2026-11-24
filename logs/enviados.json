@@ -131,16 +131,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-apple-iphone-15-128-gb-azul": {
-    "ts": "2026-11-22T07:38:02.305992",
-    "canales": {
-      "whatsapp": "2026-11-22T07:38:02.305992"
-    },
-    "precio": 4199.0,
-    "precios_publicados": [
-      4199.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
     "ts": "2026-11-22T08:13:30.062295",
     "canales": {
@@ -2757,6 +2747,16 @@
     "precio": 34.0,
     "precios_publicados": [
       34.0
+    ]
+  },
+  "amz-finish-detergente-para-lava-loucas-em-po-700g": {
+    "ts": "2026-11-24T07:43:47.577210",
+    "canales": {
+      "whatsapp": "2026-11-24T07:43:47.577210"
+    },
+    "precio": 29.0,
+    "precios_publicados": [
+      29.0
     ]
   }
 }
