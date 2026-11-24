@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
-    "ts": "2026-11-22T22:35:15.395459",
-    "canales": {
-      "whatsapp": "2026-11-22T22:35:15.395459"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-11-22T22:37:55.643025",
     "canales": {
@@ -2578,6 +2568,16 @@
     "precio": 2149.0,
     "precios_publicados": [
       2149.0
+    ]
+  },
+  "amz-tablet-lenovo-tab-101-octacore-4gb-ram-64gb-w": {
+    "ts": "2026-11-24T22:36:32.893173",
+    "canales": {
+      "whatsapp": "2026-11-24T22:36:32.893173"
+    },
+    "precio": 984.0,
+    "precios_publicados": [
+      984.0
     ]
   }
 }
