@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
-    "ts": "2026-11-22T00:58:21.137585",
-    "canales": {
-      "whatsapp": "2026-11-22T00:58:21.137585"
-    },
-    "precio": 84990.0,
-    "precios_publicados": [
-      84990.0
-    ]
-  },
-  "amz-monitor-philips-22-120hz-1ms-gaming-221v8lb3": {
-    "ts": "2026-11-22T01:00:41.264522",
-    "canales": {
-      "whatsapp": "2026-11-22T01:00:41.264522"
-    },
-    "precio": 398.0,
-    "precios_publicados": [
-      398.0
-    ]
-  },
   "amz-electrolux-aspirador-po-vertical-2-em-1-1450w": {
     "ts": "2026-11-22T01:06:06.807683",
     "canales": {
@@ -2791,6 +2771,16 @@
     "precio": 3189.0,
     "precios_publicados": [
       3189.0
+    ]
+  },
+  "amz-roteador-wifi-mesh-intelbras-twibi-force-ax": {
+    "ts": "2026-11-24T01:01:20.205092",
+    "canales": {
+      "whatsapp": "2026-11-24T01:01:20.205092"
+    },
+    "precio": 197.0,
+    "precios_publicados": [
+      197.0
     ]
   }
 }
