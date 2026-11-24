@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
-    "ts": "2026-11-22T15:08:46.641648",
-    "canales": {
-      "whatsapp": "2026-11-22T15:08:46.641648"
-    },
-    "precio": 1081.0,
-    "precios_publicados": [
-      1081.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-amd-ryzen-7-8-gb-51": {
     "ts": "2026-11-22T15:15:42.537559",
     "canales": {
@@ -2812,6 +2802,16 @@
     "precio": 22.0,
     "precios_publicados": [
       22.0
+    ]
+  },
+  "amz-death-stranding-edicao-padrao-playstation-4": {
+    "ts": "2026-11-24T15:08:46.947127",
+    "canales": {
+      "whatsapp": "2026-11-24T15:08:46.947127"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }

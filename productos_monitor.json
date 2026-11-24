@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-24T15:01:20+00:00",
+  "actualizado": "2026-11-24T15:08:39+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "personal vip papel higienico folha dupla branco 24",
@@ -17,7 +17,7 @@
       "precio_ref": 27.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech m170 com design ambidestro",
@@ -25,7 +25,7 @@
       "precio_ref": 44.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "ype detergente clear 5l detergente liquido",
@@ -33,7 +33,7 @@
       "precio_ref": 33.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "adaptador bluetooth usb 5 0 para pc e",
@@ -41,7 +41,7 @@
       "precio_ref": 10.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
@@ -49,7 +49,7 @@
       "precio_ref": 1672.92,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
@@ -57,7 +57,7 @@
       "precio_ref": 928.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "galaxy tab s10 lite 128gb tela 10 9",
@@ -65,7 +65,7 @@
       "precio_ref": 2129.99,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -73,47 +73,7 @@
       "precio_ref": 798.95,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "colgate total antitartaro creme dental com fluor 3x90g",
-      "nombre": "Colgate Total Antitártaro Creme Dental com Flúor, 3x90g",
-      "precio_ref": 22.32,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "boni natural creme dental com oleos naturais de",
-      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g, 3 unidad",
-      "precio_ref": 27.54,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "colgate slim soft black escova de dente macia",
-      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 6 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, As Cerdas São 1",
-      "precio_ref": 29.97,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
-      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
-      "precio_ref": 59.99,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "ghost of tsushima edicao padrao playstation 4",
-      "nombre": "Ghost Of Tsushima Edição Padrão - PlayStation 4",
-      "precio_ref": 59.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "death stranding edicao padrao playstation 4",
@@ -121,23 +81,7 @@
       "precio_ref": 59.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "god of war iii remasterizado hits playstation 4",
-      "nombre": "God Of War III Remasterizado Hits PlayStation 4",
-      "precio_ref": 59.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "pack racao umida whiskas sache frango ao molho",
-      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
-      "precio_ref": 36.87,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "god of war hits playstation 4",
@@ -145,7 +89,47 @@
       "precio_ref": 59.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
+      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
+      "precio_ref": 59.99,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "colgate slim soft black escova de dente macia",
+      "nombre": "Colgate Slim Soft Black Escova de Dente Macia, 6 Unidades | Com Cerdas Antibacterianas com Infusão de Carvão, As Cerdas São 1",
+      "precio_ref": 29.97,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "boni natural creme dental com oleos naturais de",
+      "nombre": "BONI NATURAL - Creme Dental com óleos naturais de Menta e Melaleuca Vegano e Natural, Sem Flúor, Sem Triclosan, 90g, 3 unidad",
+      "precio_ref": 27.54,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "god of war iii remasterizado hits playstation 4",
+      "nombre": "God Of War III Remasterizado Hits PlayStation 4",
+      "precio_ref": 59.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "ghost of tsushima edicao padrao playstation 4",
+      "nombre": "Ghost Of Tsushima Edição Padrão - PlayStation 4",
+      "precio_ref": 59.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
@@ -153,15 +137,7 @@
       "precio_ref": 54.34,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
-    },
-    {
-      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
-      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition | Creatina",
-      "precio_ref": 68.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "sensodyne creme dental branqueador extra fresh com fluor",
@@ -169,7 +145,15 @@
       "precio_ref": 23.34,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "pack racao umida whiskas sache frango ao molho",
+      "nombre": "Pack Ração Úmida Whiskas Sachê Frango ao Molho para Gatos Adultos - Leve 20 Pague 16",
+      "precio_ref": 36.87,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
@@ -177,7 +161,7 @@
       "precio_ref": 139.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "the last of us part ii playstation 4",
@@ -185,7 +169,7 @@
       "precio_ref": 88.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "street fighter 6 year 1 2 fighters edition",
@@ -193,7 +177,7 @@
       "precio_ref": 119.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "air cooler gamerstorm x redragon ak400 rd preto",
@@ -201,7 +185,7 @@
       "precio_ref": 140.6,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "kingston flash drive exodia m 128gb usb pen",
@@ -209,7 +193,7 @@
       "precio_ref": 90.15,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "marvel s spider man miles morales edicao padrao",
@@ -217,7 +201,7 @@
       "precio_ref": 90.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech pebble 2 m350s com",
@@ -225,7 +209,7 @@
       "precio_ref": 103.75,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "romantic crown mochila masculina de viagem para notebook",
@@ -233,7 +217,15 @@
       "precio_ref": 99.16,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
+      "nombre": "Creatina Monohidratada 1Kg - 100% Pura Importada - Soldiers Nutrition | Creatina",
+      "precio_ref": 68.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "fralda pampers premium care pants tamanho xxg facil",
@@ -241,7 +233,7 @@
       "precio_ref": 140.85,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "ea sports fc 27 playstation 5",
@@ -249,7 +241,7 @@
       "precio_ref": 279.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet com caneta e teclado xixaomiro s8 android",
@@ -257,7 +249,7 @@
       "precio_ref": 766.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 11 90hz octa core",
@@ -265,7 +257,7 @@
       "precio_ref": 1499.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "notebook gamer acer nitro v16 anv16 i31 541m",
@@ -273,7 +265,7 @@
       "precio_ref": 7799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet infantil patrulha canina chase 4gb ram 64gb",
@@ -281,7 +273,7 @@
       "precio_ref": 568.41,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "playstation5 pro",
@@ -289,7 +281,7 @@
       "precio_ref": 7799.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "monitor gamer alienware 25 full hd 1920 x",
@@ -297,7 +289,7 @@
       "precio_ref": 1519.05,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "the legend of zelda ocarina of time nintendo",
@@ -305,7 +297,7 @@
       "precio_ref": 439.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
@@ -313,7 +305,7 @@
       "precio_ref": 1819.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "notebook acer aspire 5 15 ryzen 5 5500u",
@@ -321,7 +313,7 @@
       "precio_ref": 4199.99,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
@@ -329,7 +321,7 @@
       "precio_ref": 1079.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet tcl a1 plus 128gb 16gb ram 6gb",
@@ -337,7 +329,7 @@
       "precio_ref": 2599.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "monitor portatil aoc 15 6 fhd ips usb",
@@ -345,7 +337,7 @@
       "precio_ref": 469.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
@@ -353,7 +345,7 @@
       "precio_ref": 2376.65,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "bundle gta vi playstation 5 slim digital 825",
@@ -361,7 +353,7 @@
       "precio_ref": 5048.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "bundle nintendo switch oled super mario bros wonder",
@@ -369,7 +361,7 @@
       "precio_ref": 1859.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "the legend of zelda breath of the wild",
@@ -377,7 +369,7 @@
       "precio_ref": 369.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
@@ -385,7 +377,7 @@
       "precio_ref": 3799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "placa mae msi a520m a pro am4 2xddr4",
@@ -393,7 +385,7 @@
       "precio_ref": 355.98,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet positivo vision tab 7 processador octa core",
@@ -401,7 +393,7 @@
       "precio_ref": 429.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet infantil positivo vision tab 7 minions octa",
@@ -409,7 +401,7 @@
       "precio_ref": 469.41,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "playstation5 slim digital 825gb pacote astro bot e",
@@ -417,7 +409,7 @@
       "precio_ref": 4599.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "placa mae asus tuf gaming b550m plus am4",
@@ -425,7 +417,7 @@
       "precio_ref": 789.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "notebook acer nitro v 15 rtx 4050 i7",
@@ -433,7 +425,7 @@
       "precio_ref": 7549.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "gamesir g7 se controle com fio para pc",
@@ -441,7 +433,7 @@
       "precio_ref": 265.03,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
@@ -449,7 +441,7 @@
       "precio_ref": 989.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "controle sem fio playstation dualsensetm midnight black",
@@ -457,7 +449,7 @@
       "precio_ref": 399.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 m1502ya amd ryzen 7",
@@ -465,7 +457,7 @@
       "precio_ref": 569900.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
@@ -473,7 +465,7 @@
       "precio_ref": 629.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     },
     {
       "busqueda": "pro controller nintendo switch 2",
@@ -481,7 +473,15 @@
       "precio_ref": 449.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-24T15:01:20+00:00"
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a36 5g 128gb 6gb ram",
+      "nombre": "Celular Samsung Galaxy A36 5G 128GB, 6GB RAM, Câmera 50MP, IP67, Super AMOLED 6.7\", Recursos AI, Branco",
+      "precio_ref": 1850.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-24T15:08:39+00:00"
     }
   ]
 }
