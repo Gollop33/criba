@@ -130,16 +130,6 @@
     ],
     "precio_min_publicado": 3449.0
   },
-  "amz-monitor-gamer-aoc-agon-g50-27-144hz-05ms-ips-": {
-    "ts": "2026-11-22T13:46:21.535264",
-    "canales": {
-      "whatsapp": "2026-11-22T13:46:21.535264"
-    },
-    "precio": 607.0,
-    "precios_publicados": [
-      607.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
     "ts": "2026-11-22T13:54:51.631165",
     "canales": {
@@ -2788,6 +2778,16 @@
     "precio": 1499.0,
     "precios_publicados": [
       1499.0
+    ]
+  },
+  "amz-whey-protein-concentrado-pote-900g-chocolate-": {
+    "ts": "2026-11-24T13:47:56.335273",
+    "canales": {
+      "whatsapp": "2026-11-24T13:47:56.335273"
+    },
+    "precio": 220.0,
+    "precios_publicados": [
+      220.0
     ]
   }
 }
