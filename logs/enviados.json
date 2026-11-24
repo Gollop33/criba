@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-notebook-predator-helios-neo-16-ia-5070-ultra": {
-    "ts": "2026-11-22T14:57:31.450933",
-    "canales": {
-      "whatsapp": "2026-11-22T14:57:31.450933"
-    },
-    "precio": 13299.0,
-    "precios_publicados": [
-      13299.0
-    ]
-  },
   "amz-processador-amd-ryzen-5-5600gt-am46-cores12-t": {
     "ts": "2026-11-22T15:08:46.641648",
     "canales": {
@@ -2812,6 +2802,16 @@
     "precio": 829.0,
     "precios_publicados": [
       829.0
+    ]
+  },
+  "amz-colgate-total-antitartaro-creme-dental-com-fl": {
+    "ts": "2026-11-24T15:01:28.157873",
+    "canales": {
+      "whatsapp": "2026-11-24T15:01:28.157873"
+    },
+    "precio": 22.0,
+    "precios_publicados": [
+      22.0
     ]
   }
 }
