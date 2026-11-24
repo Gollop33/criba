@@ -168,16 +168,6 @@
     ],
     "precio_min_publicado": 2414.0
   },
-  "amz-fralda-pampers-premium-care-tamanho-g-136-uni": {
-    "ts": "2026-11-22T16:29:27.905647",
-    "canales": {
-      "whatsapp": "2026-11-22T16:29:27.905647"
-    },
-    "precio": 205.0,
-    "precios_publicados": [
-      205.0
-    ]
-  },
   "amz-chaleira-eletrica-18-litros-inox-desligamento": {
     "ts": "2026-11-22T17:47:34.157913",
     "canales": {
@@ -2812,6 +2802,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-creatina-monohidratada-1kg-100-pura-importada": {
+    "ts": "2026-11-24T16:29:58.219600",
+    "canales": {
+      "whatsapp": "2026-11-24T16:29:58.219600"
+    },
+    "precio": 68.0,
+    "precios_publicados": [
+      68.0
     ]
   }
 }
