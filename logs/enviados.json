@@ -141,26 +141,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
-    "ts": "2026-11-22T01:15:58.535901",
-    "canales": {
-      "whatsapp": "2026-11-22T01:15:58.535901"
-    },
-    "precio": 718.0,
-    "precios_publicados": [
-      718.0
-    ]
-  },
-  "amz-monitor-gamer-curvo-aoc-agon-quad-32-180hz-05": {
-    "ts": "2026-11-22T01:25:02.214741",
-    "canales": {
-      "whatsapp": "2026-11-22T01:25:02.214741"
-    },
-    "precio": 1019.0,
-    "precios_publicados": [
-      1019.0
-    ]
-  },
   "amz-apple-2025-macbook-pro-de-14-polegadas-chip-m": {
     "ts": "2026-11-22T01:34:45.927886",
     "canales": {
@@ -2791,6 +2771,16 @@
     "precio": 84990.0,
     "precios_publicados": [
       84990.0
+    ]
+  },
+  "ml-projetor-smart-portatil-full-hd-4k-android-11": {
+    "ts": "2026-11-24T01:27:30.091533",
+    "canales": {
+      "whatsapp": "2026-11-24T01:27:30.091533"
+    },
+    "precio": 169.0,
+    "precios_publicados": [
+      169.0
     ]
   }
 }
