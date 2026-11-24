@@ -156,16 +156,6 @@
     ],
     "precio_min_publicado": 63500.0
   },
-  "amz-notebook-acer-aspire-go-15-ag1571p5939-intel-": {
-    "ts": "2026-11-22T23:50:12.253265",
-    "canales": {
-      "whatsapp": "2026-11-22T23:50:12.253265"
-    },
-    "precio": 3469.0,
-    "precios_publicados": [
-      3469.0
-    ]
-  },
   "amz-notebook-lenovo-loq-15irx9-intel-core-i513450": {
     "ts": "2026-11-22T23:57:48.714851",
     "canales": {
@@ -2618,6 +2608,16 @@
     "precio": 429.0,
     "precios_publicados": [
       429.0
+    ]
+  },
+  "amz-tablet-positivo-vision-tab-7-moana-processado": {
+    "ts": "2026-11-24T23:55:19.408859",
+    "canales": {
+      "whatsapp": "2026-11-24T23:55:19.408859"
+    },
+    "precio": 494.0,
+    "precios_publicados": [
+      494.0
     ]
   }
 }
