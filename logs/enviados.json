@@ -142,16 +142,6 @@
     ],
     "precio_min_publicado": 45.0
   },
-  "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-11-22T02:07:04.380969",
-    "canales": {
-      "whatsapp": "2026-11-22T02:07:04.380969"
-    },
-    "precio": 74.0,
-    "precios_publicados": [
-      74.0
-    ]
-  },
   "amz-soundcore-p20i-da-anker-fone-de-ouvido-blueto": {
     "ts": "2026-11-22T02:28:10.956457",
     "canales": {
@@ -2756,6 +2746,16 @@
     "precio": 1197.0,
     "precios_publicados": [
       1197.0
+    ]
+  },
+  "ml-notebook-acer-aspire-go-15-intel-core-i513420": {
+    "ts": "2026-11-24T02:24:41.837760",
+    "canales": {
+      "whatsapp": "2026-11-24T02:24:41.837760"
+    },
+    "precio": 3090.0,
+    "precios_publicados": [
+      3090.0
     ]
   }
 }
