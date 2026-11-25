@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-whey-protein-concentrado-chocolate-refil-18kg": {
-    "ts": "2026-11-23T15:12:23.629660",
-    "canales": {
-      "whatsapp": "2026-11-23T15:12:23.629660"
-    },
-    "precio": 401.0,
-    "precios_publicados": [
-      401.0
-    ]
-  },
   "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
     "ts": "2026-11-23T15:18:20.676126",
     "canales": {
@@ -1118,14 +1108,16 @@
     ]
   },
   "amz-ype-amaciante-tradicional-ultra-aconchego-5l-": {
-    "ts": "2026-11-24T11:44:49.333494",
+    "ts": "2026-11-25T15:13:23.005891",
     "canales": {
-      "whatsapp": "2026-11-24T11:44:49.333494"
+      "whatsapp": "2026-11-25T15:13:23.005891"
     },
-    "precio": 31.0,
+    "precio": 17.0,
     "precios_publicados": [
-      31.0
-    ]
+      31.0,
+      17.0
+    ],
+    "precio_min_publicado": 31.0
   },
   "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
     "ts": "2026-11-24T11:54:31.337073",
