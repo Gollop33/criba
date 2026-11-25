@@ -4373,7 +4373,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-24T16:02:14+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELHORNOML30",
@@ -4425,7 +4426,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-24T14:10:30+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELIVIP15",
@@ -4464,7 +4466,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-24T14:00:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "FERRAMENTAMAIS",
@@ -4503,7 +4506,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-24T13:01:13+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "TECHHOME",
@@ -4518,5 +4522,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-25T00:02:07-03:00"
 }
