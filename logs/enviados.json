@@ -160,14 +160,16 @@
     "precio_min_publicado": 63500.0
   },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
-    "ts": "2026-11-23T04:08:21.099421",
+    "ts": "2026-11-25T04:02:34.471994",
     "canales": {
-      "whatsapp": "2026-11-23T04:08:21.099421"
+      "whatsapp": "2026-11-25T04:02:34.471994"
     },
-    "precio": 64.0,
+    "precio": 53.0,
     "precios_publicados": [
-      64.0
-    ]
+      64.0,
+      53.0
+    ],
+    "precio_min_publicado": 64.0
   },
   "amz-downy-amaciante-de-roupas-concentrado-liquido": {
     "ts": "2026-11-23T04:40:49.076915",
