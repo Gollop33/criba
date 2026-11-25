@@ -171,26 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-echo-dot-smart-speaker-com-alexa-som-vibrante": {
-    "ts": "2026-11-23T15:01:49.852563",
-    "canales": {
-      "whatsapp": "2026-11-23T15:01:49.852563"
-    },
-    "precio": 289.0,
-    "precios_publicados": [
-      289.0
-    ]
-  },
-  "amz-smartwatch-samsung-galaxy-fit3-display-16-gra": {
-    "ts": "2026-11-23T15:04:15.034544",
-    "canales": {
-      "whatsapp": "2026-11-23T15:04:15.034544"
-    },
-    "precio": 199.0,
-    "precios_publicados": [
-      199.0
-    ]
-  },
   "amz-whey-protein-concentrado-chocolate-refil-18kg": {
     "ts": "2026-11-23T15:12:23.629660",
     "canales": {
@@ -2825,6 +2805,16 @@
     "precio": 3332.0,
     "precios_publicados": [
       3332.0
+    ]
+  },
+  "amz-adaptador-de-energia-usba-de-9w-oficial-amazo": {
+    "ts": "2026-11-25T15:08:27.288656",
+    "canales": {
+      "whatsapp": "2026-11-25T15:08:27.288656"
+    },
+    "precio": 99.0,
+    "precios_publicados": [
+      99.0
     ]
   }
 }
