@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-downy-amaciante-de-roupas-concentrado-liquido": {
-    "ts": "2026-11-23T04:40:49.076915",
-    "canales": {
-      "whatsapp": "2026-11-23T04:40:49.076915"
-    },
-    "precio": 43.0,
-    "precios_publicados": [
-      43.0
-    ]
-  },
   "amz-ype-amaciante-de-roupa-e-tecidos-aconchego-ul": {
     "ts": "2026-11-23T05:05:14.412129",
     "canales": {
@@ -2909,6 +2899,16 @@
     "precio": 1499.0,
     "precios_publicados": [
       1499.0
+    ]
+  },
+  "amz-frigideira-grande-em-ceramica-cabo-de-madeira": {
+    "ts": "2026-11-25T04:58:28.886214",
+    "canales": {
+      "whatsapp": "2026-11-25T04:58:28.886214"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
