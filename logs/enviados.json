@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-copo-termico-118l-em-aco-inoxidavel-com-canud": {
-    "ts": "2026-11-23T15:50:51.253363",
-    "canales": {
-      "whatsapp": "2026-11-23T15:50:51.253363"
-    },
-    "precio": 6590.0,
-    "precios_publicados": [
-      6590.0
-    ]
-  },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
     "ts": "2026-11-23T15:59:29.761979",
     "canales": {
@@ -2793,6 +2783,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
+    "ts": "2026-11-25T15:57:45.077591",
+    "canales": {
+      "whatsapp": "2026-11-25T15:57:45.077591"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
