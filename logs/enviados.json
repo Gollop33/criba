@@ -1156,14 +1156,16 @@
     ]
   },
   "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
-    "ts": "2026-11-23T23:56:07.661365",
+    "ts": "2026-11-25T04:23:46.959130",
     "canales": {
-      "whatsapp": "2026-11-23T23:56:07.661365"
+      "whatsapp": "2026-11-25T04:23:46.959130"
     },
-    "precio": 1069.0,
+    "precio": 928.0,
     "precios_publicados": [
-      1069.0
-    ]
+      1069.0,
+      928.0
+    ],
+    "precio_min_publicado": 1069.0
   },
   "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
     "ts": "2026-11-24T00:04:37.333684",
