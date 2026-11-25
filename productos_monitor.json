@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-25T09:36:15+00:00",
+  "actualizado": "2026-11-25T09:43:31+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "personal vip papel higienico folha dupla branco 24",
@@ -17,7 +17,7 @@
       "precio_ref": 27.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
@@ -25,7 +25,7 @@
       "precio_ref": 53.53,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "adaptador bluetooth usb 5 0 para pc e",
@@ -33,7 +33,7 @@
       "precio_ref": 10.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g15 256gb 4gb ram 8gb",
@@ -41,39 +41,7 @@
       "precio_ref": 928.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "amaciante de roupa concentrado downy seiva de alfazema",
-      "nombre": "Amaciante de Roupa Concentrado Downy, Seiva de Alfazema, 1,5L | Rende 6L",
-      "precio_ref": 24.55,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "downy amaciante de roupas concentrado liquido brisa suave",
-      "nombre": "Downy Amaciante de Roupas Concentrado Líquido Brisa Suave 3L – Rende 12L, Perfume Suave com Notas de Jasmim e Algodão",
-      "precio_ref": 43.1,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "tramontina jogo de facas inox 4 pecas plenus",
-      "nombre": "Tramontina Jogo de Facas Inox 4 Peças Plenus Preto",
-      "precio_ref": 27.53,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "teclado com fio compacto conexao usb resistente agua",
-      "nombre": "Teclado Com Fio Compacto Conexão USB Resistente Água Preto Multi - TC193",
-      "precio_ref": 19.34,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "sensodyne creme dental para sensibilidade rapido alivio e",
@@ -81,31 +49,7 @@
       "precio_ref": 26.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "clear shampoo men anticaspa ice cool menthol 400ml",
-      "nombre": "Clear Shampoo Men Anticaspa Ice Cool Menthol 400Ml | Anticaspa mentolado refrescante",
-      "precio_ref": 21.09,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "mouse sem fio logitech m330 silent com clique",
-      "nombre": "Mouse Sem Fio Logitech M330 SILENT com Clique Silencioso, Design Destro, Bateria de 18 Meses, Receptor USB, Compatível com Wi",
-      "precio_ref": 69.9,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "ou organizador de geladeira com cesto 5l natural",
-      "nombre": "Ou Organizador de Geladeira com Cesto 5L Natural Linha Clear Fresh",
-      "precio_ref": 34.9,
-      "categoria": "Casa & Móveis",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "colgate luminous white carvao ativado creme dental clareador",
@@ -113,7 +57,47 @@
       "precio_ref": 14.29,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "ou organizador de geladeira com cesto 5l natural",
+      "nombre": "Ou Organizador de Geladeira com Cesto 5L Natural Linha Clear Fresh",
+      "precio_ref": 34.9,
+      "categoria": "Casa & Móveis",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "teclado com fio compacto conexao usb resistente agua",
+      "nombre": "Teclado Com Fio Compacto Conexão USB Resistente Água Preto Multi - TC193",
+      "precio_ref": 19.34,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "tramontina jogo de facas inox 4 pecas plenus",
+      "nombre": "Tramontina Jogo de Facas Inox 4 Peças Plenus Preto",
+      "precio_ref": 27.53,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "downy amaciante de roupas concentrado liquido brisa suave",
+      "nombre": "Downy Amaciante de Roupas Concentrado Líquido Brisa Suave 3L – Rende 12L, Perfume Suave com Notas de Jasmim e Algodão",
+      "precio_ref": 43.1,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "clear shampoo men anticaspa ice cool menthol 400ml",
+      "nombre": "Clear Shampoo Men Anticaspa Ice Cool Menthol 400Ml | Anticaspa mentolado refrescante",
+      "precio_ref": 21.09,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "mouse sem fio logitech pebble 2 m350s com",
@@ -121,47 +105,15 @@
       "precio_ref": 79.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
-      "busqueda": "combo de teclado e mouse sem fio logitech",
-      "nombre": "Combo de Teclado e Mouse sem Fio Logitech MK250, Bluetooth, ABNT2 | Grafite, Design Compacto, Mouse Ambidestro, Construção Du",
-      "precio_ref": 119.9,
+      "busqueda": "mouse sem fio logitech m330 silent com clique",
+      "nombre": "Mouse Sem Fio Logitech M330 SILENT com Clique Silencioso, Design Destro, Bateria de 18 Meses, Receptor USB, Compatível com Wi",
+      "precio_ref": 69.9,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "tramontina pipoqueira loreto em aluminio com revestimento em",
-      "nombre": "Tramontina Pipoqueira Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L",
-      "precio_ref": 89.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "combo teclado e mouse sem fio dell km3322w",
-      "nombre": "Combo Teclado e Mouse Sem Fio Dell KM3322W 1858, Receptor USB 2,4 GHz | 2 pilhas AAA para o teclado e 1 AA para o mouse, DPI",
-      "precio_ref": 125.0,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "havit fone de ouvido headset gamer fuxi h3",
-      "nombre": "Havit Fone de Ouvido Headset Gamer Fuxi-H3 Black Com Fio e Sem Fio, Wireless 2,4GHz, Bluetooth, Cabo USB-C",
-      "precio_ref": 144.99,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "elg suporte articulado para monitor 17 a 35",
-      "nombre": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pistão a Gás Preto | Monitores de 2 a 9kg, VESA 75x75 e 100x100mm, Altu",
-      "precio_ref": 114.37,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "fralda pampers premium care pants tamanho xxg facil",
@@ -169,287 +121,39 @@
       "precio_ref": 133.95,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
-      "busqueda": "tablet infantil minnie 7 wi fi 4gb ram",
-      "nombre": "Tablet Infantil Minnie 7\" Wi-Fi 4GB RAM 64GB Android 13 Quad-Core com Capa Resistente, Controle Parental e Câmera Frontal 2MP",
-      "precio_ref": 584.46,
+      "busqueda": "elg suporte articulado para monitor 17 a 35",
+      "nombre": "ELG Suporte Articulado para Monitor 17 a 35 Polegadas Pistão a Gás Preto | Monitores de 2 a 9kg, VESA 75x75 e 100x100mm, Altu",
+      "precio_ref": 114.37,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "combo teclado e mouse sem fio dell km3322w",
+      "nombre": "Combo Teclado e Mouse Sem Fio Dell KM3322W 1858, Receptor USB 2,4 GHz | 2 pilhas AAA para o teclado e 1 AA para o mouse, DPI",
+      "precio_ref": 125.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "tramontina pipoqueira loreto em aluminio com revestimento em",
+      "nombre": "Tramontina Pipoqueira Loreto em Alumínio com Revestimento em Antiaderente Starflon Max Vermelho 20 cm 3,5 L",
+      "precio_ref": 89.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
-      "busqueda": "papel higienico neve supreme folha tripla leve 24",
-      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 24 Pague 21 20 Metros",
-      "precio_ref": 5597.0,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "combo de teclado e mouse sem fio logitech",
+      "nombre": "Combo de Teclado e Mouse sem Fio Logitech MK250, Bluetooth, ABNT2 | Grafite, Design Compacto, Mouse Ambidestro, Construção Du",
+      "precio_ref": 119.9,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "panela de pressao ceramic life pressure 4 2l",
-      "nombre": "Panela de Pressão Ceramic Life Pressure 4,2L com Indução Areia Brinox",
-      "precio_ref": 159.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "super mario odyssey nintendo switch",
-      "nombre": "Super Mario Odyssey - Nintendo Switch",
-      "precio_ref": 289.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "controle sem fio playstation dualsensetm midnight black",
-      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
-      "precio_ref": 399.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "bundle nintendo switch 2 ea sports fc 27",
-      "nombre": "Bundle Nintendo Switch 2 + EA Sports FC 27",
-      "precio_ref": 4199.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "whey protein concentrado baunilha pote 900g contribui para",
-      "nombre": "Whey Protein Concentrado Baunilha Pote 900g – Contribui para o Ganho Muscular Hipertrofia – Dux Human Health (Embalagem pode",
-      "precio_ref": 192.68,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "downy amaciante concentrado perfume collection mistico 3l",
-      "nombre": "Downy Amaciante Concentrado Perfume Collection Místico 3L",
-      "precio_ref": 7098.0,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "smartphone oppo a5 256gb 6gb ram bateria 6000mah",
-      "nombre": "Smartphone OPPO A5 256GB 6GB Ram Bateria 6000mAh 45W 50MP AI Câmera Roxo | Bateria 6000mAh com carga 45W, resistência militar",
-      "precio_ref": 1099.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy a37 5g 256gb 8gb 50mp",
-      "nombre": "Celular Samsung Galaxy A37 5G, 256GB, 8GB, 50MP Tela 6.7\" - Lavanda",
-      "precio_ref": 1998.9,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "placa mae asus tuf gaming a520m plus ii",
-      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
-      "precio_ref": 517.32,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "tablet m8 wi fi 6gb ram 64gb tela",
-      "nombre": "Tablet M8 Wi-fi 6GB RAM + 64GB + Tela 8 Pol + Android 13 + Octa-Core Multi - NB426",
-      "precio_ref": 672.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "gabinete gamer redragon wideload pro ca 604b pro",
-      "nombre": "Gabinete Gamer Redragon Wideload Pro CA-604B-PRO",
-      "precio_ref": 318.97,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
-      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
-      "precio_ref": 3469.0,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
-      "nombre": "Mondial Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 220V - AFON-12L-BI",
-      "precio_ref": 449.9,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
-      "nombre": "Notebook Acer Nitro V 15 RTX 4050 i5 16GB 512GB SSD Win 11 ANV15-52-51E4",
-      "precio_ref": 6999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "mario kart 8 deluxe nintendo switch",
-      "nombre": "Mario Kart 8 Deluxe - Nintendo Switch",
-      "precio_ref": 289.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 16 intel core i7 16",
-      "nombre": "Notebook ASUS Vivobook 16 Intel Core i7, 16 GB, 512 GB SSD, W 11 Home, 16'' FHD, Cool Silver - X1605VA-MB763W",
-      "precio_ref": 5499.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "grand theft auto vi playstation 5",
-      "nombre": "Grand Theft Auto VI - PlayStation 5",
-      "precio_ref": 449.9,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "tablet infantil patrulha canina chase 4gb ram 64gb",
-      "nombre": "Tablet Infantil Patrulha Canina Chase 4GB RAM + 64GB Tela 7 pol Android 13 Quad Core Multi - NB421",
-      "precio_ref": 568.41,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s12 ultra 512gb 12gb",
-      "nombre": "Samsung Tablet Galaxy TAB S12 Ultra, 512GB, 12GB RAM, Tela de 14,6\", WiFi 7, S Pen e Capa Inclusas",
-      "precio_ref": 7999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
-      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
-      "precio_ref": 5331.96,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "donkey kong bananza nintendo switch 2",
-      "nombre": "Donkey Kong Bananza - Nintendo Switch 2",
-      "precio_ref": 391.54,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola edge 70 fusion 5g 256gb 8gb",
-      "nombre": "Smartphone Motorola Edge 70 Fusion 5G - 256GB 8GB RAM + 16GB RAM Boost, camera 50MP Sony Lytia 710, Tela 1.5K extreme Amoled",
-      "precio_ref": 2221.11,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
-      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Touch Screen - Luna Grey - Intel Core i5-13420H, 8GB RAM, 512GB SSD, Windows 11",
-      "precio_ref": 3799.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "tablet positivo vision tab 7 processador octa core",
-      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
-      "precio_ref": 429.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g86 512gb 8gb ram 12gb",
-      "nombre": "Smartphone Motorola Moto g86 512GB 8GB RAM+12GB Ram Boost, Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, IP68",
-      "precio_ref": 2099.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "micro ondas 20l branco mastercook midea 110v",
-      "nombre": "Micro-ondas 20L Branco MasterCook Midea 110V",
-      "precio_ref": 419.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
-      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
-      "precio_ref": 2999.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "placa mae msi a520m a pro am4 2xddr4",
-      "nombre": "Placa Mãe MSI A520M-A PRO (AM4/2xDDR4/HDMI/DVI-D/M.2/USB 3.2)",
-      "precio_ref": 355.98,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g17 4g 128gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto G17 4G - 128GB 4GB Ram + 8GB Ram Boost - Roxo",
-      "precio_ref": 887.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "playstation5 pro",
-      "nombre": "PlayStation®5 Pro",
-      "precio_ref": 7799.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "apple iphone 18 pro de 256 gb preto",
-      "nombre": "Apple iPhone 18 Pro de 256 GB — Preto",
-      "precio_ref": 11999.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "stanley copo quencher cream 1 18l",
-      "nombre": "Stanley Copo Quencher Cream 1.18L",
-      "precio_ref": 160.2,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
-    },
-    {
-      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
-      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
-      "precio_ref": 1441.05,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s26 ultra 5g 512gb 12gb",
@@ -457,15 +161,103 @@
       "precio_ref": 8332.22,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
-      "busqueda": "apple 2025 ipad air de 11 polegadas wi",
-      "nombre": "Apple 2025 iPad Air de 11 polegadas (Wi-Fi, 128 GB) - Azul (M3)",
-      "precio_ref": 5848.86,
-      "categoria": "Ofertas Gerais",
+      "busqueda": "playstation5 pro",
+      "nombre": "PlayStation®5 Pro",
+      "precio_ref": 7799.0,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "smartphone xiaomi poco x8 pro preto 512gb 12gb",
+      "nombre": "Smartphone Xiaomi Poco X8 Pro, Preto, 512GB, 12GB RAM GLOBAL COM NFC | Dimensity 8500 Ultra MediaTek",
+      "precio_ref": 2999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "grand theft auto vi playstation 5",
+      "nombre": "Grand Theft Auto VI - PlayStation 5",
+      "precio_ref": 449.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "aparelho de jantar e cha 20 pecas brisa",
+      "nombre": "Aparelho de Jantar e Chá 20 Peças Brisa Oxford | Esmalte Brilhante",
+      "precio_ref": 35515.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "stanley copo quencher cream 1 18l",
+      "nombre": "Stanley Copo Quencher Cream 1.18L",
+      "precio_ref": 160.2,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
+      "nombre": "Notebook Acer Nitro V 15 RTX 4050 i5 16GB 512GB SSD Win 11 ANV15-52-51E4",
+      "precio_ref": 6999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g17 4g 128gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G17 4G - 128GB 4GB Ram + 8GB Ram Boost - Roxo",
+      "precio_ref": 887.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "smartphone oppo a5 256gb 6gb ram bateria 6000mah",
+      "nombre": "Smartphone OPPO A5 256GB 6GB Ram Bateria 6000mAh 45W 50MP AI Câmera Roxo | Bateria 6000mAh com carga 45W, resistência militar",
+      "precio_ref": 1099.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "placa mae msi a520m a pro am4 2xddr4",
+      "nombre": "Placa Mãe MSI A520M-A PRO (AM4/2xDDR4/HDMI/DVI-D/M.2/USB 3.2)",
+      "precio_ref": 355.98,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "tablet infantil patrulha canina chase 4gb ram 64gb",
+      "nombre": "Tablet Infantil Patrulha Canina Chase 4GB RAM + 64GB Tela 7 pol Android 13 Quad Core Multi - NB421",
+      "precio_ref": 568.41,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "havit fone de ouvido headset gamer fuxi h3",
+      "nombre": "Havit Fone de Ouvido Headset Gamer Fuxi-H3 Black Com Fio e Sem Fio, Wireless 2,4GHz, Bluetooth, Cabo USB-C",
+      "precio_ref": 144.99,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "notebook acer aspire go 15 ag15 71p 5939",
+      "nombre": "Notebook Acer Aspire Go 15 AG15-71P-5939 Intel core I5 13ª Geração 8GB RAM 256GB SSD Full HD TN Windows 11 Home",
+      "precio_ref": 3469.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
@@ -473,7 +265,183 @@
       "precio_ref": 1760.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "midea panela de pressao eletrica 6l com 12",
+      "nombre": "Midea Panela de Pressão Elétrica 6L com 12 Receitas Pré-programadas, 3 Níveis de Pressão e Display Digital, Silenciosa e Segu",
+      "precio_ref": 399.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "super mario odyssey nintendo switch",
+      "nombre": "Super Mario Odyssey - Nintendo Switch",
+      "precio_ref": 289.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "whey protein concentrado baunilha pote 900g contribui para",
+      "nombre": "Whey Protein Concentrado Baunilha Pote 900g – Contribui para o Ganho Muscular Hipertrofia – Dux Human Health (Embalagem pode",
+      "precio_ref": 192.68,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
+      "nombre": "Smartphone Motorola Moto g56 5G - 256GB 8GB RAM+16GB Ram Boost e 50MP Sony Lytia 600 Camera Ultrarresistencia militar IP68 +",
+      "precio_ref": 1441.05,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
+      "precio_ref": 2599.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "tablet infantil minnie 7 wi fi 4gb ram",
+      "nombre": "Tablet Infantil Minnie 7\" Wi-Fi 4GB RAM 64GB Android 13 Quad-Core com Capa Resistente, Controle Parental e Câmera Frontal 2MP",
+      "precio_ref": 584.46,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "micro ondas 20l branco mastercook midea 110v",
+      "nombre": "Micro-ondas 20L Branco MasterCook Midea 110V",
+      "precio_ref": 419.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch 2 ea sports fc 27",
+      "nombre": "Bundle Nintendo Switch 2 + EA Sports FC 27",
+      "precio_ref": 4199.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola moto g86 512gb 8gb ram 12gb",
+      "nombre": "Smartphone Motorola Moto g86 512GB 8GB RAM+12GB Ram Boost, Tela 1.5K pOLED, 50MP Sony camera OIS Moto AI, videos em 4K, IP68",
+      "precio_ref": 2099.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "notebook lenovo ideapad slim 3 15 3 touch",
+      "nombre": "Notebook Lenovo IdeaPad Slim 3 15.3\" Touch Screen - Luna Grey - Intel Core i5-13420H, 8GB RAM, 512GB SSD, Windows 11",
+      "precio_ref": 3799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "placa mae asus tuf gaming a520m plus ii",
+      "nombre": "Placa Mãe Asus TUF GAMING A520M-PLUS II (AM4/4xDDR4/HDMI/DisplayPort/D-Sub/M.2/USB 3.2)",
+      "precio_ref": 517.32,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "mondial fritadeira air fryer forno oven 12l preto",
+      "nombre": "Mondial Fritadeira Air Fryer Forno Oven 12L, Preto/Inox, 2000W, 220V - AFON-12L-BI",
+      "precio_ref": 449.9,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "apple iphone 18 pro de 256 gb preto",
+      "nombre": "Apple iPhone 18 Pro de 256 GB — Preto",
+      "precio_ref": 11999.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "gabinete gamer redragon wideload pro ca 604b pro",
+      "nombre": "Gabinete Gamer Redragon Wideload Pro CA-604B-PRO",
+      "precio_ref": 318.97,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy a37 5g 256gb 8gb 50mp",
+      "nombre": "Celular Samsung Galaxy A37 5G, 256GB, 8GB, 50MP Tela 6.7\" - Lavanda",
+      "precio_ref": 1998.9,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm midnight black",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
+      "precio_ref": 399.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "philips walita fritadeira airfryer serie 1000 xl 6",
+      "nombre": "Philips Walita Fritadeira Airfryer Série 1000 XL 6,2L, Preta, 110V | Até 90% Menos Óleo – tecnologia RapidAir, 12 modos de pr",
+      "precio_ref": 299.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "donkey kong bananza nintendo switch 2",
+      "nombre": "Donkey Kong Bananza - Nintendo Switch 2",
+      "precio_ref": 391.54,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 5331.96,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "smartphone motorola edge 70 fusion 5g 256gb 8gb",
+      "nombre": "Smartphone Motorola Edge 70 Fusion 5G - 256GB 8GB RAM + 16GB RAM Boost, camera 50MP Sony Lytia 710, Tela 1.5K extreme Amoled",
+      "precio_ref": 2221.11,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "tablet m8 wi fi 6gb ram 64gb tela",
+      "nombre": "Tablet M8 Wi-fi 6GB RAM + 64GB + Tela 8 Pol + Android 13 + Octa-Core Multi - NB426",
+      "precio_ref": 672.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s12 ultra 512gb 12gb",
+      "nombre": "Samsung Tablet Galaxy TAB S12 Ultra, 512GB, 12GB RAM, Tela de 14,6\", WiFi 7, S Pen e Capa Inclusas",
+      "precio_ref": 7999.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     },
     {
       "busqueda": "apple 2025 macbook pro de 14 polegadas chip",
@@ -481,7 +449,39 @@
       "precio_ref": 18960.1,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T09:36:15+00:00"
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 7 processador octa core",
+      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
+      "precio_ref": 429.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "mario kart 8 deluxe nintendo switch",
+      "nombre": "Mario Kart 8 Deluxe - Nintendo Switch",
+      "precio_ref": 289.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad air de 11 polegadas wi",
+      "nombre": "Apple 2025 iPad Air de 11 polegadas (Wi-Fi, 128 GB) - Azul (M3)",
+      "precio_ref": 5848.86,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
+    },
+    {
+      "busqueda": "papel higienico neve supreme folha tripla leve 24",
+      "nombre": "Papel Higiênico Neve Supreme Folha Tripla Leve 24 Pague 21 20 Metros",
+      "precio_ref": 5597.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-25T09:43:31+00:00"
     }
   ]
 }
