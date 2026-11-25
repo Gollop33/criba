@@ -145,26 +145,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-faqueiro-tramontina-leme-aco-inox-preto-20-pe": {
-    "ts": "2026-11-23T11:16:01.114953",
-    "canales": {
-      "whatsapp": "2026-11-23T11:16:01.114953"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
-  "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
-    "ts": "2026-11-23T11:22:38.230006",
-    "canales": {
-      "whatsapp": "2026-11-23T11:22:38.230006"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-stanley-copo-termico-stacking-black-20-354ml": {
     "ts": "2026-11-23T11:29:13.911691",
     "canales": {
@@ -2863,6 +2843,16 @@
     "precio": 91.0,
     "precios_publicados": [
       91.0
+    ]
+  },
+  "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
+    "ts": "2026-11-25T11:22:58.179420",
+    "canales": {
+      "whatsapp": "2026-11-25T11:22:58.179420"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
