@@ -1430,14 +1430,16 @@
     ]
   },
   "amz-colgate-total-antitartaro-creme-dental-com-fl": {
-    "ts": "2026-11-24T15:01:28.157873",
+    "ts": "2026-11-25T15:17:59.254839",
     "canales": {
-      "whatsapp": "2026-11-24T15:01:28.157873"
+      "whatsapp": "2026-11-25T15:17:59.254839"
     },
-    "precio": 22.0,
+    "precio": 17.0,
     "precios_publicados": [
-      22.0
-    ]
+      22.0,
+      17.0
+    ],
+    "precio_min_publicado": 22.0
   },
   "amz-death-stranding-edicao-padrao-playstation-4": {
     "ts": "2026-11-24T15:08:46.947127",
