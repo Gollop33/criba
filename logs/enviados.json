@@ -158,26 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-limpador-de-parabrisa-luxcar-100ml": {
-    "ts": "2026-11-23T14:04:44.663829",
-    "canales": {
-      "whatsapp": "2026-11-23T14:04:44.663829"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0
-    ]
-  },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-11-23T14:08:26.724883",
-    "canales": {
-      "whatsapp": "2026-11-23T14:08:26.724883"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
     "ts": "2026-11-23T14:11:29.359608",
     "canales": {
@@ -2864,6 +2844,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
+    "ts": "2026-11-25T14:08:41.570907",
+    "canales": {
+      "whatsapp": "2026-11-25T14:08:41.570907"
+    },
+    "precio": 78.0,
+    "precios_publicados": [
+      78.0
     ]
   }
 }
