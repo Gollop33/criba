@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-stanley-garrafa-termica-quick-flip-frost-710m": {
-    "ts": "2026-11-23T14:11:29.359608",
-    "canales": {
-      "whatsapp": "2026-11-23T14:11:29.359608"
-    },
-    "precio": 135.0,
-    "precios_publicados": [
-      135.0
-    ]
-  },
   "amz-adaptador-de-energia-usba-de-9w-oficial-amazo": {
     "ts": "2026-11-23T14:19:45.462656",
     "canales": {
@@ -2854,6 +2844,16 @@
     "precio": 78.0,
     "precios_publicados": [
       78.0
+    ]
+  },
+  "amz-limpador-de-parabrisa-luxcar-100ml": {
+    "ts": "2026-11-25T14:15:23.468855",
+    "canales": {
+      "whatsapp": "2026-11-25T14:15:23.468855"
+    },
+    "precio": 8.0,
+    "precios_publicados": [
+      8.0
     ]
   }
 }
