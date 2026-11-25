@@ -171,26 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-apple-iphone-16-128-gb-branco": {
-    "ts": "2026-11-23T15:24:47.794072",
-    "canales": {
-      "whatsapp": "2026-11-23T15:24:47.794072"
-    },
-    "precio": 4776.0,
-    "precios_publicados": [
-      4776.0
-    ]
-  },
-  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
-    "ts": "2026-11-23T15:29:38.618868",
-    "canales": {
-      "whatsapp": "2026-11-23T15:29:38.618868"
-    },
-    "precio": 569.0,
-    "precios_publicados": [
-      569.0
-    ]
-  },
   "amz-hd-externo-portatil-500gb-unionsine-disco-rig": {
     "ts": "2026-11-23T15:31:35.257159",
     "canales": {
@@ -1222,14 +1202,16 @@
     ]
   },
   "amz-ventilador-de-coluna-britania-6-pas-de-40cm-1": {
-    "ts": "2026-11-24T12:55:58.643291",
+    "ts": "2026-11-25T15:30:55.303485",
     "canales": {
-      "whatsapp": "2026-11-24T12:55:58.643291"
+      "whatsapp": "2026-11-25T15:30:55.303485"
     },
-    "precio": 222.0,
+    "precio": 179.0,
     "precios_publicados": [
-      222.0
-    ]
+      222.0,
+      179.0
+    ],
+    "precio_min_publicado": 222.0
   },
   "amz-tablet-xiaomi-redmi-pad-2-8gb-de-ram-256gb-de": {
     "ts": "2026-11-24T13:05:38.397010",
