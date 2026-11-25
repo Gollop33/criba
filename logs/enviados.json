@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-23T15:59:29.761979",
-    "canales": {
-      "whatsapp": "2026-11-23T15:59:29.761979"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "amz-pack-nestle-purina-friskies-racao-umida-para-": {
     "ts": "2026-11-23T16:05:01.347313",
     "canales": {
@@ -2793,6 +2783,16 @@
     "precio": 43.0,
     "precios_publicados": [
       43.0
+    ]
+  },
+  "amz-secret-clinical-desodorante-antitranspirante-": {
+    "ts": "2026-11-25T16:01:46.846250",
+    "canales": {
+      "whatsapp": "2026-11-25T16:01:46.846250"
+    },
+    "precio": 12.0,
+    "precios_publicados": [
+      12.0
     ]
   }
 }
