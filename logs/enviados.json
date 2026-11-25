@@ -5,19 +5,6 @@
       "whatsapp": "2026-11-25T00:32:35.615507"
     }
   },
-  "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
-    "ts": "2026-11-23T09:43:43.556539",
-    "canales": {
-      "whatsapp": "2026-11-23T09:43:43.556539"
-    },
-    "precio": 23.0,
-    "precios_publicados": [
-      4297.0,
-      26.0,
-      23.0
-    ],
-    "precio_min_publicado": 26.0
-  },
   "amz-samsung-tablet-galaxy-tab-s10-fe-wifi-128gb-8": {
     "ts": "2026-11-24T04:02:55.303424",
     "canales": {
@@ -157,16 +144,6 @@
       53.0
     ],
     "precio_min_publicado": 64.0
-  },
-  "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
-    "ts": "2026-11-23T09:50:49.343424",
-    "canales": {
-      "whatsapp": "2026-11-23T09:50:49.343424"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
   },
   "amz-pasta-termica-pcyes-nitrogen-basic-15g-condut": {
     "ts": "2026-11-23T09:57:48.899895",
@@ -2876,6 +2853,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-colgate-luminous-white-carvao-ativado-creme-d": {
+    "ts": "2026-11-25T09:50:53.226691",
+    "canales": {
+      "whatsapp": "2026-11-25T09:50:53.226691"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
