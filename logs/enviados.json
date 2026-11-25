@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-bloodborne-hits-playstation-4": {
-    "ts": "2026-11-23T06:44:32.383297",
-    "canales": {
-      "whatsapp": "2026-11-23T06:44:32.383297"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
     "ts": "2026-11-23T07:12:58.148835",
     "canales": {
@@ -2909,6 +2899,16 @@
     "precio": 22.0,
     "precios_publicados": [
       22.0
+    ]
+  },
+  "amz-sensodyne-escova-de-dente-extra-macia-gentle-": {
+    "ts": "2026-11-25T06:55:45.187989",
+    "canales": {
+      "whatsapp": "2026-11-25T06:55:45.187989"
+    },
+    "precio": 23.0,
+    "precios_publicados": [
+      23.0
     ]
   }
 }
