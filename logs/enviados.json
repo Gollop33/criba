@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-processador-amd-ryzen-7-5700x-34ghz-turbo-46g": {
-    "ts": "2026-11-23T15:18:20.676126",
-    "canales": {
-      "whatsapp": "2026-11-23T15:18:20.676126"
-    },
-    "precio": 1252.0,
-    "precios_publicados": [
-      1252.0
-    ]
-  },
   "amz-apple-iphone-16-128-gb-branco": {
     "ts": "2026-11-23T15:24:47.794072",
     "canales": {
@@ -918,14 +908,16 @@
     ]
   },
   "amz-pinho-sol-desinfetante-original-3-8l": {
-    "ts": "2026-11-24T08:43:36.230369",
+    "ts": "2026-11-25T15:23:30.594231",
     "canales": {
-      "whatsapp": "2026-11-24T08:43:36.230369"
+      "whatsapp": "2026-11-25T15:23:30.594231"
     },
-    "precio": 37.0,
+    "precio": 32.0,
     "precios_publicados": [
-      37.0
-    ]
+      37.0,
+      32.0
+    ],
+    "precio_min_publicado": 37.0
   },
   "amz-nivea-hidratante-labial-amora-shine-48g-hidra": {
     "ts": "2026-11-24T08:51:01.389379",

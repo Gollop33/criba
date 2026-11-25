@@ -1451,7 +1451,17 @@
       "detectado_em": "2026-11-25T13:00:23+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "QUEROOFF": {
+      "detectado_em": "2026-10-30T13:00:39+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 626h (> 24h)"
+    },
+    "ECONOMIZE": {
+      "detectado_em": "2026-11-04T19:02:24+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 500h (> 24h)"
     }
   },
-  "actualizado": "2026-11-25T15:13:21+00:00"
+  "actualizado": "2026-11-25T15:23:28+00:00"
 }
