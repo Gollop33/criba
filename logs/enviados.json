@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-23T14:27:11.221014",
-    "canales": {
-      "whatsapp": "2026-11-23T14:27:11.221014"
-    },
-    "precio": 77.0,
-    "precios_publicados": [
-      77.0
-    ]
-  },
   "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
     "ts": "2026-11-23T14:30:19.293687",
     "canales": {
@@ -2854,6 +2844,16 @@
     "precio": 1441.0,
     "precios_publicados": [
       1441.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
+    "ts": "2026-11-25T14:30:03.746768",
+    "canales": {
+      "whatsapp": "2026-11-25T14:30:03.746768"
+    },
+    "precio": 5331.0,
+    "precios_publicados": [
+      5331.0
     ]
   }
 }
