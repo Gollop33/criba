@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
-    "ts": "2026-11-23T12:36:53.652557",
-    "canales": {
-      "whatsapp": "2026-11-23T12:36:53.652557"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-11-23T12:43:44.842706",
     "canales": {
@@ -2854,6 +2844,16 @@
     "precio": 30.0,
     "precios_publicados": [
       30.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
+    "ts": "2026-11-25T12:37:13.600455",
+    "canales": {
+      "whatsapp": "2026-11-25T12:37:13.600455"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
