@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
-    "ts": "2026-11-23T16:37:12.930527",
-    "canales": {
-      "whatsapp": "2026-11-23T16:37:12.930527"
-    },
-    "precio": 150.0,
-    "precios_publicados": [
-      150.0
-    ]
-  },
   "amz-jbl-tune-530bt-fone-bluetooth-overear-sem-fio": {
     "ts": "2026-11-23T16:42:56.017063",
     "canales": {
@@ -2793,6 +2783,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
+    "ts": "2026-11-25T16:37:47.396776",
+    "canales": {
+      "whatsapp": "2026-11-25T16:37:47.396776"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
