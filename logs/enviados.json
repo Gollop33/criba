@@ -1283,14 +1283,16 @@
     ]
   },
   "amz-monitor-gamer-lg-ultragear-24-ips-full-hd-180": {
-    "ts": "2026-11-24T01:15:14.086368",
+    "ts": "2026-11-25T01:18:53.500742",
     "canales": {
-      "whatsapp": "2026-11-24T01:15:14.086368"
+      "whatsapp": "2026-11-25T01:18:53.500742"
     },
-    "precio": 84990.0,
+    "precio": 779.0,
     "precios_publicados": [
-      84990.0
-    ]
+      84990.0,
+      779.0
+    ],
+    "precio_min_publicado": 84990.0
   },
   "ml-projetor-smart-portatil-full-hd-4k-android-11": {
     "ts": "2026-11-24T01:27:30.091533",
