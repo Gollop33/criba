@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-bellacotton-algodao-quadrado-baby-100-algodao": {
-    "ts": "2026-11-23T11:50:45.382869",
-    "canales": {
-      "whatsapp": "2026-11-23T11:50:45.382869"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-cetaphil-locao-hidratante": {
     "ts": "2026-11-23T11:58:04.559234",
     "canales": {
@@ -2854,6 +2844,16 @@
     "precio": 61.0,
     "precios_publicados": [
       61.0
+    ]
+  },
+  "amz-ou-organizador-de-geladeira-com-cesto-5l-natu": {
+    "ts": "2026-11-25T11:50:57.536742",
+    "canales": {
+      "whatsapp": "2026-11-25T11:50:57.536742"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
