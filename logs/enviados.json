@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-base-de-carregamento-do-dualsense-playstation": {
-    "ts": "2026-11-23T12:57:47.518949",
-    "canales": {
-      "whatsapp": "2026-11-23T12:57:47.518949"
-    },
-    "precio": 165.0,
-    "precios_publicados": [
-      165.0
-    ]
-  },
   "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
     "ts": "2026-11-23T13:08:46.816190",
     "canales": {
@@ -2864,6 +2854,16 @@
     "precio": 133.0,
     "precios_publicados": [
       133.0
+    ]
+  },
+  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
+    "ts": "2026-11-25T13:08:38.204091",
+    "canales": {
+      "whatsapp": "2026-11-25T13:08:38.204091"
+    },
+    "precio": 76.0,
+    "precios_publicados": [
+      76.0
     ]
   }
 }
