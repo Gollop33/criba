@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-creatina-pura-dark-lab-monohidratada-100-de-p": {
-    "ts": "2026-11-23T07:12:58.148835",
-    "canales": {
-      "whatsapp": "2026-11-23T07:12:58.148835"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "amz-colgate-plax-odor-control-enxaguante-bucal-se": {
     "ts": "2026-11-23T07:36:03.147039",
     "canales": {
@@ -2909,6 +2899,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-filtrorefil-original-de-agua-para-purificador": {
+    "ts": "2026-11-25T07:21:27.196498",
+    "canales": {
+      "whatsapp": "2026-11-25T07:21:27.196498"
+    },
+    "precio": 49.0,
+    "precios_publicados": [
+      49.0
     ]
   }
 }
