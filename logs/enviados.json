@@ -158,26 +158,6 @@
     ],
     "precio_min_publicado": 10.0
   },
-  "amz-playstation5-slim-disk-pacote-astro-bot-e-gra": {
-    "ts": "2026-11-23T13:08:46.816190",
-    "canales": {
-      "whatsapp": "2026-11-23T13:08:46.816190"
-    },
-    "precio": 4716.0,
-    "precios_publicados": [
-      4716.0
-    ]
-  },
-  "amz-tplink-archer-t2u-nano-adaptador-wifi-5-ac600": {
-    "ts": "2026-11-23T13:15:12.527493",
-    "canales": {
-      "whatsapp": "2026-11-23T13:15:12.527493"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "amz-sony-playstation-5-edicao-digital-825gb-1-con": {
     "ts": "2026-11-23T13:22:48.154528",
     "canales": {
@@ -2864,6 +2844,16 @@
     "precio": 76.0,
     "precios_publicados": [
       76.0
+    ]
+  },
+  "amz-cetaphil-locao-hidratante": {
+    "ts": "2026-11-25T13:15:46.670327",
+    "canales": {
+      "whatsapp": "2026-11-25T13:15:46.670327"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
