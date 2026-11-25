@@ -171,26 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-apple-iphone-17-de-256-gb-preto": {
-    "ts": "2026-11-23T16:27:03.822876",
-    "canales": {
-      "whatsapp": "2026-11-23T16:27:03.822876"
-    },
-    "precio": 5859.0,
-    "precios_publicados": [
-      5859.0
-    ]
-  },
-  "amz-amazon-echo-dot-max-geracao-mais-recente-smar": {
-    "ts": "2026-11-23T16:30:19.402413",
-    "canales": {
-      "whatsapp": "2026-11-23T16:30:19.402413"
-    },
-    "precio": 599.0,
-    "precios_publicados": [
-      599.0
-    ]
-  },
   "amz-tplink-archer-t3u-adaptador-wifi-usb-30-ac130": {
     "ts": "2026-11-23T16:37:12.930527",
     "canales": {
@@ -2803,6 +2783,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
+    "ts": "2026-11-25T16:30:38.082616",
+    "canales": {
+      "whatsapp": "2026-11-25T16:30:38.082616"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
