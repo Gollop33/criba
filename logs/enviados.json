@@ -145,16 +145,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-colgate-total-whitening-fresh-mint-creme-dent": {
-    "ts": "2026-11-23T10:36:50.839981",
-    "canales": {
-      "whatsapp": "2026-11-23T10:36:50.839981"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0
-    ]
-  },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
     "ts": "2026-11-23T10:44:01.306174",
     "canales": {
@@ -2853,6 +2843,16 @@
     "precio": 23.0,
     "precios_publicados": [
       23.0
+    ]
+  },
+  "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
+    "ts": "2026-11-25T10:36:51.726238",
+    "canales": {
+      "whatsapp": "2026-11-25T10:36:51.726238"
+    },
+    "precio": 21.0,
+    "precios_publicados": [
+      21.0
     ]
   }
 }
