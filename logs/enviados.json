@@ -121,18 +121,6 @@
     ],
     "precio_min_publicado": 2129.0
   },
-  "amz-memoria-ram-rise-mode-z-series-8gb-3200mhz-dd": {
-    "ts": "2026-11-23T19:43:35.552312",
-    "canales": {
-      "whatsapp": "2026-11-23T19:43:35.552312"
-    },
-    "precio": 438.0,
-    "precios_publicados": [
-      63500.0,
-      438.0
-    ],
-    "precio_min_publicado": 63500.0
-  },
   "amz-omo-sabao-liquido-lavagem-perfeita-5l-tampa-p": {
     "ts": "2026-11-25T04:02:34.471994",
     "canales": {
@@ -3053,6 +3041,16 @@
     "precio": 187.0,
     "precios_publicados": [
       187.0
+    ]
+  },
+  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
+    "ts": "2026-11-25T19:49:09.245402",
+    "canales": {
+      "whatsapp": "2026-11-25T19:49:09.245402"
+    },
+    "precio": 2899.0,
+    "precios_publicados": [
+      2899.0
     ]
   }
 }
