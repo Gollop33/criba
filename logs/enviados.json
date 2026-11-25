@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 27.0
   },
-  "amz-kit-lavagem-completa-shampoo-cera-tok-final-i": {
-    "ts": "2026-11-23T16:49:43.312152",
-    "canales": {
-      "whatsapp": "2026-11-23T16:49:43.312152"
-    },
-    "precio": 139.0,
-    "precios_publicados": [
-      139.0
-    ]
-  },
   "amz-echo-spot-com-alexa-geracao-mais-recente-desp": {
     "ts": "2026-11-23T16:59:42.125572",
     "canales": {
@@ -2813,6 +2803,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-secret-desodorante-antitranspirante-em-gel-be": {
+    "ts": "2026-11-25T16:57:41.688164",
+    "canales": {
+      "whatsapp": "2026-11-25T16:57:41.688164"
+    },
+    "precio": 14.0,
+    "precios_publicados": [
+      14.0
     ]
   }
 }
