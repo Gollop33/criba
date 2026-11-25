@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 64.0
   },
-  "amz-colgate-plax-odor-control-enxaguante-bucal-se": {
-    "ts": "2026-11-23T07:36:03.147039",
-    "canales": {
-      "whatsapp": "2026-11-23T07:36:03.147039"
-    },
-    "precio": 28.0,
-    "precios_publicados": [
-      28.0
-    ]
-  },
   "amz-lavaroupas-em-po-omo-puro-cuidado-2kg-caixa": {
     "ts": "2026-11-23T08:02:33.306392",
     "canales": {
@@ -2909,6 +2899,16 @@
     "precio": 49.0,
     "precios_publicados": [
       49.0
+    ]
+  },
+  "amz-sensodyne-limpeza-profunda-escova-de-dente-ex": {
+    "ts": "2026-11-25T07:44:18.980940",
+    "canales": {
+      "whatsapp": "2026-11-25T07:44:18.980940"
+    },
+    "precio": 27.0,
+    "precios_publicados": [
+      27.0
     ]
   }
 }
