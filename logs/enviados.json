@@ -174,16 +174,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-pack-racao-umida-whiskas-sache-frango-ao-molh": {
-    "ts": "2026-11-24T15:36:55.019279",
-    "canales": {
-      "whatsapp": "2026-11-24T15:36:55.019279"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
   "amz-the-last-of-us-part-ii-playstation-4": {
     "ts": "2026-11-24T15:44:05.513865",
     "canales": {
@@ -1517,14 +1507,16 @@
     ]
   },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
-    "ts": "2026-11-25T15:39:30.793224",
+    "ts": "2026-11-26T15:44:03.721501",
     "canales": {
-      "whatsapp": "2026-11-25T15:39:30.793224"
+      "whatsapp": "2026-11-26T15:44:03.721501"
     },
-    "precio": 67.0,
+    "precio": 45.0,
     "precios_publicados": [
-      67.0
-    ]
+      67.0,
+      45.0
+    ],
+    "precio_min_publicado": 67.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
     "ts": "2026-11-25T15:43:49.992200",
