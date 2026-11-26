@@ -172,16 +172,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
-    "ts": "2026-11-24T11:54:31.337073",
-    "canales": {
-      "whatsapp": "2026-11-24T11:54:31.337073"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-suporte-para-notebook-e-macbook-em-aluminio-c": {
     "ts": "2026-11-24T12:02:05.629396",
     "canales": {
@@ -2766,6 +2756,16 @@
     "precio": 59.0,
     "precios_publicados": [
       59.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
+    "ts": "2026-11-26T11:57:54.786512",
+    "canales": {
+      "whatsapp": "2026-11-26T11:57:54.786512"
+    },
+    "precio": 1619.0,
+    "precios_publicados": [
+      1619.0
     ]
   }
 }
