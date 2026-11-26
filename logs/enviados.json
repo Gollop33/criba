@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 222.0
   },
-  "amz-tablet-xixaomiro-s11-101-polegadas-android-15": {
-    "ts": "2026-11-24T14:54:11.429358",
-    "canales": {
-      "whatsapp": "2026-11-24T14:54:11.429358"
-    },
-    "precio": 829.0,
-    "precios_publicados": [
-      829.0
-    ]
-  },
   "amz-colgate-total-antitartaro-creme-dental-com-fl": {
     "ts": "2026-11-25T15:17:59.254839",
     "canales": {
@@ -2680,6 +2670,16 @@
     "precio": 24750.0,
     "precios_publicados": [
       24750.0
+    ]
+  },
+  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
+    "ts": "2026-11-26T14:57:49.542514",
+    "canales": {
+      "whatsapp": "2026-11-26T14:57:49.542514"
+    },
+    "precio": 1699.0,
+    "precios_publicados": [
+      1699.0
     ]
   }
 }
