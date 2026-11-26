@@ -186,16 +186,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
-    "ts": "2026-11-24T17:08:54.864475",
-    "canales": {
-      "whatsapp": "2026-11-24T17:08:54.864475"
-    },
-    "precio": 1079.0,
-    "precios_publicados": [
-      1079.0
-    ]
-  },
   "amz-fralda-pampers-confort-sec-tamanho-xxg-148-un": {
     "ts": "2026-11-24T17:15:18.440472",
     "canales": {
@@ -2666,6 +2656,16 @@
     "precio": 379.0,
     "precios_publicados": [
       379.0
+    ]
+  },
+  "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
+    "ts": "2026-11-26T17:10:51.488043",
+    "canales": {
+      "whatsapp": "2026-11-26T17:10:51.488043"
+    },
+    "precio": 1159.0,
+    "precios_publicados": [
+      1159.0
     ]
   }
 }
