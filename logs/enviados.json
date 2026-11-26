@@ -186,16 +186,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-cetaphil-creme-hidratante": {
-    "ts": "2026-11-24T21:14:59.477933",
-    "canales": {
-      "whatsapp": "2026-11-24T21:14:59.477933"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "amz-dove-sabonete-em-barra-branco-90g-8-unidades-": {
     "ts": "2026-11-24T21:24:56.469025",
     "canales": {
@@ -3018,6 +3008,16 @@
     "precio": 799.0,
     "precios_publicados": [
       799.0
+    ]
+  },
+  "amz-processador-amd-ryzen-5-5500-100100000457box-": {
+    "ts": "2026-11-26T21:18:44.612789",
+    "canales": {
+      "whatsapp": "2026-11-26T21:18:44.612789"
+    },
+    "precio": 569.0,
+    "precios_publicados": [
+      569.0
     ]
   }
 }
