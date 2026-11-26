@@ -160,16 +160,6 @@
     ],
     "precio_min_publicado": 779.0
   },
-  "ml-tablet-samsung-galaxy-tab-a11-64gb-prata-eboo": {
-    "ts": "2026-11-24T05:37:42.621948",
-    "canales": {
-      "whatsapp": "2026-11-24T05:37:42.621948"
-    },
-    "precio": 1043.0,
-    "precios_publicados": [
-      1043.0
-    ]
-  },
   "amz-copo-termico-stanley-stacking-ash-354ml": {
     "ts": "2026-11-24T06:14:30.815789",
     "canales": {
@@ -2798,6 +2788,16 @@
     "precio": 69.0,
     "precios_publicados": [
       69.0
+    ]
+  },
+  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
+    "ts": "2026-11-26T06:00:26.256813",
+    "canales": {
+      "whatsapp": "2026-11-26T06:00:26.256813"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
