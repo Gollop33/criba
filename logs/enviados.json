@@ -174,26 +174,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-headset-gamer-havit-h2232d-rgb-com-microfone-": {
-    "ts": "2026-11-24T16:22:48.602608",
-    "canales": {
-      "whatsapp": "2026-11-24T16:22:48.602608"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
-  "amz-creatina-monohidratada-1kg-100-pura-importada": {
-    "ts": "2026-11-24T16:29:58.219600",
-    "canales": {
-      "whatsapp": "2026-11-24T16:29:58.219600"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
   "amz-kingston-flash-drive-exodia-m-128gb-usb-pen-d": {
     "ts": "2026-11-24T16:36:43.297471",
     "canales": {
@@ -1363,14 +1343,16 @@
     ]
   },
   "amz-mondial-liquidificador-turbo-power-preto-550w": {
-    "ts": "2026-11-25T13:58:00.119093",
+    "ts": "2026-11-26T16:31:30.923468",
     "canales": {
-      "whatsapp": "2026-11-25T13:58:00.119093"
+      "whatsapp": "2026-11-26T16:31:30.923468"
     },
-    "precio": 90.0,
+    "precio": 79.0,
     "precios_publicados": [
-      90.0
-    ]
+      90.0,
+      79.0
+    ],
+    "precio_min_publicado": 90.0
   },
   "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
     "ts": "2026-11-25T14:08:41.570907",
