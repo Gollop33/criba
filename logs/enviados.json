@@ -158,16 +158,6 @@
     ],
     "precio_min_publicado": 222.0
   },
-  "amz-tablet-huawei-matepad-se-11-4128gb-tela-huawe": {
-    "ts": "2026-11-24T14:15:46.826765",
-    "canales": {
-      "whatsapp": "2026-11-24T14:15:46.826765"
-    },
-    "precio": 970.0,
-    "precios_publicados": [
-      970.0
-    ]
-  },
   "amz-notebook-asus-vivobook-go-15-amd-ryzen-5-7520": {
     "ts": "2026-11-24T14:17:01.881906",
     "canales": {
@@ -2710,6 +2700,16 @@
     "precio": 17.0,
     "precios_publicados": [
       17.0
+    ]
+  },
+  "amz-eliminador-de-odores-liquido-para-pets-wap-ce": {
+    "ts": "2026-11-26T14:16:54.784806",
+    "canales": {
+      "whatsapp": "2026-11-26T14:16:54.784806"
+    },
+    "precio": 37.0,
+    "precios_publicados": [
+      37.0
     ]
   }
 }
