@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 1069.0
   },
-  "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
-    "ts": "2026-11-24T00:13:21.244286",
-    "canales": {
-      "whatsapp": "2026-11-24T00:13:21.244286"
-    },
-    "precio": 498.0,
-    "precios_publicados": [
-      498.0
-    ]
-  },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-25T00:18:59.951017",
     "canales": {
@@ -2971,6 +2961,16 @@
     "precio": 469.0,
     "precios_publicados": [
       469.0
+    ]
+  },
+  "amz-samsung-tablet-galaxy-tab-s10-lite-wifi-256gb": {
+    "ts": "2026-11-26T00:15:46.240479",
+    "canales": {
+      "whatsapp": "2026-11-26T00:15:46.240479"
+    },
+    "precio": 2599.0,
+    "precios_publicados": [
+      2599.0
     ]
   }
 }
