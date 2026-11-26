@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T02:56:26+00:00",
+  "actualizado": "2026-11-26T08:08:29+00:00",
   "total": 349,
   "fuentes": [
     "ML Oficial",
@@ -4505,7 +4505,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-25T14:02:58+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SOUVIP30",
@@ -4518,7 +4519,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-25T14:02:58+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CUPOMNOML25",
@@ -4531,7 +4533,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-25T14:02:58+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "TUDODEBOM30",
@@ -4583,7 +4586,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-25T14:02:58+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELIAGORA",
@@ -4609,7 +4613,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-25T13:00:23+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "ELETROTECHMELI",
@@ -4700,7 +4705,9 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-25T16:00:36+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-26T05:07:51-03:00"
 }
