@@ -1496,7 +1496,17 @@
       "detectado_em": "2026-11-26T11:01:01+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PEGUESEUOFF": {
+      "detectado_em": "2026-11-03T19:03:42+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 549h (> 24h)"
+    },
+    "OFFSEMPREML": {
+      "detectado_em": "2026-11-19T13:04:12+00:00",
+      "publicado_em": null,
+      "motivo": "detectado hace 171h (> 24h)"
     }
   },
-  "actualizado": "2026-11-26T16:10:51+00:00"
+  "actualizado": "2026-11-26T16:22:07+00:00"
 }
