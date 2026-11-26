@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 222.0
   },
-  "amz-samsung-notebook-galaxy-book4-windows-11-home": {
-    "ts": "2026-11-24T13:14:16.659999",
-    "canales": {
-      "whatsapp": "2026-11-24T13:14:16.659999"
-    },
-    "precio": 4498.0,
-    "precios_publicados": [
-      4498.0
-    ]
-  },
   "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
     "ts": "2026-11-24T13:17:28.450172",
     "canales": {
@@ -2746,6 +2736,16 @@
     "precio": 2500.0,
     "precios_publicados": [
       2500.0
+    ]
+  },
+  "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
+    "ts": "2026-11-26T13:15:37.354471",
+    "canales": {
+      "whatsapp": "2026-11-26T13:15:37.354471"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
