@@ -186,16 +186,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-monitor-portatil-aoc-156-fhd-ips-usbc-capa-ma": {
-    "ts": "2026-11-24T16:57:52.223964",
-    "canales": {
-      "whatsapp": "2026-11-24T16:57:52.223964"
-    },
-    "precio": 469.0,
-    "precios_publicados": [
-      469.0
-    ]
-  },
   "amz-monitor-gamer-tcl-25-polegadas-qdmini-led-ful": {
     "ts": "2026-11-24T17:08:54.864475",
     "canales": {
@@ -2646,6 +2636,16 @@
     "precio": 141.0,
     "precios_publicados": [
       141.0
+    ]
+  },
+  "amz-marvels-spiderman-miles-morales-edicao-padrao": {
+    "ts": "2026-11-26T17:03:02.344314",
+    "canales": {
+      "whatsapp": "2026-11-26T17:03:02.344314"
+    },
+    "precio": 90.0,
+    "precios_publicados": [
+      90.0
     ]
   }
 }
