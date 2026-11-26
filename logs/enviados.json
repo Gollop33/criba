@@ -174,26 +174,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-the-last-of-us-part-ii-playstation-4": {
-    "ts": "2026-11-24T15:44:05.513865",
-    "canales": {
-      "whatsapp": "2026-11-24T15:44:05.513865"
-    },
-    "precio": 88.0,
-    "precios_publicados": [
-      88.0
-    ]
-  },
-  "amz-marvels-spiderman-miles-morales-edicao-padrao": {
-    "ts": "2026-11-24T15:50:35.148116",
-    "canales": {
-      "whatsapp": "2026-11-24T15:50:35.148116"
-    },
-    "precio": 90.0,
-    "precios_publicados": [
-      90.0
-    ]
-  },
   "amz-ghost-of-tsushima-edicao-padrao-playstation-4": {
     "ts": "2026-11-24T15:57:50.925566",
     "canales": {
@@ -1519,14 +1499,16 @@
     "precio_min_publicado": 67.0
   },
   "amz-kadi-areia-biodegradavel-graos-finos-4kg-milh": {
-    "ts": "2026-11-25T15:43:49.992200",
+    "ts": "2026-11-26T15:51:03.767967",
     "canales": {
-      "whatsapp": "2026-11-25T15:43:49.992200"
+      "whatsapp": "2026-11-26T15:51:03.767967"
     },
-    "precio": 35.0,
+    "precio": 30.0,
     "precios_publicados": [
-      35.0
-    ]
+      35.0,
+      30.0
+    ],
+    "precio_min_publicado": 35.0
   },
   "amz-wap-aspirador-automotivo-portatil-12v-420ml-s": {
     "ts": "2026-11-25T15:48:45.586666",
