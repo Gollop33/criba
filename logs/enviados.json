@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 222.0
   },
-  "amz-roku-streaming-stick-hd-2025-dispositivo-de-s": {
-    "ts": "2026-11-24T13:17:28.450172",
-    "canales": {
-      "whatsapp": "2026-11-24T13:17:28.450172"
-    },
-    "precio": 239.0,
-    "precios_publicados": [
-      239.0
-    ]
-  },
   "amz-notebook-vaio-fe16-amd-ryzen-55625u-windows-1": {
     "ts": "2026-11-24T13:22:41.507704",
     "canales": {
@@ -2746,6 +2736,16 @@
     "precio": 318.0,
     "precios_publicados": [
       318.0
+    ]
+  },
+  "amz-apple-iphone-17e-de-256-gb-preto": {
+    "ts": "2026-11-26T13:22:37.154765",
+    "canales": {
+      "whatsapp": "2026-11-26T13:22:37.154765"
+    },
+    "precio": 4554.0,
+    "precios_publicados": [
+      4554.0
     ]
   }
 }
