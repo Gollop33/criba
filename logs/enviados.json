@@ -186,16 +186,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-nivea-kit-locao-hidratante-milk-pele-seca-a-e": {
-    "ts": "2026-11-24T21:08:08.518175",
-    "canales": {
-      "whatsapp": "2026-11-24T21:08:08.518175"
-    },
-    "precio": 29.0,
-    "precios_publicados": [
-      29.0
-    ]
-  },
   "amz-cetaphil-creme-hidratante": {
     "ts": "2026-11-24T21:14:59.477933",
     "canales": {
@@ -3008,6 +2998,16 @@
     "precio": 159.0,
     "precios_publicados": [
       159.0
+    ]
+  },
+  "amz-monitor-gamer-lg-20-20u401ab-75hz-2ms-uhd-led": {
+    "ts": "2026-11-26T21:11:10.511644",
+    "canales": {
+      "whatsapp": "2026-11-26T21:11:10.511644"
+    },
+    "precio": 318.0,
+    "precios_publicados": [
+      318.0
     ]
   }
 }
