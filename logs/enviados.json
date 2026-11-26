@@ -186,16 +186,6 @@
     ],
     "precio_min_publicado": 54.0
   },
-  "amz-fralda-pampers-confort-sec-tamanho-xxg-148-un": {
-    "ts": "2026-11-24T17:15:18.440472",
-    "canales": {
-      "whatsapp": "2026-11-24T17:15:18.440472"
-    },
-    "precio": 24900.0,
-    "precios_publicados": [
-      24900.0
-    ]
-  },
   "amz-secret-desodorante-antitranspirante-em-gel-pr": {
     "ts": "2026-11-24T21:01:51.818851",
     "canales": {
@@ -2676,6 +2666,16 @@
     "precio": 665.0,
     "precios_publicados": [
       665.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
+    "ts": "2026-11-26T17:23:40.593488",
+    "canales": {
+      "whatsapp": "2026-11-26T17:23:40.593488"
+    },
+    "precio": 1499.0,
+    "precios_publicados": [
+      1499.0
     ]
   }
 }
