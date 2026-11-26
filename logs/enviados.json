@@ -184,26 +184,6 @@
     ],
     "precio_min_publicado": 222.0
   },
-  "amz-celular-samsung-galaxy-a17-5g-256gb-8gb-50mp-": {
-    "ts": "2026-11-24T13:45:55.031638",
-    "canales": {
-      "whatsapp": "2026-11-24T13:45:55.031638"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0
-    ]
-  },
-  "amz-whey-protein-concentrado-pote-900g-chocolate-": {
-    "ts": "2026-11-24T13:47:56.335273",
-    "canales": {
-      "whatsapp": "2026-11-24T13:47:56.335273"
-    },
-    "precio": 220.0,
-    "precios_publicados": [
-      220.0
-    ]
-  },
   "amz-notebook-dell-inspiron-i15i1300a30p-156-full-": {
     "ts": "2026-11-24T13:51:22.896962",
     "canales": {
@@ -2746,6 +2726,16 @@
     "precio": 125.0,
     "precios_publicados": [
       125.0
+    ]
+  },
+  "amz-nivea-sabonete-em-barra-pure-milk-sensitive-p": {
+    "ts": "2026-11-26T13:50:57.092883",
+    "canales": {
+      "whatsapp": "2026-11-26T13:50:57.092883"
+    },
+    "precio": 2139.0,
+    "precios_publicados": [
+      2139.0
     ]
   }
 }
