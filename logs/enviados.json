@@ -184,16 +184,6 @@
     ],
     "precio_min_publicado": 222.0
   },
-  "amz-notebook-vaio-fe16-amd-ryzen-55625u-windows-1": {
-    "ts": "2026-11-24T13:22:41.507704",
-    "canales": {
-      "whatsapp": "2026-11-24T13:22:41.507704"
-    },
-    "precio": 5349.0,
-    "precios_publicados": [
-      5349.0
-    ]
-  },
   "amz-tablet-vaio-tl10-8gb-128gb-octacore-tela-104-": {
     "ts": "2026-11-24T13:32:02.403281",
     "canales": {
@@ -2746,6 +2736,16 @@
     "precio": 4554.0,
     "precios_publicados": [
       4554.0
+    ]
+  },
+  "amz-papel-higienico-neve-supreme-folha-tripla-lev": {
+    "ts": "2026-11-26T13:29:20.456524",
+    "canales": {
+      "whatsapp": "2026-11-26T13:29:20.456524"
+    },
+    "precio": 5597.0,
+    "precios_publicados": [
+      5597.0
     ]
   }
 }
