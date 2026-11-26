@@ -135,16 +135,17 @@
     "precio_min_publicado": 27.0
   },
   "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
-    "ts": "2026-11-25T04:23:46.959130",
+    "ts": "2026-11-26T04:51:40.278662",
     "canales": {
-      "whatsapp": "2026-11-25T04:23:46.959130"
+      "whatsapp": "2026-11-26T04:51:40.278662"
     },
     "precio": 928.0,
     "precios_publicados": [
       1069.0,
+      928.0,
       928.0
     ],
-    "precio_min_publicado": 1069.0
+    "precio_min_publicado": 928.0
   },
   "amz-monitor-gamer-curvo-samsung-odyssey-34-ultra-": {
     "ts": "2026-11-26T03:29:41.527984",
@@ -171,16 +172,6 @@
       779.0
     ],
     "precio_min_publicado": 779.0
-  },
-  "ml-monitor-portatil-arzopa-a1-gamut-156-fhd-1080": {
-    "ts": "2026-11-24T04:27:39.720733",
-    "canales": {
-      "whatsapp": "2026-11-24T04:27:39.720733"
-    },
-    "precio": 591.0,
-    "precios_publicados": [
-      591.0
-    ]
   },
   "ml-tablet-samsung-galaxy-tab-a11-64gb-prata-eboo": {
     "ts": "2026-11-24T05:37:42.621948",
