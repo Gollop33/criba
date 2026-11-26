@@ -672,11 +672,6 @@
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
     },
-    "OFERTADEHOJE": {
-      "detectado_em": "2026-10-27T19:00:12+00:00",
-      "publicado_em": null,
-      "motivo": "detectado hace 334h (> 24h)"
-    },
     "HOJENOML": {
       "detectado_em": "2026-11-10T21:31:57+00:00",
       "publicado_em": null,
@@ -1508,5 +1503,5 @@
       "motivo": "detectado hace 171h (> 24h)"
     }
   },
-  "actualizado": "2026-11-26T18:50:46+00:00"
+  "actualizado": "2026-11-26T19:00:29+00:00"
 }
