@@ -172,26 +172,6 @@
     ],
     "precio_min_publicado": 37.0
   },
-  "amz-nivea-hidratante-labial-original-care-48g-hid": {
-    "ts": "2026-11-24T09:09:13.559723",
-    "canales": {
-      "whatsapp": "2026-11-24T09:09:13.559723"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      12.0
-    ]
-  },
-  "amz-protetor-solar-facial-minesol-oil-control-sem": {
-    "ts": "2026-11-24T09:15:48.912037",
-    "canales": {
-      "whatsapp": "2026-11-24T09:15:48.912037"
-    },
-    "precio": 55.0,
-    "precios_publicados": [
-      55.0
-    ]
-  },
   "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
     "ts": "2026-11-24T09:22:38.205598",
     "canales": {
@@ -2728,6 +2708,16 @@
     "precio": 25.0,
     "precios_publicados": [
       25.0
+    ]
+  },
+  "amz-nivea-hidratante-labial-amora-shine-48g-hidra": {
+    "ts": "2026-11-26T09:22:25.036993",
+    "canales": {
+      "whatsapp": "2026-11-26T09:22:25.036993"
+    },
+    "precio": 12.0,
+    "precios_publicados": [
+      12.0
     ]
   }
 }
