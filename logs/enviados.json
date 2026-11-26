@@ -174,26 +174,6 @@
     ],
     "precio_min_publicado": 17.0
   },
-  "amz-ghost-of-tsushima-edicao-padrao-playstation-4": {
-    "ts": "2026-11-24T15:57:50.925566",
-    "canales": {
-      "whatsapp": "2026-11-24T15:57:50.925566"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
-  "amz-god-of-war-iii-remasterizado-hits-playstation": {
-    "ts": "2026-11-24T16:08:52.254484",
-    "canales": {
-      "whatsapp": "2026-11-24T16:08:52.254484"
-    },
-    "precio": 59.0,
-    "precios_publicados": [
-      59.0
-    ]
-  },
   "amz-romantic-crown-mochila-masculina-de-viagem-pa": {
     "ts": "2026-11-24T16:15:22.391599",
     "canales": {
@@ -1087,14 +1067,16 @@
     ]
   },
   "amz-downy-amaciante-de-roupas-concentrado-liquido": {
-    "ts": "2026-11-25T09:57:33.671305",
+    "ts": "2026-11-26T16:10:52.879789",
     "canales": {
-      "whatsapp": "2026-11-25T09:57:33.671305"
+      "whatsapp": "2026-11-26T16:10:52.879789"
     },
-    "precio": 43.0,
+    "precio": 37.0,
     "precios_publicados": [
-      43.0
-    ]
+      43.0,
+      37.0
+    ],
+    "precio_min_publicado": 43.0
   },
   "amz-ola-bebe-sabao-liquido-para-roupas-finas-e-de": {
     "ts": "2026-11-25T10:15:46.038422",
