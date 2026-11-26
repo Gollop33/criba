@@ -172,16 +172,6 @@
     ],
     "precio_min_publicado": 31.0
   },
-  "amz-celular-samsung-galaxy-s26-5g-256gb-12gb-ram-": {
-    "ts": "2026-11-24T12:51:29.809689",
-    "canales": {
-      "whatsapp": "2026-11-24T12:51:29.809689"
-    },
-    "precio": 4776.0,
-    "precios_publicados": [
-      4776.0
-    ]
-  },
   "amz-ventilador-de-coluna-britania-6-pas-de-40cm-1": {
     "ts": "2026-11-25T15:30:55.303485",
     "canales": {
@@ -2746,6 +2736,16 @@
     "precio": 212.0,
     "precios_publicados": [
       212.0
+    ]
+  },
+  "amz-vitafor-omegafor-plus-240-capsulas-pureza-e-q": {
+    "ts": "2026-11-26T12:57:21.657894",
+    "canales": {
+      "whatsapp": "2026-11-26T12:57:21.657894"
+    },
+    "precio": 231.0,
+    "precios_publicados": [
+      231.0
     ]
   }
 }
