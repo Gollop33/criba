@@ -160,16 +160,6 @@
     ],
     "precio_min_publicado": 37.0
   },
-  "amz-pelicula-para-kindle-paperwhite-12a-geracao-e": {
-    "ts": "2026-11-24T10:24:30.700600",
-    "canales": {
-      "whatsapp": "2026-11-24T10:24:30.700600"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-11-24T10:33:55.028449",
     "canales": {
@@ -2766,6 +2756,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-monitor-gamer-aoc-agon-quad-27-qhd-180hz-05ms": {
+    "ts": "2026-11-26T10:29:58.265215",
+    "canales": {
+      "whatsapp": "2026-11-26T10:29:58.265215"
+    },
+    "precio": 1039.0,
+    "precios_publicados": [
+      1039.0
     ]
   }
 }
