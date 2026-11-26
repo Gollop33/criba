@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-26T23:22:52+00:00",
+  "actualizado": "2026-11-26T23:29:12+00:00",
   "total": 22,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,7 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "papel toalha em rolo scala plus mega 360",
@@ -17,7 +17,7 @@
       "precio_ref": 11.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "faqueiro tramontina buzios em aco inox com detalhe",
@@ -25,15 +25,7 @@
       "precio_ref": 54.85,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
-      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
-      "precio_ref": 30.97,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "downy amaciante de roupas concentrado liquido brisa suave",
@@ -41,7 +33,7 @@
       "precio_ref": 37.88,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "mondial liquidificador turbo power preto 550w 110v l",
@@ -49,15 +41,15 @@
       "precio_ref": 79.89,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
-      "busqueda": "bebedouro para gatos 3l fonte gato inox comedouros",
-      "nombre": "Bebedouro para Gatos, 3L Fonte Gato Inox Comedouros, Bebedouros e Acessorios para Gatos, Silenciosa, Bivolt",
-      "precio_ref": 95.06,
-      "categoria": "Pet Shop",
+      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
+      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
+      "precio_ref": 30.97,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "fralda pom pom protek protecao de mae hiper",
@@ -65,7 +57,7 @@
       "precio_ref": 45.33,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "marvel s spider man 2 ps5",
@@ -73,7 +65,15 @@
       "precio_ref": 133.59,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "bebedouro para gatos 3l fonte gato inox comedouros",
+      "nombre": "Bebedouro para Gatos, 3L Fonte Gato Inox Comedouros, Bebedouros e Acessorios para Gatos, Silenciosa, Bivolt",
+      "precio_ref": 95.06,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "whey protein concentrado baunilha pote 900g contribui para",
@@ -81,15 +81,7 @@
       "precio_ref": 149.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
-      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
-      "precio_ref": 59.99,
-      "categoria": "Periféricos & Setup Gamer",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "god of war iii remasterizado hits playstation 4",
@@ -97,7 +89,7 @@
       "precio_ref": 59.0,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "creatina monohidratada 1kg 100 pura importada soldiers nutrition",
@@ -105,15 +97,15 @@
       "precio_ref": 68.9,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
-      "busqueda": "ghost of tsushima edicao padrao playstation 4",
-      "nombre": "Ghost Of Tsushima Edição Padrão - PlayStation 4",
-      "precio_ref": 59.9,
-      "categoria": "Games & Gift Cards",
+      "busqueda": "headset gamer havit h2232d rgb com microfone falante",
+      "nombre": "Headset Gamer Havit H2232d, RGB, com Microfone, Falante de 50mm | Conector 3.5mm, Cabo USB para Iluminação",
+      "precio_ref": 59.99,
+      "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "god of war hits playstation 4",
@@ -121,55 +113,15 @@
       "precio_ref": 59.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
-      "busqueda": "controle sem fio playstation dualsensetm midnight black",
-      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
-      "precio_ref": 399.0,
+      "busqueda": "ghost of tsushima edicao padrao playstation 4",
+      "nombre": "Ghost Of Tsushima Edição Padrão - PlayStation 4",
+      "precio_ref": 59.9,
       "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "playstation5 pro",
-      "nombre": "PlayStation®5 Pro",
-      "precio_ref": 7899.0,
-      "categoria": "Games & Gift Cards",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
-      "nombre": "Celular Samsung Galaxy S26+ 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.7\" - Preto",
-      "precio_ref": 4776.66,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
-      "nombre": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
-      "precio_ref": 999.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "kingston flash drive exodia m 128gb usb pen",
-      "nombre": "Kingston Flash Drive Exodia M 128GB USB | Pen drive USB 3.2 Geração 1 com tampa móvel e laço de chaveiro para documentos, mús",
-      "precio_ref": 106.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
-    },
-    {
-      "busqueda": "jbl tune 530bt fone bluetooth over ear sem",
-      "nombre": "JBL Tune 530BT Fone Bluetooth Over-Ear Sem Fio Preto | Até 76h de Bateria, Drivers de 33 mm, JBL Pure Bass, Carga Rápida, 2 M",
-      "precio_ref": 171.0,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     },
     {
       "busqueda": "monitor portatil aoc 15 6 fhd ips usb",
@@ -177,7 +129,55 @@
       "precio_ref": 485.59,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-26T23:22:52+00:00"
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "jbl tune 530bt fone bluetooth over ear sem",
+      "nombre": "JBL Tune 530BT Fone Bluetooth Over-Ear Sem Fio Preto | Até 76h de Bateria, Drivers de 33 mm, JBL Pure Bass, Carga Rápida, 2 M",
+      "precio_ref": 171.0,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "playstation5 pro",
+      "nombre": "PlayStation®5 Pro",
+      "precio_ref": 7899.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm midnight black",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
+      "precio_ref": 399.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s26 5g 256gb 12gb ram",
+      "nombre": "Celular Samsung Galaxy S26+ 5G, 256GB, 12GB RAM, Câmera Tripla de 50+12+10, Tela Grande de 6.7\" - Preto",
+      "precio_ref": 4776.66,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "monitor gamer tcl 25 polegadas qd mini led",
+      "nombre": "Monitor Gamer TCL 25 Polegadas QD-Mini LED Full HD G64 300Hz 1ms (GtG) Freesync HDR 600 nits 25G64",
+      "precio_ref": 999.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
+    },
+    {
+      "busqueda": "kingston flash drive exodia m 128gb usb pen",
+      "nombre": "Kingston Flash Drive Exodia M 128GB USB | Pen drive USB 3.2 Geração 1 com tampa móvel e laço de chaveiro para documentos, mús",
+      "precio_ref": 106.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-26T23:29:12+00:00"
     }
   ]
 }
