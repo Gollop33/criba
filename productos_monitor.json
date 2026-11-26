@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-25T23:56:53+00:00",
-  "total": 4,
+  "actualizado": "2026-11-26T00:23:00+00:00",
+  "total": 1,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,31 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-25T23:56:53+00:00"
-    },
-    {
-      "busqueda": "xiaomi redmi pad 2 11 8gb 256gb wifi",
-      "nombre": "Xiaomi Redmi Pad 2 11'' 8GB-256GB WiFi Cinza (Cinza Grafite)",
-      "precio_ref": 1729.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T23:56:53+00:00"
-    },
-    {
-      "busqueda": "tablet infantil positivo vision tab 7 minions octa",
-      "nombre": "Tablet Infantil Positivo Vision Tab 7 Minions - Octa-Core 3GB RAM 64GB Armazenamento, Tela 7\" IPS, Bateria 3100mAh, Android 1",
-      "precio_ref": 469.41,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T23:56:53+00:00"
-    },
-    {
-      "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
-      "nombre": "Samsung Tablet Galaxy Tab S10 Lite WiFi, 256GB, 8GB RAM, Tela 10.9\", S Pen e Capa Smartbook Cover Inclusas",
-      "precio_ref": 2599.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-25T23:56:53+00:00"
+      "monitorizado_desde": "2026-11-26T00:23:00+00:00"
     }
   ]
 }
