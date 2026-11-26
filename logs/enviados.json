@@ -160,16 +160,6 @@
     ],
     "precio_min_publicado": 37.0
   },
-  "amz-leitor-de-cartao-de-memoria-ugreen-usb-30-slo": {
-    "ts": "2026-11-24T10:48:01.082081",
-    "canales": {
-      "whatsapp": "2026-11-24T10:48:01.082081"
-    },
-    "precio": 68.0,
-    "precios_publicados": [
-      68.0
-    ]
-  },
   "amz-fralda-turma-da-monica-baby-jumbo-rn-36-unida": {
     "ts": "2026-11-24T10:51:42.545605",
     "canales": {
@@ -2766,6 +2756,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-colgate-tripla-acao-menta-original-creme-dent": {
+    "ts": "2026-11-26T10:50:58.587154",
+    "canales": {
+      "whatsapp": "2026-11-26T10:50:58.587154"
+    },
+    "precio": 22.0,
+    "precios_publicados": [
+      22.0
     ]
   }
 }
