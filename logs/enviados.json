@@ -171,26 +171,6 @@
     ],
     "precio_min_publicado": 1069.0
   },
-  "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
-    "ts": "2026-11-24T00:04:37.333684",
-    "canales": {
-      "whatsapp": "2026-11-24T00:04:37.333684"
-    },
-    "precio": 1776.0,
-    "precios_publicados": [
-      1776.0
-    ]
-  },
-  "amz-smartphone-xiaomi-redmi-15c-midnight-black-pr": {
-    "ts": "2026-11-24T00:06:00.901514",
-    "canales": {
-      "whatsapp": "2026-11-24T00:06:00.901514"
-    },
-    "precio": 1250.0,
-    "precios_publicados": [
-      1250.0
-    ]
-  },
   "amz-monitor-dell-22-full-hd-1920-x-1080-100-hz-va": {
     "ts": "2026-11-24T00:13:21.244286",
     "canales": {
@@ -2981,6 +2961,16 @@
     "precio": 1729.0,
     "precios_publicados": [
       1729.0
+    ]
+  },
+  "amz-tablet-infantil-positivo-vision-tab-7-minions": {
+    "ts": "2026-11-26T00:06:07.713210",
+    "canales": {
+      "whatsapp": "2026-11-26T00:06:07.713210"
+    },
+    "precio": 469.0,
+    "precios_publicados": [
+      469.0
     ]
   }
 }
