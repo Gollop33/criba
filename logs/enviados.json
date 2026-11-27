@@ -18,19 +18,6 @@
     ],
     "precio_min_publicado": 53.0
   },
-  "amz-personal-vip-papel-higienico-folha-dupla-bran": {
-    "ts": "2026-11-25T14:50:51.356191",
-    "canales": {
-      "whatsapp": "2026-11-25T14:50:51.356191"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      4997.0,
-      27.0,
-      27.0
-    ],
-    "precio_min_publicado": 27.0
-  },
   "amz-smartphone-motorola-moto-g15256gb-4gb-ram8gb-": {
     "ts": "2026-11-26T04:51:40.278662",
     "canales": {
@@ -219,16 +206,6 @@
       79.0
     ],
     "precio_min_publicado": 90.0
-  },
-  "amz-apple-iphone-16e-de-128-gb-preto": {
-    "ts": "2026-11-25T14:57:35.025944",
-    "canales": {
-      "whatsapp": "2026-11-25T14:57:35.025944"
-    },
-    "precio": 3332.0,
-    "precios_publicados": [
-      3332.0
-    ]
   },
   "amz-adaptador-de-energia-usba-de-9w-oficial-amazo": {
     "ts": "2026-11-25T15:08:27.288656",
@@ -2786,6 +2763,16 @@
     "precio": 71.0,
     "precios_publicados": [
       71.0
+    ]
+  },
+  "amz-sanduicheira-eletrica-cadence-click-127v": {
+    "ts": "2026-11-27T14:57:44.381714",
+    "canales": {
+      "whatsapp": "2026-11-27T14:57:44.381714"
+    },
+    "precio": 75.0,
+    "precios_publicados": [
+      75.0
     ]
   }
 }
