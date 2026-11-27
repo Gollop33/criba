@@ -57,31 +57,6 @@
       "publicado_em": "2026-10-31T19:15:18+00:00",
       "motivo": "tanda"
     },
-    "ESQUENTA": {
-      "detectado_em": "2026-10-28T14:02:12+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "ESPECIAL": {
-      "detectado_em": "2026-10-28T14:02:12+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "OFERTAESPECIAL": {
-      "detectado_em": "2026-10-28T14:02:12+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PROMOCONSTRUIR": {
-      "detectado_em": "2026-10-28T17:31:45+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
-    "PROMOAGORA": {
-      "detectado_em": "2026-10-28T17:31:45+00:00",
-      "publicado_em": null,
-      "motivo": "no está activado en la cuenta del usuario"
-    },
     "BONUSML": {
       "detectado_em": "2026-10-29T14:04:11+00:00",
       "publicado_em": null,
@@ -1571,7 +1546,117 @@
       "detectado_em": "2026-11-27T01:00:34+00:00",
       "publicado_em": null,
       "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MEUDESCONTOBLACK": {
+      "detectado_em": "2026-11-27T19:04:11+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "BLACKMELI": {
+      "detectado_em": "2026-11-27T18:00:30+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SUPEROFF": {
+      "detectado_em": "2026-11-27T17:00:25+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "TECHONOMELI": {
+      "detectado_em": "2026-11-27T16:01:28+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "BLACKVIPMELI": {
+      "detectado_em": "2026-11-27T15:02:25+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "RELAMPAGO": {
+      "detectado_em": "2026-11-27T14:01:02+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "APROVEITANOML25": {
+      "detectado_em": "2026-11-27T13:07:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CORREPROAPP30": {
+      "detectado_em": "2026-11-27T13:07:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CORREPROMELI30": {
+      "detectado_em": "2026-11-27T13:07:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIOFF35": {
+      "detectado_em": "2026-11-27T13:07:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "MELIVIP35": {
+      "detectado_em": "2026-11-27T13:07:37+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PRECINHOBLACK": {
+      "detectado_em": "2026-11-27T13:02:19+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "HORABLACK": {
+      "detectado_em": "2026-11-27T13:02:19+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CORREAQUIML": {
+      "detectado_em": "2026-11-27T13:02:19+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "TEMOFERTA": {
+      "detectado_em": "2026-11-27T13:02:19+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "PROMOHOJEPRACASA": {
+      "detectado_em": "2026-11-27T12:07:20+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CONECTAML": {
+      "detectado_em": "2026-11-27T12:07:20+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "TUDOPARAOBRA": {
+      "detectado_em": "2026-11-27T12:07:20+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "GARAGEMML": {
+      "detectado_em": "2026-11-27T12:07:20+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "CUIDADOML": {
+      "detectado_em": "2026-11-27T12:07:20+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "SOHOJEBF": {
+      "detectado_em": "2026-11-27T11:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
+    },
+    "RENOVACASA": {
+      "detectado_em": "2026-11-27T11:01:01+00:00",
+      "publicado_em": null,
+      "motivo": "no está activado en la cuenta del usuario"
     }
   },
-  "actualizado": "2026-11-27T13:14:05+00:00"
+  "actualizado": "2026-11-27T19:19:51+00:00"
 }

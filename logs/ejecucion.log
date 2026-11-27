@@ -153463,3 +153463,165 @@
 [2026-11-27 19:15:19] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
 [2026-11-27 19:15:19] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
 [2026-11-27 19:15:21] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
+[2026-11-27 19:17:20] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-11-27 19:17:20] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-11-27 19:17:20] [CUPONS_ML] Utilizando fallback de Pelando para Mercado Livre...
+[2026-11-27 19:17:20] [CUPONS_ML] Ejecutando fallback en Pelando: https://www.pelando.com.br/cupons-de-descontos/mercado-livre...
+[2026-11-27 19:17:21] [CUPONS_ML] Pelando retornó status HTTP 403
+[2026-11-27 19:17:21] [CUPONS_ML] Limpieza completada: 0 vencidos eliminados, 0 marcados vigente=false.
+[2026-11-27 19:17:21] [CUPONS_ML] Cupones ML actualizados: 0 nuevos, 0 refrescados.
+[2026-11-27 19:17:21] [CUPONS_ML] Total cupones en cupones.json: 400
+[2026-11-27 19:17:21] [PELANDO] Scraping Amazon (https://www.pelando.com.br/cupons-de-descontos/amazon)
+[2026-11-27 19:17:25] [PELANDO]   Falha ao acessar Amazon
+[2026-11-27 19:17:27] [PELANDO] Scraping KaBuM! (https://www.pelando.com.br/cupons-de-descontos/kabum)
+[2026-11-27 19:17:31] [PELANDO]   Falha ao acessar KaBuM!
+[2026-11-27 19:17:33] [PELANDO] Scraping Mercado Livre (https://www.pelando.com.br/cupons-de-descontos/mercado-livre)
+[2026-11-27 19:17:37] [PELANDO]   Falha ao acessar Mercado Livre
+[2026-11-27 19:17:39] [PELANDO] Scraping Shopee (https://www.pelando.com.br/cupons-de-descontos/shopee)
+[2026-11-27 19:17:43] [PELANDO]   Falha ao acessar Shopee
+[2026-11-27 19:17:45] [PELANDO] Scraping Magazine Luiza (https://www.pelando.com.br/cupons-de-descontos/magalu)
+[2026-11-27 19:17:49] [PELANDO]   Falha ao acessar Magazine Luiza
+[2026-11-27 19:17:51] [PELANDO] Scraping AliExpress (https://www.pelando.com.br/cupons-de-descontos/aliexpress)
+[2026-11-27 19:17:55] [PELANDO]   Falha ao acessar AliExpress
+[2026-11-27 19:17:57] [PELANDO] Scraping Pichau (https://www.pelando.com.br/cupons-de-descontos/pichau)
+[2026-11-27 19:18:02] [PELANDO]   Falha ao acessar Pichau
+[2026-11-27 19:18:04] [PELANDO] Scraping Terabyte Shop (https://www.pelando.com.br/cupons-de-descontos/terabyte)
+[2026-11-27 19:18:08] [PELANDO]   Falha ao acessar Terabyte Shop
+[2026-11-27 19:18:10] [PELANDO] Completado: 0 Pelando + 400 manuales = 400 total
+[2026-11-27 19:18:10] [AGENTE-ML] Consultando API oficial de Mercado Libre...
+[2026-11-27 19:18:15] [AGENTE-ML] API ML: 0 ofertas obtenidas
+[2026-11-27 19:18:15] [AGENTE-ML] Consultando scraping de ofertas en Mercado Livre...
+[2026-11-27 19:18:15] [AGENTE-ML]   [COOKIE-ESTRUCTURA] 29 cookies, 3011 chars | c_xe42xnaFXxBAzUzt0QGr5g, c_Z2cdfTa, orguseridp, _csrf, _ml_ar-browser-check, cp, cookiesPreferencesNotLogged, _hjSessionUser_580848, ssid, c_I2q2G, nsa_rotok, _hjSessionUser_720738, c_11jyaG, __rtbh.lid, __rtbh.uid, _cq_duid, _cq_session, _d2id, _hjSession_720738, _mldataSessionId, cookiesPreferencesLogged, cookiesPreferencesLoggedFallback, ftid, hide-cookie-banner, ml_cart-quantity, orgnickp, orguserid, QSI_SI_d4ikElJeWDP7fzo_intercept, x-meli-session-id
+[2026-11-27 19:18:38] [AGENTE-ML]   [DIAGNÓSTICO] 13 categoría(s) devolvieron la cáscara anti-bot. La API oficial (ML_ACCESS_TOKEN) es el respaldo. Si tampoco cubre, renueva ML_PORTAL_COOKIE: exporta las cookies del navegador, actualízala en .env y súbela con 'python subir_secrets.py' (GH_PAT).
+[2026-11-27 19:18:38] [AGENTE-ML] Scraping ML: 0 ofertas obtenidas | 13 categoría(s) sin sesión
+[2026-11-27 19:18:38] [AGENTE-ML] Guardados 0 achados en achados_ml.json
+[2026-11-27 19:18:38] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-11-27 19:19:43] [AGENTE-AMAZON] Amazon direct: 240 ofertas cosechadas | categorias OK 27/28 | HTTP {503: 1} | sin tarjetas 19
+[2026-11-27 19:19:43] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-11-27 19:19:43] [AGENTE-AMAZON] Pelando Amazon: HTTP 403
+[2026-11-27 19:19:43] [AGENTE-AMAZON] Guardados 199 achados en achados_amazon.json
+[2026-11-27 19:19:45] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-11-27 19:19:45] [AGENTE-AMAZON] Amazon Pelando: 1 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 1 sin precio legible, 1 duplicadas
+[2026-11-27 19:19:45] [AGENTE-AMAZON] Cosechando ofertas quentes de Amazon en Pelando...
+[2026-11-27 19:19:48] [AGENTE-AMAZON] Amazon Pelando: 0 ofertas reales | descartadas: 2 campañas, 0 sin ficha, 2 sin precio legible, 1 duplicadas
+[2026-11-27 19:19:48] [AGENTE-AMAZON] Cosechando Bestsellers y ofertas de categorías Amazon...
+[2026-11-27 19:19:50] [AGENTE-AMAZON] Amazon direct: 0 ofertas cosechadas | categorias OK 0/1 | HTTP {503: 1}
+[2026-11-27 19:19:51] [CUPONS_ML] Consultando página oficial https://www.mercadolivre.com.br/cupons (Cookie presente: True)...
+[2026-11-27 19:19:51] [CUPONS_ML] Página oficial cargada pero no se detectaron cupones en el DOM/estado.
+[2026-11-27 19:19:51] [CUPONES] ⚠️  La página oficial no devolvió cupones (¿cookie caducada?). Se sigue con cupones.json.
+[2026-11-27 19:19:51] [CUPONES] Cupones activados en la cuenta del usuario: 17. Solo esos se publican.
+[2026-11-27 19:19:51] [CUPONES] Descartado BARRATINHOJA: detectado hace 956h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BRAND: detectado hace 974h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PREMIUM: detectado hace 974h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado STESSY: detectado hace 976h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BEAUTY: detectado hace 933h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PECAS: detectado hace 1139h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PNEUS: detectado hace 1151h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado VALEMUITO: detectado hace 964h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado FOIBARATO: detectado hace 905h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BATEDESCONTO: detectado hace 1123h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PRECINHOBOM: detectado hace 1123h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELICOMPRA: detectado hace 976h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELIOFFAQUI: detectado hace 1173h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado CORREAQUINOML: detectado hace 1154h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado VEJAESSAPROMO: detectado hace 1173h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SEMDEMORAML: detectado hace 1182h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELIMAIS: detectado hace 1182h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado TECNOML: detectado hace 1176h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado COMPRASML: detectado hace 1179h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado REFORMA15: detectado hace 1168h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MODA10DO10: detectado hace 1168h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado VALEMAIS: detectado hace 1168h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado NATAL1010: detectado hace 1168h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SEMPREMELI: detectado hace 1173h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MEUACHADO: detectado hace 1173h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado COMPRANOML: detectado hace 839h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BOLSOCHEIO: detectado hace 1179h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado CLIENTESVIPS: detectado hace 1157h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado CARRINHOMELI: detectado hace 1157h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado LOOKPRAVC: detectado hace 1155h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFFMELI: detectado hace 1157h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado TUDODEBOM: detectado hace 1157h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado HOJENOMELI: detectado hace 913h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BELEZA15: detectado hace 1152h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado DESCONTOAQUI: detectado hace 1153h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFFNOMELI: detectado hace 1154h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado HOJEPROMO20: detectado hace 1155h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado QUINZEOFF: detectado hace 1155h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado DESCONTOU: detectado hace 1134h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado DESCONTOSUPREMO: detectado hace 1134h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SONOMELI: detectado hace 1134h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OPAECONOMIZEI: detectado hace 1134h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado ACTINE15: detectado hace 1135h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SALVAMEUBOLSO: detectado hace 1033h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SAINDOBARRATO: detectado hace 1110h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado TUDOEMPROMO: detectado hace 1058h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELIOFFHJ: detectado hace 1010h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado CUPOMON: detectado hace 1086h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SUPERCUPOM: detectado hace 1086h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MEGADESCONTO: detectado hace 1062h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PEGUESEUCUPOM: detectado hace 890h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SEUCUPOM: detectado hace 866h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BATEUDESCONTO: detectado hace 1014h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado VEMDECUPOM: detectado hace 842h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado ESPECIALDESCONTOS: detectado hace 842h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado COMBINACUPOM: detectado hace 942h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado FESTIVALDECUPONS: detectado hace 942h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado APROVEITAMELI: detectado hace 942h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BOASOFERTAS: detectado hace 942h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFERTAS: detectado hace 942h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado ACHADOINCRIVEL: detectado hace 917h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PEGAESSEDESCONTO: detectado hace 917h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SUPERVALEMELI: detectado hace 768h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BOAESCOLHAMELI: detectado hace 768h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFERTASHJ: detectado hace 918h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado TOPOFERTA: detectado hace 888h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado APROVEITAESSE: detectado hace 893h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado TUDONOMELHOR: detectado hace 893h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado CORREQUETEM: detectado hace 893h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado POUPEMELI: detectado hace 893h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFFSEMPREMELI: detectado hace 894h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFERTACONSTRUIR: detectado hace 894h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado VALEAPENANOML: detectado hace 870h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado ECONOMIATOTAL: detectado hace 870h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELICUPOM: detectado hace 870h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado EXCLUSIVONOMELI: detectado hace 870h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MOVEIS200: detectado hace 842h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado CLUBEDECUPONS: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OPORTUNIDADE: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MAISQUEOFERTA: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELISUPERCLUB: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado TECHPROMO: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SEMPRE: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado AQUITEMOFERTAS: detectado hace 846h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado BEAUTY15: detectado hace 823h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado SPORTS15: detectado hace 823h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado VANTAGEMMELI: detectado hace 774h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado AGORAOUNUNCA: detectado hace 750h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MEUMIMO: detectado hace 750h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado PRESENTINHO: detectado hace 750h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MELHORPROMO: detectado hace 747h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado OFERTADEHOJE: detectado hace 744h (> 24h)
+[2026-11-27 19:19:51] [CUPONES] Descartado MEUDESCONTOBLACK: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado BLACKMELI: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado SUPEROFF: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado TECHONOMELI: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado BLACKVIPMELI: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado RELAMPAGO: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado APROVEITANOML25: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado CORREPROAPP30: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado CORREPROMELI30: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado MELIOFF35: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado MELIVIP35: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado PRECINHOBLACK: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado HORABLACK: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado CORREAQUIML: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado TEMOFERTA: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado PROMOHOJEPRACASA: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado CONECTAML: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado TUDOPARAOBRA: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado GARAGEMML: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado CUIDADOML: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado SOHOJEBF: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Descartado RENOVACASA: no está ACTIVADO en la cuenta del usuario
+[2026-11-27 19:19:51] [CUPONES] Sin cupones nuevos (427 códigos ya vistos).
