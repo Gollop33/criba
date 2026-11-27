@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
-    "ts": "2026-11-25T05:48:37.071598",
-    "canales": {
-      "whatsapp": "2026-11-25T05:48:37.071598"
-    },
-    "precio": 20.0,
-    "precios_publicados": [
-      20.0
-    ]
-  },
   "amz-colgate-sensitive-pro-alivio-xtreme-creme-den": {
     "ts": "2026-11-25T06:27:49.087099",
     "canales": {
@@ -2665,6 +2655,16 @@
     "precio": 2149.0,
     "precios_publicados": [
       2149.0
+    ]
+  },
+  "amz-placamae-asus-tuf-gaming-b550mplus-am4-matx-s": {
+    "ts": "2026-11-27T06:02:46.195436",
+    "canales": {
+      "whatsapp": "2026-11-27T06:02:46.195436"
+    },
+    "precio": 65310.0,
+    "precios_publicados": [
+      65310.0
     ]
   }
 }
