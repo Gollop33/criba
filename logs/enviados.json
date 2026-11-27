@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
-    "ts": "2026-11-25T03:57:56.635447",
-    "canales": {
-      "whatsapp": "2026-11-25T03:57:56.635447"
-    },
-    "precio": 1499.0,
-    "precios_publicados": [
-      1499.0
-    ]
-  },
   "amz-frigideira-grande-em-ceramica-cabo-de-madeira": {
     "ts": "2026-11-25T04:58:28.886214",
     "canales": {
@@ -2655,6 +2645,16 @@
     "precio": 1985.0,
     "precios_publicados": [
       1985.0
+    ]
+  },
+  "amz-rise-mode-elektra-fonte-gamer-650w-80-plus-br": {
+    "ts": "2026-11-27T04:22:20.837806",
+    "canales": {
+      "whatsapp": "2026-11-27T04:22:20.837806"
+    },
+    "precio": 251.0,
+    "precios_publicados": [
+      251.0
     ]
   }
 }
