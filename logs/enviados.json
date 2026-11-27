@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 90.0
   },
-  "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
-    "ts": "2026-11-25T14:22:58.558027",
-    "canales": {
-      "whatsapp": "2026-11-25T14:22:58.558027"
-    },
-    "precio": 1441.0,
-    "precios_publicados": [
-      1441.0
-    ]
-  },
   "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
     "ts": "2026-11-25T14:30:03.746768",
     "canales": {
@@ -2776,6 +2766,16 @@
     "precio": 36.0,
     "precios_publicados": [
       36.0
+    ]
+  },
+  "amz-cabo-usb-para-tipoc-usbc-60w-31a-carregamento": {
+    "ts": "2026-11-27T14:22:58.883389",
+    "canales": {
+      "whatsapp": "2026-11-27T14:22:58.883389"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
