@@ -173,16 +173,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-colgate-luminous-white-carvao-ativado-creme-d": {
-    "ts": "2026-11-25T09:50:53.226691",
-    "canales": {
-      "whatsapp": "2026-11-25T09:50:53.226691"
-    },
-    "precio": 14.0,
-    "precios_publicados": [
-      14.0
-    ]
-  },
   "amz-downy-amaciante-de-roupas-concentrado-liquido": {
     "ts": "2026-11-26T16:10:52.879789",
     "canales": {
@@ -2711,6 +2701,16 @@
     "precio": 52.0,
     "precios_publicados": [
       52.0
+    ]
+  },
+  "amz-sanremo-rodo-plastico-para-pia-de-14cm-cor-pr": {
+    "ts": "2026-11-27T10:18:57.766513",
+    "canales": {
+      "whatsapp": "2026-11-27T10:18:57.766513"
+    },
+    "precio": 5.0,
+    "precios_publicados": [
+      5.0
     ]
   }
 }
