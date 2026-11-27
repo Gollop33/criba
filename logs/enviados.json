@@ -171,46 +171,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-philips-fone-de-ouvido-sem-fio-tws-tat1109bk0": {
-    "ts": "2026-11-25T03:30:00.895447",
-    "canales": {
-      "whatsapp": "2026-11-25T03:30:00.895447"
-    },
-    "precio": 89.0,
-    "precios_publicados": [
-      89.0
-    ]
-  },
-  "amz-processador-amd-ryzen-7-9800x3d-am5-8-cores-1": {
-    "ts": "2026-11-25T03:37:04.200418",
-    "canales": {
-      "whatsapp": "2026-11-25T03:37:04.200418"
-    },
-    "precio": 2221.0,
-    "precios_publicados": [
-      2221.0
-    ]
-  },
-  "amz-tablet-samsung-galaxy-tab-s10-fe-cinza-128gb-": {
-    "ts": "2026-11-25T03:43:19.481740",
-    "canales": {
-      "whatsapp": "2026-11-25T03:43:19.481740"
-    },
-    "precio": 2739.0,
-    "precios_publicados": [
-      2739.0
-    ]
-  },
-  "amz-xiaomi-redmi-pad-2-apenas-wifi-sem-chamadas-o": {
-    "ts": "2026-11-25T03:50:48.766852",
-    "canales": {
-      "whatsapp": "2026-11-25T03:50:48.766852"
-    },
-    "precio": 1709.0,
-    "precios_publicados": [
-      1709.0
-    ]
-  },
   "amz-tablet-lenovo-idea-tab-11-90hz-octacore-4gb-r": {
     "ts": "2026-11-25T03:57:56.635447",
     "canales": {
@@ -2685,6 +2645,16 @@
     "precio": 2443.0,
     "precios_publicados": [
       2443.0
+    ]
+  },
+  "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-verme": {
+    "ts": "2026-11-27T03:53:32.146905",
+    "canales": {
+      "whatsapp": "2026-11-27T03:53:32.146905"
+    },
+    "precio": 1985.0,
+    "precios_publicados": [
+      1985.0
     ]
   }
 }
