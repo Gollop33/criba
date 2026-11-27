@@ -148,16 +148,17 @@
     "precio_min_publicado": 3999.0
   },
   "amz-downy-amaciante-de-roupas-concentrado-liquido": {
-    "ts": "2026-11-26T16:10:52.879789",
+    "ts": "2026-11-27T16:15:59.920124",
     "canales": {
-      "whatsapp": "2026-11-26T16:10:52.879789"
+      "whatsapp": "2026-11-27T16:15:59.920124"
     },
     "precio": 37.0,
     "precios_publicados": [
       43.0,
+      37.0,
       37.0
     ],
-    "precio_min_publicado": 43.0
+    "precio_min_publicado": 37.0
   },
   "amz-ola-bebe-sabao-liquido-para-roupas-finas-e-de": {
     "ts": "2026-11-27T08:24:26.388208",
@@ -231,26 +232,6 @@
       30.0
     ],
     "precio_min_publicado": 30.0
-  },
-  "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
-    "ts": "2026-11-25T16:09:55.175024",
-    "canales": {
-      "whatsapp": "2026-11-25T16:09:55.175024"
-    },
-    "precio": 13.0,
-    "precios_publicados": [
-      13.0
-    ]
-  },
-  "amz-max-titanium-creatina-monohidratada-pote-300g": {
-    "ts": "2026-11-25T16:12:43.695310",
-    "canales": {
-      "whatsapp": "2026-11-25T16:12:43.695310"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
   },
   "amz-tapete-higienico-premium-para-caes-petlike-ul": {
     "ts": "2026-11-25T16:16:40.260990",
