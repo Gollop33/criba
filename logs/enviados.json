@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
-    "ts": "2026-11-25T12:50:41.902316",
-    "canales": {
-      "whatsapp": "2026-11-25T12:50:41.902316"
-    },
-    "precio": 2.0,
-    "precios_publicados": [
-      2.0
-    ]
-  },
   "amz-fralda-pampers-premium-care-pants-tamanho-xxg": {
     "ts": "2026-11-25T12:57:15.028013",
     "canales": {
@@ -2762,6 +2752,16 @@
     "precio": 7899.0,
     "precios_publicados": [
       7899.0
+    ]
+  },
+  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
+    "ts": "2026-11-27T12:50:50.779367",
+    "canales": {
+      "whatsapp": "2026-11-27T12:50:50.779367"
+    },
+    "precio": 1070.0,
+    "precios_publicados": [
+      1070.0
     ]
   }
 }
