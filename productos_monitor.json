@@ -1,6 +1,6 @@
 {
-  "actualizado": "2026-11-27T07:43:51+00:00",
-  "total": 25,
+  "actualizado": "2026-11-27T07:49:04+00:00",
+  "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
     {
@@ -9,7 +9,23 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "detergente limpador para extratoras concentrado wap limpa e",
+      "nombre": "Detergente Limpador para Extratoras Concentrado WAP Limpa e Extrai, com Fragrância e sem Espuma, 1 Litro",
+      "precio_ref": 39.99,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "kadi areia biodegradavel graos finos 4kg milho e",
+      "nombre": "Kädi Areia Biodegradavel, Grãos Finos 4Kg Milho e Mandioca",
+      "precio_ref": 30.97,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "oral b pasta de dente 3d white brilliant",
@@ -17,15 +33,7 @@
       "precio_ref": 10.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
-    },
-    {
-      "busqueda": "fralda pom pom protek protecao de mae hiper",
-      "nombre": "Fralda Pom Pom Protek Proteção de Mãe Hiper G 68 Unidades | Proteção e conforto o dia todo – Proteção Mãe Hiper",
-      "precio_ref": 45.33,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "downy amaciante de roupas concentrado liquido brisa suave",
@@ -33,31 +41,39 @@
       "precio_ref": 37.88,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "downy amaciante concentrado brisa de verao 3l rende",
+      "nombre": "Downy Amaciante Concentrado Brisa de Verão 3L Rende 12L",
+      "precio_ref": 33.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "ola bebe sabao liquido para roupas finas e",
+      "nombre": "Ola Bebê Sabão Líquido para Roupas Finas e Delicadas, 3,8L",
+      "precio_ref": 38.63,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "tp link ub500 adaptador bluetooth para pc e",
       "nombre": "TP-Link UB500 Adaptador Bluetooth para PC e Notebook 5.3 Nano USB 2.0, Conecta até 7 Dispositivos, para Fone, Controle, Mouse",
-      "precio_ref": 52.82,
+      "precio_ref": 49.9,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
-      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
-      "precio_ref": 210.72,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "mondial ventilador de mesa 30cm 110v branco azul",
+      "nombre": "MONDIAL Ventilador de mesa 30cm, 110V, Branco/Azul - V-30-6P",
+      "precio_ref": 89.9,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 intel core 5 8",
-      "nombre": "Notebook ASUS Vivobook 15, Intel Core 5, 8 GB, 256 GB SSD, W11 Home, 15.6'' FHD, Cool Silver - X1504MA-BQ300W",
-      "precio_ref": 3299.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "havit fone de ouvido headset gamer fuxi h3",
@@ -65,95 +81,135 @@
       "precio_ref": 124.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "monitor gamer aoc agon g50 27 144hz 0",
-      "nombre": "Monitor Gamer AOC AGON G50 27\" 144Hz 0,5ms IPS HDR10 G-SYNC 27G50F",
-      "precio_ref": 599.0,
+      "busqueda": "fralda pampers confort sec tamanho g 168 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho G 168 Unidades",
+      "precio_ref": 210.72,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "monitor gamer lg ultragear 24 ips full hd",
+      "nombre": "Monitor Gamer LG UltraGear 24” IPS, Full HD, 180Hz, 1ms (GtG), HDMI, DisplayPort, HDR10, sRGB 99%, NVIDIA® G-SYNC®, AMD FreeS",
+      "precio_ref": 699.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "placa de video msi rtx 5060 shadow 2x",
-      "nombre": "Placa de Video MSI RTX 5060 Shadow 2X OC, 8GB, GDDR7-912-V537-037 | 8GB GDDR7 (28Gbps/128-bit), PCIe 5.0 - HDMI 2.1b, 3 x Dis",
-      "precio_ref": 3218.99,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
-    },
-    {
-      "busqueda": "monitor lg ultragear tela ips fhd de 27",
-      "nombre": "Monitor LG UltraGear, Tela IPS FHD de 27”, 300Hz, 1ms (GtG), sRGB, NVIDIA G-Sync, AMD FreeSync Premium, HDR10, HDMI, Preto -",
-      "precio_ref": 1349.0,
+      "busqueda": "monitor lg fhd home office 22u403a b 22",
+      "nombre": "Monitor LG FHD Home & Office 22U403A-B 22”, 1ms (MBR), 120Hz (O/C), Modo leitura, Flicker Safe, HDMI, Switch, Black Stabilize",
+      "precio_ref": 299.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "tablet samsung galaxy tab s10 fe cinza 128gb",
-      "nombre": "Tablet Samsung Galaxy Tab S10 FE, Cinza, 128GB, 8GB RAM, Tela Imersiva de 10.9\" 90Hz, Camera Traseira de 13MP, Câmera Frontal",
-      "precio_ref": 2499.87,
+      "busqueda": "vitafor omegafor plus 240 capsulas pureza e qualidade",
+      "nombre": "Vitafor - Omegafor Plus - 240 Cápsulas | Pureza e qualidade premium | Fonte de ácidos graxos essenciais | Saúde cardiovascula",
+      "precio_ref": 190.89,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 intel core 5 8",
+      "nombre": "Notebook ASUS Vivobook 15, Intel Core 5, 8 GB, 256 GB SSD, W11 Home, 15.6'' FHD, Cool Silver - X1504MA-BQ300W",
+      "precio_ref": 3299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "notebook vaio fe16 amd ryzen 5 5625u windows",
-      "nombre": "Notebook VAIO FE16 AMD Ryzen 5-5625U Windows 11 Home 32GB RAM 512GB SSD Wi-Fi 6 Tela 16'' IPS WUXGA Antirreflexo - Cinza Graf",
-      "precio_ref": 5349.9,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "frigideira grande em ceramica cabo de madeira fundo",
+      "nombre": "Frigideira Grande Em Cerâmica Cabo De Madeira Fundo Indução Fogão a Gás Elétrico e Indução Saudável Frita Sem Usar Óleo Duráv",
+      "precio_ref": 52.9,
+      "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "mouse sem fio logitech lift vertical com design",
-      "nombre": "Mouse Sem Fio Logitech Lift Vertical com Design Ergonômico para Redução de Tensão Muscular, Cliques Silenciosos, Conexão Blue",
-      "precio_ref": 249.9,
+      "busqueda": "sanremo rodo plastico para pia de 14cm cor",
+      "nombre": "Sanremo - Rodo Plástico para Pia de 14cm, Cor Preta Linha Casar",
+      "precio_ref": 5.23,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "finish powerball detergente para lava loucas em tabletes",
+      "nombre": "Finish Powerball Detergente para Lava Louças em Tabletes 30 unidades",
+      "precio_ref": 41.61,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "sanduicheira eletrica mallory classic grill 2 em 1",
+      "nombre": "Sanduicheira Elétrica Mallory Classic Grill – 2 em 1, Grelha e Assa Pães, Carnes, Peixes e Legumes, Placas Antiaderentes, Luz",
+      "precio_ref": 51.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "filtro refil original de agua para purificador electrolux",
+      "nombre": "Filtro/Refil Original de Água para Purificador Electrolux PE11B/PE11X/PC41B/PC41X/PH41B/PH41X",
+      "precio_ref": 49.66,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "headset gamer com microfone havit h2002d 53mm conector",
+      "nombre": "Headset Gamer com Microfone Havit H2002d, 53mm, Conector 3,5mm | Compatível com Xbox One e PS4",
+      "precio_ref": 129.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "processador amd ryzen 7 9800x3d am5 8 cores",
-      "nombre": "Processador AMD Ryzen 7 9800X3D (AM5/ 8 Cores/ 16 Threads/ 5.2 GHz/ 104Mb Cache/Radeon Graphics/Sem Cooler)",
-      "precio_ref": 2220.0,
+      "busqueda": "hepta world ventilador de coluna resfriamento silencioso design",
+      "nombre": "HEPTA WORLD Ventilador de Coluna, Resfriamento, Silencioso, Design Slim para Casa Escritório (PRETO, 110V, 1011)",
+      "precio_ref": 98.99,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "philips headphone bluetooth tah2300bk 00 com microfone ate",
+      "nombre": "PHILIPS, Headphone Bluetooth, TAH2300BK/00, Com Microfone, Até 55 horas de bateria, Design Over-ear, Dobrável, Preto",
+      "precio_ref": 105.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 8gb ram 128gb 11",
+      "nombre": "Tablet Lenovo Idea Tab, 8GB RAM, 128GB, 11” 2.5K 90Hz, Android 15, Wi-Fi, com Caneta e Capa, ZAFR0856BR",
+      "precio_ref": 1699.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "notebook gamer acer nitro v16 anv16 i31 541m",
-      "nombre": "Notebook Gamer Acer Nitro V16 ANV16-I31-541M Intel® Core™ 5 210H 16GB RAM 512GB SSD RTX5060 Windows 11 Home 16\"",
-      "precio_ref": 7799.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "the legend of zelda ocarina of time nintendo",
+      "nombre": "The Legend of Zelda: Ocarina of Time – Nintendo Switch 2 (Capa Padrão)",
+      "precio_ref": 459.9,
+      "categoria": "Games & Gift Cards",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "notebook dell 15 intel core i5 1334u 13a",
-      "nombre": "Notebook Dell 15, Intel Core i5-1334U 13ª Geração, 8 GB RAM DDR5, 512 GB SSD NVMe, Tela 15.6\" Full HD 120 Hz Antirreflexo, Wi",
-      "precio_ref": 3499.0,
-      "categoria": "Pet Shop",
+      "busqueda": "xiaomi redmi pad 2 8gb 256gb tablet com",
+      "nombre": "XIAOMI Redmi Pad 2 8GB + 256GB Tablet com tela de 11 polegadas 2.5K 90Hz, Mediatek Helio G100 Ultra, Roxo (Carregador incluíd",
+      "precio_ref": 1760.0,
+      "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
-      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 512GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ732",
-      "precio_ref": 2839.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
-    },
-    {
-      "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
-      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 8 GB, 512 GB SSD, KeepOS/Linux, 15.6'' FHD, Cool Silver - M1502YA-NJ611",
-      "precio_ref": 3399.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "samsung galaxy book4 intel coretm i5 1335u windows",
@@ -161,23 +217,31 @@
       "precio_ref": 3459.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "notebook acer aspire go 15 core 5 8gb",
-      "nombre": "Notebook Acer Aspire Go 15 Core 5 8GB SSD 512GB 15.3\" Win 11 AG15-51P-52BH | Processador Intel Core 5 120U, memória de 8GB DD",
-      "precio_ref": 3399.0,
+      "busqueda": "notebook asus vivobook go 15 amd ryzen 5",
+      "nombre": "Notebook ASUS VivoBook Go 15, AMD RYZEN 5 7520U, 8GB, 512GB SSD, KeepOS/Linux, Tela 15,6\" FHD, Mixed Black - E1504FA-NJ732",
+      "precio_ref": 2839.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
-      "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
-      "nombre": "Notebook Acer Nitro V 15 RTX 4050 i5 16GB 512GB SSD Win 11 ANV15-52-51E4",
-      "precio_ref": 6399.0,
+      "busqueda": "monitor lg ultragear tela ips fhd de 27",
+      "nombre": "Monitor LG UltraGear, Tela IPS FHD de 27”, 300Hz, 1ms (GtG), sRGB, NVIDIA G-Sync, AMD FreeSync Premium, HDR10, HDMI, Preto -",
+      "precio_ref": 1349.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo tab 10 1 octa core 4gb",
+      "nombre": "Tablet Lenovo Tab 10.1\" - Octa-Core, 4GB RAM, 64GB, Wi-Fi, Android 14 | Tela WUXGA de 10,1\" com Dolby Atmos e desempenho efic",
+      "precio_ref": 984.87,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "notebook dell 15 intel core i7 1355u 13a",
@@ -185,7 +249,119 @@
       "precio_ref": 7699.0,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "xiaomi redmi pad 2 apenas wifi sem chamadas",
+      "nombre": "Xiaomi Redmi Pad 2 apenas WiFi (sem chamadas ou texto) 27.9 cm 2.5K Octa Core 4 alto-falantes ROM global 9000mAh Bluetooth 5.",
+      "precio_ref": 1714.11,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch 2 mario kart world 3",
+      "nombre": "Bundle Nintendo Switch 2 + Mario Kart World + 3 Meses Online",
+      "precio_ref": 4999.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "controle sem fio playstation dualsensetm midnight black",
+      "nombre": "Controle sem fio PlayStation DualSense™ – Midnight Black",
+      "precio_ref": 420.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "notebook dell 15 intel core i5 1334u 13a",
+      "nombre": "Notebook Dell 15, Intel Core i5-1334U 13ª Geração, 8 GB RAM DDR5, 512 GB SSD NVMe, Tela 15.6\" Full HD 120 Hz Antirreflexo, Wi",
+      "precio_ref": 3499.0,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "ype detergente clear 5l detergente liquido",
+      "nombre": "Ypê Detergente Clear 5L | Detergente Líquido",
+      "precio_ref": 3399.0,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet vaio tl10 8gb 128gb octa core tela",
+      "nombre": "Tablet VAIO TL10 8GB 128GB Octa-Core, Tela 10.4” 2K, 4G WiFi, Câmera 8MP + Selfie 5MP, 7000mAh, Android 13, com Teclado de Co",
+      "precio_ref": 1450.0,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "the legend of zelda tears of the kingdom",
+      "nombre": "The Legend of Zelda: Tears of the Kingdom - Nintendo Switch 2",
+      "precio_ref": 429.9,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 10 4gb ram 128gb",
+      "nombre": "Tablet Positivo Vision TAB 10 4GB RAM 128GB Armazenamento, Octa-Core, 13MP + Selfie 5MP, Bateria 6000mAh, Tela 10.1“ HD, Wifi",
+      "precio_ref": 910.68,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "playstation5 pro",
+      "nombre": "PlayStation®5 Pro",
+      "precio_ref": 7899.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet samsung galaxy tab a11 64gb 4gb ram",
+      "nombre": "Tablet Samsung Galaxy Tab A11, 64GB, 4GB RAM, Tela de 8,7\" | Bateria 5.100mAh, Câmera frontal 5MP, Câmera traseira 8MP, Wi-Fi",
+      "precio_ref": 1070.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "pro controller nintendo switch",
+      "nombre": "Pro Controller Nintendo Switch",
+      "precio_ref": 298.97,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "panela de pressao 4 4l antiaderente ceramico inducao",
+      "nombre": "Panela De Pressão 4,4L Antiaderente Cerâmico Indução - Oikos",
+      "precio_ref": 151.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "notebook asus vivobook 15 amd ryzen 7 8",
+      "nombre": "Notebook ASUS Vivobook 15 AMD Ryzen 7, 8 GB, 512 GB SSD, KeepOS/Linux, 15.6'' FHD, Cool Silver - M1502YA-NJ611",
+      "precio_ref": 3399.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
+      "nombre": "Samsung Tablet Galaxy Tab S10 FE+ WiFi 128GB, 8GB, Tela 13.1\" 90Hz, S Pen e Capa Inclusas (Cinza, 128 GB)",
+      "precio_ref": 2999.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "notebook asus vivobook go 15 intel celeron dual",
@@ -193,7 +369,87 @@
       "precio_ref": 2299.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "aspirador po vertical com fio portatil de mao",
+      "nombre": "Aspirador pó vertical com fio portátil de mão 2 em 1 1450W cabo 6m capacidade 1,6L filtro HEPA Electrolux STK15 220V Cinza Ur",
+      "precio_ref": 161.91,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "air fryer oven philco 11l 8 funcoes visor",
+      "nombre": "Air Fryer Oven Philco 11L 8 Funções Visor 1800W PAF11B 127V",
+      "precio_ref": 39990.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "notebook vaio fe16 amd ryzen 5 5625u windows",
+      "nombre": "Notebook VAIO FE16 AMD Ryzen 5-5625U Windows 11 Home 32GB RAM 512GB SSD Wi-Fi 6 Tela 16'' IPS WUXGA Antirreflexo - Cinza Graf",
+      "precio_ref": 5349.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4299.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
+      "nombre": "Notebook Acer Nitro V 15 RTX 4050 i5 16GB 512GB SSD Win 11 ANV15-52-51E4",
+      "precio_ref": 6399.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "monitor gamer alienware 27 qhd 2560 x 1440",
+      "nombre": "Monitor Gamer Alienware 27\", QHD (2560 x 1440), 280 Hz, IPS, AW2726DL",
+      "precio_ref": 1799.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet tcl a1 plus 128gb 16gb de ram",
+      "nombre": "TABLET TCL A1 PLUS - 128GB; 16GB de RAM*(6GB RAM+10GB Ramboost); Tela 12,2” | Processador SnapDragon OctaCore,16GB RAM Tela d",
+      "precio_ref": 1399.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
+      "nombre": "Apple 2025 iPad (Wi-Fi, 128 GB) - Prateado (A16) | Wi-Fi",
+      "precio_ref": 4089.99,
+      "categoria": "Ofertas Gerais",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "mouse sem fio logitech lift vertical com design",
+      "nombre": "Mouse Sem Fio Logitech Lift Vertical com Design Ergonômico para Redução de Tensão Muscular, Cliques Silenciosos, Conexão Blue",
+      "precio_ref": 249.9,
+      "categoria": "Periféricos & Setup Gamer",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab 11 90hz octa core",
+      "nombre": "Tablet Lenovo Idea Tab 11\" 90Hz - Octa-Core, 4GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Capa",
+      "precio_ref": 1499.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     },
     {
       "busqueda": "notebook dell inspiron i15 i1300 a60p 15 6",
@@ -201,7 +457,31 @@
       "precio_ref": 4799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-27T07:43:51+00:00"
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "tablet positivo vision tab 7 moana processador octa",
+      "nombre": "Tablet Positivo Vision TAB 7 Moana - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android",
+      "precio_ref": 494.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "notebook gamer acer nitro v16 anv16 i31 541m",
+      "nombre": "Notebook Gamer Acer Nitro V16 ANV16-I31-541M Intel® Core™ 5 210H 16GB RAM 512GB SSD RTX5060 Windows 11 Home 16\"",
+      "precio_ref": 7799.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
+    },
+    {
+      "busqueda": "bundle nintendo switch oled super mario bros wonder",
+      "nombre": "Bundle Nintendo Switch OLED + Super Mario Bros Wonder + 3 Meses de Assinatura Nintendo Switch Online",
+      "precio_ref": 1849.0,
+      "categoria": "Games & Gift Cards",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-27T07:49:04+00:00"
     }
   ]
 }

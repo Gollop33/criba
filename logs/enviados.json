@@ -136,16 +136,17 @@
     "precio_min_publicado": 17.0
   },
   "amz-downy-amaciante-concentrado-brisa-de-verao-3l": {
-    "ts": "2026-11-26T02:59:01.528582",
+    "ts": "2026-11-27T07:49:12.602167",
     "canales": {
-      "whatsapp": "2026-11-26T02:59:01.528582"
+      "whatsapp": "2026-11-27T07:49:12.602167"
     },
-    "precio": 39.0,
+    "precio": 33.0,
     "precios_publicados": [
       54.0,
-      39.0
+      39.0,
+      33.0
     ],
-    "precio_min_publicado": 54.0
+    "precio_min_publicado": 39.0
   },
   "amz-marvels-spiderman-2-ps5": {
     "ts": "2026-11-26T16:22:09.579234",
@@ -170,16 +171,6 @@
       3299.0
     ],
     "precio_min_publicado": 3999.0
-  },
-  "amz-sensodyne-limpeza-profunda-escova-de-dente-ex": {
-    "ts": "2026-11-25T07:44:18.980940",
-    "canales": {
-      "whatsapp": "2026-11-25T07:44:18.980940"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      27.0
-    ]
   },
   "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
     "ts": "2026-11-25T08:11:14.624842",
