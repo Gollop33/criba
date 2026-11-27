@@ -246,16 +246,6 @@
     ],
     "precio_min_publicado": 144.0
   },
-  "amz-smartphone-motorola-razr-60256gb-12gb-ram12gb": {
-    "ts": "2026-11-25T19:49:09.245402",
-    "canales": {
-      "whatsapp": "2026-11-25T19:49:09.245402"
-    },
-    "precio": 2899.0,
-    "precios_publicados": [
-      2899.0
-    ]
-  },
   "amz-bebedouro-para-gatos-3l-fonte-gato-inox-comed": {
     "ts": "2026-11-26T20:00:06.020983",
     "canales": {
@@ -267,16 +257,6 @@
       95.0
     ],
     "precio_min_publicado": 179.0
-  },
-  "amz-monitor-portatil-ips-156-full-hd-1080p-ultraf": {
-    "ts": "2026-11-25T19:56:58.270816",
-    "canales": {
-      "whatsapp": "2026-11-25T19:56:58.270816"
-    },
-    "precio": 389.0,
-    "precios_publicados": [
-      389.0
-    ]
   },
   "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
     "ts": "2026-11-25T20:04:08.318103",
@@ -2690,6 +2670,16 @@
     "precio": 32.0,
     "precios_publicados": [
       32.0
+    ]
+  },
+  "amz-limpador-multiuso-veja-pro-line-original-5l": {
+    "ts": "2026-11-27T19:58:50.794452",
+    "canales": {
+      "whatsapp": "2026-11-27T19:58:50.794452"
+    },
+    "precio": 34.0,
+    "precios_publicados": [
+      34.0
     ]
   }
 }
