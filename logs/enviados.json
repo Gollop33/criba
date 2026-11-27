@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-philips-oneblade-qp22051-laminas-de-reposicao": {
-    "ts": "2026-11-25T11:15:36.980688",
-    "canales": {
-      "whatsapp": "2026-11-25T11:15:36.980688"
-    },
-    "precio": 91.0,
-    "precios_publicados": [
-      91.0
-    ]
-  },
   "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
     "ts": "2026-11-25T11:22:58.179420",
     "canales": {
@@ -2723,6 +2713,16 @@
     "precio": 459.0,
     "precios_publicados": [
       459.0
+    ]
+  },
+  "amz-xiaomi-redmi-pad-2-8gb-256gb-tablet-com-tela-": {
+    "ts": "2026-11-27T11:16:07.694942",
+    "canales": {
+      "whatsapp": "2026-11-27T11:16:07.694942"
+    },
+    "precio": 1760.0,
+    "precios_publicados": [
+      1760.0
     ]
   }
 }
