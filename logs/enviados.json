@@ -989,14 +989,16 @@
     ]
   },
   "amz-aspirador-de-po-vertical-2-em-1-electrolux-st": {
-    "ts": "2026-11-26T14:51:03.569294",
+    "ts": "2026-11-27T19:21:51.668136",
     "canales": {
-      "whatsapp": "2026-11-26T14:51:03.569294"
+      "whatsapp": "2026-11-27T19:21:51.668136"
     },
-    "precio": 24750.0,
+    "precio": 164.0,
     "precios_publicados": [
-      24750.0
-    ]
+      24750.0,
+      164.0
+    ],
+    "precio_min_publicado": 24750.0
   },
   "amz-smartphone-motorola-moto-g-max-5g-256gb-8gb-r": {
     "ts": "2026-11-26T14:57:49.542514",
