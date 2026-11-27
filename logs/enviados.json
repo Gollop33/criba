@@ -246,16 +246,6 @@
     ],
     "precio_min_publicado": 144.0
   },
-  "amz-notebook-lenovo-ideapad-slim-3-153-touch-scre": {
-    "ts": "2026-11-25T19:30:16.810848",
-    "canales": {
-      "whatsapp": "2026-11-25T19:30:16.810848"
-    },
-    "precio": 3799.0,
-    "precios_publicados": [
-      3799.0
-    ]
-  },
   "amz-monitor-lg-ultragear-tela-ips-de-25-200hz-1ms": {
     "ts": "2026-11-25T19:32:46.961811",
     "canales": {
@@ -2660,6 +2650,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-sabao-liquido-brilhante-5l": {
+    "ts": "2026-11-27T19:31:36.207227",
+    "canales": {
+      "whatsapp": "2026-11-27T19:31:36.207227"
+    },
+    "precio": 33.0,
+    "precios_publicados": [
+      33.0
     ]
   }
 }
