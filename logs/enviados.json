@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-liquidificador-1400-full-oster-preto-32l-127v": {
-    "ts": "2026-11-25T17:31:20.930623",
-    "canales": {
-      "whatsapp": "2026-11-25T17:31:20.930623"
-    },
-    "precio": 149.0,
-    "precios_publicados": [
-      149.0
-    ]
-  },
   "amz-coleira-seresto-anticarrapatos-e-pulgas-para-": {
     "ts": "2026-11-25T17:40:08.968176",
     "canales": {
@@ -2737,6 +2727,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
+    "ts": "2026-11-27T17:36:50.384705",
+    "canales": {
+      "whatsapp": "2026-11-27T17:36:50.384705"
+    },
+    "precio": 74.0,
+    "precios_publicados": [
+      74.0
     ]
   }
 }
