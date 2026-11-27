@@ -233,26 +233,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-pampers-sabonete-liquido-glicerina-400ml-limp": {
-    "ts": "2026-11-25T17:08:45.835731",
-    "canales": {
-      "whatsapp": "2026-11-25T17:08:45.835731"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
-  "amz-pack-racao-umida-whiskas-sache-carne-ao-molho": {
-    "ts": "2026-11-25T17:13:48.278143",
-    "canales": {
-      "whatsapp": "2026-11-25T17:13:48.278143"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-nexgard-spectra-antipulgas-e-vermifugo-para-c": {
     "ts": "2026-11-25T17:17:28.455795",
     "canales": {
@@ -1328,14 +1308,16 @@
     ]
   },
   "amz-monitor-lg-fhd-home-office-22u403ab-22-1ms-mb": {
-    "ts": "2026-11-26T17:08:51.374723",
+    "ts": "2026-11-27T17:16:05.789434",
     "canales": {
-      "whatsapp": "2026-11-26T17:08:51.374723"
+      "whatsapp": "2026-11-27T17:16:05.789434"
     },
-    "precio": 379.0,
+    "precio": 299.0,
     "precios_publicados": [
-      379.0
-    ]
+      379.0,
+      299.0
+    ],
+    "precio_min_publicado": 379.0
   },
   "amz-sandisk-ssd-portatil-de-1-tb-ate-800-mbs-usbc": {
     "ts": "2026-11-26T17:10:51.488043",
