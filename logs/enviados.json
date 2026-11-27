@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 144.0
   },
-  "amz-tablet-positivo-vision-tab-7-processador-octa": {
-    "ts": "2026-11-25T18:23:35.135816",
-    "canales": {
-      "whatsapp": "2026-11-25T18:23:35.135816"
-    },
-    "precio": 429.0,
-    "precios_publicados": [
-      429.0
-    ]
-  },
   "amz-monitor-gamer-oled-lg-ultragear-27gx704a-27-p": {
     "ts": "2026-11-25T18:32:59.902840",
     "canales": {
@@ -2727,6 +2717,16 @@
     "precio": 144.0,
     "precios_publicados": [
       144.0
+    ]
+  },
+  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
+    "ts": "2026-11-27T18:30:10.355828",
+    "canales": {
+      "whatsapp": "2026-11-27T18:30:10.355828"
+    },
+    "precio": 947.0,
+    "precios_publicados": [
+      947.0
     ]
   }
 }
