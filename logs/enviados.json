@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-sache-aromatizante-england-interbrilho": {
-    "ts": "2026-11-25T11:08:54.134511",
-    "canales": {
-      "whatsapp": "2026-11-25T11:08:54.134511"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0
-    ]
-  },
   "amz-philips-oneblade-qp22051-laminas-de-reposicao": {
     "ts": "2026-11-25T11:15:36.980688",
     "canales": {
@@ -2723,6 +2713,16 @@
     "precio": 1699.0,
     "precios_publicados": [
       1699.0
+    ]
+  },
+  "amz-the-legend-of-zelda-ocarina-of-time-nintendo-": {
+    "ts": "2026-11-27T11:13:56.100251",
+    "canales": {
+      "whatsapp": "2026-11-27T11:13:56.100251"
+    },
+    "precio": 459.0,
+    "precios_publicados": [
+      459.0
     ]
   }
 }
