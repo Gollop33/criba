@@ -258,16 +258,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-stanley-copo-quencher-cream-118l": {
-    "ts": "2026-11-25T20:06:57.991322",
-    "canales": {
-      "whatsapp": "2026-11-25T20:06:57.991322"
-    },
-    "precio": 160.0,
-    "precios_publicados": [
-      160.0
-    ]
-  },
   "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
     "ts": "2026-11-25T20:12:24.567851",
     "canales": {
@@ -2690,6 +2680,16 @@
     "precio": 1090.0,
     "precios_publicados": [
       1090.0
+    ]
+  },
+  "amz-novante-monitor-portatil-14-tela-portatil-fhd": {
+    "ts": "2026-11-27T20:09:15.256568",
+    "canales": {
+      "whatsapp": "2026-11-27T20:09:15.256568"
+    },
+    "precio": 323.0,
+    "precios_publicados": [
+      323.0
     ]
   }
 }
