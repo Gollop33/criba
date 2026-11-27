@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-tapete-higienico-premium-para-caes-petlike-ul": {
-    "ts": "2026-11-25T16:16:40.260990",
-    "canales": {
-      "whatsapp": "2026-11-25T16:16:40.260990"
-    },
-    "precio": 49.0,
-    "precios_publicados": [
-      49.0
-    ]
-  },
   "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
     "ts": "2026-11-25T16:26:03.249821",
     "canales": {
@@ -2785,6 +2775,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
+    "ts": "2026-11-27T16:23:06.289888",
+    "canales": {
+      "whatsapp": "2026-11-27T16:23:06.289888"
+    },
+    "precio": 13.0,
+    "precios_publicados": [
+      13.0
     ]
   }
 }
