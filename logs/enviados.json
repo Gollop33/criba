@@ -258,26 +258,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-monitor-aoc-27-4k-ips-106-ntsc-97-dcip3-speak": {
-    "ts": "2026-11-25T20:12:24.567851",
-    "canales": {
-      "whatsapp": "2026-11-25T20:12:24.567851"
-    },
-    "precio": 999.0,
-    "precios_publicados": [
-      999.0
-    ]
-  },
-  "amz-notebook-predator-helios-neo-16-ia-5070-ultra": {
-    "ts": "2026-11-25T20:15:13.689485",
-    "canales": {
-      "whatsapp": "2026-11-25T20:15:13.689485"
-    },
-    "precio": 11799.0,
-    "precios_publicados": [
-      11799.0
-    ]
-  },
   "amz-monitor-gamer-samsung-odyssey-g5-27-resolucao": {
     "ts": "2026-11-25T20:24:13.226310",
     "canales": {
@@ -2690,6 +2670,16 @@
     "precio": 323.0,
     "precios_publicados": [
       323.0
+    ]
+  },
+  "amz-metroid-ravenous-nintendo-switch-2": {
+    "ts": "2026-11-27T20:19:02.535195",
+    "canales": {
+      "whatsapp": "2026-11-27T20:19:02.535195"
+    },
+    "precio": 387.0,
+    "precios_publicados": [
+      387.0
     ]
   }
 }
