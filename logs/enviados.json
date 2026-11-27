@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 149.0
   },
-  "amz-tablet-samsung-galaxy-tab-a11-64gb-4gb-ram-te": {
-    "ts": "2026-11-25T00:05:05.946421",
-    "canales": {
-      "whatsapp": "2026-11-25T00:05:05.946421"
-    },
-    "precio": 1128.0,
-    "precios_publicados": [
-      1128.0
-    ]
-  },
   "amz-tablet-vaio-tl10-4gb-ram-64gb-4g-teclado-magn": {
     "ts": "2026-11-25T00:09:50.040424",
     "canales": {
@@ -2798,6 +2788,16 @@
     "precio": 68.0,
     "precios_publicados": [
       68.0
+    ]
+  },
+  "amz-god-of-war-hits-playstation-4": {
+    "ts": "2026-11-27T00:08:39.381153",
+    "canales": {
+      "whatsapp": "2026-11-27T00:08:39.381153"
+    },
+    "precio": 59.0,
+    "precios_publicados": [
+      59.0
     ]
   }
 }
