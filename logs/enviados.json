@@ -258,16 +258,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-smartphone-motorola-moto-g17-4g-128gb-4gb-ram": {
-    "ts": "2026-11-25T20:04:08.318103",
-    "canales": {
-      "whatsapp": "2026-11-25T20:04:08.318103"
-    },
-    "precio": 886.0,
-    "precios_publicados": [
-      886.0
-    ]
-  },
   "amz-stanley-copo-quencher-cream-118l": {
     "ts": "2026-11-25T20:06:57.991322",
     "canales": {
@@ -2690,6 +2680,16 @@
     "precio": 149.0,
     "precios_publicados": [
       149.0
+    ]
+  },
+  "amz-monitor-gamer-samsung-odyssey-g5-32-resolucao": {
+    "ts": "2026-11-27T20:06:23.408357",
+    "canales": {
+      "whatsapp": "2026-11-27T20:06:23.408357"
+    },
+    "precio": 1090.0,
+    "precios_publicados": [
+      1090.0
     ]
   }
 }
