@@ -18,19 +18,6 @@
     ],
     "precio_min_publicado": 53.0
   },
-  "amz-adaptador-bluetooth-usb-50-para-pc-e-notebook": {
-    "ts": "2026-11-25T11:43:51.241187",
-    "canales": {
-      "whatsapp": "2026-11-25T11:43:51.241187"
-    },
-    "precio": 10.0,
-    "precios_publicados": [
-      14.0,
-      10.0,
-      10.0
-    ],
-    "precio_min_publicado": 10.0
-  },
   "amz-personal-vip-papel-higienico-folha-dupla-bran": {
     "ts": "2026-11-25T14:50:51.356191",
     "canales": {
@@ -2745,6 +2732,16 @@
     "precio": 984.0,
     "precios_publicados": [
       984.0
+    ]
+  },
+  "amz-notebook-dell-15-intel-core-i71355u-13a-gerac": {
+    "ts": "2026-11-27T11:46:16.662390",
+    "canales": {
+      "whatsapp": "2026-11-27T11:46:16.662390"
+    },
+    "precio": 7699.0,
+    "precios_publicados": [
+      7699.0
     ]
   }
 }
