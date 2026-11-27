@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-27T00:54:02+00:00",
+  "actualizado": "2026-11-27T06:05:05+00:00",
   "total": 372,
   "fuentes": [
     "ML Oficial",
@@ -4691,7 +4691,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T16:00:09+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SUPERPROMO35",
@@ -4704,7 +4705,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T13:15:38+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFERTAS35",
@@ -4717,7 +4719,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T13:15:38+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "DESCONTEI30",
@@ -4730,7 +4733,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T13:15:38+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CUPOMDEHOJE30",
@@ -4743,7 +4747,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T13:15:38+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "VIPTECH",
@@ -4756,7 +4761,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T13:10:39+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "VALEAPENANOMELI30",
@@ -4795,7 +4801,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T13:10:39+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "PROJETOGRANDE",
@@ -4873,7 +4880,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T00:01:13+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "SOHOJE",
@@ -4912,7 +4920,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T21:31:10+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "ACHADINHO",
@@ -4951,7 +4960,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-26T19:08:59+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MODOTECH",
@@ -5005,5 +5015,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-27T03:04:27-03:00"
 }
