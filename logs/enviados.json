@@ -220,26 +220,6 @@
     ],
     "precio_min_publicado": 90.0
   },
-  "amz-sanduicheira-eletrica-cadence-click-127v": {
-    "ts": "2026-11-25T14:37:08.129099",
-    "canales": {
-      "whatsapp": "2026-11-25T14:37:08.129099"
-    },
-    "precio": 75.0,
-    "precios_publicados": [
-      75.0
-    ]
-  },
-  "amz-celular-samsung-galaxy-a17-128gb-4gb-50mp-tel": {
-    "ts": "2026-11-25T14:43:23.303149",
-    "canales": {
-      "whatsapp": "2026-11-25T14:43:23.303149"
-    },
-    "precio": 947.0,
-    "precios_publicados": [
-      947.0
-    ]
-  },
   "amz-apple-iphone-16e-de-128-gb-preto": {
     "ts": "2026-11-25T14:57:35.025944",
     "canales": {
@@ -2786,6 +2766,16 @@
     "precio": 49.0,
     "precios_publicados": [
       49.0
+    ]
+  },
+  "amz-tplink-switch-gigabit-de-mesa-com-5-portas-10": {
+    "ts": "2026-11-27T14:43:46.223057",
+    "canales": {
+      "whatsapp": "2026-11-27T14:43:46.223057"
+    },
+    "precio": 84.0,
+    "precios_publicados": [
+      84.0
     ]
   }
 }
