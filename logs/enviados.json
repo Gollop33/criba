@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-bellacotton-algodao-quadrado-baby-100-algodao": {
-    "ts": "2026-11-25T11:57:21.577502",
-    "canales": {
-      "whatsapp": "2026-11-25T11:57:21.577502"
-    },
-    "precio": 19.0,
-    "precios_publicados": [
-      19.0
-    ]
-  },
   "amz-tramontina-jogo-de-facas-inox-4-pecas-plenus-": {
     "ts": "2026-11-25T12:08:34.587648",
     "canales": {
@@ -2742,6 +2732,16 @@
     "precio": 1714.0,
     "precios_publicados": [
       1714.0
+    ]
+  },
+  "amz-bundle-nintendo-switch-2-mario-kart-world-3-m": {
+    "ts": "2026-11-27T11:57:37.043486",
+    "canales": {
+      "whatsapp": "2026-11-27T11:57:37.043486"
+    },
+    "precio": 4999.0,
+    "precios_publicados": [
+      4999.0
     ]
   }
 }
