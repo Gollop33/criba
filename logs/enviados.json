@@ -245,16 +245,6 @@
     ],
     "precio_min_publicado": 144.0
   },
-  "amz-notebook-asus-vivobook-16-intel-core-i7-8-gb-": {
-    "ts": "2026-11-25T18:19:15.741331",
-    "canales": {
-      "whatsapp": "2026-11-25T18:19:15.741331"
-    },
-    "precio": 3834.0,
-    "precios_publicados": [
-      3834.0
-    ]
-  },
   "amz-tablet-positivo-vision-tab-7-processador-octa": {
     "ts": "2026-11-25T18:23:35.135816",
     "canales": {
@@ -2727,6 +2717,16 @@
     "precio": 161.0,
     "precios_publicados": [
       161.0
+    ]
+  },
+  "amz-stanley-garrafa-termica-quick-flip-rose-quart": {
+    "ts": "2026-11-27T18:23:21.672271",
+    "canales": {
+      "whatsapp": "2026-11-27T18:23:21.672271"
+    },
+    "precio": 144.0,
+    "precios_publicados": [
+      144.0
     ]
   }
 }
