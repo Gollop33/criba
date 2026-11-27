@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-vonixx-sintra-fast-multilimpador-flotador-uni": {
-    "ts": "2026-11-25T11:22:58.179420",
-    "canales": {
-      "whatsapp": "2026-11-25T11:22:58.179420"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
     "ts": "2026-11-25T11:29:20.229228",
     "canales": {
@@ -1356,14 +1346,16 @@
     ]
   },
   "amz-fralda-pampers-confort-sec-tamanho-g-168-unid": {
-    "ts": "2026-11-26T11:22:18.250156",
+    "ts": "2026-11-27T11:22:59.597287",
     "canales": {
-      "whatsapp": "2026-11-26T11:22:18.250156"
+      "whatsapp": "2026-11-27T11:22:59.597287"
     },
-    "precio": 235.0,
+    "precio": 210.0,
     "precios_publicados": [
-      235.0
-    ]
+      235.0,
+      210.0
+    ],
+    "precio_min_publicado": 235.0
   },
   "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
     "ts": "2026-11-26T11:29:34.752785",
