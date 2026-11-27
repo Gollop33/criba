@@ -196,16 +196,6 @@
     ],
     "precio_min_publicado": 61.0
   },
-  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
-    "ts": "2026-11-25T12:37:13.600455",
-    "canales": {
-      "whatsapp": "2026-11-25T12:37:13.600455"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
     "ts": "2026-11-27T00:56:44.175974",
     "canales": {
@@ -2762,6 +2752,16 @@
     "precio": 910.0,
     "precios_publicados": [
       910.0
+    ]
+  },
+  "amz-playstation5-pro": {
+    "ts": "2026-11-27T12:41:17.797623",
+    "canales": {
+      "whatsapp": "2026-11-27T12:41:17.797623"
+    },
+    "precio": 7899.0,
+    "precios_publicados": [
+      7899.0
     ]
   }
 }
