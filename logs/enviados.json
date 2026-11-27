@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-protetor-diario-carefree-todo-dia-80-unidades": {
-    "ts": "2026-11-25T10:22:48.563499",
-    "canales": {
-      "whatsapp": "2026-11-25T10:22:48.563499"
-    },
-    "precio": 16.0,
-    "precios_publicados": [
-      16.0
-    ]
-  },
   "amz-brilhante-limpeza-total-lava-roupas-liquido-3": {
     "ts": "2026-11-25T10:29:54.581634",
     "canales": {
@@ -2711,6 +2701,16 @@
     "precio": 5.0,
     "precios_publicados": [
       5.0
+    ]
+  },
+  "amz-finish-powerball-detergente-para-lava-loucas-": {
+    "ts": "2026-11-27T10:28:54.742483",
+    "canales": {
+      "whatsapp": "2026-11-27T10:28:54.742483"
+    },
+    "precio": 41.0,
+    "precios_publicados": [
+      41.0
     ]
   }
 }
