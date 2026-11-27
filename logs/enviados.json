@@ -207,16 +207,6 @@
     ],
     "precio_min_publicado": 90.0
   },
-  "amz-adaptador-de-energia-usba-de-9w-oficial-amazo": {
-    "ts": "2026-11-25T15:08:27.288656",
-    "canales": {
-      "whatsapp": "2026-11-25T15:08:27.288656"
-    },
-    "precio": 99.0,
-    "precios_publicados": [
-      99.0
-    ]
-  },
   "amz-purina-friskies-racao-umida-carne-ao-molho-pa": {
     "ts": "2026-11-25T15:34:03.721485",
     "canales": {
@@ -2773,6 +2763,16 @@
     "precio": 75.0,
     "precios_publicados": [
       75.0
+    ]
+  },
+  "amz-mouse-sem-fio-logitech-m330-silent-com-clique": {
+    "ts": "2026-11-27T15:09:03.735181",
+    "canales": {
+      "whatsapp": "2026-11-27T15:09:03.735181"
+    },
+    "precio": 69.0,
+    "precios_publicados": [
+      69.0
     ]
   }
 }
