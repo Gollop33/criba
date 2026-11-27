@@ -232,16 +232,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-secret-clinical-desodorante-antitranspirante-": {
-    "ts": "2026-11-25T16:01:46.846250",
-    "canales": {
-      "whatsapp": "2026-11-25T16:01:46.846250"
-    },
-    "precio": 12.0,
-    "precios_publicados": [
-      12.0
-    ]
-  },
   "amz-dreamies-petisco-carne-tentadora-gatos-adulto": {
     "ts": "2026-11-25T16:09:55.175024",
     "canales": {
@@ -2804,6 +2794,16 @@
     "precio": 133.0,
     "precios_publicados": [
       133.0
+    ]
+  },
+  "amz-downy-amaciante-concentrado-liquido-brisa-int": {
+    "ts": "2026-11-27T16:09:17.621454",
+    "canales": {
+      "whatsapp": "2026-11-27T16:09:17.621454"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
