@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 90.0
   },
-  "amz-limpador-de-parabrisa-luxcar-100ml": {
-    "ts": "2026-11-25T14:15:23.468855",
-    "canales": {
-      "whatsapp": "2026-11-25T14:15:23.468855"
-    },
-    "precio": 8.0,
-    "precios_publicados": [
-      8.0
-    ]
-  },
   "amz-smartphone-motorola-moto-g56-5g-256gb-8gb-ram": {
     "ts": "2026-11-25T14:22:58.558027",
     "canales": {
@@ -2776,6 +2766,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
+    "ts": "2026-11-27T14:16:08.778061",
+    "canales": {
+      "whatsapp": "2026-11-27T14:16:08.778061"
+    },
+    "precio": 36.0,
+    "precios_publicados": [
+      36.0
     ]
   }
 }
