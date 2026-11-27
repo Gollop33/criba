@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
-    "ts": "2026-11-25T16:26:03.249821",
-    "canales": {
-      "whatsapp": "2026-11-25T16:26:03.249821"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
     "ts": "2026-11-25T16:30:38.082616",
     "canales": {
@@ -2785,6 +2775,16 @@
     "precio": 13.0,
     "precios_publicados": [
       13.0
+    ]
+  },
+  "amz-tapete-higienico-premium-para-caes-petlike-ul": {
+    "ts": "2026-11-27T16:29:59.415231",
+    "canales": {
+      "whatsapp": "2026-11-27T16:29:59.415231"
+    },
+    "precio": 49.0,
+    "precios_publicados": [
+      49.0
     ]
   }
 }
