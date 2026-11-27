@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-frigideira-grande-em-ceramica-cabo-de-madeira": {
-    "ts": "2026-11-25T04:58:28.886214",
-    "canales": {
-      "whatsapp": "2026-11-25T04:58:28.886214"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-1kg-creatina-pura-dark-lab-refil-monohidratad": {
     "ts": "2026-11-25T05:18:40.967697",
     "canales": {
@@ -2665,6 +2655,16 @@
     "precio": 4442.0,
     "precios_publicados": [
       4442.0
+    ]
+  },
+  "amz-notebook-samsung-galaxy-book4-intel-core-5120": {
+    "ts": "2026-11-27T05:09:01.313773",
+    "canales": {
+      "whatsapp": "2026-11-27T05:09:01.313773"
+    },
+    "precio": 3598.0,
+    "precios_publicados": [
+      3598.0
     ]
   }
 }
