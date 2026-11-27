@@ -173,36 +173,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-chaleira-eletrica-18-litros-inox-desligamento": {
-    "ts": "2026-11-25T09:29:44.259411",
-    "canales": {
-      "whatsapp": "2026-11-25T09:29:44.259411"
-    },
-    "precio": 36.0,
-    "precios_publicados": [
-      36.0
-    ]
-  },
-  "amz-amaciante-de-roupa-concentrado-downy-seiva-de": {
-    "ts": "2026-11-25T09:36:22.980438",
-    "canales": {
-      "whatsapp": "2026-11-25T09:36:22.980438"
-    },
-    "precio": 24.0,
-    "precios_publicados": [
-      24.0
-    ]
-  },
-  "amz-sensodyne-creme-dental-para-sensibilidade-rap": {
-    "ts": "2026-11-25T09:43:39.232618",
-    "canales": {
-      "whatsapp": "2026-11-25T09:43:39.232618"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
   "amz-colgate-luminous-white-carvao-ativado-creme-d": {
     "ts": "2026-11-25T09:50:53.226691",
     "canales": {
@@ -2731,6 +2701,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-frigideira-grande-em-ceramica-cabo-de-madeira": {
+    "ts": "2026-11-27T09:45:04.854078",
+    "canales": {
+      "whatsapp": "2026-11-27T09:45:04.854078"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
