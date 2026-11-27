@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
-    "ts": "2026-11-25T11:29:20.229228",
-    "canales": {
-      "whatsapp": "2026-11-25T11:29:20.229228"
-    },
-    "precio": 52.0,
-    "precios_publicados": [
-      52.0
-    ]
-  },
   "amz-faqueiro-tramontina-buzios-em-aco-inox-com-de": {
     "ts": "2026-11-26T16:15:24.813165",
     "canales": {
@@ -2735,6 +2725,16 @@
     "precio": 2839.0,
     "precios_publicados": [
       2839.0
+    ]
+  },
+  "amz-monitor-lg-ultragear-tela-ips-fhd-de-27-300hz": {
+    "ts": "2026-11-27T11:36:35.256800",
+    "canales": {
+      "whatsapp": "2026-11-27T11:36:35.256800"
+    },
+    "precio": 1349.0,
+    "precios_publicados": [
+      1349.0
     ]
   }
 }
