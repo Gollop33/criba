@@ -198,46 +198,6 @@
     ],
     "precio_min_publicado": 149.0
   },
-  "amz-pro-controller-nintendo-switch": {
-    "ts": "2026-11-25T00:44:52.598808",
-    "canales": {
-      "whatsapp": "2026-11-25T00:44:52.598808"
-    },
-    "precio": 298.0,
-    "precios_publicados": [
-      298.0
-    ]
-  },
-  "amz-notebook-dell-15-intel-core-i51334u-13a-gerac": {
-    "ts": "2026-11-25T00:46:45.833653",
-    "canales": {
-      "whatsapp": "2026-11-25T00:46:45.833653"
-    },
-    "precio": 3499.0,
-    "precios_publicados": [
-      3499.0
-    ]
-  },
-  "amz-notebook-dell-15-intel-core-i71355u-13a-gerac": {
-    "ts": "2026-11-25T00:53:41.367510",
-    "canales": {
-      "whatsapp": "2026-11-25T00:53:41.367510"
-    },
-    "precio": 5699.0,
-    "precios_publicados": [
-      5699.0
-    ]
-  },
-  "amz-bundle-nintendo-switch-oled-super-mario-bros-": {
-    "ts": "2026-11-25T00:55:35.427976",
-    "canales": {
-      "whatsapp": "2026-11-25T00:55:35.427976"
-    },
-    "precio": 1859.0,
-    "precios_publicados": [
-      1859.0
-    ]
-  },
   "amz-bundle-nintendo-switch-2-mario-kart-world-3-m": {
     "ts": "2026-11-25T01:05:16.514543",
     "canales": {
@@ -823,14 +783,16 @@
     ]
   },
   "amz-tplink-ub500-adaptador-bluetooth-para-pc-e-no": {
-    "ts": "2026-11-25T12:43:58.063069",
+    "ts": "2026-11-27T00:56:44.175974",
     "canales": {
-      "whatsapp": "2026-11-25T12:43:58.063069"
+      "whatsapp": "2026-11-27T00:56:44.175974"
     },
-    "precio": 59.0,
+    "precio": 52.0,
     "precios_publicados": [
-      59.0
-    ]
+      59.0,
+      52.0
+    ],
+    "precio_min_publicado": 59.0
   },
   "amz-esponja-esfrelux-com-formato-protetor-de-unha": {
     "ts": "2026-11-25T12:50:41.902316",
