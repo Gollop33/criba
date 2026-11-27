@@ -208,16 +208,6 @@
     ],
     "precio_min_publicado": 59.0
   },
-  "amz-wap-aspirador-de-po-automotivo-car-12v2-porta": {
-    "ts": "2026-11-25T13:08:38.204091",
-    "canales": {
-      "whatsapp": "2026-11-25T13:08:38.204091"
-    },
-    "precio": 76.0,
-    "precios_publicados": [
-      76.0
-    ]
-  },
   "amz-cetaphil-locao-hidratante": {
     "ts": "2026-11-25T13:15:46.670327",
     "canales": {
@@ -1377,14 +1367,16 @@
     "precio_min_publicado": 231.0
   },
   "amz-oralb-pasta-de-dente-3d-white-brilliant-fresh": {
-    "ts": "2026-11-26T13:08:57.034134",
+    "ts": "2026-11-27T13:14:06.568610",
     "canales": {
-      "whatsapp": "2026-11-26T13:08:57.034134"
+      "whatsapp": "2026-11-27T13:14:06.568610"
     },
-    "precio": 2500.0,
+    "precio": 10.0,
     "precios_publicados": [
-      2500.0
-    ]
+      2500.0,
+      10.0
+    ],
+    "precio_min_publicado": 2500.0
   },
   "amz-gabinete-gamer-redragon-wideload-pro-ca604bpr": {
     "ts": "2026-11-26T13:15:37.354471",
