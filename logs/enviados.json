@@ -171,16 +171,6 @@
     ],
     "precio_min_publicado": 3999.0
   },
-  "amz-1kg-creatina-pura-dark-lab-refil-monohidratad": {
-    "ts": "2026-11-25T05:18:40.967697",
-    "canales": {
-      "whatsapp": "2026-11-25T05:18:40.967697"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "amz-lavaroupas-liquido-omo-ciclo-rapido-acao-anti": {
     "ts": "2026-11-25T05:48:37.071598",
     "canales": {
@@ -2665,6 +2655,16 @@
     "precio": 3598.0,
     "precios_publicados": [
       3598.0
+    ]
+  },
+  "amz-placa-de-video-asrock-rx-7600-challenger-pro-": {
+    "ts": "2026-11-27T05:34:58.501239",
+    "canales": {
+      "whatsapp": "2026-11-27T05:34:58.501239"
+    },
+    "precio": 2149.0,
+    "precios_publicados": [
+      2149.0
     ]
   }
 }
