@@ -197,16 +197,6 @@
     ],
     "precio_min_publicado": 43.0
   },
-  "amz-clear-shampoo-men-anticaspa-ice-cool-menthol-": {
-    "ts": "2026-11-25T10:36:51.726238",
-    "canales": {
-      "whatsapp": "2026-11-25T10:36:51.726238"
-    },
-    "precio": 21.0,
-    "precios_publicados": [
-      21.0
-    ]
-  },
   "amz-ventoinha-rise-mode-galaxy-led-120mm-branco-r": {
     "ts": "2026-11-25T10:44:05.351917",
     "canales": {
@@ -1354,14 +1344,16 @@
     ]
   },
   "amz-mondial-ventilador-de-mesa-30cm-110v-brancoaz": {
-    "ts": "2026-11-26T10:37:15.677361",
+    "ts": "2026-11-27T10:38:24.628883",
     "canales": {
-      "whatsapp": "2026-11-26T10:37:15.677361"
+      "whatsapp": "2026-11-27T10:38:24.628883"
     },
-    "precio": 110.0,
+    "precio": 89.0,
     "precios_publicados": [
-      110.0
-    ]
+      110.0,
+      89.0
+    ],
+    "precio_min_publicado": 110.0
   },
   "amz-pasta-termica-snowdog-husky-1g-128wmk-alto-de": {
     "ts": "2026-11-26T10:43:42.636703",
