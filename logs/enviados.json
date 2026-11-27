@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 30.0
   },
-  "amz-whiskas-racao-carne-gatos-adultos-castrados-2": {
-    "ts": "2026-11-25T16:30:38.082616",
-    "canales": {
-      "whatsapp": "2026-11-25T16:30:38.082616"
-    },
-    "precio": 26.0,
-    "precios_publicados": [
-      26.0
-    ]
-  },
   "amz-philips-pilha-alcalina-do-tipo-aa-e-aaa-c10-a": {
     "ts": "2026-11-25T16:37:47.396776",
     "canales": {
@@ -2785,6 +2775,16 @@
     "precio": 49.0,
     "precios_publicados": [
       49.0
+    ]
+  },
+  "amz-pack-racao-umida-pedigree-sache-carne-ao-molh": {
+    "ts": "2026-11-27T16:36:56.330702",
+    "canales": {
+      "whatsapp": "2026-11-27T16:36:56.330702"
+    },
+    "precio": 39.0,
+    "precios_publicados": [
+      39.0
     ]
   }
 }
