@@ -185,16 +185,6 @@
     ],
     "precio_min_publicado": 149.0
   },
-  "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
-    "ts": "2026-11-25T01:59:04.361648",
-    "canales": {
-      "whatsapp": "2026-11-25T01:59:04.361648"
-    },
-    "precio": 2059.0,
-    "precios_publicados": [
-      2059.0
-    ]
-  },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-2": {
     "ts": "2026-11-27T01:14:31.003765",
     "canales": {
@@ -2771,6 +2761,16 @@
     "precio": 99.0,
     "precios_publicados": [
       99.0
+    ]
+  },
+  "amz-notebook-dell-15-intel-core-3-100u-13a-geraca": {
+    "ts": "2026-11-27T02:08:24.246226",
+    "canales": {
+      "whatsapp": "2026-11-27T02:08:24.246226"
+    },
+    "precio": 3199.0,
+    "precios_publicados": [
+      3199.0
     ]
   }
 }
