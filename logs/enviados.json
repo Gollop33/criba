@@ -220,16 +220,6 @@
     ],
     "precio_min_publicado": 90.0
   },
-  "amz-celular-samsung-galaxy-s25-ultra-5g-256gb-12g": {
-    "ts": "2026-11-25T14:30:03.746768",
-    "canales": {
-      "whatsapp": "2026-11-25T14:30:03.746768"
-    },
-    "precio": 5331.0,
-    "precios_publicados": [
-      5331.0
-    ]
-  },
   "amz-sanduicheira-eletrica-cadence-click-127v": {
     "ts": "2026-11-25T14:37:08.129099",
     "canales": {
@@ -2786,6 +2776,16 @@
     "precio": 90.0,
     "precios_publicados": [
       90.0
+    ]
+  },
+  "amz-garrafa-de-tinta-original-epson-ecotank-t544-": {
+    "ts": "2026-11-27T14:36:50.671421",
+    "canales": {
+      "whatsapp": "2026-11-27T14:36:50.671421"
+    },
+    "precio": 49.0,
+    "precios_publicados": [
+      49.0
     ]
   }
 }
