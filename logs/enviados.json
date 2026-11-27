@@ -198,16 +198,6 @@
     ],
     "precio_min_publicado": 149.0
   },
-  "amz-pro-controller-nintendo-switch-2": {
-    "ts": "2026-11-25T01:11:33.442577",
-    "canales": {
-      "whatsapp": "2026-11-25T01:11:33.442577"
-    },
-    "precio": 479.0,
-    "precios_publicados": [
-      479.0
-    ]
-  },
   "amz-playstation5-slim-digital-825gb-pacote-astro-": {
     "ts": "2026-11-25T01:26:45.156127",
     "canales": {
@@ -279,14 +269,16 @@
     ]
   },
   "amz-notebook-asus-vivobook-15-intel-core-5-8-gb-2": {
-    "ts": "2026-11-25T02:01:25.740924",
+    "ts": "2026-11-27T01:14:31.003765",
     "canales": {
-      "whatsapp": "2026-11-25T02:01:25.740924"
+      "whatsapp": "2026-11-27T01:14:31.003765"
     },
-    "precio": 3999.0,
+    "precio": 3299.0,
     "precios_publicados": [
-      3999.0
-    ]
+      3999.0,
+      3299.0
+    ],
+    "precio_min_publicado": 3999.0
   },
   "amz-protetor-solar-parabrisa-quebra-sol-portatil-": {
     "ts": "2026-11-25T02:15:12.289476",
