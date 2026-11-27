@@ -18,19 +18,6 @@
     ],
     "precio_min_publicado": 22.0
   },
-  "amz-dove-oleo-de-banho-hidratacao-intensa-e-limpe": {
-    "ts": "2026-11-25T01:48:30.600995",
-    "canales": {
-      "whatsapp": "2026-11-25T01:48:30.600995"
-    },
-    "precio": 27.0,
-    "precios_publicados": [
-      2990.0,
-      29.0,
-      27.0
-    ],
-    "precio_min_publicado": 29.0
-  },
   "amz-galaxy-tab-s10-lite-128gb-tela-109-wifi-cinza": {
     "ts": "2026-11-25T02:57:45.741559",
     "canales": {
@@ -197,26 +184,6 @@
       133.0
     ],
     "precio_min_publicado": 149.0
-  },
-  "amz-tablet-lenovo-idea-tab-8gb-ram-128gb-11-25k-9": {
-    "ts": "2026-11-25T01:50:57.801174",
-    "canales": {
-      "whatsapp": "2026-11-25T01:50:57.801174"
-    },
-    "precio": 1819.0,
-    "precios_publicados": [
-      1819.0
-    ]
-  },
-  "amz-notebook-samsung-galaxy-book-go-windows-11-ho": {
-    "ts": "2026-11-25T01:54:27.343527",
-    "canales": {
-      "whatsapp": "2026-11-25T01:54:27.343527"
-    },
-    "precio": 2136.0,
-    "precios_publicados": [
-      2136.0
-    ]
   },
   "amz-tablet-lenovo-idea-tab-plus-121-25k-90hz-octa": {
     "ts": "2026-11-25T01:59:04.361648",
@@ -2774,6 +2741,16 @@
     "precio": 140.0,
     "precios_publicados": [
       140.0
+    ]
+  },
+  "amz-teclado-sem-fio-logitech-pebble-keys-2-k380s-": {
+    "ts": "2026-11-27T01:54:50.650007",
+    "canales": {
+      "whatsapp": "2026-11-27T01:54:50.650007"
+    },
+    "precio": 149.0,
+    "precios_publicados": [
+      149.0
     ]
   }
 }
