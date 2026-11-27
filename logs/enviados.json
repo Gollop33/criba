@@ -246,16 +246,6 @@
     ],
     "precio_min_publicado": 144.0
   },
-  "amz-monitor-lg-ultragear-tela-ips-de-25-200hz-1ms": {
-    "ts": "2026-11-25T19:32:46.961811",
-    "canales": {
-      "whatsapp": "2026-11-25T19:32:46.961811"
-    },
-    "precio": 749.0,
-    "precios_publicados": [
-      749.0
-    ]
-  },
   "amz-monitor-brx-20-led-75hz-hdmi-vga-preto": {
     "ts": "2026-11-25T19:42:44.240723",
     "canales": {
@@ -2660,6 +2650,16 @@
     "precio": 33.0,
     "precios_publicados": [
       33.0
+    ]
+  },
+  "amz-fio-dental-reach-essencial-100m-menta-1-unida": {
+    "ts": "2026-11-27T19:37:11.988748",
+    "canales": {
+      "whatsapp": "2026-11-27T19:37:11.988748"
+    },
+    "precio": 11.0,
+    "precios_publicados": [
+      11.0
     ]
   }
 }
