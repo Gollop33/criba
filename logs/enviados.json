@@ -207,16 +207,6 @@
     ],
     "precio_min_publicado": 90.0
   },
-  "amz-purina-friskies-racao-umida-carne-ao-molho-pa": {
-    "ts": "2026-11-25T15:34:03.721485",
-    "canales": {
-      "whatsapp": "2026-11-25T15:34:03.721485"
-    },
-    "precio": 39.0,
-    "precios_publicados": [
-      39.0
-    ]
-  },
   "amz-viva-verde-areia-higienica-biodegradavel-para": {
     "ts": "2026-11-26T15:44:03.721501",
     "canales": {
@@ -2803,6 +2793,16 @@
     "precio": 599.0,
     "precios_publicados": [
       599.0
+    ]
+  },
+  "amz-notebook-gamer-acer-nitro-v16-anv16i31541m-in": {
+    "ts": "2026-11-27T15:37:05.172026",
+    "canales": {
+      "whatsapp": "2026-11-27T15:37:05.172026"
+    },
+    "precio": 7799.0,
+    "precios_publicados": [
+      7799.0
     ]
   }
 }
