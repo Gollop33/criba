@@ -274,16 +274,6 @@
     ],
     "precio_min_publicado": 235.0
   },
-  "amz-scalibor-25g-coleira-antiparasitaria-contra-m": {
-    "ts": "2026-11-26T11:44:01.111268",
-    "canales": {
-      "whatsapp": "2026-11-26T11:44:01.111268"
-    },
-    "precio": 46.0,
-    "precios_publicados": [
-      46.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m240-com-conexao-bluet": {
     "ts": "2026-11-26T11:50:38.052796",
     "canales": {
@@ -2924,6 +2914,16 @@
     "precio": 143.0,
     "precios_publicados": [
       143.0
+    ]
+  },
+  "amz-combo-de-teclado-e-mouse-sem-fio-logitech-mk2": {
+    "ts": "2026-11-28T11:48:06.815468",
+    "canales": {
+      "whatsapp": "2026-11-28T11:48:06.815468"
+    },
+    "precio": 109.0,
+    "precios_publicados": [
+      109.0
     ]
   }
 }
