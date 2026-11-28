@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-tapete-higienico-descartavel-para-caes-blue-p": {
-    "ts": "2026-11-26T07:31:21.599816",
-    "canales": {
-      "whatsapp": "2026-11-26T07:31:21.599816"
-    },
-    "precio": 62.0,
-    "precios_publicados": [
-      62.0
-    ]
-  },
   "amz-mochila-lenovo-casual-b210-preta-para-noteboo": {
     "ts": "2026-11-26T08:06:17.614699",
     "canales": {
@@ -2889,6 +2879,16 @@
     "precio": 26.0,
     "precios_publicados": [
       26.0
+    ]
+  },
+  "amz-danos-vorazes-oleo-reparador-50ml-lola-cosmet": {
+    "ts": "2026-11-28T07:37:10.282713",
+    "canales": {
+      "whatsapp": "2026-11-28T07:37:10.282713"
+    },
+    "precio": 16.0,
+    "precios_publicados": [
+      16.0
     ]
   }
 }
