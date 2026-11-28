@@ -260,26 +260,6 @@
     ],
     "precio_min_publicado": 89.0
   },
-  "amz-colgate-tripla-acao-menta-original-creme-dent": {
-    "ts": "2026-11-26T10:50:58.587154",
-    "canales": {
-      "whatsapp": "2026-11-26T10:50:58.587154"
-    },
-    "precio": 22.0,
-    "precios_publicados": [
-      22.0
-    ]
-  },
-  "amz-aspirador-de-po-portatil-sem-fio-120w-alta-po": {
-    "ts": "2026-11-26T10:57:40.624413",
-    "canales": {
-      "whatsapp": "2026-11-26T10:57:40.624413"
-    },
-    "precio": 120.0,
-    "precios_publicados": [
-      120.0
-    ]
-  },
   "amz-kit-lavagem-completa-shampoo-cera-tok-final-i": {
     "ts": "2026-11-26T11:09:20.562872",
     "canales": {
@@ -2932,6 +2912,16 @@
     "precio": 41.0,
     "precios_publicados": [
       41.0
+    ]
+  },
+  "amz-nivea-hidratante-labial-original-care-48g-hid": {
+    "ts": "2026-11-28T10:57:42.771893",
+    "canales": {
+      "whatsapp": "2026-11-28T10:57:42.771893"
+    },
+    "precio": 11.0,
+    "precios_publicados": [
+      11.0
     ]
   }
 }
