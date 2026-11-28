@@ -274,16 +274,6 @@
     ],
     "precio_min_publicado": 235.0
   },
-  "amz-nivea-sabonete-liquido-intimo-suave-250ml-lim": {
-    "ts": "2026-11-26T11:29:34.752785",
-    "canales": {
-      "whatsapp": "2026-11-26T11:29:34.752785"
-    },
-    "precio": 15.0,
-    "precios_publicados": [
-      15.0
-    ]
-  },
   "amz-growth-supplements-creatina-500g-pouch-treino": {
     "ts": "2026-11-26T11:36:38.456261",
     "canales": {
@@ -2924,6 +2914,16 @@
     "precio": 58.0,
     "precios_publicados": [
       58.0
+    ]
+  },
+  "amz-pneu-pretinho-15l": {
+    "ts": "2026-11-28T11:34:05.648239",
+    "canales": {
+      "whatsapp": "2026-11-28T11:34:05.648239"
+    },
+    "precio": 17.0,
+    "precios_publicados": [
+      17.0
     ]
   }
 }
