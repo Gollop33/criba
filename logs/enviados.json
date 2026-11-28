@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-pack-nestle-purina-friskies-racao-umida-para-": {
-    "ts": "2026-11-26T06:00:26.256813",
-    "canales": {
-      "whatsapp": "2026-11-26T06:00:26.256813"
-    },
-    "precio": 33.0,
-    "precios_publicados": [
-      33.0
-    ]
-  },
   "amz-limpador-liquido-de-pneus-e-borrachas-vonixx-": {
     "ts": "2026-11-26T06:32:45.330556",
     "canales": {
@@ -2887,6 +2877,16 @@
     "precio": 2.0,
     "precios_publicados": [
       2.0
+    ]
+  },
+  "amz-bosch-palheta-dianteira-aerofit-af18-limpador": {
+    "ts": "2026-11-28T06:08:10.889125",
+    "canales": {
+      "whatsapp": "2026-11-28T06:08:10.889125"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
