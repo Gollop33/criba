@@ -235,16 +235,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-loreal-professionnel-inforcer-shampoo-fortifi": {
-    "ts": "2026-11-26T09:36:51.043023",
-    "canales": {
-      "whatsapp": "2026-11-26T09:36:51.043023"
-    },
-    "precio": 78.0,
-    "precios_publicados": [
-      78.0
-    ]
-  },
   "amz-mouse-sem-fio-logitech-m170-com-design-ambide": {
     "ts": "2026-11-26T09:43:56.456112",
     "canales": {
@@ -2921,6 +2911,16 @@
     "precio": 62.0,
     "precios_publicados": [
       62.0
+    ]
+  },
+  "amz-vonixx-shampoo-automotivo-concentrado-1400-vf": {
+    "ts": "2026-11-28T09:37:04.927067",
+    "canales": {
+      "whatsapp": "2026-11-28T09:37:04.927067"
+    },
+    "precio": 52.0,
+    "precios_publicados": [
+      52.0
     ]
   }
 }
