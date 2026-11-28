@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
-    "ts": "2026-11-26T06:59:24.697560",
-    "canales": {
-      "whatsapp": "2026-11-26T06:59:24.697560"
-    },
-    "precio": 45.0,
-    "precios_publicados": [
-      45.0
-    ]
-  },
   "amz-tapete-higienico-descartavel-para-caes-blue-p": {
     "ts": "2026-11-26T07:31:21.599816",
     "canales": {
@@ -1700,14 +1690,16 @@
     ]
   },
   "amz-smartphone-motorola-moto-g17-4g-256gb-4gb-ram": {
-    "ts": "2026-11-27T06:57:55.258906",
+    "ts": "2026-11-28T07:23:05.336335",
     "canales": {
-      "whatsapp": "2026-11-27T06:57:55.258906"
+      "whatsapp": "2026-11-28T07:23:05.336335"
     },
-    "precio": 1332.0,
+    "precio": 1159.0,
     "precios_publicados": [
-      1332.0
-    ]
+      1332.0,
+      1159.0
+    ],
+    "precio_min_publicado": 1332.0
   },
   "amz-notebook-acer-aspire-go-15-ag1571p777t-intel-": {
     "ts": "2026-11-27T07:09:01.036108",
