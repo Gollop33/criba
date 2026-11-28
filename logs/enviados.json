@@ -233,16 +233,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-esponja-scotch-brite-nao-risca-c3-azul-nao-ri": {
-    "ts": "2026-11-26T08:43:43.103376",
-    "canales": {
-      "whatsapp": "2026-11-26T08:43:43.103376"
-    },
-    "precio": 6.0,
-    "precios_publicados": [
-      6.0
-    ]
-  },
   "amz-mascara-de-tratamento-elseve-loreal-paris-col": {
     "ts": "2026-11-26T08:50:57.228358",
     "canales": {
@@ -2929,6 +2919,16 @@
     "precio": 29.0,
     "precios_publicados": [
       29.0
+    ]
+  },
+  "amz-nivea-sun-protetor-solar-facial-toque-seco-an": {
+    "ts": "2026-11-28T08:44:02.794683",
+    "canales": {
+      "whatsapp": "2026-11-28T08:44:02.794683"
+    },
+    "precio": 24.0,
+    "precios_publicados": [
+      24.0
     ]
   }
 }
