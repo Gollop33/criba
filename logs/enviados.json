@@ -247,16 +247,6 @@
     ],
     "precio_min_publicado": 52.0
   },
-  "amz-monitor-aoc-21-22b30hm23-fhd-120hz-1ms-preto": {
-    "ts": "2026-11-26T10:15:44.031031",
-    "canales": {
-      "whatsapp": "2026-11-26T10:15:44.031031"
-    },
-    "precio": 379.0,
-    "precios_publicados": [
-      379.0
-    ]
-  },
   "amz-lg-ultragear-monitor-gamer-24-ips-144hz-nativ": {
     "ts": "2026-11-26T10:22:44.860246",
     "canales": {
@@ -2931,6 +2921,16 @@
     "precio": 53.0,
     "precios_publicados": [
       53.0
+    ]
+  },
+  "amz-nivea-hidratante-labial-amora-shine-48g-hidra": {
+    "ts": "2026-11-28T10:16:01.185884",
+    "canales": {
+      "whatsapp": "2026-11-28T10:16:01.185884"
+    },
+    "precio": 12.0,
+    "precios_publicados": [
+      12.0
     ]
   }
 }
