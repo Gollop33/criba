@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-28T09:02:28+00:00",
+  "actualizado": "2026-11-28T09:08:17+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,15 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
-      "precio_ref": 22.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "oral b pasta de dente 3d white brilliant",
@@ -25,7 +17,7 @@
       "precio_ref": 10.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "brilhante limpeza total sabao em po 2 2kg",
@@ -33,15 +25,15 @@
       "precio_ref": 16.82,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
-      "busqueda": "purina friskies racao umida carne ao molho para",
-      "nombre": "Purina Friskies Ração Úmida Carne ao Molho Para Gatos Adultos - Leve 15 Pague 12",
-      "precio_ref": 31.9,
+      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
+      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
+      "precio_ref": 22.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "pinho sol desinfetante original 3 8l",
@@ -49,7 +41,7 @@
       "precio_ref": 28.41,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "flash limp mop giratorio fit balde 8 litros",
@@ -57,7 +49,15 @@
       "precio_ref": 39.59,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "purina friskies racao umida carne ao molho para",
+      "nombre": "Purina Friskies Ração Úmida Carne ao Molho Para Gatos Adultos - Leve 15 Pague 12",
+      "precio_ref": 31.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
@@ -65,7 +65,7 @@
       "precio_ref": 65.9,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "mondial ventilador de mesa 30cm 110v branco azul",
@@ -73,7 +73,7 @@
       "precio_ref": 85.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "vitafor omegafor plus 240 capsulas pureza e qualidade",
@@ -81,7 +81,7 @@
       "precio_ref": 190.89,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "placa de video asrock radeon rx 7600 challenger",
@@ -89,7 +89,7 @@
       "precio_ref": 2447.69,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "papel higienico neve toque das ondas folha tripla",
@@ -97,7 +97,7 @@
       "precio_ref": 1890.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "monitor gamer lg ultragear 24 ips full hd",
@@ -105,7 +105,7 @@
       "precio_ref": 699.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g17 4g 256gb 4gb ram",
@@ -113,7 +113,7 @@
       "precio_ref": 1159.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "aspirador de po vertical 2 em 1 electrolux",
@@ -121,15 +121,7 @@
       "precio_ref": 164.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "nivea locao hidratante firmador q10 vitamina c 400ml",
-      "nombre": "NIVEA Loção Hidratante Firmador Q10 + Vitamina C 400ml, Hidratação Intensa 48h, Pele Firme e Elasticidade, Corporal, Pele Sec",
-      "precio_ref": 22.9,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "dove oleo serum bifasico bond intense repair 110",
@@ -137,15 +129,7 @@
       "precio_ref": 19.0,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
-      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Efeito teia, mais volume e densidade aos fios, ideal pa",
-      "precio_ref": 22.99,
-      "categoria": "Suplementos & Saúde",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "esponja scotch brite nao risca c 3 azul",
@@ -153,31 +137,7 @@
       "precio_ref": 6.9,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "cetaphil creme hidratante",
-      "nombre": "Cetaphil Creme Hidratante",
-      "precio_ref": 65.4,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "vonixx shampoo automotivo concentrado 1 400 v floc",
-      "nombre": "vonixx Shampoo Automotivo Concentrado 1:400 V-floc 3 Litros",
-      "precio_ref": 52.86,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "tapete higienico descartavel para caes blue premium 30",
-      "nombre": "Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades",
-      "precio_ref": 62.9,
-      "categoria": "Pet Shop",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "dove sabonete em barra branco 90g 8 unidades",
@@ -185,31 +145,15 @@
       "precio_ref": 32.85,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
-      "busqueda": "wap aspirador automotivo portatil 12v 420ml solido filto",
-      "nombre": "WAP Aspirador Automotivo Portátil 12V, 420ML Sólido, Filto Hepa, cabo de 3,7m CAR 12V3",
-      "precio_ref": 69.9,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "cetaphil locao hidratante",
-      "nombre": "Cetaphil Loção Hidratante",
-      "precio_ref": 65.4,
+      "busqueda": "vonixx shampoo automotivo concentrado 1 400 v floc",
+      "nombre": "vonixx Shampoo Automotivo Concentrado 1:400 V-floc 3 Litros",
+      "precio_ref": 52.86,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
-    },
-    {
-      "busqueda": "kit shampoo v floc cera tok final revitalizador",
-      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
-      "precio_ref": 94.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "omo sabao liquido lavagem perfeita 5l tampa pode",
@@ -217,7 +161,63 @@
       "precio_ref": 53.53,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "mascara de tratamento elseve l oreal paris colageno",
+      "nombre": "Máscara de Tratamento Elseve L'Oréal Paris Colágeno Encorpador 300g | Efeito teia, mais volume e densidade aos fios, ideal pa",
+      "precio_ref": 22.99,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "cetaphil locao hidratante",
+      "nombre": "Cetaphil Loção Hidratante",
+      "precio_ref": 65.4,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "tapete higienico descartavel para caes blue premium 30",
+      "nombre": "Tapete Higiênico Descartável para Cães Blue Premium, 30 Unidades",
+      "precio_ref": 62.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "cetaphil creme hidratante",
+      "nombre": "Cetaphil Creme Hidratante",
+      "precio_ref": 65.4,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "kit shampoo v floc cera tok final revitalizador",
+      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
+      "precio_ref": 94.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "nivea locao hidratante firmador q10 vitamina c 400ml",
+      "nombre": "NIVEA Loção Hidratante Firmador Q10 + Vitamina C 400ml, Hidratação Intensa 48h, Pele Firme e Elasticidade, Corporal, Pele Sec",
+      "precio_ref": 22.9,
+      "categoria": "Suplementos & Saúde",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
+    },
+    {
+      "busqueda": "wap aspirador automotivo portatil 12v 420ml solido filto",
+      "nombre": "WAP Aspirador Automotivo Portátil 12V, 420ML Sólido, Filto Hepa, cabo de 3,7m CAR 12V3",
+      "precio_ref": 69.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "smartphone motorola moto g56 5g 256gb 8gb ram",
@@ -225,7 +225,7 @@
       "precio_ref": 1859.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "notebook vaio fe16 amd ryzen 5 5625u windows",
@@ -233,7 +233,7 @@
       "precio_ref": 5349.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "air fryer oven philco 12l 1800w 4 em",
@@ -241,7 +241,7 @@
       "precio_ref": 377.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -249,7 +249,7 @@
       "precio_ref": 2599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "shampoo invigo nutri enrich wella professionals 1000 ml",
@@ -257,7 +257,7 @@
       "precio_ref": 111.14,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
@@ -265,7 +265,7 @@
       "precio_ref": 5182.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tcl tablet tab 10l gen 3 64gb rom",
@@ -273,7 +273,7 @@
       "precio_ref": 789.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "secret clinical desodorante antitranspirante em gel lavanda invisivel",
@@ -281,7 +281,7 @@
       "precio_ref": 4275.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
@@ -289,7 +289,7 @@
       "precio_ref": 303.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "notebook dell inspiron i15 i1300 a60p 15 6",
@@ -297,7 +297,7 @@
       "precio_ref": 4799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
@@ -305,7 +305,7 @@
       "precio_ref": 3190.0,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "lysoform original desinfetante liquido limpeza casa 5l",
@@ -313,7 +313,7 @@
       "precio_ref": 6960.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
@@ -321,7 +321,7 @@
       "precio_ref": 177900.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
@@ -329,7 +329,7 @@
       "precio_ref": 1019.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet huawei matepad se 11 4 128gb tela",
@@ -337,7 +337,7 @@
       "precio_ref": 890.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "clear shampoo men anticaspa ice cool menthol 400ml",
@@ -345,7 +345,7 @@
       "precio_ref": 3450.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "notebook acer aspire go 15 core 5 8gb",
@@ -353,7 +353,7 @@
       "precio_ref": 3399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet tcl a1 plus 128gb 16gb de ram",
@@ -361,7 +361,7 @@
       "precio_ref": 1399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "smartphone motorola edge 70 fusion 5g 256gb 8gb",
@@ -369,7 +369,7 @@
       "precio_ref": 2221.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "samsung notebook galaxy book4 windows 11 home intel",
@@ -377,7 +377,7 @@
       "precio_ref": 4498.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "notebook samsung galaxy book go windows 11 home",
@@ -385,7 +385,7 @@
       "precio_ref": 1999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
@@ -393,7 +393,7 @@
       "precio_ref": 1730.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
@@ -401,7 +401,7 @@
       "precio_ref": 177.67,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "notebook asus vivobook 15 intel core i5 16",
@@ -409,7 +409,7 @@
       "precio_ref": 3999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s26 ultra 5g 256gb 12gb",
@@ -417,7 +417,7 @@
       "precio_ref": 6998.76,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab pro processador snapdragon 8s",
@@ -425,7 +425,7 @@
       "precio_ref": 3149.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "apple iphone 18 pro max de 256 gb",
@@ -433,7 +433,7 @@
       "precio_ref": 11666.66,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet infantil positivo vision tab 7 minions octa",
@@ -441,7 +441,7 @@
       "precio_ref": 469.41,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "galaxy tab s10 256 gb tela 12 4",
@@ -449,7 +449,7 @@
       "precio_ref": 4299.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet com caneta e teclado xixaomiro s8 android",
@@ -457,7 +457,7 @@
       "precio_ref": 766.99,
       "categoria": "Periféricos & Setup Gamer",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "philips oneblade barbeador e aparador eletrico raspa apara",
@@ -465,7 +465,7 @@
       "precio_ref": 120.6,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab 11 90hz octa core",
@@ -473,7 +473,7 @@
       "precio_ref": 1499.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     },
     {
       "busqueda": "apple iphone 17e de 256 gb branco",
@@ -481,7 +481,7 @@
       "precio_ref": 4554.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T09:02:28+00:00"
+      "monitorizado_desde": "2026-11-28T09:08:17+00:00"
     }
   ]
 }
