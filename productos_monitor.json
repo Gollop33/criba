@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-11-28T10:43:33+00:00",
+  "actualizado": "2026-11-28T10:50:17+00:00",
   "total": 60,
   "nota": "Productos que se están publicando. bot_precios.py los vigila en ML y Shopee para poder comparar precios.",
   "productos": [
@@ -9,23 +9,7 @@
       "precio_ref": null,
       "categoria": "Cupons",
       "tienda_origen": "Mercado Livre",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
-      "nombre": "NexGard Spectra Antipulgas e Vermífugo para Cães de 7,6 a 15 kg - 1 Tablete Mastigável",
-      "precio_ref": 65.9,
-      "categoria": "Ofertas Gerais",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "flash limp mop giratorio fit balde 8 litros",
-      "nombre": "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010 - ABS Cinza",
-      "precio_ref": 39.59,
-      "categoria": "Casa & Limpeza",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "oral b pasta de dente 3d white brilliant",
@@ -33,15 +17,15 @@
       "precio_ref": 10.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
-      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
-      "precio_ref": 22.9,
-      "categoria": "Pet Shop",
+      "busqueda": "flash limp mop giratorio fit balde 8 litros",
+      "nombre": "Flash Limp - Mop Giratório Fit, Balde 8 litros - MOP5010 - ABS Cinza",
+      "precio_ref": 39.59,
+      "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "purina friskies racao umida carne ao molho para",
@@ -49,7 +33,15 @@
       "precio_ref": 31.9,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "whiskas racao carne gatos adultos castrados 2 7",
+      "nombre": "WHISKAS Ração Carne Gatos Adultos Castrados 2,7 kg",
+      "precio_ref": 22.9,
+      "categoria": "Pet Shop",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "pinho sol desinfetante original 3 8l",
@@ -57,7 +49,7 @@
       "precio_ref": 28.41,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "brilhante limpeza total sabao em po 2 2kg",
@@ -65,7 +57,7 @@
       "precio_ref": 16.82,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "mondial ventilador de mesa 30cm 110v branco azul",
@@ -73,23 +65,15 @@
       "precio_ref": 85.0,
       "categoria": "Cozinha & Eletro",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "smartphone motorola moto g17 4g 256gb 4gb ram",
-      "nombre": "Smartphone Motorola Moto G17 4G - 256GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela FHD+ 60hz, bateria 5200 mAh",
-      "precio_ref": 1159.0,
-      "categoria": "Hardware & Componentes",
+      "busqueda": "nexgard spectra antipulgas e vermifugo para caes de",
+      "nombre": "NexGard Spectra Antipulgas e Vermífugo para Cães de 7,6 a 15 kg - 1 Tablete Mastigável",
+      "precio_ref": 65.9,
+      "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "placa de video asrock radeon rx 7600 challenger",
-      "nombre": "Placa de Vídeo ASRock Radeon RX 7600 Challenger OC, 8GB, GDDR6, 128-Bit, FSR, Ray Tracing, Preto",
-      "precio_ref": 2447.69,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "papel higienico neve toque das ondas folha tripla",
@@ -97,15 +81,15 @@
       "precio_ref": 1890.0,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "aspirador de po vertical 2 em 1 electrolux",
-      "nombre": "Aspirador de Pó Vertical 2 em 1 Electrolux STK15, 127V, 1,6L | Com fio, portátil de mão, potente, cabo de 6m e capacidade de",
-      "precio_ref": 164.9,
-      "categoria": "Casa & Limpeza",
+      "busqueda": "smartphone motorola moto g17 4g 256gb 4gb ram",
+      "nombre": "Smartphone Motorola Moto G17 4G - 256GB 4GB RAM + 8GB RAM Boost camera 50MP Sony Lytia 600, tela FHD+ 60hz, bateria 5200 mAh",
+      "precio_ref": 1159.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "vitafor omegafor plus 240 capsulas pureza e qualidade",
@@ -113,7 +97,23 @@
       "precio_ref": 190.89,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "placa de video asrock radeon rx 7600 challenger",
+      "nombre": "Placa de Vídeo ASRock Radeon RX 7600 Challenger OC, 8GB, GDDR6, 128-Bit, FSR, Ray Tracing, Preto",
+      "precio_ref": 2447.69,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "aspirador de po vertical 2 em 1 electrolux",
+      "nombre": "Aspirador de Pó Vertical 2 em 1 Electrolux STK15, 127V, 1,6L | Com fio, portátil de mão, potente, cabo de 6m e capacidade de",
+      "precio_ref": 164.9,
+      "categoria": "Casa & Limpeza",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "nivea hidratante labial original care 4 8g hidratacao",
@@ -121,15 +121,7 @@
       "precio_ref": 11.99,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "cetaphil creme hidratante",
-      "nombre": "Cetaphil Creme Hidratante",
-      "precio_ref": 65.4,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "mascara de tratamento elseve l oreal paris colageno",
@@ -137,31 +129,7 @@
       "precio_ref": 22.99,
       "categoria": "Suplementos & Saúde",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "kit shampoo v floc cera tok final revitalizador",
-      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
-      "precio_ref": 94.92,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "shampoo invigo nutri enrich wella professionals 1000 ml",
-      "nombre": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
-      "precio_ref": 111.14,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "philips oneblade barbeador e aparador eletrico raspa apara",
-      "nombre": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna | Barbeia e apara sem irritar a pele | Uso a Seco ou",
-      "precio_ref": 120.6,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "finish power powder advanced detergente para lava loucas",
@@ -169,7 +137,39 @@
       "precio_ref": 89.99,
       "categoria": "Casa & Limpeza",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "shampoo invigo nutri enrich wella professionals 1000 ml",
+      "nombre": "Shampoo Invigo Nutri Enrich Wella Professionals 1000 ml",
+      "precio_ref": 111.14,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "philips oneblade barbeador e aparador eletrico raspa apara",
+      "nombre": "Philips OneBlade Barbeador e Aparador Elétrico: Raspa, Apara e Contorna | Barbeia e apara sem irritar a pele | Uso a Seco ou",
+      "precio_ref": 120.6,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "kit shampoo v floc cera tok final revitalizador",
+      "nombre": "KIT SHAMPOO V-FLOC CERA TOK FINAL REVITALIZADOR INTENSE 240ML VONIXX PRETINHO VINTEX",
+      "precio_ref": 94.92,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "cetaphil creme hidratante",
+      "nombre": "Cetaphil Creme Hidratante",
+      "precio_ref": 65.4,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "kiko milano 3d hydra lipgloss gloss hidratante para",
@@ -177,7 +177,7 @@
       "precio_ref": 99.9,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "coleira antipulgas e carrapatos para caes acima de",
@@ -185,87 +185,15 @@
       "precio_ref": 127.48,
       "categoria": "Pet Shop",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "stanley copo quencher rose quartz 887ml",
-      "nombre": "Stanley Copo Quencher Rose Quartz 887ml",
-      "precio_ref": 143.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "air fryer oven philco 12l 1800w 4 em",
-      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
-      "precio_ref": 377.0,
-      "categoria": "Cozinha & Eletro",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "apple iphone 17 pro 1 tb laranja cosmico",
-      "nombre": "Apple iPhone 17 Pro (1 TB) - Laranja Cósmico",
-      "precio_ref": 9799.0,
+      "busqueda": "apple iphone 18 pro max de 256 gb",
+      "nombre": "Apple iPhone 18 Pro Max de 256 GB — Preto",
+      "precio_ref": 11666.66,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
-      "nombre": "Monitor Gamer Curvo Samsung Odyssey 34’’, Ultra WQHD, 165Hz, 1ms, tela ultrawide, HDMI, Display Port, Freesync Premium, preto",
-      "precio_ref": 177900.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "tablet lenovo idea tab plus 12 1 2",
-      "nombre": "Tablet Lenovo Idea Tab Plus 12.1\" 2.5K 90Hz - Octa-Core, 8GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Case",
-      "precio_ref": 2059.9,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "eucerin protetor solar facial oil control fps60 50ml",
-      "nombre": "EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível",
-      "precio_ref": 5989.0,
-      "categoria": "Beleza & Higiene",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
-      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
-      "precio_ref": 5182.0,
-      "categoria": "Hardware & Componentes",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
-      "nombre": "Monitor AOC 21\" 22B30HM23 FHD, 120Hz, 1MS, Preto",
-      "precio_ref": 359.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
-      "nombre": "Monitor Gamer Samsung 24\" FHD, 120 Hz, HDMI, Preto, S3",
-      "precio_ref": 509.0,
-      "categoria": "Monitores & Displays",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
-    },
-    {
-      "busqueda": "galaxy tab s10 256 gb tela 12 4",
-      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
-      "precio_ref": 4299.0,
-      "categoria": "Smartphones & Celulares",
-      "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "celular samsung galaxy s26 ultra 5g 256gb 12gb",
@@ -273,7 +201,71 @@
       "precio_ref": 6998.76,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "monitor gamer curvo samsung odyssey 34 ultra wqhd",
+      "nombre": "Monitor Gamer Curvo Samsung Odyssey 34’’, Ultra WQHD, 165Hz, 1ms, tela ultrawide, HDMI, Display Port, Freesync Premium, preto",
+      "precio_ref": 177900.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "tablet lenovo idea tab plus 12 1 2",
+      "nombre": "Tablet Lenovo Idea Tab Plus 12.1\" 2.5K 90Hz - Octa-Core, 8GB RAM, 128GB, Wi-Fi 5, Android 15, Caneta e Case",
+      "precio_ref": 2059.9,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "eucerin protetor solar facial oil control fps60 50ml",
+      "nombre": "EUCERIN Protetor Solar Facial Oil Control FPS60 50ml, Antioleosidade, Rosto, Proteção UVA, UVB e Luz Visível",
+      "precio_ref": 5989.0,
+      "categoria": "Beleza & Higiene",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "celular samsung galaxy s25 ultra 5g 256gb 12gb",
+      "nombre": "Celular Samsung Galaxy S25 Ultra 5G, 256GB, 12GB RAM, Câmera Quádrupla de 200+50+10+50, Tela Grande de 6.9\", Titânio Preto",
+      "precio_ref": 5182.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "monitor aoc 21 22b30hm23 fhd 120hz 1ms preto",
+      "nombre": "Monitor AOC 21\" 22B30HM23 FHD, 120Hz, 1MS, Preto",
+      "precio_ref": 359.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "monitor gamer samsung 24 fhd 120 hz hdmi",
+      "nombre": "Monitor Gamer Samsung 24\" FHD, 120 Hz, HDMI, Preto, S3",
+      "precio_ref": 509.0,
+      "categoria": "Monitores & Displays",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "galaxy tab s10 256 gb tela 12 4",
+      "nombre": "Galaxy Tab S10+, 256 GB, Tela 12.4\", Wifi, Cinza, Câmera Frontal 12 MP",
+      "precio_ref": 4299.0,
+      "categoria": "Smartphones & Celulares",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "air fryer oven philco 12l 1800w 4 em",
+      "nombre": "Air Fryer Oven Philco 12L 1800W 4 em 1 PFR2200P 127V",
+      "precio_ref": 377.0,
+      "categoria": "Cozinha & Eletro",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab octa core 8gb ramb",
@@ -281,7 +273,7 @@
       "precio_ref": 189900.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "apple iphone 17e de 256 gb branco",
@@ -289,7 +281,7 @@
       "precio_ref": 4554.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "acer notebook gamer nitro v16 core 7 240h",
@@ -297,23 +289,23 @@
       "precio_ref": 7948.99,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "clear shampoo men anticaspa ice cool menthol 400ml",
-      "nombre": "Clear Shampoo Men Anticaspa Ice Cool Menthol 400Ml | Anticaspa mentolado refrescante",
-      "precio_ref": 3450.0,
+      "busqueda": "fralda pampers confort sec tamanho xg 148 unidades",
+      "nombre": "Fralda Pampers Confort Sec Tamanho XG 148 Unidades",
+      "precio_ref": 259.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "fralda pampers premium care pants tamanho g facil",
-      "nombre": "Fralda Pampers Premium Care Pants Tamanho G, Fácil de Vestir, 112 Unidades",
-      "precio_ref": 168.92,
-      "categoria": "Beleza & Higiene",
+      "busqueda": "tablet positivo vision tab 7 processador octa core",
+      "nombre": "Tablet Positivo Vision TAB 7 - Processador Octa-Core 3GB RAM 64GB Armazenamento, Tela 7” IPS, Bateria 3100mAh, Android 14 Go,",
+      "precio_ref": 429.0,
+      "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tablet positivo vision tab 7 moana processador octa",
@@ -321,7 +313,7 @@
       "precio_ref": 494.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 fe wifi 128gb",
@@ -329,7 +321,7 @@
       "precio_ref": 2999.0,
       "categoria": "Smartphones & Celulares",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tcl tablet tab 10l gen 3 64gb rom",
@@ -337,7 +329,7 @@
       "precio_ref": 789.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "samsung notebook galaxy book4 windows 11 home intel",
@@ -345,7 +337,7 @@
       "precio_ref": 4498.99,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "secret clinical desodorante antitranspirante em gel lavanda invisivel",
@@ -353,7 +345,7 @@
       "precio_ref": 4275.0,
       "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "notebook acer aspire 5 ryzen 5 5500u 16gb",
@@ -361,7 +353,7 @@
       "precio_ref": 3764.69,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tablet infantil positivo vision tab 7 minions octa",
@@ -369,7 +361,7 @@
       "precio_ref": 469.41,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "unionsine disco rigido externo portatil ultrafino de 500",
@@ -377,7 +369,7 @@
       "precio_ref": 211.64,
       "categoria": "Notebooks & PCs",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "mini rack montado intelbras 3u 370mm mrm 337",
@@ -385,15 +377,15 @@
       "precio_ref": 303.0,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
-      "busqueda": "liquidificador 1400 full oster preto 3 2l 127v",
-      "nombre": "Liquidificador 1400 Full Oster Preto 3,2L - 127V",
-      "precio_ref": 177.67,
-      "categoria": "Cozinha & Eletro",
+      "busqueda": "fralda pampers premium care pants tamanho g facil",
+      "nombre": "Fralda Pampers Premium Care Pants Tamanho G, Fácil de Vestir, 112 Unidades",
+      "precio_ref": 168.92,
+      "categoria": "Beleza & Higiene",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tablet tcl a1 plus 128gb 16gb de ram",
@@ -401,7 +393,7 @@
       "precio_ref": 1399.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "l oreal paris elseve oleo extraordinario finalizador capilar",
@@ -409,7 +401,7 @@
       "precio_ref": 3190.0,
       "categoria": "Automotivo",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "apple 2025 ipad wi fi 128 gb prateado",
@@ -417,7 +409,7 @@
       "precio_ref": 4089.99,
       "categoria": "Ofertas Gerais",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tablet lenovo idea tab pro processador snapdragon 8s",
@@ -425,7 +417,7 @@
       "precio_ref": 3149.0,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "notebook dell inspiron i15 i1300 a60p 15 6",
@@ -433,7 +425,7 @@
       "precio_ref": 4799.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s11 wifi 256gb 12gb",
@@ -441,7 +433,7 @@
       "precio_ref": 5154.9,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "tablet vaio tl10 4gb ram 64gb 4g teclado",
@@ -449,7 +441,7 @@
       "precio_ref": 1019.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "samsung tablet galaxy tab s10 lite wifi 256gb",
@@ -457,7 +449,7 @@
       "precio_ref": 2599.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "notebook samsung galaxy book go windows 11 home",
@@ -465,7 +457,7 @@
       "precio_ref": 1999.0,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "notebook acer nitro v 15 rtx 4050 i5",
@@ -473,7 +465,7 @@
       "precio_ref": 8350.32,
       "categoria": "Hardware & Componentes",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     },
     {
       "busqueda": "monitor gamer aoc agon quad 27 qhd 180hz",
@@ -481,7 +473,15 @@
       "precio_ref": 989.07,
       "categoria": "Monitores & Displays",
       "tienda_origen": "Amazon",
-      "monitorizado_desde": "2026-11-28T10:43:33+00:00"
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
+    },
+    {
+      "busqueda": "tablet xiaomi redmi pad 2 8gb de ram",
+      "nombre": "Tablet Xiaomi Redmi Pad 2 8gb de ram 256gb de armazenamento 11 polegadas cor verde (min green)",
+      "precio_ref": 1730.0,
+      "categoria": "Hardware & Componentes",
+      "tienda_origen": "Amazon",
+      "monitorizado_desde": "2026-11-28T10:50:17+00:00"
     }
   ]
 }
