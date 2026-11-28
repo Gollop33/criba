@@ -234,16 +234,6 @@
     ],
     "precio_min_publicado": 39.0
   },
-  "amz-smart-lampada-wifi-positivo-casa-inteligente-": {
-    "ts": "2026-11-26T09:08:53.754086",
-    "canales": {
-      "whatsapp": "2026-11-26T09:08:53.754086"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-nivea-hidratante-labial-amora-shine-48g-hidra": {
     "ts": "2026-11-26T09:22:25.036993",
     "canales": {
@@ -2930,6 +2920,16 @@
     "precio": 19.0,
     "precios_publicados": [
       19.0
+    ]
+  },
+  "amz-esponja-scotch-brite-nao-risca-c3-azul-nao-ri": {
+    "ts": "2026-11-28T09:15:34.156224",
+    "canales": {
+      "whatsapp": "2026-11-28T09:15:34.156224"
+    },
+    "precio": 6.0,
+    "precios_publicados": [
+      6.0
     ]
   }
 }
