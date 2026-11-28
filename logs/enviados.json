@@ -274,16 +274,6 @@
     ],
     "precio_min_publicado": 235.0
   },
-  "amz-smartphone-motorola-moto-g77-5g-256gb-8gb-ram": {
-    "ts": "2026-11-26T11:57:54.786512",
-    "canales": {
-      "whatsapp": "2026-11-26T11:57:54.786512"
-    },
-    "precio": 1619.0,
-    "precios_publicados": [
-      1619.0
-    ]
-  },
   "amz-bepantol-baby-pomada-assadura-bebe-hipoalerge": {
     "ts": "2026-11-26T12:08:39.424816",
     "canales": {
@@ -2934,6 +2924,16 @@
     "precio": 113.0,
     "precios_publicados": [
       113.0
+    ]
+  },
+  "amz-combo-teclado-e-mouse-sem-fio-dell-km3322w-18": {
+    "ts": "2026-11-28T12:04:54.024520",
+    "canales": {
+      "whatsapp": "2026-11-28T12:04:54.024520"
+    },
+    "precio": 125.0,
+    "precios_publicados": [
+      125.0
     ]
   }
 }
