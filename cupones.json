@@ -1,9 +1,9 @@
 {
-  "actualizado": "2026-11-28T02:15:12+00:00",
+  "actualizado": "2026-11-28T07:25:15+00:00",
   "total": 405,
   "fuentes": [
-    "ML Oficial",
-    "Telegram ML Afiliados"
+    "Telegram ML Afiliados",
+    "ML Oficial"
   ],
   "cupones": [
     {
@@ -4839,7 +4839,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-28T00:01:27+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "AMOMELI25",
@@ -4998,7 +4999,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T03:00:54+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CORREBLACK",
@@ -5037,7 +5039,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T01:00:34+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CHEGOUOFF",
@@ -5076,7 +5079,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T19:04:11+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "BLACKMELI",
@@ -5102,7 +5106,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T17:00:25+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "TECHONOMELI",
@@ -5154,7 +5159,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:07:37+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CORREPROAPP30",
@@ -5167,7 +5173,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:07:37+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "CORREPROMELI30",
@@ -5180,7 +5187,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:07:37+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELIOFF35",
@@ -5193,7 +5201,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:07:37+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELIVIP35",
@@ -5206,7 +5215,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:07:37+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "PRECINHOBLACK",
@@ -5219,7 +5229,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:02:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "HORABLACK",
@@ -5245,7 +5256,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:02:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "TEMOFERTA",
@@ -5258,7 +5270,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T13:02:19+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "PROMOHOJEPRACASA",
@@ -5362,7 +5375,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-28T02:00:36+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MAISBLACK",
@@ -5375,7 +5389,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-28T01:00:22+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "BLACKHOJE",
@@ -5388,7 +5403,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-28T00:01:27+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "MELINABLACK",
@@ -5401,7 +5417,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T23:00:17+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "OFERTABLACK",
@@ -5414,7 +5431,8 @@
       "fonte": "Telegram ML Afiliados",
       "detectado_em": "2026-11-27T22:01:49+00:00",
       "vigente": true,
-      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
+      "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]",
+      "estado": "ativo"
     },
     {
       "codigo": "BLACKVIP",
@@ -5442,5 +5460,6 @@
       "vigente": true,
       "url_afiliado": "https://www.mercadolivre.com.br/cupons#D[A:ja20250119201346]"
     }
-  ]
+  ],
+  "revisado_em": "2026-11-28T04:24:38-03:00"
 }
