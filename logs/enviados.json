@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-limpador-liquido-de-pneus-e-borrachas-vonixx-": {
-    "ts": "2026-11-26T06:32:45.330556",
-    "canales": {
-      "whatsapp": "2026-11-26T06:32:45.330556"
-    },
-    "precio": 25.0,
-    "precios_publicados": [
-      25.0
-    ]
-  },
   "amz-fralda-pampers-primeiros-dias-tamanho-rn-ate-": {
     "ts": "2026-11-26T06:59:24.697560",
     "canales": {
@@ -2887,6 +2877,16 @@
     "precio": 24.0,
     "precios_publicados": [
       24.0
+    ]
+  },
+  "amz-ugreen-adaptador-bluetooth-usb-para-pc-dongle": {
+    "ts": "2026-11-28T06:43:37.803982",
+    "canales": {
+      "whatsapp": "2026-11-28T06:43:37.803982"
+    },
+    "precio": 43.0,
+    "precios_publicados": [
+      43.0
     ]
   }
 }
