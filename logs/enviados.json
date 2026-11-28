@@ -221,16 +221,6 @@
     ],
     "precio_min_publicado": 179.0
   },
-  "amz-mochila-lenovo-casual-b210-preta-para-noteboo": {
-    "ts": "2026-11-26T08:06:17.614699",
-    "canales": {
-      "whatsapp": "2026-11-26T08:06:17.614699"
-    },
-    "precio": 69.0,
-    "precios_publicados": [
-      69.0
-    ]
-  },
   "amz-lysoform-original-desinfetante-liquido-limpez": {
     "ts": "2026-11-26T08:15:37.959374",
     "canales": {
@@ -2919,6 +2909,16 @@
     "precio": 39.0,
     "precios_publicados": [
       39.0
+    ]
+  },
+  "amz-limpador-liquido-de-pneus-e-borrachas-vonixx-": {
+    "ts": "2026-11-28T08:08:20.181646",
+    "canales": {
+      "whatsapp": "2026-11-28T08:08:20.181646"
+    },
+    "precio": 26.0,
+    "precios_publicados": [
+      26.0
     ]
   }
 }
